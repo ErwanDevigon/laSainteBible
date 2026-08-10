@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0e0e10" />
+    <meta
+      name="description"
+      content="La Sainte Bible — Messe du jour et lecture contemplative des quatre Évangiles."
+    />
+    <title>Messe du jour — La Sainte Bible</title>
+    <style>
+      html { background: #0e0e10; color: #f3efe6; }
+    </style>
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/lecteur.css" />
+    <link rel="stylesheet" href="css/messe.css" />
+  </head>
+  <body class="messe-page">
+    <header class="site-header">
+      <a class="brand" href="index.html"><strong>La Sainte Bible</strong></a>
+      <a class="nav-center" href="lire/index.html">Nouveau Testament</a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="index.html" aria-current="page">Messe du jour</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <section class="messe-panel" aria-label="Lectures du jour">
+        <header class="messe-hero">
+          <p class="messe-kicker">Messe du jour</p>
+          <p class="messe-date" data-messe-date></p>
+          <p class="messe-liturgical" data-messe-title hidden></p>
+        </header>
+
+        <p class="status-msg" data-messe-status hidden></p>
+
+        <div class="readings" data-readings>
+          <div class="skeleton" aria-hidden="true">
+            <div class="skeleton-line w-40"></div>
+            <div class="skeleton-line w-80"></div>
+            <div class="skeleton-line w-60"></div>
+            <div class="skeleton-line"></div>
+          </div>
+        </div>
+
+        <nav class="secondary-links" aria-label="Les quatre Évangiles">
+          <div data-gospel-pickers></div>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      Traduction de Louis Segond · 1910 · lectures liturgiques via AELF le cas échéant
+    </footer>
+
+    <script type="module" src="js/messe.js"></script>
+  </body>
+</html>

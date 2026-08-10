@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-09",
+  "liturgical_title": "Dix-neuvième dimanche du temps ordinaire (exemple)",
+  "source": "sample",
+  "readings": [
+    {
+      "type": "premiere",
+      "label": "Première lecture",
+      "ref_display": "1 R 19, 4-8",
+      "ref": null,
+      "expandable": false,
+      "excerpt": "Élie marcha quarante jours et quarante nuits jusqu'à la montagne de Dieu, l'Horeb."
+    },
+    {
+      "type": "psaume",
+      "label": "Psaume",
+      "ref_display": "Ps 33 (34), 2-3, 4-5, 6-7, 8-9",
+      "ref": null,
+      "expandable": false,
+      "excerpt": "Goûtez et voyez comme est bon le Seigneur !"
+    },
+    {
+      "type": "lecture",
+      "label": "Deuxième lecture",
+      "ref_display": "Ep 4, 30 – 5, 2",
+      "ref": null,
+      "expandable": false,
+      "excerpt": "Christ vous a aimés : vivez dans l'amour, comme lui."
+    },
+    {
+      "type": "evangile",
+      "label": "Évangile",
+      "ref_display": "Jn 6, 41-51",
+      "ref": {
+        "bookId": "jean",
+        "chapter": 6,
+        "verseStart": 41,
+        "verseEnd": 51
+      },
+      "expandable": true,
+      "excerpt": ""
+    }
+  ]
+}

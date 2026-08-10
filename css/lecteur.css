@@ -1,0 +1,357 @@
+.lecteur-page .site-main {
+  width: min(100% - 2 * var(--space-5), calc(var(--measure) + 4rem));
+  padding-top: var(--space-5);
+}
+
+.book-header {
+  margin-bottom: var(--space-7);
+  text-align: center;
+}
+
+.book-header h1 {
+  font-family: var(--font-body);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: var(--space-2);
+}
+
+.book-meta {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.book-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.book-nav a {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-mute);
+  text-decoration: none;
+  padding: var(--space-2) var(--space-3);
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.book-nav a[aria-current="page"] {
+  color: var(--text-soft);
+  border-color: var(--border-strong);
+  background: var(--bg-elevated);
+}
+
+.book-nav a:hover {
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.book-body {
+  max-width: var(--measure);
+  margin-inline: auto;
+}
+
+.chapter {
+  margin-bottom: var(--space-5);
+  scroll-margin-top: calc(var(--header-h) + var(--space-4));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  padding: var(--space-5);
+  transition: border-color var(--dur-fast) var(--ease);
+}
+
+.chapter-label {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+  user-select: none;
+}
+
+.chapter-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  transform: translateY(-0.15em);
+}
+
+.chapter-num {
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  text-transform: none;
+  font-size: var(--text-sm);
+}
+
+.verse {
+  display: grid;
+  grid-template-columns: 2.1rem minmax(0, 1fr);
+  column-gap: var(--space-2);
+  margin: 0 0 0.55em;
+  scroll-margin-top: calc(var(--header-h) + var(--space-3));
+}
+
+.verse-num {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  line-height: var(--leading-body);
+  color: var(--text-faint);
+  text-align: right;
+  user-select: none;
+  padding-top: 0.28em;
+  font-variant-numeric: tabular-nums;
+}
+
+.verse-text {
+  color: var(--text);
+}
+
+.verse[data-highlight="true"] .verse-text {
+  background: var(--accent-soft);
+  border-radius: 0.2em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.book-end {
+  margin-top: var(--space-8);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-mute);
+}
+
+.book-end a {
+  text-decoration: none;
+  margin: 0 var(--space-2);
+}
+
+/* Choose-book page */
+.choose-grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: 1fr;
+  max-width: 36rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 560px) {
+  .choose-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.choose-card {
+  display: block;
+  padding: var(--space-5);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  text-decoration: none;
+  color: var(--text-soft);
+  transition: border-color var(--dur-fast) var(--ease),
+    background var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+
+.choose-card:hover {
+  border-color: var(--border-strong);
+  background: var(--bg-soft);
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+.choose-card h2 {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  font-weight: 400;
+  margin-bottom: var(--space-2);
+}
+
+.choose-card p {
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-mute);
+}
+
+.choose-card {
+  cursor: default;
+}
+
+.choose-card:hover {
+  transform: none;
+}
+
+.chapter-select-label {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.chapter-select-caption {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.chapter-select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  min-height: 44px;
+  padding: 0.55rem 2rem 0.55rem 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: var(--bg)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23c4b59a' d='M1 1l5 5 5-5'/%3E%3C/svg%3E")
+    no-repeat right 0.75rem center;
+  color: var(--text-soft);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.chapter-select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.choose-all-link {
+  display: inline-block;
+  margin-top: var(--space-3);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-mute);
+  text-decoration: none;
+}
+
+.choose-all-link:hover {
+  color: var(--text);
+}
+
+
+/* --- Gospel name → chapter menu (sober) --- */
+.gospel-pick {
+  position: relative;
+  text-align: center;
+}
+
+.gospel-pick-name {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-soft);
+  padding: var(--space-2) var(--space-3);
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: border-color var(--dur-fast) var(--ease),
+    background var(--dur-fast) var(--ease),
+    color var(--dur-fast) var(--ease);
+}
+
+.gospel-pick-name:hover,
+.gospel-pick[data-open="true"] .gospel-pick-name {
+  color: var(--text);
+  border-color: var(--border-strong);
+  background: var(--bg-elevated);
+}
+
+.chapter-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 0.35rem);
+  z-index: 30;
+  min-width: 11rem;
+  max-width: min(18rem, 80vw);
+  max-height: min(16rem, 50vh);
+  overflow: auto;
+  padding: var(--space-2);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+.chapter-menu-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.2rem;
+}
+
+.chapter-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.25rem;
+  padding: 0.25rem;
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--text-mute);
+  text-decoration: none;
+  border-radius: 0.3rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.chapter-menu-item:hover {
+  color: var(--text);
+  background: var(--bg-soft);
+}
+
+/* Cards mode on NT index */
+.choose-card.gospel-pick {
+  padding: var(--space-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+}
+
+.choose-card.gospel-pick .gospel-pick-name {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  border-radius: var(--radius-sm);
+}
+
+.choose-card.gospel-pick .chapter-menu {
+  position: static;
+  transform: none;
+  margin-top: var(--space-3);
+  max-height: 14rem;
+  box-shadow: none;
+}
+
+.choose-grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: 1fr;
+  max-width: 36rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 560px) {
+  .choose-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

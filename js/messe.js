@@ -1,0 +1,159 @@
+import { loadLectures, formatDateFr, todayParis } from "./aelf.js";
+import { MaskDilatation } from "./expand.js";
+import { isGospel } from "./data-loader.js";
+import { mountGospelPickers } from "./nav-books.js";
+
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text != null) node.textContent = text;
+  return node;
+}
+
+function typeLabel(type, fallback) {
+  const map = {
+    evangile: "Évangile",
+    psaume: "Psaume",
+    premiere: "Première lecture",
+    lecture: "Lecture",
+  };
+  return map[type] || fallback || "Lecture";
+}
+
+async function init() {
+  const listEl = document.querySelector("[data-readings]");
+  const titleEl = document.querySelector("[data-messe-title]");
+  const dateEl = document.querySelector("[data-messe-date]");
+  const statusEl = document.querySelector("[data-messe-status]");
+  const picksEl = document.querySelector("[data-gospel-pickers]");
+
+  if (!listEl) return;
+
+  if (picksEl) {
+    mountGospelPickers(picksEl, { basePath: "lire/", mode: "compact" });
+  }
+
+  /** @type {MaskDilatation[]} */
+  const masks = [];
+
+  const date = todayParis();
+  if (dateEl) dateEl.textContent = formatDateFr(date);
+
+  try {
+    const { data, source, error } = await loadLectures(date);
+
+    if (titleEl) {
+      const t = (data.liturgical_title || "").trim();
+      const redundant = !t || /^messe du jour$/i.test(t) || /^lectures$/i.test(t);
+      if (redundant) {
+        titleEl.hidden = true;
+        titleEl.textContent = "";
+      } else {
+        titleEl.hidden = false;
+        titleEl.textContent = t;
+      }
+    }
+    if (data.date && dateEl) {
+      dateEl.textContent = formatDateFr(data.date);
+    }
+
+    if (statusEl) {
+      if (error) {
+        statusEl.hidden = false;
+        statusEl.dataset.tone = "warn";
+        statusEl.textContent = error;
+      } else if (source === "aelf") {
+        statusEl.hidden = true;
+      }
+    }
+
+    listEl.replaceChildren();
+    if (!data.readings?.length) {
+      listEl.appendChild(
+        el("p", "status-msg", "Aucune lecture à afficher pour ce jour.")
+      );
+      return;
+    }
+
+    for (const reading of data.readings) {
+      const expandable =
+        reading.expandable &&
+        reading.ref &&
+        isGospel(reading.ref.bookId);
+
+      const card = el("article", "reading-card");
+      card.dataset.expandable = expandable ? "true" : "false";
+
+      card.appendChild(
+        el("div", "reading-type", typeLabel(reading.type, reading.label))
+      );
+      if (reading.ref_display) {
+        card.appendChild(el("div", "reading-ref", reading.ref_display));
+      }
+
+      if (expandable) {
+        card.tabIndex = 0;
+        card.setAttribute("role", "button");
+        card.setAttribute("aria-expanded", "false");
+
+        const body = el("div", "reading-mask-host");
+        // skeleton while chapter loads
+        const sk = el("div", "skeleton");
+        sk.setAttribute("aria-hidden", "true");
+        sk.appendChild(Object.assign(el("div", "skeleton-line w-80"), {}));
+        sk.appendChild(Object.assign(el("div", "skeleton-line"), {}));
+        sk.appendChild(Object.assign(el("div", "skeleton-line w-60"), {}));
+        body.appendChild(sk);
+        card.appendChild(body);
+
+        const mask = new MaskDilatation(body, {
+          bookId: reading.ref.bookId,
+          chapter: reading.ref.chapter,
+          verseStart: reading.ref.verseStart,
+          verseEnd: reading.ref.verseEnd,
+        });
+        masks.push(mask);
+
+        mask.whenReady().catch((err) => {
+          console.error(err);
+          body.replaceChildren();
+          // fallback plain excerpt
+          const excerpt = el("div", "reading-excerpt");
+          excerpt.textContent = reading.excerpt || "Passage indisponible.";
+          body.appendChild(excerpt);
+          card.dataset.expandable = "false";
+        });
+
+        // Clic sur en-tête de carte (type / réf) : même dilatation
+        card.addEventListener("click", (e) => {
+          if (e.target.closest(".chapter-mask")) return; // déjà géré
+          if (e.target.closest("a, button, select")) return;
+          mask.toggle();
+        });
+        card.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            mask.toggle();
+          }
+        });
+      } else {
+        const excerpt = el("div", "reading-excerpt");
+        const text = reading.excerpt || "";
+        excerpt.textContent =
+          text.length > 520 ? text.slice(0, 520).trim() + "…" : text;
+        card.appendChild(excerpt);
+      }
+
+      listEl.appendChild(card);
+    }
+  } catch (err) {
+    console.error(err);
+    listEl.replaceChildren();
+    const msg = el("p", "status-msg");
+    msg.dataset.tone = "warn";
+    msg.textContent = "Erreur de chargement des lectures.";
+    listEl.appendChild(msg);
+  }
+}
+
+init();

@@ -1,0 +1,30 @@
+# Local tooling / agents
+.grok/
+.serena/
+
+# OS generated
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editors
+.idea/
+.vscode/
+*.code-workspace
+
+# Obsidian / personal editorial content (symlinked)
+obsidian-vault/
+
+# Dependencies (future-proof)
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Obsidian vault symlink (personal notes)
+obsidian-vault
+obsidian-vault/
