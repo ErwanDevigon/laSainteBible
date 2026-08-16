@@ -1,8 +1,10 @@
 import { loadLectures, formatDateFr, todayParis } from "./aelf.js";
 import { MaskDilatation } from "./expand.js";
-import { isGospel } from "./data-loader.js";
-import { mountGospelPickers } from "./nav-books.js";
 import { mountSwipeNav } from "./swipe-nav.js";
+import {
+  mountActiveEditionBar,
+  getActiveEdition,
+} from "./editions.js";
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -26,18 +28,22 @@ async function init() {
   const titleEl = document.querySelector("[data-messe-title]");
   const dateEl = document.querySelector("[data-messe-date]");
   const statusEl = document.querySelector("[data-messe-status]");
-  const picksEl = document.querySelector("[data-gospel-pickers]");
 
   if (!listEl) return;
 
   mountSwipeNav();
-
-  if (picksEl) {
-    mountGospelPickers(picksEl, { basePath: "lire/", mode: "compact" });
-  }
+  mountActiveEditionBar();
 
   /** @type {MaskDilatation[]} */
   const masks = [];
+
+  document.addEventListener("lsb:editions", () => {
+    mountActiveEditionBar();
+    const edition = getActiveEdition();
+    for (const mask of masks) {
+      mask.remount(edition).catch(() => {});
+    }
+  });
 
   const date = todayParis();
   if (dateEl) dateEl.textContent = formatDateFr(date);
@@ -79,10 +85,7 @@ async function init() {
     }
 
     for (const reading of data.readings) {
-      const expandable =
-        reading.expandable &&
-        reading.ref &&
-        isGospel(reading.ref.bookId);
+      const expandable = !!(reading.expandable && reading.ref);
 
       const card = el("article", "reading-card");
       card.dataset.expandable = expandable ? "true" : "false";
@@ -112,8 +115,12 @@ async function init() {
         const mask = new MaskDilatation(body, {
           bookId: reading.ref.bookId,
           chapter: reading.ref.chapter,
+          altChapter: reading.ref.altChapter,
           verseStart: reading.ref.verseStart,
           verseEnd: reading.ref.verseEnd,
+          ranges: reading.ref.ranges,
+          edition: getActiveEdition(),
+          fallback: reading.excerpt || "Passage indisponible.",
         });
         masks.push(mask);
 

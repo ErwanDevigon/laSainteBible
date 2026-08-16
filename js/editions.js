@@ -85,6 +85,60 @@ export function swapEditionOrder(a, b, available) {
   return order;
 }
 
+/** Rest / primary column — last in the stack. */
+export function getActiveEdition(available = EDITION_STACK) {
+  const order = orderedEditions(available);
+  return order[order.length - 1] || EDITION_SEGOND;
+}
+
+/** Move `id` to rest position and persist. */
+export function setActiveEdition(id, available = EDITION_STACK) {
+  if (!EDITIONS[id]) return orderedEditions(available);
+  const order = orderedEditions(available).filter((x) => x !== id);
+  order.push(id);
+  writeEditionOrder(order);
+  document.dispatchEvent(
+    new CustomEvent("lsb:editions", { detail: { order, active: id } })
+  );
+  return order;
+}
+
+/**
+ * Messe: one centered name + dropdown. Not the 3-column reader bar.
+ */
+export function mountActiveEditionBar(available = EDITION_STACK) {
+  document.querySelector(".active-edition-bar")?.remove();
+  closeEditionMenu();
+  document.body.classList.add("has-active-edition");
+  document.body.classList.remove("has-editions");
+
+  const active = getActiveEdition(available);
+  const bar = document.createElement("div");
+  bar.className = "active-edition-bar";
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "edition-name-btn";
+  btn.setAttribute("aria-haspopup", "listbox");
+  btn.textContent = editionLabel(active);
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (document.querySelector(".edition-menu")) {
+      closeEditionMenu();
+      return;
+    }
+    openEditionMenu(btn, active, orderedEditions(available), (otherId) => {
+      setActiveEdition(otherId, available);
+    });
+  });
+  bar.append(btn);
+
+  const header = document.querySelector(".site-header");
+  if (header) header.after(bar);
+  else document.body.prepend(bar);
+  return bar;
+}
+
 function closeEditionMenu() {
   document.querySelector(".edition-menu")?.remove();
 }

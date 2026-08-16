@@ -21,7 +21,7 @@ body.has-editions:has(.book-title-bar) {
 
 /* Left chapter rail — count comes from --chapter-count (set in JS). */
 body.lecteur-page[data-book] {
-  --rail-w: 3.1rem;
+  --rail-w: 2.4rem;
   --book-bar-h: 2.05rem;
   --edition-bar-h: 1.45rem;
   --chrome-h: calc(var(--header-h) + var(--book-bar-h) + var(--edition-bar-h));
@@ -181,18 +181,19 @@ body.lecteur-page[data-book] .site-header {
   position: fixed;
   top: calc(var(--chrome-h) + var(--safe-top) + var(--footer-h) + var(--rail-gap));
   bottom: calc(var(--footer-h) + var(--safe-bottom) + var(--rail-gap));
-  left: 0.28rem;
-  width: calc(var(--rail-w, 3.1rem) - 0.4rem);
+  left: 0.16rem;
+  width: calc(var(--rail-w, 2.4rem) - 0.22rem);
   z-index: 45;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0.45rem 0;
+  padding: 0.4rem 0;
   pointer-events: none;
   background: #000;
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  overflow-x: visible;
   overflow-y: auto;
   scrollbar-width: none;
 }
@@ -216,7 +217,7 @@ body.lecteur-page[data-book] .site-header {
   line-height: 1;
   color: var(--text-mute);
   text-decoration: none;
-  padding: 0.12em 0.3em;
+  padding: 0.12em 0.12em;
   transform-origin: center center;
   transition: transform 180ms var(--ease), color 180ms var(--ease);
 }
@@ -229,6 +230,13 @@ body.lecteur-page[data-book] .site-header {
 
 .chapter-rail a[aria-current="location"] {
   color: var(--accent);
+  transform: scale(1.45);
+  font-weight: 600;
+}
+
+.chapter-rail a[aria-current="location"]:hover,
+.chapter-rail a[aria-current="location"]:focus-visible {
+  transform: scale(1.55);
 }
 
 body.lecteur-page[data-book] .site-main {
@@ -443,10 +451,14 @@ body.lecteur-page[data-book] .edition-pane.is-current {
 }
 
 .verse[data-highlight="true"] .verse-text {
-  background: var(--accent-soft);
   border-radius: 0.2em;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+}
+
+.chapter-mask.is-expanded .verse[data-highlight="true"] .verse-text,
+.chapter-mask[data-expanded="true"] .verse[data-highlight="true"] .verse-text {
+  background: var(--accent-soft);
 }
 
 .book-end {

@@ -7,7 +7,7 @@
 
 const SLOP = 8;
 const IGNORE =
-  "input, textarea, select, option, button, a, .edition-name-bar, .book-title-bar, .chapter-rail, .edition-menu";
+  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu";
 
 function readX(root) {
   return parseFloat(root.style.getPropertyValue("--swipe-x")) || 0;

@@ -4,25 +4,14 @@
  * Fallback: data/lectures/sample.json
  */
 
-import { loadBook, isGospel } from "./data-loader.js";
+import { loadBook } from "./data-loader.js";
 import { excerptText } from "./render-evangile.js";
+import { parseRefString, canExpand } from "./refs.js";
+import { getActiveEdition } from "./editions.js";
 
 const ZONE = "france";
 
-const BOOK_MAP = {
-  mt: "matthieu",
-  matthieu: "matthieu",
-  "saint matthieu": "matthieu",
-  mc: "marc",
-  marc: "marc",
-  "saint marc": "marc",
-  lc: "luc",
-  luc: "luc",
-  "saint luc": "luc",
-  jn: "jean",
-  jean: "jean",
-  "saint jean": "jean",
-};
+export { parseRefString } from "./refs.js";
 
 /**
  * @returns {string} YYYY-MM-DD in Europe/Paris
@@ -66,35 +55,6 @@ async function fetchSample() {
   return res.json();
 }
 
-/**
- * Parse refs like "Mt 5, 1-12" / "Jean 1, 1-18" / "Jn 20, 1-9"
- */
-export function parseRefString(refStr) {
-  if (!refStr) return null;
-  const cleaned = refStr
-    .normalize("NFC")
-    .replace(/\u00a0/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-
-  // Patterns: "Mt 5, 1-12a" | "Jean 3, 16" | "Lc 1, 1-4. 4, 14-21" (take first span)
-  const m = /^((?:saint\s+)?(?:matthieu|marc|luc|jean|mt|mc|lc|jn))\s+(\d+)\s*[,:]\s*(\d+)[a-z]?(?:\s*[-–—]\s*(\d+)[a-z]?)?/i.exec(
-    cleaned
-  );
-  if (!m) return null;
-
-  const key = m[1].toLowerCase().replace(/^saint\s+/, "");
-  const bookId = BOOK_MAP[key];
-  if (!bookId) return null;
-
-  return {
-    bookId,
-    chapter: parseInt(m[2], 10),
-    verseStart: parseInt(m[3], 10),
-    verseEnd: m[4] ? parseInt(m[4], 10) : parseInt(m[3], 10),
-  };
-}
-
 function mapAelfReading(item, index) {
   const typeRaw = (item.type || item.intro_lue || "").toLowerCase();
   let type = "lecture";
@@ -114,7 +74,7 @@ function mapAelfReading(item, index) {
 
   const refStr = item.ref || item.reference || "";
   const parsed = parseRefString(refStr);
-  const expandable = !!(parsed && isGospel(parsed.bookId));
+  const expandable = canExpand(parsed);
 
   const defaultLabel =
     type === "evangile"
@@ -168,7 +128,8 @@ async function enrichWithPd(payload) {
     const copy = { ...r };
     if (copy.expandable && copy.ref) {
       try {
-        const book = await loadBook(copy.ref.bookId);
+        const edition = getActiveEdition();
+        const book = await loadBook(copy.ref.bookId, edition);
         const pd = excerptText(
           book,
           copy.ref.chapter,
@@ -208,11 +169,18 @@ export async function loadLectures(date = todayParis()) {
     console.warn("AELF unavailable, fallback sample:", err);
     try {
       const sample = await fetchSample();
-      // rewrite sample date display to today for honesty? keep sample date + flag
       let data = {
         ...sample,
         date: sample.date || date,
         source: "sample",
+        readings: (sample.readings || []).map((r) => {
+          const parsed = r.ref || parseRefString(r.ref_display);
+          return {
+            ...r,
+            ref: parsed,
+            expandable: canExpand(parsed),
+          };
+        }),
       };
       data = await enrichWithPd(data);
       return {

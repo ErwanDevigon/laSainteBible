@@ -1,5 +1,6 @@
-import { loadBook, getChapter } from "./data-loader.js";
+import { tryLoadBook, getChapter } from "./data-loader.js";
 import { renderChapterMask } from "./render-evangile.js";
+import { getActiveEdition, EDITION_SEGOND } from "./editions.js";
 
 /**
  * Solve CSS cubic-bezier(x1,y1,x2,y2) for progress in [0,1].
@@ -72,19 +73,17 @@ const EDGE_SLACK = 8;
 export class MaskDilatation {
   /**
    * @param {HTMLElement} host
-   * @param {{ bookId: string, chapter: number, verseStart: number, verseEnd: number }} ref
+   * @param {{ bookId: string, chapter: number, verseStart?: number|null, verseEnd?: number|null, edition?: string, fallback?: string }} ref
    */
   constructor(host, ref) {
     this.host = host;
-    this.ref = ref;
+    this.ref = { ...ref };
     this.expanded = false;
     this.savedScrollY = 0;
     this.root = null;
-    this.before = null;
-    this.after = null;
     this.excerpt = null;
-    this.beforeHeight = 0;
-    this.afterHeight = 0;
+    /** @type {{ el: HTMLElement, kind: 'before'|'down', height: number }[]} */
+    this.zones = [];
     this._fracPin = 0;
     this._pinRaf = 0;
     this._scrollRaf = 0;
@@ -95,20 +94,32 @@ export class MaskDilatation {
   }
 
   async _mount() {
-    const book = await loadBook(this.ref.bookId);
-    const ch = getChapter(book, this.ref.chapter);
+    const edition = this.ref.edition || getActiveEdition() || EDITION_SEGOND;
+    this.ref.edition = edition;
+    const book = await tryLoadBook(this.ref.bookId, edition);
+    if (!book) throw new Error("Livre introuvable");
+    const ch =
+      getChapter(book, this.ref.chapter) ||
+      (this.ref.altChapter ? getChapter(book, this.ref.altChapter) : null);
     if (!ch) throw new Error("Chapitre introuvable");
 
-    const { root, before, after, excerpt } = renderChapterMask(ch, {
+    const last = ch.verses[ch.verses.length - 1]?.n;
+    const verseStart = this.ref.verseStart ?? 1;
+    const verseEnd = this.ref.verseEnd ?? last;
+    const ranges = this.ref.ranges?.length
+      ? this.ref.ranges
+      : [{ start: verseStart, end: verseEnd }];
+
+    const { root, excerpt, zones } = renderChapterMask(ch, {
       short: book.short,
-      verseStart: this.ref.verseStart,
-      verseEnd: this.ref.verseEnd,
+      verseStart,
+      verseEnd,
+      ranges,
     });
 
     this.root = root;
-    this.before = before;
-    this.after = after;
     this.excerpt = excerpt;
+    this.zones = zones.map((z) => ({ ...z, height: 0 }));
     this.host.replaceChildren(root);
 
     root.addEventListener("pointerdown", (e) => {
@@ -131,14 +142,33 @@ export class MaskDilatation {
     return book;
   }
 
-  _measureHeights() {
-    if (this.before) {
-      const inner = this.before.querySelector(".mask-zone-inner");
-      this.beforeHeight = inner ? inner.scrollHeight : 0;
+  /**
+   * Reload chapter text for a new edition. Keeps expanded state if possible.
+   * @param {string} edition
+   */
+  async remount(edition) {
+    const was = this.expanded;
+    if (was) this.collapse();
+    this.ref.edition = edition;
+    this.expanded = false;
+    try {
+      await this._mount();
+      if (was) this.expand();
+    } catch (err) {
+      const text = this.ref.fallback || "Passage indisponible.";
+      const p = document.createElement("div");
+      p.className = "reading-excerpt";
+      p.textContent = text;
+      this.host.replaceChildren(p);
+      this.root = null;
+      throw err;
     }
-    if (this.after) {
-      const inner = this.after.querySelector(".mask-zone-inner");
-      this.afterHeight = inner ? inner.scrollHeight : 0;
+  }
+
+  _measureHeights() {
+    for (const z of this.zones) {
+      const inner = z.el.querySelector(".mask-zone-inner");
+      z.height = inner ? inner.scrollHeight : 0;
     }
   }
 
@@ -160,19 +190,24 @@ export class MaskDilatation {
   }
 
   _viewportClip() {
-    const header = document.querySelector(".site-header");
-    const top = header ? header.getBoundingClientRect().bottom : 0;
+    const bar =
+      document.querySelector(".active-edition-bar") ||
+      document.querySelector(".edition-name-bar") ||
+      document.querySelector(".book-title-bar") ||
+      document.querySelector(".site-header");
+    const top = bar ? bar.getBoundingClientRect().bottom : 0;
     return { top, bottom: window.innerHeight };
   }
 
-  /** How much zone can grow before the overflow edge leaves the viewport. */
-  _visibleRoom() {
+  /** Room a zone can grow before its overflow edge leaves the viewport. */
+  _roomFor(zone) {
     const clip = this._viewportClip();
-    const er = this.excerpt.getBoundingClientRect();
-    return {
-      before: Math.max(0, er.top - clip.top),
-      after: Math.max(0, clip.bottom - er.bottom),
-    };
+    const r = zone.el.getBoundingClientRect();
+    if (zone.kind === "before") {
+      const er = this.excerpt.getBoundingClientRect();
+      return Math.max(0, er.top - clip.top);
+    }
+    return Math.max(0, clip.bottom - r.top);
   }
 
   /**
@@ -235,40 +270,37 @@ export class MaskDilatation {
 
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) {
-      this._setHeight(this.before, this.beforeHeight, true);
-      this._setHeight(this.after, this.afterHeight, true);
+      for (const z of this.zones) this._setHeight(z.el, z.height, true);
       this._pinOnce(targetTop);
       return;
     }
 
-    let beforeOpen = !this.before || this.beforeHeight <= 0;
-    let afterOpen = !this.after || this.afterHeight <= 0;
+    const open = this.zones.map((z) => z.height <= 0);
 
     const t0 = performance.now();
     const tick = (now) => {
       this._pinOnce(targetTop);
-
       const clip = this._viewportClip();
 
-      if (!beforeOpen && this.before) {
-        if (this.before.getBoundingClientRect().top <= clip.top + 0.5) {
-          this._setHeight(this.before, this.beforeHeight, true);
-          this._pinOnce(targetTop);
-          beforeOpen = true;
-        }
-      }
-      if (!afterOpen && this.after) {
-        if (this.after.getBoundingClientRect().bottom >= clip.bottom - 0.5) {
-          this._setHeight(this.after, this.afterHeight, true);
-          afterOpen = true;
-        }
-      }
+      this.zones.forEach((z, i) => {
+        if (open[i]) return;
+        const r = z.el.getBoundingClientRect();
+        const hit =
+          z.kind === "before"
+            ? r.top <= clip.top + 0.5
+            : r.bottom >= clip.bottom - 0.5;
+        if (!hit) return;
+        this._setHeight(z.el, z.height, true);
+        if (z.kind === "before") this._pinOnce(targetTop);
+        open[i] = true;
+      });
 
-      if ((!beforeOpen || !afterOpen) && now - t0 < durationMs + 48) {
+      if (open.some((v) => !v) && now - t0 < durationMs + 48) {
         this._pinRaf = requestAnimationFrame(tick);
       } else {
-        if (!beforeOpen) this._setHeight(this.before, this.beforeHeight, true);
-        if (!afterOpen) this._setHeight(this.after, this.afterHeight, true);
+        this.zones.forEach((z, i) => {
+          if (!open[i]) this._setHeight(z.el, z.height, true);
+        });
         this._pinOnce(targetTop);
         this._clearFracPin();
         this._pinOnce(targetTop);
@@ -348,20 +380,13 @@ export class MaskDilatation {
     this.savedScrollY = window.scrollY;
     const targetTop = this.excerpt.getBoundingClientRect().top;
     const dur = this._durationMs();
-    const room = this._visibleRoom();
 
-    const beforeTarget = this._reduced()
-      ? this.beforeHeight
-      : Math.min(this.beforeHeight, room.before + EDGE_SLACK);
-    const afterTarget = this._reduced()
-      ? this.afterHeight
-      : Math.min(this.afterHeight, room.after + EDGE_SLACK);
-
-    if (this.beforeHeight > 0 && this.before) {
-      this._setHeight(this.before, beforeTarget, false);
-    }
-    if (this.afterHeight > 0 && this.after) {
-      this._setHeight(this.after, afterTarget, false);
+    for (const z of this.zones) {
+      if (z.height <= 0) continue;
+      const target = this._reduced()
+        ? z.height
+        : Math.min(z.height, this._roomFor(z) + EDGE_SLACK);
+      this._setHeight(z.el, target, false);
     }
 
     this.expanded = true;
@@ -381,30 +406,20 @@ export class MaskDilatation {
     const dur = this._durationMs();
     const toY = this.savedScrollY;
     const excerptTop = this.excerpt.getBoundingClientRect().top;
-    const room = this._visibleRoom();
 
-    // Instantly drop the off-screen remainder so only the visible fold animates.
     if (!this._reduced()) {
-      if (this.before) {
-        const h = Math.min(this.before.scrollHeight, room.before + EDGE_SLACK);
-        this._setHeight(this.before, h, true);
-      }
-      if (this.after) {
-        const h = Math.min(this.after.scrollHeight, room.after + EDGE_SLACK);
-        this._setHeight(this.after, h, true);
+      for (const z of this.zones) {
+        const h = Math.min(z.el.scrollHeight, this._roomFor(z) + EDGE_SLACK);
+        this._setHeight(z.el, h, true);
       }
       this._pinOnce(excerptTop);
     } else {
-      [this.before, this.after].forEach((zone) => {
-        if (!zone) return;
-        this._setHeight(zone, zone.scrollHeight, true);
-      });
+      for (const z of this.zones) this._setHeight(z.el, z.el.scrollHeight, true);
     }
 
     void this.root.offsetHeight;
 
-    this._setHeight(this.before, 0, this._reduced());
-    this._setHeight(this.after, 0, this._reduced());
+    for (const z of this.zones) this._setHeight(z.el, 0, this._reduced());
 
     this.expanded = false;
     this.root.dataset.expanded = "false";

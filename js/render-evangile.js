@@ -60,11 +60,41 @@ export function renderChapter(chapter, opts = {}) {
   return section;
 }
 
+function citedSet(ranges) {
+  const set = new Set();
+  for (const r of ranges || []) {
+    for (let n = r.start; n <= r.end; n++) set.add(n);
+  }
+  return set;
+}
+
+function maskZone(kind) {
+  const wrap = document.createElement("div");
+  wrap.className = `mask-zone mask-${kind}`;
+  const inner = document.createElement("div");
+  inner.className = "mask-zone-inner";
+  wrap.appendChild(inner);
+  return { wrap, inner };
+}
+
+function maskFold() {
+  const el = document.createElement("div");
+  el.className = "mask-fold";
+  el.setAttribute("aria-hidden", "true");
+  el.textContent = "···";
+  return el;
+}
+
 /**
- * Full chapter split into before / excerpt / after for mask dilatation.
- * @returns {{ root: HTMLElement, before: HTMLElement, excerpt: HTMLElement, after: HTMLElement, label: HTMLElement }}
+ * Chapter split: cited verse groups stay open; omitted runs live in mask zones.
+ * @returns {{
+ *   root: HTMLElement,
+ *   excerpt: HTMLElement,
+ *   label: HTMLElement,
+ *   zones: { el: HTMLElement, kind: 'before'|'down' }[],
+ * }}
  */
-export function renderChapterMask(chapter, { short = "", verseStart, verseEnd } = {}) {
+export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, ranges = null } = {}) {
   const root = document.createElement("div");
   root.className = "chapter-mask";
   root.dataset.expanded = "false";
@@ -76,44 +106,66 @@ export function renderChapterMask(chapter, { short = "", verseStart, verseEnd } 
   num.className = "chapter-num";
   num.textContent = short ? `${short} ${chapter.n}` : String(chapter.n);
   label.appendChild(num);
-  // label lives in before zone (only visible when expanded) — also clone feel via CSS
 
-  const beforeWrap = document.createElement("div");
-  beforeWrap.className = "mask-zone mask-before";
-  const beforeInner = document.createElement("div");
-  beforeInner.className = "mask-zone-inner";
-  beforeInner.appendChild(label);
+  const last = chapter.verses[chapter.verses.length - 1]?.n;
+  let spans = Array.isArray(ranges) && ranges.length ? ranges : null;
+  if (!spans) {
+    const v1 = verseStart ?? 1;
+    const v2 = verseEnd ?? (verseStart != null ? verseStart : last);
+    spans = [{ start: v1, end: v2 }];
+  }
+  const cited = citedSet(spans);
 
-  const excerpt = document.createElement("div");
-  excerpt.className = "mask-excerpt";
-
-  const afterWrap = document.createElement("div");
-  afterWrap.className = "mask-zone mask-after";
-  const afterInner = document.createElement("div");
-  afterInner.className = "mask-zone-inner";
-
-  const v1 = verseStart ?? 1;
-  const v2 = verseEnd ?? verseStart ?? chapter.verses[chapter.verses.length - 1]?.n;
-
+  const segs = [];
   for (const verse of chapter.verses) {
-    if (verse.n < v1) {
-      beforeInner.appendChild(verseRow(chapter.n, verse));
-    } else if (verse.n > v2) {
-      afterInner.appendChild(verseRow(chapter.n, verse));
-    } else {
-      excerpt.appendChild(verseRow(chapter.n, verse));
-    }
+    const isCited = cited.has(verse.n);
+    const prev = segs[segs.length - 1];
+    if (!prev || prev.cited !== isCited) segs.push({ cited: isCited, verses: [verse] });
+    else prev.verses.push(verse);
   }
 
-  // If no before verses, keep empty zone (collapses to 0)
-  beforeWrap.appendChild(beforeInner);
-  afterWrap.appendChild(afterInner);
+  const zones = [];
+  let excerpt = null;
+  let sawCited = false;
 
-  root.appendChild(beforeWrap);
-  root.appendChild(excerpt);
-  root.appendChild(afterWrap);
+  const before = maskZone("before");
+  before.inner.appendChild(label);
+  if (segs[0] && !segs[0].cited) {
+    for (const v of segs[0].verses) before.inner.appendChild(verseRow(chapter.n, v));
+    segs.shift();
+  }
+  root.appendChild(before.wrap);
+  zones.push({ el: before.wrap, kind: "before" });
 
-  return { root, before: beforeWrap, excerpt, after: afterWrap, label };
+  for (let i = 0; i < segs.length; i++) {
+    const seg = segs[i];
+    if (seg.cited) {
+      const block = document.createElement("div");
+      block.className = "mask-excerpt";
+      for (const v of seg.verses) {
+        block.appendChild(verseRow(chapter.n, v, { highlight: true }));
+      }
+      if (!excerpt) excerpt = block;
+      root.appendChild(block);
+      sawCited = true;
+      continue;
+    }
+    if (i < segs.length - 1 && sawCited) {
+      root.appendChild(maskFold());
+    }
+    const gap = maskZone(i === segs.length - 1 ? "after" : "gap");
+    for (const v of seg.verses) gap.inner.appendChild(verseRow(chapter.n, v));
+    root.appendChild(gap.wrap);
+    zones.push({ el: gap.wrap, kind: "down" });
+  }
+
+  if (!excerpt) {
+    excerpt = document.createElement("div");
+    excerpt.className = "mask-excerpt";
+    root.appendChild(excerpt);
+  }
+
+  return { root, excerpt, label, zones };
 }
 
 /**
