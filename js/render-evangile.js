@@ -3,11 +3,12 @@
  * Verses injected via textContent only (XSS-safe).
  */
 
-function verseRow(chapterN, verse, { highlight = false } = {}) {
+function verseRow(chapterN, verse, { highlight = false, idPrefix = "", col = null, withId = true } = {}) {
   const row = document.createElement("p");
   row.className = "verse";
-  row.id = `c${chapterN}v${verse.n}`;
+  if (withId) row.id = `${idPrefix}c${chapterN}v${verse.n}`;
   row.dataset.verse = String(verse.n);
+  if (col) row.dataset.col = col;
   if (highlight) row.dataset.highlight = "true";
 
   const vn = document.createElement("span");
@@ -30,9 +31,10 @@ function verseRow(chapterN, verse, { highlight = false } = {}) {
  * @returns {HTMLElement}
  */
 export function renderChapter(chapter, opts = {}) {
+  const prefix = opts.idPrefix || "";
   const section = document.createElement("section");
   section.className = "chapter";
-  section.id = `c${chapter.n}`;
+  section.id = `${prefix}c${chapter.n}`;
   section.dataset.chapter = String(chapter.n);
 
   const label = document.createElement("div");
@@ -50,7 +52,9 @@ export function renderChapter(chapter, opts = {}) {
   for (const verse of chapter.verses) {
     const highlight =
       hs != null && he != null && verse.n >= hs && verse.n <= he;
-    section.appendChild(verseRow(chapter.n, verse, { highlight }));
+    section.appendChild(
+      verseRow(chapter.n, verse, { highlight, idPrefix: prefix })
+    );
   }
 
   return section;
@@ -119,9 +123,12 @@ export function renderBook(book, container, opts = {}) {
   container.replaceChildren();
   container.classList.add("book-body");
 
+  const prefix = opts.idPrefix || "";
   const frag = document.createDocumentFragment();
   for (const chapter of book.chapters) {
-    frag.appendChild(renderChapter(chapter, { short: book.short }));
+    frag.appendChild(
+      renderChapter(chapter, { short: book.short, idPrefix: prefix })
+    );
   }
   container.appendChild(frag);
 
@@ -130,6 +137,118 @@ export function renderBook(book, container, opts = {}) {
       behavior: opts.behavior || "auto",
     });
   }
+}
+
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text != null) node.textContent = text;
+  return node;
+}
+
+function chapterMap(book) {
+  const map = new Map();
+  for (const ch of book.chapters || []) map.set(ch.n, ch);
+  return map;
+}
+
+function verseMap(chapter) {
+  const map = new Map();
+  for (const v of chapter?.verses || []) map.set(v.n, v);
+  return map;
+}
+
+function alignedLabel(n, short, col, { id = "", primary = false } = {}) {
+  const label = document.createElement("div");
+  label.className = "chapter-label";
+  label.dataset.col = col;
+  if (id) label.id = id;
+  if (primary) label.dataset.chapter = String(n);
+  const num = document.createElement("span");
+  num.className = "chapter-num";
+  num.textContent = short ? `${short} ${n}` : String(n);
+  label.appendChild(num);
+  return label;
+}
+
+/**
+ * Same-page editions: one CSS row per verse so numbers share a Y.
+ * `editions` is left-to-right; the last one is the rest (primary) column.
+ *
+ * @param {{
+ *   editions: { book: object, col: string, label?: string, primary?: boolean }[],
+ *   container: HTMLElement,
+ *   end?: HTMLElement|null,
+ * }} opts
+ */
+export function renderAlignedBook({ editions, container, end = null }) {
+  container.replaceChildren();
+  container.classList.add("book-body", "is-aligned");
+
+  const stage = document.createElement("div");
+  stage.className = "edition-stage";
+  stage.style.setProperty("--edition-count", String(editions.length));
+
+  const maps = editions.map((ed) => chapterMap(ed.book));
+  const chNums = [
+    ...new Set(maps.flatMap((m) => [...m.keys()])),
+  ].sort((a, b) => a - b);
+
+  for (const n of chNums) {
+    const pair = document.createElement("section");
+    pair.className = "chapter-pair";
+    pair.dataset.chapter = String(n);
+
+    for (const ed of editions) {
+      pair.append(
+        alignedLabel(n, ed.book.short, ed.col, {
+          id: ed.primary ? `c${n}` : "",
+          primary: !!ed.primary,
+        })
+      );
+    }
+
+    const vMaps = editions.map((_, i) => verseMap(maps[i].get(n)));
+    const vNums = [...new Set(vMaps.flatMap((m) => [...m.keys()]))].sort(
+      (a, b) => a - b
+    );
+    for (const vn of vNums) {
+      editions.forEach((ed, i) => {
+        const v = vMaps[i].get(vn) || { n: vn, t: "" };
+        pair.append(
+          verseRow(n, v, { col: ed.col, withId: !!ed.primary })
+        );
+      });
+    }
+    const nCols = editions.length;
+    const kids = [...pair.children];
+    kids.slice(0, nCols).forEach((node) => node.classList.add("is-card-head"));
+    kids.slice(-nCols).forEach((node) => node.classList.add("is-card-foot"));
+    stage.append(pair);
+  }
+
+  if (end) {
+    for (const ed of editions) {
+      if (ed.primary) {
+        end.dataset.col = ed.col;
+        stage.append(end);
+      } else {
+        const hole = document.createElement("div");
+        hole.className = "book-end";
+        hole.dataset.col = ed.col;
+        hole.setAttribute("aria-hidden", "true");
+        stage.append(hole);
+      }
+    }
+  }
+
+  for (const ed of editions) {
+    const foot = el("footer", "site-footer", ed.label || ed.book.version?.label || "");
+    foot.dataset.col = ed.col;
+    stage.append(foot);
+  }
+
+  container.appendChild(stage);
 }
 
 export function renderSingleChapter(book, chapterN, container, range = null) {

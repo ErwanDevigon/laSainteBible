@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   /* Never smooth-scroll the document — chapter jumps use fade-to-black */
   scroll-behavior: auto;
+  overflow-x: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -29,6 +30,7 @@ html {
 
 body {
   --swipe-x: 0px;
+  --swipe-p: 0;
   margin: 0;
   min-height: 100dvh;
   font-family: var(--font-body);
@@ -50,28 +52,28 @@ body img {
   -webkit-user-drag: none;
 }
 
-body > .site-header,
 body > .site-main,
 body > .site-footer,
-body > .chapter-rail,
-body > .page-veil {
+body > .edition-pane.is-current {
   transform: translate3d(var(--swipe-x), 0, 0);
 }
 
-body.is-swipe-snap > .site-header,
-body.is-swipe-snap > .site-main,
-body.is-swipe-snap > .site-footer,
-body.is-swipe-snap > .chapter-rail,
-body.is-swipe-snap > .page-veil {
-  transition: transform var(--swipe-snap-dur) var(--swipe-snap-ease);
+body > .edition-pane.is-current {
+  will-change: transform;
 }
 
-body.is-swipe-commit > .site-header,
+body.is-swipe-snap > .site-main,
+body.is-swipe-snap > .site-footer,
+body.is-swipe-snap > .edition-pane.is-current {
+  transition: transform var(--swipe-snap-dur) var(--swipe-snap-ease),
+    opacity var(--swipe-snap-dur) var(--swipe-snap-ease);
+}
+
 body.is-swipe-commit > .site-main,
 body.is-swipe-commit > .site-footer,
-body.is-swipe-commit > .chapter-rail,
-body.is-swipe-commit > .page-veil {
-  transition: transform var(--swipe-commit-dur) var(--swipe-commit-ease);
+body.is-swipe-commit > .edition-pane.is-current {
+  transition: transform var(--swipe-commit-dur) var(--swipe-commit-ease),
+    opacity var(--swipe-commit-dur) var(--swipe-commit-ease);
 }
 
 body.is-swiping,
@@ -81,16 +83,12 @@ body.is-swiping * {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  body.is-swipe-snap > .site-header,
   body.is-swipe-snap > .site-main,
   body.is-swipe-snap > .site-footer,
-  body.is-swipe-snap > .chapter-rail,
-  body.is-swipe-snap > .page-veil,
-  body.is-swipe-commit > .site-header,
+  body.is-swipe-snap > .edition-pane.is-current,
   body.is-swipe-commit > .site-main,
   body.is-swipe-commit > .site-footer,
-  body.is-swipe-commit > .chapter-rail,
-  body.is-swipe-commit > .page-veil {
+  body.is-swipe-commit > .edition-pane.is-current {
     transition: none;
   }
 }
@@ -138,6 +136,8 @@ p {
   text-justify: inter-word;
   hyphens: auto;
   -webkit-hyphens: auto;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 h1,
@@ -150,6 +150,13 @@ h3 {
   margin: 0;
 }
 
+body > .site-header,
+body > .book-title-bar,
+body > .edition-name-bar,
+body > .chapter-rail {
+  transform: none;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -158,19 +165,21 @@ h3 {
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: var(--space-3);
+  height: var(--header-h);
   min-height: var(--header-h);
-  padding: var(--space-2) var(--space-5);
+  padding: 0 var(--space-5);
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
 
-.site-header a {
+.site-header a,
+.site-header .brand {
   text-decoration: none;
   color: var(--text-soft);
   font-family: var(--font-ui);
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
 }
 
 .site-header a:hover {

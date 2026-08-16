@@ -2,13 +2,92 @@
  * LMB grab-pan (phone-like). Same page. Content follows the pointer.
  * Vertical = document scroll. Horizontal = slide on a wider virtual stage;
  * release keeps the offset (empty space is valid). No page change.
+ * MMB = classic LMB text selection (no autoscroll).
  */
 
 const SLOP = 8;
-const IGNORE = "input, textarea, select, option";
+const IGNORE =
+  "input, textarea, select, option, button, a, .edition-name-bar, .book-title-bar, .chapter-rail, .edition-menu";
 
 function readX(root) {
   return parseFloat(root.style.getPropertyValue("--swipe-x")) || 0;
+}
+
+function setProgress(root, px) {
+  const w = Math.max(1, window.innerWidth);
+  const p = Math.max(0, Math.min(1, px / w));
+  root.style.setProperty("--swipe-p", p.toFixed(4));
+  if (p > 0.5) root.dataset.swipeReveal = "left";
+  else delete root.dataset.swipeReveal;
+  const neighbor = root.querySelector(".edition-pane.is-neighbor");
+  if (neighbor) neighbor.setAttribute("aria-hidden", p > 0.15 ? "false" : "true");
+}
+
+function caretAt(x, y) {
+  if (document.caretPositionFromPoint) {
+    const p = document.caretPositionFromPoint(x, y);
+    if (p?.offsetNode) return { node: p.offsetNode, offset: p.offset };
+  }
+  if (document.caretRangeFromPoint) {
+    const r = document.caretRangeFromPoint(x, y);
+    if (r?.startContainer) return { node: r.startContainer, offset: r.startOffset };
+  }
+  return null;
+}
+
+function bindMmbSelect(root) {
+  let anchor = null;
+
+  function onMouseDown(e) {
+    if (e.button !== 1) return;
+    e.preventDefault();
+    const pos = caretAt(e.clientX, e.clientY);
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    if (!pos) {
+      anchor = null;
+      return;
+    }
+    const range = document.createRange();
+    range.setStart(pos.node, pos.offset);
+    range.collapse(true);
+    sel.addRange(range);
+    anchor = pos;
+  }
+
+  function onMouseMove(e) {
+    if (e.buttons !== 4 || !anchor) return;
+    e.preventDefault();
+    const pos = caretAt(e.clientX, e.clientY);
+    if (!pos) return;
+    const sel = window.getSelection();
+    if (!sel.rangeCount) return;
+    try {
+      sel.extend(pos.node, pos.offset);
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function onMouseUp(e) {
+    if (e.button === 1) anchor = null;
+  }
+
+  function onAuxClick(e) {
+    if (e.button === 1) e.preventDefault();
+  }
+
+  root.addEventListener("mousedown", onMouseDown);
+  window.addEventListener("mousemove", onMouseMove);
+  window.addEventListener("mouseup", onMouseUp);
+  root.addEventListener("auxclick", onAuxClick);
+
+  return () => {
+    root.removeEventListener("mousedown", onMouseDown);
+    window.removeEventListener("mousemove", onMouseMove);
+    window.removeEventListener("mouseup", onMouseUp);
+    root.removeEventListener("auxclick", onAuxClick);
+  };
 }
 
 /**
@@ -18,9 +97,11 @@ function readX(root) {
 export function bindGrabPan(root = document.body) {
   let sess = null;
   let blockClick = false;
+  const unbindMmb = bindMmbSelect(root);
 
   function setX(px) {
     root.style.setProperty("--swipe-x", `${px}px`);
+    setProgress(root, px);
   }
 
   function unbindWindow() {
@@ -111,6 +192,7 @@ export function bindGrabPan(root = document.body) {
   }
 
   function onSelectStart(e) {
+    if (e.target.closest(".verse-text, .edition-menu")) return;
     e.preventDefault();
   }
 
@@ -118,18 +200,27 @@ export function bindGrabPan(root = document.body) {
     e.preventDefault();
   }
 
+  function onResize() {
+    setProgress(root, readX(root));
+  }
+
   root.addEventListener("pointerdown", onDown);
   root.addEventListener("click", onClickCapture, true);
   root.addEventListener("selectstart", onSelectStart);
   root.addEventListener("dragstart", onDragStart);
+  window.addEventListener("resize", onResize);
 
   return () => {
     unbindWindow();
+    unbindMmb();
     root.removeEventListener("pointerdown", onDown);
     root.removeEventListener("click", onClickCapture, true);
     root.removeEventListener("selectstart", onSelectStart);
     root.removeEventListener("dragstart", onDragStart);
+    window.removeEventListener("resize", onResize);
     root.classList.remove("is-swiping");
     root.style.removeProperty("--swipe-x");
+    root.style.removeProperty("--swipe-p");
+    delete root.dataset.swipeReveal;
   };
 }

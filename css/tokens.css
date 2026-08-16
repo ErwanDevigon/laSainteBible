@@ -61,7 +61,11 @@
   --swipe-commit-dur: 420ms;
   --swipe-commit-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
-  --header-h: 3.25rem;
+  --header-h: 2.2rem;
+  --footer-h: 3.5rem;
+  --rail-gap: 0.7rem;
+  --edition-dim: 0.95;
+  --edition-gap: 1.65rem;
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-left: env(safe-area-inset-left, 0px);
