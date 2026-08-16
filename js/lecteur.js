@@ -1,18 +1,22 @@
-import { tryLoadBook, loadBook, chapterCount } from "./data-loader.js";
+import {
+  tryLoadBook,
+  chapterNums,
+  loadVersionIndex,
+  versionsForBook,
+} from "./data-loader.js";
 import { renderAlignedBook, parseHash } from "./render-evangile.js";
 import { fadeTo, jumpToElement, veilNow, glideToElement } from "./fade-nav.js";
 import { mountChapterRail } from "./chapter-rail.js";
 import { mountSwipeNav } from "./swipe-nav.js";
-import { BOOK_BY_ID, bookHref, neighborBooks } from "./books.js";
+import { BOOK_BY_ID } from "./books.js";
 import {
   wrapCurrentPane,
   mountReaderChrome,
   orderedEditions,
   editionCol,
   editionLabel,
+  getActiveEdition,
   EDITION_SEGOND,
-  EDITION_SEPTANTE,
-  EDITION_VULGATE,
 } from "./editions.js";
 
 function el(tag, className, text) {
@@ -44,30 +48,6 @@ function resolveBookId() {
   return id;
 }
 
-function fillBookEnd(endEl, bookId) {
-  if (!endEl) return;
-  endEl.replaceChildren();
-  const { prev, next } = neighborBooks(bookId);
-  const inLire = /\/lire(\/|$)/.test(window.location.pathname);
-  const base = inLire ? "" : "lire/";
-  if (prev) {
-    const a = document.createElement("a");
-    a.href = bookHref(prev.id, base);
-    a.textContent = prev.name;
-    endEl.append(a);
-  }
-  if (next) {
-    const a = document.createElement("a");
-    a.href = bookHref(next.id, base);
-    a.textContent = next.name;
-    endEl.append(a);
-  }
-  const messe = document.createElement("a");
-  messe.href = inLire ? "../messe.html" : "messe.html";
-  messe.textContent = "Messe du jour";
-  endEl.append(messe);
-}
-
 async function init() {
   const root = document.querySelector("[data-book]");
   if (!root) return;
@@ -85,28 +65,32 @@ async function init() {
   const bodyEl = document.querySelector("[data-book-body]");
 
   try {
-    const [segond, septante, vulgate] = await Promise.all([
-      loadBook(bookId),
-      tryLoadBook(bookId, EDITION_SEPTANTE),
-      tryLoadBook(bookId, EDITION_VULGATE),
-    ]);
-    const books = { [EDITION_SEGOND]: segond };
-    if (septante) books[EDITION_SEPTANTE] = septante;
-    if (vulgate) books[EDITION_VULGATE] = vulgate;
-    const available = [
-      vulgate ? EDITION_VULGATE : null,
-      septante ? EDITION_SEPTANTE : null,
-      EDITION_SEGOND,
-    ].filter(Boolean);
+    const available = await versionsForBook(bookId);
+    if (!available.length) throw new Error("Aucune version");
 
-    const book = segond;
+    const books = {};
+    await Promise.all(
+      available.map(async (id) => {
+        books[id] = await tryLoadBook(bookId, id);
+      })
+    );
+    const present = available.filter((id) => books[id]);
+    if (!present.length) throw new Error("Livre introuvable");
+
+    const active0 = getActiveEdition(present);
+    const primaryBook = books[active0] || books[present[0]];
     const meta = BOOK_BY_ID[bookId];
-    const title = book.title || meta?.title || bookId;
+    const title = primaryBook.title || meta?.title || bookId;
     if (titleEl) titleEl.textContent = title;
-    if (metaEl) metaEl.textContent = editionLabel(EDITION_SEGOND);
+    if (metaEl) metaEl.textContent = editionLabel(active0);
     document.title = `${title} — La Sainte Bible`;
 
+    const index = await loadVersionIndex(active0);
+    const section = index?.books?.find((b) => b.id === bookId)?.section;
+    const peers = (index?.books || []).filter((b) => b.section === section);
+
     let railApi = null;
+    document.body.classList.toggle("has-psalm-rail", bookId === "psaumes");
 
     function railOffset() {
       const headerEl = document.querySelector(".site-header");
@@ -120,8 +104,13 @@ async function init() {
       );
     }
 
+    function visibleOrder() {
+      const order = orderedEditions(present);
+      return order.length > 3 ? order.slice(-3) : order;
+    }
+
     function paint() {
-      const order = orderedEditions(available);
+      const order = visibleOrder();
       const editions = order.map((id, i) => ({
         book: books[id],
         col: editionCol(id),
@@ -132,38 +121,34 @@ async function init() {
       mountReaderChrome({
         title,
         bookId,
+        peers,
         labels: editions.map((ed, i) => ({
           id: order[i],
           col: ed.col,
           label: ed.label,
         })),
-        available,
+        available: present,
       });
-
-      let endEl = document.querySelector(".book-end");
-      if (!endEl) {
-        endEl = el("p", "book-end");
-      }
-      fillBookEnd(endEl, bookId);
 
       const y = window.scrollY;
       renderAlignedBook({
         editions,
         container: bodyEl,
-        end: endEl,
+        end: null,
       });
       window.scrollTo(0, y);
 
-      const pageHead = document.querySelector(".book-header");
-      if (pageHead) pageHead.hidden = true;
-      const pageFoot = document.querySelector("body > .site-footer");
-      if (pageFoot) pageFoot.hidden = true;
+      document.querySelector(".book-header")?.setAttribute("hidden", "");
+      document.querySelector("body > .site-footer")?.remove();
+      document.querySelector(".book-end")?.remove();
 
       wrapCurrentPane(order[order.length - 1]);
 
       if (!railApi) {
+        const nums = chapterNums(primaryBook);
         railApi = mountChapterRail({
-          chapterCount: chapterCount(book),
+          chapters: nums,
+          columns: bookId === "psaumes" ? 3 : 1,
           getTarget: (n) =>
             bodyEl.querySelector(`#c${n}`) || document.getElementById(`c${n}`),
           offset: railOffset,

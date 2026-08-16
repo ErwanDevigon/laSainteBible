@@ -2,29 +2,43 @@ import { glideToElement } from "./fade-nav.js";
 
 /**
  * Fixed left column of chapter numbers.
- * `chapterCount` is the only length input — call it, never hardcode.
  *
  * @param {{
- *   chapterCount: number,
+ *   chapterCount?: number,
+ *   chapters?: number[],
+ *   columns?: number,
  *   getTarget: (n: number) => Element|null,
  *   offset?: () => number,
  * }} opts
  */
-export function mountChapterRail({ chapterCount, getTarget, offset = () => 0 }) {
+export function mountChapterRail({
+  chapterCount,
+  chapters,
+  columns = 1,
+  getTarget,
+  offset = () => 0,
+}) {
   document.querySelector(".chapter-rail")?.remove();
 
-  const count = chapterCount;
-  if (!count) return { destroy() {}, setCurrent() {} };
+  const nums =
+    Array.isArray(chapters) && chapters.length
+      ? chapters
+      : Array.from({ length: chapterCount || 0 }, (_, i) => i + 1);
+  if (!nums.length) return { destroy() {}, setCurrent() {} };
 
   const nav = document.createElement("nav");
   nav.className = "chapter-rail";
+  if (columns > 1) nav.classList.add("is-psalms");
   nav.setAttribute("aria-label", "Chapitres");
-  nav.style.setProperty("--chapter-count", String(count));
+  nav.style.setProperty("--chapter-count", String(nums.length));
+  nav.style.setProperty("--rail-cols", String(columns));
+  const rows = Math.ceil(nums.length / Math.max(1, columns));
+  nav.style.setProperty("--psalm-rows", String(rows));
 
   /** @type {HTMLAnchorElement[]} */
   const links = [];
 
-  for (let n = 1; n <= count; n++) {
+  for (const n of nums) {
     const a = document.createElement("a");
     a.href = `#c${n}`;
     a.textContent = String(n);
@@ -58,8 +72,8 @@ export function mountChapterRail({ chapterCount, getTarget, offset = () => 0 }) 
   const spy = () => {
     spyRaf = 0;
     const line = offset();
-    let best = 1;
-    for (let n = 1; n <= count; n++) {
+    let best = nums[0];
+    for (const n of nums) {
       const el = getTarget(n);
       if (!el) continue;
       if (el.getBoundingClientRect().top - line <= 12) best = n;
@@ -74,7 +88,7 @@ export function mountChapterRail({ chapterCount, getTarget, offset = () => 0 }) 
 
   const onPop = () => {
     const m = /^#c(\d+)/i.exec(location.hash || "");
-    const n = m ? parseInt(m[1], 10) : 1;
+    const n = m ? parseInt(m[1], 10) : nums[0];
     const el = getTarget(n);
     if (el) glideToElement(el, { offset: offset() });
   };

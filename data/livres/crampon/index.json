@@ -1,0 +1,601 @@
+{
+  "version": {
+    "id": "crampon",
+    "label": "Crampon 1923",
+    "blurb": "Traduction d'Augustin Crampon · 1923",
+    "year": 1923,
+    "lang": "fr",
+    "license": "public-domain",
+    "source": "Augustin Crampon",
+    "abbreviation": "crampon",
+    "canon": "catholic",
+    "at": "Ancien Testament",
+    "nt": "Nouveau Testament"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "Genèse",
+      "original_title": "Genesis",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "Exode",
+      "original_title": "Exodus",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "Lévitique",
+      "original_title": "Leviticus",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "Nombres",
+      "original_title": "Numbers",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "Deutéronome",
+      "original_title": "Deuteronomy",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "Josué",
+      "original_title": "Joshua",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "Juges",
+      "original_title": "Judges",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ruth",
+      "title": "Ruth",
+      "original_title": "Ruth",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "1 Samuel",
+      "original_title": "I Samuel",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "2 Samuel",
+      "original_title": "II Samuel",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "1 Rois",
+      "original_title": "I Kings",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "2 Rois",
+      "original_title": "II Kings",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "1 Chroniques",
+      "original_title": "I Chronicles",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "2 Chroniques",
+      "original_title": "II Chronicles",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "Esdras",
+      "original_title": "Ezra",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "Néhémie",
+      "original_title": "Nehemiah",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "tobie",
+      "title": "Tobie",
+      "original_title": "Tobit",
+      "short": "Tb",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "judith",
+      "title": "Judith",
+      "original_title": "Judith",
+      "short": "Jdt",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "esther",
+      "title": "Esther",
+      "original_title": "Esther",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-maccabees",
+      "title": "1 Maccabées",
+      "original_title": "I Maccabees",
+      "short": "1 M",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "2-maccabees",
+      "title": "2 Maccabées",
+      "original_title": "II Maccabees",
+      "short": "2 M",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "job",
+      "title": "Job",
+      "original_title": "Job",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "psaumes",
+      "title": "Psaumes",
+      "original_title": "Psalms",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "Proverbes",
+      "original_title": "Proverbs",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "Ecclésiaste",
+      "original_title": "Ecclesiastes",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "Cantique des Cantiques",
+      "original_title": "Song of Solomon",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "sagesse",
+      "title": "Sagesse",
+      "original_title": "Wisdom",
+      "short": "Sg",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "siracide",
+      "title": "Siracide (Ecclésiastique)",
+      "original_title": "Sirach",
+      "short": "Si",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "esaie",
+      "title": "Ésaïe",
+      "original_title": "Isaiah",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "Jérémie",
+      "original_title": "Jeremiah",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "lamentations",
+      "title": "Lamentations",
+      "original_title": "Lamentations",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "baruch",
+      "title": "Baruch",
+      "original_title": "Baruch",
+      "short": "Ba",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "ezechiel",
+      "title": "Ézéchiel",
+      "original_title": "Ezekiel",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "daniel",
+      "title": "Daniel",
+      "original_title": "Daniel",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "osee",
+      "title": "Osée",
+      "original_title": "Hosea",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "Joël",
+      "original_title": "Joel",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "Amos",
+      "original_title": "Amos",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "Abdias",
+      "original_title": "Obadiah",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "Jonas",
+      "original_title": "Jonah",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "Michée",
+      "original_title": "Micah",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "Nahum",
+      "original_title": "Nahum",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "Habacuc",
+      "original_title": "Habakkuk",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "Sophonie",
+      "original_title": "Zephaniah",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "Aggée",
+      "original_title": "Haggai",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "Zacharie",
+      "original_title": "Zechariah",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "Malachie",
+      "original_title": "Malachi",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "matthieu",
+      "title": "Évangile selon saint Matthieu",
+      "original_title": "Matthew",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "Évangile selon saint Marc",
+      "original_title": "Mark",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "Évangile selon saint Luc",
+      "original_title": "Luke",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "Évangile selon saint Jean",
+      "original_title": "John",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "actes",
+      "title": "Actes des Apôtres",
+      "original_title": "Acts",
+      "short": "Ac",
+      "testament": "nt",
+      "section": "actes"
+    },
+    {
+      "id": "romains",
+      "title": "Romains",
+      "original_title": "Romans",
+      "short": "Rm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-corinthiens",
+      "title": "1 Corinthiens",
+      "original_title": "I Corinthians",
+      "short": "1 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-corinthiens",
+      "title": "2 Corinthiens",
+      "original_title": "II Corinthians",
+      "short": "2 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "galates",
+      "title": "Galates",
+      "original_title": "Galatians",
+      "short": "Ga",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "ephesiens",
+      "title": "Éphésiens",
+      "original_title": "Ephesians",
+      "short": "Ép",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philippiens",
+      "title": "Philippiens",
+      "original_title": "Philippians",
+      "short": "Ph",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "colossiens",
+      "title": "Colossiens",
+      "original_title": "Colossians",
+      "short": "Col",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-thessaloniciens",
+      "title": "1 Thessaloniciens",
+      "original_title": "I Thessalonians",
+      "short": "1 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-thessaloniciens",
+      "title": "2 Thessaloniciens",
+      "original_title": "II Thessalonians",
+      "short": "2 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-timothee",
+      "title": "1 Timothée",
+      "original_title": "I Timothy",
+      "short": "1 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-timothee",
+      "title": "2 Timothée",
+      "original_title": "II Timothy",
+      "short": "2 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "tite",
+      "title": "Tite",
+      "original_title": "Titus",
+      "short": "Tt",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philemon",
+      "title": "Philémon",
+      "original_title": "Philemon",
+      "short": "Phm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "hebreux",
+      "title": "Hébreux",
+      "original_title": "Hebrews",
+      "short": "Hé",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jacques",
+      "title": "Jacques",
+      "original_title": "James",
+      "short": "Jc",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-pierre",
+      "title": "1 Pierre",
+      "original_title": "I Peter",
+      "short": "1 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-pierre",
+      "title": "2 Pierre",
+      "original_title": "II Peter",
+      "short": "2 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-jean",
+      "title": "1 Jean",
+      "original_title": "I John",
+      "short": "1 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-jean",
+      "title": "2 Jean",
+      "original_title": "II John",
+      "short": "2 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "3-jean",
+      "title": "3 Jean",
+      "original_title": "III John",
+      "short": "3 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jude",
+      "title": "Jude",
+      "original_title": "Jude",
+      "short": "Jude",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "apocalypse",
+      "title": "Apocalypse",
+      "original_title": "Revelation of John",
+      "short": "Ap",
+      "testament": "nt",
+      "section": "apocalypse"
+    }
+  ]
+}

@@ -4,7 +4,9 @@ import { mountSwipeNav } from "./swipe-nav.js";
 import {
   mountActiveEditionBar,
   getActiveEdition,
+  EDITION_STACK,
 } from "./editions.js";
+import { listVersionIds } from "./data-loader.js";
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -32,14 +34,16 @@ async function init() {
   if (!listEl) return;
 
   mountSwipeNav();
-  mountActiveEditionBar();
+  const available = await listVersionIds();
+  const pool = available.length ? available : EDITION_STACK;
+  mountActiveEditionBar(pool);
 
   /** @type {MaskDilatation[]} */
   const masks = [];
 
   document.addEventListener("lsb:editions", () => {
-    mountActiveEditionBar();
-    const edition = getActiveEdition();
+    mountActiveEditionBar(pool);
+    const edition = getActiveEdition(pool);
     for (const mask of masks) {
       mask.remount(edition).catch(() => {});
     }
@@ -119,7 +123,7 @@ async function init() {
           verseStart: reading.ref.verseStart,
           verseEnd: reading.ref.verseEnd,
           ranges: reading.ref.ranges,
-          edition: getActiveEdition(),
+          edition: getActiveEdition(pool),
           fallback: reading.excerpt || "Passage indisponible.",
         });
         masks.push(mask);

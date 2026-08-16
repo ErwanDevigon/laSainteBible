@@ -1,19 +1,13 @@
-/** In-memory book loader with Map cache. */
+/** In-memory book / version-index loader. */
 
-import { GOSPEL_IDS as CANON_GOSPELS, isGospel as canonIsGospel } from "./books.js";
+import { GOSPEL_IDS as CANON_GOSPELS, isGospel as canonIsGospel, VERSIONS } from "./books.js";
 
 const cache = new Map();
+const indexCache = new Map();
 
-const DEFAULT_EDITION = "segond-1910";
+export const DEFAULT_EDITION = "segond-1910";
 
-function bookFiles(id, edition) {
-  if (!edition || edition === DEFAULT_EDITION) {
-    return [`data/livres/${id}.json`, `data/evangiles/${id}.json`];
-  }
-  return [`data/evangiles/${edition}/${id}.json`, `data/${edition}/${id}.json`];
-}
-
-function resolveUrls(file) {
+export function resolveUrls(file) {
   const rootUrl = `/${file}`;
   const depth = window.location.pathname.split("/").filter(Boolean).length;
   const path = window.location.pathname;
@@ -23,29 +17,42 @@ function resolveUrls(file) {
   return [rootUrl, rel];
 }
 
+async function fetchJson(file) {
+  let lastStatus = 0;
+  for (const url of resolveUrls(file)) {
+    const res = await fetch(url);
+    lastStatus = res.status;
+    if (!res.ok) continue;
+    return { ok: true, data: await res.json() };
+  }
+  return { ok: false, status: lastStatus };
+}
+
+function bookFiles(id, edition) {
+  const files = [`data/livres/${edition}/${id}.json`];
+  if (edition === "septante" && canonIsGospel(id)) {
+    files.push(`data/evangiles/septante/${id}.json`);
+  }
+  return files;
+}
+
 function cacheKey(id, edition) {
   return `${edition || DEFAULT_EDITION}:${id}`;
 }
 
-/**
- * @param {string} id
- * @param {string} [edition] - segond-1910 (default) | septante | vulgate
- * @returns {Promise<object>}
- */
 export async function loadBook(id, edition = DEFAULT_EDITION) {
   const key = cacheKey(id, edition);
   if (cache.has(key)) return cache.get(key);
 
   let lastStatus = 0;
   for (const file of bookFiles(id, edition)) {
-    for (const url of resolveUrls(file)) {
-      const res = await fetch(url);
-      lastStatus = res.status;
-      if (!res.ok) continue;
-      const book = await res.json();
-      cache.set(key, book);
-      return book;
+    const hit = await fetchJson(file);
+    if (!hit.ok) {
+      lastStatus = hit.status;
+      continue;
     }
+    cache.set(key, hit.data);
+    return hit.data;
   }
   throw new Error(`Livre introuvable: ${id} (${edition}, ${lastStatus})`);
 }
@@ -58,14 +65,51 @@ export async function tryLoadBook(id, edition = DEFAULT_EDITION) {
   }
 }
 
+export async function loadVersionIndex(versionId) {
+  if (indexCache.has(versionId)) return indexCache.get(versionId);
+  const hit = await fetchJson(`data/livres/${versionId}/index.json`);
+  if (!hit.ok) {
+    indexCache.set(versionId, null);
+    return null;
+  }
+  indexCache.set(versionId, hit.data);
+  return hit.data;
+}
+
+export async function listVersionIds() {
+  const ids = Object.keys(VERSIONS);
+  const found = await Promise.all(ids.map(async (id) => ((await loadVersionIndex(id)) ? id : null)));
+  return found.filter(Boolean);
+}
+
+export async function versionsForBook(bookId) {
+  const ids = await listVersionIds();
+  const out = [];
+  for (const id of ids) {
+    const idx = await loadVersionIndex(id);
+    if (idx?.books?.some((b) => b.id === bookId)) out.push(id);
+  }
+  return out;
+}
+
 export function getChapter(book, n) {
   if (!book?.chapters) return null;
   return book.chapters.find((c) => c.n === n) || book.chapters[n - 1] || null;
 }
 
-/** Source of truth for rail / loops — never hardcode a book length. */
 export function chapterCount(book) {
   return book?.chapters?.length ?? 0;
+}
+
+export function chapterNums(book) {
+  const seen = new Set();
+  const out = [];
+  for (const ch of book?.chapters || []) {
+    if (seen.has(ch.n)) continue;
+    seen.add(ch.n);
+    out.push(ch.n);
+  }
+  return out;
 }
 
 export function getVerseRange(book, chapterN, vStart, vEnd) {
@@ -78,6 +122,7 @@ export function getVerseRange(book, chapterN, vStart, vEnd) {
 
 export function clearCache() {
   cache.clear();
+  indexCache.clear();
 }
 
 export const GOSPEL_IDS = CANON_GOSPELS;

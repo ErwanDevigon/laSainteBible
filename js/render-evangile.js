@@ -191,13 +191,6 @@ export function renderBook(book, container, opts = {}) {
   }
 }
 
-function el(tag, className, text) {
-  const node = document.createElement(tag);
-  if (className) node.className = className;
-  if (text != null) node.textContent = text;
-  return node;
-}
-
 function chapterMap(book) {
   const map = new Map();
   for (const ch of book.chapters || []) map.set(ch.n, ch);
@@ -292,12 +285,6 @@ export function renderAlignedBook({ editions, container, end = null }) {
         stage.append(hole);
       }
     }
-  }
-
-  for (const ed of editions) {
-    const foot = el("footer", "site-footer", ed.label || ed.book.version?.label || "");
-    foot.dataset.col = ed.col;
-    stage.append(foot);
   }
 
   container.appendChild(stage);

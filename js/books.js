@@ -1016,9 +1016,227 @@ export const BOOKS = [
   }
 ];
 
+export const SECTIONS = [
+  {
+    "id": "torah",
+    "testament": "at",
+    "label": "Pentateuque"
+  },
+  {
+    "id": "neviim",
+    "testament": "at",
+    "label": "Prophètes"
+  },
+  {
+    "id": "ketuvim",
+    "testament": "at",
+    "label": "Écrits"
+  },
+  {
+    "id": "deuterocanoniques",
+    "testament": "at",
+    "label": "Deutérocanoniques"
+  },
+  {
+    "id": "evangiles",
+    "testament": "nt",
+    "label": "Évangiles"
+  },
+  {
+    "id": "actes",
+    "testament": "nt",
+    "label": "Actes"
+  },
+  {
+    "id": "epitres",
+    "testament": "nt",
+    "label": "Épîtres"
+  },
+  {
+    "id": "apocalypse",
+    "testament": "nt",
+    "label": "Apocalypse"
+  }
+];
+
+export const VERSIONS = {
+  "segond-1910": {
+    "id": "segond-1910",
+    "label": "Louis Segond 1910",
+    "blurb": "Traduction de Louis Segond · 1910",
+    "year": 1910,
+    "lang": "fr",
+    "license": "public-domain",
+    "source": "Louis Segond 1910",
+    "abbreviation": "ls1910",
+    "canon": "protestant",
+    "at": "Ancien Testament",
+    "nt": "Nouveau Testament"
+  },
+  "martin": {
+    "id": "martin",
+    "label": "David Martin 1744",
+    "blurb": "Traduction de David Martin · 1744",
+    "year": 1744,
+    "lang": "fr",
+    "license": "public-domain",
+    "source": "David Martin (rév. Pierre Roques)",
+    "abbreviation": "martin",
+    "canon": "protestant",
+    "at": "Ancien Testament",
+    "nt": "Nouveau Testament"
+  },
+  "darby": {
+    "id": "darby",
+    "label": "John Nelson Darby",
+    "blurb": "Traduction de J. N. Darby · 1885",
+    "year": 1885,
+    "lang": "fr",
+    "license": "public-domain",
+    "source": "J.N. Darby (Bible complète)",
+    "abbreviation": "darby",
+    "canon": "protestant",
+    "at": "Ancien Testament",
+    "nt": "Nouveau Testament"
+  },
+  "ostervald": {
+    "id": "ostervald",
+    "label": "Ostervald",
+    "blurb": "Traduction d'Ostervald · 1744",
+    "year": 1744,
+    "lang": "fr",
+    "license": "public-domain",
+    "source": "Jean-Frédéric Ostervald",
+    "abbreviation": "ostervald",
+    "canon": "protestant",
+    "at": "Ancien Testament",
+    "nt": "Nouveau Testament"
+  },
+  "crampon": {
+    "id": "crampon",
+    "label": "Crampon 1923",
+    "blurb": "Traduction d'Augustin Crampon · 1923",
+    "year": 1923,
+    "lang": "fr",
+    "license": "public-domain",
+    "source": "Augustin Crampon",
+    "abbreviation": "crampon",
+    "canon": "catholic",
+    "at": "Ancien Testament",
+    "nt": "Nouveau Testament"
+  },
+  "vulgate": {
+    "id": "vulgate",
+    "label": "Vulgate (Clementine)",
+    "blurb": "Vulgata Clementina · 1592",
+    "year": 1592,
+    "lang": "la",
+    "license": "public-domain",
+    "source": "Vulgata Clementina",
+    "abbreviation": "vulgate",
+    "canon": "catholic",
+    "at": "Vetus Testamentum",
+    "nt": "Novum Testamentum"
+  },
+  "septante": {
+    "id": "septante",
+    "label": "Septante (LXX)",
+    "blurb": "Οἱ Ἑβδομήκοντα",
+    "year": -250,
+    "lang": "el",
+    "license": "public-domain",
+    "source": "Septante",
+    "abbreviation": "lxx",
+    "canon": "orthodox",
+    "at": "Παλαιὰ Διαθήκη",
+    "nt": "Καινὴ Διαθήκη"
+  },
+  "textusreceptus": {
+    "id": "textusreceptus",
+    "label": "Textus Receptus",
+    "blurb": "Textus Receptus · 1550",
+    "year": 1550,
+    "lang": "el",
+    "license": "public-domain",
+    "source": "Textus Receptus (Stephanus)",
+    "abbreviation": "textusreceptus",
+    "canon": "protestant",
+    "at": "Παλαιὰ Διαθήκη",
+    "nt": "Καινὴ Διαθήκη"
+  },
+  "tischendorf": {
+    "id": "tischendorf",
+    "label": "Tischendorf",
+    "blurb": "Tischendorf · 1872",
+    "year": 1872,
+    "lang": "el",
+    "license": "public-domain",
+    "source": "Constantin von Tischendorf (8e éd.)",
+    "abbreviation": "tischendorf",
+    "canon": "protestant",
+    "at": "Παλαιὰ Διαθήκη",
+    "nt": "Καινὴ Διαθήκη"
+  },
+  "westcotthort": {
+    "id": "westcotthort",
+    "label": "Westcott-Hort",
+    "blurb": "Westcott & Hort · 1881",
+    "year": 1881,
+    "lang": "el",
+    "license": "public-domain",
+    "source": "Westcott & Hort",
+    "abbreviation": "westcotthort",
+    "canon": "protestant",
+    "at": "Παλαιὰ Διαθήκη",
+    "nt": "Καινὴ Διαθήκη"
+  },
+  "moderngreek": {
+    "id": "moderngreek",
+    "label": "Grec moderne",
+    "blurb": "Ἡ Ἁγία Γραφή · 1850",
+    "year": 1850,
+    "lang": "el",
+    "license": "public-domain",
+    "source": "Neophytos Vamvas (1850)",
+    "abbreviation": "moderngreek",
+    "canon": "protestant",
+    "at": "Παλαιὰ Διαθήκη",
+    "nt": "Καινὴ Διαθήκη"
+  }
+};
+
 export const BOOK_BY_ID = Object.fromEntries(BOOKS.map(b => [b.id, b]));
 export const BOOK_BY_NR = Object.fromEntries(BOOKS.map(b => [b.nr, b]));
+export const GOSPEL_IDS = ["matthieu", "marc", "luc", "jean"];
 
 export function booksForCanon(canon) {
   return BOOKS.filter(b => b.canons.includes(canon));
+}
+
+export function isGospel(id) {
+  return GOSPEL_IDS.includes(id);
+}
+
+export function bookHref(id, base = "") {
+  const file = GOSPEL_IDS.includes(id) ? `${id}.html` : `livre.html?livre=${id}`;
+  return `${base}${file}`;
+}
+
+export function bookName(book) {
+  if (!book) return "";
+  return book.original_title || book.title || book.name || book.id || "";
+}
+
+export function neighborBooks(id, list = BOOKS) {
+  const i = list.findIndex(b => b.id === id);
+  return {
+    prev: i > 0 ? list[i - 1] : null,
+    next: i >= 0 && i < list.length - 1 ? list[i + 1] : null,
+  };
+}
+
+export function versionIdsByYear(desc = false) {
+  const ids = Object.keys(VERSIONS);
+  ids.sort((a, b) => (VERSIONS[a].year - VERSIONS[b].year) || a.localeCompare(b));
+  return desc ? ids.reverse() : ids;
 }

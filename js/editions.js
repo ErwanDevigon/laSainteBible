@@ -1,27 +1,22 @@
-/** Edition registry, cookie order, reader chrome. */
+/** Edition registry, cookie order, chrome. */
 
-import { BOOK_BY_ID, GOSPEL_IDS, isGospel, bookHref } from "./books.js";
+import {
+  BOOK_BY_ID,
+  GOSPEL_IDS,
+  VERSIONS,
+  bookHref,
+  bookName,
+  versionIdsByYear,
+} from "./books.js";
 
 export const EDITION_SEGOND = "segond-1910";
 export const EDITION_SEPTANTE = "septante";
 export const EDITION_VULGATE = "vulgate";
+export const DEFAULT_ACTIVE = EDITION_SEGOND;
 
-export const LABEL_SEGOND = "Traduction de Louis Segond · 1910";
-export const LABEL_SEPTANTE = "Septante";
-export const LABEL_VULGATE = "Vulgate";
+export const EDITIONS = VERSIONS;
 
-export const EDITIONS = {
-  [EDITION_VULGATE]: { id: EDITION_VULGATE, label: LABEL_VULGATE, col: "vulgate" },
-  [EDITION_SEPTANTE]: { id: EDITION_SEPTANTE, label: LABEL_SEPTANTE, col: "septante" },
-  [EDITION_SEGOND]: { id: EDITION_SEGOND, label: LABEL_SEGOND, col: "segond" },
-};
-
-/** Left-to-right stack. Last item is the rest position. */
-export const EDITION_STACK = [
-  EDITION_VULGATE,
-  EDITION_SEPTANTE,
-  EDITION_SEGOND,
-];
+export const EDITION_STACK = versionIdsByYear(false);
 
 const COOKIE = "lsb-edition-order";
 const COOKIE_AGE = 60 * 60 * 24 * 365;
@@ -31,11 +26,16 @@ export function displayBookTitle(title) {
 }
 
 export function editionCol(id) {
-  return EDITIONS[id]?.col || id;
+  return EDITIONS[id]?.id || id;
 }
 
 export function editionLabel(id) {
   return EDITIONS[id]?.label || id;
+}
+
+export function editionBlurb(id) {
+  const v = EDITIONS[id];
+  return v?.blurb || v?.label || id;
 }
 
 export function readEditionOrder() {
@@ -62,10 +62,22 @@ export function orderedEditions(available) {
       set.delete(id);
     }
   }
-  for (const id of EDITION_STACK) {
-    if (set.has(id)) {
-      out.push(id);
-      set.delete(id);
+  if (!readEditionOrder() && set.has(DEFAULT_ACTIVE)) {
+    for (const id of EDITION_STACK) {
+      if (id === DEFAULT_ACTIVE) continue;
+      if (set.has(id)) {
+        out.push(id);
+        set.delete(id);
+      }
+    }
+    out.push(DEFAULT_ACTIVE);
+    set.delete(DEFAULT_ACTIVE);
+  } else {
+    for (const id of EDITION_STACK) {
+      if (set.has(id)) {
+        out.push(id);
+        set.delete(id);
+      }
     }
   }
   for (const id of set) out.push(id);
@@ -85,13 +97,11 @@ export function swapEditionOrder(a, b, available) {
   return order;
 }
 
-/** Rest / primary column — last in the stack. */
 export function getActiveEdition(available = EDITION_STACK) {
   const order = orderedEditions(available);
-  return order[order.length - 1] || EDITION_SEGOND;
+  return order[order.length - 1] || DEFAULT_ACTIVE;
 }
 
-/** Move `id` to rest position and persist. */
 export function setActiveEdition(id, available = EDITION_STACK) {
   if (!EDITIONS[id]) return orderedEditions(available);
   const order = orderedEditions(available).filter((x) => x !== id);
@@ -103,16 +113,45 @@ export function setActiveEdition(id, available = EDITION_STACK) {
   return order;
 }
 
-/**
- * Messe: one centered name + dropdown. Not the 3-column reader bar.
- */
+export function editionsByYearDesc(ids) {
+  return [...ids].sort((a, b) => {
+    const dy = (EDITIONS[b]?.year ?? 0) - (EDITIONS[a]?.year ?? 0);
+    return dy || a.localeCompare(b);
+  });
+}
+
+export function mountHeaderTranslation(versionId = getActiveEdition()) {
+  const header = document.querySelector(".site-header");
+  if (!header) return;
+  let el = header.querySelector(".header-translation");
+  if (!el) {
+    el = document.createElement("p");
+    el.className = "header-translation";
+    const brand = header.querySelector(".brand");
+    if (brand) {
+      const wrap = document.createElement("div");
+      wrap.className = "brand-block";
+      brand.replaceWith(wrap);
+      wrap.append(brand, el);
+    } else {
+      header.prepend(el);
+    }
+  }
+  el.textContent = editionBlurb(versionId);
+  header.classList.add("has-translation");
+  return el;
+}
+
 export function mountActiveEditionBar(available = EDITION_STACK) {
   document.querySelector(".active-edition-bar")?.remove();
   closeEditionMenu();
   document.body.classList.add("has-active-edition");
   document.body.classList.remove("has-editions");
 
-  const active = getActiveEdition(available);
+  const pool = available.length ? available : EDITION_STACK;
+  const active = getActiveEdition(pool);
+  mountHeaderTranslation(active);
+
   const bar = document.createElement("div");
   bar.className = "active-edition-bar";
   const btn = document.createElement("button");
@@ -127,8 +166,8 @@ export function mountActiveEditionBar(available = EDITION_STACK) {
       closeEditionMenu();
       return;
     }
-    openEditionMenu(btn, active, orderedEditions(available), (otherId) => {
-      setActiveEdition(otherId, available);
+    openEditionMenu(btn, active, pool, (otherId) => {
+      setActiveEdition(otherId, pool);
     });
   });
   bar.append(btn);
@@ -145,7 +184,7 @@ function closeEditionMenu() {
 
 function openEditionMenu(anchor, currentId, stack, onPick) {
   closeEditionMenu();
-  const others = stack.filter((id) => id !== currentId);
+  const others = editionsByYearDesc(stack.filter((id) => id !== currentId));
   if (!others.length) return;
 
   const menu = document.createElement("ul");
@@ -170,8 +209,7 @@ function openEditionMenu(anchor, currentId, stack, onPick) {
 
   document.body.append(menu);
   const r = anchor.getBoundingClientRect();
-  const mw = Math.max(r.width, 12 * 16);
-  menu.style.minWidth = `${mw}px`;
+  const mw = menu.getBoundingClientRect().width;
   let left = r.left + r.width / 2 - mw / 2;
   left = Math.max(8, Math.min(left, window.innerWidth - mw - 8));
   menu.style.left = `${left}px`;
@@ -197,19 +235,19 @@ function apostleBase() {
   return /\/lire(\/|$)/.test(window.location.pathname) ? "" : "lire/";
 }
 
-function mountApostleBar(bookId) {
+export function mountVolumeBar(bookId, peers) {
   const titleBar = document.createElement("nav");
-  titleBar.className = "book-title-bar apostle-bar";
-  titleBar.setAttribute("aria-label", "Évangiles");
+  titleBar.className = "book-title-bar volume-bar";
+  titleBar.setAttribute("aria-label", "Livres du volume");
   const base = apostleBase();
-  for (const id of GOSPEL_IDS) {
-    const meta = BOOK_BY_ID[id];
+  const items = peers && peers.length ? peers : [{ id: bookId, title: BOOK_BY_ID[bookId]?.title || bookId }];
+  for (const book of items) {
     const a = document.createElement("a");
-    a.className = "apostle-link";
-    a.href = bookHref(id, base);
-    a.textContent = meta?.name || id;
-    a.dataset.book = id;
-    if (id === bookId) {
+    a.className = "volume-link";
+    a.href = bookHref(book.id, base);
+    a.textContent = displayBookTitle(bookName(book) || book.title || book.id);
+    a.dataset.book = book.id;
+    if (book.id === bookId) {
       a.setAttribute("aria-current", "page");
       a.classList.add("is-current");
     }
@@ -218,37 +256,38 @@ function mountApostleBar(bookId) {
   return titleBar;
 }
 
-function mountPlainTitleBar(title) {
-  const titleBar = document.createElement("div");
-  titleBar.className = "book-title-bar";
-  titleBar.textContent = displayBookTitle(title);
-  return titleBar;
+function mountApostleBar(bookId) {
+  return mountVolumeBar(
+    bookId,
+    GOSPEL_IDS.map((id) => BOOK_BY_ID[id]).filter(Boolean)
+  );
 }
 
 /**
  * Sticky chrome under the site header: book title + edition names.
- * @param {{
- *   title?: string,
- *   bookId?: string,
- *   labels: { id: string, col?: string, label: string }[],
- *   available?: string[],
- * }} opts
  */
-export function mountReaderChrome({ title, bookId, labels, available } = {}) {
+export function mountReaderChrome({ title, bookId, labels, available, peers } = {}) {
   document.body.classList.add("has-editions");
   document.body.style.setProperty("--edition-count", String(labels.length || 3));
+  document.querySelector(".reader-chrome")?.remove();
   document.querySelector(".book-title-bar")?.remove();
   document.querySelector(".edition-name-bar")?.remove();
   closeEditionMenu();
 
   const stack = labels.map((item) => item.id).filter(Boolean);
   const pool = available && available.length ? available : stack;
+  const active = getActiveEdition(pool);
+  mountHeaderTranslation(active);
 
   let titleBar = null;
-  if (bookId && isGospel(bookId)) {
-    titleBar = mountApostleBar(bookId);
+  if (peers && peers.length) {
+    titleBar = mountVolumeBar(bookId, peers);
+  } else if (bookId) {
+    titleBar = mountVolumeBar(bookId, null);
   } else if (title) {
-    titleBar = mountPlainTitleBar(title);
+    titleBar = document.createElement("div");
+    titleBar.className = "book-title-bar";
+    titleBar.textContent = displayBookTitle(title);
   }
 
   const nameBar = document.createElement("div");
@@ -269,13 +308,12 @@ export function mountReaderChrome({ title, bookId, labels, available } = {}) {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
-      const open = document.querySelector(".edition-menu");
-      if (open) {
+      if (document.querySelector(".edition-menu")) {
         closeEditionMenu();
         return;
       }
-      openEditionMenu(btn, item.id, stack, (otherId) => {
-        swapEditionOrder(item.id, otherId, pool);
+      openEditionMenu(btn, item.id, pool, (otherId) => {
+        setActiveEdition(otherId, pool);
       });
     });
     wrap.append(btn);
@@ -283,34 +321,25 @@ export function mountReaderChrome({ title, bookId, labels, available } = {}) {
   }
   nameBar.append(stage);
 
+  const chrome = document.createElement("div");
+  chrome.className = "reader-chrome";
+  if (titleBar) chrome.append(titleBar);
+  chrome.append(nameBar);
+
   const header = document.querySelector(".site-header");
-  if (header) {
-    if (titleBar) {
-      header.after(titleBar);
-      titleBar.after(nameBar);
-    } else {
-      header.after(nameBar);
-    }
-  } else {
-    if (titleBar) document.body.prepend(titleBar);
-    (titleBar || document.body).after?.(nameBar);
-    if (!titleBar) document.body.prepend(nameBar);
+  if (header) header.after(chrome);
+  else document.body.prepend(chrome);
+
+  if (titleBar) {
+    document.body.style.setProperty("--book-bar-h", `${titleBar.offsetHeight}px`);
   }
 
-  return { titleBar, nameBar };
+  return { titleBar, nameBar, chrome };
 }
 
-/** Homepage / index: edition bar only, cookie-backed order. */
+/** Homepage / index: single centered name, like messe. */
 export function mountSiteEditionBar(available = EDITION_STACK) {
-  const order = orderedEditions(available);
-  return mountReaderChrome({
-    labels: order.map((id) => ({
-      id,
-      col: editionCol(id),
-      label: editionLabel(id),
-    })),
-    available,
-  });
+  return mountActiveEditionBar(available);
 }
 
 export function wrapCurrentPane(editionId = EDITION_SEGOND) {
@@ -318,7 +347,6 @@ export function wrapCurrentPane(editionId = EDITION_SEGOND) {
   if (existing) return existing;
 
   const main = document.querySelector(".site-main");
-  const footer = document.querySelector("body > .site-footer");
   if (!main) return null;
 
   const pane = document.createElement("div");
@@ -326,7 +354,6 @@ export function wrapCurrentPane(editionId = EDITION_SEGOND) {
   pane.dataset.edition = editionId;
   main.parentNode.insertBefore(pane, main);
   pane.appendChild(main);
-  if (footer) pane.appendChild(footer);
   document.body.dataset.edition = editionId;
   return pane;
 }

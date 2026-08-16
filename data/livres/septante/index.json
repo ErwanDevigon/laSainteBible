@@ -1,0 +1,441 @@
+{
+  "version": {
+    "id": "septante",
+    "label": "Septante (LXX)",
+    "blurb": "Οἱ Ἑβδομήκοντα",
+    "year": -250,
+    "lang": "el",
+    "license": "public-domain",
+    "source": "Septante",
+    "abbreviation": "lxx",
+    "canon": "orthodox",
+    "at": "Παλαιὰ Διαθήκη",
+    "nt": "Καινὴ Διαθήκη"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "Genèse",
+      "original_title": "Genesis",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "Exode",
+      "original_title": "Exodus",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "Lévitique",
+      "original_title": "Leviticus",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "Nombres",
+      "original_title": "Numbers",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "Deutéronome",
+      "original_title": "Deuteronomy",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "Josué",
+      "original_title": "Joshua",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "Juges",
+      "original_title": "Judges",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ruth",
+      "title": "Ruth",
+      "original_title": "Ruth",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "1 Samuel",
+      "original_title": "1 Samuel",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "2 Samuel",
+      "original_title": "2 Samuel",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "1 Rois",
+      "original_title": "1 Kings",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "2 Rois",
+      "original_title": "2 Kings",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "1 Chroniques",
+      "original_title": "1 Chronicles",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "2 Chroniques",
+      "original_title": "2 Chronicles",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "Esdras",
+      "original_title": "Ezra",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "Esdras",
+      "original_title": "Ezra",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "Néhémie",
+      "original_title": "Nehemiah",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "Esther",
+      "original_title": "Esther",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "judith",
+      "title": "Judith",
+      "original_title": "Judith",
+      "short": "Jdt",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "tobie",
+      "title": "Tobie",
+      "original_title": "Tobit",
+      "short": "Tb",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "1-maccabees",
+      "title": "1 Maccabées",
+      "original_title": "1 Maccabees",
+      "short": "1 M",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "2-maccabees",
+      "title": "2 Maccabées",
+      "original_title": "2 Maccabees",
+      "short": "2 M",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "3-maccabees",
+      "title": "3 Maccabées",
+      "original_title": "III Maccabees",
+      "short": "3 M",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "4-maccabees",
+      "title": "4 Maccabées",
+      "original_title": "IV Maccabees",
+      "short": "4 M",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "psaumes",
+      "title": "Psaumes",
+      "original_title": "Psalms",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "Proverbes",
+      "original_title": "Proverbs",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "Ecclésiaste",
+      "original_title": "Ecclesiastes",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "Cantique des Cantiques",
+      "original_title": "Song of Songs",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "Job",
+      "original_title": "Job",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "sagesse",
+      "title": "Sagesse",
+      "original_title": "Wisdom",
+      "short": "Sg",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "siracide",
+      "title": "Siracide (Ecclésiastique)",
+      "original_title": "Sirach",
+      "short": "Si",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "osee",
+      "title": "Osée",
+      "original_title": "Hosea",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "Amos",
+      "original_title": "Amos",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "Michée",
+      "original_title": "Micah",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "Joël",
+      "original_title": "Joel",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "Abdias",
+      "original_title": "Obadiah",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "Jonas",
+      "original_title": "Jonah",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "Nahum",
+      "original_title": "Nahum",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "Habacuc",
+      "original_title": "Habakkuk",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "Sophonie",
+      "original_title": "Zephaniah",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "Aggée",
+      "original_title": "Haggai",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "Zacharie",
+      "original_title": "Zechariah",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "Malachie",
+      "original_title": "Malachi",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "esaie",
+      "title": "Ésaïe",
+      "original_title": "Isaiah",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "Jérémie",
+      "original_title": "Jeremiah",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "baruch",
+      "title": "Baruch",
+      "original_title": "Baruch",
+      "short": "Ba",
+      "testament": "at",
+      "section": "deuterocanoniques"
+    },
+    {
+      "id": "lamentations",
+      "title": "Lamentations",
+      "original_title": "Lamentations",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "Ézéchiel",
+      "original_title": "Ezekiel",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "daniel",
+      "title": "Daniel",
+      "original_title": "Daniel",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "matthieu",
+      "title": "Évangile selon saint Matthieu",
+      "original_title": "Évangile selon saint Matthieu",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "Évangile selon saint Marc",
+      "original_title": "Évangile selon saint Marc",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "Évangile selon saint Luc",
+      "original_title": "Évangile selon saint Luc",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "Évangile selon saint Jean",
+      "original_title": "Évangile selon saint Jean",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    }
+  ]
+}

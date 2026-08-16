@@ -129,6 +129,15 @@ p {
   margin: 0 0 0.85em;
 }
 
+.site-main,
+.verse-text,
+.reading-excerpt,
+.canon-card,
+.panel-scroll .verse-text {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
 .verse-text,
 .reading-excerpt,
 .panel-scroll .verse-text {
@@ -136,8 +145,6 @@ p {
   text-justify: inter-word;
   hyphens: auto;
   -webkit-hyphens: auto;
-  user-select: text;
-  -webkit-user-select: text;
 }
 
 h1,
@@ -154,6 +161,8 @@ body > .site-header,
 body > .book-title-bar,
 body > .edition-name-bar,
 body > .active-edition-bar,
+body > .testament-bar,
+body > .reader-chrome,
 body > .chapter-rail {
   transform: none;
 }
@@ -165,10 +174,10 @@ body > .chapter-rail {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  gap: var(--space-3);
+  gap: 0 var(--space-3);
   height: var(--header-h);
   min-height: var(--header-h);
-  padding: 0 var(--space-5);
+  padding: 0.15rem var(--space-5) 0.2rem;
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -189,6 +198,15 @@ body > .chapter-rail {
   color: var(--text);
 }
 
+.brand-block {
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.05rem;
+  min-width: 0;
+}
+
 .brand {
   justify-self: start;
   color: var(--text-mute);
@@ -197,6 +215,20 @@ body > .chapter-rail {
 .brand strong {
   color: var(--text-soft);
   font-weight: 500;
+}
+
+.header-translation {
+  margin: 0;
+  max-width: 22rem;
+  font-family: var(--font-body);
+  font-size: 0.62rem;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--text-mute);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nav-center {

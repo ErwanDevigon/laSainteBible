@@ -7,7 +7,7 @@
 
 const SLOP = 8;
 const IGNORE =
-  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu";
+  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu, .testament-bar, .site-header";
 
 function readX(root) {
   return parseFloat(root.style.getPropertyValue("--swipe-x")) || 0;
@@ -192,8 +192,13 @@ export function bindGrabPan(root = document.body) {
   }
 
   function onSelectStart(e) {
-    if (e.target.closest(".verse-text, .edition-menu")) return;
-    e.preventDefault();
+    if (
+      e.target.closest(
+        ".site-header, .book-title-bar, .edition-name-bar, .active-edition-bar, .chapter-rail, .edition-menu, .testament-bar"
+      )
+    ) {
+      e.preventDefault();
+    }
   }
 
   function onDragStart(e) {
