@@ -3,6 +3,60 @@
   padding-top: var(--space-5);
 }
 
+/* Left chapter rail — count comes from --chapter-count (set in JS). */
+body.lecteur-page[data-book] {
+  --rail-w: 2.6rem;
+  padding-left: var(--rail-w);
+}
+
+body.lecteur-page[data-book] .site-header {
+  padding-left: calc(var(--rail-w) + var(--space-3));
+}
+
+.chapter-rail {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--rail-w, 2.6rem);
+  z-index: 45;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(var(--safe-top) + 0.35rem) 0 calc(var(--safe-bottom) + 0.35rem);
+  pointer-events: none;
+}
+
+.chapter-rail a {
+  pointer-events: auto;
+  font-family: var(--font-ui);
+  font-variant-numeric: tabular-nums;
+  font-size: clamp(0.55rem, calc(72dvh / var(--chapter-count, 21) / 1.45), 0.78rem);
+  line-height: 1;
+  color: var(--text-faint);
+  text-decoration: none;
+  padding: 0.12em 0.3em;
+  transform-origin: center center;
+  transition: transform 180ms var(--ease), color 180ms var(--ease);
+}
+
+.chapter-rail a:hover,
+.chapter-rail a:focus-visible {
+  color: var(--text);
+  transform: scale(1.45);
+}
+
+.chapter-rail a[aria-current="location"] {
+  color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chapter-rail a {
+    transition: none;
+  }
+}
+
 .book-header {
   margin-bottom: var(--space-7);
   text-align: center;
@@ -158,6 +212,7 @@
 
 .choose-card {
   display: block;
+  text-align: center;
   padding: var(--space-5);
   border-radius: var(--radius);
   border: 1px solid var(--border);
@@ -180,7 +235,7 @@
   font-family: var(--font-body);
   font-size: var(--text-lg);
   font-weight: 400;
-  margin-bottom: var(--space-2);
+  margin: 0;
 }
 
 .choose-card p {
@@ -188,14 +243,6 @@
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   color: var(--text-mute);
-}
-
-.choose-card {
-  cursor: default;
-}
-
-.choose-card:hover {
-  transform: none;
 }
 
 .chapter-select-label {
@@ -248,110 +295,27 @@
   color: var(--text);
 }
 
-
-/* --- Gospel name → chapter menu (sober) --- */
-.gospel-pick {
-  position: relative;
-  text-align: center;
-}
-
+/* Compact gospel names (messe footer) */
 .gospel-pick-name {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   color: var(--text-soft);
+  text-decoration: none;
   padding: var(--space-2) var(--space-3);
   min-height: 44px;
   border-radius: 999px;
   border: 1px solid transparent;
   background: transparent;
-  cursor: pointer;
   transition: border-color var(--dur-fast) var(--ease),
     background var(--dur-fast) var(--ease),
     color var(--dur-fast) var(--ease);
 }
 
-.gospel-pick-name:hover,
-.gospel-pick[data-open="true"] .gospel-pick-name {
+.gospel-pick-name:hover {
   color: var(--text);
   border-color: var(--border-strong);
   background: var(--bg-elevated);
-}
-
-.chapter-menu {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: calc(100% + 0.35rem);
-  z-index: 30;
-  min-width: 11rem;
-  max-width: min(18rem, 80vw);
-  max-height: min(16rem, 50vh);
-  overflow: auto;
-  padding: var(--space-2);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-strong);
-  background: var(--bg-elevated);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
-}
-
-.chapter-menu-list {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.2rem;
-}
-
-.chapter-menu-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 2.25rem;
-  padding: 0.25rem;
-  font-family: var(--font-ui);
-  font-size: var(--text-xs);
-  color: var(--text-mute);
-  text-decoration: none;
-  border-radius: 0.3rem;
-  font-variant-numeric: tabular-nums;
-}
-
-.chapter-menu-item:hover {
-  color: var(--text);
-  background: var(--bg-soft);
-}
-
-/* Cards mode on NT index */
-.choose-card.gospel-pick {
-  padding: var(--space-4);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--bg-elevated);
-}
-
-.choose-card.gospel-pick .gospel-pick-name {
-  width: 100%;
-  font-family: var(--font-body);
-  font-size: var(--text-lg);
-  border-radius: var(--radius-sm);
-}
-
-.choose-card.gospel-pick .chapter-menu {
-  position: static;
-  transform: none;
-  margin-top: var(--space-3);
-  max-height: 14rem;
-  box-shadow: none;
-}
-
-.choose-grid {
-  display: grid;
-  gap: var(--space-4);
-  grid-template-columns: 1fr;
-  max-width: 36rem;
-  margin-inline: auto;
-}
-
-@media (min-width: 560px) {
-  .choose-grid {
-    grid-template-columns: 1fr 1fr;
-  }
 }

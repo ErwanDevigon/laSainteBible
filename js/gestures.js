@@ -1,113 +1,135 @@
 /**
- * Horizontal swipe / drag detector (touch + mouse).
- * Ignores vertical scroll and interactive controls.
+ * LMB grab-pan (phone-like). Same page. Content follows the pointer.
+ * Vertical = document scroll. Horizontal = slide on a wider virtual stage;
+ * release keeps the offset (empty space is valid). No page change.
  */
+
+const SLOP = 8;
+const IGNORE = "input, textarea, select, option";
+
+function readX(root) {
+  return parseFloat(root.style.getPropertyValue("--swipe-x")) || 0;
+}
 
 /**
- * @param {HTMLElement} target
- * @param {{
- *   onSwipeLeft?: () => void,
- *   onSwipeRight?: () => void,
- *   threshold?: number,
- *   restraint?: number,
- *   allowedTime?: number
- * }} handlers
+ * @param {HTMLElement} [root]
  * @returns {() => void} dispose
  */
-export function bindSwipe(target, handlers = {}) {
-  const threshold = handlers.threshold ?? 48;
-  const restraint = handlers.restraint ?? 90;
-  const allowedTime = handlers.allowedTime ?? 1200;
+export function bindGrabPan(root = document.body) {
+  let sess = null;
+  let blockClick = false;
 
-  let startX = 0;
-  let startY = 0;
-  let startT = 0;
-  let tracking = false;
-  let pointerId = null;
-  let didSwipe = false;
+  function setX(px) {
+    root.style.setProperty("--swipe-x", `${px}px`);
+  }
 
-  const IGNORE =
-    'a, button, input, textarea, select, label, option, [data-expandable="true"], .reading-card, .gospel-pick, .chapter-pick';
-
-  function clearWindowListeners() {
+  function unbindWindow() {
+    window.removeEventListener("pointermove", onMove);
     window.removeEventListener("pointerup", onUp);
-    window.removeEventListener("pointercancel", onCancel);
+    window.removeEventListener("pointercancel", onUp);
   }
 
   function onDown(e) {
     if (e.pointerType === "mouse" && e.button !== 0) return;
+    if (sess) return;
     if (e.target.closest(IGNORE)) return;
 
-    tracking = true;
-    didSwipe = false;
-    pointerId = e.pointerId;
-    startX = e.clientX;
-    startY = e.clientY;
-    startT = Date.now();
+    sess = {
+      id: e.pointerId,
+      type: e.pointerType,
+      x0: e.clientX,
+      y0: e.clientY,
+      xBase: readX(root),
+      scrollY0: window.scrollY,
+      dragging: false,
+      axis: null,
+    };
 
-    // Capture only for touch — mouse capture steals click from children
-    if (e.pointerType === "touch" || e.pointerType === "pen") {
+    window.addEventListener("pointermove", onMove, { passive: false });
+    window.addEventListener("pointerup", onUp);
+    window.addEventListener("pointercancel", onUp);
+  }
+
+  function abortNative() {
+    sess = null;
+    unbindWindow();
+    root.classList.remove("is-swiping");
+  }
+
+  function onMove(e) {
+    if (!sess || e.pointerId !== sess.id) return;
+
+    const dx = e.clientX - sess.x0;
+    const dy = e.clientY - sess.y0;
+
+    if (!sess.dragging) {
+      if (dx * dx + dy * dy < SLOP * SLOP) return;
+      sess.dragging = true;
+      sess.axis = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
+      if (sess.axis === "y" && sess.type !== "mouse") {
+        abortNative();
+        return;
+      }
+      root.classList.add("is-swiping");
+      window.getSelection()?.removeAllRanges();
       try {
-        target.setPointerCapture(e.pointerId);
+        root.setPointerCapture(e.pointerId);
       } catch {
         /* ignore */
       }
-    } else {
-      window.addEventListener("pointerup", onUp, { passive: true });
-      window.addEventListener("pointercancel", onCancel, { passive: true });
     }
-  }
 
-  function finish(e) {
-    if (!tracking || e.pointerId !== pointerId) return;
-    tracking = false;
-    pointerId = null;
-    clearWindowListeners();
-
-    const dx = e.clientX - startX;
-    const dy = e.clientY - startY;
-    const dt = Date.now() - startT;
-
-    if (dt > allowedTime) return;
-    if (Math.abs(dx) < threshold) return;
-    if (Math.abs(dy) > restraint) return;
-    if (Math.abs(dy) > Math.abs(dx) * 0.75) return;
-
-    didSwipe = true;
-    if (dx < 0) handlers.onSwipeLeft?.();
-    else handlers.onSwipeRight?.();
+    e.preventDefault();
+    if (sess.axis === "y") {
+      window.scrollTo(0, sess.scrollY0 - dy);
+    } else {
+      window.scrollTo(0, sess.scrollY0);
+      setX(sess.xBase + dx);
+    }
   }
 
   function onUp(e) {
-    finish(e);
+    if (!sess || e.pointerId !== sess.id) return;
+    const dragged = sess.dragging;
+    sess = null;
+    unbindWindow();
+    root.classList.remove("is-swiping");
+
+    if (!dragged) return;
+
+    blockClick = true;
+    window.setTimeout(() => {
+      blockClick = false;
+    }, 0);
   }
 
-  function onCancel(e) {
-    if (e.pointerId !== pointerId) return;
-    tracking = false;
-    pointerId = null;
-    clearWindowListeners();
-  }
-
-  // Prevent residual click after a successful mouse drag-swipe
   function onClickCapture(e) {
-    if (didSwipe) {
-      e.preventDefault();
-      e.stopPropagation();
-      didSwipe = false;
-    }
+    if (!blockClick) return;
+    e.preventDefault();
+    e.stopPropagation();
+    blockClick = false;
   }
 
-  target.addEventListener("pointerdown", onDown, { passive: true });
-  target.addEventListener("pointerup", onUp, { passive: true });
-  target.addEventListener("pointercancel", onCancel, { passive: true });
-  target.addEventListener("click", onClickCapture, true);
+  function onSelectStart(e) {
+    e.preventDefault();
+  }
+
+  function onDragStart(e) {
+    e.preventDefault();
+  }
+
+  root.addEventListener("pointerdown", onDown);
+  root.addEventListener("click", onClickCapture, true);
+  root.addEventListener("selectstart", onSelectStart);
+  root.addEventListener("dragstart", onDragStart);
 
   return () => {
-    clearWindowListeners();
-    target.removeEventListener("pointerdown", onDown);
-    target.removeEventListener("pointerup", onUp);
-    target.removeEventListener("pointercancel", onCancel);
-    target.removeEventListener("click", onClickCapture, true);
+    unbindWindow();
+    root.removeEventListener("pointerdown", onDown);
+    root.removeEventListener("click", onClickCapture, true);
+    root.removeEventListener("selectstart", onSelectStart);
+    root.removeEventListener("dragstart", onDragStart);
+    root.classList.remove("is-swiping");
+    root.style.removeProperty("--swipe-x");
   };
 }

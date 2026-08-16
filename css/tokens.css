@@ -47,6 +47,20 @@
   --dur: 280ms;
   --dur-fast: 160ms;
 
+  /* Mask: duration + calm ease-in-out (slow start, slow end). */
+  --mask-dur: 2840ms;
+  --mask-ease: cubic-bezier(0.62, 0.02, 0.38, 1);
+
+  /* In-book chapter rail glide */
+  --chapter-dur: 1200ms;
+  --chapter-ease: cubic-bezier(0.62, 0.02, 0.38, 1);
+
+  /* Site pager: edge snap vs committed fly-off */
+  --swipe-snap-dur: 380ms;
+  --swipe-snap-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --swipe-commit-dur: 420ms;
+  --swipe-commit-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
   --header-h: 3.25rem;
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);

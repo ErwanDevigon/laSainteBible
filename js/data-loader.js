@@ -49,6 +49,11 @@ export function getChapter(book, n) {
   return book.chapters.find((c) => c.n === n) || book.chapters[n - 1] || null;
 }
 
+/** Source of truth for rail / loops — never hardcode a book length. */
+export function chapterCount(book) {
+  return book?.chapters?.length ?? 0;
+}
+
 export function getVerseRange(book, chapterN, vStart, vEnd) {
   const ch = getChapter(book, chapterN);
   if (!ch) return [];

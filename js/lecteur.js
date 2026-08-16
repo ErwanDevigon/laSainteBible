@@ -1,11 +1,13 @@
-import { loadBook } from "./data-loader.js";
+import { loadBook, chapterCount } from "./data-loader.js";
 import { renderBook, parseHash } from "./render-evangile.js";
 import { GOSPEL_META } from "./nav-books.js";
-import { fadeTo, jumpToElement, veilNow } from "./fade-nav.js";
+import { fadeTo, jumpToElement, veilNow, glideToElement } from "./fade-nav.js";
+import { mountChapterRail } from "./chapter-rail.js";
+import { mountSwipeNav } from "./swipe-nav.js";
 
 const BOOKS = GOSPEL_META.map((b) => ({
   id: b.id,
-  href: `${b.id}.html`,
+  href: `${b.id}.html#c1`,
   label: b.label,
 }));
 
@@ -32,36 +34,6 @@ function findRefEl(bodyEl, ref) {
   );
 }
 
-/**
- * Peaceful arrival: fade to black → instant jump → fade in.
- * Never uses smooth / high-speed scrolling.
- */
-function jumpToHash(bodyEl, { withFade = true } = {}) {
-  const ref = parseHash();
-  if (!ref) return;
-
-  const header = document.querySelector(".site-header");
-  const offset = (header?.offsetHeight || 0) + 12;
-
-  const doJump = () => {
-    const target = findRefEl(bodyEl, ref);
-    if (!target) return;
-    jumpToElement(target, { offset });
-    // second settle under veil / after fonts
-    requestAnimationFrame(() => {
-      jumpToElement(target, { offset });
-    });
-  };
-
-  // Layout must exist first
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      if (withFade) fadeTo(doJump);
-      else doJump();
-    });
-  });
-}
-
 async function init() {
   const root = document.querySelector("[data-book]");
   if (!root) return;
@@ -69,6 +41,8 @@ async function init() {
   // If deep-linking to a chapter, cover immediately (no flash of c1)
   const hasHash = !!parseHash();
   if (hasHash) veilNow();
+
+  mountSwipeNav();
 
   const bookId = root.dataset.book;
   const titleEl = document.querySelector("[data-book-title]");
@@ -93,23 +67,34 @@ async function init() {
 
     renderBook(book, bodyEl);
 
+    const headerEl = document.querySelector(".site-header");
+    const railOffset = () => (headerEl?.offsetHeight || 0) + 12;
+    mountChapterRail({
+      chapterCount: chapterCount(book),
+      getTarget: (n) =>
+        bodyEl.querySelector(`#c${n}`) || document.getElementById(`c${n}`),
+      offset: railOffset,
+    });
+
     if (hasHash) {
       // already veiled — jump under black, then soft unveil
       const ref = parseHash();
-      const header = document.querySelector(".site-header");
-      const offset = (header?.offsetHeight || 0) + 12;
       fadeTo(
         () => {
           const target = findRefEl(bodyEl, ref);
-          jumpToElement(target, { offset });
-          requestAnimationFrame(() => jumpToElement(target, { offset }));
+          jumpToElement(target, { offset: railOffset() });
+          requestAnimationFrame(() =>
+            jumpToElement(target, { offset: railOffset() })
+          );
         },
         { alreadyVeiled: true, holdMs: 280, fadeMs: 680 }
       );
     }
 
     window.addEventListener("hashchange", () => {
-      jumpToHash(bodyEl, { withFade: true });
+      const ref = parseHash();
+      const target = findRefEl(bodyEl, ref);
+      if (target) glideToElement(target, { offset: railOffset() });
     });
   } catch (err) {
     console.error(err);

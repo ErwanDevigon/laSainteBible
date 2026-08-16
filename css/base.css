@@ -28,6 +28,7 @@ html {
 }
 
 body {
+  --swipe-x: 0px;
   margin: 0;
   min-height: 100dvh;
   font-family: var(--font-body);
@@ -39,6 +40,59 @@ body {
   padding-bottom: var(--safe-bottom);
   padding-left: var(--safe-left);
   padding-right: var(--safe-right);
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+body a,
+body img {
+  -webkit-user-drag: none;
+}
+
+body > .site-header,
+body > .site-main,
+body > .site-footer,
+body > .chapter-rail,
+body > .page-veil {
+  transform: translate3d(var(--swipe-x), 0, 0);
+}
+
+body.is-swipe-snap > .site-header,
+body.is-swipe-snap > .site-main,
+body.is-swipe-snap > .site-footer,
+body.is-swipe-snap > .chapter-rail,
+body.is-swipe-snap > .page-veil {
+  transition: transform var(--swipe-snap-dur) var(--swipe-snap-ease);
+}
+
+body.is-swipe-commit > .site-header,
+body.is-swipe-commit > .site-main,
+body.is-swipe-commit > .site-footer,
+body.is-swipe-commit > .chapter-rail,
+body.is-swipe-commit > .page-veil {
+  transition: transform var(--swipe-commit-dur) var(--swipe-commit-ease);
+}
+
+body.is-swiping,
+body.is-swiping * {
+  cursor: grabbing !important;
+  overflow-anchor: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.is-swipe-snap > .site-header,
+  body.is-swipe-snap > .site-main,
+  body.is-swipe-snap > .site-footer,
+  body.is-swipe-snap > .chapter-rail,
+  body.is-swipe-snap > .page-veil,
+  body.is-swipe-commit > .site-header,
+  body.is-swipe-commit > .site-main,
+  body.is-swipe-commit > .site-footer,
+  body.is-swipe-commit > .chapter-rail,
+  body.is-swipe-commit > .page-veil {
+    transition: none;
+  }
 }
 
 img,

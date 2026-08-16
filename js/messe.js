@@ -2,6 +2,7 @@ import { loadLectures, formatDateFr, todayParis } from "./aelf.js";
 import { MaskDilatation } from "./expand.js";
 import { isGospel } from "./data-loader.js";
 import { mountGospelPickers } from "./nav-books.js";
+import { mountSwipeNav } from "./swipe-nav.js";
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -28,6 +29,8 @@ async function init() {
   const picksEl = document.querySelector("[data-gospel-pickers]");
 
   if (!listEl) return;
+
+  mountSwipeNav();
 
   if (picksEl) {
     mountGospelPickers(picksEl, { basePath: "lire/", mode: "compact" });
