@@ -2,6 +2,7 @@
   "version": {
     "id": "crampon",
     "label": "Crampon 1923",
+    "name": "Augustin Crampon",
     "blurb": "Traduction d'Augustin Crampon · 1923",
     "year": 1923,
     "lang": "fr",
@@ -16,7 +17,7 @@
     {
       "id": "genese",
       "title": "Genèse",
-      "original_title": "Genesis",
+      "original_title": "Genèse",
       "short": "Gn",
       "testament": "at",
       "section": "torah"
@@ -24,7 +25,7 @@
     {
       "id": "exode",
       "title": "Exode",
-      "original_title": "Exodus",
+      "original_title": "Exode",
       "short": "Ex",
       "testament": "at",
       "section": "torah"
@@ -32,7 +33,7 @@
     {
       "id": "levitique",
       "title": "Lévitique",
-      "original_title": "Leviticus",
+      "original_title": "Lévitique",
       "short": "Lv",
       "testament": "at",
       "section": "torah"
@@ -40,7 +41,7 @@
     {
       "id": "nombres",
       "title": "Nombres",
-      "original_title": "Numbers",
+      "original_title": "Nombres",
       "short": "Nb",
       "testament": "at",
       "section": "torah"
@@ -48,7 +49,7 @@
     {
       "id": "deuteronome",
       "title": "Deutéronome",
-      "original_title": "Deuteronomy",
+      "original_title": "Deutéronome",
       "short": "Dt",
       "testament": "at",
       "section": "torah"
@@ -56,7 +57,7 @@
     {
       "id": "josue",
       "title": "Josué",
-      "original_title": "Joshua",
+      "original_title": "Josué",
       "short": "Jos",
       "testament": "at",
       "section": "neviim"
@@ -64,7 +65,7 @@
     {
       "id": "juges",
       "title": "Juges",
-      "original_title": "Judges",
+      "original_title": "Juges",
       "short": "Jg",
       "testament": "at",
       "section": "neviim"
@@ -80,7 +81,7 @@
     {
       "id": "1-samuel",
       "title": "1 Samuel",
-      "original_title": "I Samuel",
+      "original_title": "1 Samuel",
       "short": "1 S",
       "testament": "at",
       "section": "neviim"
@@ -88,7 +89,7 @@
     {
       "id": "2-samuel",
       "title": "2 Samuel",
-      "original_title": "II Samuel",
+      "original_title": "2 Samuel",
       "short": "2 S",
       "testament": "at",
       "section": "neviim"
@@ -96,7 +97,7 @@
     {
       "id": "1-rois",
       "title": "1 Rois",
-      "original_title": "I Kings",
+      "original_title": "1 Rois",
       "short": "1 R",
       "testament": "at",
       "section": "neviim"
@@ -104,7 +105,7 @@
     {
       "id": "2-rois",
       "title": "2 Rois",
-      "original_title": "II Kings",
+      "original_title": "2 Rois",
       "short": "2 R",
       "testament": "at",
       "section": "neviim"
@@ -112,7 +113,7 @@
     {
       "id": "1-chroniques",
       "title": "1 Chroniques",
-      "original_title": "I Chronicles",
+      "original_title": "1 Chroniques",
       "short": "1 Ch",
       "testament": "at",
       "section": "ketuvim"
@@ -120,7 +121,7 @@
     {
       "id": "2-chroniques",
       "title": "2 Chroniques",
-      "original_title": "II Chronicles",
+      "original_title": "2 Chroniques",
       "short": "2 Ch",
       "testament": "at",
       "section": "ketuvim"
@@ -128,7 +129,7 @@
     {
       "id": "esdras",
       "title": "Esdras",
-      "original_title": "Ezra",
+      "original_title": "Esdras",
       "short": "Esd",
       "testament": "at",
       "section": "ketuvim"
@@ -136,7 +137,7 @@
     {
       "id": "nehemie",
       "title": "Néhémie",
-      "original_title": "Nehemiah",
+      "original_title": "Néhémie",
       "short": "Né",
       "testament": "at",
       "section": "ketuvim"
@@ -144,7 +145,7 @@
     {
       "id": "tobie",
       "title": "Tobie",
-      "original_title": "Tobit",
+      "original_title": "Tobie",
       "short": "Tb",
       "testament": "at",
       "section": "deuterocanoniques"
@@ -168,7 +169,7 @@
     {
       "id": "1-maccabees",
       "title": "1 Maccabées",
-      "original_title": "I Maccabees",
+      "original_title": "1 Maccabées",
       "short": "1 M",
       "testament": "at",
       "section": "deuterocanoniques"
@@ -176,7 +177,7 @@
     {
       "id": "2-maccabees",
       "title": "2 Maccabées",
-      "original_title": "II Maccabees",
+      "original_title": "2 Maccabées",
       "short": "2 M",
       "testament": "at",
       "section": "deuterocanoniques"
@@ -192,7 +193,7 @@
     {
       "id": "psaumes",
       "title": "Psaumes",
-      "original_title": "Psalms",
+      "original_title": "Psaumes",
       "short": "Ps",
       "testament": "at",
       "section": "ketuvim"
@@ -200,7 +201,7 @@
     {
       "id": "proverbes",
       "title": "Proverbes",
-      "original_title": "Proverbs",
+      "original_title": "Proverbes",
       "short": "Pr",
       "testament": "at",
       "section": "ketuvim"
@@ -208,7 +209,7 @@
     {
       "id": "ecclesiaste",
       "title": "Ecclésiaste",
-      "original_title": "Ecclesiastes",
+      "original_title": "Ecclésiaste",
       "short": "Ec",
       "testament": "at",
       "section": "ketuvim"
@@ -216,7 +217,7 @@
     {
       "id": "cantique",
       "title": "Cantique des Cantiques",
-      "original_title": "Song of Solomon",
+      "original_title": "Cantique des Cantiques",
       "short": "Ct",
       "testament": "at",
       "section": "ketuvim"
@@ -224,7 +225,7 @@
     {
       "id": "sagesse",
       "title": "Sagesse",
-      "original_title": "Wisdom",
+      "original_title": "Sagesse",
       "short": "Sg",
       "testament": "at",
       "section": "deuterocanoniques"
@@ -232,7 +233,7 @@
     {
       "id": "siracide",
       "title": "Siracide (Ecclésiastique)",
-      "original_title": "Sirach",
+      "original_title": "Siracide (Ecclésiastique)",
       "short": "Si",
       "testament": "at",
       "section": "deuterocanoniques"
@@ -240,7 +241,7 @@
     {
       "id": "esaie",
       "title": "Ésaïe",
-      "original_title": "Isaiah",
+      "original_title": "Ésaïe",
       "short": "Es",
       "testament": "at",
       "section": "neviim"
@@ -248,7 +249,7 @@
     {
       "id": "jeremie",
       "title": "Jérémie",
-      "original_title": "Jeremiah",
+      "original_title": "Jérémie",
       "short": "Jr",
       "testament": "at",
       "section": "neviim"
@@ -272,7 +273,7 @@
     {
       "id": "ezechiel",
       "title": "Ézéchiel",
-      "original_title": "Ezekiel",
+      "original_title": "Ézéchiel",
       "short": "Ez",
       "testament": "at",
       "section": "neviim"
@@ -288,7 +289,7 @@
     {
       "id": "osee",
       "title": "Osée",
-      "original_title": "Hosea",
+      "original_title": "Osée",
       "short": "Os",
       "testament": "at",
       "section": "neviim"
@@ -296,7 +297,7 @@
     {
       "id": "joel",
       "title": "Joël",
-      "original_title": "Joel",
+      "original_title": "Joël",
       "short": "Jl",
       "testament": "at",
       "section": "neviim"
@@ -312,7 +313,7 @@
     {
       "id": "abdias",
       "title": "Abdias",
-      "original_title": "Obadiah",
+      "original_title": "Abdias",
       "short": "Ab",
       "testament": "at",
       "section": "neviim"
@@ -320,7 +321,7 @@
     {
       "id": "jonas",
       "title": "Jonas",
-      "original_title": "Jonah",
+      "original_title": "Jonas",
       "short": "Jon",
       "testament": "at",
       "section": "neviim"
@@ -328,7 +329,7 @@
     {
       "id": "michee",
       "title": "Michée",
-      "original_title": "Micah",
+      "original_title": "Michée",
       "short": "Mi",
       "testament": "at",
       "section": "neviim"
@@ -344,7 +345,7 @@
     {
       "id": "habacuc",
       "title": "Habacuc",
-      "original_title": "Habakkuk",
+      "original_title": "Habacuc",
       "short": "Ha",
       "testament": "at",
       "section": "neviim"
@@ -352,7 +353,7 @@
     {
       "id": "sophonie",
       "title": "Sophonie",
-      "original_title": "Zephaniah",
+      "original_title": "Sophonie",
       "short": "So",
       "testament": "at",
       "section": "neviim"
@@ -360,7 +361,7 @@
     {
       "id": "aggee",
       "title": "Aggée",
-      "original_title": "Haggai",
+      "original_title": "Aggée",
       "short": "Ag",
       "testament": "at",
       "section": "neviim"
@@ -368,7 +369,7 @@
     {
       "id": "zacharie",
       "title": "Zacharie",
-      "original_title": "Zechariah",
+      "original_title": "Zacharie",
       "short": "Za",
       "testament": "at",
       "section": "neviim"
@@ -376,7 +377,7 @@
     {
       "id": "malachie",
       "title": "Malachie",
-      "original_title": "Malachi",
+      "original_title": "Malachie",
       "short": "Ml",
       "testament": "at",
       "section": "neviim"
@@ -384,7 +385,7 @@
     {
       "id": "matthieu",
       "title": "Évangile selon saint Matthieu",
-      "original_title": "Matthew",
+      "original_title": "Évangile selon saint Matthieu",
       "short": "Mt",
       "testament": "nt",
       "section": "evangiles"
@@ -392,7 +393,7 @@
     {
       "id": "marc",
       "title": "Évangile selon saint Marc",
-      "original_title": "Mark",
+      "original_title": "Évangile selon saint Marc",
       "short": "Mc",
       "testament": "nt",
       "section": "evangiles"
@@ -400,7 +401,7 @@
     {
       "id": "luc",
       "title": "Évangile selon saint Luc",
-      "original_title": "Luke",
+      "original_title": "Évangile selon saint Luc",
       "short": "Lc",
       "testament": "nt",
       "section": "evangiles"
@@ -408,7 +409,7 @@
     {
       "id": "jean",
       "title": "Évangile selon saint Jean",
-      "original_title": "John",
+      "original_title": "Évangile selon saint Jean",
       "short": "Jn",
       "testament": "nt",
       "section": "evangiles"
@@ -416,7 +417,7 @@
     {
       "id": "actes",
       "title": "Actes des Apôtres",
-      "original_title": "Acts",
+      "original_title": "Actes des Apôtres",
       "short": "Ac",
       "testament": "nt",
       "section": "actes"
@@ -424,7 +425,7 @@
     {
       "id": "romains",
       "title": "Romains",
-      "original_title": "Romans",
+      "original_title": "Romains",
       "short": "Rm",
       "testament": "nt",
       "section": "epitres"
@@ -432,7 +433,7 @@
     {
       "id": "1-corinthiens",
       "title": "1 Corinthiens",
-      "original_title": "I Corinthians",
+      "original_title": "1 Corinthiens",
       "short": "1 Co",
       "testament": "nt",
       "section": "epitres"
@@ -440,7 +441,7 @@
     {
       "id": "2-corinthiens",
       "title": "2 Corinthiens",
-      "original_title": "II Corinthians",
+      "original_title": "2 Corinthiens",
       "short": "2 Co",
       "testament": "nt",
       "section": "epitres"
@@ -448,7 +449,7 @@
     {
       "id": "galates",
       "title": "Galates",
-      "original_title": "Galatians",
+      "original_title": "Galates",
       "short": "Ga",
       "testament": "nt",
       "section": "epitres"
@@ -456,7 +457,7 @@
     {
       "id": "ephesiens",
       "title": "Éphésiens",
-      "original_title": "Ephesians",
+      "original_title": "Éphésiens",
       "short": "Ép",
       "testament": "nt",
       "section": "epitres"
@@ -464,7 +465,7 @@
     {
       "id": "philippiens",
       "title": "Philippiens",
-      "original_title": "Philippians",
+      "original_title": "Philippiens",
       "short": "Ph",
       "testament": "nt",
       "section": "epitres"
@@ -472,7 +473,7 @@
     {
       "id": "colossiens",
       "title": "Colossiens",
-      "original_title": "Colossians",
+      "original_title": "Colossiens",
       "short": "Col",
       "testament": "nt",
       "section": "epitres"
@@ -480,7 +481,7 @@
     {
       "id": "1-thessaloniciens",
       "title": "1 Thessaloniciens",
-      "original_title": "I Thessalonians",
+      "original_title": "1 Thessaloniciens",
       "short": "1 Th",
       "testament": "nt",
       "section": "epitres"
@@ -488,7 +489,7 @@
     {
       "id": "2-thessaloniciens",
       "title": "2 Thessaloniciens",
-      "original_title": "II Thessalonians",
+      "original_title": "2 Thessaloniciens",
       "short": "2 Th",
       "testament": "nt",
       "section": "epitres"
@@ -496,7 +497,7 @@
     {
       "id": "1-timothee",
       "title": "1 Timothée",
-      "original_title": "I Timothy",
+      "original_title": "1 Timothée",
       "short": "1 Tm",
       "testament": "nt",
       "section": "epitres"
@@ -504,7 +505,7 @@
     {
       "id": "2-timothee",
       "title": "2 Timothée",
-      "original_title": "II Timothy",
+      "original_title": "2 Timothée",
       "short": "2 Tm",
       "testament": "nt",
       "section": "epitres"
@@ -512,7 +513,7 @@
     {
       "id": "tite",
       "title": "Tite",
-      "original_title": "Titus",
+      "original_title": "Tite",
       "short": "Tt",
       "testament": "nt",
       "section": "epitres"
@@ -520,7 +521,7 @@
     {
       "id": "philemon",
       "title": "Philémon",
-      "original_title": "Philemon",
+      "original_title": "Philémon",
       "short": "Phm",
       "testament": "nt",
       "section": "epitres"
@@ -528,7 +529,7 @@
     {
       "id": "hebreux",
       "title": "Hébreux",
-      "original_title": "Hebrews",
+      "original_title": "Hébreux",
       "short": "Hé",
       "testament": "nt",
       "section": "epitres"
@@ -536,7 +537,7 @@
     {
       "id": "jacques",
       "title": "Jacques",
-      "original_title": "James",
+      "original_title": "Jacques",
       "short": "Jc",
       "testament": "nt",
       "section": "epitres"
@@ -544,7 +545,7 @@
     {
       "id": "1-pierre",
       "title": "1 Pierre",
-      "original_title": "I Peter",
+      "original_title": "1 Pierre",
       "short": "1 P",
       "testament": "nt",
       "section": "epitres"
@@ -552,7 +553,7 @@
     {
       "id": "2-pierre",
       "title": "2 Pierre",
-      "original_title": "II Peter",
+      "original_title": "2 Pierre",
       "short": "2 P",
       "testament": "nt",
       "section": "epitres"
@@ -560,7 +561,7 @@
     {
       "id": "1-jean",
       "title": "1 Jean",
-      "original_title": "I John",
+      "original_title": "1 Jean",
       "short": "1 Jn",
       "testament": "nt",
       "section": "epitres"
@@ -568,7 +569,7 @@
     {
       "id": "2-jean",
       "title": "2 Jean",
-      "original_title": "II John",
+      "original_title": "2 Jean",
       "short": "2 Jn",
       "testament": "nt",
       "section": "epitres"
@@ -576,7 +577,7 @@
     {
       "id": "3-jean",
       "title": "3 Jean",
-      "original_title": "III John",
+      "original_title": "3 Jean",
       "short": "3 Jn",
       "testament": "nt",
       "section": "epitres"
@@ -592,7 +593,7 @@
     {
       "id": "apocalypse",
       "title": "Apocalypse",
-      "original_title": "Revelation of John",
+      "original_title": "Apocalypse",
       "short": "Ap",
       "testament": "nt",
       "section": "apocalypse"

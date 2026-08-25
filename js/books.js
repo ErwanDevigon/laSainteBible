@@ -1059,10 +1059,146 @@ export const SECTIONS = [
   }
 ];
 
+export const TOC_SECTIONS = [
+  {
+    "id": "pentateuque",
+    "testament": "at",
+    "label": "Pentateuque",
+    "ids": [
+      "genese",
+      "exode",
+      "levitique",
+      "nombres",
+      "deuteronome"
+    ]
+  },
+  {
+    "id": "historiques",
+    "testament": "at",
+    "label": "Livres historiques",
+    "ids": [
+      "josue",
+      "juges",
+      "ruth",
+      "1-samuel",
+      "2-samuel",
+      "1-rois",
+      "2-rois",
+      "1-chroniques",
+      "2-chroniques",
+      "esdras",
+      "nehemie",
+      "tobie",
+      "judith",
+      "esther",
+      "1-maccabees",
+      "2-maccabees",
+      "3-maccabees",
+      "4-maccabees"
+    ]
+  },
+  {
+    "id": "poetiques",
+    "testament": "at",
+    "label": "Livres poétiques",
+    "ids": [
+      "job",
+      "psaumes",
+      "psaume-151",
+      "proverbes",
+      "ecclesiaste",
+      "cantique",
+      "sagesse",
+      "siracide"
+    ]
+  },
+  {
+    "id": "prophetes",
+    "testament": "at",
+    "label": "Prophètes",
+    "ids": [
+      "esaie",
+      "jeremie",
+      "lamentations",
+      "baruch",
+      "ezechiel",
+      "daniel",
+      "osee",
+      "joel",
+      "amos",
+      "abdias",
+      "jonas",
+      "michee",
+      "nahum",
+      "habacuc",
+      "sophonie",
+      "aggee",
+      "zacharie",
+      "malachie"
+    ]
+  },
+  {
+    "id": "evangiles",
+    "testament": "nt",
+    "label": "Évangiles",
+    "ids": [
+      "matthieu",
+      "marc",
+      "luc",
+      "jean"
+    ]
+  },
+  {
+    "id": "actes",
+    "testament": "nt",
+    "label": "Actes",
+    "ids": [
+      "actes"
+    ]
+  },
+  {
+    "id": "epitres",
+    "testament": "nt",
+    "label": "Épîtres",
+    "ids": [
+      "romains",
+      "1-corinthiens",
+      "2-corinthiens",
+      "galates",
+      "ephesiens",
+      "philippiens",
+      "colossiens",
+      "1-thessaloniciens",
+      "2-thessaloniciens",
+      "1-timothee",
+      "2-timothee",
+      "tite",
+      "philemon",
+      "hebreux",
+      "jacques",
+      "1-pierre",
+      "2-pierre",
+      "1-jean",
+      "2-jean",
+      "3-jean",
+      "jude"
+    ]
+  },
+  {
+    "id": "apocalypse",
+    "testament": "nt",
+    "label": "Apocalypse",
+    "ids": [
+      "apocalypse"
+    ]
+  }
+];
+
 export const VERSIONS = {
   "segond-1910": {
     "id": "segond-1910",
     "label": "Louis Segond 1910",
+    "name": "Louis Segond",
     "blurb": "Traduction de Louis Segond · 1910",
     "year": 1910,
     "lang": "fr",
@@ -1076,6 +1212,7 @@ export const VERSIONS = {
   "martin": {
     "id": "martin",
     "label": "David Martin 1744",
+    "name": "David Martin",
     "blurb": "Traduction de David Martin · 1744",
     "year": 1744,
     "lang": "fr",
@@ -1089,6 +1226,7 @@ export const VERSIONS = {
   "darby": {
     "id": "darby",
     "label": "John Nelson Darby",
+    "name": "J. N. Darby",
     "blurb": "Traduction de J. N. Darby · 1885",
     "year": 1885,
     "lang": "fr",
@@ -1102,6 +1240,7 @@ export const VERSIONS = {
   "ostervald": {
     "id": "ostervald",
     "label": "Ostervald",
+    "name": "Ostervald",
     "blurb": "Traduction d'Ostervald · 1744",
     "year": 1744,
     "lang": "fr",
@@ -1115,6 +1254,7 @@ export const VERSIONS = {
   "crampon": {
     "id": "crampon",
     "label": "Crampon 1923",
+    "name": "Augustin Crampon",
     "blurb": "Traduction d'Augustin Crampon · 1923",
     "year": 1923,
     "lang": "fr",
@@ -1128,6 +1268,7 @@ export const VERSIONS = {
   "vulgate": {
     "id": "vulgate",
     "label": "Vulgate (Clementine)",
+    "name": "Vulgata Clementina",
     "blurb": "Vulgata Clementina · 1592",
     "year": 1592,
     "lang": "la",
@@ -1141,8 +1282,10 @@ export const VERSIONS = {
   "septante": {
     "id": "septante",
     "label": "Septante (LXX)",
+    "name": "Septante (LXX)",
     "blurb": "Οἱ Ἑβδομήκοντα",
     "year": -250,
+    "year_label": "-250 av. J.C",
     "lang": "el",
     "license": "public-domain",
     "source": "Septante",
@@ -1154,6 +1297,7 @@ export const VERSIONS = {
   "textusreceptus": {
     "id": "textusreceptus",
     "label": "Textus Receptus",
+    "name": "Textus Receptus",
     "blurb": "Textus Receptus · 1550",
     "year": 1550,
     "lang": "el",
@@ -1167,6 +1311,7 @@ export const VERSIONS = {
   "tischendorf": {
     "id": "tischendorf",
     "label": "Tischendorf",
+    "name": "Tischendorf",
     "blurb": "Tischendorf · 1872",
     "year": 1872,
     "lang": "el",
@@ -1180,6 +1325,7 @@ export const VERSIONS = {
   "westcotthort": {
     "id": "westcotthort",
     "label": "Westcott-Hort",
+    "name": "Westcott & Hort",
     "blurb": "Westcott & Hort · 1881",
     "year": 1881,
     "lang": "el",
@@ -1193,6 +1339,7 @@ export const VERSIONS = {
   "moderngreek": {
     "id": "moderngreek",
     "label": "Grec moderne",
+    "name": "Grec moderne",
     "blurb": "Ἡ Ἁγία Γραφή · 1850",
     "year": 1850,
     "lang": "el",
@@ -1217,9 +1364,14 @@ export function isGospel(id) {
   return GOSPEL_IDS.includes(id);
 }
 
-export function bookHref(id, base = "") {
+export function bookHref(id, base = "", ref = null) {
   const file = GOSPEL_IDS.includes(id) ? `${id}.html` : `livre.html?livre=${id}`;
-  return `${base}${file}`;
+  let hash = "";
+  if (ref && ref.chapter) {
+    hash = `#c${ref.chapter}`;
+    if (ref.verse) hash += `v${ref.verse}`;
+  }
+  return `${base}${file}${hash}`;
 }
 
 export function bookName(book) {

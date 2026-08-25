@@ -18,8 +18,27 @@ export const EDITIONS = VERSIONS;
 
 export const EDITION_STACK = versionIdsByYear(false);
 
-const COOKIE = "lsb-edition-order";
+const COOKIE_ACTIVE = "lsb-active-edition";
+const COOKIE_COLS = "lsb-reader-cols";
+const COOKIE_LEGACY = "lsb-edition-order";
 const COOKIE_AGE = 60 * 60 * 24 * 365;
+
+function readCookie(name) {
+  const m = document.cookie.match(new RegExp(`(?:^|;\\s*)${name}=([^;]*)`));
+  return m ? decodeURIComponent(m[1]) : null;
+}
+
+function writeCookie(name, value) {
+  document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${COOKIE_AGE}; SameSite=Lax`;
+}
+
+function parseIds(raw) {
+  if (!raw) return [];
+  return raw
+    .split(",")
+    .map((s) => s.trim())
+    .filter((id) => EDITIONS[id]);
+}
 
 export function displayBookTitle(title) {
   return String(title || "").replace(/\bsaint\b/gi, "Saint");
@@ -33,55 +52,64 @@ export function editionLabel(id) {
   return EDITIONS[id]?.label || id;
 }
 
+export function editionName(id) {
+  const v = EDITIONS[id];
+  if (!v) return id;
+  return v.name || v.label || id;
+}
+
+export function editionYearShort(id) {
+  const v = EDITIONS[id];
+  if (!v) return "";
+  if (v.year_label) return v.year_label;
+  if (v.year != null && v.year !== "") return String(v.year);
+  return "";
+}
+
 export function editionBlurb(id) {
   const v = EDITIONS[id];
   return v?.blurb || v?.label || id;
 }
 
+/** Blurb in the version language, with date. */
+export function editionBlurbDated(id) {
+  const blurb = editionBlurb(id);
+  const year = editionYearShort(id);
+  if (!year) return blurb;
+  if (blurb.includes(year) || /·\s*-?\d/.test(blurb)) return blurb;
+  return `${blurb} · ${year}`;
+}
+
+/** Name · date (menu). */
+export function editionDisplayName(id) {
+  const name = editionName(id);
+  const year = editionYearShort(id);
+  return year ? `${name} · ${year}` : name;
+}
+
 export function readEditionOrder() {
-  const m = document.cookie.match(/(?:^|;\s*)lsb-edition-order=([^;]*)/);
-  if (!m) return null;
-  const ids = decodeURIComponent(m[1])
-    .split(",")
-    .map((s) => s.trim())
-    .filter((id) => EDITIONS[id]);
-  return ids.length ? ids : null;
+  const cols = parseIds(readCookie(COOKIE_COLS));
+  if (cols.length) return cols;
+  const legacy = parseIds(readCookie(COOKIE_LEGACY));
+  return legacy.length ? legacy : null;
 }
 
 export function writeEditionOrder(ids) {
-  document.cookie = `${COOKIE}=${encodeURIComponent(ids.join(","))}; path=/; max-age=${COOKIE_AGE}; SameSite=Lax`;
+  writeCookie(COOKIE_COLS, ids.join(","));
 }
 
 export function orderedEditions(available) {
   const have = [...available].filter((id) => EDITIONS[id]);
   const set = new Set(have);
-  const out = [];
-  for (const id of readEditionOrder() || []) {
-    if (set.has(id)) {
-      out.push(id);
-      set.delete(id);
-    }
+  const saved = parseIds(readCookie(COOKIE_COLS));
+  if (saved.length) {
+    const out = saved.filter((id) => set.has(id));
+    if (out.length) return out;
   }
-  if (!readEditionOrder() && set.has(DEFAULT_ACTIVE)) {
-    for (const id of EDITION_STACK) {
-      if (id === DEFAULT_ACTIVE) continue;
-      if (set.has(id)) {
-        out.push(id);
-        set.delete(id);
-      }
-    }
-    out.push(DEFAULT_ACTIVE);
-    set.delete(DEFAULT_ACTIVE);
-  } else {
-    for (const id of EDITION_STACK) {
-      if (set.has(id)) {
-        out.push(id);
-        set.delete(id);
-      }
-    }
-  }
-  for (const id of set) out.push(id);
-  return out;
+  const active = getActiveEdition(have);
+  if (set.has(active)) return [active];
+  if (set.has(DEFAULT_ACTIVE)) return [DEFAULT_ACTIVE];
+  return have.slice(0, 1);
 }
 
 export function swapEditionOrder(a, b, available) {
@@ -98,19 +126,60 @@ export function swapEditionOrder(a, b, available) {
 }
 
 export function getActiveEdition(available = EDITION_STACK) {
-  const order = orderedEditions(available);
-  return order[order.length - 1] || DEFAULT_ACTIVE;
+  const have = new Set([...available].filter((id) => EDITIONS[id]));
+  const saved = readCookie(COOKIE_ACTIVE);
+  if (saved && EDITIONS[saved] && (!have.size || have.has(saved))) return saved;
+  const legacy = parseIds(readCookie(COOKIE_LEGACY));
+  const last = legacy[legacy.length - 1];
+  if (last && (!have.size || have.has(last))) return last;
+  if (have.has(DEFAULT_ACTIVE) || !have.size) return DEFAULT_ACTIVE;
+  return [...have][0] || DEFAULT_ACTIVE;
 }
 
 export function setActiveEdition(id, available = EDITION_STACK) {
   if (!EDITIONS[id]) return orderedEditions(available);
-  const order = orderedEditions(available).filter((x) => x !== id);
-  order.push(id);
+  writeCookie(COOKIE_ACTIVE, id);
+  const order = orderedEditions(available);
+  if (order.length) order[order.length - 1] = id;
+  else order.push(id);
   writeEditionOrder(order);
   document.dispatchEvent(
     new CustomEvent("lsb:editions", { detail: { order, active: id } })
   );
   return order;
+}
+
+export function setColumnEdition(index, id, available = EDITION_STACK) {
+  if (!EDITIONS[id]) return orderedEditions(available);
+  const order = orderedEditions(available);
+  if (index < 0 || index >= order.length) return order;
+  order[index] = id;
+  if (index === order.length - 1) writeCookie(COOKIE_ACTIVE, id);
+  writeEditionOrder(order);
+  document.dispatchEvent(
+    new CustomEvent("lsb:editions", { detail: { order, column: index, id } })
+  );
+  return order;
+}
+
+export function prependReaderColumn(id, available = EDITION_STACK) {
+  if (!EDITIONS[id]) return orderedEditions(available);
+  const order = orderedEditions(available);
+  if (order.includes(id)) return order;
+  order.unshift(id);
+  writeEditionOrder(order);
+  document.dispatchEvent(
+    new CustomEvent("lsb:editions", { detail: { order, prepended: id } })
+  );
+  return order;
+}
+
+export function nextUnusedColumn(columns, available) {
+  const used = new Set(columns);
+  for (const id of EDITION_STACK) {
+    if (available.includes(id) && !used.has(id)) return id;
+  }
+  return null;
 }
 
 export function editionsByYearDesc(ids) {
@@ -120,26 +189,18 @@ export function editionsByYearDesc(ids) {
   });
 }
 
-export function mountHeaderTranslation(versionId = getActiveEdition()) {
+export function mountHeaderTranslation() {
   const header = document.querySelector(".site-header");
-  if (!header) return;
-  let el = header.querySelector(".header-translation");
-  if (!el) {
-    el = document.createElement("p");
-    el.className = "header-translation";
-    const brand = header.querySelector(".brand");
-    if (brand) {
-      const wrap = document.createElement("div");
-      wrap.className = "brand-block";
-      brand.replaceWith(wrap);
-      wrap.append(brand, el);
-    } else {
-      header.prepend(el);
-    }
+  if (!header) return null;
+  header.querySelector(".header-translation")?.remove();
+  const block = header.querySelector(".brand-block");
+  if (block) {
+    const brand = block.querySelector(".brand");
+    if (brand) block.replaceWith(brand);
+    else block.remove();
   }
-  el.textContent = editionBlurb(versionId);
-  header.classList.add("has-translation");
-  return el;
+  header.classList.remove("has-translation");
+  return null;
 }
 
 export function mountActiveEditionBar(available = EDITION_STACK) {
@@ -150,15 +211,20 @@ export function mountActiveEditionBar(available = EDITION_STACK) {
 
   const pool = available.length ? available : EDITION_STACK;
   const active = getActiveEdition(pool);
-  mountHeaderTranslation(active);
+  mountHeaderTranslation();
 
   const bar = document.createElement("div");
   bar.className = "active-edition-bar";
+
+  const blurb = document.createElement("p");
+  blurb.className = "edition-bar-blurb";
+  blurb.textContent = editionBlurbDated(active);
+
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "edition-name-btn";
   btn.setAttribute("aria-haspopup", "listbox");
-  btn.textContent = editionLabel(active);
+  btn.textContent = editionName(active);
   btn.addEventListener("click", (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -170,7 +236,10 @@ export function mountActiveEditionBar(available = EDITION_STACK) {
       setActiveEdition(otherId, pool);
     });
   });
-  bar.append(btn);
+  const spacer = document.createElement("span");
+  spacer.className = "edition-bar-spacer";
+  spacer.setAttribute("aria-hidden", "true");
+  bar.append(blurb, btn, spacer);
 
   const header = document.querySelector(".site-header");
   if (header) header.after(bar);
@@ -196,7 +265,7 @@ function openEditionMenu(anchor, currentId, stack, onPick) {
     li.setAttribute("role", "option");
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.textContent = editionLabel(id);
+    btn.textContent = editionDisplayName(id);
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
@@ -276,8 +345,7 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
 
   const stack = labels.map((item) => item.id).filter(Boolean);
   const pool = available && available.length ? available : stack;
-  const active = getActiveEdition(pool);
-  mountHeaderTranslation(active);
+  mountHeaderTranslation();
 
   let titleBar = null;
   if (peers && peers.length) {
@@ -296,7 +364,7 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
   stage.className = "edition-name-stage";
   stage.style.setProperty("--edition-count", String(labels.length || 3));
 
-  for (const item of labels) {
+  labels.forEach((item, colIndex) => {
     const wrap = document.createElement("p");
     wrap.dataset.col = item.col || editionCol(item.id);
     wrap.dataset.edition = item.id;
@@ -304,7 +372,7 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
     btn.type = "button";
     btn.className = "edition-name-btn";
     btn.setAttribute("aria-haspopup", "listbox");
-    btn.textContent = item.label;
+    btn.textContent = item.label || editionDisplayName(item.id);
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
@@ -313,12 +381,12 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
         return;
       }
       openEditionMenu(btn, item.id, pool, (otherId) => {
-        setActiveEdition(otherId, pool);
+        setColumnEdition(colIndex, otherId, pool);
       });
     });
     wrap.append(btn);
     stage.append(wrap);
-  }
+  });
   nameBar.append(stage);
 
   const chrome = document.createElement("div");

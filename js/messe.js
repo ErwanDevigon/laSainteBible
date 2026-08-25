@@ -7,6 +7,7 @@ import {
   EDITION_STACK,
 } from "./editions.js";
 import { listVersionIds } from "./data-loader.js";
+import { bookHref } from "./books.js";
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -98,7 +99,17 @@ async function init() {
         el("div", "reading-type", typeLabel(reading.type, reading.label))
       );
       if (reading.ref_display) {
-        card.appendChild(el("div", "reading-ref", reading.ref_display));
+        if (reading.ref?.bookId && reading.ref?.chapter) {
+          const a = el("a", "reading-ref");
+          a.href = bookHref(reading.ref.bookId, "lire/", {
+            chapter: reading.ref.chapter,
+            verse: reading.ref.verseStart || null,
+          });
+          a.textContent = reading.ref_display;
+          card.appendChild(a);
+        } else {
+          card.appendChild(el("div", "reading-ref", reading.ref_display));
+        }
       }
 
       if (expandable) {

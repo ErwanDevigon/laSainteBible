@@ -61,7 +61,7 @@
   --swipe-commit-dur: 420ms;
   --swipe-commit-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
-  --header-h: 2.85rem;
+  --header-h: 2.2rem;
   --footer-h: 0.7rem;
   --rail-gap: 0.7rem;
   --edition-dim: 0.95;

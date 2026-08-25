@@ -13,7 +13,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from canon import BOOKS, BY_NR, books_for_canon
+from canon import BOOKS, BY_ID, BY_NR, books_for_canon
 
 ROOT = Path(__file__).resolve().parents[1]
 TEXTS = ROOT / "texts"
@@ -25,6 +25,7 @@ VERSIONS = {
     "segond-1910": {
         "id": "segond-1910",
         "label": "Louis Segond 1910",
+        "name": "Louis Segond",
         "blurb": "Traduction de Louis Segond · 1910",
         "year": 1910,
         "lang": "fr",
@@ -39,6 +40,7 @@ VERSIONS = {
     "martin": {
         "id": "martin",
         "label": "David Martin 1744",
+        "name": "David Martin",
         "blurb": "Traduction de David Martin · 1744",
         "year": 1744,
         "lang": "fr",
@@ -53,6 +55,7 @@ VERSIONS = {
     "darby": {
         "id": "darby",
         "label": "John Nelson Darby",
+        "name": "J. N. Darby",
         "blurb": "Traduction de J. N. Darby · 1885",
         "year": 1885,
         "lang": "fr",
@@ -67,6 +70,7 @@ VERSIONS = {
     "ostervald": {
         "id": "ostervald",
         "label": "Ostervald",
+        "name": "Ostervald",
         "blurb": "Traduction d'Ostervald · 1744",
         "year": 1744,
         "lang": "fr",
@@ -81,6 +85,7 @@ VERSIONS = {
     "crampon": {
         "id": "crampon",
         "label": "Crampon 1923",
+        "name": "Augustin Crampon",
         "blurb": "Traduction d'Augustin Crampon · 1923",
         "year": 1923,
         "lang": "fr",
@@ -95,6 +100,7 @@ VERSIONS = {
     "vulgate": {
         "id": "vulgate",
         "label": "Vulgate (Clementine)",
+        "name": "Vulgata Clementina",
         "blurb": "Vulgata Clementina · 1592",
         "year": 1592,
         "lang": "la",
@@ -109,8 +115,10 @@ VERSIONS = {
     "septante": {
         "id": "septante",
         "label": "Septante (LXX)",
+        "name": "Septante (LXX)",
         "blurb": "Οἱ Ἑβδομήκοντα",
         "year": -250,
+        "year_label": "-250 av. J.C",
         "lang": "el",
         "license": "public-domain",
         "source": "Septante",
@@ -123,6 +131,7 @@ VERSIONS = {
     "textusreceptus": {
         "id": "textusreceptus",
         "label": "Textus Receptus",
+        "name": "Textus Receptus",
         "blurb": "Textus Receptus · 1550",
         "year": 1550,
         "lang": "el",
@@ -137,6 +146,7 @@ VERSIONS = {
     "tischendorf": {
         "id": "tischendorf",
         "label": "Tischendorf",
+        "name": "Tischendorf",
         "blurb": "Tischendorf · 1872",
         "year": 1872,
         "lang": "el",
@@ -151,6 +161,7 @@ VERSIONS = {
     "westcotthort": {
         "id": "westcotthort",
         "label": "Westcott-Hort",
+        "name": "Westcott & Hort",
         "blurb": "Westcott & Hort · 1881",
         "year": 1881,
         "lang": "el",
@@ -165,6 +176,7 @@ VERSIONS = {
     "moderngreek": {
         "id": "moderngreek",
         "label": "Grec moderne",
+        "name": "Grec moderne",
         "blurb": "Ἡ Ἁγία Γραφή · 1850",
         "year": 1850,
         "lang": "el",
@@ -211,6 +223,152 @@ SECTIONS = [
     {"id": "epitres", "testament": "nt", "label": "Épîtres"},
     {"id": "apocalypse", "testament": "nt", "label": "Apocalypse"},
 ]
+
+# Didactic Christian TOC (protestant skeleton; extra ids appear only if present).
+TOC_SECTIONS = [
+    {
+        "id": "pentateuque",
+        "testament": "at",
+        "label": "Pentateuque",
+        "ids": ["genese", "exode", "levitique", "nombres", "deuteronome"],
+    },
+    {
+        "id": "historiques",
+        "testament": "at",
+        "label": "Livres historiques",
+        "ids": [
+            "josue", "juges", "ruth", "1-samuel", "2-samuel", "1-rois", "2-rois",
+            "1-chroniques", "2-chroniques", "esdras", "nehemie",
+            "tobie", "judith", "esther",
+            "1-maccabees", "2-maccabees", "3-maccabees", "4-maccabees",
+        ],
+    },
+    {
+        "id": "poetiques",
+        "testament": "at",
+        "label": "Livres poétiques",
+        "ids": [
+            "job", "psaumes", "psaume-151", "proverbes", "ecclesiaste", "cantique",
+            "sagesse", "siracide",
+        ],
+    },
+    {
+        "id": "prophetes",
+        "testament": "at",
+        "label": "Prophètes",
+        "ids": [
+            "esaie", "jeremie", "lamentations", "baruch", "ezechiel", "daniel",
+            "osee", "joel", "amos", "abdias", "jonas", "michee",
+            "nahum", "habacuc", "sophonie", "aggee", "zacharie", "malachie",
+        ],
+    },
+    {
+        "id": "evangiles",
+        "testament": "nt",
+        "label": "Évangiles",
+        "ids": ["matthieu", "marc", "luc", "jean"],
+    },
+    {"id": "actes", "testament": "nt", "label": "Actes", "ids": ["actes"]},
+    {
+        "id": "epitres",
+        "testament": "nt",
+        "label": "Épîtres",
+        "ids": [
+            "romains", "1-corinthiens", "2-corinthiens", "galates", "ephesiens",
+            "philippiens", "colossiens", "1-thessaloniciens", "2-thessaloniciens",
+            "1-timothee", "2-timothee", "tite", "philemon", "hebreux",
+            "jacques", "1-pierre", "2-pierre", "1-jean", "2-jean", "3-jean", "jude",
+        ],
+    },
+    {"id": "apocalypse", "testament": "nt", "label": "Apocalypse", "ids": ["apocalypse"]},
+]
+
+GREEK_TITLES = {
+    "genese": "Γένεσις",
+    "exode": "Ἔξοδος",
+    "levitique": "Λευϊτικόν",
+    "nombres": "Ἀριθμοί",
+    "deuteronome": "Δευτερονόμιον",
+    "josue": "Ἰησοῦς Ναυῆ",
+    "juges": "Κριταί",
+    "ruth": "Ῥούθ",
+    "1-samuel": "Βασιλειῶν Αʹ",
+    "2-samuel": "Βασιλειῶν Βʹ",
+    "1-rois": "Βασιλειῶν Γʹ",
+    "2-rois": "Βασιλειῶν Δʹ",
+    "1-chroniques": "Παραλειπομένων Αʹ",
+    "2-chroniques": "Παραλειπομένων Βʹ",
+    "esdras": "Ἔσδρας",
+    "nehemie": "Νεεμίας",
+    "esther": "Ἐσθήρ",
+    "job": "Ἰώβ",
+    "psaumes": "Ψαλμοί",
+    "psaume-151": "Ψαλμὸς ΡΝΑʹ",
+    "proverbes": "Παροιμίαι",
+    "ecclesiaste": "Ἐκκλησιαστής",
+    "cantique": "Ἆσμα Ἀσμάτων",
+    "esaie": "Ἠσαΐας",
+    "jeremie": "Ἰερεμίας",
+    "lamentations": "Θρῆνοι",
+    "ezechiel": "Ἰεζεκιήλ",
+    "daniel": "Δανιήλ",
+    "osee": "Ὡσηέ",
+    "joel": "Ἰωήλ",
+    "amos": "Ἀμώς",
+    "abdias": "Ἀβδιού",
+    "jonas": "Ἰωνᾶς",
+    "michee": "Μιχαίας",
+    "nahum": "Ναούμ",
+    "habacuc": "Ἀμβακούμ",
+    "sophonie": "Σοφονίας",
+    "aggee": "Ἀγγαῖος",
+    "zacharie": "Ζαχαρίας",
+    "malachie": "Μαλαχίας",
+    "tobie": "Τωβίτ",
+    "judith": "Ἰουδίθ",
+    "sagesse": "Σοφία Σολομῶντος",
+    "siracide": "Σοφία Σειράχ",
+    "baruch": "Βαρούχ",
+    "1-maccabees": "Μακκαβαίων Αʹ",
+    "2-maccabees": "Μακκαβαίων Βʹ",
+    "3-maccabees": "Μακκαβαίων Γʹ",
+    "4-maccabees": "Μακκαβαίων Δʹ",
+    "matthieu": "Κατὰ Ματθαῖον",
+    "marc": "Κατὰ Μᾶρκον",
+    "luc": "Κατὰ Λουκᾶν",
+    "jean": "Κατὰ Ἰωάννην",
+    "actes": "Πράξεις Ἀποστόλων",
+    "romains": "Πρὸς Ῥωμαίους",
+    "1-corinthiens": "Πρὸς Κορινθίους Αʹ",
+    "2-corinthiens": "Πρὸς Κορινθίους Βʹ",
+    "galates": "Πρὸς Γαλάτας",
+    "ephesiens": "Πρὸς Ἐφεσίους",
+    "philippiens": "Πρὸς Φιλιππησίους",
+    "colossiens": "Πρὸς Κολοσσαεῖς",
+    "1-thessaloniciens": "Πρὸς Θεσσαλονικεῖς Αʹ",
+    "2-thessaloniciens": "Πρὸς Θεσσαλονικεῖς Βʹ",
+    "1-timothee": "Πρὸς Τιμόθεον Αʹ",
+    "2-timothee": "Πρὸς Τιμόθεον Βʹ",
+    "tite": "Πρὸς Τίτον",
+    "philemon": "Πρὸς Φιλήμονα",
+    "hebreux": "Πρὸς Ἑβραίους",
+    "jacques": "Ἰακώβου",
+    "1-pierre": "Πέτρου Αʹ",
+    "2-pierre": "Πέτρου Βʹ",
+    "1-jean": "Ἰωάννου Αʹ",
+    "2-jean": "Ἰωάννου Βʹ",
+    "3-jean": "Ἰωάννου Γʹ",
+    "jude": "Ἰούδα",
+    "apocalypse": "Ἀποκάλυψις Ἰωάννου",
+}
+
+
+def original_title_for(version_key: str, book_id: str, book_meta: dict, raw_name: str | None) -> str:
+    if version_key == "crampon":
+        return book_meta["title"]
+    if version_key == "septante":
+        return GREEK_TITLES.get(book_id) or book_meta["title"]
+    return (raw_name or "").strip() or book_meta["title"]
 
 
 def fold_name(s: str) -> str:
@@ -532,7 +690,9 @@ def copy_nestle_gospels(dest_dir: Path, meta: dict) -> int:
         book = {
             "id": gid,
             "title": book_meta["title"],
-            "original_title": raw.get("title") or book_meta["title"],
+            "original_title": original_title_for(
+                "septante", gid, book_meta, raw.get("title")
+            ),
             "short": book_meta["short"],
             "version": {k: meta[k] for k in meta if k != "file"},
             "chapters": raw.get("chapters") or [],
@@ -577,11 +737,15 @@ def extract(version_key: str) -> tuple[int, list[dict]]:
         if b["nr"] not in ordered_nrs and b["nr"] in by_nr:
             ordered_nrs.append(b["nr"])
 
+    seen_ids: set[str] = set()
     for nr in ordered_nrs:
         book_meta = allowed_ids[nr]
         book_raw = by_nr.get(nr)
         if not book_raw:
             continue
+        if book_meta["id"] in seen_ids:
+            continue
+        seen_ids.add(book_meta["id"])
 
         if book_meta["id"] == "psaumes" and remap_ps:
             chapters = remap_psalm_chapters(book_raw.get("chapters") or [])
@@ -602,7 +766,9 @@ def extract(version_key: str) -> tuple[int, list[dict]]:
         book = {
             "id": book_meta["id"],
             "title": book_meta["title"],
-            "original_title": book_raw.get("name") or book_meta["title"],
+            "original_title": original_title_for(
+                version_key, book_meta["id"], book_meta, book_raw.get("name")
+            ),
             "short": book_meta["short"],
             "version": public_meta,
             "chapters": chapters,
@@ -639,7 +805,9 @@ def extract(version_key: str) -> tuple[int, list[dict]]:
                 {
                     "id": gid,
                     "title": bm["title"],
-                    "original_title": bm["title"],
+                    "original_title": original_title_for(
+                        "septante", gid, bm, bm["title"]
+                    ),
                     "short": bm["short"],
                     "testament": bm["testament"],
                     "section": bm["section"],
@@ -660,6 +828,7 @@ def write_books_js() -> None:
         "/** Generated by scripts/build-texts.py — do not edit. */\n"
         f"export const BOOKS = {json.dumps(BOOKS, ensure_ascii=False, indent=2)};\n\n"
         f"export const SECTIONS = {json.dumps(SECTIONS, ensure_ascii=False, indent=2)};\n\n"
+        f"export const TOC_SECTIONS = {json.dumps(TOC_SECTIONS, ensure_ascii=False, indent=2)};\n\n"
         f"export const VERSIONS = {json.dumps(versions_js, ensure_ascii=False, indent=2)};\n\n"
         "export const BOOK_BY_ID = Object.fromEntries(BOOKS.map(b => [b.id, b]));\n"
         "export const BOOK_BY_NR = Object.fromEntries(BOOKS.map(b => [b.nr, b]));\n"
@@ -670,9 +839,14 @@ def write_books_js() -> None:
         "export function isGospel(id) {\n"
         "  return GOSPEL_IDS.includes(id);\n"
         "}\n\n"
-        "export function bookHref(id, base = \"\") {\n"
+        "export function bookHref(id, base = \"\", ref = null) {\n"
         "  const file = GOSPEL_IDS.includes(id) ? `${id}.html` : `livre.html?livre=${id}`;\n"
-        "  return `${base}${file}`;\n"
+        "  let hash = \"\";\n"
+        "  if (ref && ref.chapter) {\n"
+        "    hash = `#c${ref.chapter}`;\n"
+        "    if (ref.verse) hash += `v${ref.verse}`;\n"
+        "  }\n"
+        "  return `${base}${file}${hash}`;\n"
         "}\n\n"
         "export function bookName(book) {\n"
         "  if (!book) return \"\";\n"
@@ -701,6 +875,47 @@ def wipe_legacy_root() -> None:
     for p in OUT_BASE.glob("*.json"):
         p.unlink()
         print(f"rm legacy {p.name}")
+
+
+def patch_original_titles(keys: list[str] | None = None) -> None:
+    """Rewrite original_title (+ version meta) without re-extracting verses."""
+    for key in keys or list(VERSIONS):
+        dest_dir = OUT_BASE / key
+        idx_path = dest_dir / "index.json"
+        if not idx_path.is_file():
+            continue
+        idx = json.loads(idx_path.read_text(encoding="utf-8"))
+        seen: set[str] = set()
+        books = []
+        public_meta = {k: v for k, v in VERSIONS[key].items() if k != "file"}
+        for b in idx.get("books") or []:
+            bid = b.get("id")
+            if not bid or bid in seen:
+                continue
+            seen.add(bid)
+            meta = BY_ID.get(bid) or {
+                "id": bid,
+                "title": b.get("title") or bid,
+            }
+            ot = original_title_for(key, bid, meta, b.get("original_title"))
+            b["original_title"] = ot
+            books.append(b)
+            book_path = dest_dir / f"{bid}.json"
+            if not book_path.is_file():
+                continue
+            book = json.loads(book_path.read_text(encoding="utf-8"))
+            book["original_title"] = ot
+            book["version"] = public_meta
+            book_path.write_text(
+                json.dumps(book, ensure_ascii=False, separators=(",", ":")),
+                encoding="utf-8",
+            )
+        idx["books"] = books
+        idx["version"] = public_meta
+        idx_path.write_text(
+            json.dumps(idx, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"patch titles {key:15} {len(books)} livres")
 
 
 def main() -> int:

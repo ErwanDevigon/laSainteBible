@@ -177,7 +177,9 @@ body > .chapter-rail {
   gap: 0 var(--space-3);
   height: var(--header-h);
   min-height: var(--header-h);
-  padding: 0.15rem var(--space-5) 0.2rem;
+  width: 100%;
+  margin-left: 0;
+  padding: 0.15rem var(--space-3) 0.2rem;
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);

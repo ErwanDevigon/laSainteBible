@@ -102,6 +102,7 @@ export function bindGrabPan(root = document.body) {
   function setX(px) {
     root.style.setProperty("--swipe-x", `${px}px`);
     setProgress(root, px);
+    root.dispatchEvent(new CustomEvent("lsb:pan", { detail: { x: px } }));
   }
 
   function unbindWindow() {
@@ -115,12 +116,14 @@ export function bindGrabPan(root = document.body) {
     if (sess) return;
     if (e.target.closest(IGNORE)) return;
 
+    const xBase = readX(root);
+    root.dataset.swipeBase = String(xBase);
     sess = {
       id: e.pointerId,
       type: e.pointerType,
       x0: e.clientX,
       y0: e.clientY,
-      xBase: readX(root),
+      xBase,
       scrollY0: window.scrollY,
       dragging: false,
       axis: null,
@@ -165,7 +168,8 @@ export function bindGrabPan(root = document.body) {
       window.scrollTo(0, sess.scrollY0 - dy);
     } else {
       window.scrollTo(0, sess.scrollY0);
-      setX(sess.xBase + dx);
+      const base = parseFloat(root.dataset.swipeBase);
+      setX((Number.isFinite(base) ? base : sess.xBase) + dx);
     }
   }
 

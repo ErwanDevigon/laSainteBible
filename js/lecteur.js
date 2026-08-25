@@ -14,9 +14,10 @@ import {
   mountReaderChrome,
   orderedEditions,
   editionCol,
-  editionLabel,
+  editionDisplayName,
   getActiveEdition,
-  EDITION_SEGOND,
+  prependReaderColumn,
+  nextUnusedColumn,
 } from "./editions.js";
 
 function el(tag, className, text) {
@@ -82,7 +83,7 @@ async function init() {
     const meta = BOOK_BY_ID[bookId];
     const title = primaryBook.title || meta?.title || bookId;
     if (titleEl) titleEl.textContent = title;
-    if (metaEl) metaEl.textContent = editionLabel(active0);
+    if (metaEl) metaEl.textContent = editionDisplayName(active0);
     document.title = `${title} — La Sainte Bible`;
 
     const index = await loadVersionIndex(active0);
@@ -105,16 +106,50 @@ async function init() {
     }
 
     function visibleOrder() {
-      const order = orderedEditions(present);
-      return order.length > 3 ? order.slice(-3) : order;
+      return orderedEditions(present);
+    }
+
+    function editionStepPx() {
+      const cell = document.querySelector(".edition-name-stage p");
+      const stage = document.querySelector(".edition-name-stage");
+      if (cell && stage) {
+        const gap = parseFloat(getComputedStyle(stage).columnGap) || 0;
+        return cell.getBoundingClientRect().width + gap;
+      }
+      const pair = document.querySelector(".chapter-pair > *");
+      if (pair) {
+        const gap = parseFloat(
+          getComputedStyle(document.querySelector(".edition-stage")).columnGap
+        ) || 0;
+        return pair.getBoundingClientRect().width + gap;
+      }
+      return Math.max(280, window.innerWidth * 0.72);
+    }
+
+    let growing = false;
+    function maybeGrow(x) {
+      if (growing) return;
+      const order = visibleOrder();
+      const step = editionStepPx();
+      const max = Math.max(0, order.length - 1) * step;
+      if (x < max + step * 0.32) return;
+      const next = nextUnusedColumn(order, present);
+      if (!next) return;
+      growing = true;
+      const base = parseFloat(document.body.dataset.swipeBase) || 0;
+      document.body.dataset.swipeBase = String(base + step);
+      document.body.style.setProperty("--swipe-x", `${x + step}px`);
+      prependReaderColumn(next, present);
+      growing = false;
     }
 
     function paint() {
-      const order = visibleOrder();
+      const order = visibleOrder().filter((id) => books[id]);
+      if (!order.length) return;
       const editions = order.map((id, i) => ({
         book: books[id],
         col: editionCol(id),
-        label: editionLabel(id),
+        label: editionDisplayName(id),
         primary: i === order.length - 1,
       }));
 
@@ -160,6 +195,9 @@ async function init() {
 
     document.addEventListener("lsb:editions", () => {
       paint();
+    });
+    document.body.addEventListener("lsb:pan", (e) => {
+      maybeGrow(e.detail?.x || 0);
     });
 
     if (hasHash) {

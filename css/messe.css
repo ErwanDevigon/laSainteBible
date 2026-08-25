@@ -1,26 +1,10 @@
 .messe-page {
-  --edition-bar-h: 1.45rem;
+  --edition-bar-h: 2.2rem;
 }
 
 .messe-page .site-main {
   width: min(100% - 2 * var(--space-5), calc(var(--measure) + 6rem));
   padding-top: var(--space-5);
-}
-
-.active-edition-bar {
-  position: sticky;
-  top: calc(var(--header-h) + var(--safe-top));
-  z-index: 38;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--edition-bar-h);
-  min-height: var(--edition-bar-h);
-  padding: 0 var(--space-5);
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
 }
 
 .active-edition-bar .edition-name-btn {
@@ -115,6 +99,16 @@
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
+}
+
+a.reading-ref {
+  display: inline-block;
+  color: var(--text-mute);
+  text-decoration: none;
+}
+
+a.reading-ref:hover {
+  color: var(--text);
 }
 
 /* ---- In-place chapter mask ---- */
