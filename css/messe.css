@@ -39,7 +39,7 @@
 }
 
 .messe-liturgical {
-  font-family: var(--font-body);
+  font-family: var(--font-ui);
   font-size: var(--text-base);
   color: var(--text-soft);
   margin: var(--space-3) 0 0;

@@ -80,10 +80,21 @@ export function editionBlurbDated(id) {
   return `${blurb} · ${year}`;
 }
 
-/** Name · date (menu). */
+/** Name · date (reader columns). */
 export function editionDisplayName(id) {
   const name = editionName(id);
   const year = editionYearShort(id);
+  return year ? `${name} · ${year}` : name;
+}
+
+/** Dropdown only: name in the edition language + date. Sub-bars untouched. */
+export function editionMenuLabel(id) {
+  const v = EDITIONS[id];
+  const year = editionYearShort(id);
+  let name = editionName(id);
+  if (v?.lang === "el" && v.blurb) {
+    name = String(v.blurb).split("·")[0].trim() || name;
+  }
   return year ? `${name} · ${year}` : name;
 }
 
@@ -265,7 +276,7 @@ function openEditionMenu(anchor, currentId, stack, onPick) {
     li.setAttribute("role", "option");
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.textContent = editionDisplayName(id);
+    btn.textContent = editionMenuLabel(id);
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();

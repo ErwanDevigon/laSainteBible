@@ -1,8 +1,4 @@
-import {
-  mountCanonCatalog,
-  mountSegondCatalog,
-  mountTestamentBar,
-} from "./nav-books.js";
+import { mountCanonCatalog, mountTestamentBar } from "./nav-books.js";
 import { mountSwipeNav } from "./swipe-nav.js";
 import {
   mountSiteEditionBar,
@@ -40,12 +36,6 @@ async function paint() {
   const root = document.querySelector("[data-gospel-pickers]");
   const inLire = /\/lire(\/|$)/.test(window.location.pathname);
   const base = inLire ? "" : "lire/";
-
-  if (versionId === "segond-1910") {
-    document.querySelector(".testament-bar")?.remove();
-    if (root) mountSegondCatalog(root, { base });
-    return;
-  }
 
   let testament = readTestament();
   const index = await loadVersionIndex(versionId);
