@@ -1,6 +1,7 @@
 /** In-memory book / version-index loader. */
 
 import { GOSPEL_IDS as CANON_GOSPELS, isGospel as canonIsGospel, VERSIONS } from "./books.js";
+/** Runtime books: data/livres/{edition}/{id}.json only. */
 
 const cache = new Map();
 const indexCache = new Map();
@@ -29,11 +30,7 @@ async function fetchJson(file) {
 }
 
 function bookFiles(id, edition) {
-  const files = [`data/livres/${edition}/${id}.json`];
-  if (edition === "septante" && canonIsGospel(id)) {
-    files.push(`data/evangiles/septante/${id}.json`);
-  }
-  return files;
+  return [`data/livres/${edition}/${id}.json`];
 }
 
 function cacheKey(id, edition) {
