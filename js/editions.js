@@ -46,6 +46,7 @@ export const EDITION_STACK = versionIdsByYear(false);
 const COOKIE_ACTIVE = "lsb-active-edition";
 const COOKIE_COLS = "lsb-reader-cols";
 const COOKIE_LEGACY = "lsb-edition-order";
+const COOKIE_PARALLELS = "lsb-show-parallels";
 const COOKIE_AGE = 60 * 60 * 24 * 365;
 
 function readCookie(name) {
@@ -55,6 +56,31 @@ function readCookie(name) {
 
 function writeCookie(name, value) {
   document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${COOKIE_AGE}; SameSite=Lax`;
+}
+
+export function parallelsEnabled() {
+  const v = readCookie(COOKIE_PARALLELS);
+  return v !== "0";
+}
+
+export function setParallelsEnabled(on) {
+  writeCookie(COOKIE_PARALLELS, on ? "1" : "0");
+  document.dispatchEvent(
+    new CustomEvent("lsb:parallels", { detail: { on: !!on } })
+  );
+}
+
+function mountParallelsToggle() {
+  const lab = document.createElement("label");
+  lab.className = "parallels-toggle";
+  const box = document.createElement("input");
+  box.type = "checkbox";
+  box.checked = parallelsEnabled();
+  box.addEventListener("change", () => setParallelsEnabled(box.checked));
+  const span = document.createElement("span");
+  span.textContent = "afficher les suggestions synoptiques et vétérotestamentaires";
+  lab.append(box, span);
+  return lab;
 }
 
 function parseIds(raw) {
@@ -135,6 +161,8 @@ export function editionDisplayName(id) {
   return year ? `${name} · ${year}` : name;
 }
 
+const LANG_TAG = { fr: "fr", la: "la", el: "el" };
+
 /** Dropdown only: name in the edition language + date. Sub-bars untouched. */
 export function editionMenuLabel(id) {
   const v = EDITIONS[id];
@@ -143,7 +171,9 @@ export function editionMenuLabel(id) {
   if (v?.lang === "el" && v.blurb) {
     name = String(v.blurb).split("·")[0].trim() || name;
   }
-  return year ? `${name} · ${year}` : name;
+  const tag = LANG_TAG[v?.lang] || v?.lang || "";
+  const core = year ? `${name} · ${year}` : name;
+  return tag ? `${core} (${tag})` : core;
 }
 
 export function readEditionOrder() {
@@ -444,6 +474,10 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
       });
     });
     wrap.append(btn);
+    if (colIndex === labels.length - 1) {
+      wrap.classList.add("is-primary");
+      wrap.append(mountParallelsToggle());
+    }
     stage.append(wrap);
   });
   nameBar.append(stage);

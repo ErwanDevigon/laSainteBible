@@ -8,6 +8,7 @@ import {
 } from "./editions.js";
 import { listVersionIds } from "./data-loader.js";
 import { bookHref } from "./books.js";
+import { formatFullRef, attachExcerptParallels } from "./parallels.js";
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -105,7 +106,13 @@ async function init() {
             chapter: reading.ref.chapter,
             verse: reading.ref.verseStart || null,
           });
-          a.textContent = reading.ref_display;
+          a.textContent = formatFullRef(
+            reading.ref.bookId,
+            reading.ref.chapter,
+            reading.ref.verseStart,
+            reading.ref.verseEnd,
+            reading.ref.ranges
+          ) || reading.ref_display;
           card.appendChild(a);
         } else {
           card.appendChild(el("div", "reading-ref", reading.ref_display));
@@ -169,7 +176,19 @@ async function init() {
         card.appendChild(excerpt);
       }
 
-      listEl.appendChild(card);
+      const row = el("div", "reading-row");
+      row.appendChild(card);
+      listEl.appendChild(row);
+      if (reading.ref?.bookId && reading.ref?.chapter) {
+        attachExcerptParallels({
+          host: card,
+          row,
+          bookId: reading.ref.bookId,
+          chapter: reading.ref.chapter,
+          verseStart: reading.ref.verseStart,
+          edition: getActiveEdition(pool),
+        });
+      }
     }
   } catch (err) {
     console.error(err);

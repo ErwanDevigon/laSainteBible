@@ -202,6 +202,9 @@ async function init() {
     document.addEventListener("lsb:editions", () => {
       paint();
     });
+    document.addEventListener("lsb:parallels", () => {
+      paint();
+    });
     document.body.addEventListener("lsb:pan", (e) => {
       maybeGrow(e.detail?.x || 0);
     });

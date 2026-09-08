@@ -1,12 +1,15 @@
-/** Synopse NT + AT citations: brace, stamp, parallel cards. */
+/** Synopse NT + AT citations: rails on the main column only. */
 
-import { resolveUrls } from "./data-loader.js";
+import { resolveUrls, loadVersionIndex } from "./data-loader.js";
 import { MaskDilatation } from "./expand.js";
+import { BOOK_BY_ID, bookHref } from "./books.js";
+import { displayBookTitle, parallelsEnabled } from "./editions.js";
 
 const NT_URL = "data/parallels-nt.json";
 const AT_URL = "data/citations-at.json";
 
 let packed = null;
+let indexCache = null;
 
 async function loadJson(file) {
   for (const url of resolveUrls(file)) {
@@ -16,12 +19,35 @@ async function loadJson(file) {
   return null;
 }
 
+function invertCitations(items) {
+  const out = [];
+  for (const item of items) {
+    for (const p of item.passages || []) {
+      out.push({
+        id: `rev-${item.id}-${p.book}`,
+        kind: "accomplissement",
+        origin: {
+          book: p.book,
+          short: p.short,
+          spans: p.spans,
+          cites: p.cites,
+        },
+        passages: item.origin ? [item.origin] : [],
+        label: item.label,
+      });
+    }
+  }
+  return out;
+}
+
 async function loadPack() {
   if (packed) return packed;
   const [nt, at] = await Promise.all([loadJson(NT_URL), loadJson(AT_URL)]);
+  const citations = at?.items || [];
   packed = {
     synopse: nt?.items || [],
-    citations: at?.items || [],
+    citations,
+    reverse: invertCitations(citations),
   };
   return packed;
 }
@@ -52,16 +78,18 @@ function spanHasVerse(span, chapter, verse) {
   return verse >= v.min && verse <= v.max;
 }
 
-function currentSpan(item, bookId, chapter, verse) {
+function itemSpansOnBook(item, bookId) {
   const bags = [];
   if (item.origin?.book === bookId) bags.push(item.origin);
   for (const p of item.passages || []) {
     if (p.book === bookId) bags.push(p);
   }
-  for (const p of bags) {
-    for (const sp of p.spans || []) {
-      if (spanHasVerse(sp, chapter, verse)) return { passage: p, span: sp };
-    }
+  return bags.flatMap((p) => (p.spans || []).map((sp) => ({ passage: p, span: sp })));
+}
+
+function currentSpan(item, bookId, chapter, verse) {
+  for (const hit of itemSpansOnBook(item, bookId)) {
+    if (spanHasVerse(hit.span, chapter, verse)) return hit;
   }
   return null;
 }
@@ -72,14 +100,17 @@ function othersOf(item, bookId, chapter, verse) {
   for (const p of item.passages || []) {
     const spans = (p.spans || []).filter((sp) => {
       if (!cur) return true;
-      return !(p.book === bookId && sp.chapter === cur.span.chapter &&
-        JSON.stringify(sp.ranges) === JSON.stringify(cur.span.ranges));
+      return !(
+        p.book === bookId &&
+        sp.chapter === cur.span.chapter &&
+        JSON.stringify(sp.ranges) === JSON.stringify(cur.span.ranges)
+      );
     });
     if (!spans.length) continue;
     out.push({
       ...p,
       spans,
-      cites: spans.map((s, i) => p.cites?.[i] || citeOf(s)),
+      cites: spans.map((s) => citeOf(s)),
     });
   }
   return out;
@@ -103,34 +134,30 @@ function formatPassages(passages) {
     .join(" | ");
 }
 
+function stampSuffix(kind) {
+  if (kind === "synopse") return "(synopte)";
+  if (kind === "accomplissement") return "(accomplissement)";
+  return "(suggestion de lecture vétérotestamentaire)";
+}
+
 function stampText(item, bookId, chapter, verse) {
   const others = othersOf(item, bookId, chapter, verse);
   const refs = formatPassages(others);
-  if (item.kind === "synopse") {
-    return refs ? `${item.label}: ${refs}` : item.label;
-  }
-  return refs || item.label;
+  const tag = stampSuffix(item.kind);
+  return refs ? `${refs} ${tag}` : tag;
 }
 
-function hitsFor(pack, bookId, chapter, verse) {
-  const syn = [];
-  for (const item of pack.synopse) {
-    if (currentSpan(item, bookId, chapter, verse)) syn.push(item);
+function itemsForBookChapter(bookId, chapter) {
+  const pack = packed;
+  if (!pack) return [];
+  const all = [...pack.synopse, ...pack.citations, ...pack.reverse];
+  const out = [];
+  for (const item of all) {
+    for (const hit of itemSpansOnBook(item, bookId)) {
+      if (hit.span.chapter === chapter) out.push({ item, ...hit });
+    }
   }
-  const at = [];
-  for (const item of pack.citations) {
-    if (currentSpan(item, bookId, chapter, verse)) at.push(item);
-  }
-  syn.sort((a, b) => spanSize(a, bookId, chapter, verse) - spanSize(b, bookId, chapter, verse));
-  return { syn: syn[0] || null, at: at[0] || null };
-}
-
-function spanSize(item, bookId, chapter, verse) {
-  const cur = currentSpan(item, bookId, chapter, verse);
-  if (!cur) return 1e9;
-  const v = spanVerses(cur.span);
-  if (v.all) return 1000;
-  return (v.max || 0) - (v.min || 0);
+  return out;
 }
 
 function verseEls(pair, col) {
@@ -140,83 +167,78 @@ function verseEls(pair, col) {
 function rangeEls(pair, col, span) {
   const all = verseEls(pair, col);
   const v = spanVerses(span);
-  const picked = all.filter((el) => {
+  return all.filter((el) => {
     const n = +el.dataset.verse;
     if (v.all) return true;
     if (v.set && v.set.size) return v.set.has(n) || (v.max >= 9000 && n >= v.min);
     return n >= v.min && n <= Math.min(v.max, 9000);
   });
-  return picked;
 }
 
-function placeLayer(layer, pair, col, span) {
-  const els = rangeEls(pair, col, span);
-  if (!els.length) return false;
-  const first = els[0];
-  const last = els[els.length - 1];
-  const pr = pair.getBoundingClientRect();
-  const fr = first.getBoundingClientRect();
-  const lr = last.getBoundingClientRect();
-  const g = {
-    top: fr.top - pr.top,
-    height: Math.max(24, lr.bottom - fr.top),
-    left: fr.right - pr.left,
-    mid: fr.top - pr.top + Math.max(24, lr.bottom - fr.top) / 2,
-  };
-  layer._geom = g;
-  const brace = layer.querySelector(".parallel-brace");
-  const stamp = layer.querySelector(".parallel-stamp:not(.parallel-stamp-at)");
-  const extra = layer.querySelector(".parallel-stamp-at");
-  if (brace) {
-    brace.style.top = `${g.top}px`;
-    brace.style.height = `${g.height}px`;
-    brace.style.left = `${g.left}px`;
-  }
-  if (stamp) {
-    stamp.style.top = `${g.mid}px`;
-    stamp.style.left = `${g.left + 14}px`;
-  }
-  if (extra) {
-    extra.style.top = `${g.mid + 28}px`;
-    extra.style.left = `${g.left + 14}px`;
-  }
-  const band = pair.parentElement;
-  const cards = band?.querySelector(":scope > .parallel-cards");
-  if (cards) cards.style.marginTop = `${g.top}px`;
-  return true;
+function chromeTop() {
+  const bar =
+    document.querySelector(".edition-name-bar") ||
+    document.querySelector(".book-title-bar") ||
+    document.querySelector(".site-header");
+  return bar ? bar.getBoundingClientRect().bottom : 0;
 }
 
-function svgBrace() {
-  const ns = "http://www.w3.org/2000/svg";
-  const svg = document.createElementNS(ns, "svg");
-  svg.setAttribute("viewBox", "0 0 12 100");
-  svg.setAttribute("preserveAspectRatio", "none");
-  svg.classList.add("parallel-brace-svg");
-  const path = document.createElementNS(ns, "path");
-  path.setAttribute(
-    "d",
-    "M1 0 C10 0 10 46 6 50 C10 54 10 100 1 100"
+function lireBase() {
+  return /\/lire(\/|$)/.test(window.location.pathname) ? "" : "lire/";
+}
+
+function versePhrase(span) {
+  const ch = span.chapter;
+  const ranges = span.ranges;
+  if (!ranges || !ranges.length) return `chapitre ${ch}`;
+  const bits = ranges.map((r) => {
+    const a = r.start;
+    const b = r.end;
+    if (b == null || b >= 9000) return `versets ${a} et suivants`;
+    if (a === b) return `verset ${a}`;
+    return `versets ${a} à ${b}`;
+  });
+  return `chapitre ${ch}, ${bits.join(", ")}`;
+}
+
+function headingFor(bookId, span) {
+  const fromIndex = indexCache?.books?.find((b) => b.id === bookId)?.title;
+  const title = displayBookTitle(
+    fromIndex || BOOK_BY_ID[bookId]?.title || bookId
   );
-  path.setAttribute("fill", "none");
-  path.setAttribute("stroke", "currentColor");
-  path.setAttribute("stroke-width", "1.6");
-  path.setAttribute("stroke-linecap", "round");
-  svg.appendChild(path);
-  return svg;
+  return `${title}, ${versePhrase(span)}`;
 }
 
-function clearLayer(layer) {
-  layer.replaceChildren();
-  layer.classList.remove("is-on", "is-open");
-  layer.hidden = true;
+function assignLanes(hits) {
+  const sorted = [...hits].sort((a, b) => a.min - b.min || a.max - b.max);
+  const ends = [];
+  for (const h of sorted) {
+    let lane = 0;
+    while (ends[lane] != null && h.min <= ends[lane]) lane += 1;
+    ends[lane] = h.max;
+    h.lane = lane;
+  }
+  return sorted;
 }
 
-function cardHost(edition, bookId, span, short) {
+function clearRails(container) {
+  container.querySelectorAll(".parallel-rail, .parallel-layer").forEach((el) => el.remove());
+  container.querySelectorAll(".parallel-cards").forEach((el) => {
+    el.replaceChildren();
+    el.classList.remove("is-open");
+  });
+}
+
+function cardHost(edition, bookId, span) {
   const art = document.createElement("article");
   art.className = "parallel-card";
-  const head = document.createElement("header");
+  const head = document.createElement("a");
   head.className = "parallel-card-head";
-  head.textContent = `${short} ${citeOf(span)}`;
+  head.href = bookHref(bookId, lireBase(), {
+    chapter: span.chapter,
+    verse: span.ranges?.[0]?.start || null,
+  });
+  head.textContent = headingFor(bookId, span);
   const body = document.createElement("div");
   body.className = "parallel-card-body reading-mask-host";
   art.append(head, body);
@@ -231,10 +253,12 @@ function cardHost(edition, bookId, span, short) {
     ranges: ranges.length ? ranges : undefined,
     verseStart: ranges[0]?.start,
     verseEnd: ranges.length ? ranges[ranges.length - 1].end : undefined,
+    lockPage: true,
   });
   dil.whenReady().catch(() => {
     body.textContent = "Passage indisponible.";
   });
+  art._dil = dil;
   return art;
 }
 
@@ -243,163 +267,244 @@ function fillCards(box, item, bookId, chapter, verse, edition) {
   const others = othersOf(item, bookId, chapter, verse);
   for (const p of others) {
     for (const sp of p.spans) {
-      box.appendChild(cardHost(edition, p.book, sp, p.short));
+      box.appendChild(cardHost(edition, p.book, sp));
+    }
+  }
+}
+
+function alignCards(cards, pair, col, span) {
+  const els = rangeEls(pair, col, span);
+  if (!els.length) return;
+  const band = pair.closest(".chapter-band") || pair.parentElement;
+  const bandTop = band.getBoundingClientRect().top;
+  const braceTop = els[0].getBoundingClientRect().top;
+  const viewTop = chromeTop();
+  const target = Math.max(braceTop, viewTop);
+  cards.style.marginTop = `${Math.max(0, target - bandTop)}px`;
+  cards.dataset.synTop = String(target);
+  cards.dataset.synScroll = String(window.scrollY);
+}
+
+function closeOpenCards(container) {
+  container.querySelectorAll(".parallel-cards.is-open").forEach((el) => {
+    el.querySelectorAll(".parallel-card").forEach((card) => {
+      if (card._dil?.expanded) card._dil.collapse();
+    });
+    el.replaceChildren();
+    el.classList.remove("is-open");
+    el.style.marginTop = "";
+  });
+  container.querySelectorAll(".parallel-rail.is-open").forEach((el) => {
+    el.classList.remove("is-open");
+  });
+}
+
+function ensureCards(pair) {
+  const band = pair.closest(".chapter-band") || pair.parentElement;
+  let el = band.querySelector(":scope > .parallel-cards");
+  if (el) return el;
+  el = document.createElement("div");
+  el.className = "parallel-cards";
+  band.appendChild(el);
+  return el;
+}
+
+function openFromRail(rail, ctx) {
+  const pair = rail.closest(".chapter-pair");
+  if (!pair) return;
+  const container = pair.closest("[data-book-body]") || pair.closest(".book-body");
+  closeOpenCards(container || document);
+  const item = rail._item;
+  const span = rail._span;
+  const cards = ensureCards(pair);
+  fillCards(
+    cards,
+    item,
+    ctx.bookId,
+    span.chapter,
+    spanVerses(span).min === Infinity ? 1 : spanVerses(span).min,
+    ctx.edition
+  );
+  alignCards(cards, pair, ctx.primaryCol, span);
+  cards.classList.add("is-open");
+  rail.classList.add("is-open");
+}
+
+function paintRails(container, ctx) {
+  clearRails(container);
+  if (!parallelsEnabled()) return;
+  const col = ctx.primaryCol;
+  if (!col) return;
+  const pairs = container.querySelectorAll(".chapter-pair");
+  for (const pair of pairs) {
+    const chapter = +pair.dataset.chapter;
+    const hitsRaw = itemsForBookChapter(ctx.bookId, chapter);
+    const hits = hitsRaw.map((h) => {
+      const v = spanVerses(h.span);
+      return { ...h, min: v.all ? 1 : v.min, max: v.all ? 999 : Math.min(v.max, 9000) };
+    });
+    assignLanes(hits);
+    const sample = pair.querySelector(`.verse[data-col="${col}"]`);
+    if (!sample) continue;
+    const pr = pair.getBoundingClientRect();
+    const colRight = sample.getBoundingClientRect().right - pr.left;
+    for (const h of hits) {
+      const els = rangeEls(pair, col, h.span);
+      if (!els.length) continue;
+      const first = els[0];
+      const last = els[els.length - 1];
+      const top = first.getBoundingClientRect().top - pr.top;
+      const height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
+      const rail = document.createElement("button");
+      rail.type = "button";
+      rail.className = "parallel-rail";
+      rail.style.top = `${top}px`;
+      rail.style.height = `${Math.max(16, height)}px`;
+      rail.style.left = `${colRight + 4 + h.lane * 6}px`;
+      rail._item = h.item;
+      rail._span = h.span;
+      rail.setAttribute("aria-label", stampText(h.item, ctx.bookId, chapter, h.min));
+      pair.appendChild(rail);
     }
   }
 }
 
 function bind(container, ctx) {
-  let layer = null;
-  let cardsEl = null;
-  let shown = null;
-  let open = false;
+  let stamp = null;
 
-  function ensureLayer(pair) {
-    let el = pair.querySelector(":scope > .parallel-layer");
-    if (el) return el;
-    el = document.createElement("div");
-    el.className = "parallel-layer";
-    el.hidden = true;
-    pair.appendChild(el);
-    return el;
-  }
-
-  function ensureCards(pair) {
-    const band = pair.closest(".chapter-band") || pair.parentElement;
-    let el = band.querySelector(":scope > .parallel-cards");
-    if (el) return el;
-    el = document.createElement("div");
-    el.className = "parallel-cards";
-    band.appendChild(el);
-    return el;
-  }
-
-  function hide() {
-    if (open) return;
-    if (layer) clearLayer(layer);
-    if (cardsEl) {
-      cardsEl.replaceChildren();
-      cardsEl.classList.remove("is-open");
-      cardsEl.style.marginTop = "";
-    }
-    shown = null;
-    layer = null;
-    cardsEl = null;
-  }
-
-  function show(pair, col, chapter, verse) {
-    const pack = packed;
-    if (!pack) return;
-    const bookId = ctx.bookId;
-    const hit = hitsFor(pack, bookId, +chapter, +verse);
-    const item = hit.syn || hit.at;
-    if (!item) {
-      hide();
-      return;
-    }
-    const cur = currentSpan(item, bookId, +chapter, +verse);
-    if (!cur) {
-      hide();
-      return;
-    }
-    const key = `${col}:${item.id}:${cur.span.chapter}`;
-    if (shown === key && layer && !layer.hidden) return;
-    if (open) return;
-
-    layer = ensureLayer(pair);
-    cardsEl = ensureCards(pair);
-    clearLayer(layer);
-    cardsEl.replaceChildren();
-    cardsEl.classList.remove("is-open");
-
-    const brace = document.createElement("div");
-    brace.className = "parallel-brace";
-    brace.appendChild(svgBrace());
-
-    const stamp = document.createElement("button");
-    stamp.type = "button";
+  function ensureStamp() {
+    if (stamp) return stamp;
+    stamp = document.createElement("div");
     stamp.className = "parallel-stamp";
-    stamp.textContent = stampText(item, bookId, +chapter, +verse);
-
-    if (hit.syn && hit.at) {
-      const extra = document.createElement("button");
-      extra.type = "button";
-      extra.className = "parallel-stamp parallel-stamp-at";
-      extra.textContent = stampText(hit.at, bookId, +chapter, +verse);
-      extra.addEventListener("click", (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        openItem(hit.at, bookId, +chapter, +verse, col);
-      });
-      layer.append(brace, stamp, extra);
-    } else {
-      layer.append(brace, stamp);
-    }
-
-    stamp.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      openItem(item, bookId, +chapter, +verse, col);
-    });
-
-    if (!placeLayer(layer, pair, col, cur.span)) {
-      clearLayer(layer);
-      return;
-    }
-
-    layer.hidden = false;
-    requestAnimationFrame(() => layer.classList.add("is-on"));
-    shown = key;
-  }
-
-  function openItem(item, bookId, chapter, verse, col) {
-    if (!cardsEl || !layer) return;
-    const edition = ctx.colToEdition.get(col) || ctx.edition;
-    fillCards(cardsEl, item, bookId, chapter, verse, edition);
-    cardsEl.classList.add("is-open");
-    layer.classList.add("is-open");
-    open = true;
+    stamp.hidden = true;
+    document.body.appendChild(stamp);
+    return stamp;
   }
 
   container.addEventListener("pointerover", (e) => {
-    const verse = e.target.closest(".chapter-pair > .verse");
-    if (!verse || !container.contains(verse)) return;
-    if (verse.closest(".parallel-layer")) return;
-    const pair = verse.closest(".chapter-pair");
-    if (!pair) return;
-    show(pair, verse.dataset.col, pair.dataset.chapter, verse.dataset.verse);
+    const rail = e.target.closest(".parallel-rail");
+    if (!rail || !container.contains(rail)) return;
+    const pair = rail.closest(".chapter-pair");
+    const s = ensureStamp();
+    s.textContent = stampText(
+      rail._item,
+      ctx.bookId,
+      +pair.dataset.chapter,
+      spanVerses(rail._span).min
+    );
+    s.hidden = false;
+    const pr = pair.getBoundingClientRect();
+    s.style.left = `${rail.getBoundingClientRect().right + 8}px`;
+    s.style.top = `${e.clientY}px`;
+    s.style.position = "fixed";
+    s.style.transform = "translateY(-50%)";
   });
 
-  container.addEventListener("pointerleave", (e) => {
+  container.addEventListener("pointermove", (e) => {
+    const rail = e.target.closest(".parallel-rail");
+    if (!rail || !stamp || stamp.hidden) return;
+    stamp.style.top = `${e.clientY}px`;
+  });
+
+  container.addEventListener("pointerout", (e) => {
+    const rail = e.target.closest(".parallel-rail");
+    if (!rail) return;
     const to = e.relatedTarget;
-    if (to && (container.contains(to) || to.closest?.(".parallel-layer, .parallel-cards"))) {
-      return;
-    }
-    hide();
+    if (to && (rail.contains(to) || stamp?.contains(to))) return;
+    if (stamp) stamp.hidden = true;
   });
 
-  document.addEventListener("pointerdown", (e) => {
-    if (!open || !layer) return;
-    if (layer.contains(e.target) || cardsEl?.contains(e.target)) return;
-    open = false;
-    hide();
+  container.addEventListener("click", (e) => {
+    const rail = e.target.closest(".parallel-rail");
+    if (!rail || !container.contains(rail)) return;
+    e.preventDefault();
+    e.stopPropagation();
+    if (stamp) stamp.hidden = true;
+    openFromRail(rail, ctx);
   });
 }
 
-const ctx = { bookId: "", edition: "", colToEdition: new Map() };
+const ctx = { bookId: "", edition: "", primaryCol: "" };
 
 export async function mountParallels({ bookId, container, editions }) {
   if (!container || !bookId) return;
   ctx.bookId = bookId;
-  ctx.colToEdition = new Map();
-  for (const ed of editions || []) {
-    const id = ed.book?.version?.id || ed.col;
-    ctx.colToEdition.set(ed.col, id);
-    if (ed.primary) ctx.edition = id;
-  }
+  const primary = (editions || []).find((ed) => ed.primary) || (editions || []).at(-1);
+  ctx.primaryCol = primary?.col || "";
+  ctx.edition = primary?.book?.version?.id || primary?.col || "";
   await loadPack();
+  try {
+    indexCache = await loadVersionIndex(ctx.edition);
+  } catch {
+    indexCache = null;
+  }
+  paintRails(container, ctx);
   if (!container.dataset.parallelsBound) {
     container.dataset.parallelsBound = "1";
     bind(container, ctx);
   }
+}
+
+export function formatFullRef(bookId, chapter, verseStart, verseEnd, ranges) {
+  return headingFor(bookId, {
+    chapter,
+    ranges: ranges?.length
+      ? ranges
+      : verseStart
+        ? [{ start: verseStart, end: verseEnd || verseStart }]
+        : null,
+  });
+}
+
+export async function attachExcerptParallels({
+  host,
+  row,
+  bookId,
+  chapter,
+  verseStart,
+  edition,
+}) {
+  if (!host || !bookId) return;
+  await loadPack();
+  const hitsRaw = itemsForBookChapter(bookId, chapter).filter((h) => {
+    if (verseStart == null) return true;
+    const v = spanVerses(h.span);
+    if (v.all) return true;
+    return spanHasVerse(h.span, chapter, verseStart);
+  });
+  if (!hitsRaw.length) return;
+  const hits = hitsRaw.map((h) => {
+    const v = spanVerses(h.span);
+    return { ...h, min: v.all ? 1 : v.min, max: v.all ? 999 : Math.min(v.max, 9000) };
+  });
+  assignLanes(hits);
+  host.style.position = "relative";
+  hits.forEach((h) => {
+    const rail = document.createElement("button");
+    rail.type = "button";
+    rail.className = "parallel-rail";
+    rail.style.top = "0.4rem";
+    rail.style.bottom = "0.4rem";
+    rail.style.height = "auto";
+    rail.style.right = `${-8 - h.lane * 6}px`;
+    rail.style.left = "auto";
+    rail._item = h.item;
+    rail._span = h.span;
+    host.appendChild(rail);
+    rail.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeOpenCards(row?.parentElement || document);
+      let cards = row?.querySelector(":scope > .parallel-cards");
+      if (!cards && row) {
+        cards = document.createElement("div");
+        cards.className = "parallel-cards";
+        row.appendChild(cards);
+      }
+      if (!cards) return;
+      fillCards(cards, h.item, bookId, chapter, verseStart || 1, edition);
+      cards.classList.add("is-open");
+      rail.classList.add("is-open");
+    });
+  });
 }

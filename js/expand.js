@@ -87,6 +87,7 @@ export class MaskDilatation {
     this._fracPin = 0;
     this._pinRaf = 0;
     this._scrollRaf = 0;
+    this.lockPage = !!this.ref.lockPage;
     this._onClick = this._onClick.bind(this);
     this._moved = false;
     this._down = null;
@@ -241,7 +242,12 @@ export class MaskDilatation {
       scrollAdj = -Math.trunc(translate);
       translate += scrollAdj;
     }
-    if (scrollAdj) window.scrollTo(0, window.scrollY + scrollAdj);
+    if (scrollAdj && !this.lockPage) {
+      window.scrollTo(0, window.scrollY + scrollAdj);
+    } else if (scrollAdj && this.lockPage) {
+      translate -= scrollAdj;
+      scrollAdj = 0;
+    }
     this._fracPin = translate;
     this.host.style.transform = translate
       ? `translate3d(0, ${translate}px, 0)`
@@ -253,7 +259,9 @@ export class MaskDilatation {
       this.host.style.transform = "";
       return;
     }
-    window.scrollTo(0, window.scrollY - this._fracPin);
+    if (!this.lockPage) {
+      window.scrollTo(0, window.scrollY - this._fracPin);
+    }
     this._fracPin = 0;
     this.host.style.transform = "";
   }
@@ -377,7 +385,8 @@ export class MaskDilatation {
 
     this._stopGlide();
     this._clearFracPin();
-    this.savedScrollY = window.scrollY;
+    const token = this.host.closest(".parallel-cards")?.dataset.synScroll;
+    this.savedScrollY = token != null && token !== "" ? Number(token) : window.scrollY;
     const targetTop = this.excerpt.getBoundingClientRect().top;
     const dur = this._durationMs();
 
