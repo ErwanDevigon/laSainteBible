@@ -10,9 +10,34 @@ import {
 } from "./books.js";
 
 export const EDITION_SEGOND = "segond-1910";
+export const EDITION_OSTERVALD = "ostervald";
 export const EDITION_SEPTANTE = "septante";
 export const EDITION_VULGATE = "vulgate";
-export const DEFAULT_ACTIVE = EDITION_SEGOND;
+export const DEFAULT_ACTIVE = EDITION_OSTERVALD;
+
+const CANON_PHRASE = {
+  "fr:protestant": "canon protestant",
+  "fr:catholic": "canon catholique",
+  "fr:orthodox": "canon orthodoxe",
+  "la:protestant": "canon protestanticum",
+  "la:catholic": "canon catholicum",
+  "la:orthodox": "canon orthodoxum",
+  "el:protestant": "κανὼν προτεσταντικός",
+  "el:catholic": "κανὼν καθολικός",
+  "el:orthodox": "κανὼν ὀρθόδοξος",
+};
+
+const CANON_HEAD = {
+  "fr:protestant": "Canon protestant",
+  "fr:catholic": "Canon catholique",
+  "fr:orthodox": "Canon orthodoxe",
+  "la:protestant": "Canon protestanticum",
+  "la:catholic": "Canon catholicum",
+  "la:orthodox": "Canon orthodoxum",
+  "el:protestant": "Κανὼν προτεσταντικός",
+  "el:catholic": "Κανὼν καθολικός",
+  "el:orthodox": "Κανὼν ὀρθόδοξος",
+};
 
 export const EDITIONS = VERSIONS;
 
@@ -71,6 +96,22 @@ export function editionBlurb(id) {
   return v?.blurb || v?.label || id;
 }
 
+export function editionCanonKey(id) {
+  const v = EDITIONS[id];
+  if (!v) return "";
+  return `${v.lang || "fr"}:${v.canon || ""}`;
+}
+
+export function editionCanonPhrase(id) {
+  const key = editionCanonKey(id);
+  return CANON_PHRASE[key] || CANON_PHRASE[`fr:${EDITIONS[id]?.canon}`] || "";
+}
+
+export function editionCanonHead(id) {
+  const key = editionCanonKey(id);
+  return CANON_HEAD[key] || CANON_HEAD[`fr:${EDITIONS[id]?.canon}`] || "";
+}
+
 /** Blurb in the version language, with date. */
 export function editionBlurbDated(id) {
   const blurb = editionBlurb(id);
@@ -78,6 +119,13 @@ export function editionBlurbDated(id) {
   if (!year) return blurb;
   if (blurb.includes(year) || /·\s*-?\d/.test(blurb)) return blurb;
   return `${blurb} · ${year}`;
+}
+
+/** Left sub-bar: blurb · date · canon. */
+export function editionBlurbDatedCanon(id) {
+  const base = editionBlurbDated(id);
+  const canon = editionCanonPhrase(id);
+  return canon ? `${base} · ${canon}` : base;
 }
 
 /** Name · date (reader columns). */
@@ -229,7 +277,7 @@ export function mountActiveEditionBar(available = EDITION_STACK) {
 
   const blurb = document.createElement("p");
   blurb.className = "edition-bar-blurb";
-  blurb.textContent = editionBlurbDated(active);
+  blurb.textContent = editionBlurbDatedCanon(active);
 
   const btn = document.createElement("button");
   btn.type = "button";
@@ -421,7 +469,7 @@ export function mountSiteEditionBar(available = EDITION_STACK) {
   return mountActiveEditionBar(available);
 }
 
-export function wrapCurrentPane(editionId = EDITION_SEGOND) {
+export function wrapCurrentPane(editionId = DEFAULT_ACTIVE) {
   const existing = document.querySelector(".edition-pane.is-current");
   if (existing) return existing;
 

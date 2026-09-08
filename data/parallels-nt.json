@@ -1,0 +1,8850 @@
+{
+  "items": [
+    {
+      "id": "prologue-titre",
+      "label": "Prologue / titre",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,1"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,1"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 4
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,1-4"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 18
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,1-18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "genealogie",
+      "label": "Généalogie",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,2-17"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 38
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,23-38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naissance-de-jesus",
+      "label": "Naissance de Jésus",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,18-25"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 7
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,1-7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adoration-de-l-enfant",
+      "label": "Adoration de l’enfant",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,1-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 8,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,8-20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installation-a-nazareth",
+      "label": "Installation à Nazareth",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,22-23"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 39,
+                  "end": 40
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,39-40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jean-baptiste",
+      "label": "Jean-Baptiste",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 6
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,1-6"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 6
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,2-6"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 6
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,1-6"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 19,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,19-23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "predication-de-conversion",
+      "label": "Prédication de conversion",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,7-10"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,7-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annonce-du-plus-fort",
+      "label": "Annonce du Plus fort",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,11-12"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,7-8"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 18
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,15-18"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,24-28"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bapteme-de-jesus",
+      "label": "Baptême de Jésus",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,13-17"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,9-11"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,21-22"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,29-34"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tentations",
+      "label": "Tentations",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,1-11"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,12-13"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,1-13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retour-debut-en-galilee",
+      "label": "Retour / début en Galilée",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,12-17"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,14-15"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,14-15"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 3
+                },
+                {
+                  "start": 43,
+                  "end": 46
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,1-3.43-46"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appel-des-premiers-disciples",
+      "label": "Appel des premiers disciples",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,18-22"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,16-20"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,1-11"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 35,
+                  "end": 51
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,35-51"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enseignement-a-capharnaum",
+      "label": "Enseignement à Capharnaüm",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,21-22"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,31-32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "possede-de-la-synagogue",
+      "label": "Possédé de la synagogue",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,23-28"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 37
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,33-37"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "belle-mere-de-pierre",
+      "label": "Belle-mère de Pierre",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,14-15"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,29-31"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 38,
+                  "end": 39
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,38-39"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guerisons-le-soir",
+      "label": "Guérisons le soir",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,16-17"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 32,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,32-34"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 40,
+                  "end": 41
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,40-41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depart-de-capharnaum",
+      "label": "Départ de Capharnaüm",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 35,
+                  "end": 38
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,35-38"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 42,
+                  "end": 43
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,42-43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tournee-de-predication",
+      "label": "Tournée de prédication",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,23"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 39,
+                  "end": 39
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,39"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 44,
+                  "end": 44
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guerison-d-un-lepreux",
+      "label": "Guérison d’un lépreux",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 4
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,1-4"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 1,
+              "ranges": [
+                {
+                  "start": 40,
+                  "end": 45
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "1,40-45"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,12-16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paralytique",
+      "label": "Paralytique",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,1-8"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,1-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 17,
+                  "end": 26
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,17-26"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 8,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,8-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appel-de-levi-matthieu",
+      "label": "Appel de Lévi / Matthieu",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,9-13"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,13-17"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 27,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,27-32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "question-du-jeune",
+      "label": "Question du jeûne",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,14-17"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,18-22"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 39
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,33-39"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epis-arraches-le-sabbat",
+      "label": "Épis arrachés le sabbat",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,1-8"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,23-28"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 5
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-dessechee",
+      "label": "Main desséchée",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,9-14"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 6
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,1-6"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 6,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,6-11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foules-et-guerisons",
+      "label": "Foules et guérisons",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 25
+                }
+              ]
+            },
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,24-25",
+            "12,15-16"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,7-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 17,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,17-19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choix-des-douze",
+      "label": "Choix des Douze",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 4
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,1-4"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,13-19"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,12-16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beatitudes",
+      "label": "Béatitudes",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,3-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,20-23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amour-des-ennemis",
+      "label": "Amour des ennemis",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 38,
+                  "end": 48
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,38-48"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 27,
+                  "end": 36
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,27-36"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ne-pas-juger",
+      "label": "Ne pas juger",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 5
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,1-5"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,24"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 42
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,37-42"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arbre-et-fruits",
+      "label": "Arbre et fruits",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 20
+                }
+              ]
+            },
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 35
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,15-20",
+            "12,33-35"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 43,
+                  "end": 45
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,43-45"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maison-sur-le-roc",
+      "label": "Maison sur le roc",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,21-27"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 46,
+                  "end": 49
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,46-49"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "centurion-de-capharnaum",
+      "label": "Centurion de Capharnaüm",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,5-13"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,1-10"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 46,
+                  "end": 54
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,46-54"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "envoyes-de-jean-baptiste",
+      "label": "Envoyés de Jean-Baptiste",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,2-19"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 35
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,18-35"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onction-par-une-femme",
+      "label": "Onction par une femme",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 6,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,6-13"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,3-9"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 36,
+                  "end": 50
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,36-50"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,1-8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vraie-famille-de-jesus",
+      "label": "Vraie famille de Jésus",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 46,
+                  "end": 50
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,46-50"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 35
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,31-35"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 19,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parabole-du-semeur",
+      "label": "Parabole du semeur",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,1-9"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,1-9"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,4-8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pourquoi-des-paraboles",
+      "label": "Pourquoi des paraboles",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,10-17"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,10-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,9-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explication-du-semeur",
+      "label": "Explication du semeur",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,18-23"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,13-20"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,11-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "la-lampe",
+      "label": "La lampe",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,14-16"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,21-23"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 18
+                }
+              ]
+            },
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,16-18",
+            "11,33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "la-mesure",
+      "label": "La mesure",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 2
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,2"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,24-25"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 38,
+                  "end": 38
+                }
+              ]
+            },
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 18
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,38",
+            "8,18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grain-de-seneve",
+      "label": "Grain de sénevé",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,31-32"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 30,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,30-32"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,18-19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levain",
+      "label": "Levain",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,33"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,20-21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tempete-apaisee",
+      "label": "Tempête apaisée",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,23-27"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 35,
+                  "end": 41
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,35-41"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,22-25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demoniaque-gerasenien",
+      "label": "Démoniaque gérasénien",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,28-34"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,1-20"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 26,
+                  "end": 39
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,26-39"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fille-de-jaire-hemorroisse",
+      "label": "Fille de Jaïre / hémorroïsse",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 26
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,18-26"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 43
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,21-43"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 40,
+                  "end": 56
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,40-56"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rejet-a-nazareth",
+      "label": "Rejet à Nazareth",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 53,
+                  "end": 58
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,53-58"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 6
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,1-6"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 4,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "4,16-30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission-des-douze",
+      "label": "Mission des Douze",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,5-15"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,7-13"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 6
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,1-6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herode-et-jean-baptiste",
+      "label": "Hérode et Jean-Baptiste",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,1-12"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 29
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,14-29"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,7-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pains-pour-5000",
+      "label": "Pains pour 5000",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,13-21"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 30,
+                  "end": 44
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,30-44"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,10-17"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,1-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marche-sur-les-eaux",
+      "label": "Marche sur les eaux",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,22-33"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 45,
+                  "end": 52
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,45-52"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,16-21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guerisons-a-genesareth",
+      "label": "Guérisons à Génésareth",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 36
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,34-36"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 53,
+                  "end": 56
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,53-56"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tradition-des-anciens",
+      "label": "Tradition des anciens",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,1-20"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,1-23"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 41
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,37-41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syro-phenicienne",
+      "label": "Syro-phénicienne",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,21-28"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,24-30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pains-pour-4000",
+      "label": "Pains pour 4000",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 32,
+                  "end": 39
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,32-39"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,1-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demande-d-un-signe",
+      "label": "Demande d’un signe",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 4
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,1-4"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,11-13"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 16
+                },
+                {
+                  "start": 29,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,16.29-32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levain-des-pharisiens",
+      "label": "Levain des pharisiens",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,5-12"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,14-21"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confession-de-pierre",
+      "label": "Confession de Pierre",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,13-20"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 27,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,27-30"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,18-21"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 67,
+                  "end": 69
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,67-69"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1re-annonce-de-la-passion",
+      "label": "1re annonce de la Passion",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,21-23"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,31-33"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prendre-sa-croix",
+      "label": "Prendre sa croix",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,24-28"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": null
+                }
+              ]
+            },
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,34–",
+            "9,1"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,23-27"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 25,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transfiguration",
+      "label": "Transfiguration",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,1-9"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,2-10"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 36
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,28-36"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elie-qui-doit-venir",
+      "label": "Élie qui doit venir",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,10-13"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,11-13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enfant-epileptique",
+      "label": "Enfant épileptique",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,14-21"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 29
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,14-29"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 43
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,37-43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2e-annonce-de-la-passion",
+      "label": "2e annonce de la Passion",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,22-23"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 30,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,30-32"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 43,
+                  "end": 45
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,43-45"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qui-est-le-plus-grand",
+      "label": "Qui est le plus grand",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 5
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,1-5"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 37
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,33-37"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 46,
+                  "end": 48
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,46-48"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exorciste-etranger",
+      "label": "Exorciste étranger",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 42,
+                  "end": 42
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,42"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 38,
+                  "end": 41
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,38-41"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 49,
+                  "end": 50
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,49-50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scandale-main-coupee",
+      "label": "Scandale / main coupée",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 6,
+                  "end": 9
+                }
+              ]
+            },
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,6-9",
+            "5,29-30"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 42,
+                  "end": 48
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,42-48"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 2
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sel",
+      "label": "Sel",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,13"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 49,
+                  "end": 50
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,49-50"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 35
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,34-35"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brebis-perdue",
+      "label": "Brebis perdue",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,12-14"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 7
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,3-7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "correction-du-frere",
+      "label": "Correction du frère",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 18
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,15-18"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 3
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,3"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pardon-70-fois-7",
+      "label": "Pardon 70 fois 7",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,21-22"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 4,
+                  "end": 4
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exigences-du-suivi",
+      "label": "Exigences du suivi",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,18-22"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 57,
+                  "end": 62
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,57-62"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission-des-70-envoi",
+      "label": "Mission des 70 / envoi",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 38
+                }
+              ]
+            },
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,37-38",
+            "10,7-16"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,1-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malediction-des-villes",
+      "label": "Malédiction des villes",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,20-24"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,13-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qui-vous-ecoute",
+      "label": "Qui vous écoute",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 40,
+                  "end": 40
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,40"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,16"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hymne-au-pere",
+      "label": "Hymne au Père",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 25,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,25-27"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,21-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notre-pere",
+      "label": "Notre Père",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,9-13"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 4
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demandez-cherchez",
+      "label": "Demandez, cherchez",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,7-11"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,9-13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beelzeboul",
+      "label": "Béelzéboul",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,22-30"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,22-27"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,14-23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esprit-impur-qui-revient",
+      "label": "Esprit impur qui revient",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 43,
+                  "end": 45
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,43-45"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 26
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,24-26"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signe-de-jonas",
+      "label": "Signe de Jonas",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 38,
+                  "end": 42
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,38-42"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "8,11-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,29-32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "il-et-lumiere",
+      "label": "Œil et lumière",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,22-23"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 36
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,34-36"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invectives-pharisiens",
+      "label": "Invectives / pharisiens",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": null
+            },
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23",
+            "15,1-9"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 9
+                }
+              ]
+            },
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 38,
+                  "end": 40
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,1-9",
+            "12,38-40"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 54
+                }
+              ]
+            },
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 45,
+                  "end": 47
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,37-54",
+            "20,45-47"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confession-sans-crainte",
+      "label": "Confession sans crainte",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 26,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,26-33"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,2-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peche-contre-l-esprit",
+      "label": "Péché contre l’Esprit",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,31-32"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,28-30"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assistance-de-l-esprit",
+      "label": "Assistance de l’Esprit",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 19,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,19-20"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,11"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 12
+                }
+              ]
+            },
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,11-12",
+            "21,14-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "souci-oiseaux-et-lis",
+      "label": "Souci / oiseaux et lis",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 25,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,25-34"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,22-32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tresors-au-ciel",
+      "label": "Trésors au ciel",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 19,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,19-21"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,33-34"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vigilance-du-serviteur",
+      "label": "Vigilance du serviteur",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 42,
+                  "end": 51
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,42-51"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 37
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,33-37"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 35,
+                  "end": 48
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,35-48"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "division-dans-les-familles",
+      "label": "Division dans les familles",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 36
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,34-36"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 49,
+                  "end": 53
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,49-53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discerner-le-temps",
+      "label": "Discerner le temps",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 3
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,2-3"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 54,
+                  "end": 56
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,54-56"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accord-avec-l-adversaire",
+      "label": "Accord avec l’adversaire",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 25,
+                  "end": 26
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,25-26"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 57,
+                  "end": 59
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,57-59"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "porte-etroite-exclus",
+      "label": "Porte étroite / exclus",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 7,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 14
+                },
+                {
+                  "start": 21,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "chapter": 8,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "7,13-14.21-23",
+            "8,11-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,22-30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lamentation-sur-jerusalem",
+      "label": "Lamentation sur Jérusalem",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 39
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23,37-39"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 35
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,34-35"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grand-souper-noces",
+      "label": "Grand souper / noces",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,1-14"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,15-24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conditions-du-disciple",
+      "label": "Conditions du disciple",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 38
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,37-38"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 25,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,25-33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deux-maitres",
+      "label": "Deux maîtres",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 6,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "6,24"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loi-et-prophetes",
+      "label": "Loi et Prophètes",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 18
+                }
+              ]
+            },
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,18",
+            "11,12-13"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,16-17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "divorce",
+      "label": "Divorce",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 5,
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 32
+                }
+              ]
+            },
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 9
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "5,31-32",
+            "19,9"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,11-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 18
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depart-vers-la-judee",
+      "label": "Départ vers la Judée",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 2
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,1-2"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,1"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 9,
+              "ranges": [
+                {
+                  "start": 51,
+                  "end": 51
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "9,51"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "divorce-controverse",
+      "label": "Divorce (controverse)",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,3-12"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,2-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "benediction-des-enfants",
+      "label": "Bénédiction des enfants",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,13-15"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,13-16"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,15-17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homme-riche",
+      "label": "Homme riche",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,16-30"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 17,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,17-31"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,18-30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3e-annonce-de-la-passion",
+      "label": "3e annonce de la Passion",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 17,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,17-19"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 32,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,32-34"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,31-34"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fils-de-zebedee-service",
+      "label": "Fils de Zébédée / service",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,20-28"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 35,
+                  "end": 45
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,35-45"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,24-27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aveugle-s-de-jericho",
+      "label": "Aveugle(s) de Jéricho",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,29-34"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 46,
+                  "end": 52
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,46-52"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 35,
+                  "end": 43
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,35-43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entree-messianique",
+      "label": "Entrée messianique",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,1-11"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,1-11"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 40
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,28-40"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,12-19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purification-du-temple",
+      "label": "Purification du Temple",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,12-17"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,15-19"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 45,
+                  "end": 48
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,45-48"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,13-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figuier-maudit",
+      "label": "Figuier maudit",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,18-22"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 14
+                },
+                {
+                  "start": 20,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,12-14.20-25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autorite-de-jesus",
+      "label": "Autorité de Jésus",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,23-27"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 27,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,27-33"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,1-8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vignerons-homicides",
+      "label": "Vignerons homicides",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 46
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,33-46"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,1-12"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,9-19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impot-a-cesar",
+      "label": "Impôt à César",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,15-22"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,13-17"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 26
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,20-26"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resurrection-sadduceens",
+      "label": "Résurrection (sadducéens)",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,23-33"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,18-27"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 27,
+                  "end": 40
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,27-40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grand-commandement",
+      "label": "Grand commandement",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 40
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,34-40"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,28-34"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 25,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "10,25-28"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fils-de-david",
+      "label": "Fils de David",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 41,
+                  "end": 46
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,41-46"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 35,
+                  "end": 37
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,35-37"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 41,
+                  "end": 44
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,41-44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obole-de-la-veuve",
+      "label": "Obole de la veuve",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 41,
+                  "end": 44
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "12,41-44"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 4
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annonce-de-la-ruine-du-temple",
+      "label": "Annonce de la ruine du Temple",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 2
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,1-2"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 2
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,1-2"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 6
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,5-6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signes-de-la-fin",
+      "label": "Signes de la fin",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,3-8"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,3-8"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,7-11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "persecutions",
+      "label": "Persécutions",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "chapter": 10,
+              "ranges": [
+                {
+                  "start": 17,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,9-14",
+            "10,17-22"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,9-13"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 19
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,12-19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abomination-siege",
+      "label": "Abomination / siège",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 22
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,15-22"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,14-20"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 20,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,20-24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faux-christs",
+      "label": "Faux christs",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,23-28"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,21-23"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 23,
+                  "end": 24
+                },
+                {
+                  "start": 37,
+                  "end": 37
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,23-24.37"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "venue-du-fils-de-l-homme",
+      "label": "Venue du Fils de l’homme",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,29-31"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 24,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,24-27"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 25,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,25-28"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figuier-cette-generation",
+      "label": "Figuier / « cette génération »",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 32,
+                  "end": 36
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,32-36"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,28-32"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 21,
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 33
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "21,29-33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jours-de-noe-vigilance",
+      "label": "Jours de Noé / vigilance",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 37,
+                  "end": 44
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,37-44"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 35,
+                  "end": 35
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,35"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 17,
+              "ranges": [
+                {
+                  "start": 26,
+                  "end": 36
+                }
+              ]
+            },
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 39,
+                  "end": 40
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "17,26-36",
+            "12,39-40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talents-mines",
+      "label": "Talents / mines",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 25,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "25,14-30"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 34,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,34"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,11-27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complot-contre-jesus",
+      "label": "Complot contre Jésus",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 5
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,1-5"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 2
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,1-2"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 2
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,1-2"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 11,
+              "ranges": [
+                {
+                  "start": 47,
+                  "end": 53
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "11,47-53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trahison-de-judas",
+      "label": "Trahison de Judas",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,14-16"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,10-11"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 3,
+                  "end": 6
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,3-6"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 2
+                },
+                {
+                  "start": 27,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,2.27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparation-de-la-paque",
+      "label": "Préparation de la Pâque",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 17,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,17-20"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 12,
+                  "end": 17
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,12-17"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 7,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,7-14"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annonce-de-la-trahison",
+      "label": "Annonce de la trahison",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,21-25"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 18,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,18-21"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,21-23"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,21-30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cene-coupe-et-pain",
+      "label": "Cène / coupe et pain",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 26,
+                  "end": 29
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,26-29"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,22-25"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,15-20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annonce-du-reniement",
+      "label": "Annonce du reniement",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 30,
+                  "end": 35
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,30-35"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 26,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,26-31"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 31,
+                  "end": 34
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,31-34"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 13,
+              "ranges": [
+                {
+                  "start": 36,
+                  "end": 38
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "13,36-38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gethsemani",
+      "label": "Gethsémani",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 36,
+                  "end": 46
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,36-46"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 32,
+                  "end": 42
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,32-42"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 39,
+                  "end": 46
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,39-46"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            },
+            {
+              "chapter": 12,
+              "ranges": [
+                {
+                  "start": 27,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,1",
+            "12,27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrestation",
+      "label": "Arrestation",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 47,
+                  "end": 56
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,47-56"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 43,
+                  "end": 52
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,43-52"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 47,
+                  "end": 53
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,47-53"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,2-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparution-sanhedrin",
+      "label": "Comparution / Sanhédrin",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 57,
+                  "end": 68
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,57-68"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 53,
+                  "end": 65
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,53-65"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 54,
+                  "end": 71
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,54-71"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,13-24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reniements-de-pierre",
+      "label": "Reniements de Pierre",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 26,
+              "ranges": [
+                {
+                  "start": 69,
+                  "end": 75
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "26,69-75"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 14,
+              "ranges": [
+                {
+                  "start": 66,
+                  "end": 72
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "14,66-72"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 22,
+              "ranges": [
+                {
+                  "start": 54,
+                  "end": 62
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "22,54-62"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,15-27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remis-a-pilate",
+      "label": "Remis à Pilate",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 27,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 2
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "27,1-2"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,1"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23,1"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 28
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,28"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interrogatoire-de-pilate",
+      "label": "Interrogatoire de Pilate",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 27,
+              "ranges": [
+                {
+                  "start": 11,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "27,11-14"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 5
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,2-5"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": [
+                {
+                  "start": 2,
+                  "end": 5
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23,2-5"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 29,
+                  "end": 38
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,29-38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "barabbas",
+      "label": "Barabbas",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 27,
+              "ranges": [
+                {
+                  "start": 15,
+                  "end": 26
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "27,15-26"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 6,
+                  "end": 15
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,6-15"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": [
+                {
+                  "start": 13,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23,13-25"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 18,
+              "ranges": [
+                {
+                  "start": 39,
+                  "end": null
+                }
+              ]
+            },
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "18,39–",
+            "19,1-16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "couronnement-d-epines",
+      "label": "Couronnement d’épines",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 27,
+              "ranges": [
+                {
+                  "start": 27,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "27,27-31"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,16-20"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 3
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,1-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemin-de-croix",
+      "label": "Chemin de croix",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 27,
+              "ranges": [
+                {
+                  "start": 32,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "27,32"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 21,
+                  "end": 21
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,21"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": [
+                {
+                  "start": 26,
+                  "end": 26
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23,26"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crucifixion",
+      "label": "Crucifixion",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 27,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 44
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "27,33-44"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 22,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,22-32"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 43
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23,33-43"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 17,
+                  "end": 27
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,17-27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mort-de-jesus",
+      "label": "Mort de Jésus",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 27,
+              "ranges": [
+                {
+                  "start": 45,
+                  "end": 56
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "27,45-56"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 33,
+                  "end": 41
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,33-41"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": [
+                {
+                  "start": 44,
+                  "end": 49
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23,44-49"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 28,
+                  "end": 37
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,28-37"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sepulture",
+      "label": "Sépulture",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 27,
+              "ranges": [
+                {
+                  "start": 57,
+                  "end": 61
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "27,57-61"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 15,
+              "ranges": [
+                {
+                  "start": 42,
+                  "end": 47
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "15,42-47"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 23,
+              "ranges": [
+                {
+                  "start": 50,
+                  "end": 56
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "23,50-56"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 19,
+              "ranges": [
+                {
+                  "start": 38,
+                  "end": 42
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "19,38-42"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tombeau-vide",
+      "label": "Tombeau vide",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 28,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "28,1-8"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 8
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,1-8"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 12
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,1-12"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,1-13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apparition-aux-femmes",
+      "label": "Apparition aux femmes",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 28,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "28,9-10"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 9,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,9-11"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 10,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,10-11"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 18
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,14-18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apparition-aux-onze-envoi",
+      "label": "Apparition aux Onze / envoi",
+      "kind": "synopse",
+      "passages": [
+        {
+          "book": "matthieu",
+          "short": "Mt",
+          "spans": [
+            {
+              "chapter": 28,
+              "ranges": [
+                {
+                  "start": 16,
+                  "end": 20
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "28,16-20"
+          ]
+        },
+        {
+          "book": "marc",
+          "short": "Mc",
+          "spans": [
+            {
+              "chapter": 16,
+              "ranges": [
+                {
+                  "start": 14,
+                  "end": 18
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "16,14-18"
+          ]
+        },
+        {
+          "book": "luc",
+          "short": "Lc",
+          "spans": [
+            {
+              "chapter": 24,
+              "ranges": [
+                {
+                  "start": 36,
+                  "end": 49
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "24,36-49"
+          ]
+        },
+        {
+          "book": "jean",
+          "short": "Jn",
+          "spans": [
+            {
+              "chapter": 20,
+              "ranges": [
+                {
+                  "start": 19,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "20,19-23"
+          ]
+        }
+      ]
+    }
+  ]
+}

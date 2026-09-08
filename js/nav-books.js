@@ -9,7 +9,7 @@ import {
   bookName,
 } from "./books.js";
 import { loadVersionIndex } from "./data-loader.js";
-import { getActiveEdition } from "./editions.js";
+import { editionCanonHead, getActiveEdition } from "./editions.js";
 
 export const GOSPEL_META = GOSPEL_IDS.map((id) => {
   const b = BOOK_BY_ID[id];
@@ -25,7 +25,7 @@ export function mountGospelPickers(container, opts = {}) {
     mountCanonCatalog(container, {
       base,
       versionId: opts.versionId || getActiveEdition(),
-      testament: opts.testament || "at",
+      testament: opts.testament || "nt",
     });
     return;
   }
@@ -56,13 +56,21 @@ export function mountGospelPickers(container, opts = {}) {
 export async function mountCanonCatalog(container, opts = {}) {
   const base = opts.base ?? "";
   const versionId = opts.versionId || getActiveEdition();
-  const testament = opts.testament || "at";
+  const testament = opts.testament || "nt";
   const index = opts.index || (await loadVersionIndex(versionId));
   const books = (index?.books || []).filter((b) => b.testament === testament);
   const byId = Object.fromEntries(books.map((b) => [b.id, b]));
 
   container.replaceChildren();
   container.className = "canon-catalog";
+
+  const canonLine = editionCanonHead(versionId);
+  if (canonLine) {
+    const head = document.createElement("p");
+    head.className = "canon-head";
+    head.textContent = canonLine;
+    container.append(head);
+  }
 
   if (!books.length) {
     const empty = document.createElement("p");
@@ -101,7 +109,7 @@ export async function mountCanonCatalog(container, opts = {}) {
       const a = document.createElement("a");
       a.className = "canon-card";
       a.href = bookHref(book.id, base);
-      a.textContent = bookName(book) || book.title || book.id;
+      a.textContent = book.title || bookName(book) || book.id;
       grid.append(a);
     }
     section.append(grid);

@@ -7,7 +7,7 @@ import {
 } from "./editions.js";
 import { listVersionIds, loadVersionIndex } from "./data-loader.js";
 
-const TESTAMENT_KEY = "lsb-testament";
+const TESTAMENT_KEY = "lsb-home-testament";
 
 function readTestament() {
   try {
@@ -16,7 +16,7 @@ function readTestament() {
   } catch {
     /* ignore */
   }
-  return "at";
+  return "nt";
 }
 
 function writeTestament(v) {

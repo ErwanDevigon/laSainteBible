@@ -3,7 +3,7 @@ export const BOOKS = [
   {
     "nr": 1,
     "id": "genese",
-    "title": "Genèse",
+    "title": "Livre de la Genèse",
     "short": "Gn",
     "testament": "at",
     "section": "torah",
@@ -17,7 +17,7 @@ export const BOOKS = [
   {
     "nr": 2,
     "id": "exode",
-    "title": "Exode",
+    "title": "Livre de l'Exode",
     "short": "Ex",
     "testament": "at",
     "section": "torah",
@@ -31,7 +31,7 @@ export const BOOKS = [
   {
     "nr": 3,
     "id": "levitique",
-    "title": "Lévitique",
+    "title": "Livre du Lévitique",
     "short": "Lv",
     "testament": "at",
     "section": "torah",
@@ -45,7 +45,7 @@ export const BOOKS = [
   {
     "nr": 4,
     "id": "nombres",
-    "title": "Nombres",
+    "title": "Livre des Nombres",
     "short": "Nb",
     "testament": "at",
     "section": "torah",
@@ -59,7 +59,7 @@ export const BOOKS = [
   {
     "nr": 5,
     "id": "deuteronome",
-    "title": "Deutéronome",
+    "title": "Livre du Deutéronome",
     "short": "Dt",
     "testament": "at",
     "section": "torah",
@@ -73,7 +73,7 @@ export const BOOKS = [
   {
     "nr": 6,
     "id": "josue",
-    "title": "Josué",
+    "title": "Livre de Josué",
     "short": "Jos",
     "testament": "at",
     "section": "neviim",
@@ -87,7 +87,7 @@ export const BOOKS = [
   {
     "nr": 7,
     "id": "juges",
-    "title": "Juges",
+    "title": "Livre des Juges",
     "short": "Jg",
     "testament": "at",
     "section": "neviim",
@@ -101,7 +101,7 @@ export const BOOKS = [
   {
     "nr": 8,
     "id": "1-samuel",
-    "title": "1 Samuel",
+    "title": "Premier livre de Samuel",
     "short": "1 S",
     "testament": "at",
     "section": "neviim",
@@ -115,7 +115,7 @@ export const BOOKS = [
   {
     "nr": 9,
     "id": "2-samuel",
-    "title": "2 Samuel",
+    "title": "Second livre de Samuel",
     "short": "2 S",
     "testament": "at",
     "section": "neviim",
@@ -129,7 +129,7 @@ export const BOOKS = [
   {
     "nr": 10,
     "id": "1-rois",
-    "title": "1 Rois",
+    "title": "Premier livre des Rois",
     "short": "1 R",
     "testament": "at",
     "section": "neviim",
@@ -143,7 +143,7 @@ export const BOOKS = [
   {
     "nr": 11,
     "id": "2-rois",
-    "title": "2 Rois",
+    "title": "Second livre des Rois",
     "short": "2 R",
     "testament": "at",
     "section": "neviim",
@@ -157,7 +157,7 @@ export const BOOKS = [
   {
     "nr": 12,
     "id": "esaie",
-    "title": "Ésaïe",
+    "title": "Livre d'Ésaïe",
     "short": "Es",
     "testament": "at",
     "section": "neviim",
@@ -171,7 +171,7 @@ export const BOOKS = [
   {
     "nr": 13,
     "id": "jeremie",
-    "title": "Jérémie",
+    "title": "Livre de Jérémie",
     "short": "Jr",
     "testament": "at",
     "section": "neviim",
@@ -185,7 +185,7 @@ export const BOOKS = [
   {
     "nr": 14,
     "id": "ezechiel",
-    "title": "Ézéchiel",
+    "title": "Livre d'Ézéchiel",
     "short": "Ez",
     "testament": "at",
     "section": "neviim",
@@ -199,7 +199,7 @@ export const BOOKS = [
   {
     "nr": 15,
     "id": "osee",
-    "title": "Osée",
+    "title": "Livre d'Osée",
     "short": "Os",
     "testament": "at",
     "section": "neviim",
@@ -213,7 +213,7 @@ export const BOOKS = [
   {
     "nr": 16,
     "id": "joel",
-    "title": "Joël",
+    "title": "Livre de Joël",
     "short": "Jl",
     "testament": "at",
     "section": "neviim",
@@ -227,7 +227,7 @@ export const BOOKS = [
   {
     "nr": 17,
     "id": "amos",
-    "title": "Amos",
+    "title": "Livre d'Amos",
     "short": "Am",
     "testament": "at",
     "section": "neviim",
@@ -241,7 +241,7 @@ export const BOOKS = [
   {
     "nr": 18,
     "id": "abdias",
-    "title": "Abdias",
+    "title": "Livre d'Abdias",
     "short": "Ab",
     "testament": "at",
     "section": "neviim",
@@ -255,7 +255,7 @@ export const BOOKS = [
   {
     "nr": 19,
     "id": "jonas",
-    "title": "Jonas",
+    "title": "Livre de Jonas",
     "short": "Jon",
     "testament": "at",
     "section": "neviim",
@@ -269,7 +269,7 @@ export const BOOKS = [
   {
     "nr": 20,
     "id": "michee",
-    "title": "Michée",
+    "title": "Livre de Michée",
     "short": "Mi",
     "testament": "at",
     "section": "neviim",
@@ -283,7 +283,7 @@ export const BOOKS = [
   {
     "nr": 21,
     "id": "nahum",
-    "title": "Nahum",
+    "title": "Livre de Nahum",
     "short": "Na",
     "testament": "at",
     "section": "neviim",
@@ -297,7 +297,7 @@ export const BOOKS = [
   {
     "nr": 22,
     "id": "habacuc",
-    "title": "Habacuc",
+    "title": "Livre d'Habacuc",
     "short": "Ha",
     "testament": "at",
     "section": "neviim",
@@ -311,7 +311,7 @@ export const BOOKS = [
   {
     "nr": 23,
     "id": "sophonie",
-    "title": "Sophonie",
+    "title": "Livre de Sophonie",
     "short": "So",
     "testament": "at",
     "section": "neviim",
@@ -325,7 +325,7 @@ export const BOOKS = [
   {
     "nr": 24,
     "id": "aggee",
-    "title": "Aggée",
+    "title": "Livre d'Aggée",
     "short": "Ag",
     "testament": "at",
     "section": "neviim",
@@ -339,7 +339,7 @@ export const BOOKS = [
   {
     "nr": 25,
     "id": "zacharie",
-    "title": "Zacharie",
+    "title": "Livre de Zacharie",
     "short": "Za",
     "testament": "at",
     "section": "neviim",
@@ -353,7 +353,7 @@ export const BOOKS = [
   {
     "nr": 26,
     "id": "malachie",
-    "title": "Malachie",
+    "title": "Livre de Malachie",
     "short": "Ml",
     "testament": "at",
     "section": "neviim",
@@ -367,7 +367,7 @@ export const BOOKS = [
   {
     "nr": 27,
     "id": "psaumes",
-    "title": "Psaumes",
+    "title": "Livre des Psaumes",
     "short": "Ps",
     "testament": "at",
     "section": "ketuvim",
@@ -381,7 +381,7 @@ export const BOOKS = [
   {
     "nr": 28,
     "id": "proverbes",
-    "title": "Proverbes",
+    "title": "Livre des Proverbes",
     "short": "Pr",
     "testament": "at",
     "section": "ketuvim",
@@ -395,7 +395,7 @@ export const BOOKS = [
   {
     "nr": 29,
     "id": "job",
-    "title": "Job",
+    "title": "Livre de Job",
     "short": "Jb",
     "testament": "at",
     "section": "ketuvim",
@@ -409,7 +409,7 @@ export const BOOKS = [
   {
     "nr": 30,
     "id": "cantique",
-    "title": "Cantique des Cantiques",
+    "title": "Cantique des cantiques",
     "short": "Ct",
     "testament": "at",
     "section": "ketuvim",
@@ -423,7 +423,7 @@ export const BOOKS = [
   {
     "nr": 31,
     "id": "ruth",
-    "title": "Ruth",
+    "title": "Livre de Ruth",
     "short": "Rt",
     "testament": "at",
     "section": "ketuvim",
@@ -437,7 +437,7 @@ export const BOOKS = [
   {
     "nr": 32,
     "id": "lamentations",
-    "title": "Lamentations",
+    "title": "Lamentations de Jérémie",
     "short": "Lm",
     "testament": "at",
     "section": "ketuvim",
@@ -451,7 +451,7 @@ export const BOOKS = [
   {
     "nr": 33,
     "id": "ecclesiaste",
-    "title": "Ecclésiaste",
+    "title": "L'Ecclésiaste",
     "short": "Ec",
     "testament": "at",
     "section": "ketuvim",
@@ -465,7 +465,7 @@ export const BOOKS = [
   {
     "nr": 34,
     "id": "esther",
-    "title": "Esther",
+    "title": "Livre d'Esther",
     "short": "Est",
     "testament": "at",
     "section": "ketuvim",
@@ -479,7 +479,7 @@ export const BOOKS = [
   {
     "nr": 35,
     "id": "daniel",
-    "title": "Daniel",
+    "title": "Livre de Daniel",
     "short": "Dn",
     "testament": "at",
     "section": "ketuvim",
@@ -493,7 +493,7 @@ export const BOOKS = [
   {
     "nr": 36,
     "id": "esdras",
-    "title": "Esdras",
+    "title": "Livre d'Esdras",
     "short": "Esd",
     "testament": "at",
     "section": "ketuvim",
@@ -507,7 +507,7 @@ export const BOOKS = [
   {
     "nr": 37,
     "id": "nehemie",
-    "title": "Néhémie",
+    "title": "Livre de Néhémie",
     "short": "Né",
     "testament": "at",
     "section": "ketuvim",
@@ -521,7 +521,7 @@ export const BOOKS = [
   {
     "nr": 38,
     "id": "1-chroniques",
-    "title": "1 Chroniques",
+    "title": "Premier livre des Chroniques",
     "short": "1 Ch",
     "testament": "at",
     "section": "ketuvim",
@@ -535,7 +535,7 @@ export const BOOKS = [
   {
     "nr": 39,
     "id": "2-chroniques",
-    "title": "2 Chroniques",
+    "title": "Second livre des Chroniques",
     "short": "2 Ch",
     "testament": "at",
     "section": "ketuvim",
@@ -549,7 +549,7 @@ export const BOOKS = [
   {
     "nr": 40,
     "id": "tobie",
-    "title": "Tobie",
+    "title": "Livre de Tobie",
     "short": "Tb",
     "testament": "at",
     "section": "deuterocanoniques",
@@ -561,7 +561,7 @@ export const BOOKS = [
   {
     "nr": 41,
     "id": "judith",
-    "title": "Judith",
+    "title": "Livre de Judith",
     "short": "Jdt",
     "testament": "at",
     "section": "deuterocanoniques",
@@ -573,7 +573,7 @@ export const BOOKS = [
   {
     "nr": 42,
     "id": "sagesse",
-    "title": "Sagesse",
+    "title": "Livre de la Sagesse",
     "short": "Sg",
     "testament": "at",
     "section": "deuterocanoniques",
@@ -597,7 +597,7 @@ export const BOOKS = [
   {
     "nr": 44,
     "id": "baruch",
-    "title": "Baruch",
+    "title": "Livre de Baruch",
     "short": "Ba",
     "testament": "at",
     "section": "deuterocanoniques",
@@ -609,7 +609,7 @@ export const BOOKS = [
   {
     "nr": 45,
     "id": "1-maccabees",
-    "title": "1 Maccabées",
+    "title": "Premier livre des Maccabées",
     "short": "1 M",
     "testament": "at",
     "section": "deuterocanoniques",
@@ -621,7 +621,7 @@ export const BOOKS = [
   {
     "nr": 46,
     "id": "2-maccabees",
-    "title": "2 Maccabées",
+    "title": "Second livre des Maccabées",
     "short": "2 M",
     "testament": "at",
     "section": "deuterocanoniques",
@@ -633,7 +633,7 @@ export const BOOKS = [
   {
     "nr": 47,
     "id": "3-maccabees",
-    "title": "3 Maccabées",
+    "title": "Troisième livre des Maccabées",
     "short": "3 M",
     "testament": "at",
     "section": "deuterocanoniques",
@@ -644,7 +644,7 @@ export const BOOKS = [
   {
     "nr": 48,
     "id": "4-maccabees",
-    "title": "4 Maccabées",
+    "title": "Quatrième livre des Maccabées",
     "short": "4 M",
     "testament": "at",
     "section": "deuterocanoniques",
@@ -731,7 +731,7 @@ export const BOOKS = [
   {
     "nr": 55,
     "id": "romains",
-    "title": "Romains",
+    "title": "Lettre de saint Paul Apôtre aux Romains",
     "short": "Rm",
     "testament": "nt",
     "section": "epitres",
@@ -744,7 +744,7 @@ export const BOOKS = [
   {
     "nr": 56,
     "id": "1-corinthiens",
-    "title": "1 Corinthiens",
+    "title": "Première lettre de saint Paul Apôtre aux Corinthiens",
     "short": "1 Co",
     "testament": "nt",
     "section": "epitres",
@@ -757,7 +757,7 @@ export const BOOKS = [
   {
     "nr": 57,
     "id": "2-corinthiens",
-    "title": "2 Corinthiens",
+    "title": "Seconde lettre de saint Paul Apôtre aux Corinthiens",
     "short": "2 Co",
     "testament": "nt",
     "section": "epitres",
@@ -770,7 +770,7 @@ export const BOOKS = [
   {
     "nr": 58,
     "id": "galates",
-    "title": "Galates",
+    "title": "Lettre de saint Paul Apôtre aux Galates",
     "short": "Ga",
     "testament": "nt",
     "section": "epitres",
@@ -783,7 +783,7 @@ export const BOOKS = [
   {
     "nr": 59,
     "id": "ephesiens",
-    "title": "Éphésiens",
+    "title": "Lettre de saint Paul Apôtre aux Éphésiens",
     "short": "Ép",
     "testament": "nt",
     "section": "epitres",
@@ -796,7 +796,7 @@ export const BOOKS = [
   {
     "nr": 60,
     "id": "philippiens",
-    "title": "Philippiens",
+    "title": "Lettre de saint Paul Apôtre aux Philippiens",
     "short": "Ph",
     "testament": "nt",
     "section": "epitres",
@@ -809,7 +809,7 @@ export const BOOKS = [
   {
     "nr": 61,
     "id": "colossiens",
-    "title": "Colossiens",
+    "title": "Lettre de saint Paul Apôtre aux Colossiens",
     "short": "Col",
     "testament": "nt",
     "section": "epitres",
@@ -822,7 +822,7 @@ export const BOOKS = [
   {
     "nr": 62,
     "id": "1-thessaloniciens",
-    "title": "1 Thessaloniciens",
+    "title": "Première lettre de saint Paul Apôtre aux Thessaloniciens",
     "short": "1 Th",
     "testament": "nt",
     "section": "epitres",
@@ -835,7 +835,7 @@ export const BOOKS = [
   {
     "nr": 63,
     "id": "2-thessaloniciens",
-    "title": "2 Thessaloniciens",
+    "title": "Seconde lettre de saint Paul Apôtre aux Thessaloniciens",
     "short": "2 Th",
     "testament": "nt",
     "section": "epitres",
@@ -848,7 +848,7 @@ export const BOOKS = [
   {
     "nr": 64,
     "id": "1-timothee",
-    "title": "1 Timothée",
+    "title": "Première lettre de saint Paul Apôtre à Timothée",
     "short": "1 Tm",
     "testament": "nt",
     "section": "epitres",
@@ -861,7 +861,7 @@ export const BOOKS = [
   {
     "nr": 65,
     "id": "2-timothee",
-    "title": "2 Timothée",
+    "title": "Seconde lettre de saint Paul Apôtre à Timothée",
     "short": "2 Tm",
     "testament": "nt",
     "section": "epitres",
@@ -874,7 +874,7 @@ export const BOOKS = [
   {
     "nr": 66,
     "id": "tite",
-    "title": "Tite",
+    "title": "Lettre de saint Paul Apôtre à Tite",
     "short": "Tt",
     "testament": "nt",
     "section": "epitres",
@@ -887,7 +887,7 @@ export const BOOKS = [
   {
     "nr": 67,
     "id": "philemon",
-    "title": "Philémon",
+    "title": "Lettre de saint Paul Apôtre à Philémon",
     "short": "Phm",
     "testament": "nt",
     "section": "epitres",
@@ -900,7 +900,7 @@ export const BOOKS = [
   {
     "nr": 68,
     "id": "hebreux",
-    "title": "Hébreux",
+    "title": "Lettre aux Hébreux",
     "short": "Hé",
     "testament": "nt",
     "section": "epitres",
@@ -913,7 +913,7 @@ export const BOOKS = [
   {
     "nr": 69,
     "id": "jacques",
-    "title": "Jacques",
+    "title": "Lettre de saint Jacques",
     "short": "Jc",
     "testament": "nt",
     "section": "epitres",
@@ -926,7 +926,7 @@ export const BOOKS = [
   {
     "nr": 70,
     "id": "1-pierre",
-    "title": "1 Pierre",
+    "title": "Première lettre de saint Pierre Apôtre",
     "short": "1 P",
     "testament": "nt",
     "section": "epitres",
@@ -939,7 +939,7 @@ export const BOOKS = [
   {
     "nr": 71,
     "id": "2-pierre",
-    "title": "2 Pierre",
+    "title": "Seconde lettre de saint Pierre Apôtre",
     "short": "2 P",
     "testament": "nt",
     "section": "epitres",
@@ -952,7 +952,7 @@ export const BOOKS = [
   {
     "nr": 72,
     "id": "1-jean",
-    "title": "1 Jean",
+    "title": "Première lettre de saint Jean",
     "short": "1 Jn",
     "testament": "nt",
     "section": "epitres",
@@ -965,7 +965,7 @@ export const BOOKS = [
   {
     "nr": 73,
     "id": "2-jean",
-    "title": "2 Jean",
+    "title": "Seconde lettre de saint Jean",
     "short": "2 Jn",
     "testament": "nt",
     "section": "epitres",
@@ -978,7 +978,7 @@ export const BOOKS = [
   {
     "nr": 74,
     "id": "3-jean",
-    "title": "3 Jean",
+    "title": "Troisième lettre de saint Jean",
     "short": "3 Jn",
     "testament": "nt",
     "section": "epitres",
@@ -991,7 +991,7 @@ export const BOOKS = [
   {
     "nr": 75,
     "id": "jude",
-    "title": "Jude",
+    "title": "Lettre de saint Jude",
     "short": "Jude",
     "testament": "nt",
     "section": "epitres",
@@ -1004,7 +1004,7 @@ export const BOOKS = [
   {
     "nr": 76,
     "id": "apocalypse",
-    "title": "Apocalypse",
+    "title": "Apocalypse de saint Jean",
     "short": "Ap",
     "testament": "nt",
     "section": "apocalypse",

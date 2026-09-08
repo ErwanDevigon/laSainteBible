@@ -1,6 +1,6 @@
 import { tryLoadBook, getChapter } from "./data-loader.js";
 import { renderChapterMask } from "./render-evangile.js";
-import { getActiveEdition, EDITION_SEGOND } from "./editions.js";
+import { getActiveEdition, DEFAULT_ACTIVE } from "./editions.js";
 
 /**
  * Solve CSS cubic-bezier(x1,y1,x2,y2) for progress in [0,1].
@@ -94,7 +94,7 @@ export class MaskDilatation {
   }
 
   async _mount() {
-    const edition = this.ref.edition || getActiveEdition() || EDITION_SEGOND;
+    const edition = this.ref.edition || getActiveEdition() || DEFAULT_ACTIVE;
     this.ref.edition = edition;
     const book = await tryLoadBook(this.ref.bookId, edition);
     if (!book) throw new Error("Livre introuvable");

@@ -7,7 +7,7 @@
 
 const SLOP = 8;
 const IGNORE =
-  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu, .testament-bar, .site-header";
+  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu, .testament-bar, .site-header, .reader-chrome";
 
 function readX(root) {
   return parseFloat(root.style.getPropertyValue("--swipe-x")) || 0;
@@ -35,6 +35,71 @@ function caretAt(x, y) {
   return null;
 }
 
+function closestCol(node) {
+  const el = node?.nodeType === 1 ? node : node?.parentElement;
+  return el?.closest("[data-col]")?.dataset.col || "";
+}
+
+function markSelectCol(col) {
+  document.querySelectorAll(".chapter-pair .verse").forEach((el) => {
+    el.classList.toggle("is-select-col", !!col && el.dataset.col === col);
+  });
+}
+
+function trimSelectionToCol(col) {
+  if (!col) return;
+  const sel = window.getSelection();
+  if (!sel || sel.rangeCount === 0 || sel.isCollapsed) return;
+  const range = sel.getRangeAt(0);
+  const startCol = closestCol(range.startContainer);
+  const endCol = closestCol(range.endContainer);
+  if (startCol === col && endCol === col) return;
+  try {
+    if (startCol !== col && endCol !== col) {
+      sel.removeAllRanges();
+      return;
+    }
+    if (startCol !== col) {
+      const verse = range.endContainer.nodeType === 1
+        ? range.endContainer.closest(".verse")
+        : range.endContainer.parentElement?.closest(".verse");
+      if (!verse || verse.dataset.col !== col) {
+        sel.removeAllRanges();
+        return;
+      }
+      range.setStart(verse, 0);
+    }
+    if (endCol !== col) {
+      const verse = range.startContainer.nodeType === 1
+        ? range.startContainer.closest(".verse")
+        : range.startContainer.parentElement?.closest(".verse");
+      if (!verse || verse.dataset.col !== col) {
+        sel.removeAllRanges();
+        return;
+      }
+      range.setEnd(verse, verse.childNodes.length);
+    }
+  } catch {
+    /* ignore */
+  }
+}
+
+function caretInCol(x, y, col) {
+  const hit = document.elementFromPoint(x, y);
+  const verse = hit?.closest?.(".verse");
+  if (verse?.dataset.col === col) return caretAt(x, y);
+  const pair = verse?.closest(".chapter-pair") || hit?.closest?.(".chapter-pair");
+  if (!pair || !col) return null;
+  const n = verse?.dataset.verse;
+  const home = n
+    ? pair.querySelector(`.verse[data-col="${CSS.escape(col)}"][data-verse="${n}"]`)
+    : pair.querySelector(`.verse[data-col="${CSS.escape(col)}"]`);
+  if (!home) return null;
+  const r = home.getBoundingClientRect();
+  const x2 = Math.min(Math.max(x, r.left + 2), r.right - 2);
+  return caretAt(x2, y);
+}
+
 function bindMmbSelect(root) {
   let anchor = null;
 
@@ -48,18 +113,21 @@ function bindMmbSelect(root) {
       anchor = null;
       return;
     }
+    const col = closestCol(pos.node);
+    markSelectCol(col);
     const range = document.createRange();
     range.setStart(pos.node, pos.offset);
     range.collapse(true);
     sel.addRange(range);
-    anchor = pos;
+    anchor = { ...pos, col };
   }
 
   function onMouseMove(e) {
     if (e.buttons !== 4 || !anchor) return;
     e.preventDefault();
-    const pos = caretAt(e.clientX, e.clientY);
+    const pos = caretInCol(e.clientX, e.clientY, anchor.col) || caretAt(e.clientX, e.clientY);
     if (!pos) return;
+    if (anchor.col && closestCol(pos.node) !== anchor.col) return;
     const sel = window.getSelection();
     if (!sel.rangeCount) return;
     try {
@@ -195,14 +263,26 @@ export function bindGrabPan(root = document.body) {
     blockClick = false;
   }
 
+  function onPointerDownSelect(e) {
+    const v = e.target.closest(".chapter-pair .verse");
+    markSelectCol(v?.dataset.col || "");
+  }
+
   function onSelectStart(e) {
-    if (
-      e.target.closest(
-        ".site-header, .book-title-bar, .edition-name-bar, .active-edition-bar, .chapter-rail, .edition-menu, .testament-bar"
-      )
-    ) {
+    if (e.target.closest(".chapter-rail, .edition-menu")) {
+      e.preventDefault();
+      return;
+    }
+    const verse = e.target.closest(".chapter-pair .verse");
+    if (verse && !verse.classList.contains("is-select-col")) {
       e.preventDefault();
     }
+  }
+
+  function onSelectionChange() {
+    const marked = document.querySelector(".chapter-pair .verse.is-select-col");
+    if (!marked) return;
+    trimSelectionToCol(marked.dataset.col);
   }
 
   function onDragStart(e) {
@@ -214,18 +294,22 @@ export function bindGrabPan(root = document.body) {
   }
 
   root.addEventListener("pointerdown", onDown);
+  root.addEventListener("pointerdown", onPointerDownSelect, true);
   root.addEventListener("click", onClickCapture, true);
   root.addEventListener("selectstart", onSelectStart);
   root.addEventListener("dragstart", onDragStart);
+  document.addEventListener("selectionchange", onSelectionChange);
   window.addEventListener("resize", onResize);
 
   return () => {
     unbindWindow();
     unbindMmb();
     root.removeEventListener("pointerdown", onDown);
+    root.removeEventListener("pointerdown", onPointerDownSelect, true);
     root.removeEventListener("click", onClickCapture, true);
     root.removeEventListener("selectstart", onSelectStart);
     root.removeEventListener("dragstart", onDragStart);
+    document.removeEventListener("selectionchange", onSelectionChange);
     window.removeEventListener("resize", onResize);
     root.classList.remove("is-swiping");
     root.style.removeProperty("--swipe-x");

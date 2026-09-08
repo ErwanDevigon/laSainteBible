@@ -16,7 +16,7 @@
   "books": [
     {
       "id": "genese",
-      "title": "Genèse",
+      "title": "Livre de la Genèse",
       "original_title": "Genèse",
       "short": "Gn",
       "testament": "at",
@@ -24,7 +24,7 @@
     },
     {
       "id": "exode",
-      "title": "Exode",
+      "title": "Livre de l'Exode",
       "original_title": "Exode",
       "short": "Ex",
       "testament": "at",
@@ -32,7 +32,7 @@
     },
     {
       "id": "levitique",
-      "title": "Lévitique",
+      "title": "Livre du Lévitique",
       "original_title": "Lévitique",
       "short": "Lv",
       "testament": "at",
@@ -40,7 +40,7 @@
     },
     {
       "id": "nombres",
-      "title": "Nombres",
+      "title": "Livre des Nombres",
       "original_title": "Nombres",
       "short": "Nb",
       "testament": "at",
@@ -48,7 +48,7 @@
     },
     {
       "id": "deuteronome",
-      "title": "Deutéronome",
+      "title": "Livre du Deutéronome",
       "original_title": "Deutéronome",
       "short": "Dt",
       "testament": "at",
@@ -56,7 +56,7 @@
     },
     {
       "id": "josue",
-      "title": "Josué",
+      "title": "Livre de Josué",
       "original_title": "Josué",
       "short": "Jos",
       "testament": "at",
@@ -64,7 +64,7 @@
     },
     {
       "id": "juges",
-      "title": "Juges",
+      "title": "Livre des Juges",
       "original_title": "Juges",
       "short": "Jg",
       "testament": "at",
@@ -72,7 +72,7 @@
     },
     {
       "id": "ruth",
-      "title": "Ruth",
+      "title": "Livre de Ruth",
       "original_title": "Ruth",
       "short": "Rt",
       "testament": "at",
@@ -80,7 +80,7 @@
     },
     {
       "id": "1-samuel",
-      "title": "1 Samuel",
+      "title": "Premier livre de Samuel",
       "original_title": "1 Samuel",
       "short": "1 S",
       "testament": "at",
@@ -88,7 +88,7 @@
     },
     {
       "id": "2-samuel",
-      "title": "2 Samuel",
+      "title": "Second livre de Samuel",
       "original_title": "2 Samuel",
       "short": "2 S",
       "testament": "at",
@@ -96,7 +96,7 @@
     },
     {
       "id": "1-rois",
-      "title": "1 Rois",
+      "title": "Premier livre des Rois",
       "original_title": "1 Rois",
       "short": "1 R",
       "testament": "at",
@@ -104,7 +104,7 @@
     },
     {
       "id": "2-rois",
-      "title": "2 Rois",
+      "title": "Second livre des Rois",
       "original_title": "2 Rois",
       "short": "2 R",
       "testament": "at",
@@ -112,7 +112,7 @@
     },
     {
       "id": "1-chroniques",
-      "title": "1 Chroniques",
+      "title": "Premier livre des Chroniques",
       "original_title": "1 Chroniques",
       "short": "1 Ch",
       "testament": "at",
@@ -120,7 +120,7 @@
     },
     {
       "id": "2-chroniques",
-      "title": "2 Chroniques",
+      "title": "Second livre des Chroniques",
       "original_title": "2 Chroniques",
       "short": "2 Ch",
       "testament": "at",
@@ -128,7 +128,7 @@
     },
     {
       "id": "esdras",
-      "title": "Esdras",
+      "title": "Livre d'Esdras",
       "original_title": "Esdras",
       "short": "Esd",
       "testament": "at",
@@ -136,7 +136,7 @@
     },
     {
       "id": "nehemie",
-      "title": "Néhémie",
+      "title": "Livre de Néhémie",
       "original_title": "Néhémie",
       "short": "Né",
       "testament": "at",
@@ -144,7 +144,7 @@
     },
     {
       "id": "tobie",
-      "title": "Tobie",
+      "title": "Livre de Tobie",
       "original_title": "Tobie",
       "short": "Tb",
       "testament": "at",
@@ -152,7 +152,7 @@
     },
     {
       "id": "judith",
-      "title": "Judith",
+      "title": "Livre de Judith",
       "original_title": "Judith",
       "short": "Jdt",
       "testament": "at",
@@ -160,7 +160,7 @@
     },
     {
       "id": "esther",
-      "title": "Esther",
+      "title": "Livre d'Esther",
       "original_title": "Esther",
       "short": "Est",
       "testament": "at",
@@ -168,7 +168,7 @@
     },
     {
       "id": "1-maccabees",
-      "title": "1 Maccabées",
+      "title": "Premier livre des Maccabées",
       "original_title": "1 Maccabées",
       "short": "1 M",
       "testament": "at",
@@ -176,7 +176,7 @@
     },
     {
       "id": "2-maccabees",
-      "title": "2 Maccabées",
+      "title": "Second livre des Maccabées",
       "original_title": "2 Maccabées",
       "short": "2 M",
       "testament": "at",
@@ -184,7 +184,7 @@
     },
     {
       "id": "job",
-      "title": "Job",
+      "title": "Livre de Job",
       "original_title": "Job",
       "short": "Jb",
       "testament": "at",
@@ -192,7 +192,7 @@
     },
     {
       "id": "psaumes",
-      "title": "Psaumes",
+      "title": "Livre des Psaumes",
       "original_title": "Psaumes",
       "short": "Ps",
       "testament": "at",
@@ -200,7 +200,7 @@
     },
     {
       "id": "proverbes",
-      "title": "Proverbes",
+      "title": "Livre des Proverbes",
       "original_title": "Proverbes",
       "short": "Pr",
       "testament": "at",
@@ -208,7 +208,7 @@
     },
     {
       "id": "ecclesiaste",
-      "title": "Ecclésiaste",
+      "title": "L'Ecclésiaste",
       "original_title": "Ecclésiaste",
       "short": "Ec",
       "testament": "at",
@@ -216,7 +216,7 @@
     },
     {
       "id": "cantique",
-      "title": "Cantique des Cantiques",
+      "title": "Cantique des cantiques",
       "original_title": "Cantique des Cantiques",
       "short": "Ct",
       "testament": "at",
@@ -224,7 +224,7 @@
     },
     {
       "id": "sagesse",
-      "title": "Sagesse",
+      "title": "Livre de la Sagesse",
       "original_title": "Sagesse",
       "short": "Sg",
       "testament": "at",
@@ -240,7 +240,7 @@
     },
     {
       "id": "esaie",
-      "title": "Ésaïe",
+      "title": "Livre d'Ésaïe",
       "original_title": "Ésaïe",
       "short": "Es",
       "testament": "at",
@@ -248,7 +248,7 @@
     },
     {
       "id": "jeremie",
-      "title": "Jérémie",
+      "title": "Livre de Jérémie",
       "original_title": "Jérémie",
       "short": "Jr",
       "testament": "at",
@@ -256,7 +256,7 @@
     },
     {
       "id": "lamentations",
-      "title": "Lamentations",
+      "title": "Lamentations de Jérémie",
       "original_title": "Lamentations",
       "short": "Lm",
       "testament": "at",
@@ -264,7 +264,7 @@
     },
     {
       "id": "baruch",
-      "title": "Baruch",
+      "title": "Livre de Baruch",
       "original_title": "Baruch",
       "short": "Ba",
       "testament": "at",
@@ -272,7 +272,7 @@
     },
     {
       "id": "ezechiel",
-      "title": "Ézéchiel",
+      "title": "Livre d'Ézéchiel",
       "original_title": "Ézéchiel",
       "short": "Ez",
       "testament": "at",
@@ -280,7 +280,7 @@
     },
     {
       "id": "daniel",
-      "title": "Daniel",
+      "title": "Livre de Daniel",
       "original_title": "Daniel",
       "short": "Dn",
       "testament": "at",
@@ -288,7 +288,7 @@
     },
     {
       "id": "osee",
-      "title": "Osée",
+      "title": "Livre d'Osée",
       "original_title": "Osée",
       "short": "Os",
       "testament": "at",
@@ -296,7 +296,7 @@
     },
     {
       "id": "joel",
-      "title": "Joël",
+      "title": "Livre de Joël",
       "original_title": "Joël",
       "short": "Jl",
       "testament": "at",
@@ -304,7 +304,7 @@
     },
     {
       "id": "amos",
-      "title": "Amos",
+      "title": "Livre d'Amos",
       "original_title": "Amos",
       "short": "Am",
       "testament": "at",
@@ -312,7 +312,7 @@
     },
     {
       "id": "abdias",
-      "title": "Abdias",
+      "title": "Livre d'Abdias",
       "original_title": "Abdias",
       "short": "Ab",
       "testament": "at",
@@ -320,7 +320,7 @@
     },
     {
       "id": "jonas",
-      "title": "Jonas",
+      "title": "Livre de Jonas",
       "original_title": "Jonas",
       "short": "Jon",
       "testament": "at",
@@ -328,7 +328,7 @@
     },
     {
       "id": "michee",
-      "title": "Michée",
+      "title": "Livre de Michée",
       "original_title": "Michée",
       "short": "Mi",
       "testament": "at",
@@ -336,7 +336,7 @@
     },
     {
       "id": "nahum",
-      "title": "Nahum",
+      "title": "Livre de Nahum",
       "original_title": "Nahum",
       "short": "Na",
       "testament": "at",
@@ -344,7 +344,7 @@
     },
     {
       "id": "habacuc",
-      "title": "Habacuc",
+      "title": "Livre d'Habacuc",
       "original_title": "Habacuc",
       "short": "Ha",
       "testament": "at",
@@ -352,7 +352,7 @@
     },
     {
       "id": "sophonie",
-      "title": "Sophonie",
+      "title": "Livre de Sophonie",
       "original_title": "Sophonie",
       "short": "So",
       "testament": "at",
@@ -360,7 +360,7 @@
     },
     {
       "id": "aggee",
-      "title": "Aggée",
+      "title": "Livre d'Aggée",
       "original_title": "Aggée",
       "short": "Ag",
       "testament": "at",
@@ -368,7 +368,7 @@
     },
     {
       "id": "zacharie",
-      "title": "Zacharie",
+      "title": "Livre de Zacharie",
       "original_title": "Zacharie",
       "short": "Za",
       "testament": "at",
@@ -376,7 +376,7 @@
     },
     {
       "id": "malachie",
-      "title": "Malachie",
+      "title": "Livre de Malachie",
       "original_title": "Malachie",
       "short": "Ml",
       "testament": "at",
@@ -424,7 +424,7 @@
     },
     {
       "id": "romains",
-      "title": "Romains",
+      "title": "Lettre de saint Paul Apôtre aux Romains",
       "original_title": "Romains",
       "short": "Rm",
       "testament": "nt",
@@ -432,7 +432,7 @@
     },
     {
       "id": "1-corinthiens",
-      "title": "1 Corinthiens",
+      "title": "Première lettre de saint Paul Apôtre aux Corinthiens",
       "original_title": "1 Corinthiens",
       "short": "1 Co",
       "testament": "nt",
@@ -440,7 +440,7 @@
     },
     {
       "id": "2-corinthiens",
-      "title": "2 Corinthiens",
+      "title": "Seconde lettre de saint Paul Apôtre aux Corinthiens",
       "original_title": "2 Corinthiens",
       "short": "2 Co",
       "testament": "nt",
@@ -448,7 +448,7 @@
     },
     {
       "id": "galates",
-      "title": "Galates",
+      "title": "Lettre de saint Paul Apôtre aux Galates",
       "original_title": "Galates",
       "short": "Ga",
       "testament": "nt",
@@ -456,7 +456,7 @@
     },
     {
       "id": "ephesiens",
-      "title": "Éphésiens",
+      "title": "Lettre de saint Paul Apôtre aux Éphésiens",
       "original_title": "Éphésiens",
       "short": "Ép",
       "testament": "nt",
@@ -464,7 +464,7 @@
     },
     {
       "id": "philippiens",
-      "title": "Philippiens",
+      "title": "Lettre de saint Paul Apôtre aux Philippiens",
       "original_title": "Philippiens",
       "short": "Ph",
       "testament": "nt",
@@ -472,7 +472,7 @@
     },
     {
       "id": "colossiens",
-      "title": "Colossiens",
+      "title": "Lettre de saint Paul Apôtre aux Colossiens",
       "original_title": "Colossiens",
       "short": "Col",
       "testament": "nt",
@@ -480,7 +480,7 @@
     },
     {
       "id": "1-thessaloniciens",
-      "title": "1 Thessaloniciens",
+      "title": "Première lettre de saint Paul Apôtre aux Thessaloniciens",
       "original_title": "1 Thessaloniciens",
       "short": "1 Th",
       "testament": "nt",
@@ -488,7 +488,7 @@
     },
     {
       "id": "2-thessaloniciens",
-      "title": "2 Thessaloniciens",
+      "title": "Seconde lettre de saint Paul Apôtre aux Thessaloniciens",
       "original_title": "2 Thessaloniciens",
       "short": "2 Th",
       "testament": "nt",
@@ -496,7 +496,7 @@
     },
     {
       "id": "1-timothee",
-      "title": "1 Timothée",
+      "title": "Première lettre de saint Paul Apôtre à Timothée",
       "original_title": "1 Timothée",
       "short": "1 Tm",
       "testament": "nt",
@@ -504,7 +504,7 @@
     },
     {
       "id": "2-timothee",
-      "title": "2 Timothée",
+      "title": "Seconde lettre de saint Paul Apôtre à Timothée",
       "original_title": "2 Timothée",
       "short": "2 Tm",
       "testament": "nt",
@@ -512,7 +512,7 @@
     },
     {
       "id": "tite",
-      "title": "Tite",
+      "title": "Lettre de saint Paul Apôtre à Tite",
       "original_title": "Tite",
       "short": "Tt",
       "testament": "nt",
@@ -520,7 +520,7 @@
     },
     {
       "id": "philemon",
-      "title": "Philémon",
+      "title": "Lettre de saint Paul Apôtre à Philémon",
       "original_title": "Philémon",
       "short": "Phm",
       "testament": "nt",
@@ -528,7 +528,7 @@
     },
     {
       "id": "hebreux",
-      "title": "Hébreux",
+      "title": "Lettre aux Hébreux",
       "original_title": "Hébreux",
       "short": "Hé",
       "testament": "nt",
@@ -536,7 +536,7 @@
     },
     {
       "id": "jacques",
-      "title": "Jacques",
+      "title": "Lettre de saint Jacques",
       "original_title": "Jacques",
       "short": "Jc",
       "testament": "nt",
@@ -544,7 +544,7 @@
     },
     {
       "id": "1-pierre",
-      "title": "1 Pierre",
+      "title": "Première lettre de saint Pierre Apôtre",
       "original_title": "1 Pierre",
       "short": "1 P",
       "testament": "nt",
@@ -552,7 +552,7 @@
     },
     {
       "id": "2-pierre",
-      "title": "2 Pierre",
+      "title": "Seconde lettre de saint Pierre Apôtre",
       "original_title": "2 Pierre",
       "short": "2 P",
       "testament": "nt",
@@ -560,7 +560,7 @@
     },
     {
       "id": "1-jean",
-      "title": "1 Jean",
+      "title": "Première lettre de saint Jean",
       "original_title": "1 Jean",
       "short": "1 Jn",
       "testament": "nt",
@@ -568,7 +568,7 @@
     },
     {
       "id": "2-jean",
-      "title": "2 Jean",
+      "title": "Seconde lettre de saint Jean",
       "original_title": "2 Jean",
       "short": "2 Jn",
       "testament": "nt",
@@ -576,7 +576,7 @@
     },
     {
       "id": "3-jean",
-      "title": "3 Jean",
+      "title": "Troisième lettre de saint Jean",
       "original_title": "3 Jean",
       "short": "3 Jn",
       "testament": "nt",
@@ -584,7 +584,7 @@
     },
     {
       "id": "jude",
-      "title": "Jude",
+      "title": "Lettre de saint Jude",
       "original_title": "Jude",
       "short": "Jude",
       "testament": "nt",
@@ -592,7 +592,7 @@
     },
     {
       "id": "apocalypse",
-      "title": "Apocalypse",
+      "title": "Apocalypse de saint Jean",
       "original_title": "Apocalypse",
       "short": "Ap",
       "testament": "nt",

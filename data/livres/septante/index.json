@@ -17,7 +17,7 @@
   "books": [
     {
       "id": "genese",
-      "title": "Genèse",
+      "title": "Γένεσις",
       "original_title": "Γένεσις",
       "short": "Gn",
       "testament": "at",
@@ -25,7 +25,7 @@
     },
     {
       "id": "exode",
-      "title": "Exode",
+      "title": "Ἔξοδος",
       "original_title": "Ἔξοδος",
       "short": "Ex",
       "testament": "at",
@@ -33,7 +33,7 @@
     },
     {
       "id": "levitique",
-      "title": "Lévitique",
+      "title": "Λευϊτικόν",
       "original_title": "Λευϊτικόν",
       "short": "Lv",
       "testament": "at",
@@ -41,7 +41,7 @@
     },
     {
       "id": "nombres",
-      "title": "Nombres",
+      "title": "Ἀριθμοί",
       "original_title": "Ἀριθμοί",
       "short": "Nb",
       "testament": "at",
@@ -49,7 +49,7 @@
     },
     {
       "id": "deuteronome",
-      "title": "Deutéronome",
+      "title": "Δευτερονόμιον",
       "original_title": "Δευτερονόμιον",
       "short": "Dt",
       "testament": "at",
@@ -57,7 +57,7 @@
     },
     {
       "id": "josue",
-      "title": "Josué",
+      "title": "Ἰησοῦς Ναυῆ",
       "original_title": "Ἰησοῦς Ναυῆ",
       "short": "Jos",
       "testament": "at",
@@ -65,7 +65,7 @@
     },
     {
       "id": "juges",
-      "title": "Juges",
+      "title": "Κριταί",
       "original_title": "Κριταί",
       "short": "Jg",
       "testament": "at",
@@ -73,7 +73,7 @@
     },
     {
       "id": "ruth",
-      "title": "Ruth",
+      "title": "Ῥούθ",
       "original_title": "Ῥούθ",
       "short": "Rt",
       "testament": "at",
@@ -81,7 +81,7 @@
     },
     {
       "id": "1-samuel",
-      "title": "1 Samuel",
+      "title": "Βασιλειῶν Αʹ",
       "original_title": "Βασιλειῶν Αʹ",
       "short": "1 S",
       "testament": "at",
@@ -89,7 +89,7 @@
     },
     {
       "id": "2-samuel",
-      "title": "2 Samuel",
+      "title": "Βασιλειῶν Βʹ",
       "original_title": "Βασιλειῶν Βʹ",
       "short": "2 S",
       "testament": "at",
@@ -97,7 +97,7 @@
     },
     {
       "id": "1-rois",
-      "title": "1 Rois",
+      "title": "Βασιλειῶν Γʹ",
       "original_title": "Βασιλειῶν Γʹ",
       "short": "1 R",
       "testament": "at",
@@ -105,7 +105,7 @@
     },
     {
       "id": "2-rois",
-      "title": "2 Rois",
+      "title": "Βασιλειῶν Δʹ",
       "original_title": "Βασιλειῶν Δʹ",
       "short": "2 R",
       "testament": "at",
@@ -113,7 +113,7 @@
     },
     {
       "id": "1-chroniques",
-      "title": "1 Chroniques",
+      "title": "Παραλειπομένων Αʹ",
       "original_title": "Παραλειπομένων Αʹ",
       "short": "1 Ch",
       "testament": "at",
@@ -121,7 +121,7 @@
     },
     {
       "id": "2-chroniques",
-      "title": "2 Chroniques",
+      "title": "Παραλειπομένων Βʹ",
       "original_title": "Παραλειπομένων Βʹ",
       "short": "2 Ch",
       "testament": "at",
@@ -129,7 +129,7 @@
     },
     {
       "id": "esdras",
-      "title": "Esdras",
+      "title": "Ἔσδρας",
       "original_title": "Ἔσδρας",
       "short": "Esd",
       "testament": "at",
@@ -137,7 +137,7 @@
     },
     {
       "id": "nehemie",
-      "title": "Néhémie",
+      "title": "Νεεμίας",
       "original_title": "Νεεμίας",
       "short": "Né",
       "testament": "at",
@@ -145,7 +145,7 @@
     },
     {
       "id": "esther",
-      "title": "Esther",
+      "title": "Ἐσθήρ",
       "original_title": "Ἐσθήρ",
       "short": "Est",
       "testament": "at",
@@ -153,7 +153,7 @@
     },
     {
       "id": "judith",
-      "title": "Judith",
+      "title": "Ἰουδίθ",
       "original_title": "Ἰουδίθ",
       "short": "Jdt",
       "testament": "at",
@@ -161,7 +161,7 @@
     },
     {
       "id": "tobie",
-      "title": "Tobie",
+      "title": "Τωβίτ",
       "original_title": "Τωβίτ",
       "short": "Tb",
       "testament": "at",
@@ -169,7 +169,7 @@
     },
     {
       "id": "1-maccabees",
-      "title": "1 Maccabées",
+      "title": "Μακκαβαίων Αʹ",
       "original_title": "Μακκαβαίων Αʹ",
       "short": "1 M",
       "testament": "at",
@@ -177,7 +177,7 @@
     },
     {
       "id": "2-maccabees",
-      "title": "2 Maccabées",
+      "title": "Μακκαβαίων Βʹ",
       "original_title": "Μακκαβαίων Βʹ",
       "short": "2 M",
       "testament": "at",
@@ -185,7 +185,7 @@
     },
     {
       "id": "3-maccabees",
-      "title": "3 Maccabées",
+      "title": "Μακκαβαίων Γʹ",
       "original_title": "Μακκαβαίων Γʹ",
       "short": "3 M",
       "testament": "at",
@@ -193,7 +193,7 @@
     },
     {
       "id": "4-maccabees",
-      "title": "4 Maccabées",
+      "title": "Μακκαβαίων Δʹ",
       "original_title": "Μακκαβαίων Δʹ",
       "short": "4 M",
       "testament": "at",
@@ -201,7 +201,7 @@
     },
     {
       "id": "psaumes",
-      "title": "Psaumes",
+      "title": "Ψαλμοί",
       "original_title": "Ψαλμοί",
       "short": "Ps",
       "testament": "at",
@@ -209,7 +209,7 @@
     },
     {
       "id": "proverbes",
-      "title": "Proverbes",
+      "title": "Παροιμίαι",
       "original_title": "Παροιμίαι",
       "short": "Pr",
       "testament": "at",
@@ -217,7 +217,7 @@
     },
     {
       "id": "ecclesiaste",
-      "title": "Ecclésiaste",
+      "title": "Ἐκκλησιαστής",
       "original_title": "Ἐκκλησιαστής",
       "short": "Ec",
       "testament": "at",
@@ -225,7 +225,7 @@
     },
     {
       "id": "cantique",
-      "title": "Cantique des Cantiques",
+      "title": "Ἆσμα Ἀσμάτων",
       "original_title": "Ἆσμα Ἀσμάτων",
       "short": "Ct",
       "testament": "at",
@@ -233,7 +233,7 @@
     },
     {
       "id": "job",
-      "title": "Job",
+      "title": "Ἰώβ",
       "original_title": "Ἰώβ",
       "short": "Jb",
       "testament": "at",
@@ -241,7 +241,7 @@
     },
     {
       "id": "sagesse",
-      "title": "Sagesse",
+      "title": "Σοφία Σολομῶντος",
       "original_title": "Σοφία Σολομῶντος",
       "short": "Sg",
       "testament": "at",
@@ -249,7 +249,7 @@
     },
     {
       "id": "siracide",
-      "title": "Siracide (Ecclésiastique)",
+      "title": "Σοφία Σειράχ",
       "original_title": "Σοφία Σειράχ",
       "short": "Si",
       "testament": "at",
@@ -257,7 +257,7 @@
     },
     {
       "id": "osee",
-      "title": "Osée",
+      "title": "Ὡσηέ",
       "original_title": "Ὡσηέ",
       "short": "Os",
       "testament": "at",
@@ -265,7 +265,7 @@
     },
     {
       "id": "amos",
-      "title": "Amos",
+      "title": "Ἀμώς",
       "original_title": "Ἀμώς",
       "short": "Am",
       "testament": "at",
@@ -273,7 +273,7 @@
     },
     {
       "id": "michee",
-      "title": "Michée",
+      "title": "Μιχαίας",
       "original_title": "Μιχαίας",
       "short": "Mi",
       "testament": "at",
@@ -281,7 +281,7 @@
     },
     {
       "id": "joel",
-      "title": "Joël",
+      "title": "Ἰωήλ",
       "original_title": "Ἰωήλ",
       "short": "Jl",
       "testament": "at",
@@ -289,7 +289,7 @@
     },
     {
       "id": "abdias",
-      "title": "Abdias",
+      "title": "Ἀβδιού",
       "original_title": "Ἀβδιού",
       "short": "Ab",
       "testament": "at",
@@ -297,7 +297,7 @@
     },
     {
       "id": "jonas",
-      "title": "Jonas",
+      "title": "Ἰωνᾶς",
       "original_title": "Ἰωνᾶς",
       "short": "Jon",
       "testament": "at",
@@ -305,7 +305,7 @@
     },
     {
       "id": "nahum",
-      "title": "Nahum",
+      "title": "Ναούμ",
       "original_title": "Ναούμ",
       "short": "Na",
       "testament": "at",
@@ -313,7 +313,7 @@
     },
     {
       "id": "habacuc",
-      "title": "Habacuc",
+      "title": "Ἀμβακούμ",
       "original_title": "Ἀμβακούμ",
       "short": "Ha",
       "testament": "at",
@@ -321,7 +321,7 @@
     },
     {
       "id": "sophonie",
-      "title": "Sophonie",
+      "title": "Σοφονίας",
       "original_title": "Σοφονίας",
       "short": "So",
       "testament": "at",
@@ -329,7 +329,7 @@
     },
     {
       "id": "aggee",
-      "title": "Aggée",
+      "title": "Ἀγγαῖος",
       "original_title": "Ἀγγαῖος",
       "short": "Ag",
       "testament": "at",
@@ -337,7 +337,7 @@
     },
     {
       "id": "zacharie",
-      "title": "Zacharie",
+      "title": "Ζαχαρίας",
       "original_title": "Ζαχαρίας",
       "short": "Za",
       "testament": "at",
@@ -345,7 +345,7 @@
     },
     {
       "id": "malachie",
-      "title": "Malachie",
+      "title": "Μαλαχίας",
       "original_title": "Μαλαχίας",
       "short": "Ml",
       "testament": "at",
@@ -353,7 +353,7 @@
     },
     {
       "id": "esaie",
-      "title": "Ésaïe",
+      "title": "Ἠσαΐας",
       "original_title": "Ἠσαΐας",
       "short": "Es",
       "testament": "at",
@@ -361,7 +361,7 @@
     },
     {
       "id": "jeremie",
-      "title": "Jérémie",
+      "title": "Ἰερεμίας",
       "original_title": "Ἰερεμίας",
       "short": "Jr",
       "testament": "at",
@@ -369,7 +369,7 @@
     },
     {
       "id": "baruch",
-      "title": "Baruch",
+      "title": "Βαρούχ",
       "original_title": "Βαρούχ",
       "short": "Ba",
       "testament": "at",
@@ -377,7 +377,7 @@
     },
     {
       "id": "lamentations",
-      "title": "Lamentations",
+      "title": "Θρῆνοι",
       "original_title": "Θρῆνοι",
       "short": "Lm",
       "testament": "at",
@@ -385,7 +385,7 @@
     },
     {
       "id": "ezechiel",
-      "title": "Ézéchiel",
+      "title": "Ἰεζεκιήλ",
       "original_title": "Ἰεζεκιήλ",
       "short": "Ez",
       "testament": "at",
@@ -393,7 +393,7 @@
     },
     {
       "id": "daniel",
-      "title": "Daniel",
+      "title": "Δανιήλ",
       "original_title": "Δανιήλ",
       "short": "Dn",
       "testament": "at",
@@ -401,7 +401,7 @@
     },
     {
       "id": "matthieu",
-      "title": "Évangile selon saint Matthieu",
+      "title": "Εὐαγγέλιον κατὰ Ματθαῖον",
       "original_title": "Κατὰ Ματθαῖον",
       "short": "Mt",
       "testament": "nt",
@@ -409,7 +409,7 @@
     },
     {
       "id": "marc",
-      "title": "Évangile selon saint Marc",
+      "title": "Εὐαγγέλιον κατὰ Μᾶρκον",
       "original_title": "Κατὰ Μᾶρκον",
       "short": "Mc",
       "testament": "nt",
@@ -417,7 +417,7 @@
     },
     {
       "id": "luc",
-      "title": "Évangile selon saint Luc",
+      "title": "Εὐαγγέλιον κατὰ Λουκᾶν",
       "original_title": "Κατὰ Λουκᾶν",
       "short": "Lc",
       "testament": "nt",
@@ -425,7 +425,7 @@
     },
     {
       "id": "jean",
-      "title": "Évangile selon saint Jean",
+      "title": "Εὐαγγέλιον κατὰ Ἰωάννην",
       "original_title": "Κατὰ Ἰωάννην",
       "short": "Jn",
       "testament": "nt",

@@ -15,7 +15,7 @@
   "books": [
     {
       "id": "genese",
-      "title": "Genèse",
+      "title": "Liber Genesis",
       "original_title": "Genesis",
       "short": "Gn",
       "testament": "at",
@@ -23,7 +23,7 @@
     },
     {
       "id": "exode",
-      "title": "Exode",
+      "title": "Liber Exodi",
       "original_title": "Exodus",
       "short": "Ex",
       "testament": "at",
@@ -31,7 +31,7 @@
     },
     {
       "id": "levitique",
-      "title": "Lévitique",
+      "title": "Liber Levitici",
       "original_title": "Leviticus",
       "short": "Lv",
       "testament": "at",
@@ -39,7 +39,7 @@
     },
     {
       "id": "nombres",
-      "title": "Nombres",
+      "title": "Liber Numerorum",
       "original_title": "Numeri",
       "short": "Nb",
       "testament": "at",
@@ -47,7 +47,7 @@
     },
     {
       "id": "deuteronome",
-      "title": "Deutéronome",
+      "title": "Liber Deuteronomii",
       "original_title": "Deuteronomium",
       "short": "Dt",
       "testament": "at",
@@ -55,7 +55,7 @@
     },
     {
       "id": "josue",
-      "title": "Josué",
+      "title": "Liber Iosue",
       "original_title": "Iosue",
       "short": "Jos",
       "testament": "at",
@@ -63,7 +63,7 @@
     },
     {
       "id": "juges",
-      "title": "Juges",
+      "title": "Liber Iudicum",
       "original_title": "Iudicum",
       "short": "Jg",
       "testament": "at",
@@ -71,7 +71,7 @@
     },
     {
       "id": "ruth",
-      "title": "Ruth",
+      "title": "Liber Ruth",
       "original_title": "Ruth",
       "short": "Rt",
       "testament": "at",
@@ -79,7 +79,7 @@
     },
     {
       "id": "1-samuel",
-      "title": "1 Samuel",
+      "title": "Liber primus Samuelis",
       "original_title": "I Samuelis",
       "short": "1 S",
       "testament": "at",
@@ -87,7 +87,7 @@
     },
     {
       "id": "2-samuel",
-      "title": "2 Samuel",
+      "title": "Liber secundus Samuelis",
       "original_title": "II Samuelis",
       "short": "2 S",
       "testament": "at",
@@ -95,7 +95,7 @@
     },
     {
       "id": "1-rois",
-      "title": "1 Rois",
+      "title": "Liber primus Regum",
       "original_title": "I Regum",
       "short": "1 R",
       "testament": "at",
@@ -103,7 +103,7 @@
     },
     {
       "id": "2-rois",
-      "title": "2 Rois",
+      "title": "Liber secundus Regum",
       "original_title": "II Regum",
       "short": "2 R",
       "testament": "at",
@@ -111,7 +111,7 @@
     },
     {
       "id": "1-chroniques",
-      "title": "1 Chroniques",
+      "title": "Liber primus Paralipomenon",
       "original_title": "I Paralipomenon",
       "short": "1 Ch",
       "testament": "at",
@@ -119,7 +119,7 @@
     },
     {
       "id": "2-chroniques",
-      "title": "2 Chroniques",
+      "title": "Liber secundus Paralipomenon",
       "original_title": "II Paralipomenon",
       "short": "2 Ch",
       "testament": "at",
@@ -127,7 +127,7 @@
     },
     {
       "id": "esdras",
-      "title": "Esdras",
+      "title": "Liber Esdrae",
       "original_title": "Esdras",
       "short": "Esd",
       "testament": "at",
@@ -135,7 +135,7 @@
     },
     {
       "id": "nehemie",
-      "title": "Néhémie",
+      "title": "Liber Nehemiae",
       "original_title": "Nehemias",
       "short": "Né",
       "testament": "at",
@@ -143,7 +143,7 @@
     },
     {
       "id": "tobie",
-      "title": "Tobie",
+      "title": "Liber Tobiae",
       "original_title": "Tobias",
       "short": "Tb",
       "testament": "at",
@@ -151,7 +151,7 @@
     },
     {
       "id": "judith",
-      "title": "Judith",
+      "title": "Liber Iudith",
       "original_title": "Iudith",
       "short": "Jdt",
       "testament": "at",
@@ -159,7 +159,7 @@
     },
     {
       "id": "esther",
-      "title": "Esther",
+      "title": "Liber Esther",
       "original_title": "Esther",
       "short": "Est",
       "testament": "at",
@@ -167,7 +167,7 @@
     },
     {
       "id": "job",
-      "title": "Job",
+      "title": "Liber Iob",
       "original_title": "Iob",
       "short": "Jb",
       "testament": "at",
@@ -175,7 +175,7 @@
     },
     {
       "id": "psaumes",
-      "title": "Psaumes",
+      "title": "Liber Psalmorum",
       "original_title": "Psalmi",
       "short": "Ps",
       "testament": "at",
@@ -183,7 +183,7 @@
     },
     {
       "id": "proverbes",
-      "title": "Proverbes",
+      "title": "Liber Proverbiorum",
       "original_title": "Proverbia",
       "short": "Pr",
       "testament": "at",
@@ -191,7 +191,7 @@
     },
     {
       "id": "ecclesiaste",
-      "title": "Ecclésiaste",
+      "title": "Liber Ecclesiastes",
       "original_title": "Ecclesiastes",
       "short": "Ec",
       "testament": "at",
@@ -199,7 +199,7 @@
     },
     {
       "id": "cantique",
-      "title": "Cantique des Cantiques",
+      "title": "Canticum Canticorum",
       "original_title": "Canticum Canticorum",
       "short": "Ct",
       "testament": "at",
@@ -207,7 +207,7 @@
     },
     {
       "id": "sagesse",
-      "title": "Sagesse",
+      "title": "Liber Sapientiae",
       "original_title": "Sapientia",
       "short": "Sg",
       "testament": "at",
@@ -215,7 +215,7 @@
     },
     {
       "id": "siracide",
-      "title": "Siracide (Ecclésiastique)",
+      "title": "Liber Ecclesiasticus",
       "original_title": "Ecclesiasticus",
       "short": "Si",
       "testament": "at",
@@ -223,7 +223,7 @@
     },
     {
       "id": "esaie",
-      "title": "Ésaïe",
+      "title": "Liber Isaiae",
       "original_title": "Isaias",
       "short": "Es",
       "testament": "at",
@@ -231,7 +231,7 @@
     },
     {
       "id": "jeremie",
-      "title": "Jérémie",
+      "title": "Liber Ieremiae",
       "original_title": "Ieremias",
       "short": "Jr",
       "testament": "at",
@@ -239,7 +239,7 @@
     },
     {
       "id": "lamentations",
-      "title": "Lamentations",
+      "title": "Lamentationes Ieremiae",
       "original_title": "Lamentationes",
       "short": "Lm",
       "testament": "at",
@@ -247,7 +247,7 @@
     },
     {
       "id": "baruch",
-      "title": "Baruch",
+      "title": "Liber Baruch",
       "original_title": "Baruch",
       "short": "Ba",
       "testament": "at",
@@ -255,7 +255,7 @@
     },
     {
       "id": "ezechiel",
-      "title": "Ézéchiel",
+      "title": "Liber Ezechielis",
       "original_title": "Ezechiel",
       "short": "Ez",
       "testament": "at",
@@ -263,7 +263,7 @@
     },
     {
       "id": "daniel",
-      "title": "Daniel",
+      "title": "Liber Danielis",
       "original_title": "Daniel",
       "short": "Dn",
       "testament": "at",
@@ -271,7 +271,7 @@
     },
     {
       "id": "osee",
-      "title": "Osée",
+      "title": "Liber Osee",
       "original_title": "Osee",
       "short": "Os",
       "testament": "at",
@@ -279,7 +279,7 @@
     },
     {
       "id": "joel",
-      "title": "Joël",
+      "title": "Liber Ioel",
       "original_title": "Ioel",
       "short": "Jl",
       "testament": "at",
@@ -287,7 +287,7 @@
     },
     {
       "id": "amos",
-      "title": "Amos",
+      "title": "Liber Amos",
       "original_title": "Amos",
       "short": "Am",
       "testament": "at",
@@ -295,7 +295,7 @@
     },
     {
       "id": "abdias",
-      "title": "Abdias",
+      "title": "Liber Abdiae",
       "original_title": "Abdias",
       "short": "Ab",
       "testament": "at",
@@ -303,7 +303,7 @@
     },
     {
       "id": "jonas",
-      "title": "Jonas",
+      "title": "Liber Ionae",
       "original_title": "Ionas",
       "short": "Jon",
       "testament": "at",
@@ -311,7 +311,7 @@
     },
     {
       "id": "michee",
-      "title": "Michée",
+      "title": "Liber Michaeae",
       "original_title": "Michaeas",
       "short": "Mi",
       "testament": "at",
@@ -319,7 +319,7 @@
     },
     {
       "id": "nahum",
-      "title": "Nahum",
+      "title": "Liber Nahum",
       "original_title": "Nahum",
       "short": "Na",
       "testament": "at",
@@ -327,7 +327,7 @@
     },
     {
       "id": "habacuc",
-      "title": "Habacuc",
+      "title": "Liber Habacuc",
       "original_title": "Habacuc",
       "short": "Ha",
       "testament": "at",
@@ -335,7 +335,7 @@
     },
     {
       "id": "sophonie",
-      "title": "Sophonie",
+      "title": "Liber Sophoniae",
       "original_title": "Sophonias",
       "short": "So",
       "testament": "at",
@@ -343,7 +343,7 @@
     },
     {
       "id": "aggee",
-      "title": "Aggée",
+      "title": "Liber Aggaei",
       "original_title": "Aggaeus",
       "short": "Ag",
       "testament": "at",
@@ -351,7 +351,7 @@
     },
     {
       "id": "zacharie",
-      "title": "Zacharie",
+      "title": "Liber Zachariae",
       "original_title": "Zacharias",
       "short": "Za",
       "testament": "at",
@@ -359,7 +359,7 @@
     },
     {
       "id": "malachie",
-      "title": "Malachie",
+      "title": "Liber Malachiae",
       "original_title": "Malachias",
       "short": "Ml",
       "testament": "at",
@@ -367,7 +367,7 @@
     },
     {
       "id": "1-maccabees",
-      "title": "1 Maccabées",
+      "title": "Liber primus Machabaeorum",
       "original_title": "I Maccabaeorum",
       "short": "1 M",
       "testament": "at",
@@ -375,7 +375,7 @@
     },
     {
       "id": "2-maccabees",
-      "title": "2 Maccabées",
+      "title": "Liber secundus Machabaeorum",
       "original_title": "II Maccabaeorum",
       "short": "2 M",
       "testament": "at",
@@ -383,7 +383,7 @@
     },
     {
       "id": "matthieu",
-      "title": "Évangile selon saint Matthieu",
+      "title": "Evangelium secundum Matthaeum",
       "original_title": "Matthaeus",
       "short": "Mt",
       "testament": "nt",
@@ -391,7 +391,7 @@
     },
     {
       "id": "marc",
-      "title": "Évangile selon saint Marc",
+      "title": "Evangelium secundum Marcum",
       "original_title": "Marcus",
       "short": "Mc",
       "testament": "nt",
@@ -399,7 +399,7 @@
     },
     {
       "id": "luc",
-      "title": "Évangile selon saint Luc",
+      "title": "Evangelium secundum Lucam",
       "original_title": "Lucas",
       "short": "Lc",
       "testament": "nt",
@@ -407,7 +407,7 @@
     },
     {
       "id": "jean",
-      "title": "Évangile selon saint Jean",
+      "title": "Evangelium secundum Ioannem",
       "original_title": "Ioannes",
       "short": "Jn",
       "testament": "nt",
@@ -415,7 +415,7 @@
     },
     {
       "id": "actes",
-      "title": "Actes des Apôtres",
+      "title": "Actus Apostolorum",
       "original_title": "Actus Apostolorum",
       "short": "Ac",
       "testament": "nt",
@@ -423,7 +423,7 @@
     },
     {
       "id": "romains",
-      "title": "Romains",
+      "title": "Epistula beati Pauli Apostoli ad Romanos",
       "original_title": "Ad Romanos",
       "short": "Rm",
       "testament": "nt",
@@ -431,7 +431,7 @@
     },
     {
       "id": "1-corinthiens",
-      "title": "1 Corinthiens",
+      "title": "Epistula prima beati Pauli Apostoli ad Corinthios",
       "original_title": "I Ad Corinthios",
       "short": "1 Co",
       "testament": "nt",
@@ -439,7 +439,7 @@
     },
     {
       "id": "2-corinthiens",
-      "title": "2 Corinthiens",
+      "title": "Epistula secunda beati Pauli Apostoli ad Corinthios",
       "original_title": "II Ad Corinthios",
       "short": "2 Co",
       "testament": "nt",
@@ -447,7 +447,7 @@
     },
     {
       "id": "galates",
-      "title": "Galates",
+      "title": "Epistula beati Pauli Apostoli ad Galatas",
       "original_title": "Ad Galatas",
       "short": "Ga",
       "testament": "nt",
@@ -455,7 +455,7 @@
     },
     {
       "id": "ephesiens",
-      "title": "Éphésiens",
+      "title": "Epistula beati Pauli Apostoli ad Ephesios",
       "original_title": "Ad Ephesios",
       "short": "Ép",
       "testament": "nt",
@@ -463,7 +463,7 @@
     },
     {
       "id": "philippiens",
-      "title": "Philippiens",
+      "title": "Epistula beati Pauli Apostoli ad Philippenses",
       "original_title": "Ad Philippenses",
       "short": "Ph",
       "testament": "nt",
@@ -471,7 +471,7 @@
     },
     {
       "id": "colossiens",
-      "title": "Colossiens",
+      "title": "Epistula beati Pauli Apostoli ad Colossenses",
       "original_title": "Ad Colossenses",
       "short": "Col",
       "testament": "nt",
@@ -479,7 +479,7 @@
     },
     {
       "id": "1-thessaloniciens",
-      "title": "1 Thessaloniciens",
+      "title": "Epistula prima beati Pauli Apostoli ad Thessalonicenses",
       "original_title": "I Ad Thessalonicenses",
       "short": "1 Th",
       "testament": "nt",
@@ -487,7 +487,7 @@
     },
     {
       "id": "2-thessaloniciens",
-      "title": "2 Thessaloniciens",
+      "title": "Epistula secunda beati Pauli Apostoli ad Thessalonicenses",
       "original_title": "II Ad Thessalonicenses",
       "short": "2 Th",
       "testament": "nt",
@@ -495,7 +495,7 @@
     },
     {
       "id": "1-timothee",
-      "title": "1 Timothée",
+      "title": "Epistula prima beati Pauli Apostoli ad Timotheum",
       "original_title": "I Ad Timotheum",
       "short": "1 Tm",
       "testament": "nt",
@@ -503,7 +503,7 @@
     },
     {
       "id": "2-timothee",
-      "title": "2 Timothée",
+      "title": "Epistula secunda beati Pauli Apostoli ad Timotheum",
       "original_title": "II Ad Timotheum",
       "short": "2 Tm",
       "testament": "nt",
@@ -511,7 +511,7 @@
     },
     {
       "id": "tite",
-      "title": "Tite",
+      "title": "Epistula beati Pauli Apostoli ad Titum",
       "original_title": "Ad Titum",
       "short": "Tt",
       "testament": "nt",
@@ -519,7 +519,7 @@
     },
     {
       "id": "philemon",
-      "title": "Philémon",
+      "title": "Epistula beati Pauli Apostoli ad Philemonem",
       "original_title": "Ad Philemonem",
       "short": "Phm",
       "testament": "nt",
@@ -527,7 +527,7 @@
     },
     {
       "id": "hebreux",
-      "title": "Hébreux",
+      "title": "Epistula ad Hebraeos",
       "original_title": "Ad Hebraeos",
       "short": "Hé",
       "testament": "nt",
@@ -535,7 +535,7 @@
     },
     {
       "id": "jacques",
-      "title": "Jacques",
+      "title": "Epistula beati Iacobi Apostoli",
       "original_title": "Iacobus",
       "short": "Jc",
       "testament": "nt",
@@ -543,7 +543,7 @@
     },
     {
       "id": "1-pierre",
-      "title": "1 Pierre",
+      "title": "Epistula prima beati Petri Apostoli",
       "original_title": "I Petri",
       "short": "1 P",
       "testament": "nt",
@@ -551,7 +551,7 @@
     },
     {
       "id": "2-pierre",
-      "title": "2 Pierre",
+      "title": "Epistula secunda beati Petri Apostoli",
       "original_title": "II Petri",
       "short": "2 P",
       "testament": "nt",
@@ -559,7 +559,7 @@
     },
     {
       "id": "1-jean",
-      "title": "1 Jean",
+      "title": "Epistula prima beati Ioannis Apostoli",
       "original_title": "I Ioannes",
       "short": "1 Jn",
       "testament": "nt",
@@ -567,7 +567,7 @@
     },
     {
       "id": "2-jean",
-      "title": "2 Jean",
+      "title": "Epistula secunda beati Ioannis Apostoli",
       "original_title": "II Ioannes",
       "short": "2 Jn",
       "testament": "nt",
@@ -575,7 +575,7 @@
     },
     {
       "id": "3-jean",
-      "title": "3 Jean",
+      "title": "Epistula tertia beati Ioannis Apostoli",
       "original_title": "III Ioannes",
       "short": "3 Jn",
       "testament": "nt",
@@ -583,7 +583,7 @@
     },
     {
       "id": "jude",
-      "title": "Jude",
+      "title": "Epistula beati Iudae Apostoli",
       "original_title": "Iudas",
       "short": "Jude",
       "testament": "nt",
@@ -591,7 +591,7 @@
     },
     {
       "id": "apocalypse",
-      "title": "Apocalypse",
+      "title": "Apocalypsis beati Ioannis Apostoli",
       "original_title": "Apocalypsis",
       "short": "Ap",
       "testament": "nt",

@@ -130,10 +130,33 @@ p {
 }
 
 .site-main,
-.verse-text,
 .reading-excerpt,
 .canon-card,
-.panel-scroll .verse-text {
+.panel-scroll .verse-text,
+.site-header,
+.site-header *,
+.active-edition-bar,
+.reader-chrome,
+.testament-bar,
+.book-title-bar,
+.edition-name-bar {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.verse-text {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.book-body.is-aligned .verse,
+.book-body.is-aligned .verse .verse-text {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.book-body.is-aligned .verse.is-select-col,
+.book-body.is-aligned .verse.is-select-col .verse-text {
   user-select: text;
   -webkit-user-select: text;
 }

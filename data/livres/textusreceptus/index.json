@@ -15,7 +15,7 @@
   "books": [
     {
       "id": "matthieu",
-      "title": "Évangile selon saint Matthieu",
+      "title": "Εὐαγγέλιον κατὰ Ματθαῖον",
       "original_title": "Κατά Ματθαίον",
       "short": "Mt",
       "testament": "nt",
@@ -23,7 +23,7 @@
     },
     {
       "id": "marc",
-      "title": "Évangile selon saint Marc",
+      "title": "Εὐαγγέλιον κατὰ Μᾶρκον",
       "original_title": "Κατά Μάρκον",
       "short": "Mc",
       "testament": "nt",
@@ -31,7 +31,7 @@
     },
     {
       "id": "luc",
-      "title": "Évangile selon saint Luc",
+      "title": "Εὐαγγέλιον κατὰ Λουκᾶν",
       "original_title": "Κατά Λουκάν",
       "short": "Lc",
       "testament": "nt",
@@ -39,7 +39,7 @@
     },
     {
       "id": "jean",
-      "title": "Évangile selon saint Jean",
+      "title": "Εὐαγγέλιον κατὰ Ἰωάννην",
       "original_title": "Κατά Ιωάννην",
       "short": "Jn",
       "testament": "nt",
@@ -47,7 +47,7 @@
     },
     {
       "id": "actes",
-      "title": "Actes des Apôtres",
+      "title": "Πράξεις τῶν Ἀποστόλων",
       "original_title": "Πράξεις",
       "short": "Ac",
       "testament": "nt",
@@ -55,7 +55,7 @@
     },
     {
       "id": "romains",
-      "title": "Romains",
+      "title": "Πρὸς Ῥωμαίους ἐπιστολή",
       "original_title": "Προς Ρωμαίους",
       "short": "Rm",
       "testament": "nt",
@@ -63,7 +63,7 @@
     },
     {
       "id": "1-corinthiens",
-      "title": "1 Corinthiens",
+      "title": "Πρὸς Κορινθίους ἐπιστολὴ πρώτη",
       "original_title": "Προς Κορινθίους Α'",
       "short": "1 Co",
       "testament": "nt",
@@ -71,7 +71,7 @@
     },
     {
       "id": "2-corinthiens",
-      "title": "2 Corinthiens",
+      "title": "Πρὸς Κορινθίους ἐπιστολὴ δευτέρα",
       "original_title": "Προς Κορινθίους Β'",
       "short": "2 Co",
       "testament": "nt",
@@ -79,7 +79,7 @@
     },
     {
       "id": "galates",
-      "title": "Galates",
+      "title": "Πρὸς Γαλάτας ἐπιστολή",
       "original_title": "Προς Γαλάτας",
       "short": "Ga",
       "testament": "nt",
@@ -87,7 +87,7 @@
     },
     {
       "id": "ephesiens",
-      "title": "Éphésiens",
+      "title": "Πρὸς Ἐφεσίους ἐπιστολή",
       "original_title": "Προς Εφεσίους",
       "short": "Ép",
       "testament": "nt",
@@ -95,7 +95,7 @@
     },
     {
       "id": "philippiens",
-      "title": "Philippiens",
+      "title": "Πρὸς Φιλιππησίους ἐπιστολή",
       "original_title": "Προς Φιλιππησίους",
       "short": "Ph",
       "testament": "nt",
@@ -103,7 +103,7 @@
     },
     {
       "id": "colossiens",
-      "title": "Colossiens",
+      "title": "Πρὸς Κολοσσαεῖς ἐπιστολή",
       "original_title": "Προς Κολοσσαείς",
       "short": "Col",
       "testament": "nt",
@@ -111,7 +111,7 @@
     },
     {
       "id": "1-thessaloniciens",
-      "title": "1 Thessaloniciens",
+      "title": "Πρὸς Θεσσαλονικεῖς ἐπιστολὴ πρώτη",
       "original_title": "Προς Θεσσαλονικείς Α'",
       "short": "1 Th",
       "testament": "nt",
@@ -119,7 +119,7 @@
     },
     {
       "id": "2-thessaloniciens",
-      "title": "2 Thessaloniciens",
+      "title": "Πρὸς Θεσσαλονικεῖς ἐπιστολὴ δευτέρα",
       "original_title": "Προς Θεσσαλονικείς Β'",
       "short": "2 Th",
       "testament": "nt",
@@ -127,7 +127,7 @@
     },
     {
       "id": "1-timothee",
-      "title": "1 Timothée",
+      "title": "Πρὸς Τιμόθεον ἐπιστολὴ πρώτη",
       "original_title": "Προς Τιμόθεον Α'",
       "short": "1 Tm",
       "testament": "nt",
@@ -135,7 +135,7 @@
     },
     {
       "id": "2-timothee",
-      "title": "2 Timothée",
+      "title": "Πρὸς Τιμόθεον ἐπιστολὴ δευτέρα",
       "original_title": "Προς Τιμόθεον Β'",
       "short": "2 Tm",
       "testament": "nt",
@@ -143,7 +143,7 @@
     },
     {
       "id": "tite",
-      "title": "Tite",
+      "title": "Πρὸς Τίτον ἐπιστολή",
       "original_title": "Προς Τίτον",
       "short": "Tt",
       "testament": "nt",
@@ -151,7 +151,7 @@
     },
     {
       "id": "philemon",
-      "title": "Philémon",
+      "title": "Πρὸς Φιλήμονα ἐπιστολή",
       "original_title": "Προς Φιλήμονα",
       "short": "Phm",
       "testament": "nt",
@@ -159,7 +159,7 @@
     },
     {
       "id": "hebreux",
-      "title": "Hébreux",
+      "title": "Πρὸς Ἑβραίους ἐπιστολή",
       "original_title": "Προς Εβραίους",
       "short": "Hé",
       "testament": "nt",
@@ -167,7 +167,7 @@
     },
     {
       "id": "jacques",
-      "title": "Jacques",
+      "title": "Ἰακώβου ἐπιστολή",
       "original_title": "Ιάκωβος",
       "short": "Jc",
       "testament": "nt",
@@ -175,7 +175,7 @@
     },
     {
       "id": "1-pierre",
-      "title": "1 Pierre",
+      "title": "Πέτρου ἐπιστολὴ πρώτη",
       "original_title": "Πέτρου Α'",
       "short": "1 P",
       "testament": "nt",
@@ -183,7 +183,7 @@
     },
     {
       "id": "2-pierre",
-      "title": "2 Pierre",
+      "title": "Πέτρου ἐπιστολὴ δευτέρα",
       "original_title": "Πέτρου Β'",
       "short": "2 P",
       "testament": "nt",
@@ -191,7 +191,7 @@
     },
     {
       "id": "1-jean",
-      "title": "1 Jean",
+      "title": "Ἰωάννου ἐπιστολὴ πρώτη",
       "original_title": "Ιωάννου Α'",
       "short": "1 Jn",
       "testament": "nt",
@@ -199,7 +199,7 @@
     },
     {
       "id": "2-jean",
-      "title": "2 Jean",
+      "title": "Ἰωάννου ἐπιστολὴ δευτέρα",
       "original_title": "Ιωάννου Β'",
       "short": "2 Jn",
       "testament": "nt",
@@ -207,7 +207,7 @@
     },
     {
       "id": "3-jean",
-      "title": "3 Jean",
+      "title": "Ἰωάννου ἐπιστολὴ τρίτη",
       "original_title": "Ιωάννου Γ'",
       "short": "3 Jn",
       "testament": "nt",
@@ -215,7 +215,7 @@
     },
     {
       "id": "jude",
-      "title": "Jude",
+      "title": "Ἰούδα ἐπιστολή",
       "original_title": "Ιούδας",
       "short": "Jude",
       "testament": "nt",
@@ -223,7 +223,7 @@
     },
     {
       "id": "apocalypse",
-      "title": "Apocalypse",
+      "title": "Ἀποκάλυψις Ἰωάννου",
       "original_title": "Αποκάλυψις",
       "short": "Ap",
       "testament": "nt",

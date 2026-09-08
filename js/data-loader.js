@@ -6,7 +6,7 @@ import { GOSPEL_IDS as CANON_GOSPELS, isGospel as canonIsGospel, VERSIONS } from
 const cache = new Map();
 const indexCache = new Map();
 
-export const DEFAULT_EDITION = "segond-1910";
+export const DEFAULT_EDITION = "ostervald";
 
 export function resolveUrls(file) {
   const rootUrl = `/${file}`;

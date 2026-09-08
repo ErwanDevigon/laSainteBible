@@ -15,7 +15,7 @@
   "books": [
     {
       "id": "genese",
-      "title": "Genèse",
+      "title": "Γένεσις",
       "original_title": "Γένεση",
       "short": "Gn",
       "testament": "at",
@@ -23,7 +23,7 @@
     },
     {
       "id": "exode",
-      "title": "Exode",
+      "title": "Ἔξοδος",
       "original_title": "Έξοδος",
       "short": "Ex",
       "testament": "at",
@@ -31,7 +31,7 @@
     },
     {
       "id": "levitique",
-      "title": "Lévitique",
+      "title": "Λευϊτικόν",
       "original_title": "Λευιτικό",
       "short": "Lv",
       "testament": "at",
@@ -39,7 +39,7 @@
     },
     {
       "id": "nombres",
-      "title": "Nombres",
+      "title": "Ἀριθμοί",
       "original_title": "Αριθμοί",
       "short": "Nb",
       "testament": "at",
@@ -47,7 +47,7 @@
     },
     {
       "id": "deuteronome",
-      "title": "Deutéronome",
+      "title": "Δευτερονόμιον",
       "original_title": "Δευτερονόμιο",
       "short": "Dt",
       "testament": "at",
@@ -55,7 +55,7 @@
     },
     {
       "id": "josue",
-      "title": "Josué",
+      "title": "Ἰησοῦς Ναυῆ",
       "original_title": "Ιησούς Ναυή",
       "short": "Jos",
       "testament": "at",
@@ -63,7 +63,7 @@
     },
     {
       "id": "juges",
-      "title": "Juges",
+      "title": "Κριταί",
       "original_title": "Κριτές",
       "short": "Jg",
       "testament": "at",
@@ -71,7 +71,7 @@
     },
     {
       "id": "ruth",
-      "title": "Ruth",
+      "title": "Ῥούθ",
       "original_title": "Ρούθ",
       "short": "Rt",
       "testament": "at",
@@ -79,7 +79,7 @@
     },
     {
       "id": "1-samuel",
-      "title": "1 Samuel",
+      "title": "Βασιλειῶν Αʹ",
       "original_title": "Βασιλειών Α'",
       "short": "1 S",
       "testament": "at",
@@ -87,7 +87,7 @@
     },
     {
       "id": "2-samuel",
-      "title": "2 Samuel",
+      "title": "Βασιλειῶν Βʹ",
       "original_title": "Βασιλειών Β'",
       "short": "2 S",
       "testament": "at",
@@ -95,7 +95,7 @@
     },
     {
       "id": "1-rois",
-      "title": "1 Rois",
+      "title": "Βασιλειῶν Γʹ",
       "original_title": "Βασιλειών Γ'",
       "short": "1 R",
       "testament": "at",
@@ -103,7 +103,7 @@
     },
     {
       "id": "2-rois",
-      "title": "2 Rois",
+      "title": "Βασιλειῶν Δʹ",
       "original_title": "Βασιλειών Δ'",
       "short": "2 R",
       "testament": "at",
@@ -111,7 +111,7 @@
     },
     {
       "id": "1-chroniques",
-      "title": "1 Chroniques",
+      "title": "Παραλειπομένων Αʹ",
       "original_title": "Παραλειπομένων Α'",
       "short": "1 Ch",
       "testament": "at",
@@ -119,7 +119,7 @@
     },
     {
       "id": "2-chroniques",
-      "title": "2 Chroniques",
+      "title": "Παραλειπομένων Βʹ",
       "original_title": "Παραλειπομένων Β'",
       "short": "2 Ch",
       "testament": "at",
@@ -127,7 +127,7 @@
     },
     {
       "id": "esdras",
-      "title": "Esdras",
+      "title": "Ἔσδρας",
       "original_title": "Έσδρας Α'",
       "short": "Esd",
       "testament": "at",
@@ -135,7 +135,7 @@
     },
     {
       "id": "nehemie",
-      "title": "Néhémie",
+      "title": "Νεεμίας",
       "original_title": "Νεεμίας",
       "short": "Né",
       "testament": "at",
@@ -143,7 +143,7 @@
     },
     {
       "id": "esther",
-      "title": "Esther",
+      "title": "Ἐσθήρ",
       "original_title": "Εσθήρ",
       "short": "Est",
       "testament": "at",
@@ -151,7 +151,7 @@
     },
     {
       "id": "job",
-      "title": "Job",
+      "title": "Ἰώβ",
       "original_title": "Ιώβ",
       "short": "Jb",
       "testament": "at",
@@ -159,7 +159,7 @@
     },
     {
       "id": "psaumes",
-      "title": "Psaumes",
+      "title": "Ψαλμοί",
       "original_title": "Ψαλμοί",
       "short": "Ps",
       "testament": "at",
@@ -167,7 +167,7 @@
     },
     {
       "id": "proverbes",
-      "title": "Proverbes",
+      "title": "Παροιμίαι",
       "original_title": "Παροιμίες",
       "short": "Pr",
       "testament": "at",
@@ -175,7 +175,7 @@
     },
     {
       "id": "ecclesiaste",
-      "title": "Ecclésiaste",
+      "title": "Ἐκκλησιαστής",
       "original_title": "Εκκλησιαστής",
       "short": "Ec",
       "testament": "at",
@@ -183,7 +183,7 @@
     },
     {
       "id": "cantique",
-      "title": "Cantique des Cantiques",
+      "title": "Ἆσμα Ἀσμάτων",
       "original_title": "Άσμα των Ασμάτων",
       "short": "Ct",
       "testament": "at",
@@ -191,7 +191,7 @@
     },
     {
       "id": "esaie",
-      "title": "Ésaïe",
+      "title": "Ἠσαΐας",
       "original_title": "Ησαΐας",
       "short": "Es",
       "testament": "at",
@@ -199,7 +199,7 @@
     },
     {
       "id": "jeremie",
-      "title": "Jérémie",
+      "title": "Ἰερεμίας",
       "original_title": "Ιερεμίας",
       "short": "Jr",
       "testament": "at",
@@ -207,7 +207,7 @@
     },
     {
       "id": "lamentations",
-      "title": "Lamentations",
+      "title": "Θρῆνοι",
       "original_title": "Θρήνοι",
       "short": "Lm",
       "testament": "at",
@@ -215,7 +215,7 @@
     },
     {
       "id": "ezechiel",
-      "title": "Ézéchiel",
+      "title": "Ἰεζεκιήλ",
       "original_title": "Ιεζεκιήλ",
       "short": "Ez",
       "testament": "at",
@@ -223,7 +223,7 @@
     },
     {
       "id": "daniel",
-      "title": "Daniel",
+      "title": "Δανιήλ",
       "original_title": "Δανιήλ",
       "short": "Dn",
       "testament": "at",
@@ -231,7 +231,7 @@
     },
     {
       "id": "osee",
-      "title": "Osée",
+      "title": "Ὡσηέ",
       "original_title": "Ωσηέ",
       "short": "Os",
       "testament": "at",
@@ -239,7 +239,7 @@
     },
     {
       "id": "joel",
-      "title": "Joël",
+      "title": "Ἰωήλ",
       "original_title": "Ιωήλ",
       "short": "Jl",
       "testament": "at",
@@ -247,7 +247,7 @@
     },
     {
       "id": "amos",
-      "title": "Amos",
+      "title": "Ἀμώς",
       "original_title": "Αμώς",
       "short": "Am",
       "testament": "at",
@@ -255,7 +255,7 @@
     },
     {
       "id": "abdias",
-      "title": "Abdias",
+      "title": "Ἀβδιού",
       "original_title": "Οβδίας",
       "short": "Ab",
       "testament": "at",
@@ -263,7 +263,7 @@
     },
     {
       "id": "jonas",
-      "title": "Jonas",
+      "title": "Ἰωνᾶς",
       "original_title": "Ιωνάς",
       "short": "Jon",
       "testament": "at",
@@ -271,7 +271,7 @@
     },
     {
       "id": "michee",
-      "title": "Michée",
+      "title": "Μιχαίας",
       "original_title": "Μιχαίας",
       "short": "Mi",
       "testament": "at",
@@ -279,7 +279,7 @@
     },
     {
       "id": "nahum",
-      "title": "Nahum",
+      "title": "Ναούμ",
       "original_title": "Ναούμ",
       "short": "Na",
       "testament": "at",
@@ -287,7 +287,7 @@
     },
     {
       "id": "habacuc",
-      "title": "Habacuc",
+      "title": "Ἀμβακούμ",
       "original_title": "Αμβακούμ",
       "short": "Ha",
       "testament": "at",
@@ -295,7 +295,7 @@
     },
     {
       "id": "sophonie",
-      "title": "Sophonie",
+      "title": "Σοφονίας",
       "original_title": "Σοφονίας",
       "short": "So",
       "testament": "at",
@@ -303,7 +303,7 @@
     },
     {
       "id": "aggee",
-      "title": "Aggée",
+      "title": "Ἀγγαῖος",
       "original_title": "Αγγαίος",
       "short": "Ag",
       "testament": "at",
@@ -311,7 +311,7 @@
     },
     {
       "id": "zacharie",
-      "title": "Zacharie",
+      "title": "Ζαχαρίας",
       "original_title": "Ζαχαρίας",
       "short": "Za",
       "testament": "at",
@@ -319,7 +319,7 @@
     },
     {
       "id": "malachie",
-      "title": "Malachie",
+      "title": "Μαλαχίας",
       "original_title": "Μαλαχίας",
       "short": "Ml",
       "testament": "at",
@@ -327,7 +327,7 @@
     },
     {
       "id": "matthieu",
-      "title": "Évangile selon saint Matthieu",
+      "title": "Εὐαγγέλιον κατὰ Ματθαῖον",
       "original_title": "Κατά Ματθαίον",
       "short": "Mt",
       "testament": "nt",
@@ -335,7 +335,7 @@
     },
     {
       "id": "marc",
-      "title": "Évangile selon saint Marc",
+      "title": "Εὐαγγέλιον κατὰ Μᾶρκον",
       "original_title": "Κατά Μάρκον",
       "short": "Mc",
       "testament": "nt",
@@ -343,7 +343,7 @@
     },
     {
       "id": "luc",
-      "title": "Évangile selon saint Luc",
+      "title": "Εὐαγγέλιον κατὰ Λουκᾶν",
       "original_title": "Κατά Λουκάν",
       "short": "Lc",
       "testament": "nt",
@@ -351,7 +351,7 @@
     },
     {
       "id": "jean",
-      "title": "Évangile selon saint Jean",
+      "title": "Εὐαγγέλιον κατὰ Ἰωάννην",
       "original_title": "Κατά Ιωάννην",
       "short": "Jn",
       "testament": "nt",
@@ -359,7 +359,7 @@
     },
     {
       "id": "actes",
-      "title": "Actes des Apôtres",
+      "title": "Πράξεις τῶν Ἀποστόλων",
       "original_title": "Πράξεις",
       "short": "Ac",
       "testament": "nt",
@@ -367,7 +367,7 @@
     },
     {
       "id": "romains",
-      "title": "Romains",
+      "title": "Πρὸς Ῥωμαίους ἐπιστολή",
       "original_title": "Προς Ρωμαίους",
       "short": "Rm",
       "testament": "nt",
@@ -375,7 +375,7 @@
     },
     {
       "id": "1-corinthiens",
-      "title": "1 Corinthiens",
+      "title": "Πρὸς Κορινθίους ἐπιστολὴ πρώτη",
       "original_title": "Προς Κορινθίους Α'",
       "short": "1 Co",
       "testament": "nt",
@@ -383,7 +383,7 @@
     },
     {
       "id": "2-corinthiens",
-      "title": "2 Corinthiens",
+      "title": "Πρὸς Κορινθίους ἐπιστολὴ δευτέρα",
       "original_title": "Προς Κορινθίους Β'",
       "short": "2 Co",
       "testament": "nt",
@@ -391,7 +391,7 @@
     },
     {
       "id": "galates",
-      "title": "Galates",
+      "title": "Πρὸς Γαλάτας ἐπιστολή",
       "original_title": "Προς Γαλάτας",
       "short": "Ga",
       "testament": "nt",
@@ -399,7 +399,7 @@
     },
     {
       "id": "ephesiens",
-      "title": "Éphésiens",
+      "title": "Πρὸς Ἐφεσίους ἐπιστολή",
       "original_title": "Προς Εφεσίους",
       "short": "Ép",
       "testament": "nt",
@@ -407,7 +407,7 @@
     },
     {
       "id": "philippiens",
-      "title": "Philippiens",
+      "title": "Πρὸς Φιλιππησίους ἐπιστολή",
       "original_title": "Προς Φιλιππησίους",
       "short": "Ph",
       "testament": "nt",
@@ -415,7 +415,7 @@
     },
     {
       "id": "colossiens",
-      "title": "Colossiens",
+      "title": "Πρὸς Κολοσσαεῖς ἐπιστολή",
       "original_title": "Προς Κολοσσαείς",
       "short": "Col",
       "testament": "nt",
@@ -423,7 +423,7 @@
     },
     {
       "id": "1-thessaloniciens",
-      "title": "1 Thessaloniciens",
+      "title": "Πρὸς Θεσσαλονικεῖς ἐπιστολὴ πρώτη",
       "original_title": "Προς Θεσσαλονικείς Α'",
       "short": "1 Th",
       "testament": "nt",
@@ -431,7 +431,7 @@
     },
     {
       "id": "2-thessaloniciens",
-      "title": "2 Thessaloniciens",
+      "title": "Πρὸς Θεσσαλονικεῖς ἐπιστολὴ δευτέρα",
       "original_title": "Προς Θεσσαλονικείς Β'",
       "short": "2 Th",
       "testament": "nt",
@@ -439,7 +439,7 @@
     },
     {
       "id": "1-timothee",
-      "title": "1 Timothée",
+      "title": "Πρὸς Τιμόθεον ἐπιστολὴ πρώτη",
       "original_title": "Προς Τιμόθεον Α'",
       "short": "1 Tm",
       "testament": "nt",
@@ -447,7 +447,7 @@
     },
     {
       "id": "2-timothee",
-      "title": "2 Timothée",
+      "title": "Πρὸς Τιμόθεον ἐπιστολὴ δευτέρα",
       "original_title": "Προς Τιμόθεον Β'",
       "short": "2 Tm",
       "testament": "nt",
@@ -455,7 +455,7 @@
     },
     {
       "id": "tite",
-      "title": "Tite",
+      "title": "Πρὸς Τίτον ἐπιστολή",
       "original_title": "Προς Τίτον",
       "short": "Tt",
       "testament": "nt",
@@ -463,7 +463,7 @@
     },
     {
       "id": "philemon",
-      "title": "Philémon",
+      "title": "Πρὸς Φιλήμονα ἐπιστολή",
       "original_title": "Προς Φιλήμονα",
       "short": "Phm",
       "testament": "nt",
@@ -471,7 +471,7 @@
     },
     {
       "id": "hebreux",
-      "title": "Hébreux",
+      "title": "Πρὸς Ἑβραίους ἐπιστολή",
       "original_title": "Προς Εβραίους",
       "short": "Hé",
       "testament": "nt",
@@ -479,7 +479,7 @@
     },
     {
       "id": "jacques",
-      "title": "Jacques",
+      "title": "Ἰακώβου ἐπιστολή",
       "original_title": "Ιάκωβος",
       "short": "Jc",
       "testament": "nt",
@@ -487,7 +487,7 @@
     },
     {
       "id": "1-pierre",
-      "title": "1 Pierre",
+      "title": "Πέτρου ἐπιστολὴ πρώτη",
       "original_title": "Πέτρου Α'",
       "short": "1 P",
       "testament": "nt",
@@ -495,7 +495,7 @@
     },
     {
       "id": "2-pierre",
-      "title": "2 Pierre",
+      "title": "Πέτρου ἐπιστολὴ δευτέρα",
       "original_title": "Πέτρου Β'",
       "short": "2 P",
       "testament": "nt",
@@ -503,7 +503,7 @@
     },
     {
       "id": "1-jean",
-      "title": "1 Jean",
+      "title": "Ἰωάννου ἐπιστολὴ πρώτη",
       "original_title": "Ιωάννου Α'",
       "short": "1 Jn",
       "testament": "nt",
@@ -511,7 +511,7 @@
     },
     {
       "id": "2-jean",
-      "title": "2 Jean",
+      "title": "Ἰωάννου ἐπιστολὴ δευτέρα",
       "original_title": "Ιωάννου Β'",
       "short": "2 Jn",
       "testament": "nt",
@@ -519,7 +519,7 @@
     },
     {
       "id": "3-jean",
-      "title": "3 Jean",
+      "title": "Ἰωάννου ἐπιστολὴ τρίτη",
       "original_title": "Ιωάννου Γ'",
       "short": "3 Jn",
       "testament": "nt",
@@ -527,7 +527,7 @@
     },
     {
       "id": "jude",
-      "title": "Jude",
+      "title": "Ἰούδα ἐπιστολή",
       "original_title": "Ιούδας",
       "short": "Jude",
       "testament": "nt",
@@ -535,7 +535,7 @@
     },
     {
       "id": "apocalypse",
-      "title": "Apocalypse",
+      "title": "Ἀποκάλυψις Ἰωάννου",
       "original_title": "Αποκάλυψη",
       "short": "Ap",
       "testament": "nt",

@@ -5,6 +5,7 @@ import {
   versionsForBook,
 } from "./data-loader.js";
 import { renderAlignedBook, parseHash } from "./render-evangile.js";
+import { mountParallels } from "./parallels.js";
 import { fadeTo, jumpToElement, veilNow, glideToElement } from "./fade-nav.js";
 import { mountChapterRail } from "./chapter-rail.js";
 import { mountSwipeNav } from "./swipe-nav.js";
@@ -170,6 +171,11 @@ async function init() {
         editions,
         container: bodyEl,
         end: null,
+      });
+      mountParallels({
+        bookId,
+        container: bodyEl,
+        editions,
       });
       window.scrollTo(0, y);
 

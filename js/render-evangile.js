@@ -244,32 +244,35 @@ export function renderAlignedBook({ editions, container, end = null }) {
     pair.className = "chapter-pair";
     pair.dataset.chapter = String(n);
 
-    for (const ed of editions) {
-      pair.append(
-        alignedLabel(n, ed.book.short, ed.col, {
-          id: ed.primary ? `c${n}` : "",
-          primary: !!ed.primary,
-        })
-      );
-    }
-
     const vMaps = editions.map((_, i) => verseMap(maps[i].get(n)));
     const vNums = [...new Set(vMaps.flatMap((m) => [...m.keys()]))].sort(
       (a, b) => a - b
     );
-    for (const vn of vNums) {
-      editions.forEach((ed, i) => {
-        const v = vMaps[i].get(vn) || { n: vn, t: "" };
-        pair.append(
-          verseRow(n, v, { col: ed.col, withId: !!ed.primary })
-        );
+    editions.forEach((ed, i) => {
+      const colN = String(i + 1);
+      const label = alignedLabel(n, ed.book.short, ed.col, {
+        id: ed.primary ? `c${n}` : "",
+        primary: !!ed.primary,
       });
-    }
-    const nCols = editions.length;
-    const kids = [...pair.children];
-    kids.slice(0, nCols).forEach((node) => node.classList.add("is-card-head"));
-    kids.slice(-nCols).forEach((node) => node.classList.add("is-card-foot"));
-    stage.append(pair);
+      label.style.gridColumn = colN;
+      label.style.gridRow = "1";
+      label.classList.add("is-card-head");
+      if (!vNums.length) label.classList.add("is-card-foot");
+      pair.append(label);
+      vNums.forEach((vn, vi) => {
+        const v = vMaps[i].get(vn) || { n: vn, t: "" };
+        const row = verseRow(n, v, { col: ed.col, withId: !!ed.primary });
+        row.style.gridColumn = colN;
+        row.style.gridRow = String(vi + 2);
+        if (vi === vNums.length - 1) row.classList.add("is-card-foot");
+        pair.append(row);
+      });
+    });
+    const band = document.createElement("div");
+    band.className = "chapter-band";
+    band.dataset.chapter = String(n);
+    band.append(pair);
+    stage.append(band);
   }
 
   if (end) {
