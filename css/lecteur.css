@@ -63,6 +63,7 @@ body.has-active-edition {
     calc(100vw - 2 * var(--space-5)),
     calc(var(--measure) + 2.1rem + 2 * var(--space-5))
   );
+  --edition-step: calc(var(--edition-col) + var(--edition-gap));
 }
 
 .active-edition-bar {

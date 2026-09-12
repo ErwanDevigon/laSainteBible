@@ -173,6 +173,44 @@ export function bindGrabPan(root = document.body) {
     root.dispatchEvent(new CustomEvent("lsb:pan", { detail: { x: px } }));
   }
 
+  function stepPx() {
+    const probe = document.createElement("div");
+    probe.style.cssText =
+      "position:absolute;visibility:hidden;width:var(--edition-step);pointer-events:none";
+    root.appendChild(probe);
+    const w = probe.getBoundingClientRect().width;
+    probe.remove();
+    if (w > 8) return w;
+    const sample =
+      root.querySelector(".parallel-card") ||
+      root.querySelector(".reading-card") ||
+      root.querySelector(".edition-name-stage p");
+    if (sample) {
+      const gap = 1.65 * (parseFloat(getComputedStyle(document.documentElement).fontSize) || 16);
+      return sample.getBoundingClientRect().width + gap;
+    }
+    return Math.max(240, window.innerWidth * 0.42);
+  }
+
+  function onKey(e) {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    if (sess) return;
+    const t = e.target;
+    if (
+      t instanceof Element &&
+      t.closest("input, textarea, select, option, [contenteditable='true']")
+    ) {
+      return;
+    }
+    if (document.querySelector(".edition-menu, .parallels-menu")) return;
+    e.preventDefault();
+    const delta = e.key === "ArrowLeft" ? stepPx() : -stepPx();
+    const next = readX(root) + delta;
+    root.dataset.swipeBase = String(next);
+    setX(next);
+  }
+
   function unbindWindow() {
     window.removeEventListener("pointermove", onMove);
     window.removeEventListener("pointerup", onUp);
@@ -300,6 +338,7 @@ export function bindGrabPan(root = document.body) {
   root.addEventListener("dragstart", onDragStart);
   document.addEventListener("selectionchange", onSelectionChange);
   window.addEventListener("resize", onResize);
+  window.addEventListener("keydown", onKey);
 
   return () => {
     unbindWindow();
@@ -311,6 +350,7 @@ export function bindGrabPan(root = document.body) {
     root.removeEventListener("dragstart", onDragStart);
     document.removeEventListener("selectionchange", onSelectionChange);
     window.removeEventListener("resize", onResize);
+    window.removeEventListener("keydown", onKey);
     root.classList.remove("is-swiping");
     root.style.removeProperty("--swipe-x");
     root.style.removeProperty("--swipe-p");
