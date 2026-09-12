@@ -74,34 +74,46 @@ export function parallelKindEnabled(kind) {
   return v !== "0";
 }
 
+function anyParallelKindOn() {
+  return Object.keys(KIND_LABEL).some((k) => parallelKindEnabled(k));
+}
+
+function syncParallelsTrigger() {
+  document.querySelectorAll(".parallels-toggle-btn").forEach((btn) => {
+    btn.classList.toggle("is-active", anyParallelKindOn());
+  });
+}
+
 export function setParallelKindEnabled(kind, on) {
   writeCookie(COOKIE_KIND[kind], on ? "1" : "0");
   document.dispatchEvent(
     new CustomEvent("lsb:parallels", { detail: { kind, on: !!on } })
   );
+  syncParallelsTrigger();
 }
 
 export function mountParallelsToggle() {
   const nav = document.createElement("nav");
   nav.className = "parallels-toggle";
   nav.setAttribute("aria-label", "Suggestions de lecture");
-  for (const kind of Object.keys(KIND_LABEL)) {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "parallels-toggle-btn";
-    btn.dataset.kind = kind;
-    btn.textContent = KIND_LABEL[kind];
-    const on = parallelKindEnabled(kind);
-    btn.setAttribute("aria-pressed", on ? "true" : "false");
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      const next = btn.getAttribute("aria-pressed") !== "true";
-      btn.setAttribute("aria-pressed", next ? "true" : "false");
-      setParallelKindEnabled(kind, next);
-    });
-    nav.append(btn);
-  }
+  const trigger = document.createElement("button");
+  trigger.type = "button";
+  trigger.className = "parallels-toggle-btn";
+  trigger.setAttribute("aria-haspopup", "true");
+  trigger.setAttribute("aria-expanded", "false");
+  trigger.setAttribute("aria-label", "Suggestions de lecture");
+  trigger.textContent = "suggestions de lecture";
+  trigger.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (document.querySelector(".parallels-menu")) {
+      closeParallelsMenu();
+      return;
+    }
+    openParallelsMenu(trigger);
+  });
+  nav.append(trigger);
+  syncParallelsTrigger();
   return nav;
 }
 
@@ -336,6 +348,7 @@ export function mountHeaderTranslation() {
 export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   document.querySelector(".active-edition-bar")?.remove();
   closeEditionMenu();
+  closeParallelsMenu();
   document.body.classList.add("has-active-edition");
   document.body.classList.remove("has-editions");
 
@@ -368,9 +381,12 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   });
   const spacer = document.createElement("span");
   spacer.className = "edition-bar-spacer";
-  if (opts.parallels) spacer.append(mountParallelsToggle());
-  else spacer.setAttribute("aria-hidden", "true");
-  bar.append(blurb, btn, spacer);
+  spacer.setAttribute("aria-hidden", "true");
+  bar.append(
+    blurb,
+    editionNameCluster(btn, opts.parallels ? mountParallelsToggle() : null),
+    spacer
+  );
 
   const header = document.querySelector(".site-header");
   if (header) header.after(bar);
@@ -378,11 +394,79 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   return bar;
 }
 
+function editionNameCluster(btn, extra) {
+  const cluster = document.createElement("span");
+  cluster.className = "edition-name-cluster";
+  cluster.append(btn);
+  if (extra) cluster.append(extra);
+  return cluster;
+}
+
 function closeEditionMenu() {
   document.querySelector(".edition-menu")?.remove();
 }
 
+function closeParallelsMenu() {
+  const menu = document.querySelector(".parallels-menu");
+  menu?._ac?.abort();
+  menu?.remove();
+  document.querySelectorAll(".parallels-toggle-btn[aria-expanded='true']").forEach((btn) => {
+    btn.setAttribute("aria-expanded", "false");
+  });
+}
+
+function openParallelsMenu(anchor) {
+  closeEditionMenu();
+  closeParallelsMenu();
+  const menu = document.createElement("ul");
+  menu.className = "parallels-menu";
+
+  for (const kind of Object.keys(KIND_LABEL)) {
+    const li = document.createElement("li");
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "parallels-menu-btn";
+    btn.dataset.kind = kind;
+    btn.textContent = KIND_LABEL[kind];
+    const on = parallelKindEnabled(kind);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const next = btn.getAttribute("aria-pressed") !== "true";
+      btn.setAttribute("aria-pressed", next ? "true" : "false");
+      setParallelKindEnabled(kind, next);
+    });
+    li.append(btn);
+    menu.append(li);
+  }
+
+  document.body.append(menu);
+  const r = anchor.getBoundingClientRect();
+  const mw = menu.getBoundingClientRect().width;
+  let left = r.left + r.width / 2 - mw / 2;
+  left = Math.max(8, Math.min(left, window.innerWidth - mw - 8));
+  menu.style.left = `${left}px`;
+  menu.style.top = `${r.bottom + 4}px`;
+  anchor.setAttribute("aria-expanded", "true");
+
+  const ac = new AbortController();
+  menu._ac = ac;
+  const onDoc = (e) => {
+    if (menu.contains(e.target) || anchor.contains(e.target)) return;
+    closeParallelsMenu();
+  };
+  const onKey = (e) => {
+    if (e.key !== "Escape") return;
+    closeParallelsMenu();
+    anchor.focus();
+  };
+  document.addEventListener("pointerdown", onDoc, { capture: true, signal: ac.signal });
+  document.addEventListener("keydown", onKey, { signal: ac.signal });
+}
+
 function openEditionMenu(anchor, currentId, stack, onPick) {
+  closeParallelsMenu();
   closeEditionMenu();
   const others = editionsByYearDesc(stack.filter((id) => id !== currentId));
   if (!others.length) return;
@@ -473,6 +557,7 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
   document.querySelector(".book-title-bar")?.remove();
   document.querySelector(".edition-name-bar")?.remove();
   closeEditionMenu();
+  closeParallelsMenu();
 
   const stack = labels.map((item) => item.id).filter(Boolean);
   const pool = available && available.length ? available : stack;
@@ -515,11 +600,13 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
         setColumnEdition(colIndex, otherId, pool);
       });
     });
-    wrap.append(btn);
-    if (colIndex === labels.length - 1) {
-      wrap.classList.add("is-primary");
-      wrap.append(mountParallelsToggle());
-    }
+    if (colIndex === labels.length - 1) wrap.classList.add("is-primary");
+    wrap.append(
+      editionNameCluster(
+        btn,
+        colIndex === labels.length - 1 ? mountParallelsToggle() : null
+      )
+    );
     stage.append(wrap);
   });
   nameBar.append(stage);

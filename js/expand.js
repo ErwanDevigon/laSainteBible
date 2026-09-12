@@ -68,11 +68,7 @@ const EDGE_SLACK = 8;
 let padApplied = 0;
 
 function headroomHost() {
-  return (
-    document.querySelector(".book-body") ||
-    document.querySelector("[data-readings]") ||
-    document.querySelector(".site-main")
-  );
+  return document.querySelector(".book-body");
 }
 
 function applyHeadroom(next) {
@@ -462,6 +458,7 @@ export class MaskDilatation {
    */
   _headroomNeeded(before) {
     if (!this.lockPage || !before || before.height <= 0 || !this.excerpt) return 0;
+    if (!this.host.closest(".book-body")) return 0;
     const grow = Math.max(
       0,
       before.height - this._roomFor(before) + EDGE_SLACK

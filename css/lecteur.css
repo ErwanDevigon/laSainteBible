@@ -101,11 +101,14 @@ body.has-active-edition {
   text-overflow: ellipsis;
 }
 
+.active-edition-bar .edition-name-cluster {
+  justify-self: center;
+}
+
 .active-edition-bar .edition-name-btn {
   width: auto;
   min-width: 0;
   padding: 0 0.8rem;
-  justify-self: center;
 }
 
 body.has-active-edition .site-main {
@@ -267,8 +270,17 @@ body.lecteur-page[data-book] > .site-header {
   min-height: var(--edition-bar-h);
 }
 
-.edition-name-stage p.is-primary {
+.edition-name-cluster {
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: var(--edition-bar-h);
+}
+
+.edition-name-cluster .edition-name-btn {
+  width: auto;
 }
 
 .parallels-toggle {
@@ -277,14 +289,9 @@ body.lecteur-page[data-book] > .site-header {
   top: 0;
   bottom: 0;
   z-index: 2;
-  transform: none;
-  margin-left: 0.55rem;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   align-items: center;
-  gap: 0.7rem;
-  max-width: none;
+  margin-left: 1.2rem;
   font-family: var(--font-ui);
   font-size: 0.68rem;
   line-height: 1;
@@ -306,25 +313,19 @@ body.lecteur-page[data-book] > .site-header {
   text-align: left;
 }
 
-.parallels-toggle-btn[aria-pressed="true"] {
+.parallels-toggle-btn.is-active {
   color: var(--text-soft);
 }
 
 .parallels-toggle-btn:hover,
-.parallels-toggle-btn:focus-visible {
+.parallels-toggle-btn:focus-visible,
+.parallels-toggle-btn[aria-expanded="true"] {
   color: var(--text);
 }
 
 .edition-bar-spacer {
   justify-self: end;
   position: relative;
-}
-
-.active-edition-bar .parallels-toggle {
-  position: static;
-  transform: none;
-  margin-left: 0;
-  height: 100%;
 }
 
 .edition-lang-tag {
@@ -352,7 +353,8 @@ body.lecteur-page[data-book] > .site-header {
   color: var(--text-soft);
 }
 
-.edition-menu {
+.edition-menu,
+.parallels-menu {
   position: fixed;
   z-index: 60;
   margin: 0;
@@ -366,21 +368,37 @@ body.lecteur-page[data-book] > .site-header {
   box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.45);
 }
 
-.edition-menu button {
+.edition-menu button,
+.parallels-menu button {
   display: block;
   width: 100%;
-  text-align: center;
   padding: 0.4rem 0.9rem;
   font-family: var(--font-ui);
   font-size: 0.68rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--text-soft);
   white-space: nowrap;
 }
 
+.edition-menu button {
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.parallels-menu button {
+  text-align: left;
+  letter-spacing: 0.01em;
+  color: var(--text-faint);
+}
+
+.parallels-menu button[aria-pressed="true"] {
+  color: var(--text-soft);
+}
+
 .edition-menu button:hover,
-.edition-menu button:focus-visible {
+.edition-menu button:focus-visible,
+.parallels-menu button:hover,
+.parallels-menu button:focus-visible {
   color: var(--text);
   background: var(--bg-soft);
 }

@@ -196,10 +196,15 @@ function itemSpansOnBook(item, bookId) {
 
 function othersOf(item, bookId, chapter, verse) {
   const cur = currentSpan(item, bookId, chapter, verse);
+  // Messe excerpt often spans several pericopes (Lc 6,43-49 vs rail 46-49).
+  // Show the whole synopse set — stamp and cards stay in sync.
+  const includeSelf =
+    kindKey(item) === "synopse" &&
+    document.body.classList.contains("messe-page");
   const out = [];
   for (const p of item.passages || []) {
     const spans = (p.spans || []).filter((sp) => {
-      if (kindKey(item) !== "synopse" || !cur) return true;
+      if (includeSelf || kindKey(item) !== "synopse" || !cur) return true;
       return !(
         p.book === bookId &&
         sp.chapter === cur.span.chapter &&
