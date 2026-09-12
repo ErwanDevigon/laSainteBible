@@ -986,7 +986,7 @@ body.lecteur-page[data-book] .edition-pane.is-current {
 }
 
 .parallel-cards {
-  display: none;
+  display: flex;
   position: absolute;
   left: calc(100% + var(--edition-gap));
   top: 0;
@@ -998,15 +998,25 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   width: max-content;
   pointer-events: none;
   opacity: 0;
+  visibility: hidden;
   overflow: visible;
-  transition: opacity var(--parallel-dur) var(--parallel-ease);
+  transition:
+    opacity var(--parallel-dur) var(--parallel-ease),
+    visibility 0s linear var(--parallel-dur);
 }
 
 .chapter-pair > .parallel-cards.is-open,
 .reading-row > .parallel-cards.is-open {
-  display: flex;
   pointer-events: auto;
   opacity: 1;
+  visibility: visible;
+  transition:
+    opacity var(--parallel-dur) var(--parallel-ease),
+    visibility 0s linear 0s;
+}
+
+.parallel-cards.is-leaving {
+  pointer-events: none;
 }
 
 .reading-row {

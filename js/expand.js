@@ -126,6 +126,8 @@ export class MaskDilatation {
     this._fracPin = 0;
     this._pinRaf = 0;
     this._scrollRaf = 0;
+    this._collapsing = null;
+    this._collapseDone = null;
     this.lockPage = !!this.ref.lockPage;
     this.pinEl = this.host;
     this._headroom = 0;
@@ -193,7 +195,7 @@ export class MaskDilatation {
    */
   async remount(edition) {
     const was = this.expanded;
-    if (was) this.collapse();
+    if (was) this.collapse({ instant: true, restoreScroll: false });
     this.ref.edition = edition;
     this.expanded = false;
     try {
@@ -379,6 +381,13 @@ export class MaskDilatation {
     }
   }
 
+  _resolveCollapse() {
+    const done = this._collapseDone;
+    this._collapseDone = null;
+    this._collapsing = null;
+    done?.();
+  }
+
   /**
    * Ease window.scrollY from `fromY` to `toY` with --mask-ease.
    * @param {number} fromY
@@ -507,26 +516,35 @@ export class MaskDilatation {
 
   /**
    * @param {{ restoreScroll?: boolean, instant?: boolean }} [opts]
+   * @returns {Promise<void>}
    */
   collapse(opts = {}) {
-    if (!this.root || !this.expanded) return;
     const restoreScroll = opts.restoreScroll !== false;
     const instant = !!opts.instant || this._reduced();
 
-    this._stopPin();
-    this._stopGlide();
-    const dur = instant ? 0 : this._durationMs();
-    const toY = this.savedScrollY;
-    const excerptTop = this.excerpt.getBoundingClientRect().top;
-
-    if (instant) {
+    if (instant && (this.expanded || this._collapsing)) {
+      this._stopPin();
+      this._stopGlide();
       for (const z of this.zones) this._setHeight(z.el, 0, true);
       this._clearFracPin();
       this._releaseHeadroom();
       this._markExpanded(false);
-      if (restoreScroll) window.scrollTo(0, toY);
-      return;
+      if (restoreScroll) window.scrollTo(0, this.savedScrollY);
+      this._resolveCollapse();
+      return Promise.resolve();
     }
+    if (this._collapsing) return this._collapsing;
+    if (!this.root || !this.expanded) return Promise.resolve();
+
+    this._stopPin();
+    this._stopGlide();
+    const dur = this._durationMs();
+    const toY = this.savedScrollY;
+    const excerptTop = this.excerpt.getBoundingClientRect().top;
+
+    this._collapsing = new Promise((resolve) => {
+      this._collapseDone = resolve;
+    });
 
     // Keep transform on lockPage. Instant snap-to-room jumped the cadre
     // title into view before the fold — pin while height goes current → 0.
@@ -554,6 +572,7 @@ export class MaskDilatation {
     const tick = (now) => {
       if (document.body.classList.contains("is-swiping")) {
         this._pinRaf = 0;
+        this._resolveCollapse();
         return;
       }
       const t = Math.min(1, dur <= 0 ? 1 : (now - t0) / dur);
@@ -574,8 +593,10 @@ export class MaskDilatation {
         this._clearFracPin();
         this._releaseHeadroom();
         this._pinRaf = 0;
+        this._resolveCollapse();
       }
     };
     this._pinRaf = requestAnimationFrame(tick);
+    return this._collapsing;
   }
 }

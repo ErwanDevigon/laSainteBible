@@ -389,6 +389,7 @@ function assignLanes(hits) {
 }
 
 function clearRails(container, { preserveOpen = false } = {}) {
+  if (!preserveOpen) openSeq += 1;
   container.querySelectorAll(".parallel-rail").forEach((el) => el.remove());
   container.querySelectorAll(".parallel-layer").forEach((el) => el.remove());
   container.querySelectorAll(".parallel-cards").forEach((el) => {
@@ -397,16 +398,11 @@ function clearRails(container, { preserveOpen = false } = {}) {
       return;
     }
     el.querySelectorAll(".parallel-card").forEach((card) => {
-      if (card._dil?.expanded) {
+      if (card._dil?.expanded || card._dil?._collapsing) {
         card._dil.collapse({ restoreScroll: false, instant: true });
       }
     });
-    el.replaceChildren();
-    el.classList.remove("is-open");
-    el.style.marginTop = "";
-    el.style.top = "";
-    delete el.dataset.kind;
-    delete el.dataset.itemId;
+    emptyCards(el);
   });
 }
 
@@ -473,23 +469,98 @@ function alignCards(cards, originEl, col, span) {
   cards._span = span;
 }
 
-function closeOpenCards(container) {
-  container.querySelectorAll(".parallel-cards.is-open").forEach((el) => {
-    el.querySelectorAll(".parallel-card").forEach((card) => {
-      if (card._dil?.expanded) {
-        card._dil.collapse({ restoreScroll: false, instant: true });
-      }
+function cssMs(prop, fallback) {
+  const raw = getComputedStyle(document.documentElement)
+    .getPropertyValue(prop)
+    .trim();
+  const n = parseFloat(raw);
+  if (!Number.isFinite(n)) return fallback;
+  if (raw.endsWith("ms")) return n;
+  if (raw.endsWith("s")) return n * 1000;
+  return n;
+}
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, Math.max(0, ms)));
+}
+
+function reducedMotion() {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+function foldPromise(dil, instant) {
+  if (!dil) return Promise.resolve();
+  if (dil._collapsing) return dil._collapsing;
+  if (dil.expanded) {
+    return Promise.resolve(dil.collapse({ restoreScroll: false, instant }));
+  }
+  return Promise.resolve();
+}
+
+function emptyCards(el) {
+  el.replaceChildren();
+  el.classList.remove("is-open", "is-leaving");
+  el.style.marginTop = "";
+  el.style.top = "";
+  el.setAttribute("aria-hidden", "true");
+  delete el.dataset.kind;
+  delete el.dataset.itemId;
+}
+
+let hideGate = null;
+let openSeq = 0;
+
+/**
+ * Fold dilated cards in place (no scroll restore), then fade the box out.
+ * Later clicks share the in-flight hide instead of popping a second close.
+ */
+async function hideOpenCards(container, { instant = false } = {}) {
+  if (hideGate) {
+    await hideGate;
+    return;
+  }
+  const run = (async () => {
+    const boxes = [...container.querySelectorAll(".parallel-cards.is-open")];
+    container.querySelectorAll(".parallel-rail.is-open").forEach((el) => {
+      el.classList.remove("is-open");
     });
-    el.replaceChildren();
-    el.classList.remove("is-open");
-    el.style.marginTop = "";
-    el.style.top = "";
-    delete el.dataset.kind;
-    delete el.dataset.itemId;
-  });
-  container.querySelectorAll(".parallel-rail.is-open").forEach((el) => {
-    el.classList.remove("is-open");
-  });
+    if (!boxes.length) return;
+
+    const snap = instant || reducedMotion();
+    const folds = [];
+    for (const el of boxes) {
+      el.classList.add("is-leaving");
+      for (const card of el.querySelectorAll(".parallel-card")) {
+        folds.push(foldPromise(card._dil, snap));
+      }
+    }
+    if (folds.length) await Promise.all(folds);
+
+    for (const el of boxes) el.classList.remove("is-open");
+    if (!snap) await sleep(cssMs("--parallel-dur", 280) + 16);
+
+    for (const el of boxes) emptyCards(el);
+  })();
+  hideGate = run;
+  try {
+    await run;
+  } finally {
+    if (hideGate === run) hideGate = null;
+  }
+}
+
+function revealCards(cards) {
+  cards.classList.remove("is-leaving");
+  cards.setAttribute("aria-hidden", "false");
+  void cards.offsetWidth;
+  cards.classList.add("is-open");
+}
+
+function whenCardsReady(cards) {
+  const waits = [...cards.querySelectorAll(".parallel-card")].map(
+    (c) => c._dil?.whenReady?.() || Promise.resolve()
+  );
+  return Promise.allSettled(waits);
 }
 
 function ensureCards(pair) {
@@ -503,15 +574,19 @@ function ensureCards(pair) {
   }
   el = document.createElement("div");
   el.className = "parallel-cards";
+  el.setAttribute("aria-hidden", "true");
   pair.appendChild(el);
   return el;
 }
 
-function openFromRail(rail, ctx) {
+async function openFromRail(rail, ctx) {
+  const seq = ++openSeq;
   const pair = rail.closest(".chapter-pair");
   if (!pair) return;
-  const container = pair.closest("[data-book-body]") || pair.closest(".book-body");
-  closeOpenCards(container || document);
+  const container =
+    pair.closest("[data-book-body]") || pair.closest(".book-body");
+  await hideOpenCards(container || document);
+  if (seq !== openSeq) return;
   const item = rail._item;
   const span = rail._span;
   const cards = ensureCards(pair);
@@ -524,7 +599,9 @@ function openFromRail(rail, ctx) {
     ctx.edition
   );
   alignCards(cards, pair, ctx.primaryCol, span);
-  cards.classList.add("is-open");
+  await whenCardsReady(cards);
+  if (seq !== openSeq) return;
+  revealCards(cards);
   rail.classList.add("is-open");
 }
 
@@ -810,17 +887,22 @@ export async function attachExcerptParallels({
       "aria-label",
       stampText(h.item, bookId, chapter, verseStart || h.min)
     );
-    rail._open = () => {
-      closeOpenCards(band.parentElement || document);
+    rail._open = async () => {
+      const seq = ++openSeq;
+      await hideOpenCards(band.parentElement || document);
+      if (seq !== openSeq) return;
       let cards = band.querySelector(":scope > .parallel-cards");
       if (!cards) {
         cards = document.createElement("div");
         cards.className = "parallel-cards";
+        cards.setAttribute("aria-hidden", "true");
         band.appendChild(cards);
       }
       fillCards(cards, h.item, bookId, chapter, verseStart || 1, edition);
       alignCards(cards, band, null, h.span);
-      cards.classList.add("is-open");
+      await whenCardsReady(cards);
+      if (seq !== openSeq) return;
+      revealCards(cards);
       rail.classList.add("is-open");
     };
     band.appendChild(rail);

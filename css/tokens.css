@@ -51,8 +51,8 @@
   --mask-ease: cubic-bezier(0.62, 0.02, 0.38, 1);
 
   /* Synopse brace / stamp / cards */
-  --parallel-dur: 380ms;
-  --parallel-ease: cubic-bezier(0.4, 0, 1, 1);
+  --parallel-dur: 280ms;
+  --parallel-ease: var(--ease);
   --rail-synopse: #c4b59a;
   --rail-vetero: #6e9aa8;
   --rail-accomplissement: #6e9aa8;
