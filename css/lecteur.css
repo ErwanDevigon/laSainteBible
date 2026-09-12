@@ -596,6 +596,10 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   .chapter-rail a {
     transition: none;
   }
+
+  .parallel-card {
+    transition: none;
+  }
 }
 
 .book-header {
@@ -1023,8 +1027,7 @@ body.lecteur-page[data-book] .edition-pane.is-current {
     visibility 0s linear var(--parallel-dur);
 }
 
-.chapter-pair > .parallel-cards.is-open,
-.reading-row > .parallel-cards.is-open {
+.parallel-cards.is-open {
   pointer-events: auto;
   opacity: 1;
   visibility: visible;
@@ -1056,6 +1059,7 @@ body.lecteur-page[data-book] .edition-pane.is-current {
 }
 
 .parallel-card {
+  position: relative;
   box-sizing: border-box;
   flex: 0 0 var(--edition-col);
   width: var(--edition-col);
@@ -1065,6 +1069,12 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   background: var(--bg-elevated);
   padding: var(--space-5);
   overflow: visible;
+  z-index: 4;
+  transition: margin-right var(--parallel-dur) var(--parallel-ease);
+}
+
+.parallel-card.has-nested {
+  z-index: 5;
 }
 
 .parallel-card-head {

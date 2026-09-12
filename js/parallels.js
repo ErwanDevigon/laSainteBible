@@ -1,4 +1,4 @@
-/** Synopse NT + AT citations: rails on the main column only. */
+/** Synopse NT + AT citations. One ParallelHost per verse surface (column, messe row, card). */
 
 import { resolveUrls, loadVersionIndex } from "./data-loader.js";
 import { MaskDilatation } from "./expand.js";
@@ -9,9 +9,13 @@ const NT_URL = "data/parallels-nt.json";
 const AT_URL = "data/citations-at.json";
 const RAIL_INSET = 8;
 const RAIL_LANE = 14;
+const MAX_DEPTH = 8;
 
 let packed = null;
 let indexCache = null;
+let hideGate = null;
+let treeGen = 0;
+const ctx = { bookId: "", edition: "", primaryCol: "" };
 
 async function loadJson(file) {
   for (const url of resolveUrls(file)) {
@@ -131,7 +135,7 @@ export async function prepareParallels(edition) {
 }
 
 function spanVerses(span) {
-  const ranges = span.ranges;
+  const ranges = span?.ranges;
   if (!ranges || !ranges.length) return { all: true, min: 1, max: Infinity };
   let min = Infinity;
   let max = 0;
@@ -172,6 +176,29 @@ function spanOverlapsRanges(span, chapter, ranges, verseStart) {
   return spanHasVerse(span, chapter, verseStart);
 }
 
+function occKey(bookId, chapter, ranges) {
+  return { bookId, chapter, ranges: ranges || null };
+}
+
+function spansOverlap(a, b) {
+  if (!a?.bookId || !b?.bookId || a.bookId !== b.bookId) return false;
+  if (a.chapter !== b.chapter) return false;
+  if (!a.ranges || !b.ranges) return true;
+  const va = spanVerses({ chapter: a.chapter, ranges: a.ranges });
+  const vb = spanVerses({ chapter: b.chapter, ranges: b.ranges });
+  if (va.all || vb.all) return true;
+  if (va.set && vb.set && va.set.size && vb.set.size) {
+    for (const n of va.set) if (vb.set.has(n)) return true;
+    return false;
+  }
+  return va.min <= vb.max && vb.min <= va.max;
+}
+
+function passageOccupied(bookId, span, occupied) {
+  const key = occKey(bookId, span.chapter, span.ranges);
+  return occupied.some((o) => spansOverlap(key, o));
+}
+
 /** synopse | vetero | accomplissement */
 export function kindKey(item) {
   if (item?.kind === "synopse") return "synopse";
@@ -194,22 +221,20 @@ function itemSpansOnBook(item, bookId) {
   );
 }
 
-function othersOf(item, bookId, chapter, verse) {
+function othersOf(item, bookId, chapter, verse, occupied = [], includeSelf = false) {
   const cur = currentSpan(item, bookId, chapter, verse);
-  // Messe excerpt often spans several pericopes (Lc 6,43-49 vs rail 46-49).
-  // Show the whole synopse set — stamp and cards stay in sync.
-  const includeSelf =
-    kindKey(item) === "synopse" &&
-    document.body.classList.contains("messe-page");
   const out = [];
   for (const p of item.passages || []) {
     const spans = (p.spans || []).filter((sp) => {
-      if (includeSelf || kindKey(item) !== "synopse" || !cur) return true;
-      return !(
+      const isSelf =
+        !!cur &&
         p.book === bookId &&
         sp.chapter === cur.span.chapter &&
-        JSON.stringify(sp.ranges) === JSON.stringify(cur.span.ranges)
-      );
+        JSON.stringify(sp.ranges) === JSON.stringify(cur.span.ranges);
+      if (kindKey(item) === "synopse" && !includeSelf && isSelf) return false;
+      if (includeSelf && isSelf) return true;
+      if (passageOccupied(p.book, sp, occupied)) return false;
+      return true;
     });
     if (!spans.length) continue;
     out.push({
@@ -252,8 +277,8 @@ function stampSuffix(kind) {
   return "(suggestion de lecture vétérotestamentaire)";
 }
 
-function stampText(item, bookId, chapter, verse) {
-  const others = othersOf(item, bookId, chapter, verse);
+function stampText(item, bookId, chapter, verse, occupied = [], includeSelf = false) {
+  const others = othersOf(item, bookId, chapter, verse, occupied, includeSelf);
   const refs = formatPassages(others);
   const tag = stampSuffix(kindKey(item));
   return refs ? `${refs} ${tag}` : tag;
@@ -277,18 +302,27 @@ function verseEls(pair, col) {
   return [...pair.querySelectorAll(`.verse[data-col="${col}"]`)];
 }
 
+function verseShown(el) {
+  const zone = el.closest(".mask-zone");
+  if (!zone) return true;
+  const zr = zone.getBoundingClientRect();
+  if (zr.height < 8) return false;
+  const er = el.getBoundingClientRect();
+  return er.bottom > zr.top + 2 && er.top < zr.bottom - 2;
+}
+
 function rangeEls(root, span, col) {
-  const all = col
+  const raw = col
     ? verseEls(root, col)
     : [...root.querySelectorAll(".verse[data-verse]")];
-  const v = spanVerses(span);
-  const visible = all.filter((el) => {
-    const zone = el.closest(".mask-zone");
-    if (zone && getComputedStyle(zone).maxHeight === "0px") return false;
+  const all = raw.filter((el) => {
+    const nested = el.closest(".parallel-card");
+    if (nested && nested !== root && root.contains(nested)) return false;
     return true;
   });
-  const pool = visible.length ? visible : all;
-  return pool.filter((el) => {
+  const v = spanVerses(span);
+  return all.filter((el) => {
+    if (!verseShown(el)) return false;
     const n = +el.dataset.verse;
     if (v.all) return true;
     if (v.set && v.set.size) return v.set.has(n) || (v.max >= 9000 && n >= v.min);
@@ -393,28 +427,13 @@ function assignLanes(hits) {
   return sorted;
 }
 
-function clearRails(container, { preserveOpen = false } = {}) {
-  if (!preserveOpen) openSeq += 1;
-  container.querySelectorAll(".parallel-rail").forEach((el) => el.remove());
-  container.querySelectorAll(".parallel-layer").forEach((el) => el.remove());
-  container.querySelectorAll(".parallel-cards").forEach((el) => {
-    const kind = el.dataset.kind;
-    if (preserveOpen && el.classList.contains("is-open") && kind && parallelKindEnabled(kind)) {
-      return;
-    }
-    el.querySelectorAll(".parallel-card").forEach((card) => {
-      if (card._dil?.expanded || card._dil?._collapsing) {
-        card._dil.collapse({ restoreScroll: false, instant: true });
-      }
-    });
-    emptyCards(el);
-  });
-}
-
 function cardHost(edition, bookId, span, kind) {
   const art = document.createElement("article");
   art.className = "parallel-card";
   art.dataset.kind = kind;
+  art.dataset.bookId = bookId;
+  art.dataset.chapter = String(span.chapter);
+  art._span = span;
   const head = document.createElement("a");
   head.className = "parallel-card-head";
   head.href = bookHref(bookId, lireBase(), {
@@ -445,12 +464,19 @@ function cardHost(edition, bookId, span, kind) {
   return art;
 }
 
-function fillCards(box, item, bookId, chapter, verse, edition) {
+function fillCards(box, item, bookId, chapter, verse, edition, occupied, includeSelf) {
   box.replaceChildren();
   const kind = kindKey(item);
   box.dataset.kind = kind;
   box.dataset.itemId = item.id || "";
-  const others = othersOf(item, bookId, chapter, verse);
+  const others = othersOf(
+    item,
+    bookId,
+    chapter,
+    verse,
+    occupied,
+    includeSelf
+  );
   for (const p of others) {
     for (const sp of p.spans) {
       box.appendChild(cardHost(edition, p.book, sp, kind));
@@ -510,15 +536,31 @@ function emptyCards(el) {
   el.setAttribute("aria-hidden", "true");
   delete el.dataset.kind;
   delete el.dataset.itemId;
+  delete el._span;
 }
 
-let hideGate = null;
-let openSeq = 0;
+function verseMin(span) {
+  const v = spanVerses(span);
+  return v.min === Infinity ? 1 : v.min;
+}
 
-/**
- * Fold dilated cards in place (no scroll restore), then fade the box out.
- * Later clicks share the in-flight hide instead of popping a second close.
- */
+async function foldBoxes(boxes, { instant = false, rails = [] } = {}) {
+  rails.forEach((el) => el.classList.remove("is-open"));
+  if (!boxes.length) return;
+  const snap = instant || reducedMotion();
+  const folds = [];
+  for (const el of boxes) {
+    el.classList.add("is-leaving");
+    for (const card of el.querySelectorAll(".parallel-card")) {
+      folds.push(foldPromise(card._dil, snap));
+    }
+  }
+  if (folds.length) await Promise.all(folds);
+  for (const el of boxes) el.classList.remove("is-open");
+  if (!snap) await sleep(cssMs("--parallel-dur", 280) + 16);
+  for (const el of boxes) emptyCards(el);
+}
+
 async function hideOpenCards(container, { instant = false } = {}) {
   if (hideGate) {
     await hideGate;
@@ -526,25 +568,12 @@ async function hideOpenCards(container, { instant = false } = {}) {
   }
   const run = (async () => {
     const boxes = [...container.querySelectorAll(".parallel-cards.is-open")];
-    container.querySelectorAll(".parallel-rail.is-open").forEach((el) => {
-      el.classList.remove("is-open");
+    const rails = [...container.querySelectorAll(".parallel-rail.is-open")];
+    await foldBoxes(boxes, { instant, rails });
+    container.querySelectorAll(".has-nested").forEach((el) => {
+      el.classList.remove("has-nested");
+      el.style.marginRight = "";
     });
-    if (!boxes.length) return;
-
-    const snap = instant || reducedMotion();
-    const folds = [];
-    for (const el of boxes) {
-      el.classList.add("is-leaving");
-      for (const card of el.querySelectorAll(".parallel-card")) {
-        folds.push(foldPromise(card._dil, snap));
-      }
-    }
-    if (folds.length) await Promise.all(folds);
-
-    for (const el of boxes) el.classList.remove("is-open");
-    if (!snap) await sleep(cssMs("--parallel-dur", 280) + 16);
-
-    for (const el of boxes) emptyCards(el);
   })();
   hideGate = run;
   try {
@@ -562,52 +591,10 @@ function revealCards(cards) {
 }
 
 function whenCardsReady(cards) {
-  const waits = [...cards.querySelectorAll(".parallel-card")].map(
+  const waits = [...cards.querySelectorAll(":scope > .parallel-card")].map(
     (c) => c._dil?.whenReady?.() || Promise.resolve()
   );
   return Promise.allSettled(waits);
-}
-
-function ensureCards(pair) {
-  let el = pair.querySelector(":scope > .parallel-cards");
-  if (el) return el;
-  const band = pair.closest(".chapter-band");
-  el = band?.querySelector(":scope > .parallel-cards");
-  if (el) {
-    pair.appendChild(el);
-    return el;
-  }
-  el = document.createElement("div");
-  el.className = "parallel-cards";
-  el.setAttribute("aria-hidden", "true");
-  pair.appendChild(el);
-  return el;
-}
-
-async function openFromRail(rail, ctx) {
-  const seq = ++openSeq;
-  const pair = rail.closest(".chapter-pair");
-  if (!pair) return;
-  const container =
-    pair.closest("[data-book-body]") || pair.closest(".book-body");
-  await hideOpenCards(container || document);
-  if (seq !== openSeq) return;
-  const item = rail._item;
-  const span = rail._span;
-  const cards = ensureCards(pair);
-  fillCards(
-    cards,
-    item,
-    ctx.bookId,
-    span.chapter,
-    spanVerses(span).min === Infinity ? 1 : spanVerses(span).min,
-    ctx.edition
-  );
-  alignCards(cards, pair, ctx.primaryCol, span);
-  await whenCardsReady(cards);
-  if (seq !== openSeq) return;
-  revealCards(cards);
-  rail.classList.add("is-open");
 }
 
 function makeRail(item, span, { top, height, left, right, lane }) {
@@ -630,23 +617,74 @@ function makeRail(item, span, { top, height, left, right, lane }) {
   return rail;
 }
 
-function paintRails(container, ctx) {
-  clearRails(container, { preserveOpen: true });
-  const col = ctx.primaryCol;
-  if (!col) return;
-  const open = new Map();
-  container.querySelectorAll(".parallel-cards.is-open").forEach((el) => {
-    const pair =
-      el.closest(".chapter-pair") ||
-      el.closest(".chapter-band")?.querySelector(".chapter-pair");
-    if (pair) open.set(pair, el.dataset.itemId || "");
-  });
-  const pairs = container.querySelectorAll(".chapter-pair");
-  for (const pair of pairs) {
-    const chapter = +pair.dataset.chapter;
-    const hitsRaw = itemsForBookChapter(ctx.bookId, chapter);
-    const hits = mergeAccomplissementHits(
-      hitsRaw.map((h) => {
+class ParallelHost {
+  constructor(opts) {
+    this.openSeq = 0;
+    this.hideGate = null;
+    this.assign(opts);
+  }
+
+  assign(opts) {
+    this.root = opts.root;
+    this.verseRoot = opts.verseRoot || opts.root;
+    this.bookId = opts.bookId;
+    this.chapter = +opts.chapter;
+    this.ranges = opts.ranges || null;
+    this.verseStart = opts.verseStart;
+    this.edition = opts.edition;
+    this.col = opts.col || null;
+    this.depth = opts.depth || 0;
+    this.parent = opts.parent || null;
+    this.closeRoot = opts.closeRoot || null;
+  }
+
+  treeRoot() {
+    let p = this;
+    while (p.parent) p = p.parent;
+    return p;
+  }
+
+  includeSelfFor(item) {
+    return (
+      this.depth === 0 &&
+      kindKey(item) === "synopse" &&
+      document.body.classList.contains("messe-page")
+    );
+  }
+
+  occupied() {
+    const out = [];
+    const add = (bookId, chapter, ranges) => {
+      if (!bookId || chapter == null || Number.isNaN(chapter)) return;
+      out.push(occKey(bookId, chapter, ranges));
+    };
+    add(this.bookId, this.chapter, this.ranges);
+    let p = this.parent;
+    while (p) {
+      add(p.bookId, p.chapter, p.ranges);
+      p = p.parent;
+    }
+    const tree = this.treeRoot().root;
+    tree.querySelectorAll(".parallel-card").forEach((card) => {
+      if (card === this.root) return;
+      const sp = card._span;
+      if (!sp) return;
+      add(card.dataset.bookId, sp.chapter, sp.ranges);
+    });
+    return out;
+  }
+
+  hits() {
+    let raw = itemsForBookChapter(this.bookId, this.chapter);
+    // Nested cards: whole chapter, then verseShown clips to the excerpt
+    // until dilatation uncovers more. Depth-0 messe stays on the reading.
+    if (this.depth === 0 && (this.ranges?.length || this.verseStart != null)) {
+      raw = raw.filter((h) =>
+        spanOverlapsRanges(h.span, this.chapter, this.ranges, this.verseStart)
+      );
+    }
+    return mergeAccomplissementHits(
+      raw.map((h) => {
         const v = spanVerses(h.span);
         return {
           ...h,
@@ -655,34 +693,330 @@ function paintRails(container, ctx) {
         };
       })
     );
-    assignLanes(hits);
-    const sample = pair.querySelector(`.verse[data-col="${col}"]`);
-    if (!sample) continue;
-    const pr = pair.getBoundingClientRect();
-    const colRight = sample.getBoundingClientRect().right - pr.left;
-    const openId = open.get(pair);
-    for (const h of hits) {
-      const els = rangeEls(pair, h.span, col);
-      if (!els.length) continue;
+  }
+
+  anchorRight() {
+    if (this.col) {
+      const sample = this.verseRoot.querySelector(
+        `.verse[data-col="${this.col}"]`
+      );
+      if (sample) return sample.getBoundingClientRect().right;
+    }
+    return this.verseRoot.getBoundingClientRect().right;
+  }
+
+  railGeom(h) {
+    const rr = this.root.getBoundingClientRect();
+    const els = rangeEls(this.verseRoot, h.span, this.col || null);
+    let top;
+    let height;
+    if (els.length) {
       const first = els[0];
       const last = els[els.length - 1];
-      const top = first.getBoundingClientRect().top - pr.top;
-      const height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
-      const rail = makeRail(h.item, h.span, {
-        top,
-        height,
-        left: colRight + RAIL_INSET + h.lane * RAIL_LANE,
-        lane: h.lane,
+      top = first.getBoundingClientRect().top - rr.top;
+      height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
+    } else if (this.depth === 0 && !this.col) {
+      const body =
+        this.verseRoot.querySelector(".reading-mask-host, .reading-excerpt") ||
+        this.verseRoot;
+      const br = body.getBoundingClientRect();
+      top = br.top - rr.top;
+      height = br.height;
+    } else {
+      return null;
+    }
+    const left =
+      this.anchorRight() - rr.left + RAIL_INSET + (h.lane || 0) * RAIL_LANE;
+    return { top, height, left, lane: h.lane || 0 };
+  }
+
+  ensureCards() {
+    let el = this.root.querySelector(":scope > .parallel-cards");
+    if (el) return el;
+    if (this.depth === 0 && this.root.classList.contains("chapter-pair")) {
+      const band = this.root.closest(".chapter-band");
+      el = band?.querySelector(":scope > .parallel-cards");
+      if (el) {
+        this.root.appendChild(el);
+        return el;
+      }
+    }
+    el = document.createElement("div");
+    el.className = "parallel-cards";
+    el.setAttribute("aria-hidden", "true");
+    this.root.appendChild(el);
+    return el;
+  }
+
+  clearOwnRails() {
+    this.root.querySelectorAll(":scope > .parallel-rail").forEach((el) => el.remove());
+    if (this.verseRoot && this.verseRoot !== this.root) {
+      this.verseRoot.querySelectorAll(".parallel-rail").forEach((el) => {
+        if (el.closest(".parallel-card")) return;
+        el.remove();
       });
-      rail.setAttribute(
-        "aria-label",
-        stampText(h.item, ctx.bookId, chapter, h.min)
-      );
-      rail._open = () => openFromRail(rail, ctx);
-      if (openId && openId === (h.item.id || "")) rail.classList.add("is-open");
-      pair.appendChild(rail);
     }
   }
+
+  paint({ preserveOpen = false } = {}) {
+    if (this.depth > MAX_DEPTH) return;
+    const openEl = this.root.querySelector(":scope > .parallel-cards.is-open");
+    const openId = preserveOpen ? openEl?.dataset.itemId || "" : "";
+    this.clearOwnRails();
+    if (openEl?.dataset.kind && !parallelKindEnabled(openEl.dataset.kind)) {
+      openEl.querySelectorAll(".parallel-card").forEach((card) => {
+        if (card._dil?.expanded || card._dil?._collapsing) {
+          card._dil.collapse({ restoreScroll: false, instant: true });
+        }
+      });
+      emptyCards(openEl);
+      this.root.classList.remove("has-nested");
+      this.root.style.marginRight = "";
+    }
+    if (this.depth === 0 && !this.col) {
+      this.root.style.position = "relative";
+    }
+    this.syncRails();
+    if (openId) {
+      this.root.querySelectorAll(":scope > .parallel-rail").forEach((rail) => {
+        if (rail.dataset.itemId === openId) rail.classList.add("is-open");
+      });
+    }
+    if (preserveOpen) {
+      this.root
+        .querySelectorAll(":scope > .parallel-cards > .parallel-card")
+        .forEach((card) => card._cite?.paint({ preserveOpen: true }));
+    }
+    this.syncPush();
+  }
+
+  async hideOwn({ instant = false } = {}) {
+    if (this.hideGate) {
+      await this.hideGate;
+      return;
+    }
+    const run = (async () => {
+      const box = this.root.querySelector(":scope > .parallel-cards.is-open");
+      const rails = [
+        ...this.root.querySelectorAll(":scope > .parallel-rail.is-open"),
+      ];
+      await foldBoxes(box ? [box] : [], { instant, rails });
+      this.root.classList.remove("has-nested");
+      this.root.style.marginRight = "";
+      this.syncPushUp();
+    })();
+    this.hideGate = run;
+    try {
+      await run;
+    } finally {
+      if (this.hideGate === run) this.hideGate = null;
+    }
+  }
+
+  mountChild(art) {
+    const span = art._span;
+    if (!span) return;
+    const host = new ParallelHost({
+      root: art,
+      verseRoot: art,
+      bookId: art.dataset.bookId,
+      chapter: span.chapter,
+      ranges: span.ranges || null,
+      edition: this.edition,
+      col: null,
+      depth: this.depth + 1,
+      parent: this,
+      closeRoot: this.closeRoot,
+    });
+    art._cite = host;
+    host.paint();
+    if (!art._citeRO) {
+      art._citeRO = new ResizeObserver(() => {
+        host.sync();
+        this.syncPushUp();
+      });
+      art._citeRO.observe(art);
+      const mask = art.querySelector(".chapter-mask");
+      if (mask) art._citeRO.observe(mask);
+    }
+  }
+
+  async open(rail) {
+    if (this.depth > MAX_DEPTH) return;
+    const seq = ++this.openSeq;
+    const gen = treeGen;
+    if (this.depth === 0) {
+      treeGen += 1;
+      const myGen = treeGen;
+      await hideOpenCards(this.closeRoot || document);
+      if (myGen !== treeGen) return;
+    } else {
+      if (hideGate) await hideGate;
+      if (gen !== treeGen) return;
+      await this.hideOwn();
+    }
+    if (seq !== this.openSeq) return;
+    const item = rail._item;
+    const span = rail._span;
+    const cards = this.ensureCards();
+    const includeSelf = this.includeSelfFor(item);
+    fillCards(
+      cards,
+      item,
+      this.bookId,
+      span.chapter,
+      verseMin(span),
+      this.edition,
+      this.occupied(),
+      includeSelf
+    );
+    if (!cards.children.length) {
+      emptyCards(cards);
+      this.root.classList.remove("has-nested");
+      this.syncPushUp();
+      return;
+    }
+    alignCards(cards, this.root, this.col, span);
+    await whenCardsReady(cards);
+    if (seq !== this.openSeq) return;
+    if (this.depth > 0 && gen !== treeGen) return;
+    for (const art of cards.querySelectorAll(":scope > .parallel-card")) {
+      this.mountChild(art);
+    }
+    revealCards(cards);
+    rail.classList.add("is-open");
+    if (this.depth > 0) this.root.classList.add("has-nested");
+    this.syncPushUp();
+  }
+
+  hitKey(item, span) {
+    return `${item?.id || ""}\t${span?.chapter ?? ""}\t${JSON.stringify(span?.ranges ?? null)}`;
+  }
+
+  placeRail(h, occupied) {
+    const includeSelf = this.includeSelfFor(h.item);
+    const others = othersOf(
+      h.item,
+      this.bookId,
+      this.chapter,
+      h.min,
+      occupied,
+      includeSelf
+    );
+    if (!others.length) return null;
+    const box = this.railGeom(h);
+    if (!box) return null;
+    const rail = makeRail(h.item, h.span, box);
+    rail.dataset.hitKey = this.hitKey(h.item, h.span);
+    rail.setAttribute(
+      "aria-label",
+      stampText(h.item, this.bookId, this.chapter, h.min, occupied, includeSelf)
+    );
+    rail._host = this;
+    rail._open = () => this.open(rail);
+    return rail;
+  }
+
+  syncRails() {
+    const occupied = this.occupied();
+    const hits = assignLanes(this.hits());
+    const existing = [...this.root.querySelectorAll(":scope > .parallel-rail")];
+    const byKey = new Map(
+      existing.map((r) => [r.dataset.hitKey || this.hitKey(r._item, r._span), r])
+    );
+    const used = new Set();
+    for (const h of hits) {
+      const key = this.hitKey(h.item, h.span);
+      const includeSelf = this.includeSelfFor(h.item);
+      const others = othersOf(
+        h.item,
+        this.bookId,
+        this.chapter,
+        h.min,
+        occupied,
+        includeSelf
+      );
+      const box = others.length ? this.railGeom(h) : null;
+      const rail = byKey.get(key);
+      if (!box) {
+        if (rail && !rail.classList.contains("is-open")) rail.remove();
+        continue;
+      }
+      if (rail) {
+        rail.style.top = `${box.top}px`;
+        rail.style.height = `${Math.max(16, box.height)}px`;
+        rail.style.left = `${box.left}px`;
+        rail._lane = h.lane || 0;
+        used.add(rail);
+      } else {
+        const made = this.placeRail(h, occupied);
+        if (made) {
+          this.root.appendChild(made);
+          used.add(made);
+        }
+      }
+    }
+    for (const rail of existing) {
+      if (used.has(rail)) continue;
+      if (rail.classList.contains("is-open")) {
+        const box = this.railGeom({
+          span: rail._span,
+          lane: rail._lane || 0,
+        });
+        if (!box && !this.hideGate) this.hideOwn({ instant: true });
+        continue;
+      }
+      rail.remove();
+    }
+    const cards = this.root.querySelector(":scope > .parallel-cards.is-open");
+    if (!cards) return;
+    const rail =
+      this.root.querySelector(":scope > .parallel-rail.is-open") ||
+      this.root.querySelector(":scope > .parallel-rail");
+    const span = cards._span || rail?._span;
+    if (span) alignCards(cards, this.root, this.col, span);
+  }
+
+  syncPush() {
+    if (this.depth === 0) return;
+    const box = this.root.querySelector(":scope > .parallel-cards");
+    const open = box?.classList.contains("is-open");
+    if (!open || !box) {
+      if (this.root.style.marginRight) this.root.style.marginRight = "";
+      this.root.classList.remove("has-nested");
+      return;
+    }
+    this.root.classList.add("has-nested");
+    const push = Math.max(
+      0,
+      box.getBoundingClientRect().right - this.root.getBoundingClientRect().right
+    );
+    const next = push ? `${Math.round(push)}px` : "";
+    if (this.root.style.marginRight !== next) this.root.style.marginRight = next;
+  }
+
+  syncPushUp() {
+    this.syncPush();
+    this.parent?.syncPushUp();
+  }
+
+  sync() {
+    this.syncRails();
+    this.root
+      .querySelectorAll(":scope > .parallel-cards > .parallel-card")
+      .forEach((card) => card._cite?.sync());
+    this.syncPush();
+  }
+}
+
+function bindHost(el, opts) {
+  if (el._cite) {
+    el._cite.assign(opts);
+    return el._cite;
+  }
+  const host = new ParallelHost(opts);
+  el._cite = host;
+  return host;
 }
 
 function ensureStamp() {
@@ -703,22 +1037,35 @@ function bindGlobal() {
     const rail = e.target.closest(".parallel-rail");
     if (!rail || !rail._item) return;
     const s = ensureStamp();
+    const host = rail._host;
     const pair = rail.closest(".chapter-pair");
-    const host =
+    const reading =
       rail.closest(".reading-card") ||
       rail.closest(".reading-row")?.querySelector(".reading-card");
-    const chapter = pair
-      ? +pair.dataset.chapter
-      : +(host?.dataset.chapter || rail._span?.chapter || 0);
+    const card = rail.closest(".parallel-card");
+    const chapter = host
+      ? host.chapter
+      : pair
+        ? +pair.dataset.chapter
+        : +(reading?.dataset.chapter || rail._span?.chapter || 0);
     const bookId =
+      host?.bookId ||
+      card?.dataset.bookId ||
       pair?.closest("[data-book]")?.dataset.book ||
-      host?.dataset.bookId ||
+      reading?.dataset.bookId ||
       ctx.bookId;
+    const occupied = host?.occupied?.() || [];
+    const includeSelf = host
+      ? host.includeSelfFor(rail._item)
+      : kindKey(rail._item) === "synopse" &&
+        document.body.classList.contains("messe-page");
     s.textContent = stampText(
       rail._item,
       bookId,
       chapter,
-      spanVerses(rail._span).min
+      spanVerses(rail._span).min,
+      occupied,
+      includeSelf
     );
     s.hidden = false;
     s.style.left = `${rail.getBoundingClientRect().right + 8}px`;
@@ -752,19 +1099,46 @@ function bindGlobal() {
     if (stamp) stamp.hidden = true;
     rail._open?.();
   });
-}
 
-const ctx = { bookId: "", edition: "", primaryCol: "" };
+  document.addEventListener("lsb:maskpin", (e) => {
+    const start = e.target.closest?.(".parallel-card, .reading-row, .chapter-pair");
+    if (!start) return;
+    const host =
+      start._cite ||
+      start.closest(".reading-row")?._cite ||
+      start.closest(".chapter-pair")?._cite;
+    if (!host) return;
+    host.sync();
+    host.parent?.syncPushUp();
+  });
+}
 
 export async function mountParallels({ bookId, container, editions }) {
   if (!container || !bookId) return;
   ctx.bookId = bookId;
-  const primary = (editions || []).find((ed) => ed.primary) || (editions || []).at(-1);
+  const primary =
+    (editions || []).find((ed) => ed.primary) || (editions || []).at(-1);
   ctx.primaryCol = primary?.col || "";
   ctx.edition = primary?.book?.version?.id || primary?.col || "";
   await prepareParallels(ctx.edition);
-  paintRails(container, ctx);
   bindGlobal();
+  const pairs = container.querySelectorAll(".chapter-pair");
+  for (const pair of pairs) {
+    const chapter = +pair.dataset.chapter;
+    const host = bindHost(pair, {
+      root: pair,
+      verseRoot: pair,
+      bookId,
+      chapter,
+      ranges: null,
+      edition: ctx.edition,
+      col: ctx.primaryCol,
+      depth: 0,
+      parent: null,
+      closeRoot: container,
+    });
+    host.paint({ preserveOpen: true });
+  }
 }
 
 export function formatFullRef(bookId, chapter, verseStart, verseEnd, ranges) {
@@ -775,64 +1149,6 @@ export function formatFullRef(bookId, chapter, verseStart, verseEnd, ranges) {
       : verseStart
         ? [{ start: verseStart, end: verseEnd || verseStart }]
         : null,
-  });
-}
-
-function railBox(row, card, span, lane) {
-  const rr = row.getBoundingClientRect();
-  const excerpt = card.querySelector(".mask-excerpt") || card;
-  let els = rangeEls(excerpt, span, null);
-  if (!els.length) els = rangeEls(card, span, null);
-  let top;
-  let height;
-  if (els.length) {
-    const first = els[0];
-    const last = els[els.length - 1];
-    top = first.getBoundingClientRect().top - rr.top;
-    height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
-  } else {
-    const body = card.querySelector(".reading-mask-host, .reading-excerpt") || card;
-    const br = body.getBoundingClientRect();
-    top = br.top - rr.top;
-    height = br.height;
-  }
-  const left =
-    card.getBoundingClientRect().right - rr.left + RAIL_INSET + lane * RAIL_LANE;
-  return { top, height, left, lane };
-}
-
-function placeRailOnRow(row, card, item, span, lane) {
-  const box = railBox(row, card, span, lane);
-  if (!box) return null;
-  return makeRail(item, span, box);
-}
-
-function syncRowRails(row) {
-  const card = row.querySelector(".reading-card");
-  if (!card) return;
-  row.querySelectorAll(":scope > .parallel-rail").forEach((rail) => {
-    if (!rail._span) return;
-    const box = railBox(row, card, rail._span, rail._lane || 0);
-    if (!box) return;
-    rail.style.top = `${box.top}px`;
-    rail.style.height = `${Math.max(16, box.height)}px`;
-    rail.style.left = `${box.left}px`;
-  });
-  const cards = row.querySelector(":scope > .parallel-cards.is-open");
-  if (!cards) return;
-  const rail =
-    row.querySelector(":scope > .parallel-rail.is-open") ||
-    row.querySelector(":scope > .parallel-rail");
-  const span = cards._span || rail?._span;
-  if (span) alignCards(cards, row, null, span);
-}
-
-function bindRowSync() {
-  if (document.documentElement.dataset.railRowSync) return;
-  document.documentElement.dataset.railRowSync = "1";
-  document.addEventListener("lsb:maskpin", (e) => {
-    const row = e.target.closest?.(".reading-row");
-    if (row) syncRowRails(row);
   });
 }
 
@@ -847,76 +1163,26 @@ export async function attachExcerptParallels({
 }) {
   if (!host || !bookId) return;
   await prepareParallels(edition);
-  host.querySelectorAll(".parallel-rail").forEach((el) => el.remove());
-  host
-    .querySelectorAll(".chapter-mask, .reading-mask-host")
-    .forEach((el) => {
-      el.querySelectorAll(".parallel-rail").forEach((r) => r.remove());
-    });
-  const band = row || host.parentElement;
-  band?.querySelectorAll(":scope > .parallel-rail").forEach((el) => el.remove());
-  if (band) {
-    const cards = band.querySelector(":scope > .parallel-cards");
-    if (cards && cards.dataset.kind && !parallelKindEnabled(cards.dataset.kind)) {
-      cards.querySelectorAll(".parallel-card").forEach((card) => {
-        if (card._dil?.expanded) {
-          card._dil.collapse({ restoreScroll: false, instant: true });
-        }
-      });
-      cards.replaceChildren();
-      cards.classList.remove("is-open");
-    }
-  }
-  host.dataset.bookId = bookId;
-  host.dataset.chapter = String(chapter);
-  const hitsRaw = itemsForBookChapter(bookId, chapter).filter((h) =>
-    spanOverlapsRanges(h.span, chapter, ranges, verseStart)
-  );
-  if (!hitsRaw.length || !band) return;
-  const hits = mergeAccomplissementHits(
-    hitsRaw.map((h) => {
-      const v = spanVerses(h.span);
-      return {
-        ...h,
-        min: v.all ? 1 : v.min,
-        max: v.all ? 999 : Math.min(v.max, 9000),
-      };
-    })
-  );
-  assignLanes(hits);
-  band.style.position = "relative";
-  hits.forEach((h) => {
-    const rail = placeRailOnRow(band, host, h.item, h.span, h.lane);
-    if (!rail) return;
-    rail.setAttribute(
-      "aria-label",
-      stampText(h.item, bookId, chapter, verseStart || h.min)
-    );
-    rail._open = async () => {
-      const seq = ++openSeq;
-      await hideOpenCards(band.parentElement || document);
-      if (seq !== openSeq) return;
-      let cards = band.querySelector(":scope > .parallel-cards");
-      if (!cards) {
-        cards = document.createElement("div");
-        cards.className = "parallel-cards";
-        cards.setAttribute("aria-hidden", "true");
-        band.appendChild(cards);
-      }
-      fillCards(cards, h.item, bookId, chapter, verseStart || 1, edition);
-      alignCards(cards, band, null, h.span);
-      await whenCardsReady(cards);
-      if (seq !== openSeq) return;
-      revealCards(cards);
-      rail.classList.add("is-open");
-    };
-    band.appendChild(rail);
-  });
   bindGlobal();
-  bindRowSync();
-  syncRowRails(band);
+  const band = row || host.parentElement;
+  if (!band) return;
+  const surface = bindHost(band, {
+    root: band,
+    verseRoot: host,
+    bookId,
+    chapter,
+    ranges: ranges || null,
+    verseStart,
+    edition,
+    col: null,
+    depth: 0,
+    parent: null,
+    closeRoot: band.parentElement || document,
+  });
+  surface.paint({ preserveOpen: true });
+  surface.sync();
   if (!band._railRO) {
-    band._railRO = new ResizeObserver(() => syncRowRails(band));
+    band._railRO = new ResizeObserver(() => surface.sync());
     band._railRO.observe(host);
     const mask = host.querySelector(".chapter-mask");
     if (mask) band._railRO.observe(mask);

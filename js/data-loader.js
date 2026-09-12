@@ -1,6 +1,11 @@
 /** In-memory book / version-index loader. */
 
-import { GOSPEL_IDS as CANON_GOSPELS, isGospel as canonIsGospel, VERSIONS } from "./books.js";
+import {
+  GOSPEL_IDS as CANON_GOSPELS,
+  isGospel as canonIsGospel,
+  VERSIONS,
+  versionIdsByYear,
+} from "./books.js";
 /** Runtime books: data/livres/{edition}/{id}.json only. */
 
 const cache = new Map();
@@ -87,6 +92,33 @@ export async function versionsForBook(bookId) {
     if (idx?.books?.some((b) => b.id === bookId)) out.push(id);
   }
   return out;
+}
+
+/**
+ * Load a book from `edition`, else the same language, else any edition that has it.
+ * Protestant active + deuterocanon (Sg, Tb, …) → Crampon when French.
+ */
+export async function tryLoadBookFallback(id, edition = DEFAULT_EDITION) {
+  const direct = await tryLoadBook(id, edition);
+  if (direct) return { book: direct, edition, fallback: false };
+  const ids = await versionsForBook(id);
+  if (!ids.length) return { book: null, edition, fallback: false };
+  const lang = VERSIONS[edition]?.lang;
+  const stack = versionIdsByYear(false);
+  ids.sort((a, b) => {
+    const la = VERSIONS[a]?.lang === lang ? 0 : 1;
+    const lb = VERSIONS[b]?.lang === lang ? 0 : 1;
+    if (la !== lb) return la - lb;
+    const ia = stack.indexOf(a);
+    const ib = stack.indexOf(b);
+    return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
+  });
+  for (const ed of ids) {
+    if (ed === edition) continue;
+    const book = await tryLoadBook(id, ed);
+    if (book) return { book, edition: ed, fallback: true };
+  }
+  return { book: null, edition, fallback: false };
 }
 
 export function getChapter(book, n) {

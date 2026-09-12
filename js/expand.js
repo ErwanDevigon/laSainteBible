@@ -1,6 +1,6 @@
-import { tryLoadBook, getChapter } from "./data-loader.js";
+import { tryLoadBookFallback, getChapter } from "./data-loader.js";
 import { renderChapterMask } from "./render-evangile.js";
-import { getActiveEdition, DEFAULT_ACTIVE } from "./editions.js";
+import { getActiveEdition, DEFAULT_ACTIVE, editionName } from "./editions.js";
 
 /**
  * Solve CSS cubic-bezier(x1,y1,x2,y2) for progress in [0,1].
@@ -133,11 +133,25 @@ export class MaskDilatation {
     this._ready = this._mount();
   }
 
+  _markFallbackEdition(edition) {
+    const card =
+      this.host.closest(".parallel-card") || this.host.closest(".reading-card");
+    if (!card) return;
+    card.dataset.edition = edition;
+    const head = card.querySelector(".parallel-card-head");
+    if (!head || head.dataset.fallbackEd) return;
+    head.dataset.fallbackEd = edition;
+    head.append(` · ${editionName(edition)}`);
+  }
+
   async _mount() {
-    const edition = this.ref.edition || getActiveEdition() || DEFAULT_ACTIVE;
+    const wanted = this.ref.edition || getActiveEdition() || DEFAULT_ACTIVE;
+    const loaded = await tryLoadBookFallback(this.ref.bookId, wanted);
+    const book = loaded.book;
+    const edition = loaded.edition;
     this.ref.edition = edition;
-    const book = await tryLoadBook(this.ref.bookId, edition);
     if (!book) throw new Error("Livre introuvable");
+    if (loaded.fallback) this._markFallbackEdition(edition);
     const ch =
       getChapter(book, this.ref.chapter) ||
       (this.ref.altChapter ? getChapter(book, this.ref.altChapter) : null);
