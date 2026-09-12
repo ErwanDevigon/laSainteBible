@@ -79,21 +79,29 @@ function applyHeadroom(next) {
   const px = Math.max(0, Math.round(next));
   const delta = px - padApplied;
   if (!delta) return;
-  padApplied = px;
   const host = headroomHost();
   if (!host) return;
+  const html = document.documentElement;
+  const prevHtml = html.style.overflowAnchor;
+  const prevHost = host.style.overflowAnchor;
+  html.style.overflowAnchor = "none";
+  host.style.overflowAnchor = "none";
+  padApplied = px;
   let spacer = document.getElementById("lsb-headroom");
   if (!spacer) {
     spacer = document.createElement("div");
     spacer.id = "lsb-headroom";
     spacer.setAttribute("aria-hidden", "true");
-    spacer.style.cssText = "height:0;margin:0;padding:0;pointer-events:none";
+    spacer.style.cssText =
+      "height:0;margin:0;padding:0;pointer-events:none;overflow-anchor:none";
     host.prepend(spacer);
   } else if (spacer.parentElement !== host) {
     host.prepend(spacer);
   }
   spacer.style.height = px ? `${px}px` : "0px";
   window.scrollTo(0, Math.max(0, window.scrollY + delta));
+  html.style.overflowAnchor = prevHtml;
+  host.style.overflowAnchor = prevHost;
 }
 
 /**
@@ -266,27 +274,32 @@ export class MaskDilatation {
    * Keep excerpt visually pinned. Integer part → scrollY.
    * Remainder → translate on the host (avoids 1px scroll snap tremble).
    */
+  _notifyLayout() {
+    this.host.dispatchEvent(new CustomEvent("lsb:maskpin", { bubbles: true }));
+  }
+
   _pinOnce(targetTop) {
     if (!this.excerpt) return;
     if (document.body.classList.contains("is-swiping")) return;
     const err = this.excerpt.getBoundingClientRect().top - targetTop;
-    if (err === 0) return;
-
-    let translate = (this._fracPin || 0) - err;
-    let scrollAdj = 0;
-    if (translate <= -1 || translate >= 1) {
-      scrollAdj = -Math.trunc(translate);
-      translate += scrollAdj;
+    if (err !== 0) {
+      let translate = (this._fracPin || 0) - err;
+      let scrollAdj = 0;
+      if (translate <= -1 || translate >= 1) {
+        scrollAdj = -Math.trunc(translate);
+        translate += scrollAdj;
+      }
+      if (scrollAdj && !this.lockPage) {
+        window.scrollTo(0, window.scrollY + scrollAdj);
+      } else if (scrollAdj && this.lockPage) {
+        translate -= scrollAdj;
+        scrollAdj = 0;
+      }
+      this._fracPin = translate;
+      const el = this.pinEl || this.host;
+      el.style.transform = translate ? `translate3d(0, ${translate}px, 0)` : "";
     }
-    if (scrollAdj && !this.lockPage) {
-      window.scrollTo(0, window.scrollY + scrollAdj);
-    } else if (scrollAdj && this.lockPage) {
-      translate -= scrollAdj;
-      scrollAdj = 0;
-    }
-    this._fracPin = translate;
-    const el = this.pinEl || this.host;
-    el.style.transform = translate ? `translate3d(0, ${translate}px, 0)` : "";
+    this._notifyLayout();
   }
 
   _clearFracPin() {
@@ -328,7 +341,10 @@ export class MaskDilatation {
 
       this.zones.forEach((z, i) => {
         if (open[i]) return;
+        // CSS already animating to full height: do not snap.
+        if ((z._animTo ?? 0) >= z.height - 0.5) return;
         const r = z.el.getBoundingClientRect();
+        if (r.height < 8) return;
         const hit =
           z.kind === "before"
             ? r.top <= clip.top + 0.5
@@ -431,34 +447,61 @@ export class MaskDilatation {
     this._headroom = 0;
   }
 
+  /**
+   * Spacer only when the dilated card would extend above document Y=0.
+   * Mid-book, previous chapters already give room to scroll into.
+   */
+  _headroomNeeded(before) {
+    if (!this.lockPage || !before || before.height <= 0 || !this.excerpt) return 0;
+    const grow = Math.max(
+      0,
+      before.height - this._roomFor(before) + EDGE_SLACK
+    );
+    if (!grow) return 0;
+    const dest =
+      window.scrollY + this.excerpt.getBoundingClientRect().top - grow;
+    return dest >= 0 ? 0 : Math.ceil(-dest);
+  }
+
+  _markExpanded(on) {
+    this.expanded = on;
+    if (!this.root) return;
+    this.root.dataset.expanded = on ? "true" : "false";
+    this.root.classList.toggle("is-expanded", on);
+    const card =
+      this.host.closest(".reading-card") || this.host.closest(".parallel-card");
+    card?.setAttribute("aria-expanded", on ? "true" : "false");
+    card?.classList.toggle("is-dilated", on);
+  }
+
   expand() {
     if (!this.root || this.expanded) return;
 
     this._stopGlide();
     this._clearFracPin();
     const token = this.host.closest(".parallel-cards")?.dataset.synScroll;
-    this.savedScrollY = token != null && token !== "" ? Number(token) : window.scrollY;
+    this.savedScrollY =
+      token != null && token !== "" ? Number(token) : window.scrollY;
     const before = this.zones.find((z) => z.kind === "before");
-    if (before && before.height > 0) {
-      this._addHeadroom(Math.max(0, before.height - this._roomFor(before) + EDGE_SLACK));
-    }
+    if (before) this._addHeadroom(this._headroomNeeded(before));
     const targetTop = this.excerpt.getBoundingClientRect().top;
     const dur = this._durationMs();
 
     for (const z of this.zones) {
-      if (z.height <= 0) continue;
-      const target = this._reduced()
-        ? z.height
-        : Math.min(z.height, this._roomFor(z) + EDGE_SLACK);
+      if (z.height <= 0) {
+        z._animTo = 0;
+        continue;
+      }
+      const room = this._roomFor(z) + EDGE_SLACK;
+      // Near chrome there is no visible edge to raise: animate full height
+      // and pin, instead of snapping 0 → full on the first frame.
+      const target = this._reduced() || room < 24 ? z.height : Math.min(z.height, room);
+      z._animTo = target;
       this._setHeight(z.el, target, false);
     }
 
-    this.expanded = true;
-    this.root.dataset.expanded = "true";
-    this.root.classList.add("is-expanded");
-    this.host.closest(".reading-card")?.setAttribute("aria-expanded", "true");
-    this.host.closest(".reading-card")?.classList.add("is-dilated");
-
+    this._markExpanded(true);
+    this._notifyLayout();
     this._driveExpand(targetTop, dur);
   }
 
@@ -471,36 +514,68 @@ export class MaskDilatation {
     const instant = !!opts.instant || this._reduced();
 
     this._stopPin();
-    this._clearFracPin();
+    this._stopGlide();
     const dur = instant ? 0 : this._durationMs();
     const toY = this.savedScrollY;
     const excerptTop = this.excerpt.getBoundingClientRect().top;
 
-    if (!instant) {
-      for (const z of this.zones) {
-        const h = Math.min(z.el.scrollHeight, this._roomFor(z) + EDGE_SLACK);
-        this._setHeight(z.el, h, true);
-      }
-      this._pinOnce(excerptTop);
-    } else {
-      for (const z of this.zones) this._setHeight(z.el, z.el.scrollHeight, true);
+    if (instant) {
+      for (const z of this.zones) this._setHeight(z.el, 0, true);
+      this._clearFracPin();
+      this._releaseHeadroom();
+      this._markExpanded(false);
+      if (restoreScroll) window.scrollTo(0, toY);
+      return;
     }
 
+    // Keep transform on lockPage. Instant snap-to-room jumped the cadre
+    // title into view before the fold — pin while height goes current → 0.
+    // If the reader scrolled while dilated: unwind transform + scrollY
+    // on the same ease as the fold, so the cadre settles on the rail
+    // instead of vanishing then popping in at the end.
+    const restorePage =
+      restoreScroll && Math.abs(window.scrollY - toY) > 2;
+    const fromY = window.scrollY;
+    const pinFrom = this._fracPin || 0;
+    if (!this.lockPage) this._clearFracPin();
+
+    for (const z of this.zones) {
+      this._setHeight(z.el, z.el.getBoundingClientRect().height, true);
+    }
+    if (!restorePage) this._pinOnce(excerptTop);
     void this.root.offsetHeight;
+    for (const z of this.zones) this._setHeight(z.el, 0, false);
 
-    for (const z of this.zones) this._setHeight(z.el, 0, instant);
+    this._markExpanded(false);
 
-    this.expanded = false;
-    this.root.dataset.expanded = "false";
-    this.root.classList.remove("is-expanded");
-    this.host.closest(".reading-card")?.setAttribute("aria-expanded", "false");
-    this.host.closest(".reading-card")?.classList.remove("is-dilated");
-
-    this._releaseHeadroom();
-    if (restoreScroll) {
-      this._glideScroll(window.scrollY, toY, dur);
-    } else {
-      this._stopGlide();
-    }
+    const ease = easeFromCss();
+    const el = this.pinEl || this.host;
+    const t0 = performance.now();
+    const tick = (now) => {
+      if (document.body.classList.contains("is-swiping")) {
+        this._pinRaf = 0;
+        return;
+      }
+      const t = Math.min(1, dur <= 0 ? 1 : (now - t0) / dur);
+      const e = ease(t);
+      if (restorePage) {
+        window.scrollTo(0, fromY + (toY - fromY) * e);
+        const pin = pinFrom * (1 - e);
+        this._fracPin = pin;
+        el.style.transform = pin ? `translate3d(0, ${pin}px, 0)` : "";
+        this._notifyLayout();
+      } else {
+        this._pinOnce(excerptTop);
+      }
+      if (t < 1) {
+        this._pinRaf = requestAnimationFrame(tick);
+      } else {
+        if (restorePage) window.scrollTo(0, toY);
+        this._clearFracPin();
+        this._releaseHeadroom();
+        this._pinRaf = 0;
+      }
+    };
+    this._pinRaf = requestAnimationFrame(tick);
   }
 }

@@ -457,10 +457,12 @@ function fillCards(box, item, bookId, chapter, verse, edition) {
   }
 }
 
-function alignCards(cards, pair, col, span) {
-  const els = rangeEls(pair, span, col);
+function alignCards(cards, originEl, col, span) {
+  const excerpt = originEl.querySelector?.(".mask-excerpt");
+  let els = excerpt ? rangeEls(excerpt, span, col || null) : [];
+  if (!els.length) els = rangeEls(originEl, span, col || null);
   if (!els.length) return;
-  const origin = pair.getBoundingClientRect().top;
+  const origin = originEl.getBoundingClientRect().top;
   const braceTop = els[0].getBoundingClientRect().top;
   const viewTop = chromeTop();
   const target = Math.max(braceTop, viewTop);
@@ -468,6 +470,7 @@ function alignCards(cards, pair, col, span) {
   cards.style.marginTop = "";
   cards.dataset.synTop = String(target);
   cards.dataset.synScroll = String(window.scrollY);
+  cards._span = span;
 }
 
 function closeOpenCards(container) {
@@ -693,7 +696,7 @@ export function formatFullRef(bookId, chapter, verseStart, verseEnd, ranges) {
   });
 }
 
-function placeRailOnRow(row, card, item, span, lane) {
+function railBox(row, card, span, lane) {
   const rr = row.getBoundingClientRect();
   const excerpt = card.querySelector(".mask-excerpt") || card;
   let els = rangeEls(excerpt, span, null);
@@ -713,7 +716,42 @@ function placeRailOnRow(row, card, item, span, lane) {
   }
   const left =
     card.getBoundingClientRect().right - rr.left + RAIL_INSET + lane * RAIL_LANE;
-  return makeRail(item, span, { top, height, left, lane });
+  return { top, height, left, lane };
+}
+
+function placeRailOnRow(row, card, item, span, lane) {
+  const box = railBox(row, card, span, lane);
+  if (!box) return null;
+  return makeRail(item, span, box);
+}
+
+function syncRowRails(row) {
+  const card = row.querySelector(".reading-card");
+  if (!card) return;
+  row.querySelectorAll(":scope > .parallel-rail").forEach((rail) => {
+    if (!rail._span) return;
+    const box = railBox(row, card, rail._span, rail._lane || 0);
+    if (!box) return;
+    rail.style.top = `${box.top}px`;
+    rail.style.height = `${Math.max(16, box.height)}px`;
+    rail.style.left = `${box.left}px`;
+  });
+  const cards = row.querySelector(":scope > .parallel-cards.is-open");
+  if (!cards) return;
+  const rail =
+    row.querySelector(":scope > .parallel-rail.is-open") ||
+    row.querySelector(":scope > .parallel-rail");
+  const span = cards._span || rail?._span;
+  if (span) alignCards(cards, row, null, span);
+}
+
+function bindRowSync() {
+  if (document.documentElement.dataset.railRowSync) return;
+  document.documentElement.dataset.railRowSync = "1";
+  document.addEventListener("lsb:maskpin", (e) => {
+    const row = e.target.closest?.(".reading-row");
+    if (row) syncRowRails(row);
+  });
 }
 
 export async function attachExcerptParallels({
@@ -781,10 +819,19 @@ export async function attachExcerptParallels({
         band.appendChild(cards);
       }
       fillCards(cards, h.item, bookId, chapter, verseStart || 1, edition);
+      alignCards(cards, band, null, h.span);
       cards.classList.add("is-open");
       rail.classList.add("is-open");
     };
     band.appendChild(rail);
   });
   bindGlobal();
+  bindRowSync();
+  syncRowRails(band);
+  if (!band._railRO) {
+    band._railRO = new ResizeObserver(() => syncRowRails(band));
+    band._railRO.observe(host);
+    const mask = host.querySelector(".chapter-mask");
+    if (mask) band._railRO.observe(mask);
+  }
 }

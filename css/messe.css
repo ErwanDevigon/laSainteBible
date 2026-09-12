@@ -54,6 +54,11 @@
   gap: var(--space-4);
   overflow: visible;
   justify-items: start;
+  overflow-anchor: none;
+}
+
+.readings * {
+  overflow-anchor: none;
 }
 
 .reading-card {
@@ -122,7 +127,7 @@ a.reading-ref:hover {
 
 .chapter-mask {
   /* overflow edge = the mask. Text stays glued to the excerpt. */
-  overflow: visible;
+  overflow: hidden;
   overflow-anchor: none;
 }
 

@@ -633,12 +633,18 @@ body.lecteur-page[data-book] .edition-pane.is-current {
 .book-body {
   max-width: var(--measure);
   margin-inline: auto;
+  overflow-anchor: none;
+}
+
+.book-body * {
+  overflow-anchor: none;
 }
 
 #lsb-headroom {
   display: block;
   width: 100%;
   pointer-events: none;
+  overflow-anchor: none;
 }
 
 .chapter {
