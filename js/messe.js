@@ -8,7 +8,11 @@ import {
 } from "./editions.js";
 import { listVersionIds } from "./data-loader.js";
 import { bookHref } from "./books.js";
-import { formatFullRef, attachExcerptParallels } from "./parallels.js";
+import {
+  formatFullRef,
+  attachExcerptParallels,
+  prepareParallels,
+} from "./parallels.js";
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -38,17 +42,40 @@ async function init() {
   mountSwipeNav();
   const available = await listVersionIds();
   const pool = available.length ? available : EDITION_STACK;
-  mountActiveEditionBar(pool);
+  mountActiveEditionBar(pool, { parallels: true });
 
   /** @type {MaskDilatation[]} */
   const masks = [];
 
-  document.addEventListener("lsb:editions", () => {
-    mountActiveEditionBar(pool);
+  async function wireParallels() {
     const edition = getActiveEdition(pool);
-    for (const mask of masks) {
-      mask.remount(edition).catch(() => {});
-    }
+    await prepareParallels(edition);
+    listEl.querySelectorAll(".reading-row").forEach((row) => {
+      const card = row.querySelector(".reading-card");
+      if (!card?.dataset.bookId) return;
+      attachExcerptParallels({
+        host: card,
+        row,
+        bookId: card.dataset.bookId,
+        chapter: +card.dataset.chapter,
+        verseStart: card.dataset.verseStart
+          ? +card.dataset.verseStart
+          : undefined,
+        ranges: card._ranges,
+        edition,
+      });
+    });
+  }
+
+  document.addEventListener("lsb:editions", () => {
+    mountActiveEditionBar(pool, { parallels: true });
+    const edition = getActiveEdition(pool);
+    Promise.all(masks.map((mask) => mask.remount(edition).catch(() => {}))).then(
+      () => wireParallels()
+    );
+  });
+  document.addEventListener("lsb:parallels", () => {
+    wireParallels();
   });
 
   const date = todayParis();
@@ -82,6 +109,7 @@ async function init() {
       }
     }
 
+    await prepareParallels(getActiveEdition(pool));
     listEl.replaceChildren();
     if (!data.readings?.length) {
       listEl.appendChild(
@@ -180,14 +208,25 @@ async function init() {
       row.appendChild(card);
       listEl.appendChild(row);
       if (reading.ref?.bookId && reading.ref?.chapter) {
-        attachExcerptParallels({
-          host: card,
-          row,
-          bookId: reading.ref.bookId,
-          chapter: reading.ref.chapter,
-          verseStart: reading.ref.verseStart,
-          edition: getActiveEdition(pool),
-        });
+        card.dataset.bookId = reading.ref.bookId;
+        card.dataset.chapter = String(reading.ref.chapter);
+        if (reading.ref.verseStart != null) {
+          card.dataset.verseStart = String(reading.ref.verseStart);
+        }
+        card._ranges = reading.ref.ranges;
+        const bindRails = () =>
+          attachExcerptParallels({
+            host: card,
+            row,
+            bookId: reading.ref.bookId,
+            chapter: reading.ref.chapter,
+            verseStart: reading.ref.verseStart,
+            ranges: reading.ref.ranges,
+            edition: getActiveEdition(pool),
+          });
+        const last = masks[masks.length - 1];
+        if (expandable && last) last.whenReady().then(bindRails).catch(() => {});
+        else bindRails();
       }
     }
   } catch (err) {

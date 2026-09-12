@@ -53,6 +53,9 @@
   /* Synopse brace / stamp / cards */
   --parallel-dur: 380ms;
   --parallel-ease: cubic-bezier(0.4, 0, 1, 1);
+  --rail-synopse: #c4b59a;
+  --rail-vetero: #6e9aa8;
+  --rail-accomplissement: #6e9aa8;
 
   /* In-book chapter rail glide */
   --chapter-dur: 1200ms;

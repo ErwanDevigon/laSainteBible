@@ -3,10 +3,12 @@
 import { resolveUrls, loadVersionIndex } from "./data-loader.js";
 import { MaskDilatation } from "./expand.js";
 import { BOOK_BY_ID, bookHref } from "./books.js";
-import { displayBookTitle, parallelsEnabled } from "./editions.js";
+import { displayBookTitle, parallelKindEnabled } from "./editions.js";
 
 const NT_URL = "data/parallels-nt.json";
 const AT_URL = "data/citations-at.json";
+const RAIL_INSET = 8;
+const RAIL_LANE = 14;
 
 let packed = null;
 let indexCache = null;
@@ -19,25 +21,90 @@ async function loadJson(file) {
   return null;
 }
 
+function originKey(p) {
+  return `${p.book}\t${JSON.stringify(p.spans || [])}`;
+}
+
+function passageDup(list, p) {
+  return list.some(
+    (q) => q.book === p.book && JSON.stringify(q.spans) === JSON.stringify(p.spans)
+  );
+}
+
 function invertCitations(items) {
-  const out = [];
+  const map = new Map();
   for (const item of items) {
     for (const p of item.passages || []) {
-      out.push({
-        id: `rev-${item.id}-${p.book}`,
-        kind: "accomplissement",
-        origin: {
-          book: p.book,
-          short: p.short,
-          spans: p.spans,
-          cites: p.cites,
-        },
-        passages: item.origin ? [item.origin] : [],
-        label: item.label,
-      });
+      const key = originKey(p);
+      let rec = map.get(key);
+      if (!rec) {
+        rec = {
+          id: `rev-${p.book}-${map.size}`,
+          kind: "accomplissement",
+          origin: {
+            book: p.book,
+            short: p.short,
+            spans: p.spans,
+            cites: p.cites,
+          },
+          passages: [],
+          label: item.label,
+        };
+        map.set(key, rec);
+      }
+      if (item.origin && !passageDup(rec.passages, item.origin)) {
+        rec.passages.push(item.origin);
+      }
     }
   }
-  return out;
+  return [...map.values()];
+}
+
+function fuseAccomplissementHits(group) {
+  if (group.length === 1) return group[0];
+  const min = Math.min(...group.map((h) => h.min));
+  const max = Math.max(...group.map((h) => h.max));
+  const passages = [];
+  for (const h of group) {
+    for (const p of h.item.passages || []) {
+      if (!passageDup(passages, p)) passages.push(p);
+    }
+  }
+  const item = {
+    id: group.map((h) => h.item.id).join("+"),
+    kind: "accomplissement",
+    origin: group[0].item.origin,
+    passages,
+    label: group[0].item.label,
+  };
+  return {
+    item,
+    passage: group[0].passage,
+    span: {
+      chapter: group[0].span.chapter,
+      ranges: [{ start: min, end: max >= 9000 ? null : max }],
+    },
+    min,
+    max,
+  };
+}
+
+function mergeAccomplissementHits(hits) {
+  const acc = [];
+  const other = [];
+  for (const h of hits) {
+    if (kindKey(h.item) === "accomplissement") acc.push(h);
+    else other.push(h);
+  }
+  if (acc.length <= 1) return hits;
+  const buckets = new Map();
+  for (const h of acc) {
+    const key = `${h.min}:${h.max}`;
+    const list = buckets.get(key);
+    if (list) list.push(h);
+    else buckets.set(key, [h]);
+  }
+  return [...other, ...[...buckets.values()].map(fuseAccomplissementHits)];
 }
 
 async function loadPack() {
@@ -49,6 +116,17 @@ async function loadPack() {
     citations,
     reverse: invertCitations(citations),
   };
+  return packed;
+}
+
+export async function prepareParallels(edition) {
+  await loadPack();
+  if (!edition) return packed;
+  try {
+    indexCache = await loadVersionIndex(edition);
+  } catch {
+    indexCache = null;
+  }
   return packed;
 }
 
@@ -78,20 +156,42 @@ function spanHasVerse(span, chapter, verse) {
   return verse >= v.min && verse <= v.max;
 }
 
-function itemSpansOnBook(item, bookId) {
-  const bags = [];
-  if (item.origin?.book === bookId) bags.push(item.origin);
-  for (const p of item.passages || []) {
-    if (p.book === bookId) bags.push(p);
+function spanOverlapsRanges(span, chapter, ranges, verseStart) {
+  if (span.chapter !== chapter) return false;
+  if (ranges?.length) {
+    for (const r of ranges) {
+      const a = r.start ?? 1;
+      const b = r.end == null ? a : r.end;
+      for (let n = a; n <= b; n++) {
+        if (spanHasVerse(span, chapter, n)) return true;
+      }
+    }
+    return false;
   }
-  return bags.flatMap((p) => (p.spans || []).map((sp) => ({ passage: p, span: sp })));
+  if (verseStart == null) return true;
+  return spanHasVerse(span, chapter, verseStart);
 }
 
-function currentSpan(item, bookId, chapter, verse) {
-  for (const hit of itemSpansOnBook(item, bookId)) {
-    if (spanHasVerse(hit.span, chapter, verse)) return hit;
+/** synopse | vetero | accomplissement */
+export function kindKey(item) {
+  if (item?.kind === "synopse") return "synopse";
+  if (item?.kind === "accomplissement") return "accomplissement";
+  return "vetero";
+}
+
+function railBags(item, bookId) {
+  const k = kindKey(item);
+  if (k === "synopse") {
+    return (item.passages || []).filter((p) => p.book === bookId);
   }
-  return null;
+  if (item.origin?.book === bookId) return [item.origin];
+  return [];
+}
+
+function itemSpansOnBook(item, bookId) {
+  return railBags(item, bookId).flatMap((p) =>
+    (p.spans || []).map((sp) => ({ passage: p, span: sp }))
+  );
 }
 
 function othersOf(item, bookId, chapter, verse) {
@@ -99,7 +199,7 @@ function othersOf(item, bookId, chapter, verse) {
   const out = [];
   for (const p of item.passages || []) {
     const spans = (p.spans || []).filter((sp) => {
-      if (!cur) return true;
+      if (kindKey(item) !== "synopse" || !cur) return true;
       return !(
         p.book === bookId &&
         sp.chapter === cur.span.chapter &&
@@ -114,6 +214,13 @@ function othersOf(item, bookId, chapter, verse) {
     });
   }
   return out;
+}
+
+function currentSpan(item, bookId, chapter, verse) {
+  for (const hit of itemSpansOnBook(item, bookId)) {
+    if (spanHasVerse(hit.span, chapter, verse)) return hit;
+  }
+  return null;
 }
 
 function citeOf(span) {
@@ -143,7 +250,7 @@ function stampSuffix(kind) {
 function stampText(item, bookId, chapter, verse) {
   const others = othersOf(item, bookId, chapter, verse);
   const refs = formatPassages(others);
-  const tag = stampSuffix(item.kind);
+  const tag = stampSuffix(kindKey(item));
   return refs ? `${refs} ${tag}` : tag;
 }
 
@@ -153,6 +260,7 @@ function itemsForBookChapter(bookId, chapter) {
   const all = [...pack.synopse, ...pack.citations, ...pack.reverse];
   const out = [];
   for (const item of all) {
+    if (!parallelKindEnabled(kindKey(item))) continue;
     for (const hit of itemSpansOnBook(item, bookId)) {
       if (hit.span.chapter === chapter) out.push({ item, ...hit });
     }
@@ -164,10 +272,18 @@ function verseEls(pair, col) {
   return [...pair.querySelectorAll(`.verse[data-col="${col}"]`)];
 }
 
-function rangeEls(pair, col, span) {
-  const all = verseEls(pair, col);
+function rangeEls(root, span, col) {
+  const all = col
+    ? verseEls(root, col)
+    : [...root.querySelectorAll(".verse[data-verse]")];
   const v = spanVerses(span);
-  return all.filter((el) => {
+  const visible = all.filter((el) => {
+    const zone = el.closest(".mask-zone");
+    if (zone && getComputedStyle(zone).maxHeight === "0px") return false;
+    return true;
+  });
+  const pool = visible.length ? visible : all;
+  return pool.filter((el) => {
     const n = +el.dataset.verse;
     if (v.all) return true;
     if (v.set && v.set.size) return v.set.has(n) || (v.max >= 9000 && n >= v.min);
@@ -178,6 +294,7 @@ function rangeEls(pair, col, span) {
 function chromeTop() {
   const bar =
     document.querySelector(".edition-name-bar") ||
+    document.querySelector(".active-edition-bar") ||
     document.querySelector(".book-title-bar") ||
     document.querySelector(".site-header");
   return bar ? bar.getBoundingClientRect().bottom : 0;
@@ -187,18 +304,58 @@ function lireBase() {
   return /\/lire(\/|$)/.test(window.location.pathname) ? "" : "lire/";
 }
 
-function versePhrase(span) {
-  const ch = span.chapter;
-  const ranges = span.ranges;
-  if (!ranges || !ranges.length) return `chapitre ${ch}`;
-  const bits = ranges.map((r) => {
+function latinTitle(title) {
+  return /^(Liber|Evangelium|Epistula|Actus|Apocalypsis)\b/i.test(title);
+}
+
+function greekTitle(title) {
+  return /[Α-ω]/.test(title);
+}
+
+function stripGospelPrefix(title) {
+  return String(title || "")
+    .replace(/^Évangile\s+/i, "")
+    .replace(/^Evangelium\s+/i, "")
+    .replace(/^Εὐαγγέλιον\s+/i, "")
+    .trim();
+}
+
+function psalmName(title) {
+  if (greekTitle(title)) return "Ψαλμὸς";
+  if (latinTitle(title) || /psalm/i.test(title)) return "Psalmus";
+  return "Psaume";
+}
+
+function chapLabel(title) {
+  if (greekTitle(title)) return "κεφ.";
+  if (latinTitle(title)) return "Cap.";
+  return "Chap.";
+}
+
+function verseBits(ranges) {
+  if (!ranges || !ranges.length) return "";
+  const parts = [];
+  let allSingle = true;
+  for (const r of ranges) {
     const a = r.start;
     const b = r.end;
-    if (b == null || b >= 9000) return `versets ${a} et suivants`;
-    if (a === b) return `verset ${a}`;
-    return `versets ${a} à ${b}`;
-  });
-  return `chapitre ${ch}, ${bits.join(", ")}`;
+    if (b == null || b >= 9000) {
+      allSingle = false;
+      parts.push(`${a} et suivants`);
+    } else if (a === b) {
+      parts.push(String(a));
+    } else {
+      allSingle = false;
+      parts.push(`${a} à ${b}`);
+    }
+  }
+  if (allSingle) {
+    if (parts.length === 1) return `verset ${parts[0]}`;
+    if (parts.length === 2) return `verset ${parts[0]} et ${parts[1]}`;
+    const last = parts.pop();
+    return `versets ${parts.join(", ")} et ${last}`;
+  }
+  return `versets ${parts.join(", ")}`;
 }
 
 function headingFor(bookId, span) {
@@ -206,7 +363,17 @@ function headingFor(bookId, span) {
   const title = displayBookTitle(
     fromIndex || BOOK_BY_ID[bookId]?.title || bookId
   );
-  return `${title}, ${versePhrase(span)}`;
+  const ch = span.chapter;
+  const verses = verseBits(span.ranges);
+  if (bookId === "psaumes" || bookId === "psaume-151") {
+    const name = psalmName(title);
+    return verses ? `${name} ${ch}, ${verses}` : `${name} ${ch}`;
+  }
+  const shortTitle = stripGospelPrefix(title);
+  const chap = chapLabel(title);
+  return verses
+    ? `${shortTitle}. ${chap} ${ch}, ${verses}`
+    : `${shortTitle}. ${chap} ${ch}`;
 }
 
 function assignLanes(hits) {
@@ -221,17 +388,32 @@ function assignLanes(hits) {
   return sorted;
 }
 
-function clearRails(container) {
-  container.querySelectorAll(".parallel-rail, .parallel-layer").forEach((el) => el.remove());
+function clearRails(container, { preserveOpen = false } = {}) {
+  container.querySelectorAll(".parallel-rail").forEach((el) => el.remove());
+  container.querySelectorAll(".parallel-layer").forEach((el) => el.remove());
   container.querySelectorAll(".parallel-cards").forEach((el) => {
+    const kind = el.dataset.kind;
+    if (preserveOpen && el.classList.contains("is-open") && kind && parallelKindEnabled(kind)) {
+      return;
+    }
+    el.querySelectorAll(".parallel-card").forEach((card) => {
+      if (card._dil?.expanded) {
+        card._dil.collapse({ restoreScroll: false, instant: true });
+      }
+    });
     el.replaceChildren();
     el.classList.remove("is-open");
+    el.style.marginTop = "";
+    el.style.top = "";
+    delete el.dataset.kind;
+    delete el.dataset.itemId;
   });
 }
 
-function cardHost(edition, bookId, span) {
+function cardHost(edition, bookId, span, kind) {
   const art = document.createElement("article");
   art.className = "parallel-card";
+  art.dataset.kind = kind;
   const head = document.createElement("a");
   head.className = "parallel-card-head";
   head.href = bookHref(bookId, lireBase(), {
@@ -264,23 +446,26 @@ function cardHost(edition, bookId, span) {
 
 function fillCards(box, item, bookId, chapter, verse, edition) {
   box.replaceChildren();
+  const kind = kindKey(item);
+  box.dataset.kind = kind;
+  box.dataset.itemId = item.id || "";
   const others = othersOf(item, bookId, chapter, verse);
   for (const p of others) {
     for (const sp of p.spans) {
-      box.appendChild(cardHost(edition, p.book, sp));
+      box.appendChild(cardHost(edition, p.book, sp, kind));
     }
   }
 }
 
 function alignCards(cards, pair, col, span) {
-  const els = rangeEls(pair, col, span);
+  const els = rangeEls(pair, span, col);
   if (!els.length) return;
-  const band = pair.closest(".chapter-band") || pair.parentElement;
-  const bandTop = band.getBoundingClientRect().top;
+  const origin = pair.getBoundingClientRect().top;
   const braceTop = els[0].getBoundingClientRect().top;
   const viewTop = chromeTop();
   const target = Math.max(braceTop, viewTop);
-  cards.style.marginTop = `${Math.max(0, target - bandTop)}px`;
+  cards.style.top = `${Math.max(0, target - origin)}px`;
+  cards.style.marginTop = "";
   cards.dataset.synTop = String(target);
   cards.dataset.synScroll = String(window.scrollY);
 }
@@ -288,11 +473,16 @@ function alignCards(cards, pair, col, span) {
 function closeOpenCards(container) {
   container.querySelectorAll(".parallel-cards.is-open").forEach((el) => {
     el.querySelectorAll(".parallel-card").forEach((card) => {
-      if (card._dil?.expanded) card._dil.collapse();
+      if (card._dil?.expanded) {
+        card._dil.collapse({ restoreScroll: false, instant: true });
+      }
     });
     el.replaceChildren();
     el.classList.remove("is-open");
     el.style.marginTop = "";
+    el.style.top = "";
+    delete el.dataset.kind;
+    delete el.dataset.itemId;
   });
   container.querySelectorAll(".parallel-rail.is-open").forEach((el) => {
     el.classList.remove("is-open");
@@ -300,12 +490,17 @@ function closeOpenCards(container) {
 }
 
 function ensureCards(pair) {
-  const band = pair.closest(".chapter-band") || pair.parentElement;
-  let el = band.querySelector(":scope > .parallel-cards");
+  let el = pair.querySelector(":scope > .parallel-cards");
   if (el) return el;
+  const band = pair.closest(".chapter-band");
+  el = band?.querySelector(":scope > .parallel-cards");
+  if (el) {
+    pair.appendChild(el);
+    return el;
+  }
   el = document.createElement("div");
   el.className = "parallel-cards";
-  band.appendChild(el);
+  pair.appendChild(el);
   return el;
 }
 
@@ -330,97 +525,147 @@ function openFromRail(rail, ctx) {
   rail.classList.add("is-open");
 }
 
+function makeRail(item, span, { top, height, left, right, lane }) {
+  const rail = document.createElement("button");
+  rail.type = "button";
+  const kind = kindKey(item);
+  rail.className = `parallel-rail parallel-rail--${kind}`;
+  rail.dataset.kind = kind;
+  rail.dataset.itemId = item.id || "";
+  rail.style.top = `${top}px`;
+  if (height != null) rail.style.height = `${Math.max(16, height)}px`;
+  if (left != null) rail.style.left = `${left}px`;
+  if (right != null) {
+    rail.style.right = `${right}px`;
+    rail.style.left = "auto";
+  }
+  rail._item = item;
+  rail._span = span;
+  rail._lane = lane || 0;
+  return rail;
+}
+
 function paintRails(container, ctx) {
-  clearRails(container);
-  if (!parallelsEnabled()) return;
+  clearRails(container, { preserveOpen: true });
   const col = ctx.primaryCol;
   if (!col) return;
+  const open = new Map();
+  container.querySelectorAll(".parallel-cards.is-open").forEach((el) => {
+    const pair =
+      el.closest(".chapter-pair") ||
+      el.closest(".chapter-band")?.querySelector(".chapter-pair");
+    if (pair) open.set(pair, el.dataset.itemId || "");
+  });
   const pairs = container.querySelectorAll(".chapter-pair");
   for (const pair of pairs) {
     const chapter = +pair.dataset.chapter;
     const hitsRaw = itemsForBookChapter(ctx.bookId, chapter);
-    const hits = hitsRaw.map((h) => {
-      const v = spanVerses(h.span);
-      return { ...h, min: v.all ? 1 : v.min, max: v.all ? 999 : Math.min(v.max, 9000) };
-    });
+    const hits = mergeAccomplissementHits(
+      hitsRaw.map((h) => {
+        const v = spanVerses(h.span);
+        return {
+          ...h,
+          min: v.all ? 1 : v.min,
+          max: v.all ? 999 : Math.min(v.max, 9000),
+        };
+      })
+    );
     assignLanes(hits);
     const sample = pair.querySelector(`.verse[data-col="${col}"]`);
     if (!sample) continue;
     const pr = pair.getBoundingClientRect();
     const colRight = sample.getBoundingClientRect().right - pr.left;
+    const openId = open.get(pair);
     for (const h of hits) {
-      const els = rangeEls(pair, col, h.span);
+      const els = rangeEls(pair, h.span, col);
       if (!els.length) continue;
       const first = els[0];
       const last = els[els.length - 1];
       const top = first.getBoundingClientRect().top - pr.top;
       const height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
-      const rail = document.createElement("button");
-      rail.type = "button";
-      rail.className = "parallel-rail";
-      rail.style.top = `${top}px`;
-      rail.style.height = `${Math.max(16, height)}px`;
-      rail.style.left = `${colRight + 4 + h.lane * 6}px`;
-      rail._item = h.item;
-      rail._span = h.span;
-      rail.setAttribute("aria-label", stampText(h.item, ctx.bookId, chapter, h.min));
+      const rail = makeRail(h.item, h.span, {
+        top,
+        height,
+        left: colRight + RAIL_INSET + h.lane * RAIL_LANE,
+        lane: h.lane,
+      });
+      rail.setAttribute(
+        "aria-label",
+        stampText(h.item, ctx.bookId, chapter, h.min)
+      );
+      rail._open = () => openFromRail(rail, ctx);
+      if (openId && openId === (h.item.id || "")) rail.classList.add("is-open");
       pair.appendChild(rail);
     }
   }
 }
 
-function bind(container, ctx) {
-  let stamp = null;
+function ensureStamp() {
+  let stamp = document.querySelector(".parallel-stamp");
+  if (stamp) return stamp;
+  stamp = document.createElement("div");
+  stamp.className = "parallel-stamp";
+  stamp.hidden = true;
+  document.body.appendChild(stamp);
+  return stamp;
+}
 
-  function ensureStamp() {
-    if (stamp) return stamp;
-    stamp = document.createElement("div");
-    stamp.className = "parallel-stamp";
-    stamp.hidden = true;
-    document.body.appendChild(stamp);
-    return stamp;
-  }
+function bindGlobal() {
+  if (document.documentElement.dataset.parallelsBound) return;
+  document.documentElement.dataset.parallelsBound = "1";
 
-  container.addEventListener("pointerover", (e) => {
+  document.addEventListener("pointerover", (e) => {
     const rail = e.target.closest(".parallel-rail");
-    if (!rail || !container.contains(rail)) return;
-    const pair = rail.closest(".chapter-pair");
+    if (!rail || !rail._item) return;
     const s = ensureStamp();
+    const pair = rail.closest(".chapter-pair");
+    const host =
+      rail.closest(".reading-card") ||
+      rail.closest(".reading-row")?.querySelector(".reading-card");
+    const chapter = pair
+      ? +pair.dataset.chapter
+      : +(host?.dataset.chapter || rail._span?.chapter || 0);
+    const bookId =
+      pair?.closest("[data-book]")?.dataset.book ||
+      host?.dataset.bookId ||
+      ctx.bookId;
     s.textContent = stampText(
       rail._item,
-      ctx.bookId,
-      +pair.dataset.chapter,
+      bookId,
+      chapter,
       spanVerses(rail._span).min
     );
     s.hidden = false;
-    const pr = pair.getBoundingClientRect();
     s.style.left = `${rail.getBoundingClientRect().right + 8}px`;
     s.style.top = `${e.clientY}px`;
     s.style.position = "fixed";
     s.style.transform = "translateY(-50%)";
   });
 
-  container.addEventListener("pointermove", (e) => {
+  document.addEventListener("pointermove", (e) => {
     const rail = e.target.closest(".parallel-rail");
+    const stamp = document.querySelector(".parallel-stamp");
     if (!rail || !stamp || stamp.hidden) return;
     stamp.style.top = `${e.clientY}px`;
   });
 
-  container.addEventListener("pointerout", (e) => {
+  document.addEventListener("pointerout", (e) => {
     const rail = e.target.closest(".parallel-rail");
     if (!rail) return;
+    const stamp = document.querySelector(".parallel-stamp");
     const to = e.relatedTarget;
     if (to && (rail.contains(to) || stamp?.contains(to))) return;
     if (stamp) stamp.hidden = true;
   });
 
-  container.addEventListener("click", (e) => {
+  document.addEventListener("click", (e) => {
     const rail = e.target.closest(".parallel-rail");
-    if (!rail || !container.contains(rail)) return;
+    if (!rail) return;
     e.preventDefault();
     e.stopPropagation();
+    const stamp = document.querySelector(".parallel-stamp");
     if (stamp) stamp.hidden = true;
-    openFromRail(rail, ctx);
+    rail._open?.();
   });
 }
 
@@ -432,17 +677,9 @@ export async function mountParallels({ bookId, container, editions }) {
   const primary = (editions || []).find((ed) => ed.primary) || (editions || []).at(-1);
   ctx.primaryCol = primary?.col || "";
   ctx.edition = primary?.book?.version?.id || primary?.col || "";
-  await loadPack();
-  try {
-    indexCache = await loadVersionIndex(ctx.edition);
-  } catch {
-    indexCache = null;
-  }
+  await prepareParallels(ctx.edition);
   paintRails(container, ctx);
-  if (!container.dataset.parallelsBound) {
-    container.dataset.parallelsBound = "1";
-    bind(container, ctx);
-  }
+  bindGlobal();
 }
 
 export function formatFullRef(bookId, chapter, verseStart, verseEnd, ranges) {
@@ -456,55 +693,98 @@ export function formatFullRef(bookId, chapter, verseStart, verseEnd, ranges) {
   });
 }
 
+function placeRailOnRow(row, card, item, span, lane) {
+  const rr = row.getBoundingClientRect();
+  const excerpt = card.querySelector(".mask-excerpt") || card;
+  let els = rangeEls(excerpt, span, null);
+  if (!els.length) els = rangeEls(card, span, null);
+  let top;
+  let height;
+  if (els.length) {
+    const first = els[0];
+    const last = els[els.length - 1];
+    top = first.getBoundingClientRect().top - rr.top;
+    height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
+  } else {
+    const body = card.querySelector(".reading-mask-host, .reading-excerpt") || card;
+    const br = body.getBoundingClientRect();
+    top = br.top - rr.top;
+    height = br.height;
+  }
+  const left =
+    card.getBoundingClientRect().right - rr.left + RAIL_INSET + lane * RAIL_LANE;
+  return makeRail(item, span, { top, height, left, lane });
+}
+
 export async function attachExcerptParallels({
   host,
   row,
   bookId,
   chapter,
   verseStart,
+  ranges,
   edition,
 }) {
   if (!host || !bookId) return;
-  await loadPack();
-  const hitsRaw = itemsForBookChapter(bookId, chapter).filter((h) => {
-    if (verseStart == null) return true;
-    const v = spanVerses(h.span);
-    if (v.all) return true;
-    return spanHasVerse(h.span, chapter, verseStart);
-  });
-  if (!hitsRaw.length) return;
-  const hits = hitsRaw.map((h) => {
-    const v = spanVerses(h.span);
-    return { ...h, min: v.all ? 1 : v.min, max: v.all ? 999 : Math.min(v.max, 9000) };
-  });
+  await prepareParallels(edition);
+  host.querySelectorAll(".parallel-rail").forEach((el) => el.remove());
+  host
+    .querySelectorAll(".chapter-mask, .reading-mask-host")
+    .forEach((el) => {
+      el.querySelectorAll(".parallel-rail").forEach((r) => r.remove());
+    });
+  const band = row || host.parentElement;
+  band?.querySelectorAll(":scope > .parallel-rail").forEach((el) => el.remove());
+  if (band) {
+    const cards = band.querySelector(":scope > .parallel-cards");
+    if (cards && cards.dataset.kind && !parallelKindEnabled(cards.dataset.kind)) {
+      cards.querySelectorAll(".parallel-card").forEach((card) => {
+        if (card._dil?.expanded) {
+          card._dil.collapse({ restoreScroll: false, instant: true });
+        }
+      });
+      cards.replaceChildren();
+      cards.classList.remove("is-open");
+    }
+  }
+  host.dataset.bookId = bookId;
+  host.dataset.chapter = String(chapter);
+  const hitsRaw = itemsForBookChapter(bookId, chapter).filter((h) =>
+    spanOverlapsRanges(h.span, chapter, ranges, verseStart)
+  );
+  if (!hitsRaw.length || !band) return;
+  const hits = mergeAccomplissementHits(
+    hitsRaw.map((h) => {
+      const v = spanVerses(h.span);
+      return {
+        ...h,
+        min: v.all ? 1 : v.min,
+        max: v.all ? 999 : Math.min(v.max, 9000),
+      };
+    })
+  );
   assignLanes(hits);
-  host.style.position = "relative";
+  band.style.position = "relative";
   hits.forEach((h) => {
-    const rail = document.createElement("button");
-    rail.type = "button";
-    rail.className = "parallel-rail";
-    rail.style.top = "0.4rem";
-    rail.style.bottom = "0.4rem";
-    rail.style.height = "auto";
-    rail.style.right = `${-8 - h.lane * 6}px`;
-    rail.style.left = "auto";
-    rail._item = h.item;
-    rail._span = h.span;
-    host.appendChild(rail);
-    rail.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      closeOpenCards(row?.parentElement || document);
-      let cards = row?.querySelector(":scope > .parallel-cards");
-      if (!cards && row) {
+    const rail = placeRailOnRow(band, host, h.item, h.span, h.lane);
+    if (!rail) return;
+    rail.setAttribute(
+      "aria-label",
+      stampText(h.item, bookId, chapter, verseStart || h.min)
+    );
+    rail._open = () => {
+      closeOpenCards(band.parentElement || document);
+      let cards = band.querySelector(":scope > .parallel-cards");
+      if (!cards) {
         cards = document.createElement("div");
         cards.className = "parallel-cards";
-        row.appendChild(cards);
+        band.appendChild(cards);
       }
-      if (!cards) return;
       fillCards(cards, h.item, bookId, chapter, verseStart || 1, edition);
       cards.classList.add("is-open");
       rail.classList.add("is-open");
-    });
+    };
+    band.appendChild(rail);
   });
+  bindGlobal();
 }

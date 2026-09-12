@@ -65,6 +65,37 @@ function easeFromCss() {
 
 const EDGE_SLACK = 8;
 
+let padApplied = 0;
+
+function headroomHost() {
+  return (
+    document.querySelector(".book-body") ||
+    document.querySelector("[data-readings]") ||
+    document.querySelector(".site-main")
+  );
+}
+
+function applyHeadroom(next) {
+  const px = Math.max(0, Math.round(next));
+  const delta = px - padApplied;
+  if (!delta) return;
+  padApplied = px;
+  const host = headroomHost();
+  if (!host) return;
+  let spacer = document.getElementById("lsb-headroom");
+  if (!spacer) {
+    spacer = document.createElement("div");
+    spacer.id = "lsb-headroom";
+    spacer.setAttribute("aria-hidden", "true");
+    spacer.style.cssText = "height:0;margin:0;padding:0;pointer-events:none";
+    host.prepend(spacer);
+  } else if (spacer.parentElement !== host) {
+    host.prepend(spacer);
+  }
+  spacer.style.height = px ? `${px}px` : "0px";
+  window.scrollTo(0, Math.max(0, window.scrollY + delta));
+}
+
 /**
  * In-place mask dilatation.
  * Visible overflow edge animates; once it leaves the viewport the rest snaps.
@@ -88,6 +119,8 @@ export class MaskDilatation {
     this._pinRaf = 0;
     this._scrollRaf = 0;
     this.lockPage = !!this.ref.lockPage;
+    this.pinEl = this.host;
+    this._headroom = 0;
     this._onClick = this._onClick.bind(this);
     this._moved = false;
     this._down = null;
@@ -122,6 +155,9 @@ export class MaskDilatation {
     this.excerpt = excerpt;
     this.zones = zones.map((z) => ({ ...z, height: 0 }));
     this.host.replaceChildren(root);
+    this.pinEl = this.lockPage
+      ? this.host.closest(".parallel-card") || this.host
+      : this.host;
 
     root.addEventListener("pointerdown", (e) => {
       this._down = { x: e.clientX, y: e.clientY };
@@ -249,21 +285,21 @@ export class MaskDilatation {
       scrollAdj = 0;
     }
     this._fracPin = translate;
-    this.host.style.transform = translate
-      ? `translate3d(0, ${translate}px, 0)`
-      : "";
+    const el = this.pinEl || this.host;
+    el.style.transform = translate ? `translate3d(0, ${translate}px, 0)` : "";
   }
 
   _clearFracPin() {
+    const el = this.pinEl || this.host;
     if (!this._fracPin) {
-      this.host.style.transform = "";
+      el.style.transform = "";
       return;
     }
     if (!this.lockPage) {
       window.scrollTo(0, window.scrollY - this._fracPin);
     }
     this._fracPin = 0;
-    this.host.style.transform = "";
+    el.style.transform = "";
   }
 
   /**
@@ -310,8 +346,10 @@ export class MaskDilatation {
           if (!open[i]) this._setHeight(z.el, z.height, true);
         });
         this._pinOnce(targetTop);
-        this._clearFracPin();
-        this._pinOnce(targetTop);
+        if (!this.lockPage) {
+          this._clearFracPin();
+          this._pinOnce(targetTop);
+        }
         this._pinRaf = 0;
       }
     };
@@ -380,6 +418,19 @@ export class MaskDilatation {
     return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   }
 
+  _addHeadroom(px) {
+    const add = Math.max(0, Math.round(px));
+    if (!add) return;
+    this._headroom += add;
+    applyHeadroom(padApplied + add);
+  }
+
+  _releaseHeadroom() {
+    if (!this._headroom) return;
+    applyHeadroom(padApplied - this._headroom);
+    this._headroom = 0;
+  }
+
   expand() {
     if (!this.root || this.expanded) return;
 
@@ -387,6 +438,10 @@ export class MaskDilatation {
     this._clearFracPin();
     const token = this.host.closest(".parallel-cards")?.dataset.synScroll;
     this.savedScrollY = token != null && token !== "" ? Number(token) : window.scrollY;
+    const before = this.zones.find((z) => z.kind === "before");
+    if (before && before.height > 0) {
+      this._addHeadroom(Math.max(0, before.height - this._roomFor(before) + EDGE_SLACK));
+    }
     const targetTop = this.excerpt.getBoundingClientRect().top;
     const dur = this._durationMs();
 
@@ -407,16 +462,21 @@ export class MaskDilatation {
     this._driveExpand(targetTop, dur);
   }
 
-  collapse() {
+  /**
+   * @param {{ restoreScroll?: boolean, instant?: boolean }} [opts]
+   */
+  collapse(opts = {}) {
     if (!this.root || !this.expanded) return;
+    const restoreScroll = opts.restoreScroll !== false;
+    const instant = !!opts.instant || this._reduced();
 
     this._stopPin();
     this._clearFracPin();
-    const dur = this._durationMs();
+    const dur = instant ? 0 : this._durationMs();
     const toY = this.savedScrollY;
     const excerptTop = this.excerpt.getBoundingClientRect().top;
 
-    if (!this._reduced()) {
+    if (!instant) {
       for (const z of this.zones) {
         const h = Math.min(z.el.scrollHeight, this._roomFor(z) + EDGE_SLACK);
         this._setHeight(z.el, h, true);
@@ -428,7 +488,7 @@ export class MaskDilatation {
 
     void this.root.offsetHeight;
 
-    for (const z of this.zones) this._setHeight(z.el, 0, this._reduced());
+    for (const z of this.zones) this._setHeight(z.el, 0, instant);
 
     this.expanded = false;
     this.root.dataset.expanded = "false";
@@ -436,6 +496,11 @@ export class MaskDilatation {
     this.host.closest(".reading-card")?.setAttribute("aria-expanded", "false");
     this.host.closest(".reading-card")?.classList.remove("is-dilated");
 
-    this._glideScroll(window.scrollY, toY, this._reduced() ? 0 : dur);
+    this._releaseHeadroom();
+    if (restoreScroll) {
+      this._glideScroll(window.scrollY, toY, dur);
+    } else {
+      this._stopGlide();
+    }
   }
 }

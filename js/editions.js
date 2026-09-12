@@ -47,6 +47,16 @@ const COOKIE_ACTIVE = "lsb-active-edition";
 const COOKIE_COLS = "lsb-reader-cols";
 const COOKIE_LEGACY = "lsb-edition-order";
 const COOKIE_PARALLELS = "lsb-show-parallels";
+const COOKIE_KIND = {
+  synopse: "lsb-show-synopse",
+  vetero: "lsb-show-vetero",
+  accomplissement: "lsb-show-accomplissement",
+};
+const KIND_LABEL = {
+  synopse: "suggestions synoptiques",
+  vetero: "suggestions vétérotestamentaires",
+  accomplissement: "accomplissement",
+};
 const COOKIE_AGE = 60 * 60 * 24 * 365;
 
 function readCookie(name) {
@@ -58,29 +68,41 @@ function writeCookie(name, value) {
   document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${COOKIE_AGE}; SameSite=Lax`;
 }
 
-export function parallelsEnabled() {
-  const v = readCookie(COOKIE_PARALLELS);
+export function parallelKindEnabled(kind) {
+  const v = readCookie(COOKIE_KIND[kind]);
+  if (v == null) return readCookie(COOKIE_PARALLELS) !== "0";
   return v !== "0";
 }
 
-export function setParallelsEnabled(on) {
-  writeCookie(COOKIE_PARALLELS, on ? "1" : "0");
+export function setParallelKindEnabled(kind, on) {
+  writeCookie(COOKIE_KIND[kind], on ? "1" : "0");
   document.dispatchEvent(
-    new CustomEvent("lsb:parallels", { detail: { on: !!on } })
+    new CustomEvent("lsb:parallels", { detail: { kind, on: !!on } })
   );
 }
 
-function mountParallelsToggle() {
-  const lab = document.createElement("label");
-  lab.className = "parallels-toggle";
-  const box = document.createElement("input");
-  box.type = "checkbox";
-  box.checked = parallelsEnabled();
-  box.addEventListener("change", () => setParallelsEnabled(box.checked));
-  const span = document.createElement("span");
-  span.textContent = "afficher les suggestions synoptiques et vétérotestamentaires";
-  lab.append(box, span);
-  return lab;
+export function mountParallelsToggle() {
+  const nav = document.createElement("nav");
+  nav.className = "parallels-toggle";
+  nav.setAttribute("aria-label", "Suggestions de lecture");
+  for (const kind of Object.keys(KIND_LABEL)) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "parallels-toggle-btn";
+    btn.dataset.kind = kind;
+    btn.textContent = KIND_LABEL[kind];
+    const on = parallelKindEnabled(kind);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const next = btn.getAttribute("aria-pressed") !== "true";
+      btn.setAttribute("aria-pressed", next ? "true" : "false");
+      setParallelKindEnabled(kind, next);
+    });
+    nav.append(btn);
+  }
+  return nav;
 }
 
 function parseIds(raw) {
@@ -174,6 +196,25 @@ export function editionMenuLabel(id) {
   const tag = LANG_TAG[v?.lang] || v?.lang || "";
   const core = year ? `${name} · ${year}` : name;
   return tag ? `${core} (${tag})` : core;
+}
+
+function fillEditionMenuLabel(btn, id) {
+  const v = EDITIONS[id];
+  const year = editionYearShort(id);
+  let name = editionName(id);
+  if (v?.lang === "el" && v.blurb) {
+    name = String(v.blurb).split("·")[0].trim() || name;
+  }
+  const tag = LANG_TAG[v?.lang] || v?.lang || "";
+  const core = year ? `${name} · ${year}` : name;
+  btn.replaceChildren();
+  btn.append(document.createTextNode(core));
+  if (tag) {
+    const sm = document.createElement("span");
+    sm.className = "edition-lang-tag";
+    sm.textContent = `(${tag})`;
+    btn.append(document.createTextNode(" "), sm);
+  }
 }
 
 export function readEditionOrder() {
@@ -292,7 +333,7 @@ export function mountHeaderTranslation() {
   return null;
 }
 
-export function mountActiveEditionBar(available = EDITION_STACK) {
+export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   document.querySelector(".active-edition-bar")?.remove();
   closeEditionMenu();
   document.body.classList.add("has-active-edition");
@@ -327,7 +368,8 @@ export function mountActiveEditionBar(available = EDITION_STACK) {
   });
   const spacer = document.createElement("span");
   spacer.className = "edition-bar-spacer";
-  spacer.setAttribute("aria-hidden", "true");
+  if (opts.parallels) spacer.append(mountParallelsToggle());
+  else spacer.setAttribute("aria-hidden", "true");
   bar.append(blurb, btn, spacer);
 
   const header = document.querySelector(".site-header");
@@ -354,7 +396,7 @@ function openEditionMenu(anchor, currentId, stack, onPick) {
     li.setAttribute("role", "option");
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.textContent = editionMenuLabel(id);
+    fillEditionMenuLabel(btn, id);
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();

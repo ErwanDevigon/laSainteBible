@@ -128,6 +128,7 @@ async function init() {
     }
 
     let growing = false;
+    let lastEditions = [];
     function maybeGrow(x) {
       if (growing) return;
       const order = visibleOrder();
@@ -153,6 +154,7 @@ async function init() {
         label: editionDisplayName(id),
         primary: i === order.length - 1,
       }));
+      lastEditions = editions;
 
       mountReaderChrome({
         title,
@@ -203,7 +205,11 @@ async function init() {
       paint();
     });
     document.addEventListener("lsb:parallels", () => {
-      paint();
+      mountParallels({
+        bookId,
+        container: bodyEl,
+        editions: lastEditions,
+      });
     });
     document.body.addEventListener("lsb:pan", (e) => {
       maybeGrow(e.detail?.x || 0);
