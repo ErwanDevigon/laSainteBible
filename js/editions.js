@@ -19,24 +19,30 @@ const CANON_PHRASE = {
   "fr:protestant": "canon protestant",
   "fr:catholic": "canon catholique",
   "fr:orthodox": "canon orthodoxe",
+  "fr:jewish": "canon hébraïque",
   "la:protestant": "canon protestanticum",
   "la:catholic": "canon catholicum",
   "la:orthodox": "canon orthodoxum",
   "el:protestant": "κανὼν προτεσταντικός",
   "el:catholic": "κανὼν καθολικός",
   "el:orthodox": "κανὼν ὀρθόδοξος",
+  "he:jewish": "תנ״ך",
+  "he:protestant": "תנ״ך",
 };
 
 const CANON_HEAD = {
   "fr:protestant": "Canon protestant",
   "fr:catholic": "Canon catholique",
   "fr:orthodox": "Canon orthodoxe",
+  "fr:jewish": "Canon hébraïque",
   "la:protestant": "Canon protestanticum",
   "la:catholic": "Canon catholicum",
   "la:orthodox": "Canon orthodoxum",
   "el:protestant": "Κανὼν προτεσταντικός",
   "el:catholic": "Κανὼν καθολικός",
   "el:orthodox": "Κανὼν ὀρθόδοξος",
+  "he:jewish": "תנ״ך",
+  "he:protestant": "תנ״ך",
 };
 
 export const EDITIONS = VERSIONS;
@@ -195,14 +201,14 @@ export function editionDisplayName(id) {
   return year ? `${name} · ${year}` : name;
 }
 
-const LANG_TAG = { fr: "fr", la: "la", el: "el" };
+const LANG_TAG = { fr: "fr", la: "la", el: "el", he: "he" };
 
 /** Dropdown only: name in the edition language + date. Sub-bars untouched. */
 export function editionMenuLabel(id) {
   const v = EDITIONS[id];
   const year = editionYearShort(id);
   let name = editionName(id);
-  if (v?.lang === "el" && v.blurb) {
+  if ((v?.lang === "el" || v?.lang === "he") && v.blurb) {
     name = String(v.blurb).split("·")[0].trim() || name;
   }
   const tag = LANG_TAG[v?.lang] || v?.lang || "";
@@ -214,12 +220,13 @@ function fillEditionMenuLabel(btn, id) {
   const v = EDITIONS[id];
   const year = editionYearShort(id);
   let name = editionName(id);
-  if (v?.lang === "el" && v.blurb) {
+  if ((v?.lang === "el" || v?.lang === "he") && v.blurb) {
     name = String(v.blurb).split("·")[0].trim() || name;
   }
   const tag = LANG_TAG[v?.lang] || v?.lang || "";
   const core = year ? `${name} · ${year}` : name;
   btn.replaceChildren();
+  if (v?.lang) btn.lang = v.lang;
   btn.append(document.createTextNode(core));
   if (tag) {
     const sm = document.createElement("span");
@@ -316,12 +323,15 @@ export function prependReaderColumn(id, available = EDITION_STACK) {
   return order;
 }
 
-export function nextUnusedColumn(columns, available) {
-  const used = new Set(columns);
-  for (const id of EDITION_STACK) {
-    if (available.includes(id) && !used.has(id)) return id;
-  }
-  return null;
+export function removeReaderColumn(index, available = EDITION_STACK) {
+  const order = orderedEditions(available);
+  if (index < 0 || index >= order.length - 1) return order;
+  order.splice(index, 1);
+  writeEditionOrder(order);
+  document.dispatchEvent(
+    new CustomEvent("lsb:editions", { detail: { order, removed: index } })
+  );
+  return order;
 }
 
 export function editionsByYearDesc(ids) {
@@ -362,11 +372,14 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   const blurb = document.createElement("p");
   blurb.className = "edition-bar-blurb";
   blurb.textContent = editionBlurbDatedCanon(active);
+  const activeLang = EDITIONS[active]?.lang;
+  if (activeLang) blurb.lang = activeLang;
 
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "edition-name-btn";
   btn.setAttribute("aria-haspopup", "listbox");
+  if (activeLang) btn.lang = activeLang;
   btn.textContent = editionName(active);
   btn.addEventListener("click", (e) => {
     e.preventDefault();
@@ -392,6 +405,52 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   if (header) header.after(bar);
   else document.body.prepend(bar);
   return bar;
+}
+
+function mountAddColumn(pool, used) {
+  const unused = pool.filter((id) => EDITIONS[id] && !used.includes(id));
+  if (!unused.length) return null;
+  const nav = document.createElement("nav");
+  nav.className = "edition-add-col";
+  nav.setAttribute("aria-label", "Ajouter une colonne");
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "edition-add-col-btn";
+  btn.setAttribute("aria-haspopup", "listbox");
+  btn.setAttribute("aria-label", "Ajouter une colonne");
+  btn.textContent = "+";
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (document.querySelector(".edition-menu")) {
+      closeEditionMenu();
+      return;
+    }
+    openEditionMenu(btn, null, unused, (id) => {
+      prependReaderColumn(id, pool);
+    });
+  });
+  nav.append(btn);
+  return nav;
+}
+
+function mountRemoveColumn(colIndex, pool) {
+  const nav = document.createElement("nav");
+  nav.className = "edition-remove-col";
+  nav.setAttribute("aria-label", "Fermer la colonne");
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "edition-remove-col-btn";
+  btn.setAttribute("aria-label", "Fermer la colonne");
+  btn.textContent = "-";
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    closeEditionMenu();
+    removeReaderColumn(colIndex, pool);
+  });
+  nav.append(btn);
+  return nav;
 }
 
 function editionNameCluster(btn, extra) {
@@ -465,10 +524,12 @@ function openParallelsMenu(anchor) {
   document.addEventListener("keydown", onKey, { signal: ac.signal });
 }
 
-function openEditionMenu(anchor, currentId, stack, onPick) {
+function openEditionMenu(anchor, currentId, stack, onPick, opts = {}) {
   closeParallelsMenu();
   closeEditionMenu();
-  const others = editionsByYearDesc(stack.filter((id) => id !== currentId));
+  const others = editionsByYearDesc(
+    (opts.ids || stack).filter((id) => id && id !== currentId)
+  );
   if (!others.length) return;
 
   const menu = document.createElement("ul");
@@ -588,6 +649,8 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
     btn.type = "button";
     btn.className = "edition-name-btn";
     btn.setAttribute("aria-haspopup", "listbox");
+    const colLang = EDITIONS[item.id]?.lang;
+    if (colLang) btn.lang = colLang;
     btn.textContent = item.label || editionDisplayName(item.id);
     btn.addEventListener("click", (e) => {
       e.preventDefault();
@@ -601,14 +664,13 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
       });
     });
     if (colIndex === labels.length - 1) wrap.classList.add("is-primary");
-    wrap.append(
-      editionNameCluster(
-        btn,
-        colIndex === labels.length - 1 ? mountParallelsToggle() : null
-      )
-    );
+    wrap.append(editionNameCluster(btn));
+    if (colIndex < labels.length - 1) wrap.append(mountRemoveColumn(colIndex, pool));
+    if (colIndex === labels.length - 1) wrap.append(mountParallelsToggle());
     stage.append(wrap);
   });
+  const add = mountAddColumn(pool, stack);
+  if (add) stage.firstElementChild?.append(add);
   nameBar.append(stage);
 
   const chrome = document.createElement("div");

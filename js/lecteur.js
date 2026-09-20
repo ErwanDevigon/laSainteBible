@@ -14,11 +14,8 @@ import {
   wrapCurrentPane,
   mountReaderChrome,
   orderedEditions,
-  editionCol,
   editionDisplayName,
   getActiveEdition,
-  prependReaderColumn,
-  nextUnusedColumn,
 } from "./editions.js";
 
 function el(tag, className, text) {
@@ -127,30 +124,14 @@ async function init() {
       return Math.max(280, window.innerWidth * 0.72);
     }
 
-    let growing = false;
     let lastEditions = [];
-    function maybeGrow(x) {
-      if (growing) return;
-      const order = visibleOrder();
-      const step = editionStepPx();
-      const max = Math.max(0, order.length - 1) * step;
-      if (x < max + step * 0.32) return;
-      const next = nextUnusedColumn(order, present);
-      if (!next) return;
-      growing = true;
-      const base = parseFloat(document.body.dataset.swipeBase) || 0;
-      document.body.dataset.swipeBase = String(base + step);
-      document.body.style.setProperty("--swipe-x", `${x + step}px`);
-      prependReaderColumn(next, present);
-      growing = false;
-    }
 
     function paint() {
       const order = visibleOrder().filter((id) => books[id]);
       if (!order.length) return;
       const editions = order.map((id, i) => ({
         book: books[id],
-        col: editionCol(id),
+        col: `c${i}`,
         label: editionDisplayName(id),
         primary: i === order.length - 1,
       }));
@@ -187,6 +168,14 @@ async function init() {
 
       wrapCurrentPane(order[order.length - 1]);
 
+      const step = editionStepPx();
+      const maxX = Math.max(0, order.length - 1) * step;
+      const x = parseFloat(document.body.style.getPropertyValue("--swipe-x")) || 0;
+      if (x > maxX) {
+        document.body.style.setProperty("--swipe-x", `${maxX}px`);
+        document.body.dataset.swipeBase = String(maxX);
+      }
+
       if (!railApi) {
         const nums = chapterNums(primaryBook);
         railApi = mountChapterRail({
@@ -210,9 +199,6 @@ async function init() {
         container: bodyEl,
         editions: lastEditions,
       });
-    });
-    document.body.addEventListener("lsb:pan", (e) => {
-      maybeGrow(e.detail?.x || 0);
     });
 
     if (hasHash) {

@@ -141,7 +141,139 @@ ALIASES = [
     ("jean", "jean"),
     ("ruth", "ruth"),
     ("job", "job"),
+    ("jude", "jude"),
+    ("1 co", "1-corinthiens"),
+    ("2 co", "2-corinthiens"),
+    ("1 tm", "1-timothee"),
+    ("2 tm", "2-timothee"),
+    ("1 th", "1-thessaloniciens"),
+    ("2 th", "2-thessaloniciens"),
+    ("1 jn", "1-jean"),
+    ("2 jn", "2-jean"),
+    ("3 jn", "3-jean"),
+    ("1 p", "1-pierre"),
+    ("2 p", "2-pierre"),
+    ("phm", "philemon"),
+    ("php", "philippiens"),
+    ("heb", "hebreux"),
+    ("col", "colossiens"),
+    ("eph", "ephesiens"),
+    ("tt", "tite"),
+    ("he", "hebreux"),
+    ("jc", "jacques"),
+    ("ga", "galates"),
+    ("ep", "ephesiens"),
+    ("ph", "philippiens"),
+    ("ap", "apocalypse"),
 ]
+
+SHORT = {
+    "genese": "Gn",
+    "exode": "Ex",
+    "levitique": "Lv",
+    "nombres": "Nb",
+    "deuteronome": "Dt",
+    "josue": "Jos",
+    "juges": "Jg",
+    "ruth": "Rt",
+    "1-samuel": "1 S",
+    "2-samuel": "2 S",
+    "1-rois": "1 R",
+    "2-rois": "2 R",
+    "1-chroniques": "1 Ch",
+    "2-chroniques": "2 Ch",
+    "esdras": "Esd",
+    "nehemie": "Né",
+    "esther": "Est",
+    "job": "Jb",
+    "psaumes": "Ps",
+    "proverbes": "Pr",
+    "ecclesiaste": "Qo",
+    "cantique": "Ct",
+    "esaie": "Is",
+    "jeremie": "Jr",
+    "lamentations": "Lm",
+    "ezechiel": "Ez",
+    "daniel": "Dn",
+    "osee": "Os",
+    "joel": "Jl",
+    "amos": "Am",
+    "abdias": "Ab",
+    "jonas": "Jon",
+    "michee": "Mi",
+    "nahum": "Na",
+    "habacuc": "Ha",
+    "sophonie": "So",
+    "aggee": "Ag",
+    "zacharie": "Za",
+    "malachie": "Ml",
+    "tobie": "Tb",
+    "judith": "Jdt",
+    "sagesse": "Sg",
+    "siracide": "Si",
+    "baruch": "Ba",
+    "1-maccabees": "1 M",
+    "2-maccabees": "2 M",
+    "matthieu": "Mt",
+    "marc": "Mc",
+    "luc": "Lc",
+    "jean": "Jn",
+    "actes": "Ac",
+    "romains": "Rm",
+    "1-corinthiens": "1 Co",
+    "2-corinthiens": "2 Co",
+    "galates": "Ga",
+    "ephesiens": "Ep",
+    "philippiens": "Ph",
+    "colossiens": "Col",
+    "1-thessaloniciens": "1 Th",
+    "2-thessaloniciens": "2 Th",
+    "1-timothee": "1 Tm",
+    "2-timothee": "2 Tm",
+    "tite": "Tt",
+    "philemon": "Phm",
+    "hebreux": "He",
+    "jacques": "Jc",
+    "1-pierre": "1 P",
+    "2-pierre": "2 P",
+    "1-jean": "1 Jn",
+    "2-jean": "2 Jn",
+    "3-jean": "3 Jn",
+    "jude": "Jude",
+    "apocalypse": "Ap",
+}
+
+ONE_CHAPTER = {"abdias", "philemon", "2-jean", "3-jean", "jude"}
+
+NT_IDS = {
+    "matthieu",
+    "marc",
+    "luc",
+    "jean",
+    "actes",
+    "romains",
+    "1-corinthiens",
+    "2-corinthiens",
+    "galates",
+    "ephesiens",
+    "philippiens",
+    "colossiens",
+    "1-thessaloniciens",
+    "2-thessaloniciens",
+    "1-timothee",
+    "2-timothee",
+    "tite",
+    "philemon",
+    "hebreux",
+    "jacques",
+    "1-pierre",
+    "2-pierre",
+    "1-jean",
+    "2-jean",
+    "3-jean",
+    "jude",
+    "apocalypse",
+}
 
 
 def fold(s: str) -> str:
@@ -189,6 +321,7 @@ def parse_loc(token: str) -> list[dict]:
     t = (token or "").strip()
     t = t.replace("–", "-").replace("—", "-")
     t = re.sub(r"\s+", "", t)
+    t = re.sub(r"(?i)\(?(lxx|mt|heb)\)?$", "", t)
     if not t or t in {"-", "—"}:
         return []
     m = re.match(r"^(\d+),(\d+)-(\d+),(\d+)$", t)
@@ -203,6 +336,12 @@ def parse_loc(token: str) -> list[dict]:
     m = re.match(r"^(\d+)$", t)
     if m:
         return [{"chapter": int(m.group(1)), "ranges": None}]
+    m = re.match(r"^(\d+)-(\d+)$", t)
+    if m:
+        a, b = int(m.group(1)), int(m.group(2))
+        if b < a or b - a > 2:
+            return []
+        return [{"chapter": c, "ranges": None} for c in range(a, b + 1)]
     m = re.match(r"^(\d+),(.+)$", t)
     if m:
         return [{"chapter": int(m.group(1)), "ranges": parse_verse_chunk(m.group(2)) or None}]
@@ -259,14 +398,23 @@ def parse_at_list(cell: str) -> list[dict]:
         if not book:
             # continuation: "8,8.10" still last book
             if last_book and re.match(r"^\d+", part.replace(" ", "")):
-                locs = parse_loc(part)
+                tail = part.replace(" ", "")
+                if last_book in ONE_CHAPTER and "," not in tail:
+                    ranges = parse_verse_chunk(tail)
+                    locs = [{"chapter": 1, "ranges": ranges or None}]
+                else:
+                    locs = parse_loc(part)
                 for loc in locs:
                     loc["book"] = last_book
                     out.append(loc)
             continue
         last_book = book
         tail = rest.replace(" ", "")
-        locs = parse_loc(tail) if tail else [{"chapter": 1, "ranges": None}]
+        if book in ONE_CHAPTER and tail and "," not in tail:
+            ranges = parse_verse_chunk(tail)
+            locs = [{"chapter": 1, "ranges": ranges or None}]
+        else:
+            locs = parse_loc(tail) if tail else [{"chapter": 1, "ranges": None}]
         # whole-book / huge chapter span without verses: skip if many chapters encoded poorly
         for loc in locs:
             loc["book"] = book
@@ -455,9 +603,133 @@ def build_citations(path: Path) -> list[dict]:
     return items
 
 
+def unique_id(seen: set[str], sid: str) -> str:
+    n = 2
+    base = sid
+    while sid in seen:
+        sid = f"{base}-{n}"
+        n += 1
+    seen.add(sid)
+    return sid
+
+
+def passage_from_spans(book: str, spans: list[dict]) -> dict:
+    return {
+        "book": book,
+        "short": SHORT.get(book, book),
+        "spans": [{"chapter": s["chapter"], "ranges": s.get("ranges")} for s in spans],
+        "cites": [cite_span({"chapter": s["chapter"], "ranges": s.get("ranges")}) for s in spans],
+    }
+
+
+def group_by_book(spans: list[dict]) -> list[dict]:
+    by: dict[str, list] = {}
+    order: list[str] = []
+    for sp in spans:
+        b = sp["book"]
+        if b not in by:
+            by[b] = []
+            order.append(b)
+        by[b].append(sp)
+    return [passage_from_spans(b, by[b]) for b in order]
+
+
+def parse_em_line(line: str) -> tuple[str, str, str] | None:
+    s = line.strip()
+    if not s or s.startswith("#") or s.startswith("|") or s.startswith("NB:"):
+        return None
+    parts = re.split(r"\s+[—–]\s+", s)
+    if len(parts) < 3:
+        return None
+    tail = fold(parts[-1])
+    if tail.startswith("citation"):
+        kind = "citation"
+    elif tail.startswith("allusion"):
+        kind = "allusion"
+    else:
+        return None
+    return parts[0].strip(), " — ".join(parts[1:-1]).strip(), kind
+
+
+def build_citations_lines(path: Path, seen: set[str], *, skip_gospels: bool = False) -> list[dict]:
+    items = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        parsed = parse_em_line(line)
+        if not parsed:
+            continue
+        origin_raw, at_raw, kind = parsed
+        origin_spans = parse_at_list(origin_raw)
+        if not origin_spans:
+            continue
+        origin_book = origin_spans[0]["book"]
+        origin_spans = [s for s in origin_spans if s["book"] == origin_book]
+        if skip_gospels and origin_book in GOSPEL:
+            continue
+        at_spans = [s for s in parse_at_list(at_raw) if s["book"] not in NT_IDS]
+        if not at_spans:
+            continue
+        loc_bits = "-".join(cite_span(s) for s in origin_spans)
+        sid = unique_id(seen, f"{origin_book}-{slug(loc_bits)}-{kind[0]}")
+        items.append(
+            {
+                "id": sid,
+                "label": at_raw,
+                "kind": kind,
+                "origin": passage_from_spans(origin_book, origin_spans),
+                "passages": group_by_book(at_spans),
+            }
+        )
+    return items
+
+
+def build_synopse_lines(path: Path, seen: set[str]) -> list[dict]:
+    items = []
+    skip = False
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("##"):
+            folded = fold(line)
+            skip = (
+                ("jean" in folded and ("synopt" in folded or "recoup" in folded))
+                or "citations formelles de paroles" in folded
+            )
+            continue
+        if skip:
+            continue
+        parsed = parse_em_line(line)
+        if not parsed:
+            continue
+        origin_raw, mid_raw, _kind = parsed
+        origin_spans = parse_at_list(origin_raw)
+        if not origin_spans:
+            continue
+        origin_book = origin_spans[0]["book"]
+        origin_spans = [s for s in origin_spans if s["book"] == origin_book]
+        others = [s for s in parse_at_list(mid_raw) if s["book"] in NT_IDS]
+        if not others:
+            continue
+        passages = group_by_book(origin_spans + others)
+        if len(passages) < 2:
+            continue
+        loc_bits = "-".join(cite_span(s) for s in origin_spans)
+        sid = unique_id(seen, slug(f"{origin_book}-{loc_bits}"))
+        label = f"{SHORT.get(origin_book, origin_book)} {', '.join(cite_span(s) for s in origin_spans)}"
+        items.append({"id": sid, "label": label, "kind": "synopse", "passages": passages})
+    return items
+
+
 def main() -> int:
-    syn = build_synopse(VAULT / "Synopse NT.md")
-    cit = build_citations(VAULT / "citations vétérotestamentaires.md")
+    syn = build_synopse(VAULT / "Synopse Évangiles.md")
+    syn_seen = {it["id"] for it in syn}
+    extra_syn = build_synopse_lines(VAULT / "Synopse NT hors Évangiles.md", syn_seen)
+    syn.extend(extra_syn)
+    cit = build_citations(VAULT / "citations vétérotestamentaires dans 4 évangiles.md")
+    cit_seen = {it["id"] for it in cit}
+    extra_cit = build_citations_lines(
+        VAULT / "citations vétérotestamentaires NT hors Évangiles.md",
+        cit_seen,
+        skip_gospels=True,
+    )
+    cit.extend(extra_cit)
     (OUT / "parallels-nt.json").write_text(
         json.dumps({"items": syn}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -466,8 +738,8 @@ def main() -> int:
         json.dumps({"items": cit}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"parallels-nt.json  {len(syn)} pericopes")
-    print(f"citations-at.json  {len(cit)} C/A")
+    print(f"parallels-nt.json  {len(syn)} pericopes  (+{len(extra_syn)} hors évangiles)")
+    print(f"citations-at.json  {len(cit)} C/A  (+{len(extra_cit)} hors évangiles)")
     return 0
 
 

@@ -10,6 +10,9 @@ CANON_PHRASE = {
     ("el", "protestant"): "κανὼν προτεσταντικός",
     ("el", "catholic"): "κανὼν καθολικός",
     ("el", "orthodox"): "κανὼν ὀρθόδοξος",
+    ("fr", "jewish"): "canon hébraïque",
+    ("he", "jewish"): "תנ״ך",
+    ("he", "protestant"): "תנ״ך",
 }
 
 CANON_HEAD = {
@@ -22,6 +25,9 @@ CANON_HEAD = {
     ("el", "protestant"): "Κανὼν προτεσταντικός",
     ("el", "catholic"): "Κανὼν καθολικός",
     ("el", "orthodox"): "Κανὼν ὀρθόδοξος",
+    ("fr", "jewish"): "Canon hébraïque",
+    ("he", "jewish"): "תנ״ך",
+    ("he", "protestant"): "תנ״ך",
 }
 
 DIDACTIC = {
@@ -259,7 +265,50 @@ DIDACTIC = {
         "jude": "Ἰούδα ἐπιστολή",
         "apocalypse": "Ἀποκάλυψις Ἰωάννου",
     },
+    "he": {
+        "genese": "בראשית",
+        "exode": "שמות",
+        "levitique": "ויקרא",
+        "nombres": "במדבר",
+        "deuteronome": "דברים",
+        "josue": "יהושע",
+        "juges": "שופטים",
+        "ruth": "רות",
+        "1-samuel": "שמואל א",
+        "2-samuel": "שמואל ב",
+        "1-rois": "מלכים א",
+        "2-rois": "מלכים ב",
+        "1-chroniques": "דברי הימים א",
+        "2-chroniques": "דברי הימים ב",
+        "esdras": "עזרא",
+        "nehemie": "נחמיה",
+        "esther": "אסתר",
+        "job": "איוב",
+        "psaumes": "תהלים",
+        "proverbes": "משלי",
+        "ecclesiaste": "קהלת",
+        "cantique": "שיר השירים",
+        "esaie": "ישעיהו",
+        "jeremie": "ירמיהו",
+        "lamentations": "איכה",
+        "ezechiel": "יחזקאל",
+        "daniel": "דניאל",
+        "osee": "הושע",
+        "joel": "יואל",
+        "amos": "עמוס",
+        "abdias": "עובדיה",
+        "jonas": "יונה",
+        "michee": "מיכה",
+        "nahum": "נחום",
+        "habacuc": "חבקוק",
+        "sophonie": "צפניה",
+        "aggee": "חגי",
+        "zacharie": "זכריה",
+        "malachie": "מלאכי",
+    },
 }
+
+HEBREW_ORIGINAL = DIDACTIC["he"]
 
 
 def didactic_title(lang: str, book_id: str, fallback: str) -> str:

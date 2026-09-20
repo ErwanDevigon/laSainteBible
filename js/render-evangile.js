@@ -3,13 +3,20 @@
  * Verses injected via textContent only (XSS-safe).
  */
 
-function verseRow(chapterN, verse, { highlight = false, idPrefix = "", col = null, withId = true } = {}) {
+function applyLang(el, lang) {
+  if (!lang) return;
+  el.lang = lang;
+  if (lang === "he") el.dir = "rtl";
+}
+
+function verseRow(chapterN, verse, { highlight = false, idPrefix = "", col = null, withId = true, lang = "" } = {}) {
   const row = document.createElement("p");
   row.className = "verse";
   if (withId) row.id = `${idPrefix}c${chapterN}v${verse.n}`;
   row.dataset.verse = String(verse.n);
   if (col) row.dataset.col = col;
   if (highlight) row.dataset.highlight = "true";
+  applyLang(row, lang);
 
   const vn = document.createElement("span");
   vn.className = "verse-num";
@@ -32,13 +39,16 @@ function verseRow(chapterN, verse, { highlight = false, idPrefix = "", col = nul
  */
 export function renderChapter(chapter, opts = {}) {
   const prefix = opts.idPrefix || "";
+  const lang = opts.lang || "";
   const section = document.createElement("section");
   section.className = "chapter";
   section.id = `${prefix}c${chapter.n}`;
   section.dataset.chapter = String(chapter.n);
+  applyLang(section, lang);
 
   const label = document.createElement("div");
   label.className = "chapter-label";
+  applyLang(label, lang);
   const num = document.createElement("span");
   num.className = "chapter-num";
   const short = opts.short || "";
@@ -53,7 +63,7 @@ export function renderChapter(chapter, opts = {}) {
     const highlight =
       hs != null && he != null && verse.n >= hs && verse.n <= he;
     section.appendChild(
-      verseRow(chapter.n, verse, { highlight, idPrefix: prefix })
+      verseRow(chapter.n, verse, { highlight, idPrefix: prefix, lang })
     );
   }
 
@@ -94,14 +104,16 @@ function maskFold() {
  *   zones: { el: HTMLElement, kind: 'before'|'down' }[],
  * }}
  */
-export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, ranges = null } = {}) {
+export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, ranges = null, lang = "" } = {}) {
   const root = document.createElement("div");
   root.className = "chapter-mask";
   root.dataset.expanded = "false";
   root.dataset.chapter = String(chapter.n);
+  applyLang(root, lang);
 
   const label = document.createElement("div");
   label.className = "chapter-label mask-label";
+  applyLang(label, lang);
   const num = document.createElement("span");
   num.className = "chapter-num";
   num.textContent = short ? `${short} ${chapter.n}` : String(chapter.n);
@@ -131,7 +143,7 @@ export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, r
   const before = maskZone("before");
   before.inner.appendChild(label);
   if (segs[0] && !segs[0].cited) {
-    for (const v of segs[0].verses) before.inner.appendChild(verseRow(chapter.n, v));
+    for (const v of segs[0].verses) before.inner.appendChild(verseRow(chapter.n, v, { lang }));
     segs.shift();
   }
   root.appendChild(before.wrap);
@@ -143,7 +155,7 @@ export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, r
       const block = document.createElement("div");
       block.className = "mask-excerpt";
       for (const v of seg.verses) {
-        block.appendChild(verseRow(chapter.n, v, { highlight: true }));
+        block.appendChild(verseRow(chapter.n, v, { highlight: true, lang }));
       }
       if (!excerpt) excerpt = block;
       root.appendChild(block);
@@ -154,7 +166,7 @@ export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, r
       root.appendChild(maskFold());
     }
     const gap = maskZone(i === segs.length - 1 ? "after" : "gap");
-    for (const v of seg.verses) gap.inner.appendChild(verseRow(chapter.n, v));
+    for (const v of seg.verses) gap.inner.appendChild(verseRow(chapter.n, v, { lang }));
     root.appendChild(gap.wrap);
     zones.push({ el: gap.wrap, kind: "down" });
   }
@@ -203,12 +215,13 @@ function verseMap(chapter) {
   return map;
 }
 
-function alignedLabel(n, short, col, { id = "", primary = false } = {}) {
+function alignedLabel(n, short, col, { id = "", primary = false, lang = "" } = {}) {
   const label = document.createElement("div");
   label.className = "chapter-label";
   label.dataset.col = col;
   if (id) label.id = id;
   if (primary) label.dataset.chapter = String(n);
+  applyLang(label, lang);
   const num = document.createElement("span");
   num.className = "chapter-num";
   num.textContent = short ? `${short} ${n}` : String(n);
@@ -250,9 +263,11 @@ export function renderAlignedBook({ editions, container, end = null }) {
     );
     editions.forEach((ed, i) => {
       const colN = String(i + 1);
+      const lang = ed.book.version?.lang || "";
       const label = alignedLabel(n, ed.book.short, ed.col, {
         id: ed.primary ? `c${n}` : "",
         primary: !!ed.primary,
+        lang,
       });
       label.style.gridColumn = colN;
       label.style.gridRow = "1";
@@ -261,7 +276,7 @@ export function renderAlignedBook({ editions, container, end = null }) {
       pair.append(label);
       vNums.forEach((vn, vi) => {
         const v = vMaps[i].get(vn) || { n: vn, t: "" };
-        const row = verseRow(n, v, { col: ed.col, withId: !!ed.primary });
+        const row = verseRow(n, v, { col: ed.col, withId: !!ed.primary, lang });
         row.style.gridColumn = colN;
         row.style.gridRow = String(vi + 2);
         if (vi === vNums.length - 1) row.classList.add("is-card-foot");

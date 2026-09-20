@@ -104,6 +104,13 @@ body.has-active-edition {
 
 .active-edition-bar .edition-name-cluster {
   justify-self: center;
+  position: static;
+}
+
+.active-edition-bar .parallels-toggle {
+  left: calc(50% + var(--edition-col) / 2);
+  margin-left: 0;
+  transform: translateX(-100%);
 }
 
 .active-edition-bar .edition-name-btn {
@@ -264,11 +271,52 @@ body.lecteur-page[data-book] > .site-header {
 }
 
 .edition-name-stage p {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   min-height: var(--edition-bar-h);
+}
+
+.edition-add-col,
+.edition-remove-col {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.edition-add-col {
+  left: 0;
+}
+
+.edition-remove-col {
+  right: 0;
+}
+
+.edition-add-col-btn,
+.edition-remove-col-btn {
+  margin: 0;
+  padding: 0 0.55rem;
+  border: 0;
+  background: none;
+  font-family: var(--font-ui);
+  font-size: 1.05rem;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--text-faint);
+  cursor: pointer;
+}
+
+.edition-add-col-btn:hover,
+.edition-add-col-btn:focus-visible,
+.edition-add-col-btn[aria-expanded="true"],
+.edition-remove-col-btn:hover,
+.edition-remove-col-btn:focus-visible {
+  color: var(--text);
 }
 
 .edition-name-cluster {
@@ -300,6 +348,12 @@ body.lecteur-page[data-book] > .site-header {
   color: var(--text-faint);
   white-space: nowrap;
   user-select: none;
+}
+
+.edition-name-stage p.is-primary .parallels-toggle {
+  left: auto;
+  right: 0;
+  margin-left: 0;
 }
 
 .parallels-toggle-btn {
@@ -714,6 +768,24 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   column-gap: var(--space-2);
   margin: 0 0 0.55em;
   scroll-margin-top: calc(var(--header-h) + var(--space-3));
+}
+
+.verse[dir="rtl"] {
+  font-family: var(--font-he);
+  font-size: 1.12em;
+  line-height: 1.95;
+}
+
+.verse[dir="rtl"] .verse-text {
+  text-align: start;
+  hyphens: none;
+  font-family: var(--font-he);
+}
+
+.chapter-label[dir="rtl"],
+.chapter-mask[dir="rtl"] .chapter-num {
+  font-family: var(--font-he);
+  letter-spacing: 0;
 }
 
 .verse-num {

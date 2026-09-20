@@ -1,17 +1,19 @@
 /** Synopse NT + AT citations. One ParallelHost per verse surface (column, messe row, card). */
 
-import { resolveUrls, loadVersionIndex } from "./data-loader.js";
+import { resolveUrls, loadVersionIndex, tryLoadBook } from "./data-loader.js";
 import { MaskDilatation } from "./expand.js";
 import { BOOK_BY_ID, bookHref } from "./books.js";
 import { displayBookTitle, parallelKindEnabled } from "./editions.js";
 
-const NT_URL = "data/parallels-nt.json";
-const AT_URL = "data/citations-at.json";
+const NT_URL = "data/parallels-nt.json?v=2";
+const AT_URL = "data/citations-at.json?v=2";
 const RAIL_INSET = 8;
 const RAIL_LANE = 14;
 const MAX_DEPTH = 8;
 
 let packed = null;
+let packedRaw = null;
+let packedEd = null;
 let indexCache = null;
 let hideGate = null;
 let treeGen = 0;
@@ -111,25 +113,83 @@ function mergeAccomplissementHits(hits) {
   return [...other, ...[...buckets.values()].map(fuseAccomplissementHits)];
 }
 
-async function loadPack() {
-  if (packed) return packed;
+async function loadRaw() {
+  if (packedRaw) return packedRaw;
   const [nt, at] = await Promise.all([loadJson(NT_URL), loadJson(AT_URL)]);
-  const citations = at?.items || [];
-  packed = {
-    synopse: nt?.items || [],
-    citations,
-    reverse: invertCitations(citations),
+  packedRaw = { synopse: nt?.items || [], citations: at?.items || [] };
+  return packedRaw;
+}
+
+function chapterHasVerse(book, chN, vN) {
+  const ch = book?.chapters?.find((c) => c.n === chN);
+  return !!ch?.verses?.some((v) => v.n === vN);
+}
+
+function malachiIsProtestant(book) {
+  return chapterHasVerse(book, 4, 1) && !chapterHasVerse(book, 3, 19);
+}
+
+function remapMalachiSpan(span) {
+  if (!span || span.chapter !== 3) return [span];
+  const ranges = span.ranges;
+  if (!ranges || !ranges.length) {
+    return [
+      { chapter: 3, ranges: null },
+      { chapter: 4, ranges: null },
+    ];
+  }
+  const low = [];
+  const high = [];
+  for (const r of ranges) {
+    const a = r.start ?? 1;
+    const b = r.end == null ? 24 : r.end;
+    if (a <= 18) low.push({ start: a, end: Math.min(b, 18) });
+    if (b >= 19) high.push({ start: Math.max(a, 19) - 18, end: b - 18 });
+  }
+  const out = [];
+  if (low.length) out.push({ chapter: 3, ranges: low });
+  if (high.length) out.push({ chapter: 4, ranges: high });
+  return out.length ? out : [span];
+}
+
+function remapMalachiPassage(p) {
+  if (!p || p.book !== "malachie") return p;
+  const spans = (p.spans || []).flatMap(remapMalachiSpan);
+  return { ...p, spans, cites: spans.map(citeOf) };
+}
+
+function remapMalachiItem(item) {
+  return {
+    ...item,
+    origin: remapMalachiPassage(item.origin),
+    passages: (item.passages || []).map(remapMalachiPassage),
   };
-  return packed;
 }
 
 export async function prepareParallels(edition) {
-  await loadPack();
-  if (!edition) return packed;
-  try {
-    indexCache = await loadVersionIndex(edition);
-  } catch {
-    indexCache = null;
+  const raw = await loadRaw();
+  const ed = edition || "";
+  if (packed && packedEd === ed) return packed;
+  let toProtestant = false;
+  if (ed) {
+    const malachi = await tryLoadBook("malachie", ed);
+    toProtestant = malachiIsProtestant(malachi);
+  }
+  const citations = toProtestant
+    ? raw.citations.map(remapMalachiItem)
+    : raw.citations;
+  packed = {
+    synopse: raw.synopse,
+    citations,
+    reverse: invertCitations(citations),
+  };
+  packedEd = ed;
+  if (ed) {
+    try {
+      indexCache = await loadVersionIndex(ed);
+    } catch {
+      indexCache = null;
+    }
   }
   return packed;
 }
@@ -351,6 +411,10 @@ function greekTitle(title) {
   return /[Α-ω]/.test(title);
 }
 
+function hebrewTitle(title) {
+  return /[\u0590-\u05FF]/.test(title);
+}
+
 function stripGospelPrefix(title) {
   return String(title || "")
     .replace(/^Évangile\s+/i, "")
@@ -360,18 +424,20 @@ function stripGospelPrefix(title) {
 }
 
 function psalmName(title) {
+  if (hebrewTitle(title)) return "מזמור";
   if (greekTitle(title)) return "Ψαλμὸς";
   if (latinTitle(title) || /psalm/i.test(title)) return "Psalmus";
   return "Psaume";
 }
 
 function chapLabel(title) {
+  if (hebrewTitle(title)) return "פרק";
   if (greekTitle(title)) return "κεφ.";
   if (latinTitle(title)) return "Cap.";
   return "Chap.";
 }
 
-function verseBits(ranges) {
+function verseBits(ranges, hebrew = false) {
   if (!ranges || !ranges.length) return "";
   const parts = [];
   let allSingle = true;
@@ -380,13 +446,20 @@ function verseBits(ranges) {
     const b = r.end;
     if (b == null || b >= 9000) {
       allSingle = false;
-      parts.push(`${a} et suivants`);
+      parts.push(hebrew ? `${a} ואילך` : `${a} et suivants`);
     } else if (a === b) {
       parts.push(String(a));
     } else {
       allSingle = false;
-      parts.push(`${a} à ${b}`);
+      parts.push(hebrew ? `${a}–${b}` : `${a} à ${b}`);
     }
+  }
+  if (hebrew) {
+    if (allSingle) {
+      if (parts.length === 1) return `פסוק ${parts[0]}`;
+      return `פסוקים ${parts.join(", ")}`;
+    }
+    return `פסוקים ${parts.join(", ")}`;
   }
   if (allSingle) {
     if (parts.length === 1) return `verset ${parts[0]}`;
@@ -403,7 +476,7 @@ function headingFor(bookId, span) {
     fromIndex || BOOK_BY_ID[bookId]?.title || bookId
   );
   const ch = span.chapter;
-  const verses = verseBits(span.ranges);
+  const verses = verseBits(span.ranges, hebrewTitle(title));
   if (bookId === "psaumes" || bookId === "psaume-151") {
     const name = psalmName(title);
     return verses ? `${name} ${ch}, ${verses}` : `${name} ${ch}`;
@@ -676,13 +749,9 @@ class ParallelHost {
 
   hits() {
     let raw = itemsForBookChapter(this.bookId, this.chapter);
-    // Nested cards: whole chapter, then verseShown clips to the excerpt
-    // until dilatation uncovers more. Depth-0 messe stays on the reading.
-    if (this.depth === 0 && (this.ranges?.length || this.verseStart != null)) {
-      raw = raw.filter((h) =>
-        spanOverlapsRanges(h.span, this.chapter, this.ranges, this.verseStart)
-      );
-    }
+    // Nested cards: whole chapter, verseShown clips to the excerpt
+    // until dilatation uncovers more. Messe depth-0: same — collapsed
+    // reading hides later verses; dilated chapter reveals their rails.
     return mergeAccomplissementHits(
       raw.map((h) => {
         const v = spanVerses(h.span);
@@ -708,23 +777,12 @@ class ParallelHost {
   railGeom(h) {
     const rr = this.root.getBoundingClientRect();
     const els = rangeEls(this.verseRoot, h.span, this.col || null);
-    let top;
-    let height;
-    if (els.length) {
-      const first = els[0];
-      const last = els[els.length - 1];
-      top = first.getBoundingClientRect().top - rr.top;
-      height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
-    } else if (this.depth === 0 && !this.col) {
-      const body =
-        this.verseRoot.querySelector(".reading-mask-host, .reading-excerpt") ||
-        this.verseRoot;
-      const br = body.getBoundingClientRect();
-      top = br.top - rr.top;
-      height = br.height;
-    } else {
-      return null;
-    }
+    if (!els.length) return null;
+    const first = els[0];
+    const last = els[els.length - 1];
+    const top = first.getBoundingClientRect().top - rr.top;
+    const height =
+      last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
     const left =
       this.anchorRight() - rr.left + RAIL_INSET + (h.lane || 0) * RAIL_LANE;
     return { top, height, left, lane: h.lane || 0 };
@@ -843,6 +901,12 @@ class ParallelHost {
 
   async open(rail) {
     if (this.depth > MAX_DEPTH) return;
+    if (rail.classList.contains("is-open")) {
+      ++this.openSeq;
+      if (this.depth === 0) treeGen += 1;
+      await this.hideOwn();
+      return;
+    }
     const seq = ++this.openSeq;
     const gen = treeGen;
     if (this.depth === 0) {
@@ -859,7 +923,6 @@ class ParallelHost {
     const item = rail._item;
     const span = rail._span;
     const cards = this.ensureCards();
-    const includeSelf = this.includeSelfFor(item);
     fillCards(
       cards,
       item,
@@ -868,7 +931,7 @@ class ParallelHost {
       verseMin(span),
       this.edition,
       this.occupied(),
-      includeSelf
+      false
     );
     if (!cards.children.length) {
       emptyCards(cards);
@@ -910,7 +973,7 @@ class ParallelHost {
     rail.dataset.hitKey = this.hitKey(h.item, h.span);
     rail.setAttribute(
       "aria-label",
-      stampText(h.item, this.bookId, this.chapter, h.min, occupied, includeSelf)
+      stampText(h.item, this.bookId, this.chapter, h.min, [], includeSelf)
     );
     rail._host = this;
     rail._open = () => this.open(rail);
@@ -1054,7 +1117,6 @@ function bindGlobal() {
       pair?.closest("[data-book]")?.dataset.book ||
       reading?.dataset.bookId ||
       ctx.bookId;
-    const occupied = host?.occupied?.() || [];
     const includeSelf = host
       ? host.includeSelfFor(rail._item)
       : kindKey(rail._item) === "synopse" &&
@@ -1064,7 +1126,7 @@ function bindGlobal() {
       bookId,
       chapter,
       spanVerses(rail._span).min,
-      occupied,
+      [],
       includeSelf
     );
     s.hidden = false;

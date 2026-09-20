@@ -68,7 +68,11 @@ const EDGE_SLACK = 8;
 let padApplied = 0;
 
 function headroomHost() {
-  return document.querySelector(".book-body");
+  return (
+    document.querySelector(".book-body") ||
+    document.querySelector(".readings") ||
+    document.querySelector(".site-main")
+  );
 }
 
 function applyHeadroom(next) {
@@ -169,6 +173,7 @@ export class MaskDilatation {
       verseStart,
       verseEnd,
       ranges,
+      lang: book.version?.lang || "",
     });
 
     this.root = root;
@@ -472,7 +477,9 @@ export class MaskDilatation {
    */
   _headroomNeeded(before) {
     if (!this.lockPage || !before || before.height <= 0 || !this.excerpt) return 0;
-    if (!this.host.closest(".book-body")) return 0;
+    const inBook = this.host.closest(".book-body");
+    const inCite = this.host.closest(".parallel-card");
+    if (!inBook && !inCite) return 0;
     const grow = Math.max(
       0,
       before.height - this._roomFor(before) + EDGE_SLACK

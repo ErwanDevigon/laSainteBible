@@ -1,0 +1,330 @@
+{
+  "version": {
+    "id": "leningrad",
+    "label": "Codex Leningradensis",
+    "name": "הקודקס הלנינגרדי",
+    "blurb": "הקודקס הלנינגרדי",
+    "year": 1008,
+    "lang": "he",
+    "license": "public-domain",
+    "source": "Unicode/XML Leningrad Codex (UXLC 2.5)",
+    "abbreviation": "leningrad",
+    "canon": "jewish",
+    "at": "תנ״ך",
+    "nt": "הברית החדשה"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "בראשית",
+      "original_title": "בראשית",
+      "short": "בראשית",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "שמות",
+      "original_title": "שמות",
+      "short": "שמות",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "ויקרא",
+      "original_title": "ויקרא",
+      "short": "ויקרא",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "במדבר",
+      "original_title": "במדבר",
+      "short": "במדבר",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "דברים",
+      "original_title": "דברים",
+      "short": "דברים",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "יהושע",
+      "original_title": "יהושע",
+      "short": "יהושע",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "שופטים",
+      "original_title": "שופטים",
+      "short": "שופטים",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "שמואל א",
+      "original_title": "שמואל א",
+      "short": "שמואל א",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "שמואל ב",
+      "original_title": "שמואל ב",
+      "short": "שמואל ב",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "מלכים א",
+      "original_title": "מלכים א",
+      "short": "מלכים א",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "מלכים ב",
+      "original_title": "מלכים ב",
+      "short": "מלכים ב",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "esaie",
+      "title": "ישעיהו",
+      "original_title": "ישעיהו",
+      "short": "ישעיהו",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "ירמיהו",
+      "original_title": "ירמיהו",
+      "short": "ירמיהו",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "יחזקאל",
+      "original_title": "יחזקאל",
+      "short": "יחזקאל",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "osee",
+      "title": "הושע",
+      "original_title": "הושע",
+      "short": "הושע",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "יואל",
+      "original_title": "יואל",
+      "short": "יואל",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "עמוס",
+      "original_title": "עמוס",
+      "short": "עמוס",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "עובדיה",
+      "original_title": "עובדיה",
+      "short": "עובדיה",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "יונה",
+      "original_title": "יונה",
+      "short": "יונה",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "מיכה",
+      "original_title": "מיכה",
+      "short": "מיכה",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "נחום",
+      "original_title": "נחום",
+      "short": "נחום",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "חבקוק",
+      "original_title": "חבקוק",
+      "short": "חבקוק",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "צפניה",
+      "original_title": "צפניה",
+      "short": "צפניה",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "חגי",
+      "original_title": "חגי",
+      "short": "חגי",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "זכריה",
+      "original_title": "זכריה",
+      "short": "זכריה",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "מלאכי",
+      "original_title": "מלאכי",
+      "short": "מלאכי",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "psaumes",
+      "title": "תהלים",
+      "original_title": "תהלים",
+      "short": "תהלים",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "משלי",
+      "original_title": "משלי",
+      "short": "משלי",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "איוב",
+      "original_title": "איוב",
+      "short": "איוב",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "שיר השירים",
+      "original_title": "שיר השירים",
+      "short": "שיר השירים",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ruth",
+      "title": "רות",
+      "original_title": "רות",
+      "short": "רות",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "lamentations",
+      "title": "איכה",
+      "original_title": "איכה",
+      "short": "איכה",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "קהלת",
+      "original_title": "קהלת",
+      "short": "קהלת",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "אסתר",
+      "original_title": "אסתר",
+      "short": "אסתר",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "daniel",
+      "title": "דניאל",
+      "original_title": "דניאל",
+      "short": "דניאל",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "עזרא",
+      "original_title": "עזרא",
+      "short": "עזרא",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "נחמיה",
+      "original_title": "נחמיה",
+      "short": "נחמיה",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "דברי הימים א",
+      "original_title": "דברי הימים א",
+      "short": "דברי הימים א",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "דברי הימים ב",
+      "original_title": "דברי הימים ב",
+      "short": "דברי הימים ב",
+      "testament": "at",
+      "section": "ketuvim"
+    }
+  ]
+}

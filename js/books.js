@@ -1283,7 +1283,7 @@ export const VERSIONS = {
     "id": "septante",
     "label": "Septante (LXX)",
     "name": "Septante (LXX)",
-    "blurb": "Οἱ Ἑβδομήκοντα",
+    "blurb": "Οἱ Ἑβδομήκοντα (LXX)",
     "year": -250,
     "year_label": "-250 av. J.C",
     "lang": "el",
@@ -1349,6 +1349,20 @@ export const VERSIONS = {
     "canon": "protestant",
     "at": "Παλαιὰ Διαθήκη",
     "nt": "Καινὴ Διαθήκη"
+  },
+  "leningrad": {
+    "id": "leningrad",
+    "label": "Codex Leningradensis",
+    "name": "הקודקס הלנינגרדי",
+    "blurb": "הקודקס הלנינגרדי",
+    "year": 1008,
+    "lang": "he",
+    "license": "public-domain",
+    "source": "Unicode/XML Leningrad Codex (UXLC 2.5)",
+    "abbreviation": "leningrad",
+    "canon": "jewish",
+    "at": "תנ״ך",
+    "nt": "הברית החדשה"
   }
 };
 

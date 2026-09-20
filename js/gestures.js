@@ -7,7 +7,7 @@
 
 const SLOP = 8;
 const IGNORE =
-  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu, .parallels-menu, .testament-bar, .site-header, .reader-chrome, .parallels-toggle, .parallels-toggle-btn, .parallel-rail, .parallel-stamp";
+  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu, .parallels-menu, .testament-bar, .site-header, .reader-chrome, .parallels-toggle, .parallels-toggle-btn, .edition-add-col, .edition-add-col-btn, .edition-remove-col, .edition-remove-col-btn, .parallel-rail, .parallel-stamp";
 
 function readX(root) {
   return parseFloat(root.style.getPropertyValue("--swipe-x")) || 0;

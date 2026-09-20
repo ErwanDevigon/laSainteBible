@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 from canon import BOOKS, BY_ID, BY_NR, books_for_canon
-from titles import DIDACTIC, didactic_title
+from titles import DIDACTIC, didactic_title, HEBREW_ORIGINAL
 
 ROOT = Path(__file__).resolve().parents[1]
 TEXTS = ROOT / "texts"
@@ -117,7 +117,7 @@ VERSIONS = {
         "id": "septante",
         "label": "Septante (LXX)",
         "name": "Septante (LXX)",
-        "blurb": "Οἱ Ἑβδομήκοντα",
+        "blurb": "Οἱ Ἑβδομήκοντα (LXX)",
         "year": -250,
         "year_label": "-250 av. J.C",
         "lang": "el",
@@ -188,6 +188,21 @@ VERSIONS = {
         "file": "moderngreek.json",
         "at": "Παλαιὰ Διαθήκη",
         "nt": "Καινὴ Διαθήκη",
+    },
+    "leningrad": {
+        "id": "leningrad",
+        "label": "Codex Leningradensis",
+        "name": "הקודקס הלנינגרדי",
+        "blurb": "הקודקס הלנינגרדי",
+        "year": 1008,
+        "lang": "he",
+        "license": "public-domain",
+        "source": "Unicode/XML Leningrad Codex (UXLC 2.5)",
+        "abbreviation": "leningrad",
+        "canon": "jewish",
+        "builder": "tanakh",
+        "at": "תנ״ך",
+        "nt": "הברית החדשה",
     },
 }
 
@@ -369,6 +384,8 @@ def original_title_for(version_key: str, book_id: str, book_meta: dict, raw_name
         return book_meta["title"]
     if version_key == "septante":
         return GREEK_TITLES.get(book_id) or book_meta["title"]
+    if VERSIONS.get(version_key, {}).get("lang") == "he":
+        return HEBREW_ORIGINAL.get(book_id) or book_meta["title"]
     return (raw_name or "").strip() or book_meta["title"]
 
 
@@ -700,7 +717,7 @@ def copy_nestle_gospels(dest_dir: Path, meta: dict) -> int:
                 "septante", gid, book_meta, raw.get("title")
             ),
             "short": book_meta["short"],
-            "version": {k: meta[k] for k in meta if k != "file"},
+            "version": {k: meta[k] for k in meta if k not in ("file", "builder")},
             "chapters": raw.get("chapters") or [],
         }
         (dest_dir / f"{gid}.json").write_text(
@@ -714,6 +731,9 @@ def copy_nestle_gospels(dest_dir: Path, meta: dict) -> int:
 
 def extract(version_key: str) -> tuple[int, list[dict]]:
     meta = VERSIONS[version_key]
+    if meta.get("builder"):
+        print(f"skip extract {version_key:15} builder {meta['builder']}")
+        return 0, []
     src = TEXTS / meta["file"]
     dest_dir = OUT_BASE / version_key
 
@@ -768,7 +788,7 @@ def extract(version_key: str) -> tuple[int, list[dict]]:
                     }
                 )
 
-        public_meta = {k: meta[k] for k in meta if k != "file"}
+        public_meta = {k: meta[k] for k in meta if k not in ("file", "builder")}
         book = {
             "id": book_meta["id"],
             "title": didactic_title_for(version_key, book_meta["id"], book_meta["title"]),
@@ -820,7 +840,7 @@ def extract(version_key: str) -> tuple[int, list[dict]]:
                 }
             )
 
-    public_meta = {k: meta[k] for k in meta if k != "file"}
+    public_meta = {k: meta[k] for k in meta if k not in ("file", "builder")}
     index = {"version": public_meta, "books": index_books}
     (dest_dir / "index.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -829,7 +849,10 @@ def extract(version_key: str) -> tuple[int, list[dict]]:
 
 
 def write_books_js() -> None:
-    versions_js = {k: {kk: vv for kk, vv in v.items() if kk != "file"} for k, v in VERSIONS.items()}
+    versions_js = {
+        k: {kk: vv for kk, vv in v.items() if kk not in ("file", "builder")}
+        for k, v in VERSIONS.items()
+    }
     books_js = []
     fr = DIDACTIC["fr"]
     for b in BOOKS:
@@ -899,7 +922,7 @@ def patch_original_titles(keys: list[str] | None = None) -> None:
         idx = json.loads(idx_path.read_text(encoding="utf-8"))
         seen: set[str] = set()
         books = []
-        public_meta = {k: v for k, v in VERSIONS[key].items() if k != "file"}
+        public_meta = {k: v for k, v in VERSIONS[key].items() if k not in ("file", "builder")}
         for b in idx.get("books") or []:
             bid = b.get("id")
             if not bid or bid in seen:
