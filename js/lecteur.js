@@ -64,20 +64,35 @@ async function init() {
   const bodyEl = document.querySelector("[data-book-body]");
 
   try {
-    const available = await versionsForBook(bookId);
+    const guessed = getActiveEdition();
+    const [available, guessedBook] = await Promise.all([
+      versionsForBook(bookId),
+      tryLoadBook(bookId, guessed),
+    ]);
     if (!available.length) throw new Error("Aucune version");
 
     const books = {};
-    await Promise.all(
-      available.map(async (id) => {
-        books[id] = await tryLoadBook(bookId, id);
-      })
-    );
-    const present = available.filter((id) => books[id]);
-    if (!present.length) throw new Error("Livre introuvable");
+    if (guessedBook) books[guessed] = guessedBook;
+    const present = available.slice();
+
+    async function ensureLoaded(ids) {
+      await Promise.all(
+        ids
+          .filter((id) => !books[id])
+          .map(async (id) => {
+            books[id] = await tryLoadBook(bookId, id);
+          })
+      );
+    }
 
     const active0 = getActiveEdition(present);
-    const primaryBook = books[active0] || books[present[0]];
+    await ensureLoaded([active0]);
+    let primaryBook = books[active0];
+    if (!primaryBook) {
+      await ensureLoaded(present);
+      primaryBook = books[present.find((id) => books[id])];
+    }
+    if (!primaryBook) throw new Error("Livre introuvable");
     const meta = BOOK_BY_ID[bookId];
     const title = primaryBook.title || meta?.title || bookId;
     if (titleEl) titleEl.textContent = title;
@@ -125,51 +140,68 @@ async function init() {
     }
 
     let lastEditions = [];
+    let paintToken = 0;
+    let paintedOnce = false;
 
-    function paint() {
-      const order = visibleOrder().filter((id) => books[id]);
-      if (!order.length) return;
-      const editions = order.map((id, i) => ({
+    function captureAnchor() {
+      const labels = bodyEl.querySelectorAll(".chapter-label[id]");
+      if (!labels.length) return null;
+      const line = railOffset() + 8;
+      let best = labels[0];
+      for (const el of labels) {
+        if (el.getBoundingClientRect().top <= line + 12) best = el;
+        else break;
+      }
+      const docTop = best.getBoundingClientRect().top + window.scrollY;
+      return { id: best.id, delta: window.scrollY - (docTop - line) };
+    }
+
+    async function paint() {
+      const token = ++paintToken;
+      const anchor = paintedOnce ? captureAnchor() : null;
+      const hashRef = !paintedOnce && hasHash ? parseHash() : null;
+      const order = visibleOrder();
+      await ensureLoaded(order);
+      if (token !== paintToken) return;
+      const loaded = order.filter((id) => books[id]);
+      if (!loaded.length) return;
+      const editions = loaded.map((id, i) => ({
         book: books[id],
         col: `c${i}`,
         label: editionDisplayName(id),
-        primary: i === order.length - 1,
+        primary: i === loaded.length - 1,
       }));
       lastEditions = editions;
+      const priority = hashRef?.chapter || (anchor ? parseInt(anchor.id.slice(1), 10) : null);
 
       mountReaderChrome({
         title,
         bookId,
         peers,
         labels: editions.map((ed, i) => ({
-          id: order[i],
+          id: loaded[i],
           col: ed.col,
           label: ed.label,
         })),
         available: present,
       });
 
-      const y = window.scrollY;
-      renderAlignedBook({
+      const job = renderAlignedBook({
         editions,
         container: bodyEl,
         end: null,
+        priority,
       });
-      mountParallels({
-        bookId,
-        container: bodyEl,
-        editions,
-      });
-      window.scrollTo(0, y);
+      paintedOnce = true;
 
       document.querySelector(".book-header")?.setAttribute("hidden", "");
       document.querySelector("body > .site-footer")?.remove();
       document.querySelector(".book-end")?.remove();
 
-      wrapCurrentPane(order[order.length - 1]);
+      wrapCurrentPane(loaded[loaded.length - 1]);
 
       const step = editionStepPx();
-      const maxX = Math.max(0, order.length - 1) * step;
+      const maxX = Math.max(0, loaded.length - 1) * step;
       const x = parseFloat(document.body.style.getPropertyValue("--swipe-x")) || 0;
       if (x > maxX) {
         document.body.style.setProperty("--swipe-x", `${maxX}px`);
@@ -186,9 +218,37 @@ async function init() {
           offset: railOffset,
         });
       }
+
+      const renderToken = job.token;
+      requestAnimationFrame(() => {
+        if (bodyEl._renderToken !== renderToken) return;
+        mountParallels({
+          bookId,
+          container: bodyEl,
+          editions,
+        });
+      });
+
+      job.ready.then(() => {
+        if (token !== paintToken) return;
+        if (anchor) {
+          const el = bodyEl.querySelector(`#${CSS.escape(anchor.id)}`);
+          if (el) {
+            const docTop = el.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo(0, Math.max(0, docTop - railOffset() - 8 + anchor.delta));
+          }
+        }
+        railApi?.remeasure();
+      });
+      job.done.then(() => {
+        if (token !== paintToken) return;
+        railApi?.remeasure();
+      });
+
+      return job;
     }
 
-    paint();
+    const firstJob = await paint();
 
     document.addEventListener("lsb:editions", () => {
       paint();

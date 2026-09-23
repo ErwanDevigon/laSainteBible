@@ -41,9 +41,23 @@ function closestCol(node) {
 }
 
 function markSelectCol(col) {
-  document.querySelectorAll(".chapter-pair .verse").forEach((el) => {
-    el.classList.toggle("is-select-col", !!col && el.dataset.col === col);
-  });
+  if (col) document.body.dataset.selectCol = col;
+  else delete document.body.dataset.selectCol;
+  let style = document.getElementById("lsb-select-col");
+  if (!style) {
+    style = document.createElement("style");
+    style.id = "lsb-select-col";
+    document.head.appendChild(style);
+  }
+  if (!col) {
+    style.textContent = "";
+    return;
+  }
+  const c = CSS.escape(col);
+  style.textContent =
+    `.book-body.is-aligned .verse[data-col="${c}"],` +
+    `.book-body.is-aligned .verse[data-col="${c}"] .verse-text{` +
+    `user-select:text;-webkit-user-select:text}`;
 }
 
 function trimSelectionToCol(col) {
@@ -312,15 +326,15 @@ export function bindGrabPan(root = document.body) {
       return;
     }
     const verse = e.target.closest(".chapter-pair .verse");
-    if (verse && !verse.classList.contains("is-select-col")) {
+    if (verse && verse.dataset.col !== document.body.dataset.selectCol) {
       e.preventDefault();
     }
   }
 
   function onSelectionChange() {
-    const marked = document.querySelector(".chapter-pair .verse.is-select-col");
-    if (!marked) return;
-    trimSelectionToCol(marked.dataset.col);
+    const col = document.body.dataset.selectCol;
+    if (!col) return;
+    trimSelectionToCol(col);
   }
 
   function onDragStart(e) {

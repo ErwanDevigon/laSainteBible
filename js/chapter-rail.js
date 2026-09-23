@@ -68,23 +68,61 @@ export function mountChapterRail({
     }
   }
 
+  const targetEls = new Map();
+  function target(n) {
+    const prev = targetEls.get(n);
+    if (prev?.isConnected) return prev;
+    const el = getTarget(n);
+    if (el) targetEls.set(n, el);
+    else targetEls.delete(n);
+    return el || null;
+  }
+
+  let tops = null;
+  function measure() {
+    const scroll = window.scrollY;
+    tops = nums.map((n) => {
+      const el = target(n);
+      if (!el) return Infinity;
+      return el.getBoundingClientRect().top + scroll;
+    });
+  }
+
   let spyRaf = 0;
   const spy = () => {
     spyRaf = 0;
-    const line = offset();
-    let best = nums[0];
-    for (const n of nums) {
-      const el = getTarget(n);
-      if (!el) continue;
-      if (el.getBoundingClientRect().top - line <= 12) best = n;
+    if (!tops) measure();
+    const line = window.scrollY + offset() + 12;
+    let lo = 0;
+    let hi = tops.length - 1;
+    let best = 0;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1;
+      if (tops[mid] <= line) {
+        best = mid;
+        lo = mid + 1;
+      } else {
+        hi = mid - 1;
+      }
     }
-    setCurrent(best);
+    setCurrent(nums[best]);
   };
 
   const onScroll = () => {
     if (!spyRaf) spyRaf = requestAnimationFrame(spy);
   };
   window.addEventListener("scroll", onScroll, { passive: true });
+
+  function remeasure() {
+    tops = null;
+    targetEls.clear();
+    onScroll();
+  }
+  window.addEventListener("resize", remeasure);
+  document.fonts?.ready?.then(() => {
+    if (!nav.isConnected) return;
+    remeasure();
+  });
 
   const onPop = () => {
     const m = /^#c(\d+)/i.exec(location.hash || "");
@@ -100,9 +138,11 @@ export function mountChapterRail({
     destroy() {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("popstate", onPop);
+      window.removeEventListener("resize", remeasure);
       if (spyRaf) cancelAnimationFrame(spyRaf);
       nav.remove();
     },
     setCurrent,
+    remeasure,
   };
 }

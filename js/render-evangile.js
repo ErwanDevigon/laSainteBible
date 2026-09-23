@@ -239,20 +239,33 @@ function alignedLabel(n, short, col, { id = "", primary = false, lang = "" } = {
  *   end?: HTMLElement|null,
  * }} opts
  */
-export function renderAlignedBook({ editions, container, end = null }) {
+/**
+ * One row per verse (small grid) instead of one grid for the whole chapter.
+ * Chapters through `priority` are inserted immediately; the rest yields per frame.
+ * @returns {{ ready: Promise<void>, done: Promise<void>, token: object }}
+ */
+export function renderAlignedBook({ editions, container, end = null, priority = null }) {
+  container._parallelSeq = (container._parallelSeq || 0) + 1;
+  container._parallelIO?.disconnect();
+  container._parallelIO = null;
+  container._parallelMO?.disconnect();
+  container._parallelMO = null;
+  const token = {};
+  container._renderToken = token;
   container.replaceChildren();
   container.classList.add("book-body", "is-aligned");
 
   const stage = document.createElement("div");
   stage.className = "edition-stage";
   stage.style.setProperty("--edition-count", String(editions.length));
+  container.appendChild(stage);
 
   const maps = editions.map((ed) => chapterMap(ed.book));
-  const chNums = [
-    ...new Set(maps.flatMap((m) => [...m.keys()])),
-  ].sort((a, b) => a - b);
+  const chNums = [...new Set(maps.flatMap((m) => [...m.keys()]))].sort(
+    (a, b) => a - b
+  );
 
-  for (const n of chNums) {
+  function makeBand(n) {
     const pair = document.createElement("section");
     pair.className = "chapter-pair";
     pair.dataset.chapter = String(n);
@@ -261,36 +274,46 @@ export function renderAlignedBook({ editions, container, end = null }) {
     const vNums = [...new Set(vMaps.flatMap((m) => [...m.keys()]))].sort(
       (a, b) => a - b
     );
-    editions.forEach((ed, i) => {
-      const colN = String(i + 1);
+
+    const head = document.createElement("div");
+    head.className = "verse-line";
+    editions.forEach((ed) => {
       const lang = ed.book.version?.lang || "";
       const label = alignedLabel(n, ed.book.short, ed.col, {
         id: ed.primary ? `c${n}` : "",
         primary: !!ed.primary,
         lang,
       });
-      label.style.gridColumn = colN;
-      label.style.gridRow = "1";
       label.classList.add("is-card-head");
       if (!vNums.length) label.classList.add("is-card-foot");
-      pair.append(label);
-      vNums.forEach((vn, vi) => {
+      head.append(label);
+    });
+    pair.append(head);
+
+    for (let vi = 0; vi < vNums.length; vi++) {
+      const vn = vNums[vi];
+      const line = document.createElement("div");
+      line.className = "verse-line";
+      const last = vi === vNums.length - 1;
+      editions.forEach((ed, i) => {
+        const lang = ed.book.version?.lang || "";
         const v = vMaps[i].get(vn) || { n: vn, t: "" };
         const row = verseRow(n, v, { col: ed.col, withId: !!ed.primary, lang });
-        row.style.gridColumn = colN;
-        row.style.gridRow = String(vi + 2);
-        if (vi === vNums.length - 1) row.classList.add("is-card-foot");
-        pair.append(row);
+        if (last) row.classList.add("is-card-foot");
+        line.append(row);
       });
-    });
+      pair.append(line);
+    }
+
     const band = document.createElement("div");
     band.className = "chapter-band";
     band.dataset.chapter = String(n);
     band.append(pair);
-    stage.append(band);
+    return { band, verseCount: vNums.length * editions.length };
   }
 
-  if (end) {
+  function appendEnd() {
+    if (!end) return;
     for (const ed of editions) {
       if (ed.primary) {
         end.dataset.col = ed.col;
@@ -305,7 +328,68 @@ export function renderAlignedBook({ editions, container, end = null }) {
     }
   }
 
-  container.appendChild(stage);
+  let resolveReady;
+  let resolveDone;
+  const ready = new Promise((r) => {
+    resolveReady = r;
+  });
+  const done = new Promise((r) => {
+    resolveDone = r;
+  });
+  let readySent = false;
+  function markReady() {
+    if (readySent) return;
+    readySent = true;
+    resolveReady();
+  }
+
+  let cursor = 0;
+  function takeThrough(index) {
+    const frag = document.createDocumentFragment();
+    while (cursor < chNums.length && cursor <= index) {
+      frag.appendChild(makeBand(chNums[cursor]).band);
+      cursor += 1;
+    }
+    if (frag.childNodes.length) stage.appendChild(frag);
+  }
+
+  const priIndex = priority == null ? 0 : chNums.indexOf(priority);
+  if (chNums.length) takeThrough(priIndex < 0 ? 0 : priIndex);
+  markReady();
+
+  const VERSE_BUDGET = 400;
+
+  function step() {
+    if (container._renderToken !== token) return;
+    if (cursor >= chNums.length) {
+      appendEnd();
+      resolveDone();
+      return;
+    }
+    const frag = document.createDocumentFragment();
+    let verses = 0;
+    while (cursor < chNums.length && verses < VERSE_BUDGET) {
+      const made = makeBand(chNums[cursor]);
+      cursor += 1;
+      verses += made.verseCount;
+      frag.appendChild(made.band);
+    }
+    stage.appendChild(frag);
+    if (cursor >= chNums.length) {
+      appendEnd();
+      resolveDone();
+      return;
+    }
+    requestAnimationFrame(step);
+  }
+
+  if (cursor < chNums.length) requestAnimationFrame(step);
+  else {
+    appendEnd();
+    resolveDone();
+  }
+
+  return { ready, done, token };
 }
 
 export function renderSingleChapter(book, chapterN, container, range = null) {

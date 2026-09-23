@@ -10,6 +10,9 @@ import {
 
 const cache = new Map();
 const indexCache = new Map();
+let coveragePromise = null;
+/** Prefix that already returned JSON. Skips the second URL after the first hit. */
+let urlBase = null;
 
 export const DEFAULT_EDITION = "ostervald";
 
@@ -20,15 +23,31 @@ export function resolveUrls(file) {
   const isFile = /\.html?$/i.test(path);
   const dirDepth = Math.max(0, depth - (isFile ? 1 : 0));
   const rel = `${"../".repeat(dirDepth)}${file}`;
-  return [rootUrl, rel];
+  // Relative first: works at the domain root and under a path prefix.
+  return rootUrl === rel ? [rel] : [rel, rootUrl];
 }
 
-async function fetchJson(file) {
+export async function fetchJson(file) {
+  if (urlBase != null) {
+    try {
+      const res = await fetch(urlBase + file);
+      if (res.ok) return { ok: true, data: await res.json() };
+    } catch {
+      /* prefix stale — rediscover */
+    }
+    urlBase = null;
+  }
   let lastStatus = 0;
   for (const url of resolveUrls(file)) {
-    const res = await fetch(url);
+    let res;
+    try {
+      res = await fetch(url);
+    } catch {
+      continue;
+    }
     lastStatus = res.status;
     if (!res.ok) continue;
+    urlBase = url.endsWith(file) ? url.slice(0, url.length - file.length) : "";
     return { ok: true, data: await res.json() };
   }
   return { ok: false, status: lastStatus };
@@ -78,13 +97,32 @@ export async function loadVersionIndex(versionId) {
   return hit.data;
 }
 
+async function loadCoverage() {
+  if (!coveragePromise) {
+    coveragePromise = (async () => {
+      const hit = await fetchJson("data/coverage.json");
+      return hit.ok ? hit.data : null;
+    })();
+  }
+  return coveragePromise;
+}
+
 export async function listVersionIds() {
+  const cov = await loadCoverage();
+  if (cov?.versions?.length) return cov.versions.filter((id) => VERSIONS[id]);
   const ids = Object.keys(VERSIONS);
-  const found = await Promise.all(ids.map(async (id) => ((await loadVersionIndex(id)) ? id : null)));
+  const found = await Promise.all(
+    ids.map(async (id) => ((await loadVersionIndex(id)) ? id : null))
+  );
   return found.filter(Boolean);
 }
 
 export async function versionsForBook(bookId) {
+  const cov = await loadCoverage();
+  if (cov?.books) {
+    const list = cov.books[bookId];
+    return Array.isArray(list) ? list.filter((id) => VERSIONS[id]) : [];
+  }
   const ids = await listVersionIds();
   const out = [];
   for (const id of ids) {
@@ -92,6 +130,13 @@ export async function versionsForBook(bookId) {
     if (idx?.books?.some((b) => b.id === bookId)) out.push(id);
   }
   return out;
+}
+
+/** null when coverage is missing — caller falls back to the book JSON. */
+export async function malachiUsesChapter4(edition) {
+  const cov = await loadCoverage();
+  if (!cov?.malachiCh4) return null;
+  return cov.malachiCh4.includes(edition);
 }
 
 /**
@@ -152,6 +197,8 @@ export function getVerseRange(book, chapterN, vStart, vEnd) {
 export function clearCache() {
   cache.clear();
   indexCache.clear();
+  coveragePromise = null;
+  urlBase = null;
 }
 
 export const GOSPEL_IDS = CANON_GOSPELS;

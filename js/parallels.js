@@ -1,6 +1,6 @@
 /** Synopse NT + AT citations. One ParallelHost per verse surface (column, messe row, card). */
 
-import { resolveUrls, loadVersionIndex, tryLoadBook } from "./data-loader.js";
+import { fetchJson, loadVersionIndex, tryLoadBook, malachiUsesChapter4 } from "./data-loader.js";
 import { MaskDilatation } from "./expand.js";
 import { BOOK_BY_ID, bookHref } from "./books.js";
 import { displayBookTitle, parallelKindEnabled } from "./editions.js";
@@ -15,16 +15,15 @@ let packed = null;
 let packedRaw = null;
 let packedEd = null;
 let indexCache = null;
+/** bookId + chapter → { item, passage, span }[] */
+let hitIndex = null;
 let hideGate = null;
 let treeGen = 0;
 const ctx = { bookId: "", edition: "", primaryCol: "" };
 
 async function loadJson(file) {
-  for (const url of resolveUrls(file)) {
-    const res = await fetch(url);
-    if (res.ok) return res.json();
-  }
-  return null;
+  const hit = await fetchJson(file);
+  return hit.ok ? hit.data : null;
 }
 
 function originKey(p) {
@@ -166,14 +165,42 @@ function remapMalachiItem(item) {
   };
 }
 
+function indexHits(pack) {
+  const map = new Map();
+  const push = (item, passage, span) => {
+    if (!passage?.book || span?.chapter == null) return;
+    const key = `${passage.book}\t${span.chapter}`;
+    let arr = map.get(key);
+    if (!arr) {
+      arr = [];
+      map.set(key, arr);
+    }
+    arr.push({ item, passage, span });
+  };
+  for (const item of pack.synopse || []) {
+    for (const p of item.passages || []) {
+      for (const span of p.spans || []) push(item, p, span);
+    }
+  }
+  for (const item of [...(pack.citations || []), ...(pack.reverse || [])]) {
+    for (const span of item.origin?.spans || []) push(item, item.origin, span);
+  }
+  return map;
+}
+
 export async function prepareParallels(edition) {
   const raw = await loadRaw();
   const ed = edition || "";
   if (packed && packedEd === ed) return packed;
   let toProtestant = false;
   if (ed) {
-    const malachi = await tryLoadBook("malachie", ed);
-    toProtestant = malachiIsProtestant(malachi);
+    const flag = await malachiUsesChapter4(ed);
+    if (flag == null) {
+      const malachi = await tryLoadBook("malachie", ed);
+      toProtestant = malachiIsProtestant(malachi);
+    } else {
+      toProtestant = flag;
+    }
   }
   const citations = toProtestant
     ? raw.citations.map(remapMalachiItem)
@@ -184,6 +211,7 @@ export async function prepareParallels(edition) {
     reverse: invertCitations(citations),
   };
   packedEd = ed;
+  hitIndex = indexHits(packed);
   if (ed) {
     try {
       indexCache = await loadVersionIndex(ed);
@@ -345,17 +373,9 @@ function stampText(item, bookId, chapter, verse, occupied = [], includeSelf = fa
 }
 
 function itemsForBookChapter(bookId, chapter) {
-  const pack = packed;
-  if (!pack) return [];
-  const all = [...pack.synopse, ...pack.citations, ...pack.reverse];
-  const out = [];
-  for (const item of all) {
-    if (!parallelKindEnabled(kindKey(item))) continue;
-    for (const hit of itemSpansOnBook(item, bookId)) {
-      if (hit.span.chapter === chapter) out.push({ item, ...hit });
-    }
-  }
-  return out;
+  const list = hitIndex?.get(`${bookId}\t${chapter}`);
+  if (!list) return [];
+  return list.filter((hit) => parallelKindEnabled(kindKey(hit.item)));
 }
 
 function verseEls(pair, col) {
@@ -795,13 +815,20 @@ class ParallelHost {
   }
 
   anchorRight() {
+    if (this._anchorRight != null) return this._anchorRight;
+    let right;
     if (this.col) {
       const sample = this.verseRoot.querySelector(
         `.verse[data-col="${this.col}"]`
       );
-      if (sample) return sample.getBoundingClientRect().right;
+      right = sample
+        ? sample.getBoundingClientRect().right
+        : this.verseRoot.getBoundingClientRect().right;
+    } else {
+      right = this.verseRoot.getBoundingClientRect().right;
     }
-    return this.verseRoot.getBoundingClientRect().right;
+    this._anchorRight = right;
+    return right;
   }
 
   railGeom(h) {
@@ -1012,6 +1039,7 @@ class ParallelHost {
   }
 
   syncRails() {
+    this._anchorRight = null;
     const occupied = this.occupied();
     const hits = assignLanes(this.hits());
     const existing = [...this.root.querySelectorAll(":scope > .parallel-rail")];
@@ -1206,32 +1234,76 @@ function bindGlobal() {
   });
 }
 
+function parallelHostOpts(pair, container) {
+  const c = container._parallelCtx;
+  return {
+    root: pair,
+    verseRoot: pair,
+    bookId: c.bookId,
+    chapter: +pair.dataset.chapter,
+    ranges: null,
+    edition: c.edition,
+    col: c.primaryCol,
+    depth: 0,
+    parent: null,
+    closeRoot: container,
+  };
+}
+
+function watchParallelPairs(container, repaint) {
+  const io = container._parallelIO;
+  if (!io || !container._parallelCtx) return;
+  for (const pair of container.querySelectorAll(".edition-stage .chapter-pair")) {
+    if (repaint && pair._cite) {
+      pair._cite.assign(parallelHostOpts(pair, container));
+      pair._cite.paint({ preserveOpen: true });
+    }
+    if (!pair._cite) io.observe(pair);
+  }
+}
+
 export async function mountParallels({ bookId, container, editions }) {
   if (!container || !bookId) return;
+  const seq = (container._parallelSeq || 0) + 1;
+  container._parallelSeq = seq;
   ctx.bookId = bookId;
   const primary =
     (editions || []).find((ed) => ed.primary) || (editions || []).at(-1);
   ctx.primaryCol = primary?.col || "";
   ctx.edition = primary?.book?.version?.id || primary?.col || "";
+  container._parallelCtx = {
+    bookId,
+    edition: ctx.edition,
+    primaryCol: ctx.primaryCol,
+  };
   await prepareParallels(ctx.edition);
+  if (container._parallelSeq !== seq) return;
   bindGlobal();
-  const pairs = container.querySelectorAll(".chapter-pair");
-  for (const pair of pairs) {
-    const chapter = +pair.dataset.chapter;
-    const host = bindHost(pair, {
-      root: pair,
-      verseRoot: pair,
-      bookId,
-      chapter,
-      ranges: null,
-      edition: ctx.edition,
-      col: ctx.primaryCol,
-      depth: 0,
-      parent: null,
-      closeRoot: container,
+
+  container._parallelIO?.disconnect();
+  container._parallelIO = new IntersectionObserver(
+    (entries) => {
+      const io = container._parallelIO;
+      if (!io || !container._parallelCtx) return;
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        io.unobserve(entry.target);
+        const host = bindHost(entry.target, parallelHostOpts(entry.target, container));
+        host.paint({ preserveOpen: true });
+      }
+    },
+    { root: null, rootMargin: "900px 0px", threshold: 0 }
+  );
+
+  container._parallelMO?.disconnect();
+  const stage = container.querySelector(".edition-stage");
+  if (stage) {
+    container._parallelMO = new MutationObserver(() => {
+      watchParallelPairs(container, false);
     });
-    host.paint({ preserveOpen: true });
+    container._parallelMO.observe(stage, { childList: true });
   }
+  watchParallelPairs(container, true);
 }
 
 export function formatFullRef(bookId, chapter, verseStart, verseEnd, ranges) {

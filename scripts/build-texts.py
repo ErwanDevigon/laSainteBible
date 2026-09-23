@@ -986,10 +986,17 @@ def patch_didactic_titles(keys: list[str] | None = None) -> None:
         print(f"patch didactic {key:15} {n} titres")
 
 
+def write_coverage() -> None:
+    import subprocess
+
+    subprocess.check_call([sys.executable, str(ROOT / "scripts" / "build-coverage.py")])
+
+
 def main() -> int:
     if "--patch-titles" in sys.argv:
         write_books_js()
         patch_didactic_titles()
+        write_coverage()
         return 0
     write_books_js()
     print("\n=== Extraction des versions ===")
@@ -998,6 +1005,7 @@ def main() -> int:
         n, _ = extract(key)
         total += n
     wipe_legacy_root()
+    write_coverage()
     print(f"\nTerminé. {total} livres extraits au total.")
     return 0
 
