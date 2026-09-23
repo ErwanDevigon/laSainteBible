@@ -557,6 +557,27 @@ function fillCards(box, item, bookId, chapter, verse, edition, occupied, include
   }
 }
 
+function headLead(card) {
+  const before = card.querySelector(".mask-before");
+  const opened = before && before.getBoundingClientRect().height > 2;
+  if (opened && card.dataset.lead) return parseFloat(card.dataset.lead) || 0;
+  const verse = card.querySelector(".mask-excerpt .verse");
+  if (verse) {
+    const lead = verse.getBoundingClientRect().top - card.getBoundingClientRect().top;
+    if (lead > 0) card.dataset.lead = String(lead);
+    return lead;
+  }
+  const head = card.querySelector(".parallel-card-head");
+  if (!head) return 0;
+  const cs = getComputedStyle(card);
+  const pad = parseFloat(cs.paddingTop) || 0;
+  const border = parseFloat(cs.borderTopWidth) || 0;
+  const mb = parseFloat(getComputedStyle(head).marginBottom) || 0;
+  const body = card.querySelector(".parallel-card-body");
+  const bodyMt = body ? parseFloat(getComputedStyle(body).marginTop) || 0 : 0;
+  return border + pad + head.offsetHeight + mb + bodyMt;
+}
+
 function alignCards(cards, originEl, col, span) {
   const excerpt = originEl.querySelector?.(".mask-excerpt");
   let els = excerpt ? rangeEls(excerpt, span, col || null) : [];
@@ -565,10 +586,19 @@ function alignCards(cards, originEl, col, span) {
   const origin = originEl.getBoundingClientRect().top;
   const braceTop = els[0].getBoundingClientRect().top;
   const viewTop = chromeTop();
-  const target = Math.max(braceTop, viewTop);
-  cards.style.top = `${Math.max(0, target - origin)}px`;
-  cards.style.marginTop = "";
-  cards.dataset.synTop = String(target);
+  const arts = [...cards.querySelectorAll(":scope > .parallel-card")];
+  arts.forEach((art) => {
+    art.style.marginTop = "";
+  });
+  const leads = arts.map(headLead);
+  const lead = leads.length ? Math.max(0, ...leads) : 0;
+  const verseTarget = Math.max(braceTop, viewTop);
+  cards.style.top = `${verseTarget - lead - origin}px`;
+  arts.forEach((art, i) => {
+    const extra = lead - (leads[i] || 0);
+    art.style.marginTop = extra > 0.5 ? `${extra}px` : "";
+  });
+  cards.dataset.synTop = String(verseTarget);
   cards.dataset.synScroll = String(window.scrollY);
   cards._span = span;
 }
@@ -942,6 +972,7 @@ class ParallelHost {
     alignCards(cards, this.root, this.col, span);
     await whenCardsReady(cards);
     if (seq !== this.openSeq) return;
+    alignCards(cards, this.root, this.col, span);
     if (this.depth > 0 && gen !== treeGen) return;
     for (const art of cards.querySelectorAll(":scope > .parallel-card")) {
       this.mountChild(art);

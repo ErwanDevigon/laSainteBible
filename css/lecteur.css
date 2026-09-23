@@ -126,7 +126,7 @@ body.has-active-edition .site-main {
 /* Left chapter rail — count comes from --chapter-count (set in JS). */
 body.lecteur-page[data-book] {
   --rail-w: 2.4rem;
-  --book-bar-h: 2.05rem;
+  --book-bar-h: 0px;
   --edition-bar-h: 1.45rem;
   --chrome-h: calc(var(--header-h) + var(--book-bar-h) + var(--edition-bar-h));
   --edition-col: min(
@@ -147,8 +147,42 @@ body.lecteur-page[data-book] > .reader-chrome {
 }
 
 body.lecteur-page[data-book] > .site-header {
+  height: auto;
+  min-height: 2.2rem;
   padding-left: var(--space-3);
   padding-right: var(--space-3);
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.site-header .header-volume {
+  justify-self: center;
+  position: static;
+  z-index: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.02rem 0.12rem;
+  width: auto;
+  max-width: min(62vw, 48rem);
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none;
+}
+
+.site-header .header-volume .volume-link {
+  text-transform: none;
+  letter-spacing: 0.01em;
+  font-size: 0.74rem;
+  font-weight: 500;
+  color: var(--text-faint);
 }
 
 .reader-chrome {
@@ -300,7 +334,7 @@ body.lecteur-page[data-book] > .site-header {
 .edition-add-col-btn,
 .edition-remove-col-btn {
   margin: 0;
-  padding: 0 0.55rem;
+  padding: 0 0.45rem;
   border: 0;
   background: none;
   font-family: var(--font-ui);
@@ -309,6 +343,18 @@ body.lecteur-page[data-book] > .site-header {
   font-weight: 400;
   color: var(--text-faint);
   cursor: pointer;
+}
+
+.edition-add-col-btn {
+  font-size: 0.68rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  padding: 0 0.35rem;
+}
+
+.edition-remove-col-btn {
+  font-size: 1.15rem;
+  padding: 0 0.5rem;
 }
 
 .edition-add-col-btn:hover,
@@ -441,9 +487,19 @@ body.lecteur-page[data-book] > .site-header {
 }
 
 .parallels-menu button {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   text-align: left;
   letter-spacing: 0.01em;
   color: var(--text-faint);
+}
+
+.parallels-check {
+  flex: 0 0 0.9em;
+  width: 0.9em;
+  text-align: center;
+  color: var(--text);
 }
 
 .parallels-menu button[aria-pressed="true"] {

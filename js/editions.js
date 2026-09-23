@@ -74,14 +74,29 @@ function writeCookie(name, value) {
   document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${COOKIE_AGE}; SameSite=Lax`;
 }
 
+function parallelsMasterOn() {
+  return readCookie(COOKIE_PARALLELS) !== "0";
+}
+
+/** Menu preset. Null cookie = selected. Independent of the master click. */
+function parallelKindSelected(kind) {
+  return readCookie(COOKIE_KIND[kind]) !== "0";
+}
+
 export function parallelKindEnabled(kind) {
-  const v = readCookie(COOKIE_KIND[kind]);
-  if (v == null) return readCookie(COOKIE_PARALLELS) !== "0";
-  return v !== "0";
+  return parallelsMasterOn() && parallelKindSelected(kind);
 }
 
 function anyParallelKindOn() {
   return Object.keys(KIND_LABEL).some((k) => parallelKindEnabled(k));
+}
+
+function setParallelsMaster(on) {
+  writeCookie(COOKIE_PARALLELS, on ? "1" : "0");
+  document.dispatchEvent(
+    new CustomEvent("lsb:parallels", { detail: { master: !!on } })
+  );
+  syncParallelsTrigger();
 }
 
 function syncParallelsTrigger() {
@@ -109,14 +124,53 @@ export function mountParallelsToggle() {
   trigger.setAttribute("aria-expanded", "false");
   trigger.setAttribute("aria-label", "Suggestions de lecture");
   trigger.textContent = "suggestions de lecture";
-  trigger.addEventListener("click", (e) => {
+  let holdTimer = null;
+  let held = false;
+  const HOLD_MS = 420;
+  const armHold = (e) => {
+    if (e.button != null && e.button !== 0) return;
+    held = false;
+    clearTimeout(holdTimer);
+    holdTimer = setTimeout(() => {
+      holdTimer = null;
+      held = true;
+      if (!document.querySelector(".parallels-menu")) openParallelsMenu(trigger);
+    }, HOLD_MS);
+  };
+  const cancelHold = () => {
+    clearTimeout(holdTimer);
+    holdTimer = null;
+  };
+  trigger.addEventListener("pointerdown", armHold);
+  trigger.addEventListener("pointerup", (e) => {
+    const wasTimer = holdTimer != null;
+    cancelHold();
+    if (e.button !== 0 || held || !wasTimer) return;
     e.preventDefault();
     e.stopPropagation();
     if (document.querySelector(".parallels-menu")) {
       closeParallelsMenu();
       return;
     }
-    openParallelsMenu(trigger);
+    setParallelsMaster(!parallelsMasterOn());
+  });
+  trigger.addEventListener("pointerleave", cancelHold);
+  trigger.addEventListener("pointercancel", cancelHold);
+  trigger.addEventListener("contextmenu", (e) => e.preventDefault());
+  trigger.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+  });
+  trigger.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      if (!document.querySelector(".parallels-menu")) openParallelsMenu(trigger);
+      return;
+    }
+    if (e.key !== "Enter" && e.key !== " ") return;
+    e.preventDefault();
+    if (document.querySelector(".parallels-menu")) closeParallelsMenu();
+    else setParallelsMaster(!parallelsMasterOn());
   });
   nav.append(trigger);
   syncParallelsTrigger();
@@ -404,6 +458,7 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   const header = document.querySelector(".site-header");
   if (header) header.after(bar);
   else document.body.prepend(bar);
+  syncParallelsTrigger();
   return bar;
 }
 
@@ -412,13 +467,13 @@ function mountAddColumn(pool, used) {
   if (!unused.length) return null;
   const nav = document.createElement("nav");
   nav.className = "edition-add-col";
-  nav.setAttribute("aria-label", "Ajouter une colonne");
+  nav.setAttribute("aria-label", "Comparer");
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "edition-add-col-btn";
   btn.setAttribute("aria-haspopup", "listbox");
-  btn.setAttribute("aria-label", "Ajouter une colonne");
-  btn.textContent = "+";
+  btn.setAttribute("aria-label", "Comparer");
+  btn.textContent = "comparer";
   btn.addEventListener("click", (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -442,7 +497,7 @@ function mountRemoveColumn(colIndex, pool) {
   btn.type = "button";
   btn.className = "edition-remove-col-btn";
   btn.setAttribute("aria-label", "Fermer la colonne");
-  btn.textContent = "-";
+  btn.textContent = "×";
   btn.addEventListener("click", (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -486,15 +541,23 @@ function openParallelsMenu(anchor) {
     btn.type = "button";
     btn.className = "parallels-menu-btn";
     btn.dataset.kind = kind;
-    btn.textContent = KIND_LABEL[kind];
-    const on = parallelKindEnabled(kind);
-    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    const mark = document.createElement("span");
+    mark.className = "parallels-check";
+    mark.setAttribute("aria-hidden", "true");
+    const label = document.createElement("span");
+    label.textContent = KIND_LABEL[kind];
+    const paint = () => {
+      const on = parallelKindSelected(kind);
+      mark.textContent = on ? "✓" : "";
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+    };
+    paint();
+    btn.append(mark, label);
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
-      const next = btn.getAttribute("aria-pressed") !== "true";
-      btn.setAttribute("aria-pressed", next ? "true" : "false");
-      setParallelKindEnabled(kind, next);
+      setParallelKindEnabled(kind, !parallelKindSelected(kind));
+      paint();
     });
     li.append(btn);
     menu.append(li);
@@ -580,6 +643,37 @@ function apostleBase() {
   return /\/lire(\/|$)/.test(window.location.pathname) ? "" : "lire/";
 }
 
+let headerHBound = false;
+
+function syncHeaderHeight() {
+  const header = document.querySelector(".site-header");
+  if (!header?.querySelector(".header-volume")) return;
+  document.documentElement.style.setProperty(
+    "--header-h",
+    `${Math.ceil(header.getBoundingClientRect().height)}px`
+  );
+}
+
+function bindHeaderHeight() {
+  if (headerHBound) return;
+  headerHBound = true;
+  window.addEventListener("resize", syncHeaderHeight);
+}
+
+/** Book tabs replace the centered "La Bible" link. Not used on the TOC. */
+function placeVolumeInHeader(nav) {
+  const header = document.querySelector(".site-header");
+  if (!header) return false;
+  nav.classList.remove("book-title-bar");
+  nav.classList.add("header-volume");
+  const old = header.querySelector(".header-volume") || header.querySelector(".nav-center");
+  if (old) old.replaceWith(nav);
+  else header.insertBefore(nav, header.querySelector(".nav-links"));
+  bindHeaderHeight();
+  requestAnimationFrame(syncHeaderHeight);
+  return true;
+}
+
 export function mountVolumeBar(bookId, peers) {
   const titleBar = document.createElement("nav");
   titleBar.className = "book-title-bar volume-bar";
@@ -617,6 +711,7 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
   document.querySelector(".reader-chrome")?.remove();
   document.querySelector(".book-title-bar")?.remove();
   document.querySelector(".edition-name-bar")?.remove();
+  document.querySelector(".site-header .header-volume")?.remove();
   closeEditionMenu();
   closeParallelsMenu();
 
@@ -667,25 +762,28 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
     wrap.append(editionNameCluster(btn));
     if (colIndex < labels.length - 1) wrap.append(mountRemoveColumn(colIndex, pool));
     if (colIndex === labels.length - 1) wrap.append(mountParallelsToggle());
+    const add = mountAddColumn(pool, stack);
+    if (add) wrap.append(add);
     stage.append(wrap);
   });
-  const add = mountAddColumn(pool, stack);
-  if (add) stage.firstElementChild?.append(add);
   nameBar.append(stage);
 
   const chrome = document.createElement("div");
   chrome.className = "reader-chrome";
-  if (titleBar) chrome.append(titleBar);
+  const inHeader = titleBar?.classList.contains("volume-bar") && placeVolumeInHeader(titleBar);
+  if (titleBar && !inHeader) chrome.append(titleBar);
   chrome.append(nameBar);
 
   const header = document.querySelector(".site-header");
   if (header) header.after(chrome);
   else document.body.prepend(chrome);
 
-  if (titleBar) {
+  if (inHeader) document.body.style.setProperty("--book-bar-h", "0px");
+  else if (titleBar) {
     document.body.style.setProperty("--book-bar-h", `${titleBar.offsetHeight}px`);
   }
 
+  syncParallelsTrigger();
   return { titleBar, nameBar, chrome };
 }
 
