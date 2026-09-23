@@ -4,12 +4,12 @@ import {
   loadVersionIndex,
   versionsForBook,
 } from "./data-loader.js";
-import { renderAlignedBook, parseHash } from "./render-evangile.js";
+import { renderAlignedBook, patchAlignedBook, parseHash } from "./render-evangile.js";
 import { mountParallels } from "./parallels.js";
-import { fadeTo, jumpToElement, veilNow, glideToElement } from "./fade-nav.js";
+import { jumpToElement, veilNow, glideToElement } from "./fade-nav.js";
 import { mountChapterRail } from "./chapter-rail.js";
 import { mountSwipeNav } from "./swipe-nav.js";
-import { BOOK_BY_ID } from "./books.js";
+import { BOOK_BY_ID, VERSIONS, versionIdsByYear } from "./books.js";
 import {
   wrapCurrentPane,
   mountReaderChrome,
@@ -89,8 +89,24 @@ async function init() {
     await ensureLoaded([active0]);
     let primaryBook = books[active0];
     if (!primaryBook) {
-      await ensureLoaded(present);
-      primaryBook = books[present.find((id) => books[id])];
+      const lang = VERSIONS[active0]?.lang;
+      const stack = versionIdsByYear(false);
+      const ranked = present.filter((id) => id !== active0);
+      ranked.sort((a, b) => {
+        const la = VERSIONS[a]?.lang === lang ? 0 : 1;
+        const lb = VERSIONS[b]?.lang === lang ? 0 : 1;
+        if (la !== lb) return la - lb;
+        const ia = stack.indexOf(a);
+        const ib = stack.indexOf(b);
+        return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
+      });
+      for (const id of ranked) {
+        await ensureLoaded([id]);
+        if (books[id]) {
+          primaryBook = books[id];
+          break;
+        }
+      }
     }
     if (!primaryBook) throw new Error("Livre introuvable");
     const meta = BOOK_BY_ID[bookId];
@@ -140,6 +156,8 @@ async function init() {
     }
 
     let lastEditions = [];
+    let shownIds = [];
+    let columnsReady = false;
     let paintToken = 0;
     let paintedOnce = false;
 
@@ -186,6 +204,34 @@ async function init() {
         available: present,
       });
 
+      if (
+        columnsReady &&
+        !hashRef &&
+        patchAlignedBook({ editions, container: bodyEl, prevIds: shownIds })
+      ) {
+        shownIds = loaded.slice();
+        paintedOnce = true;
+        document.querySelector(".book-header")?.setAttribute("hidden", "");
+        document.querySelector("body > .site-footer")?.remove();
+        document.querySelector(".book-end")?.remove();
+        wrapCurrentPane(loaded[loaded.length - 1]);
+        const step = editionStepPx();
+        const maxX = Math.max(0, loaded.length - 1) * step;
+        const x = parseFloat(document.body.style.getPropertyValue("--swipe-x")) || 0;
+        if (x > maxX) {
+          document.body.style.setProperty("--swipe-x", `${maxX}px`);
+          document.body.dataset.swipeBase = String(maxX);
+        }
+        const renderToken = bodyEl._renderToken;
+        requestAnimationFrame(() => {
+          if (bodyEl._renderToken !== renderToken) return;
+          mountParallels({ bookId, container: bodyEl, editions });
+        });
+        railApi?.remeasure();
+        return;
+      }
+
+      columnsReady = false;
       const job = renderAlignedBook({
         editions,
         container: bodyEl,
@@ -231,24 +277,31 @@ async function init() {
 
       job.ready.then(() => {
         if (token !== paintToken) return;
-        if (anchor) {
+        if (hashRef) {
+          const target = findRefEl(bodyEl, hashRef);
+          if (target) jumpToElement(target, { offset: railOffset() });
+        } else if (anchor) {
           const el = bodyEl.querySelector(`#${CSS.escape(anchor.id)}`);
           if (el) {
             const docTop = el.getBoundingClientRect().top + window.scrollY;
             window.scrollTo(0, Math.max(0, docTop - railOffset() - 8 + anchor.delta));
           }
         }
+        const veil = document.getElementById("page-veil");
+        if (veil) veil.classList.remove("is-on", "is-visible", "is-out");
         railApi?.remeasure();
       });
       job.done.then(() => {
         if (token !== paintToken) return;
+        columnsReady = true;
+        shownIds = loaded.slice();
         railApi?.remeasure();
       });
 
       return job;
     }
 
-    const firstJob = await paint();
+    await paint();
 
     document.addEventListener("lsb:editions", () => {
       paint();
@@ -260,20 +313,6 @@ async function init() {
         editions: lastEditions,
       });
     });
-
-    if (hasHash) {
-      const ref = parseHash();
-      fadeTo(
-        () => {
-          const target = findRefEl(bodyEl, ref);
-          jumpToElement(target, { offset: railOffset() });
-          requestAnimationFrame(() =>
-            jumpToElement(target, { offset: railOffset() })
-          );
-        },
-        { alreadyVeiled: true, holdMs: 280, fadeMs: 680 }
-      );
-    }
 
     window.addEventListener("hashchange", () => {
       const ref = parseHash();

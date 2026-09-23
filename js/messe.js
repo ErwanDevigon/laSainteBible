@@ -111,6 +111,16 @@ async function init() {
 
     await prepareParallels(getActiveEdition(pool));
     listEl.replaceChildren();
+    const maskObserver = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          maskObserver.unobserve(entry.target);
+          entry.target._armMask?.();
+        }
+      },
+      { rootMargin: "600px 0px" }
+    );
     if (!data.readings?.length) {
       listEl.appendChild(
         el("p", "status-msg", "Aucune lecture à afficher pour ce jour.")
@@ -162,38 +172,56 @@ async function init() {
         body.appendChild(sk);
         card.appendChild(body);
 
-        const mask = new MaskDilatation(body, {
-          bookId: reading.ref.bookId,
-          chapter: reading.ref.chapter,
-          altChapter: reading.ref.altChapter,
-          verseStart: reading.ref.verseStart,
-          verseEnd: reading.ref.verseEnd,
-          ranges: reading.ref.ranges,
-          edition: getActiveEdition(pool),
-          fallback: reading.excerpt || "Passage indisponible.",
-        });
-        masks.push(mask);
+        const armMask = () => {
+          if (card._mask) return card._mask;
+          const mask = new MaskDilatation(body, {
+            bookId: reading.ref.bookId,
+            chapter: reading.ref.chapter,
+            altChapter: reading.ref.altChapter,
+            verseStart: reading.ref.verseStart,
+            verseEnd: reading.ref.verseEnd,
+            ranges: reading.ref.ranges,
+            edition: getActiveEdition(pool),
+            fallback: reading.excerpt || "Passage indisponible.",
+          });
+          card._mask = mask;
+          masks.push(mask);
+          mask.whenReady().then(() => {
+            if (card._openWhenReady && !mask.expanded) mask.expand();
+            card._bindRails?.();
+          }).catch((err) => {
+            console.error(err);
+            body.replaceChildren();
+            const excerpt = el("div", "reading-excerpt");
+            excerpt.textContent = reading.excerpt || "Passage indisponible.";
+            body.appendChild(excerpt);
+            card.dataset.expandable = "false";
+          });
+          return mask;
+        };
+        card._armMask = armMask;
+        maskObserver.observe(card);
 
-        mask.whenReady().catch((err) => {
-          console.error(err);
-          body.replaceChildren();
-          // fallback plain excerpt
-          const excerpt = el("div", "reading-excerpt");
-          excerpt.textContent = reading.excerpt || "Passage indisponible.";
-          body.appendChild(excerpt);
-          card.dataset.expandable = "false";
-        });
+        const toggleMask = () => {
+          const mask = card._mask;
+          if (!mask) {
+            card._openWhenReady = true;
+            armMask();
+            return;
+          }
+          mask.toggle();
+        };
 
         // Clic sur en-tête de carte (type / réf) : même dilatation
         card.addEventListener("click", (e) => {
           if (e.target.closest(".chapter-mask")) return; // déjà géré
           if (e.target.closest("a, button, select")) return;
-          mask.toggle();
+          toggleMask();
         });
         card.addEventListener("keydown", (e) => {
           if (e.key === "Enter" || e.key === " ") {
             e.preventDefault();
-            mask.toggle();
+            toggleMask();
           }
         });
       } else {
@@ -214,7 +242,7 @@ async function init() {
           card.dataset.verseStart = String(reading.ref.verseStart);
         }
         card._ranges = reading.ref.ranges;
-        const bindRails = () =>
+        card._bindRails = () =>
           attachExcerptParallels({
             host: card,
             row,
@@ -224,9 +252,7 @@ async function init() {
             ranges: reading.ref.ranges,
             edition: getActiveEdition(pool),
           });
-        const last = masks[masks.length - 1];
-        if (expandable && last) last.whenReady().then(bindRails).catch(() => {});
-        else bindRails();
+        if (!expandable) card._bindRails();
       }
     }
   } catch (err) {

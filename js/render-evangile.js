@@ -285,6 +285,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
         lang,
       });
       label.classList.add("is-card-head");
+      label.dataset.edition = ed.book.version?.id || "";
       if (!vNums.length) label.classList.add("is-card-foot");
       head.append(label);
     });
@@ -299,6 +300,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
         const lang = ed.book.version?.lang || "";
         const v = vMaps[i].get(vn) || { n: vn, t: "" };
         const row = verseRow(n, v, { col: ed.col, withId: !!ed.primary, lang });
+        row.dataset.edition = ed.book.version?.id || "";
         if (last) row.classList.add("is-card-foot");
         line.append(row);
       });
@@ -390,6 +392,136 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
   }
 
   return { ready, done, token };
+}
+
+/**
+ * Insert, drop, or replace one column inside an already built book.
+ * Returns false when the chapter set is still incomplete — caller rebuilds.
+ */
+export function patchAlignedBook({ editions, container, prevIds = [] }) {
+  const stage = container.querySelector(".edition-stage");
+  if (!stage || !editions?.length) return false;
+  const maps = editions.map((ed) => chapterMap(ed.book));
+  const chNums = [...new Set(maps.flatMap((m) => [...m.keys()]))].sort(
+    (a, b) => a - b
+  );
+  const bands = [...stage.querySelectorAll(":scope > .chapter-band")];
+  if (!chNums.length || bands.length !== chNums.length) return false;
+  for (let i = 0; i < bands.length; i++) {
+    if (+bands[i].dataset.chapter !== chNums[i]) return false;
+  }
+
+  if (prevIds.length) {
+    for (const line of stage.querySelectorAll(".chapter-pair > .verse-line")) {
+      const kids = [...line.children];
+      kids.forEach((el, i) => {
+        if (!el.dataset.edition && prevIds[i]) el.dataset.edition = prevIds[i];
+      });
+    }
+  }
+
+  container._parallelSeq = (container._parallelSeq || 0) + 1;
+  container._parallelIO?.disconnect();
+  container._parallelIO = null;
+  container._parallelMO?.disconnect();
+  container._parallelMO = null;
+  const token = {};
+  container._renderToken = token;
+  stage.style.setProperty("--edition-count", String(editions.length));
+
+  for (const band of bands) {
+    const n = +band.dataset.chapter;
+    const pair = band.querySelector(":scope > .chapter-pair");
+    if (!pair) return false;
+    rewritePair(pair, n, editions, maps);
+  }
+  return true;
+}
+
+function rewritePair(pair, n, editions, maps) {
+  pair.querySelectorAll(":scope > .parallel-rail, :scope > .parallel-cards").forEach((el) => {
+    el.remove();
+  });
+  delete pair._cite;
+
+  const pool = new Map();
+  const oldLines = [...pair.querySelectorAll(":scope > .verse-line")];
+  for (const line of oldLines) {
+    for (const el of [...line.children]) {
+      const edId = el.dataset.edition;
+      if (!edId) continue;
+      const key = el.classList.contains("chapter-label")
+        ? `${edId}:h`
+        : `${edId}:${el.dataset.verse}`;
+      if (!pool.has(key)) pool.set(key, el);
+    }
+  }
+
+  const vMaps = editions.map((_, i) => verseMap(maps[i].get(n)));
+  const vNums = [...new Set(vMaps.flatMap((m) => [...m.keys()]))].sort(
+    (a, b) => a - b
+  );
+
+  function claim(edId, verse) {
+    const key = verse == null ? `${edId}:h` : `${edId}:${verse}`;
+    const el = pool.get(key);
+    if (!el) return null;
+    pool.delete(key);
+    return el;
+  }
+
+  const head = document.createElement("div");
+  head.className = "verse-line";
+  for (const ed of editions) {
+    const edId = ed.book.version?.id || "";
+    const lang = ed.book.version?.lang || "";
+    let label = claim(edId, null);
+    if (!label) {
+      label = alignedLabel(n, ed.book.short, ed.col, {
+        id: ed.primary ? `c${n}` : "",
+        primary: !!ed.primary,
+        lang,
+      });
+      label.classList.add("is-card-head");
+    }
+    label.dataset.col = ed.col;
+    label.dataset.edition = edId;
+    label.classList.add("is-card-head");
+    label.classList.toggle("is-card-foot", vNums.length === 0);
+    if (ed.primary) label.id = `c${n}`;
+    else label.removeAttribute("id");
+    applyLang(label, lang);
+    head.append(label);
+  }
+
+  const fresh = [head];
+  vNums.forEach((vn, vi) => {
+    const line = document.createElement("div");
+    line.className = "verse-line";
+    const last = vi === vNums.length - 1;
+    editions.forEach((ed, i) => {
+      const edId = ed.book.version?.id || "";
+      const lang = ed.book.version?.lang || "";
+      let row = claim(edId, String(vn));
+      if (!row) {
+        const v = vMaps[i].get(vn) || { n: vn, t: "" };
+        row = verseRow(n, v, { col: ed.col, withId: !!ed.primary, lang });
+      }
+      row.dataset.col = ed.col;
+      row.dataset.edition = edId;
+      row.dataset.verse = String(vn);
+      row.classList.toggle("is-card-foot", last);
+      if (ed.primary) row.id = `c${n}v${vn}`;
+      else row.removeAttribute("id");
+      applyLang(row, lang);
+      line.append(row);
+    });
+    fresh.push(line);
+  });
+
+  for (const line of oldLines) line.remove();
+  for (const line of fresh) pair.append(line);
+  for (const el of pool.values()) el.remove();
 }
 
 export function renderSingleChapter(book, chapterN, container, range = null) {

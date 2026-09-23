@@ -1,6 +1,7 @@
 # Local tooling / agents
 .grok/
 .serena/
+AGENTS.md
 
 # OS generated
 .DS_Store

@@ -143,26 +143,34 @@ export async function malachiUsesChapter4(edition) {
  * Load a book from `edition`, else the same language, else any edition that has it.
  * Protestant active + deuterocanon (Sg, Tb, …) → Crampon when French.
  */
+function rankFallback(ids, edition) {
+  const lang = VERSIONS[edition]?.lang;
+  const stack = versionIdsByYear(false);
+  return ids
+    .filter((id) => id !== edition)
+    .sort((a, b) => {
+      const la = VERSIONS[a]?.lang === lang ? 0 : 1;
+      const lb = VERSIONS[b]?.lang === lang ? 0 : 1;
+      if (la !== lb) return la - lb;
+      const ia = stack.indexOf(a);
+      const ib = stack.indexOf(b);
+      return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
+    });
+}
+
 export async function tryLoadBookFallback(id, edition = DEFAULT_EDITION) {
   const direct = await tryLoadBook(id, edition);
   if (direct) return { book: direct, edition, fallback: false };
   const ids = await versionsForBook(id);
-  if (!ids.length) return { book: null, edition, fallback: false };
-  const lang = VERSIONS[edition]?.lang;
-  const stack = versionIdsByYear(false);
-  ids.sort((a, b) => {
-    const la = VERSIONS[a]?.lang === lang ? 0 : 1;
-    const lb = VERSIONS[b]?.lang === lang ? 0 : 1;
-    if (la !== lb) return la - lb;
-    const ia = stack.indexOf(a);
-    const ib = stack.indexOf(b);
-    return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
-  });
-  for (const ed of ids) {
-    if (ed === edition) continue;
-    const book = await tryLoadBook(id, ed);
-    if (book) return { book, edition: ed, fallback: true };
-  }
+  const ranked = rankFallback(ids, edition);
+  const pick = ranked[0];
+  if (!pick) return { book: null, edition, fallback: false };
+  const book = await tryLoadBook(id, pick);
+  if (book) return { book, edition: pick, fallback: true };
+  const spare = ranked[1];
+  if (!spare) return { book: null, edition, fallback: false };
+  const second = await tryLoadBook(id, spare);
+  if (second) return { book: second, edition: spare, fallback: true };
   return { book: null, edition, fallback: false };
 }
 
