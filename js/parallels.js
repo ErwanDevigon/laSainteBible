@@ -845,8 +845,7 @@ class ParallelHost {
     return right;
   }
 
-  railGeom(h) {
-    const rr = this.root.getBoundingClientRect();
+  versesInSpan(span) {
     const raw = this.col
       ? verseEls(this.verseRoot, this.col)
       : [...this.verseRoot.querySelectorAll(".verse[data-verse]")];
@@ -854,29 +853,28 @@ class ParallelHost {
       const nested = el.closest(".parallel-card");
       return !(nested && nested !== this.verseRoot && this.verseRoot.contains(nested));
     });
-    const extent = spanVerses(h.span);
-    const inSpan = verses.filter((el) => {
+    const extent = spanVerses(span);
+    return verses.filter((el) => {
       const n = +el.dataset.verse;
       if (!Number.isFinite(n)) return false;
       if (extent.all) return true;
       return n >= extent.min && n <= Math.min(extent.max, 9000);
     });
-    const shown = inSpan.filter((el) => verseShown(el));
-    let top;
-    let height;
-    if (shown.length) {
-      const first = shown[0];
-      const last = shown[shown.length - 1];
-      top = first.getBoundingClientRect().top - rr.top;
-      height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
-    } else if (inSpan.length) {
-      const zone = inSpan[0].closest(".mask-zone") || inSpan[0];
-      const zr = zone.getBoundingClientRect();
-      top = zr.top - rr.top;
-      height = zr.height;
-    } else {
-      return null;
-    }
+  }
+
+  /** A hit parked entirely in a folded mask draws no stub. */
+  spanShown(span) {
+    return this.versesInSpan(span).some((el) => verseShown(el));
+  }
+
+  railGeom(h) {
+    const rr = this.root.getBoundingClientRect();
+    const shown = this.versesInSpan(h.span).filter((el) => verseShown(el));
+    if (!shown.length) return null;
+    const first = shown[0];
+    const last = shown[shown.length - 1];
+    const top = first.getBoundingClientRect().top - rr.top;
+    const height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
     const left =
       this.anchorRight() - rr.left + RAIL_INSET + (h.lane || 0) * RAIL_LANE;
     return { top, height, left, lane: h.lane || 0 };
@@ -1082,7 +1080,7 @@ class ParallelHost {
   syncRails() {
     this._anchorRight = null;
     const occupied = this.occupied();
-    const hits = assignLanes(this.hits());
+    const hits = assignLanes(this.hits().filter((h) => this.spanShown(h.span)));
     const existing = [...this.root.querySelectorAll(":scope > .parallel-rail")];
     const byKey = new Map(
       existing.map((r) => [r.dataset.hitKey || this.hitKey(r._item, r._span), r])
