@@ -395,33 +395,6 @@ function verseShown(el) {
   return er.bottom > zr.top + 2 && er.top < zr.bottom - 2;
 }
 
-function shownVerseNums(root, col) {
-  const raw = col
-    ? [...root.querySelectorAll(`.verse[data-col="${col}"]`)]
-    : [...root.querySelectorAll(".verse[data-verse]")];
-  const nums = [];
-  for (const el of raw) {
-    const nested = el.closest(".parallel-card");
-    if (nested && nested !== root && root.contains(nested)) continue;
-    if (!verseShown(el)) continue;
-    const n = +el.dataset.verse;
-    if (Number.isFinite(n)) nums.push(n);
-  }
-  return nums;
-}
-
-function anchorNums(span, shown) {
-  const v = spanVerses(span);
-  if (!span || v.all) return shown.slice();
-  const hits = [];
-  for (const n of shown) {
-    if (v.set && v.set.size) {
-      if (v.set.has(n) || (v.max >= 9000 && n >= v.min)) hits.push(n);
-    } else if (n >= v.min && n <= Math.min(v.max, 9000)) hits.push(n);
-  }
-  return hits;
-}
-
 function rangeEls(root, span, col) {
   const raw = col
     ? verseEls(root, col)
@@ -874,29 +847,36 @@ class ParallelHost {
 
   railGeom(h) {
     const rr = this.root.getBoundingClientRect();
-    let els;
-    if (h.anchors?.length) {
-      const want = new Set(h.anchors);
-      const raw = this.col
-        ? verseEls(this.verseRoot, this.col)
-        : [...this.verseRoot.querySelectorAll(".verse[data-verse]")];
-      els = raw.filter((el) => {
-        const nested = el.closest(".parallel-card");
-        if (nested && nested !== this.verseRoot && this.verseRoot.contains(nested)) {
-          return false;
-        }
-        if (!verseShown(el)) return false;
-        return want.has(+el.dataset.verse);
-      });
+    const raw = this.col
+      ? verseEls(this.verseRoot, this.col)
+      : [...this.verseRoot.querySelectorAll(".verse[data-verse]")];
+    const verses = raw.filter((el) => {
+      const nested = el.closest(".parallel-card");
+      return !(nested && nested !== this.verseRoot && this.verseRoot.contains(nested));
+    });
+    const extent = spanVerses(h.span);
+    const inSpan = verses.filter((el) => {
+      const n = +el.dataset.verse;
+      if (!Number.isFinite(n)) return false;
+      if (extent.all) return true;
+      return n >= extent.min && n <= Math.min(extent.max, 9000);
+    });
+    const shown = inSpan.filter((el) => verseShown(el));
+    let top;
+    let height;
+    if (shown.length) {
+      const first = shown[0];
+      const last = shown[shown.length - 1];
+      top = first.getBoundingClientRect().top - rr.top;
+      height = last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
+    } else if (inSpan.length) {
+      const zone = inSpan[0].closest(".mask-zone") || inSpan[0];
+      const zr = zone.getBoundingClientRect();
+      top = zr.top - rr.top;
+      height = zr.height;
     } else {
-      els = rangeEls(this.verseRoot, h.span, this.col || null);
+      return null;
     }
-    if (!els.length) return null;
-    const first = els[0];
-    const last = els[els.length - 1];
-    const top = first.getBoundingClientRect().top - rr.top;
-    const height =
-      last.getBoundingClientRect().bottom - first.getBoundingClientRect().top;
     const left =
       this.anchorRight() - rr.left + RAIL_INSET + (h.lane || 0) * RAIL_LANE;
     return { top, height, left, lane: h.lane || 0 };
@@ -1030,12 +1010,12 @@ class ParallelHost {
     if (this.depth === 0) {
       treeGen += 1;
       const myGen = treeGen;
-      await hideOpenCards(this.closeRoot || document);
+      await hideOpenCards(this.closeRoot || document, { instant: true });
       if (myGen !== treeGen) return;
     } else {
       if (hideGate) await hideGate;
       if (gen !== treeGen) return;
-      await this.hideOwn();
+      await this.hideOwn({ instant: true });
     }
     if (seq !== this.openSeq) return;
     const item = rail._item;
@@ -1102,19 +1082,7 @@ class ParallelHost {
   syncRails() {
     this._anchorRight = null;
     const occupied = this.occupied();
-    const shown = shownVerseNums(this.verseRoot, this.col || null);
-    const prepared = [];
-    for (const h of this.hits()) {
-      const anchors = anchorNums(h.span, shown);
-      if (!anchors.length) continue;
-      prepared.push({
-        ...h,
-        anchors,
-        min: Math.min(...anchors),
-        max: Math.max(...anchors),
-      });
-    }
-    const hits = assignLanes(mergeAccomplissementHits(prepared));
+    const hits = assignLanes(this.hits());
     const existing = [...this.root.querySelectorAll(":scope > .parallel-rail")];
     const byKey = new Map(
       existing.map((r) => [r.dataset.hitKey || this.hitKey(r._item, r._span), r])

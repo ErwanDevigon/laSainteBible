@@ -266,7 +266,17 @@ export function bindGrabPan(root = document.body) {
   }
 
   function onPointerDownSelect(e) {
-    const v = e.target.closest(".chapter-pair .verse");
+    if (e.pointerType === "mouse" && e.button !== 0) return;
+    const frame = e.target.closest(
+      ".reading-card, .parallel-card, .chapter-pair .verse"
+    );
+    if (!frame) {
+      const sel = window.getSelection();
+      if (sel && !sel.isCollapsed) sel.removeAllRanges();
+      markSelectCol("");
+      return;
+    }
+    const v = e.target.closest(".verse");
     markSelectCol(v?.dataset.col || "");
   }
 

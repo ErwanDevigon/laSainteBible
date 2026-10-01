@@ -34,7 +34,9 @@ function typeLabel(type, fallback) {
 async function init() {
   const listEl = document.querySelector("[data-readings]");
   const titleEl = document.querySelector("[data-messe-title]");
-  const dateEl = document.querySelector("[data-messe-date]");
+  const dateEl = document.createElement("p");
+  dateEl.className = "edition-bar-date";
+  dateEl.dataset.messeDate = "";
   const statusEl = document.querySelector("[data-messe-status]");
 
   if (!listEl) return;
@@ -45,7 +47,7 @@ async function init() {
   mountActiveEditionBar(pool, {
     parallels: true,
     lift: true,
-    pageLabel: "Messe du jour",
+    barCenter: dateEl,
   });
 
   /** @type {MaskDilatation[]} */
@@ -75,7 +77,7 @@ async function init() {
     mountActiveEditionBar(pool, {
       parallels: true,
       lift: true,
-      pageLabel: "Messe du jour",
+      barCenter: dateEl,
     });
     const edition = getActiveEdition(pool);
     Promise.all(masks.map((mask) => mask.remount(edition).catch(() => {}))).then(
@@ -95,12 +97,15 @@ async function init() {
     if (titleEl) {
       const t = (data.liturgical_title || "").trim();
       const redundant = !t || /^messe du jour$/i.test(t) || /^lectures$/i.test(t);
+      const hero = titleEl.closest(".messe-hero");
       if (redundant) {
         titleEl.hidden = true;
         titleEl.textContent = "";
+        if (hero) hero.hidden = true;
       } else {
         titleEl.hidden = false;
         titleEl.textContent = t;
+        if (hero) hero.hidden = false;
       }
     }
     if (data.date && dateEl) {

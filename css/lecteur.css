@@ -102,9 +102,18 @@ body.has-active-edition {
   text-overflow: ellipsis;
 }
 
-.active-edition-bar .edition-name-cluster {
+.active-edition-bar .edition-name-cluster,
+.active-edition-bar .edition-bar-center {
   justify-self: center;
   position: static;
+  margin: 0;
+}
+
+.edition-bar-date {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-soft);
+  white-space: nowrap;
 }
 
 .active-edition-bar .parallels-toggle {
@@ -379,7 +388,6 @@ body.lecteur-page[data-book] > .site-header {
 
 .edition-remove-col {
   right: 0;
-  transform: translateX(100%);
 }
 
 .edition-add-col-btn,
@@ -1100,7 +1108,7 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   font-weight: 400;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #e6c56a;
+  color: var(--accent);
   text-align: center;
   margin: 0 0 var(--space-3);
 }
@@ -1198,7 +1206,7 @@ body.lecteur-page[data-book] .edition-pane.is-current {
 }
 
 .parallel-rail.is-open {
-  box-shadow: 0 0 0 1px var(--bg), 0 0 0 2.5px #e6c56a;
+  box-shadow: 0 0 0 1px var(--bg), 0 0 0 2.5px var(--accent);
 }
 
 .parallel-stamp {

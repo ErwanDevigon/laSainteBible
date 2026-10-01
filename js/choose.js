@@ -44,7 +44,7 @@ async function paint() {
 
   mountSiteEditionBar(pool, {
     lift: true,
-    centerExtra: mountTestamentInline(versionId, testament, (next) => {
+    barCenter: mountTestamentInline(versionId, testament, (next) => {
       writeTestament(next);
       paint();
     }),

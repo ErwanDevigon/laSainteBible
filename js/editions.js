@@ -454,15 +454,14 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
     const center = document.createElement("div");
     center.className = "header-center";
     center.append(btn);
-    if (opts.centerExtra) center.append(opts.centerExtra);
-    if (opts.pageLabel) {
-      const label = document.createElement("span");
-      label.className = "header-page-label";
-      label.textContent = opts.pageLabel;
-      center.append(label);
-    }
     placeHeaderCenter(center);
-    bar.append(blurb, spacer);
+    if (opts.barCenter) {
+      const mid = opts.barCenter;
+      mid.classList.add("edition-bar-center");
+      bar.append(blurb, mid, spacer);
+    } else {
+      bar.append(blurb, spacer);
+    }
     if (opts.parallels) bar.append(mountParallelsToggle());
   } else {
     bar.append(
