@@ -9,7 +9,7 @@ import {
   bookName,
 } from "./books.js";
 import { loadVersionIndex } from "./data-loader.js";
-import { editionCanonHead, getActiveEdition } from "./editions.js";
+import { getActiveEdition } from "./editions.js";
 
 export const GOSPEL_META = GOSPEL_IDS.map((id) => {
   const b = BOOK_BY_ID[id];
@@ -64,14 +64,6 @@ export async function mountCanonCatalog(container, opts = {}) {
   container.replaceChildren();
   container.className = "canon-catalog";
 
-  const canonLine = editionCanonHead(versionId);
-  if (canonLine) {
-    const head = document.createElement("p");
-    head.className = "canon-head";
-    head.textContent = canonLine;
-    container.append(head);
-  }
-
   if (!books.length) {
     const empty = document.createElement("p");
     empty.className = "status-msg";
@@ -115,6 +107,34 @@ export async function mountCanonCatalog(container, opts = {}) {
     section.append(grid);
     container.append(section);
   }
+}
+
+export function mountTestamentInline(versionId, current, onPick) {
+  document.querySelector(".testament-bar")?.remove();
+  const v = VERSIONS[versionId] || {
+    at: "Ancien Testament",
+    nt: "Nouveau Testament",
+  };
+  const nav = document.createElement("nav");
+  nav.className = "testament-inline";
+  nav.setAttribute("aria-label", "Testaments");
+  for (const key of ["at", "nt"]) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "testament-link";
+    btn.dataset.testament = key;
+    btn.textContent = key === "at" ? v.at : v.nt;
+    if (key === current) {
+      btn.setAttribute("aria-current", "page");
+      btn.classList.add("is-current");
+    }
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      onPick(key);
+    });
+    nav.append(btn);
+  }
+  return nav;
 }
 
 export function mountTestamentBar(versionId, current, onPick) {

@@ -169,7 +169,7 @@ export class MaskDilatation {
       : [{ start: verseStart, end: verseEnd }];
 
     const { root, excerpt, zones } = renderChapterMask(ch, {
-      short: book.short,
+      short: book.original_title || book.short,
       verseStart,
       verseEnd,
       ranges,

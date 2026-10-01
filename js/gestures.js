@@ -1,13 +1,12 @@
 /**
- * LMB grab-pan (phone-like). Same page. Content follows the pointer.
- * Vertical = document scroll. Horizontal = slide on a wider virtual stage;
- * release keeps the offset (empty space is valid). No page change.
- * MMB = classic LMB text selection (no autoscroll).
+ * Mouse: MMB grab-pan. LMB is ordinary text selection (one column).
+ * Touch still pans. Vertical = document scroll. Horizontal = slide on a
+ * wider virtual stage; release keeps the offset. No page change.
  */
 
 const SLOP = 8;
 const IGNORE =
-  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu, .parallels-menu, .testament-bar, .site-header, .reader-chrome, .parallels-toggle, .parallels-toggle-btn, .edition-add-col, .edition-add-col-btn, .edition-remove-col, .edition-remove-col-btn, .parallel-rail, .parallel-stamp";
+  "input, textarea, select, option, button, a, .edition-name-bar, .active-edition-bar, .book-title-bar, .chapter-rail, .edition-menu, .parallels-menu, .volume-menu, .testament-bar, .site-header, .reader-chrome, .header-center, .header-books, .parallels-toggle, .parallels-toggle-btn, .edition-add-col, .edition-add-col-btn, .edition-remove-col, .edition-remove-col-btn, .parallel-rail, .parallel-stamp";
 
 function readX(root) {
   return parseFloat(root.style.getPropertyValue("--swipe-x")) || 0;
@@ -114,64 +113,6 @@ function caretInCol(x, y, col) {
   return caretAt(x2, y);
 }
 
-function bindMmbSelect(root) {
-  let anchor = null;
-
-  function onMouseDown(e) {
-    if (e.button !== 1) return;
-    e.preventDefault();
-    const pos = caretAt(e.clientX, e.clientY);
-    const sel = window.getSelection();
-    sel.removeAllRanges();
-    if (!pos) {
-      anchor = null;
-      return;
-    }
-    const col = closestCol(pos.node);
-    markSelectCol(col);
-    const range = document.createRange();
-    range.setStart(pos.node, pos.offset);
-    range.collapse(true);
-    sel.addRange(range);
-    anchor = { ...pos, col };
-  }
-
-  function onMouseMove(e) {
-    if (e.buttons !== 4 || !anchor) return;
-    e.preventDefault();
-    const pos = caretInCol(e.clientX, e.clientY, anchor.col) || caretAt(e.clientX, e.clientY);
-    if (!pos) return;
-    if (anchor.col && closestCol(pos.node) !== anchor.col) return;
-    const sel = window.getSelection();
-    if (!sel.rangeCount) return;
-    try {
-      sel.extend(pos.node, pos.offset);
-    } catch {
-      /* ignore */
-    }
-  }
-
-  function onMouseUp(e) {
-    if (e.button === 1) anchor = null;
-  }
-
-  function onAuxClick(e) {
-    if (e.button === 1) e.preventDefault();
-  }
-
-  root.addEventListener("mousedown", onMouseDown);
-  window.addEventListener("mousemove", onMouseMove);
-  window.addEventListener("mouseup", onMouseUp);
-  root.addEventListener("auxclick", onAuxClick);
-
-  return () => {
-    root.removeEventListener("mousedown", onMouseDown);
-    window.removeEventListener("mousemove", onMouseMove);
-    window.removeEventListener("mouseup", onMouseUp);
-    root.removeEventListener("auxclick", onAuxClick);
-  };
-}
-
 /**
  * @param {HTMLElement} [root]
  * @returns {() => void} dispose
@@ -179,7 +120,16 @@ function bindMmbSelect(root) {
 export function bindGrabPan(root = document.body) {
   let sess = null;
   let blockClick = false;
-  const unbindMmb = bindMmbSelect(root);
+
+  function onAuxClick(e) {
+    if (e.button === 1) e.preventDefault();
+  }
+
+  function onMiddleDown(e) {
+    if (e.button !== 1) return;
+    if (e.target.closest("input, textarea, select, option")) return;
+    e.preventDefault();
+  }
 
   function setX(px) {
     root.style.setProperty("--swipe-x", `${px}px`);
@@ -232,7 +182,7 @@ export function bindGrabPan(root = document.body) {
   }
 
   function onDown(e) {
-    if (e.pointerType === "mouse" && e.button !== 0) return;
+    if (e.pointerType === "mouse" && e.button !== 1) return;
     if (sess) return;
     if (e.target.closest(IGNORE)) return;
 
@@ -347,6 +297,8 @@ export function bindGrabPan(root = document.body) {
 
   root.addEventListener("pointerdown", onDown);
   root.addEventListener("pointerdown", onPointerDownSelect, true);
+  root.addEventListener("mousedown", onMiddleDown);
+  root.addEventListener("auxclick", onAuxClick);
   root.addEventListener("click", onClickCapture, true);
   root.addEventListener("selectstart", onSelectStart);
   root.addEventListener("dragstart", onDragStart);
@@ -356,8 +308,9 @@ export function bindGrabPan(root = document.body) {
 
   return () => {
     unbindWindow();
-    unbindMmb();
     root.removeEventListener("pointerdown", onDown);
+    root.removeEventListener("mousedown", onMiddleDown);
+    root.removeEventListener("auxclick", onAuxClick);
     root.removeEventListener("pointerdown", onPointerDownSelect, true);
     root.removeEventListener("click", onClickCapture, true);
     root.removeEventListener("selectstart", onSelectStart);

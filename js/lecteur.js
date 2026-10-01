@@ -3,13 +3,14 @@ import {
   chapterNums,
   loadVersionIndex,
   versionsForBook,
+  rankFallback,
 } from "./data-loader.js";
 import { renderAlignedBook, patchAlignedBook, parseHash } from "./render-evangile.js";
 import { mountParallels } from "./parallels.js";
 import { jumpToElement, veilNow, glideToElement } from "./fade-nav.js";
 import { mountChapterRail } from "./chapter-rail.js";
 import { mountSwipeNav } from "./swipe-nav.js";
-import { BOOK_BY_ID, VERSIONS, versionIdsByYear } from "./books.js";
+import { BOOK_BY_ID, TOC_SECTIONS } from "./books.js";
 import {
   wrapCurrentPane,
   mountReaderChrome,
@@ -89,17 +90,7 @@ async function init() {
     await ensureLoaded([active0]);
     let primaryBook = books[active0];
     if (!primaryBook) {
-      const lang = VERSIONS[active0]?.lang;
-      const stack = versionIdsByYear(false);
-      const ranked = present.filter((id) => id !== active0);
-      ranked.sort((a, b) => {
-        const la = VERSIONS[a]?.lang === lang ? 0 : 1;
-        const lb = VERSIONS[b]?.lang === lang ? 0 : 1;
-        if (la !== lb) return la - lb;
-        const ia = stack.indexOf(a);
-        const ib = stack.indexOf(b);
-        return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
-      });
+      const ranked = rankFallback(present, active0);
       for (const id of ranked) {
         await ensureLoaded([id]);
         if (books[id]) {
@@ -116,8 +107,12 @@ async function init() {
     document.title = `${title} — La Sainte Bible`;
 
     const index = await loadVersionIndex(active0);
-    const section = index?.books?.find((b) => b.id === bookId)?.section;
-    const peers = (index?.books || []).filter((b) => b.section === section);
+    const byId = Object.fromEntries((index?.books || []).map((b) => [b.id, b]));
+    const sectionIds = TOC_SECTIONS.find((s) => s.ids.includes(bookId))?.ids || [bookId];
+    const peers = sectionIds.map((id) => byId[id]).filter(Boolean);
+    if (!peers.some((b) => b.id === bookId) && BOOK_BY_ID[bookId]) {
+      peers.unshift({ id: bookId, ...BOOK_BY_ID[bookId] });
+    }
 
     let railApi = null;
     document.body.classList.toggle("has-psalm-rail", bookId === "psaumes");
@@ -260,9 +255,15 @@ async function init() {
           chapters: nums,
           columns: bookId === "psaumes" ? 3 : 1,
           getTarget: (n) =>
-            bodyEl.querySelector(`#c${n}`) || document.getElementById(`c${n}`),
+            bodyEl._chapterWindow?.ensure(n) ||
+            bodyEl.querySelector(`#c${n}`) ||
+            document.getElementById(`c${n}`),
+          getOffset: (n) => bodyEl._chapterWindow?.docOffset(n) ?? null,
           offset: railOffset,
         });
+      }
+      if (bodyEl._chapterWindow) {
+        bodyEl._chapterWindow.onChange = () => railApi?.remeasure();
       }
 
       const renderToken = job.token;
@@ -278,7 +279,9 @@ async function init() {
       job.ready.then(() => {
         if (token !== paintToken) return;
         if (hashRef) {
-          const target = findRefEl(bodyEl, hashRef);
+          const target = bodyEl._chapterWindow
+            ? bodyEl._chapterWindow.ensure(hashRef.chapter, hashRef.verse)
+            : findRefEl(bodyEl, hashRef);
           if (target) jumpToElement(target, { offset: railOffset() });
         } else if (anchor) {
           const el = bodyEl.querySelector(`#${CSS.escape(anchor.id)}`);
@@ -316,7 +319,9 @@ async function init() {
 
     window.addEventListener("hashchange", () => {
       const ref = parseHash();
-      const target = findRefEl(bodyEl, ref);
+      const target = bodyEl._chapterWindow
+        ? bodyEl._chapterWindow.ensure(ref.chapter, ref.verse)
+        : findRefEl(bodyEl, ref);
       if (target) glideToElement(target, { offset: railOffset() });
     });
   } catch (err) {

@@ -143,7 +143,7 @@ export async function malachiUsesChapter4(edition) {
  * Load a book from `edition`, else the same language, else any edition that has it.
  * Protestant active + deuterocanon (Sg, Tb, …) → Crampon when French.
  */
-function rankFallback(ids, edition) {
+export function rankFallback(ids, edition) {
   const lang = VERSIONS[edition]?.lang;
   const stack = versionIdsByYear(false);
   return ids

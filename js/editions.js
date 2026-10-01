@@ -3,6 +3,7 @@
 import {
   BOOK_BY_ID,
   GOSPEL_IDS,
+  TOC_SECTIONS,
   VERSIONS,
   bookHref,
   bookName,
@@ -449,11 +450,27 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   const spacer = document.createElement("span");
   spacer.className = "edition-bar-spacer";
   spacer.setAttribute("aria-hidden", "true");
-  bar.append(
-    blurb,
-    editionNameCluster(btn, opts.parallels ? mountParallelsToggle() : null),
-    spacer
-  );
+  if (opts.lift) {
+    const center = document.createElement("div");
+    center.className = "header-center";
+    center.append(btn);
+    if (opts.centerExtra) center.append(opts.centerExtra);
+    if (opts.pageLabel) {
+      const label = document.createElement("span");
+      label.className = "header-page-label";
+      label.textContent = opts.pageLabel;
+      center.append(label);
+    }
+    placeHeaderCenter(center);
+    bar.append(blurb, spacer);
+    if (opts.parallels) bar.append(mountParallelsToggle());
+  } else {
+    bar.append(
+      blurb,
+      editionNameCluster(btn, opts.parallels ? mountParallelsToggle() : null),
+      spacer
+    );
+  }
 
   const header = document.querySelector(".site-header");
   if (header) header.after(bar);
@@ -531,6 +548,7 @@ function closeParallelsMenu() {
 
 function openParallelsMenu(anchor) {
   closeEditionMenu();
+  closeVolumeMenu();
   closeParallelsMenu();
   const menu = document.createElement("ul");
   menu.className = "parallels-menu";
@@ -589,6 +607,7 @@ function openParallelsMenu(anchor) {
 
 function openEditionMenu(anchor, currentId, stack, onPick, opts = {}) {
   closeParallelsMenu();
+  closeVolumeMenu();
   closeEditionMenu();
   const others = editionsByYearDesc(
     (opts.ids || stack).filter((id) => id && id !== currentId)
@@ -647,31 +666,114 @@ let headerHBound = false;
 
 function syncHeaderHeight() {
   const header = document.querySelector(".site-header");
-  if (!header?.querySelector(".header-volume")) return;
-  document.documentElement.style.setProperty(
-    "--header-h",
-    `${Math.ceil(header.getBoundingClientRect().height)}px`
-  );
+  if (!header) return;
+  const h = Math.ceil(header.getBoundingClientRect().height);
+  if (h > 0) document.documentElement.style.setProperty("--header-h", `${h}px`);
 }
 
 function bindHeaderHeight() {
   if (headerHBound) return;
   headerHBound = true;
   window.addEventListener("resize", syncHeaderHeight);
+  document.fonts?.ready?.then(() => syncHeaderHeight());
 }
 
-/** Book tabs replace the centered "La Bible" link. Not used on the TOC. */
-function placeVolumeInHeader(nav) {
+function placeHeaderCenter(node) {
   const header = document.querySelector(".site-header");
-  if (!header) return false;
-  nav.classList.remove("book-title-bar");
-  nav.classList.add("header-volume");
-  const old = header.querySelector(".header-volume") || header.querySelector(".nav-center");
-  if (old) old.replaceWith(nav);
-  else header.insertBefore(nav, header.querySelector(".nav-links"));
+  if (!header || !node) return false;
+  node.classList.add("header-center");
+  const old =
+    header.querySelector(".header-center") ||
+    header.querySelector(".header-volume") ||
+    header.querySelector(".header-books") ||
+    header.querySelector(".nav-center");
+  if (old) old.replaceWith(node);
+  else header.insertBefore(node, header.querySelector(".nav-links"));
   bindHeaderHeight();
   requestAnimationFrame(syncHeaderHeight);
   return true;
+}
+
+function closeVolumeMenu() {
+  const menu = document.querySelector(".volume-menu");
+  menu?._ac?.abort();
+  menu?.remove();
+  document.querySelectorAll(".volume-menu-btn[aria-expanded='true']").forEach((btn) => {
+    btn.setAttribute("aria-expanded", "false");
+  });
+}
+
+function openVolumeMenu(anchor, bookId, peers) {
+  closeEditionMenu();
+  closeParallelsMenu();
+  closeVolumeMenu();
+  const menu = document.createElement("ul");
+  menu.className = "volume-menu";
+  menu.setAttribute("role", "listbox");
+  const base = apostleBase();
+  for (const book of peers) {
+    const li = document.createElement("li");
+    li.setAttribute("role", "option");
+    const a = document.createElement("a");
+    a.href = bookHref(book.id, base);
+    a.textContent = bookName(book) || book.title || book.id;
+    if (book.id === bookId) {
+      a.setAttribute("aria-current", "page");
+      a.classList.add("is-current");
+    }
+    li.append(a);
+    menu.append(li);
+  }
+  document.body.append(menu);
+  const r = anchor.getBoundingClientRect();
+  const mw = menu.getBoundingClientRect().width;
+  let left = r.left + r.width / 2 - mw / 2;
+  left = Math.max(8, Math.min(left, window.innerWidth - mw - 8));
+  menu.style.left = `${left}px`;
+  menu.style.top = `${r.bottom + 4}px`;
+  anchor.setAttribute("aria-expanded", "true");
+
+  const ac = new AbortController();
+  menu._ac = ac;
+  const onDoc = (e) => {
+    if (menu.contains(e.target) || anchor.contains(e.target)) return;
+    closeVolumeMenu();
+  };
+  const onKey = (e) => {
+    if (e.key !== "Escape") return;
+    closeVolumeMenu();
+    anchor.focus();
+  };
+  document.addEventListener("pointerdown", onDoc, { capture: true, signal: ac.signal });
+  document.addEventListener("keydown", onKey, { signal: ac.signal });
+}
+
+function mountBookMenu(bookId, peers) {
+  const section = TOC_SECTIONS.find((s) => s.ids.includes(bookId));
+  const label = section?.label || bookName(BOOK_BY_ID[bookId]) || bookId;
+  const wrap = document.createElement("div");
+  wrap.className = "header-center header-books";
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "volume-menu-btn";
+  btn.setAttribute("aria-haspopup", "listbox");
+  btn.setAttribute("aria-expanded", "false");
+  btn.textContent = label;
+  const items =
+    peers && peers.length
+      ? peers
+      : [{ id: bookId, ...(BOOK_BY_ID[bookId] || {}) }];
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (document.querySelector(".volume-menu")) {
+      closeVolumeMenu();
+      return;
+    }
+    openVolumeMenu(btn, bookId, items);
+  });
+  wrap.append(btn);
+  return wrap;
 }
 
 export function mountVolumeBar(bookId, peers) {
@@ -714,21 +816,13 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
   document.querySelector(".site-header .header-volume")?.remove();
   closeEditionMenu();
   closeParallelsMenu();
+  closeVolumeMenu();
 
   const stack = labels.map((item) => item.id).filter(Boolean);
   const pool = available && available.length ? available : stack;
   mountHeaderTranslation();
 
-  let titleBar = null;
-  if (peers && peers.length) {
-    titleBar = mountVolumeBar(bookId, peers);
-  } else if (bookId) {
-    titleBar = mountVolumeBar(bookId, null);
-  } else if (title) {
-    titleBar = document.createElement("div");
-    titleBar.className = "book-title-bar";
-    titleBar.textContent = displayBookTitle(title);
-  }
+  if (bookId) placeHeaderCenter(mountBookMenu(bookId, peers));
 
   const nameBar = document.createElement("div");
   nameBar.className = "edition-name-bar";
@@ -760,36 +854,35 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
     });
     if (colIndex === labels.length - 1) wrap.classList.add("is-primary");
     wrap.append(editionNameCluster(btn));
+    if (colIndex === 0) {
+      const add = mountAddColumn(pool, stack);
+      if (add) wrap.append(add);
+    }
     if (colIndex < labels.length - 1) wrap.append(mountRemoveColumn(colIndex, pool));
     if (colIndex === labels.length - 1) wrap.append(mountParallelsToggle());
-    const add = mountAddColumn(pool, stack);
-    if (add) wrap.append(add);
     stage.append(wrap);
   });
   nameBar.append(stage);
 
   const chrome = document.createElement("div");
   chrome.className = "reader-chrome";
-  const inHeader = titleBar?.classList.contains("volume-bar") && placeVolumeInHeader(titleBar);
-  if (titleBar && !inHeader) chrome.append(titleBar);
   chrome.append(nameBar);
 
   const header = document.querySelector(".site-header");
   if (header) header.after(chrome);
   else document.body.prepend(chrome);
 
-  if (inHeader) document.body.style.setProperty("--book-bar-h", "0px");
-  else if (titleBar) {
-    document.body.style.setProperty("--book-bar-h", `${titleBar.offsetHeight}px`);
-  }
+  document.body.style.setProperty("--book-bar-h", "0px");
+  bindHeaderHeight();
+  requestAnimationFrame(syncHeaderHeight);
 
   syncParallelsTrigger();
-  return { titleBar, nameBar, chrome };
+  return { nameBar, chrome };
 }
 
 /** Homepage / index: single centered name, like messe. */
-export function mountSiteEditionBar(available = EDITION_STACK) {
-  return mountActiveEditionBar(available);
+export function mountSiteEditionBar(available = EDITION_STACK, opts = {}) {
+  return mountActiveEditionBar(available, opts);
 }
 
 export function wrapCurrentPane(editionId = DEFAULT_ACTIVE) {

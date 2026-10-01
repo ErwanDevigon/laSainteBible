@@ -42,7 +42,11 @@ async function init() {
   mountSwipeNav();
   const available = await listVersionIds();
   const pool = available.length ? available : EDITION_STACK;
-  mountActiveEditionBar(pool, { parallels: true });
+  mountActiveEditionBar(pool, {
+    parallels: true,
+    lift: true,
+    pageLabel: "Messe du jour",
+  });
 
   /** @type {MaskDilatation[]} */
   const masks = [];
@@ -68,7 +72,11 @@ async function init() {
   }
 
   document.addEventListener("lsb:editions", () => {
-    mountActiveEditionBar(pool, { parallels: true });
+    mountActiveEditionBar(pool, {
+      parallels: true,
+      lift: true,
+      pageLabel: "Messe du jour",
+    });
     const edition = getActiveEdition(pool);
     Promise.all(masks.map((mask) => mask.remount(edition).catch(() => {}))).then(
       () => wireParallels()

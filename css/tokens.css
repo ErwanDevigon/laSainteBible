@@ -53,6 +53,7 @@
 
   /* Synopse brace / stamp / cards */
   --parallel-dur: 280ms;
+  --parallel-out-dur: 560ms;
   --parallel-ease: var(--ease);
   --rail-synopse: #c4b59a;
   --rail-vetero: #6e9aa8;

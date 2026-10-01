@@ -9,7 +9,7 @@ const NT_URL = "data/parallels-nt.json?v=2";
 const AT_URL = "data/citations-at.json?v=2";
 const RAIL_INSET = 8;
 const RAIL_LANE = 14;
-const MAX_DEPTH = 8;
+const MAX_DEPTH = 48;
 
 let packed = null;
 let packedRaw = null;
@@ -82,6 +82,9 @@ function fuseAccomplissementHits(group) {
     passages,
     label: group[0].item.label,
   };
+  const anchors = [...new Set(group.flatMap((h) => h.anchors || []))].sort(
+    (a, b) => a - b
+  );
   return {
     item,
     passage: group[0].passage,
@@ -89,6 +92,7 @@ function fuseAccomplissementHits(group) {
       chapter: group[0].span.chapter,
       ranges: [{ start: min, end: max >= 9000 ? null : max }],
     },
+    anchors,
     min,
     max,
   };
@@ -391,6 +395,33 @@ function verseShown(el) {
   return er.bottom > zr.top + 2 && er.top < zr.bottom - 2;
 }
 
+function shownVerseNums(root, col) {
+  const raw = col
+    ? [...root.querySelectorAll(`.verse[data-col="${col}"]`)]
+    : [...root.querySelectorAll(".verse[data-verse]")];
+  const nums = [];
+  for (const el of raw) {
+    const nested = el.closest(".parallel-card");
+    if (nested && nested !== root && root.contains(nested)) continue;
+    if (!verseShown(el)) continue;
+    const n = +el.dataset.verse;
+    if (Number.isFinite(n)) nums.push(n);
+  }
+  return nums;
+}
+
+function anchorNums(span, shown) {
+  const v = spanVerses(span);
+  if (!span || v.all) return shown.slice();
+  const hits = [];
+  for (const n of shown) {
+    if (v.set && v.set.size) {
+      if (v.set.has(n) || (v.max >= 9000 && n >= v.min)) hits.push(n);
+    } else if (n >= v.min && n <= Math.min(v.max, 9000)) hits.push(n);
+  }
+  return hits;
+}
+
 function rangeEls(root, span, col) {
   const raw = col
     ? verseEls(root, col)
@@ -680,8 +711,18 @@ async function foldBoxes(boxes, { instant = false, rails = [] } = {}) {
   }
   if (folds.length) await Promise.all(folds);
   for (const el of boxes) el.classList.remove("is-open");
-  if (!snap) await sleep(cssMs("--parallel-dur", 280) + 16);
+  if (!reducedMotion()) await sleep(cssMs("--parallel-out-dur", 560) + 16);
   for (const el of boxes) emptyCards(el);
+}
+
+function applyRailSpan(root) {
+  let max = -1;
+  root.querySelectorAll(":scope > .parallel-rail").forEach((rail) => {
+    const lane = rail._lane || 0;
+    if (lane > max) max = lane;
+  });
+  const px = max < 0 ? 0 : RAIL_INSET + max * RAIL_LANE + 6;
+  root.style.setProperty("--rail-span", `${px}px`);
 }
 
 async function hideOpenCards(container, { instant = false } = {}) {
@@ -833,7 +874,23 @@ class ParallelHost {
 
   railGeom(h) {
     const rr = this.root.getBoundingClientRect();
-    const els = rangeEls(this.verseRoot, h.span, this.col || null);
+    let els;
+    if (h.anchors?.length) {
+      const want = new Set(h.anchors);
+      const raw = this.col
+        ? verseEls(this.verseRoot, this.col)
+        : [...this.verseRoot.querySelectorAll(".verse[data-verse]")];
+      els = raw.filter((el) => {
+        const nested = el.closest(".parallel-card");
+        if (nested && nested !== this.verseRoot && this.verseRoot.contains(nested)) {
+          return false;
+        }
+        if (!verseShown(el)) return false;
+        return want.has(+el.dataset.verse);
+      });
+    } else {
+      els = rangeEls(this.verseRoot, h.span, this.col || null);
+    }
     if (!els.length) return null;
     const first = els[0];
     const last = els[els.length - 1];
@@ -877,7 +934,6 @@ class ParallelHost {
     if (this.depth > MAX_DEPTH) return;
     const openEl = this.root.querySelector(":scope > .parallel-cards.is-open");
     const openId = preserveOpen ? openEl?.dataset.itemId || "" : "";
-    this.clearOwnRails();
     if (openEl?.dataset.kind && !parallelKindEnabled(openEl.dataset.kind)) {
       openEl.querySelectorAll(".parallel-card").forEach((card) => {
         if (card._dil?.expanded || card._dil?._collapsing) {
@@ -901,6 +957,11 @@ class ParallelHost {
       this.root
         .querySelectorAll(":scope > .parallel-cards > .parallel-card")
         .forEach((card) => card._cite?.paint({ preserveOpen: true }));
+    }
+    if (this.depth === 0 && !this.root._railRO) {
+      const host = this;
+      this.root._railRO = new ResizeObserver(() => host.sync());
+      this.root._railRO.observe(this.verseRoot);
     }
     this.syncPush();
   }
@@ -961,7 +1022,7 @@ class ParallelHost {
     if (rail.classList.contains("is-open")) {
       ++this.openSeq;
       if (this.depth === 0) treeGen += 1;
-      await this.hideOwn();
+      await this.hideOwn({ instant: true });
       return;
     }
     const seq = ++this.openSeq;
@@ -1041,7 +1102,19 @@ class ParallelHost {
   syncRails() {
     this._anchorRight = null;
     const occupied = this.occupied();
-    const hits = assignLanes(this.hits());
+    const shown = shownVerseNums(this.verseRoot, this.col || null);
+    const prepared = [];
+    for (const h of this.hits()) {
+      const anchors = anchorNums(h.span, shown);
+      if (!anchors.length) continue;
+      prepared.push({
+        ...h,
+        anchors,
+        min: Math.min(...anchors),
+        max: Math.max(...anchors),
+      });
+    }
+    const hits = assignLanes(mergeAccomplissementHits(prepared));
     const existing = [...this.root.querySelectorAll(":scope > .parallel-rail")];
     const byKey = new Map(
       existing.map((r) => [r.dataset.hitKey || this.hitKey(r._item, r._span), r])
@@ -1090,6 +1163,7 @@ class ParallelHost {
       }
       rail.remove();
     }
+    applyRailSpan(this.root);
     const cards = this.root.querySelector(":scope > .parallel-cards.is-open");
     if (!cards) return;
     const rail =

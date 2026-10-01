@@ -1,4 +1,4 @@
-import { mountCanonCatalog, mountTestamentBar } from "./nav-books.js";
+import { mountCanonCatalog, mountTestamentInline } from "./nav-books.js";
 import { mountSwipeNav } from "./swipe-nav.js";
 import {
   mountSiteEditionBar,
@@ -31,8 +31,6 @@ async function paint() {
   const available = await listVersionIds();
   const pool = available.length ? available : EDITION_STACK;
   const versionId = getActiveEdition(pool);
-  mountSiteEditionBar(pool);
-
   const root = document.querySelector("[data-gospel-pickers]");
   const inLire = /\/lire(\/|$)/.test(window.location.pathname);
   const base = inLire ? "" : "lire/";
@@ -44,9 +42,12 @@ async function paint() {
   if (testament === "at" && !hasAt && hasNt) testament = "nt";
   if (testament === "nt" && !hasNt && hasAt) testament = "at";
 
-  mountTestamentBar(versionId, testament, (next) => {
-    writeTestament(next);
-    paint();
+  mountSiteEditionBar(pool, {
+    lift: true,
+    centerExtra: mountTestamentInline(versionId, testament, (next) => {
+      writeTestament(next);
+      paint();
+    }),
   });
 
   if (!root) return;

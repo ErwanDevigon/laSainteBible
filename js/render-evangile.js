@@ -215,6 +215,10 @@ function verseMap(chapter) {
   return map;
 }
 
+function frameTitle(book) {
+  return book?.original_title || book?.short || "";
+}
+
 function alignedLabel(n, short, col, { id = "", primary = false, lang = "" } = {}) {
   const label = document.createElement("div");
   label.className = "chapter-label";
@@ -252,6 +256,8 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
   container._parallelMO = null;
   const token = {};
   container._renderToken = token;
+  container._chapterWindow?.destroy();
+  container._chapterWindow = null;
   container.replaceChildren();
   container.classList.add("book-body", "is-aligned");
 
@@ -264,8 +270,11 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
   const chNums = [...new Set(maps.flatMap((m) => [...m.keys()]))].sort(
     (a, b) => a - b
   );
+  const live = { editions, maps, chNums };
 
   function makeBand(n) {
+    const editions = live.editions;
+    const maps = live.maps;
     const pair = document.createElement("section");
     pair.className = "chapter-pair";
     pair.dataset.chapter = String(n);
@@ -279,7 +288,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
     head.className = "verse-line";
     editions.forEach((ed) => {
       const lang = ed.book.version?.lang || "";
-      const label = alignedLabel(n, ed.book.short, ed.col, {
+      const label = alignedLabel(n, frameTitle(ed.book), ed.col, {
         id: ed.primary ? `c${n}` : "",
         primary: !!ed.primary,
         lang,
@@ -314,21 +323,379 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
     return { band, verseCount: vNums.length * editions.length };
   }
 
-  function appendEnd() {
-    if (!end) return;
-    for (const ed of editions) {
-      if (ed.primary) {
-        end.dataset.col = ed.col;
-        stage.append(end);
-      } else {
-        const hole = document.createElement("div");
-        hole.className = "book-end";
-        hole.dataset.col = ed.col;
-        hole.setAttribute("aria-hidden", "true");
-        stage.append(hole);
+  const topSpacer = document.createElement("div");
+  topSpacer.className = "chapter-spacer";
+  topSpacer.dataset.edge = "top";
+  const bottomSpacer = document.createElement("div");
+  bottomSpacer.className = "chapter-spacer";
+  bottomSpacer.dataset.edge = "bottom";
+  stage.append(topSpacer, bottomSpacer);
+  stage.dataset.window = "1";
+
+  const state = {
+    heights: new Map(),
+    measured: new Set(),
+    focus: priority != null && chNums.includes(priority) ? priority : null,
+    jumped: !(priority != null && chNums.includes(priority)),
+    probe: null,
+    raf: 0,
+    lock: 0,
+    lastKey: "",
+    destroyed: false,
+    token,
+    chNums: chNums.slice(),
+    prefix: [],
+    holdUntil: 0,
+    holdTimer: 0,
+  };
+
+  function probeLine(text, lang, width) {
+    const sizer = document.createElement("div");
+    sizer.style.cssText =
+      "position:absolute;left:0;top:0;visibility:hidden;pointer-events:none;z-index:-1;";
+    sizer.style.width = width || "38rem";
+    const sample = document.createElement("div");
+    sample.className = "verse-text";
+    sample.style.whiteSpace = "nowrap";
+    if (lang) sample.lang = lang;
+    sample.textContent = text;
+    sizer.append(sample);
+    document.body.append(sizer);
+    const lineH = parseFloat(getComputedStyle(sample).lineHeight);
+    const count = [...text].length || 1;
+    const charW = sample.scrollWidth / count;
+    const inner = Math.max(80, sizer.clientWidth - 48);
+    sizer.remove();
+    return {
+      lineH: Number.isFinite(lineH) && lineH > 0 ? lineH : 28,
+      chars: charW > 0 ? Math.max(8, Math.floor(inner / charW)) : 42,
+    };
+  }
+
+  function probeMetrics() {
+    if (state.probe) return state.probe;
+    const width =
+      getComputedStyle(document.body).getPropertyValue("--edition-col").trim() ||
+      "38rem";
+    let latin = { lineH: 28, chars: 42 };
+    try {
+      latin = probeLine("abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz", "", width);
+    } catch {
+      /* keep fallback */
+    }
+    let heChars = latin.chars;
+    if (live.editions.some((ed) => ed.book?.version?.lang === "he")) {
+      try {
+        const got = probeLine(
+          "אבגדהוזחטיכלמנסעפצקרשתאבגדהוזחטיכלמנסעפצקרשת",
+          "he",
+          width
+        );
+        heChars = got.chars;
+        latin.lineH = Math.max(latin.lineH, got.lineH);
+      } catch {
+        /* keep fallback */
       }
     }
+    state.probe = {
+      lineH: latin.lineH || 28,
+      chars: latin.chars || 42,
+      heChars: heChars || 42,
+      head: 64,
+      versePad: 10,
+      bandGap: 16,
+    };
+    return state.probe;
   }
+
+  function estimate(n) {
+    if (state.heights.has(n)) return state.heights.get(n);
+    const p = probeMetrics();
+    const vSets = live.maps.map((m) => verseMap(m.get(n)));
+    const nums = [...new Set(vSets.flatMap((m) => [...m.keys()]))];
+    let lines = 0;
+    for (const vn of nums) {
+      let rowLines = 1;
+      vSets.forEach((vm, i) => {
+        const t = vm.get(vn)?.t || "";
+        const lang = live.editions[i]?.book?.version?.lang;
+        const c = lang === "he" ? p.heChars : p.chars;
+        rowLines = Math.max(rowLines, Math.ceil(t.length / Math.max(1, c)) || 1);
+      });
+      lines += rowLines;
+    }
+    const h = p.head + lines * (p.lineH + p.versePad) + p.bandGap;
+    state.heights.set(n, h);
+    return h;
+  }
+
+  function writeSpacers(firstIdx, lastIdx) {
+    state.prefix = new Array(state.chNums.length);
+    let before = 0;
+    let after = 0;
+    let acc = 0;
+    for (let i = 0; i < state.chNums.length; i++) {
+      state.prefix[i] = acc;
+      const h = estimate(state.chNums[i]);
+      acc += h;
+      if (i < firstIdx) before += h;
+      if (i > lastIdx) after += h;
+    }
+    topSpacer.style.height = `${Math.max(0, before)}px`;
+    bottomSpacer.style.height = `${Math.max(0, after)}px`;
+  }
+
+  function mountedBands() {
+    return [...stage.querySelectorAll(":scope > .chapter-band")];
+  }
+
+  function wantedRange() {
+    const nums = state.chNums;
+    if (!nums.length) return [0, -1];
+    if (state.focus != null && !state.jumped) {
+      let center = nums.indexOf(state.focus);
+      if (center < 0) center = 0;
+      const view = window.innerHeight * 2;
+      let up = center;
+      let down = center;
+      let h = estimate(nums[center]);
+      while (h < view && (up > 0 || down < nums.length - 1)) {
+        if (down < nums.length - 1) {
+          down += 1;
+          h += estimate(nums[down]);
+        }
+        if (h >= view) break;
+        if (up > 0) {
+          up -= 1;
+          h += estimate(nums[up]);
+        }
+      }
+      return [up, down];
+    }
+    const stageTop = stage.getBoundingClientRect().top + window.scrollY;
+    const y0 = window.scrollY - stageTop - window.innerHeight;
+    const y1 = window.scrollY - stageTop + 2 * window.innerHeight;
+    const prefix = [];
+    let acc = 0;
+    for (const n of nums) {
+      prefix.push(acc);
+      acc += estimate(n);
+    }
+    let lo = 0;
+    while (lo < nums.length - 1 && prefix[lo] + estimate(nums[lo]) < y0) lo += 1;
+    let hi = nums.length - 1;
+    while (hi > lo && prefix[hi] > y1) hi -= 1;
+    return [Math.max(0, lo - 1), Math.min(nums.length - 1, hi + 1)];
+  }
+
+  function measureBand(band) {
+    const n = +band.dataset.chapter;
+    const mb = parseFloat(getComputedStyle(band).marginBottom) || 0;
+    const h = band.offsetHeight + mb;
+    const prev = state.heights.get(n);
+    state.heights.set(n, h);
+    state.measured.add(n);
+    return prev == null || Math.abs(prev - h) > 1.5;
+  }
+
+  function dropBand(band) {
+    const pair = band.querySelector(":scope > .chapter-pair");
+    if (pair && container._parallelIO) {
+      try {
+        container._parallelIO.unobserve(pair);
+      } catch {
+        /* detached */
+      }
+    }
+    band.remove();
+  }
+
+  let api = null;
+
+  function syncWindow(opts = {}) {
+    if (state.destroyed || container._renderToken !== state.token) return;
+    if (!opts.force && performance.now() < state.holdUntil) return;
+    const nums = state.chNums;
+    const have = mountedBands();
+    let snap = null;
+    if (opts.anchor?.id) {
+      const el = document.getElementById(opts.anchor.id);
+      const band = el?.closest(".chapter-band");
+      snap = {
+        id: opts.anchor.id,
+        view: opts.anchor.view,
+        n: band ? +band.dataset.chapter : null,
+      };
+    } else {
+      const chrome =
+        document.querySelector(".reader-chrome") ||
+        document.querySelector(".active-edition-bar") ||
+        document.querySelector(".site-header");
+      const line = (chrome ? chrome.getBoundingClientRect().bottom : 0) + 8;
+      let snapView = -1e9;
+      for (const el of stage.querySelectorAll(".chapter-label[id], .verse[id]")) {
+        const view = el.getBoundingClientRect().top;
+        if (view <= line && view > snapView) {
+          const band = el.closest(".chapter-band");
+          snap = { id: el.id, view, n: band ? +band.dataset.chapter : null };
+          snapView = view;
+        }
+      }
+      if (!snap && have[0]) {
+        const label = have[0].querySelector(".chapter-label[id]");
+        if (label) {
+          snap = {
+            id: label.id,
+            view: label.getBoundingClientRect().top,
+            n: +have[0].dataset.chapter,
+          };
+        }
+      }
+    }
+    let [lo, hi] = wantedRange();
+    if (snap) {
+      const i = nums.indexOf(snap.n);
+      if (i >= 0) {
+        lo = Math.min(lo, i);
+        hi = Math.max(hi, i);
+      }
+    }
+    if (hi < lo) {
+      writeSpacers(0, -1);
+      state.lastKey = "empty";
+      return;
+    }
+    const wantIds = nums.slice(lo, hi + 1).join(",");
+    const mountedIds = have.map((b) => b.dataset.chapter).join(",");
+    if (state.lastKey === `${lo}:${hi}` && mountedIds === wantIds) return;
+
+    for (const band of have) {
+      const i = nums.indexOf(+band.dataset.chapter);
+      if (i < lo || i > hi) dropBand(band);
+    }
+    for (let i = lo; i <= hi; i++) {
+      const n = nums[i];
+      if (stage.querySelector(`:scope > .chapter-band[data-chapter="${n}"]`)) continue;
+      const band = makeBand(n).band;
+      let before = bottomSpacer;
+      for (const b of mountedBands()) {
+        if (+b.dataset.chapter > n) {
+          before = b;
+          break;
+        }
+      }
+      stage.insertBefore(band, before);
+    }
+
+    const bands = mountedBands();
+    const firstIdx = bands.length ? nums.indexOf(+bands[0].dataset.chapter) : 0;
+    const lastIdx = bands.length ? nums.indexOf(+bands[bands.length - 1].dataset.chapter) : -1;
+    writeSpacers(firstIdx < 0 ? 0 : firstIdx, lastIdx);
+    let changed = false;
+    for (const band of bands) {
+      if (measureBand(band)) changed = true;
+    }
+    if (changed) writeSpacers(firstIdx < 0 ? 0 : firstIdx, lastIdx);
+    if (opts.pin !== false && snap?.id) {
+      const el = document.getElementById(snap.id);
+      if (el) {
+        const dy = el.getBoundingClientRect().top - snap.view;
+        if (Math.abs(dy) > 1.5) {
+          state.lock += 1;
+          window.scrollBy(0, dy);
+          state.lock -= 1;
+        }
+      }
+    }
+    state.lastKey = `${lo}:${hi}`;
+    api?.onChange?.();
+  }
+
+  function onScroll() {
+    if (state.lock || state.destroyed) return;
+    if (state.raf) return;
+    state.raf = requestAnimationFrame(() => {
+      state.raf = 0;
+      if (state.lock || state.destroyed) return;
+      syncWindow();
+    });
+  }
+
+  function onResize() {
+    state.probe = null;
+    state.lastKey = "";
+    onScroll();
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onResize);
+  document.fonts?.ready?.then(() => {
+    if (state.destroyed) return;
+    state.probe = null;
+    state.lastKey = "";
+    syncWindow();
+  });
+
+  api = {
+    onChange: null,
+    open() {
+      syncWindow({ force: true });
+      state.jumped = true;
+      state.focus = null;
+    },
+    destroy() {
+      state.destroyed = true;
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onResize);
+      if (state.raf) cancelAnimationFrame(state.raf);
+      clearTimeout(state.holdTimer);
+      topSpacer.remove();
+      bottomSpacer.remove();
+      if (container._chapterWindow === api) container._chapterWindow = null;
+    },
+    ensure(chapter, verse) {
+      const n = +chapter;
+      if (!state.chNums.includes(n)) return null;
+      state.focus = n;
+      state.jumped = false;
+      state.holdUntil = 0;
+      syncWindow({ force: true, pin: false });
+      state.jumped = true;
+      state.focus = null;
+      state.holdUntil = performance.now() + 1280;
+      clearTimeout(state.holdTimer);
+      state.holdTimer = setTimeout(() => {
+        state.holdUntil = 0;
+        syncWindow();
+      }, 1320);
+      const id = verse ? `c${n}v${verse}` : `c${n}`;
+      return document.getElementById(id) || document.getElementById(`c${n}`);
+    },
+    docOffset(n) {
+      const i = state.chNums.indexOf(+n);
+      if (i < 0 || !state.prefix.length) return null;
+      return stage.getBoundingClientRect().top + window.scrollY + (state.prefix[i] || 0);
+    },
+    retarget(nextEditions, nextMaps) {
+      live.editions = nextEditions;
+      live.maps = nextMaps;
+      state.chNums = [...new Set(nextMaps.flatMap((m) => [...m.keys()]))].sort(
+        (a, b) => a - b
+      );
+      live.chNums = state.chNums;
+      state.probe = null;
+      state.lastKey = "";
+      state.token = container._renderToken;
+    },
+    remeasure(opts = {}) {
+      state.probe = null;
+      state.lastKey = "";
+      state.token = container._renderToken;
+      syncWindow({ force: true, pin: opts.pin !== false, anchor: opts.anchor || null });
+    },
+  };
+  container._chapterWindow = api;
+  api.open();
 
   let resolveReady;
   let resolveDone;
@@ -338,59 +705,8 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
   const done = new Promise((r) => {
     resolveDone = r;
   });
-  let readySent = false;
-  function markReady() {
-    if (readySent) return;
-    readySent = true;
-    resolveReady();
-  }
-
-  let cursor = 0;
-  function takeThrough(index) {
-    const frag = document.createDocumentFragment();
-    while (cursor < chNums.length && cursor <= index) {
-      frag.appendChild(makeBand(chNums[cursor]).band);
-      cursor += 1;
-    }
-    if (frag.childNodes.length) stage.appendChild(frag);
-  }
-
-  const priIndex = priority == null ? 0 : chNums.indexOf(priority);
-  if (chNums.length) takeThrough(priIndex < 0 ? 0 : priIndex);
-  markReady();
-
-  const VERSE_BUDGET = 400;
-
-  function step() {
-    if (container._renderToken !== token) return;
-    if (cursor >= chNums.length) {
-      appendEnd();
-      resolveDone();
-      return;
-    }
-    const frag = document.createDocumentFragment();
-    let verses = 0;
-    while (cursor < chNums.length && verses < VERSE_BUDGET) {
-      const made = makeBand(chNums[cursor]);
-      cursor += 1;
-      verses += made.verseCount;
-      frag.appendChild(made.band);
-    }
-    stage.appendChild(frag);
-    if (cursor >= chNums.length) {
-      appendEnd();
-      resolveDone();
-      return;
-    }
-    requestAnimationFrame(step);
-  }
-
-  if (cursor < chNums.length) requestAnimationFrame(step);
-  else {
-    appendEnd();
-    resolveDone();
-  }
-
+  resolveReady();
+  resolveDone();
   return { ready, done, token };
 }
 
@@ -402,13 +718,17 @@ export function patchAlignedBook({ editions, container, prevIds = [] }) {
   const stage = container.querySelector(".edition-stage");
   if (!stage || !editions?.length) return false;
   const maps = editions.map((ed) => chapterMap(ed.book));
+  const win = container._chapterWindow;
+  const windowed = !!(win && stage.dataset.window === "1");
   const chNums = [...new Set(maps.flatMap((m) => [...m.keys()]))].sort(
     (a, b) => a - b
   );
   const bands = [...stage.querySelectorAll(":scope > .chapter-band")];
-  if (!chNums.length || bands.length !== chNums.length) return false;
-  for (let i = 0; i < bands.length; i++) {
-    if (+bands[i].dataset.chapter !== chNums[i]) return false;
+  if (!windowed) {
+    if (!chNums.length || bands.length !== chNums.length) return false;
+    for (let i = 0; i < bands.length; i++) {
+      if (+bands[i].dataset.chapter !== chNums[i]) return false;
+    }
   }
 
   if (prevIds.length) {
@@ -429,20 +749,41 @@ export function patchAlignedBook({ editions, container, prevIds = [] }) {
   container._renderToken = token;
   stage.style.setProperty("--edition-count", String(editions.length));
 
+  const anchor = windowed ? readingAnchor(stage) : null;
+  if (windowed) win.retarget(editions, maps);
   for (const band of bands) {
     const n = +band.dataset.chapter;
     const pair = band.querySelector(":scope > .chapter-pair");
     if (!pair) return false;
     rewritePair(pair, n, editions, maps);
   }
+  if (windowed) win.remeasure({ anchor });
   return true;
 }
 
+function readingAnchor(stage) {
+  const chrome =
+    document.querySelector(".reader-chrome") ||
+    document.querySelector(".active-edition-bar") ||
+    document.querySelector(".site-header");
+  const line = (chrome ? chrome.getBoundingClientRect().bottom : 0) + 8;
+  let snap = null;
+  let best = -1e9;
+  for (const el of stage.querySelectorAll(".chapter-label[id], .verse[id]")) {
+    const view = el.getBoundingClientRect().top;
+    if (view <= line && view > best) {
+      snap = { id: el.id, view };
+      best = view;
+    }
+  }
+  return snap;
+}
+
 function rewritePair(pair, n, editions, maps) {
-  pair.querySelectorAll(":scope > .parallel-rail, :scope > .parallel-cards").forEach((el) => {
-    el.remove();
-  });
-  delete pair._cite;
+  const parked = [
+    ...pair.querySelectorAll(":scope > .parallel-rail, :scope > .parallel-cards"),
+  ];
+  for (const el of parked) el.remove();
 
   const pool = new Map();
   const oldLines = [...pair.querySelectorAll(":scope > .verse-line")];
@@ -477,7 +818,7 @@ function rewritePair(pair, n, editions, maps) {
     const lang = ed.book.version?.lang || "";
     let label = claim(edId, null);
     if (!label) {
-      label = alignedLabel(n, ed.book.short, ed.col, {
+      label = alignedLabel(n, frameTitle(ed.book), ed.col, {
         id: ed.primary ? `c${n}` : "",
         primary: !!ed.primary,
         lang,
@@ -491,6 +832,9 @@ function rewritePair(pair, n, editions, maps) {
     if (ed.primary) label.id = `c${n}`;
     else label.removeAttribute("id");
     applyLang(label, lang);
+    const title = frameTitle(ed.book);
+    const numEl = label.querySelector(".chapter-num");
+    if (numEl) numEl.textContent = title ? `${title} ${n}` : String(n);
     head.append(label);
   }
 
@@ -521,7 +865,9 @@ function rewritePair(pair, n, editions, maps) {
 
   for (const line of oldLines) line.remove();
   for (const line of fresh) pair.append(line);
+  for (const el of parked) pair.append(el);
   for (const el of pool.values()) el.remove();
+  pair._cite?.sync();
 }
 
 export function renderSingleChapter(book, chapterN, container, range = null) {

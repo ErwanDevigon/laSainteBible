@@ -16,6 +16,7 @@ export function mountChapterRail({
   chapters,
   columns = 1,
   getTarget,
+  getOffset = null,
   offset = () => 0,
 }) {
   document.querySelector(".chapter-rail")?.remove();
@@ -81,7 +82,12 @@ export function mountChapterRail({
   let tops = null;
   function measure() {
     const scroll = window.scrollY;
+    const useOffset = typeof getOffset === "function";
     tops = nums.map((n) => {
+      if (useOffset) {
+        const off = getOffset(n);
+        return off != null && Number.isFinite(off) ? off : Infinity;
+      }
       const el = target(n);
       if (!el) return Infinity;
       return el.getBoundingClientRect().top + scroll;
