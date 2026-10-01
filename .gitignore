@@ -1,9 +1,15 @@
-# Local tooling / agents
-.grok/
-.serena/
-AGENTS.md
+# Dependencies
+node_modules/
 
-# OS generated
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
 .DS_Store
 Thumbs.db
 *.swp
@@ -13,19 +19,3 @@ Thumbs.db
 .idea/
 .vscode/
 *.code-workspace
-
-# Obsidian / personal editorial content (symlinked)
-obsidian-vault/
-
-# Dependencies (future-proof)
-node_modules/
-dist/
-build/
-
-# Logs
-*.log
-npm-debug.log*
-
-# Obsidian vault symlink (personal notes)
-obsidian-vault
-obsidian-vault/
