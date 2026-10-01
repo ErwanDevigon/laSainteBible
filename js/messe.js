@@ -1,4 +1,4 @@
-import { loadLectures, formatDateFr, todayParis } from "./aelf.js";
+import { loadLectures, formatDateFr, todayParis, shiftIsoDate } from "./aelf.js";
 import { MaskDilatation } from "./expand.js";
 import { mountSwipeNav } from "./swipe-nav.js";
 import {
@@ -34,9 +34,9 @@ function typeLabel(type, fallback) {
 async function init() {
   const listEl = document.querySelector("[data-readings]");
   const titleEl = document.querySelector("[data-messe-title]");
-  const dateEl = document.createElement("p");
-  dateEl.className = "edition-bar-date";
-  dateEl.dataset.messeDate = "";
+  const dateNav = document.createElement("nav");
+  dateNav.className = "messe-date-nav";
+  dateNav.setAttribute("aria-label", "Date de la messe");
   const statusEl = document.querySelector("[data-messe-status]");
 
   if (!listEl) return;
@@ -47,7 +47,7 @@ async function init() {
   mountActiveEditionBar(pool, {
     parallels: true,
     lift: true,
-    barCenter: dateEl,
+    barCenter: dateNav,
   });
 
   /** @type {MaskDilatation[]} */
@@ -77,7 +77,7 @@ async function init() {
     mountActiveEditionBar(pool, {
       parallels: true,
       lift: true,
-      barCenter: dateEl,
+      barCenter: dateNav,
     });
     const edition = getActiveEdition(pool);
     Promise.all(masks.map((mask) => mask.remount(edition).catch(() => {}))).then(
@@ -88,11 +88,61 @@ async function init() {
     wireParallels();
   });
 
-  const date = todayParis();
-  if (dateEl) dateEl.textContent = formatDateFr(date);
+  function dateFromUrl() {
+    const raw = new URLSearchParams(location.search).get("date") || "";
+    const today = todayParis();
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) return today;
+    return raw > today ? today : raw;
+  }
+
+  let currentDate = dateFromUrl();
+  let paintToken = 0;
+  /** @type {IntersectionObserver|null} */
+  let maskObserver = null;
+
+  function writeDate(iso) {
+    const url = new URL(location.href);
+    if (iso === todayParis()) url.searchParams.delete("date");
+    else url.searchParams.set("date", iso);
+    history.pushState({ date: iso }, "", url);
+  }
+
+  function renderNav(iso) {
+    dateNav.replaceChildren();
+    const prev = el("button", "messe-date-step", "<");
+    prev.type = "button";
+    prev.setAttribute("aria-label", "Jour précédent");
+    prev.addEventListener("click", () => go(shiftIsoDate(iso, -1)));
+    dateNav.append(prev, el("span", "messe-date-label", formatDateFr(iso)));
+    if (iso < todayParis()) {
+      const next = el("button", "messe-date-step", ">");
+      next.type = "button";
+      next.setAttribute("aria-label", "Jour suivant");
+      next.addEventListener("click", () => go(shiftIsoDate(iso, 1)));
+      dateNav.append(next);
+    }
+  }
+
+  async function go(iso) {
+    const today = todayParis();
+    if (iso > today) iso = today;
+    currentDate = iso;
+    writeDate(iso);
+    renderNav(iso);
+    await paint(iso);
+  }
+
+  async function paint(date) {
+    const token = ++paintToken;
+    maskObserver?.disconnect();
+    maskObserver = null;
+    masks.length = 0;
+    listEl.replaceChildren();
+    if (statusEl) statusEl.hidden = true;
 
   try {
     const { data, source, error } = await loadLectures(date);
+    if (token !== paintToken) return;
 
     if (titleEl) {
       const t = (data.liturgical_title || "").trim();
@@ -108,10 +158,6 @@ async function init() {
         if (hero) hero.hidden = false;
       }
     }
-    if (data.date && dateEl) {
-      dateEl.textContent = formatDateFr(data.date);
-    }
-
     if (statusEl) {
       if (error) {
         statusEl.hidden = false;
@@ -124,7 +170,7 @@ async function init() {
 
     await prepareParallels(getActiveEdition(pool));
     listEl.replaceChildren();
-    const maskObserver = new IntersectionObserver(
+    maskObserver = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
           if (!entry.isIntersecting) continue;
@@ -276,6 +322,16 @@ async function init() {
     msg.textContent = "Erreur de chargement des lectures.";
     listEl.appendChild(msg);
   }
+  }
+
+  window.addEventListener("popstate", () => {
+    currentDate = dateFromUrl();
+    renderNav(currentDate);
+    paint(currentDate);
+  });
+
+  renderNav(currentDate);
+  paint(currentDate);
 }
 
 init();

@@ -1,6 +1,7 @@
 /**
  * AELF daily readings adapter.
- * Live: https://api.aelf.org/v1/messes/{date}/{zone}
+ * Same calendar as https://www.aelf.org/AAAA-MM-JJ/romain/messe
+ * JSON feed: https://api.aelf.org/v1/messes/{date}/romain
  * Fallback: data/lectures/sample.json
  */
 
@@ -9,7 +10,7 @@ import { excerptText } from "./render-evangile.js";
 import { parseRefString, canExpand } from "./refs.js";
 import { getActiveEdition } from "./editions.js";
 
-const ZONE = "france";
+const ZONE = "romain";
 
 export { parseRefString } from "./refs.js";
 
@@ -23,6 +24,13 @@ export function todayParis() {
     month: "2-digit",
     day: "2-digit",
   }).format(new Date());
+}
+
+/** @param {string} iso YYYY-MM-DD @param {number} days */
+export function shiftIsoDate(iso, days) {
+  const [y, m, d] = iso.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d + days, 12));
+  return dt.toISOString().slice(0, 10);
 }
 
 export function formatDateFr(isoDate) {

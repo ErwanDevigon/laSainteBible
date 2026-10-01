@@ -109,11 +109,30 @@ body.has-active-edition {
   margin: 0;
 }
 
-.edition-bar-date {
+.edition-bar-date,
+.messe-date-nav {
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   color: var(--text-soft);
   white-space: nowrap;
+}
+
+.messe-date-nav {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.messe-date-step {
+  font: inherit;
+  color: inherit;
+  line-height: 1;
+  padding: 0 0.1rem;
+}
+
+.messe-date-step:hover,
+.messe-date-step:focus-visible {
+  color: var(--text);
 }
 
 .active-edition-bar .parallels-toggle {
