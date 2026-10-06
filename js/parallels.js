@@ -513,15 +513,14 @@ function headingFor(bookId, span) {
 }
 
 function memoLabel(bookId, span) {
+  const short = BOOK_BY_ID[bookId]?.short;
+  const ch = span.chapter;
+  if (short) return `${short} ${ch}`;
   const fromIndex = indexCache?.books?.find((b) => b.id === bookId)?.title;
   const title = displayBookTitle(
     fromIndex || BOOK_BY_ID[bookId]?.title || bookId
   );
-  const ch = span.chapter;
-  if (bookId === "psaumes" || bookId === "psaume-151") {
-    return `${psalmName(title)} ${ch}`;
-  }
-  return `${stripGospelPrefix(title)}. ${chapLabel(title)} ${ch}`;
+  return `${stripGospelPrefix(title)} ${ch}`;
 }
 
 function assignLanes(hits) {
@@ -759,12 +758,22 @@ function scheduleMemos() {
 
 function hideMemo(memo) {
   if (!memo) return;
+  memo.classList.remove("is-shown");
   memo.hidden = true;
   const card = memo.parentElement;
   const head = card?.querySelector(":scope > .parallel-card-head");
   if (head) head.style.visibility = "";
   const shield = card?.querySelector(":scope > .parallel-memo-shield");
   if (shield) shield.style.height = "";
+}
+
+function showMemo(memo, top) {
+  memo.style.top = `${top}px`;
+  if (!memo.hidden) return;
+  memo.hidden = false;
+  memo.classList.remove("is-shown");
+  void memo.offsetWidth;
+  memo.classList.add("is-shown");
 }
 
 function syncMemos() {
@@ -794,8 +803,7 @@ function syncMemos() {
       hideMemo(memo);
       return;
     }
-    memo.hidden = false;
-    memo.style.top = `${top}px`;
+    showMemo(memo, top);
     head.style.visibility = "hidden";
     if (shield) shield.style.height = `${Math.max(0, stick - cr.top)}px`;
   });

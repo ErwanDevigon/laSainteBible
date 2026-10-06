@@ -710,14 +710,19 @@ body.lecteur-page[data-book] > .site-header {
 .chapter-rail {
   position: fixed;
   top: calc(var(--chrome-h) + var(--safe-top) + var(--footer-h) + var(--rail-gap));
-  bottom: calc(var(--footer-h) + var(--safe-bottom) + var(--rail-gap));
+  bottom: auto;
+  height: auto;
+  max-height: calc(
+    100vh - var(--chrome-h) - var(--safe-top) - var(--safe-bottom) -
+      2 * var(--footer-h) - 2 * var(--rail-gap)
+  );
   left: 0.16rem;
   width: calc(var(--rail-w, 2.4rem) - 0.22rem);
   z-index: 45;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: stretch;
   gap: 0.15rem;
   padding: 0.4rem 0;
@@ -1457,6 +1462,12 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   text-overflow: ellipsis;
   pointer-events: none;
   box-shadow: 0 0.25rem 0.8rem rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  transition: opacity 5s linear;
+}
+
+.parallel-memo.is-shown {
+  opacity: 1;
 }
 
 .parallel-memo[hidden] {
