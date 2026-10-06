@@ -554,9 +554,12 @@ function cardHost(edition, bookId, span, kind) {
   memo.className = "parallel-memo";
   memo.hidden = true;
   memo.textContent = memoLabel(bookId, span);
+  const shield = document.createElement("div");
+  shield.className = "parallel-memo-shield";
+  shield.setAttribute("aria-hidden", "true");
   const body = document.createElement("div");
   body.className = "parallel-card-body reading-mask-host";
-  art.append(head, memo, body);
+  art.append(head, memo, shield, body);
   const ranges = (span.ranges || []).map((r) => ({
     start: r.start ?? 1,
     end: r.end == null ? 9999 : r.end,
@@ -755,8 +758,13 @@ function scheduleMemos() {
 }
 
 function hideMemo(memo) {
-  if (!memo || memo.hidden) return;
+  if (!memo) return;
   memo.hidden = true;
+  const card = memo.parentElement;
+  const head = card?.querySelector(":scope > .parallel-card-head");
+  if (head) head.style.visibility = "";
+  const shield = card?.querySelector(":scope > .parallel-memo-shield");
+  if (shield) shield.style.height = "";
 }
 
 function syncMemos() {
@@ -770,25 +778,26 @@ function syncMemos() {
       box?.classList.contains("parallel-cards") &&
       box.classList.contains("is-open") &&
       !box.classList.contains("is-leaving");
-    if (!open) {
-      hideMemo(memo);
-      return;
-    }
     const cr = card.getBoundingClientRect();
     const hr = head.getBoundingClientRect();
-    const onScreen = cr.bottom > stick + 24 && cr.top < window.innerHeight && cr.right > 0 && cr.left < window.innerWidth;
-    const headGone = hr.bottom <= stick + 1;
-    if (!onScreen || !headGone) {
-      hideMemo(memo);
-      return;
-    }
+    const onScreen =
+      cr.bottom > stick + 24 &&
+      cr.top < window.innerHeight &&
+      cr.right > 8 &&
+      cr.left < window.innerWidth - 8;
+    // The bars are translucent, so a title sliding under them stays readable.
+    // Hide that title and pin the bubble as soon as the head touches the chrome.
+    const headUnder = hr.top < stick - 1;
     const top = Math.max(6, stick - cr.top + 6);
-    if (top > cr.height - 20) {
+    const shield = card.querySelector(":scope > .parallel-memo-shield");
+    if (!open || !onScreen || !headUnder || top > cr.height - 20) {
       hideMemo(memo);
       return;
     }
     memo.hidden = false;
     memo.style.top = `${top}px`;
+    head.style.visibility = "hidden";
+    if (shield) shield.style.height = `${Math.max(0, stick - cr.top)}px`;
   });
 }
 
@@ -1331,6 +1340,7 @@ function bindGlobal() {
 
   window.addEventListener("scroll", scheduleMemos, { passive: true });
   window.addEventListener("resize", scheduleMemos);
+  document.body.addEventListener("lsb:pan", scheduleMemos);
 
   document.addEventListener("lsb:maskpin", (e) => {
     const start = e.target.closest?.(".parallel-card, .reading-row, .chapter-pair");

@@ -1425,6 +1425,17 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   color: var(--text);
 }
 
+.parallel-memo-shield {
+  position: absolute;
+  z-index: 6;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 0;
+  background: var(--bg);
+  pointer-events: none;
+}
+
 .parallel-memo {
   position: absolute;
   z-index: 7;
@@ -1433,9 +1444,9 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   max-width: calc(100% - 1.1rem);
   margin: 0;
   padding: 0.18rem 0.55rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 999px;
-  background: color-mix(in srgb, var(--bg-elevated) 88%, var(--accent));
+  background: var(--bg-elevated);
   color: var(--accent);
   font-family: var(--font-ui);
   font-size: var(--text-xs);
