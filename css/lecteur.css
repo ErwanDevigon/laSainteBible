@@ -119,15 +119,33 @@ body.has-active-edition {
 
 .messe-date-nav {
   display: inline-flex;
-  align-items: baseline;
-  gap: 0.35rem;
+  align-items: center;
+  gap: 0.45rem;
 }
 
 .messe-date-step {
+  display: inline-flex;
+  align-items: center;
   font: inherit;
   color: inherit;
   line-height: 1;
-  padding: 0 0.1rem;
+  padding: 0.15rem 0.05rem;
+}
+
+.messe-date-tri {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.messe-date-tri.is-prev {
+  border-width: 0.32em 0.48em 0.32em 0;
+  border-color: transparent currentColor transparent transparent;
+}
+
+.messe-date-tri.is-next {
+  border-width: 0.32em 0 0.32em 0.48em;
+  border-color: transparent transparent transparent currentColor;
 }
 
 .messe-date-step:hover,

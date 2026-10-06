@@ -15,6 +15,16 @@ import {
   prepareParallels,
 } from "./parallels.js";
 
+function dateStep(dir) {
+  const btn = el("button", "messe-date-step");
+  btn.type = "button";
+  btn.setAttribute("aria-label", t(dir < 0 ? "prevDay" : "nextDay"));
+  const tri = el("span", dir < 0 ? "messe-date-tri is-prev" : "messe-date-tri is-next");
+  tri.setAttribute("aria-hidden", "true");
+  btn.append(tri);
+  return btn;
+}
+
 function el(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -152,15 +162,11 @@ async function init() {
 
   function renderNav(iso) {
     dateNav.replaceChildren();
-    const prev = el("button", "messe-date-step", "<");
-    prev.type = "button";
-    prev.setAttribute("aria-label", t("prevDay"));
+    const prev = dateStep(-1);
     prev.addEventListener("click", () => go(shiftIsoDate(iso, -1)));
     dateNav.append(prev, el("span", "messe-date-label", formatDateFr(iso)));
     if (iso < todayParis()) {
-      const next = el("button", "messe-date-step", ">");
-      next.type = "button";
-      next.setAttribute("aria-label", t("nextDay"));
+      const next = dateStep(1);
       next.addEventListener("click", () => go(shiftIsoDate(iso, 1)));
       dateNav.append(next);
     }
