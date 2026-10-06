@@ -512,6 +512,18 @@ function headingFor(bookId, span) {
     : `${shortTitle}. ${chap} ${ch}`;
 }
 
+function memoLabel(bookId, span) {
+  const fromIndex = indexCache?.books?.find((b) => b.id === bookId)?.title;
+  const title = displayBookTitle(
+    fromIndex || BOOK_BY_ID[bookId]?.title || bookId
+  );
+  const ch = span.chapter;
+  if (bookId === "psaumes" || bookId === "psaume-151") {
+    return `${psalmName(title)} ${ch}`;
+  }
+  return `${stripGospelPrefix(title)}. ${chapLabel(title)} ${ch}`;
+}
+
 function assignLanes(hits) {
   const sorted = [...hits].sort((a, b) => a.min - b.min || a.max - b.max);
   const ends = [];
@@ -538,9 +550,13 @@ function cardHost(edition, bookId, span, kind) {
     verse: span.ranges?.[0]?.start || null,
   });
   head.textContent = headingFor(bookId, span);
+  const memo = document.createElement("div");
+  memo.className = "parallel-memo";
+  memo.hidden = true;
+  memo.textContent = memoLabel(bookId, span);
   const body = document.createElement("div");
   body.className = "parallel-card-body reading-mask-host";
-  art.append(head, body);
+  art.append(head, memo, body);
   const ranges = (span.ranges || []).map((r) => ({
     start: r.start ?? 1,
     end: r.end == null ? 9999 : r.end,
@@ -725,6 +741,55 @@ function revealCards(cards) {
   cards.setAttribute("aria-hidden", "false");
   void cards.offsetWidth;
   cards.classList.add("is-open");
+  scheduleMemos();
+}
+
+let memoRaf = 0;
+
+function scheduleMemos() {
+  if (memoRaf) return;
+  memoRaf = requestAnimationFrame(() => {
+    memoRaf = 0;
+    syncMemos();
+  });
+}
+
+function hideMemo(memo) {
+  if (!memo || memo.hidden) return;
+  memo.hidden = true;
+}
+
+function syncMemos() {
+  const stick = chromeTop();
+  document.querySelectorAll(".parallel-card").forEach((card) => {
+    const memo = card.querySelector(":scope > .parallel-memo");
+    const head = card.querySelector(":scope > .parallel-card-head");
+    if (!memo || !head) return;
+    const box = card.parentElement;
+    const open =
+      box?.classList.contains("parallel-cards") &&
+      box.classList.contains("is-open") &&
+      !box.classList.contains("is-leaving");
+    if (!open) {
+      hideMemo(memo);
+      return;
+    }
+    const cr = card.getBoundingClientRect();
+    const hr = head.getBoundingClientRect();
+    const onScreen = cr.bottom > stick + 24 && cr.top < window.innerHeight && cr.right > 0 && cr.left < window.innerWidth;
+    const headGone = hr.bottom <= stick + 1;
+    if (!onScreen || !headGone) {
+      hideMemo(memo);
+      return;
+    }
+    const top = Math.max(6, stick - cr.top + 6);
+    if (top > cr.height - 20) {
+      hideMemo(memo);
+      return;
+    }
+    memo.hidden = false;
+    memo.style.top = `${top}px`;
+  });
 }
 
 function whenCardsReady(cards) {
@@ -1143,17 +1208,19 @@ class ParallelHost {
     if (this.depth === 0) return;
     const box = this.root.querySelector(":scope > .parallel-cards");
     const open = box?.classList.contains("is-open");
-    if (!open || !box) {
-      if (this.root.style.marginRight) this.root.style.marginRight = "";
+    const raw = this.root.style.getPropertyValue("--rail-span");
+    const railSpan = parseFloat(raw);
+    let push = Number.isFinite(railSpan) ? railSpan : 0;
+    if (open && box) {
+      this.root.classList.add("has-nested");
+      push = Math.max(
+        push,
+        box.getBoundingClientRect().right - this.root.getBoundingClientRect().right
+      );
+    } else {
       this.root.classList.remove("has-nested");
-      return;
     }
-    this.root.classList.add("has-nested");
-    const push = Math.max(
-      0,
-      box.getBoundingClientRect().right - this.root.getBoundingClientRect().right
-    );
-    const next = push ? `${Math.round(push)}px` : "";
+    const next = push > 0.5 ? `${Math.round(push)}px` : "";
     if (this.root.style.marginRight !== next) this.root.style.marginRight = next;
   }
 
@@ -1168,6 +1235,7 @@ class ParallelHost {
       .querySelectorAll(":scope > .parallel-cards > .parallel-card")
       .forEach((card) => card._cite?.sync());
     this.syncPush();
+    scheduleMemos();
   }
 }
 
@@ -1260,6 +1328,9 @@ function bindGlobal() {
     if (stamp) stamp.hidden = true;
     rail._open?.();
   });
+
+  window.addEventListener("scroll", scheduleMemos, { passive: true });
+  window.addEventListener("resize", scheduleMemos);
 
   document.addEventListener("lsb:maskpin", (e) => {
     const start = e.target.closest?.(".parallel-card, .reading-row, .chapter-pair");

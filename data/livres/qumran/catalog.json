@@ -1,0 +1,2287 @@
+{
+  "credit": "Martin Abegg, ETCBC, licence CC BY-NC 4.0",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "source": "https://github.com/ETCBC/dss",
+  "byBook": {
+    "1-rois": [
+      "4Q54",
+      "5Q2",
+      "6Q4"
+    ],
+    "1-samuel": [
+      "4Q51",
+      "4Q52",
+      "4Q53",
+      "1Q7"
+    ],
+    "2-chroniques": [
+      "4Q118"
+    ],
+    "2-rois": [
+      "6Q4"
+    ],
+    "2-samuel": [
+      "4Q51",
+      "4Q53",
+      "1Q7",
+      "11Q5"
+    ],
+    "abdias": [
+      "Mur88",
+      "4Q82"
+    ],
+    "aggee": [
+      "Mur88",
+      "4Q77",
+      "4Q80"
+    ],
+    "amos": [
+      "4Q82",
+      "Mur88",
+      "4Q78",
+      "5Q4"
+    ],
+    "cantique": [
+      "4Q107",
+      "4Q106",
+      "6Q6",
+      "4Q108"
+    ],
+    "daniel": [
+      "4Q112",
+      "4Q113",
+      "4Q115",
+      "4Q114",
+      "6Q7",
+      "1Q71",
+      "1Q72",
+      "4Q116"
+    ],
+    "deuteronome": [
+      "4Q30",
+      "4Q33",
+      "4Q45",
+      "1Q5",
+      "4Q35",
+      "4Q128",
+      "8Q3",
+      "4Q37",
+      "4Q38a",
+      "4Q41",
+      "4Q42",
+      "4Q129",
+      "4Q34",
+      "1Q13",
+      "1Q4",
+      "4Q29",
+      "4Q137",
+      "4Q36",
+      "8Q4",
+      "4Q31",
+      "5Q1",
+      "4Q151",
+      "4Q32",
+      "4Q138",
+      "Xq2",
+      "Xq3",
+      "4Q134",
+      "4Q38",
+      "4Q142",
+      "4Q139",
+      "4Q135",
+      "4Q39",
+      "4Q130",
+      "Mas1c",
+      "Mur4",
+      "Xhev_se5",
+      "4Q150",
+      "4Q40",
+      "4Q136",
+      "4Q141",
+      "4Q28",
+      "4Q44",
+      "4Q143",
+      "4Q43",
+      "Mur2",
+      "Xq1",
+      "4Q144",
+      "Xhev_se3",
+      "4Q131",
+      "4Q140",
+      "11Q3",
+      "2Q12",
+      "4Q38c",
+      "2Q11",
+      "4Q152",
+      "2Q10",
+      "4Q146",
+      "4Q153",
+      "4Q38b",
+      "4Q38d",
+      "4Q46",
+      "6Q3"
+    ],
+    "ecclesiaste": [
+      "4Q109",
+      "4Q110"
+    ],
+    "esaie": [
+      "1Qisaa",
+      "1Q8",
+      "4Q56",
+      "4Q57",
+      "4Q55",
+      "4Q60",
+      "4Q58",
+      "4Q59",
+      "4Q61",
+      "4Q64",
+      "Mur3",
+      "4Q66",
+      "4Q62",
+      "4Q68",
+      "4Q62a",
+      "4Q63",
+      "4Q65",
+      "4Q69a",
+      "5Q3",
+      "4Q67",
+      "4Q69",
+      "4Q69b"
+    ],
+    "esdras": [
+      "4Q117"
+    ],
+    "exode": [
+      "4Q22",
+      "4Q11",
+      "4Q14",
+      "4Q1",
+      "4Q13",
+      "4Q17",
+      "2Q2",
+      "8Q3",
+      "2Q3",
+      "4Q136",
+      "Xq1",
+      "1Q2",
+      "4Q128",
+      "4Q140",
+      "34Se1",
+      "4Q130",
+      "4Q37",
+      "Mur4",
+      "Xhev_se5",
+      "Mur1",
+      "4Q145",
+      "4Q129",
+      "4Q132",
+      "4Q18",
+      "4Q133",
+      "4Q144",
+      "4Q149",
+      "4Q155",
+      "Xq3",
+      "1Q13",
+      "4Q154",
+      "4Q19",
+      "2Q4",
+      "4Q134",
+      "4Q135",
+      "4Q15",
+      "4Q16",
+      "4Q20",
+      "4Q21",
+      "4Q41"
+    ],
+    "ezechiel": [
+      "Mas1d",
+      "4Q73",
+      "11Q4",
+      "4Q74",
+      "1Q9",
+      "3Q1",
+      "4Q75"
+    ],
+    "genese": [
+      "4Q1",
+      "4Q9",
+      "4Q2",
+      "4Q5",
+      "Sdeir1",
+      "4Q7",
+      "4Q3",
+      "Mur1",
+      "1Q1",
+      "8Q1",
+      "4Q6",
+      "4Q10",
+      "4Q4",
+      "6Q1",
+      "4Q12",
+      "2Q1",
+      "4Q576",
+      "Murx",
+      "4Q483",
+      "Mas1",
+      "4Q8a",
+      "4Q12a",
+      "4Q8b",
+      "4Q8c",
+      "4Q11",
+      "4Q8d"
+    ],
+    "habacuc": [
+      "Mur88",
+      "4Q82"
+    ],
+    "jeremie": [
+      "4Q70",
+      "4Q72",
+      "2Q13",
+      "4Q71",
+      "4Q72a",
+      "4Q72b"
+    ],
+    "job": [
+      "4Q99",
+      "4Q101",
+      "4Q100",
+      "2Q15"
+    ],
+    "joel": [
+      "4Q78",
+      "4Q82",
+      "Mur88"
+    ],
+    "jonas": [
+      "Mur88",
+      "4Q82",
+      "4Q76",
+      "4Q81"
+    ],
+    "josue": [
+      "4Q47",
+      "4Q48",
+      "Xjoshua"
+    ],
+    "juges": [
+      "1Q6",
+      "4Q50",
+      "Xjudges",
+      "4Q49"
+    ],
+    "lamentations": [
+      "5Q6",
+      "4Q111",
+      "3Q3",
+      "5Q7"
+    ],
+    "levitique": [
+      "4Q24",
+      "11Q1",
+      "4Q23",
+      "Mas1b",
+      "4Q26a",
+      "4Q25",
+      "1Q3",
+      "4Q26",
+      "11Q2",
+      "4Q26c",
+      "Arugleviticus",
+      "2Q5",
+      "4Q26b",
+      "Mas1a",
+      "4Q17",
+      "4Q249j",
+      "6Q2"
+    ],
+    "malachie": [
+      "4Q76",
+      "4Q78"
+    ],
+    "michee": [
+      "Mur88",
+      "4Q82",
+      "4Q81"
+    ],
+    "nahum": [
+      "Mur88",
+      "4Q82"
+    ],
+    "nombres": [
+      "4Q27",
+      "4Q23",
+      "Xhev_se2",
+      "2Q6",
+      "2Q7",
+      "Mur1",
+      "1Q3",
+      "5_6hev1a",
+      "2Q29",
+      "2Q9",
+      "34Se2",
+      "2Q8"
+    ],
+    "osee": [
+      "4Q82",
+      "4Q78",
+      "4Q79"
+    ],
+    "proverbes": [
+      "4Q103",
+      "4Q102",
+      "4Q103a"
+    ],
+    "psaumes": [
+      "11Q5",
+      "4Q83",
+      "5_6hev1b",
+      "4Q84",
+      "4Q85",
+      "4Q87",
+      "11Q7",
+      "11Q8",
+      "Mas1e",
+      "4Q88",
+      "4Q98",
+      "1Q10",
+      "4Q86",
+      "4Q91",
+      "11Q6",
+      "4Q89",
+      "4Q94",
+      "5Q5",
+      "2Q14",
+      "4Q92",
+      "4Q96",
+      "8Q2",
+      "4Q90",
+      "4Q98a",
+      "1Q12",
+      "4Q95",
+      "4Q98f",
+      "1Q11",
+      "4Q98g",
+      "Mas1f",
+      "4Q97",
+      "4Q98b",
+      "11Q9",
+      "4Q93",
+      "4Q98c",
+      "6Q5",
+      "3Q2",
+      "4Q98d",
+      "4Q98e"
+    ],
+    "ruth": [
+      "2Q16",
+      "4Q104",
+      "4Q105",
+      "2Q17"
+    ],
+    "sophonie": [
+      "Mur88",
+      "4Q77",
+      "4Q78",
+      "4Q82"
+    ],
+    "zacharie": [
+      "4Q80",
+      "4Q82",
+      "Mur88",
+      "4Q76"
+    ]
+  },
+  "manuscripts": {
+    "11Q1": {
+      "siglum": "11Q1",
+      "sourceSiglum": "11Q1",
+      "verses": {
+        "levitique": 126
+      }
+    },
+    "11Q2": {
+      "siglum": "11Q2",
+      "sourceSiglum": "11Q2",
+      "verses": {
+        "levitique": 17
+      }
+    },
+    "11Q3": {
+      "siglum": "11Q3",
+      "sourceSiglum": "11Q3",
+      "verses": {
+        "deuteronome": 5
+      }
+    },
+    "11Q4": {
+      "siglum": "11Q4",
+      "sourceSiglum": "11Q4",
+      "verses": {
+        "ezechiel": 20
+      }
+    },
+    "11Q5": {
+      "siglum": "11Q5",
+      "sourceSiglum": "11Q5",
+      "verses": {
+        "psaumes": 422,
+        "2-samuel": 1
+      }
+    },
+    "11Q6": {
+      "siglum": "11Q6",
+      "sourceSiglum": "11Q6",
+      "verses": {
+        "psaumes": 21
+      }
+    },
+    "11Q7": {
+      "siglum": "11Q7",
+      "sourceSiglum": "11Q7",
+      "verses": {
+        "psaumes": 68
+      }
+    },
+    "11Q8": {
+      "siglum": "11Q8",
+      "sourceSiglum": "11Q8",
+      "verses": {
+        "psaumes": 68
+      }
+    },
+    "11Q9": {
+      "siglum": "11Q9",
+      "sourceSiglum": "11Q9",
+      "verses": {
+        "psaumes": 6
+      }
+    },
+    "1Q1": {
+      "siglum": "1Q1",
+      "sourceSiglum": "1Q1",
+      "verses": {
+        "genese": 17
+      }
+    },
+    "1Q10": {
+      "siglum": "1Q10",
+      "sourceSiglum": "1Q10",
+      "verses": {
+        "psaumes": 33
+      }
+    },
+    "1Q11": {
+      "siglum": "1Q11",
+      "sourceSiglum": "1Q11",
+      "verses": {
+        "psaumes": 8
+      }
+    },
+    "1Q12": {
+      "siglum": "1Q12",
+      "sourceSiglum": "1Q12",
+      "verses": {
+        "psaumes": 11
+      }
+    },
+    "1Q13": {
+      "siglum": "1Q13",
+      "sourceSiglum": "1Q13",
+      "verses": {
+        "deuteronome": 37,
+        "exode": 5
+      }
+    },
+    "1Q2": {
+      "siglum": "1Q2",
+      "sourceSiglum": "1Q2",
+      "verses": {
+        "exode": 17
+      }
+    },
+    "1Q3": {
+      "siglum": "1Q3",
+      "sourceSiglum": "1Q3",
+      "verses": {
+        "levitique": 24,
+        "nombres": 5
+      }
+    },
+    "1Q4": {
+      "siglum": "1Q4",
+      "sourceSiglum": "1Q4",
+      "verses": {
+        "deuteronome": 37
+      }
+    },
+    "1Q5": {
+      "siglum": "1Q5",
+      "sourceSiglum": "1Q5",
+      "verses": {
+        "deuteronome": 86
+      }
+    },
+    "1Q6": {
+      "siglum": "1Q6",
+      "sourceSiglum": "1Q6",
+      "verses": {
+        "juges": 20
+      }
+    },
+    "1Q7": {
+      "siglum": "1Q7",
+      "sourceSiglum": "1Q7",
+      "verses": {
+        "1-samuel": 2,
+        "2-samuel": 13
+      }
+    },
+    "1Q71": {
+      "siglum": "1Q71",
+      "sourceSiglum": "1Q71",
+      "verses": {
+        "daniel": 13
+      }
+    },
+    "1Q72": {
+      "siglum": "1Q72",
+      "sourceSiglum": "1Q72",
+      "verses": {
+        "daniel": 9
+      }
+    },
+    "1Q8": {
+      "siglum": "1Q8",
+      "sourceSiglum": "1Q8",
+      "verses": {
+        "esaie": 502
+      }
+    },
+    "1Q9": {
+      "siglum": "1Q9",
+      "sourceSiglum": "1Q9",
+      "verses": {
+        "ezechiel": 3
+      }
+    },
+    "1Qisaa": {
+      "siglum": "1QIsaa",
+      "sourceSiglum": "1Qisaa",
+      "verses": {
+        "esaie": 1290
+      }
+    },
+    "2Q1": {
+      "siglum": "2Q1",
+      "sourceSiglum": "2Q1",
+      "verses": {
+        "genese": 7
+      }
+    },
+    "2Q10": {
+      "siglum": "2Q10",
+      "sourceSiglum": "2Q10",
+      "verses": {
+        "deuteronome": 3
+      }
+    },
+    "2Q11": {
+      "siglum": "2Q11",
+      "sourceSiglum": "2Q11",
+      "verses": {
+        "deuteronome": 4
+      }
+    },
+    "2Q12": {
+      "siglum": "2Q12",
+      "sourceSiglum": "2Q12",
+      "verses": {
+        "deuteronome": 5
+      }
+    },
+    "2Q13": {
+      "siglum": "2Q13",
+      "sourceSiglum": "2Q13",
+      "verses": {
+        "jeremie": 47
+      }
+    },
+    "2Q14": {
+      "siglum": "2Q14",
+      "sourceSiglum": "2Q14",
+      "verses": {
+        "psaumes": 16
+      }
+    },
+    "2Q15": {
+      "siglum": "2Q15",
+      "sourceSiglum": "2Q15",
+      "verses": {
+        "job": 3
+      }
+    },
+    "2Q16": {
+      "siglum": "2Q16",
+      "sourceSiglum": "2Q16",
+      "verses": {
+        "ruth": 21
+      }
+    },
+    "2Q17": {
+      "siglum": "2Q17",
+      "sourceSiglum": "2Q17",
+      "verses": {
+        "ruth": 6
+      }
+    },
+    "2Q2": {
+      "siglum": "2Q2",
+      "sourceSiglum": "2Q2",
+      "verses": {
+        "exode": 39
+      }
+    },
+    "2Q29": {
+      "siglum": "2Q29",
+      "sourceSiglum": "2Q29",
+      "verses": {
+        "nombres": 4
+      }
+    },
+    "2Q3": {
+      "siglum": "2Q3",
+      "sourceSiglum": "2Q3",
+      "verses": {
+        "exode": 21
+      }
+    },
+    "2Q4": {
+      "siglum": "2Q4",
+      "sourceSiglum": "2Q4",
+      "verses": {
+        "exode": 3
+      }
+    },
+    "2Q5": {
+      "siglum": "2Q5",
+      "sourceSiglum": "2Q5",
+      "verses": {
+        "levitique": 8
+      }
+    },
+    "2Q6": {
+      "siglum": "2Q6",
+      "sourceSiglum": "2Q6",
+      "verses": {
+        "nombres": 8
+      }
+    },
+    "2Q7": {
+      "siglum": "2Q7",
+      "sourceSiglum": "2Q7",
+      "verses": {
+        "nombres": 7
+      }
+    },
+    "2Q8": {
+      "siglum": "2Q8",
+      "sourceSiglum": "2Q8",
+      "verses": {
+        "nombres": 1
+      }
+    },
+    "2Q9": {
+      "siglum": "2Q9",
+      "sourceSiglum": "2Q9",
+      "verses": {
+        "nombres": 2
+      }
+    },
+    "34Se1": {
+      "siglum": "34Se1",
+      "sourceSiglum": "34Se1",
+      "verses": {
+        "exode": 16
+      }
+    },
+    "34Se2": {
+      "siglum": "34Se2",
+      "sourceSiglum": "34Se2",
+      "verses": {
+        "nombres": 2
+      }
+    },
+    "3Q1": {
+      "siglum": "3Q1",
+      "sourceSiglum": "3Q1",
+      "verses": {
+        "ezechiel": 3
+      }
+    },
+    "3Q2": {
+      "siglum": "3Q2",
+      "sourceSiglum": "3Q2",
+      "verses": {
+        "psaumes": 2
+      }
+    },
+    "3Q3": {
+      "siglum": "3Q3",
+      "sourceSiglum": "3Q3",
+      "verses": {
+        "lamentations": 14
+      }
+    },
+    "4Q1": {
+      "siglum": "4Q1",
+      "sourceSiglum": "4Q1",
+      "verses": {
+        "genese": 88,
+        "exode": 101
+      }
+    },
+    "4Q10": {
+      "siglum": "4Q10",
+      "sourceSiglum": "4Q10",
+      "verses": {
+        "genese": 14
+      }
+    },
+    "4Q100": {
+      "siglum": "4Q100",
+      "sourceSiglum": "4Q100",
+      "verses": {
+        "job": 10
+      }
+    },
+    "4Q101": {
+      "siglum": "4Q101",
+      "sourceSiglum": "4Q101",
+      "verses": {
+        "job": 16
+      }
+    },
+    "4Q102": {
+      "siglum": "4Q102",
+      "sourceSiglum": "4Q102",
+      "verses": {
+        "proverbes": 8
+      }
+    },
+    "4Q103": {
+      "siglum": "4Q103",
+      "sourceSiglum": "4Q103",
+      "verses": {
+        "proverbes": 39
+      }
+    },
+    "4Q103a": {
+      "siglum": "4Q103a",
+      "sourceSiglum": "4Q103a",
+      "verses": {
+        "proverbes": 5
+      }
+    },
+    "4Q104": {
+      "siglum": "4Q104",
+      "sourceSiglum": "4Q104",
+      "verses": {
+        "ruth": 12
+      }
+    },
+    "4Q105": {
+      "siglum": "4Q105",
+      "sourceSiglum": "4Q105",
+      "verses": {
+        "ruth": 10
+      }
+    },
+    "4Q106": {
+      "siglum": "4Q106",
+      "sourceSiglum": "4Q106",
+      "verses": {
+        "cantique": 23
+      }
+    },
+    "4Q107": {
+      "siglum": "4Q107",
+      "sourceSiglum": "4Q107",
+      "verses": {
+        "cantique": 26
+      }
+    },
+    "4Q108": {
+      "siglum": "4Q108",
+      "sourceSiglum": "4Q108",
+      "verses": {
+        "cantique": 2
+      }
+    },
+    "4Q109": {
+      "siglum": "4Q109",
+      "sourceSiglum": "4Q109",
+      "verses": {
+        "ecclesiaste": 26
+      }
+    },
+    "4Q11": {
+      "siglum": "4Q11",
+      "sourceSiglum": "4Q11",
+      "verses": {
+        "genese": 1,
+        "exode": 195
+      }
+    },
+    "4Q110": {
+      "siglum": "4Q110",
+      "sourceSiglum": "4Q110",
+      "verses": {
+        "ecclesiaste": 10
+      }
+    },
+    "4Q111": {
+      "siglum": "4Q111",
+      "sourceSiglum": "4Q111",
+      "verses": {
+        "lamentations": 19
+      }
+    },
+    "4Q112": {
+      "siglum": "4Q112",
+      "sourceSiglum": "4Q112",
+      "verses": {
+        "daniel": 74
+      }
+    },
+    "4Q113": {
+      "siglum": "4Q113",
+      "sourceSiglum": "4Q113",
+      "verses": {
+        "daniel": 52
+      }
+    },
+    "4Q114": {
+      "siglum": "4Q114",
+      "sourceSiglum": "4Q114",
+      "verses": {
+        "daniel": 25
+      }
+    },
+    "4Q115": {
+      "siglum": "4Q115",
+      "sourceSiglum": "4Q115",
+      "verses": {
+        "daniel": 26
+      }
+    },
+    "4Q116": {
+      "siglum": "4Q116",
+      "sourceSiglum": "4Q116",
+      "verses": {
+        "daniel": 6
+      }
+    },
+    "4Q117": {
+      "siglum": "4Q117",
+      "sourceSiglum": "4Q117",
+      "verses": {
+        "esdras": 15
+      }
+    },
+    "4Q118": {
+      "siglum": "4Q118",
+      "sourceSiglum": "4Q118",
+      "verses": {
+        "2-chroniques": 4
+      }
+    },
+    "4Q12": {
+      "siglum": "4Q12",
+      "sourceSiglum": "4Q12",
+      "verses": {
+        "genese": 8
+      }
+    },
+    "4Q128": {
+      "siglum": "4Q128",
+      "sourceSiglum": "4Q128",
+      "verses": {
+        "deuteronome": 54,
+        "exode": 17
+      }
+    },
+    "4Q129": {
+      "siglum": "4Q129",
+      "sourceSiglum": "4Q129",
+      "verses": {
+        "deuteronome": 38,
+        "exode": 8
+      }
+    },
+    "4Q12a": {
+      "siglum": "4Q12a",
+      "sourceSiglum": "4Q12a",
+      "verses": {
+        "genese": 2
+      }
+    },
+    "4Q13": {
+      "siglum": "4Q13",
+      "sourceSiglum": "4Q13",
+      "verses": {
+        "exode": 60
+      }
+    },
+    "4Q130": {
+      "siglum": "4Q130",
+      "sourceSiglum": "4Q130",
+      "verses": {
+        "exode": 16,
+        "deuteronome": 15
+      }
+    },
+    "4Q131": {
+      "siglum": "4Q131",
+      "sourceSiglum": "4Q131",
+      "verses": {
+        "deuteronome": 6
+      }
+    },
+    "4Q132": {
+      "siglum": "4Q132",
+      "sourceSiglum": "4Q132",
+      "verses": {
+        "exode": 7
+      }
+    },
+    "4Q133": {
+      "siglum": "4Q133",
+      "sourceSiglum": "4Q133",
+      "verses": {
+        "exode": 6
+      }
+    },
+    "4Q134": {
+      "siglum": "4Q134",
+      "sourceSiglum": "4Q134",
+      "verses": {
+        "deuteronome": 20,
+        "exode": 3
+      }
+    },
+    "4Q135": {
+      "siglum": "4Q135",
+      "sourceSiglum": "4Q135",
+      "verses": {
+        "deuteronome": 17,
+        "exode": 3
+      }
+    },
+    "4Q136": {
+      "siglum": "4Q136",
+      "sourceSiglum": "4Q136",
+      "verses": {
+        "deuteronome": 11,
+        "exode": 19
+      }
+    },
+    "4Q137": {
+      "siglum": "4Q137",
+      "sourceSiglum": "4Q137",
+      "verses": {
+        "deuteronome": 34
+      }
+    },
+    "4Q138": {
+      "siglum": "4Q138",
+      "sourceSiglum": "4Q138",
+      "verses": {
+        "deuteronome": 23
+      }
+    },
+    "4Q139": {
+      "siglum": "4Q139",
+      "sourceSiglum": "4Q139",
+      "verses": {
+        "deuteronome": 18
+      }
+    },
+    "4Q14": {
+      "siglum": "4Q14",
+      "sourceSiglum": "4Q14",
+      "verses": {
+        "exode": 173
+      }
+    },
+    "4Q140": {
+      "siglum": "4Q140",
+      "sourceSiglum": "4Q140",
+      "verses": {
+        "exode": 17,
+        "deuteronome": 6
+      }
+    },
+    "4Q141": {
+      "siglum": "4Q141",
+      "sourceSiglum": "4Q141",
+      "verses": {
+        "deuteronome": 11
+      }
+    },
+    "4Q142": {
+      "siglum": "4Q142",
+      "sourceSiglum": "4Q142",
+      "verses": {
+        "deuteronome": 19
+      }
+    },
+    "4Q143": {
+      "siglum": "4Q143",
+      "sourceSiglum": "4Q143",
+      "verses": {
+        "deuteronome": 8
+      }
+    },
+    "4Q144": {
+      "siglum": "4Q144",
+      "sourceSiglum": "4Q144",
+      "verses": {
+        "deuteronome": 7,
+        "exode": 6
+      }
+    },
+    "4Q145": {
+      "siglum": "4Q145",
+      "sourceSiglum": "4Q145",
+      "verses": {
+        "exode": 10
+      }
+    },
+    "4Q146": {
+      "siglum": "4Q146",
+      "sourceSiglum": "4Q146",
+      "verses": {
+        "deuteronome": 3
+      }
+    },
+    "4Q149": {
+      "siglum": "4Q149",
+      "sourceSiglum": "4Q149",
+      "verses": {
+        "exode": 6
+      }
+    },
+    "4Q15": {
+      "siglum": "4Q15",
+      "sourceSiglum": "4Q15",
+      "verses": {
+        "exode": 3
+      }
+    },
+    "4Q150": {
+      "siglum": "4Q150",
+      "sourceSiglum": "4Q150",
+      "verses": {
+        "deuteronome": 13
+      }
+    },
+    "4Q151": {
+      "siglum": "4Q151",
+      "sourceSiglum": "4Q151",
+      "verses": {
+        "deuteronome": 26
+      }
+    },
+    "4Q152": {
+      "siglum": "4Q152",
+      "sourceSiglum": "4Q152",
+      "verses": {
+        "deuteronome": 4
+      }
+    },
+    "4Q153": {
+      "siglum": "4Q153",
+      "sourceSiglum": "4Q153",
+      "verses": {
+        "deuteronome": 3
+      }
+    },
+    "4Q154": {
+      "siglum": "4Q154",
+      "sourceSiglum": "4Q154",
+      "verses": {
+        "exode": 5
+      }
+    },
+    "4Q155": {
+      "siglum": "4Q155",
+      "sourceSiglum": "4Q155",
+      "verses": {
+        "exode": 6
+      }
+    },
+    "4Q16": {
+      "siglum": "4Q16",
+      "sourceSiglum": "4Q16",
+      "verses": {
+        "exode": 3
+      }
+    },
+    "4Q17": {
+      "siglum": "4Q17",
+      "sourceSiglum": "4Q17",
+      "verses": {
+        "exode": 48,
+        "levitique": 6
+      }
+    },
+    "4Q18": {
+      "siglum": "4Q18",
+      "sourceSiglum": "4Q18",
+      "verses": {
+        "exode": 7
+      }
+    },
+    "4Q19": {
+      "siglum": "4Q19",
+      "sourceSiglum": "4Q19",
+      "verses": {
+        "exode": 4
+      }
+    },
+    "4Q2": {
+      "siglum": "4Q2",
+      "sourceSiglum": "4Q2",
+      "verses": {
+        "genese": 46
+      }
+    },
+    "4Q20": {
+      "siglum": "4Q20",
+      "sourceSiglum": "4Q20",
+      "verses": {
+        "exode": 3
+      }
+    },
+    "4Q21": {
+      "siglum": "4Q21",
+      "sourceSiglum": "4Q21",
+      "verses": {
+        "exode": 2
+      }
+    },
+    "4Q22": {
+      "siglum": "4Q22",
+      "sourceSiglum": "4Q22",
+      "verses": {
+        "exode": 447
+      }
+    },
+    "4Q23": {
+      "siglum": "4Q23",
+      "sourceSiglum": "4Q23",
+      "verses": {
+        "levitique": 93,
+        "nombres": 177
+      }
+    },
+    "4Q24": {
+      "siglum": "4Q24",
+      "sourceSiglum": "4Q24",
+      "verses": {
+        "levitique": 132
+      }
+    },
+    "4Q249j": {
+      "siglum": "4Q249j",
+      "sourceSiglum": "4Q249j",
+      "verses": {
+        "levitique": 3
+      }
+    },
+    "4Q25": {
+      "siglum": "4Q25",
+      "sourceSiglum": "4Q25",
+      "verses": {
+        "levitique": 30
+      }
+    },
+    "4Q26": {
+      "siglum": "4Q26",
+      "sourceSiglum": "4Q26",
+      "verses": {
+        "levitique": 22
+      }
+    },
+    "4Q26a": {
+      "siglum": "4Q26a",
+      "sourceSiglum": "4Q26a",
+      "verses": {
+        "levitique": 40
+      }
+    },
+    "4Q26b": {
+      "siglum": "4Q26b",
+      "sourceSiglum": "4Q26b",
+      "verses": {
+        "levitique": 8
+      }
+    },
+    "4Q26c": {
+      "siglum": "4Q26c",
+      "sourceSiglum": "4Q26c",
+      "verses": {
+        "levitique": 13
+      }
+    },
+    "4Q27": {
+      "siglum": "4Q27",
+      "sourceSiglum": "4Q27",
+      "verses": {
+        "nombres": 360
+      }
+    },
+    "4Q28": {
+      "siglum": "4Q28",
+      "sourceSiglum": "4Q28",
+      "verses": {
+        "deuteronome": 9
+      }
+    },
+    "4Q29": {
+      "siglum": "4Q29",
+      "sourceSiglum": "4Q29",
+      "verses": {
+        "deuteronome": 37
+      }
+    },
+    "4Q3": {
+      "siglum": "4Q3",
+      "sourceSiglum": "4Q3",
+      "verses": {
+        "genese": 20
+      }
+    },
+    "4Q30": {
+      "siglum": "4Q30",
+      "sourceSiglum": "4Q30",
+      "verses": {
+        "deuteronome": 122
+      }
+    },
+    "4Q31": {
+      "siglum": "4Q31",
+      "sourceSiglum": "4Q31",
+      "verses": {
+        "deuteronome": 30
+      }
+    },
+    "4Q32": {
+      "siglum": "4Q32",
+      "sourceSiglum": "4Q32",
+      "verses": {
+        "deuteronome": 24
+      }
+    },
+    "4Q33": {
+      "siglum": "4Q33",
+      "sourceSiglum": "4Q33",
+      "verses": {
+        "deuteronome": 102
+      }
+    },
+    "4Q34": {
+      "siglum": "4Q34",
+      "sourceSiglum": "4Q34",
+      "verses": {
+        "deuteronome": 38
+      }
+    },
+    "4Q35": {
+      "siglum": "4Q35",
+      "sourceSiglum": "4Q35",
+      "verses": {
+        "deuteronome": 69
+      }
+    },
+    "4Q36": {
+      "siglum": "4Q36",
+      "sourceSiglum": "4Q36",
+      "verses": {
+        "deuteronome": 34
+      }
+    },
+    "4Q37": {
+      "siglum": "4Q37",
+      "sourceSiglum": "4Q37",
+      "verses": {
+        "deuteronome": 48,
+        "exode": 16
+      }
+    },
+    "4Q38": {
+      "siglum": "4Q38",
+      "sourceSiglum": "4Q38",
+      "verses": {
+        "deuteronome": 20
+      }
+    },
+    "4Q38a": {
+      "siglum": "4Q38a",
+      "sourceSiglum": "4Q38a",
+      "verses": {
+        "deuteronome": 42
+      }
+    },
+    "4Q38b": {
+      "siglum": "4Q38b",
+      "sourceSiglum": "4Q38b",
+      "verses": {
+        "deuteronome": 3
+      }
+    },
+    "4Q38c": {
+      "siglum": "4Q38c",
+      "sourceSiglum": "4Q38c",
+      "verses": {
+        "deuteronome": 5
+      }
+    },
+    "4Q38d": {
+      "siglum": "4Q38d",
+      "sourceSiglum": "4Q38d",
+      "verses": {
+        "deuteronome": 3
+      }
+    },
+    "4Q39": {
+      "siglum": "4Q39",
+      "sourceSiglum": "4Q39",
+      "verses": {
+        "deuteronome": 17
+      }
+    },
+    "4Q4": {
+      "siglum": "4Q4",
+      "sourceSiglum": "4Q4",
+      "verses": {
+        "genese": 10
+      }
+    },
+    "4Q40": {
+      "siglum": "4Q40",
+      "sourceSiglum": "4Q40",
+      "verses": {
+        "deuteronome": 13
+      }
+    },
+    "4Q41": {
+      "siglum": "4Q41",
+      "sourceSiglum": "4Q41",
+      "verses": {
+        "deuteronome": 40,
+        "exode": 1
+      }
+    },
+    "4Q42": {
+      "siglum": "4Q42",
+      "sourceSiglum": "4Q42",
+      "verses": {
+        "deuteronome": 39
+      }
+    },
+    "4Q43": {
+      "siglum": "4Q43",
+      "sourceSiglum": "4Q43",
+      "verses": {
+        "deuteronome": 8
+      }
+    },
+    "4Q44": {
+      "siglum": "4Q44",
+      "sourceSiglum": "4Q44",
+      "verses": {
+        "deuteronome": 9
+      }
+    },
+    "4Q45": {
+      "siglum": "4Q45",
+      "sourceSiglum": "4Q45",
+      "verses": {
+        "deuteronome": 93
+      }
+    },
+    "4Q46": {
+      "siglum": "4Q46",
+      "sourceSiglum": "4Q46",
+      "verses": {
+        "deuteronome": 2
+      }
+    },
+    "4Q47": {
+      "siglum": "4Q47",
+      "sourceSiglum": "4Q47",
+      "verses": {
+        "josue": 39
+      }
+    },
+    "4Q48": {
+      "siglum": "4Q48",
+      "sourceSiglum": "4Q48",
+      "verses": {
+        "josue": 19
+      }
+    },
+    "4Q483": {
+      "siglum": "4Q483",
+      "sourceSiglum": "4Q483",
+      "verses": {
+        "genese": 5
+      }
+    },
+    "4Q49": {
+      "siglum": "4Q49",
+      "sourceSiglum": "4Q49",
+      "verses": {
+        "juges": 8
+      }
+    },
+    "4Q5": {
+      "siglum": "4Q5",
+      "sourceSiglum": "4Q5",
+      "verses": {
+        "genese": 45
+      }
+    },
+    "4Q50": {
+      "siglum": "4Q50",
+      "sourceSiglum": "4Q50",
+      "verses": {
+        "juges": 17
+      }
+    },
+    "4Q51": {
+      "siglum": "4Q51",
+      "sourceSiglum": "4Q51",
+      "verses": {
+        "1-samuel": 263,
+        "2-samuel": 357
+      }
+    },
+    "4Q52": {
+      "siglum": "4Q52",
+      "sourceSiglum": "4Q52",
+      "verses": {
+        "1-samuel": 72
+      }
+    },
+    "4Q53": {
+      "siglum": "4Q53",
+      "sourceSiglum": "4Q53",
+      "verses": {
+        "1-samuel": 3,
+        "2-samuel": 42
+      }
+    },
+    "4Q54": {
+      "siglum": "4Q54",
+      "sourceSiglum": "4Q54",
+      "verses": {
+        "1-rois": 32
+      }
+    },
+    "4Q55": {
+      "siglum": "4Q55",
+      "sourceSiglum": "4Q55",
+      "verses": {
+        "esaie": 100
+      }
+    },
+    "4Q56": {
+      "siglum": "4Q56",
+      "sourceSiglum": "4Q56",
+      "verses": {
+        "esaie": 242
+      }
+    },
+    "4Q57": {
+      "siglum": "4Q57",
+      "sourceSiglum": "4Q57",
+      "verses": {
+        "esaie": 214
+      }
+    },
+    "4Q576": {
+      "siglum": "4Q576",
+      "sourceSiglum": "4Q576",
+      "verses": {
+        "genese": 6
+      }
+    },
+    "4Q58": {
+      "siglum": "4Q58",
+      "sourceSiglum": "4Q58",
+      "verses": {
+        "esaie": 85
+      }
+    },
+    "4Q59": {
+      "siglum": "4Q59",
+      "sourceSiglum": "4Q59",
+      "verses": {
+        "esaie": 72
+      }
+    },
+    "4Q6": {
+      "siglum": "4Q6",
+      "sourceSiglum": "4Q6",
+      "verses": {
+        "genese": 15
+      }
+    },
+    "4Q60": {
+      "siglum": "4Q60",
+      "sourceSiglum": "4Q60",
+      "verses": {
+        "esaie": 88
+      }
+    },
+    "4Q61": {
+      "siglum": "4Q61",
+      "sourceSiglum": "4Q61",
+      "verses": {
+        "esaie": 25
+      }
+    },
+    "4Q62": {
+      "siglum": "4Q62",
+      "sourceSiglum": "4Q62",
+      "verses": {
+        "esaie": 8
+      }
+    },
+    "4Q62a": {
+      "siglum": "4Q62a",
+      "sourceSiglum": "4Q62a",
+      "verses": {
+        "esaie": 6
+      }
+    },
+    "4Q63": {
+      "siglum": "4Q63",
+      "sourceSiglum": "4Q63",
+      "verses": {
+        "esaie": 6
+      }
+    },
+    "4Q64": {
+      "siglum": "4Q64",
+      "sourceSiglum": "4Q64",
+      "verses": {
+        "esaie": 13
+      }
+    },
+    "4Q65": {
+      "siglum": "4Q65",
+      "sourceSiglum": "4Q65",
+      "verses": {
+        "esaie": 6
+      }
+    },
+    "4Q66": {
+      "siglum": "4Q66",
+      "sourceSiglum": "4Q66",
+      "verses": {
+        "esaie": 9
+      }
+    },
+    "4Q67": {
+      "siglum": "4Q67",
+      "sourceSiglum": "4Q67",
+      "verses": {
+        "esaie": 3
+      }
+    },
+    "4Q68": {
+      "siglum": "4Q68",
+      "sourceSiglum": "4Q68",
+      "verses": {
+        "esaie": 7
+      }
+    },
+    "4Q69": {
+      "siglum": "4Q69",
+      "sourceSiglum": "4Q69",
+      "verses": {
+        "esaie": 3
+      }
+    },
+    "4Q69a": {
+      "siglum": "4Q69a",
+      "sourceSiglum": "4Q69a",
+      "verses": {
+        "esaie": 4
+      }
+    },
+    "4Q69b": {
+      "siglum": "4Q69b",
+      "sourceSiglum": "4Q69b",
+      "verses": {
+        "esaie": 1
+      }
+    },
+    "4Q7": {
+      "siglum": "4Q7",
+      "sourceSiglum": "4Q7",
+      "verses": {
+        "genese": 23
+      }
+    },
+    "4Q70": {
+      "siglum": "4Q70",
+      "sourceSiglum": "4Q70",
+      "verses": {
+        "jeremie": 140
+      }
+    },
+    "4Q71": {
+      "siglum": "4Q71",
+      "sourceSiglum": "4Q71",
+      "verses": {
+        "jeremie": 22
+      }
+    },
+    "4Q72": {
+      "siglum": "4Q72",
+      "sourceSiglum": "4Q72",
+      "verses": {
+        "jeremie": 116
+      }
+    },
+    "4Q72a": {
+      "siglum": "4Q72a",
+      "sourceSiglum": "4Q72a",
+      "verses": {
+        "jeremie": 9
+      }
+    },
+    "4Q72b": {
+      "siglum": "4Q72b",
+      "sourceSiglum": "4Q72b",
+      "verses": {
+        "jeremie": 3
+      }
+    },
+    "4Q73": {
+      "siglum": "4Q73",
+      "sourceSiglum": "4Q73",
+      "verses": {
+        "ezechiel": 41
+      }
+    },
+    "4Q74": {
+      "siglum": "4Q74",
+      "sourceSiglum": "4Q74",
+      "verses": {
+        "ezechiel": 14
+      }
+    },
+    "4Q75": {
+      "siglum": "4Q75",
+      "sourceSiglum": "4Q75",
+      "verses": {
+        "ezechiel": 2
+      }
+    },
+    "4Q76": {
+      "siglum": "4Q76",
+      "sourceSiglum": "4Q76",
+      "verses": {
+        "zacharie": 1,
+        "malachie": 32,
+        "jonas": 15
+      }
+    },
+    "4Q77": {
+      "siglum": "4Q77",
+      "sourceSiglum": "4Q77",
+      "verses": {
+        "sophonie": 8,
+        "aggee": 5
+      }
+    },
+    "4Q78": {
+      "siglum": "4Q78",
+      "sourceSiglum": "4Q78",
+      "verses": {
+        "osee": 44,
+        "joel": 45,
+        "amos": 42,
+        "sophonie": 5,
+        "malachie": 2
+      }
+    },
+    "4Q79": {
+      "siglum": "4Q79",
+      "sourceSiglum": "4Q79",
+      "verses": {
+        "osee": 9
+      }
+    },
+    "4Q80": {
+      "siglum": "4Q80",
+      "sourceSiglum": "4Q80",
+      "verses": {
+        "aggee": 4,
+        "zacharie": 48
+      }
+    },
+    "4Q81": {
+      "siglum": "4Q81",
+      "sourceSiglum": "4Q81",
+      "verses": {
+        "jonas": 13,
+        "michee": 2
+      }
+    },
+    "4Q82": {
+      "siglum": "4Q82",
+      "sourceSiglum": "4Q82",
+      "verses": {
+        "osee": 103,
+        "joel": 32,
+        "amos": 79,
+        "abdias": 15,
+        "jonas": 28,
+        "michee": 17,
+        "nahum": 10,
+        "habacuc": 1,
+        "sophonie": 3,
+        "zacharie": 7
+      }
+    },
+    "4Q83": {
+      "siglum": "4Q83",
+      "sourceSiglum": "4Q83",
+      "verses": {
+        "psaumes": 141
+      }
+    },
+    "4Q84": {
+      "siglum": "4Q84",
+      "sourceSiglum": "4Q84",
+      "verses": {
+        "psaumes": 104
+      }
+    },
+    "4Q85": {
+      "siglum": "4Q85",
+      "sourceSiglum": "4Q85",
+      "verses": {
+        "psaumes": 93
+      }
+    },
+    "4Q86": {
+      "siglum": "4Q86",
+      "sourceSiglum": "4Q86",
+      "verses": {
+        "psaumes": 29
+      }
+    },
+    "4Q87": {
+      "siglum": "4Q87",
+      "sourceSiglum": "4Q87",
+      "verses": {
+        "psaumes": 89
+      }
+    },
+    "4Q88": {
+      "siglum": "4Q88",
+      "sourceSiglum": "4Q88",
+      "verses": {
+        "psaumes": 46
+      }
+    },
+    "4Q89": {
+      "siglum": "4Q89",
+      "sourceSiglum": "4Q89",
+      "verses": {
+        "psaumes": 21
+      }
+    },
+    "4Q8a": {
+      "siglum": "4Q8a",
+      "sourceSiglum": "4Q8a",
+      "verses": {
+        "genese": 3
+      }
+    },
+    "4Q8b": {
+      "siglum": "4Q8b",
+      "sourceSiglum": "4Q8b",
+      "verses": {
+        "genese": 2
+      }
+    },
+    "4Q8c": {
+      "siglum": "4Q8c",
+      "sourceSiglum": "4Q8c",
+      "verses": {
+        "genese": 2
+      }
+    },
+    "4Q8d": {
+      "siglum": "4Q8d",
+      "sourceSiglum": "4Q8d",
+      "verses": {
+        "genese": 1
+      }
+    },
+    "4Q9": {
+      "siglum": "4Q9",
+      "sourceSiglum": "4Q9",
+      "verses": {
+        "genese": 53
+      }
+    },
+    "4Q90": {
+      "siglum": "4Q90",
+      "sourceSiglum": "4Q90",
+      "verses": {
+        "psaumes": 12
+      }
+    },
+    "4Q91": {
+      "siglum": "4Q91",
+      "sourceSiglum": "4Q91",
+      "verses": {
+        "psaumes": 24
+      }
+    },
+    "4Q92": {
+      "siglum": "4Q92",
+      "sourceSiglum": "4Q92",
+      "verses": {
+        "psaumes": 16
+      }
+    },
+    "4Q93": {
+      "siglum": "4Q93",
+      "sourceSiglum": "4Q93",
+      "verses": {
+        "psaumes": 5
+      }
+    },
+    "4Q94": {
+      "siglum": "4Q94",
+      "sourceSiglum": "4Q94",
+      "verses": {
+        "psaumes": 17
+      }
+    },
+    "4Q95": {
+      "siglum": "4Q95",
+      "sourceSiglum": "4Q95",
+      "verses": {
+        "psaumes": 11
+      }
+    },
+    "4Q96": {
+      "siglum": "4Q96",
+      "sourceSiglum": "4Q96",
+      "verses": {
+        "psaumes": 15
+      }
+    },
+    "4Q97": {
+      "siglum": "4Q97",
+      "sourceSiglum": "4Q97",
+      "verses": {
+        "psaumes": 7
+      }
+    },
+    "4Q98": {
+      "siglum": "4Q98",
+      "sourceSiglum": "4Q98",
+      "verses": {
+        "psaumes": 37
+      }
+    },
+    "4Q98a": {
+      "siglum": "4Q98a",
+      "sourceSiglum": "4Q98a",
+      "verses": {
+        "psaumes": 12
+      }
+    },
+    "4Q98b": {
+      "siglum": "4Q98b",
+      "sourceSiglum": "4Q98b",
+      "verses": {
+        "psaumes": 7
+      }
+    },
+    "4Q98c": {
+      "siglum": "4Q98c",
+      "sourceSiglum": "4Q98c",
+      "verses": {
+        "psaumes": 3
+      }
+    },
+    "4Q98d": {
+      "siglum": "4Q98d",
+      "sourceSiglum": "4Q98d",
+      "verses": {
+        "psaumes": 1
+      }
+    },
+    "4Q98e": {
+      "siglum": "4Q98e",
+      "sourceSiglum": "4Q98e",
+      "verses": {
+        "psaumes": 1
+      }
+    },
+    "4Q98f": {
+      "siglum": "4Q98f",
+      "sourceSiglum": "4Q98f",
+      "verses": {
+        "psaumes": 9
+      }
+    },
+    "4Q98g": {
+      "siglum": "4Q98g",
+      "sourceSiglum": "4Q98g",
+      "verses": {
+        "psaumes": 8
+      }
+    },
+    "4Q99": {
+      "siglum": "4Q99",
+      "sourceSiglum": "4Q99",
+      "verses": {
+        "job": 47
+      }
+    },
+    "5_6hev1a": {
+      "siglum": "5/6hev1a",
+      "sourceSiglum": "5/6hev1a",
+      "verses": {
+        "nombres": 5
+      }
+    },
+    "5_6hev1b": {
+      "siglum": "5/6hev1b",
+      "sourceSiglum": "5/6hev1b",
+      "verses": {
+        "psaumes": 138
+      }
+    },
+    "5Q1": {
+      "siglum": "5Q1",
+      "sourceSiglum": "5Q1",
+      "verses": {
+        "deuteronome": 28
+      }
+    },
+    "5Q2": {
+      "siglum": "5Q2",
+      "sourceSiglum": "5Q2",
+      "verses": {
+        "1-rois": 14
+      }
+    },
+    "5Q3": {
+      "siglum": "5Q3",
+      "sourceSiglum": "5Q3",
+      "verses": {
+        "esaie": 4
+      }
+    },
+    "5Q4": {
+      "siglum": "5Q4",
+      "sourceSiglum": "5Q4",
+      "verses": {
+        "amos": 4
+      }
+    },
+    "5Q5": {
+      "siglum": "5Q5",
+      "sourceSiglum": "5Q5",
+      "verses": {
+        "psaumes": 17
+      }
+    },
+    "5Q6": {
+      "siglum": "5Q6",
+      "sourceSiglum": "5Q6",
+      "verses": {
+        "lamentations": 32
+      }
+    },
+    "5Q7": {
+      "siglum": "5Q7",
+      "sourceSiglum": "5Q7",
+      "verses": {
+        "lamentations": 5
+      }
+    },
+    "6Q1": {
+      "siglum": "6Q1",
+      "sourceSiglum": "6Q1",
+      "verses": {
+        "genese": 10
+      }
+    },
+    "6Q2": {
+      "siglum": "6Q2",
+      "sourceSiglum": "6Q2",
+      "verses": {
+        "levitique": 2
+      }
+    },
+    "6Q3": {
+      "siglum": "6Q3",
+      "sourceSiglum": "6Q3",
+      "verses": {
+        "deuteronome": 1
+      }
+    },
+    "6Q4": {
+      "siglum": "6Q4",
+      "sourceSiglum": "6Q4",
+      "verses": {
+        "1-rois": 11,
+        "2-rois": 16
+      }
+    },
+    "6Q5": {
+      "siglum": "6Q5",
+      "sourceSiglum": "6Q5",
+      "verses": {
+        "psaumes": 3
+      }
+    },
+    "6Q6": {
+      "siglum": "6Q6",
+      "sourceSiglum": "6Q6",
+      "verses": {
+        "cantique": 7
+      }
+    },
+    "6Q7": {
+      "siglum": "6Q7",
+      "sourceSiglum": "6Q7",
+      "verses": {
+        "daniel": 19
+      }
+    },
+    "8Q1": {
+      "siglum": "8Q1",
+      "sourceSiglum": "8Q1",
+      "verses": {
+        "genese": 17
+      }
+    },
+    "8Q2": {
+      "siglum": "8Q2",
+      "sourceSiglum": "8Q2",
+      "verses": {
+        "psaumes": 14
+      }
+    },
+    "8Q3": {
+      "siglum": "8Q3",
+      "sourceSiglum": "8Q3",
+      "verses": {
+        "exode": 26,
+        "deuteronome": 50
+      }
+    },
+    "8Q4": {
+      "siglum": "8Q4",
+      "sourceSiglum": "8Q4",
+      "verses": {
+        "deuteronome": 32
+      }
+    },
+    "Arugleviticus": {
+      "siglum": "Arugleviticus",
+      "sourceSiglum": "Arugleviticus",
+      "verses": {
+        "levitique": 10
+      }
+    },
+    "Mas1": {
+      "siglum": "Mas1",
+      "sourceSiglum": "Mas1",
+      "verses": {
+        "genese": 5
+      }
+    },
+    "Mas1a": {
+      "siglum": "Mas1a",
+      "sourceSiglum": "Mas1a",
+      "verses": {
+        "levitique": 7
+      }
+    },
+    "Mas1b": {
+      "siglum": "Mas1b",
+      "sourceSiglum": "Mas1b",
+      "verses": {
+        "levitique": 74
+      }
+    },
+    "Mas1c": {
+      "siglum": "Mas1c",
+      "sourceSiglum": "Mas1c",
+      "verses": {
+        "deuteronome": 15
+      }
+    },
+    "Mas1d": {
+      "siglum": "Mas1d",
+      "sourceSiglum": "Mas1d",
+      "verses": {
+        "ezechiel": 66
+      }
+    },
+    "Mas1e": {
+      "siglum": "Mas1e",
+      "sourceSiglum": "Mas1e",
+      "verses": {
+        "psaumes": 62
+      }
+    },
+    "Mas1f": {
+      "siglum": "Mas1f",
+      "sourceSiglum": "Mas1f",
+      "verses": {
+        "psaumes": 8
+      }
+    },
+    "Mur1": {
+      "siglum": "Mur1",
+      "sourceSiglum": "Mur1",
+      "verses": {
+        "genese": 18,
+        "exode": 15,
+        "nombres": 6
+      }
+    },
+    "Mur2": {
+      "siglum": "Mur2",
+      "sourceSiglum": "Mur2",
+      "verses": {
+        "deuteronome": 8
+      }
+    },
+    "Mur3": {
+      "siglum": "Mur3",
+      "sourceSiglum": "Mur3",
+      "verses": {
+        "esaie": 11
+      }
+    },
+    "Mur4": {
+      "siglum": "Mur4",
+      "sourceSiglum": "Mur4",
+      "verses": {
+        "exode": 16,
+        "deuteronome": 15
+      }
+    },
+    "Mur88": {
+      "siglum": "Mur88",
+      "sourceSiglum": "Mur88",
+      "verses": {
+        "joel": 25,
+        "amos": 54,
+        "abdias": 21,
+        "jonas": 48,
+        "michee": 99,
+        "nahum": 47,
+        "habacuc": 47,
+        "sophonie": 43,
+        "aggee": 36,
+        "zacharie": 4
+      }
+    },
+    "Murx": {
+      "siglum": "Murx",
+      "sourceSiglum": "Murx",
+      "verses": {
+        "genese": 6
+      }
+    },
+    "Sdeir1": {
+      "siglum": "Sdeir1",
+      "sourceSiglum": "Sdeir1",
+      "verses": {
+        "genese": 27
+      }
+    },
+    "Xhev_se2": {
+      "siglum": "Xhev/se2",
+      "sourceSiglum": "Xhev/se2",
+      "verses": {
+        "nombres": 14
+      }
+    },
+    "Xhev_se3": {
+      "siglum": "Xhev/se3",
+      "sourceSiglum": "Xhev/se3",
+      "verses": {
+        "deuteronome": 7
+      }
+    },
+    "Xhev_se5": {
+      "siglum": "Xhev/se5",
+      "sourceSiglum": "Xhev/se5",
+      "verses": {
+        "exode": 16,
+        "deuteronome": 15
+      }
+    },
+    "Xjoshua": {
+      "siglum": "Xjoshua",
+      "sourceSiglum": "Xjoshua",
+      "verses": {
+        "josue": 6
+      }
+    },
+    "Xjudges": {
+      "siglum": "Xjudges",
+      "sourceSiglum": "Xjudges",
+      "verses": {
+        "juges": 12
+      }
+    },
+    "Xq1": {
+      "siglum": "Xq1",
+      "sourceSiglum": "Xq1",
+      "verses": {
+        "exode": 19,
+        "deuteronome": 8
+      }
+    },
+    "Xq2": {
+      "siglum": "Xq2",
+      "sourceSiglum": "Xq2",
+      "verses": {
+        "deuteronome": 21
+      }
+    },
+    "Xq3": {
+      "siglum": "Xq3",
+      "sourceSiglum": "Xq3",
+      "verses": {
+        "deuteronome": 21,
+        "exode": 6
+      }
+    }
+  }
+}

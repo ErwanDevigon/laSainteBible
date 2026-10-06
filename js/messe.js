@@ -48,6 +48,8 @@ async function init() {
     parallels: true,
     lift: true,
     barCenter: dateNav,
+    dated: true,
+    showBlurb: false,
   });
 
   /** @type {MaskDilatation[]} */
@@ -78,6 +80,8 @@ async function init() {
       parallels: true,
       lift: true,
       barCenter: dateNav,
+      dated: true,
+      showBlurb: false,
     });
     const edition = getActiveEdition(pool);
     Promise.all(masks.map((mask) => mask.remount(edition).catch(() => {}))).then(

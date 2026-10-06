@@ -1,0 +1,234 @@
+{
+  "version": {
+    "id": "tr",
+    "label": "Textus Receptus",
+    "name": "Textus Receptus",
+    "blurb": "Textus Receptus",
+    "year": 1550,
+    "lang": "el",
+    "license": "Public domain",
+    "source": "https://ebible.org/find/details.php?id=grctr",
+    "abbreviation": "tr",
+    "canon": "protestant",
+    "at": "Παλαιὰ Διαθήκη",
+    "nt": "Καινὴ Διαθήκη"
+  },
+  "books": [
+    {
+      "id": "matthieu",
+      "title": "ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+      "original_title": "ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "ΚΑΤΑ ΜΑΡΚΟΝ",
+      "original_title": "ΚΑΤΑ ΜΑΡΚΟΝ",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "ΚΑΤΑ ΛΟΥΚΑΝ",
+      "original_title": "ΚΑΤΑ ΛΟΥΚΑΝ",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "ΚΑΤΑ ΙΩΑΝΝΗΝ",
+      "original_title": "ΚΑΤΑ ΙΩΑΝΝΗΝ",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "actes",
+      "title": "ΠΡΑΞΕΙΣ ΑΠΟΣΤΟΛΩΝ",
+      "original_title": "ΠΡΑΞΕΙΣ ΑΠΟΣΤΟΛΩΝ",
+      "short": "Ac",
+      "testament": "nt",
+      "section": "actes"
+    },
+    {
+      "id": "romains",
+      "title": "ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
+      "original_title": "ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
+      "short": "Rm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-corinthiens",
+      "title": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Α",
+      "original_title": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Α",
+      "short": "1 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-corinthiens",
+      "title": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Β",
+      "original_title": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Β",
+      "short": "2 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "galates",
+      "title": "ΠΡΟΣ ΓΑΛΑΤΑΣ",
+      "original_title": "ΠΡΟΣ ΓΑΛΑΤΑΣ",
+      "short": "Ga",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "ephesiens",
+      "title": "ΠΡΟΣ ΕΦΕΣΙΟΥΣ",
+      "original_title": "ΠΡΟΣ ΕΦΕΣΙΟΥΣ",
+      "short": "Ép",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philippiens",
+      "title": "ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ",
+      "original_title": "ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ",
+      "short": "Ph",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "colossiens",
+      "title": "ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ",
+      "original_title": "ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ",
+      "short": "Col",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-thessaloniciens",
+      "title": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α",
+      "original_title": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α",
+      "short": "1 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-thessaloniciens",
+      "title": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β",
+      "original_title": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β",
+      "short": "2 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-timothee",
+      "title": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Α",
+      "original_title": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Α",
+      "short": "1 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-timothee",
+      "title": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Β",
+      "original_title": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Β",
+      "short": "2 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "tite",
+      "title": "ΠΡΟΣ ΤΙΤΟΝ",
+      "original_title": "ΠΡΟΣ ΤΙΤΟΝ",
+      "short": "Tt",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philemon",
+      "title": "ΠΡΟΣ ΦΙΛΗΜΟΝΑ",
+      "original_title": "ΠΡΟΣ ΦΙΛΗΜΟΝΑ",
+      "short": "Phm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "hebreux",
+      "title": "ΠΡΟΣ ΕΒΡΑΙΟΥΣ",
+      "original_title": "ΠΡΟΣ ΕΒΡΑΙΟΥΣ",
+      "short": "Hé",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jacques",
+      "title": "ΙΑΚΩΒΟΥ",
+      "original_title": "ΙΑΚΩΒΟΥ",
+      "short": "Jc",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-pierre",
+      "title": "ΠΕΤΡΟΥ Α",
+      "original_title": "ΠΕΤΡΟΥ Α",
+      "short": "1 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-pierre",
+      "title": "ΠΕΤΡΟΥ Β",
+      "original_title": "ΠΕΤΡΟΥ Β",
+      "short": "2 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-jean",
+      "title": "ΙΩΑΝΝΟΥ Α",
+      "original_title": "ΙΩΑΝΝΟΥ Α",
+      "short": "1 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-jean",
+      "title": "ΙΩΑΝΝΟΥ Β",
+      "original_title": "ΙΩΑΝΝΟΥ Β",
+      "short": "2 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "3-jean",
+      "title": "ΙΩΑΝΝΟΥ Γ",
+      "original_title": "ΙΩΑΝΝΟΥ Γ",
+      "short": "3 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jude",
+      "title": "ΙΟΥΔΑ",
+      "original_title": "ΙΟΥΔΑ",
+      "short": "Jude",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "apocalypse",
+      "title": "ΑΠΟΚΑΛΥΨΙΣ ΙΩΑΝΝΟΥ",
+      "original_title": "ΑΠΟΚΑΛΥΨΙΣ ΙΩΑΝΝΟΥ",
+      "short": "Ap",
+      "testament": "nt",
+      "section": "apocalypse"
+    }
+  ]
+}

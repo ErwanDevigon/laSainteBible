@@ -206,6 +206,12 @@ body.lecteur-page[data-book] > .site-header {
   color: var(--text-soft);
 }
 
+.header-center .volume-menu-btn:hover,
+.header-center .volume-menu-btn:focus-visible,
+.header-center .volume-menu-btn[aria-expanded="true"] {
+  color: var(--text);
+}
+
 .header-page-label {
   font-family: var(--font-ui);
   font-size: var(--text-xs);
@@ -514,6 +520,15 @@ body.lecteur-page[data-book] > .site-header {
   text-transform: lowercase;
 }
 
+.edition-name-btn,
+.edition-menu button {
+  direction: ltr;
+}
+
+.edition-menu-name {
+  unicode-bidi: isolate;
+}
+
 .edition-name-btn {
   display: block;
   width: 100%;
@@ -532,9 +547,31 @@ body.lecteur-page[data-book] > .site-header {
   color: var(--text);
 }
 
+.qumran-ms-btn {
+  margin: 0;
+  padding: 0 0.15rem 0 0.45rem;
+  border: 0;
+  background: none;
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  text-transform: none;
+  color: var(--accent);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.qumran-ms-btn:hover,
+.qumran-ms-btn:focus-visible,
+.qumran-ms-btn[aria-expanded="true"] {
+  color: var(--text);
+}
+
 .edition-menu,
 .parallels-menu,
-.volume-menu {
+.volume-menu,
+.qumran-menu {
   position: fixed;
   z-index: 60;
   margin: 0;
@@ -585,10 +622,60 @@ body.lecteur-page[data-book] > .site-header {
   color: var(--text-soft);
 }
 
+.qumran-menu {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.qumran-menu button {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0.9rem;
+  border: 0;
+  background: none;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  text-align: left;
+  color: var(--text-soft);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.qumran-menu button.is-current,
+.qumran-menu button.is-current:hover,
+.qumran-menu button.is-current:focus-visible {
+  color: var(--accent);
+}
+
+.qumran-credit {
+  position: sticky;
+  bottom: 0;
+  margin: 0;
+  padding: 0.45rem 0.9rem;
+  border-top: 1px solid var(--border);
+  background: var(--bg-elevated);
+  font-family: var(--font-ui);
+  font-size: 0.62rem;
+  line-height: 1.35;
+  color: var(--text-mute);
+  max-width: 18rem;
+  white-space: normal;
+}
+
+.qumran-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
 .edition-menu button:hover,
 .edition-menu button:focus-visible,
 .parallels-menu button:hover,
 .parallels-menu button:focus-visible,
+.qumran-menu button:hover,
+.qumran-menu button:focus-visible,
 .volume-menu a:hover,
 .volume-menu a:focus-visible {
   color: var(--text);
@@ -610,7 +697,14 @@ body.lecteur-page[data-book] > .site-header {
 
 .volume-menu a.is-current,
 .volume-menu a[aria-current="page"] {
-  color: var(--text);
+  color: var(--accent);
+}
+
+.volume-menu a.is-current:hover,
+.volume-menu a.is-current:focus-visible,
+.volume-menu a[aria-current="page"]:hover,
+.volume-menu a[aria-current="page"]:focus-visible {
+  color: var(--accent);
 }
 
 .chapter-rail {
@@ -622,14 +716,16 @@ body.lecteur-page[data-book] > .site-header {
   z-index: 45;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
+  gap: 0.15rem;
   padding: 0.4rem 0;
   pointer-events: none;
   background: #000;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  overflow-x: visible;
+  overflow-x: hidden;
   overflow-y: auto;
   scrollbar-width: none;
 }
@@ -640,59 +736,50 @@ body.lecteur-page[data-book] > .site-header {
 
 .chapter-rail a {
   pointer-events: auto;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   font-family: var(--font-ui);
   font-variant-numeric: tabular-nums;
-  font-size: clamp(
-    0.48rem,
-    calc(
-      (100dvh - var(--chrome-h) - 2 * var(--footer-h) - 2 * var(--rail-gap) - 1.2rem)
-        / var(--chapter-count, 21) / 1.45
-    ),
-    1.05rem
-  );
-  line-height: 1;
+  font-size: 0.92rem;
+  line-height: 1.05;
   color: var(--text-mute);
   text-decoration: none;
-  padding: 0.12em 0.12em;
+  padding: 0.16em 0;
+  white-space: nowrap;
+  transition: color 180ms var(--ease);
+}
+
+.chapter-rail-num {
+  display: block;
   transform-origin: center center;
-  transition: transform 180ms var(--ease), color 180ms var(--ease);
+  transition: transform 180ms var(--ease);
 }
 
 .chapter-rail a:hover,
 .chapter-rail a:focus-visible {
   color: var(--text);
+}
+
+.chapter-rail a:hover .chapter-rail-num,
+.chapter-rail a:focus-visible .chapter-rail-num {
   transform: scale(1.35);
 }
 
 .chapter-rail a[aria-current="location"] {
   color: var(--accent);
-  transform: scale(1.45);
   font-weight: 600;
 }
 
-.chapter-rail a[aria-current="location"]:hover,
-.chapter-rail a[aria-current="location"]:focus-visible {
+.chapter-rail a[aria-current="location"] .chapter-rail-num {
+  transform: scale(1.45);
+}
+
+.chapter-rail a[aria-current="location"]:hover .chapter-rail-num,
+.chapter-rail a[aria-current="location"]:focus-visible .chapter-rail-num {
   transform: scale(1.55);
-}
-
-body.lecteur-page.has-psalm-rail[data-book] {
-  --rail-w: 4.35rem;
-}
-
-.chapter-rail.is-psalms {
-  display: grid;
-  grid-template-columns: repeat(var(--rail-cols, 3), 1fr);
-  grid-template-rows: repeat(var(--psalm-rows, 50), 1fr);
-  grid-auto-flow: column;
-  justify-content: stretch;
-  align-items: center;
-  width: calc(var(--rail-w, 4.35rem) - 0.22rem);
-  padding: 0.25rem 0.08rem;
-}
-
-.chapter-rail.is-psalms a {
-  font-size: clamp(0.42rem, 0.85vh, 0.72rem);
-  text-align: center;
 }
 
 body.lecteur-page[data-book] .site-main {
@@ -814,7 +901,8 @@ body.lecteur-page[data-book] .edition-pane.is-current {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .chapter-rail a {
+  .chapter-rail a,
+  .chapter-rail-num {
     transition: none;
   }
 
@@ -1335,6 +1423,33 @@ body.lecteur-page[data-book] .edition-pane.is-current {
 
 .parallel-card-head:hover {
   color: var(--text);
+}
+
+.parallel-memo {
+  position: absolute;
+  z-index: 7;
+  left: 0.55rem;
+  width: max-content;
+  max-width: calc(100% - 1.1rem);
+  margin: 0;
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bg-elevated) 88%, var(--accent));
+  color: var(--accent);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  letter-spacing: 0.03em;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+  box-shadow: 0 0.25rem 0.8rem rgba(0, 0, 0, 0.35);
+}
+
+.parallel-memo[hidden] {
+  display: none;
 }
 
 .parallel-card-body {

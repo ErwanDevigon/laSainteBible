@@ -1,0 +1,546 @@
+{
+  "version": {
+    "id": "finnish",
+    "label": "Biblia (1776)",
+    "name": "Biblia (1776)",
+    "blurb": "Biblia (1776)",
+    "year": 1776,
+    "lang": "fi",
+    "license": "Public domain",
+    "source": "https://getbible.net",
+    "abbreviation": "finnish",
+    "canon": "protestant",
+    "at": "Vanha testamentti",
+    "nt": "Uusi testamentti"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "Ensimmäinen Mooseksen kirja",
+      "original_title": "Ensimmäinen Mooseksen kirja",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "Toinen Mooseksen kirja",
+      "original_title": "Toinen Mooseksen kirja",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "Kolmas Mooseksen kirja",
+      "original_title": "Kolmas Mooseksen kirja",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "Neljäs Mooseksen kirja",
+      "original_title": "Neljäs Mooseksen kirja",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "Viides Mooseksen kirja",
+      "original_title": "Viides Mooseksen kirja",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "Joosuan kirja",
+      "original_title": "Joosuan kirja",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "Tuomarien kirja",
+      "original_title": "Tuomarien kirja",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ruth",
+      "title": "Ruutin kirja",
+      "original_title": "Ruutin kirja",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "Ensimmäinen Samuelin kirja",
+      "original_title": "Ensimmäinen Samuelin kirja",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "Toinen Samuelin kirja",
+      "original_title": "Toinen Samuelin kirja",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "Ensimmäinen kuningasten kirja",
+      "original_title": "Ensimmäinen kuningasten kirja",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "Toinen kuningasten kirja",
+      "original_title": "Toinen kuningasten kirja",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "Ensimmäinen aikakirja",
+      "original_title": "Ensimmäinen aikakirja",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "Toinen aikakirja",
+      "original_title": "Toinen aikakirja",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "Esran kirja",
+      "original_title": "Esran kirja",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "Nehemian kirja",
+      "original_title": "Nehemian kirja",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "Esterin kirja",
+      "original_title": "Esterin kirja",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "Jobin kirja",
+      "original_title": "Jobin kirja",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "psaumes",
+      "title": "Psalmit",
+      "original_title": "Psalmit",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "Sananlaskut",
+      "original_title": "Sananlaskut",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "Saarnaaja",
+      "original_title": "Saarnaaja",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "Laulujen laulu",
+      "original_title": "Laulujen laulu",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esaie",
+      "title": "Jesajan kirja",
+      "original_title": "Jesajan kirja",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "Jeremian kirja",
+      "original_title": "Jeremian kirja",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "lamentations",
+      "title": "Valitusvirret",
+      "original_title": "Valitusvirret",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "Hesekielin kirja",
+      "original_title": "Hesekielin kirja",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "daniel",
+      "title": "Danielin kirja",
+      "original_title": "Danielin kirja",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "osee",
+      "title": "Hoosean kirja",
+      "original_title": "Hoosean kirja",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "Joelin kirja",
+      "original_title": "Joelin kirja",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "Aamoksen kirja",
+      "original_title": "Aamoksen kirja",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "Obadjan kirja",
+      "original_title": "Obadjan kirja",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "Joonan kirja",
+      "original_title": "Joonan kirja",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "Miikan kirja",
+      "original_title": "Miikan kirja",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "Nahumin kirja",
+      "original_title": "Nahumin kirja",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "Habakukin kirja",
+      "original_title": "Habakukin kirja",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "Sefanjan kirja",
+      "original_title": "Sefanjan kirja",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "Haggain kirja",
+      "original_title": "Haggain kirja",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "Sakarjan kirja",
+      "original_title": "Sakarjan kirja",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "Malakian kirja",
+      "original_title": "Malakian kirja",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "matthieu",
+      "title": "Matteuksen evankeliumi",
+      "original_title": "Matteuksen evankeliumi",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "Markuksen evankeliumi",
+      "original_title": "Markuksen evankeliumi",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "Luukkaan evankeliumi",
+      "original_title": "Luukkaan evankeliumi",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "Johanneksen evankeliumi",
+      "original_title": "Johanneksen evankeliumi",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "actes",
+      "title": "Apostolien teot",
+      "original_title": "Apostolien teot",
+      "short": "Ac",
+      "testament": "nt",
+      "section": "actes"
+    },
+    {
+      "id": "romains",
+      "title": "Roomalaiskirje",
+      "original_title": "Roomalaiskirje",
+      "short": "Rm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-corinthiens",
+      "title": "Ensimmäinen korinttolaiskirje",
+      "original_title": "Ensimmäinen korinttolaiskirje",
+      "short": "1 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-corinthiens",
+      "title": "Toinen korinttolaiskirje",
+      "original_title": "Toinen korinttolaiskirje",
+      "short": "2 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "galates",
+      "title": "Galatalaiskirje",
+      "original_title": "Galatalaiskirje",
+      "short": "Ga",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "ephesiens",
+      "title": "Efesolaiskirje",
+      "original_title": "Efesolaiskirje",
+      "short": "Ép",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philippiens",
+      "title": "Filippiläiskirje",
+      "original_title": "Filippiläiskirje",
+      "short": "Ph",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "colossiens",
+      "title": "Kolossalaiskirje",
+      "original_title": "Kolossalaiskirje",
+      "short": "Col",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-thessaloniciens",
+      "title": "Ensimmäinen tessalonikalaiskirje",
+      "original_title": "Ensimmäinen tessalonikalaiskirje",
+      "short": "1 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-thessaloniciens",
+      "title": "Toinen tessalonikalaiskirje",
+      "original_title": "Toinen tessalonikalaiskirje",
+      "short": "2 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-timothee",
+      "title": "Ensimmäinen Timoteuskirje",
+      "original_title": "Ensimmäinen Timoteuskirje",
+      "short": "1 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-timothee",
+      "title": "Toinen Timoteuskirje",
+      "original_title": "Toinen Timoteuskirje",
+      "short": "2 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "tite",
+      "title": "Tiituksen kirje",
+      "original_title": "Tiituksen kirje",
+      "short": "Tt",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philemon",
+      "title": "Fileemonin kirje",
+      "original_title": "Fileemonin kirje",
+      "short": "Phm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "hebreux",
+      "title": "Hebrealaiskirje",
+      "original_title": "Hebrealaiskirje",
+      "short": "Hé",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jacques",
+      "title": "Jaakobin kirje",
+      "original_title": "Jaakobin kirje",
+      "short": "Jc",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-pierre",
+      "title": "Ensimmäinen Pietarin kirje",
+      "original_title": "Ensimmäinen Pietarin kirje",
+      "short": "1 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-pierre",
+      "title": "Toinen Pietarin kirje",
+      "original_title": "Toinen Pietarin kirje",
+      "short": "2 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-jean",
+      "title": "Ensimmäinen Johanneksen kirje",
+      "original_title": "Ensimmäinen Johanneksen kirje",
+      "short": "1 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-jean",
+      "title": "Toinen Johanneksen kirje",
+      "original_title": "Toinen Johanneksen kirje",
+      "short": "2 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "3-jean",
+      "title": "Kolmas Johanneksen kirje",
+      "original_title": "Kolmas Johanneksen kirje",
+      "short": "3 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jude",
+      "title": "Juudaksen kirje",
+      "original_title": "Juudaksen kirje",
+      "short": "Jude",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "apocalypse",
+      "title": "Ilmestyskirja",
+      "original_title": "Ilmestyskirja",
+      "short": "Ap",
+      "testament": "nt",
+      "section": "apocalypse"
+    }
+  ]
+}

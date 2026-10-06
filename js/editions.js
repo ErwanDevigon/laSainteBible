@@ -9,6 +9,13 @@ import {
   bookName,
   versionIdsByYear,
 } from "./books.js";
+import {
+  loadQumranCatalog,
+  qumranScrollsFor,
+  qumranSiglum,
+  readQumranChoice,
+  writeQumranChoice,
+} from "./data-loader.js";
 
 export const EDITION_SEGOND = "segond-1910";
 export const EDITION_OSTERVALD = "ostervald";
@@ -256,39 +263,53 @@ export function editionDisplayName(id) {
   return year ? `${name} · ${year}` : name;
 }
 
-const LANG_TAG = { fr: "fr", la: "la", el: "el", he: "he" };
+const LANG_TAG = { fr: "fr", la: "la", el: "el", he: "he", ar: "ar" };
+const RTL_LANG = new Set(["he", "ar"]);
+
+function editionMenuName(id, native) {
+  const v = EDITIONS[id];
+  let name = editionName(id);
+  if (native && v?.blurb && (v.lang === "el" || RTL_LANG.has(v.lang))) {
+    name = String(v.blurb).split("·")[0].trim() || name;
+  }
+  return name;
+}
 
 /** Dropdown only: name in the edition language + date. Sub-bars untouched. */
 export function editionMenuLabel(id) {
   const v = EDITIONS[id];
   const year = editionYearShort(id);
-  let name = editionName(id);
-  if ((v?.lang === "el" || v?.lang === "he") && v.blurb) {
-    name = String(v.blurb).split("·")[0].trim() || name;
-  }
-  const tag = LANG_TAG[v?.lang] || v?.lang || "";
+  const name = editionMenuName(id, true);
+  const tag = id === "qumran" ? "" : (LANG_TAG[v?.lang] || v?.lang || "");
   const core = year ? `${name} · ${year}` : name;
   return tag ? `${core} (${tag})` : core;
 }
 
-function fillEditionMenuLabel(btn, id) {
+/** LTR row: title, then date, then (lg). RTL titles stay isolated so the date stays on the right. */
+function paintEditionControl(btn, id, { year = true, tag = false, native = false } = {}) {
   const v = EDITIONS[id];
-  const year = editionYearShort(id);
-  let name = editionName(id);
-  if ((v?.lang === "el" || v?.lang === "he") && v.blurb) {
-    name = String(v.blurb).split("·")[0].trim() || name;
-  }
-  const tag = LANG_TAG[v?.lang] || v?.lang || "";
-  const core = year ? `${name} · ${year}` : name;
+  const y = year ? editionYearShort(id) : "";
+  const name = editionMenuName(id, native);
+  const langTag = id === "qumran" ? "" : (LANG_TAG[v?.lang] || v?.lang || "");
   btn.replaceChildren();
-  if (v?.lang) btn.lang = v.lang;
-  btn.append(document.createTextNode(core));
-  if (tag) {
+  btn.dir = "ltr";
+  const nameEl = document.createElement("span");
+  nameEl.className = "edition-menu-name";
+  if (v?.lang) nameEl.lang = v.lang;
+  if (RTL_LANG.has(v?.lang)) nameEl.dir = "rtl";
+  nameEl.textContent = name;
+  btn.append(nameEl);
+  if (y) btn.append(document.createTextNode(` · ${y}`));
+  if (tag && langTag) {
     const sm = document.createElement("span");
     sm.className = "edition-lang-tag";
-    sm.textContent = `(${tag})`;
+    sm.textContent = `(${langTag})`;
     btn.append(document.createTextNode(" "), sm);
   }
+}
+
+function fillEditionMenuLabel(btn, id) {
+  paintEditionControl(btn, id, { year: true, tag: true, native: true });
 }
 
 export function readEditionOrder() {
@@ -426,16 +447,19 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
 
   const blurb = document.createElement("p");
   blurb.className = "edition-bar-blurb";
-  blurb.textContent = editionBlurbDatedCanon(active);
   const activeLang = EDITIONS[active]?.lang;
-  if (activeLang) blurb.lang = activeLang;
+  if (opts.showBlurb === false) {
+    blurb.setAttribute("aria-hidden", "true");
+  } else {
+    blurb.textContent = editionBlurbDatedCanon(active);
+    if (activeLang) blurb.lang = activeLang;
+  }
 
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "edition-name-btn";
   btn.setAttribute("aria-haspopup", "listbox");
-  if (activeLang) btn.lang = activeLang;
-  btn.textContent = editionName(active);
+  paintEditionControl(btn, active, { year: !!opts.dated, tag: false, native: false });
   btn.addEventListener("click", (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -532,8 +556,130 @@ function editionNameCluster(btn, extra) {
   return cluster;
 }
 
+function closeQumranMenu() {
+  document.querySelector(".qumran-menu")?.remove();
+  document.querySelectorAll(".qumran-ms-btn[aria-expanded='true']").forEach((btn) => {
+    btn.setAttribute("aria-expanded", "false");
+  });
+}
+
 function closeEditionMenu() {
+  closeQumranMenu();
   document.querySelector(".edition-menu")?.remove();
+}
+
+function mountQumranMs(bookId) {
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "qumran-ms-btn";
+  btn.setAttribute("aria-haspopup", "listbox");
+  btn.setAttribute("aria-expanded", "false");
+  btn.setAttribute("aria-label", "Manuscrit");
+  btn.textContent = "…";
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (btn.getAttribute("aria-expanded") === "true") {
+      closeQumranMenu();
+      return;
+    }
+    openQumranMenu(btn, bookId);
+  });
+  loadQumranCatalog().then((cat) => {
+    if (!btn.isConnected) return;
+    const list = qumranScrollsFor(bookId, cat);
+    const wanted = readQumranChoice(bookId);
+    const id = list.includes(wanted) ? wanted : list[0];
+    btn.textContent = id ? qumranSiglum(cat, id) : "—";
+    btn.dataset.scroll = id || "";
+  });
+  return btn;
+}
+
+function openQumranMenu(anchor, bookId) {
+  closeEditionMenu();
+  closeParallelsMenu();
+  closeVolumeMenu();
+  loadQumranCatalog().then((cat) => {
+    if (!anchor.isConnected) return;
+    const list = qumranScrollsFor(bookId, cat);
+    if (!list.length) return;
+    const wanted = readQumranChoice(bookId);
+    const current = list.includes(wanted) ? wanted : list[0];
+
+    const menu = document.createElement("ul");
+    menu.className = "qumran-menu";
+    menu.setAttribute("role", "listbox");
+    menu.setAttribute("aria-label", "Manuscrit");
+
+    for (const id of list) {
+      const li = document.createElement("li");
+      li.setAttribute("role", "option");
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.textContent = qumranSiglum(cat, id);
+      if (id === current) {
+        btn.classList.add("is-current");
+        btn.setAttribute("aria-current", "true");
+      }
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        closeQumranMenu();
+        if (id === current) return;
+        writeQumranChoice(bookId, id);
+        anchor.textContent = qumranSiglum(cat, id);
+        anchor.dataset.scroll = id;
+        document.dispatchEvent(
+          new CustomEvent("lsb:qumran", { detail: { bookId, scroll: id } })
+        );
+      });
+      li.append(btn);
+      menu.append(li);
+    }
+
+    const foot = document.createElement("li");
+    foot.className = "qumran-credit";
+    const license = document.createElement("a");
+    license.href = cat?.license || "https://creativecommons.org/licenses/by-nc/4.0/";
+    license.target = "_blank";
+    license.rel = "noopener noreferrer";
+    license.textContent = cat?.credit || "Martin Abegg, ETCBC, licence CC BY-NC 4.0";
+    const source = document.createElement("a");
+    source.href = cat?.source || "https://github.com/ETCBC/dss";
+    source.target = "_blank";
+    source.rel = "noopener noreferrer";
+    source.textContent = "ETCBC/dss";
+    foot.append(license, document.createTextNode(" · "), source);
+    menu.append(foot);
+
+    document.body.append(menu);
+    const currentBtn = menu.querySelector("button.is-current");
+    currentBtn?.scrollIntoView({ block: "nearest" });
+    const r = anchor.getBoundingClientRect();
+    const mw = menu.getBoundingClientRect().width;
+    let left = r.left + r.width / 2 - mw / 2;
+    left = Math.max(8, Math.min(left, window.innerWidth - mw - 8));
+    menu.style.left = `${left}px`;
+    menu.style.top = `${r.bottom + 4}px`;
+    anchor.setAttribute("aria-expanded", "true");
+
+    const onDoc = (e) => {
+      if (menu.contains(e.target) || anchor.contains(e.target)) return;
+      closeQumranMenu();
+      document.removeEventListener("pointerdown", onDoc, true);
+      document.removeEventListener("keydown", onKey);
+    };
+    const onKey = (e) => {
+      if (e.key !== "Escape") return;
+      closeQumranMenu();
+      document.removeEventListener("pointerdown", onDoc, true);
+      document.removeEventListener("keydown", onKey);
+      anchor.focus();
+    };
+    document.addEventListener("pointerdown", onDoc, true);
+    document.addEventListener("keydown", onKey);
+  });
 }
 
 function closeParallelsMenu() {
@@ -837,9 +983,7 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
     btn.type = "button";
     btn.className = "edition-name-btn";
     btn.setAttribute("aria-haspopup", "listbox");
-    const colLang = EDITIONS[item.id]?.lang;
-    if (colLang) btn.lang = colLang;
-    btn.textContent = item.label || editionDisplayName(item.id);
+    paintEditionControl(btn, item.id, { year: true, tag: false, native: false });
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
@@ -852,7 +996,8 @@ export function mountReaderChrome({ title, bookId, labels, available, peers } = 
       });
     });
     if (colIndex === labels.length - 1) wrap.classList.add("is-primary");
-    wrap.append(editionNameCluster(btn));
+    const ms = item.id === "qumran" && bookId ? mountQumranMs(bookId) : null;
+    wrap.append(editionNameCluster(btn, ms));
     if (colIndex === 0) {
       const add = mountAddColumn(pool, stack);
       if (add) wrap.append(add);

@@ -1,0 +1,8 @@
+Martin Abegg, ETCBC, licence CC BY-NC 4.0
+https://creativecommons.org/licenses/by-nc/4.0/
+https://github.com/ETCBC/dss
+
+Fragments bibliques seulement (ETCBC/dss, Text-Fabric 2.0.1).
+Un verset est présent seulement s'il est attesté dans le manuscrit,
+avec un chapitre et un verset entiers (numérotation massorétique).
+Les rouleaux non bibliques et les cotes sans livre biblique sont exclus.

@@ -1,0 +1,546 @@
+{
+  "version": {
+    "id": "karoli",
+    "label": "Károli 1908",
+    "name": "Károli 1908",
+    "blurb": "Károli 1908",
+    "year": 1908,
+    "lang": "hu",
+    "license": "Public domain",
+    "source": "https://getbible.net",
+    "abbreviation": "karoli",
+    "canon": "protestant",
+    "at": "Ószövetség",
+    "nt": "Újszövetség"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "Teremtés könyve",
+      "original_title": "Teremtés könyve",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "Kivonulás könyve",
+      "original_title": "Kivonulás könyve",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "Leviták könyve",
+      "original_title": "Leviták könyve",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "Számok könyve",
+      "original_title": "Számok könyve",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "Második törvénykönyv",
+      "original_title": "Második törvénykönyv",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "Józsué könyve",
+      "original_title": "Józsué könyve",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "Bírák könyve",
+      "original_title": "Bírák könyve",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ruth",
+      "title": "Ruth könyve",
+      "original_title": "Ruth könyve",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "1 Sámuel könyve",
+      "original_title": "1 Sámuel könyve",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "2 Sámuel könyve",
+      "original_title": "2 Sámuel könyve",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "1 Királyok könyve",
+      "original_title": "1 Királyok könyve",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "2 Királyok könyve",
+      "original_title": "2 Királyok könyve",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "1 Krónikák könyve",
+      "original_title": "1 Krónikák könyve",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "2 Krónikák könyve",
+      "original_title": "2 Krónikák könyve",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "Ezdrás könyve",
+      "original_title": "Ezdrás könyve",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "Nehémiás könyve",
+      "original_title": "Nehémiás könyve",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "Eszter könyve",
+      "original_title": "Eszter könyve",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "Jób könyve",
+      "original_title": "Jób könyve",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "psaumes",
+      "title": "Zsoltárok könyve",
+      "original_title": "Zsoltárok könyve",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "Példabeszédek könyve",
+      "original_title": "Példabeszédek könyve",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "Prédikátor könyve",
+      "original_title": "Prédikátor könyve",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "Énekek éneke",
+      "original_title": "Énekek éneke",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esaie",
+      "title": "Ézsaiás könyve",
+      "original_title": "Ézsaiás könyve",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "Jeremiás könyve",
+      "original_title": "Jeremiás könyve",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "lamentations",
+      "title": "Jeremiás siralmai",
+      "original_title": "Jeremiás siralmai",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "Ezékiel könyve",
+      "original_title": "Ezékiel könyve",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "daniel",
+      "title": "Dániel könyve",
+      "original_title": "Dániel könyve",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "osee",
+      "title": "Hóseás könyve",
+      "original_title": "Hóseás könyve",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "Joel könyve",
+      "original_title": "Joel könyve",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "Ámosz könyve",
+      "original_title": "Ámosz könyve",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "Obadiás könyve",
+      "original_title": "Obadiás könyve",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "Jónás könyve",
+      "original_title": "Jónás könyve",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "Miká könyve",
+      "original_title": "Miká könyve",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "Náhum könyve",
+      "original_title": "Náhum könyve",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "Habakuk könyve",
+      "original_title": "Habakuk könyve",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "Szofoniás könyve",
+      "original_title": "Szofoniás könyve",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "Aggeus könyve",
+      "original_title": "Aggeus könyve",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "Zakariás könyve",
+      "original_title": "Zakariás könyve",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "Malakiás könyve",
+      "original_title": "Malakiás könyve",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "matthieu",
+      "title": "Máté evangéliuma",
+      "original_title": "Máté evangéliuma",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "Márk evangéliuma",
+      "original_title": "Márk evangéliuma",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "Lukács evangéliuma",
+      "original_title": "Lukács evangéliuma",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "János evangéliuma",
+      "original_title": "János evangéliuma",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "actes",
+      "title": "Apostolok cselekedetei",
+      "original_title": "Apostolok cselekedetei",
+      "short": "Ac",
+      "testament": "nt",
+      "section": "actes"
+    },
+    {
+      "id": "romains",
+      "title": "Rómaiakhoz írt levél",
+      "original_title": "Rómaiakhoz írt levél",
+      "short": "Rm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-corinthiens",
+      "title": "1 Korinthusiakhoz írt levél",
+      "original_title": "1 Korinthusiakhoz írt levél",
+      "short": "1 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-corinthiens",
+      "title": "2 Korinthusiakhoz írt levél",
+      "original_title": "2 Korinthusiakhoz írt levél",
+      "short": "2 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "galates",
+      "title": "Galátákhoz írt levél",
+      "original_title": "Galátákhoz írt levél",
+      "short": "Ga",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "ephesiens",
+      "title": "Efézusiakhoz írt levél",
+      "original_title": "Efézusiakhoz írt levél",
+      "short": "Ép",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philippiens",
+      "title": "Filippiekhez írt levél",
+      "original_title": "Filippiekhez írt levél",
+      "short": "Ph",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "colossiens",
+      "title": "Kolosséiakhoz írt levél",
+      "original_title": "Kolosséiakhoz írt levél",
+      "short": "Col",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-thessaloniciens",
+      "title": "1 Tesszalonikaiakhoz írt levél",
+      "original_title": "1 Tesszalonikaiakhoz írt levél",
+      "short": "1 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-thessaloniciens",
+      "title": "2 Tesszalonikaiakhoz írt levél",
+      "original_title": "2 Tesszalonikaiakhoz írt levél",
+      "short": "2 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-timothee",
+      "title": "1 Timóteushoz írt levél",
+      "original_title": "1 Timóteushoz írt levél",
+      "short": "1 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-timothee",
+      "title": "2 Timóteushoz írt levél",
+      "original_title": "2 Timóteushoz írt levél",
+      "short": "2 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "tite",
+      "title": "Tituszhoz írt levél",
+      "original_title": "Tituszhoz írt levél",
+      "short": "Tt",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philemon",
+      "title": "Filemonhoz írt levél",
+      "original_title": "Filemonhoz írt levél",
+      "short": "Phm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "hebreux",
+      "title": "Zsidókhoz írt levél",
+      "original_title": "Zsidókhoz írt levél",
+      "short": "Hé",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jacques",
+      "title": "Jakab levele",
+      "original_title": "Jakab levele",
+      "short": "Jc",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-pierre",
+      "title": "1 Péter levele",
+      "original_title": "1 Péter levele",
+      "short": "1 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-pierre",
+      "title": "2 Péter levele",
+      "original_title": "2 Péter levele",
+      "short": "2 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-jean",
+      "title": "1 János levele",
+      "original_title": "1 János levele",
+      "short": "1 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-jean",
+      "title": "2 János levele",
+      "original_title": "2 János levele",
+      "short": "2 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "3-jean",
+      "title": "3 János levele",
+      "original_title": "3 János levele",
+      "short": "3 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jude",
+      "title": "Júdás levele",
+      "original_title": "Júdás levele",
+      "short": "Jude",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "apocalypse",
+      "title": "Jelenések könyve",
+      "original_title": "Jelenések könyve",
+      "short": "Ap",
+      "testament": "nt",
+      "section": "apocalypse"
+    }
+  ]
+}

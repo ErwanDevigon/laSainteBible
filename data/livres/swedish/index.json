@@ -1,0 +1,546 @@
+{
+  "version": {
+    "id": "swedish",
+    "label": "Svenska (1917)",
+    "name": "Svenska (1917)",
+    "blurb": "Svenska (1917)",
+    "year": 1917,
+    "lang": "sv",
+    "license": "Public domain",
+    "source": "https://getbible.net",
+    "abbreviation": "swedish",
+    "canon": "protestant",
+    "at": "Gamla testamentet",
+    "nt": "Nya testamentet"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "Första Moseboken",
+      "original_title": "Första Moseboken",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "Andra Moseboken",
+      "original_title": "Andra Moseboken",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "Tredje Moseboken",
+      "original_title": "Tredje Moseboken",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "Fjärde Moseboken",
+      "original_title": "Fjärde Moseboken",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "Femte Moseboken",
+      "original_title": "Femte Moseboken",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "Josua",
+      "original_title": "Josua",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "Domarboken",
+      "original_title": "Domarboken",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ruth",
+      "title": "Rut",
+      "original_title": "Rut",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "Första Samuelsboken",
+      "original_title": "Första Samuelsboken",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "Andra Samuelsboken",
+      "original_title": "Andra Samuelsboken",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "Första Kungaboken",
+      "original_title": "Första Kungaboken",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "Andra Kungaboken",
+      "original_title": "Andra Kungaboken",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "Första Krönikeboken",
+      "original_title": "Första Krönikeboken",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "Andra Krönikeboken",
+      "original_title": "Andra Krönikeboken",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "Esra",
+      "original_title": "Esra",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "Nehemja",
+      "original_title": "Nehemja",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "Ester",
+      "original_title": "Ester",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "Job",
+      "original_title": "Job",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "psaumes",
+      "title": "Psalmer",
+      "original_title": "Psalmer",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "Ordspråksboken",
+      "original_title": "Ordspråksboken",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "Predikaren",
+      "original_title": "Predikaren",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "Höga visan",
+      "original_title": "Höga visan",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esaie",
+      "title": "Jesaja",
+      "original_title": "Jesaja",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "Jeremia",
+      "original_title": "Jeremia",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "lamentations",
+      "title": "Klagovisorna",
+      "original_title": "Klagovisorna",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "Hesekiel",
+      "original_title": "Hesekiel",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "daniel",
+      "title": "Daniel",
+      "original_title": "Daniel",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "osee",
+      "title": "Hosea",
+      "original_title": "Hosea",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "Joel",
+      "original_title": "Joel",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "Amos",
+      "original_title": "Amos",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "Obadja",
+      "original_title": "Obadja",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "Jona",
+      "original_title": "Jona",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "Mika",
+      "original_title": "Mika",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "Nahum",
+      "original_title": "Nahum",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "Habackuk",
+      "original_title": "Habackuk",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "Sefanja",
+      "original_title": "Sefanja",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "Haggai",
+      "original_title": "Haggai",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "Sakarja",
+      "original_title": "Sakarja",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "Malaki",
+      "original_title": "Malaki",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "matthieu",
+      "title": "Matteus",
+      "original_title": "Matteus",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "Markus",
+      "original_title": "Markus",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "Lukas",
+      "original_title": "Lukas",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "Johannes",
+      "original_title": "Johannes",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "actes",
+      "title": "Apostlagärningarna",
+      "original_title": "Apostlagärningarna",
+      "short": "Ac",
+      "testament": "nt",
+      "section": "actes"
+    },
+    {
+      "id": "romains",
+      "title": "Romarbrevet",
+      "original_title": "Romarbrevet",
+      "short": "Rm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-corinthiens",
+      "title": "Första Korinthierbrevet",
+      "original_title": "Första Korinthierbrevet",
+      "short": "1 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-corinthiens",
+      "title": "Andra Korinthierbrevet",
+      "original_title": "Andra Korinthierbrevet",
+      "short": "2 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "galates",
+      "title": "Galaterbrevet",
+      "original_title": "Galaterbrevet",
+      "short": "Ga",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "ephesiens",
+      "title": "Efesierbrevet",
+      "original_title": "Efesierbrevet",
+      "short": "Ép",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philippiens",
+      "title": "Filipperbrevet",
+      "original_title": "Filipperbrevet",
+      "short": "Ph",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "colossiens",
+      "title": "Kolosserbrevet",
+      "original_title": "Kolosserbrevet",
+      "short": "Col",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-thessaloniciens",
+      "title": "Första Thessalonikerbrevet",
+      "original_title": "Första Thessalonikerbrevet",
+      "short": "1 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-thessaloniciens",
+      "title": "Andra Thessalonikerbrevet",
+      "original_title": "Andra Thessalonikerbrevet",
+      "short": "2 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-timothee",
+      "title": "Första Timoteosbrevet",
+      "original_title": "Första Timoteosbrevet",
+      "short": "1 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-timothee",
+      "title": "Andra Timoteosbrevet",
+      "original_title": "Andra Timoteosbrevet",
+      "short": "2 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "tite",
+      "title": "Titusbrevet",
+      "original_title": "Titusbrevet",
+      "short": "Tt",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philemon",
+      "title": "Filemonbrevet",
+      "original_title": "Filemonbrevet",
+      "short": "Phm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "hebreux",
+      "title": "Hebreerbrevet",
+      "original_title": "Hebreerbrevet",
+      "short": "Hé",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jacques",
+      "title": "Jakobsbrevet",
+      "original_title": "Jakobsbrevet",
+      "short": "Jc",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-pierre",
+      "title": "Första Petrusbrevet",
+      "original_title": "Första Petrusbrevet",
+      "short": "1 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-pierre",
+      "title": "Andra Petrusbrevet",
+      "original_title": "Andra Petrusbrevet",
+      "short": "2 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-jean",
+      "title": "Första Johannesbrevet",
+      "original_title": "Första Johannesbrevet",
+      "short": "1 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-jean",
+      "title": "Andra Johannesbrevet",
+      "original_title": "Andra Johannesbrevet",
+      "short": "2 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "3-jean",
+      "title": "Tredje Johannesbrevet",
+      "original_title": "Tredje Johannesbrevet",
+      "short": "3 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jude",
+      "title": "Judasbrevet",
+      "original_title": "Judasbrevet",
+      "short": "Jude",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "apocalypse",
+      "title": "Uppenbarelseboken",
+      "original_title": "Uppenbarelseboken",
+      "short": "Ap",
+      "testament": "nt",
+      "section": "apocalypse"
+    }
+  ]
+}

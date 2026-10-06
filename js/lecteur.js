@@ -75,13 +75,17 @@ async function init() {
     const books = {};
     if (guessedBook) books[guessed] = guessedBook;
     const present = available.slice();
+    let qumranGen = 0;
 
     async function ensureLoaded(ids) {
+      const gen = qumranGen;
       await Promise.all(
         ids
           .filter((id) => !books[id])
           .map(async (id) => {
-            books[id] = await tryLoadBook(bookId, id);
+            const book = await tryLoadBook(bookId, id);
+            if (id === "qumran" && gen !== qumranGen) return;
+            books[id] = book;
           })
       );
     }
@@ -115,7 +119,6 @@ async function init() {
     }
 
     let railApi = null;
-    document.body.classList.toggle("has-psalm-rail", bookId === "psaumes");
 
     function railOffset() {
       const headerEl = document.querySelector(".site-header");
@@ -253,7 +256,6 @@ async function init() {
         const nums = chapterNums(primaryBook);
         railApi = mountChapterRail({
           chapters: nums,
-          columns: bookId === "psaumes" ? 3 : 1,
           getTarget: (n) =>
             bodyEl._chapterWindow?.ensure(n) ||
             bodyEl.querySelector(`#c${n}`) ||
@@ -307,6 +309,12 @@ async function init() {
     await paint();
 
     document.addEventListener("lsb:editions", () => {
+      paint();
+    });
+    document.addEventListener("lsb:qumran", () => {
+      qumranGen += 1;
+      delete books.qumran;
+      columnsReady = false;
       paint();
     });
     document.addEventListener("lsb:parallels", () => {

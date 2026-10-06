@@ -1,0 +1,546 @@
+{
+  "version": {
+    "id": "rv1885",
+    "label": "English Revised Version",
+    "name": "English Revised Version",
+    "blurb": "English Revised Version",
+    "year": 1885,
+    "lang": "en",
+    "license": "Public domain",
+    "source": "https://ebible.org/find/details.php?id=eng-rv",
+    "abbreviation": "rv1885",
+    "canon": "protestant",
+    "at": "Old Testament",
+    "nt": "New Testament"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "GENESIS",
+      "original_title": "GENESIS",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "EXODUS",
+      "original_title": "EXODUS",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "LEVITICUS",
+      "original_title": "LEVITICUS",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "NUMBERS",
+      "original_title": "NUMBERS",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "DEUTERONOMY",
+      "original_title": "DEUTERONOMY",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "JOSHUA",
+      "original_title": "JOSHUA",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "JUDGES",
+      "original_title": "JUDGES",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ruth",
+      "title": "RUTH",
+      "original_title": "RUTH",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "1 SAMUEL",
+      "original_title": "1 SAMUEL",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "2 SAMUEL",
+      "original_title": "2 SAMUEL",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "1 KINGS",
+      "original_title": "1 KINGS",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "2 KINGS",
+      "original_title": "2 KINGS",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "1 CHRONICLES",
+      "original_title": "1 CHRONICLES",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "2 CHRONICLES",
+      "original_title": "2 CHRONICLES",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "EZRA",
+      "original_title": "EZRA",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "NEHEMIAH.",
+      "original_title": "NEHEMIAH.",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "ESTHER",
+      "original_title": "ESTHER",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "JOB",
+      "original_title": "JOB",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "psaumes",
+      "title": "PSALMS",
+      "original_title": "PSALMS",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "PROVERBS",
+      "original_title": "PROVERBS",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "ECCLESIASTES",
+      "original_title": "ECCLESIASTES",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "SONG OF SONGS",
+      "original_title": "SONG OF SONGS",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esaie",
+      "title": "ISAIAH",
+      "original_title": "ISAIAH",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "JEREMIAH",
+      "original_title": "JEREMIAH",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "lamentations",
+      "title": "LAMENTATIONS",
+      "original_title": "LAMENTATIONS",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "EZEKIEL",
+      "original_title": "EZEKIEL",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "daniel",
+      "title": "DANIEL",
+      "original_title": "DANIEL",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "osee",
+      "title": "HOSEA",
+      "original_title": "HOSEA",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "JOEL",
+      "original_title": "JOEL",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "AMOS",
+      "original_title": "AMOS",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "OBADIAH",
+      "original_title": "OBADIAH",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "JONAH",
+      "original_title": "JONAH",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "MICAH",
+      "original_title": "MICAH",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "NAHUM",
+      "original_title": "NAHUM",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "HABAKKUK",
+      "original_title": "HABAKKUK",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "ZEPHANIAH",
+      "original_title": "ZEPHANIAH",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "HAGGAI",
+      "original_title": "HAGGAI",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "ZECHARIAH",
+      "original_title": "ZECHARIAH",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "MALACHI",
+      "original_title": "MALACHI",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "matthieu",
+      "title": "MATTHEW",
+      "original_title": "MATTHEW",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "MARK",
+      "original_title": "MARK",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "LUKE",
+      "original_title": "LUKE",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "JOHN",
+      "original_title": "JOHN",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "actes",
+      "title": "ACTS",
+      "original_title": "ACTS",
+      "short": "Ac",
+      "testament": "nt",
+      "section": "actes"
+    },
+    {
+      "id": "romains",
+      "title": "ROMANS",
+      "original_title": "ROMANS",
+      "short": "Rm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-corinthiens",
+      "title": "1 CORINTHIANS",
+      "original_title": "1 CORINTHIANS",
+      "short": "1 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-corinthiens",
+      "title": "2 CORINTHIANS",
+      "original_title": "2 CORINTHIANS",
+      "short": "2 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "galates",
+      "title": "GALATIANS",
+      "original_title": "GALATIANS",
+      "short": "Ga",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "ephesiens",
+      "title": "EPHESIANS",
+      "original_title": "EPHESIANS",
+      "short": "Ép",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philippiens",
+      "title": "PHILIPPIANS",
+      "original_title": "PHILIPPIANS",
+      "short": "Ph",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "colossiens",
+      "title": "COLOSSIANS",
+      "original_title": "COLOSSIANS",
+      "short": "Col",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-thessaloniciens",
+      "title": "1 THESSALONIANS",
+      "original_title": "1 THESSALONIANS",
+      "short": "1 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-thessaloniciens",
+      "title": "2 THESSALONIANS",
+      "original_title": "2 THESSALONIANS",
+      "short": "2 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-timothee",
+      "title": "1 TIMOTHY",
+      "original_title": "1 TIMOTHY",
+      "short": "1 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-timothee",
+      "title": "2 TIMOTHY",
+      "original_title": "2 TIMOTHY",
+      "short": "2 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "tite",
+      "title": "TITUS",
+      "original_title": "TITUS",
+      "short": "Tt",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philemon",
+      "title": "PHILEMON",
+      "original_title": "PHILEMON",
+      "short": "Phm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "hebreux",
+      "title": "HEBREWS",
+      "original_title": "HEBREWS",
+      "short": "Hé",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jacques",
+      "title": "JAMES",
+      "original_title": "JAMES",
+      "short": "Jc",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-pierre",
+      "title": "1 PETER",
+      "original_title": "1 PETER",
+      "short": "1 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-pierre",
+      "title": "2 PETER",
+      "original_title": "2 PETER",
+      "short": "2 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-jean",
+      "title": "1 JOHN",
+      "original_title": "1 JOHN",
+      "short": "1 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-jean",
+      "title": "2 JOHN",
+      "original_title": "2 JOHN",
+      "short": "2 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "3-jean",
+      "title": "3 JOHN",
+      "original_title": "3 JOHN",
+      "short": "3 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jude",
+      "title": "JUDE",
+      "original_title": "JUDE",
+      "short": "Jude",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "apocalypse",
+      "title": "REVELATION",
+      "original_title": "REVELATION",
+      "short": "Ap",
+      "testament": "nt",
+      "section": "apocalypse"
+    }
+  ]
+}

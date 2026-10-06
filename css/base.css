@@ -249,6 +249,13 @@ body > .chapter-rail {
   font-weight: 500;
 }
 
+.brand:hover,
+.brand:hover strong,
+.brand:focus-visible,
+.brand:focus-visible strong {
+  color: var(--text);
+}
+
 .header-translation {
   margin: 0;
   max-width: 22rem;

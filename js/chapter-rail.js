@@ -6,7 +6,6 @@ import { glideToElement } from "./fade-nav.js";
  * @param {{
  *   chapterCount?: number,
  *   chapters?: number[],
- *   columns?: number,
  *   getTarget: (n: number) => Element|null,
  *   offset?: () => number,
  * }} opts
@@ -14,7 +13,6 @@ import { glideToElement } from "./fade-nav.js";
 export function mountChapterRail({
   chapterCount,
   chapters,
-  columns = 1,
   getTarget,
   getOffset = null,
   offset = () => 0,
@@ -29,12 +27,8 @@ export function mountChapterRail({
 
   const nav = document.createElement("nav");
   nav.className = "chapter-rail";
-  if (columns > 1) nav.classList.add("is-psalms");
   nav.setAttribute("aria-label", "Chapitres");
   nav.style.setProperty("--chapter-count", String(nums.length));
-  nav.style.setProperty("--rail-cols", String(columns));
-  const rows = Math.ceil(nums.length / Math.max(1, columns));
-  nav.style.setProperty("--psalm-rows", String(rows));
 
   /** @type {HTMLAnchorElement[]} */
   const links = [];
@@ -42,7 +36,10 @@ export function mountChapterRail({
   for (const n of nums) {
     const a = document.createElement("a");
     a.href = `#c${n}`;
-    a.textContent = String(n);
+    const num = document.createElement("span");
+    num.className = "chapter-rail-num";
+    num.textContent = String(n);
+    a.appendChild(num);
     a.dataset.chapter = String(n);
     a.setAttribute("aria-label", `Chapitre ${n}`);
     a.addEventListener("click", (e) => {
@@ -59,14 +56,27 @@ export function mountChapterRail({
 
   document.body.appendChild(nav);
 
+  function pinInRail(a) {
+    const viewTop = nav.scrollTop;
+    const viewBottom = viewTop + nav.clientHeight;
+    const top = a.offsetTop;
+    const bottom = top + a.offsetHeight;
+    if (top >= viewTop && bottom <= viewBottom) return;
+    const next = top - (nav.clientHeight - a.offsetHeight) / 2;
+    nav.scrollTop = Math.max(0, next);
+  }
+
   function setCurrent(n) {
+    let current = null;
     for (const a of links) {
       if (a.dataset.chapter === String(n)) {
         a.setAttribute("aria-current", "location");
+        current = a;
       } else {
         a.removeAttribute("aria-current");
       }
     }
+    if (current) pinInRail(current);
   }
 
   const targetEls = new Map();

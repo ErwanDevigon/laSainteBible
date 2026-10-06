@@ -1,0 +1,546 @@
+{
+  "version": {
+    "id": "synodal",
+    "label": "Синодальный перевод",
+    "name": "Синодальный перевод",
+    "blurb": "Синодальный перевод",
+    "year": 1876,
+    "lang": "ru",
+    "license": "Public domain",
+    "source": "https://ebible.org/find/details.php?id=russyn",
+    "abbreviation": "synodal",
+    "canon": "orthodox",
+    "at": "Ветхий Завет",
+    "nt": "Новый Завет"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "Бытие",
+      "original_title": "Бытие",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "Исход",
+      "original_title": "Исход",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "Левит",
+      "original_title": "Левит",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "Числа",
+      "original_title": "Числа",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "Второзаконие",
+      "original_title": "Второзаконие",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "Книга Иисуса Навина",
+      "original_title": "Книга Иисуса Навина",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "Книга Судей Израилевых",
+      "original_title": "Книга Судей Израилевых",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ruth",
+      "title": "Книга Руфь",
+      "original_title": "Книга Руфь",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "Первая книга Царств",
+      "original_title": "Первая книга Царств",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "Вторая книга Царств",
+      "original_title": "Вторая книга Царств",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "Третья книга Царств",
+      "original_title": "Третья книга Царств",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "Четвертая книга Царств",
+      "original_title": "Четвертая книга Царств",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "Первая книга Паралипоменон",
+      "original_title": "Первая книга Паралипоменон",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "Вторая книга Паралипоменон",
+      "original_title": "Вторая книга Паралипоменон",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "Книга Ездры",
+      "original_title": "Книга Ездры",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "Неемия",
+      "original_title": "Неемия",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "Книга Есфирь",
+      "original_title": "Книга Есфирь",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "Книга Иова",
+      "original_title": "Книга Иова",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "psaumes",
+      "title": "Псалтырь",
+      "original_title": "Псалтырь",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "Притчи Соломона",
+      "original_title": "Притчи Соломона",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "Книга Екклесиаста",
+      "original_title": "Книга Екклесиаста",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "Песни Песней",
+      "original_title": "Песни Песней",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esaie",
+      "title": "Книга пророка Исаии",
+      "original_title": "Книга пророка Исаии",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "Книга пророка Иеремии",
+      "original_title": "Книга пророка Иеремии",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "lamentations",
+      "title": "Плач Иеремии",
+      "original_title": "Плач Иеремии",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "Книга пророка Иезекииля",
+      "original_title": "Книга пророка Иезекииля",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "daniel",
+      "title": "Книга пророка Даниила",
+      "original_title": "Книга пророка Даниила",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "osee",
+      "title": "Книга пророка Осии",
+      "original_title": "Книга пророка Осии",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "Книга пророка Иоиля",
+      "original_title": "Книга пророка Иоиля",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "Книга пророка Амоса",
+      "original_title": "Книга пророка Амоса",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "Книга пророка Авдия",
+      "original_title": "Книга пророка Авдия",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "Книга пророка Ионы",
+      "original_title": "Книга пророка Ионы",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "Книга пророка Михея",
+      "original_title": "Книга пророка Михея",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "Книга пророка Наума",
+      "original_title": "Книга пророка Наума",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "Книга пророка Аввакума",
+      "original_title": "Книга пророка Аввакума",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "Книга пророка Софонии",
+      "original_title": "Книга пророка Софонии",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "Книга пророка Аггея",
+      "original_title": "Книга пророка Аггея",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "Книга пророка Захарии",
+      "original_title": "Книга пророка Захарии",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "Книга пророка Малахии",
+      "original_title": "Книга пророка Малахии",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "matthieu",
+      "title": "Евангелие от Матфея",
+      "original_title": "Евангелие от Матфея",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "Евангелие от Марка",
+      "original_title": "Евангелие от Марка",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "Евангелие от Луки",
+      "original_title": "Евангелие от Луки",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "Евангелие от Иоанна",
+      "original_title": "Евангелие от Иоанна",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "actes",
+      "title": "Деяния",
+      "original_title": "Деяния",
+      "short": "Ac",
+      "testament": "nt",
+      "section": "actes"
+    },
+    {
+      "id": "romains",
+      "title": "Послание к Римлянам",
+      "original_title": "Послание к Римлянам",
+      "short": "Rm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-corinthiens",
+      "title": "Первое послание к Коринфянам",
+      "original_title": "Первое послание к Коринфянам",
+      "short": "1 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-corinthiens",
+      "title": "Второе послание к Коринфянам",
+      "original_title": "Второе послание к Коринфянам",
+      "short": "2 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "galates",
+      "title": "Послание к Галатам",
+      "original_title": "Послание к Галатам",
+      "short": "Ga",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "ephesiens",
+      "title": "Послание к Ефесянам",
+      "original_title": "Послание к Ефесянам",
+      "short": "Ép",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philippiens",
+      "title": "Послание к Филлиппийцам",
+      "original_title": "Послание к Филлиппийцам",
+      "short": "Ph",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "colossiens",
+      "title": "Послание к Колоссянам",
+      "original_title": "Послание к Колоссянам",
+      "short": "Col",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-thessaloniciens",
+      "title": "Первое послание к Фессалоникийцам",
+      "original_title": "Первое послание к Фессалоникийцам",
+      "short": "1 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-thessaloniciens",
+      "title": "Второе послание к Фессалоникийцам",
+      "original_title": "Второе послание к Фессалоникийцам",
+      "short": "2 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-timothee",
+      "title": "Первое послание к Тимофею",
+      "original_title": "Первое послание к Тимофею",
+      "short": "1 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-timothee",
+      "title": "Второе послание к Тимофею",
+      "original_title": "Второе послание к Тимофею",
+      "short": "2 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "tite",
+      "title": "Послание к Титу",
+      "original_title": "Послание к Титу",
+      "short": "Tt",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philemon",
+      "title": "Послание к Филимону",
+      "original_title": "Послание к Филимону",
+      "short": "Phm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "hebreux",
+      "title": "Послание к Евреям",
+      "original_title": "Послание к Евреям",
+      "short": "Hé",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jacques",
+      "title": "Послание Иакова",
+      "original_title": "Послание Иакова",
+      "short": "Jc",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-pierre",
+      "title": "Первое послание Петра",
+      "original_title": "Первое послание Петра",
+      "short": "1 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-pierre",
+      "title": "Второе послание Петра",
+      "original_title": "Второе послание Петра",
+      "short": "2 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-jean",
+      "title": "Первое послание Иоанна",
+      "original_title": "Первое послание Иоанна",
+      "short": "1 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-jean",
+      "title": "Второе послание Иоанна",
+      "original_title": "Второе послание Иоанна",
+      "short": "2 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "3-jean",
+      "title": "Третье послание Иоанна",
+      "original_title": "Третье послание Иоанна",
+      "short": "3 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jude",
+      "title": "Послание Иуды",
+      "original_title": "Послание Иуды",
+      "short": "Jude",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "apocalypse",
+      "title": "Откровение Иоанна Богослова",
+      "original_title": "Откровение Иоанна Богослова",
+      "short": "Ap",
+      "testament": "nt",
+      "section": "apocalypse"
+    }
+  ]
+}

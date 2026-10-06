@@ -11,6 +11,8 @@ import {
 const cache = new Map();
 const indexCache = new Map();
 let coveragePromise = null;
+let qumranCatalogPromise = null;
+const QUMRAN_MS_KEY = "lsb-qumran-ms";
 /** Prefix that already returned JSON. Skips the second URL after the first hit. */
 let urlBase = null;
 
@@ -61,7 +63,68 @@ function cacheKey(id, edition) {
   return `${edition || DEFAULT_EDITION}:${id}`;
 }
 
+export function readQumranChoice(bookId) {
+  try {
+    const all = JSON.parse(localStorage.getItem(QUMRAN_MS_KEY) || "{}");
+    const id = all?.[bookId];
+    return typeof id === "string" ? id : "";
+  } catch {
+    return "";
+  }
+}
+
+export function writeQumranChoice(bookId, scrollId) {
+  let all = {};
+  try {
+    all = JSON.parse(localStorage.getItem(QUMRAN_MS_KEY) || "{}") || {};
+  } catch {
+    all = {};
+  }
+  if (scrollId) all[bookId] = scrollId;
+  else delete all[bookId];
+  localStorage.setItem(QUMRAN_MS_KEY, JSON.stringify(all));
+  for (const key of [...cache.keys()]) {
+    if (key.startsWith("qumran:") && key.endsWith(`:${bookId}`)) cache.delete(key);
+  }
+}
+
+export function loadQumranCatalog() {
+  if (!qumranCatalogPromise) {
+    qumranCatalogPromise = (async () => {
+      const hit = await fetchJson("data/livres/qumran/catalog.json");
+      return hit.ok ? hit.data : null;
+    })();
+  }
+  return qumranCatalogPromise;
+}
+
+export function qumranScrollsFor(bookId, catalog) {
+  const list = catalog?.byBook?.[bookId];
+  return Array.isArray(list) ? list.filter(Boolean) : [];
+}
+
+export function qumranSiglum(catalog, scrollId) {
+  return catalog?.manuscripts?.[scrollId]?.siglum || scrollId;
+}
+
+async function loadQumranBook(id) {
+  const catalog = await loadQumranCatalog();
+  const list = qumranScrollsFor(id, catalog);
+  if (!list.length) throw new Error(`Livre introuvable: ${id} (qumran)`);
+  const wanted = readQumranChoice(id);
+  const scroll = list.includes(wanted) ? wanted : list[0];
+  const key = `qumran:${scroll}:${id}`;
+  if (cache.has(key)) return cache.get(key);
+  const hit = await fetchJson(`data/livres/qumran/mss/${scroll}/${id}.json`);
+  if (!hit.ok) {
+    throw new Error(`Livre introuvable: ${id} (qumran/${scroll}, ${hit.status})`);
+  }
+  cache.set(key, hit.data);
+  return hit.data;
+}
+
 export async function loadBook(id, edition = DEFAULT_EDITION) {
+  if ((edition || DEFAULT_EDITION) === "qumran") return loadQumranBook(id);
   const key = cacheKey(id, edition);
   if (cache.has(key)) return cache.get(key);
 

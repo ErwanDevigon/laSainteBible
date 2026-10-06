@@ -6,7 +6,7 @@
 function applyLang(el, lang) {
   if (!lang) return;
   el.lang = lang;
-  if (lang === "he") el.dir = "rtl";
+  if (lang === "he" || lang === "ar") el.dir = "rtl";
 }
 
 function verseRow(chapterN, verse, { highlight = false, idPrefix = "", col = null, withId = true, lang = "" } = {}) {
@@ -384,7 +384,9 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
       /* keep fallback */
     }
     let heChars = latin.chars;
-    if (live.editions.some((ed) => ed.book?.version?.lang === "he")) {
+    let arChars = latin.chars;
+    const langs = new Set(live.editions.map((ed) => ed.book?.version?.lang));
+    if (langs.has("he")) {
       try {
         const got = probeLine(
           "אבגדהוזחטיכלמנסעפצקרשתאבגדהוזחטיכלמנסעפצקרשת",
@@ -397,10 +399,24 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
         /* keep fallback */
       }
     }
+    if (langs.has("ar")) {
+      try {
+        const got = probeLine(
+          "ابتثجحخدذرزسشصضطظعغفقكلمنهويابتثجحخدذرزسشصضطظعغفقكلمنهوي",
+          "ar",
+          width
+        );
+        arChars = got.chars;
+        latin.lineH = Math.max(latin.lineH, got.lineH);
+      } catch {
+        /* keep fallback */
+      }
+    }
     state.probe = {
       lineH: latin.lineH || 28,
       chars: latin.chars || 42,
       heChars: heChars || 42,
+      arChars: arChars || 42,
       head: 64,
       versePad: 10,
       bandGap: 16,
@@ -419,7 +435,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
       vSets.forEach((vm, i) => {
         const t = vm.get(vn)?.t || "";
         const lang = live.editions[i]?.book?.version?.lang;
-        const c = lang === "he" ? p.heChars : p.chars;
+        const c = lang === "he" ? p.heChars : lang === "ar" ? p.arChars : p.chars;
         rowLines = Math.max(rowLines, Math.ceil(t.length / Math.max(1, c)) || 1);
       });
       lines += rowLines;

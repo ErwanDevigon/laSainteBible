@@ -853,6 +853,10 @@ def write_books_js() -> None:
         k: {kk: vv for kk, vv in v.items() if kk not in ("file", "builder")}
         for k, v in VERSIONS.items()
     }
+    extra_path = ROOT / "data" / "versions-extra.json"
+    if extra_path.is_file():
+        for key, meta in json.loads(extra_path.read_text(encoding="utf-8")).items():
+            versions_js.setdefault(key, meta)
     books_js = []
     fr = DIDACTIC["fr"]
     for b in BOOKS:

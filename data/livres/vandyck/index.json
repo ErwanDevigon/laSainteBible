@@ -1,0 +1,546 @@
+{
+  "version": {
+    "id": "vandyck",
+    "label": "فان دايك",
+    "name": "فان دايك",
+    "blurb": "فان دايك",
+    "year": 1865,
+    "lang": "ar",
+    "license": "Public domain",
+    "source": "https://ebible.org/find/details.php?id=arb-vd",
+    "abbreviation": "vandyck",
+    "canon": "protestant",
+    "at": "العهد القديم",
+    "nt": "العهد الجديد"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "اَلتَّكْوِينُ",
+      "original_title": "اَلتَّكْوِينُ",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "اَلْخُرُوجُ",
+      "original_title": "اَلْخُرُوجُ",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "اَللَّاوِيِّينَ",
+      "original_title": "اَللَّاوِيِّينَ",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "اَلْعَدَد",
+      "original_title": "اَلْعَدَد",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "اَلتَّثْنِيَة",
+      "original_title": "اَلتَّثْنِيَة",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "يَشُوع",
+      "original_title": "يَشُوع",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "اَلْقُضَاة",
+      "original_title": "اَلْقُضَاة",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ruth",
+      "title": "رَاعُوث",
+      "original_title": "رَاعُوث",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "صَمُوئِيلَ ٱلْأَوَّلُ",
+      "original_title": "صَمُوئِيلَ ٱلْأَوَّلُ",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "صَمُوئِيلَ ٱلثَّانِي",
+      "original_title": "صَمُوئِيلَ ٱلثَّانِي",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "اَلْمُلُوكِ ٱلْأَوَّلُ",
+      "original_title": "اَلْمُلُوكِ ٱلْأَوَّلُ",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "اَلْمُلُوكِ ٱلثَّانِي",
+      "original_title": "اَلْمُلُوكِ ٱلثَّانِي",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "أَخْبَارِ ٱلْأَيَّامِ ٱلْأَوَّلُ",
+      "original_title": "أَخْبَارِ ٱلْأَيَّامِ ٱلْأَوَّلُ",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "أَخْبَارِ ٱلْأَيَّامِ ٱلثَّانِي",
+      "original_title": "أَخْبَارِ ٱلْأَيَّامِ ٱلثَّانِي",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "عَزْرَا",
+      "original_title": "عَزْرَا",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "نَحَمْيَا",
+      "original_title": "نَحَمْيَا",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "أَسْتِير",
+      "original_title": "أَسْتِير",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "أَيُّوبَ",
+      "original_title": "أَيُّوبَ",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "psaumes",
+      "title": "اَلْمَزَامِيرُ",
+      "original_title": "اَلْمَزَامِيرُ",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "أَمْثَالٌ",
+      "original_title": "أَمْثَالٌ",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "اَلْجَامِعَةِ",
+      "original_title": "اَلْجَامِعَةِ",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "نَشِيدُ ٱلْأَنْشَادِ",
+      "original_title": "نَشِيدُ ٱلْأَنْشَادِ",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esaie",
+      "title": "إِشَعْيَاءَ",
+      "original_title": "إِشَعْيَاءَ",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "إِرْمِيَا",
+      "original_title": "إِرْمِيَا",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "lamentations",
+      "title": "مَرَاثِي إِرْمِيَا",
+      "original_title": "مَرَاثِي إِرْمِيَا",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "حِزْقِيَال",
+      "original_title": "حِزْقِيَال",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "daniel",
+      "title": "دَانِيآل",
+      "original_title": "دَانِيآل",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "osee",
+      "title": "هُوشَع",
+      "original_title": "هُوشَع",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "يُوئِيل",
+      "original_title": "يُوئِيل",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "عَامُوس",
+      "original_title": "عَامُوس",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "عُوبَدْيَا",
+      "original_title": "عُوبَدْيَا",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "يُونَان",
+      "original_title": "يُونَان",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "مِيخَا",
+      "original_title": "مِيخَا",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "نَاحُوم",
+      "original_title": "نَاحُوم",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "حَبَقُّوق",
+      "original_title": "حَبَقُّوق",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "صَفَنْيَا",
+      "original_title": "صَفَنْيَا",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "حَجَّي",
+      "original_title": "حَجَّي",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "زَكَريَّا",
+      "original_title": "زَكَريَّا",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "مَلَاخِي",
+      "original_title": "مَلَاخِي",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "matthieu",
+      "title": "إِنْجِيلُ مَتَّى",
+      "original_title": "إِنْجِيلُ مَتَّى",
+      "short": "Mt",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "marc",
+      "title": "إِنْجِيلُ مَرْقُسَ",
+      "original_title": "إِنْجِيلُ مَرْقُسَ",
+      "short": "Mc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "luc",
+      "title": "إِنْجِيلُ لُوقَا",
+      "original_title": "إِنْجِيلُ لُوقَا",
+      "short": "Lc",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "jean",
+      "title": "إِنْجِيلُ يُوحَنَّا",
+      "original_title": "إِنْجِيلُ يُوحَنَّا",
+      "short": "Jn",
+      "testament": "nt",
+      "section": "evangiles"
+    },
+    {
+      "id": "actes",
+      "title": "أَعْمَالُ ٱلرُّسُلِ",
+      "original_title": "أَعْمَالُ ٱلرُّسُلِ",
+      "short": "Ac",
+      "testament": "nt",
+      "section": "actes"
+    },
+    {
+      "id": "romains",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ رُومِيَةَ",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ رُومِيَةَ",
+      "short": "Rm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-corinthiens",
+      "title": "١ كورنثوس",
+      "original_title": "١ كورنثوس",
+      "short": "1 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-corinthiens",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى أَهْلِ كُورِنْثُوسَ",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى أَهْلِ كُورِنْثُوسَ",
+      "short": "2 Co",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "galates",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ غَلَاطِيَّةَ",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ غَلَاطِيَّةَ",
+      "short": "Ga",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "ephesiens",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ أَفَسُسَ",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ أَفَسُسَ",
+      "short": "Ép",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philippiens",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ فِيلِبِّي",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ فِيلِبِّي",
+      "short": "Ph",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "colossiens",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ كُولُوسِّي",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى أَهْلِ كُولُوسِّي",
+      "short": "Col",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-thessaloniciens",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلأُولَى إِلَى أَهْلِ تَسَالُونِيكِي",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلأُولَى إِلَى أَهْلِ تَسَالُونِيكِي",
+      "short": "1 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-thessaloniciens",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى أَهْلِ تَسَالُونِيكِي",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى أَهْلِ تَسَالُونِيكِي",
+      "short": "2 Th",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-timothee",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلْأُولَى إِلَى تِيمُوثَاوُسَ",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلْأُولَى إِلَى تِيمُوثَاوُسَ",
+      "short": "1 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-timothee",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى تِيمُوثَاوُسَ",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ ٱلثَّانِيةُ إِلَى تِيمُوثَاوُسَ",
+      "short": "2 Tm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "tite",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى تِيطُسَ",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى تِيطُسَ",
+      "short": "Tt",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "philemon",
+      "title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى فِلِيمُونَ",
+      "original_title": "رِسَالَةُ بُولُسَ ٱلرَّسُولِ إِلَى فِلِيمُونَ",
+      "short": "Phm",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "hebreux",
+      "title": "اَلرِّسَالَةُ إِلَى ٱلْعِبْرَانِيِّينَ",
+      "original_title": "اَلرِّسَالَةُ إِلَى ٱلْعِبْرَانِيِّينَ",
+      "short": "Hé",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jacques",
+      "title": "رِسَالَةُ يَعْقُوبَ",
+      "original_title": "رِسَالَةُ يَعْقُوبَ",
+      "short": "Jc",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-pierre",
+      "title": "رِسَالَةُ بُطْرُسَ ٱلرَّسُولِ ٱلْأُولَى",
+      "original_title": "رِسَالَةُ بُطْرُسَ ٱلرَّسُولِ ٱلْأُولَى",
+      "short": "1 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-pierre",
+      "title": "رِسَالَةُ بُطْرُسَ ٱلرَّسُولِ ٱلثَّانِيَةُ",
+      "original_title": "رِسَالَةُ بُطْرُسَ ٱلرَّسُولِ ٱلثَّانِيَةُ",
+      "short": "2 P",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "1-jean",
+      "title": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلْأُولَى",
+      "original_title": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلْأُولَى",
+      "short": "1 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "2-jean",
+      "title": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلثَّانِيَةُ",
+      "original_title": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلثَّانِيَةُ",
+      "short": "2 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "3-jean",
+      "title": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلثَّالِثَةُ",
+      "original_title": "رِسَالَةُ يُوحَنَّا ٱلرَّسُولِ ٱلثَّالِثَةُ",
+      "short": "3 Jn",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "jude",
+      "title": "رِسَالَةُ يَهُوذَا",
+      "original_title": "رِسَالَةُ يَهُوذَا",
+      "short": "Jude",
+      "testament": "nt",
+      "section": "epitres"
+    },
+    {
+      "id": "apocalypse",
+      "title": "رُؤْيَا يُوحَنَّا ٱللَّاهُوتِيِّ",
+      "original_title": "رُؤْيَا يُوحَنَّا ٱللَّاهُوتِيِّ",
+      "short": "Ap",
+      "testament": "nt",
+      "section": "apocalypse"
+    }
+  ]
+}
