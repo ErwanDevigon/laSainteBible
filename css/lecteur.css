@@ -571,7 +571,8 @@ body.lecteur-page[data-book] > .site-header {
 .edition-menu,
 .parallels-menu,
 .volume-menu,
-.qumran-menu {
+.qumran-menu,
+.ui-lang-menu {
   position: fixed;
   z-index: 60;
   margin: 0;
@@ -586,7 +587,8 @@ body.lecteur-page[data-book] > .site-header {
 }
 
 .edition-menu button,
-.parallels-menu button {
+.parallels-menu button,
+.ui-lang-menu button {
   display: block;
   width: 100%;
   padding: 0.4rem 0.9rem;
@@ -594,6 +596,57 @@ body.lecteur-page[data-book] > .site-header {
   font-size: 0.68rem;
   color: var(--text-soft);
   white-space: nowrap;
+}
+
+.ui-lang-menu {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.ui-lang-caption {
+  padding: 0.28rem 0.9rem 0.15rem;
+  font-family: var(--font-ui);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.ui-lang-menu button {
+  text-transform: none;
+  font-size: 0.78rem;
+}
+
+.ui-lang-menu button.is-current,
+.ui-lang-menu button.is-current:hover,
+.ui-lang-menu button.is-current:focus-visible {
+  color: var(--accent);
+}
+
+.edition-menu {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.edition-lang-caption {
+  padding: 0.45rem 0.9rem 0.1rem;
+  font-family: var(--font-ui);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.edition-menu button.edition-menu-others {
+  color: var(--accent);
+  border-top: 1px solid var(--border);
+  margin-top: 0.2rem;
+}
+
+.edition-menu button.is-current,
+.edition-menu button.is-current:hover,
+.edition-menu button.is-current:focus-visible {
+  color: var(--accent);
 }
 
 .edition-menu button {
@@ -676,6 +729,8 @@ body.lecteur-page[data-book] > .site-header {
 .parallels-menu button:focus-visible,
 .qumran-menu button:hover,
 .qumran-menu button:focus-visible,
+.ui-lang-menu button:hover,
+.ui-lang-menu button:focus-visible,
 .volume-menu a:hover,
 .volume-menu a:focus-visible {
   color: var(--text);

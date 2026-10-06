@@ -4,6 +4,7 @@ import { fetchJson, loadVersionIndex, tryLoadBook, malachiUsesChapter4 } from ".
 import { MaskDilatation } from "./expand.js";
 import { BOOK_BY_ID, bookHref } from "./books.js";
 import { displayBookTitle, parallelKindEnabled } from "./editions.js";
+import { bookAbbr, bookTitle, t, versePhrase } from "./i18n.js";
 
 const NT_URL = "data/parallels-nt.json?v=2";
 const AT_URL = "data/citations-at.json?v=2";
@@ -359,14 +360,14 @@ function citeOf(span) {
 
 function formatPassages(passages) {
   return passages
-    .map((p) => `${p.short} ${p.cites.join(" ; ")}`)
+    .map((p) => `${bookAbbr(p.book, p.short)} ${p.cites.join(" ; ")}`)
     .join(" | ");
 }
 
 function stampSuffix(kind) {
-  if (kind === "synopse") return "(synopte)";
-  if (kind === "accomplissement") return "(accomplissement)";
-  return "(suggestion de lecture vétérotestamentaire)";
+  if (kind === "synopse") return `(${t("kindSyn")})`;
+  if (kind === "accomplissement") return `(${t("kindAc")})`;
+  return `(${t("kindVt")})`;
 }
 
 function stampText(item, bookId, chapter, verse, occupied = [], includeSelf = false) {
@@ -454,14 +455,7 @@ function psalmName(title) {
   return "Psaume";
 }
 
-function chapLabel(title) {
-  if (hebrewTitle(title)) return "פרק";
-  if (greekTitle(title)) return "κεφ.";
-  if (latinTitle(title)) return "Cap.";
-  return "Chap.";
-}
-
-function verseBits(ranges, hebrew = false) {
+function verseBits(ranges) {
   if (!ranges || !ranges.length) return "";
   const parts = [];
   let allSingle = true;
@@ -470,28 +464,21 @@ function verseBits(ranges, hebrew = false) {
     const b = r.end;
     if (b == null || b >= 9000) {
       allSingle = false;
-      parts.push(hebrew ? `${a} ואילך` : `${a} et suivants`);
+      parts.push(versePhrase("open", { n: a }));
     } else if (a === b) {
       parts.push(String(a));
     } else {
       allSingle = false;
-      parts.push(hebrew ? `${a}–${b}` : `${a} à ${b}`);
+      parts.push(versePhrase("span", { a, b }));
     }
-  }
-  if (hebrew) {
-    if (allSingle) {
-      if (parts.length === 1) return `פסוק ${parts[0]}`;
-      return `פסוקים ${parts.join(", ")}`;
-    }
-    return `פסוקים ${parts.join(", ")}`;
   }
   if (allSingle) {
-    if (parts.length === 1) return `verset ${parts[0]}`;
-    if (parts.length === 2) return `verset ${parts[0]} et ${parts[1]}`;
+    if (parts.length === 1) return versePhrase("one", { n: parts[0] });
+    if (parts.length === 2) return versePhrase("two", { a: parts[0], b: parts[1] });
     const last = parts.pop();
-    return `versets ${parts.join(", ")} et ${last}`;
+    return versePhrase("many", { list: parts.join(", "), last });
   }
-  return `versets ${parts.join(", ")}`;
+  return versePhrase("mixed", { list: parts.join(", ") });
 }
 
 function headingFor(bookId, span) {
@@ -500,20 +487,19 @@ function headingFor(bookId, span) {
     fromIndex || BOOK_BY_ID[bookId]?.title || bookId
   );
   const ch = span.chapter;
-  const verses = verseBits(span.ranges, hebrewTitle(title));
+  const verses = verseBits(span.ranges);
+  const ui = bookTitle(bookId);
   if (bookId === "psaumes" || bookId === "psaume-151") {
-    const name = psalmName(title);
+    const name = ui || t("psalm");
     return verses ? `${name} ${ch}, ${verses}` : `${name} ${ch}`;
   }
-  const shortTitle = stripGospelPrefix(title);
-  const chap = chapLabel(title);
-  return verses
-    ? `${shortTitle}. ${chap} ${ch}, ${verses}`
-    : `${shortTitle}. ${chap} ${ch}`;
+  const shortTitle = ui || stripGospelPrefix(title);
+  const chap = versePhrase("chap", { n: ch });
+  return verses ? `${shortTitle}. ${chap}, ${verses}` : `${shortTitle}. ${chap}`;
 }
 
 function memoLabel(bookId, span) {
-  const short = BOOK_BY_ID[bookId]?.short;
+  const short = bookAbbr(bookId, BOOK_BY_ID[bookId]?.short);
   const ch = span.chapter;
   if (short) return `${short} ${ch}`;
   const fromIndex = indexCache?.books?.find((b) => b.id === bookId)?.title;
@@ -1162,7 +1148,22 @@ class ParallelHost {
   syncRails() {
     this._anchorRight = null;
     const occupied = this.occupied();
-    const hits = assignLanes(this.hits().filter((h) => this.spanShown(h.span)));
+    // Only hits that will actually draw a stroke take a lane. A ghost
+    // hit (no passage left) used to reserve a lane and shove the real
+    // strokes, and the frames after them, further right.
+    const hits = assignLanes(
+      this.hits().filter((h) => {
+        if (!this.spanShown(h.span)) return false;
+        return othersOf(
+          h.item,
+          this.bookId,
+          this.chapter,
+          h.min,
+          occupied,
+          this.includeSelfFor(h.item)
+        ).length > 0;
+      })
+    );
     const existing = [...this.root.querySelectorAll(":scope > .parallel-rail")];
     const byKey = new Map(
       existing.map((r) => [r.dataset.hitKey || this.hitKey(r._item, r._span), r])
@@ -1223,17 +1224,21 @@ class ParallelHost {
 
   syncPush() {
     if (this.depth === 0) return;
-    const box = this.root.querySelector(":scope > .parallel-cards");
-    const open = box?.classList.contains("is-open");
     const raw = this.root.style.getPropertyValue("--rail-span");
     const railSpan = parseFloat(raw);
     let push = Number.isFinite(railSpan) ? railSpan : 0;
-    if (open && box) {
+    const box = this.root.querySelector(":scope > .parallel-cards.is-open");
+    if (box) {
       this.root.classList.add("has-nested");
-      push = Math.max(
-        push,
-        box.getBoundingClientRect().right - this.root.getBoundingClientRect().right
-      );
+      const rootR = this.root.getBoundingClientRect().right;
+      // The open row's border box stops at the cards. Their own strokes
+      // stick out past that edge and must push the next sibling too.
+      let edge = box.getBoundingClientRect().right;
+      box.querySelectorAll(":scope > .parallel-card").forEach((card) => {
+        const span = parseFloat(card.style.getPropertyValue("--rail-span")) || 0;
+        edge = Math.max(edge, card.getBoundingClientRect().right + span);
+      });
+      push = Math.max(push, edge - rootR);
     } else {
       this.root.classList.remove("has-nested");
     }
@@ -1344,6 +1349,18 @@ function bindGlobal() {
     const stamp = document.querySelector(".parallel-stamp");
     if (stamp) stamp.hidden = true;
     rail._open?.();
+  });
+
+  document.addEventListener("lsb:ui-lang", () => {
+    document.querySelectorAll(".parallel-card").forEach((card) => {
+      const bookId = card.dataset.bookId;
+      const span = card._span;
+      if (!bookId || !span) return;
+      const head = card.querySelector(":scope > .parallel-card-head");
+      const memo = card.querySelector(":scope > .parallel-memo");
+      if (head) head.textContent = headingFor(bookId, span);
+      if (memo) memo.textContent = memoLabel(bookId, span);
+    });
   });
 
   window.addEventListener("scroll", scheduleMemos, { passive: true });

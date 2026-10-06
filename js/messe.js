@@ -8,6 +8,7 @@ import {
 } from "./editions.js";
 import { listVersionIds } from "./data-loader.js";
 import { bookHref } from "./books.js";
+import { t } from "./i18n.js";
 import {
   formatFullRef,
   attachExcerptParallels,
@@ -23,12 +24,12 @@ function el(tag, className, text) {
 
 function typeLabel(type, fallback) {
   const map = {
-    evangile: "Évangile",
-    psaume: "Psaume",
-    premiere: "Première lecture",
-    lecture: "Lecture",
+    evangile: "gospel",
+    psaume: "psalm",
+    premiere: "firstReading",
+    lecture: "reading",
   };
-  return map[type] || fallback || "Lecture";
+  return map[type] ? t(map[type]) : fallback || t("reading");
 }
 
 async function init() {
@@ -36,7 +37,7 @@ async function init() {
   const titleEl = document.querySelector("[data-messe-title]");
   const dateNav = document.createElement("nav");
   dateNav.className = "messe-date-nav";
-  dateNav.setAttribute("aria-label", "Date de la messe");
+  dateNav.setAttribute("aria-label", t("massDate"));
   const statusEl = document.querySelector("[data-messe-status]");
 
   if (!listEl) return;
@@ -91,6 +92,44 @@ async function init() {
   document.addEventListener("lsb:parallels", () => {
     wireParallels();
   });
+  document.addEventListener("lsb:ui-lang", () => {
+    dateNav.setAttribute("aria-label", t("massDate"));
+    renderNav(currentDate);
+    mountActiveEditionBar(pool, {
+      parallels: true,
+      lift: true,
+      barCenter: dateNav,
+      dated: true,
+      showBlurb: false,
+    });
+    listEl.querySelectorAll(".reading-card").forEach((card) => {
+      const node = card.querySelector(".reading-type");
+      if (!node || !card.dataset.readingType) return;
+      node.textContent = typeLabel(card.dataset.readingType, card.dataset.readingFallback);
+    });
+    listEl.querySelectorAll(".reading-ref[data-ref-book]").forEach((a) => {
+      let ranges = null;
+      if (a.dataset.refRanges) {
+        try {
+          ranges = JSON.parse(a.dataset.refRanges);
+        } catch {
+          ranges = null;
+        }
+      }
+      const text = formatFullRef(
+        a.dataset.refBook,
+        +a.dataset.refChapter,
+        a.dataset.refStart ? +a.dataset.refStart : null,
+        a.dataset.refEnd ? +a.dataset.refEnd : null,
+        ranges
+      );
+      if (text) a.textContent = text;
+    });
+    if (!listEl.querySelector(".reading-card")) {
+      const empty = listEl.querySelector(".status-msg");
+      if (empty) empty.textContent = t("noReadings");
+    }
+  });
 
   function dateFromUrl() {
     const raw = new URLSearchParams(location.search).get("date") || "";
@@ -115,13 +154,13 @@ async function init() {
     dateNav.replaceChildren();
     const prev = el("button", "messe-date-step", "<");
     prev.type = "button";
-    prev.setAttribute("aria-label", "Jour précédent");
+    prev.setAttribute("aria-label", t("prevDay"));
     prev.addEventListener("click", () => go(shiftIsoDate(iso, -1)));
     dateNav.append(prev, el("span", "messe-date-label", formatDateFr(iso)));
     if (iso < todayParis()) {
       const next = el("button", "messe-date-step", ">");
       next.type = "button";
-      next.setAttribute("aria-label", "Jour suivant");
+      next.setAttribute("aria-label", t("nextDay"));
       next.addEventListener("click", () => go(shiftIsoDate(iso, 1)));
       dateNav.append(next);
     }
@@ -186,7 +225,7 @@ async function init() {
     );
     if (!data.readings?.length) {
       listEl.appendChild(
-        el("p", "status-msg", "Aucune lecture à afficher pour ce jour.")
+        el("p", "status-msg", t("noReadings"))
       );
       return;
     }
@@ -197,6 +236,8 @@ async function init() {
       const card = el("article", "reading-card");
       card.dataset.expandable = expandable ? "true" : "false";
 
+      card.dataset.readingType = reading.type || "";
+      if (reading.label) card.dataset.readingFallback = reading.label;
       card.appendChild(
         el("div", "reading-type", typeLabel(reading.type, reading.label))
       );
@@ -207,6 +248,11 @@ async function init() {
             chapter: reading.ref.chapter,
             verse: reading.ref.verseStart || null,
           });
+          a.dataset.refBook = reading.ref.bookId;
+          a.dataset.refChapter = String(reading.ref.chapter);
+          if (reading.ref.verseStart) a.dataset.refStart = String(reading.ref.verseStart);
+          if (reading.ref.verseEnd) a.dataset.refEnd = String(reading.ref.verseEnd);
+          if (reading.ref.ranges) a.dataset.refRanges = JSON.stringify(reading.ref.ranges);
           a.textContent = formatFullRef(
             reading.ref.bookId,
             reading.ref.chapter,

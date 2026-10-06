@@ -1,5 +1,6 @@
 import { tryLoadBookFallback, getChapter } from "./data-loader.js";
 import { renderChapterMask } from "./render-evangile.js";
+import { bookTitle } from "./i18n.js";
 import { getActiveEdition, DEFAULT_ACTIVE, editionName } from "./editions.js";
 
 /**
@@ -168,8 +169,10 @@ export class MaskDilatation {
       ? this.ref.ranges
       : [{ start: verseStart, end: verseEnd }];
 
+    const uiName = bookTitle(book.id);
     const { root, excerpt, zones } = renderChapterMask(ch, {
-      short: book.original_title || book.short,
+      bookId: book.id,
+      short: uiName || book.original_title || book.short,
       verseStart,
       verseEnd,
       ranges,
@@ -618,3 +621,11 @@ export class MaskDilatation {
     return this._collapsing;
   }
 }
+
+document.addEventListener("lsb:ui-lang", () => {
+  document.querySelectorAll(".chapter-num[data-book-id]").forEach((el) => {
+    const name = bookTitle(el.dataset.bookId) || el.dataset.fallback || "";
+    const n = el.dataset.chapterN || "";
+    el.textContent = name ? `${name} ${n}` : n;
+  });
+});

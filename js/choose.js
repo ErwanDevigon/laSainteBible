@@ -65,3 +65,6 @@ paint();
 document.addEventListener("lsb:editions", () => {
   paint();
 });
+document.addEventListener("lsb:ui-lang", () => {
+  paint();
+});

@@ -135,6 +135,8 @@ def clean_token(raw: str) -> str:
     for cre, repl in _UNWRAP:
         s = cre.sub(repl, s)
     s = s.replace("ε", "")
+    # Flags, not letters: # and ? mark a doubtful sign; { } wrap a restored sign.
+    s = s.replace("#", "").replace("?", "").replace("{", "").replace("}", "")
     s = re.sub(r"\s+", " ", s).strip()
     return s
 

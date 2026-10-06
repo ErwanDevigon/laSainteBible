@@ -16,42 +16,13 @@ import {
   readQumranChoice,
   writeQumranChoice,
 } from "./data-loader.js";
+import { abeggCredit, canonPhrase, closeUiLangMenu, getUiLang, mountUiGear, othersLabel, sectionLabel, t, uiLangName } from "./i18n.js";
 
 export const EDITION_SEGOND = "segond-1910";
 export const EDITION_OSTERVALD = "ostervald";
 export const EDITION_SEPTANTE = "septante";
 export const EDITION_VULGATE = "vulgate";
 export const DEFAULT_ACTIVE = EDITION_OSTERVALD;
-
-const CANON_PHRASE = {
-  "fr:protestant": "canon protestant",
-  "fr:catholic": "canon catholique",
-  "fr:orthodox": "canon orthodoxe",
-  "fr:jewish": "canon hébraïque",
-  "la:protestant": "canon protestanticum",
-  "la:catholic": "canon catholicum",
-  "la:orthodox": "canon orthodoxum",
-  "el:protestant": "κανὼν προτεσταντικός",
-  "el:catholic": "κανὼν καθολικός",
-  "el:orthodox": "κανὼν ὀρθόδοξος",
-  "he:jewish": "תנ״ך",
-  "he:protestant": "תנ״ך",
-};
-
-const CANON_HEAD = {
-  "fr:protestant": "Canon protestant",
-  "fr:catholic": "Canon catholique",
-  "fr:orthodox": "Canon orthodoxe",
-  "fr:jewish": "Canon hébraïque",
-  "la:protestant": "Canon protestanticum",
-  "la:catholic": "Canon catholicum",
-  "la:orthodox": "Canon orthodoxum",
-  "el:protestant": "Κανὼν προτεσταντικός",
-  "el:catholic": "Κανὼν καθολικός",
-  "el:orthodox": "Κανὼν ὀρθόδοξος",
-  "he:jewish": "תנ״ך",
-  "he:protestant": "תנ״ך",
-};
 
 export const EDITIONS = VERSIONS;
 
@@ -66,11 +37,32 @@ const COOKIE_KIND = {
   vetero: "lsb-show-vetero",
   accomplissement: "lsb-show-accomplissement",
 };
-const KIND_LABEL = {
-  synopse: "suggestions synoptiques",
-  vetero: "suggestions vétérotestamentaires",
-  accomplissement: "accomplissement",
+const KIND_KEYS = ["synopse", "vetero", "accomplissement"];
+const KIND_I18N = {
+  synopse: "kindSyn",
+  vetero: "kindVt",
+  accomplissement: "kindAc",
 };
+function kindLabel(kind) {
+  return t(KIND_I18N[kind] || kind);
+}
+const ANCIENT_GREEK = new Set([
+  "septante",
+  "textusreceptus",
+  "tischendorf",
+  "westcotthort",
+  "tr",
+]);
+
+/** Version menu: UI language, plus Latin, ancient Greek, and Hebrew. */
+export function editionShownInMenu(id) {
+  const v = EDITIONS[id];
+  if (!v) return false;
+  if (id === "qumran" || ANCIENT_GREEK.has(id)) return true;
+  if (id === "moderngreek") return getUiLang() === "el";
+  if (v.lang === "la" || v.lang === "he") return true;
+  return v.lang === getUiLang();
+}
 const COOKIE_AGE = 60 * 60 * 24 * 365;
 
 function readCookie(name) {
@@ -96,7 +88,7 @@ export function parallelKindEnabled(kind) {
 }
 
 function anyParallelKindOn() {
-  return Object.keys(KIND_LABEL).some((k) => parallelKindEnabled(k));
+  return KIND_KEYS.some((k) => parallelKindEnabled(k));
 }
 
 function setParallelsMaster(on) {
@@ -124,14 +116,14 @@ export function setParallelKindEnabled(kind, on) {
 export function mountParallelsToggle() {
   const nav = document.createElement("nav");
   nav.className = "parallels-toggle";
-  nav.setAttribute("aria-label", "Suggestions de lecture");
+  nav.setAttribute("aria-label", t("suggestions"));
   const trigger = document.createElement("button");
   trigger.type = "button";
   trigger.className = "parallels-toggle-btn";
   trigger.setAttribute("aria-haspopup", "true");
   trigger.setAttribute("aria-expanded", "false");
-  trigger.setAttribute("aria-label", "Suggestions de lecture");
-  trigger.textContent = "suggestions de lecture";
+  trigger.setAttribute("aria-label", t("suggestions"));
+  trigger.textContent = t("suggestions");
   let holdTimer = null;
   let held = false;
   const HOLD_MS = 420;
@@ -220,6 +212,7 @@ export function editionYearShort(id) {
 }
 
 export function editionBlurb(id) {
+  if (id === "qumran") return abeggCredit();
   const v = EDITIONS[id];
   return v?.blurb || v?.label || id;
 }
@@ -231,13 +224,11 @@ export function editionCanonKey(id) {
 }
 
 export function editionCanonPhrase(id) {
-  const key = editionCanonKey(id);
-  return CANON_PHRASE[key] || CANON_PHRASE[`fr:${EDITIONS[id]?.canon}`] || "";
+  return canonPhrase(EDITIONS[id]?.canon);
 }
 
 export function editionCanonHead(id) {
-  const key = editionCanonKey(id);
-  return CANON_HEAD[key] || CANON_HEAD[`fr:${EDITIONS[id]?.canon}`] || "";
+  return editionCanonPhrase(id);
 }
 
 /** Blurb in the version language, with date. */
@@ -418,6 +409,7 @@ export function editionsByYearDesc(ids) {
 }
 
 export function mountHeaderTranslation() {
+  mountUiGear();
   const header = document.querySelector(".site-header");
   if (!header) return null;
   header.querySelector(".header-translation")?.remove();
@@ -452,7 +444,8 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
     blurb.setAttribute("aria-hidden", "true");
   } else {
     blurb.textContent = editionBlurbDatedCanon(active);
-    if (activeLang) blurb.lang = activeLang;
+    if (active === "qumran") blurb.lang = getUiLang();
+    else if (activeLang) blurb.lang = activeLang;
   }
 
   const btn = document.createElement("button");
@@ -507,13 +500,13 @@ function mountAddColumn(pool, used) {
   if (!unused.length) return null;
   const nav = document.createElement("nav");
   nav.className = "edition-add-col";
-  nav.setAttribute("aria-label", "Comparer");
+  nav.setAttribute("aria-label", t("compare"));
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "edition-add-col-btn";
   btn.setAttribute("aria-haspopup", "listbox");
-  btn.setAttribute("aria-label", "Comparer");
-  btn.textContent = "comparer";
+  btn.setAttribute("aria-label", t("compare"));
+  btn.textContent = t("compare");
   btn.addEventListener("click", (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -532,11 +525,11 @@ function mountAddColumn(pool, used) {
 function mountRemoveColumn(colIndex, pool) {
   const nav = document.createElement("nav");
   nav.className = "edition-remove-col";
-  nav.setAttribute("aria-label", "Fermer la colonne");
+  nav.setAttribute("aria-label", t("closeCol"));
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "edition-remove-col-btn";
-  btn.setAttribute("aria-label", "Fermer la colonne");
+  btn.setAttribute("aria-label", t("closeCol"));
   btn.textContent = "×";
   btn.addEventListener("click", (e) => {
     e.preventDefault();
@@ -574,7 +567,7 @@ function mountQumranMs(bookId) {
   btn.className = "qumran-ms-btn";
   btn.setAttribute("aria-haspopup", "listbox");
   btn.setAttribute("aria-expanded", "false");
-  btn.setAttribute("aria-label", "Manuscrit");
+  btn.setAttribute("aria-label", t("manuscript"));
   btn.textContent = "…";
   btn.addEventListener("click", (e) => {
     e.preventDefault();
@@ -610,7 +603,7 @@ function openQumranMenu(anchor, bookId) {
     const menu = document.createElement("ul");
     menu.className = "qumran-menu";
     menu.setAttribute("role", "listbox");
-    menu.setAttribute("aria-label", "Manuscrit");
+    menu.setAttribute("aria-label", t("manuscript"));
 
     for (const id of list) {
       const li = document.createElement("li");
@@ -644,7 +637,7 @@ function openQumranMenu(anchor, bookId) {
     license.href = cat?.license || "https://creativecommons.org/licenses/by-nc/4.0/";
     license.target = "_blank";
     license.rel = "noopener noreferrer";
-    license.textContent = cat?.credit || "Martin Abegg, ETCBC, licence CC BY-NC 4.0";
+    license.textContent = abeggCredit();
     const source = document.createElement("a");
     source.href = cat?.source || "https://github.com/ETCBC/dss";
     source.target = "_blank";
@@ -698,7 +691,7 @@ function openParallelsMenu(anchor) {
   const menu = document.createElement("ul");
   menu.className = "parallels-menu";
 
-  for (const kind of Object.keys(KIND_LABEL)) {
+  for (const kind of KIND_KEYS) {
     const li = document.createElement("li");
     const btn = document.createElement("button");
     btn.type = "button";
@@ -708,7 +701,7 @@ function openParallelsMenu(anchor) {
     mark.className = "parallels-check";
     mark.setAttribute("aria-hidden", "true");
     const label = document.createElement("span");
-    label.textContent = KIND_LABEL[kind];
+    label.textContent = kindLabel(kind);
     const paint = () => {
       const on = parallelKindSelected(kind);
       mark.textContent = on ? "✓" : "";
@@ -750,42 +743,93 @@ function openParallelsMenu(anchor) {
   document.addEventListener("keydown", onKey, { signal: ac.signal });
 }
 
-function openEditionMenu(anchor, currentId, stack, onPick, opts = {}) {
-  closeParallelsMenu();
-  closeVolumeMenu();
-  closeEditionMenu();
-  const others = editionsByYearDesc(
-    (opts.ids || stack).filter((id) => id && id !== currentId)
-  );
-  if (!others.length) return;
+function editionMenuLang(id) {
+  if (id === "qumran") return "he";
+  return EDITIONS[id]?.lang || "fr";
+}
 
-  const menu = document.createElement("ul");
-  menu.className = "edition-menu";
-  menu.setAttribute("role", "listbox");
+function appendEditionRow(menu, id, currentId, onPick) {
+  const li = document.createElement("li");
+  li.setAttribute("role", "option");
+  const btn = document.createElement("button");
+  btn.type = "button";
+  fillEditionMenuLabel(btn, id);
+  if (id === currentId) btn.classList.add("is-current");
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    closeEditionMenu();
+    onPick(id);
+  });
+  li.append(btn);
+  menu.append(li);
+}
 
-  for (const id of others) {
-    const li = document.createElement("li");
-    li.setAttribute("role", "option");
-    const btn = document.createElement("button");
-    btn.type = "button";
-    fillEditionMenuLabel(btn, id);
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      closeEditionMenu();
-      onPick(id);
-    });
-    li.append(btn);
-    menu.append(li);
-  }
-
-  document.body.append(menu);
+function placeEditionMenu(menu, anchor) {
   const r = anchor.getBoundingClientRect();
+  menu.style.left = "0px";
   const mw = menu.getBoundingClientRect().width;
   let left = r.left + r.width / 2 - mw / 2;
   left = Math.max(8, Math.min(left, window.innerWidth - mw - 8));
   menu.style.left = `${left}px`;
   menu.style.top = `${r.bottom + 4}px`;
+}
+
+function fillGroupedEditions(menu, pool, currentId, onPick) {
+  menu.replaceChildren();
+  const groups = new Map();
+  for (const id of editionsByYearDesc(pool)) {
+    const lang = editionMenuLang(id);
+    if (!groups.has(lang)) groups.set(lang, []);
+    groups.get(lang).push(id);
+  }
+  const langs = [...groups.keys()].sort((a, b) => {
+    if (a === getUiLang()) return -1;
+    if (b === getUiLang()) return 1;
+    return uiLangName(a).localeCompare(uiLangName(b), getUiLang());
+  });
+  for (const lang of langs) {
+    const cap = document.createElement("li");
+    cap.className = "edition-lang-caption";
+    cap.textContent = uiLangName(lang);
+    menu.append(cap);
+    for (const id of groups.get(lang)) appendEditionRow(menu, id, currentId, onPick);
+  }
+}
+
+function openEditionMenu(anchor, currentId, stack, onPick, opts = {}) {
+  closeParallelsMenu();
+  closeVolumeMenu();
+  closeEditionMenu();
+  closeUiLangMenu();
+  const pool = (opts.ids || stack).filter((id) => id && EDITIONS[id]);
+  const shown = editionsByYearDesc(
+    pool.filter((id) => id !== currentId && editionShownInMenu(id))
+  );
+  if (!pool.length) return;
+
+  const menu = document.createElement("ul");
+  menu.className = "edition-menu";
+  menu.setAttribute("role", "listbox");
+
+  for (const id of shown) appendEditionRow(menu, id, currentId, onPick);
+
+  const more = document.createElement("li");
+  const moreBtn = document.createElement("button");
+  moreBtn.type = "button";
+  moreBtn.className = "edition-menu-others";
+  moreBtn.textContent = othersLabel();
+  moreBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    fillGroupedEditions(menu, pool, currentId, onPick);
+    placeEditionMenu(menu, anchor);
+  });
+  more.append(moreBtn);
+  menu.append(more);
+
+  document.body.append(menu);
+  placeEditionMenu(menu, anchor);
 
   const onDoc = (e) => {
     if (menu.contains(e.target) || anchor.contains(e.target)) return;
@@ -895,7 +939,7 @@ function openVolumeMenu(anchor, bookId, peers) {
 
 function mountBookMenu(bookId, peers) {
   const section = TOC_SECTIONS.find((s) => s.ids.includes(bookId));
-  const label = section?.label || bookName(BOOK_BY_ID[bookId]) || bookId;
+  const label = (section && sectionLabel(section.id)) || bookName(BOOK_BY_ID[bookId]) || bookId;
   const wrap = document.createElement("div");
   wrap.className = "header-center header-books";
   const btn = document.createElement("button");

@@ -317,6 +317,20 @@ async function init() {
       columnsReady = false;
       paint();
     });
+    document.addEventListener("lsb:ui-lang", () => {
+      if (!shownIds.length) return;
+      mountReaderChrome({
+        title,
+        bookId,
+        peers,
+        labels: shownIds.map((id, i) => ({
+          id,
+          col: `c${i}`,
+          label: editionDisplayName(id),
+        })),
+        available: present,
+      });
+    });
     document.addEventListener("lsb:parallels", () => {
       mountParallels({
         bookId,

@@ -287,6 +287,31 @@ body > .chapter-rail {
   align-items: center;
 }
 
+.ui-gear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.05rem;
+  border: 0;
+  background: none;
+  color: var(--text-soft);
+  cursor: pointer;
+  line-height: 0;
+}
+
+.ui-gear svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  display: block;
+}
+
+.ui-gear:hover,
+.ui-gear:focus-visible,
+.ui-gear[aria-expanded="true"] {
+  color: var(--text);
+}
+
 .site-main {
   width: min(100% - 2 * var(--space-5), 72rem);
   margin-inline: auto;

@@ -9,6 +9,7 @@ import { loadBook } from "./data-loader.js";
 import { excerptText } from "./render-evangile.js";
 import { parseRefString, canExpand } from "./refs.js";
 import { getActiveEdition } from "./editions.js";
+import { intlLocale } from "./i18n.js";
 
 const ZONE = "romain";
 
@@ -36,7 +37,7 @@ export function shiftIsoDate(iso, days) {
 export function formatDateFr(isoDate) {
   const [y, m, d] = isoDate.split("-").map(Number);
   const dt = new Date(Date.UTC(y, m - 1, d, 12));
-  return new Intl.DateTimeFormat("fr-FR", {
+  return new Intl.DateTimeFormat(intlLocale(), {
     weekday: "long",
     day: "numeric",
     month: "long",

@@ -10,6 +10,7 @@ import {
 } from "./books.js";
 import { loadVersionIndex } from "./data-loader.js";
 import { getActiveEdition } from "./editions.js";
+import { sectionLabel, t } from "./i18n.js";
 
 export const GOSPEL_META = GOSPEL_IDS.map((id) => {
   const b = BOOK_BY_ID[id];
@@ -56,6 +57,7 @@ export function mountGospelPickers(container, opts = {}) {
 export async function mountCanonCatalog(container, opts = {}) {
   const base = opts.base ?? "";
   const versionId = opts.versionId || getActiveEdition();
+  const editionLang = versionId === "qumran" ? "he" : VERSIONS[versionId]?.lang || "fr";
   const testament = opts.testament || "nt";
   const index = opts.index || (await loadVersionIndex(versionId));
   const books = (index?.books || []).filter((b) => b.testament === testament);
@@ -67,7 +69,7 @@ export async function mountCanonCatalog(container, opts = {}) {
   if (!books.length) {
     const empty = document.createElement("p");
     empty.className = "status-msg";
-    empty.textContent = "Aucun livre dans ce testament pour cette version.";
+    empty.textContent = t("empty");
     container.append(empty);
     return;
   }
@@ -77,7 +79,7 @@ export async function mountCanonCatalog(container, opts = {}) {
   );
   const grouped = sections.length
     ? sections.map((s) => ({
-        label: s.label,
+        label: sectionLabel(s.id, editionLang) || s.label,
         books: s.ids.map((id) => byId[id]).filter(Boolean),
       }))
     : [{ label: null, books }];

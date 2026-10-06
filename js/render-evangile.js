@@ -104,7 +104,7 @@ function maskFold() {
  *   zones: { el: HTMLElement, kind: 'before'|'down' }[],
  * }}
  */
-export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, ranges = null, lang = "" } = {}) {
+export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, ranges = null, lang = "", bookId = "" } = {}) {
   const root = document.createElement("div");
   root.className = "chapter-mask";
   root.dataset.expanded = "false";
@@ -117,6 +117,11 @@ export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, r
   const num = document.createElement("span");
   num.className = "chapter-num";
   num.textContent = short ? `${short} ${chapter.n}` : String(chapter.n);
+  if (bookId) {
+    num.dataset.bookId = bookId;
+    num.dataset.chapterN = String(chapter.n);
+    num.dataset.fallback = short;
+  }
   label.appendChild(num);
 
   const last = chapter.verses[chapter.verses.length - 1]?.n;
