@@ -1,7 +1,8 @@
 /**
  * Mouse: MMB grab-pan. LMB is ordinary text selection (one column).
- * Touch still pans. Vertical = document scroll. Horizontal = slide on a
- * wider virtual stage; release keeps the offset. No page change.
+ * Touch still pans. A trackpad's horizontal wheel pans the same way.
+ * Vertical = document scroll. Horizontal = slide on a wider virtual stage;
+ * release keeps the offset. No page change.
  */
 
 const SLOP = 8;
@@ -120,6 +121,9 @@ function caretInCol(x, y, col) {
 export function bindGrabPan(root = document.body) {
   let sess = null;
   let blockClick = false;
+  /** @type {"x"|"y"|null} */
+  let wheelAxis = null;
+  let wheelTimer = 0;
 
   function onAuxClick(e) {
     if (e.button === 1) e.preventDefault();
@@ -154,6 +158,46 @@ export function bindGrabPan(root = document.body) {
       return sample.getBoundingClientRect().width + gap;
     }
     return Math.max(240, window.innerWidth * 0.42);
+  }
+
+  function wheelPixels(e) {
+    let dx = e.deltaX;
+    let dy = e.deltaY;
+    if (e.deltaMode === 1) {
+      dx *= 32;
+      dy *= 32;
+    } else if (e.deltaMode === 2) {
+      dx *= window.innerWidth;
+      dy *= window.innerHeight;
+    }
+    // A vertical wheel with Shift is the usual mouse stand-in for horizontal.
+    if (e.shiftKey && dx === 0) {
+      dx = dy;
+      dy = 0;
+    }
+    return { dx, dy };
+  }
+
+  function onWheel(e) {
+    if (sess || e.ctrlKey || e.metaKey) return;
+    if (document.querySelector(".edition-menu, .parallels-menu, .volume-menu, .qumran-menu, .ui-lang-menu")) {
+      return;
+    }
+    const { dx, dy } = wheelPixels(e);
+    if (!wheelAxis) {
+      if (Math.abs(dx) < 4 && Math.abs(dy) < 4) return;
+      // Prefer vertical when the gesture is ambiguous, so reading does not drift sideways.
+      wheelAxis = Math.abs(dx) > Math.abs(dy) * 1.15 ? "x" : "y";
+    }
+    window.clearTimeout(wheelTimer);
+    wheelTimer = window.setTimeout(() => {
+      wheelAxis = null;
+    }, 140);
+    if (wheelAxis !== "x" || !dx) return;
+    e.preventDefault();
+    const next = readX(root) - dx;
+    root.dataset.swipeBase = String(next);
+    setX(next);
   }
 
   function onKey(e) {
@@ -315,6 +359,7 @@ export function bindGrabPan(root = document.body) {
   document.addEventListener("selectionchange", onSelectionChange);
   window.addEventListener("resize", onResize);
   window.addEventListener("keydown", onKey);
+  window.addEventListener("wheel", onWheel, { passive: false });
 
   return () => {
     unbindWindow();
@@ -328,6 +373,8 @@ export function bindGrabPan(root = document.body) {
     document.removeEventListener("selectionchange", onSelectionChange);
     window.removeEventListener("resize", onResize);
     window.removeEventListener("keydown", onKey);
+    window.removeEventListener("wheel", onWheel);
+    window.clearTimeout(wheelTimer);
     root.classList.remove("is-swiping");
     root.style.removeProperty("--swipe-x");
     root.style.removeProperty("--swipe-p");

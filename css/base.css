@@ -21,6 +21,7 @@ html {
   /* Never smooth-scroll the document — chapter jumps use fade-to-black */
   scroll-behavior: auto;
   overflow-x: hidden;
+  overscroll-behavior-x: none;
   /* Keep the centered date triangles put when a page grows a scrollbar. */
   scrollbar-gutter: stable;
 }
