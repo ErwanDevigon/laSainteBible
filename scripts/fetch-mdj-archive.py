@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Fetch about a year of Roman-rite mass refs from AELF.
+"""Fill data/lectures/mdj-archive.json with Roman-rite mass refs from AELF.
 
-Independent of the site. Writes data/lectures/aelf-year.json:
-one entry per day, liturgical title plus the verse references.
-Does not store AELF prose. Resume-safe: days already in the file are skipped.
+Independent of the site. One row per day: liturgical title and verse
+references, no AELF prose. The file is a lookup table and keeps growing
+past a year. A run only asks AELF for days missing inside --days; rows
+already stored, including older ones, stay.
 
-    python3 scripts/fetch-aelf-year.py
-    python3 scripts/fetch-aelf-year.py --days 365 --sleep 0.3
+    python3 scripts/fetch-mdj-archive.py
+    python3 scripts/fetch-mdj-archive.py --days 365 --sleep 0.3
 """
 
 from __future__ import annotations
@@ -20,7 +21,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "data" / "lectures" / "aelf-year.json"
+OUT = ROOT / "data" / "lectures" / "mdj-archive.json"
 API = "https://api.aelf.org/v1/messes/{day}/romain"
 
 

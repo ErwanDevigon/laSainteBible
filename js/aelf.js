@@ -3,7 +3,7 @@
  * Same calendar as https://www.aelf.org/AAAA-MM-JJ/romain/messe
  * JSON feed: https://api.aelf.org/v1/messes/{date}/romain
  * Fallback: data/lectures/sample.json
- * A year of refs, no prose: data/lectures/aelf-year.json
+ * Archive of refs, no prose: data/lectures/mdj-archive.json
  */
 
 import { loadChapter } from "./data-loader.js";
@@ -70,17 +70,17 @@ async function fetchSample() {
   return res.json();
 }
 
-/** One fetch of aelf-year.json, then a date → row map. Null if the file is absent. */
-let yearIndexPromise = null;
+/** One fetch of mdj-archive.json, then a date → row map. Null if the file is absent. */
+let archivePromise = null;
 
-function loadYearIndex() {
-  if (!yearIndexPromise) yearIndexPromise = fetchYearIndex();
-  return yearIndexPromise;
+function loadArchive() {
+  if (!archivePromise) archivePromise = fetchArchive();
+  return archivePromise;
 }
 
-async function fetchYearIndex() {
+async function fetchArchive() {
   try {
-    const { rootUrl, rel } = dataUrl("aelf-year.json");
+    const { rootUrl, rel } = dataUrl("mdj-archive.json");
     let res = await fetch(rootUrl);
     if (!res.ok) res = await fetch(rel);
     if (!res.ok) return null;
@@ -91,7 +91,7 @@ async function fetchYearIndex() {
     }
     return byDate;
   } catch (err) {
-    console.warn("aelf-year.json unavailable:", err);
+    console.warn("mdj-archive.json unavailable:", err);
     return null;
   }
 }
@@ -263,7 +263,7 @@ function writeMesseCookie(list) {
     `${MESSE_COOKIE}=${encodeURIComponent(body)}; Path=/; Max-Age=31536000; SameSite=Lax${secure}`;
 }
 
-/** Cookie rows use collapsed types; the year file uses raw AELF types. Both go through mapAelfReading. */
+/** Cookie rows use collapsed types; the archive uses raw AELF types. Both go through mapAelfReading. */
 function messeFromRow(date, row) {
   const readings = (row.r || []).map(([type, refStr], index) =>
     mapAelfReading({ type, ref: refStr }, index)
@@ -304,20 +304,20 @@ function rememberMesse(data) {
 
 /**
  * Load lectures for a date (default: today Paris).
- * Order: cookie (days already opened), then aelf-year.json, then AELF.
- * The year file is not copied into the cookie.
- * @returns {Promise<{ data: object, source: 'aelf'|'cache'|'year'|'sample'|'empty', error?: string }>}
+ * Order: cookie (days already opened), then mdj-archive.json, then AELF.
+ * An archive hit is not copied into the cookie.
+ * @returns {Promise<{ data: object, source: 'aelf'|'cache'|'archive'|'sample'|'empty', error?: string }>}
  */
 export async function loadLectures(date = todayParis()) {
   const cached = recallMesse(date);
   if (cached) {
     return { data: await enrichWithPd(cached), source: "cache" };
   }
-  const year = await loadYearIndex();
-  const stored = year && year.get(date);
+  const archive = await loadArchive();
+  const stored = archive && archive.get(date);
   if (stored) {
     const built = messeFromRow(date, stored);
-    if (built) return { data: await enrichWithPd(built), source: "year" };
+    if (built) return { data: await enrichWithPd(built), source: "archive" };
   }
   const url = `https://api.aelf.org/v1/messes/${date}/${ZONE}`;
   try {
