@@ -3,6 +3,7 @@
  * Same calendar as https://www.aelf.org/AAAA-MM-JJ/romain/messe
  * JSON feed: https://api.aelf.org/v1/messes/{date}/romain
  * Fallback: data/lectures/sample.json
+ * A year of refs, no prose: data/lectures/aelf-year.json
  */
 
 import { loadChapter } from "./data-loader.js";
@@ -12,6 +13,11 @@ import { getActiveEdition } from "./editions.js";
 import { intlLocale } from "./i18n.js";
 
 const ZONE = "romain";
+/** Visited days only: title + verse refs. One day is about 100 encoded bytes. */
+const MESSE_COOKIE = "lsb-messes";
+const MESSE_COOKIE_BUDGET = 3500;
+const TYPE_OUT = { premiere: "p", psaume: "s", evangile: "e", lecture: "l" };
+const TYPE_IN = { p: "premiere", s: "psaume", e: "evangile", l: "lecture" };
 
 export { parseRefString } from "./refs.js";
 
@@ -64,6 +70,32 @@ async function fetchSample() {
   return res.json();
 }
 
+/** One fetch of aelf-year.json, then a date → row map. Null if the file is absent. */
+let yearIndexPromise = null;
+
+function loadYearIndex() {
+  if (!yearIndexPromise) yearIndexPromise = fetchYearIndex();
+  return yearIndexPromise;
+}
+
+async function fetchYearIndex() {
+  try {
+    const { rootUrl, rel } = dataUrl("aelf-year.json");
+    let res = await fetch(rootUrl);
+    if (!res.ok) res = await fetch(rel);
+    if (!res.ok) return null;
+    const json = await res.json();
+    const byDate = new Map();
+    for (const row of json.days || []) {
+      if (row && row.d && row.r && row.r.length) byDate.set(row.d, row);
+    }
+    return byDate;
+  } catch (err) {
+    console.warn("aelf-year.json unavailable:", err);
+    return null;
+  }
+}
+
 function mapAelfReading(item, index) {
   const typeRaw = (item.type || item.intro_lue || "").toLowerCase();
   let type = "lecture";
@@ -81,7 +113,12 @@ function mapAelfReading(item, index) {
     type = "lecture";
   }
 
-  const refStr = item.ref || item.reference || "";
+  let refStr = (item.ref || item.reference || "").replace(/\u00a0/g, " ").trim();
+  // AELF often prints a psalm as "88 (89), 2-3" and leaves the book name off.
+  if (type === "psaume" && refStr && !parseRefString(refStr)) {
+    const withBook = `Ps ${refStr}`;
+    if (parseRefString(withBook)) refStr = withBook;
+  }
   const parsed = parseRefString(refStr);
   const expandable = canExpand(parsed);
 
@@ -162,18 +199,133 @@ async function enrichWithPd(payload) {
   return { ...payload, readings };
 }
 
+function parseMesseCookie(text) {
+  if (!text || !text.trim()) return [];
+  const rows = [];
+  for (const line of text.split("\n")) {
+    const parts = line.split("\t");
+    if (parts.length < 3 || !parts[0] || !parts[2]) continue;
+    const refs = [];
+    for (const piece of parts[2].split("|")) {
+      const cut = piece.indexOf("=");
+      if (cut < 1) continue;
+      const ref = piece.slice(cut + 1);
+      if (!ref) continue;
+      refs.push([TYPE_IN[piece.slice(0, cut)] || "lecture", ref]);
+    }
+    if (refs.length) rows.push({ d: parts[0], t: parts[1], r: refs });
+  }
+  return rows;
+}
+
+function formatMesseCookie(list) {
+  return list
+    .map((row) => {
+      const refs = row.r
+        .map(([type, ref]) => `${TYPE_OUT[type] || "l"}=${ref}`)
+        .join("|");
+      const title = String(row.t || "").replace(/[\t\n]/g, " ");
+      return `${row.d}\t${title}\t${refs}`;
+    })
+    .join("\n");
+}
+
+function messeCookieList() {
+  if (typeof document === "undefined") return [];
+  const raw = document.cookie
+    .split("; ")
+    .find((part) => part.startsWith(`${MESSE_COOKIE}=`));
+  if (!raw) return [];
+  const value = raw.slice(MESSE_COOKIE.length + 1);
+  for (const text of [value, safeDecode(value)]) {
+    const rows = parseMesseCookie(text);
+    if (rows.length) return rows;
+  }
+  return [];
+}
+
+function safeDecode(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return null;
+  }
+}
+
+function writeMesseCookie(list) {
+  let body = formatMesseCookie(list);
+  while (list.length > 1 && encodeURIComponent(body).length > MESSE_COOKIE_BUDGET) {
+    list.shift();
+    body = formatMesseCookie(list);
+  }
+  const secure = location.protocol === "https:" ? "; Secure" : "";
+  document.cookie =
+    `${MESSE_COOKIE}=${encodeURIComponent(body)}; Path=/; Max-Age=31536000; SameSite=Lax${secure}`;
+}
+
+/** Cookie rows use collapsed types; the year file uses raw AELF types. Both go through mapAelfReading. */
+function messeFromRow(date, row) {
+  const readings = (row.r || []).map(([type, refStr], index) =>
+    mapAelfReading({ type, ref: refStr }, index)
+  );
+  if (!readings.length) return null;
+  return {
+    date,
+    liturgical_title: row.t || "Messe du jour",
+    source: "aelf",
+    readings,
+  };
+}
+
+/** @returns {object|null} payload shaped like normalizeAelf, without excerpts */
+function recallMesse(date) {
+  const list = messeCookieList();
+  const i = list.findIndex((row) => row && row.d === date);
+  if (i < 0) return null;
+  const [row] = list.splice(i, 1);
+  list.push(row);
+  writeMesseCookie(list);
+  return messeFromRow(date, row);
+}
+
+function rememberMesse(data) {
+  if (typeof document === "undefined" || !data?.date) return;
+  const refs = (data.readings || [])
+    .filter((r) => r.ref_display)
+    .map((r) => [r.type, r.ref_display]);
+  if (!refs.length) return;
+  const title = (data.liturgical_title || "").trim();
+  const keep =
+    title && !/^messe du jour$/i.test(title) && !/^lectures$/i.test(title) ? title : "";
+  const list = messeCookieList().filter((row) => row && row.d !== data.date);
+  list.push({ d: data.date, t: keep, r: refs });
+  writeMesseCookie(list);
+}
+
 /**
  * Load lectures for a date (default: today Paris).
- * @returns {Promise<{ data: object, source: 'aelf'|'sample', error?: string }>}
+ * Order: cookie (days already opened), then aelf-year.json, then AELF.
+ * The year file is not copied into the cookie.
+ * @returns {Promise<{ data: object, source: 'aelf'|'cache'|'year'|'sample'|'empty', error?: string }>}
  */
 export async function loadLectures(date = todayParis()) {
+  const cached = recallMesse(date);
+  if (cached) {
+    return { data: await enrichWithPd(cached), source: "cache" };
+  }
+  const year = await loadYearIndex();
+  const stored = year && year.get(date);
+  if (stored) {
+    const built = messeFromRow(date, stored);
+    if (built) return { data: await enrichWithPd(built), source: "year" };
+  }
   const url = `https://api.aelf.org/v1/messes/${date}/${ZONE}`;
   try {
     const res = await fetch(url, { headers: { Accept: "application/json" } });
     if (!res.ok) throw new Error(`AELF HTTP ${res.status}`);
     const json = await res.json();
     let data = normalizeAelf(json, date);
-    // If no gospel parsed, still return AELF payload
+    rememberMesse(data);
     data = await enrichWithPd(data);
     return { data, source: "aelf" };
   } catch (err) {
