@@ -67,6 +67,19 @@ function easeFromCss() {
 
 const EDGE_SLACK = 8;
 
+function deviceStep() {
+  const dpr = window.devicePixelRatio || 1;
+  return 1 / dpr;
+}
+
+function snapDevice(px) {
+  const q = deviceStep();
+  if (!px) return 0;
+  // Half away from zero, so a value of exactly half a step does not
+  // collapse to 0 and stick on the pixel boundary.
+  return Math.sign(px) * Math.round(Math.abs(px) / q) * q;
+}
+
 let padApplied = 0;
 
 function headroomHost() {
@@ -287,6 +300,8 @@ export class MaskDilatation {
   _setHeight(zone, px, instant) {
     if (!zone) return;
     if (instant) zone.classList.add("is-frozen");
+    zone.style.height = "";
+    zone.style.maxHeight = "";
     zone.style.setProperty("--mask-height", `${Math.max(0, px)}px`);
     if (instant) {
       void zone.offsetHeight;
@@ -295,35 +310,51 @@ export class MaskDilatation {
   }
 
   /**
-   * Keep excerpt visually pinned. Integer part → scrollY.
-   * Remainder → translate on the host (avoids 1px scroll snap tremble).
+   * Drive the zone on the device-pixel grid. A CSS max-height transition
+   * moves the excerpt by fractions; cancelling those with whole pixels is
+   * the residual tremble.
+   * @param {{ el: HTMLElement, _px?: number }} z
+   * @param {number} px
    */
-  _notifyLayout() {
-    this.host.dispatchEvent(new CustomEvent("lsb:maskpin", { bubbles: true }));
+  _holdZone(z, px) {
+    const n = snapDevice(Math.max(0, px));
+    z.el.classList.add("is-frozen");
+    z.el.style.height = `${n}px`;
+    z.el.style.maxHeight = `${n}px`;
+    z._px = n;
+    return n;
   }
 
-  _pinOnce(targetTop) {
-    if (!this.excerpt) return;
-    if (document.body.classList.contains("is-swiping")) return;
-    const err = this.excerpt.getBoundingClientRect().top - targetTop;
-    if (err !== 0) {
-      let translate = (this._fracPin || 0) - err;
-      let scrollAdj = 0;
-      if (translate <= -1 || translate >= 1) {
-        scrollAdj = -Math.trunc(translate);
-        translate += scrollAdj;
-      }
-      if (scrollAdj && !this.lockPage) {
-        window.scrollTo(0, window.scrollY + scrollAdj);
-      } else if (scrollAdj && this.lockPage) {
-        translate -= scrollAdj;
-        scrollAdj = 0;
-      }
-      this._fracPin = translate;
+  /** Hand the zone back to the stylesheet at an exact height. */
+  _releaseZone(z, px) {
+    const n = Math.max(0, px);
+    z.el.style.setProperty("--mask-height", `${n}px`);
+    z.el.style.height = "";
+    z.el.style.maxHeight = "";
+    z.el.classList.remove("is-frozen");
+    z._px = n;
+  }
+
+  /**
+   * Move the page, or the card, by the same amount the before-zone just
+   * grew. The excerpt's screen pixel does not change.
+   * @param {number} delta
+   */
+  _nudge(delta) {
+    if (!delta) return;
+    if (this.lockPage) {
+      this._fracPin = (this._fracPin || 0) - delta;
       const el = this.pinEl || this.host;
-      el.style.transform = translate ? `translate3d(0, ${translate}px, 0)` : "";
+      el.style.transform = this._fracPin
+        ? `translate3d(0, ${this._fracPin}px, 0)`
+        : "";
+      return;
     }
-    this._notifyLayout();
+    window.scrollTo(0, window.scrollY + delta);
+  }
+
+  _notifyLayout() {
+    this.host.dispatchEvent(new CustomEvent("lsb:maskpin", { bubbles: true }));
   }
 
   _clearFracPin() {
@@ -340,58 +371,88 @@ export class MaskDilatation {
   }
 
   /**
-   * Pin excerpt + snap a zone the moment its overflow edge leaves the viewport.
-   * @param {number} targetTop
-   * @param {number} durationMs
+   * Grow each zone along the ease, on the device-pixel grid.
+   * The frame the overflow edge leaves the screen, the rest of that zone
+   * appears at once. `finish` opens whatever is still hidden.
+   * @param {number} e eased progress in [0,1]
+   * @param {boolean} finish
+   * @returns {number} before-zone growth this step, in device pixels
    */
+  _stepZones(e, finish) {
+    const clip = this._viewportClip();
+    let beforeDelta = 0;
+    for (const z of this.zones) {
+      if (z._open) continue;
+      let dest = snapDevice(z._from + ((z._to || 0) - z._from) * e);
+      if (!z._snap && z._to < z.height - 0.5 && dest >= 8) {
+        const r = z.el.getBoundingClientRect();
+        const hit =
+          r.height >= 8 &&
+          (z.kind === "before"
+            ? r.top <= clip.top + 0.5
+            : r.bottom >= clip.bottom - 0.5);
+        if (hit) z._snap = true;
+      }
+      if (z._snap || finish) {
+        dest = snapDevice(z.height);
+        z._open = true;
+      }
+      const delta = dest - (z._px || 0);
+      this._holdZone(z, dest);
+      if (z.kind === "before") beforeDelta += delta;
+    }
+    return beforeDelta;
+  }
+
+  /**
+   * Hand every zone back to the stylesheet.
+   * The before-zone's last step was on the device grid; the real box can
+   * be half a pixel off. The returned delta finishes the pin once.
+   */
+  _releaseZones() {
+    let beforeDelta = 0;
+    for (const z of this.zones) {
+      const prev = z._px || 0;
+      this._releaseZone(z, z.height || 0);
+      if (z.kind !== "before") continue;
+      beforeDelta += z.el.getBoundingClientRect().height - prev;
+    }
+    return beforeDelta;
+  }
+
   _driveExpand(targetTop, durationMs) {
     this._stopPin();
     const excerpt = this.excerpt;
     if (!excerpt) return;
 
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce) {
-      for (const z of this.zones) this._setHeight(z.el, z.height, true);
-      this._pinOnce(targetTop);
+    if (this._reduced() || durationMs <= 0) {
+      let delta = 0;
+      for (const z of this.zones) {
+        const next = snapDevice(z.height);
+        if (z.kind === "before") delta += next - (z._px || 0);
+        this._holdZone(z, next);
+      }
+      this._nudge(delta + this._releaseZones());
+      this._notifyLayout();
       return;
     }
 
-    const open = this.zones.map((z) => z.height <= 0);
-
+    const ease = easeFromCss();
     const t0 = performance.now();
     const tick = (now) => {
-      this._pinOnce(targetTop);
-      const clip = this._viewportClip();
-
-      this.zones.forEach((z, i) => {
-        if (open[i]) return;
-        // CSS already animating to full height: do not snap.
-        if ((z._animTo ?? 0) >= z.height - 0.5) return;
-        const r = z.el.getBoundingClientRect();
-        if (r.height < 8) return;
-        const hit =
-          z.kind === "before"
-            ? r.top <= clip.top + 0.5
-            : r.bottom >= clip.bottom - 0.5;
-        if (!hit) return;
-        this._setHeight(z.el, z.height, true);
-        if (z.kind === "before") this._pinOnce(targetTop);
-        open[i] = true;
-      });
-
-      if (open.some((v) => !v) && now - t0 < durationMs + 48) {
-        this._pinRaf = requestAnimationFrame(tick);
-      } else {
-        this.zones.forEach((z, i) => {
-          if (!open[i]) this._setHeight(z.el, z.height, true);
-        });
-        this._pinOnce(targetTop);
-        if (!this.lockPage) {
-          this._clearFracPin();
-          this._pinOnce(targetTop);
-        }
+      if (document.body.classList.contains("is-swiping")) {
         this._pinRaf = 0;
+        return;
       }
+      const t = Math.min(1, (now - t0) / durationMs);
+      this._nudge(this._stepZones(ease(t), t >= 1));
+      this._notifyLayout();
+      if (t < 1) {
+        this._pinRaf = requestAnimationFrame(tick);
+        return;
+      }
+      this._nudge(this._releaseZones());
+      this._pinRaf = 0;
     };
     this._pinRaf = requestAnimationFrame(tick);
   }
@@ -522,16 +583,18 @@ export class MaskDilatation {
     const dur = this._durationMs();
 
     for (const z of this.zones) {
-      if (z.height <= 0) {
-        z._animTo = 0;
-        continue;
-      }
+      z._from = 0;
+      z._px = 0;
+      z._open = z.height <= 0;
+      z._full = false;
+      if (z._open) continue;
       const room = this._roomFor(z) + EDGE_SLACK;
       // Near chrome there is no visible edge to raise: animate full height
       // and pin, instead of snapping 0 → full on the first frame.
       const target = this._reduced() || room < 24 ? z.height : Math.min(z.height, room);
-      z._animTo = target;
-      this._setHeight(z.el, target, false);
+      z._to = target;
+      z._full = target >= z.height - 0.5;
+      this._holdZone(z, 0);
     }
 
     this._markExpanded(true);
@@ -583,12 +646,12 @@ export class MaskDilatation {
     if (!this.lockPage) this._clearFracPin();
 
     for (const z of this.zones) {
-      this._setHeight(z.el, z.el.getBoundingClientRect().height, true);
+      const h = snapDevice(z.el.getBoundingClientRect().height);
+      z._from = h;
+      z._open = h <= 0;
+      this._holdZone(z, h);
     }
-    if (!restorePage) this._pinOnce(excerptTop);
-    void this.root.offsetHeight;
-    for (const z of this.zones) this._setHeight(z.el, 0, false);
-
+    // Folds fade with the class. Inline height keeps the zones put.
     this._markExpanded(false);
 
     const ease = easeFromCss();
@@ -602,24 +665,44 @@ export class MaskDilatation {
       }
       const t = Math.min(1, dur <= 0 ? 1 : (now - t0) / dur);
       const e = ease(t);
+      let beforeDelta = 0;
+      for (const z of this.zones) {
+        if (z._open) continue;
+        const next = t >= 1 ? 0 : snapDevice(z._from * (1 - e));
+        const delta = next - (z._px || 0);
+        this._holdZone(z, next);
+        if (z.kind === "before") beforeDelta += delta;
+      }
       if (restorePage) {
         window.scrollTo(0, fromY + (toY - fromY) * e);
-        const pin = pinFrom * (1 - e);
+        const pin = snapDevice(pinFrom * (1 - e));
         this._fracPin = pin;
         el.style.transform = pin ? `translate3d(0, ${pin}px, 0)` : "";
-        this._notifyLayout();
+      } else if (!this.lockPage) {
+        this._nudge(beforeDelta);
       } else {
-        this._pinOnce(excerptTop);
+        // The card transform is the before-zone's opposite. Follow the
+        // height we just set so the two cannot drift by a pixel.
+        const before = this.zones.find((z) => z.kind === "before");
+        const pin = before ? -(before._px || 0) : 0;
+        this._fracPin = pin;
+        el.style.transform = pin ? `translate3d(0, ${pin}px, 0)` : "";
       }
+      this._notifyLayout();
       if (t < 1) {
         this._pinRaf = requestAnimationFrame(tick);
-      } else {
-        if (restorePage) window.scrollTo(0, toY);
-        this._clearFracPin();
-        this._releaseHeadroom();
-        this._pinRaf = 0;
-        this._resolveCollapse();
+        return;
       }
+      for (const z of this.zones) this._releaseZone(z, 0);
+      if (restorePage) window.scrollTo(0, toY);
+      else if (!this.lockPage && this.excerpt) {
+        const err = this.excerpt.getBoundingClientRect().top - excerptTop;
+        if (Math.abs(err) >= 1) this._nudge(snapDevice(err));
+      }
+      this._clearFracPin();
+      this._releaseHeadroom();
+      this._pinRaf = 0;
+      this._resolveCollapse();
     };
     this._pinRaf = requestAnimationFrame(tick);
     return this._collapsing;
