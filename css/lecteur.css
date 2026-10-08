@@ -114,18 +114,48 @@ body.has-active-edition {
 }
 
 .messe-date-nav {
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: 2rem max-content 2rem;
   align-items: center;
-  gap: 0.45rem;
+  justify-items: center;
+  column-gap: 0.7rem;
+  height: var(--edition-bar-h);
+}
+
+.messe-date-label {
+  display: grid;
+}
+
+.messe-date-sizer,
+.messe-date-text {
+  grid-area: 1 / 1;
+}
+
+.messe-date-sizer {
+  visibility: hidden;
+}
+
+.messe-date-text {
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
 }
 
 .messe-date-step {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 100%;
+  min-height: 1.6rem;
   font: inherit;
   color: inherit;
   line-height: 1;
-  padding: 0.15rem 0.05rem;
+  padding: 0;
+}
+
+.messe-date-step.is-idle {
+  visibility: hidden;
 }
 
 .messe-date-tri {

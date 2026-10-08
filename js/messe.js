@@ -15,6 +15,9 @@ import {
   prepareParallels,
 } from "./parallels.js";
 
+/** Widest French mass date. The slot stays this wide so the triangles do not move. */
+const DATE_SLOT = "mercredi 30 septembre 2026";
+
 function dateStep(dir) {
   const btn = el("button", "messe-date-step");
   btn.type = "button";
@@ -164,12 +167,19 @@ async function init() {
     dateNav.replaceChildren();
     const prev = dateStep(-1);
     prev.addEventListener("click", () => go(shiftIsoDate(iso, -1)));
-    dateNav.append(prev, el("span", "messe-date-label", formatDateFr(iso)));
+    const next = dateStep(1);
     if (iso < todayParis()) {
-      const next = dateStep(1);
       next.addEventListener("click", () => go(shiftIsoDate(iso, 1)));
-      dateNav.append(next);
+    } else {
+      next.disabled = true;
+      next.classList.add("is-idle");
+      next.setAttribute("aria-hidden", "true");
     }
+    const label = el("span", "messe-date-label");
+    const sizer = el("span", "messe-date-sizer", DATE_SLOT);
+    sizer.setAttribute("aria-hidden", "true");
+    label.append(sizer, el("span", "messe-date-text", formatDateFr(iso)));
+    dateNav.append(prev, label, next);
   }
 
   async function go(iso) {
