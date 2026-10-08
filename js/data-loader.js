@@ -9,6 +9,7 @@ import {
 /** Runtime books: data/livres/{edition}/{id}.json only. */
 
 const cache = new Map();
+const chapterCache = new Map();
 const indexCache = new Map();
 let coveragePromise = null;
 let qumranCatalogPromise = null;
@@ -85,6 +86,9 @@ export function writeQumranChoice(bookId, scrollId) {
   localStorage.setItem(QUMRAN_MS_KEY, JSON.stringify(all));
   for (const key of [...cache.keys()]) {
     if (key.startsWith("qumran:") && key.endsWith(`:${bookId}`)) cache.delete(key);
+  }
+  for (const key of [...chapterCache.keys()]) {
+    if (key.startsWith("qumran:") && key.includes(`:${bookId}:`)) chapterCache.delete(key);
   }
 }
 
@@ -221,6 +225,79 @@ export function rankFallback(ids, edition) {
     });
 }
 
+/**
+ * One chapter, for the mass and for a citation card.
+ * The reader still loads the whole book.
+ * Falls back to the cached or fetched book if the chapter file is absent.
+ */
+export async function loadChapter(id, chapterN, edition = DEFAULT_EDITION) {
+  const n = +chapterN;
+  if (!Number.isFinite(n)) return null;
+  if ((edition || DEFAULT_EDITION) === "qumran") return loadQumranChapter(id, n);
+  const key = `${cacheKey(id, edition)}:${n}`;
+  if (chapterCache.has(key)) return chapterCache.get(key);
+  const bookKey = cacheKey(id, edition);
+  if (cache.has(bookKey)) {
+    const ch = getChapter(cache.get(bookKey), n);
+    if (ch) {
+      chapterCache.set(key, ch);
+      return ch;
+    }
+  }
+  const hit = await fetchJson(`data/chapitres/${edition || DEFAULT_EDITION}/${id}/${n}.json`);
+  if (hit.ok) {
+    chapterCache.set(key, hit.data);
+    return hit.data;
+  }
+  const book = await tryLoadBook(id, edition);
+  const ch = book ? getChapter(book, n) : null;
+  if (ch) chapterCache.set(key, ch);
+  return ch;
+}
+
+async function loadQumranChapter(id, n) {
+  const catalog = await loadQumranCatalog();
+  const list = qumranScrollsFor(id, catalog);
+  if (!list.length) return null;
+  const wanted = readQumranChoice(id);
+  const scroll = list.includes(wanted) ? wanted : list[0];
+  const key = `qumran:${scroll}:${id}:${n}`;
+  if (chapterCache.has(key)) return chapterCache.get(key);
+  const bookKey = `qumran:${scroll}:${id}`;
+  if (cache.has(bookKey)) {
+    const ch = getChapter(cache.get(bookKey), n);
+    if (ch) {
+      chapterCache.set(key, ch);
+      return ch;
+    }
+  }
+  const hit = await fetchJson(`data/chapitres/qumran/${scroll}/${id}/${n}.json`);
+  if (hit.ok) {
+    chapterCache.set(key, hit.data);
+    return hit.data;
+  }
+  try {
+    const book = await loadQumranBook(id);
+    const ch = getChapter(book, n);
+    if (ch) chapterCache.set(key, ch);
+    return ch;
+  } catch {
+    return null;
+  }
+}
+
+export async function tryLoadChapterFallback(id, chapterN, edition = DEFAULT_EDITION) {
+  const direct = await loadChapter(id, chapterN, edition);
+  if (direct) return { chapter: direct, edition, fallback: false };
+  const ids = await versionsForBook(id);
+  const ranked = rankFallback(ids, edition);
+  for (const pick of ranked.slice(0, 2)) {
+    const chapter = await loadChapter(id, chapterN, pick);
+    if (chapter) return { chapter, edition: pick, fallback: true };
+  }
+  return { chapter: null, edition, fallback: false };
+}
+
 export async function tryLoadBookFallback(id, edition = DEFAULT_EDITION) {
   const direct = await tryLoadBook(id, edition);
   if (direct) return { book: direct, edition, fallback: false };
@@ -267,6 +344,7 @@ export function getVerseRange(book, chapterN, vStart, vEnd) {
 
 export function clearCache() {
   cache.clear();
+  chapterCache.clear();
   indexCache.clear();
   coveragePromise = null;
   urlBase = null;

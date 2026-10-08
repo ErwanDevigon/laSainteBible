@@ -6,18 +6,17 @@ import { BOOK_BY_ID, bookHref } from "./books.js";
 import { displayBookTitle, parallelKindEnabled } from "./editions.js";
 import { bookAbbr, bookTitle, t, versePhrase } from "./i18n.js";
 
-const NT_URL = "data/parallels-nt.json?v=2";
-const AT_URL = "data/citations-at.json?v=2";
 const RAIL_INSET = 8;
 const RAIL_LANE = 14;
 const MAX_DEPTH = 48;
 
-let packed = null;
-let packedRaw = null;
-let packedEd = null;
 let indexCache = null;
 /** bookId + chapter → { item, passage, span }[] */
 let hitIndex = null;
+let indexedEdition = undefined;
+let protestantMalachi = false;
+const bookPackCache = new Map();
+const indexedBooks = new Set();
 let hideGate = null;
 let treeGen = 0;
 const ctx = { bookId: "", edition: "", primaryCol: "" };
@@ -117,11 +116,34 @@ function mergeAccomplissementHits(hits) {
   return [...other, ...[...buckets.values()].map(fuseAccomplissementHits)];
 }
 
-async function loadRaw() {
-  if (packedRaw) return packedRaw;
-  const [nt, at] = await Promise.all([loadJson(NT_URL), loadJson(AT_URL)]);
-  packedRaw = { synopse: nt?.items || [], citations: at?.items || [] };
-  return packedRaw;
+function loadBookPack(bookId) {
+  if (!bookPackCache.has(bookId)) {
+    const job = loadJson(`data/parallels/${bookId}.json?v=3`).then((data) => ({
+      synopse: data?.synopse || [],
+      citations: data?.citations || [],
+    }));
+    bookPackCache.set(bookId, job);
+  }
+  return bookPackCache.get(bookId);
+}
+
+function mergeBookPack(bookId, pack) {
+  const citations = protestantMalachi
+    ? pack.citations.map(remapMalachiItem)
+    : pack.citations;
+  const synopse = protestantMalachi
+    ? pack.synopse.map(remapMalachiItem)
+    : pack.synopse;
+  const local = indexHits({
+    synopse,
+    citations,
+    reverse: invertCitations(citations),
+  });
+  for (const [key, arr] of local) {
+    if (!key.startsWith(`${bookId}\t`)) continue;
+    hitIndex.set(key, arr);
+  }
+  indexedBooks.add(bookId);
 }
 
 function chapterHasVerse(book, chN, vN) {
@@ -193,38 +215,35 @@ function indexHits(pack) {
   return map;
 }
 
-export async function prepareParallels(edition) {
-  const raw = await loadRaw();
+export async function prepareParallels(edition, bookId) {
   const ed = edition || "";
-  if (packed && packedEd === ed) return packed;
-  let toProtestant = false;
-  if (ed) {
-    const flag = await malachiUsesChapter4(ed);
-    if (flag == null) {
-      const malachi = await tryLoadBook("malachie", ed);
-      toProtestant = malachiIsProtestant(malachi);
+  if (indexedEdition !== ed) {
+    hitIndex = new Map();
+    indexedBooks.clear();
+    indexedEdition = ed;
+    protestantMalachi = false;
+    if (ed) {
+      const flag = await malachiUsesChapter4(ed);
+      if (flag == null) {
+        const malachi = await tryLoadBook("malachie", ed);
+        protestantMalachi = malachiIsProtestant(malachi);
+      } else {
+        protestantMalachi = flag;
+      }
+      try {
+        indexCache = await loadVersionIndex(ed);
+      } catch {
+        indexCache = null;
+      }
     } else {
-      toProtestant = flag;
-    }
-  }
-  const citations = toProtestant
-    ? raw.citations.map(remapMalachiItem)
-    : raw.citations;
-  packed = {
-    synopse: raw.synopse,
-    citations,
-    reverse: invertCitations(citations),
-  };
-  packedEd = ed;
-  hitIndex = indexHits(packed);
-  if (ed) {
-    try {
-      indexCache = await loadVersionIndex(ed);
-    } catch {
       indexCache = null;
     }
   }
-  return packed;
+  if (!hitIndex) hitIndex = new Map();
+  if (bookId && !indexedBooks.has(bookId)) {
+    mergeBookPack(bookId, await loadBookPack(bookId));
+  }
+  return hitIndex;
 }
 
 function spanVerses(span) {
@@ -913,21 +932,40 @@ class ParallelHost {
     return right;
   }
 
-  versesInSpan(span) {
+  _verseMap() {
+    if (this._verseMapCache) return this._verseMapCache;
     const raw = this.col
       ? verseEls(this.verseRoot, this.col)
       : [...this.verseRoot.querySelectorAll(".verse[data-verse]")];
-    const verses = raw.filter((el) => {
+    const map = new Map();
+    for (const el of raw) {
       const nested = el.closest(".parallel-card");
-      return !(nested && nested !== this.verseRoot && this.verseRoot.contains(nested));
-    });
-    const extent = spanVerses(span);
-    return verses.filter((el) => {
+      if (nested && nested !== this.verseRoot && this.verseRoot.contains(nested)) continue;
       const n = +el.dataset.verse;
-      if (!Number.isFinite(n)) return false;
-      if (extent.all) return true;
-      return n >= extent.min && n <= Math.min(extent.max, 9000);
-    });
+      if (!Number.isFinite(n)) continue;
+      const bucket = map.get(n);
+      if (bucket) bucket.push(el);
+      else map.set(n, [el]);
+    }
+    this._verseMapCache = map;
+    return map;
+  }
+
+  versesInSpan(span) {
+    const map = this._verseMap();
+    const extent = spanVerses(span);
+    if (extent.all) {
+      return [...map.keys()]
+        .sort((a, b) => a - b)
+        .flatMap((n) => map.get(n));
+    }
+    const end = Math.min(extent.max, 9000);
+    const out = [];
+    for (let n = extent.min; n <= end; n++) {
+      const bucket = map.get(n);
+      if (bucket) out.push(...bucket);
+    }
+    return out;
   }
 
   /** A hit parked entirely in a folded mask draws no stub. */
@@ -1035,9 +1073,10 @@ class ParallelHost {
     }
   }
 
-  mountChild(art) {
+  async mountChild(art) {
     const span = art._span;
     if (!span) return;
+    if (art.dataset.bookId) await prepareParallels(this.edition, art.dataset.bookId);
     const host = new ParallelHost({
       root: art,
       verseRoot: art,
@@ -1109,7 +1148,7 @@ class ParallelHost {
     alignCards(cards, this.root, this.col, span);
     if (this.depth > 0 && gen !== treeGen) return;
     for (const art of cards.querySelectorAll(":scope > .parallel-card")) {
-      this.mountChild(art);
+      await this.mountChild(art);
     }
     revealCards(cards);
     rail.classList.add("is-open");
@@ -1147,6 +1186,7 @@ class ParallelHost {
 
   syncRails() {
     this._anchorRight = null;
+    this._verseMapCache = null;
     const occupied = this.occupied();
     // Only hits that will actually draw a stroke take a lane. A ghost
     // hit (no passage left) used to reserve a lane and shove the real
@@ -1422,7 +1462,7 @@ export async function mountParallels({ bookId, container, editions }) {
     edition: ctx.edition,
     primaryCol: ctx.primaryCol,
   };
-  await prepareParallels(ctx.edition);
+  await prepareParallels(ctx.edition, bookId);
   if (container._parallelSeq !== seq) return;
   bindGlobal();
 
@@ -1473,7 +1513,7 @@ export async function attachExcerptParallels({
   edition,
 }) {
   if (!host || !bookId) return;
-  await prepareParallels(edition);
+  await prepareParallels(edition, bookId);
   bindGlobal();
   const band = row || host.parentElement;
   if (!band) return;

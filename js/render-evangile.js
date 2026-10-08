@@ -346,6 +346,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
     raf: 0,
     lock: 0,
     lastKey: "",
+    geomKey: "",
     destroyed: false,
     token,
     chNums: chNums.slice(),
@@ -537,6 +538,16 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
     if (state.destroyed || container._renderToken !== state.token) return;
     if (!opts.force && performance.now() < state.holdUntil) return;
     const nums = state.chNums;
+
+    // Steady scroll: the chapter span comes from cached heights. Measuring
+    // every mounted verse is only needed when that span changes.
+    let geomKey = "";
+    if (!opts.anchor) {
+      const [gLo, gHi] = wantedRange();
+      geomKey = `${gLo}:${gHi}`;
+      if (!opts.force && geomKey === state.geomKey && state.lastKey) return;
+    }
+
     const have = mountedBands();
     let snap = null;
     if (opts.anchor?.id) {
@@ -584,11 +595,15 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
     if (hi < lo) {
       writeSpacers(0, -1);
       state.lastKey = "empty";
+      if (geomKey) state.geomKey = geomKey;
       return;
     }
     const wantIds = nums.slice(lo, hi + 1).join(",");
     const mountedIds = have.map((b) => b.dataset.chapter).join(",");
-    if (state.lastKey === `${lo}:${hi}` && mountedIds === wantIds) return;
+    if (state.lastKey === `${lo}:${hi}` && mountedIds === wantIds) {
+      if (geomKey) state.geomKey = geomKey;
+      return;
+    }
 
     for (const band of have) {
       const i = nums.indexOf(+band.dataset.chapter);
@@ -629,6 +644,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
       }
     }
     state.lastKey = `${lo}:${hi}`;
+    if (geomKey) state.geomKey = geomKey;
     api?.onChange?.();
   }
 
@@ -645,6 +661,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
   function onResize() {
     state.probe = null;
     state.lastKey = "";
+    state.geomKey = "";
     onScroll();
   }
 
@@ -654,6 +671,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
     if (state.destroyed) return;
     state.probe = null;
     state.lastKey = "";
+    state.geomKey = "";
     syncWindow();
   });
 
@@ -706,11 +724,13 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
       live.chNums = state.chNums;
       state.probe = null;
       state.lastKey = "";
+      state.geomKey = "";
       state.token = container._renderToken;
     },
     remeasure(opts = {}) {
       state.probe = null;
       state.lastKey = "";
+      state.geomKey = "";
       state.token = container._renderToken;
       syncWindow({ force: true, pin: opts.pin !== false, anchor: opts.anchor || null });
     },

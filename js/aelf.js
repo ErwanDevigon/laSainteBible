@@ -5,7 +5,7 @@
  * Fallback: data/lectures/sample.json
  */
 
-import { loadBook } from "./data-loader.js";
+import { loadChapter } from "./data-loader.js";
 import { excerptText } from "./render-evangile.js";
 import { parseRefString, canExpand } from "./refs.js";
 import { getActiveEdition } from "./editions.js";
@@ -132,31 +132,33 @@ function normalizeAelf(data, date) {
  * Enrich expandable readings with PD excerpt when AELF text empty/unwanted.
  */
 async function enrichWithPd(payload) {
-  const readings = [];
-  for (const r of payload.readings) {
-    const copy = { ...r };
-    if (copy.expandable && copy.ref) {
+  const edition = getActiveEdition();
+  const readings = await Promise.all(
+    payload.readings.map(async (r) => {
+      const copy = { ...r };
+      if (!(copy.expandable && copy.ref)) return copy;
       try {
-        const edition = getActiveEdition();
-        const book = await loadBook(copy.ref.bookId, edition);
-        const pd = excerptText(
-          book,
-          copy.ref.chapter,
-          copy.ref.verseStart,
-          copy.ref.verseEnd,
-          5
-        );
+        const ch = await loadChapter(copy.ref.bookId, copy.ref.chapter, edition);
+        const pd = ch
+          ? excerptText(
+              { chapters: [ch] },
+              copy.ref.chapter,
+              copy.ref.verseStart,
+              copy.ref.verseEnd,
+              5
+            )
+          : "";
         // Prefer short PD excerpt for visual unity; keep AELF if PD fails
         if (pd) copy.excerpt = pd;
         if (!copy.ref_display) {
-          copy.ref_display = `${book.short} ${copy.ref.chapter}, ${copy.ref.verseStart}-${copy.ref.verseEnd}`;
+          copy.ref_display = `${copy.ref.bookId} ${copy.ref.chapter}, ${copy.ref.verseStart}-${copy.ref.verseEnd}`;
         }
       } catch {
         /* keep as-is */
       }
-    }
-    readings.push(copy);
-  }
+      return copy;
+    })
+  );
   return { ...payload, readings };
 }
 

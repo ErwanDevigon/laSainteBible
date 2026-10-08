@@ -1,4 +1,5 @@
-import { tryLoadBookFallback, getChapter } from "./data-loader.js";
+import { tryLoadChapterFallback } from "./data-loader.js";
+import { VERSIONS } from "./books.js";
 import { renderChapterMask } from "./render-evangile.js";
 import { bookTitle } from "./i18n.js";
 import { getActiveEdition, DEFAULT_ACTIVE, editionName } from "./editions.js";
@@ -151,16 +152,19 @@ export class MaskDilatation {
 
   async _mount() {
     const wanted = this.ref.edition || getActiveEdition() || DEFAULT_ACTIVE;
-    const loaded = await tryLoadBookFallback(this.ref.bookId, wanted);
-    const book = loaded.book;
+    let loaded = await tryLoadChapterFallback(this.ref.bookId, this.ref.chapter, wanted);
+    if (!loaded.chapter && this.ref.altChapter) {
+      loaded = await tryLoadChapterFallback(
+        this.ref.bookId,
+        this.ref.altChapter,
+        wanted
+      );
+    }
+    const ch = loaded.chapter;
     const edition = loaded.edition;
     this.ref.edition = edition;
-    if (!book) throw new Error("Livre introuvable");
-    if (loaded.fallback) this._markFallbackEdition(edition);
-    const ch =
-      getChapter(book, this.ref.chapter) ||
-      (this.ref.altChapter ? getChapter(book, this.ref.altChapter) : null);
     if (!ch) throw new Error("Chapitre introuvable");
+    if (loaded.fallback) this._markFallbackEdition(edition);
 
     const last = ch.verses[ch.verses.length - 1]?.n;
     const verseStart = this.ref.verseStart ?? 1;
@@ -169,14 +173,14 @@ export class MaskDilatation {
       ? this.ref.ranges
       : [{ start: verseStart, end: verseEnd }];
 
-    const uiName = bookTitle(book.id);
+    const uiName = bookTitle(this.ref.bookId);
     const { root, excerpt, zones } = renderChapterMask(ch, {
-      bookId: book.id,
-      short: uiName || book.original_title || book.short,
+      bookId: this.ref.bookId,
+      short: uiName || this.ref.bookId,
       verseStart,
       verseEnd,
       ranges,
-      lang: book.version?.lang || "",
+      lang: VERSIONS[edition]?.lang || "",
     });
 
     this.root = root;
@@ -204,7 +208,7 @@ export class MaskDilatation {
 
     this._measureHeights();
 
-    return book;
+    return ch;
   }
 
   /**

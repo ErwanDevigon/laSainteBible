@@ -197,6 +197,10 @@ def main() -> int:
         encoding="utf-8",
     )
     print(f"leningrad {n_ok} livres → {OUT}")
+    if n_ok:
+        import subprocess
+
+        subprocess.check_call([sys.executable, str(ROOT / "scripts" / "split-chapters.py")])
     return 0 if n_ok else 1
 
 

@@ -464,6 +464,9 @@ def main() -> int:
         if t:
             print(f"PS23 {disp_of[sig]} {t[:160]!r}")
             break
+    import subprocess
+
+    subprocess.check_call([sys.executable, str(ROOT / "scripts" / "split-chapters.py")])
     return 0
 
 

@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Vault synopse + AT citations → data/parallels-nt.json + data/citations-at.json."""
+"""Vault synopse + AT citations → data/parallels-nt.json + data/citations-at.json.
+
+Also writes data/parallels/{book}.json, the slice a book page actually loads.
+"""
 from __future__ import annotations
 
 import json
@@ -717,6 +720,53 @@ def build_synopse_lines(path: Path, seen: set[str]) -> list[dict]:
     return items
 
 
+def write_book_slices(syn: list, cit: list) -> None:
+    from collections import defaultdict
+
+    buckets: dict[str, dict[str, list]] = defaultdict(
+        lambda: {"synopse": [], "citations": []}
+    )
+
+    def add(book: str | None, kind: str, item: dict) -> None:
+        if not book:
+            return
+        buckets[book][kind].append(item)
+
+    for item in syn:
+        seen: set[str] = set()
+        for passage in item.get("passages") or []:
+            book = passage.get("book")
+            if book and book not in seen:
+                seen.add(book)
+                add(book, "synopse", item)
+    for item in cit:
+        seen = set()
+        origin = (item.get("origin") or {}).get("book")
+        if origin:
+            seen.add(origin)
+            add(origin, "citations", item)
+        for passage in item.get("passages") or []:
+            book = passage.get("book")
+            if book and book not in seen:
+                seen.add(book)
+                add(book, "citations", item)
+
+    out = OUT / "parallels"
+    out.mkdir(parents=True, exist_ok=True)
+    keep: set[str] = set()
+    for book, pack in buckets.items():
+        path = out / f"{book}.json"
+        path.write_text(
+            json.dumps(pack, ensure_ascii=False, separators=(",", ":")) + "\n",
+            encoding="utf-8",
+        )
+        keep.add(path.name)
+    for path in out.glob("*.json"):
+        if path.name not in keep:
+            path.unlink()
+    print(f"parallels/  {len(keep)} livres")
+
+
 def main() -> int:
     syn = build_synopse(VAULT / "Synopse Évangiles.md")
     syn_seen = {it["id"] for it in syn}
@@ -740,6 +790,7 @@ def main() -> int:
     )
     print(f"parallels-nt.json  {len(syn)} pericopes  (+{len(extra_syn)} hors évangiles)")
     print(f"citations-at.json  {len(cit)} C/A  (+{len(extra_cit)} hors évangiles)")
+    write_book_slices(syn, cit)
     return 0
 
 

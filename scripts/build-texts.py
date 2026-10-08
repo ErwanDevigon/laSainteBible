@@ -996,11 +996,18 @@ def write_coverage() -> None:
     subprocess.check_call([sys.executable, str(ROOT / "scripts" / "build-coverage.py")])
 
 
+def write_chapters() -> None:
+    import subprocess
+
+    subprocess.check_call([sys.executable, str(ROOT / "scripts" / "split-chapters.py")])
+
+
 def main() -> int:
     if "--patch-titles" in sys.argv:
         write_books_js()
         patch_didactic_titles()
         write_coverage()
+        write_chapters()
         return 0
     write_books_js()
     print("\n=== Extraction des versions ===")
@@ -1010,6 +1017,7 @@ def main() -> int:
         total += n
     wipe_legacy_root()
     write_coverage()
+    write_chapters()
     print(f"\nTerminé. {total} livres extraits au total.")
     return 0
 
