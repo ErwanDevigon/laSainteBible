@@ -1603,7 +1603,7 @@ body.lecteur-page[data-book] .edition-pane.is-current {
   text-decoration: none;
   box-shadow: 0 0.25rem 0.8rem rgba(0, 0, 0, 0.35);
   opacity: 0;
-  transition: opacity 5s linear;
+  transition: opacity 600ms var(--ease);
 }
 
 .parallel-memo.is-shown {
