@@ -773,6 +773,7 @@ function hideMemo(memo) {
   memo.style.position = "";
   memo.style.top = "";
   memo.style.left = "";
+  memo._left = null;
   const card = memo._card;
   const head = card?.querySelector(":scope > .parallel-card-head, :scope > .reading-ref");
   if (head) head.style.visibility = "";
@@ -789,13 +790,12 @@ function showMemo(memo, card) {
   memo._card = card;
   if (memo.parentElement !== document.body) document.body.appendChild(memo);
   const stick = chromeTop();
-  const left = Math.round(card.getBoundingClientRect().left + 8);
+  const pad = parseFloat(getComputedStyle(card).paddingLeft) || 0;
+  const left = Math.round(card.getBoundingClientRect().left + pad);
   memo.style.position = "fixed";
   memo.style.top = `${Math.round(stick + 6)}px`;
-  if (memo._left !== left) {
-    memo._left = left;
-    memo.style.left = `${left}px`;
-  }
+  memo.style.left = `${left}px`;
+  memo._left = left;
   if (!memo.hidden) return;
   memo.hidden = false;
   memo.classList.remove("is-shown");
