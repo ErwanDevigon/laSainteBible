@@ -7,8 +7,8 @@ import {
   EDITION_STACK,
 } from "./editions.js";
 import { listVersionIds } from "./data-loader.js";
-import { bookHref } from "./books.js";
-import { t } from "./i18n.js";
+import { bookHref, BOOK_BY_ID } from "./books.js";
+import { bookAbbr, t } from "./i18n.js";
 import {
   formatFullRef,
   attachExcerptParallels,
@@ -277,6 +277,14 @@ async function init() {
             reading.ref.ranges
           ) || reading.ref_display;
           card.appendChild(a);
+          card.dataset.bookId = reading.ref.bookId;
+          card.dataset.chapter = String(reading.ref.chapter);
+          const memo = el("a", "parallel-memo");
+          memo.href = a.href;
+          memo.hidden = true;
+          memo.textContent = `${bookAbbr(reading.ref.bookId, BOOK_BY_ID[reading.ref.bookId]?.short || "")} ${reading.ref.chapter}`;
+          card.appendChild(memo);
+          card._memo = memo;
         } else {
           card.appendChild(el("div", "reading-ref", reading.ref_display));
         }

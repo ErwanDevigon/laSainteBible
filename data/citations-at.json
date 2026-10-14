@@ -3157,6 +3157,135 @@
       ]
     },
     {
+      "id": "matthieu-12-38-41-c",
+      "label": "Jon 3,1-10",
+      "kind": "citation",
+      "origin": {
+        "book": "matthieu",
+        "short": "Mt",
+        "spans": [
+          {
+            "chapter": 12,
+            "ranges": [
+              {
+                "start": 38,
+                "end": 41
+              }
+            ]
+          }
+        ],
+        "cites": [
+          "12,38-41"
+        ]
+      },
+      "passages": [
+        {
+          "book": "jonas",
+          "short": "Jon",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,1-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matthieu-12-40-c",
+      "label": "Jon 2,1-11",
+      "kind": "citation",
+      "origin": {
+        "book": "matthieu",
+        "short": "Mt",
+        "spans": [
+          {
+            "chapter": 12,
+            "ranges": [
+              {
+                "start": 40,
+                "end": 40
+              }
+            ]
+          }
+        ],
+        "cites": [
+          "12,40"
+        ]
+      },
+      "passages": [
+        {
+          "book": "jonas",
+          "short": "Jon",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 11
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,1-11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matthieu-12-41-a",
+      "label": "Jon 3,5-10",
+      "kind": "allusion",
+      "origin": {
+        "book": "matthieu",
+        "short": "Mt",
+        "spans": [
+          {
+            "chapter": 12,
+            "ranges": [
+              {
+                "start": 41,
+                "end": 41
+              }
+            ]
+          }
+        ],
+        "cites": [
+          "12,41"
+        ]
+      },
+      "passages": [
+        {
+          "book": "jonas",
+          "short": "Jon",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 5,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,5-10"
+          ]
+        }
+      ]
+    },
+    {
       "id": "matthieu-12-42-a",
       "label": "1 R 10,1-10 ; 2 Ch 9",
       "kind": "allusion",
@@ -3562,6 +3691,92 @@
           ],
           "cites": [
             "29,13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matthieu-16-1-4-c",
+      "label": "Jon 3,1-10",
+      "kind": "citation",
+      "origin": {
+        "book": "matthieu",
+        "short": "Mt",
+        "spans": [
+          {
+            "chapter": 16,
+            "ranges": [
+              {
+                "start": 1,
+                "end": 4
+              }
+            ]
+          }
+        ],
+        "cites": [
+          "16,1-4"
+        ]
+      },
+      "passages": [
+        {
+          "book": "jonas",
+          "short": "Jon",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,1-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matthieu-16-4-a",
+      "label": "Jon 2,1",
+      "kind": "allusion",
+      "origin": {
+        "book": "matthieu",
+        "short": "Mt",
+        "spans": [
+          {
+            "chapter": 16,
+            "ranges": [
+              {
+                "start": 4,
+                "end": 4
+              }
+            ]
+          }
+        ],
+        "cites": [
+          "16,4"
+        ]
+      },
+      "passages": [
+        {
+          "book": "jonas",
+          "short": "Jon",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 1
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "2,1"
           ]
         }
       ]
@@ -10285,6 +10500,53 @@
       ]
     },
     {
+      "id": "luc-11-29-30-32-c",
+      "label": "Jon 3,1-10",
+      "kind": "citation",
+      "origin": {
+        "book": "luc",
+        "short": "Lc",
+        "spans": [
+          {
+            "chapter": 11,
+            "ranges": [
+              {
+                "start": 29,
+                "end": 30
+              },
+              {
+                "start": 32,
+                "end": 32
+              }
+            ]
+          }
+        ],
+        "cites": [
+          "11,29-30.32"
+        ]
+      },
+      "passages": [
+        {
+          "book": "jonas",
+          "short": "Jon",
+          "spans": [
+            {
+              "chapter": 3,
+              "ranges": [
+                {
+                  "start": 1,
+                  "end": 10
+                }
+              ]
+            }
+          ],
+          "cites": [
+            "3,1-10"
+          ]
+        }
+      ]
+    },
+    {
       "id": "luc-11-30-32-a",
       "label": "Jon 2–3 ; 1 R 10",
       "kind": "allusion",
@@ -10307,6 +10569,24 @@
         ]
       },
       "passages": [
+        {
+          "book": "jonas",
+          "short": "Jon",
+          "spans": [
+            {
+              "chapter": 2,
+              "ranges": null
+            },
+            {
+              "chapter": 3,
+              "ranges": null
+            }
+          ],
+          "cites": [
+            "2",
+            "3"
+          ]
+        },
         {
           "book": "1-rois",
           "short": "1 R",

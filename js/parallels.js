@@ -554,10 +554,12 @@ function cardHost(edition, bookId, span, kind) {
     verse: span.ranges?.[0]?.start || null,
   });
   head.textContent = headingFor(bookId, span);
-  const memo = document.createElement("div");
+  const memo = document.createElement("a");
   memo.className = "parallel-memo";
   memo.hidden = true;
+  memo.href = head.href;
   memo.textContent = memoLabel(bookId, span);
+  art._memo = memo;
   const shield = document.createElement("div");
   shield.className = "parallel-memo-shield";
   shield.setAttribute("aria-hidden", "true");
@@ -679,6 +681,9 @@ function foldPromise(dil, instant) {
 }
 
 function emptyCards(el) {
+  el.querySelectorAll(":scope > .parallel-card").forEach((card) => {
+    if (card._memo) hideMemo(card._memo);
+  });
   el.replaceChildren();
   el.classList.remove("is-open", "is-leaving");
   el.style.marginTop = "";
@@ -765,15 +770,32 @@ function hideMemo(memo) {
   if (!memo) return;
   memo.classList.remove("is-shown");
   memo.hidden = true;
-  const card = memo.parentElement;
-  const head = card?.querySelector(":scope > .parallel-card-head");
+  memo.style.position = "";
+  memo.style.top = "";
+  memo.style.left = "";
+  const card = memo._card;
+  const head = card?.querySelector(":scope > .parallel-card-head, :scope > .reading-ref");
   if (head) head.style.visibility = "";
   const shield = card?.querySelector(":scope > .parallel-memo-shield");
   if (shield) shield.style.height = "";
+  const home = memo._home;
+  if (home?.isConnected && memo.parentElement !== home) home.appendChild(memo);
 }
 
-function showMemo(memo, top) {
-  memo.style.top = `${top}px`;
+function showMemo(memo, card) {
+  // Fixed, and outside the card: the card's dilatation transform
+  // would otherwise drag the bubble a frame behind the chrome.
+  if (!memo._home) memo._home = card;
+  memo._card = card;
+  if (memo.parentElement !== document.body) document.body.appendChild(memo);
+  const stick = chromeTop();
+  const left = Math.round(card.getBoundingClientRect().left + 8);
+  memo.style.position = "fixed";
+  memo.style.top = `${Math.round(stick + 6)}px`;
+  if (memo._left !== left) {
+    memo._left = left;
+    memo.style.left = `${left}px`;
+  }
   if (!memo.hidden) return;
   memo.hidden = false;
   memo.classList.remove("is-shown");
@@ -783,15 +805,17 @@ function showMemo(memo, top) {
 
 function syncMemos() {
   const stick = chromeTop();
-  document.querySelectorAll(".parallel-card").forEach((card) => {
-    const memo = card.querySelector(":scope > .parallel-memo");
-    const head = card.querySelector(":scope > .parallel-card-head");
+  document.querySelectorAll(".parallel-card, .reading-card").forEach((card) => {
+    const memo = card._memo || card.querySelector(":scope > .parallel-memo");
+    const head = card.querySelector(":scope > .parallel-card-head, :scope > .reading-ref");
     if (!memo || !head) return;
+    const reading = card.classList.contains("reading-card");
     const box = card.parentElement;
-    const open =
-      box?.classList.contains("parallel-cards") &&
-      box.classList.contains("is-open") &&
-      !box.classList.contains("is-leaving");
+    const open = reading
+      ? true
+      : box?.classList.contains("parallel-cards") &&
+        box.classList.contains("is-open") &&
+        !box.classList.contains("is-leaving");
     const cr = card.getBoundingClientRect();
     const hr = head.getBoundingClientRect();
     const onScreen =
@@ -799,18 +823,15 @@ function syncMemos() {
       cr.top < window.innerHeight &&
       cr.right > 8 &&
       cr.left < window.innerWidth - 8;
-    // The bars are translucent, so a title sliding under them stays readable.
-    // Hide that title and pin the bubble as soon as the head touches the chrome.
     const headUnder = hr.top < stick - 1;
-    const top = Math.max(6, stick - cr.top + 6);
     const shield = card.querySelector(":scope > .parallel-memo-shield");
-    if (!open || !onScreen || !headUnder || top > cr.height - 20) {
+    if (!open || !onScreen || !headUnder || stick - cr.top > cr.height - 20) {
       hideMemo(memo);
       return;
     }
-    showMemo(memo, top);
+    showMemo(memo, card);
     head.style.visibility = "hidden";
-    if (shield) shield.style.height = `${Math.max(0, stick - cr.top)}px`;
+    if (shield) shield.style.height = `${Math.max(0, Math.round(stick - cr.top))}px`;
   });
 }
 
@@ -1392,14 +1413,19 @@ function bindGlobal() {
   });
 
   document.addEventListener("lsb:ui-lang", () => {
-    document.querySelectorAll(".parallel-card").forEach((card) => {
+    document.querySelectorAll(".parallel-card, .reading-card").forEach((card) => {
       const bookId = card.dataset.bookId;
       const span = card._span;
-      if (!bookId || !span) return;
-      const head = card.querySelector(":scope > .parallel-card-head");
-      const memo = card.querySelector(":scope > .parallel-memo");
-      if (head) head.textContent = headingFor(bookId, span);
-      if (memo) memo.textContent = memoLabel(bookId, span);
+      const memo = card._memo;
+      if (!bookId) return;
+      if (span) {
+        const head = card.querySelector(":scope > .parallel-card-head");
+        if (head) head.textContent = headingFor(bookId, span);
+        if (memo) memo.textContent = memoLabel(bookId, span);
+        return;
+      }
+      const ch = card.dataset.chapter;
+      if (memo && ch) memo.textContent = memoLabel(bookId, { chapter: +ch });
     });
   });
 

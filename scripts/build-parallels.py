@@ -132,6 +132,7 @@ ALIASES = [
     ("am", "amos"),
     ("ab", "abdias"),
     ("mi", "michee"),
+    ("jon", "jonas"),
     ("na", "nahum"),
     ("ha", "habacuc"),
     ("so", "sophonie"),

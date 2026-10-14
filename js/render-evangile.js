@@ -148,7 +148,9 @@ export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, r
   const before = maskZone("before");
   before.inner.appendChild(label);
   if (segs[0] && !segs[0].cited) {
-    for (const v of segs[0].verses) before.inner.appendChild(verseRow(chapter.n, v, { lang }));
+    for (const v of segs[0].verses) {
+      before.inner.appendChild(verseRow(chapter.n, v, { lang, withId: false }));
+    }
     segs.shift();
   }
   root.appendChild(before.wrap);
@@ -160,7 +162,7 @@ export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, r
       const block = document.createElement("div");
       block.className = "mask-excerpt";
       for (const v of seg.verses) {
-        block.appendChild(verseRow(chapter.n, v, { highlight: true, lang }));
+        block.appendChild(verseRow(chapter.n, v, { highlight: true, lang, withId: false }));
       }
       if (!excerpt) excerpt = block;
       root.appendChild(block);
@@ -171,7 +173,9 @@ export function renderChapterMask(chapter, { short = "", verseStart, verseEnd, r
       root.appendChild(maskFold());
     }
     const gap = maskZone(i === segs.length - 1 ? "after" : "gap");
-    for (const v of seg.verses) gap.inner.appendChild(verseRow(chapter.n, v, { lang }));
+    for (const v of seg.verses) {
+      gap.inner.appendChild(verseRow(chapter.n, v, { lang, withId: false }));
+    }
     root.appendChild(gap.wrap);
     zones.push({ el: gap.wrap, kind: "down" });
   }
@@ -492,7 +496,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
           h += estimate(nums[up]);
         }
       }
-      return [up, down];
+      return [Math.max(0, up - 2), Math.min(nums.length - 1, down + 2)];
     }
     const stageTop = stage.getBoundingClientRect().top + window.scrollY;
     const y0 = window.scrollY - stageTop - window.innerHeight;
@@ -507,7 +511,7 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
     while (lo < nums.length - 1 && prefix[lo] + estimate(nums[lo]) < y0) lo += 1;
     let hi = nums.length - 1;
     while (hi > lo && prefix[hi] > y1) hi -= 1;
-    return [Math.max(0, lo - 1), Math.min(nums.length - 1, hi + 1)];
+    return [Math.max(0, lo - 2), Math.min(nums.length - 1, hi + 2)];
   }
 
   function measureBand(band) {
@@ -566,6 +570,9 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
       const line = (chrome ? chrome.getBoundingClientRect().bottom : 0) + 8;
       let snapView = -1e9;
       for (const el of stage.querySelectorAll(".chapter-label[id], .verse[id]")) {
+        // A citation verse shares the screen with the line being read.
+        // Anchoring on it yanks the page back when the window moves.
+        if (el.closest(".parallel-card, .mask-zone")) continue;
         const view = el.getBoundingClientRect().top;
         if (view <= line && view > snapView) {
           const band = el.closest(".chapter-band");
@@ -632,20 +639,25 @@ export function renderAlignedBook({ editions, container, end = null, priority = 
       if (measureBand(band)) changed = true;
     }
     if (changed) writeSpacers(firstIdx < 0 ? 0 : firstIdx, lastIdx);
+    let pinned = false;
     if (opts.pin !== false && snap?.id) {
       const el = document.getElementById(snap.id);
-      if (el) {
+      if (el && !el.closest(".parallel-card, .mask-zone")) {
         const dy = el.getBoundingClientRect().top - snap.view;
         if (Math.abs(dy) > 1.5) {
           state.lock += 1;
           window.scrollBy(0, dy);
           state.lock -= 1;
+          pinned = true;
         }
       }
     }
     state.lastKey = `${lo}:${hi}`;
     if (geomKey) state.geomKey = geomKey;
     api?.onChange?.();
+    // The correction can land in another chapter span. Rebuild once,
+    // without pinning again, or the next scroll event plays it back.
+    if (pinned) syncWindow({ pin: false });
   }
 
   function onScroll() {

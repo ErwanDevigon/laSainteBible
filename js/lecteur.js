@@ -253,9 +253,11 @@ async function init() {
       }
 
       if (!railApi) {
+        const primaryBook = books[loaded[loaded.length - 1]];
         const nums = chapterNums(primaryBook);
         railApi = mountChapterRail({
           chapters: nums,
+          siglum: primaryBook?.short || "",
           getTarget: (n) =>
             bodyEl._chapterWindow?.ensure(n) ||
             bodyEl.querySelector(`#c${n}`) ||

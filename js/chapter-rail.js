@@ -1,4 +1,4 @@
-import { glideToElement } from "./fade-nav.js";
+import { fadeTo, glideToElement, jumpToElement } from "./fade-nav.js";
 import { t } from "./i18n.js";
 
 /**
@@ -11,12 +11,22 @@ import { t } from "./i18n.js";
  *   offset?: () => number,
  * }} opts
  */
+function chromeBottom() {
+  const bar =
+    document.querySelector(".edition-name-bar") ||
+    document.querySelector(".active-edition-bar") ||
+    document.querySelector(".book-title-bar") ||
+    document.querySelector(".site-header");
+  return bar ? bar.getBoundingClientRect().bottom : 0;
+}
+
 export function mountChapterRail({
   chapterCount,
   chapters,
   getTarget,
   getOffset = null,
   offset = () => 0,
+  siglum = "",
 }) {
   document.querySelector(".chapter-rail")?.remove();
 
@@ -31,8 +41,35 @@ export function mountChapterRail({
   nav.setAttribute("aria-label", t("chapters"));
   nav.style.setProperty("--chapter-count", String(nums.length));
 
+  const book = document.createElement("div");
+  book.className = "chapter-rail-book";
+  book.textContent = siglum;
+  book.hidden = !siglum;
+  nav.appendChild(book);
+
+  let columnMemo = null;
+  if (siglum) {
+    columnMemo = document.createElement("a");
+    columnMemo.className = "column-memo";
+    columnMemo.hidden = true;
+    document.body.appendChild(columnMemo);
+  }
+
   /** @type {HTMLAnchorElement[]} */
   const links = [];
+
+  function goTo(n) {
+    const ready = document.getElementById(`c${n}`);
+    const land = () => {
+      const el = ready && ready.isConnected ? ready : getTarget(n);
+      if (el) jumpToElement(el, { offset: offset() });
+    };
+    // Outside the mounted window there is nothing to glide across.
+    if (ready && ready.isConnected) glideToElement(ready, { offset: offset() });
+    else fadeTo(land);
+    history.pushState({ chapter: n }, "", `#c${n}`);
+    setCurrent(n);
+  }
 
   for (const n of nums) {
     const a = document.createElement("a");
@@ -45,11 +82,7 @@ export function mountChapterRail({
     a.setAttribute("aria-label", t("chapter", n));
     a.addEventListener("click", (e) => {
       e.preventDefault();
-      const el = getTarget(n);
-      if (!el) return;
-      glideToElement(el, { offset: offset() });
-      history.pushState({ chapter: n }, "", `#c${n}`);
-      setCurrent(n);
+      goTo(n);
     });
     nav.appendChild(a);
     links.push(a);
@@ -158,7 +191,27 @@ export function mountChapterRail({
       }
     }
     setCurrent(nums[best]);
+    placeColumnMemo(nums[best]);
   };
+
+  function placeColumnMemo(n) {
+    if (!columnMemo) return;
+    const label = document.getElementById(`c${n}`);
+    const stick = chromeBottom();
+    if (!label || label.getBoundingClientRect().bottom >= stick - 1) {
+      columnMemo.hidden = true;
+      return;
+    }
+    columnMemo.textContent = `${siglum} ${n}`;
+    columnMemo.href = `#c${n}`;
+    columnMemo.style.top = `${Math.round(stick + 6)}px`;
+    const left = Math.round(label.getBoundingClientRect().left);
+    if (columnMemo._left !== left) {
+      columnMemo._left = left;
+      columnMemo.style.left = `${left}px`;
+    }
+    columnMemo.hidden = false;
+  }
 
   const onScroll = () => {
     railFromPage();
@@ -183,8 +236,14 @@ export function mountChapterRail({
   const onPop = () => {
     const m = /^#c(\d+)/i.exec(location.hash || "");
     const n = m ? parseInt(m[1], 10) : nums[0];
-    const el = getTarget(n);
-    if (el) glideToElement(el, { offset: offset() });
+    const ready = document.getElementById(`c${n}`);
+    const land = () => {
+      const el = ready && ready.isConnected ? ready : getTarget(n);
+      if (el) jumpToElement(el, { offset: offset() });
+    };
+    if (ready && ready.isConnected) glideToElement(ready, { offset: offset() });
+    else fadeTo(land);
+    setCurrent(n);
   };
   window.addEventListener("popstate", onPop);
 
@@ -204,6 +263,7 @@ export function mountChapterRail({
       nav.removeEventListener("scroll", pageFromRail);
       document.removeEventListener("lsb:ui-lang", relabel);
       if (spyRaf) cancelAnimationFrame(spyRaf);
+      columnMemo?.remove();
       nav.remove();
     },
     setCurrent,
