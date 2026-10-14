@@ -15,6 +15,14 @@ Thumbs.db
 *.swp
 *~
 
+# Scripts de traduction du Tanakh : locaux seulement, pas sur GitHub
+scripts/calque-massoretique.py
+scripts/calque-publier.py
+scripts/calque-chapitre.py
+scripts/calque-suite.py
+scripts/candidats-calque.py
+scripts/lexique-calque.json
+
 # Editors
 .idea/
 .vscode/

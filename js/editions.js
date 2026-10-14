@@ -204,6 +204,7 @@ export function editionName(id) {
 }
 
 export function editionYearShort(id) {
+  if (id === "calque" || id === "calque-en") return "";
   const v = EDITIONS[id];
   if (!v) return "";
   if (v.year_label) return v.year_label;
