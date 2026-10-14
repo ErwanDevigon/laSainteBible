@@ -1,0 +1,225 @@
+{
+  "id": "nahum",
+  "title": "Livre de Nahum",
+  "original_title": "Nahum",
+  "short": "Na",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "oracle-of Nineveh ; book-of vision-of Nahum the-Elkoshite."
+        },
+        {
+          "n": 2,
+          "t": "El jealous and-avenging YHWH, avenging YHWH and-master-of rage ; avenging YHWH to/for-enemies-of-him, and-keeping he to/for-enemying-of-him."
+        },
+        {
+          "n": 3,
+          "t": "YHWH slow-of noses and-great-of strength, and-clear not will-clear ; YHWH in-whirlwind and-in-storm way-of-him, and-cloud dust-of foots-of-him."
+        },
+        {
+          "n": 4,
+          "t": "rebuking in-the-sea and-all-of the-rivers and-has-withered-him, has-made-dry ; Bashan and-Carmel has-weakened, and-flower-of Lebanon has-weakened."
+        },
+        {
+          "n": 5,
+          "t": "mountains have-shaked from-us, and-the-Gibat have-melted ; the-land and-has-lifted from-faces-of-him, and-world and-all-of dwelling-of in-her."
+        },
+        {
+          "n": 6,
+          "t": "to/for-faces-of indignation-of-him who he-will-stand, and-who he-will-rise in-burning-of nose-of-him ; rage-of-him has-been-poured like-the-fire, and-the-rockses have-been-teared from-him."
+        },
+        {
+          "n": 7,
+          "t": "good YHWH, to/for-security in-day-of distress ; and-knowing refuging-of in-him."
+        },
+        {
+          "n": 8,
+          "t": "and-in-flood passing, place-of-her ; will-do consummation and-enemying-of-him darkness will-pursue."
+        },
+        {
+          "n": 9,
+          "t": "what you-pl-will-devise toward YHWH, consummation he doing ; not will-rise strokes distress."
+        },
+        {
+          "n": 10,
+          "t": "for until thorns interweaved, and-like-liquor-of-them imbibed ; they-have-been-eaten, like-stubble dry full."
+        },
+        {
+          "n": 11,
+          "t": "from-you-f has-exited, devising on YHWH evil ; advising-of belial."
+        },
+        {
+          "n": 12,
+          "t": "thus YHWH has-said if complete and-thus many, and-thus they-have-been-sheared and-has-passed ; and-I-have-afflicted-you-f, not I-will-afflict-you-f still."
+        },
+        {
+          "n": 13,
+          "t": "and-now, I-will-break yoke-of-him on-you-f ; and-bonds-of-you-f I-will-tear."
+        },
+        {
+          "n": 14,
+          "t": "YHWH, and-has-commanded on-you not will-be-sown from-name-of-you still ; from-house-of god-of-you I-will-make-cut idol and-liquid I-will-put grave-of-you for you-have-lightened."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "behold on the-mountains foots-of bearing making-hear peace, celebrate Judah feasts-of-you-f complete vows-of-you-f ; for not belial will-make-add still to/for-pass in-you-f all-of-him has-been-cut."
+        },
+        {
+          "n": 2,
+          "t": "he-has-ascended making-scatterer on faces-of-you-f watch fortress ; watch way strengthen loins, strengthen strength very."
+        },
+        {
+          "n": 3,
+          "t": "for YHWH has-returned pride-of Jacob, like-pride-of Israel ; for have-emptied-them emptying, and-branches-of-them have-ruined."
+        },
+        {
+          "n": 4,
+          "t": "shield-of mighty-of-him reddened mans-of helech scarleted, in-fire-of irons the-chariot in-day-of make-establish-of-him ; and-the-cypresses have-been-made-quiver."
+        },
+        {
+          "n": 5,
+          "t": "in-the-outsides they-will-boast the-chariot, they-will-rush in-the-squares ; sight-of-them-f like-the-torches, like-the-lightnings they-will-run."
+        },
+        {
+          "n": 6,
+          "t": "he-will-remember great-of-him, they-will-be-stumbled in-walks-of-them in-walk-of-them ; they-will-hasten wall-of-her, the-protector and-has-been-made-establish."
+        },
+        {
+          "n": 7,
+          "t": "gates-of the-rivers have-been-opened ; and-the-temple has-been-melted."
+        },
+        {
+          "n": 8,
+          "t": "and-he-has-been-made-stand she-has-been-heglamed she-has-been-made-ascend ; and-maidservants-of-her moaning like-voice-of doves, beating on hearts-of-them-f."
+        },
+        {
+          "n": 9,
+          "t": "and-Nineveh like-pool-of waters from-days-of he ; and-they fleeing, stand stand and-naught making-turn."
+        },
+        {
+          "n": 10,
+          "t": "plunder silver plunder gold ; and-naught end to/for-the-fitting, glory, from-all-of article-of desire."
+        },
+        {
+          "n": 11,
+          "t": "emptiness and-emptiness and-wasted ; and-heart has-been-melted and-tottering-of knees and-anguish in-all-of loins, and-faces-of all-of-them have-gathered pale."
+        },
+        {
+          "n": 12,
+          "t": "where habitation-of lions, and-pasture he to/for-the-lions ; who lion lion has-gone there whelp-of lion and-naught making-tremble."
+        },
+        {
+          "n": 13,
+          "t": "lion tearing in-sufficiency-of whelps-of-him, and-strangling to/for-lions-of-him ; prey and-has-filled holes-of-him, and-habitations-of-him torn."
+        },
+        {
+          "n": 14,
+          "t": "lo-me toward-you-f utterance-of YHWH hostses, and-I-have-made-burn in-the-smoke chariot-of-her, and-lions-of-you-f sword will-eat ; and-I-have-made-cut from-land prey-of-you-f, and-not will-be-heard still voice-of messengers-of-you-f."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "woe city-of bloods ; all-of-her lie plunder fruit, not will-remove prey."
+        },
+        {
+          "n": 2,
+          "t": "voice-of whip, and-voice-of quaking-of wheel ; and-horse rushing, and-chariot abouting."
+        },
+        {
+          "n": 3,
+          "t": "horseman making-ascend and-flame-of sword and-lightning-of spear, and-abundance-of slain and-heaviness-of corpse ; and-naught end to/for-the-body, they-will-be-stumbled and-they-have-stumbled in-body-of-them."
+        },
+        {
+          "n": 4,
+          "t": "from-abundance-of fornications-of fornicating, good-of favor mistress-of sorceries ; the-selling nations in-fornications-of-her, and-families in-sorceries-of-her."
+        },
+        {
+          "n": 5,
+          "t": "lo-me toward-you-f utterance-of YHWH hostses, and-I-have-heglamed hems-of-you-f on faces-of-you-f ; and-I-have-made-see nations nakedness-of-you-f, and-kingdoms dishonor-of-you-f."
+        },
+        {
+          "n": 6,
+          "t": "and-I-have-made-throw on-you-f abominations and-I-have-senselessed-you-f ; and-I-have-put-you-f like-sight."
+        },
+        {
+          "n": 7,
+          "t": "all-of and-has-been seeing-of-you-f will-wander from-you-f, and-has-said Nineveh has-been-ruined, who will-wander to/for-her ; from-where I-will-seek sorrying to/for-you-f."
+        },
+        {
+          "n": 8,
+          "t": "is-it-you-f-will-make-improve from-Thebes Amon, the-dwelling in-the-Nile, waters around to/for-her ; who rampart-of sea, from-sea wall-of-her."
+        },
+        {
+          "n": 9,
+          "t": "Cush strength-of-her and-Egypt and-naught end ; Put and-Libyan, have-been in-help-of-you-f."
+        },
+        {
+          "n": 10,
+          "t": "also he to/for-the-captivity has-gone in-the-captivity, also infants-of-her will-pieces in-head-of all-of outsides ; and-on honors-of-her they-have-loted allotted, and-all-of great-of-her they-have-been-bound in-the-fetters."
+        },
+        {
+          "n": 11,
+          "t": "also you will-drunk, she-will-be concealed ; also you will-seek security from-enemying."
+        },
+        {
+          "n": 12,
+          "t": "all-of fortifications-of-you-f, figs with firstfruits ; if they-will-be-shaked, and-they-have-fallen on lip-of eating."
+        },
+        {
+          "n": 13,
+          "t": "behold people-of-you-f womans in-entrails-of-you-f, to/for-enemying-of-you-f, open have-been-opened gates-of land-of-you-f ; fire has-eaten bars-of-you-f."
+        },
+        {
+          "n": 14,
+          "t": "waters-of siege draw to/for-you-f, strengthen fortifications-of-you-f ; come in-the-mud and-trample in-the-clay make-strengthen brick."
+        },
+        {
+          "n": 15,
+          "t": "there fire will-eat-you-f, will-make-cut-you-f sword, will-eat-you-f like-the-locust ; honor like-the-locust, honor like-the-locust."
+        },
+        {
+          "n": 16,
+          "t": "you-f-have-made-multiply trading-of-you-f, from-stars-of the-heavens ; locust has-striped and-has-flown."
+        },
+        {
+          "n": 17,
+          "t": "princes-of-you-f like-the-locust, and-officials-of-you-f like-locust-of locusts ; the-camping in-the-Wall in-day-of cold, sun has-risen and-has-wandered, and-not place-of-him has-been-known where-them."
+        },
+        {
+          "n": 18,
+          "t": "they-have-slumbered pasturing-of-you king-of Asshur, they-will-dwell great-of-you ; have-been-scattered people-of-you on the-mountains and-naught gathering."
+        },
+        {
+          "n": 19,
+          "t": "naught easing to/for-breaking-of-you, weaked wound-of-you ; all-of hearing-of report-of-you they-have-blowed palm on-you, for on who not has-passed evil-of-you continually."
+        }
+      ]
+    }
+  ]
+}

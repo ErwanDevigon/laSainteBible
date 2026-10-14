@@ -1798,6 +1798,34 @@ export const VERSIONS = {
     "at": "Lumang Tipan",
     "nt": "Bagong Tipan"
   },
+  "calque": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "calque-en": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
   "qumran": {
     "id": "qumran",
     "label": "Qumrân",

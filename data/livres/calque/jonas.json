@@ -1,0 +1,234 @@
+{
+  "id": "jonas",
+  "title": "Livre de Jonas",
+  "original_title": "Jonas",
+  "short": "Jon",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "parole-de YHWH et-a-été, vers Jonas fils-de Amittai à/pour-dire."
+        },
+        {
+          "n": 2,
+          "t": "leve va vers Ninive la-ville la-grande et-appele sur-elle ; car mal-de-eux est-monté à/pour-faces-de-moi."
+        },
+        {
+          "n": 3,
+          "t": "Jonas et-est-levé à/pour-atteindre Tarshish-vers, depuis-faces-de YHWH ; Joppa et-est-descendu et-a-trouvé navires venante Tarshish et-a-donné louage-de-elle et-est-descendu dans-elle à/pour-venir avec-eux Tarshish-vers, depuis-faces-de YHWH."
+        },
+        {
+          "n": 4,
+          "t": "et-YHWH a-fait-jeter esprit grande vers le-mer, et-a-été tourbillon grand dans-le-mer ; et-la-navires, a-pensé à/pour-être-briser."
+        },
+        {
+          "n": 5,
+          "t": "les-marins et-ont-craint et-ont-gcfoé homme vers dieu-de-lui et-ont-fait-jeter les-ustensiles qui dans-la-navires vers le-mer, à/pour-faire-léger sur-eux ; et-Jonas est-descendu vers flancs-de la-navire, et-a-menti et-a-été-gjtjé."
+        },
+        {
+          "n": 6,
+          "t": "beaucoup-de le-pilot, et-a-present vers-lui et-a-dit à/pour-lui quoi à/pour-toi gjtjé ; leve appele vers dieu-de-toi, peut-être gifebera le-dieu à/pour-nous et-non nous-périrons."
+        },
+        {
+          "n": 7,
+          "t": "et-ont-dit homme vers ami-de-lui allez et-nous-faisons-tomber sorts, et-nous-sachons, que-dans-lequel la-mal la-celle-ci à/pour-nous ; sorts et-ont-fait-tomber, et-est-tombé le-sort sur Jonas."
+        },
+        {
+          "n": 8,
+          "t": "et-ils-ont-dit vers-lui, fais-annoncer-hé donc à/pour-nous, dans-in à/pour-lequel la-mal la-celle-ci à/pour-nous ; quoi travail-de-toi et-depuis-gnf viendras, quoi terre-de-toi, et-où depuis-celui-ci peuple tu."
+        },
+        {
+          "n": 9,
+          "t": "Hebrew et-a-dit vers-eux moi ; et-YHWH dieu-de les-ciels je a-craintif, qui a-fait le-mer et-la-sèche."
+        },
+        {
+          "n": 10,
+          "t": "les-hommes et-ont-craint craintife grande, et-ont-dit vers-lui quoi celle-ci tu-as-fait ; car les-hommes ont-su car depuis-faces-de YHWH lui atteindant, car a-fait-annoncer à/pour-eux."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-ont-dit vers-lui quoi nous-ferons à/pour-toi-f, le-mer et-gliuera sur-nous ; car le-mer marchant et-tempêtant."
+        },
+        {
+          "n": 12,
+          "t": "et-a-dit vers-eux portez-moi et-faites-jeter-moi vers le-mer, et-gliuera le-mer sur-vous ; car sachant je, car que-which-moi, le-tourbillon le-grand le-celui-ci sur-vous."
+        },
+        {
+          "n": 13,
+          "t": "les-hommes et-ont-gdfdé à/pour-faire-retourner vers la-sèche et-non ont-vaincu ; car le-mer, marchant et-tempêtant sur-eux."
+        },
+        {
+          "n": 14,
+          "t": "et-ils-ont-appelé vers YHWH et-ils-ont-dit ô YHWH ne donc nous-périssons dans-âme-de le-homme le-celui-ci, et-ne tu-donnes sur-nous sang ggwyb ; car tu YHWH, comme-lorsque as-plaisi as-fait."
+        },
+        {
+          "n": 15,
+          "t": "et-ils-ont-porté Jonas, et-ils-ont-fait-jeter-lui vers le-mer ; le-mer et-a-resté depuis-fureur-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "les-hommes et-ont-craint craintife grande YHWH ; et-ont-sacrifié sacrifice à/pour-YHWH, vœus et-ont-voué."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH fish grand et-a-calculé, à/pour-engloutir Jonas ; Jonas et-a-été dans-entrailles-de le-fish, trois jours et-trois nuits."
+        },
+        {
+          "n": 2,
+          "t": "Jonas et-a-se-prié, vers YHWH dieu-de-lui ; depuis-entrailles-de la-poisson."
+        },
+        {
+          "n": 3,
+          "t": "et-a-dit je-ai-appelé depuis-angoisse à/pour-moi vers YHWH et-a-répondu-moi ; depuis-ventre-de scheol je-ai-gklté tu-as-écouté voix-de-moi."
+        },
+        {
+          "n": 4,
+          "t": "et-tu-as-fait-jeter-moi profond dans-volonté-de mers, et-fleuve il-tournera-moi ; tout-de waves-de-toi et-sources-de-toi sur-moi ont-passé."
+        },
+        {
+          "n": 5,
+          "t": "et-je ai-dit, ai-été-chassé devant yeux-de-toi ; sûrement je-ferai-ajouter à/pour-faire-regarder, vers temple-de sainteté-de-toi."
+        },
+        {
+          "n": 6,
+          "t": "eaux ont-environné-moi jusqu'à âme, abîme tournera-moi ; roseau sellé à/pour-tête-de-moi."
+        },
+        {
+          "n": 7,
+          "t": "à/pour-formes-de monts je-suis-descendu, la-terre barres-de-elle derrière-moi à/pour-durée ; et-tu-as-fait-monter depuis-pit vies-de-moi YHWH dieu-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "dans-se-ghpxcer sur-moi âme-de-moi, YHWH je-ai-rappelé ; prière-de-moi, et-est-venu vers-toi vers temple-de sainteté-de-toi."
+        },
+        {
+          "n": 9,
+          "t": "gardants vanitys-de vanité ; faveur-de-eux ils-abandonneront."
+        },
+        {
+          "n": 10,
+          "t": "et-je dans-voix-de louange sacrifie à/pour-toi-f, qui ai-voué gkuqae ; délivrance à/pour-YHWH."
+        },
+        {
+          "n": 11,
+          "t": "YHWH et-a-dit à/pour-le-fish ; et-il-a-fait-vomir Jonas vers la-sèche."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "parole-de YHWH et-a-été vers Jonas seconde à/pour-dire."
+        },
+        {
+          "n": 2,
+          "t": "leve va vers Ninive la-ville la-grande ; et-appele vers-elle la-proclamation, qui moi parlant vers-toi."
+        },
+        {
+          "n": 3,
+          "t": "Jonas et-est-levé et-est-allé vers Ninive comme-parole-de YHWH ; ville grande a-été et-Ninive à/pour-dieu, voyage-de trois-de jours."
+        },
+        {
+          "n": 4,
+          "t": "Jonas et-a-fait-commencer à/pour-venir dans-la-ville, voyage-de jour un ; et-a-appelé et-a-dit, encore quarante jour, et-Ninive tournée."
+        },
+        {
+          "n": 5,
+          "t": "hommes-de Ninive et-ont-fait-supporter dans-dieu ; et-ont-appelé jeûne sacs depuis-grand-de-eux et-ont-vêtu, et-jusqu'à jeune-de-eux."
+        },
+        {
+          "n": 6,
+          "t": "le-parole et-a-touché vers roi-de Ninive, et-est-levé depuis-trône-de-lui, et-a-fait-passer manteau-de-lui sur-lui ; sac et-a-cové, et-a-habité sur le-cendre."
+        },
+        {
+          "n": 7,
+          "t": "et-il-a-fait-gcfoer et-il-a-dit dans-Ninive, depuis-goût-de le-roi et-grands-de-lui à/pour-dire ; le-homme et-la-bête le-bœufs et-le-troupeau ne ils-percevoir anything, ne ils-paîtent, et-eau ne ils-boivent."
+        },
+        {
+          "n": 8,
+          "t": "sacs et-coveront le-homme et-la-bête, et-appeleront vers dieu dans-violence ; et-ils-retourneront homme depuis-chemin-de-lui la-male, et-depuis le-violence qui dans-palmes-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "lequel sachant retournera, le-dieu et-a-été-consolé ; et-il-est-retourné depuis-gdaj-de nez-de-lui et-non nous-périrons."
+        },
+        {
+          "n": 10,
+          "t": "le-dieu et-a-vu actes-de-eux, car ils-sont-retourné depuis-chemin-de-eux la-male ; le-dieu et-a-été-consolé sur la-mal qui a-parlé à/pour-faire à/pour-eux et-non a-fait."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Jonas et-a-nui vers mal grande ; et-il-a-embrasé à/pour-lui."
+        },
+        {
+          "n": 2,
+          "t": "YHWH et-a-se-prié vers et-a-dit ô YHWH est-ce-non celui-ci parole-de-moi jusqu'à être-de-moi sur sol-de-moi, sur ainsi je-ai-rencontré à/pour-atteindre Tarshish-vers ; car je-ai-su car tu El miséricordieux et-compatissant, longues-de nez et-nombreux-de faveur, et-consolé sur la-mal."
+        },
+        {
+          "n": 3,
+          "t": "et-maintenant YHWH, prends donc âme-de-moi depuis-moi ; car bon mort-de-moi depuis-vies-de-moi."
+        },
+        {
+          "n": 4,
+          "t": "YHWH et-a-dit, est-ce-le-faire-améliorer a-embrasé à/pour-toi-f."
+        },
+        {
+          "n": 5,
+          "t": "Jonas et-est-sorti depuis la-ville, et-a-habité depuis-orient à/pour-la-ville ; et-il-a-fait à/pour-lui là fourré et-il-a-habité sous-elle dans-le-ombre, jusqu'à qui il-verra, quoi il-sera dans-la-ville."
+        },
+        {
+          "n": 6,
+          "t": "YHWH dieu gjja et-a-calculé et-est-monté sur à/pour-Jonas à/pour-être ombre sur tête-de-lui, à/pour-faire-délivrer à/pour-lui depuis-mal-de-lui ; Jonas et-a-réjoui sur le-gjja gaieté grande."
+        },
+        {
+          "n": 7,
+          "t": "le-dieu et-a-calculé ver, dans-monter le-aube à/pour-la-morrow ; et-elle-a-fait-frapper le-gjja et-il-a-flétri."
+        },
+        {
+          "n": 8,
+          "t": "et-a-été comme-apparaître le-soleil et-a-calculé dieu esprit-de orient chaude, et-a-fait-frapper le-soleil sur tête-de Jonas et-a-se-ghuné ; et-a-demandé âme-de-lui à/pour-mourir, et-a-dit, bon mourir-de-moi depuis-vies-de-moi."
+        },
+        {
+          "n": 9,
+          "t": "dieu et-a-dit vers Jonas, est-ce-le-faire-améliorer a-embrasé à/pour-toi sur le-gjja ; et-a-dit, faire-améliorer mort a-embrasé à/pour-moi jusqu'à."
+        },
+        {
+          "n": 10,
+          "t": "YHWH et-a-dit, tu as-épargné sur le-gjja, qui non as-travaillé dans-lui et-non as-crû-lui ; que-fils-de nuit a-été et-fils-de nuit a-péri."
+        },
+        {
+          "n": 11,
+          "t": "et-je non épargnerai, sur Ninive la-ville la-grande ; qui substance dans-elle faire-multiplier depuis-deux dix milliers homme qui non a-su entre right-de-lui à/pour-gauche-de-lui, et-dans-bête nombreuse."
+        }
+      ]
+    }
+  ]
+}

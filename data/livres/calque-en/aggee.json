@@ -1,0 +1,184 @@
+{
+  "id": "aggee",
+  "title": "Livre d'Aggée",
+  "original_title": "Aggée",
+  "short": "Ag",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-year-of two to/for-Darius the-king, in-the-month the-sixth, in-day one to/for-the-month ; word-of YHWH has-been in-hand-of Haggai the-prophet toward Zerubbabel son-of Shealtiel governor-of Judah, and-toward Joshua son-of Jehozadak the-priest the-great to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "thus YHWH has-said hostses to/for-say ; the-people the-this they-have-said, not time-of come time-of house-of YHWH to/for-be-build."
+        },
+        {
+          "n": 3,
+          "t": "word-of YHWH and-has-been, in-hand-of Haggai the-prophet to/for-say."
+        },
+        {
+          "n": 4,
+          "t": "is-it-time to/for-you-pl you, to/for-dwell in-houses-of-you-pl covered ; and-the-house the-this desolate."
+        },
+        {
+          "n": 5,
+          "t": "and-now, thus YHWH has-said hostses ; put heart-of-you-pl on ways-of-you-pl."
+        },
+        {
+          "n": 6,
+          "t": "you-pl-have-sown make-multiply and-make-come little eat and-naught to/for-satiety drink and-naught to/for-drunk, clothe and-naught to/for-heat to/for-him ; and-the-self-hiring, self-hiring toward bundle pierced."
+        },
+        {
+          "n": 7,
+          "t": "thus YHWH has-said hostses ; put heart-of-you-pl on ways-of-you-pl."
+        },
+        {
+          "n": 8,
+          "t": "ascend the-mountain and-you-pl-have-made-come tree and-build the-house ; and-I-will-accept in-him and-I-will-be-honored and-let-me-be-honored YHWH has-said."
+        },
+        {
+          "n": 9,
+          "t": "turn toward make-multiply and-behold to/for-little, and-you-pl-have-made-come the-house and-I-have-breathed in-him ; because what utterance-of YHWH hostses, because house-of-me who he desolate, and-you runing man to/for-house-of-him."
+        },
+        {
+          "n": 10,
+          "t": "on thus on-you-pl, heavens have-restrained from-dew ; and-the-land has-restrained crops-of-her."
+        },
+        {
+          "n": 11,
+          "t": "and-I-have-called drought on the-land and-on the-mountains and-on the-grain and-on the-new and-on the-oil, and-on who will-make-exit the-ground ; and-on the-man and-on the-animal, and-on all-of toil-of palms."
+        },
+        {
+          "n": 12,
+          "t": "Zerubbabel and-has-heard son-of Shealtiel and-Joshua son-of Jehozadak the-priest the-great and-all-of remnant-of the-people in-voice-of YHWH god-of-them, and-on words-of Haggai the-prophet, like-when has-sended-him YHWH god-of-them ; and-they-have-feared the-people from-faces-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "Haggai and-has-said messenger-of YHWH in-message-of YHWH to/for-the-people to/for-say ; I with-you-pl utterance-of YHWH."
+        },
+        {
+          "n": 14,
+          "t": "YHWH and-has-made-rouse spirit-of Zerubbabel son-of Shealtiel governor-of Judah and-spirit-of Joshua son-of Jehozadak the-priest the-great, and-spirit-of, all-of remnant-of the-people ; and-have-come and-have-done work, in-house-of YHWH hostses god-of-them."
+        },
+        {
+          "n": 15,
+          "t": "in-day-of twenty and-four to/for-the-month in-the-sixth ; in-year-of two to/for-Darius the-king."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-the-seventh, in-twenty and-one to/for-the-month ; word-of YHWH has-been, in-hand-of Haggai the-prophet to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "say please toward Zerubbabel son-of Shealtiel governor-of Judah, and-toward Joshua son-of Jehozadak the-priest the-great ; and-toward remnant-of the-people to/for-say."
+        },
+        {
+          "n": 3,
+          "t": "who in-you-pl the-remained, who he-has-seen the-house the-this, in-glory-of-him the-first ; and-what you seeing him now, is-it-not like-him like-naught in-eyes-of-you-pl."
+        },
+        {
+          "n": 4,
+          "t": "and-now strengthen Zerubbabel utterance-of YHWH and-strengthen Joshua son-of Jehozadak the-priest the-great and-strengthen all-of people-of the-land utterance-of YHWH and-do ; for I with-you-pl, utterance-of YHWH hostses."
+        },
+        {
+          "n": 5,
+          "t": "the-word who I-have-cut with-you-pl in-exit-of-you-pl from-Egypt, and-spirit-of-me standing in-midst-of-you-pl ; do-not let-fear."
+        },
+        {
+          "n": 6,
+          "t": "for thus YHWH has-said hostses, still one little he ; and-I making-shake the-heavens and-the-land, and-the-sea and-the-dry."
+        },
+        {
+          "n": 7,
+          "t": "and-I-have-made-shake all-of the-nations, and-they-have-come desire-of all-of the-nations ; and-I-have-filled the-house the-this glory, has-said YHWH hostses."
+        },
+        {
+          "n": 8,
+          "t": "to/for-me the-silver and-to/for-me the-gold ; utterance-of YHWH hostses."
+        },
+        {
+          "n": 9,
+          "t": "great glory-of the-house will-be the-this the-last from the-first, has-said YHWH hostses ; and-in-the-place the-this I-will-give peace, utterance-of YHWH hostses."
+        },
+        {
+          "n": 10,
+          "t": "in-twenty and-four to/for-the-ninth, in-year-of two to/for-Darius ; word-of YHWH has-been, toward Haggai the-prophet to/for-say."
+        },
+        {
+          "n": 11,
+          "t": "thus YHWH has-said hostses ; ask please the-priests instruction to/for-say."
+        },
+        {
+          "n": 12,
+          "t": "lo man will-lift flesh-of holiness in-wing-of garment-of-him and-has-touched in-wing-of-him toward the-food and-toward the-stew and-toward the-wine and-toward oil and-toward all-of food is-it-will-consecrate ; the-priests and-have-answered and-have-said not."
+        },
+        {
+          "n": 13,
+          "t": "Haggai and-has-said, if will-touch unclean-of soul in-all-of these is-it-will-defile ; the-priests and-have-answered and-have-said he-will-defile."
+        },
+        {
+          "n": 14,
+          "t": "Haggai and-has-answered and-has-said thus the-people the-this and-thus the-nation the-this to/for-faces-of-me utterance-of YHWH, and-thus all-of deed-of hands-of-them ; and-who they-will-make-present there unclean he."
+        },
+        {
+          "n": 15,
+          "t": "and-now put please heart-of-you-pl, from the-day the-this and-above-ward ; from-before put stone toward stone in-temple-of YHWH."
+        },
+        {
+          "n": 16,
+          "t": "from-be-of-them he-has-come toward heap-of twenty, and-has-been ten ; the-wine has-come toward to/for-strip fifty winepress, and-has-been twenty."
+        },
+        {
+          "n": 17,
+          "t": "I-have-made-smite you-pl in-the-blight and-in-the-mildew and-in-the-hail, all-of deed-of hands-of-you-pl ; and-naught you-pl toward-me utterance-of YHWH."
+        },
+        {
+          "n": 18,
+          "t": "put please heart-of-you-pl, from the-day the-this and-above-ward ; from-day-of twenty and-four to/for-the-ninth from the-day who has-been-founded temple-of YHWH put heart-of-you-pl."
+        },
+        {
+          "n": 19,
+          "t": "is-it-still the-seed in-the-fear, and-until the-vine and-the-fig and-the-pomegranate and-tree-of the-olives not has-lifted ; from the-day the-this I-will-bless."
+        },
+        {
+          "n": 20,
+          "t": "word-of YHWH second and-has-been toward Haggai, in-twenty and-four to/for-the-month to/for-say."
+        },
+        {
+          "n": 21,
+          "t": "say, toward Zerubbabel governor-of Judah to/for-say ; I making-shake, the-heavens and-the-land."
+        },
+        {
+          "n": 22,
+          "t": "and-I-have-overturned throne-of kingdoms, and-I-have-made-destroy, strength-of kingdoms-of the-nations ; and-I-have-overturned chariot and-riding-of-her, horses and-riding-of-them and-have-gone, man in-sword-of brother-of-him."
+        },
+        {
+          "n": 23,
+          "t": "in-the-day the-he utterance-of YHWH hostses I-will-take-you Zerubbabel son-of Shealtiel servant-of-me utterance-of YHWH, and-I-have-put-you like-the-signet ; for in-you I-have-chosen, utterance-of YHWH hostses."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3837 @@
+{
+  "id": "proverbes",
+  "title": "Livre des Proverbes",
+  "original_title": "Proverbes",
+  "short": "Pr",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "proverbes-de Salomon fils-de David ; roi-de Israël."
+        },
+        {
+          "n": 2,
+          "t": "à/pour-savoir sagesse et-correction ; à/pour-faire-discerner émissions-de discernement."
+        },
+        {
+          "n": 3,
+          "t": "à/pour-prendre correction-de faire-comprendre ; justice et-jugement et-droitures."
+        },
+        {
+          "n": 4,
+          "t": "à/pour-donner à/pour-simplicités ruse ; à/pour-youth connaissance et-dessein."
+        },
+        {
+          "n": 5,
+          "t": "sage écoutera et-fera-ajouter enseignement ; et-discerné directions il-acquérira."
+        },
+        {
+          "n": 6,
+          "t": "à/pour-faire-discerner proverbe et-satire ; paroles-de sages et-énigmes-de-eux."
+        },
+        {
+          "n": 7,
+          "t": "gdyt-de YHWH commencement-de connaissance ; sagesse et-correction sots ils-ont-gaizé."
+        },
+        {
+          "n": 8,
+          "t": "écoute fils-de-moi correction-de père-de-toi ; et-ne tu-laisses instruction-de mère-de-toi."
+        },
+        {
+          "n": 9,
+          "t": "car couronne-de grâce eux à/pour-tête-de-toi ; et-colliers à/pour-cous-de-toi."
+        },
+        {
+          "n": 10,
+          "t": "fils-de-moi si pécheurs séduiront-toi ne tu-veuilles."
+        },
+        {
+          "n": 11,
+          "t": "si ils-diront va-hé ensemble-nous nous-gzqons à/pour-sang ; nous-cachons à/pour-innocent librement."
+        },
+        {
+          "n": 12,
+          "t": "nous-engloutissons-eux comme-scheol vivants ; et-entiers comme-descendants-de fosse."
+        },
+        {
+          "n": 13,
+          "t": "tout-de richesse précieux nous-trouverons ; nous-remplirons maisons-de-nous butin."
+        },
+        {
+          "n": 14,
+          "t": "sort-de-toi tu-feras-tomber dans-milieu-de-nous ; sac un sera à/pour-tout-de-nous."
+        },
+        {
+          "n": 15,
+          "t": "fils-de-moi ne tu-ailles dans-chemin ensemble-eux ; retenis pied-de-toi depuis-path-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "car pieds-de-eux à/pour-le-mauvais ils-courront ; et-ils-hâteront à/pour-répandre sang."
+        },
+        {
+          "n": 17,
+          "t": "car librement dispersée la-net ; dans-yeux-de tout-de mari-de aile."
+        },
+        {
+          "n": 18,
+          "t": "et-eux à/pour-sang-de-eux gzqeront ; ils-cacheront à/pour-âmes-de-eux."
+        },
+        {
+          "n": 19,
+          "t": "ainsi sentiers-de tout-de gatrant profit ; âme-de maris-de-lui il-prendra."
+        },
+        {
+          "n": 20,
+          "t": "sagesses dans-le-dehors elle-chantera ; dans-les-places elle-donnera voix-de-elle."
+        },
+        {
+          "n": 21,
+          "t": "dans-tête-de grognantes elle-appelera dans-entrées-de portes dans-la-ville émissions-de-elle elle-dira."
+        },
+        {
+          "n": 22,
+          "t": "jusqu'à ggid simplicités vous-aimerez naïveté et-méprisers moquerie ont-convoité à/pour-eux ; et-insensés ils-gkzreront connaissance."
+        },
+        {
+          "n": 23,
+          "t": "vous-retournerez à/pour-correction-de-moi voici je-fasse-bouillonner à/pour-vous esprit-de-moi ; je-fasse-savoir paroles-de-moi vous."
+        },
+        {
+          "n": 24,
+          "t": "gdvf je-ai-appelé et-vous-avez-refusé ; je-ai-tendu main-de-moi et-néant faisant-guetter."
+        },
+        {
+          "n": 25,
+          "t": "et-vous-avez-giqrbé tout-de avis-de-moi ; et-correction-de-moi non vous-avez-voulu."
+        },
+        {
+          "n": 26,
+          "t": "aussi je dans-calamité-de-vous rirai ; je-ridiculiserai dans-venir dread-de-vous."
+        },
+        {
+          "n": 27,
+          "t": "dans-venir comme-gker comme-ravage dread-de-vous et-calamité-de-vous comme-whirlwind gafyera ; dans-venir sur-vous angoisse et-contrainte."
+        },
+        {
+          "n": 28,
+          "t": "alors ils-appeleront-moi et-non je-répondrai ; ils-chercheront-moi et-non ils-trouveront-moi."
+        },
+        {
+          "n": 29,
+          "t": "sous car ils-ont-gkzré connaissance ; et-gdyt-de YHWH non ils-ont-choisi."
+        },
+        {
+          "n": 30,
+          "t": "non ils-ont-voulu à/pour-avis-de-moi ; ils-ont-repoussé tout-de correction-de-moi."
+        },
+        {
+          "n": 31,
+          "t": "et-ils-mangeront depuis-fruit-de chemin-de-eux ; et-depuis-conseils-de-eux ils-rassasieront."
+        },
+        {
+          "n": 32,
+          "t": "car récidive-de simplicités tuera-eux ; et-prospérité-de insensés périra-eux."
+        },
+        {
+          "n": 33,
+          "t": "et-écoutant à/pour-moi sécurité habitera ; et-il-a-gkfgé depuis-dread-de mal."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de-moi si tu-prendras émissions-de-moi ; et-commandements-de-moi tu-cacheras ensemble-toi-f."
+        },
+        {
+          "n": 2,
+          "t": "à/pour-faire-guetter à/pour-la-sagesse oreille-de-toi ; tu-feras-tendre cœur-de-toi à/pour-la-intelligence."
+        },
+        {
+          "n": 3,
+          "t": "car si à/pour-la-discernement tu-appeleras ; à/pour-la-intelligence tu-donneras voix-de-toi."
+        },
+        {
+          "n": 4,
+          "t": "si tu-chercheras-elle comme-le-argent ; et-comme-les-trésors tu-rechercheras-elle."
+        },
+        {
+          "n": 5,
+          "t": "alors tu-discerneras gdyt-de YHWH ; et-connaissance-de dieu tu-trouveras."
+        },
+        {
+          "n": 6,
+          "t": "car YHWH donnera sagesse ; depuis-bouche-de-lui connaissance et-intelligence."
+        },
+        {
+          "n": 7,
+          "t": "et-il-a-caché il-cachera à/pour-les-droits succès ; bouclier à/pour-marchants-de intégrité."
+        },
+        {
+          "n": 8,
+          "t": "à/pour-surveiller sentiers-de jugement ; et-chemin-de fidèle-de-lui fidèles-de-lui gardera."
+        },
+        {
+          "n": 9,
+          "t": "alors tu-discerneras justice et-jugement ; et-droitures tout-de voie-de bien."
+        },
+        {
+          "n": 10,
+          "t": "car sagesse viendra dans-cœur-de-toi ; et-connaissance à/pour-âme-de-toi il-ggtxera."
+        },
+        {
+          "n": 11,
+          "t": "dessein gardera sur-toi intelligence surveillera-toi."
+        },
+        {
+          "n": 12,
+          "t": "à/pour-faire-délivrer-de-toi depuis-chemin bad ; depuis-homme parlant perversités."
+        },
+        {
+          "n": 13,
+          "t": "les-abandonnants sentiers-de gecr ; à/pour-aller dans-chemins-de ténèbre."
+        },
+        {
+          "n": 14,
+          "t": "les-joyeux à/pour-faire mauvais ; ils-gbfoeront dans-perversités-de mauvais."
+        },
+        {
+          "n": 15,
+          "t": "qui sentiers-de-eux pervers ; et-gertés dans-voies-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-faire-délivrer-de-toi depuis-femme strangere ; depuis-étrangere émissions-de-elle elle-a-fait-allouer."
+        },
+        {
+          "n": 17,
+          "t": "la-abandonnante tame-de jeunesses-de-elle ; et-alliance-de dieu-de-elle elle-a-ignoré."
+        },
+        {
+          "n": 18,
+          "t": "car elle-a-gkkué vers mort maison-de-elle ; et-vers ombres voies-de-elle."
+        },
+        {
+          "n": 19,
+          "t": "tout-de venants-de-elle non ils-retourneront ; et-non sentiers-de vies feront-rattraper."
+        },
+        {
+          "n": 20,
+          "t": "égard tu-iras dans-chemin-de bons ; et-sentiers-de justes tu-garderas."
+        },
+        {
+          "n": 21,
+          "t": "car droits ils-habiteront terre ; et-entiers ils-seront-demeurés dans-elle."
+        },
+        {
+          "n": 22,
+          "t": "et-méchants depuis-terre ils-seront-coupés ; et-gahnants ils-ggtceront depuis-elle."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de-moi instruction-de-moi ne tu-ignores ; cœur-de-toi surveille et-commandements-de-moi."
+        },
+        {
+          "n": 2,
+          "t": "car longueur-de jours et-années-de vies ; et-paix ils-feront-ajouter à/pour-toi-f."
+        },
+        {
+          "n": 3,
+          "t": "faveur et-vérité ne ils-abandonnent-toi conspire-eux sur cous-de-toi ; écris-eux sur planche-de cœur-de-toi."
+        },
+        {
+          "n": 4,
+          "t": "et-trouve grâce et-prudence bon ; dans-yeux-de dieu et-homme."
+        },
+        {
+          "n": 5,
+          "t": "confie vers YHWH dans-tout-de cœur-de-toi ; et-vers discernement-de-toi ne tu-sois-appuyé."
+        },
+        {
+          "n": 6,
+          "t": "dans-tout-de chemins-de-toi sache-lui ; et-lui gecpera sentiers-de-toi."
+        },
+        {
+          "n": 7,
+          "t": "ne tu-sois sage dans-yeux-de-toi ; crainds YHWH et-détourne depuis-mauvais."
+        },
+        {
+          "n": 8,
+          "t": "healing soit à/pour-nombril-de-toi ; et-boisson à/pour-os-de-toi."
+        },
+        {
+          "n": 9,
+          "t": "honor YHWH depuis-richesse-de-toi ; et-depuis-commencement-de tout-de produire-de-toi."
+        },
+        {
+          "n": 10,
+          "t": "greniers-de-toi et-seront-remplis abondance ; et-new vins-de-toi éclateront."
+        },
+        {
+          "n": 11,
+          "t": "correction-de YHWH fils-de-moi ne tu-rejetes ; et-ne tu-abhorres dans-correction-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "car qui YHWH aimera fera-corriger ; et-comme-père fils il-gkcgera."
+        },
+        {
+          "n": 13,
+          "t": "bonheurs homme a-trouvé sagesse ; et-homme promouvoir intelligence."
+        },
+        {
+          "n": 14,
+          "t": "car bon gain-de-elle depuis-trafic-de argent ; et-depuis-aiguisé produire-de-elle."
+        },
+        {
+          "n": 15,
+          "t": "précieuse lui depuis-jewels ; et-tout-de pleasures-de-toi non ils-gkkoaeront dans-elle."
+        },
+        {
+          "n": 16,
+          "t": "longueur-de jours dans-right-de-elle ; dans-gauche-de-elle richesse et-gloire."
+        },
+        {
+          "n": 17,
+          "t": "chemins-de-elle chemin-de beauté ; et-tout-de paths-de-elle paix."
+        },
+        {
+          "n": 18,
+          "t": "arbre-de vies lui à/pour-les-faisants-fortifier dans-elle ; et-tenants-de-elle avancé."
+        },
+        {
+          "n": 19,
+          "t": "YHWH dans-sagesse a-fondé terre ; il-a-affermi ciels dans-intelligence."
+        },
+        {
+          "n": 20,
+          "t": "dans-connaissance-de-lui abîmes ont-été-fendu ; et-clouds gkbceront rosée."
+        },
+        {
+          "n": 21,
+          "t": "fils-de-moi ne ils-gertent depuis-yeux-de-toi ; surveille succès et-dessein."
+        },
+        {
+          "n": 22,
+          "t": "vies et-seront à/pour-âme-de-toi ; et-grâce à/pour-cous-de-toi."
+        },
+        {
+          "n": 23,
+          "t": "alors tu-iras à/pour-sécurité chemin-de-toi ; et-pied-de-toi non battra."
+        },
+        {
+          "n": 24,
+          "t": "si tu-mentiras non tu-révéreras ; et-tu-as-menti sommeil-de-toi et-a-gibmé."
+        },
+        {
+          "n": 25,
+          "t": "ne tu-craindes depuis-dread soudain ; et-depuis-ravage-de méchants car elle-viendra."
+        },
+        {
+          "n": 26,
+          "t": "car YHWH sera dans-flanc-de-toi ; et-il-a-gardé pied-de-toi depuis-prise."
+        },
+        {
+          "n": 27,
+          "t": "ne tu-retenisses bien depuis-maris-de-lui ; dans-être à/pour-El-de mains-de-toi main-de-toi à/pour-faire."
+        },
+        {
+          "n": 28,
+          "t": "ne tu-dises à/pour-amis-de-toi à/pour-ami-de-toi va et-retourne et-demain je-donnerai et-substance ensemble-toi-f."
+        },
+        {
+          "n": 29,
+          "t": "ne tu-combines sur ami-de-toi mal ; et-lui habitant à/pour-sécurité ensemble-toi-f."
+        },
+        {
+          "n": 30,
+          "t": "ne tu-gjwtes avec homme librement ; si non il-a-récompensé-toi mal."
+        },
+        {
+          "n": 31,
+          "t": "ne tu-envies dans-homme-de violence ; et-ne tu-choisisses dans-tout-de chemins-de-lui."
+        },
+        {
+          "n": 32,
+          "t": "car abominable-de YHWH gerté ; et-ensemble droits conseil-de-lui."
+        },
+        {
+          "n": 33,
+          "t": "curse-de YHWH dans-maison-de méchant ; et-demeure-de justes bénira."
+        },
+        {
+          "n": 34,
+          "t": "si à/pour-les-méprisers lui fera-mépriser ; et-à/pour-affligés et-à/pour-humbles grâce donnera."
+        },
+        {
+          "n": 35,
+          "t": "gloire sages ils-hériteront ; et-insensés faisant-élever honte."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "écoutez fils correction-de père ; et-faites-guetter à/pour-savoir discernement."
+        },
+        {
+          "n": 2,
+          "t": "car enseignement bon je-ai-donné à/pour-vous ; instruction-de-moi ne vous-abandonniez."
+        },
+        {
+          "n": 3,
+          "t": "car fils je-ai-été à/pour-père-de-moi ; doux et-solitaire à/pour-faces-de mère-de-moi."
+        },
+        {
+          "n": 4,
+          "t": "et-a-fait-show-moi et-a-dit à/pour-moi tienne paroles-de-moi cœur-de-toi ; garde commandements-de-moi et-guéris."
+        },
+        {
+          "n": 5,
+          "t": "acquéris sagesse acquéris discernement ; ne tu-ignores et-ne tu-tendes depuis-émissions-de bouche-de-moi."
+        },
+        {
+          "n": 6,
+          "t": "ne tu-abandonnes-elle et-elle-gardera-toi ; aime-elle et-elle-surveillera-toi."
+        },
+        {
+          "n": 7,
+          "t": "commencement-de sagesse acquéris sagesse ; et-dans-tout-de acquisition-de-toi acquéris discernement."
+        },
+        {
+          "n": 8,
+          "t": "fraye-elle et-elle-élevera-toi ; elle-honora-toi car tu-étreindras-elle."
+        },
+        {
+          "n": 9,
+          "t": "couronne-de grâce ; donnera à/pour-tête-de-toi couronne-de splendeur délivrera-toi."
+        },
+        {
+          "n": 10,
+          "t": "écoute fils-de-moi et-prends émissions-de-moi ; et-ils-multiplieront à/pour-toi années-de vies."
+        },
+        {
+          "n": 11,
+          "t": "dans-chemin-de sagesse je-ai-fait-show-toi ; je-ai-fait-marcher-toi dans-voies-de gecr."
+        },
+        {
+          "n": 12,
+          "t": "dans-aller-de-toi non pas-de-toi nouera ; et-si tu-courras non tu-seras-chancelé."
+        },
+        {
+          "n": 13,
+          "t": "fais-fortifier dans-le-correction ne tu-fasses-baisser ; surveille-elle car lui vies-de-toi."
+        },
+        {
+          "n": 14,
+          "t": "dans-sentier-de méchants ne tu-viennes ; et-ne tu-avances dans-chemin-de bads."
+        },
+        {
+          "n": 15,
+          "t": "giqrbe-lui ne tu-passes dans-lui ; décline sur-lui et-passe."
+        },
+        {
+          "n": 16,
+          "t": "car non ils-dormiront si non ils-feront-nuire ; sommeil-de-eux et-a-été-pillé si non ils-chanceleront ils-feront-chanceler."
+        },
+        {
+          "n": 17,
+          "t": "car ils-ont-gesxbé pain-de tort ; et-vin-de violences ils-boiront."
+        },
+        {
+          "n": 18,
+          "t": "et-sentier-de justes comme-lumière-de éclat ; marchant et-luiant jusqu'à affermi-de le-jour."
+        },
+        {
+          "n": 19,
+          "t": "chemin-de méchants comme-la-obscurité ; non ils-ont-su dans-quoi ils-seront-chancelés."
+        },
+        {
+          "n": 20,
+          "t": "fils-de-moi à/pour-paroles-de-moi fais-guetter-hé ; à/pour-émissions-de-moi fais-tendre oreille-de-toi."
+        },
+        {
+          "n": 21,
+          "t": "ne ils-fassent-gerter depuis-yeux-de-toi ; garde-eux dans-milieu-de volonté-de-toi."
+        },
+        {
+          "n": 22,
+          "t": "car vies eux à/pour-trouvants-de-eux ; et-à/pour-tout-de chair-de-lui guérison."
+        },
+        {
+          "n": 23,
+          "t": "depuis-tout-de prison surveille cœur-de-toi ; car depuis-nous issues-de vies."
+        },
+        {
+          "n": 24,
+          "t": "fais-détourner depuis-toi déformation-de bouche ; et-perversité-de lèvres fais-éloigner depuis-toi."
+        },
+        {
+          "n": 25,
+          "t": "yeux-de-toi à/pour-before ils-fassent-regarder ; et-paupières-de-toi fassent-gecper devant-toi."
+        },
+        {
+          "n": 26,
+          "t": "pese voie-de pied-de-toi ; et-tout-de chemins-de-toi ils-seront-affermis."
+        },
+        {
+          "n": 27,
+          "t": "ne tu-tendes right et-gauche ; fais-détourner pied-de-toi depuis-bad."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de-moi à/pour-sagesse-de-moi fais-guetter-hé ; à/pour-intelligence-de-moi fais-tendre oreille-de-toi."
+        },
+        {
+          "n": 2,
+          "t": "à/pour-garder desseins ; et-connaissance lèvres-de-toi ils-surveilleront."
+        },
+        {
+          "n": 3,
+          "t": "car honey elles-distilleront lèvres-de strangere ; et-flatteur depuis-huile goûter-de-elle."
+        },
+        {
+          "n": 4,
+          "t": "et-end-de-elle amere comme-la-absinthe ; tranchante comme-épée-de bouches."
+        },
+        {
+          "n": 5,
+          "t": "pieds-de-elle descendantes mort ; scheol pas-de-elle tiendront."
+        },
+        {
+          "n": 6,
+          "t": "sentier-de vies sinon pesera ; voies-de-elle ont-erré non tu-sauras."
+        },
+        {
+          "n": 7,
+          "t": "et-maintenant fils écoutez à/pour-moi ; et-ne vous-détourniez depuis-émissions-de bouche-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "fais-éloigner sur-elle chemin-de-toi ; et-ne tu-present vers entrée-de maison-de-elle."
+        },
+        {
+          "n": 9,
+          "t": "sinon tu-donneras à/pour-autres majesté-de-toi ; et-années-de-toi à/pour-cruel."
+        },
+        {
+          "n": 10,
+          "t": "sinon ils-rassasieront strangers force-de-toi ; et-peines-de-toi dans-maison-de étranger."
+        },
+        {
+          "n": 11,
+          "t": "et-tu-as-ggnbé dans-end-de-toi ; dans-achever chair-de-toi et-flesh-de-toi."
+        },
+        {
+          "n": 12,
+          "t": "et-tu-as-dit how je-ai-gkzré correction ; cœur-de-moi a-repoussé et-correction."
+        },
+        {
+          "n": 13,
+          "t": "et-non je-ai-écouté dans-voix-de shows-de-moi ; et-à/pour-enseignant-de-moi non je-ai-fait-tendre oreille-de-moi."
+        },
+        {
+          "n": 14,
+          "t": "comme-peu je-ai-été dans-tout-de mauvais ; dans-milieu-de congrégation et-assemblée."
+        },
+        {
+          "n": 15,
+          "t": "bois eaux depuis-fosse-de-toi ; et-coulants depuis-milieu-de puits-de-toi."
+        },
+        {
+          "n": 16,
+          "t": "sources-de-toi giiiceront dehors-vers ; dans-les-places gikrs-de eaux."
+        },
+        {
+          "n": 17,
+          "t": "ils-soient à/pour-toi à/pour-seul-de-toi ; et-néant à/pour-strangers ensemble-toi."
+        },
+        {
+          "n": 18,
+          "t": "source-de-toi béni soit ; et-réjouis depuis-femme-de jeunesse-de-toi."
+        },
+        {
+          "n": 19,
+          "t": "biche-de amours et-doe-de grâce mamelons-de-elle ils-gjtuent-toi dans-tout-de heure ; dans-gfder-de-elle tu-erreras perpétuité."
+        },
+        {
+          "n": 20,
+          "t": "et-à/pour-quoi tu-erreras fils-de-moi dans-strangere ; et-tu-étreindras sein-de étrangere."
+        },
+        {
+          "n": 21,
+          "t": "car before yeux-de YHWH chemins-de homme ; et-tout-de voies-de-lui pesant."
+        },
+        {
+          "n": 22,
+          "t": "iniquités-de-lui captureront-lui le-méchant ; et-dans-mahalabs-de faute-de-lui il-sera-tenu."
+        },
+        {
+          "n": 23,
+          "t": "lui mourra dans-néant correction ; et-dans-multitude-de folie-de-lui il-errera."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de-moi si tu-as-échangé à/pour-ami-de-toi ; tu-as-sonné à/pour-le-stranger palmes-de-toi."
+        },
+        {
+          "n": 2,
+          "t": "tu-as-été-leurré dans-émissions-de bouche-de-toi ; tu-as-été-capturé dans-émissions-de bouche-de-toi."
+        },
+        {
+          "n": 3,
+          "t": "fais celle-ci then fils-de-moi et-sois-délivré car tu-es-venu dans-palme-de ami-de-toi ; va gkbwe et-gjtle amis-de-toi."
+        },
+        {
+          "n": 4,
+          "t": "ne tu-donnes sommeil à/pour-yeux-de-toi ; et-assoupissement à/pour-paupières-de-toi."
+        },
+        {
+          "n": 5,
+          "t": "sois-délivré comme-gloire depuis-main ; et-comme-volaille depuis-main-de oiseleur."
+        },
+        {
+          "n": 6,
+          "t": "va vers fourmi paresseux ; vois chemins-de-elle et-gcpee."
+        },
+        {
+          "n": 7,
+          "t": "qui néant à/pour-elle chef fonctionnaiant et-gouvernant."
+        },
+        {
+          "n": 8,
+          "t": "pain-de-elle ; fera-affermir dans-le-été elle-a-récolté dans-le-moisson nourriture-de-elle."
+        },
+        {
+          "n": 9,
+          "t": "jusqu'à ggid paresseux tu-mentiras ; ggid tu-leveras depuis-sommeil-de-toi."
+        },
+        {
+          "n": 10,
+          "t": "peu-de sommeils peu-de assoupissements ; peu-de croiser-de mains à/pour-mentir."
+        },
+        {
+          "n": 11,
+          "t": "poverty-de-toi ; et-est-venu comme-marché et-besoin-de-toi comme-homme bouclier."
+        },
+        {
+          "n": 12,
+          "t": "homme-de indignité homme-de malheur ; marchant déformation-de bouche."
+        },
+        {
+          "n": 13,
+          "t": "gjosant dans-yeux-de-lui gfobbant dans-pied-de-lui ; show dans-doigts-de-lui."
+        },
+        {
+          "n": 14,
+          "t": "perversités dans-cœur-de-lui combinant mauvais dans-tout-de heure ; gfahs strifes il-envoyera."
+        },
+        {
+          "n": 15,
+          "t": "sur ainsi soudain calamité-de-lui viendra ; soudainement sera-brisé et-néant guérison."
+        },
+        {
+          "n": 16,
+          "t": "six elles YHWH a-gkzré ; et-sept abominables-de abominable-de âme-de-lui."
+        },
+        {
+          "n": 17,
+          "t": "yeux élevantes langue-de mensonge ; et-mains répandantes sang innocent."
+        },
+        {
+          "n": 18,
+          "t": "cœur combinant pensées-de malheur ; pieds hâtantes à/pour-courir à/pour-la-mal."
+        },
+        {
+          "n": 19,
+          "t": "fera-souffler faussetés witness-de mensonge ; et-envoyant gfahs entre frères."
+        },
+        {
+          "n": 20,
+          "t": "surveille fils-de-moi commandement-de père-de-toi ; et-ne tu-laisses instruction-de mère-de-toi."
+        },
+        {
+          "n": 21,
+          "t": "conspire-eux sur cœur-de-toi perpétuité ; lie-eux sur cous-de-toi."
+        },
+        {
+          "n": 22,
+          "t": "dans-se-marcher-de-toi elle-fera-conduire toi-f dans-mentir-de-toi elle-gardera sur-toi ; et-tu-as-fait-éveiller lui méditera-toi."
+        },
+        {
+          "n": 23,
+          "t": "car lampe commandement et-instruction lumière ; et-chemin-de vies corrections-de correction."
+        },
+        {
+          "n": 24,
+          "t": "à/pour-garder-de-toi depuis-femme-de mauvais ; depuis-portion-de langue étrangere."
+        },
+        {
+          "n": 25,
+          "t": "ne tu-convoites beauté-de-elle dans-volonté-de-toi ; et-ne tu-prennes-toi dans-paupières-de-elle."
+        },
+        {
+          "n": 26,
+          "t": "car derrière femme gcewante jusqu'à rond-de pain et-femme-de homme ; âme précieuse givwaera."
+        },
+        {
+          "n": 27,
+          "t": "homme feu est-ce-détenira dans-sein-de-lui ; et-perfidies-de-lui non elles-seront-brûlées."
+        },
+        {
+          "n": 28,
+          "t": "si homme marchera sur les-charbons ; et-pieds-de-lui non elles-seront-stigmatisées."
+        },
+        {
+          "n": 29,
+          "t": "ainsi le-venant vers femme-de ami-de-lui ; non tout-de sera-innocenté le-touchant dans-elle."
+        },
+        {
+          "n": 30,
+          "t": "non ils-gaizeront à/pour-le-voleur car il-volera ; à/pour-remplir âme-de-lui car affamera."
+        },
+        {
+          "n": 31,
+          "t": "et-il-a-été-trouvé il-gkuqaera septuple ; tout-de richesse-de maison-de-lui il-donnera."
+        },
+        {
+          "n": 32,
+          "t": "commettant femme dépourvu-de cœur ; détruiant âme-de-lui lui fera-elle."
+        },
+        {
+          "n": 33,
+          "t": "plaie et-honte trouvera ; et-opprobre-de-lui non sera-essuyée."
+        },
+        {
+          "n": 34,
+          "t": "car jalousie colère-de guerrier ; et-non il-spara dans-jour-de vengeance."
+        },
+        {
+          "n": 35,
+          "t": "non il-portera faces-de tout-de ransom ; et-non voudra car tu-feras-multiplier présent."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de-moi garde émissions-de-moi ; et-commandements-de-moi tu-cacheras ensemble-toi-f."
+        },
+        {
+          "n": 2,
+          "t": "garde commandements-de-moi et-guéris ; et-instruction-de-moi comme-pupil-de yeux-de-toi."
+        },
+        {
+          "n": 3,
+          "t": "conspire-eux sur doigts-de-toi ; écris-eux sur planche-de cœur-de-toi."
+        },
+        {
+          "n": 4,
+          "t": "dis à/pour-la-sagesse sœur-de-moi toi ; et-parent à/pour-la-discernement tu-appeleras."
+        },
+        {
+          "n": 5,
+          "t": "à/pour-garder-de-toi depuis-femme strangere ; depuis-étrangere émissions-de-elle elle-a-fait-allouer."
+        },
+        {
+          "n": 6,
+          "t": "car dans-window-de maison-de-moi ; derrière treillis-de-moi je-ai-été-regardé."
+        },
+        {
+          "n": 7,
+          "t": "et-je-ai-vu dans-les-simplicités je-discerne dans-les-fils youth dépourvu-de cœur."
+        },
+        {
+          "n": 8,
+          "t": "passant dans-le-rue joignant angle-de-elle ; et-chemin-de maison-de-elle gjasera."
+        },
+        {
+          "n": 9,
+          "t": "dans-crépuscule dans-soir jour ; dans-pupil-de nuit et-obscurité."
+        },
+        {
+          "n": 10,
+          "t": "et-voici femme à/pour-rencontrer-de-lui ; vêtement-de gcewante et-surveillée-de cœur."
+        },
+        {
+          "n": 11,
+          "t": "grognante lui et-ghhuante ; dans-maison-de-elle non ils-habiteront pieds-de-elle."
+        },
+        {
+          "n": 12,
+          "t": "fois dans-le-dehors fois dans-les-places ; et-joignant tout-de angle elle-gzqera."
+        },
+        {
+          "n": 13,
+          "t": "et-elle-a-fait-fortifier dans-lui et-elle-a-embrassé à/pour-lui ; elle-a-fait-gholer faces-de-elle et-elle-a-dit à/pour-lui."
+        },
+        {
+          "n": 14,
+          "t": "sacrifices-de récompenses sur-moi ; le-jour je-ai-gkuqaé vœus-de-moi."
+        },
+        {
+          "n": 15,
+          "t": "sur ainsi je-suis-sorti à/pour-rencontrer-de-toi ; à/pour-chercher faces-de-toi et-je-ai-trouvé-toi."
+        },
+        {
+          "n": 16,
+          "t": "ggags je-ai-paré divan-de-moi ; fabrications-de glr-de Égypte."
+        },
+        {
+          "n": 17,
+          "t": "je-ai-ggohaé bed-de-moi ; myrrhe aloès et-cinnamome."
+        },
+        {
+          "n": 18,
+          "t": "va-hé nous-gjtuons bien-aimés jusqu'à le-matin ; nous-ghukons dans-objets."
+        },
+        {
+          "n": 19,
+          "t": "car néant le-homme dans-maison-de-lui ; il-a-marché dans-chemin depuis-lointain."
+        },
+        {
+          "n": 20,
+          "t": "paquet-de le-argent a-pris dans-main-de-lui ; à/pour-jour-de le-moon maison-de-lui viendra."
+        },
+        {
+          "n": 21,
+          "t": "elle-a-fait-tendre-lui dans-multitude-de enseignement-de-elle ; dans-partage-de lèvres-de-elle elle-fera-bannir-lui."
+        },
+        {
+          "n": 22,
+          "t": "marchant après-elle soudain comme-bœuf vers massacre viendra ; et-comme-anklet vers correction-de sot."
+        },
+        {
+          "n": 23,
+          "t": "jusqu'à flèche gilbera liver-de-lui comme-hâter volaille vers giiwa ; et-non lui a-su car dans-âme-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "et-maintenant fils écoutez à/pour-moi ; et-faites-guetter à/pour-émissions-de bouche-de-moi."
+        },
+        {
+          "n": 25,
+          "t": "ne décline vers chemins-de-elle cœur-de-toi ; ne tu-chanceles dans-paths-de-elle."
+        },
+        {
+          "n": 26,
+          "t": "car nombreux tués elle-a-fait-tomber ; et-puissants tout-de tués-de-elle."
+        },
+        {
+          "n": 27,
+          "t": "chemins-de scheol maison-de-elle ; descendantes vers chambres-de mort."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "est-ce-non sagesse appelera ; et-intelligence donnera voix-de-elle."
+        },
+        {
+          "n": 2,
+          "t": "dans-tête-de ggbgs sur chemin ; galpa-de paths elle-a-été-établi."
+        },
+        {
+          "n": 3,
+          "t": "à/pour-main-de portes à/pour-bouche-de ville ; entrer-de entrées elle-chantera."
+        },
+        {
+          "n": 4,
+          "t": "vers-vous hommes je-appelerai ; et-voix-de-moi vers fils-de homme."
+        },
+        {
+          "n": 5,
+          "t": "faites-discerner simplicités ruse ; et-insensés faites-discerner cœur."
+        },
+        {
+          "n": 6,
+          "t": "écoutez car chefs je-parlerai ; et-ouverture-de lèvres-de-moi droitures."
+        },
+        {
+          "n": 7,
+          "t": "car goûter-de-moi ; méditera vérité et-abominable-de lèvres-de-moi tort."
+        },
+        {
+          "n": 8,
+          "t": "dans-justice tout-de émissions-de bouche-de-moi ; néant dans-eux tortillé et-pervers."
+        },
+        {
+          "n": 9,
+          "t": "tout-de-eux justes à/pour-le-faisant-discerner ; et-droits à/pour-trouvants-de connaissance."
+        },
+        {
+          "n": 10,
+          "t": "prenez correction-de-moi et-ne argent ; et-connaissance depuis-aiguisé choisi."
+        },
+        {
+          "n": 11,
+          "t": "car bone sagesse depuis-jewels ; et-tout-de pleasures non ils-gkkoaeront dans-elle."
+        },
+        {
+          "n": 12,
+          "t": "je sagesse ai-habité ruse ; et-connaissance-de desseins je-trouverai."
+        },
+        {
+          "n": 13,
+          "t": "gdyt-de YHWH gkzrer mauvais pride et-orgueil et-chemin mauvais et-bouche-de perversités je-ai-gkzré."
+        },
+        {
+          "n": 14,
+          "t": "à/pour-moi avis et-succès ; je discernement à/pour-moi might."
+        },
+        {
+          "n": 15,
+          "t": "dans-moi rois régneront ; et-gjvdants ils-graveront justice."
+        },
+        {
+          "n": 16,
+          "t": "dans-moi princes lutteront ; et-nobles tout-de jugeants-de justice."
+        },
+        {
+          "n": 17,
+          "t": "je aimants-de-elle aimants-de-moi aimerai ; et-cherchants-de-moi ils-trouveront-moi."
+        },
+        {
+          "n": 18,
+          "t": "richesse et-gloire ensemble-moi ; richesse durable et-droiture."
+        },
+        {
+          "n": 19,
+          "t": "bon fruit-de-moi depuis-aiguisé et-depuis-giis ; et-produire-de-moi depuis-argent choisi."
+        },
+        {
+          "n": 20,
+          "t": "dans-sentier-de droiture je-marcherai ; dans-milieu-de paths-de jugement."
+        },
+        {
+          "n": 21,
+          "t": "à/pour-faire-hériter aimants-de-moi substance ; et-trésors-de-eux je-remplirai."
+        },
+        {
+          "n": 22,
+          "t": "YHWH a-acquis-moi commencement-de chemin-de-lui ; orient-de works-de-lui depuis-past."
+        },
+        {
+          "n": 23,
+          "t": "depuis-durée je-ai-été-ggtfbé depuis-tête depuis-orients-de terre."
+        },
+        {
+          "n": 24,
+          "t": "dans-néant abîmes je-ai-été-tremblé ; dans-néant sources honors-de eaux."
+        },
+        {
+          "n": 25,
+          "t": "dans-avant monts ont-été-fait-enfoncer ; à/pour-faces-de Gibata je-ai-été-tremblé."
+        },
+        {
+          "n": 26,
+          "t": "jusqu'à non terre a-fait et-dehors ; et-tête-de poussières-de monde."
+        },
+        {
+          "n": 27,
+          "t": "dans-faire-affermir-de-lui ciels là je ; dans-graver-de-lui cercle sur faces-de abîme."
+        },
+        {
+          "n": 28,
+          "t": "dans-guger-de-lui clouds depuis-dessus ; dans-gholer fountains-de abîme."
+        },
+        {
+          "n": 29,
+          "t": "dans-mettre-de-lui à/pour-le-mer ordonnance-de-lui et-eaux non passeront bouche-de-lui ; dans-graver-de-lui fondements-de terre."
+        },
+        {
+          "n": 30,
+          "t": "et-je-ai-été joignant-lui architecte et-je-ai-été jouissances jour jour ; riante à/pour-faces-de-lui dans-tout-de heure."
+        },
+        {
+          "n": 31,
+          "t": "riante dans-monde-de terre-de-lui ; et-jouissances-de-moi ensemble fils-de homme."
+        },
+        {
+          "n": 32,
+          "t": "et-maintenant fils écoutez à/pour-moi ; et-bonheurs chemins-de-moi garderont."
+        },
+        {
+          "n": 33,
+          "t": "écoutez correction et-gcpeez et-ne vous-giqrbiez."
+        },
+        {
+          "n": 34,
+          "t": "bonheurs homme écoutant à/pour-moi à/pour-veiller sur barrières-de-moi jour jour ; à/pour-garder poteaux-de entrées-de-moi."
+        },
+        {
+          "n": 35,
+          "t": "car trouvant-de-moi trouvants-de il-a-trouvé vies ; acceptation et-a-fait-promouvoir depuis-YHWH."
+        },
+        {
+          "n": 36,
+          "t": "et-péchant-de-moi brutalisant âme-de-lui ; tout-de gkzrants-de-moi ils-ont-aimé mort."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "sagesses elle-a-bâti maison-de-elle ; elle-a-carrièu colonnes-de-elle sept."
+        },
+        {
+          "n": 2,
+          "t": "elle-a-massacré massacre-de-elle elle-a-mélangé vin-de-elle ; même elle-a-arrangé table-de-elle."
+        },
+        {
+          "n": 3,
+          "t": "elle-a-envoyé servantes-de-elle elle-appelera ; sur sois-de ggbgs-de ville."
+        },
+        {
+          "n": 4,
+          "t": "lequel simplicité détourne ici ; dépourvu-de cœur elle-a-dit à/pour-lui."
+        },
+        {
+          "n": 5,
+          "t": "allez gesxbez dans-pain-de-moi ; et-buvez dans-vin je-ai-mélangé."
+        },
+        {
+          "n": 6,
+          "t": "abandonnez simplicités et-guérissez ; et-avancez dans-chemin-de discernement."
+        },
+        {
+          "n": 7,
+          "t": "châtiant mépriser prenant à/pour-lui honte ; et-faisant-corriger à/pour-méchant défaut-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "ne tu-fasses-corriger mépriser sinon il-gkzrera-toi ; fais-corriger à/pour-sage et-il-aimera-toi."
+        },
+        {
+          "n": 9,
+          "t": "donne à/pour-sage et-il-gcpeera encore ; fais-savoir à/pour-juste enseignement et-fera-ajouter."
+        },
+        {
+          "n": 10,
+          "t": "commencement-de sagesse gdyt-de YHWH ; et-connaissance-de saints discernement."
+        },
+        {
+          "n": 11,
+          "t": "car dans-moi jours-de-toi multiplieront ; et-ils-feront-ajouter à/pour-toi années-de vies."
+        },
+        {
+          "n": 12,
+          "t": "si tu-as-gcpeé tu-as-gcpeé à/pour-toi-f ; et-tu-as-méprisé à/pour-seul-de-toi tu-porteras."
+        },
+        {
+          "n": 13,
+          "t": "femme-de folie grognante ; naivite et-ni a-su quoi."
+        },
+        {
+          "n": 14,
+          "t": "et-elle-a-habité à/pour-entrée-de maison-de-elle ; sur trône ggbgs-de ville."
+        },
+        {
+          "n": 15,
+          "t": "à/pour-appeler à/pour-passants-de chemin ; les-gecpants sentiers-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "lequel simplicité détourne ici ; et-dépourvu-de cœur et-elle-a-dit à/pour-lui."
+        },
+        {
+          "n": 17,
+          "t": "eaux volés ggiseront ; et-pain-de abris ggtxera."
+        },
+        {
+          "n": 18,
+          "t": "et-non il-a-su car ombres là ; dans-profonds-de scheol appelés-de-elle."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "proverbes-de Salomon fils sage réjouira père ; et-fils insensé chagrin-de mère-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "non trésors-de tort feront-profiter ; et-droiture fera-délivrer depuis-mort."
+        },
+        {
+          "n": 3,
+          "t": "non YHWH fera-affamer âme-de juste ; et-gbvr-de méchants il-chassera."
+        },
+        {
+          "n": 4,
+          "t": "gjuter faisant palme-de laxisme ; et-main-de diligents fera-enrichir."
+        },
+        {
+          "n": 5,
+          "t": "récoltant dans-le-été fils faisant-comprendre ; gjtjé dans-le-moisson fils faisant-rougir."
+        },
+        {
+          "n": 6,
+          "t": "bénédictions à/pour-tête juste ; et-bouche-de méchants covera violence."
+        },
+        {
+          "n": 7,
+          "t": "mémoire-de juste à/pour-bénédiction ; et-nom-de méchants gkcwera."
+        },
+        {
+          "n": 8,
+          "t": "sage-de cœur prendra commandements ; et-sot lèvres il-sera-geqjé."
+        },
+        {
+          "n": 9,
+          "t": "marchant dans-le-intégrité sécurité ira ; et-gibdant chemins-de-lui il-sera-su."
+        },
+        {
+          "n": 10,
+          "t": "gjosant œil donnera dommage ; et-sot lèvres il-sera-geqjé."
+        },
+        {
+          "n": 11,
+          "t": "source-de vies bouche-de juste ; et-bouche-de méchants covera violence."
+        },
+        {
+          "n": 12,
+          "t": "haine éveillera gfahs ; et-sur gfder covera tout-de forfaits."
+        },
+        {
+          "n": 13,
+          "t": "dans-lèvres-de discerné sagesse sera-trouvée ; et-verge à/pour-gbdda-de dépourvu-de cœur."
+        },
+        {
+          "n": 14,
+          "t": "sages ils-cacheront connaissance ; et-bouche-de sot ruine proche."
+        },
+        {
+          "n": 15,
+          "t": "richesse riche cité-de puissance-de-lui ; ruine-de pauvres poverty-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "wages-de juste à/pour-vies ; produire-de méchant à/pour-faute."
+        },
+        {
+          "n": 17,
+          "t": "sentier à/pour-vies gardant correction ; et-abandonnant correction faisant-chanceler."
+        },
+        {
+          "n": 18,
+          "t": "covant haine lèvres-de mensonge ; et-faisant-sortir diffamation lui insensé."
+        },
+        {
+          "n": 19,
+          "t": "dans-multitude-de paroles non forfait cessera ; et-restreindant lèvres-de-lui faisant-comprendre."
+        },
+        {
+          "n": 20,
+          "t": "argent choisi langue-de juste ; cœur-de méchants comme-peu."
+        },
+        {
+          "n": 21,
+          "t": "lèvres-de juste ils-paîtront nombreux ; et-sots dans-dépourvu-de cœur ils-mourront."
+        },
+        {
+          "n": 22,
+          "t": "bénédiction-de YHWH lui fera-enrichir ; et-non peine fera-ajouter avec-elle."
+        },
+        {
+          "n": 23,
+          "t": "comme-rire à/pour-insensé faire plan ; et-sagesse à/pour-homme-de intelligence."
+        },
+        {
+          "n": 24,
+          "t": "crainte-de méchant lui viendra-lui ; et-désir-de justes il-donnera."
+        },
+        {
+          "n": 25,
+          "t": "comme-passer whirlwind et-néant méchant ; et-juste fondement-de durée."
+        },
+        {
+          "n": 26,
+          "t": "comme-le-vinaigre à/pour-les-dents et-comme-le-fumée à/pour-les-yeux ; ainsi le-paresseux à/pour-envoyants-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "gdyt-de YHWH fera-ajouter jours ; et-années-de méchants gjmpaeront."
+        },
+        {
+          "n": 28,
+          "t": "espérance-de justes gaieté ; et-cordon-de méchants périra."
+        },
+        {
+          "n": 29,
+          "t": "forteresse à/pour-le-intégrité chemin-de YHWH ; et-ruine à/pour-ouvrants-de malheur."
+        },
+        {
+          "n": 30,
+          "t": "juste à/pour-durée ni il-sera-chancelé ; et-méchants non ils-habiteront terre."
+        },
+        {
+          "n": 31,
+          "t": "bouche-de juste ggnkera sagesse ; et-langue-de perversités sera-coupée."
+        },
+        {
+          "n": 32,
+          "t": "lèvres-de juste ils-sauront acceptation ; et-bouche-de méchants perversités."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "balances-de tromperie abominable-de YHWH ; et-pierre parfaite acceptation-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "venant orgueil et-est-venu honte ; et-ensemble gjanbs sagesse."
+        },
+        {
+          "n": 3,
+          "t": "intégrité-de droits fera-conduire-eux ; et-perversité-de gahnants et-dévaster-de-eux dévastera-eux."
+        },
+        {
+          "n": 4,
+          "t": "non richesse fera-profiter dans-jour-de débordement ; et-droiture fera-délivrer depuis-mort."
+        },
+        {
+          "n": 5,
+          "t": "droiture-de entier gecpera chemin-de-lui ; et-dans-méchanceté-de-lui il-tombera méchant."
+        },
+        {
+          "n": 6,
+          "t": "droiture-de droits fera-délivrer-eux ; et-dans-gbvr-de gahnants ils-seront-capturés."
+        },
+        {
+          "n": 7,
+          "t": "dans-mort-de homme méchant cordon périra ; et-espérance-de malheurs a-péri."
+        },
+        {
+          "n": 8,
+          "t": "juste depuis-angoisse équipé ; et-il-est-venu méchant sous-lui."
+        },
+        {
+          "n": 9,
+          "t": "dans-bouche profane ami-de-lui détruira ; et-dans-connaissance justes ils-seront-équipés."
+        },
+        {
+          "n": 10,
+          "t": "dans-bonté-de justes cité ghupera ; et-dans-périr méchants gjzd."
+        },
+        {
+          "n": 11,
+          "t": "dans-bénédiction-de droits ville élevera ; et-dans-bouche-de méchants elle-sera-renversée."
+        },
+        {
+          "n": 12,
+          "t": "gaizant à/pour-ami-de-lui dépourvu-de cœur ; et-homme-de intelligences fera-labourer."
+        },
+        {
+          "n": 13,
+          "t": "marchant calomnie découvrant conseil ; et-supporté-de esprit covant parole."
+        },
+        {
+          "n": 14,
+          "t": "dans-néant peuple ; tombera directions et-deliverance dans-multitude-de conseillant."
+        },
+        {
+          "n": 15,
+          "t": "mauvais il-sera-nui car il-a-échangé stranger ; et-gkzrant sonners confiant."
+        },
+        {
+          "n": 16,
+          "t": "gloire ; tiendra femme-de grâce et-terrifiants ils-tiendront richesse."
+        },
+        {
+          "n": 17,
+          "t": "récompensant âme-de-lui homme-de faveur ; et-troublant flesh-de-lui cruel."
+        },
+        {
+          "n": 18,
+          "t": "méchant faisant wages-de mensonge ; et-semant droiture hire-de vérité."
+        },
+        {
+          "n": 19,
+          "t": "droite droiture à/pour-vies ; et-poursuivant mal à/pour-mort-de-lui."
+        },
+        {
+          "n": 20,
+          "t": "abominable-de YHWH pervers-de cœur ; et-acceptation-de-lui entiers-de chemin."
+        },
+        {
+          "n": 21,
+          "t": "main à/pour-main non sera-innocenté bad ; et-semence-de justes a-été-sauvé."
+        },
+        {
+          "n": 22,
+          "t": "ggos-de or dans-nez-de porc ; femme belle et-détournante-de goût."
+        },
+        {
+          "n": 23,
+          "t": "désir-de justes sûrement bien ; cordon-de méchants débordement."
+        },
+        {
+          "n": 24,
+          "t": "substance dispersant et-ajouté encore ; et-restreindant depuis-gecr sûrement à/pour-besoin."
+        },
+        {
+          "n": 25,
+          "t": "âme-de bénédiction engraissera ; et-faisant-gjtuer aussi lui sera-fait-gdzdaer."
+        },
+        {
+          "n": 26,
+          "t": "retenissant blé ils-perforeront-lui people ; et-bénédiction à/pour-tête-de faisant-gkhver."
+        },
+        {
+          "n": 27,
+          "t": "cherchant bien acceptation cherchera ; et-fréquentant mal viendra-lui."
+        },
+        {
+          "n": 28,
+          "t": "confiant dans-richesse-de-lui lui tombera ; et-comme-le-feuille justes ils-fleuriront."
+        },
+        {
+          "n": 29,
+          "t": "troublant maison-de-lui héritera esprit ; et-serviteur sot à/pour-sage-de cœur."
+        },
+        {
+          "n": 30,
+          "t": "fruit-de juste arbre-de vies ; et-prenant âmes sage."
+        },
+        {
+          "n": 31,
+          "t": "voilà juste dans-la-terre il-gkuqaera ; même car méchant et-péchant."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "aimant correction aimant connaissance ; et-gkzrant correction abrutissement."
+        },
+        {
+          "n": 2,
+          "t": "bon acceptation fera-promouvoir depuis-YHWH ; et-homme-de desseins fera-méfaire."
+        },
+        {
+          "n": 3,
+          "t": "non homme sera-affermi dans-tort ; et-racine-de justes ni sera-chancelé."
+        },
+        {
+          "n": 4,
+          "t": "femme-de compétence couronne-de mari-de-elle ; et-comme-pourriture dans-os-de-lui faisante-rougir."
+        },
+        {
+          "n": 5,
+          "t": "pensées-de justes jugement ; directions-de méchants tromperie."
+        },
+        {
+          "n": 6,
+          "t": "paroles-de méchants gzqer sang ; et-bouche-de droits fera-délivrer-eux."
+        },
+        {
+          "n": 7,
+          "t": "tourner méchants et-néant-eux ; et-maison-de justes restera."
+        },
+        {
+          "n": 8,
+          "t": "à/pour-bouche-de prudence-de-lui homme brillera ; et-déformé-de cœur sera à/pour-mépris."
+        },
+        {
+          "n": 9,
+          "t": "bon disgracié et-serviteur à/pour-lui ; depuis-honor et-dépourvu-de pain."
+        },
+        {
+          "n": 10,
+          "t": "sachant juste âme-de bête-de-lui ; et-miséricordes-de méchants cruel."
+        },
+        {
+          "n": 11,
+          "t": "servissant pain ; rassasiera sol-de-lui et-poursuivant vides dépourvu-de cœur."
+        },
+        {
+          "n": 12,
+          "t": "a-convoité méchant gfxeb-de bads ; et-racine-de justes donnera."
+        },
+        {
+          "n": 13,
+          "t": "dans-forfait-de lèvres piège bad ; et-il-est-sorti depuis-angoisse juste."
+        },
+        {
+          "n": 14,
+          "t": "depuis-fruit-de bouche-de homme il-rassasiera bien ; et-récompense-de mains-de homme retournera fera-retourner à/pour-lui."
+        },
+        {
+          "n": 15,
+          "t": "chemin-de sot droit dans-yeux-de-lui ; et-écoutant à/pour-avis sage."
+        },
+        {
+          "n": 16,
+          "t": "sot dans-le-jour chagrin-de-lui sera-su ; et-covant honte rusé."
+        },
+        {
+          "n": 17,
+          "t": "fera-souffler fidélité justice fera-annoncer ; et-witness-de mensonges tromperie."
+        },
+        {
+          "n": 18,
+          "t": "substance légèant comme-percers-de épée ; et-langue-de sages guérison."
+        },
+        {
+          "n": 19,
+          "t": "lèvre-de vérité sera-affermie à/pour-perpétuité ; et-jusqu'à je-fasse-gjszaer langue-de mensonge."
+        },
+        {
+          "n": 20,
+          "t": "tromperie dans-cœur-de combinants-de mauvais ; et-à/pour-conseillants-de paix gaieté."
+        },
+        {
+          "n": 21,
+          "t": "non tout-de malheur ; arrivera à/pour-le-juste et-méchants ils-ont-rempli mauvais."
+        },
+        {
+          "n": 22,
+          "t": "abominable-de YHWH lèvres-de mensonge ; et-faisants-de fidélité acceptation-de-lui."
+        },
+        {
+          "n": 23,
+          "t": "homme rusé covant connaissance ; et-cœur-de insensés appelera folie."
+        },
+        {
+          "n": 24,
+          "t": "main-de diligents gouvernera ; et-laxisme sera à/pour-taskworker."
+        },
+        {
+          "n": 25,
+          "t": "angoisse dans-cœur-de homme il-fera-courber-elle ; et-parole bon réjouira-elle."
+        },
+        {
+          "n": 26,
+          "t": "il-fera-espionner depuis-ami-de-lui juste ; et-chemin-de méchants fera-chanceler-eux."
+        },
+        {
+          "n": 27,
+          "t": "non démarrera laxisme gibier-de-lui ; et-richesse homme précieux diligent."
+        },
+        {
+          "n": 28,
+          "t": "dans-sentier-de droiture vies ; et-chemin-de sentier ne mort."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils sage correction-de père ; et-mépriser non il-a-écouté menace."
+        },
+        {
+          "n": 2,
+          "t": "depuis-fruit-de bouche-de homme il-mangera bien ; et-âme-de gahnants violence."
+        },
+        {
+          "n": 3,
+          "t": "surveillant bouche-de-lui gardant âme-de-lui ; giskant lèvres-de-lui ruine à/pour-lui."
+        },
+        {
+          "n": 4,
+          "t": "se-inclinante et-néant âme-de-lui paresseux ; et-âme-de diligents engraissera."
+        },
+        {
+          "n": 5,
+          "t": "parole-de mensonge gkzrera juste ; et-méchant il-fera-puer et-il-fera-gcxger."
+        },
+        {
+          "n": 6,
+          "t": "droiture surveillera intégrité-de chemin ; et-méchanceté pervertira faute."
+        },
+        {
+          "n": 7,
+          "t": "substance se-enrichissant et-néant tout ; gjuté et-richesse nombreux."
+        },
+        {
+          "n": 8,
+          "t": "ransom-de âme-de homme richesse-de-lui ; et-gjutant non il-a-écouté menace."
+        },
+        {
+          "n": 9,
+          "t": "lumière-de justes réjouira ; et-lampe-de méchants gbrzera."
+        },
+        {
+          "n": 10,
+          "t": "seulement dans-orgueil il-donnera querelle ; et-ensemble conseillés sagesse."
+        },
+        {
+          "n": 11,
+          "t": "richesse depuis-vanity gftoera ; et-assemblant sur main fera-multiplier."
+        },
+        {
+          "n": 12,
+          "t": "espérance traînée faisante-gcpzaer cœur ; et-arbre-de vies désir venante."
+        },
+        {
+          "n": 13,
+          "t": "gaizant à/pour-parole il-sera-gchrbé à/pour-lui ; et-craintif-de commandement lui gkuqaera."
+        },
+        {
+          "n": 14,
+          "t": "instruction-de sage source-de vies ; à/pour-détourner depuis-pièges-de mort."
+        },
+        {
+          "n": 15,
+          "t": "prudence bon donnera grâce ; et-chemin-de gahnants perpétuel."
+        },
+        {
+          "n": 16,
+          "t": "tout-de rusé fera dans-connaissance ; et-insensé il-étendra folie."
+        },
+        {
+          "n": 17,
+          "t": "messager méchant tombera dans-mauvais ; et-envoyé-de confiances guérison."
+        },
+        {
+          "n": 18,
+          "t": "poverty et-honte giqrbant correction ; et-gardant correction il-honora."
+        },
+        {
+          "n": 19,
+          "t": "désir été gibmera à/pour-âme ; et-abominable-de insensés détourner depuis-bad."
+        },
+        {
+          "n": 20,
+          "t": "marcher marchant ensemble sages et-gcpee il-gcpeera ; et-gjzzcçant insensés il-sera-nui."
+        },
+        {
+          "n": 21,
+          "t": "pécheurs mal poursuivra ; et-justes il-gkuqaera bien."
+        },
+        {
+          "n": 22,
+          "t": "bon il-fera-hériter fils-de fils ; et-caché à/pour-le-juste compétence-de péchant."
+        },
+        {
+          "n": 23,
+          "t": "multitude-de goj labourable-de gjutants ; et-substance détruit dans-non jugement."
+        },
+        {
+          "n": 24,
+          "t": "restreindant verge-de-lui gkzrant fils-de-lui ; et-aimant-de-lui correction a-cherché-lui."
+        },
+        {
+          "n": 25,
+          "t": "juste mangeant à/pour-satiété-de âme-de-lui ; et-ventre-de méchants diminuera."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "sagesses-de femmes elle-a-bâti maison-de-elle ; et-folie dans-mains-de-elle renversera-lui."
+        },
+        {
+          "n": 2,
+          "t": "marchant dans-gecr-de-lui craintif-de YHWH ; et-gerté-de chemins-de-lui méprisant-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "dans-bouche-de sot verge-de majesté ; et-lèvres-de sages elle-gardera-eux."
+        },
+        {
+          "n": 4,
+          "t": "dans-néant cattle crèche-de clair ; et-multitude-de produires dans-force-de bœuf."
+        },
+        {
+          "n": 5,
+          "t": "witness-de confiances non manquera ; et-fera-souffler faussetés witness-de mensonge."
+        },
+        {
+          "n": 6,
+          "t": "il-a-cherché mépriser sagesse et-néant ; et-connaissance à/pour-discerné légé."
+        },
+        {
+          "n": 7,
+          "t": "va devant à/pour-homme insensé ; et-ni tu-as-su lèvres-de connaissance."
+        },
+        {
+          "n": 8,
+          "t": "sagesse-de rusé faire-discerner chemin-de-lui ; et-folie-de insensés tromperie."
+        },
+        {
+          "n": 9,
+          "t": "sots culpabilité fera-mépriser ; et-entre droits acceptation."
+        },
+        {
+          "n": 10,
+          "t": "cœur sachant amertume-de âme-de-lui ; et-dans-gaieté-de-lui non il-échangera stranger."
+        },
+        {
+          "n": 11,
+          "t": "maison-de méchants sera-exterminé ; et-tente-de droits fera-fleurir."
+        },
+        {
+          "n": 12,
+          "t": "substance chemin droit à/pour-faces-de homme ; et-end-de-elle chemins-de mort."
+        },
+        {
+          "n": 13,
+          "t": "aussi dans-rire cœur gedzera ; et-end-de-elle gaieté chagrin."
+        },
+        {
+          "n": 14,
+          "t": "depuis-chemins-de-lui rassasiera bouger-de cœur ; et-sur-lui homme bon."
+        },
+        {
+          "n": 15,
+          "t": "simplicité fera-supporter à/pour-tout-de parole ; et-rusé il-discernera à/pour-gaffa-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "sage craintif et-détournant depuis-bad ; et-insensé se-transportant et-confiant."
+        },
+        {
+          "n": 17,
+          "t": "court-de nez il-fera folie ; et-homme-de desseins sera-gkzré."
+        },
+        {
+          "n": 18,
+          "t": "simplicités ont-hérité folie ; et-rusés ils-feront-entourer connaissance."
+        },
+        {
+          "n": 19,
+          "t": "ils-ont-gknqé bads à/pour-faces-de bons ; et-méchants sur portes-de juste."
+        },
+        {
+          "n": 20,
+          "t": "aussi à/pour-ami-de-lui il-sera-gkzré gjutant ; et-aimants-de riche nombreux."
+        },
+        {
+          "n": 21,
+          "t": "gaizant à/pour-ami-de-lui péchant ; et-graciant affligés humbles bonheurs-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "est-ce-non ils-chanceleront combinants-de mauvais ; et-faveur et-vérité combinants-de bien."
+        },
+        {
+          "n": 23,
+          "t": "dans-tout-de peine abondance sera ; et-parole-de lèvres sûrement à/pour-besoin."
+        },
+        {
+          "n": 24,
+          "t": "couronne-de sages richesse-de-eux ; folie-de insensés folie."
+        },
+        {
+          "n": 25,
+          "t": "faisant-délivrer âmes witness-de vérité ; et-il-fera-souffler faussetés tromperie."
+        },
+        {
+          "n": 26,
+          "t": "dans-gdyt-de YHWH confiance-de puissance ; et-à/pour-fils-de-lui refuge sera."
+        },
+        {
+          "n": 27,
+          "t": "gdyt-de YHWH source-de vies ; à/pour-détourner depuis-pièges-de mort."
+        },
+        {
+          "n": 28,
+          "t": "dans-multitude-de peuple ornement-de roi ; et-dans-finalité-de people ruine-de gouvernant."
+        },
+        {
+          "n": 29,
+          "t": "longues-de nez nombreux-de intelligence ; et-court-de esprit faisant-élever folie."
+        },
+        {
+          "n": 30,
+          "t": "vies-de chairs cœur-de guérison ; et-pourriture-de os jalousie."
+        },
+        {
+          "n": 31,
+          "t": "violant pauvre il-a-gdbvaé faisant-de-lui ; et-honor-de-lui graciant indigent."
+        },
+        {
+          "n": 32,
+          "t": "dans-mal-de-lui il-sera-exilé méchant ; et-gcvtant dans-mort-de-lui juste."
+        },
+        {
+          "n": 33,
+          "t": "dans-cœur discerné sagesse ggnuera ; et-dans-parmi-de insensés elle-sera-sue."
+        },
+        {
+          "n": 34,
+          "t": "droiture élevera nation ; et-fidélité-de peoples faute."
+        },
+        {
+          "n": 35,
+          "t": "acceptation-de roi à/pour-serviteur faisant-comprendre ; et-débordement-de-lui sera faisant-rougir."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "réponse doux fera-retourner colère ; nez fera-monter et-parole-de peine."
+        },
+        {
+          "n": 2,
+          "t": "langue-de sages fera-améliorer connaissance ; et-bouche-de insensés fera-bouillonner folie."
+        },
+        {
+          "n": 3,
+          "t": "dans-tout-de lieu yeux-de YHWH ; regardantes bads et-bons."
+        },
+        {
+          "n": 4,
+          "t": "guérison-de langue arbre-de vies ; et-perversité dans-elle ruine dans-esprit."
+        },
+        {
+          "n": 5,
+          "t": "sot correction-de père-de-lui repoussera ; et-gardant correction il-gidcera."
+        },
+        {
+          "n": 6,
+          "t": "maison-de juste richesse nombreux ; et-dans-produire-de méchant troublée."
+        },
+        {
+          "n": 7,
+          "t": "lèvres-de sages ils-disperseront connaissance ; et-cœur-de insensés non droite."
+        },
+        {
+          "n": 8,
+          "t": "sacrifice-de méchants abominable-de YHWH ; et-prière-de droits acceptation-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "abominable-de YHWH chemin méchant ; et-poursuivant droiture il-aimera."
+        },
+        {
+          "n": 10,
+          "t": "correction bad à/pour-abandonnant-de sentier ; gkzrant correction il-mourra."
+        },
+        {
+          "n": 11,
+          "t": "scheol et-Abaddon devant YHWH ; même car geqds-de fils-de homme."
+        },
+        {
+          "n": 12,
+          "t": "non il-aimera mépriser faire-corriger à/pour-lui ; vers sages non il-ira."
+        },
+        {
+          "n": 13,
+          "t": "cœur joyeux fera-améliorer faces ; et-dans-dommage-de cœur esprit strickene."
+        },
+        {
+          "n": 14,
+          "t": "cœur discerné cherchera connaissance ; et-faces-de et-bouche-de insensés paîtra folie."
+        },
+        {
+          "n": 15,
+          "t": "tout-de jours-de affligé bads ; et-bon-de cœur festin perpétuité."
+        },
+        {
+          "n": 16,
+          "t": "bon peu dans-gdyt-de YHWH ; depuis-trésor nombreux et-trouble dans-lui."
+        },
+        {
+          "n": 17,
+          "t": "bon repas-de herbes et-gfder là ; depuis-bœuf engraissé et-haine dans-lui."
+        },
+        {
+          "n": 18,
+          "t": "strife ; attaquera homme-de colère et-longues-de dispute fera-apaiser nez."
+        },
+        {
+          "n": 19,
+          "t": "chemin paresseux comme-haie-de épines ; et-sentier-de droits frayée."
+        },
+        {
+          "n": 20,
+          "t": "fils sage réjouira père ; et-insensé homme méprisant mère-de-lui."
+        },
+        {
+          "n": 21,
+          "t": "folie gaieté à/pour-dépourvu cœur ; et-homme-de intelligence gecpera aller."
+        },
+        {
+          "n": 22,
+          "t": "faire-rompre pensées dans-néant conseil ; et-dans-multitude-de conseillants elle-levera."
+        },
+        {
+          "n": 23,
+          "t": "gaieté à/pour-le-homme dans-réponse-de bouche-de-lui ; et-parole dans-heure-de-lui quoi bon."
+        },
+        {
+          "n": 24,
+          "t": "sentier-de vies à/pour-dessus-vers à/pour-faisant-comprendre ; égard détourner depuis-scheol beneath."
+        },
+        {
+          "n": 25,
+          "t": "maison-de orgueilleux ggtcera YHWH ; frontière-de veuve et-fera-établir."
+        },
+        {
+          "n": 26,
+          "t": "abominable-de YHWH pensées-de mauvais ; et-purs émissions-de beauté."
+        },
+        {
+          "n": 27,
+          "t": "troublant maison-de-lui gatrant profit ; et-gkzrant dons il-guérira."
+        },
+        {
+          "n": 28,
+          "t": "cœur juste méditera à/pour-répondre ; et-bouche-de méchants fera-bouillonner bades."
+        },
+        {
+          "n": 29,
+          "t": "lointain YHWH depuis-méchants ; et-prière-de justes il-écoutera."
+        },
+        {
+          "n": 30,
+          "t": "cœur ; réjouira luminaire-de yeux nouvelles bone engraissera os."
+        },
+        {
+          "n": 31,
+          "t": "oreille écoutante-de correction-de vies ; dans-parmi-de sages elle-logera."
+        },
+        {
+          "n": 32,
+          "t": "giqrbant correction rejetant âme-de-lui ; et-écoutant correction acquérissant cœur."
+        },
+        {
+          "n": 33,
+          "t": "gdyt-de YHWH correction-de sagesse ; et-à/pour-faces-de gloire humilité."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "à/pour-homme préparations-de cœur ; et-depuis-YHWH réponse-de langue."
+        },
+        {
+          "n": 2,
+          "t": "tout-de chemins-de homme propre dans-yeux-de-lui ; et-réglant esprits YHWH."
+        },
+        {
+          "n": 3,
+          "t": "roule vers YHWH actes-de-toi ; et-ils-soient-affermi pensées-de-toi."
+        },
+        {
+          "n": 4,
+          "t": "tout a-ouvré YHWH à/pour-le-réponse-de-lui ; et-aussi méchant à/pour-jour-de mal."
+        },
+        {
+          "n": 5,
+          "t": "abominable-de YHWH tout-de haut-de cœur ; main à/pour-main non sera-innocenté."
+        },
+        {
+          "n": 6,
+          "t": "dans-faveur iniquité ; couvrira et-vérité et-dans-gdyt-de YHWH détourner depuis-bad."
+        },
+        {
+          "n": 7,
+          "t": "dans-gkcger YHWH chemins-de homme ; aussi gmcçants-de-lui il-fera-gkuqber ensemble-lui."
+        },
+        {
+          "n": 8,
+          "t": "bon peu dans-droiture ; depuis-multitude-de produires dans-non jugement."
+        },
+        {
+          "n": 9,
+          "t": "chemin-de-lui ; pensera cœur-de homme et-YHWH fera-affermir pas-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "divination sur lèvres-de roi ; dans-jugement non bouche-de-lui trahira."
+        },
+        {
+          "n": 11,
+          "t": "gimc et-balances-de jugement à/pour-YHWH ; acte-de-lui tout-de pierres-de sac."
+        },
+        {
+          "n": 12,
+          "t": "abominable-de rois faire tort ; car dans-droiture trône sera-affermi."
+        },
+        {
+          "n": 13,
+          "t": "acceptation-de rois lèvres-de justice ; et-parlant droits il-aimera."
+        },
+        {
+          "n": 14,
+          "t": "colère-de roi messagers-de mort ; et-homme sage couvrira-elle."
+        },
+        {
+          "n": 15,
+          "t": "dans-lumière-de faces-de roi vies ; et-acceptation-de-lui comme-nuée-de spring."
+        },
+        {
+          "n": 16,
+          "t": "acquérir sagesse quoi bon depuis-aiguisé ; et-acquérir discernement choisi depuis-argent."
+        },
+        {
+          "n": 17,
+          "t": "highway-de droits détourner depuis-bad ; gardant âme-de-lui surveillant chemin-de-lui."
+        },
+        {
+          "n": 18,
+          "t": "à/pour-faces-de ruine orgueil ; et-à/pour-faces-de stumbling hauteur-de esprit."
+        },
+        {
+          "n": 19,
+          "t": "bon humble esprit ensemble affligés humbles ; depuis-diviser butin ensemble orgueilleux."
+        },
+        {
+          "n": 20,
+          "t": "faisant-comprendre sur parole trouvera bien ; et-confiant dans-YHWH bonheurs-de-lui."
+        },
+        {
+          "n": 21,
+          "t": "à/pour-sage-de cœur il-sera-appelé discerné ; enseignement fera-ajouter et-douceur-de lèvres."
+        },
+        {
+          "n": 22,
+          "t": "source-de vies prudence-de maris-de-lui ; et-correction-de sots folie."
+        },
+        {
+          "n": 23,
+          "t": "cœur sage fera-comprendre bouche-de-lui ; et-sur enseignement fera-ajouter lèvres-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "giwf-de miel émissions-de beauté ; douce à/pour-la-âme et-guérison à/pour-la-os."
+        },
+        {
+          "n": 25,
+          "t": "substance chemin droit à/pour-faces-de homme ; et-end-de-elle chemins-de mort."
+        },
+        {
+          "n": 26,
+          "t": "âme-de travailleur a-travaillé à/pour-lui ; car bouche-de-lui a-excité sur-lui."
+        },
+        {
+          "n": 27,
+          "t": "homme-de indignité percçant mal ; et-sur lèvres-de-lui lèvre-de-lui comme-feu cicatrice."
+        },
+        {
+          "n": 28,
+          "t": "strife ; envoyera homme-de perversités et-whisperé faisant-séparer tame."
+        },
+        {
+          "n": 29,
+          "t": "ami-de-lui ; séduira homme-de violence et-il-a-fait-aller-lui dans-chemin non bon."
+        },
+        {
+          "n": 30,
+          "t": "fermant yeux-de-lui à/pour-penser perversités ; gjosant lèvres-de-lui il-a-achevé mal."
+        },
+        {
+          "n": 31,
+          "t": "couronne-de splendeur âge ; dans-chemin-de droiture elle-sera-trouvée."
+        },
+        {
+          "n": 32,
+          "t": "bon longues-de nez depuis-puissant ; et-gouvernant dans-esprit-de-lui depuis-capturant-de ville."
+        },
+        {
+          "n": 33,
+          "t": "dans-le-sein il-sera-fait-jeter le-sort ; et-depuis-YHWH tout-de jugement-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "bon morceau sece et-prospérité dans-elle ; depuis-maison plein sacrifices-de dispute."
+        },
+        {
+          "n": 2,
+          "t": "serviteur faisant-comprendre gouvernera dans-fils faisant-rougir ; et-dans-milieu-de frères il-divisera héritage."
+        },
+        {
+          "n": 3,
+          "t": "creuset à/pour-le-argent et-fourneau à/pour-le-or ; et-éprouvant geqds YHWH."
+        },
+        {
+          "n": 4,
+          "t": "faisant-nuire faisant-guetter sur lèvre-de malheur ; mensonge faisant-entendre sur langue-de gbvrs."
+        },
+        {
+          "n": 5,
+          "t": "ridiculisant à/pour-le-gjutant il-a-gdbvaé faisant-de-lui ; joyeux à/pour-calamité non il-sera-innocenté."
+        },
+        {
+          "n": 6,
+          "t": "couronne-de vieux fils-de fils ; et-splendeur-de fils pères-de-eux."
+        },
+        {
+          "n": 7,
+          "t": "non belle à/pour-insensé lèvre-de excès ; même car à/pour-noble lèvre-de mensonge."
+        },
+        {
+          "n": 8,
+          "t": "pierre-de grâce le-présent dans-yeux-de maris-de-lui ; vers tout-de qui tournera fera-comprendre."
+        },
+        {
+          "n": 9,
+          "t": "covant forfait cherchant gfder ; et-répétant dans-parole faisant-séparer tame."
+        },
+        {
+          "n": 10,
+          "t": "menace dans-faisant-discerner ggqgera ; depuis-faire-frapper insensé cent."
+        },
+        {
+          "n": 11,
+          "t": "sûrement rébellion cherchera mauvais ; et-messager cruel envoyera dans-lui."
+        },
+        {
+          "n": 12,
+          "t": "gihfer ours childless dans-homme ; et-ne insensé dans-folie-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "faisant-retourner mal sous agréable ; non mal fera-enlever enlevera depuis-maison-de-lui."
+        },
+        {
+          "n": 14,
+          "t": "gijrant-de eaux commencement-de strife ; et-à/pour-faces-de la-dispute a-se-exposé laisse."
+        },
+        {
+          "n": 15,
+          "t": "faisant-givger méchant et-faisant-méfaire juste ; abominable-de YHWH aussi deux-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-quoi celui-ci gages dans-main-de insensé ; à/pour-acquérir sagesse et-cœur-de néant."
+        },
+        {
+          "n": 17,
+          "t": "dans-tout-de heure aimant le-ami ; et-frère à/pour-angoisse sera-engendré."
+        },
+        {
+          "n": 18,
+          "t": "homme dépourvu-de cœur sonnant palme ; échangeant gage à/pour-faces-de ami-de-lui."
+        },
+        {
+          "n": 19,
+          "t": "aimant forfait aimant querelle ; faisant-gazier entrée-de-lui cherchant ruine."
+        },
+        {
+          "n": 20,
+          "t": "pervers-de cœur non trouvera bien ; et-tourné dans-langue-de-lui il-tombera dans-mal."
+        },
+        {
+          "n": 21,
+          "t": "engendrant insensé à/pour-chagrin à/pour-lui ; et-non père-de insensé réjouira."
+        },
+        {
+          "n": 22,
+          "t": "cœur joyeux fera-améliorer remède ; et-esprit strickene flétrira bone."
+        },
+        {
+          "n": 23,
+          "t": "présent depuis-sein-de méchant prendra ; à/pour-faire-tendre sentiers-de jugement."
+        },
+        {
+          "n": 24,
+          "t": "ensemble faces-de faisant-discerner sagesse ; et-yeux-de insensé dans-bout-de terre."
+        },
+        {
+          "n": 25,
+          "t": "chagrin à/pour-père-de-lui fils insensé ; et-amertume à/pour-engendrante-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "aussi punir à/pour-le-juste non bon ; à/pour-faire-frapper nobles sur gecr."
+        },
+        {
+          "n": 27,
+          "t": "restreindant émissions-de-lui sachant connaissance ; et-fraîche-de précieux-de esprit homme-de intelligence."
+        },
+        {
+          "n": 28,
+          "t": "aussi sot faisant-labourer sage il-sera-pensé ; shuttant lèvres-de-lui discerné."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "à/pour-désir il-cherchera séparé ; dans-tout-de succès il-exposera."
+        },
+        {
+          "n": 2,
+          "t": "non il-plaisira insensé dans-intelligence ; pour gsxb dans-se-découvrir cœur-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "dans-venir méchant mépris ; est-venu aussi et-avec honte opprobre."
+        },
+        {
+          "n": 4,
+          "t": "eaux profonds paroles-de bouche-de homme ; torrent bouillonnant source-de sagesse."
+        },
+        {
+          "n": 5,
+          "t": "porter faces-de méchant non bon ; à/pour-faire-tendre juste dans-le-jugement."
+        },
+        {
+          "n": 6,
+          "t": "lèvres-de insensé ils-viendront dans-dispute ; et-bouche-de-lui à/pour-coups appelera."
+        },
+        {
+          "n": 7,
+          "t": "bouche-de insensé ruine à/pour-lui ; et-lèvres-de-lui piège-de âme-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "paroles-de whisperé comme-se-gobants ; et-eux sont-descendu chambres-de ventre."
+        },
+        {
+          "n": 9,
+          "t": "aussi se-baissant dans-travail-de-lui ; frère lui à/pour-mari-de ruiner."
+        },
+        {
+          "n": 10,
+          "t": "tour-de puissance nom-de YHWH ; dans-lui il-courra juste et-il-a-été-gkilé."
+        },
+        {
+          "n": 11,
+          "t": "richesse riche cité-de puissance-de-lui ; et-comme-mur gkilée dans-imagination-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "à/pour-faces-de ruine cœur-de homme gaziera ; et-à/pour-faces-de gloire humilité."
+        },
+        {
+          "n": 13,
+          "t": "faisant-retourner parole dans-avant écoutera ; folie lui à/pour-lui et-confusion."
+        },
+        {
+          "n": 14,
+          "t": "sickness-de-lui ; contenira esprit-de homme et-esprit strickene lequel portera-elle."
+        },
+        {
+          "n": 15,
+          "t": "cœur discerné acquérira connaissance ; et-oreille-de sages cherchera connaissance."
+        },
+        {
+          "n": 16,
+          "t": "dons-de homme fera-élargir à/pour-lui ; et-à/pour-faces-de grands il-fera-conduire-lui."
+        },
+        {
+          "n": 17,
+          "t": "juste le-premier dans-dispute-de-lui ; ami-de-lui viendra et-est-venu et-a-examiné-lui."
+        },
+        {
+          "n": 18,
+          "t": "le-sort ; fera-cesser contentions et-entre puissants il-fera-séparer."
+        },
+        {
+          "n": 19,
+          "t": "frère transgressé depuis-cité-de puissance ; et-strifes et-contentions comme-barre-de palais."
+        },
+        {
+          "n": 20,
+          "t": "depuis-fruit-de ventre-de-lui ; rassasiera bouche-de homme produire-de lèvres-de-lui il-rassasiera."
+        },
+        {
+          "n": 21,
+          "t": "mort et-vies dans-main-de langue ; et-aimants-de-elle fruit-de-elle mangera."
+        },
+        {
+          "n": 22,
+          "t": "il-a-trouvé femme il-a-trouvé bien ; acceptation et-a-fait-promouvoir depuis-YHWH."
+        },
+        {
+          "n": 23,
+          "t": "implorations il-parlera gjutant ; et-riche il-répondra féroces."
+        },
+        {
+          "n": 24,
+          "t": "homme-de amis à/pour-gkbaber ; et-substance aimant cleaving depuis-frère."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "bon gjutant marchant dans-intégrité-de-lui ; depuis-pervers-de lèvres-de-lui et-lui insensé."
+        },
+        {
+          "n": 2,
+          "t": "aussi dans-non connaissance âme non bon ; et-gheant dans-pieds péchant."
+        },
+        {
+          "n": 3,
+          "t": "chemin-de-lui ; pervertira folie-de homme et-sur YHWH rongera cœur-de-lui."
+        },
+        {
+          "n": 4,
+          "t": "richesse fera-ajouter amis nombreux ; et-pauvre ami-de-lui sera-séparé."
+        },
+        {
+          "n": 5,
+          "t": "witness-de mensonges non sera-innocenté ; et-il-fera-souffler faussetés non il-sera-sauvé."
+        },
+        {
+          "n": 6,
+          "t": "nombreux faces-de noble supplieront ; et-tout-de le-ami à/pour-homme-de dons."
+        },
+        {
+          "n": 7,
+          "t": "tout-de frères-de gjutant ils-ont-gkzré-lui même car compagnon-de-lui ils-ont-éloigné depuis-nous ; poursuivant émissions non à/pour-lui eux."
+        },
+        {
+          "n": 8,
+          "t": "acquérissant cœur aimant âme-de-lui ; gardant intelligence à/pour-trouver bien."
+        },
+        {
+          "n": 9,
+          "t": "witness-de mensonges non sera-innocenté ; et-il-fera-souffler faussetés il-périra."
+        },
+        {
+          "n": 10,
+          "t": "non belle à/pour-insensé exquis ; même car à/pour-serviteur gouverner dans-princes."
+        },
+        {
+          "n": 11,
+          "t": "nez-de-lui ; a-fait-prolonger prudence-de homme et-splendeur-de-lui passer sur forfait."
+        },
+        {
+          "n": 12,
+          "t": "rugissement comme-le-gelwa fureur-de roi ; et-comme-rosée sur plante acceptation-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "gbvrs à/pour-père-de-lui fils insensé ; et-gouttière gdissant contentions-de femme."
+        },
+        {
+          "n": 14,
+          "t": "maison et-richesse héritage-de pères ; et-depuis-YHWH femme faisante-comprendre."
+        },
+        {
+          "n": 15,
+          "t": "sluggishness fera-tomber torpeur ; et-âme-de laxisme affamera."
+        },
+        {
+          "n": 16,
+          "t": "gardant-de commandement gardant-de âme-de-lui ; méprisant-de chemins-de-lui il-sera-fait-mourir il-mourra."
+        },
+        {
+          "n": 17,
+          "t": "faisant-gersber-de YHWH graciant pauvre ; et-récompense-de-lui gkuqaera à/pour-lui."
+        },
+        {
+          "n": 18,
+          "t": "châtie fils-de-toi car substance cordon ; et-vers faire-mourir-de-lui ne tu-portes âme-de-toi."
+        },
+        {
+          "n": 19,
+          "t": "rude-de grand-de colère portant peine ; pour gsxb tu-feras-délivrer et-encore tu-feras-ajouter."
+        },
+        {
+          "n": 20,
+          "t": "écoute avis et-recevoir correction ; égard tu-gcpeeras dans-end-de-toi."
+        },
+        {
+          "n": 21,
+          "t": "nombreuses pensées dans-cœur-de homme ; et-avis-de YHWH lui levera."
+        },
+        {
+          "n": 22,
+          "t": "désir-de homme faveur-de-lui ; et-bon gjutant depuis-homme-de fausseté."
+        },
+        {
+          "n": 23,
+          "t": "gdyt-de YHWH à/pour-vies ; et-rassasié il-logera ni il-sera-visité mauvais."
+        },
+        {
+          "n": 24,
+          "t": "a-dissimulé paresseux main-de-lui dans-la-plat ; aussi vers bouche-de-lui non fera-retourner-elle."
+        },
+        {
+          "n": 25,
+          "t": "mépriser tu-feras-frapper et-simplicité gidcera ; et-faire-corriger à/pour-discerné il-discernera connaissance."
+        },
+        {
+          "n": 26,
+          "t": "dévastant-de père fera-atteindre mère ; fils faisant-rougir et-faisant-gcxger."
+        },
+        {
+          "n": 27,
+          "t": "cesse fils-de-moi à/pour-écouter correction ; à/pour-errer depuis-émissions-de connaissance."
+        },
+        {
+          "n": 28,
+          "t": "jugement ; fera-mépriser witness-de indignité et-bouche-de méchants engloutira malheur."
+        },
+        {
+          "n": 29,
+          "t": "jugements ; ont-été-affermi à/pour-les-méprisers et-coups à/pour-gbdda-de insensés."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "mépriser le-vin grognant strong ; et-tout-de errant dans-lui non gcpeera."
+        },
+        {
+          "n": 2,
+          "t": "rugissement comme-le-gelwa terreur-de roi ; se-transportant-de-lui péchant âme-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "gloire à/pour-le-homme cessation depuis-dispute ; et-tout-de sot exposera."
+        },
+        {
+          "n": 4,
+          "t": "depuis-automne paresseux non il-combinera ; il-demandera et-il-a-demandé dans-le-moisson et-néant."
+        },
+        {
+          "n": 5,
+          "t": "eaux profonds avis dans-cœur-de homme ; et-homme-de intelligence pendra-elle."
+        },
+        {
+          "n": 6,
+          "t": "homme appelera multitude-de homme, faveur-de-lui ; et-homme-de confiances lequel trouvera."
+        },
+        {
+          "n": 7,
+          "t": "se-marchant dans-intégrité-de-lui juste ; bonheurs fils-de-lui après-lui."
+        },
+        {
+          "n": 8,
+          "t": "roi habitant sur trône-de judgment ; dispersant dans-yeux-de-lui tout-de bad."
+        },
+        {
+          "n": 9,
+          "t": "lequel dira je-ai-gcdcé cœur-de-moi ; je-ai-puu depuis-faute-de-moi."
+        },
+        {
+          "n": 10,
+          "t": "pierre et-pierre épha et-épha ; abominable-de YHWH aussi deux-de-eux."
+        },
+        {
+          "n": 11,
+          "t": "aussi dans-actions-de-lui youth reconnaîtra ; si propre et-si droit œuvre-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "oreille écoutante et-œil voyante ; YHWH a-fait aussi deux-de-eux."
+        },
+        {
+          "n": 13,
+          "t": "ne tu-aimes sommeil sinon tu-seras-dépossédé ; ouvris yeux-de-toi rassasie pain."
+        },
+        {
+          "n": 14,
+          "t": "bad bad il-dira le-acquérissant ; et-disparaîtant à/pour-lui alors il-brillera."
+        },
+        {
+          "n": 15,
+          "t": "substance or et-multitude-de jewels ; et-ustensile-de honneur lèvres-de connaissance."
+        },
+        {
+          "n": 16,
+          "t": "prends perfidie-de-lui car a-échangé stranger ; et-derrière étrangers étrangere gchrae-lui."
+        },
+        {
+          "n": 17,
+          "t": "sweet à/pour-le-homme pain-de mensonge ; et-après bouche-de-lui gravier sera-rempli."
+        },
+        {
+          "n": 18,
+          "t": "pensées dans-avis elle-sera-affermie ; et-dans-directions fais guerre."
+        },
+        {
+          "n": 19,
+          "t": "découvrant conseil marchant-de calomnie ; et-à/pour-giswaant lèvres-de-lui non tu-échangeras."
+        },
+        {
+          "n": 20,
+          "t": "légeant père-de-lui et-mère-de-lui ; lampe-de-lui gbrzera dans-pupil-de ténèbre."
+        },
+        {
+          "n": 21,
+          "t": "héritage gakkbée terrifiée dans-la-premiere ; et-end-de-elle non bénira."
+        },
+        {
+          "n": 22,
+          "t": "ne tu-dises je-gkuqae mauvais ; espére à/pour-YHWH et-il-fera-sauver à/pour-toi-f."
+        },
+        {
+          "n": 23,
+          "t": "abominable-de YHWH pierre et-pierre ; et-balances-de tromperie non bon."
+        },
+        {
+          "n": 24,
+          "t": "depuis-YHWH gfxws-de guerrier ; et-homme quoi discernera chemin-de-lui."
+        },
+        {
+          "n": 25,
+          "t": "sainteté ; gdsrera piège-de homme et-après vœus à/pour-considérer."
+        },
+        {
+          "n": 26,
+          "t": "dispersant méchants roi sage ; roue et-a-fait-retourner sur-eux."
+        },
+        {
+          "n": 27,
+          "t": "lampe-de YHWH souffle-de homme ; recherchant tout-de chambres-de ventre."
+        },
+        {
+          "n": 28,
+          "t": "faveur et-vérité ils-surveilleront roi ; trône-de-lui et-a-fortifié dans-le-faveur."
+        },
+        {
+          "n": 29,
+          "t": "splendeur-de gakhs force-de-eux ; et-splendeur-de vieux âge."
+        },
+        {
+          "n": 30,
+          "t": "meurtrissures-de blessure elle-fera-polir raclement dans-bad ; et-coups-de chambres-de ventre."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "gikrs-de eaux cœur-de roi dans-main-de YHWH ; sur tout-de qui plaisira fera-tendre-lui."
+        },
+        {
+          "n": 2,
+          "t": "tout-de chemin-de homme droit dans-yeux-de-lui ; et-réglant geqds YHWH."
+        },
+        {
+          "n": 3,
+          "t": "faire droiture et-jugement ; choisi à/pour-YHWH depuis-sacrifice."
+        },
+        {
+          "n": 4,
+          "t": "hauteur-de yeux et-large-de cœur ; labourable-de méchants faute."
+        },
+        {
+          "n": 5,
+          "t": "pensées-de diligent sûrement à/pour-abondance ; et-tout-de gheant sûrement à/pour-besoin."
+        },
+        {
+          "n": 6,
+          "t": "œuvre-de trésors dans-langue-de mensonge ; vanity dissipé cherchants-de mort."
+        },
+        {
+          "n": 7,
+          "t": "dévastation-de méchants emportera-eux ; car ils-ont-refusé à/pour-faire jugement."
+        },
+        {
+          "n": 8,
+          "t": "tortueux chemin-de homme coupable ; et-propre droit œuvre-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "bon à/pour-habiter sur angle-de toit ; depuis-femme-de contentions et-maison-de bande."
+        },
+        {
+          "n": 10,
+          "t": "âme-de méchant a-incliné mauvais ; non ami-de-lui sera-fait-gracier dans-yeux-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "dans-punir mépriser simplicité gcpeera ; et-dans-faire-comprendre à/pour-sage il-prendra connaissance."
+        },
+        {
+          "n": 12,
+          "t": "faisant-comprendre juste à/pour-maison-de méchant ; pervertissant méchants à/pour-le-mauvais."
+        },
+        {
+          "n": 13,
+          "t": "shuttant oreille-de-lui depuis-cri-de pauvre ; aussi lui appelera et-non sera-répondu."
+        },
+        {
+          "n": 14,
+          "t": "dons dans-le-abri apaisera nez ; et-présent dans-le-sein colère féroce."
+        },
+        {
+          "n": 15,
+          "t": "gaieté à/pour-le-juste faire jugement ; et-ruine à/pour-ouvrants-de malheur."
+        },
+        {
+          "n": 16,
+          "t": "homme chancelant depuis-chemin-de faire-comprendre ; dans-congrégation-de ombres il-ggnuera."
+        },
+        {
+          "n": 17,
+          "t": "homme-de besoin aimant gaieté ; aimant vin et-huile non fera-enrichir."
+        },
+        {
+          "n": 18,
+          "t": "ransom à/pour-le-juste méchant ; et-sous droits gahnant."
+        },
+        {
+          "n": 19,
+          "t": "bon habiter dans-terre-de désert ; depuis-femme-de strifes contentions et-chagrin."
+        },
+        {
+          "n": 20,
+          "t": "trésor convoité et-huile dans-demeure-de sage ; et-insensé homme engloutira-lui."
+        },
+        {
+          "n": 21,
+          "t": "poursuivant droiture et-faveur ; trouvera vies droiture et-gloire."
+        },
+        {
+          "n": 22,
+          "t": "ville-de puissants il-est-monté sage ; puissance-de confiance-de-elle et-a-fait-descendre."
+        },
+        {
+          "n": 23,
+          "t": "gardant bouche-de-lui et-langue-de-lui ; gardant depuis-angoisses âme-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "arrogant hautain mépriser nom-de-lui ; faisant dans-débordement-de orgueil."
+        },
+        {
+          "n": 25,
+          "t": "désir-de paresseux fera-mourir-lui ; car ils-ont-refusé mains-de-lui à/pour-faire."
+        },
+        {
+          "n": 26,
+          "t": "tout-de le-jour a-se-incliné désir ; et-juste il-donnera et-non il-restreindra."
+        },
+        {
+          "n": 27,
+          "t": "sacrifice-de méchants abominable ; même car dans-plan il-fera-venir-lui."
+        },
+        {
+          "n": 28,
+          "t": "witness-de faussetés périra ; et-homme écoutant à/pour-éminence parlera."
+        },
+        {
+          "n": 29,
+          "t": "homme méchant a-fait-gholer dans-faces-de-lui ; et-droit lui fera-affermir discernera chemins-de-lui chemin-de-lui."
+        },
+        {
+          "n": 30,
+          "t": "néant sagesse et-néant intelligence ; et-néant avis devant YHWH."
+        },
+        {
+          "n": 31,
+          "t": "hirondelle été-fait-affermir à/pour-jour-de guerre ; et-à/pour-YHWH la-deliverance."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "verses": [
+        {
+          "n": 1,
+          "t": "choisi nom depuis-richesse nombreux ; depuis-argent et-depuis-or grâce bon."
+        },
+        {
+          "n": 2,
+          "t": "riche et-gjutant ils-ont-été-gihfé ; faisant-de tout-de-eux YHWH."
+        },
+        {
+          "n": 3,
+          "t": "rusé il-a-vu mal et-il-sera-caché et-il-a-été-caché ; et-simplicités ils-ont-passé et-ils-ont-été-puni."
+        },
+        {
+          "n": 4,
+          "t": "conséquence-de humilité gdyt-de YHWH ; richesse et-gloire et-vies."
+        },
+        {
+          "n": 5,
+          "t": "épines giiwas dans-chemin-de pervers ; gardant-de âme-de-lui éloignera depuis-eux."
+        },
+        {
+          "n": 6,
+          "t": "dédie à/pour-le-youth sur bouche-de chemin-de-lui ; aussi car il-fera-vieillir non il-détournera depuis-elle."
+        },
+        {
+          "n": 7,
+          "t": "riche dans-gjutants il-gouvernera ; et-serviteur gersbant à/pour-homme faisant-gersber."
+        },
+        {
+          "n": 8,
+          "t": "semant ghmtb moissonnera malheur ; et-verge-de débordement-de-lui achevera."
+        },
+        {
+          "n": 9,
+          "t": "bon-de œil lui bénira ; car il-a-donné depuis-pain-de-lui à/pour-le-pauvre."
+        },
+        {
+          "n": 10,
+          "t": "chasse mépriser strife et-sortira ; judgment et-honte et-cessera."
+        },
+        {
+          "n": 11,
+          "t": "aimant pur-de cœur ; grâce-de lèvres-de-lui ami-de-lui roi."
+        },
+        {
+          "n": 12,
+          "t": "yeux-de YHWH ils-ont-surveillé connaissance ; et-il-a-perverti paroles-de gahnant."
+        },
+        {
+          "n": 13,
+          "t": "a-dit paresseux gabja dans-le-dehors ; dans-milieu-de places je-serai-assassiné."
+        },
+        {
+          "n": 14,
+          "t": "fosse profonde bouche-de strangeres ; dénoncé-de YHWH tombera là."
+        },
+        {
+          "n": 15,
+          "t": "folie conspirée dans-cœur-de youth ; verge-de correction fera-éloigner-elle depuis-lui."
+        },
+        {
+          "n": 16,
+          "t": "violant pauvre à/pour-faire-multiplier à/pour-lui ; donnant à/pour-riche sûrement à/pour-besoin."
+        },
+        {
+          "n": 17,
+          "t": "fais-tendre oreille-de-toi et-écoute paroles-de sages ; et-cœur-de-toi tu-poseras à/pour-connaissance-de-moi."
+        },
+        {
+          "n": 18,
+          "t": "car plaisant car tu-garderas-eux dans-ventre-de-toi ; ils-seront-affermis union sur lèvres-de-toi."
+        },
+        {
+          "n": 19,
+          "t": "à/pour-être dans-YHWH confiance-de-toi ; je-ai-fait-savoir-toi le-jour même tu."
+        },
+        {
+          "n": 20,
+          "t": "est-ce-non je-ai-écrit à/pour-toi three tiers ; dans-conseils et-connaissance."
+        },
+        {
+          "n": 21,
+          "t": "à/pour-faire-savoir-de-toi truth-de émissions-de vérité ; à/pour-faire-retourner émissions vérité à/pour-envoyants-de-toi."
+        },
+        {
+          "n": 22,
+          "t": "ne tu-pilles pauvre car pauvre lui ; et-ne tu-gbpxes affligé dans-le-porte."
+        },
+        {
+          "n": 23,
+          "t": "car YHWH gjwtera dispute-de-eux ; et-a-gjepé gjepants-de-eux âme."
+        },
+        {
+          "n": 24,
+          "t": "ne tu-gjzzces ensemble mari-de nez ; et-ensemble homme-de colères non tu-viendras."
+        },
+        {
+          "n": 25,
+          "t": "sinon tu-apprendras sentier-de-lui sentiers-de-lui ; et-tu-as-pris piège à/pour-âme-de-toi."
+        },
+        {
+          "n": 26,
+          "t": "ne tu-sois dans-sonnants-de palme ; dans-les-échangeants prêts."
+        },
+        {
+          "n": 27,
+          "t": "si néant à/pour-toi à/pour-gkuqaer ; à/pour-quoi bed-de-toi prendra sous-toi."
+        },
+        {
+          "n": 28,
+          "t": "ne tu-fasses-déplacer frontière-de durée ; qui pères-de-toi ont-fait."
+        },
+        {
+          "n": 29,
+          "t": "tu-as-apercevoir homme habile dans-travail-de-lui à/pour-faces-de rois fixera ; ni il-fixera à/pour-faces-de obscurs."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "verses": [
+        {
+          "n": 1,
+          "t": "car tu-habiteras à/pour-gesxber ensemble gouvernant ; discerner tu-discernes qui à/pour-faces-de-toi."
+        },
+        {
+          "n": 2,
+          "t": "et-tu-as-mis couteau dans-gorge-de-toi ; si tu mari-de âme."
+        },
+        {
+          "n": 3,
+          "t": "ne tu-inclines à/pour-friandises-de-lui ; et-lui pain-de faussetés."
+        },
+        {
+          "n": 4,
+          "t": "ne tu-peines à/pour-faire-enrichir ; depuis-discernement-de-toi cesse."
+        },
+        {
+          "n": 5,
+          "t": "est-ce-tu-voltigeras est-ce-tu-feras-voltiger yeux-de-toi dans-lui et-néant-lui car faire il-fera à/pour-lui ailes ; comme-aigle et-il-a-voltigé il-voltigera les-ciels."
+        },
+        {
+          "n": 6,
+          "t": "ne tu-gesxbes pain-de bad-de œil ; et-ne tu-inclines à/pour-friandises-de-lui."
+        },
+        {
+          "n": 7,
+          "t": "car comme lui a-raisonné dans-âme-de-lui ainsi mange et-bois dira à/pour-toi-f ; et-cœur-de-lui ni avec-toi-f."
+        },
+        {
+          "n": 8,
+          "t": "morceau-de-toi tu-as-mangé tu-feras-vomir-elle ; et-tu-as-ruiné paroles-de-toi les-plaisants."
+        },
+        {
+          "n": 9,
+          "t": "dans-oreilles-de insensé ne tu-parles ; car il-gaizera à/pour-prudence-de discours-de-toi."
+        },
+        {
+          "n": 10,
+          "t": "ne tu-fasses-déplacer frontière-de durée ; et-dans-champs-de orphelins ne tu-viennes."
+        },
+        {
+          "n": 11,
+          "t": "car rachetant-de-eux fort ; lui gjwtera dispute-de-eux ensemble-toi-f."
+        },
+        {
+          "n": 12,
+          "t": "fais-venir-hé à/pour-le-correction cœur-de-toi ; et-oreilles-de-toi à/pour-émissions-de connaissance."
+        },
+        {
+          "n": 13,
+          "t": "ne tu-retenisses depuis-youth correction ; car tu-feras-frapper-lui dans-le-verge non il-mourra."
+        },
+        {
+          "n": 14,
+          "t": "tu dans-le-verge feras-frapper-lui ; et-âme-de-lui depuis-scheol tu-feras-délivrer."
+        },
+        {
+          "n": 15,
+          "t": "fils-de-moi si a-gcpeé cœur-de-toi ; cœur-de-moi réjouira aussi je."
+        },
+        {
+          "n": 16,
+          "t": "rognons-de-moi et-triompheront ; dans-parler lèvres-de-toi droitures."
+        },
+        {
+          "n": 17,
+          "t": "ne cœur-de-toi dans-les-pécheurs envie ; pour gsxb dans-gdyt-de YHWH tout-de le-jour."
+        },
+        {
+          "n": 18,
+          "t": "pour gsxb substance end ; et-cordon-de-toi non sera-coupée."
+        },
+        {
+          "n": 19,
+          "t": "écoute tu fils-de-moi et-gcpee ; et-avance dans-le-chemin cœur-de-toi."
+        },
+        {
+          "n": 20,
+          "t": "ne tu-sois dans-absorbants-de vin ; dans-gcdsbants-de chair à/pour-eux."
+        },
+        {
+          "n": 21,
+          "t": "car absorbant et-gcdsbant il-sera-dépossédé ; assoupissement fera-vêtir et-rags."
+        },
+        {
+          "n": 22,
+          "t": "écoute à/pour-père-de-toi celui-ci il-a-engendré-toi ; et-ne tu-gaizes car mère-de-toi a-vieilli."
+        },
+        {
+          "n": 23,
+          "t": "vérité acquéris et-ne tu-vendes ; sagesse et-correction et-discernement."
+        },
+        {
+          "n": 24,
+          "t": "allégresse père-de juste gbfoera ; engendrant et-engendrant sage et-il-réjouira il-réjouira réjouir-lui."
+        },
+        {
+          "n": 25,
+          "t": "père-de-toi réjouisse et-mère-de-toi ; et-elle-gbfoe engendrante-de-toi."
+        },
+        {
+          "n": 26,
+          "t": "donne-hé fils-de-moi cœur-de-toi à/pour-moi ; et-yeux-de-toi chemins-de-moi gkcgent surveillent."
+        },
+        {
+          "n": 27,
+          "t": "car fosse profonde gcewante ; et-puits serrée étrangere."
+        },
+        {
+          "n": 28,
+          "t": "même lui comme-robber gzqera ; et-gahnants dans-homme elle-fera-ajouter."
+        },
+        {
+          "n": 29,
+          "t": "à/pour-lequel woe à/pour-lequel hélas à/pour-lequel strifes contentions à/pour-lequel plainte à/pour-lequel blessures librement ; à/pour-lequel rougeur-de yeux."
+        },
+        {
+          "n": 30,
+          "t": "à/pour-les-différants sur le-vin ; à/pour-les-venants à/pour-examiner boissons."
+        },
+        {
+          "n": 31,
+          "t": "ne tu-voies vin car gdoera car œil-de-lui ; donnera dans-le-sac dans-la-coupe il-marchera dans-droitures."
+        },
+        {
+          "n": 32,
+          "t": "end-de-lui comme-serpent il-mordra ; et-comme-venimeux il-fera-distinguer."
+        },
+        {
+          "n": 33,
+          "t": "yeux-de-toi ils-verront strangeres ; et-cœur-de-toi parlera perversités."
+        },
+        {
+          "n": 34,
+          "t": "et-tu-as-été comme-mentissant dans-cœur-de mer ; et-comme-mentissant dans-tête-de mât."
+        },
+        {
+          "n": 35,
+          "t": "ils-ont-fait-frapper-moi ni je-ai-gcpzaé ils-ont-martelé-moi ni je-ai-su ggid je-ferai-éveiller ; je-ferai-ajouter je-chercherai-lui encore."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "verses": [
+        {
+          "n": 1,
+          "t": "ne tu-envies dans-hommes-de mal ; et-ne tu-inclines à/pour-être ensemble-eux."
+        },
+        {
+          "n": 2,
+          "t": "car dévastation méditera cœur-de-eux ; et-peiner lèvres-de-eux elles-parleront."
+        },
+        {
+          "n": 3,
+          "t": "dans-sagesse maison sera-bâti ; et-dans-intelligence il-affermira."
+        },
+        {
+          "n": 4,
+          "t": "et-dans-connaissance chambres seront-remplis ; tout-de richesse précieux et-plaisant."
+        },
+        {
+          "n": 5,
+          "t": "guerrier sage dans-le-puissance ; et-homme-de connaissance gugeant force."
+        },
+        {
+          "n": 6,
+          "t": "car dans-directions tu-feras à/pour-toi guerre ; et-deliverance dans-multitude conseillant."
+        },
+        {
+          "n": 7,
+          "t": "élevantes à/pour-sot sagesses ; dans-le-porte non bouche-de-lui gitaaera."
+        },
+        {
+          "n": 8,
+          "t": "pensant à/pour-faire-nuire ; à/pour-lui mari-de desseins ils-appeleront."
+        },
+        {
+          "n": 9,
+          "t": "plan-de folie faute ; et-abominable-de à/pour-homme mépriser."
+        },
+        {
+          "n": 10,
+          "t": "tu-as-se-baissé dans-jour-de angoisse serré force-de-toi."
+        },
+        {
+          "n": 11,
+          "t": "fais-délivrer pris à/pour-le-mort ; et-chancelants à/pour-le-assassiner si tu-restreindras."
+        },
+        {
+          "n": 12,
+          "t": "car tu-diras voilà non nous-avons-su celui-ci est-ce-non réglant geqds lui discernera et-surveillant âme-de-toi lui saura ; et-il-a-fait-retourner à/pour-homme comme-œuvre-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "mange fils-de-moi miel car bon ; et-honey douce sur goûter-de-toi."
+        },
+        {
+          "n": 14,
+          "t": "ainsi sache-hé sagesse à/pour-âme-de-toi si tu-as-trouvé et-substance end ; et-cordon-de-toi non sera-coupée."
+        },
+        {
+          "n": 15,
+          "t": "ne tu-gzqes méchant à/pour-demeure-de juste ; ne tu-dévastes gjsd-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "car sept il-tombera juste et-il-est-levé ; et-méchants ils-seront-chancelés dans-mal."
+        },
+        {
+          "n": 17,
+          "t": "dans-tomber gmcçants-de-toi gmcçant-de-toi ne tu-réjouisses ; et-dans-être-chanceler-de-lui ne cœur-de-toi gbfoe."
+        },
+        {
+          "n": 18,
+          "t": "sinon YHWH verra et-a-nui dans-yeux-de-lui ; nez-de-lui et-a-fait-retourner sur-lui."
+        },
+        {
+          "n": 19,
+          "t": "ne tu-embrases dans-les-faisants-nuire ; ne tu-envies dans-les-méchants."
+        },
+        {
+          "n": 20,
+          "t": "car non end à/pour-le-bad sera ; lampe-de méchants gbrzera."
+        },
+        {
+          "n": 21,
+          "t": "crainds YHWH fils-de-moi et-roi ; avec changeants ne tu-échanges."
+        },
+        {
+          "n": 22,
+          "t": "car soudain calamité-de-eux levera ; et-désastre-de deux-de-eux lequel sachant."
+        },
+        {
+          "n": 23,
+          "t": "aussi ces à/pour-sages ; faire-reconnaître faces dans-jugement ni bon."
+        },
+        {
+          "n": 24,
+          "t": "disant à/pour-méchant juste tu peuples perforeront-lui ; peoples dénonceront-lui."
+        },
+        {
+          "n": 25,
+          "t": "et-à/pour-les-faisants-corriger il-ggtxera ; et-sur-eux bénédiction-de bien viendra."
+        },
+        {
+          "n": 26,
+          "t": "lèvres il-embrassera ; faisant-retourner paroles justes."
+        },
+        {
+          "n": 27,
+          "t": "fais-affermir dans-le-dehors travail-de-toi et-gifqe-elle dans-le-champ à/pour-toi-f ; après et-tu-as-bâti maison-de-toi."
+        },
+        {
+          "n": 28,
+          "t": "ne tu-sois witness librement dans-ami-de-toi ; est-ce-et-tu-as-giswaé dans-lèvres-de-toi."
+        },
+        {
+          "n": 29,
+          "t": "ne tu-dises comme-lorsque il-a-fait à/pour-moi ainsi je-ferai à/pour-lui ; je-ferai-retourner à/pour-le-homme comme-œuvre-de-lui."
+        },
+        {
+          "n": 30,
+          "t": "sur champ-de homme paresseux je-ai-passé ; et-sur vignoble-de homme dépourvu-de cœur."
+        },
+        {
+          "n": 31,
+          "t": "et-voici tout-de-lui est-monté orties ont-été-cové faces-de-lui ronces ; et-mur-de pierres-de-lui elle-a-été-renversé."
+        },
+        {
+          "n": 32,
+          "t": "moi et-ai-apercevoir poserai cœur-de-moi ; je-ai-vu je-ai-pris correction."
+        },
+        {
+          "n": 33,
+          "t": "peu-de sommeils peu-de assoupissements ; peu-de croiser-de mains à/pour-mentir."
+        },
+        {
+          "n": 34,
+          "t": "et-est-venu se-marchant poverty-de-toi ; et-besoins-de-toi comme-homme bouclier."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "verses": [
+        {
+          "n": 1,
+          "t": "aussi ces proverbes-de Salomon ; qui hommes-de Ézéchias ont-fait-déplacer roi-de Juda."
+        },
+        {
+          "n": 2,
+          "t": "gloire-de dieu fais-cacher parole ; et-gloire-de rois examiner parole."
+        },
+        {
+          "n": 3,
+          "t": "ciels à/pour-le-hauteur et-terre à/pour-le-profondeur ; et-cœur-de rois néant investigation."
+        },
+        {
+          "n": 4,
+          "t": "emporter arrières depuis-argent ; ustensile et-est-sorti à/pour-le-raffinant."
+        },
+        {
+          "n": 5,
+          "t": "emporter méchant à/pour-faces-de roi ; trône-de-lui et-sera-affermi dans-le-justice."
+        },
+        {
+          "n": 6,
+          "t": "ne tu-honores à/pour-faces-de roi ; et-dans-lieu-de grands ne tu-restes."
+        },
+        {
+          "n": 7,
+          "t": "car bon dire à/pour-toi monte ici depuis-faire-glcwer-de-toi à/pour-faces-de noble ; qui ils-ont-vu yeux-de-toi."
+        },
+        {
+          "n": 8,
+          "t": "ne tu-sortisses à/pour-gjwter gfbjber sinon quoi tu-feras dans-end-de-elle ; dans-faire-insulter toi ami-de-toi."
+        },
+        {
+          "n": 9,
+          "t": "dispute-de-toi gjwte ensemble ami-de-toi ; et-conseil autre ne tu-découvrisses."
+        },
+        {
+          "n": 10,
+          "t": "sinon il-gcvpbera-toi écoutant ; et-diffamation-de-toi non retournera."
+        },
+        {
+          "n": 11,
+          "t": "pommes-de or dans-imaginations-de argent ; parole parlé sur circonstances-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "ggos-de or et-joaillerie-de gold ; faisant-corriger sage sur oreille écoutante."
+        },
+        {
+          "n": 13,
+          "t": "comme-coolness-de neige dans-jour-de moisson envoyé supporté à/pour-envoyants-de-lui ; et-âme-de lords-de-lui fera-retourner."
+        },
+        {
+          "n": 14,
+          "t": "mists et-esprit et-averse néant ; homme se-brillant dans-don-de mensonge."
+        },
+        {
+          "n": 15,
+          "t": "dans-longueur-de chef ; séduira nez et-langue douxe brisera bone."
+        },
+        {
+          "n": 16,
+          "t": "miel tu-as-trouvé mange assez-de-toi ; sinon tu-rassasieras-lui et-tu-as-fait-vomir-lui."
+        },
+        {
+          "n": 17,
+          "t": "fais-gdyker pied-de-toi depuis-maison-de ami-de-toi ; sinon il-rassasiera-toi et-il-a-gkzré-toi."
+        },
+        {
+          "n": 18,
+          "t": "éparpille et-épée et-flèche aiguisé ; homme répondant dans-ami-de-lui witness-de mensonge."
+        },
+        {
+          "n": 19,
+          "t": "dent gkacçante et-pied gfctée ; confiance gahnant dans-jour-de angoisse."
+        },
+        {
+          "n": 20,
+          "t": "faisant-ghkpaer perfidie dans-jour-de froid vinaigre sur nitre ; et-chantant dans-les-chants sur cœur-de bad."
+        },
+        {
+          "n": 21,
+          "t": "si hungry gkzrant-de-toi fais-manger-lui pain ; et-si soif fais-abreuver-lui eaux."
+        },
+        {
+          "n": 22,
+          "t": "car charbons tu détenissant sur tête-de-lui ; et-YHWH gkuqaera à/pour-toi-f."
+        },
+        {
+          "n": 23,
+          "t": "esprit-de nord tremblera averse ; et-faces dénoncés langue-de abri."
+        },
+        {
+          "n": 24,
+          "t": "bon habiter sur angle-de toit ; depuis-femme-de strifes contentions et-maison-de bande."
+        },
+        {
+          "n": 25,
+          "t": "eaux fraîches sur âme lase ; et-nouvelles bone depuis-terre-de distant."
+        },
+        {
+          "n": 26,
+          "t": "source gkcaé et-source été-fait-ruiner ; juste chancelant à/pour-faces-de méchant."
+        },
+        {
+          "n": 27,
+          "t": "manger miel-de faire-multiplier non bon ; et-investigation-de gloire-de-eux gloire."
+        },
+        {
+          "n": 28,
+          "t": "ville-de éclatée néant mur ; homme qui néant restraint à/pour-esprit-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "verses": [
+        {
+          "n": 1,
+          "t": "comme-le-neige dans-le-été et-comme-le-rain dans-le-moisson ; ainsi non belle à/pour-insensé gloire."
+        },
+        {
+          "n": 2,
+          "t": "comme-la-volaille à/pour-secouer comme-la-swallow à/pour-voltiger ; ainsi diffamation-de librement non à/pour-lui viendra."
+        },
+        {
+          "n": 3,
+          "t": "fouetter à/pour-le-hirondelle bride à/pour-le-âne ; et-verge à/pour-gbdda-de insensés."
+        },
+        {
+          "n": 4,
+          "t": "ne tu-répondes insensé comme-folie-de-lui ; sinon tu gkkoaeras à/pour-lui aussi."
+        },
+        {
+          "n": 5,
+          "t": "réponds insensé comme-folie-de-lui ; sinon il-sera sage dans-yeux-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "découpant pieds violence buvant ; envoyant paroles dans-main-de insensé."
+        },
+        {
+          "n": 7,
+          "t": "ils-ont-gbqoé pattes depuis-boiteux ; et-proverbe dans-bouche-de insensés."
+        },
+        {
+          "n": 8,
+          "t": "comme-gjdwber pierre dans-fronde ; ainsi donnant à/pour-insensé gloire."
+        },
+        {
+          "n": 9,
+          "t": "épine est-monté dans-main-de drunken ; et-proverbe dans-bouche-de insensés."
+        },
+        {
+          "n": 10,
+          "t": "nombreux tremblant tout ; et-louant insensé et-louant passants."
+        },
+        {
+          "n": 11,
+          "t": "comme-chien retournant sur vomit-de-lui ; insensé répétant dans-folie-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "tu-as-vu homme sage dans-yeux-de-lui ; cordon à/pour-insensé depuis-lui."
+        },
+        {
+          "n": 13,
+          "t": "a-dit paresseux gknz dans-le-chemin ; gabja entre les-places."
+        },
+        {
+          "n": 14,
+          "t": "la-barrière tournera sur hinge-de-elle ; et-paresseux sur lit-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "a-dissimulé paresseux main-de-lui dans-la-plat ; bouche-de-lui a-été-gepoé à/pour-faire-retourner-de-elle vers."
+        },
+        {
+          "n": 16,
+          "t": "sage paresseux dans-yeux-de-lui ; depuis-sept faisants-retourner-de goût."
+        },
+        {
+          "n": 17,
+          "t": "faisant-fortifier dans-oreilles-de chien ; transportant se-transportant sur dispute non à/pour-lui."
+        },
+        {
+          "n": 18,
+          "t": "comme-gerhbé le-show tisons flèches et-mort."
+        },
+        {
+          "n": 19,
+          "t": "ainsi homme a-jeté ami-de-lui ; et-il-a-dit est-ce-non riant je."
+        },
+        {
+          "n": 20,
+          "t": "dans-finalité-de feu ; éteindra arbres et-dans-néant whisperé strife gliuera."
+        },
+        {
+          "n": 21,
+          "t": "braise à/pour-charbons et-arbres à/pour-feu ; et-homme-de strifes contentions à/pour-gdceer dispute."
+        },
+        {
+          "n": 22,
+          "t": "paroles-de whisperé comme-se-gobants ; et-eux sont-descendu chambres-de ventre."
+        },
+        {
+          "n": 23,
+          "t": "argent-de arrières recouvri sur tesson ; lèvres brûlants et-cœur-de bad."
+        },
+        {
+          "n": 24,
+          "t": "dans-lèvre-de-lui dans-lèvres-de-lui il-sera-respecté gkzrant ; et-dans-parmi-de-lui il-posera tromperie."
+        },
+        {
+          "n": 25,
+          "t": "car voix-de-lui graciera ne tu-fasses-supporter dans-lui ; car sept abominables dans-cœur-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "haine sera-covée dans-dissimulation ; mal-de-lui sera-découvrie dans-congrégation."
+        },
+        {
+          "n": 27,
+          "t": "percçant pit dans-elle il-tombera ; et-roulant pierre vers-lui retournera."
+        },
+        {
+          "n": 28,
+          "t": "langue-de mensonge gkzrera opprimers-de-lui ; et-bouche flatteur fera ruin."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "verses": [
+        {
+          "n": 1,
+          "t": "ne tu-brilles dans-jour-de demain ; car non tu-sauras quoi jour engendrera."
+        },
+        {
+          "n": 2,
+          "t": "brille-toi stranger et-non bouche-de-toi ; étranger et-ne lèvres-de-toi."
+        },
+        {
+          "n": 3,
+          "t": "heaviness-de pierre et-pesant-de le-sable ; et-chagrin-de sot lourd depuis-deux-de-eux."
+        },
+        {
+          "n": 4,
+          "t": "cruel-de colère et-flot-de nez ; et-lequel il-restera à/pour-faces-de jalousie."
+        },
+        {
+          "n": 5,
+          "t": "bone correction découvrie ; depuis-gfder cachée."
+        },
+        {
+          "n": 6,
+          "t": "supportés blessures-de aimant ; et-gignées baisers-de gkzrant."
+        },
+        {
+          "n": 7,
+          "t": "âme rassasiée foulera honey ; et-âme hungrye tout-de amer douce."
+        },
+        {
+          "n": 8,
+          "t": "comme-volaille déménageante depuis nid-de-elle ; ainsi homme déménageant depuis-lieu-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "cœur ; réjouira huile et-encens et-douceur-de ami-de-lui depuis-avis-de âme."
+        },
+        {
+          "n": 10,
+          "t": "ami-de-toi et-friend-de et-ami-de père-de-toi ne tu-abandonnes et-maison-de frère-de-toi ne tu-viennes dans-jour-de calamité-de-toi ; bon voisin proche depuis-frère lointain."
+        },
+        {
+          "n": 11,
+          "t": "gcpee fils-de-moi et-réjouis cœur-de-moi ; et-je-fasse-retourner gdbvaant-de-moi parole."
+        },
+        {
+          "n": 12,
+          "t": "rusé il-a-vu mal il-a-été-caché ; simplicités ont-passé ont-été-puni."
+        },
+        {
+          "n": 13,
+          "t": "prends perfidie-de-lui car a-échangé stranger ; et-derrière étrangere gchrae-lui."
+        },
+        {
+          "n": 14,
+          "t": "bénissant ami-de-lui dans-voix grand dans-le-matin faire-gkruer ; diffamation sera-pensée à/pour-lui."
+        },
+        {
+          "n": 15,
+          "t": "gouttière gdissant dans-jour-de soutenue ; et-femme-de strifes contentions a-gkkoaé."
+        },
+        {
+          "n": 16,
+          "t": "cachants-de-elle esprit a-caché ; et-huile-de right-de-lui appelera."
+        },
+        {
+          "n": 17,
+          "t": "fer dans-fer fera-gcjlber ; et-homme fera-gcjlber faces-de ami-de-lui."
+        },
+        {
+          "n": 18,
+          "t": "surveillant-de fruit-de-elle ; mangera figue et-gardant lords-de-lui il-honora."
+        },
+        {
+          "n": 19,
+          "t": "comme-les-eaux les-faces à/pour-les-faces ; ainsi cœur-de le-homme à/pour-le-homme."
+        },
+        {
+          "n": 20,
+          "t": "scheol et-chose-de non elles-rassasieront ; et-yeux-de le-homme non elles-rassasieront."
+        },
+        {
+          "n": 21,
+          "t": "creuset à/pour-le-argent et-fourneau à/pour-le-or ; et-homme à/pour-bouche-de éloge-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "si tu-pileras le-sot dans-le-mortier dans-milieu-de les-gjwys dans-le-pilon ; non folie-de-lui détournera sur-lui."
+        },
+        {
+          "n": 23,
+          "t": "savoir tu-saches faces-de troupeau-de-toi ; pose cœur-de-toi à/pour-flocks."
+        },
+        {
+          "n": 24,
+          "t": "car non à/pour-durée richesse ; et-si couronne à/pour-période période et-période."
+        },
+        {
+          "n": 25,
+          "t": "herbage a-découvri et-a-été-vu herbe ; plantes-de monts et-ont-été-recueilli."
+        },
+        {
+          "n": 26,
+          "t": "agneaux à/pour-vêtements-de-toi ; et-gages-de champ boucs."
+        },
+        {
+          "n": 27,
+          "t": "et-assez-de lait-de goats à/pour-pain-de-toi à/pour-pain-de maison-de-toi ; et-vies à/pour-servantes-de-toi."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "verses": [
+        {
+          "n": 1,
+          "t": "ils-ont-fui et-néant poursuivant méchant ; et-justes comme-gelwa il-confiera."
+        },
+        {
+          "n": 2,
+          "t": "dans-forfait-de terre nombreux princes-de-elle ; et-dans-homme faisant-discerner sachant droite il-fera-prolonger."
+        },
+        {
+          "n": 3,
+          "t": "guerrier gjutant et-violant pauvres ; rain ghcpant et-néant pain."
+        },
+        {
+          "n": 4,
+          "t": "abandonnants-de instruction ils-brilleront méchant ; et-gardants-de instruction ils-attaqueront dans-eux."
+        },
+        {
+          "n": 5,
+          "t": "hommes-de mauvais non discerneront jugement ; et-cherchants-de YHWH ils-discerneront tout."
+        },
+        {
+          "n": 6,
+          "t": "bon gjutant marchant dans-intégrité-de-lui ; depuis-pervers-de chemins et-lui riche."
+        },
+        {
+          "n": 7,
+          "t": "surveillant instruction fils faisant-discerner ; et-gjzzcçant gcdsbants père-de-lui fera-insulter."
+        },
+        {
+          "n": 8,
+          "t": "faisant-multiplier richesse-de-lui dans-intérêt et-dans-usure et-usure ; à/pour-graciant pauvres il-assemblera-lui."
+        },
+        {
+          "n": 9,
+          "t": "faisant-détourner oreille-de-lui depuis-écouter instruction ; aussi prière-de-lui abominable."
+        },
+        {
+          "n": 10,
+          "t": "faisant-errer droits dans-chemin-de bad dans-gknp-de-lui lui tombera ; et-entiers ils-hériteront bien."
+        },
+        {
+          "n": 11,
+          "t": "sage dans-yeux-de-lui homme riche ; et-pauvre faisant-discerner il-examinera-lui."
+        },
+        {
+          "n": 12,
+          "t": "dans-ghuper justes nombreuse splendeur ; et-dans-lever méchants homme recherchera."
+        },
+        {
+          "n": 13,
+          "t": "covant forfaits-de-lui non il-fera-prosper ; et-faisant-confesser et-abandonnant il-compatira."
+        },
+        {
+          "n": 14,
+          "t": "bonheurs homme révérant perpétuité ; et-faisant-durcir cœur-de-lui tombera dans-mal."
+        },
+        {
+          "n": 15,
+          "t": "gabja ggnbant et-ours accourissant ; gouvernant méchant sur peuple pauvre."
+        },
+        {
+          "n": 16,
+          "t": "chef dépourvu-de intelligences et-nombreux-de gfvns ; gkzrants-de gkzrant profit fera-prolonger jours."
+        },
+        {
+          "n": 17,
+          "t": "homme violé dans-sang-de âme jusqu'à fosse fuira ne ils-tiennent dans-lui."
+        },
+        {
+          "n": 18,
+          "t": "marchant entier il-sera-sauvé ; et-gibdé-de chemins il-tombera dans-une."
+        },
+        {
+          "n": 19,
+          "t": "servissant-de pain ; rassasiera sol-de-lui et-poursuivant vides gjxeb rassasiera."
+        },
+        {
+          "n": 20,
+          "t": "homme-de fidélités nombreux-de bénédictions ; et-gheant à/pour-faire-enrichir non il-sera-innocenté."
+        },
+        {
+          "n": 21,
+          "t": "faire-reconnaître faces non bon ; et-sur guerrier transgressera morceau-de pain."
+        },
+        {
+          "n": 22,
+          "t": "terrifié à/pour-le-richesse homme-de bad-de œil ; et-non pauvreté saura car viendra-lui."
+        },
+        {
+          "n": 23,
+          "t": "faisant-corriger homme backwards grâce trouvera ; depuis-faisant-allouer langue."
+        },
+        {
+          "n": 24,
+          "t": "pillant père-de-lui et-mère-de-lui et-disant néant forfait ; unis lui à/pour-homme détruiant."
+        },
+        {
+          "n": 25,
+          "t": "large-de âme attaquera strife ; et-confiant sur YHWH engraissera."
+        },
+        {
+          "n": 26,
+          "t": "confiant dans-cœur-de-lui lui insensé ; et-marchant dans-sagesse lui sera-sauvé."
+        },
+        {
+          "n": 27,
+          "t": "donnant à/pour-le-gjutant néant besoin ; et-faisant-cacher yeux-de-lui nombreux-de curses."
+        },
+        {
+          "n": 28,
+          "t": "dans-lever méchants homme sera-caché ; et-dans-périr-de-eux ils-multiplieront justes."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "verses": [
+        {
+          "n": 1,
+          "t": "homme-de corrections faisant-durcir cou ; soudainement sera-brisé et-néant guérison."
+        },
+        {
+          "n": 2,
+          "t": "dans-multiplier justes le-peuple réjouira ; et-dans-gouverner méchant peuple sera-haleté."
+        },
+        {
+          "n": 3,
+          "t": "homme aimant père-de-lui ; réjouira sagesse et-gjzzcçant gcewantes richesse périra."
+        },
+        {
+          "n": 4,
+          "t": "roi dans-jugement fera-rester terre ; et-homme-de contributions renversera-elle."
+        },
+        {
+          "n": 5,
+          "t": "guerrier faisant-allouer sur ami-de-lui ; net étendant sur fois-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "dans-forfait-de homme mauvais piège ; et-juste il-chantera et-il-a-réjoui."
+        },
+        {
+          "n": 7,
+          "t": "sachant juste judgment-de pauvres ; méchant non il-discernera connaissance."
+        },
+        {
+          "n": 8,
+          "t": "hommes-de moquerie feront-souffler cité ; et-sages ils-feront-retourner nez."
+        },
+        {
+          "n": 9,
+          "t": "homme sage jugé ensemble homme sot ; et-il-a-enragé et-il-a-ri et-néant tranquillité."
+        },
+        {
+          "n": 10,
+          "t": "hommes-de sangs gkzreront parfait ; et-droits ils-chercheront âme-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "tout-de esprit-de-lui fera-sortir insensé ; et-sage dans-back il-tranquilisera-elle."
+        },
+        {
+          "n": 12,
+          "t": "gouvernant faisant-guetter sur parole-de mensonge ; tout-de administrants-de-lui méchants."
+        },
+        {
+          "n": 13,
+          "t": "gjutant et-homme-de oppresseurs ils-ont-été-gihfé ; faisant-luire yeux-de deux-de-eux YHWH."
+        },
+        {
+          "n": 14,
+          "t": "roi jugeant dans-vérité pauvres ; trône-de-lui à/pour-perpétuité sera-affermi."
+        },
+        {
+          "n": 15,
+          "t": "verge et-correction donnera sagesse ; et-youth envoyé faisant-rougir mère-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "dans-multiplier méchants forfait multipliera ; et-justes dans-carcasse-de-eux ils-verront."
+        },
+        {
+          "n": 17,
+          "t": "châtie fils-de-toi et-fera-ggnuer-toi ; et-il-donnera délicats à/pour-âme-de-toi."
+        },
+        {
+          "n": 18,
+          "t": "dans-néant vision sera-giqrbé peuple ; et-gardant instruction bonheur-de-lui."
+        },
+        {
+          "n": 19,
+          "t": "dans-paroles non serviteur sera-châtié ; car il-discernera et-néant réponse."
+        },
+        {
+          "n": 20,
+          "t": "tu-as-apercevoir homme gheant dans-paroles-de-lui ; cordon à/pour-insensé depuis-lui."
+        },
+        {
+          "n": 21,
+          "t": "favorisant depuis-jeunesse serviteur-de-lui ; ingrat sera et-end-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "homme-de nez attaquera strife ; et-mari-de colère nombreux-de forfait."
+        },
+        {
+          "n": 23,
+          "t": "majesté-de homme fera-glcwer-lui ; et-humble-de esprit tiendra gloire."
+        },
+        {
+          "n": 24,
+          "t": "divisant avec voleur gkzrant âme-de-lui ; malédiction il-écoutera et-non il-fera-annoncer."
+        },
+        {
+          "n": 25,
+          "t": "piège ; donnera crainte-de homme et-confiant dans-YHWH il-gkilera."
+        },
+        {
+          "n": 26,
+          "t": "nombreux cherchants faces-de gouvernant ; et-depuis-YHWH jugement-de homme."
+        },
+        {
+          "n": 27,
+          "t": "abominable-de justes homme-de injustice ; et-abominable-de méchant droit-de chemin."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "verses": [
+        {
+          "n": 1,
+          "t": "paroles-de Agur fils-de Jakeh le-charge déclaration-de le-guerrier à/pour-Ithiel ; à/pour-Ithiel et-Veukhal."
+        },
+        {
+          "n": 2,
+          "t": "car moi abrutissement depuis-homme ; et-non discernement-de homme à/pour-moi."
+        },
+        {
+          "n": 3,
+          "t": "et-non je-ai-enseigné sagesse ; et-connaissance-de saints je-saurai."
+        },
+        {
+          "n": 4,
+          "t": "lequel est-monté ciels et-est-descendu lequel esprit a-recueilli dans-poignées-de-lui lequel a-gjdwbé eaux dans-la-couverture lequel tout-de finalités-de terre a-fait-lever ; quoi nom-de-lui et-quoi nom-de fils-de-lui car tu-sauras."
+        },
+        {
+          "n": 5,
+          "t": "tout-de propos-de god raffinée ; bouclier lui à/pour-les-gcvtants dans-lui."
+        },
+        {
+          "n": 6,
+          "t": "ne tu-fasses-ajouter sur paroles-de-lui ; sinon il-fera-corriger dans-toi et-tu-as-été-manqué."
+        },
+        {
+          "n": 7,
+          "t": "deux je-ai-demandé ensemble-toi-f ; ne tu-retenisses depuis-moi dans-avant je-mourrai."
+        },
+        {
+          "n": 8,
+          "t": "vanité et-parole-de fausseté fais-éloigner depuis-moi poverty et-richesse ne tu-donnes à/pour-moi ; fais-arracher-moi pain-de ordonnance-de-moi."
+        },
+        {
+          "n": 9,
+          "t": "sinon je-rassasierai et-je-ai-renié et-je-ai-dit lequel YHWH et-sinon je-serai-dépossédé et-je-ai-volé ; et-je-ai-saisi nom-de dieu-de-moi."
+        },
+        {
+          "n": 10,
+          "t": "ne tu-fasses-calomnier serviteur vers lords-de-lui ; sinon il-légera-toi et-tu-as-empiété."
+        },
+        {
+          "n": 11,
+          "t": "période père-de-lui légera ; et-mère-de-lui non il-bénira."
+        },
+        {
+          "n": 12,
+          "t": "période pur dans-yeux-de-lui ; et-depuis-excrément-de-lui non il-a-été-lavé."
+        },
+        {
+          "n": 13,
+          "t": "période quoi ils-ont-élevé yeux-de-lui ; et-paupières-de-lui ils-seront-portés."
+        },
+        {
+          "n": 14,
+          "t": "période épées dents-de-lui et-couteaux dents-de-lui à/pour-manger affligés depuis-terre ; et-indigents depuis-homme."
+        },
+        {
+          "n": 15,
+          "t": "à/pour-sangsue deux-de filles pourvoir pourvoir trois elles non rassasieront ; quatre non ils-ont-dit richesse."
+        },
+        {
+          "n": 16,
+          "t": "scheol et-coercition-de matrice terre non a-rassasié eaux ; et-feu non a-dit richesse."
+        },
+        {
+          "n": 17,
+          "t": "œil ridiculisera à/pour-père et-gaizera à/pour-obéissance-de mère corbeaux-de torrent cueilliront-elle ; fils-de aigle et-mangeront-elle."
+        },
+        {
+          "n": 18,
+          "t": "trois eux ont-été-extraordinaiu depuis-moi ; et-quatre non je-ai-su-eux."
+        },
+        {
+          "n": 19,
+          "t": "chemin-de le-aigle dans-les-ciels chemin-de serpent sur rocher chemin-de navires dans-cœur-de mer ; et-chemin-de guerrier dans-maiden."
+        },
+        {
+          "n": 20,
+          "t": "ainsi chemin-de femme commettante a-mangé et-a-essuyé bouche-de-elle ; et-elle-a-dit non je-ai-ouvré malheur."
+        },
+        {
+          "n": 21,
+          "t": "sous trois terre a-enragé ; et-sous quatre non elle-vaincra porter."
+        },
+        {
+          "n": 22,
+          "t": "sous serviteur car régnera ; et-insensé car pain rassasiera."
+        },
+        {
+          "n": 23,
+          "t": "sous gkzrée car elle-sera-épousée ; et-bonne car dépossédera souveraine-de-elle."
+        },
+        {
+          "n": 24,
+          "t": "quatre eux jeunes-de terre ; et-eux sages gcpeés."
+        },
+        {
+          "n": 25,
+          "t": "les-fourmis peuple non féroce ; et-ils-ont-fait-affermir dans-le-été pain-de-eux."
+        },
+        {
+          "n": 26,
+          "t": "lapins peuple non puissant ; et-ils-ont-mis dans-le-Rock maison-de-eux."
+        },
+        {
+          "n": 27,
+          "t": "roi néant à/pour-le-locust ; et-est-sorti gcyhaant tout-de-lui."
+        },
+        {
+          "n": 28,
+          "t": "lézard dans-mains tu-saisiras ; et-lui dans-temples-de roi."
+        },
+        {
+          "n": 29,
+          "t": "trois eux faisants-améliorer-de pas ; et-quatre faisants-améliorer-de aller."
+        },
+        {
+          "n": 30,
+          "t": "getr puissant dans-la-bête ; et-non il-retournera depuis-faces-de tout."
+        },
+        {
+          "n": 31,
+          "t": "ceint-de hanches ou bouc ; et-roi gsp avec-lui."
+        },
+        {
+          "n": 32,
+          "t": "si tu-as-ggkpaé dans-se-porter ; et-si tu-as-projeté main à/pour-bouche."
+        },
+        {
+          "n": 33,
+          "t": "car pression-de lait fera-sortir crème et-pression-de nez fera-sortir sang ; dispute fera-sortir et-pression nez."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "verses": [
+        {
+          "n": 1,
+          "t": "paroles-de Lemuel roi ; charge qui mère-de-lui a-châtié-lui."
+        },
+        {
+          "n": 2,
+          "t": "quoi héritier-de-moi et-quoi héritier-de ventre-de-moi ; et-quoi héritier-de vœus-de-moi."
+        },
+        {
+          "n": 3,
+          "t": "ne tu-donnes à/pour-les-femmes compétence-de-toi ; et-chemins-de-toi à/pour-faire-essuyer rois."
+        },
+        {
+          "n": 4,
+          "t": "ne à/pour-les-rois Lemuel ne à/pour-les-rois boire vin ; et-à/pour-gjvdants gftb où strong."
+        },
+        {
+          "n": 5,
+          "t": "sinon il-boira et-il-ignorera gravé ; judgment-de tout-de fils-de affliction et-changera."
+        },
+        {
+          "n": 6,
+          "t": "donnez strong à/pour-périssant ; et-vin à/pour-amers-de âme."
+        },
+        {
+          "n": 7,
+          "t": "boira gjxeb-de-lui et-ignorera ; et-peiner-de-lui non rappele encore."
+        },
+        {
+          "n": 8,
+          "t": "gitaae bouche-de-toi à/pour-muet ; vers judgment-de tout-de fils-de évanouissement."
+        },
+        {
+          "n": 9,
+          "t": "gitaae bouche-de-toi juge justice ; et-conteste affligé et-indigent."
+        },
+        {
+          "n": 10,
+          "t": "femme-de compétence lequel il-trouvera ; et-lointain depuis-jewels prix-de-elle."
+        },
+        {
+          "n": 11,
+          "t": "cœur-de mari-de-elle ; a-confié dans-elle et-butin non diminuera."
+        },
+        {
+          "n": 12,
+          "t": "elle-a-récompensé-lui bien et-non mauvais ; tout-de jours-de vies-de-elle."
+        },
+        {
+          "n": 13,
+          "t": "elle-a-fréquenté laine et-toiles ; et-elle-a-fait dans-pleasure-de palmes-de-elle."
+        },
+        {
+          "n": 14,
+          "t": "elle-a-été comme-navires-de parcourissant ; depuis-distant pain-de-elle fera-venir."
+        },
+        {
+          "n": 15,
+          "t": "et-elle-est-levé dans-encore nuit et-elle-a-donné proie à/pour-maison-de-elle ; et-ordonnance à/pour-servantes-de-elle."
+        },
+        {
+          "n": 16,
+          "t": "elle-a-projeté champ et-elle-a-pris-lui ; depuis-fruit-de vignoble a-planté palmes-de-elle."
+        },
+        {
+          "n": 17,
+          "t": "elle-a-ceindu dans-puissance hanches-de-elle ; et-elle-a-gugé bras-de-elle."
+        },
+        {
+          "n": 18,
+          "t": "elle-a-percevoir car bon gain-de-elle ; non lampe-de-elle éteindra dans-le-nuit."
+        },
+        {
+          "n": 19,
+          "t": "mains-de-elle elle-a-envoyé dans-le-quenouille ; et-palmes-de-elle ils-ont-tenu district."
+        },
+        {
+          "n": 20,
+          "t": "palme-de-elle a-étendu à/pour-le-affligé ; et-mains-de-elle elle-a-envoyé à/pour-le-indigent."
+        },
+        {
+          "n": 21,
+          "t": "non elle-craindra à/pour-maison-de-elle depuis-neige ; car tout-de maison-de-elle vêtu cramoisis."
+        },
+        {
+          "n": 22,
+          "t": "ggags elle-a-fait à/pour-elle ; line et-rouge-pourpre vêtements-de-elle."
+        },
+        {
+          "n": 23,
+          "t": "su dans-les-portes mari-de-elle ; dans-habiter-de-lui avec vieux-de terre."
+        },
+        {
+          "n": 24,
+          "t": "ghbf elle-a-fait et-elle-a-vendu ; et-ceint elle-a-donné à/pour-le-Merchant."
+        },
+        {
+          "n": 25,
+          "t": "puissance et-splendeur vêtements-de-elle ; et-elle-a-ri à/pour-jour suivant."
+        },
+        {
+          "n": 26,
+          "t": "bouche-de-elle elle-a-gitaaé dans-sagesse ; et-instruction-de faveur sur langue-de-elle."
+        },
+        {
+          "n": 27,
+          "t": "regardante walks-de maison-de-elle ; et-pain-de paresse non mangera."
+        },
+        {
+          "n": 28,
+          "t": "fils-de-elle sont-levé et-ont-avancé-elle ; mari-de-elle et-a-brillé-elle."
+        },
+        {
+          "n": 29,
+          "t": "nombreuses filles ont-fait compétence ; et-toi es-monté sur tout-de-elles."
+        },
+        {
+          "n": 30,
+          "t": "mensonge le-grâce et-vanity le-beauté ; femme craintife-de YHWH lui brillera."
+        },
+        {
+          "n": 31,
+          "t": "donnez à/pour-elle depuis-fruit-de mains-de-elle ; actes-de-elle et-brilleront-elle dans-les-portes."
+        }
+      ]
+    }
+  ]
+}

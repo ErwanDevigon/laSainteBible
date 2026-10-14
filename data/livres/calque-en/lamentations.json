@@ -1,0 +1,663 @@
+{
+  "id": "lamentations",
+  "title": "Lamentations de Jérémie",
+  "original_title": "Lamentations",
+  "short": "Lm",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "how has-dwelt isolation the-city many-of people, has-been like-widow ; many-of in-the-nations princess-of in-the-provinces, has-been to/for-taskworker."
+        },
+        {
+          "n": 2,
+          "t": "weep and-tears-of-her will-weep in-the-night on Lehi-of-her, naught to/for-her sorrying from-all-of loving-of-her ; all-of neighbors-of-her they-have-treacherouslied in-her, they-have-been to/for-her to/for-enemying."
+        },
+        {
+          "n": 3,
+          "t": "Judah has-heglamed from-affliction and-from-abundance-of service, he has-dwelt in-the-nations, not resting has-found ; all-of pursuing-of-her the-terrors have-made-overtake-her between."
+        },
+        {
+          "n": 4,
+          "t": "ways-of Zion mourning from-without-of coming-of meeting, all-of gates-of-her desolations, priests-of-her sighed ; virgins-of-her suffered and-he he-has-bittered to/for-her."
+        },
+        {
+          "n": 5,
+          "t": "enemies-of-her have-been to/for-head enemying-of-her have-prospered, for YHWH has-made-suffer-her on abundance-of transgressions-of-her ; infants-of-her have-gone captivity to/for-faces-of enemy."
+        },
+        {
+          "n": 6,
+          "t": "and-has-exited from daughter-of from-daughter-of Zion all-of glory-of-her ; officials-of-her have-been like-deers not have-found pasture, and-have-walked in-not strength to/for-faces-of pursuing."
+        },
+        {
+          "n": 7,
+          "t": "Jerusalem has-remembered days-of affliction-of-her and-wanderings-of-her, all-of desirables-of-her, who have-been from-days-of east ; in-fall people-of-her in-hand-of enemy and-naught helping to/for-her, enemies have-seen-her, have-laughed on annihilations-of-her."
+        },
+        {
+          "n": 8,
+          "t": "sin Jerusalem has-sinned, on thus to/for-filth she-has-been ; all-of honors-of-her they-have-made-lavish-her for they-have-seen nakedness-of-her, also he has-been-sighed and-has-returned back."
+        },
+        {
+          "n": 9,
+          "t": "uncleanness-of-her in-hems-of-her not has-remembered end-of-her, and-has-gone wonders, naught sorrying to/for-her ; see YHWH affliction-of-me, for has-made-magnify enemying."
+        },
+        {
+          "n": 10,
+          "t": "hand-of-him has-spreaded enemy, on all-of desires-of-her ; for she-has-seen nations have-come sanctuary-of-her, who you-have-commanded, not will-come in-the-assembly to/for-you-f."
+        },
+        {
+          "n": 11,
+          "t": "all-of people-of-her sighed seeking desirables-of-them desires-of-them have-given food, in-food to/for-make-return soul ; see YHWH and-make-look-heh, for I-have-been viling."
+        },
+        {
+          "n": 12,
+          "t": "not toward-you-pl all-of passing-of way make-look and-see if there pain like-pain-of-me, who has-abused to/for-me ; who YHWH has-made-suffer, in-day-of burning-of nose-of-him."
+        },
+        {
+          "n": 13,
+          "t": "from-height fire has-sended in-bones-of-me and-has-ruled-her ; has-spreaded net to/for-foots-of-me back has-made-return-me, has-given-me devastated, all-of the-day sick."
+        },
+        {
+          "n": 14,
+          "t": "yoke-of transgressions-of-me has-been-bound in-hand-of-him they-will-intertwine they-have-ascended on neck-of-me has-made-stumble strength-of-me ; he-has-given-me lords-of-me, in-hands-of not I-will-able rise."
+        },
+        {
+          "n": 15,
+          "t": "all-of mighty-of-me has-rejected lords-of-me in-entrails-of-me, has-called on-me meeting to/for-break youths-of-me ; wine he-has-treaded lords-of-me, to/for-virgin-of daughter-of Judah."
+        },
+        {
+          "n": 16,
+          "t": "on these I weeping eye-of-me eye-of-me going waters, for has-removed from-me sorrying making-return soul-of-me ; sons-of-me desolations have-been, for he-has-prevailed enemying."
+        },
+        {
+          "n": 17,
+          "t": "Zion has-spreaded in-hands-of-her naught sorrying to/for-her, has-commanded YHWH to/for-Jacob arounds-of-him enemies-of-him ; Jerusalem has-been to/for-impurity between-them."
+        },
+        {
+          "n": 18,
+          "t": "just he YHWH for lip-of-him I-have-rebelled ; hear please all-of peoples the-peoples and-see pain-of-me, virgins-of-me and-youths-of-me have-gone in-the-captivity."
+        },
+        {
+          "n": 19,
+          "t": "I-have-called to/for-the-loving-of-me they have-deceived-me, priests-of-me and-old-of-me in-the-city have-died ; for they-have-sought food to/for-them, and-let-them-make-return soul-of-them."
+        },
+        {
+          "n": 20,
+          "t": "see YHWH for confine to/for-me bellies-of-me have-aggitated, heart-of-me has-been-overturned in-entrails-of-me, for rebel I-have-rebelled ; from-outside sword has-bereaveded in-the-house like-the-death."
+        },
+        {
+          "n": 21,
+          "t": "they-have-heard for sighed I naught sorrying to/for-me, all-of enemying-of-me they-have-heard evil-of-me they-have-rejoiced, for you have-done ; you-have-made-come day you-have-called and-they-will-be like-me."
+        },
+        {
+          "n": 22,
+          "t": "she-will-come all-of evil-of-them to/for-faces-of-you and-abuse to/for-them, like-when you-have-abused to/for-me on all-of transgressions-of-me ; for many sighings-of-me and-heart-of-me faint."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "how will-make-becloud in-nose-of-him lords-of-me daughter-of Zion, land, has-made-throw from-heavens beauty-of Israel ; and-not footstool-of foots-of-him has-remembered in-day-of nose-of-him."
+        },
+        {
+          "n": 2,
+          "t": "he-has-swallowed lords-of-me not and-not he-has-spared all-of habitations-of Jacob, he-has-overthrowed in-fury-of-him fortifications-of daughter-of Judah he-has-made-touch to/for-the-land ; he-has-begun kingdom and-officials-of-her."
+        },
+        {
+          "n": 3,
+          "t": "has-cut in-burning-of nose all-of horn-of Israel, has-made-return back right-of-him from-faces-of enemying ; and-has-burned in-Jacob like-fire-of flame, around has-eaten."
+        },
+        {
+          "n": 4,
+          "t": "has-treaded bow-of-him like-enemying stood right-of-him like-enemy, all-of desires-of eye and-has-killed ; in-tent-of daughter-of Zion, he-has-poured like-the-fire rage-of-him."
+        },
+        {
+          "n": 5,
+          "t": "has-been lords-of-me like-enemying Israel has-swallowed, has-swallowed all-of citadels-of-her, has-ruined fortifications-of-him ; and-he-has-made-multiply in-daughter-of Judah, mourning and-lamentation."
+        },
+        {
+          "n": 6,
+          "t": "booth-of-him, and-has-injured like-the-garden has-ruined meeting-of-him ; YHWH has-forgotten in-Zion meeting and-sabbath, and-has-spurned in-indignation-of nose-of-him king and-priest."
+        },
+        {
+          "n": 7,
+          "t": "has-rejected lords-of-me altar-of-him has-disowned sanctuary-of-him, has-made-shut in-hand-of enemying, walls-of citadels-of-her ; voice they-have-given in-house-of YHWH like-day-of meeting."
+        },
+        {
+          "n": 8,
+          "t": "YHWH has-devised to/for-destroy wall-of daughter-of Zion, has-stretched line, not has-made-return hand-of-him from-swallow ; rampart and-has-made-mourn and-wall together they-have-weakened."
+        },
+        {
+          "n": 9,
+          "t": "gates-of-her, have-sinked in-the-land he-has-perished and-he-has-breaked bars-of-her ; king-of-her and-officials-of-her in-the-nations naught instruction, also prophets-of-her, not have-found vision from-YHWH."
+        },
+        {
+          "n": 10,
+          "t": "will-dwell to/for-the-land will-silence old-of daughter-of Zion, have-made-ascend dust on head-of-them, sacks have-girded ; have-made-go to/for-the-land head-of-them-f, virgins-of Jerusalem."
+        },
+        {
+          "n": 11,
+          "t": "have-finished in-the-tearses eyes-of-me bellies-of-me have-aggitated, has-been-poured to/for-the-land liver-of-me, on breaking-of daughter-of people-of-me ; in-be-enfeeble infant and-suckling, in-squares-of town."
+        },
+        {
+          "n": 12,
+          "t": "to/for-mothers-of-them they-will-say, where grain and-wine ; in-self-enfeeble-of-them like-the-slain in-squares-of city, in-self-pour soul-of-them, toward bosom-of mothers-of-them."
+        },
+        {
+          "n": 13,
+          "t": "what I-will-make-testify-you-f what I-will-resemble to/for-you-f the-daughter Jerusalem, what I-will-make-like to/for-you-f and-I-will-sorry-you-f, virgin-of daughter-of Zion ; for great like-the-sea breaking-of-you-f who will-heal to/for-you-f."
+        },
+        {
+          "n": 14,
+          "t": "prophets-of-you-f have-seen to/for-you-f vanity and-insipid, and-not have-heglamed on iniquity-of-you-f to/for-make-return captivity-of-you-f ; and-have-seen to/for-you-f, tributes-of vanity and-enticements."
+        },
+        {
+          "n": 15,
+          "t": "they-have-slaped on-you-f palms all-of passing-of way, they-have-whistled and-they-have-made-shake head-of-them, on daughter-of Jerusalem ; is-it-this-f the-city that-they-will-say entire-of beauty, rejoicing to/for-all-of the-land."
+        },
+        {
+          "n": 16,
+          "t": "they-have-opened on-you-f lip-of-them all-of enemying-of-you-f, they-have-whistled and-they-have-grinded tooth, they-have-said we-have-swallowed ; surely this the-day that-we-have-awaited-him we-have-found we-have-seen."
+        },
+        {
+          "n": 17,
+          "t": "YHWH has-done who has-planed has-offed threat-of-him who has-commanded from-days-of east, has-overthrowed and-not has-spared ; and-has-rejoiced on-you-f enemying, horn-of enemies-of-you-f has-made-exalt."
+        },
+        {
+          "n": 18,
+          "t": "heart-of-them has-cried toward lords-of-me ; wall-of daughter-of Zion make-go like-the-torrent tears by and-night, do-not let-give cessation to/for-you-f, do-not let-silence daughter-of eye-of-you-f."
+        },
+        {
+          "n": 19,
+          "t": "rise sing in-the-night to/for-head-of watches, pour like-the-waters heart-of-you-f, before faces-of lords-of-me ; lift toward-him palms-of-you-f on soul-of infants-of-you-f, the-enfeebled in-famine in-head-of all-of outsides."
+        },
+        {
+          "n": 20,
+          "t": "see YHWH and-make-look-heh, to/for-who you-have-abused thus ; if womans will-eat fruit-of-them infants-of cares, if will-be-killed in-sanctuary-of lords-of-me priest and-prophet."
+        },
+        {
+          "n": 21,
+          "t": "outsides have-lain to/for-the-land youth and-old, virgins-of-me and-youths-of-me have-fallen in-the-sword ; you-have-killed in-day-of nose-of-you, you-have-slaughtered not you-have-spared."
+        },
+        {
+          "n": 22,
+          "t": "you-will-call like-day-of meeting terrors-of-me from-around, and-not has-been in-day-of nose YHWH survivor and-survivor ; who I-have-extended and-I-have-multiplied enemying-of-me he-has-finished-them."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "I the-great has-seen affliction, in-tribe-of fury-of-him."
+        },
+        {
+          "n": 2,
+          "t": "me has-led darkness and-has-made-walk and-not light."
+        },
+        {
+          "n": 3,
+          "t": "surely in-me will-return hand-of-him will-overturn all-of the-day."
+        },
+        {
+          "n": 4,
+          "t": "flesh-of-me has-olded and-skin-of-me, has-breaked bones-of-me."
+        },
+        {
+          "n": 5,
+          "t": "has-built on-me poison and-has-made-surround and-hardship."
+        },
+        {
+          "n": 6,
+          "t": "in-darknesses age has-made-dwell-me like-dying-of."
+        },
+        {
+          "n": 7,
+          "t": "he-has-uped about-me and-not I-will-exit he-has-made-honor bronze-of-me."
+        },
+        {
+          "n": 8,
+          "t": "also for I-will-out and-I-will-cry, he-has-stoppered prayer-of-me."
+        },
+        {
+          "n": 9,
+          "t": "he-has-uped ways-of-me in-cutting, paths-of-me he-has-twisted."
+        },
+        {
+          "n": 10,
+          "t": "bear ambushing he to/for-me, lion in-hidings."
+        },
+        {
+          "n": 11,
+          "t": "ways-of-me he-has-turned and-he-has-teared-me he-has-put-me devastated."
+        },
+        {
+          "n": 12,
+          "t": "he-has-treaded bow-of-him and-he-has-made-stand-me, like-the-guard to/for-the-arrow."
+        },
+        {
+          "n": 13,
+          "t": "he-has-made-come in-kidneys-of-me, sons-of quiver-of-him."
+        },
+        {
+          "n": 14,
+          "t": "I-have-been laughter to/for-all-of people-of-me, music-of-them all-of the-day."
+        },
+        {
+          "n": 15,
+          "t": "he-has-made-satisfy-me in-the-bitternesses he-has-made-quench-me wormwood."
+        },
+        {
+          "n": 16,
+          "t": "and-he-has-made-break in-the-gravel tooths-of-me, he-has-made-cower-me in-the-ash."
+        },
+        {
+          "n": 17,
+          "t": "soul-of-me and-has-rejected from-peace I-have-forgotten welfare."
+        },
+        {
+          "n": 18,
+          "t": "and-I-have-said perpetuity-of-me has-perished, and-hope-of-me from-YHWH."
+        },
+        {
+          "n": 19,
+          "t": "remember affliction-of-me and-wandering-of-me wormwood and-poison."
+        },
+        {
+          "n": 20,
+          "t": "remember will-remember, soul-of-me and-will-make-sink and-will-sink on-me."
+        },
+        {
+          "n": 21,
+          "t": "this-f I-will-make-return toward heart-of-me on thus I-will-make-wait."
+        },
+        {
+          "n": 22,
+          "t": "kindnesses-of YHWH for not we-have-finished, for not compassions-of-him have-finished."
+        },
+        {
+          "n": 23,
+          "t": "new to/for-the-mornings, many faithfulness-of-you."
+        },
+        {
+          "n": 24,
+          "t": "portion-of-me YHWH soul-of-me has-said, on thus I-will-make-wait to/for-him."
+        },
+        {
+          "n": 25,
+          "t": "good YHWH to/for-awaiting-of-him, to/for-soul she-will-seek-him."
+        },
+        {
+          "n": 26,
+          "t": "good and-waiting and-silence, to/for-deliverance-of YHWH."
+        },
+        {
+          "n": 27,
+          "t": "good to/for-the-great, for yoke will-lift in-youths-of-him."
+        },
+        {
+          "n": 28,
+          "t": "isolation let-dwell and-let-silence, for has-lifted on-him."
+        },
+        {
+          "n": 29,
+          "t": "lip-of-him, will-give in-the-dust perhaps there hope."
+        },
+        {
+          "n": 30,
+          "t": "Lehi will-give to/for-making-smite-of-him let-satisfy in-reproach."
+        },
+        {
+          "n": 31,
+          "t": "for not he-will-reject to/for-age lords-of-me."
+        },
+        {
+          "n": 32,
+          "t": "that if he-has-made-suffer, and-he-has-compassioned like-abundance-of kindness-of-him kindnesses-of-him."
+        },
+        {
+          "n": 33,
+          "t": "for not he-has-afflicted from-heart-of-him, and-he-has-suffered sons-of man."
+        },
+        {
+          "n": 34,
+          "t": "to/for-crush under foots-of-him, all-of prisoners-of land."
+        },
+        {
+          "n": 35,
+          "t": "to/for-make-stretch justice-of great, before faces-of most."
+        },
+        {
+          "n": 36,
+          "t": "to/for-pervert man in-strife-of-him, lords-of-me not has-seen."
+        },
+        {
+          "n": 37,
+          "t": "who this he-has-said and-she-has-been, lords-of-me not he-has-commanded."
+        },
+        {
+          "n": 38,
+          "t": "from-lip-of most not she-will-exit, the-evils and-the-good."
+        },
+        {
+          "n": 39,
+          "t": "what man living great will-complain, on sin-of-him sins-of-him."
+        },
+        {
+          "n": 40,
+          "t": "let-us-search ways-of-us and-let-us-search, and-let-us-return until YHWH."
+        },
+        {
+          "n": 41,
+          "t": "let-us-lift heart-of-us toward palms, toward El in-the-heavens."
+        },
+        {
+          "n": 42,
+          "t": "we have-transgressed and-have-rebelled, you not have-forgiven."
+        },
+        {
+          "n": 43,
+          "t": "you-have-covered in-nose and-you-have-pursued-us, you-have-killed not you-have-spared."
+        },
+        {
+          "n": 44,
+          "t": "you-have-covered in-the-cloud to/for-you-f, from-pass prayer."
+        },
+        {
+          "n": 45,
+          "t": "offscouring and-refuse you-will-put-us in-entrails-of the-peoples."
+        },
+        {
+          "n": 46,
+          "t": "they-have-opened on-us lip-of-them all-of enemying-of-us."
+        },
+        {
+          "n": 47,
+          "t": "dread and-pit has-been to/for-us the-devastation and-the-breaking."
+        },
+        {
+          "n": 48,
+          "t": "eye-of-me, will-go streams-of waters on breaking-of daughter-of people-of-me."
+        },
+        {
+          "n": 49,
+          "t": "eye-of-me has-been-poured and-not will-cease from-naught cessations."
+        },
+        {
+          "n": 50,
+          "t": "until will-make-look YHWH and-will-see, from-heavens."
+        },
+        {
+          "n": 51,
+          "t": "eye-of-me has-abused to/for-soul-of-me, from-all-of daughters-of city-of-me."
+        },
+        {
+          "n": 52,
+          "t": "hunt they-have-hunted-me like-the-bird enemying-of-me for."
+        },
+        {
+          "n": 53,
+          "t": "lifes-of-me, have-destroyed in-the-pit and-have-confessed stone in-me."
+        },
+        {
+          "n": 54,
+          "t": "waters have-flowed on head-of-me I-have-said I-have-been-cut."
+        },
+        {
+          "n": 55,
+          "t": "I-have-called name-of-you YHWH, from-pit-of lower."
+        },
+        {
+          "n": 56,
+          "t": "voice-of-me you-have-heard ; do-not let-make-conceal ear-of-you to/for-relief-of-me to/for-cry-of-me."
+        },
+        {
+          "n": 57,
+          "t": "you-have-presented in-day I-will-call-you, you-have-said do-not let-fear."
+        },
+        {
+          "n": 58,
+          "t": "you-have-contended lords-of-me strifes-of soul-of-me you-have-redeemed lifes-of-me."
+        },
+        {
+          "n": 59,
+          "t": "you-have-seen YHWH oppression-of-me, judge-heh justice-of-me."
+        },
+        {
+          "n": 60,
+          "t": "you-have-seen all-of vengeance-of-them, all-of plots-of-them to/for-me."
+        },
+        {
+          "n": 61,
+          "t": "you-have-heard reproach-of-them YHWH, all-of plots-of-them on-me."
+        },
+        {
+          "n": 62,
+          "t": "lipses-of rising-of-me and-higgaion-of-them, on-me all-of the-day."
+        },
+        {
+          "n": 63,
+          "t": "dwell-of-them and-rising-of-them make-look-heh, I mocking-of-them."
+        },
+        {
+          "n": 64,
+          "t": "you-will-make-return to/for-them recompense YHWH like-deed-of hands-of-them."
+        },
+        {
+          "n": 65,
+          "t": "you-will-give to/for-them covering-of heart, curse-of-you to/for-them."
+        },
+        {
+          "n": 66,
+          "t": "you-will-pursue in-nose and-you-will-make-destroy-them, under heavens-of YHWH."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "how gold will-be-made-darken, will-change the-gold the-good ; stones-of holiness will-pour, in-head-of all-of outsides."
+        },
+        {
+          "n": 2,
+          "t": "sons-of Zion the-precious, the-weighed in-the-pure ; how they-have-been-devised to/for-bags-of earthenware, deed-of hands-of form."
+        },
+        {
+          "n": 3,
+          "t": "also dragons have-rescued breast, whelps-of-them-f have-made-suckle ; daughter-of people-of-me to/for-cruel, for ostriches like-the-ostriches in-the-wilderness."
+        },
+        {
+          "n": 4,
+          "t": "tongue-of has-cleaved suckling toward palate-of-him in-the-thirst ; infants have-asked food, spreading naught to/for-them."
+        },
+        {
+          "n": 5,
+          "t": "the-eating to/for-delicacies, they-have-been-desolate in-the-outsides ; the-faithfuled on dungs have-embraced worm,."
+        },
+        {
+          "n": 6,
+          "t": "iniquity-of daughter-of people-of-me and-has-magnified, from-offense-of Sodom ; the-overturned like moment, and-not they-have-twisted in-her hands."
+        },
+        {
+          "n": 7,
+          "t": "nazirites-of-her have-cleaned from-snow, have-dazzlinged from-milk ; they-have-reddened bone from-jewels, sapphire cutting-of-them."
+        },
+        {
+          "n": 8,
+          "t": "appearance-of-them, has-darkened from-blackness not they-have-been-recognized in-the-outsides ; skin-of-them has-shriveled on bone-of-them, has-withered has-been like-the-tree."
+        },
+        {
+          "n": 9,
+          "t": "good they-have-been slain-of sword, from-slain-of famine ; that-they will-flow pierced, from-fruits-of sirion."
+        },
+        {
+          "n": 10,
+          "t": "hands-of womans compassionate, youths-of-them-f have-boiled ; they-have-been to/for-eat to/for-them, in-breaking-of daughter-of people-of-me."
+        },
+        {
+          "n": 11,
+          "t": "YHWH has-finished rage-of-him, has-poured burning-of nose-of-him ; fire and-has-made-kindle in-Zion, and-has-eaten foundations-of-her."
+        },
+        {
+          "n": 12,
+          "t": "not kings-of land have-made-faithful, and-all-of all-of dwelling-of world ; for enemy and-enemying will-come, in-gates-of Jerusalem."
+        },
+        {
+          "n": 13,
+          "t": "from-offenses-of prophets-of-her, iniquities-of priests-of-her ; the-pouring in-entrails-of-her blood-of just."
+        },
+        {
+          "n": 14,
+          "t": "they-have-shaked blind in-the-outsides, they-have-been-defiled in-the-blood ; in-not they-will-able, they-will-touch in-clothings-of-them."
+        },
+        {
+          "n": 15,
+          "t": "turn unclean they-have-called to/for-them turn turn do-not let-touch, for they-have-fled also they-have-shaked ; they-have-said in-the-nations, not they-will-make-add to/for-sojourn."
+        },
+        {
+          "n": 16,
+          "t": "faces-of YHWH he-has-divided-them, not he-will-make-add to/for-make-look-of-them ; faces-of priests not have-lifted, old and-old not have-gracioused."
+        },
+        {
+          "n": 17,
+          "t": "still-of-them-f still-of-us they-f-will-finish eyes-of-us, toward help-of-us vanity ; in-watch-of-us we-have-watched, toward nation not will-make-save."
+        },
+        {
+          "n": 18,
+          "t": "steps-of-us have-hunted, from-walk in-squares-of-us ; end-of-us has-presented have-filled days-of-us for has-come end-of-us."
+        },
+        {
+          "n": 19,
+          "t": "swift they-have-been pursuing-of-us, from-eagles-of heavens ; on the-mountains have-burned-us, in-the-wilderness have-ambushed to/for-us."
+        },
+        {
+          "n": 20,
+          "t": "spirit-of noses-of-us anointed-of YHWH, has-been-captured in-pits-of-them ; who we-have-said, in-shadow-of-him we-will-live in-the-nations."
+        },
+        {
+          "n": 21,
+          "t": "rejoice and-rejoice daughter-of Edom, dwelling-of dwelling in-land-of Uz ; also on-you-f cup will-pass, you-f-will-drunk and-you-f-will-uncover."
+        },
+        {
+          "n": 22,
+          "t": "iniquity-of-you-f has-finished daughter-of Zion, not will-make-add to/for-make-heglam-of-you-f ; iniquity-of-you-f has-reckoned daughter-of Edom, has-heglamed on offenses-of-you-f."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "remember YHWH what has-been to/for-us, make-look make-look-heh and-see reproach-of-us."
+        },
+        {
+          "n": 2,
+          "t": "inheritance-of-us has-been-overturned to/for-stranger, houses-of-us to/for-foreign."
+        },
+        {
+          "n": 3,
+          "t": "orphans we-have-been naught and-naught father, mothers-of-us like-widows."
+        },
+        {
+          "n": 4,
+          "t": "waters-of-us in-silver we-have-drunk, trees-of-us in-price will-come."
+        },
+        {
+          "n": 5,
+          "t": "on neck-of-us we-have-been-pursued, we-have-wearied not and-not has-been-made-rest to/for-us."
+        },
+        {
+          "n": 6,
+          "t": "Egypt we-have-given hand, Asshur to/for-satisfy food."
+        },
+        {
+          "n": 7,
+          "t": "fathers-of-us have-sinned naught-them and-naught-them, we and-we iniquities-of-them have-beared."
+        },
+        {
+          "n": 8,
+          "t": "servants have-ruled in-us, tearing naught from-hand-of-them."
+        },
+        {
+          "n": 9,
+          "t": "in-soul-of-us we-will-make-come food-of-us, from-faces-of sword-of the-wilderness."
+        },
+        {
+          "n": 10,
+          "t": "skin-of-us like-ovens they-have-been-grown, from-faces-of scorchings-of famine."
+        },
+        {
+          "n": 11,
+          "t": "womans in-Zion have-afflicted, virgins in-cities-of Judah."
+        },
+        {
+          "n": 12,
+          "t": "officials in-hand-of-them have-been-hung, faces-of old not have-been-honored."
+        },
+        {
+          "n": 13,
+          "t": "youths grinding have-lifted, and-youths in-the-tree have-stumbled."
+        },
+        {
+          "n": 14,
+          "t": "old from-gate youths have-ceased, from-music-of-them."
+        },
+        {
+          "n": 15,
+          "t": "rejoicing-of heart-of-us has-ceased, has-been-overturned to/for-mourning dance-of-us."
+        },
+        {
+          "n": 16,
+          "t": "crown-of head-of-us has-fallen, woe please to/for-us for we-have-sinned."
+        },
+        {
+          "n": 17,
+          "t": "on this has-been sick heart-of-us, on these they-have-darkened eyes-of-us."
+        },
+        {
+          "n": 18,
+          "t": "on mountain-of Zion that-has-desolate, foxes have-gone in-him."
+        },
+        {
+          "n": 19,
+          "t": "you YHWH to/for-age will-dwell, throne-of-you to/for-generation and-generation."
+        },
+        {
+          "n": 20,
+          "t": "to/for-what to/for-perpetuity you-will-forget-us, you-will-leave-us to/for-length-of days."
+        },
+        {
+          "n": 21,
+          "t": "make-return-us YHWH toward-you and-we-will-return and-let-us-return, renew days-of-us like-east."
+        },
+        {
+          "n": 22,
+          "t": "that if reject you-have-rejected-us, you-have-angried on-us until very."
+        }
+      ]
+    }
+  ]
+}

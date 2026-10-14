@@ -1,0 +1,651 @@
+{
+  "id": "amos",
+  "title": "Livre d'Amos",
+  "original_title": "Amos",
+  "short": "Am",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "words-of Amos, who he-has-been in-the-shepherds from-Tekoa ; who Israel has-seen on in-days-of Uzziah king-of Judah and-in-days-of Jeroboam son-of Joash king-of Israel, years to/for-faces-of the-quaking."
+        },
+        {
+          "n": 2,
+          "t": "YHWH and-has-said from-Zion will-roar, and-from-Jerusalem voice-of-him will-give ; habitations-of and-have-mourned the-pasturing, and-has-withered head-of the-Carmel."
+        },
+        {
+          "n": 3,
+          "t": "thus YHWH has-said, on three transgressions-of Damascus, and-on four not I-will-make-return-him ; on tread-of-them in-sharps-of the-iron the-Gilead."
+        },
+        {
+          "n": 4,
+          "t": "and-I-have-sended fire in-house-of Hazael ; and-she-has-eaten citadels-of Ben-hadad Ben-hadad."
+        },
+        {
+          "n": 5,
+          "t": "and-I-have-breaked bar-of Damascus, and-I-have-made-cut dwelling from-valley Aven, and-grasping-of tribe from-house delight ; and-they-have-heglamed people-of Aram Kir-ward has-said YHWH."
+        },
+        {
+          "n": 6,
+          "t": "thus YHWH has-said, on three transgressions-of Gaza, and-on four not I-will-make-return-him ; on make-heglam-of-them captivity complete to/for-make-shut to/for-Edom."
+        },
+        {
+          "n": 7,
+          "t": "and-I-have-sended fire in-wall-of Gaza ; and-she-has-eaten citadels-of-her."
+        },
+        {
+          "n": 8,
+          "t": "and-I-have-made-cut dwelling from-Ashdod, and-grasping-of tribe from-Ashkelon ; and-I-have-made-return hand-of-me on Ekron and-have-perished remnant-of Philistine, has-said lords-of-me YHWH."
+        },
+        {
+          "n": 9,
+          "t": "thus YHWH has-said, on three transgressions-of Tyre, and-on four not I-will-make-return-him ; on make-shut-of-them captivity complete to/for-Edom, and-not they-have-remembered covenant-of brothers."
+        },
+        {
+          "n": 10,
+          "t": "and-I-have-sended fire in-wall-of Tyre ; and-she-has-eaten citadels-of-her."
+        },
+        {
+          "n": 11,
+          "t": "thus YHWH has-said, on three transgressions-of Edom, and-on four not I-will-make-return-him ; on pursue-of-him in-the-sword brother-of-him and-has-ruined compassions-of-him, nose-of-him, and-has-teared to/for-perpetuity and-fury-of-him has-kept-her perpetuity."
+        },
+        {
+          "n": 12,
+          "t": "and-I-have-sended fire in-Teman ; and-she-has-eaten citadels-of Bozrah."
+        },
+        {
+          "n": 13,
+          "t": "thus YHWH has-said, on three transgressions-of sons-of Ammon, and-on four not I-will-make-return-him ; on break-of-them pregnant-of the-Gilead, sake make-enlarge border-of-them."
+        },
+        {
+          "n": 14,
+          "t": "and-I-have-made-kindle fire in-wall-of Rabbah, and-has-eaten citadels-of-her ; in-shout in-day-of battle, in-tempest in-day-of whirlwind."
+        },
+        {
+          "n": 15,
+          "t": "king-of-them and-has-gone in-the-captivity ; he and-officials-of-him together has-said YHWH."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "thus YHWH has-said, on three transgressions-of Moab, and-on four not I-will-make-return-him ; on burn-of-him bones-of king-of Edom to/for-the-lime."
+        },
+        {
+          "n": 2,
+          "t": "and-I-have-sended fire in-Moab, and-has-eaten citadels-of the-Kerioth ; Moab, and-has-died in-roar in-shout in-voice-of trumpet."
+        },
+        {
+          "n": 3,
+          "t": "and-I-have-made-cut judging from-entrails-of-her ; and-all-of officials-of-her I-will-kill with-him YHWH has-said."
+        },
+        {
+          "n": 4,
+          "t": "thus YHWH has-said, on three transgressions-of Judah, and-on four not I-will-make-return-him ; on reject-of-them instruction-of YHWH and-statutes-of-him not have-kept, lies-of-them and-have-made-go-them, who have-gone fathers-of-them after-them."
+        },
+        {
+          "n": 5,
+          "t": "and-I-have-sended fire in-Judah ; and-she-has-eaten citadels-of Jerusalem."
+        },
+        {
+          "n": 6,
+          "t": "thus YHWH has-said, on three transgressions-of Israel, and-on four not I-will-make-return-him ; on sell-of-them in-the-silver just, and-needy in-sake-of sandals."
+        },
+        {
+          "n": 7,
+          "t": "the-crushing on dust-of land in-head-of poor, and-way-of poor they-will-make-stretch ; and-man and-father-of-him they-will-walk toward the-maiden, sake begin name-of holiness-of-me."
+        },
+        {
+          "n": 8,
+          "t": "and-on garments pledged will-make-stretch, beside all-of altar ; and-wine-of fines they-will-drink, house-of gods-of-them."
+        },
+        {
+          "n": 9,
+          "t": "and-I have-made-destroy the-Amorite from-faces-of-them, who like-height-of cedars height-of-him, and-strong he like-the-oaks ; and-I-have-made-destroy fruit-of-him from-above, and-roots-of-him under."
+        },
+        {
+          "n": 10,
+          "t": "and-I have-made-ascend you-pl from-land-of Egypt ; and-I-have-made-walk you-pl in-the-wilderness forty year, to/for-possess land-of the-Amorite."
+        },
+        {
+          "n": 11,
+          "t": "and-I-have-made-rise from-sons-of-you-pl to/for-prophets, and-from-youths-of-you-pl to/for-nazirites ; is-it-even naught this-f sons-of Israel utterance-of YHWH."
+        },
+        {
+          "n": 12,
+          "t": "and-you-pl-have-made-water the-nazirites wine ; and-on the-prophets you-pl-have-commanded to/for-say, not you-pl-will-be-prophesied."
+        },
+        {
+          "n": 13,
+          "t": "behold I making-totter under-you-pl ; like-when the-cart the-fruit will-make-totter, to/for-her sheaf."
+        },
+        {
+          "n": 14,
+          "t": "refuge from-swift and-strong and-has-perished, not will-strengthen strength-of-him ; and-mighty not soul-of-him will-escape."
+        },
+        {
+          "n": 15,
+          "t": "and-capturing-of the-bow not he-will-stand, and-swift in-foots-of-him not he-will-escape ; and-riding-of the-horse, not will-escape soul-of-him."
+        },
+        {
+          "n": 16,
+          "t": "and-strong-of heart-of-him in-the-mighty ; naked the-he will-flee in-the-day utterance-of YHWH."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "hear the-word the-this who YHWH has-spoken on-you-pl sons-of Israel ; on all-of the-family, who I-have-made-ascend from-land-of Egypt to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "except you-pl I-have-known, from-all-of families-of the-ground ; on thus I-will-reckon on-you-pl, all-of iniquities-of-you-pl."
+        },
+        {
+          "n": 3,
+          "t": "is-it-they-will-walk two together ; without if they-have-been-appointed."
+        },
+        {
+          "n": 4,
+          "t": "lion is-it-will-roar in-the-wood, and-prey naught to/for-him ; lion is-it-will-give voice-of-him from-habitation-of-him, without if has-captured."
+        },
+        {
+          "n": 5,
+          "t": "bird is-it-will-fall on snare the-land, and-snare naught to/for-her ; snare is-it-will-ascend from the-ground, and-capture not will-capture."
+        },
+        {
+          "n": 6,
+          "t": "if trumpet will-be-blowed in-city, and-people not they-will-tremble ; if evil will-be in-city, and-YHWH not has-done."
+        },
+        {
+          "n": 7,
+          "t": "for not will-do lords-of-me YHWH word ; that if counsel-of-him has-heglamed, toward servants-of-him the-prophets."
+        },
+        {
+          "n": 8,
+          "t": "lion has-roared who not will-fear ; lords-of-me YHWH has-spoken, who not will-be-prophesied."
+        },
+        {
+          "n": 9,
+          "t": "make-hear on citadels in-Ashdod, and-on citadels in-land-of Egypt ; and-say be-gathered on mountains-of Samaria, and-see tumults many in-midst-of-her, and-oppressions in-entrails-of-her."
+        },
+        {
+          "n": 10,
+          "t": "and-not they-have-known do upright utterance-of YHWH ; the-storing violence and-violence in-citadels-of-them."
+        },
+        {
+          "n": 11,
+          "t": "to/for-thus thus has-said lords-of-me YHWH, enemy and-around-of the-land ; strength-of-you-f, and-has-made-go from-you-f and-have-been-plundered citadels-of-you-f."
+        },
+        {
+          "n": 12,
+          "t": "thus YHWH has-said like-when will-make-rescue the-pasturing from-lip-of the-lion two-of legs or piece-of ear ; thus sons-of Israel the-dwelling will-be-rescued in-Samaria, in-side-of bed and-in-Silk bed."
+        },
+        {
+          "n": 13,
+          "t": "hear and-make-testify in-house-of Jacob ; utterance-of lords-of-me YHWH god-of the-hosts."
+        },
+        {
+          "n": 14,
+          "t": "for in-day-of reckon-of-me transgressions-of Israel on-him ; and-I-have-reckoned on altars-of Lebeyt Bethel, and-have-been-cut horns-of the-altar, and-have-fallen to/for-the-land."
+        },
+        {
+          "n": 15,
+          "t": "and-I-have-made-smite house-of the-autumn on house-of the-summer ; houses-of the-tooth and-have-perished and-have-ceased houses many utterance-of YHWH."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "hear the-word the-this heifers-of the-Bashan who in-mountain-of Samaria, the-oppressing poor, the-crushing needy ; the-saying to/for-lords-of-them make-come-heh and-we-will-drink."
+        },
+        {
+          "n": 2,
+          "t": "has-been-sweared lords-of-me YHWH in-holiness-of-him, for behold days coming on-you-pl ; and-he-has-lifted you-pl in-hooks, and-end-of-you-fp in-thorns-of fishhook."
+        },
+        {
+          "n": 3,
+          "t": "and-breaches you-fp-will-exit woman before-her ; and-you-fp-have-made-throw the-Harmon-ward utterance-of YHWH."
+        },
+        {
+          "n": 4,
+          "t": "come Lebeyt Bethel and-transgress, the-Gilgal make-multiply to/for-transgress ; and-make-come to/for-the-morning sacrifices-of-you-pl, to/for-three-of days tithes-of-you-pl."
+        },
+        {
+          "n": 5,
+          "t": "and-offer from-leaven thanksgiving, and-call voluntarinesses make-hear ; for thus you-pl-have-loved sons-of Israel, utterance-of lords-of-me YHWH."
+        },
+        {
+          "n": 6,
+          "t": "and-also I have-given to/for-you-pl bluntness-of tooths in-all-of cities-of-you-pl, and-lack-of food, in-all-of places-of-you-pl ; and-not you-pl-have-returned until-me utterance-of YHWH."
+        },
+        {
+          "n": 7,
+          "t": "and-also I have-withholded from-you-pl the-rain in-still three months to/for-the-harvest, and-have-made-rain on city one, and-on city one not will-make-rain ; portion one will-be-rained, and-portion who not will-make-rain on-her will-wither."
+        },
+        {
+          "n": 8,
+          "t": "and-have-shaked two three cities toward city one to/for-drink waters and-not will-satisfy ; and-not you-pl-have-returned until-me utterance-of YHWH."
+        },
+        {
+          "n": 9,
+          "t": "I-have-made-smite you-pl in-the-blight and-in-the-mildew make-multiply gardens-of-you-pl and-vineyards-of-you-pl and-figs-of-you-pl and-oliveses-of-you-pl the-locust will-eat ; and-not you-pl-have-returned until-me utterance-of YHWH."
+        },
+        {
+          "n": 10,
+          "t": "I-have-sended in-you-pl pestilence in-way-of Egypt, I-have-killed in-the-sword youths-of-you-pl, with captivity-of horses-of-you-pl ; and-I-have-made-ascend stench-of camp-of-you-pl and-in-nose-of-you-pl, and-not you-pl-have-returned until-me utterance-of YHWH."
+        },
+        {
+          "n": 11,
+          "t": "I-have-overturned in-you-pl like-overthrow-of god Sodom and-Gomorrah, and-you-pl-have-been, like-firebrand been-made-rescue from-fire ; and-not you-pl-have-returned until-me utterance-of YHWH."
+        },
+        {
+          "n": 12,
+          "t": "to/for-thus, thus I-will-do to/for-you Israel ; consequence for this-f I-will-do to/for-you-f, be-established to/for-befall god-of-you Israel."
+        },
+        {
+          "n": 13,
+          "t": "for behold forming mountains and-creating spirit and-making-announce to/for-man what thought-of-him, doing-of dawn darkness, and-treading on highs-of land ; YHWH god-of hostses name-of-him."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "hear the-word the-this who I lifting on-you-pl dirge house-of Israel."
+        },
+        {
+          "n": 2,
+          "t": "has-fallen not will-make-add rise, virgin-of Israel ; ground-of-her has-been-left on naught making-rise-of-her."
+        },
+        {
+          "n": 3,
+          "t": "for thus has-said lords-of-me YHWH, the-city the-exiting thousand will-make-remain hundred ; and-the-exiting hundred she-will-make-remain ten to/for-house-of Israel."
+        },
+        {
+          "n": 4,
+          "t": "for thus YHWH has-said to/for-house-of Israel ; seek-me and-live."
+        },
+        {
+          "n": 5,
+          "t": "and-do-not let-seek Lebeyt Bethel, and-the-Gilgal not you-pl-will-come, and-Beer Beersheba not you-pl-will-pass ; for the-Gilgal heglam will-heglam, and-Lebeyt Bethel will-be to/for-evil."
+        },
+        {
+          "n": 6,
+          "t": "seek YHWH and-live ; lest house-of Joseph, will-rush like-the-fire and-she-has-eaten and-naught quenching to/for-Lebeyt Bethel."
+        },
+        {
+          "n": 7,
+          "t": "the-overturning to/for-wormwood justice ; and-rightness to/for-the-land they-have-made-rest."
+        },
+        {
+          "n": 8,
+          "t": "doing-of pleiades and-orion and-overturning to/for-the-morning shadow, and-day night has-made-darken ; the-calling to/for-waters-of the-sea and-has-poured-them on faces-of the-land YHWH name-of-him."
+        },
+        {
+          "n": 9,
+          "t": "the-making-cheerful violence on strong ; and-violence on fortification will-come."
+        },
+        {
+          "n": 10,
+          "t": "they-have-hated in-the-gate making-rebuke ; and-speaking unblemished they-will-abhor."
+        },
+        {
+          "n": 11,
+          "t": "to/for-thus because trample-of-you-pl on poor and-tribute-of grain you-pl-will-take from-us, houses-of cutting you-pl-have-built and-not you-pl-will-dwell in-them ; vineyards-of delight you-pl-have-planted, and-not you-pl-will-drink wine-of-them."
+        },
+        {
+          "n": 12,
+          "t": "for I-have-known many transgressions-of-you-pl, and-mighty offenses-of-you-pl ; vexing-of just taking-of ransom, and-needy in-the-gate they-have-made-stretch."
+        },
+        {
+          "n": 13,
+          "t": "to/for-thus the-making-understand in-the-time the-he he-will-silence ; for time evil he."
+        },
+        {
+          "n": 14,
+          "t": "seek good and-do-not evil sake you-pl-will-live ; YHWH and-let-be thus god-of hostses with-you-pl like-when you-pl-have-said."
+        },
+        {
+          "n": 15,
+          "t": "hate evil and-love good, and-make-set in-the-gate justice ; perhaps YHWH will-gracious god-of hostses remnant-of Joseph."
+        },
+        {
+          "n": 16,
+          "t": "to/for-thus thus YHWH has-said god-of hostses lords-of-me, in-all-of squares mourning, and-in-all-of outsides will-say ah ah ; and-they-have-called farmer toward mourning, and-mourning toward knowing-of wailing."
+        },
+        {
+          "n": 17,
+          "t": "and-in-all-of vineyards mourning ; for I-will-pass in-entrails-of-you YHWH has-said."
+        },
+        {
+          "n": 18,
+          "t": "woe the-self-desiring day-of YHWH ; to/for-what this to/for-you-pl day-of YHWH he darkness and-not light."
+        },
+        {
+          "n": 19,
+          "t": "like-when man will-flee from-faces-of the-lion, and-has-fallen-him the-bear ; the-house and-has-come, and-has-supported hand-of-him on the-wall, and-has-bited-him the-serpent."
+        },
+        {
+          "n": 20,
+          "t": "is-it-not darkness day-of YHWH and-not light ; and-gloom and-not brightness to/for-him."
+        },
+        {
+          "n": 21,
+          "t": "I-have-hated I-have-rejected feasts-of-you-pl ; and-not I-will-make-smell in-assemblies-of-you-pl."
+        },
+        {
+          "n": 22,
+          "t": "that if you-pl-will-make-ascend to/for-me burnts and-offerings-of-you-pl not I-will-accept ; and-peace-of fatlings-of-you-pl not I-will-make-look."
+        },
+        {
+          "n": 23,
+          "t": "make-turn on-me crowd-of songs-of-you ; and-melody-of harps-of-you not I-will-hear."
+        },
+        {
+          "n": 24,
+          "t": "justice ; and-will-be-rolled like-the-waters and-rightness like-torrent strong."
+        },
+        {
+          "n": 25,
+          "t": "is-it-the-sacrifices and-offering you-pl-have-made-approach to/for-me in-the-wilderness forty year house-of Israel."
+        },
+        {
+          "n": 26,
+          "t": "and-you-pl-have-lifted Sikkuth Molech-of-you-pl, and-Kiyyun images-of-you-pl ; star-of god-of-you-pl, who you-pl-have-done to/for-you-pl."
+        },
+        {
+          "n": 27,
+          "t": "and-I-have-made-heglam you-pl from-further to/for-Damascus ; YHWH has-said god-of hostses name-of-him."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "woe the-secure in-Zion, and-the-trusting in-mountain-of Samaria ; pierced-of first-of the-nations, and-they-have-come to/for-them house-of Israel."
+        },
+        {
+          "n": 2,
+          "t": "pass Calneh and-see, and-walk from-there Hamat Raba ; and-go Gath Philistine is-it-good from the-kingdoms the-these, if many border-of-them from-border-of-you-pl."
+        },
+        {
+          "n": 3,
+          "t": "the-awaying to/for-day evil ; and-you-pl-have-made-approach seat-of violence."
+        },
+        {
+          "n": 4,
+          "t": "the-lying on beds-of tooth, and-overruned on beds-of-them ; and-eating rams from-flock, and-calfs from-midst-of stall."
+        },
+        {
+          "n": 5,
+          "t": "the-dividing on lip-of the-harp ; like-David, articles-of song have-devised to/for-them."
+        },
+        {
+          "n": 6,
+          "t": "the-drinking in-bowls-of wine, and-first-of oils they-will-anoint ; and-not they-have-been-weaked on breaking-of Joseph."
+        },
+        {
+          "n": 7,
+          "t": "to/for-thus now they-will-heglam in-head heglaming ; banquet-of and-has-turned overruned."
+        },
+        {
+          "n": 8,
+          "t": "has-been-sweared lords-of-me YHWH in-soul-of-him utterance-of YHWH god-of hostses, loathing I pride-of Jacob, and-citadels-of-him have-hated ; and-I-have-made-shut city and-fullness-of-her."
+        },
+        {
+          "n": 9,
+          "t": "and-he-has-been if will-be-remained ten mans in-house one and-have-died."
+        },
+        {
+          "n": 10,
+          "t": "beloved-of-him and-burning-of-him and-has-lifted-him to/for-make-exit bones from the-house and-has-said to/for-who in-flanks-of the-house is-it-still with-you-f end and-has-said ; and-he-has-said silence, for not to/for-make-remember in-name-of YHWH."
+        },
+        {
+          "n": 11,
+          "t": "for behold YHWH commanding, and-has-made-smite the-house the-great fragments ; and-the-house the-small breaches."
+        },
+        {
+          "n": 12,
+          "t": "horses, is-it-the-will-run in-the-Rock if he-will-plow in-the-cattles ; for you-pl-have-overturned to/for-poison justice, and-fruit-of rightness to/for-wormwood."
+        },
+        {
+          "n": 13,
+          "t": "the-rejoice to/for-not word ; the-saying, is-it-not in-strength-of-us, we-have-taken to/for-us Karnaim."
+        },
+        {
+          "n": 14,
+          "t": "for lo-me making-rise on-you-pl house-of Israel utterance-of YHWH god-of the-hostses nation ; and-they-have-oppressed you-pl from-come Hamath until torrent-of the-arabah."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "thus has-made-see-me lords-of-me YHWH, and-behold forming locust, in-beginning-of ascend the-crop ; and-behold crop, after fleeces-of the-king."
+        },
+        {
+          "n": 2,
+          "t": "and-has-been if has-finished to/for-eat plant-of the-land, and-I-have-said lords-of-me YHWH forgive please, who will-rise Jacob ; for small he."
+        },
+        {
+          "n": 3,
+          "t": "YHWH has-been-sorried on this-f ; not she-will-be YHWH has-said."
+        },
+        {
+          "n": 4,
+          "t": "thus has-made-see-me lords-of-me YHWH, and-behold calling to/for-contend in-the-fire lords-of-me YHWH ; and-she-has-eaten abyss many, and-she-has-eaten the-portion."
+        },
+        {
+          "n": 5,
+          "t": "and-I-have-said lords-of-me YHWH cease please, who will-rise Jacob ; for small he."
+        },
+        {
+          "n": 6,
+          "t": "YHWH has-been-sorried on this-f ; also he not will-be, has-said lords-of-me YHWH."
+        },
+        {
+          "n": 7,
+          "t": "thus he-has-made-see-me, and-behold lords-of-me stood on wall-of plumbline ; and-in-hand-of-him plumbline."
+        },
+        {
+          "n": 8,
+          "t": "YHWH and-has-said toward-me what you seeing Amos, and-I-have-said plumbline ; and-has-said lords-of-me lo-me puting plumbline in-entrails-of people-of-me Israel, not I-will-make-add still pass to/for-him."
+        },
+        {
+          "n": 9,
+          "t": "highs-of Isaac and-have-been-desolate, and-sanctuaries-of Israel will-destroy ; and-I-have-risen on house-of Jeroboam in-the-sword."
+        },
+        {
+          "n": 10,
+          "t": "Amaziah and-has-sended priest-of Lebeyt Bethel, toward Jeroboam king-of Israel to/for-say ; Amos has-conspired on-you in-entrails-of house-of Israel, not will-able the-land, to/for-make-sustain all-of words-of-him."
+        },
+        {
+          "n": 11,
+          "t": "for thus Amos has-said, in-the-sword will-die Jeroboam ; and-Israel, heglam will-heglam on ground-of-him."
+        },
+        {
+          "n": 12,
+          "t": "Amaziah and-has-said toward Amos, seer, walk flee to/for-you toward land-of Judah ; and-eat there food, and-there you-will-be-prophesied."
+        },
+        {
+          "n": 13,
+          "t": "and-Lebeyt Bethel, not you-will-make-add still to/for-be-prophesy ; for sanctuary-of king he, and-house-of kingdom he."
+        },
+        {
+          "n": 14,
+          "t": "Amos and-has-answered and-has-said toward Amaziah, not prophet I, and-not son-of prophet I ; for herdsman I and-gathering-of sycamores."
+        },
+        {
+          "n": 15,
+          "t": "YHWH and-has-taken-me, after the-flock ; YHWH, and-has-said toward-me walk be-prophesied toward people-of-me Israel."
+        },
+        {
+          "n": 16,
+          "t": "and-now hear word-of YHWH ; you saying not will-be-prophesied on Israel, and-not will-make-drip on house-of Isaac."
+        },
+        {
+          "n": 17,
+          "t": "to/for-thus thus YHWH has-said woman-of-you in-the-city will-fornicate and-sons-of-you and-daughters-of-you in-the-sword will-fall, and-ground-of-you in-the-mahalab will-divide ; and-you on ground unclean will-die, and-Israel, heglam will-heglam on ground-of-him."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "thus has-made-see-me lords-of-me YHWH ; and-behold basket-of summer."
+        },
+        {
+          "n": 2,
+          "t": "and-has-said what you seeing Amos, and-I-have-said basket-of summer ; YHWH and-has-said toward-me has-come the-end toward people-of-me Israel, not I-will-make-add still pass to/for-him."
+        },
+        {
+          "n": 3,
+          "t": "songs-of temple and-have-made-wail in-the-day the-he, utterance-of lords-of-me YHWH ; many the-corpse, in-all-of place has-made-throw silence."
+        },
+        {
+          "n": 4,
+          "t": "hear this-f, the-crushing needy ; and-to/for-make-cease poor-of afflicted-of land."
+        },
+        {
+          "n": 5,
+          "t": "to/for-say how the-month will-pass and-let-us-make-grain grain, and-the-sabbath and-let-us-open grain ; to/for-make-small ephah and-to/for-make-magnify shekel, and-to/for-pervert balances-of deceit."
+        },
+        {
+          "n": 6,
+          "t": "to/for-acquire in-the-silver poor, and-needy in-sake-of sandals ; and-refuse-of grain we-will-make-grain."
+        },
+        {
+          "n": 7,
+          "t": "YHWH has-been-sweared in-pride-of Jacob ; if I-will-forget to/for-perpetuity all-of deeds-of-them."
+        },
+        {
+          "n": 8,
+          "t": "is-it-on this-f not the-land will-tremble, and-has-mourned all-of dwelling in-her ; and-she-has-ascended like-the-Nile all-of-her, and-she-has-been-driven and-she-has-been-watered and-she-has-been-sinked like-Nile Egypt."
+        },
+        {
+          "n": 9,
+          "t": "the-he and-has-been in-the-day utterance-of lords-of-me YHWH, and-I-have-made-come the-sun in-the-middays ; and-I-have-made-darken to/for-the-land in-day-of light."
+        },
+        {
+          "n": 10,
+          "t": "and-I-have-overturned feasts-of-you-pl to/for-mourning and-all-of songs-of-you-pl to/for-dirge, and-I-have-made-ascend on all-of loins sack, and-on all-of head bald ; and-I-have-put-her like-mourning only, and-end-of-her like-day bitter."
+        },
+        {
+          "n": 11,
+          "t": "behold days coming utterance-of lords-of-me YHWH, and-I-have-made-send famine in-the-land ; not famine to/for-the-food and-not thirst to/for-the-waters, that if to/for-hear, words-of YHWH."
+        },
+        {
+          "n": 12,
+          "t": "and-they-have-shaked from-sea until sea, and-from-north and-until east ; they-will-rove to/for-seek word-of YHWH and-not they-will-find."
+        },
+        {
+          "n": 13,
+          "t": "in-the-day the-he the-virgins the-beautiful will-enwrap and-the-youths in-the-thirst."
+        },
+        {
+          "n": 14,
+          "t": "the-sweared in-guiltiness-of Samaria, and-they-have-said living god-of-you Dan, and-living way-of Beer Beersheba ; and-they-have-fallen and-not they-will-rise still."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "I-have-seen lords-of-me stood on the-altar and-has-said make-smite the-capital and-will-shake the-thresholds and-off-them in-head-of all-of-them, and-end-of-them in-the-sword I-will-kill ; not will-flee to/for-them fleeing, and-not survivor will-be-escaped to/for-them."
+        },
+        {
+          "n": 2,
+          "t": "if they-will-dig in-hell, from-there hand-of-me will-take-them ; and-if the-heavens will-ascend, from-there I-will-make-go-them."
+        },
+        {
+          "n": 3,
+          "t": "and-if they-will-be-hided in-head-of the-Carmel, from-there I-will-search and-I-have-taken-them ; and-if they-will-be-hided before eyes-of-me in-floor-of the-sea, from-there I-will-command the-serpent and-he-has-bited-them."
+        },
+        {
+          "n": 4,
+          "t": "and-if they-will-walk in-the-captivity to/for-faces-of enemying-of-them, from-there I-will-command the-sword and-she-has-killed-them ; and-I-have-put eye-of-me on-them to/for-evil and-not to/for-welfare."
+        },
+        {
+          "n": 5,
+          "t": "and-lords-of-me YHWH the-hostses the-touching in-the-land and-she-has-melted, and-have-mourned all-of dwelling-of in-her ; and-she-has-ascended like-the-Nile all-of-her, and-she-has-sinked like-Nile Egypt."
+        },
+        {
+          "n": 6,
+          "t": "the-building in-the-heavens steps-of-him, and-band-of-him on land has-founded-her ; the-calling to/for-waters-of the-sea and-has-poured-them on faces-of the-land YHWH name-of-him."
+        },
+        {
+          "n": 7,
+          "t": "is-it-not you like-sons-of Ethiopian to/for-me sons-of Israel utterance-of YHWH ; is-it-not Israel I-have-made-ascend from-land-of Egypt, and-Philistine from-Caphtor and-Aram from-Kir."
+        },
+        {
+          "n": 8,
+          "t": "behold eyes-of lords-of-me YHWH in-the-kingdom the-sinner, and-I-have-made-destroy her, on faces-of the-ground ; end for not make-destroy I-will-make-destroy house-of Jacob utterance-of YHWH."
+        },
+        {
+          "n": 9,
+          "t": "for behold I commanding, and-have-made-shake in-all-of the-nations house-of Israel ; like-when will-be-shaked in-the-sieve, and-not pebble land will-fall."
+        },
+        {
+          "n": 10,
+          "t": "in-the-sword they-will-die, all-of sinner-of people-of-me ; the-saying not will-make-approach the-evil and-will-make-meet until-us."
+        },
+        {
+          "n": 11,
+          "t": "in-the-day the-he, I-will-make-rise booth-of David the-falling ; and-I-have-uped breaches-of-them-f and-ruinses-of-him I-will-make-rise, and-I-have-built-her like-days-of age."
+        },
+        {
+          "n": 12,
+          "t": "sake they-will-possess remnant-of Edom and-all-of the-nations, who has-been-called name-of-me on-them ; utterance-of YHWH doing this-f."
+        },
+        {
+          "n": 13,
+          "t": "behold days coming utterance-of YHWH, and-has-been-approached plowing in-the-reaping, and-treading-of grapes in-drawing-of the-seed ; the-mountains and-have-made-drip sweet, and-all-of the-Gibat they-f-will-melt."
+        },
+        {
+          "n": 14,
+          "t": "and-I-have-returned captivity-of people-of-me Israel cities desolations and-have-built and-have-dwelt, vineyards and-have-planted, and-have-drunk wine-of-them ; gardens and-have-done, and-have-eaten fruit-of-them."
+        },
+        {
+          "n": 15,
+          "t": "and-I-have-planted-them on ground-of-them ; and-not they-will-be-uprooted still on ground-of-them who I-have-given to/for-them, YHWH has-said god-of-you."
+        }
+      ]
+    }
+  ]
+}

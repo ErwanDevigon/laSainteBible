@@ -1,0 +1,2599 @@
+{
+  "id": "juges",
+  "title": "Livre des Juges",
+  "original_title": "Juges",
+  "short": "Jg",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "mort-de Josué, et-a-été après et-ont-demandé fils-de Israël, dans-YHWH à/pour-dire ; lequel le-Canaanite montera à/pour-nous vers dans-la-commencement à/pour-être-combattre dans-lui."
+        },
+        {
+          "n": 2,
+          "t": "YHWH Juda et-a-dit montera ; voici je-ai-donné la-terre dans-main-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "Juda et-a-dit à/pour-Siméon frère-de-lui monte ensemble-moi dans-sort-de-moi et-nous-soyons-combattu dans-le-Canaanite, je et-ai-marché aussi ensemble-toi dans-sort-de-toi ; Siméon et-est-allé ensemble-lui."
+        },
+        {
+          "n": 4,
+          "t": "Juda et-est-monté, et-a-donné YHWH le-Canaanite et-le-Perizzite dans-main-de-eux ; et-ils-ont-fait-frapper-eux dans-Bezek, ten-de mille homme."
+        },
+        {
+          "n": 5,
+          "t": "et-ils-ont-trouvé Adoniya Bezeq dans-Bezek, et-ils-ont-été-combattu dans-lui ; et-ils-ont-fait-frapper, le-Canaanite et-le-Perizzite."
+        },
+        {
+          "n": 6,
+          "t": "Adoniya Bezeq et-a-fui, et-ils-ont-poursuivu après-lui ; et-ils-ont-gjjé lui, et-ils-ont-coupé, pouces-de mains-de-lui et-pieds-de-lui."
+        },
+        {
+          "n": 7,
+          "t": "Adoniya Bezeq et-a-dit soixante-dix rois pouces-de mains-de-eux et-pieds-de-eux coupés ont-été glanants sous table-de-moi, comme-lorsque je-ai-fait, ainsi dieu ; a-gkuqaé à/pour-moi et-ils-ont-fait-venir-lui Jérusalem et-est-mort là."
+        },
+        {
+          "n": 8,
+          "t": "fils-de Juda et-ont-été-combattu dans-Jérusalem, et-ont-capturé elle, et-ont-fait-frapper-elle à/pour-bouche-de épée ; et-la-ville ils-ont-envoyé dans-le-feu."
+        },
+        {
+          "n": 9,
+          "t": "et-après fils-de Juda sont-descendu, à/pour-être-combattre dans-le-Canaanite ; habitant le-mont, et-le-negeb et-la-shephelah."
+        },
+        {
+          "n": 10,
+          "t": "Juda et-est-allé vers le-Canaanite le-habitant dans-Hébron, et-nom-de Hébron à/pour-faces Beqiryat kiriath-arbae ; et-ils-ont-fait-frapper Sheshai et-Ahiman et-Talmai."
+        },
+        {
+          "n": 11,
+          "t": "et-est-allé depuis-là, vers habitants-de Debir ; et-nom-de Debir à/pour-faces Qiryata Sefer."
+        },
+        {
+          "n": 12,
+          "t": "Caleb et-a-dit, qui fera-frapper Qiryata Sefer et-a-capturé-elle ; et-je-ai-donné à/pour-lui Achsah fille-de-moi à/pour-femme."
+        },
+        {
+          "n": 13,
+          "t": "Othniel et-a-capturé-elle fils-de Kenaz, frère-de Caleb le-petit depuis-nous ; et-il-a-donné à/pour-lui Achsah fille-de-lui à/pour-femme."
+        },
+        {
+          "n": 14,
+          "t": "et-a-été dans-venir-de-elle et-a-fait-inciter-lui à/pour-demander ensemble père-de-elle le-champ, et-a-gjaié sur le-âne ; Caleb et-a-dit à/pour-elle quoi à/pour-toi-f."
+        },
+        {
+          "n": 15,
+          "t": "et-a-dit à/pour-lui pourvoir-hé à/pour-moi bénédiction car terre-de le-negeb tu-as-donné-moi, et-tu-as-donné à/pour-moi cuvettes-de eaux ; Caleb et-a-donné à/pour-elle cuvettes-de supérieure, et-cuvettes-de base."
+        },
+        {
+          "n": 16,
+          "t": "et-fils-de Kenite gdeyaant-de Moïse sont-monté depuis-ville-de les-palms ensemble fils-de Juda, désert-de Juda, qui dans-negeb-de Arad ; et-est-allé le-peuple et-a-habité ensemble."
+        },
+        {
+          "n": 17,
+          "t": "Juda et-est-allé ensemble Siméon frère-de-lui, et-ils-ont-fait-frapper, le-Canaanite habitant Zephath ; et-ils-ont-fait-dévouer elle, et-a-appelé nom-de la-ville Hormah."
+        },
+        {
+          "n": 18,
+          "t": "Juda et-a-capturé Gaza et-frontière-de-elle, et-Ashkelon et-frontière-de-elle ; et-Ekron et-frontière-de-elle."
+        },
+        {
+          "n": 19,
+          "t": "YHWH et-a-été ensemble Juda, et-a-fait-déposséder le-mont ; car non à/pour-faire-déposséder habitants-de le-vallée, car char-de fer à/pour-eux."
+        },
+        {
+          "n": 20,
+          "t": "et-ils-ont-donné à/pour-Caleb Hébron, comme-lorsque Moïse a-parlé ; et-il-a-fait-déposséder depuis-là, trois fils-de le-Anak."
+        },
+        {
+          "n": 21,
+          "t": "et-le-Jebusite habitant Jérusalem, non fils-de Benjamin ont-fait-déposséder ; le-Jebusite et-a-habité ensemble fils-de Benjamin dans-Jérusalem, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 22,
+          "t": "et-sont-monté maison-de Joseph aussi eux Lebeyt Bethel ; et-YHWH avec-eux."
+        },
+        {
+          "n": 23,
+          "t": "et-ils-ont-fait-espionner maison-de Joseph dans-Lebeyt Bethel ; et-nom-de la-ville à/pour-faces Luz."
+        },
+        {
+          "n": 24,
+          "t": "et-ils-ont-vu les-gardants, homme sortissant depuis la-ville ; et-ils-ont-dit à/pour-lui fais-voir-nous donc entrer-de la-ville, et-nous-avons-fait avec-toi faveur."
+        },
+        {
+          "n": 25,
+          "t": "et-il-a-fait-voir-eux entrer-de la-ville, et-ils-ont-fait-frapper la-ville à/pour-bouche-de épée ; et-le-homme et-tout-de famille-de-lui ils-ont-envoyé."
+        },
+        {
+          "n": 26,
+          "t": "le-homme et-est-allé, terre-de les-Hittite ; et-a-bâti ville nom-de-elle Luz lui et-a-appelé, nom-de-elle, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 27,
+          "t": "et-non Manassé a-fait-déposséder Beth-shean Chean et-filles-de-elle et-Taanach et-filles-de-elle et-habitant-de habitants-de Dor et-filles-de-elle et-habitants-de Ibleam et-filles-de-elle, et-habitants-de Megiddo et-filles-de-elle ; le-Canaanite et-a-fait-consentir, à/pour-habiter dans-la-terre la-celle-ci."
+        },
+        {
+          "n": 28,
+          "t": "et-a-été car Israël a-fortifié, et-a-mis le-Canaanite à/pour-taskworker ; et-faire-déposséder non il-a-fait-déposséder-lui."
+        },
+        {
+          "n": 29,
+          "t": "et-Éphraïm non a-fait-déposséder, le-Canaanite le-habitant dans-Gezer ; le-Canaanite et-a-habité dans-parmi-de-lui dans-Gezer."
+        },
+        {
+          "n": 30,
+          "t": "Zabulon non a-fait-déposséder habitants-de Kitron, et-habitants-de Nahalol ; le-Canaanite et-a-habité dans-parmi-de-lui, et-ils-ont-été à/pour-taskworker."
+        },
+        {
+          "n": 31,
+          "t": "Aser non a-fait-déposséder habitants-de Acco, et-habitants-de Sidon ; et-Ahlab et-Achzib et-Helbah, et-Aphek et-Rehob."
+        },
+        {
+          "n": 32,
+          "t": "le-Asherite et-a-habité, dans-parmi-de le-Canaanite habitants-de la-terre ; car non il-a-fait-déposséder-lui."
+        },
+        {
+          "n": 33,
+          "t": "Nephthali non a-fait-déposséder habitants-de Beth-shemesh Chemech et-habitants-de Beth-anath Anat, et-a-habité, dans-parmi-de le-Canaanite habitants-de la-terre ; et-habitants-de Beth-shemesh Chemech et-Beth-anath Anat, ils-ont-été à/pour-eux à/pour-taskworker."
+        },
+        {
+          "n": 34,
+          "t": "et-ils-ont-serré le-Amorite fils-de Dan le-mont-vers ; car non il-a-donné-lui à/pour-descendre à/pour-le-vallée."
+        },
+        {
+          "n": 35,
+          "t": "le-Amorite et-a-fait-consentir à/pour-habiter dans-mont-de Heres, dans-Aijalon et-dans-Shaalbim ; main-de maison-de Joseph et-a-honor, et-ils-ont-été à/pour-taskworker."
+        },
+        {
+          "n": 36,
+          "t": "et-frontière-de le-Amorite, depuis-Lemaale-de Akrabbim ; depuis-le-Rock et-dessus-vers."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "messager-de YHWH et-est-monté depuis le-Gilgal vers le-Bochim ; et-a-dit je-ferai-monter vous depuis-Égypte et-je-ai-fait-venir vous vers la-terre qui je-ai-été-juré à/pour-pères-de-vous, et-je-ai-dit, non je-ferai-rompre alliance-de-moi ensemble-vous à/pour-durée."
+        },
+        {
+          "n": 2,
+          "t": "et-vous non couperez alliance à/pour-habitants-de la-terre la-celle-ci, autels-de-eux renverserez ; et-non vous-avez-écouté dans-voix-de-moi quoi celle-ci vous-avez-fait."
+        },
+        {
+          "n": 3,
+          "t": "et-aussi je-ai-dit, non je-chasserai eux depuis-faces-de-vous ; et-dieux-de-eux, et-ont-été à/pour-vous à/pour-sides, seront à/pour-vous à/pour-piège."
+        },
+        {
+          "n": 4,
+          "t": "et-a-été comme-parler messager-de YHWH les-paroles les-ces, vers tout-de fils-de Israël ; et-ils-ont-porté le-peuple voix-de-eux et-ils-ont-pleuré."
+        },
+        {
+          "n": 5,
+          "t": "et-ils-ont-appelé nom-de le-lieu le-lui Bochim ; et-ils-ont-sacrifié là à/pour-YHWH."
+        },
+        {
+          "n": 6,
+          "t": "Josué et-a-envoyé le-peuple ; fils-de Israël et-sont-allé homme à/pour-héritage-de-lui à/pour-déposséder la-terre."
+        },
+        {
+          "n": 7,
+          "t": "et-ils-ont-servi le-peuple YHWH, tout-de jours-de Josué ; et-tout-de jours-de les-vieux qui ont-fait-prolonger jours après Josué, qui ont-vu tout-de acte-de YHWH le-grand, qui a-fait à/pour-Israël."
+        },
+        {
+          "n": 8,
+          "t": "Josué et-est-mort fils-de Nun serviteur-de YHWH ; fils-de cent et-tene années."
+        },
+        {
+          "n": 9,
+          "t": "et-ils-ont-enterré lui dans-frontière-de héritage-de-lui, dans-Betimnat Betimnat dans-mont-de Éphraïm ; depuis-nord-de à/pour-mont-de Gaash."
+        },
+        {
+          "n": 10,
+          "t": "et-aussi tout-de le-période le-lui, pères-de-lui ; ont-été-recueilli vers période autre et-est-levé après-eux qui non ils-ont-su YHWH, et-aussi le-acte, qui a-fait à/pour-Israël."
+        },
+        {
+          "n": 11,
+          "t": "fils-de Israël et-ont-fait le-bad dans-yeux-de YHWH ; et-ils-ont-servi le-Habaliym."
+        },
+        {
+          "n": 12,
+          "t": "et-ont-abandonné YHWH dieux-de pères-de-eux le-faisant-sortir eux depuis-terre-de Égypte et-sont-allé après dieux autres depuis-dieux-de les-peuples qui alentours-de-eux, et-ont-se-courbé à/pour-eux ; et-ils-ont-fait-lacolère YHWH."
+        },
+        {
+          "n": 13,
+          "t": "et-ils-ont-abandonné YHWH ; et-ils-ont-servi à/pour-le-Habaliym et-à/pour-le-Ashtaroth."
+        },
+        {
+          "n": 14,
+          "t": "et-a-embrasé nez YHWH dans-Israël, et-a-donné-eux dans-main-de plundants, et-ils-ont-dépouillé eux ; et-il-a-vendu-eux dans-main-de gmcçants-de-eux depuis-alentour, et-non ils-ont-vaincu encore, à/pour-rester à/pour-faces-de gmcçants-de-eux."
+        },
+        {
+          "n": 15,
+          "t": "dans-tout qui ils-sont-sorti main-de YHWH a-été dans-eux à/pour-mal, comme-lorsque YHWH a-parlé, et-comme-lorsque a-été-juré YHWH à/pour-eux ; et-il-a-noué à/pour-eux très."
+        },
+        {
+          "n": 16,
+          "t": "YHWH jugeants et-a-fait-lever ; et-ils-ont-fait-sauver-eux, depuis-main-de plundants-de-eux."
+        },
+        {
+          "n": 17,
+          "t": "et-aussi vers jugeants-de-eux non ont-écouté, car dieux autres, ont-gcewé après et-ont-se-courbé à/pour-eux ; ont-détourné gfbjber depuis le-chemin qui pères-de-eux ont-marché à/pour-écouter commandements-de YHWH non ont-fait ainsi."
+        },
+        {
+          "n": 18,
+          "t": "et-car YHWH a-fait-lever à/pour-eux jugeants et-a-été YHWH avec le-jugeant, et-a-fait-sauver-eux depuis-main-de gmcçants-de-eux, tout-de jours-de le-jugeant ; car YHWH sera-consolé depuis-gémissement-de-eux, depuis-faces-de serrants-de-eux et-gboxants-de-eux."
+        },
+        {
+          "n": 19,
+          "t": "et-il-a-été dans-mourir-de le-jugeant retourneront dieux autres, et-ont-détruit depuis-pères-de-eux, à/pour-aller après à/pour-servir-de-eux et-à/pour-courber à/pour-eux ; non ils-ont-fait-tomber depuis-actions-de-eux, et-depuis-chemin-de-eux la-dure."
+        },
+        {
+          "n": 20,
+          "t": "et-a-embrasé nez YHWH dans-Israël ; et-a-dit gdvf qui ils-ont-passé le-nation le-celui-ci alliance-de-moi qui je-ai-commandé pères-de-eux, et-non ils-ont-écouté à/pour-voix-de-moi."
+        },
+        {
+          "n": 21,
+          "t": "aussi je non ferai-ajouter, à/pour-faire-déposséder homme depuis-faces-de-eux ; depuis les-nations qui Josué a-abandonné et-est-mort."
+        },
+        {
+          "n": 22,
+          "t": "égard essayer dans-eux Israël ; est-ce-gardants eux chemin-de YHWH à/pour-aller dans-eux comme-lorsque ont-gardé pères-de-eux si non."
+        },
+        {
+          "n": 23,
+          "t": "YHWH et-a-fait-reposer les-nations les-ces, à/pour-sans faire-déposséder-de-eux gfbjber ; et-non il-a-donné-eux dans-main-de Josué."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ces les-nations qui YHWH a-fait-reposer, à/pour-essayer dans-eux Israël ; tout-de qui non ils-ont-su, tout-de guerres-de Canaan."
+        },
+        {
+          "n": 2,
+          "t": "seulement égard connaissance périodes-de fils-de Israël, à/pour-enseigner-de-eux guerre ; seulement qui à/pour-faces non ils-ont-su-eux."
+        },
+        {
+          "n": 3,
+          "t": "cinq-de souverains-de Philistin et-tout-de le-Canaanite et-le-Sidonian, et-le-Hivite, habitant mont-de le-Liban ; depuis-mont-de Baal-hermon Hermona, jusqu'à venir Hamath."
+        },
+        {
+          "n": 4,
+          "t": "et-ils-ont-été, à/pour-essayer dans-eux Israël ; à/pour-savoir est-ce-ils-écouteront commandements-de YHWH, qui il-a-commandé pères-de-eux dans-main-de Moïse."
+        },
+        {
+          "n": 5,
+          "t": "et-fils-de Israël, ont-habité dans-parmi-de le-Canaanite ; le-Hittite et-le-Amorite et-le-Perizzite, et-le-Hivite et-le-Jebusite."
+        },
+        {
+          "n": 6,
+          "t": "et-ils-ont-pris filles-de-eux à/pour-eux à/pour-femmes, et-filles-de-eux ils-ont-donné à/pour-fils-de-eux ; et-ils-ont-servi dieux-de-eux."
+        },
+        {
+          "n": 7,
+          "t": "fils-de Israël et-ont-fait le-gjzo dans-yeux-de YHWH, et-ont-ignoré YHWH dieu-de-eux ; et-ils-ont-servi le-Habaliym et-le-Asherah."
+        },
+        {
+          "n": 8,
+          "t": "et-a-embrasé nez YHWH dans-Israël, et-a-vendu-eux dans-main-de Kouchan Richataim, roi-de Arama Mesopotamia ; fils-de Israël et-ont-servi Kouchan Richataim huit années."
+        },
+        {
+          "n": 9,
+          "t": "fils-de Israël et-ont-gcfoé vers YHWH, et-a-fait-lever YHWH faisant-sauver à/pour-fils-de Israël et-a-fait-sauver-eux ; Othniel fils-de Kenaz, frère-de Caleb le-petit depuis-lui."
+        },
+        {
+          "n": 10,
+          "t": "esprit-de YHWH et-a-été sur-lui et-a-jugé Israël et-est-sorti à/pour-la-guerre, YHWH et-a-donné dans-main-de-lui, Kouchan Richataim roi-de Aram ; main-de-lui et-a-gholé, sur Kouchan Richataim."
+        },
+        {
+          "n": 11,
+          "t": "la-terre et-a-apaisé quarante année ; Othniel et-est-mort fils-de Kenaz."
+        },
+        {
+          "n": 12,
+          "t": "fils-de Israël et-ont-fait-ajouter, à/pour-faire le-gjzo dans-yeux-de YHWH ; YHWH et-a-fortifié Eglon roi-de Moab sur Israël, sur car ils-ont-fait le-gjzo dans-yeux-de YHWH."
+        },
+        {
+          "n": 13,
+          "t": "et-a-recueilli vers-lui, fils-de Ammon et-Amalek ; et-il-est-allé et-il-a-fait-frapper Israël, et-ils-ont-dépossédé ville-de les-palms."
+        },
+        {
+          "n": 14,
+          "t": "fils-de Israël et-ont-servi Eglon roi-de Moab, huit dix année."
+        },
+        {
+          "n": 15,
+          "t": "fils-de Israël et-ont-gcfoé vers YHWH et-a-fait-lever YHWH à/pour-eux faisant-sauver Ehud fils-de Gera Garap-de le-Benjaminite, homme lié-de main-de right-de-lui ; fils-de Israël et-ont-envoyé dans-main-de-lui offrande, à/pour-Eglon roi-de Moab."
+        },
+        {
+          "n": 16,
+          "t": "Ehud et-a-fait à/pour-lui épée et-à/pour-elle deux-de tranchants short longueur-de-elle ; et-il-a-ceindu elle sous à/pour-mesures-de-lui, sur cuisse-de right-de-lui."
+        },
+        {
+          "n": 17,
+          "t": "et-a-fait-present la-offrande, à/pour-Eglon roi-de Moab ; et-Eglon, homme fat très."
+        },
+        {
+          "n": 18,
+          "t": "et-il-a-été comme-lorsque il-a-achevé, à/pour-faire-present la-offrande ; et-il-a-envoyé le-peuple, portants-de la-offrande."
+        },
+        {
+          "n": 19,
+          "t": "et-lui est-retourné depuis les-ginhs qui ensemble le-Gilgal, et-a-dit, parole-de abri à/pour-moi vers-toi le-roi ; et-a-dit silence, et-ils-sont-sorti sur-lui, tout-de les-restants sur-lui."
+        },
+        {
+          "n": 20,
+          "t": "et-Ehud est-venu vers-lui et-lui habitant dans-upper-de la-fraîcheur qui à/pour-lui à/pour-seul-de-lui, et-a-dit Ehud, parole-de dieu à/pour-moi vers-toi ; le-trône et-est-levé sur."
+        },
+        {
+          "n": 21,
+          "t": "Ehud et-a-envoyé main-de gauche-de-lui, et-a-pris la-épée, sur cuisse-de right-de-lui ; et-il-a-sonné-elle dans-ventre-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "le-poignée et-est-venu aussi après le-flamme et-a-fermé le-gras derrière le-flamme, car non a-tiré la-épée depuis-ventre-de-lui ; et-est-sorti le-saleté-vers."
+        },
+        {
+          "n": 23,
+          "t": "Ehud le-portique-vers et-est-sorti ; et-il-a-fermé barrières-de la-upper derrière-lui et-il-a-barré."
+        },
+        {
+          "n": 24,
+          "t": "et-lui est-sorti et-serviteurs-de-lui sont-venu, et-ont-vu, et-voici barrières-de la-upper barrées ; et-ils-ont-dit, sûrement faisant-enclore lui pieds-de-lui dans-chambre-de la-fraîcheur."
+        },
+        {
+          "n": 25,
+          "t": "et-ils-ont-tremblé jusqu'à rougir, et-voici néant-lui gitaaant barrières-de la-upper ; et-ont-pris le-clef et-ont-gitaaé, et-voici lords-de-eux, tombant terre-vers mourant."
+        },
+        {
+          "n": 26,
+          "t": "et-Ehud a-été-sauvé jusqu'à tarder-de-eux ; et-lui a-passé les-ginhs, et-a-été-sauvé le-Seirah-vers."
+        },
+        {
+          "n": 27,
+          "t": "et-il-a-été dans-venir-de-lui, et-il-a-sonné dans-le-trumpet dans-mont-de Éphraïm ; fils-de Israël et-sont-descendu avec-lui depuis le-mont et-lui à/pour-faces-de-eux."
+        },
+        {
+          "n": 28,
+          "t": "et-a-dit vers-eux poursuivez après-moi, car YHWH a-donné gmcçants-de-vous Moab dans-main-de-vous ; et-ils-sont-descendu après-lui et-ils-ont-capturé gfssbs-de le-Jourdain à/pour-Moab, et-non ils-ont-donné homme à/pour-passer."
+        },
+        {
+          "n": 29,
+          "t": "et-ils-ont-fait-frapper Moab dans-la-heure la-lui comme-ten-de mille homme, tout-de riche et-tout-de homme-de compétence ; et-non homme a-été-sauvé."
+        },
+        {
+          "n": 30,
+          "t": "Moab et-a-été-humilié dans-le-jour le-lui, sous main-de Israël ; la-terre et-a-apaisé quatre-vingts année."
+        },
+        {
+          "n": 31,
+          "t": "et-après-lui Shamgar a-été fils-de Anath, et-a-fait-frapper Philistin six cent homme, dans-oxgoad-de le-bœufs ; et-a-fait-sauver aussi lui Israël."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de Israël et-ont-fait-ajouter, à/pour-faire le-gjzo dans-yeux-de YHWH ; et-Ehud est-mort."
+        },
+        {
+          "n": 2,
+          "t": "YHWH et-a-vendu-eux dans-main-de Jabin roi-de Canaan, qui a-régné dans-Hazor ; et-prince-de armée-de-lui Sisera, et-lui habitant dans-Harosheth nation."
+        },
+        {
+          "n": 3,
+          "t": "fils-de Israël et-ont-crié vers YHWH ; car neuf cent char-de fer à/pour-lui, et-lui a-serré fils-de Israël dans-violence vingt année."
+        },
+        {
+          "n": 4,
+          "t": "et-Débora femme prophétesse, femme-de Lappidoth ; lui jugeante Israël dans-la-heure la-lui."
+        },
+        {
+          "n": 5,
+          "t": "et-lui habitante sous palmier-de Débora entre le-Ramah et-entre Lebeyt Bethel dans-mont-de Éphraïm ; fils-de Israël et-sont-monté vers-elle à/pour-le-jugement."
+        },
+        {
+          "n": 6,
+          "t": "et-elle-a-envoyé et-elle-a-appelé à/pour-Barak fils-de Abinoam, depuis-Kedesh Nephthali ; et-elle-a-dit vers-lui est-ce-non YHWH a-commandé dieu-de Israël va et-tu-as-traîné dans-mont-de Betabor, et-tu-as-pris avec-toi ten-de mille homme, depuis-fils-de Nephthali et-depuis-fils-de Zabulon."
+        },
+        {
+          "n": 7,
+          "t": "et-je-ai-traîné vers-toi vers torrent-de Kishon Sisera prince-de armée-de Jabin, et-char-de-lui et-tumulte-de-lui ; et-je-ai-donné-lui dans-main-de-toi."
+        },
+        {
+          "n": 8,
+          "t": "Barak, et-a-dit vers-elle si tu-f-iras avec-moi et-je-ai-marché ; et-si non tu-f-iras avec-moi non je-irai."
+        },
+        {
+          "n": 9,
+          "t": "et-a-dit marcher je-irai avec-toi-f finalité car non sera splendeur-de-toi sur le-chemin qui tu marchant, car dans-main-de femme, vendra YHWH Sisera ; Débora et-est-levé et-elle-est-allé avec Barak Kedesh-vers."
+        },
+        {
+          "n": 10,
+          "t": "Barak et-a-fait-gcfoer Zabulon et-Nephthali Kedesh-vers, et-est-monté dans-pieds-de-lui, ten-de mille-de homme ; et-elle-est-monté avec-lui Débora."
+        },
+        {
+          "n": 11,
+          "t": "et-Heber le-Kenite séparé depuis-Kenite, depuis-fils-de Hobab gdeyaant-de Moïse ; tente-de-lui et-a-tendu, jusqu'à chêne dans-Zaanannim qui ensemble Kedesh."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-ont-fait-annoncer à/pour-Sisera ; car Barak est-monté fils-de Abinoam mont-de Betabor."
+        },
+        {
+          "n": 13,
+          "t": "Sisera et-a-fait-gcfoer tout-de char-de-lui neuf cent char-de fer, et-tout-de le-peuple qui ensemble-lui ; depuis-Harosheth nation vers torrent-de Kishon."
+        },
+        {
+          "n": 14,
+          "t": "Débora et-a-dit vers Barak leve car celui-ci le-jour qui a-donné YHWH Sisera dans-main-de-toi, est-ce-non YHWH est-sorti à/pour-faces-de-toi ; Barak et-est-descendu depuis-mont-de Betabor, et-ten-de mille homme après-lui."
+        },
+        {
+          "n": 15,
+          "t": "YHWH et-a-défaiu Sisera et-tout-de le-char et-tout-de le-camp à/pour-bouche-de épée à/pour-faces-de Barak ; Sisera et-est-descendu sur la-chariot et-a-fui dans-pieds-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "et-Barak a-poursuivu après le-char et-après le-camp, jusqu'à Harosheth nation ; tout-de camp-de Sisera et-est-tombé à/pour-bouche-de épée, non a-été-resté jusqu'à un."
+        },
+        {
+          "n": 17,
+          "t": "et-Sisera a-fui dans-pieds-de-lui, vers tente-de Jael, femme-de Heber le-Kenite ; car paix entre Jabin roi-de Hazor, et-entre, maison-de Heber le-Kenite."
+        },
+        {
+          "n": 18,
+          "t": "Jael et-est-sorti à/pour-rencontrer Sisera et-elle-a-dit vers-lui détourne-hé lord-de-moi détourne-hé vers-moi ne tu-craindes ; et-a-détourné vers-elle le-tente-vers, et-elle-a-cové-lui dans-la-couvre-pied."
+        },
+        {
+          "n": 19,
+          "t": "et-a-dit vers-elle fais-abreuver-moi donc peu-de eaux car je-ai-gizjé ; et-elle-a-gitaaé outre-de le-lait et-elle-a-fait-abreuver-lui et-elle-a-cové-lui."
+        },
+        {
+          "n": 20,
+          "t": "et-a-dit vers-elle, reste entrée-de le-tente ; homme et-a-été si viendra et-a-demandé-elle et-a-dit est-ce-substance gihs homme et-tu-f-as-dit néant."
+        },
+        {
+          "n": 21,
+          "t": "Jael et-a-pris femme-de Heber pieu-de le-tente et-a-mis la-excavation dans-main-de-elle et-est-venu vers-lui dans-le-secret, et-a-sonné la-pieu dans-temple-de-lui, et-a-gjaié dans-la-terre ; et-lui gjtjé et-a-voltigé et-est-mort."
+        },
+        {
+          "n": 22,
+          "t": "et-voici Barak poursuivant Sisera Jael et-est-sorti à/pour-rencontrer-de-lui, et-elle-a-dit à/pour-lui, va et-je-fasse-voir-toi, le-homme qui tu cherchant ; et-est-venu vers-elle, et-voici Sisera tombant mourant, et-la-pieu dans-temple-de-lui."
+        },
+        {
+          "n": 23,
+          "t": "dieu et-a-fait-humilier dans-le-jour le-lui, Jabin roi-de Canaan ; à/pour-faces-de fils-de Israël."
+        },
+        {
+          "n": 24,
+          "t": "main-de fils-de Israël et-est-allé marcher et-dure, sur Jabin roi-de Canaan ; jusqu'à qui ils-ont-fait-couper, Jabin roi-de Canaan."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Débora et-a-chanté, et-Barak fils-de Abinoam ; dans-le-jour le-lui à/pour-dire."
+        },
+        {
+          "n": 2,
+          "t": "dans-giqraer chefs dans-Israël, dans-se-inciter peuple ; bénissez YHWH."
+        },
+        {
+          "n": 3,
+          "t": "écoutez rois, faites-entendre gjvdants ; moi à/pour-YHWH moi chante, chanterai, à/pour-YHWH dieu-de Israël."
+        },
+        {
+          "n": 4,
+          "t": "YHWH dans-sortir-de-toi depuis-Seir dans-gjaser-de-toi depuis-champ-de Édom, terre a-tremblé, aussi ciels ont-distillé ; aussi nuées ont-distillé eaux."
+        },
+        {
+          "n": 5,
+          "t": "monts ont-coulé depuis-faces-de YHWH ; celui-ci Sinaï, depuis-faces-de, YHWH dieu-de Israël."
+        },
+        {
+          "n": 6,
+          "t": "dans-jours-de Shamgar fils-de Anath dans-jours-de sentiers ; ont-cessé Jael, et-marchants-de paths, iront, sentiers détournées."
+        },
+        {
+          "n": 7,
+          "t": "ils-ont-cessé rustique dans-Israël ils-ont-cessé ; jusqu'à que-je-suis-levé Débora, que-je-suis-levé mère dans-Israël."
+        },
+        {
+          "n": 8,
+          "t": "choisira dieux nouveaux, alors guerre portes ; bouclier si sera-vu et-javelot, dans-quarante mille dans-Israël."
+        },
+        {
+          "n": 9,
+          "t": "cœur-de-moi à/pour-gravants-de Israël, les-se-incitants dans-le-peuple ; bénissez YHWH."
+        },
+        {
+          "n": 10,
+          "t": "chevauchants-de ânesses basanées habitants-de sur mesures et-marchants-de sur chemin méditez."
+        },
+        {
+          "n": 11,
+          "t": "depuis-voix-de gcyhbants entre abreuvoirs, là raconteront droitures-de YHWH, droitures-de rustique-de-lui dans-Israël ; alors ils-sont-descendu à/pour-les-portes peuple-de YHWH."
+        },
+        {
+          "n": 12,
+          "t": "éveille éveille Débora, éveille éveille parle chant ; leve Barak et-emmene captivité-de-toi fils-de Abinoam."
+        },
+        {
+          "n": 13,
+          "t": "alors reste à/pour-grandeurs peuple a-dominé ; YHWH, a-dominé à/pour-moi dans-les-puissants."
+        },
+        {
+          "n": 14,
+          "t": "depuis Éphraïm racine-de-eux dans-Amalek, après-toi Benjamin dans-kinsmans-de-toi ; depuis Machir ils-sont-descendu gravants, et-depuis-Zabulon, traînants dans-verge-de dénombrer."
+        },
+        {
+          "n": 15,
+          "t": "et-princes-de-moi dans-Issacar avec Débora, et-Issacar ainsi Barak, dans-le-vallée a-été-envoyé dans-pieds-de-lui ; dans-gikus-de Ruben, grands décrets-de cœur."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-quoi tu-as-habité entre les-sheepfolds, à/pour-écouter sifflements-de flocks ; à/pour-gikus-de Ruben, grands investigations-de cœur."
+        },
+        {
+          "n": 17,
+          "t": "Gilead dans-delà-de le-Jourdain a-habité, et-Dan, à/pour-quoi séjournera navires ; Aser a-habité à/pour-côte-de mers, et-sur landings-de-lui habitera."
+        },
+        {
+          "n": 18,
+          "t": "âme-de-lui a-gdbvaé Zabulon peuple à/pour-mourir et-Nephthali ; sur ggbgs-de champ."
+        },
+        {
+          "n": 19,
+          "t": "rois sont-venu ont-été-combattu, alors rois-de Canaan ont-été-combattu, dans-Taanach sur eaux-de Megiddo ; profit-de argent non ils-ont-pris."
+        },
+        {
+          "n": 20,
+          "t": "depuis ciels ont-été-combattu ; les-étoiles depuis-highways-de-eux, ont-été-combattu avec Sisera."
+        },
+        {
+          "n": 21,
+          "t": "torrent-de anciens a-entraîné-eux, torrent-de Kishon, torrent-de Kishon ; tu-f-marcheras âme-de-moi puissance."
+        },
+        {
+          "n": 22,
+          "t": "alors talons-de hirondelle ont-martelé ; depuis-fougues fougues-de vaillances-de-lui."
+        },
+        {
+          "n": 23,
+          "t": "maudiez Meroz a-dit messager-de YHWH, maudiez maudire habitants-de-elle ; car non ils-sont-venu à/pour-secours-de YHWH, à/pour-secours-de YHWH dans-les-puissants."
+        },
+        {
+          "n": 24,
+          "t": "bénira depuis-femmes, Jael, femme-de Heber le-Kenite ; depuis-femmes dans-le-tente elle-bénira."
+        },
+        {
+          "n": 25,
+          "t": "eaux lait a-demandé elle-a-donné ; dans-coupe-de grandeurs crème a-fait-present."
+        },
+        {
+          "n": 26,
+          "t": "main-de-elle à/pour-la-pieu elles-envoyeront, et-right-de-elle à/pour-marteau-de travailleurs ; Sisera et-a-martelé a-anéanti tête-de-lui, et-a-gfhhé temple-de-lui et-a-changé."
+        },
+        {
+          "n": 27,
+          "t": "entre pieds-de-elle, il-a-plié il-est-tombé il-a-menti ; entre pieds-de-elle il-a-plié il-est-tombé, dans-in il-a-plié, là il-est-tombé dévasté."
+        },
+        {
+          "n": 28,
+          "t": "derrière le-window a-été-regardé mère-de Sisera et-a-gdjpé derrière le-treillis ; why char-de-lui a-rougi à/pour-venir, why ont-différé, fois-de chariots-de-lui."
+        },
+        {
+          "n": 29,
+          "t": "sages-de princesses-de-elle répondront ; même lui, fera-retourner émissions-de-elle à/pour-elle."
+        },
+        {
+          "n": 30,
+          "t": "est-ce-non ils-trouveront ils-diviseront butin matrice wombs à/pour-tête-de guerrier, butin-de teindres à/pour-Sisera, butin-de teindres brodées ; teindre-de brodées à/pour-cous-de butin."
+        },
+        {
+          "n": 31,
+          "t": "ainsi ils-périront tout-de gmcçants-de-toi YHWH, et-aimants-de-lui, comme-sortir le-soleil dans-might-de-lui ; la-terre et-a-apaisé quarante année."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de Israël le-gjzo et-ont-fait dans-yeux-de YHWH ; YHWH et-a-donné-eux dans-main-de Madian sept années."
+        },
+        {
+          "n": 2,
+          "t": "main-de Madian et-a-gholé sur Israël ; depuis-faces-de Madian fils-de Israël ont-fait à/pour-eux les-ravins qui dans-les-monts, et-les-cavernes et-les-strongholds."
+        },
+        {
+          "n": 3,
+          "t": "et-a-été si Israël a-semé ; Madian et-Amalek et-est-monté et-fils-de orient et-sont-monté sur-lui."
+        },
+        {
+          "n": 4,
+          "t": "et-ils-ont-campé sur-eux et-ils-ont-détruit produits-de la-terre, jusqu'à venir-de-toi Gaza ; et-non ils-feront-rester entretien dans-Israël, et-mouton et-bœuf et-âne."
+        },
+        {
+          "n": 5,
+          "t": "car eux et-bétails-de-eux monteront et-tentes-de-eux viendront et-sont-venu comme-assez-de locust à/pour-multitude, et-à/pour-eux et-à/pour-chameaux-de-eux néant nombre ; et-ils-sont-venu dans-la-terre à/pour-ruiner-de-elle."
+        },
+        {
+          "n": 6,
+          "t": "Israël et-a-gbqoé très depuis-faces-de Madian ; fils-de Israël et-ont-gcfoé vers YHWH."
+        },
+        {
+          "n": 7,
+          "t": "et-a-été, car fils-de Israël ont-gcfoé vers YHWH ; sur gfz-de Madian."
+        },
+        {
+          "n": 8,
+          "t": "YHWH homme prophète et-a-envoyé vers fils-de Israël ; et-a-dit à/pour-eux thus YHWH a-dit dieu-de Israël moi ai-fait-monter vous depuis-Égypte, et-ai-fait-sortir vous depuis-maison-de serviteurs."
+        },
+        {
+          "n": 9,
+          "t": "et-je-ai-fait-délivrer vous depuis-main-de Egyptian, et-depuis-main-de tout-de serrants-de-vous ; et-je-ai-chassé eux depuis-faces-de-vous, et-je-ai-donné-hé à/pour-vous terre-de-eux."
+        },
+        {
+          "n": 10,
+          "t": "je et-ai-dit-hé à/pour-vous YHWH dieu-de-vous, non craindrez dieu-de le-Amorite, qui vous habitants dans-terre-de-eux ; et-non vous-avez-écouté dans-voix-de-moi."
+        },
+        {
+          "n": 11,
+          "t": "messager-de YHWH et-est-venu et-a-habité sous la-térébinthe qui dans-Ophrah, qui à/pour-Joash Abiy Abiezrite ; et-Gédéon fils-de-lui gchoant blés dans-la-gbkv, à/pour-faire-fuir depuis-faces-de Madian."
+        },
+        {
+          "n": 12,
+          "t": "messager-de YHWH ; et-a-été-vu vers-lui YHWH et-a-dit vers-lui, avec-toi puissant-de le-compétence."
+        },
+        {
+          "n": 13,
+          "t": "Gédéon et-a-dit vers-lui excusez-moi lord-de-moi, et-substance YHWH avec-nous, et-à/pour-quoi elle-a-trouvé-nous tout-de celle-ci ; et-gmh tout-de extraordinaiues-de-lui qui ont-compté à/pour-nous pères-de-nous à/pour-dire est-ce-non depuis-Égypte a-fait-monter-nous YHWH, et-maintenant a-laissé-nous YHWH, et-a-donné-nous dans-palme-de Madian."
+        },
+        {
+          "n": 14,
+          "t": "YHWH, et-a-tourné vers-lui et-a-dit va dans-force-de-toi celui-ci, et-tu-as-fait-sauver Israël depuis-palme-de Madian ; est-ce-non je-ai-envoyé-toi."
+        },
+        {
+          "n": 15,
+          "t": "et-il-a-dit vers-lui excusez-moi seigneurs-de-moi, dans-quoi je-ferai-sauver Israël ; voici cattle-de-moi le-pauvre dans-Manassé, et-moi le-insignifiant dans-maison-de père-de-moi."
+        },
+        {
+          "n": 16,
+          "t": "YHWH, et-a-dit vers-lui car je-serai avec-toi-f ; et-tu-as-fait-frapper Madian comme-homme un."
+        },
+        {
+          "n": 17,
+          "t": "et-a-dit vers-lui, si donc je-ai-trouvé grâce dans-yeux-de-toi ; et-as-fait à/pour-moi signe, que-tu parlant avec-moi."
+        },
+        {
+          "n": 18,
+          "t": "ne donc tu-enleves depuis-celui-ci jusqu'à venir-de-moi vers-toi, et-je-ai-fait-sortir offrande-de-moi, et-je-ai-fait-reposer à/pour-faces-de-toi ; et-il-a-dit, moi habiterai jusqu'à retourner-de-toi."
+        },
+        {
+          "n": 19,
+          "t": "et-Gédéon est-venu chevreau-de goats et-a-fait et-épha-de farine-de unleaveneds, le-chair a-mis dans-le-corbeille, et-le-bouillon a-mis dans-le-pot ; et-il-a-fait-sortir vers-lui vers sous la-térébinthe et-il-a-fait-approcher."
+        },
+        {
+          "n": 20,
+          "t": "messager-de le-dieu et-a-dit vers-lui prends le-chair et-les-unleaveneds et-fais-reposer vers le-Rock cette, et-le-bouillon répands ; et-il-a-fait ainsi."
+        },
+        {
+          "n": 21,
+          "t": "messager-de YHWH et-a-envoyé bout-de la-bâton qui dans-main-de-lui, et-a-touché dans-le-chair et-dans-les-unleaveneds ; le-feu et-est-monté depuis le-rocher et-a-mangé le-chair et-les-unleaveneds, et-messager-de YHWH, a-marché depuis-yeux-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "Gédéon et-a-vu, car messager-de YHWH lui ; Gédéon et-a-dit alas seigneurs-de-moi Yehvi, que selon as je-ai-vu messager-de YHWH, faces vers faces."
+        },
+        {
+          "n": 23,
+          "t": "YHWH paix et-a-dit à/pour-lui à/pour-toi ne tu-craindes ; non tu-mourras."
+        },
+        {
+          "n": 24,
+          "t": "Gédéon autel et-a-bâti là à/pour-YHWH, et-a-appelé à/pour-lui YHWH paix ; jusqu'à le-jour le-celui-ci, encore-de-lui, dans-Ophrah Abiy Abiezrite."
+        },
+        {
+          "n": 25,
+          "t": "le-lui et-a-été dans-le-nuit et-a-dit à/pour-lui YHWH prends bouvillon-de le-bœuf qui à/pour-père-de-toi, et-bouvillon-de le-second sept années ; et-tu-as-renversé autel-de le-Habaliym qui à/pour-père-de-toi, et-le-Asherah qui sur-lui tu-coupes."
+        },
+        {
+          "n": 26,
+          "t": "et-tu-as-bâti autel à/pour-YHWH dieu-de-toi sur tête-de le-forteresse le-celui-ci dans-la-rangée ; et-tu-as-pris le-bouvillon le-second, et-tu-as-fait-monter burnt, dans-arbres-de le-Asherah qui tu-couperas."
+        },
+        {
+          "n": 27,
+          "t": "Gédéon et-a-pris ten hommes depuis-serviteurs-de-lui, et-a-fait, comme-lorsque YHWH ; a-parlé vers-lui et-a-été comme-lorsque a-craint maison-de père-de-lui et-hommes-de la-ville depuis-faire journellement nuit et-a-fait."
+        },
+        {
+          "n": 28,
+          "t": "hommes-de la-ville et-ont-fait-gkruer dans-le-matin, et-voici a-été-renversé autel-de le-Habaliym, et-le-Asherah qui sur-lui elle-a-été-coupé ; et-le-bouvillon le-second, le-autel le-bâti a-été-fait-monter, sur."
+        },
+        {
+          "n": 29,
+          "t": "et-ils-ont-dit homme vers ami-de-lui, lequel a-fait le-parole le-celui-ci ; et-ils-ont-fréquenté et-ils-ont-cherché, et-ils-ont-dit, Gédéon fils-de Joash, a-fait le-parole le-celui-ci."
+        },
+        {
+          "n": 30,
+          "t": "hommes-de la-ville et-ont-dit vers Joash, fais-sortir fils-de-toi et-meure ; car a-renversé autel-de le-Habaliym, et-car le-Asherah a-coupé qui sur-lui."
+        },
+        {
+          "n": 31,
+          "t": "Joash et-a-dit à/pour-tout qui ils-ont-resté sur-lui est-ce-vous gjwterez à/pour-le-Habaliym si vous ferez-sauver lui, qui gjwtera à/pour-lui le-matin ; sera-fait-mourir jusqu'à si dieu lui gjwte à/pour-lui, car a-renversé autel-de-lui."
+        },
+        {
+          "n": 32,
+          "t": "le-lui Jerubbaal et-a-appelé à/pour-lui dans-le-jour à/pour-dire ; le-Habaliym, gjwte dans-lui car a-renversé autel-de-lui."
+        },
+        {
+          "n": 33,
+          "t": "et-tout-de Madian et-Amalek et-fils-de orient ont-été-recueilli union ; et-ils-ont-passé et-ils-ont-campé dans-vallée-de Jezreel."
+        },
+        {
+          "n": 34,
+          "t": "et-esprit-de YHWH, a-vêtu Gédéon ; et-a-sonné dans-le-trumpet, Abiezer et-a-été-gcfoé après-lui."
+        },
+        {
+          "n": 35,
+          "t": "et-messagers a-envoyé dans-tout-de Manassé, et-a-été-gcfoé aussi lui après-lui ; et-messagers il-a-envoyé dans-Aser et-dans-Zabulon et-dans-Nephthali, et-sont-monté à/pour-rencontrer-de-eux."
+        },
+        {
+          "n": 36,
+          "t": "Gédéon et-a-dit vers le-dieu ; si substance-toi faisant-sauver dans-main-de-moi Israël comme-lorsque tu-as-parlé."
+        },
+        {
+          "n": 37,
+          "t": "voici moi faisant-gdwter toison-de le-laine dans-le-threshing ; si rosée sera sur la-toison à/pour-seul-de-elle et-sur tout-de la-terre chaleur, et-je-ai-su car tu-feras-sauver dans-main-de-moi Israël comme-lorsque tu-as-parlé."
+        },
+        {
+          "n": 38,
+          "t": "et-il-a-été ainsi, et-il-a-fait-gkruer depuis-morrow, et-il-a-gccié la-toison ; rosée et-a-drainé depuis la-toison, plénitude-de le-coupe eaux."
+        },
+        {
+          "n": 39,
+          "t": "Gédéon et-a-dit vers le-dieu, ne embrase nez-de-toi dans-moi, et-je-parle sûrement la-fois ; je-essaye donc seulement la-fois dans-la-toison, soit donc chaleur vers la-toison à/pour-seul-de-elle, et-sur tout-de la-terre sera rosée."
+        },
+        {
+          "n": 40,
+          "t": "dieu et-a-fait ainsi dans-le-nuit le-lui ; chaleur et-a-été vers la-toison à/pour-seul-de-elle, et-sur tout-de la-terre a-été rosée."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Jerubbaal lui Gédéon et-a-fait-gkruer et-tout-de le-peuple qui ensemble-lui, et-ils-ont-campé sur Ghrbp Harod ; et-camp-de Madian a-été à/pour-lui depuis-nord, depuis-Gibata-de le-Moreh dans-le-vallée."
+        },
+        {
+          "n": 2,
+          "t": "YHWH et-a-dit vers Gédéon, nombreux le-peuple qui ensemble-toi-f, depuis-donner-de-moi Madian dans-main-de-eux ; sinon Israël glorifiera sur-moi à/pour-dire, main-de-moi a-fait-sauver à/pour-moi."
+        },
+        {
+          "n": 3,
+          "t": "et-maintenant appele donc dans-oreilles-de le-peuple à/pour-dire, lequel craintif et-trembling, il-retourne et-il-gjcnera depuis-mont-de le-Gilead ; le-peuple et-est-retourné depuis vingt et-deux mille, et-ten-de mille ils-ont-été-resté."
+        },
+        {
+          "n": 4,
+          "t": "YHWH et-a-dit vers Gédéon encore le-peuple nombreux fais-descendre eux vers les-eaux, et-je-raffinerai-lui à/pour-toi là ; et-a-été qui je-dirai vers-toi celui-ci lui ira ensemble-toi-f ira ensemble-toi-f, et-tout qui je-dirai vers-toi celui-ci non lui ira avec-toi-f, non ira."
+        },
+        {
+          "n": 5,
+          "t": "et-il-a-fait-descendre le-peuple vers les-eaux ; YHWH et-a-dit vers Gédéon tout qui lapera dans-langue-de-lui depuis les-eaux comme-lorsque le-chien lapera tu-feras-gdwter lui à/pour-seul, et-tout qui pliera sur genous-de-lui à/pour-boire."
+        },
+        {
+          "n": 6,
+          "t": "nombre-de et-a-été les-lapants dans-main-de-eux vers bouche-de-eux, trois cent homme ; et-tout-de excès-de le-peuple, ont-plié sur genous-de-eux à/pour-boire eaux."
+        },
+        {
+          "n": 7,
+          "t": "YHWH et-a-dit vers Gédéon dans-trois cent le-homme les-lapants je-ferai-sauver vous, et-je-ai-donné Madian dans-main-de-toi ; et-tout-de le-peuple, ils-aillent homme à/pour-lieu-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "et-ils-ont-pris provision le-peuple dans-main-de-eux et-trumpets-de-eux et-tout-de homme-de Israël a-envoyé homme à/pour-tentes-de-lui, et-dans-trois cent le-homme a-fait-fortifier ; et-camp-de Madian, a-été à/pour-lui sous dans-le-vallée."
+        },
+        {
+          "n": 9,
+          "t": "le-lui, et-a-été dans-le-nuit et-a-dit vers-lui YHWH, leve descends dans-le-camp ; car je-ai-donné-lui dans-main-de-toi."
+        },
+        {
+          "n": 10,
+          "t": "et-si craintif tu à/pour-descendre ; descends tu et-Purah youth-de-toi vers le-camp."
+        },
+        {
+          "n": 11,
+          "t": "et-tu-as-écouté quoi ils-parleront, et-après elles-fortifieront mains-de-toi, et-tu-es-descendu dans-le-camp ; lui et-Purah et-est-descendu youth-de-lui, vers bout-de les-gctwés qui dans-le-camp."
+        },
+        {
+          "n": 12,
+          "t": "et-Madian et-Amalek et-tout-de fils-de orient tombants dans-le-vallée, comme-le-locust à/pour-multitude ; et-à/pour-chameaux-de-eux néant nombre, comme-le-sable que-sur lèvre-de le-mer à/pour-multitude."
+        },
+        {
+          "n": 13,
+          "t": "Gédéon et-est-venu, et-voici homme, comptant à/pour-ami-de-lui songe ; et-a-dit voici songe je-ai-songé et-voici gâteau-de pain-de orges se-tournant dans-camp-de Madian, et-est-venu jusqu'à le-tente et-a-fait-frapper-lui et-est-tombé et-a-tourné-lui à/pour-dessus-vers le-tente et-est-tombé."
+        },
+        {
+          "n": 14,
+          "t": "ami-de-lui et-a-répondu et-a-dit néant celle-ci, sans si épée-de Gédéon fils-de Joash homme-de Israël ; le-dieu a-donné dans-main-de-lui, Madian et-tout-de le-camp."
+        },
+        {
+          "n": 15,
+          "t": "et-a-été comme-écouter Gédéon nombre-de le-songe et-ruine-de-lui et-a-se-courbé ; camp-de Israël, et-est-retourné vers et-a-dit levez, car YHWH a-donné dans-main-de-vous camp-de Madian."
+        },
+        {
+          "n": 16,
+          "t": "et-a-divisé trois cent le-homme trois têtes ; et-il-a-donné trumpets dans-main-de tout-de-eux et-cruches vides, et-torches dans-milieu-de les-cruches."
+        },
+        {
+          "n": 17,
+          "t": "et-il-a-dit vers-eux, depuis-moi vous-verrez et-ainsi vous-ferez ; et-voici moi venant dans-bout-de le-camp, et-il-a-été comme-lorsque ferai ainsi vous-ferez."
+        },
+        {
+          "n": 18,
+          "t": "moi et-ai-sonné dans-le-trumpet, et-tout-de qui ensemble-moi ; et-avez-sonné dans-les-trumpets aussi vous alentours-de tout-de le-camp, et-avez-dit à/pour-YHWH et-à/pour-Gédéon."
+        },
+        {
+          "n": 19,
+          "t": "Gédéon et-est-venu et-cent homme qui ensemble-lui dans-bout-de le-camp tête-de la-veille la-middle, sûrement faire-lever ils-ont-fait-lever les-gardants ; et-ils-ont-sonné dans-les-trumpets, et-ggvfaer les-cruches qui dans-main-de-eux."
+        },
+        {
+          "n": 20,
+          "t": "et-ont-sonné trois-de les-têtes dans-les-trumpets et-ont-brisé les-cruches et-ont-fait-fortifier dans-main-de gauche-de-eux dans-les-torches, et-dans-main-de right-de-eux, les-trumpets à/pour-sonner ; et-ils-ont-appelé, épée à/pour-YHWH et-à/pour-Gédéon."
+        },
+        {
+          "n": 21,
+          "t": "et-ils-ont-resté homme sous-lui, alentour à/pour-le-camp ; tout-de le-camp et-a-couru et-ils-ont-fait-crier et-ils-ont-fait-fuir et-ils-ont-fui."
+        },
+        {
+          "n": 22,
+          "t": "et-ont-sonné trois cent les-trumpets et-a-mis YHWH épée-de homme dans-ami-de-lui et-dans-tout-de le-camp ; le-camp et-a-fui jusqu'à Beth-shittah Hachita Zererah-vers, jusqu'à lèvre-de Abel-meholah Mehola sur Tabbath."
+        },
+        {
+          "n": 23,
+          "t": "homme-de Israël et-a-été-crié depuis-Nephthali et-depuis Aser et-depuis tout-de Manassé ; et-ils-ont-poursuivu après Madian."
+        },
+        {
+          "n": 24,
+          "t": "et-messagers Gédéon a-envoyé dans-tout-de mont-de Éphraïm à/pour-dire descendez à/pour-rencontrer Madian et-capturez à/pour-eux les-eaux, jusqu'à Beth-barah Bara et-le-Jourdain ; tout-de homme-de Éphraïm et-a-été-crié et-ils-ont-capturé les-eaux, jusqu'à Beth-barah Bara et-le-Jourdain."
+        },
+        {
+          "n": 25,
+          "t": "et-ont-capturé deux-de princes-de Madian Oreb et-Zeeb et-ont-tué Oreb dans-rocher-de Oreb et-Zeeb ont-tué dans-vin-de Zeeb, et-ont-poursuivu vers Madian ; et-tête-de Oreb et-Zeeb, ils-ont-fait-venir vers Gédéon, depuis-delà à/pour-le-Jourdain."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ils-ont-dit vers-lui homme-de Éphraïm quoi le-parole le-celui-ci tu-as-fait à/pour-nous, à/pour-sans appeler à/pour-nous, car tu-as-marché à/pour-être-combattre dans-Madian ; et-ils-ont-gjwté ensemble-lui dans-violence."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-dit vers-eux, quoi je-ai-fait maintenant comme-vous ; est-ce-non bon grappillages-de Éphraïm depuis-vendange-de Abiezer."
+        },
+        {
+          "n": 3,
+          "t": "dans-main-de-vous dieu a-donné princes-de Madian Oreb et-Zeeb, et-quoi je-ai-vaincu faire comme-vous ; alors esprit-de-eux a-baissé sur-lui, dans-parler-de-lui le-parole le-celui-ci."
+        },
+        {
+          "n": 4,
+          "t": "Gédéon le-Jourdain-vers et-est-venu ; passant lui et-trois cent le-homme qui ensemble-lui, las et-poursuivants."
+        },
+        {
+          "n": 5,
+          "t": "et-il-a-dit à/pour-hommes-de Succoth, donnez donc ronds-de pain, à/pour-le-peuple qui dans-pieds-de-moi ; car las eux, et-moi poursuivant après Zebah et-Zalmunna rois-de Madian."
+        },
+        {
+          "n": 6,
+          "t": "et-a-dit princes-de Succoth, est-ce-palme-de Zebah et-Zalmunna maintenant dans-main-de-toi ; car nous-donnerons à/pour-armée-de-toi pain."
+        },
+        {
+          "n": 7,
+          "t": "Gédéon et-a-dit, à/pour-ainsi dans-donner YHWH Zebah et-Zalmunna dans-main-de-moi ; et-je-ai-foulé chair-de-vous, ensemble épines-de le-désert et-ensemble les-chardons."
+        },
+        {
+          "n": 8,
+          "t": "Peniel, et-est-monté depuis-là et-a-parlé vers-eux comme-celle-ci ; et-ont-répondu lui hommes-de Peniel, comme-lorsque hommes-de Succoth ont-répondu."
+        },
+        {
+          "n": 9,
+          "t": "et-il-a-dit aussi à/pour-hommes-de Peniel à/pour-dire ; dans-retourner-de-moi dans-paix, je-renverserai la-tour le-celui-ci."
+        },
+        {
+          "n": 10,
+          "t": "et-Zebah et-Zalmunna dans-le-Karkor et-camps-de-eux avec-eux comme-cinq-de dix mille, tout-de les-demeurés, depuis-tout-de camp-de fils-de orient ; et-les-tombants, cent et-vingt mille homme tirant épée."
+        },
+        {
+          "n": 11,
+          "t": "Gédéon et-est-monté chemin-de les-habités-de dans-tentes, depuis-orient à/pour-Nobah et-Jogbehah ; et-a-fait-frapper le-camp, et-le-camp a-été sécurité."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-ont-fui Zebah et-Zalmunna, et-a-poursuivu après-eux ; et-a-capturé deux-de rois-de Madian Zebah et-Zalmunna, et-tout-de le-camp a-fait-trembler."
+        },
+        {
+          "n": 13,
+          "t": "Gédéon et-est-retourné fils-de Joash depuis la-guerre ; depuis-ascent-de le-Sun."
+        },
+        {
+          "n": 14,
+          "t": "youth et-a-capturé depuis-hommes-de Succoth et-a-demandé-lui ; et-a-écrit vers-lui princes-de Succoth et-vieux-de-elle, soixante-dix et-sept homme."
+        },
+        {
+          "n": 15,
+          "t": "et-est-venu vers hommes-de Succoth, et-a-dit, voici Zebah et-Zalmunna ; qui vous-avez-gdbvaé moi à/pour-dire est-ce-palme-de Zebah et-Zalmunna maintenant dans-main-de-toi, car nous-donnerons à/pour-hommes-de-toi les-volers pain."
+        },
+        {
+          "n": 16,
+          "t": "et-il-a-pris vieux-de la-ville, et-épines-de le-désert et-les-chardons ; et-il-a-fait-savoir dans-eux, hommes-de Succoth."
+        },
+        {
+          "n": 17,
+          "t": "et-tour-de Peniel il-a-renversé ; et-il-a-tué hommes-de la-ville."
+        },
+        {
+          "n": 18,
+          "t": "Zebah et-a-dit vers et-vers Zalmunna, gnk les-hommes, qui vous-avez-tué dans-Betabor ; et-ils-ont-dit comme-toi comme-eux, un, comme-figure-de fils-de le-roi."
+        },
+        {
+          "n": 19,
+          "t": "et-il-a-dit, frères-de-moi fils-de mère-de-moi eux ; vivant YHWH if vous-avez-fait-guérir eux, non je-ai-tué vous."
+        },
+        {
+          "n": 20,
+          "t": "premier-né-de-lui, et-a-dit à/pour-Jether leve tue eux ; et-non le-youth a-tiré épée-de-lui car a-craint, car encore-de-lui youth."
+        },
+        {
+          "n": 21,
+          "t": "Zebah et-Zalmunna et-a-dit leve tu et-rencontre dans-nous, car comme-le-homme might-de-lui ; Gédéon et-est-levé et-a-tué Zebah et-Zalmunna, et-a-pris les-lunes, qui dans-cous-de chameaux-de-eux."
+        },
+        {
+          "n": 22,
+          "t": "et-ils-ont-dit homme-de Israël vers Gédéon, gouverne dans-nous aussi tu, aussi fils-de-toi aussi fils-de fils-de-toi ; car tu-as-fait-sauver-nous depuis-main-de Madian."
+        },
+        {
+          "n": 23,
+          "t": "Gédéon, et-a-dit vers-eux non gouvernerai je dans-vous, et-non gouvernera fils-de-moi dans-vous ; YHWH gouvernera dans-vous."
+        },
+        {
+          "n": 24,
+          "t": "Gédéon et-a-dit vers-eux je-demande depuis-vous petition, et-donnez à/pour-moi, homme ggos-de butin-de-lui ; car ggos-de or à/pour-eux, car Ishmaelite eux."
+        },
+        {
+          "n": 25,
+          "t": "et-ils-ont-dit donner nous-donnerons ; et-ils-ont-étendu la-couverture, et-ils-ont-fait-jeter là-vers, homme ggos-de butin-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "poids-de ggos-de le-or et-a-été qui a-demandé, mille et-sept cent or ; à/pour-seul depuis les-lunes et-les-pendants et-perfidies-de le-rouge-pourpre que-sur rois-de Madian, et-à/pour-seul depuis les-colliers, qui dans-cous-de chameaux-de-eux."
+        },
+        {
+          "n": 27,
+          "t": "et-a-fait lui Gédéon à/pour-éphod et-a-fait-gdwter lui dans-ville-de-lui dans-Ophrah, et-ils-ont-gcewé tout-de Israël après-lui là ; et-il-a-été à/pour-Gédéon et-à/pour-maison-de-lui à/pour-piège."
+        },
+        {
+          "n": 28,
+          "t": "Madian et-a-été-humilié à/pour-faces-de fils-de Israël, et-non ils-ont-ajouté à/pour-porter tête-de-eux ; la-terre et-a-apaisé quarante année dans-jours-de Gédéon."
+        },
+        {
+          "n": 29,
+          "t": "Jerubbaal et-est-allé fils-de Joash et-a-habité dans-maison-de-lui."
+        },
+        {
+          "n": 30,
+          "t": "et-à/pour-Gédéon ont-été soixante-dix fils, sortissants-de cuisse-de-lui ; car femmes nombreuses ont-été à/pour-lui."
+        },
+        {
+          "n": 31,
+          "t": "et-concubine-de-lui qui dans-Shechem, a-engendré à/pour-lui aussi lui fils ; et-a-mis nom-de-lui Abimelech."
+        },
+        {
+          "n": 32,
+          "t": "Gédéon et-est-mort fils-de Joash dans-âge bone ; et-a-été-enterré dans-sépulcre-de Joash père-de-lui, dans-Ophrah Abiy Abiezrite."
+        },
+        {
+          "n": 33,
+          "t": "et-a-été comme-lorsque Gédéon est-mort, et-sont-retourné fils-de Israël, et-ont-gcewé après le-Habaliym ; et-ils-ont-mis à/pour-eux Baal-berith Beriyt à/pour-dieu."
+        },
+        {
+          "n": 34,
+          "t": "et-non fils-de Israël ont-rappelé, YHWH dieu-de-eux ; le-faisant-délivrer eux depuis-main-de tout-de gmcçants-de-eux depuis-alentour."
+        },
+        {
+          "n": 35,
+          "t": "et-non ils-ont-fait faveur, avec maison-de Jerubbaal Gédéon ; comme-tout-de la-agréable, qui Israël a-fait avec."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Abimelech et-est-allé fils-de Jerubbaal Shechem-vers, vers frères-de mère-de-lui ; tout-de famille-de maison-de père-de mère-de-lui et-a-parlé vers-eux, et-vers à/pour-dire."
+        },
+        {
+          "n": 2,
+          "t": "parlez donc dans-oreilles-de tout-de maris-de Shechem quoi bon à/pour-vous est-ce-le-gouverner dans-vous soixante-dix homme tout-de fils-de Jerubbaal, si gouverner dans-vous homme un ; et-vous-avez-rappelé, car os-de-vous et-chair-de-vous je."
+        },
+        {
+          "n": 3,
+          "t": "frères-de mère-de-lui et-ont-parlé sur-lui dans-oreilles-de tout-de maris-de Shechem, tout-de les-paroles les-ces ; cœur-de-eux et-a-tendu après Abimelech, car ils-ont-dit frère-de-nous lui."
+        },
+        {
+          "n": 4,
+          "t": "et-ils-ont-donné à/pour-lui soixante-dix argent, depuis-maison-de Baal-berith Beriyt ; Abimelech et-a-loué dans-eux hommes vides et-téméraiants, et-sont-allé après-lui."
+        },
+        {
+          "n": 5,
+          "t": "maison-de père-de-lui Ophrah-vers et-est-venu, et-a-tué frères-de-lui fils-de Jerubbaal soixante-dix homme sur pierre une ; Jotham et-a-été-demeuré fils-de Jerubbaal le-petit car a-été-caché."
+        },
+        {
+          "n": 6,
+          "t": "et-ils-ont-été-recueilli tout-de maris-de Shechem et-tout-de maison-de Millo, et-ils-sont-allé, et-ils-ont-fait-régner Abimelech à/pour-roi ; avec chêne-de été-fait-établir qui dans-Shechem."
+        },
+        {
+          "n": 7,
+          "t": "et-ils-ont-fait-annoncer à/pour-Jotham et-est-allé et-a-resté dans-tête-de mont-de Geriziym, voix-de-lui et-a-porté et-a-appelé ; et-a-dit à/pour-eux écoutez vers-moi maris-de Shechem, dieu et-écoutera vers-vous."
+        },
+        {
+          "n": 8,
+          "t": "marcher les-arbres ont-marché, à/pour-oindre sur-eux roi ; et-ils-ont-dit à/pour-le-olive régne-hé sur-nous."
+        },
+        {
+          "n": 9,
+          "t": "le-olive, et-a-dit à/pour-eux est-ce-le-je-ai-cessé ashes-de-moi, qui dans-moi honoront dieu et-hommes ; et-je-ai-marché, à/pour-errer sur les-arbres."
+        },
+        {
+          "n": 10,
+          "t": "les-arbres et-ont-dit à/pour-la-figue ; va toi régne sur-nous."
+        },
+        {
+          "n": 11,
+          "t": "la-figue, et-a-dit à/pour-eux est-ce-le-je-ai-cessé douceur-de-moi, et-fruit-de-moi la-bone ; et-je-ai-marché, à/pour-errer sur les-arbres."
+        },
+        {
+          "n": 12,
+          "t": "les-arbres et-ont-dit à/pour-la-vigne ; va toi régne sur-nous."
+        },
+        {
+          "n": 13,
+          "t": "la-vigne, et-a-dit à/pour-eux est-ce-le-je-ai-cessé new-de-moi, le-réjouissant dieu et-hommes ; et-je-ai-marché, à/pour-errer sur les-arbres."
+        },
+        {
+          "n": 14,
+          "t": "et-ils-ont-dit tout-de les-arbres vers le-Atad ; va tu régne sur-nous."
+        },
+        {
+          "n": 15,
+          "t": "le-Atad et-a-dit vers les-arbres si dans-vérité vous oindants moi à/pour-roi sur-vous, venez gcvtez dans-ombre-de-moi ; et-si néant, feu sortira depuis le-Atad, et-mangera cèdres-de le-Liban."
+        },
+        {
+          "n": 16,
+          "t": "et-maintenant si dans-vérité et-dans-entier vous-avez-fait, et-vous-avez-fait-régner Abimelech ; et-si bone vous-avez-fait avec Jerubbaal et-avec maison-de-lui, et-si comme-récompense-de mains-de-lui vous-avez-fait à/pour-lui."
+        },
+        {
+          "n": 17,
+          "t": "qui père-de-moi a-été-combattu sur-vous ; et-il-a-fait-jeter âme-de-lui devant, et-il-a-fait-délivrer vous depuis-main-de Madian."
+        },
+        {
+          "n": 18,
+          "t": "et-vous êtes-levé sur maison-de père-de-moi le-jour, et-avez-tué fils-de-lui soixante-dix homme sur pierre une ; et-vous-avez-fait-régner Abimelech fils-de maidservant-de-lui sur maris-de Shechem, car frère-de-vous lui."
+        },
+        {
+          "n": 19,
+          "t": "et-si dans-vérité et-dans-entier vous-avez-fait avec Jerubbaal et-avec maison-de-lui le-jour le-celui-ci ; réjouissez dans-Abimelech, et-réjouira aussi lui dans-vous."
+        },
+        {
+          "n": 20,
+          "t": "et-si néant, feu sortira depuis-Abimelech, et-mangera maris-de Shechem et-maison-de Millo ; feu et-sortira depuis-maris-de Shechem et-depuis-maison-de Millo, et-mangera Abimelech."
+        },
+        {
+          "n": 21,
+          "t": "Jotham et-a-fui, et-a-atteint et-est-allé Beeraa-vers ; et-a-habité là, depuis-faces-de Abimelech frère-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "Abimelech et-a-lutté sur Israël trois années."
+        },
+        {
+          "n": 23,
+          "t": "dieu esprit bade et-a-envoyé, entre Abimelech, et-entre maris-de Shechem ; maris-de Shechem et-ont-gahné dans-Abimelech."
+        },
+        {
+          "n": 24,
+          "t": "à/pour-venir, violence-de soixante-dix fils-de Jerubbaal ; et-sang-de-eux à/pour-mettre sur Abimelech frère-de-eux qui a-tué eux, et-sur maris-de Shechem, qui ont-fortifié mains-de-lui à/pour-tuer frères-de-lui."
+        },
+        {
+          "n": 25,
+          "t": "maris-de Shechem gzqants et-ont-mis à/pour-lui sur têtes-de les-monts, et-ont-pillé tout-de qui il-passera sur-eux dans-le-chemin ; et-il-a-été-fait-annoncer à/pour-Abimelech."
+        },
+        {
+          "n": 26,
+          "t": "Gaal et-est-venu fils-de Ebed et-frères-de-lui, et-ont-passé dans-Shechem ; maris-de Shechem et-ont-confié dans-lui."
+        },
+        {
+          "n": 27,
+          "t": "et-sont-sorti le-champ et-ont-gatw vignobles-de-eux et-ont-marché, réjouissances et-ont-fait ; et-ils-sont-venu maison-de dieu-de-eux, et-ils-ont-mangé et-ils-ont-bu, et-ils-ont-légé Abimelech."
+        },
+        {
+          "n": 28,
+          "t": "Gaal et-a-dit fils-de Ebed lequel Abimelech et-lequel Shechem car nous-servirons-nous, est-ce-non fils-de Jerubbaal et-Zebul commissaire-de-lui ; servissez hommes-de Hamor père-de Shechem, et-why nous servirons-nous."
+        },
+        {
+          "n": 29,
+          "t": "et-lequel il-donnera le-peuple le-celui-ci dans-main-de-moi, et-je-ferai-détourner Abimelech ; et-a-dit à/pour-Abimelech, multiplie armée-de-toi et-sortis-hé."
+        },
+        {
+          "n": 30,
+          "t": "Zebul et-a-écouté prince-de la-ville, paroles-de Gaal fils-de Ebed ; nez-de-lui et-a-embrasé."
+        },
+        {
+          "n": 31,
+          "t": "et-a-envoyé messagers vers Abimelech dans-Treachery à/pour-dire ; voici Gaal fils-de Ebed et-frères-de-lui venants Shechem-vers, et-voici-eux giwnaants la-ville sur-toi."
+        },
+        {
+          "n": 32,
+          "t": "et-maintenant leve nuit, tu et-le-peuple qui ensemble-toi-f ; et-gzqe dans-le-champ."
+        },
+        {
+          "n": 33,
+          "t": "et-a-été dans-le-matin comme-apparaître le-soleil, tu-feras-gkruer et-tu-as-dépouillé sur la-ville ; et-voici lui et-le-peuple qui ensemble-lui sortissants vers-toi, et-tu-as-fait à/pour-lui, comme-lorsque main-de-toi trouvera."
+        },
+        {
+          "n": 34,
+          "t": "Abimelech et-est-levé et-tout-de le-peuple qui avec-lui nuit ; et-ont-gzqé sur Shechem, quatre têtes."
+        },
+        {
+          "n": 35,
+          "t": "Gaal et-est-sorti fils-de Ebed, et-a-resté, entrée-de porte-de la-ville ; Abimelech et-le-peuple et-est-levé qui ensemble-lui depuis le-embuscade."
+        },
+        {
+          "n": 36,
+          "t": "Gaal et-a-vu le-peuple et-a-dit vers Zebul, voici peuple descendant, depuis-têtes-de les-monts ; Zebul, et-a-dit vers-lui ombre-de les-monts tu voyant comme-les-hommes."
+        },
+        {
+          "n": 37,
+          "t": "Gaal et-a-fait-ajouter encore à/pour-parler et-a-dit, voici peuple descendants, from centre-de la-terre ; et-tête un venant, depuis-chemin-de chêne-de apportants."
+        },
+        {
+          "n": 38,
+          "t": "Zebul et-a-dit vers-lui gmh then bouche-de-toi qui tu-diras, lequel Abimelech car nous-servirons-nous ; est-ce-non celui-ci le-peuple qui tu-as-rejeté dans-lui, sortis donc maintenant et-sois-combattu dans-lui."
+        },
+        {
+          "n": 39,
+          "t": "Gaal et-est-sorti, à/pour-faces-de maris-de Shechem ; et-il-a-été-combattu dans-Abimelech."
+        },
+        {
+          "n": 40,
+          "t": "Abimelech et-a-poursuivu-lui, et-a-fui depuis-faces-de-lui ; et-ils-sont-tombé tués nombreux jusqu'à entrée-de le-porte."
+        },
+        {
+          "n": 41,
+          "t": "Abimelech et-a-habité dans-Arumah ; Zebul et-a-chassé Gaal et-frères-de-lui depuis-habiter dans-Shechem."
+        },
+        {
+          "n": 42,
+          "t": "et-a-été depuis-morrow, le-peuple le-champ et-est-sorti ; et-ils-ont-fait-annoncer à/pour-Abimelech."
+        },
+        {
+          "n": 43,
+          "t": "et-il-a-pris le-peuple et-il-a-divisé-eux à/pour-trois têtes, et-il-a-gzqé dans-le-champ ; et-a-vu et-voici le-peuple sortissant depuis la-ville, et-est-levé sur-eux et-a-fait-frapper-eux."
+        },
+        {
+          "n": 44,
+          "t": "et-Abimelech et-les-têtes qui avec-lui, ont-dépouillé, et-ont-resté, entrée-de porte-de la-ville ; et-deux-de les-têtes ont-dépouillé sur tout-de qui dans-le-champ et-ont-fait-frapper-eux."
+        },
+        {
+          "n": 45,
+          "t": "et-Abimelech combattu dans-la-ville tout-de le-jour le-lui, et-a-capturé la-ville, et-le-peuple qui dans-elle a-tué ; et-a-renversé la-ville, sel et-a-semé-elle."
+        },
+        {
+          "n": 46,
+          "t": "et-ils-ont-écouté, tout-de maris-de tour-de Shechem ; et-ils-sont-venu vers cave-de, maison-de El Beriyta."
+        },
+        {
+          "n": 47,
+          "t": "et-il-a-été-fait-annoncer à/pour-Abimelech ; car ils-ont-se-assemblé, tout-de maris-de tour-de Shechem."
+        },
+        {
+          "n": 48,
+          "t": "Abimelech et-est-monté mont-de Tsalmon lui et-tout-de le-peuple qui ensemble-lui et-a-pris Abimelech les-haches dans-main-de-lui et-a-coupé broussailles-de arbres, et-a-porté-elle, shoulder-de-lui ; et-a-mis sur le-peuple et-a-dit vers qui avec-lui quoi vous-avez-vu je-ai-fait, hâtez faites comme-moi."
+        },
+        {
+          "n": 49,
+          "t": "et-ils-ont-coupé aussi tout-de le-peuple homme branche-de-lui et-ils-sont-allé après Abimelech et-ils-ont-mis sur le-cave, et-ils-ont-fait-allumer sur-eux le-cave dans-le-feu ; et-ils-sont-mort aussi tout-de hommes-de tour-de Shechem comme-mille homme et-femme."
+        },
+        {
+          "n": 50,
+          "t": "Abimelech et-est-allé vers Thebez ; et-il-a-campé dans-Thebez et-il-a-capturé-elle."
+        },
+        {
+          "n": 51,
+          "t": "et-tour-de puissance a-été dans-milieu-de la-ville et-ils-ont-fui là-vers tout-de les-hommes et-les-femmes et-tout-de maris-de la-ville, et-ils-ont-fermé derrière-eux ; et-ils-sont-monté sur toit-de la-tour."
+        },
+        {
+          "n": 52,
+          "t": "Abimelech et-est-venu jusqu'à la-tour, et-a-été-combattu dans-lui ; entrée-de la-tour et-a-approché jusqu'à à/pour-brûler-de-lui dans-le-feu."
+        },
+        {
+          "n": 53,
+          "t": "femme et-a-fait-jeter une scission-de char sur tête-de Abimelech ; et-elle-a-fait-opprimer scrutin-de-lui."
+        },
+        {
+          "n": 54,
+          "t": "et-a-appelé hâte vers le-youth portant-de ustensiles-de-lui et-a-dit à/pour-lui tire épée-de-toi et-meurs-moi, sinon diront à/pour-moi femme a-tué-lui ; youth-de-lui et-a-percé-lui et-est-mort."
+        },
+        {
+          "n": 55,
+          "t": "et-ils-ont-vu homme-de Israël car est-mort Abimelech ; et-ils-sont-allé homme à/pour-lieu-de-lui."
+        },
+        {
+          "n": 56,
+          "t": "dieu et-a-fait-retourner, mal-de Abimelech ; qui il-a-fait à/pour-père-de-lui, à/pour-tuer soixante-dix frères-de-lui."
+        },
+        {
+          "n": 57,
+          "t": "dieu a-fait-retourner et-tout-de mal-de hommes-de Shechem, dans-tête-de-eux ; diffamation-de Jotham et-est-venu vers-eux, fils-de Jerubbaal."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Abimelech et-est-levé après à/pour-faire-sauver Israël Tola fils-de Puah fils-de Dodo homme-de Issacar ; et-lui habitant dans-Shamir dans-mont-de Éphraïm."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-jugé Israël, vingt et-trois année ; et-il-est-mort et-il-a-été-enterré dans-Shamir."
+        },
+        {
+          "n": 3,
+          "t": "Jair le-Gileadite ; et-est-levé après-lui, et-il-a-jugé Israël, vingt et-deux année."
+        },
+        {
+          "n": 4,
+          "t": "et-il-a-été à/pour-lui trente fils chevauchants sur trente colts, et-trente colts à/pour-eux ; à/pour-eux ils-appeleront Haots-de Yaiyr jusqu'à le-jour le-celui-ci, qui dans-terre-de le-Gilead."
+        },
+        {
+          "n": 5,
+          "t": "Jair et-est-mort, et-a-été-enterré dans-Kamon."
+        },
+        {
+          "n": 6,
+          "t": "fils-de Israël et-ont-fait-ajouter à/pour-faire le-gjzo dans-yeux-de YHWH et-ont-servi le-Habaliym et-le-Ashtaroth et-dieux-de Aram et-dieux-de Sidon et-dieux-de Moab et-dieux-de fils-de Ammon, et-dieux-de Philistin ; et-ils-ont-abandonné YHWH et-non ils-ont-servi-lui."
+        },
+        {
+          "n": 7,
+          "t": "et-a-embrasé nez YHWH dans-Israël ; et-il-a-vendu-eux dans-main-de Philistin, et-dans-main-de fils-de Ammon."
+        },
+        {
+          "n": 8,
+          "t": "et-ils-ont-shatté et-ils-ont-opprimé fils-de Israël, dans-la-année la-lui ; huit dix année tout-de fils-de Israël qui dans-delà-de le-Jourdain, dans-terre-de le-Amorite qui dans-le-Gilead."
+        },
+        {
+          "n": 9,
+          "t": "fils-de Ammon et-ont-passé le-Jourdain, à/pour-être-combattre aussi dans-Juda et-dans-Benjamin et-dans-maison-de Éphraïm ; et-elle-a-noué à/pour-Israël très."
+        },
+        {
+          "n": 10,
+          "t": "fils-de Israël et-ont-gcfoé, vers YHWH à/pour-dire ; nous-avons-péché à/pour-toi-f, et-car nous-avons-abandonné dieu-de-nous, et-nous-avons-servi le-Habaliym."
+        },
+        {
+          "n": 11,
+          "t": "YHWH et-a-dit vers fils-de Israël ; est-ce-non depuis-Égypte et-depuis le-Amorite, et-depuis fils-de Ammon et-depuis Philistin."
+        },
+        {
+          "n": 12,
+          "t": "et-Sidonian et-Amalek et-Maon, ont-serré vous ; et-vous-avez-crié vers-moi, et-je-ai-fait-sauver-hé vous depuis-main-de-eux."
+        },
+        {
+          "n": 13,
+          "t": "et-vous avez-abandonné moi, et-avez-servi dieux autres ; à/pour-ainsi non je-ferai-ajouter à/pour-faire-sauver vous."
+        },
+        {
+          "n": 14,
+          "t": "allez et-gcfoez vers les-dieux, qui vous-avez-choisi dans-eux ; eux feront-sauver à/pour-vous dans-heure-de angoisse-de-vous."
+        },
+        {
+          "n": 15,
+          "t": "fils-de Israël et-ont-dit vers YHWH nous-avons-péché, fais tu à/pour-nous, comme-tout-de le-bon dans-yeux-de-toi ; sûrement fais-délivrer-nous donc le-jour le-celui-ci."
+        },
+        {
+          "n": 16,
+          "t": "et-ils-ont-fait-détourner dieux-de le-foreign depuis-parmi-de-eux, et-ils-ont-servi YHWH ; âme-de-lui et-a-gjmpaé dans-peiner-de Israël."
+        },
+        {
+          "n": 17,
+          "t": "fils-de Ammon et-ont-été-crié, et-ont-campé dans-le-Gilead ; fils-de Israël et-ont-été-recueilli, et-ont-campé dans-le-Mizpah."
+        },
+        {
+          "n": 18,
+          "t": "et-ont-dit le-peuple princes-de Gilead homme vers ami-de-lui, lequel le-homme, qui fera-commencer, à/pour-être-combattre dans-fils-de Ammon ; sera à/pour-tête, à/pour-tout-de habitants-de Gilead."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-Iphtah le-Gileadite a-été puissant-de compétence, et-lui fils-de femme gcewante ; Gilead et-a-fait-engendrer Iphtah."
+        },
+        {
+          "n": 2,
+          "t": "femme-de Gilead et-a-engendré à/pour-lui fils ; fils-de la-femme et-ont-crû et-ont-chassé Iphtah et-ont-dit à/pour-lui non hériteras dans-maison-de père-de-nous, car fils-de femme autre tu."
+        },
+        {
+          "n": 3,
+          "t": "Iphtah et-a-atteint depuis-faces-de frères-de-lui, et-a-habité dans-terre-de Tob ; et-ont-se-glané vers Iphtah hommes vides, et-sont-sorti avec-lui."
+        },
+        {
+          "n": 4,
+          "t": "et-il-a-été depuis-jours ; fils-de Ammon et-ont-été-combattu avec Israël."
+        },
+        {
+          "n": 5,
+          "t": "et-a-été, comme-lorsque fils-de Ammon ont-été-combattu avec Israël ; et-ils-sont-allé vieux-de Gilead, à/pour-prendre Iphtah depuis-terre-de Tob."
+        },
+        {
+          "n": 6,
+          "t": "et-ils-ont-dit à/pour-Iphtah, va-hé, et-tu-as-été à/pour-nous à/pour-chef ; et-nous-soyons-combattu dans-fils-de Ammon."
+        },
+        {
+          "n": 7,
+          "t": "Iphtah à/pour-vieux-de Gilead et-a-dit, est-ce-non vous avez-gkzré moi, et-avez-chassé-moi depuis-maison-de père-de-moi ; et-why vous-êtes-venu vers-moi maintenant, comme-lorsque il-a-étroit à/pour-vous."
+        },
+        {
+          "n": 8,
+          "t": "et-ils-ont-dit vieux-de Gilead vers Iphtah à/pour-ainsi maintenant nous-sommes-retourné vers-toi, et-tu-as-marché avec-nous, et-tu-as-été-combattu dans-fils-de Ammon ; et-tu-as-été à/pour-nous à/pour-tête, à/pour-tout-de habitants-de Gilead."
+        },
+        {
+          "n": 9,
+          "t": "Iphtah et-a-dit vers vieux-de Gilead si faisants-retourner vous moi à/pour-être-combattre dans-fils-de Ammon, et-a-donné YHWH eux à/pour-faces-de-moi ; moi, serai à/pour-vous à/pour-tête."
+        },
+        {
+          "n": 10,
+          "t": "et-ils-ont-dit vieux-de Gilead vers Iphtah ; YHWH sera écoutant entre-nous, si non comme-parole-de-toi ainsi nous-ferons."
+        },
+        {
+          "n": 11,
+          "t": "Iphtah et-est-allé avec vieux-de Gilead, et-ils-ont-mis le-peuple lui sur-eux à/pour-tête et-à/pour-chef ; Iphtah et-a-parlé tout-de paroles-de-lui à/pour-faces-de YHWH dans-le-Mizpah."
+        },
+        {
+          "n": 12,
+          "t": "Iphtah et-a-envoyé messagers, vers roi-de fils-de Ammon à/pour-dire ; quoi à/pour-moi et-à/pour-toi-f, car tu-es-venu vers-moi à/pour-être-combattre dans-terre-de-moi."
+        },
+        {
+          "n": 13,
+          "t": "roi-de fils-de Ammon et-a-dit vers messagers-de Iphtah car a-pris Israël terre-de-moi dans-monter-de-lui depuis-Égypte, depuis-Arnon et-jusqu'à le-Jabbok et-jusqu'à le-Jourdain ; et-maintenant, fais-retourner-hé elles dans-paix."
+        },
+        {
+          "n": 14,
+          "t": "Iphtah ; et-a-fait-ajouter encore et-a-envoyé messagers, vers roi-de fils-de Ammon."
+        },
+        {
+          "n": 15,
+          "t": "et-a-dit à/pour-lui, thus Iphtah a-dit ; non Israël a-pris terre-de Moab, et-terre-de fils-de Ammon."
+        },
+        {
+          "n": 16,
+          "t": "car dans-monter-de-eux depuis-Égypte ; Israël et-est-allé dans-le-désert jusqu'à mer-de roseau, et-est-venu Kadesh-vers."
+        },
+        {
+          "n": 17,
+          "t": "Israël et-a-envoyé messagers vers roi-de Édom à/pour-dire je-passe donc dans-terre-de-toi et-non roi-de Édom a-écouté, et-aussi vers roi-de Moab a-envoyé et-non a-voulu ; Israël et-a-habité dans-Kadesh."
+        },
+        {
+          "n": 18,
+          "t": "et-il-est-allé dans-le-désert et-il-a-tourné terre-de Édom et-terre-de Moab, et-il-est-venu depuis-east-de soleil à/pour-terre-de Moab, et-ils-ont-campé dans-delà-de Arnon ; et-non ils-sont-venu dans-frontière-de Moab, car Arnon frontière-de Moab."
+        },
+        {
+          "n": 19,
+          "t": "Israël et-a-envoyé messagers, vers Sihon roi-de le-Amorite roi-de Heshbon ; Israël, et-a-dit à/pour-lui nous-passons donc dans-terre-de-toi jusqu'à lieu-de-moi."
+        },
+        {
+          "n": 20,
+          "t": "et-non Sihon a-fait-supporter Israël passer dans-frontière-de-lui, et-a-recueilli Sihon tout-de peuple-de-lui, et-ils-ont-campé dans-Jahaz-vers ; Israël et-a-été-combattu avec."
+        },
+        {
+          "n": 21,
+          "t": "YHWH et-a-donné dieu-de Israël Sihon et-tout-de peuple-de-lui dans-main-de Israël et-ils-ont-fait-frapper-eux ; Israël et-a-dépossédé, tout-de terre-de le-Amorite, habitant la-terre la-lui."
+        },
+        {
+          "n": 22,
+          "t": "et-ils-ont-dépossédé, tout-de frontière-de le-Amorite ; depuis-Arnon et-jusqu'à le-Jabbok, et-depuis le-désert et-jusqu'à le-Jourdain."
+        },
+        {
+          "n": 23,
+          "t": "et-maintenant YHWH dieu-de Israël a-fait-déposséder le-Amorite, depuis-faces-de peuple-de-lui Israël ; et-tu déposséderas-lui."
+        },
+        {
+          "n": 24,
+          "t": "est-ce-non qui Chemosh fera-déposséder-toi dieu-de-toi lui tu-déposséderas ; et-tout-de qui YHWH a-fait-déposséder dieu-de-nous depuis-faces-de-nous lui nous-déposséderons."
+        },
+        {
+          "n": 25,
+          "t": "et-maintenant tu est-ce-bon bon, depuis-Balak fils-de Zippor roi-de Moab ; est-ce-gjwter Israël, a-gjwté avec si être-combattre a-été-combattu dans-eux."
+        },
+        {
+          "n": 26,
+          "t": "dans-habiter Israël dans-Heshbon et-dans-filles-de-elle et-dans-Aroer et-dans-filles-de-elle et-dans-tout-de les-villes qui sur mains-de Arnon, trois cent année ; et-why non vous-avez-fait-délivrer dans-la-heure la-lui."
+        },
+        {
+          "n": 27,
+          "t": "et-moi non ai-péché à/pour-toi-f, et-tu faisant ensemble-moi mal à/pour-être-combattre dans-moi ; YHWH le-jugeant le-jour jugera, entre fils-de Israël, et-entre fils-de Ammon."
+        },
+        {
+          "n": 28,
+          "t": "et-non roi-de fils-de Ammon a-écouté ; vers paroles-de Iphtah, qui il-a-envoyé vers-lui."
+        },
+        {
+          "n": 29,
+          "t": "et-a-été sur Iphtah esprit-de YHWH, et-a-passé le-Gilead et-Manassé ; et-a-passé Mizpeh Gilead, et-depuis-Mizpeh Gilead, a-passé fils-de Ammon."
+        },
+        {
+          "n": 30,
+          "t": "Iphtah vœu et-a-voué à/pour-YHWH et-a-dit ; si donner tu-donneras fils-de Ammon dans-main-de-moi."
+        },
+        {
+          "n": 31,
+          "t": "et-il-a-été le-sortissant qui il-sortira depuis-barrières-de maison-de-moi à/pour-rencontrer-de-moi, dans-retourner-de-moi dans-paix depuis-fils-de Ammon ; et-il-a-été à/pour-YHWH, et-je-ai-fait-monter-lui burnt."
+        },
+        {
+          "n": 32,
+          "t": "Iphtah et-a-passé vers fils-de Ammon à/pour-être-combattre dans-eux ; YHWH et-a-donné-eux dans-main-de-lui."
+        },
+        {
+          "n": 33,
+          "t": "et-a-fait-frapper-eux depuis-Aroer et-jusqu'à venir-de-toi Minnith vingt ville et-jusqu'à Abel-keramim Keramiym, coup grande très ; fils-de Ammon et-ont-été-humilié, depuis-faces-de fils-de Israël."
+        },
+        {
+          "n": 34,
+          "t": "Iphtah le-Mizpah et-est-venu vers maison-de-lui et-voici fille-de-lui sortissante à/pour-rencontrer-de-lui, dans-tambourins et-dans-danses ; et-seulement lui solitaire, néant à/pour-lui depuis-nous fils ou fille."
+        },
+        {
+          "n": 35,
+          "t": "et-il-a-été comme-voir-de-lui elle et-il-a-déchiré perfidies-de-lui et-il-a-dit alas fille-de-moi faire-plier et-toi as-fait-plier-moi, as-été dans-troublants-de-moi ; et-moi ai-ouvert bouche-de-moi vers YHWH, et-non vaincrai à/pour-retourner."
+        },
+        {
+          "n": 36,
+          "t": "et-elle-a-dit vers-lui père-de-moi tu-as-ouvert bouche-de-toi vers YHWH, fais à/pour-moi, comme-lorsque est-sorti depuis-bouche-de-toi ; après qui YHWH a-fait à/pour-toi vengeances depuis-gmcçants-de-toi depuis-fils-de Ammon."
+        },
+        {
+          "n": 37,
+          "t": "et-elle-a-dit vers père-de-elle, sera-fait à/pour-moi le-parole le-celui-ci ; fais-baisser depuis-moi deux mois et-aille et-suis-descendu sur les-monts, et-pleurerai sur virginités-de-moi, moi et-compagnes-de-moi et-companions-de-moi."
+        },
+        {
+          "n": 38,
+          "t": "et-il-a-dit va, et-il-a-envoyé elle deux-de mois ; lui et-est-allé et-companions-de-elle, et-a-pleuré sur virginités-de-elle sur les-monts."
+        },
+        {
+          "n": 39,
+          "t": "et-a-été depuis-fin-de deux mois et-elle-est-retourné vers père-de-elle, et-a-fait à/pour-elle, vœu-de-lui qui a-voué ; et-lui non a-su homme, et-a-été ordonnance dans-Israël."
+        },
+        {
+          "n": 40,
+          "t": "depuis-jours filles-de Israël, iront jours-vers à/pour-raconter, à/pour-fille-de Iphtah le-Gileadite ; quatre-de jours dans-la-année."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "homme-de Éphraïm et-a-été-crié, et-a-passé nord-vers ; et-ils-ont-dit à/pour-Iphtah why tu-as-passé à/pour-être-combattre dans-fils-de Ammon et-à/pour-nous non tu-as-appelé à/pour-aller avec-toi-f, maison-de-toi, nous-brûlerons sur-toi dans-le-feu."
+        },
+        {
+          "n": 2,
+          "t": "Iphtah et-a-dit vers-eux, homme-de dispute ai-été je et-peuple-de-moi et-fils-de Ammon très ; et-je-ai-gcfoé vous, et-non vous-avez-fait-sauver moi depuis-main-de-eux."
+        },
+        {
+          "n": 3,
+          "t": "et-je-ai-vu car néant-toi faisant-sauver et-je-ai-mis-hé âme-de-moi dans-palme-de-moi et-je-ai-passé-hé vers fils-de Ammon, YHWH et-a-donné-eux dans-main-de-moi ; et-à/pour-quoi vous-êtes-monté vers-moi le-jour le-celui-ci à/pour-être-combattre dans-moi."
+        },
+        {
+          "n": 4,
+          "t": "Iphtah et-a-assemblé tout-de hommes-de Gilead, et-a-été-combattu ensemble Éphraïm ; hommes-de Gilead et-ont-fait-frapper Éphraïm car ont-dit fugitifs-de Éphraïm vous, Gilead, dans-milieu-de Éphraïm dans-milieu-de Manassé."
+        },
+        {
+          "n": 5,
+          "t": "Gilead et-a-capturé gfssbs-de le-Jourdain à/pour-Éphraïm ; et-a-été car fugitifs-de Éphraïm diront je-passerai, hommes-de Gilead et-ont-dit à/pour-lui le-Ephraimite tu et-a-dit non."
+        },
+        {
+          "n": 6,
+          "t": "et-ils-ont-dit à/pour-lui dis donc gkgwa et-il-a-dit stream et-non il-fera-affermir à/pour-parler droite, et-ils-ont-gjjé lui, et-ils-ont-slaughté-lui vers gfssbs-de le-Jourdain ; et-il-est-tombé dans-la-heure la-lui depuis-Éphraïm, quarante et-deux mille."
+        },
+        {
+          "n": 7,
+          "t": "Iphtah et-a-jugé Israël six années ; Iphtah le-Gileadite et-est-mort, et-a-été-enterré dans-villes-de Gilead."
+        },
+        {
+          "n": 8,
+          "t": "et-a-jugé après-lui Israël, Ibzan depuis-Beyt Bethléhem."
+        },
+        {
+          "n": 9,
+          "t": "et-a-été à/pour-lui trente fils et-trente filles a-envoyé le-dehors-vers, et-trente filles, a-fait-venir à/pour-fils-de-lui depuis le-dehors ; et-il-a-jugé Israël sept années."
+        },
+        {
+          "n": 10,
+          "t": "Ibzan et-est-mort, et-a-été-enterré dans-Beyt Bethléhem."
+        },
+        {
+          "n": 11,
+          "t": "et-a-jugé après-lui Israël, Elon le-Zebulunite ; et-il-a-jugé Israël tene années."
+        },
+        {
+          "n": 12,
+          "t": "Elon le-Zebulunite et-est-mort ; et-il-a-été-enterré dans-Aijalon dans-terre-de Zabulon."
+        },
+        {
+          "n": 13,
+          "t": "et-il-a-jugé après-lui Israël ; Abdon fils-de Hillel le-Pirathon."
+        },
+        {
+          "n": 14,
+          "t": "et-il-a-été à/pour-lui quarante fils et-trente fils-de fils, chevauchants sur soixante-dix colts ; et-il-a-jugé Israël huit années."
+        },
+        {
+          "n": 15,
+          "t": "Abdon et-est-mort fils-de Hillel le-Pirathon ; et-il-a-été-enterré dans-Befiraton dans-terre-de Éphraïm, dans-mont-de le-Amalekite."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de Israël et-ont-fait-ajouter, à/pour-faire le-gjzo dans-yeux-de YHWH ; YHWH et-a-donné-eux dans-main-de Philistin quarante année."
+        },
+        {
+          "n": 2,
+          "t": "homme et-a-été un depuis-Zorah depuis-famille-de le-Danite et-nom-de-lui Manoah ; et-femme-de-lui stérile et-non a-engendré."
+        },
+        {
+          "n": 3,
+          "t": "messager-de YHWH et-a-été-vu vers la-femme ; et-a-dit vers-elle voici donc toi stérile et-non as-engendré, et-as-conçu et-as-engendré fils."
+        },
+        {
+          "n": 4,
+          "t": "et-maintenant sois-gardé donc, et-ne tu-f-boives vin et-strong ; et-ne tu-f-manges tout-de impur."
+        },
+        {
+          "n": 5,
+          "t": "car voici-toi-f pregnante et-tu-f-as-engendré fils et-rasoir non montera sur tête-de-lui, car nazaréen-de dieu sera le-youth depuis la-ventre ; et-lui fera-commencer à/pour-faire-sauver Israël depuis-main-de Philistin."
+        },
+        {
+          "n": 6,
+          "t": "la-femme et-est-venu et-a-dit à/pour-homme-de-elle à/pour-dire homme-de le-dieu est-venu vers-moi, et-aspect-de-lui, comme-aspect-de messager-de le-dieu craint très ; et-non je-ai-demandé-lui où depuis-celui-ci lui, et-nom-de-lui non a-fait-annoncer à/pour-moi."
+        },
+        {
+          "n": 7,
+          "t": "et-a-dit à/pour-moi, voici-toi-f pregnante et-tu-f-as-engendré fils ; et-maintenant ne tu-f-boives vin et-strong et-ne tu-f-manges tout-de impureté, car nazaréen-de dieu sera le-youth, depuis la-ventre jusqu'à jour-de mort-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "Manoah et-a-imploré vers YHWH et-a-dit ; excusez-moi seigneurs-de-moi, homme-de le-dieu qui tu-as-envoyé vienne donc encore vers-nous, et-fera-show-nous, quoi nous-ferons à/pour-le-youth le-engendré."
+        },
+        {
+          "n": 9,
+          "t": "le-dieu et-a-écouté dans-voix-de Manoah ; messager-de le-dieu et-est-venu encore vers la-femme et-lui habitante dans-le-champ, et-Manoah homme-de-elle néant avec-elle."
+        },
+        {
+          "n": 10,
+          "t": "la-femme et-a-hâté, et-a-couru et-a-fait-annoncer à/pour-homme-de-elle ; et-elle-a-dit vers-lui, voici le-homme, a-été-vu vers-moi qui est-venu dans-le-jour vers-moi."
+        },
+        {
+          "n": 11,
+          "t": "et-est-levé Manoah et-est-allé après femme-de-lui ; le-homme, et-est-venu vers et-a-dit à/pour-lui est-ce-tu le-homme qui as-parlé vers la-femme et-a-dit je."
+        },
+        {
+          "n": 12,
+          "t": "Manoah et-a-dit, maintenant viendra paroles-de-toi ; quoi jugement-de le-youth sera et-acte-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "messager-de YHWH et-a-dit vers Manoah ; depuis-tout qui je-ai-dit vers la-femme sera-gardée."
+        },
+        {
+          "n": 14,
+          "t": "depuis-tout qui sortira depuis-vigne-de le-vin non elle-mangera et-vin et-strong ne elle-boive, et-tout-de impureté ne elle-mange ; tout qui je-ai-commandé-elle elle-gardera."
+        },
+        {
+          "n": 15,
+          "t": "Manoah et-a-dit vers messager-de YHWH ; nous-cloons donc toi-f, et-nous-ferons à/pour-faces-de-toi chevreau-de goats."
+        },
+        {
+          "n": 16,
+          "t": "messager-de YHWH et-a-dit vers Manoah si tu-cloras-moi non je-mangerai dans-pain-de-toi, et-si tu-feras burnt, à/pour-YHWH tu-feras-monter-elle ; car non Manoah a-su, car messager-de YHWH lui."
+        },
+        {
+          "n": 17,
+          "t": "Manoah et-a-dit vers messager-de YHWH lequel nom-de-toi ; car paroles-de-toi parole-de-toi viendra et-nous-avons-honor-toi."
+        },
+        {
+          "n": 18,
+          "t": "messager-de YHWH, et-a-dit à/pour-lui à/pour-quoi celui-ci tu-demanderas à/pour-nom-de-moi ; et-lui merveilleux."
+        },
+        {
+          "n": 19,
+          "t": "Manoah et-a-pris chevreau-de les-goats et-la-offrande, et-a-fait-monter sur le-rocher à/pour-YHWH ; et-faisant-extraordinaire à/pour-faire, et-Manoah et-femme-de-lui voyants."
+        },
+        {
+          "n": 20,
+          "t": "et-a-été dans-monter le-flamme sur le-autel les-ciels-vers, et-est-monté messager-de YHWH dans-flamme-de le-autel ; et-Manoah et-femme-de-lui voyants, faces-de-eux et-sont-tombé sur terre-vers."
+        },
+        {
+          "n": 21,
+          "t": "et-non messager-de YHWH, a-ajouté encore à/pour-être-voir vers Manoah et-vers femme-de-lui ; alors Manoah a-su, car messager-de YHWH lui."
+        },
+        {
+          "n": 22,
+          "t": "Manoah et-a-dit vers femme-de-lui mourir nous-mourrons ; car dieu nous-avons-vu."
+        },
+        {
+          "n": 23,
+          "t": "femme-de-lui et-a-dit à/pour-lui if a-plaisi YHWH à/pour-faire-mourir-de-nous non a-pris depuis-main-de-nous burnt et-offrande, et-non a-fait-voir-nous tout-de ces ; et-comme-la-heure, non il-a-fait-écouter-nous comme-celle-ci."
+        },
+        {
+          "n": 24,
+          "t": "la-femme et-a-engendré fils, et-a-appelé nom-de-lui Samson ; le-youth et-a-crû, et-a-béni-lui YHWH."
+        },
+        {
+          "n": 25,
+          "t": "esprit-de YHWH et-a-fait-commencer, à/pour-enfoncer-de-lui dans-camp Dan ; entre Zorah et-entre Eshtaol."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Samson Timnah-vers et-est-descendu ; et-il-a-vu femme dans-Timnah-vers depuis-filles-de Philistin."
+        },
+        {
+          "n": 2,
+          "t": "et-il-est-monté et-il-a-fait-annoncer à/pour-père-de-lui et-à/pour-mère-de-lui, et-il-a-dit femme je-ai-vu dans-Timnah-vers depuis-filles-de Philistin ; et-maintenant, prenez elle à/pour-moi à/pour-femme."
+        },
+        {
+          "n": 3,
+          "t": "père-de-lui et-a-dit à/pour-lui et-mère-de-lui est-ce-néant dans-filles-de frères-de-toi et-dans-tout-de kinsman-de-moi femme, car tu marchant à/pour-prendre femme, depuis-Philistin les-incirconcis ; Samson et-a-dit vers père-de-lui elle prends à/pour-moi, car lui a-gecpé dans-yeux-de-moi."
+        },
+        {
+          "n": 4,
+          "t": "et-père-de-lui et-mère-de-lui non ils-ont-su car depuis-YHWH lui, car occasion lui cherchant depuis-Philistin ; et-dans-la-heure la-lui, Philistin gouvernants dans-Israël."
+        },
+        {
+          "n": 5,
+          "t": "Samson et-est-descendu et-père-de-lui et-mère-de-lui Timnah-vers ; vignobles-de Timnah-vers, et-sont-venu jusqu'à et-voici gelwa-de gabjas, rugissant à/pour-rencontrer-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "esprit-de YHWH et-a-giyiaé sur-lui et-a-divisé-lui comme-diviser le-chevreau, et-anything néant dans-main-de-lui ; et-non il-a-fait-annoncer à/pour-père-de-lui et-à/pour-mère-de-lui, qui il-a-fait."
+        },
+        {
+          "n": 7,
+          "t": "et-il-est-descendu et-il-a-parlé à/pour-la-femme ; et-elle-a-gecpé dans-yeux-de Samson."
+        },
+        {
+          "n": 8,
+          "t": "et-il-est-retourné depuis-jours à/pour-prendre-de-elle, et-il-a-détourné à/pour-voir, carcasse-de le-lion ; et-voici assemblée-de abeilles dans-body-de le-lion et-miel."
+        },
+        {
+          "n": 9,
+          "t": "et-a-gjtgbé-lui vers palmes-de-lui et-est-allé marcher et-manger, père-de-lui et-est-allé vers et-vers mère-de-lui, et-a-donné à/pour-eux et-ils-ont-mangé ; et-non a-fait-annoncer à/pour-eux, car depuis-body-de le-lion le-miel a-gjtgbé."
+        },
+        {
+          "n": 10,
+          "t": "père-de-lui et-est-descendu vers la-femme ; Samson festin, et-a-fait là car ainsi feront les-gakhs."
+        },
+        {
+          "n": 11,
+          "t": "et-il-a-été comme-voir-de-eux lui ; et-ont-pris trente compagnons, et-ont-été ensemble-lui."
+        },
+        {
+          "n": 12,
+          "t": "Samson, et-a-dit à/pour-eux je-propose donc à/pour-vous énigme ; si faire-annoncer vous-ferez-annoncer elle à/pour-moi sept-de jours-de le-festin et-vous-avez-trouvé, et-je-ai-donné à/pour-vous trente ghbfs, et-trente rechanges-de perfidies."
+        },
+        {
+          "n": 13,
+          "t": "et-si non vaincrez à/pour-faire-annoncer à/pour-moi vous et-avez-donné à/pour-moi trente ghbfs, et-trente rechanges-de perfidies ; et-ils-ont-dit à/pour-lui, propose-hé énigme-de-toi et-nous-écouterons-elle."
+        },
+        {
+          "n": 14,
+          "t": "et-a-dit à/pour-eux depuis-le-mangeant nourriture et-depuis-féroce est-sorti, est-sorti douce ; et-non ont-vaincu à/pour-faire-annoncer la-énigme trois-de jours."
+        },
+        {
+          "n": 15,
+          "t": "et-il-a-été dans-le-jour le-septième et-ils-ont-dit à/pour-femme-de Samson séduis homme-de-toi-f et-il-fasse-annoncer à/pour-nous la-énigme, sinon nous-brûlerons toi-f et-maison-de père-de-toi-f dans-le-feu ; à/pour-le-déposséder-de-nous, vous-avez-appelé à/pour-nous est-ce-non."
+        },
+        {
+          "n": 16,
+          "t": "femme-de Samson et-a-pleuré sur-lui et-a-dit seulement tu-as-gkzré-moi et-non tu-as-aimé-moi, la-énigme tu-as-proposé à/pour-fils-de peuple-de-moi, et-à/pour-moi non tu-as-fait-annoncer ; et-il-a-dit à/pour-elle voici à/pour-père-de-moi et-à/pour-mère-de-moi non je-ai-fait-annoncer et-à/pour-toi-f je-ferai-annoncer."
+        },
+        {
+          "n": 17,
+          "t": "et-elle-a-pleuré sur-lui sept-de les-jours, qui le-festin ; a-été à/pour-eux et-il-a-été dans-le-jour le-septième et-il-a-fait-annoncer à/pour-elle car a-fait-contraindre-lui, la-énigme et-a-fait-annoncer à/pour-fils-de peuple-de-elle."
+        },
+        {
+          "n": 18,
+          "t": "hommes-de la-ville et-ont-dit à/pour-lui dans-le-jour le-septième dans-avant viendra le-Sun-vers, quoi douce depuis-miel, et-quoi féroce depuis-gabja ; et-il-a-dit à/pour-eux, sauf vous-avez-combiné dans-génisse-de-moi, non vous-avez-trouvé énigme-de-moi."
+        },
+        {
+          "n": 19,
+          "t": "esprit-de YHWH et-a-giyiaé sur-lui et-est-descendu Ashkelon et-a-fait-frapper depuis-eux trente homme et-a-pris armures-de-eux, et-a-donné les-rechanges, à/pour-faisants-annoncer-de la-énigme ; nez-de-lui et-a-embrasé, et-est-monté maison-de père-de-lui."
+        },
+        {
+          "n": 20,
+          "t": "femme-de Samson et-a-été ; à/pour-compagnon-de-lui, qui il-a-gjzzdé à/pour-lui."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été depuis-jours dans-jours-de moisson-de blés Samson et-a-visité femme-de-lui dans-chevreau-de goats, et-a-dit, je-viendrai vers femme-de-moi le-chambre-vers ; et-non père-de-elle a-donné-lui à/pour-venir."
+        },
+        {
+          "n": 2,
+          "t": "père-de-elle et-a-dit dire je-ai-dit car gkzrer tu-as-gkzré-elle, et-je-ai-donné-elle à/pour-compagnon-de-toi ; est-ce-non sœur-de-elle la-jeune bone depuis-elle, soit donc à/pour-toi sous-elle."
+        },
+        {
+          "n": 3,
+          "t": "Samson, et-a-dit à/pour-eux je-ai-été-innocenté la-fois depuis-Philistin ; car faisant je avec-eux mal."
+        },
+        {
+          "n": 4,
+          "t": "Samson et-est-allé, et-a-capturé trois cent renards ; et-a-pris torches queue et-a-fait-tourner vers queue, et-a-mis torche un entre deux-de les-queues dans-le-milieu."
+        },
+        {
+          "n": 5,
+          "t": "feu et-a-fait-brûler dans-les-torches, et-a-envoyé dans-standings-de Philistin ; et-a-fait-brûler depuis-gerbe et-jusqu'à standing et-jusqu'à vignoble-de olive."
+        },
+        {
+          "n": 6,
+          "t": "Philistin et-ont-dit lequel a-fait celle-ci et-ont-dit Samson gendre-de le-Timnite, car a-pris femme-de-lui, et-a-donné-elle à/pour-compagnon-de-lui ; Philistin et-sont-monté, et-ont-brûlé elle et-père-de-elle dans-le-feu."
+        },
+        {
+          "n": 7,
+          "t": "Samson, et-a-dit à/pour-eux si vous-ferez comme-celle-ci ; pour gsxb je-ai-été-vengé dans-vous et-après je-cesserai."
+        },
+        {
+          "n": 8,
+          "t": "et-il-a-fait-frapper eux patte sur cuisse coup grande ; et-il-est-descendu et-il-a-habité, dans-branche-de Rock-de Etam."
+        },
+        {
+          "n": 9,
+          "t": "Philistin et-sont-monté, et-ont-campé dans-Juda ; et-ils-ont-été-laissé dans-le-Balehiy."
+        },
+        {
+          "n": 10,
+          "t": "et-ils-ont-dit homme-de Juda, à/pour-quoi vous-êtes-monté sur-nous ; et-ils-ont-dit à/pour-lier Samson nous-sommes-monté, à/pour-faire à/pour-lui, comme-lorsque il-a-fait à/pour-nous."
+        },
+        {
+          "n": 11,
+          "t": "et-sont-descendu trois-de mille homme depuis-Juda vers branche-de Rock-de Etam et-ont-dit à/pour-Samson est-ce-non tu-as-su car gouvernants dans-nous Philistin, et-quoi celle-ci tu-as-fait à/pour-nous ; et-il-a-dit à/pour-eux, comme-lorsque ils-ont-fait à/pour-moi, ainsi je-ai-fait à/pour-eux."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-ont-dit à/pour-lui à/pour-lier-de-toi nous-sommes-descendu, à/pour-donner-de-toi dans-main-de Philistin ; Samson, et-a-dit à/pour-eux soyez-juré à/pour-moi, sinon rencontrerez dans-moi vous."
+        },
+        {
+          "n": 13,
+          "t": "et-ils-ont-dit à/pour-lui à/pour-dire non car lier nous-lierons-toi et-nous-avons-donné-toi dans-main-de-eux, et-faire-mourir non nous-ferons-mourir-toi ; cordes nouveaux, et-ont-lié-lui dans-deux et-ont-fait-monter-lui depuis le-Rock."
+        },
+        {
+          "n": 14,
+          "t": "lui venant jusqu'à Balehiy, et-Philistin ont-fait-crier à/pour-rencontrer-de-lui ; esprit-de YHWH et-a-giyiaé sur-lui et-ont-été les-cordes qui sur bras-de-lui comme-les-toiles qui ont-brûlé dans-le-feu, liens-de-lui et-ont-été-dissoudu sur mains-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "Lehi-de âne freshe et-a-trouvé ; main-de-lui et-a-envoyé et-a-pris-elle, et-a-fait-frapper dans-elle mille homme."
+        },
+        {
+          "n": 16,
+          "t": "Samson et-a-dit, dans-Lehi-de le-âne, monceau monceaux ; dans-Lehi-de le-âne, je-ai-fait-frapper mille homme."
+        },
+        {
+          "n": 17,
+          "t": "et-a-été comme-achever-de-lui à/pour-parler, le-Lehi et-a-fait-jeter depuis-main-de-lui ; le-lui Ramata Lehiy et-a-appelé à/pour-le-lieu."
+        },
+        {
+          "n": 18,
+          "t": "et-a-gizjé très YHWH et-a-appelé vers et-a-dit, tu as-donné dans-main-de serviteur-de-toi, la-deliverance la-grande la-celle-ci ; et-maintenant je-mourrai dans-le-soif, et-je-suis-tombé dans-main-de les-incirconcis."
+        },
+        {
+          "n": 19,
+          "t": "dieu et-a-fendu le-mortier qui dans-le-Lehi et-sont-sorti depuis-nous eaux et-a-bu, esprit-de-lui et-est-retourné et-a-guéri ; sur ainsi nom-de-elle En-hakkore Haqore a-appelé qui dans-le-Balehiy, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 20,
+          "t": "et-il-a-jugé Israël dans-jours-de Philistin vingt année."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Samson Gaza-vers et-est-allé ; et-il-a-vu là femme gcewante, et-il-est-venu vers-elle."
+        },
+        {
+          "n": 2,
+          "t": "à/pour-le-Haazatiy à/pour-dire Samson est-venu ici, et-ils-ont-tourné et-ils-ont-gzqé à/pour-lui tout-de le-nuit dans-porte-de la-ville ; et-ils-ont-se-labouré tout-de le-nuit à/pour-dire, jusqu'à lumière-de le-matin et-nous-avons-tué-lui."
+        },
+        {
+          "n": 3,
+          "t": "Samson et-a-menti jusqu'à moitié-de le-nuit et-est-levé dans-moitié-de le-nuit et-a-gjjé dans-barrières-de porte-de la-ville et-dans-deux-de les-poteaux, le-barre, et-a-retiré-eux avec et-a-mis sur épaules-de-lui ; tête-de le-mont, et-a-fait-monter-eux vers qui sur faces-de Hébron."
+        },
+        {
+          "n": 4,
+          "t": "et-il-a-été après ainsi, et-il-a-aimé femme dans-torrent-de Soreq ; et-nom-de-elle Dalila."
+        },
+        {
+          "n": 5,
+          "t": "souverains-de Philistin et-sont-monté vers-elle et-ont-dit à/pour-elle séduis lui et-vois dans-quoi force-de-lui grand, et-dans-quoi nous-vaincrons à/pour-lui, et-nous-avons-lié-lui à/pour-ghwyber-de-lui ; et-nous donnerons à/pour-toi-f, homme, mille et-cent argent."
+        },
+        {
+          "n": 6,
+          "t": "Dalila et-a-dit vers Samson, fais-annoncer-hé donc à/pour-moi, dans-quoi force-de-toi grand ; et-dans-quoi tu-seras-lié à/pour-ghwyber-de-toi."
+        },
+        {
+          "n": 7,
+          "t": "Samson, et-a-dit vers-elle si lieront-moi dans-sept cords frais qui non ont-été-gczmaé ; et-je-ai-gcpzaé et-je-ai-été comme-un-de le-homme."
+        },
+        {
+          "n": 8,
+          "t": "souverains-de Philistin et-ont-fait-monter à/pour-elle sept cords frais qui non ont-été-gczmaé ; et-elle-a-lié-lui dans-eux."
+        },
+        {
+          "n": 9,
+          "t": "et-le-gzqant habitant à/pour-elle dans-le-chambre, et-elle-a-dit vers-lui, Philistin sur-toi Samson ; et-a-extraiu les-cords, comme-lorsque fil-de la-étoupe sera-extraiu dans-faire-sentir-de-lui feu, et-non a-été-su force-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "Dalila et-a-dit vers Samson, voici tu-as-fait-gbztber dans-moi, et-tu-as-parlé vers-moi manquers ; maintenant fais-annoncer-hé donc à/pour-moi, dans-quoi tu-seras-lié."
+        },
+        {
+          "n": 11,
+          "t": "et-il-a-dit vers-elle, si lier ils-lieront-moi dans-cordes nouveaux, qui non il-a-été-fait dans-eux travail ; et-je-ai-gcpzaé et-je-ai-été comme-un-de le-homme."
+        },
+        {
+          "n": 12,
+          "t": "Dalila et-a-pris cordes nouveaux et-elle-a-lié-lui dans-eux et-elle-a-dit vers-lui Philistin sur-toi Samson, et-le-gzqant habitant dans-le-chambre ; et-il-a-extraiu-eux sur bras-de-lui comme-le-thread."
+        },
+        {
+          "n": 13,
+          "t": "Dalila et-a-dit vers Samson jusqu'à ici tu-as-fait-gbztber dans-moi et-tu-as-parlé vers-moi manquers, fais-annoncer-hé à/pour-moi, dans-quoi tu-seras-lié ; et-il-a-dit vers-elle, si tu-f-tisseras sept tresses-de tête-de-moi avec la-tissu."
+        },
+        {
+          "n": 14,
+          "t": "et-elle-a-sonné dans-la-pieu, et-elle-a-dit vers-lui, Philistin sur-toi Samson ; et-a-réveillé depuis-sommeil-de-lui, et-a-retiré la-pieu le-navette et-la-tissu."
+        },
+        {
+          "n": 15,
+          "t": "et-elle-a-dit vers-lui how tu-diras je-ai-aimé-toi-f, et-cœur-de-toi néant ensemble-moi ; celui-ci trois fois tu-as-fait-gbztber dans-moi, et-non tu-as-fait-annoncer à/pour-moi, dans-quoi force-de-toi grand."
+        },
+        {
+          "n": 16,
+          "t": "et-a-été car elle-a-fait-contraindre à/pour-lui dans-paroles-de-elle tout-de les-jours et-elle-a-importuné-lui ; âme-de-lui et-a-gjmpaé à/pour-mourir."
+        },
+        {
+          "n": 17,
+          "t": "et-a-fait-annoncer à/pour-elle tout-de cœur-de-lui rasoir et-a-dit à/pour-elle non est-monté sur tête-de-moi, car nazaréen-de dieu je depuis-ventre-de mère-de-moi ; si je-ai-été-rasé force-de-moi, et-a-détourné depuis-moi et-je-ai-gcpzaé et-je-ai-été comme-tout-de le-homme."
+        },
+        {
+          "n": 18,
+          "t": "Dalila et-a-vu car a-fait-annoncer à/pour-elle tout-de cœur-de-lui et-a-envoyé et-a-appelé à/pour-souverains-de Philistin à/pour-dire montez la-fois, car a-fait-annoncer à/pour-elle à/pour-moi tout-de cœur-de-lui ; souverains-de Philistin, et-sont-monté vers-elle et-ont-fait-monter le-argent dans-main-de-eux."
+        },
+        {
+          "n": 19,
+          "t": "et-elle-a-dormi-lui sur genous-de-elle, et-elle-a-appelé à/pour-le-homme, et-elle-a-rasé, sept tresses-de tête-de-lui ; et-elle-a-fait-commencer à/pour-ghwyber-de-lui, force-de-lui et-a-détourné sur-lui."
+        },
+        {
+          "n": 20,
+          "t": "et-elle-a-dit, Philistin sur-toi Samson ; et-a-réveillé depuis-sommeil-de-lui et-a-dit je-sortirai comme-fois dans-fois et-je-serai-secoué, et-lui non a-su, car YHWH a-détourné sur-lui."
+        },
+        {
+          "n": 21,
+          "t": "Philistin et-ont-gjjé-lui, et-ont-cueilli yeux-de-lui ; et-ils-ont-fait-descendre lui Gaza-vers et-ils-ont-lié-lui dans-les-cuivres, et-il-a-été moudant dans-maison-de les-prisonniers les-liés."
+        },
+        {
+          "n": 22,
+          "t": "poil-de tête-de-lui et-a-fait-commencer à/pour-pousser comme-lorsque a-été-rasé."
+        },
+        {
+          "n": 23,
+          "t": "et-souverains-de Philistin ont-été-recueilli à/pour-sacrifier sacrifice grand à/pour-Ledagon dieu-de-eux et-à/pour-gaieté ; et-ils-ont-dit, dieu-de-nous a-donné dans-main-de-nous, Samson gmcçants-de-nous."
+        },
+        {
+          "n": 24,
+          "t": "et-ils-ont-vu lui le-peuple, et-ils-ont-brillé dieu-de-eux ; car ils-ont-dit dieu-de-nous a-donné dans-main-de-nous gmcçant-de-nous, et-destroy-de terre-de-nous, et-qui a-fait-multiplier tués-de-nous."
+        },
+        {
+          "n": 25,
+          "t": "et-a-été car il-a-bon comme-bon cœur-de-eux, et-ils-ont-dit, appelez à/pour-Samson et-rira à/pour-nous ; et-ont-appelé à/pour-Samson depuis-maison-de les-prisonniers les-liés et-il-a-joué à/pour-faces-de-eux, et-ont-fait-rester lui entre les-colonnes."
+        },
+        {
+          "n": 26,
+          "t": "Samson et-a-dit vers le-youth le-faisant-fortifier dans-main-de-lui fais-reposer-hé moi et-fais-gdtmer-moi et-fais-gfdxer-moi les-colonnes, qui le-maison affermi sur-eux ; et-je-serai-appuyé sur-eux."
+        },
+        {
+          "n": 27,
+          "t": "et-le-maison a-rempli les-hommes et-les-femmes, et-là-vers, tout-de souverains-de Philistin ; et-sur le-toit comme-trois-de mille homme et-femme, les-voyants dans-rire Samson."
+        },
+        {
+          "n": 28,
+          "t": "Samson et-a-appelé vers YHWH et-a-dit ; seigneurs-de-moi Yehvi rappele-moi donc et-fortifie-moi donc sûrement la-fois le-celui-ci le-dieu, et-je-serai-vengé vengeance-de une depuis-deux-de yeux-de-moi depuis-Philistin."
+        },
+        {
+          "n": 29,
+          "t": "Samson et-a-geuqé deux-de colonnes-de le-milieu qui le-maison affermi sur-eux, et-a-été-posé sur-eux ; un dans-right-de-lui et-un dans-gauche-de-lui."
+        },
+        {
+          "n": 30,
+          "t": "Samson et-a-dit mourra âme-de-moi avec Philistin et-a-tendu dans-force, le-maison et-est-tombé sur les-souverains, et-sur tout-de le-peuple qui dans-lui ; et-ils-ont-été les-mourants qui il-a-fait-mourir dans-mort-de-lui, nombreux, depuis-whence il-a-fait-mourir dans-vies-de-lui."
+        },
+        {
+          "n": 31,
+          "t": "frères-de-lui et-sont-descendu et-tout-de maison-de père-de-lui et-ont-porté lui et-sont-monté et-ont-enterré lui entre Zorah et-entre Eshtaol, dans-sépulcre-de Manoah père-de-lui ; et-lui a-jugé Israël vingt année."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "homme et-a-été depuis-mont-de Éphraïm et-nom-de-lui Micahu."
+        },
+        {
+          "n": 2,
+          "t": "et-a-dit à/pour-mère-de-lui mille et-cent le-argent qui a-été-pris à/pour-toi-f et-gagab et-toi as-juré et-aussi as-dit dans-oreilles-de-moi, voici le-argent ensemble-moi je ai-pris-lui ; mère-de-lui béni et-a-dit, fils-de-moi à/pour-YHWH."
+        },
+        {
+          "n": 3,
+          "t": "et-a-fait-retourner mille et-cent le-argent à/pour-mère-de-lui ; mère-de-lui et-a-dit faire-sanctifier je-ai-fait-sanctifier le-argent à/pour-YHWH depuis-main-de-moi à/pour-fils-de-moi à/pour-faire idol et-liquid, et-maintenant je-ferai-retourner-lui à/pour-toi-f."
+        },
+        {
+          "n": 4,
+          "t": "et-il-a-fait-retourner le-argent à/pour-mère-de-lui ; mère-de-lui et-a-pris cent argent et-a-donné-lui à/pour-le-raffinant idol et-a-fait-lui et-liquid, et-a-été dans-maison-de Micahu."
+        },
+        {
+          "n": 5,
+          "t": "et-le-homme Micah, à/pour-lui maison-de dieux ; éphod et-a-fait et-théraphims, et-a-rempli main-de un depuis-fils-de-lui, et-a-été à/pour-lui à/pour-sacrificateur."
+        },
+        {
+          "n": 6,
+          "t": "dans-les-jours les-eux, néant roi dans-Israël ; homme le-droit dans-yeux-de-lui fera."
+        },
+        {
+          "n": 7,
+          "t": "youth et-a-été depuis-Beyt Bethléhem Juda, depuis-famille-de Juda ; et-lui Haleviy et-lui séjournant là."
+        },
+        {
+          "n": 8,
+          "t": "le-homme et-est-allé depuis-la-ville depuis-Beyt Bethléhem Juda, à/pour-séjourner dans-in trouvera ; mont-de Éphraïm et-est-venu jusqu'à maison-de Micah à/pour-faire chemin-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "Micah et-a-dit à/pour-lui depuis-gnf tu-viendras ; Haleviy et-a-dit vers-lui moi depuis-Beyt Bethléhem Juda, et-moi marchant, à/pour-séjourner dans-in trouverai."
+        },
+        {
+          "n": 10,
+          "t": "Micah et-a-dit à/pour-lui habite-hé auprès-moi et-sois à/pour-moi à/pour-père et-à/pour-sacrificateur et-moi donnerai à/pour-toi ten-de argent à/pour-les-jours, et-estimer-de perfidies et-entretien-de-toi ; le-Haleviy et-est-allé."
+        },
+        {
+          "n": 11,
+          "t": "le-Haleviy et-a-fait-consentir à/pour-habiter ensemble le-homme ; le-youth et-a-été à/pour-lui, comme-un-de depuis-fils-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "Micah et-a-rempli main-de le-Haleviy, et-a-été à/pour-lui le-youth à/pour-sacrificateur ; et-il-a-été dans-maison-de Micah."
+        },
+        {
+          "n": 13,
+          "t": "Micah et-a-dit, maintenant je-ai-su, car YHWH fera-améliorer à/pour-moi ; car le-Haleviy a-été à/pour-moi à/pour-sacrificateur."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "dans-les-jours les-eux, néant roi dans-Israël ; et-dans-les-jours les-eux verge-de le-Danite cherchant à/pour-lui héritage à/pour-habiter, car non est-tombé à/pour-lui jusqu'à le-jour le-lui dans-milieu-de verges-de Israël dans-héritage."
+        },
+        {
+          "n": 2,
+          "t": "fils-de Dan et-ont-envoyé depuis-famille-de-eux cinq hommes depuis-extrémités-de-eux hommes fils-de compétence depuis-Zorah et-depuis-Eshtaol à/pour-explorer la-terre et-à/pour-examiner-de-elle, et-ont-dit vers-eux, allez examinez la-terre ; et-ils-sont-venu mont-de Éphraïm jusqu'à maison-de Micah, et-ils-ont-logé là."
+        },
+        {
+          "n": 3,
+          "t": "eux avec maison-de Micah, et-eux ont-fait-reconnaître, voix-de le-youth le-Haleviy ; et-ils-ont-détourné là et-ils-ont-dit à/pour-lui lequel il-a-fait-venir-toi here, et-quoi tu faisant dans-celui-ci et-quoi à/pour-toi gihs."
+        },
+        {
+          "n": 4,
+          "t": "et-a-dit vers-eux, comme-this et-comme-celui-ci, Micah ; a-fait à/pour-moi et-il-a-loué-moi, et-je-ai-été à/pour-lui à/pour-sacrificateur."
+        },
+        {
+          "n": 5,
+          "t": "et-ils-ont-dit à/pour-lui demande donc dans-dieu ; et-sachons, chemin-de-nous est-ce-fera-prosper, qui nous marchants sur-elle."
+        },
+        {
+          "n": 6,
+          "t": "le-sacrificateur et-a-dit à/pour-eux allez à/pour-paix ; before YHWH, chemin-de-vous qui vous-irez dans-elle."
+        },
+        {
+          "n": 7,
+          "t": "et-sont-allé cinq-de les-hommes, et-sont-venu Laish-vers ; et-ont-vu le-peuple qui dans-parmi-de-elle habitante à/pour-sécurité comme-jugement-de Sidonian apaisant et-confiant et-néant faisant-insulter parole dans-la-terre dépossédant restriction, et-lointains eux depuis-Sidonian, et-parole néant à/pour-eux avec homme."
+        },
+        {
+          "n": 8,
+          "t": "frères-de-eux, et-sont-venu vers Zorah et-Eshtaol ; frères-de-eux et-ont-dit à/pour-eux quoi vous."
+        },
+        {
+          "n": 9,
+          "t": "et-ils-ont-dit leve-hé et-nous-montons sur-eux, car nous-avons-vu la-terre, et-voici bone très ; et-vous faisants-gddfer, ne soyez-ghzqé, à/pour-aller à/pour-venir à/pour-déposséder la-terre."
+        },
+        {
+          "n": 10,
+          "t": "comme-venir-de-vous vous-viendrez vers peuple confiant et-la-terre large-de mains, car a-donné-elle dieu dans-main-de-vous ; lieu qui néant là besoin-de, tout-de parole qui dans-la-terre."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-ont-retiré depuis-là depuis-famille-de le-Danite, depuis-Zorah et-depuis-Eshtaol ; six cent homme, ceindu ustensiles-de guerre."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-sont-monté et-ils-ont-campé dans-Veqiryat Yeariym dans-Juda ; sur ainsi ils-ont-appelé à/pour-le-lieu le-lui Mahane Dana jusqu'à le-jour le-celui-ci, voici, après Veqiryat Yeariym."
+        },
+        {
+          "n": 13,
+          "t": "et-ils-ont-passé depuis-là mont-de Éphraïm ; et-ils-sont-venu jusqu'à maison-de Micah."
+        },
+        {
+          "n": 14,
+          "t": "et-ont-répondu cinq-de les-hommes les-marchants à/pour-explorer la-terre Laish et-ont-dit vers frères-de-eux, est-ce-les-vous-avez-su car substance dans-les-maisons les-ces éphod et-théraphims, et-idol et-liquid ; et-maintenant sachez quoi vous-ferez."
+        },
+        {
+          "n": 15,
+          "t": "et-ils-ont-détourné là-vers, et-ils-sont-venu vers maison-de le-youth le-Haleviy maison-de Micah ; et-ils-ont-demandé à/pour-lui à/pour-paix."
+        },
+        {
+          "n": 16,
+          "t": "et-six cent homme ceindus ustensiles-de guerre-de-eux, établis entrée-de le-porte ; qui depuis-fils-de Dan."
+        },
+        {
+          "n": 17,
+          "t": "et-sont-monté cinq-de les-hommes les-marchants à/pour-explorer la-terre sont-venu là-vers, ont-pris le-ginh et-le-éphod, et-les-théraphims et-la-liquid ; et-le-sacrificateur établi entrée-de le-porte, et-six cent le-homme, le-ceindu ustensiles-de la-guerre."
+        },
+        {
+          "n": 18,
+          "t": "et-ces ils-sont-venu maison-de Micah, et-ils-ont-pris idol-de le-éphod, et-les-théraphims et-la-liquid ; le-sacrificateur, et-a-dit vers-eux quoi vous faisants."
+        },
+        {
+          "n": 19,
+          "t": "et-ils-ont-dit à/pour-lui fais-labourer metts main-de-toi sur bouche-de-toi et-va avec-nous, et-sois à/pour-nous à/pour-père et-à/pour-sacrificateur ; est-ce-bon être-de-toi sacrificateur à/pour-maison-de homme un, ou être-de-toi sacrificateur, à/pour-verge et-à/pour-famille dans-Israël."
+        },
+        {
+          "n": 20,
+          "t": "cœur-de le-sacrificateur et-a-amélioré, et-a-pris le-éphod, et-les-théraphims et-le-idol ; et-il-est-venu dans-parmi-de le-peuple."
+        },
+        {
+          "n": 21,
+          "t": "et-ils-ont-tourné et-ils-sont-allé ; et-ils-ont-mis le-enfant et-le-bétail et-la-abondance à/pour-faces-de-eux."
+        },
+        {
+          "n": 22,
+          "t": "eux ont-fait-éloigner depuis-maison-de Micah ; et-les-hommes qui dans-les-maisons qui avec maison-de Micah, ont-été-gcfoé, et-ont-fait-coller fils-de Dan."
+        },
+        {
+          "n": 23,
+          "t": "fils-de Dan, et-ont-appelé vers et-ont-fait-tourner faces-de-eux ; et-ils-ont-dit à/pour-Micah, quoi à/pour-toi car tu-as-été-gcfoé."
+        },
+        {
+          "n": 24,
+          "t": "et-il-a-dit dieux-de-moi qui je-ai-fait vous-avez-pris et-le-sacrificateur et-vous-êtes-allé et-quoi à/pour-moi encore ; et-quoi celui-ci vous-direz vers-moi quoi à/pour-toi-f."
+        },
+        {
+          "n": 25,
+          "t": "fils-de Dan, et-ont-dit vers-lui ne tu-fasses-écouter voix-de-toi avec-nous ; sinon hommes amers-de rencontreront dans-vous âme, et-tu-as-recueilli âme-de-toi et-âme-de maison-de-toi."
+        },
+        {
+          "n": 26,
+          "t": "fils-de Dan et-sont-allé à/pour-chemin-de-eux ; Micah et-a-vu car forts eux depuis-nous, et-a-tourné maison-de-lui et-est-retourné vers."
+        },
+        {
+          "n": 27,
+          "t": "et-eux ont-pris qui Micah a-fait et-le-sacrificateur qui a-été à/pour-lui et-sont-venu sur Laish sur peuple apaisant et-confiant, et-ont-fait-frapper eux à/pour-bouche-de épée ; et-la-ville ils-ont-brûlé dans-le-feu."
+        },
+        {
+          "n": 28,
+          "t": "et-néant faisant-délivrer car lointaine lui depuis-Sidon et-parole néant à/pour-eux avec homme, et-lui, dans-le-vallée qui à/pour-Beth-rehob Rehoba ; et-ils-ont-bâti la-ville et-ils-ont-habité dans-elle."
+        },
+        {
+          "n": 29,
+          "t": "et-ils-ont-appelé nom-de la-ville Dan, dans-nom-de Dan père-de-eux, qui engendrera à/pour-Israël ; et-mais Laish nom-de la-ville à/pour-la-premiere."
+        },
+        {
+          "n": 30,
+          "t": "fils-de Dan et-ont-fait-lever à/pour-eux le-idol ; et-Jonathan fils-de Gershom fils-de Manassé lui et-fils-de-lui ont-été sacrificateurs à/pour-verge-de le-Danite, jusqu'à jour-de découvrir la-terre."
+        },
+        {
+          "n": 31,
+          "t": "et-ils-ont-mis à/pour-eux, idol-de Micah qui il-a-fait ; tout-de jours-de être maison-de le-dieu dans-Shiloh."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été dans-les-jours les-eux, et-roi néant dans-Israël ; homme Haleviy séjournant et-a-été dans-flancs-de mont-de Éphraïm, et-a-pris à/pour-lui femme concubine, depuis-Beyt Bethléhem Juda."
+        },
+        {
+          "n": 2,
+          "t": "concubine-de-lui, et-a-gcewé sur-lui et-est-allé ensemble-lui vers maison-de père-de-elle, vers Beyt Bethléhem Juda ; et-elle-a-été là, jours quatre mois."
+        },
+        {
+          "n": 3,
+          "t": "homme-de-elle et-est-levé et-est-allé après-elle à/pour-parler sur cœur-de-elle à/pour-faire-retourner-de-lui à/pour-faire-retourner-de-elle, et-youth-de-lui avec-lui et-paire-de ânes ; et-elle-a-fait-venir-lui maison-de père-de-elle, et-a-vu-lui père-de la-servante, et-a-réjoui à/pour-rencontrer-de-lui."
+        },
+        {
+          "n": 4,
+          "t": "et-a-fortifié dans-lui gdeyaant-de-lui père-de la-servante, et-a-habité ensemble-lui trois-de jours ; et-ils-ont-mangé et-ils-ont-bu, et-ils-ont-logé là."
+        },
+        {
+          "n": 5,
+          "t": "et-il-a-été dans-le-jour le-quatrième, et-ils-ont-fait-gkruer dans-le-matin et-il-est-levé à/pour-aller ; père-de la-servante et-a-dit vers gendre-de-lui fortifie cœur-de-toi morceau-de pain et-après vous-irez."
+        },
+        {
+          "n": 6,
+          "t": "et-ils-ont-habité et-ils-ont-mangé deux-de-eux union et-ils-ont-bu ; père-de la-servante et-a-dit vers le-homme, fais-consentir donc et-loge et-améliorera cœur-de-toi."
+        },
+        {
+          "n": 7,
+          "t": "le-homme et-est-levé à/pour-aller ; et-il-a-pressé dans-lui gdeyaant-de-lui, et-il-est-retourné et-il-a-logé là."
+        },
+        {
+          "n": 8,
+          "t": "et-a-fait-gkruer dans-le-matin dans-le-jour le-cinquième à/pour-aller père-de la-servante et-a-dit fortifie donc volonté-de-toi, et-tardez jusqu'à tendre le-jour ; et-ils-ont-mangé deux-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "le-homme et-est-levé à/pour-aller, lui et-concubine-de-lui et-youth-de-lui ; et-a-dit à/pour-lui gdeyaant-de-lui père-de la-servante voici donc a-baissé le-jour à/pour-gibner logez donc voici camper le-jour loge gihs et-améliorera volonté-de-toi, et-vous-avez-fait-gkruer demain à/pour-chemin-de-vous, et-tu-as-marché à/pour-tente-de-toi."
+        },
+        {
+          "n": 10,
+          "t": "et-non le-homme a-voulu à/pour-loger, et-est-levé et-est-allé Jebus, et-est-venu jusqu'à before lui Jérusalem ; et-avec-lui paire-de ânes sellés, et-concubine-de-lui avec-lui."
+        },
+        {
+          "n": 11,
+          "t": "eux avec Jebus, et-le-jour a-subjugué très ; le-youth et-a-dit vers lords-de-lui va-hé donc et-nous-détournons vers ville-de le-Jebusite la-celle-ci et-nous-logerons dans-elle."
+        },
+        {
+          "n": 12,
+          "t": "et-il-a-dit vers-lui lords-de-lui, non nous-détournerons vers ville étranger, qui non depuis-fils-de Israël ici ; et-nous-avons-passé jusqu'à Gibeah."
+        },
+        {
+          "n": 13,
+          "t": "et-il-a-dit à/pour-youth-de-lui, va et-nous-present dans-un-de les-lieux ; et-nous-avons-logé dans-le-Gibeah ou dans-le-Ramah."
+        },
+        {
+          "n": 14,
+          "t": "et-ils-ont-passé et-ils-sont-allé ; le-soleil, et-est-venu à/pour-eux joignant le-Gibeah qui à/pour-Benjamin."
+        },
+        {
+          "n": 15,
+          "t": "et-ils-ont-détourné là, à/pour-venir à/pour-loger dans-le-Gibeah ; et-est-venu et-a-habité dans-place-de la-ville, et-néant homme recueillissant eux le-maison-vers à/pour-loger."
+        },
+        {
+          "n": 16,
+          "t": "et-voici homme vieux venant depuis acte-de-lui depuis le-champ dans-le-soir, et-le-homme depuis-mont-de Éphraïm, et-lui séjournant dans-le-Gibeah ; et-hommes-de le-lieu Garap-de Benjaminite."
+        },
+        {
+          "n": 17,
+          "t": "et-il-a-porté yeux-de-lui et-il-a-vu le-homme le-voyageant dans-place-de la-ville ; le-homme le-vieux et-a-dit where tu-iras et-depuis-gnf tu-viendras."
+        },
+        {
+          "n": 18,
+          "t": "et-a-dit vers-lui passants nous depuis-Beyt Bethléhem Juda jusqu'à flancs-de mont-de Éphraïm depuis-là moi, et-suis-allé, jusqu'à Beyt Bethléhem Juda ; et-maison-de YHWH je marchant, et-néant homme, recueillissant moi le-maison-vers."
+        },
+        {
+          "n": 19,
+          "t": "et-aussi paille aussi fourrage substance à/pour-ânes-de-nous, et-aussi pain et-vin substance à/pour-moi et-à/pour-maidservant-de-toi, et-à/pour-le-youth avec serviteurs-de-toi ; néant besoin-de tout-de parole."
+        },
+        {
+          "n": 20,
+          "t": "le-homme le-vieux paix et-a-dit à/pour-toi-f, seulement tout-de besoin-de-toi sur-moi ; seulement dans-la-place ne tu-loges."
+        },
+        {
+          "n": 21,
+          "t": "et-il-a-fait-venir-lui à/pour-maison-de-lui, et-il-a-mêlé à/pour-les-ânes ; et-ils-ont-lavé pieds-de-eux, et-ils-ont-mangé et-ils-ont-bu."
+        },
+        {
+          "n": 22,
+          "t": "eux faisants-améliorer cœur-de-eux et-voici hommes-de la-ville hommes-de fils-de indignité ont-été-tourné le-maison, se-frappants sur la-barrière ; et-ils-ont-dit vers le-homme mari-de le-maison le-vieux à/pour-dire, fais-sortir le-homme qui est-venu vers maison-de-toi et-nous-saurons-lui."
+        },
+        {
+          "n": 23,
+          "t": "le-homme et-est-sorti vers-eux mari-de le-maison, et-a-dit vers-eux, ne frères-de-moi ne vous-fassiez-nuire donc ; après qui le-homme est-venu le-celui-ci vers maison-de-moi, ne vous-fassiez la-folie la-celle-ci."
+        },
+        {
+          "n": 24,
+          "t": "voici fille-de-moi la-vierge et-concubine-de-lui je-fasse-sortir donc eux et-ghwybez eux, et-faites à/pour-eux, le-bon dans-yeux-de-vous ; et-à/pour-le-homme le-celui-ci non vous-ferez, parole-de la-folie la-celle-ci."
+        },
+        {
+          "n": 25,
+          "t": "et-non les-hommes ont-voulu à/pour-écouter à/pour-lui, et-a-fait-fortifier le-homme dans-concubine-de-lui, et-a-fait-sortir vers-eux le-dehors ; et-ils-ont-su elle et-ils-ont-se-traité dans-elle tout-de le-nuit jusqu'à le-matin, et-ils-ont-envoyé-elle dans-monter comme-monter le-aube."
+        },
+        {
+          "n": 26,
+          "t": "la-femme et-est-venu à/pour-tourner le-matin ; et-est-tombé entrée-de maison-de le-homme qui lords-de-elle là jusqu'à la-lumière."
+        },
+        {
+          "n": 27,
+          "t": "et-il-est-levé lords-de-elle dans-le-matin et-il-a-gitaaé barrières-de le-maison, et-il-est-sorti à/pour-aller à/pour-chemin-de-lui ; et-voici la-femme concubine-de-lui tombante entrée-de le-maison, et-mains-de-elle sur le-gobelet."
+        },
+        {
+          "n": 28,
+          "t": "et-il-a-dit vers-elle leve et-nous-allons et-néant répondant ; le-âne, et-a-pris-elle sur et-est-levé le-homme, et-est-allé à/pour-lieu-de-lui."
+        },
+        {
+          "n": 29,
+          "t": "maison-de-lui et-est-venu vers et-a-pris la-couteau et-a-fait-fortifier dans-concubine-de-lui, et-a-coupé-elle à/pour-os-de-elle, à/pour-deux dix pieces ; et-il-a-envoyé-elle, dans-tout-de frontière-de Israël."
+        },
+        {
+          "n": 30,
+          "t": "tout-de et-a-été le-voyant et-a-dit non elle-a-été-été et-non elle-a-été-vu comme-celle-ci, à/pour-jour-de monter fils-de Israël depuis-terre-de Égypte, jusqu'à le-jour le-celui-ci ; mettez à/pour-vous sur-elle conseillez et-parlez."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ils-sont-sorti tout-de fils-de Israël la-assemblée et-a-été-assemblé comme-homme un à/pour-Dan et-jusqu'à Beera Beersheba, et-terre-de le-Gilead ; vers YHWH le-Mizpah."
+        },
+        {
+          "n": 2,
+          "t": "et-ils-ont-se-fixé angles-de tout-de le-peuple tout-de verges-de Israël, dans-congrégation-de peuple-de le-dieu ; quatre cent mille homme gjss tirant épée."
+        },
+        {
+          "n": 3,
+          "t": "fils-de Benjamin et-ont-écouté, car sont-monté fils-de Israël le-Mizpah ; fils-de Israël et-ont-dit, parlez, gmkb a-été-été la-mal la-celle-ci."
+        },
+        {
+          "n": 4,
+          "t": "le-homme le-Haleviy et-a-répondu homme-de la-femme la-assassinée et-a-dit ; le-Gibeah-vers qui à/pour-Benjamin, je suis-venu et-concubine-de-moi à/pour-loger."
+        },
+        {
+          "n": 5,
+          "t": "maris-de le-Gibeah, et-sont-levé sur-moi et-ont-tourné sur-moi le-maison nuit ; moi ils-ont-ressemblé à/pour-tuer, et-concubine-de-moi ils-ont-ghwybé et-elle-est-mort."
+        },
+        {
+          "n": 6,
+          "t": "et-je-ai-gjjé dans-concubine-de-moi et-je-ai-coupé-elle, et-je-ai-envoyé-elle, dans-tout-de champ-de héritage-de Israël ; car ils-ont-fait plan et-folie dans-Israël."
+        },
+        {
+          "n": 7,
+          "t": "voici tout-de-vous fils-de Israël ; pourvoir à/pour-vous parole et-avis here."
+        },
+        {
+          "n": 8,
+          "t": "tout-de le-peuple et-est-levé, comme-homme un à/pour-dire ; non nous-irons homme à/pour-tente-de-lui, et-non nous-détournerons homme à/pour-maison-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "et-maintenant, celui-ci le-parole, qui nous-ferons à/pour-le-Gibeah ; sur-elle dans-sort."
+        },
+        {
+          "n": 10,
+          "t": "et-nous-avons-pris ten hommes à/pour-le-cent à/pour-tout-de verges-de Israël et-cent à/pour-le-mille et-mille à/pour-la-myriade, à/pour-prendre provision à/pour-le-peuple ; à/pour-faire à/pour-venir-de-eux à/pour-Geba Benjamin, comme-tout-de la-folie, qui a-fait dans-Israël."
+        },
+        {
+          "n": 11,
+          "t": "tout-de homme-de Israël et-a-été-recueilli vers la-ville, comme-homme un unis."
+        },
+        {
+          "n": 12,
+          "t": "verges-de Israël hommes et-ont-envoyé, dans-tout-de verges-de Benjamin à/pour-dire ; quoi la-mal la-celle-ci, qui a-été-été dans-vous."
+        },
+        {
+          "n": 13,
+          "t": "et-maintenant donnez les-hommes fils-de indignité qui dans-le-Gibeah et-nous-faisons-mourir-eux, et-nous-brûlons mal depuis-Israël ; et-non ont-voulu Benjamin, à/pour-écouter, dans-voix-de frères-de-eux fils-de Israël."
+        },
+        {
+          "n": 14,
+          "t": "fils-de Benjamin et-ont-été-recueilli depuis les-villes le-Gibeah-vers ; à/pour-sortir à/pour-la-guerre avec fils-de Israël."
+        },
+        {
+          "n": 15,
+          "t": "fils-de Benjamin et-ont-se-visité dans-le-jour le-lui depuis-les-villes, vingt et-six mille homme tirant épée ; à/pour-seul depuis-habitants-de le-Gibeah ils-ont-se-visité, sept cent homme choisi."
+        },
+        {
+          "n": 16,
+          "t": "depuis-tout-de le-peuple le-celui-ci sept cent homme choisi, lié-de main-de right-de-lui ; tout-de celui-ci gjkcaant dans-la-pierre vers la-hair et-non fera-pécher."
+        },
+        {
+          "n": 17,
+          "t": "et-homme-de Israël ils-ont-se-visité à/pour-seul depuis-Benjamin, quatre cent mille homme tirant épée ; tout-de celui-ci homme-de guerre."
+        },
+        {
+          "n": 18,
+          "t": "et-sont-levé et-sont-monté Lebeyt Bethel et-ont-demandé dans-dieu fils-de Israël et-ont-dit, lequel montera à/pour-nous dans-la-commencement, à/pour-la-guerre avec fils-de Benjamin ; YHWH Juda et-a-dit dans-la-commencement."
+        },
+        {
+          "n": 19,
+          "t": "fils-de Israël et-sont-levé dans-le-matin ; et-ils-ont-campé sur le-Gibeah."
+        },
+        {
+          "n": 20,
+          "t": "homme-de Israël et-est-sorti, à/pour-la-guerre avec Benjamin ; et-ils-ont-arrangé ensemble-eux homme-de Israël guerre vers le-Gibeah."
+        },
+        {
+          "n": 21,
+          "t": "fils-de Benjamin et-sont-sorti depuis le-Gibeah ; et-ils-ont-détruit dans-Israël dans-le-jour le-lui deux et-vingt mille homme terre-vers."
+        },
+        {
+          "n": 22,
+          "t": "le-peuple et-a-se-fortifié homme-de Israël ; et-ils-ont-fait-ajouter à/pour-arranger guerre, dans-le-lieu, qui ils-ont-arrangé là dans-le-jour le-premier."
+        },
+        {
+          "n": 23,
+          "t": "fils-de Israël et-sont-monté et-ont-pleuré à/pour-faces-de YHWH jusqu'à le-soir et-ont-demandé dans-YHWH à/pour-dire, est-ce-je-ferai-ajouter à/pour-approcher à/pour-la-guerre, avec fils-de Benjamin frère-de-moi ; YHWH et-a-dit montez vers-lui."
+        },
+        {
+          "n": 24,
+          "t": "fils-de Israël et-ont-present vers fils-de Benjamin dans-le-jour le-second."
+        },
+        {
+          "n": 25,
+          "t": "Benjamin et-est-sorti à/pour-rencontrer-de-eux depuis le-Gibeah dans-le-jour le-second et-ils-ont-détruit dans-fils-de Israël encore huit-de dix mille homme terre-vers ; tout-de ces tirants-de épée."
+        },
+        {
+          "n": 26,
+          "t": "et-ils-sont-monté tout-de fils-de Israël et-tout-de le-peuple et-ils-sont-venu Lebeyt Bethel et-ils-ont-pleuré et-ils-ont-habité là à/pour-faces-de YHWH, et-ils-ont-jeûné dans-le-jour le-lui jusqu'à le-soir ; et-ont-fait-monter burnts et-récompenses à/pour-faces-de YHWH."
+        },
+        {
+          "n": 27,
+          "t": "fils-de Israël et-ont-demandé dans-YHWH ; et-là arche-de alliance-de le-dieu, dans-les-jours les-eux."
+        },
+        {
+          "n": 28,
+          "t": "et-Phinées fils-de Éléazar fils-de Aaron restant à/pour-faces-de-lui dans-les-jours les-eux à/pour-dire est-ce-je-ferai-ajouter encore à/pour-sortir à/pour-la-guerre avec fils-de Benjamin frère-de-moi si je-cesserai ; YHWH et-a-dit montez, car demain je-donnerai-lui dans-main-de-toi."
+        },
+        {
+          "n": 29,
+          "t": "Israël gzqants et-a-mis, vers le-Gibeah alentour."
+        },
+        {
+          "n": 30,
+          "t": "fils-de Israël et-sont-monté vers fils-de Benjamin dans-le-jour le-troisième ; et-ils-ont-arrangé vers le-Gibeah comme-fois dans-fois."
+        },
+        {
+          "n": 31,
+          "t": "fils-de Benjamin et-sont-sorti à/pour-rencontrer le-peuple, ont-été-fait-extraire depuis la-ville ; et-ils-ont-fait-commencer à/pour-faire-frapper depuis-le-peuple tués comme-fois dans-fois dans-les-highways qui une montante Lebeyt Bethel et-une Gibeah-vers dans-le-champ, comme-trente homme dans-Israël."
+        },
+        {
+          "n": 32,
+          "t": "fils-de Benjamin battus eux et-ont-dit, à/pour-faces-de-nous comme-la-premiere ; et-fils-de Israël ont-dit nous-fuissons et-nous-avons-extraiu-lui, depuis la-ville vers les-highways."
+        },
+        {
+          "n": 33,
+          "t": "et-tout-de homme-de Israël ils-sont-levé depuis-lieu-de-lui, et-ils-ont-arrangé dans-Bebaal Baal-tamar ; et-gzqant-de Israël faisant-gbfjer depuis-lieu-de-lui depuis-prairie-de Gibeah."
+        },
+        {
+          "n": 34,
+          "t": "et-ils-sont-venu devant à/pour-le-Gibeah ten-de mille homme choisi depuis-tout-de Israël, et-la-guerre a-honor ; et-eux non ont-su, car touchante sur-eux la-mal."
+        },
+        {
+          "n": 35,
+          "t": "YHWH et-a-battu Benjamin à/pour-faces-de Israël et-ont-détruit fils-de Israël dans-Benjamin dans-le-jour le-lui, vingt et-cinq mille et-cent homme ; tout-de ces tirant épée."
+        },
+        {
+          "n": 36,
+          "t": "fils-de Benjamin et-ont-vu car ont-été-battu ; et-ils-ont-donné homme-de Israël lieu à/pour-Benjamin, car ils-ont-confié vers le-gzqant, qui ils-ont-mis vers le-Gibeah."
+        },
+        {
+          "n": 37,
+          "t": "et-le-gzqant ils-ont-fait-gclwaer, et-ils-ont-dépouillé vers le-Gibeah ; et-il-a-traîné le-gzqant, et-il-a-fait-frapper tout-de la-ville à/pour-bouche-de épée."
+        },
+        {
+          "n": 38,
+          "t": "et-le-rencontre a-été à/pour-homme-de Israël avec le-gzqant ; fais-multiplier, à/pour-faire-monter-de-eux élévation-de le-fumée depuis la-ville."
+        },
+        {
+          "n": 39,
+          "t": "homme-de Israël et-a-tourné dans-la-guerre ; et-Benjamin a-fait-commencer à/pour-faire-frapper tués dans-homme-de Israël comme-trente homme, car ils-ont-dit, sûrement être-battre battu lui à/pour-faces-de-nous, comme-la-guerre la-premiere."
+        },
+        {
+          "n": 40,
+          "t": "et-la-élévation a-fait-commencer à/pour-monter depuis la-ville colonne-de fumée ; Benjamin et-a-tourné après-lui, et-voici est-monté entier-de la-ville les-ciels-vers."
+        },
+        {
+          "n": 41,
+          "t": "et-homme-de Israël a-tourné, homme-de Benjamin et-a-été-terrifié ; car il-a-vu, car la-mal a-touché sur-lui."
+        },
+        {
+          "n": 42,
+          "t": "et-ils-ont-tourné à/pour-faces-de homme-de Israël vers chemin-de le-désert, et-la-guerre a-fait-coller-lui ; et-qui depuis-les-villes, détruiants lui dans-milieu-de-lui."
+        },
+        {
+          "n": 43,
+          "t": "ils-ont-entouré Benjamin ils-ont-fait-poursuivre-lui, repos ils-ont-fait-marcher-lui ; jusqu'à before le-Gibeah depuis-east-de soleil."
+        },
+        {
+          "n": 44,
+          "t": "et-ils-sont-tombé depuis-Benjamin, huit dix mille homme ; tout-de ces hommes-de compétence."
+        },
+        {
+          "n": 45,
+          "t": "et-ils-ont-tourné et-ils-ont-fui le-désert-vers vers Rock-de le-Verimon, et-ils-ont-ghtybé-lui dans-les-highways, cinq-de mille homme ; et-ils-ont-fait-coller après-lui jusqu'à Gidom, et-ils-ont-fait-frapper depuis-nous mille homme."
+        },
+        {
+          "n": 46,
+          "t": "tout-de et-a-été les-tombants depuis-Benjamin vingt et-cinq mille homme tirant épée dans-le-jour le-lui ; tout-de ces hommes-de compétence."
+        },
+        {
+          "n": 47,
+          "t": "et-ils-ont-tourné et-ils-ont-fui le-désert-vers vers Rock-de le-Verimon, six cent homme ; et-ont-habité dans-Rock-de Verimon, quatre mois."
+        },
+        {
+          "n": 48,
+          "t": "et-homme-de Israël fils-de Benjamin sont-retourné vers et-ont-fait-frapper-eux à/pour-bouche-de épée, depuis-ville-de solidité jusqu'à bête, jusqu'à tout-de le-trouvé ; aussi tout-de les-villes les-trouvées ils-ont-envoyé dans-le-feu."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-homme-de Israël, a-été-juré dans-le-Mizpah à/pour-dire ; homme depuis-nous, non donnera fille-de-lui à/pour-Benjamin à/pour-femme."
+        },
+        {
+          "n": 2,
+          "t": "le-peuple Lebeyt Bethel et-est-venu, et-ils-ont-habité là jusqu'à le-soir, à/pour-faces-de le-dieu ; et-ils-ont-porté voix-de-eux, et-ils-ont-pleuré weeping grand."
+        },
+        {
+          "n": 3,
+          "t": "et-ils-ont-dit, à/pour-quoi YHWH dieu-de Israël, elle-a-été celle-ci dans-Israël ; à/pour-être-visiter le-jour depuis-Israël verge un."
+        },
+        {
+          "n": 4,
+          "t": "et-a-été depuis-morrow, et-ils-ont-fait-gkruer le-peuple, et-ils-ont-bâti là autel ; et-ont-fait-monter burnts et-récompenses."
+        },
+        {
+          "n": 5,
+          "t": "fils-de Israël et-ont-dit, lequel qui non est-monté dans-le-congrégation depuis-tout-de verges-de Israël vers YHWH ; car la-serment la-grande a-été à/pour-qui non YHWH le-Mizpah est-monté vers à/pour-dire mourir sera-fait-mourir."
+        },
+        {
+          "n": 6,
+          "t": "fils-de Israël et-ont-été-consolé, vers Benjamin frère-de-lui ; et-ils-ont-dit, le-jour verge a-été-abattu un depuis-Israël."
+        },
+        {
+          "n": 7,
+          "t": "quoi nous-ferons à/pour-eux à/pour-les-demeurés à/pour-femmes ; et-nous avons-été-juré dans-YHWH, à/pour-sans donner à/pour-eux depuis-filles-de-nous à/pour-femmes."
+        },
+        {
+          "n": 8,
+          "t": "et-ils-ont-dit, lequel un depuis-verges-de Israël, qui non YHWH le-Mizpah ; est-monté vers et-voici non homme est-venu vers le-camp depuis-Miyabeych Gilead vers le-congrégation."
+        },
+        {
+          "n": 9,
+          "t": "le-peuple et-a-se-visité ; et-voici néant là homme, depuis-habitants-de Miyabeych Gilead."
+        },
+        {
+          "n": 10,
+          "t": "et-ils-ont-envoyé là la-assemblée deux dix mille homme depuis-fils-de le-compétence ; et-ils-ont-commandé eux à/pour-dire allez et-vous-avez-fait-frapper habitants-de Miyabeych Gilead à/pour-bouche-de épée, et-les-femmes et-le-enfant."
+        },
+        {
+          "n": 11,
+          "t": "et-celui-ci le-parole qui vous-ferez ; tout-de mâle et-tout-de femme sachante bed-de mâle vous-ferez-dévouer."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-ont-trouvé depuis-habitants-de Miyabeych Gilead quatre cent servante vierge, qui non a-su homme à/pour-bed-de mâle ; et-ils-ont-fait-venir eux vers le-camp Shiloh, qui dans-terre-de Canaan."
+        },
+        {
+          "n": 13,
+          "t": "et-ont-envoyé tout-de la-assemblée, fils-de Benjamin, et-ont-parlé vers qui dans-Rock-de Verimon ; et-ils-ont-appelé à/pour-eux paix."
+        },
+        {
+          "n": 14,
+          "t": "Benjamin et-est-retourné dans-la-heure la-lui, et-ils-ont-donné à/pour-eux les-femmes, qui ont-guéri, depuis-femmes-de Miyabeych Gilead ; et-non ils-ont-trouvé à/pour-eux ainsi."
+        },
+        {
+          "n": 15,
+          "t": "et-le-peuple consolé à/pour-Benjamin ; car YHWH brèche a-fait dans-verges-de Israël."
+        },
+        {
+          "n": 16,
+          "t": "et-ils-ont-dit vieux-de la-assemblée, quoi nous-ferons à/pour-les-demeurés à/pour-femmes ; car femme a-été-exterminé depuis-Benjamin."
+        },
+        {
+          "n": 17,
+          "t": "et-ils-ont-dit, possession-de fuite à/pour-Benjamin ; et-non verge sera-essuyé depuis-Israël."
+        },
+        {
+          "n": 18,
+          "t": "et-nous non vaincrons à/pour-donner à/pour-eux femmes depuis-filles-de-nous ; car fils-de Israël ont-été-juré à/pour-dire, maudit, donnant femme à/pour-Benjamin."
+        },
+        {
+          "n": 19,
+          "t": "et-ont-dit voici fête-de YHWH dans-Shiloh depuis-jours jours-vers qui depuis-nord-vers à/pour-Lebeyt Bethel east-de le-soleil, à/pour-highway, la-montante depuis-Lebeyt Bethel Shechem-vers ; et-depuis-negeb à/pour-Lebonah."
+        },
+        {
+          "n": 20,
+          "t": "et-ils-ont-commandé, fils-de Benjamin à/pour-dire ; allez et-vous-avez-gzqé dans-les-vignobles."
+        },
+        {
+          "n": 21,
+          "t": "et-vous-avez-vu et-voici si sortiront filles-de Shiloh à/pour-trembler dans-les-danses et-vous-êtes-sorti depuis les-vignobles, et-vous-avez-attrapé à/pour-vous homme femme-de-lui depuis-filles-de Shiloh ; et-vous-avez-marché terre-de Benjamin."
+        },
+        {
+          "n": 22,
+          "t": "et-a-été car pères-de-eux viendront ou frères-de-eux à/pour-gjwter vers-nous et-nous-avons-dit vers-eux graciez-nous eux, car non nous-avons-pris homme femme-de-lui dans-la-guerre ; car non vous avez-donné à/pour-eux comme-la-heure empiéterez."
+        },
+        {
+          "n": 23,
+          "t": "fils-de Benjamin, et-ont-fait ainsi et-ont-porté femmes à/pour-nombre-de-eux, depuis les-tremblantes qui ont-pillé ; et-ils-sont-allé et-ils-sont-retourné vers héritage-de-eux, et-ils-ont-bâti les-villes, et-ils-ont-habité dans-eux."
+        },
+        {
+          "n": 24,
+          "t": "fils-de Israël et-ont-se-marché depuis-là dans-la-heure le-lui-elle, homme à/pour-verge-de-lui et-à/pour-famille-de-lui ; et-ils-sont-sorti depuis-là, homme à/pour-héritage-de-lui."
+        },
+        {
+          "n": 25,
+          "t": "dans-les-jours les-eux, néant roi dans-Israël ; homme le-droit dans-yeux-de-lui fera."
+        }
+      ]
+    }
+  ]
+}

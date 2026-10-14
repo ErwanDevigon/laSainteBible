@@ -1,0 +1,382 @@
+{
+  "id": "ruth",
+  "title": "Livre de Ruth",
+  "original_title": "Ruth",
+  "short": "Rt",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been in-days-of judge the-judging, famine and-has-been in-the-land ; man and-has-walked from-Beyt Bethlehem Judah to/for-sojourn in-fields-of Moab, he and-woman-of-him and-two-of sons-of-him."
+        },
+        {
+          "n": 2,
+          "t": "and-name-of the-man Elimelech and-name-of woman-of-him Naomi and-name-of two-of sons-of-him Mahlon and-Chilion Ephraimite, from-Beyt Bethlehem Judah ; fields-of Moab and-have-come and-have-been there."
+        },
+        {
+          "n": 3,
+          "t": "Elimelech and-has-died man-of Naomi ; he and-has-been-remained and-two-of sons-of-her."
+        },
+        {
+          "n": 4,
+          "t": "and-they-have-lifted to/for-them womans Moabite, name-of the-one Orpah, and-name-of the-second Ruth ; and-they-have-dwelt there like-ten years."
+        },
+        {
+          "n": 5,
+          "t": "and-they-have-died also two-of-them Mahlon and-Chilion ; the-woman and-has-been-remained, from-two-of youths-of-her and-from-man-of-her."
+        },
+        {
+          "n": 6,
+          "t": "he and-has-risen and-daughter-in-laws-of-her, and-has-returned from-fields-of Moab ; for has-heard in-field-of Moab, for YHWH has-reckoned people-of-him, to/for-give to/for-them food."
+        },
+        {
+          "n": 7,
+          "t": "and-she-has-exited from the-place who she-has-been there-ward, and-two-of daughter-in-laws-of-her with-her ; and-they-f-have-walked in-the-way, to/for-return toward land-of Judah."
+        },
+        {
+          "n": 8,
+          "t": "Naomi and-has-said to/for-two-of daughter-in-laws-of-her, walk return, woman to/for-house-of mother-of-her ; YHWH will-do let-do with-you-pl kindness, like-when you-pl-have-done with the-dying and-with-me."
+        },
+        {
+          "n": 9,
+          "t": "YHWH will-give to/for-you-pl, and-find nohah, woman house-of man-of-her ; and-she-has-kissed to/for-them-f, and-they-f-have-lifted voice-of-them-f and-they-f-have-weeped."
+        },
+        {
+          "n": 10,
+          "t": "and-they-f-have-said to/for-her ; for with-you-f we-will-return to/for-people-of-you-f."
+        },
+        {
+          "n": 11,
+          "t": "Naomi and-has-said return daughters-of-me, to/for-what you-fp-will-walk with-me ; is-it-still to/for-me sons in-bellies-of-me, and-have-been to/for-you-pl to/for-mans."
+        },
+        {
+          "n": 12,
+          "t": "return daughters-of-me walk, for I-have-olded from-be to/for-man ; for I-have-said there to/for-me hope, also I-have-been the-night to/for-man, and-also I-have-begotten sons."
+        },
+        {
+          "n": 13,
+          "t": "is-it-therefore you-fp-will-await until who they-will-magnify, is-it-therefore you-fp-will-be-refrained, to/for-without be to/for-man ; do-not daughters-of-me for has-provoked to/for-me very from-you-pl, for hand-of YHWH has-exited in-me."
+        },
+        {
+          "n": 14,
+          "t": "and-they-f-have-lifted voice-of-them-f, and-they-f-have-weeped still ; Orpah and-has-kissed to/for-mother-in-law-of-her, and-Ruth she-has-cleaved in-her."
+        },
+        {
+          "n": 15,
+          "t": "and-has-said behold sister-in-law-of-you-f has-returned, toward people-of-her and-toward gods-of-her ; return after sister-in-law-of-you-f."
+        },
+        {
+          "n": 16,
+          "t": "Ruth and-has-said do-not let-fall in-me, to/for-leave-of-you-f to/for-return after-you-f ; for toward who you-f-will-walk I-will-walk and-in-in you-f-will-lodge I-will-lodge, people-of-you-f people-of-me, and-god-of-you-f god-of-me."
+        },
+        {
+          "n": 17,
+          "t": "in-in you-f-will-die I-will-die, and-there I-will-be-buried ; thus YHWH will-do to/for-me and-thus will-make-add, for the-death, will-make-separate between-me and-between-you-f."
+        },
+        {
+          "n": 18,
+          "t": "and-has-seen, for self-strengthening he to/for-walk with-her ; and-she-has-ceased to/for-speak toward-her."
+        },
+        {
+          "n": 19,
+          "t": "and-they-f-have-walked two-of-them, until come-of-them-f Beyt Bethlehem ; and-has-been like-come-of-them-f Beyt Bethlehem, and-she-has-been-made all-of the-city on-them-f, and-they-f-have-said is-it-this-f Naomi."
+        },
+        {
+          "n": 20,
+          "t": "and-she-has-said toward-them-f, do-not let-call to/for-me Naomi ; call to/for-me Mara, for has-made-provoke Almighty to/for-me very."
+        },
+        {
+          "n": 21,
+          "t": "I full have-gone, and-emptily YHWH has-made-return-me ; to/for-what you-fp-will-call to/for-me Naomi, and-YHWH has-answered in-me, and-Almighty has-made-evil to/for-me."
+        },
+        {
+          "n": 22,
+          "t": "Naomi and-has-returned and-Ruth the-Moabite daughter-in-law-of-her with-her, the-has-returned from-fields-of Moab ; and-they have-come Beyt Bethlehem, in-beginning-of harvest-of barleys."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-to/for-Naomi known kinsman to/for-man-of-her man mighty-of helech, from-family-of Elimelech ; and-name-of-him Boaz."
+        },
+        {
+          "n": 2,
+          "t": "Ruth the-Moabite and-has-said toward Naomi let-me-walk please the-field and-let-me-gather in-the-ears, after, who I-will-find favor in-eyes-of-him ; and-has-said to/for-her walk daughter-of-me."
+        },
+        {
+          "n": 3,
+          "t": "and-she-has-walked and-she-has-come and-she-has-gathered in-the-field, after the-reaping ; accident-of-her and-has-met, portion-of the-field to/for-Boaz, who from-family-of Elimelech."
+        },
+        {
+          "n": 4,
+          "t": "and-behold Boaz coming from-Beyt Bethlehem, and-has-said to/for-the-reaping YHWH with-you-pl ; and-they-have-said to/for-him YHWH will-bless-you."
+        },
+        {
+          "n": 5,
+          "t": "Boaz and-has-said to/for-youth-of-him, the-stood on the-reaping ; to/for-who the-maiden the-this-f."
+        },
+        {
+          "n": 6,
+          "t": "the-youth the-stood and-has-answered on the-reaping and-has-said ; maiden Moabite he, the-returning with Naomi from-field-of Moab."
+        },
+        {
+          "n": 7,
+          "t": "and-she-has-said let-me-gather please and-I-have-gathered in-the-sheafs, after the-reaping ; and-she-has-come and-she-has-stood from-past the-morning and-until now, this dwell-of-her the-house little."
+        },
+        {
+          "n": 8,
+          "t": "Boaz and-has-said toward Ruth is-it-not you-f-have-heard daughter-of-me do-not let-walk to/for-gather in-field another, and-also not you-f-will-pass from-this ; and-thus you-f-will-cleave with maidens-of-me."
+        },
+        {
+          "n": 9,
+          "t": "eyes-of-you-f in-the-field who they-will-reap and-you-f-have-gone after-them-f, is-it-not I-have-commanded the-youths to/for-without touch-of-you-f ; and-you-f-have-thirsted and-you-f-have-gone toward the-articles, and-you-f-have-drunk, from-whence the-youths will-draw."
+        },
+        {
+          "n": 10,
+          "t": "and-has-fallen on faces-of-her, and-has-bowed land-ward ; and-she-has-said toward-him why have-found favor in-eyes-of-you to/for-make-recognize-of-me, and-I foreign."
+        },
+        {
+          "n": 11,
+          "t": "Boaz and-has-answered and-has-said to/for-her, be-make-announce all has-been-made-announce to/for-me who you-f-have-done with mother-in-law-of-you-f, after death-of man-of-you-f ; and-you-f-have-left father-of-you-f and-mother-of-you-f and-land-of relatives-of-you-f, and-you-f-have-walked, toward people, who not you-f-have-known yesterday three."
+        },
+        {
+          "n": 12,
+          "t": "YHWH will-complete work-of-you-f ; wage-of-you-f complete and-let-be from YHWH god-of Israel, who you-f-have-come to/for-refuge under wings-of-him."
+        },
+        {
+          "n": 13,
+          "t": "and-she-has-said I-will-find favor in-eyes-of-you lord-of-me for you-have-sorried-me, and-for you-have-spoken on heart-of maidservant-of-you ; and-I not will-be, like-one-of maidservants-of-you."
+        },
+        {
+          "n": 14,
+          "t": "Boaz and-has-said to/for-her to/for-time-of the-food approach here and-you-f-have-eaten from the-food, and-you-f-have-diped morsel-of-you-f in-the-vinegar ; and-she-has-dwelt from-side-of the-reaping, roasted, and-has-served to/for-her and-she-has-eaten and-she-has-satisfied and-she-has-made-remain."
+        },
+        {
+          "n": 15,
+          "t": "and-she-has-risen to/for-gather ; Boaz and-has-commanded youths-of-him to/for-say also between the-sheafs she-will-gather and-not you-pl-will-make-humiliated-her."
+        },
+        {
+          "n": 16,
+          "t": "and-also take you-pl-will-take to/for-her from the-bundles ; and-you-pl-have-left and-she-has-gathered and-not you-pl-will-rebuke in-her."
+        },
+        {
+          "n": 17,
+          "t": "and-she-has-gathered in-the-field until the-evening ; and-she-has-beated who she-has-gathered, and-he-has-been like-ephah barleys."
+        },
+        {
+          "n": 18,
+          "t": "and-has-lifted the-city and-has-come, and-has-seen mother-in-law-of-her who has-gathered ; and-she-has-made-exit and-she-has-given to/for-her, who she-has-made-remain from-satiety-of-her."
+        },
+        {
+          "n": 19,
+          "t": "mother-in-law-of-her and-has-said to/for-her where you-f-have-gathered the-day and-where you-f-have-done, let-be making-recognize-of-you-f blessed ; and-she-has-made-announce to/for-mother-in-law-of-her who she-has-done with-him, and-she-has-said name-of the-man who I-have-done with-him the-day Boaz."
+        },
+        {
+          "n": 20,
+          "t": "Naomi and-has-said to/for-daughter-in-law-of-her blessed he to/for-YHWH, who not has-left kindness-of-him, with the-living and-with the-dying ; and-she-has-said to/for-her Naomi near to/for-us the-man, from-redeeming-of-us he."
+        },
+        {
+          "n": 21,
+          "t": "Ruth the-Moabite and-has-said ; also for he-has-said toward-me with the-youths who to/for-me you-f-will-cleave, until if have-finished, all-of the-harvest who to/for-me."
+        },
+        {
+          "n": 22,
+          "t": "Naomi and-has-said toward Ruth daughter-in-law-of-her ; good daughter-of-me for you-f-will-exit with maidens-of-him, and-not they-will-fall in-you-f in-field another."
+        },
+        {
+          "n": 23,
+          "t": "and-she-has-cleaved in-maidens-of Boaz to/for-gather, until finish harvest-of the-barleys and-harvest-of the-wheats ; mother-in-law-of-her and-has-dwelt with."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-said to/for-her Naomi mother-in-law-of-her ; daughter-of-me is-it-not I-will-seek to/for-you-f resting who will-improve to/for-you-f."
+        },
+        {
+          "n": 2,
+          "t": "and-now is-it-not Boaz kinsman-of-us, who you-f-have-been with maidens-of-him ; behold he scattering threshing-of the-barleys the-night."
+        },
+        {
+          "n": 3,
+          "t": "and-you-f-have-washed and-you-f-have-anointed and-you-f-have-put mantle-of-you-f mantles-of-you-f on-you-f and-I-have-gone and-you-f-have-gone the-threshing ; do-not let-be-known to/for-the-man, until finish-of-him to/for-eat and-to/for-drink."
+        },
+        {
+          "n": 4,
+          "t": "and-let-him-be in-lie-of-him and-you-f-have-known the-place who he-will-lie there, and-you-f-have-come and-you-f-have-heglamed feets-of-him and-I-have-lain and-you-f-have-lain ; and-he will-make-announce to/for-you-f, who you-f-will-do."
+        },
+        {
+          "n": 5,
+          "t": "and-she-has-said toward-her ; all who you-f-will-say I-will-do."
+        },
+        {
+          "n": 6,
+          "t": "the-threshing and-has-gone ; and-has-done, like-all who mother-in-law-of-her has-commanded-her."
+        },
+        {
+          "n": 7,
+          "t": "Boaz and-has-eaten and-has-drunk heart-of-him and-has-improved, and-has-come, to/for-lie in-end-of the-heap ; and-she-has-come in-the-secrecy, and-she-has-heglamed feets-of-him and-she-has-lain."
+        },
+        {
+          "n": 8,
+          "t": "and-has-been in-half-of the-night, the-man and-has-trembled and-has-been-twisted ; and-behold woman, lying feets-of-him."
+        },
+        {
+          "n": 9,
+          "t": "and-he-has-said who you ; and-has-said I Ruth maidservant-of-you, and-have-spreaded wing-of-you on maidservant-of-you, for redeeming you."
+        },
+        {
+          "n": 10,
+          "t": "and-has-said blessed you to/for-YHWH daughter-of-me, have-made-improve kindness-of-you-f the-last from the-first ; to/for-without walk after the-youths, if poor and-if rich."
+        },
+        {
+          "n": 11,
+          "t": "and-now daughter-of-me do-not let-fear, all who you-f-will-say I-will-do to/for-you-f ; for knowing all-of gate-of people-of-me, for woman-of helech you."
+        },
+        {
+          "n": 12,
+          "t": "and-now for truly, for if redeeming I ; and-also there redeeming near from-me."
+        },
+        {
+          "n": 13,
+          "t": "lodge the-night and-has-been in-the-morning if will-redeem-you-f good will-redeem, and-if not will-delight to/for-redeem-of-you-f I and-have-redeemed-you-f living YHWH ; lie until the-morning."
+        },
+        {
+          "n": 14,
+          "t": "and-she-has-lain feet-of-him feets-of-him until the-morning, and-she-has-risen, in-before man will-make-recognize neighbor-of-him ; and-has-said do-not let-be-known, for the-woman the-threshing has-come."
+        },
+        {
+          "n": 15,
+          "t": "and-he-has-said give the-cloak who on-you-f and-grasp in-her and-has-grasped in-her ; and-he-has-measured six barleys and-he-has-set on-her, and-he-has-come the-city."
+        },
+        {
+          "n": 16,
+          "t": "mother-in-law-of-her, and-has-come toward and-has-said who you daughter-of-me ; and-she-has-made-announce to/for-her, all who the-man has-done to/for-her."
+        },
+        {
+          "n": 17,
+          "t": "and-she-has-said, six the-barleys the-these he-has-given to/for-me ; for he-has-said do-not let-come emptily toward mother-in-law-of-you-f."
+        },
+        {
+          "n": 18,
+          "t": "and-has-said dwell daughter-of-me, until who you-f-will-know, how word will-fall ; for not the-man will-quiet, that if has-finished the-word the-day."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-Boaz has-ascended the-gate and-has-dwelt there and-behold the-redeeming passing who Boaz has-spoken, and-has-said turn-heh dwell-heh here someone someone ; and-he-has-turned and-he-has-dwelt."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-taken ten mans from-old-of the-city and-he-has-said dwell here ; and-they-have-dwelt."
+        },
+        {
+          "n": 3,
+          "t": "and-he-has-said to/for-the-redeeming, portion-of the-field, who to/for-brother-of-us to/for-Elimelech ; Naomi has-sold, the-she-has-returned from-field-of Moab."
+        },
+        {
+          "n": 4,
+          "t": "and-I have-said will-heglam ear-of-you to/for-say acquire before the-dwelling and-before old-of people-of-me if you-will-redeem redeem, and-if not will-redeem make-announce-heh to/for-me and-will-know and-let-me-know for naught exception-you to/for-redeem, and-I after-you ; and-he-has-said I will-redeem."
+        },
+        {
+          "n": 5,
+          "t": "Boaz and-has-said, in-day-of acquire-of-you the-field from-hand-of Naomi ; and-from Ruth the-Moabite woman-of the-dying I-have-acquired you-have-acquired, to/for-make-rise name-of the-dying on inheritance-of-him."
+        },
+        {
+          "n": 6,
+          "t": "and-he-has-said the-redeeming not I-will-able to/for-redeem to/for-me, lest I-will-destroy inheritance-of-me ; redeem to/for-you you redemption-of-me, for not I-will-able to/for-redeem."
+        },
+        {
+          "n": 7,
+          "t": "and-this-f to/for-faces in-Israel on the-redemption and-on the-exchange to/for-rise all-of word, has-drawed man sandal-of-him and-has-given to/for-neighbor-of-him ; and-this-f the-testimony in-Israel."
+        },
+        {
+          "n": 8,
+          "t": "and-he-has-said the-redeeming to/for-Boaz acquire to/for-you-f ; and-he-has-drawed sandal-of-him."
+        },
+        {
+          "n": 9,
+          "t": "Boaz to/for-the-old and-has-said and-all-of the-people witnesses you the-day, for I-have-acquired all-of who to/for-Elimelech, and-all-of who to/for-Chilion and-Mahlon ; from-hand-of Naomi."
+        },
+        {
+          "n": 10,
+          "t": "and-also Ruth the-Moabite woman-of Mahlon I-have-acquired to/for-me to/for-woman to/for-make-rise name-of the-dying on inheritance-of-him, and-not will-be-cut name-of the-dying from brothers-of-him and-from-gate-of place-of-him ; you witnesses the-day."
+        },
+        {
+          "n": 11,
+          "t": "and-have-said all-of the-people who in-the-gate and-the-old witnesses ; YHWH will-give the-woman the-coming toward house-of-you like-Rachel and-like-Leah who they-have-built two-of-them house-of Israel, and-do helech in-Ephrathah, and-call name in-Beyt Bethlehem."
+        },
+        {
+          "n": 12,
+          "t": "house-of-you and-let-be like-house-of Perez, who she-has-begotten Tamar to/for-Judah ; from the-seed who will-give YHWH to/for-you, from the-maiden the-this-f."
+        },
+        {
+          "n": 13,
+          "t": "Boaz and-has-taken Ruth and-she-has-been to/for-him to/for-woman, and-has-come toward-her ; YHWH and-has-given to/for-her conception and-she-has-begotten son."
+        },
+        {
+          "n": 14,
+          "t": "the-womans and-have-said toward Naomi, blessed YHWH, who not has-made-cease to/for-you-f redeeming the-day ; name-of-him and-will-be-called in-Israel."
+        },
+        {
+          "n": 15,
+          "t": "and-has-been to/for-you-f to/for-making-return soul, and-to/for-sustain greyheaded-of-you-f ; for daughter-in-law-of-you-f who has-loved-you-f has-begotten-him, who he good to/for-you-f, from-seven sons."
+        },
+        {
+          "n": 16,
+          "t": "Naomi and-has-taken the-youth and-she-has-set-him in-bosom-of-her, and-she-has-been to/for-him to/for-faithfuling."
+        },
+        {
+          "n": 17,
+          "t": "and-they-f-have-called to/for-him the-neighboring name to/for-say, has-been-begotten son to/for-Naomi ; and-they-f-have-called name-of-him Obed, he father-of Jesse father-of David."
+        },
+        {
+          "n": 18,
+          "t": "and-these generations-of Perez, Perez has-made-beget Hezron."
+        },
+        {
+          "n": 19,
+          "t": "and-Hezron has-made-beget Ram, and-Ram has-made-beget Amminadab."
+        },
+        {
+          "n": 20,
+          "t": "and-Amminadab has-made-beget Nahshon, and-Nahshon has-made-beget Salmon."
+        },
+        {
+          "n": 21,
+          "t": "and-Salmon has-made-beget Boaz, and-Boaz has-made-beget Obed."
+        },
+        {
+          "n": 22,
+          "t": "and-Obed has-made-beget Jesse, and-Jesse has-made-beget David."
+        }
+      ]
+    }
+  ]
+}

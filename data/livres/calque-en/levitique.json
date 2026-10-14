@@ -1,0 +1,3593 @@
+{
+  "id": "levitique",
+  "title": "Livre du Lévitique",
+  "original_title": "Lévitique",
+  "short": "Lv",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Moses ; and-has-called toward YHWH and-has-spoken toward-him, from-tent-of meeting to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel and-you-have-said toward-them, man for will-make-present from-you-pl offering to/for-YHWH ; from the-animal from the-cattle and-from the-flock, you-pl-will-make-present offering-of-you-pl."
+        },
+        {
+          "n": 3,
+          "t": "if burnt offering-of-him from the-cattle, male unblemished will-make-present-him ; toward entrance-of tent-of meeting will-make-present him, to/for-acceptance-of-him to/for-faces-of YHWH."
+        },
+        {
+          "n": 4,
+          "t": "hand-of-him and-has-supported, on head-of the-burnt ; and-he-has-been-accepted to/for-him to/for-cover on-him."
+        },
+        {
+          "n": 5,
+          "t": "and-he-has-slaughtered son-of the-cattle to/for-faces-of YHWH ; sons-of Aaron the-priests and-have-made-present the-blood, and-have-scattered the-blood on the-altar around, who entrance-of tent-of meeting."
+        },
+        {
+          "n": 6,
+          "t": "and-he-has-made-strip the-burnt ; and-he-has-cut her to/for-pieces-of-her."
+        },
+        {
+          "n": 7,
+          "t": "sons-of Aaron and-have-given the-priest fire on the-altar ; trees and-have-arranged on the-fire."
+        },
+        {
+          "n": 8,
+          "t": "sons-of Aaron the-priests and-have-arranged, the-pieces, the-head and-the-suet ; on the-trees who on the-fire, who on the-altar."
+        },
+        {
+          "n": 9,
+          "t": "and-entrails-of-him and-legs-of-him will-wash in-the-waters ; the-priest and-has-made-offer the-all the-altar-ward, burnt food-of aroma-of soothing to/for-YHWH."
+        },
+        {
+          "n": 10,
+          "t": "and-if from the-flock offering-of-him from the-sheeps or from the-goats to/for-burnt ; male unblemished he-will-make-present-him."
+        },
+        {
+          "n": 11,
+          "t": "and-he-has-slaughtered him on thigh-of the-altar north-ward to/for-faces-of YHWH ; sons-of Aaron the-priests and-have-scattered blood-of-him on the-altar around."
+        },
+        {
+          "n": 12,
+          "t": "and-he-has-cut him to/for-pieces-of-him, and-head-of-him and-suet-of-him ; the-priest and-has-arranged them, on the-trees who on the-fire, who on the-altar."
+        },
+        {
+          "n": 13,
+          "t": "and-the-entrails and-the-legs will-wash in-the-waters ; the-priest and-has-made-present the-all and-has-made-offer the-altar-ward, burnt he food-of aroma-of soothing to/for-YHWH."
+        },
+        {
+          "n": 14,
+          "t": "and-if from the-bird burnt offering-of-him to/for-YHWH ; and-he-has-made-present from the-turtledoves or from sons-of the-dove offering-of-him."
+        },
+        {
+          "n": 15,
+          "t": "the-priest and-has-made-present-him toward the-altar, and-has-niped head-of-him, and-has-made-offer the-altar-ward ; blood-of-him and-has-been-drained, on wall-of the-altar."
+        },
+        {
+          "n": 16,
+          "t": "and-he-has-made-turn crop-of-him in-plumage-of-her ; and-has-made-throw her beside the-altar east-ward, toward place-of the-ashes."
+        },
+        {
+          "n": 17,
+          "t": "and-has-cleaved him in-wings-of-him not will-make-separate and-has-made-offer him the-priest the-altar-ward, on the-trees who on the-fire ; burnt he food-of aroma-of soothing to/for-YHWH."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-soul for will-make-present offering-of offering to/for-YHWH, fine will-be offering-of-him ; oil, and-has-poured on-her and-has-given on-her frankincense."
+        },
+        {
+          "n": 2,
+          "t": "and-has-made-come-her toward sons-of Aaron the-priests fullness-of handful-of-him and-has-grasped from-there from-fine-of-her and-from-oil-of-her, on all-of frankincense-of-her ; the-priest and-has-made-offer memorial-of-her the-altar-ward, food-of aroma-of soothing to/for-YHWH."
+        },
+        {
+          "n": 3,
+          "t": "and-the-remained from the-offering, to/for-Aaron and-to/for-sons-of-him ; holiness-of holinesses from-foods-of YHWH."
+        },
+        {
+          "n": 4,
+          "t": "and-for you-will-make-present offering-of offering baked-of ovens ; fine-of buns unleaveneds mixed in-the-oil, and-flatbreads-of unleaveneds anointed in-the-oil."
+        },
+        {
+          "n": 5,
+          "t": "and-if offering on the-griddle offering-of-you ; fine mixed in-the-oil unleavened will-be."
+        },
+        {
+          "n": 6,
+          "t": "break her morsels, and-you-have-poured on-her oil ; offering he."
+        },
+        {
+          "n": 7,
+          "t": "and-if offering-of pan offering-of-you ; fine in-the-oil will-be-done."
+        },
+        {
+          "n": 8,
+          "t": "and-you-have-made-come the-offering who he-will-be-done from-these to/for-YHWH ; the-priest, and-has-made-present-her toward and-has-made-approach-her toward the-altar."
+        },
+        {
+          "n": 9,
+          "t": "the-priest and-has-made-exalt from the-offering memorial-of-her, and-has-made-offer the-altar-ward ; food-of aroma-of soothing to/for-YHWH."
+        },
+        {
+          "n": 10,
+          "t": "and-the-remained from the-offering, to/for-Aaron and-to/for-sons-of-him ; holiness-of holinesses from-foods-of YHWH."
+        },
+        {
+          "n": 11,
+          "t": "all-of the-offering who you-pl-will-make-present to/for-YHWH, not she-will-be-done leaven ; for all-of leaven and-all-of honey, not you-pl-will-make-offer from-us food to/for-YHWH."
+        },
+        {
+          "n": 12,
+          "t": "offering-of first you-pl-will-make-present them to/for-YHWH ; and-toward the-altar not they-will-ascend to/for-aroma-of soothing."
+        },
+        {
+          "n": 13,
+          "t": "and-all-of offering-of offering-of-you in-the-salt you-will-salt and-not you-will-make-cease salt-of covenant-of god-of-you, on offering-of-you ; on all-of offering-of-you you-will-make-present salt."
+        },
+        {
+          "n": 14,
+          "t": "and-if you-will-make-present offering-of firstfruits to/for-YHWH ; abib roasted in-the-fire crushed-of plantation, you-will-make-present, offering-of firstfruits-of-you."
+        },
+        {
+          "n": 15,
+          "t": "and-you-have-given on-her oil, and-you-have-put on-her frankincense ; offering he."
+        },
+        {
+          "n": 16,
+          "t": "the-priest and-has-made-offer memorial-of-her from-crushed-of-her and-from-oil-of-her, on all-of frankincense-of-her ; food to/for-YHWH."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-if sacrifice-of peaces offering-of-him ; if from the-cattle he present, if male if female, unblemished will-make-present-him to/for-faces-of YHWH."
+        },
+        {
+          "n": 2,
+          "t": "hand-of-him and-has-supported on head-of offering-of-him, and-has-slaughtered-him, entrance-of tent-of meeting ; sons-of Aaron the-priests and-have-scattered the-blood on the-altar around."
+        },
+        {
+          "n": 3,
+          "t": "and-has-made-present from-sacrifice-of the-peaces, food to/for-YHWH ; the-fat the-covering the-entrails, and-all-of the-fat, who on the-entrails."
+        },
+        {
+          "n": 4,
+          "t": "and-two-of the-kidneys, and-the-fat who on-them-f, who on the-loins ; and-the-lobe on the-liver, on the-kidneys he-will-make-turn-her."
+        },
+        {
+          "n": 5,
+          "t": "and-have-made-offer him sons-of Aaron the-altar-ward, on the-burnt, who on the-trees who on the-fire ; food-of aroma-of soothing to/for-YHWH."
+        },
+        {
+          "n": 6,
+          "t": "and-if from the-flock offering-of-him to/for-sacrifice-of peaces to/for-YHWH ; male or female, unblemished he-will-make-present-him."
+        },
+        {
+          "n": 7,
+          "t": "if sheep he present offering-of-him ; and-he-has-made-present him to/for-faces-of YHWH."
+        },
+        {
+          "n": 8,
+          "t": "and-has-supported hand-of-him on head-of offering-of-him, and-has-slaughtered him, to/for-faces-of tent-of meeting ; sons-of Aaron and-have-scattered blood-of-him on the-altar around."
+        },
+        {
+          "n": 9,
+          "t": "and-has-made-present from-sacrifice-of the-peaces food to/for-YHWH fat-of-him the-fat unblemished, to/for-close-of the-spine will-make-turn-her ; and-the-fat the-covering the-entrails, and-all-of the-fat, who on the-entrails."
+        },
+        {
+          "n": 10,
+          "t": "and-two-of the-kidneys, and-the-fat who on-them-f, who on the-loins ; and-the-lobe on the-liver, on the-kidneys he-will-make-turn-her."
+        },
+        {
+          "n": 11,
+          "t": "the-priest the-altar-ward and-has-made-offer-him ; food-of food to/for-YHWH."
+        },
+        {
+          "n": 12,
+          "t": "and-if goat offering-of-him ; and-he-has-made-present-him to/for-faces-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "and-has-supported hand-of-him on head-of-him, and-has-slaughtered him, to/for-faces-of tent-of meeting ; sons-of Aaron and-have-scattered blood-of-him on the-altar around."
+        },
+        {
+          "n": 14,
+          "t": "offering-of-him, food and-has-made-present from-us to/for-YHWH ; the-fat the-covering the-entrails, and-all-of the-fat, who on the-entrails."
+        },
+        {
+          "n": 15,
+          "t": "and-two-of the-kidneys, and-the-fat who on-them-f, who on the-loins ; and-the-lobe on the-liver, on the-kidneys he-will-make-turn-her."
+        },
+        {
+          "n": 16,
+          "t": "the-priest the-altar-ward and-has-made-offer-them ; food-of food to/for-aroma-of soothing, all-of fat to/for-YHWH."
+        },
+        {
+          "n": 17,
+          "t": "statute-of age to/for-generations-of-you-pl, in-all-of seats-of-you-pl ; all-of fat and-all-of blood not you-pl-will-eat."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel to/for-say soul for will-sin in-unintentionally from-all-of commandments-of YHWH, who not they-f-will-be-done ; and-he-has-done, from-one from-they."
+        },
+        {
+          "n": 3,
+          "t": "if the-priest the-anointed will-sin to/for-guiltiness-of the-people ; and-has-made-present on offense-of-him who bullock has-sinned son-of cattle unblemished to/for-YHWH to/for-offense."
+        },
+        {
+          "n": 4,
+          "t": "and-has-made-come the-bullock toward entrance-of tent-of meeting to/for-faces-of YHWH ; and-has-supported hand-of-him on head-of the-bullock, and-has-slaughtered the-bullock to/for-faces-of YHWH."
+        },
+        {
+          "n": 5,
+          "t": "the-priest the-anointed and-has-taken from-blood-of the-bullock ; and-has-made-come him toward tent-of meeting."
+        },
+        {
+          "n": 6,
+          "t": "the-priest and-has-diped finger-of-him in-the-blood ; the-blood and-has-made-sprinkle from seven strokes to/for-faces-of YHWH, with faces-of curtain-of the-holiness."
+        },
+        {
+          "n": 7,
+          "t": "the-priest and-has-given from the-blood on horns-of altar-of incense-of the-spices to/for-faces-of YHWH, who in-tent-of meeting ; and-all-of blood-of the-bullock foundation-of altar-of the-burnt, will-pour toward who entrance-of tent-of meeting."
+        },
+        {
+          "n": 8,
+          "t": "and-all-of fat-of bullock-of the-offense he-will-make-exalt from-us ; the-fat the-covering on the-entrails, and-all-of the-fat, who on the-entrails."
+        },
+        {
+          "n": 9,
+          "t": "and-two-of the-kidneys, and-the-fat who on-them-f, who on the-loins ; and-the-lobe on the-liver, on the-kidneys he-will-make-turn-her."
+        },
+        {
+          "n": 10,
+          "t": "like-when he-will-be-made-exalt, from-cattle-of sacrifice-of the-peaces ; the-priest and-has-made-offer-them, on altar-of the-burnt."
+        },
+        {
+          "n": 11,
+          "t": "and-skin-of the-bullock and-all-of flesh-of-him, on head-of-him and-on legs-of-him ; and-entrails-of-him and-refuse-of-him."
+        },
+        {
+          "n": 12,
+          "t": "and-has-made-exit all-of the-bullock toward from-outside to/for-the-camp toward place pure toward pouring-of the-ashes, and-has-burned him on trees in-the-fire ; on pouring-of the-ashes will-be-burned."
+        },
+        {
+          "n": 13,
+          "t": "and-if all-of congregation-of Israel they-will-wander, word and-has-been-concealed, from-eyes-of the-assembly ; and-they-have-done one from-all-of commandments-of YHWH who not they-f-will-be-done and-they-have-guiltied."
+        },
+        {
+          "n": 14,
+          "t": "the-offense and-has-been-known, who they-have-sinned on-her ; and-they-have-made-present the-assembly bullock son-of cattle to/for-offense, and-they-have-made-come him, to/for-faces-of tent-of meeting."
+        },
+        {
+          "n": 15,
+          "t": "and-they-have-supported old-of the-congregation hands-of-them on head-of the-bullock to/for-faces-of YHWH ; and-he-has-slaughtered the-bullock to/for-faces-of YHWH."
+        },
+        {
+          "n": 16,
+          "t": "the-priest the-anointed and-has-made-come from-blood-of the-bullock ; toward tent-of meeting."
+        },
+        {
+          "n": 17,
+          "t": "the-priest and-has-diped finger-of-him from the-blood ; and-he-has-made-sprinkle seven strokes to/for-faces-of YHWH, with faces-of the-curtain."
+        },
+        {
+          "n": 18,
+          "t": "and-from the-blood will-give on horns-of the-altar who to/for-faces-of YHWH, who in-tent-of meeting ; and-all-of the-blood foundation-of altar-of the-burnt, will-pour toward who entrance-of tent-of meeting."
+        },
+        {
+          "n": 19,
+          "t": "and-all-of fat-of-him he-will-make-exalt from-us ; and-has-made-offer the-altar-ward."
+        },
+        {
+          "n": 20,
+          "t": "and-he-has-done to/for-the-bullock, like-when he-has-done to/for-bullock-of the-offense, thus he-will-do to/for-him ; the-priest and-has-covered on-them and-has-been-forgiven to/for-them."
+        },
+        {
+          "n": 21,
+          "t": "and-he-has-made-exit the-bullock toward from-outside to/for-the-camp, and-he-has-burned him, like-when he-has-burned, the-bullock the-first ; offense-of the-assembly he."
+        },
+        {
+          "n": 22,
+          "t": "who leader will-sin ; and-has-done one from-all-of commandments-of YHWH god-of-him who not they-f-will-be-done in-unintentionally and-has-guiltied."
+        },
+        {
+          "n": 23,
+          "t": "or he-has-been-made-know toward-him offense-of-him, who he-has-sinned in-her ; and-has-made-come offering-of-him he-goat-of goats male unblemished."
+        },
+        {
+          "n": 24,
+          "t": "hand-of-him and-has-supported on head-of the-he-goat, and-has-slaughtered him, in-place-of who will-slaughter the-burnt to/for-faces-of YHWH ; offense he."
+        },
+        {
+          "n": 25,
+          "t": "the-priest and-has-taken from-blood-of the-offense in-finger-of-him, and-has-given, on horns-of altar-of the-burnt ; and-blood-of-him foundation-of altar-of the-burnt will-pour, toward."
+        },
+        {
+          "n": 26,
+          "t": "the-altar-ward, will-make-offer and-all-of fat-of-him like-fat-of sacrifice-of the-peaces ; the-priest and-has-covered on-him from-offense-of-him and-has-been-forgiven to/for-him."
+        },
+        {
+          "n": 27,
+          "t": "and-if soul-of one will-sin in-unintentionally from-people-of the-land ; in-do-of-her one from-commandments-of YHWH who not they-f-will-be-done and-he-has-guiltied."
+        },
+        {
+          "n": 28,
+          "t": "or he-has-been-made-know toward-him, offense-of-him who he-has-sinned ; offering-of-him and-has-made-come female-of goats unblemished female, on offense-of-him who has-sinned."
+        },
+        {
+          "n": 29,
+          "t": "and-has-supported hand-of-him, on head-of the-offense ; and-he-has-slaughtered the-offense, in-place-of the-burnt."
+        },
+        {
+          "n": 30,
+          "t": "the-priest and-has-taken from-blood-of-her in-finger-of-him, and-has-given, on horns-of altar-of the-burnt ; and-all-of blood-of-her foundation-of the-altar will-pour, toward."
+        },
+        {
+          "n": 31,
+          "t": "and-all-of fat-of-her will-make-turn like-when fat has-been-made-turn on sacrifice-of the-peaces and-has-made-offer the-priest the-altar-ward, to/for-aroma-of soothing to/for-YHWH ; the-priest and-has-covered on-him and-has-been-forgiven to/for-him."
+        },
+        {
+          "n": 32,
+          "t": "and-if lamb will-make-come offering-of-him to/for-offense ; female unblemished he-will-make-come-her."
+        },
+        {
+          "n": 33,
+          "t": "and-has-supported hand-of-him, on head-of the-offense ; and-he-has-slaughtered her to/for-offense, in-place-of, who he-will-slaughter the-burnt."
+        },
+        {
+          "n": 34,
+          "t": "the-priest and-has-taken from-blood-of the-offense in-finger-of-him, and-has-given, on horns-of altar-of the-burnt ; and-all-of blood-of-her foundation-of the-altar will-pour, toward."
+        },
+        {
+          "n": 35,
+          "t": "and-all-of fat-of-her will-make-turn like-when fat-of the-sheep will-be-made-turn from-sacrifice-of the-peaces and-has-made-offer the-priest them the-altar-ward, on foods-of YHWH ; the-priest and-has-covered on-him on offense-of-him who has-sinned and-has-been-forgiven to/for-him."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-soul for will-sin and-has-heard voice-of curse, and-he witness, or has-seen or has-known ; if not will-make-announce iniquity-of-him and-has-lifted."
+        },
+        {
+          "n": 2,
+          "t": "or soul who will-touch in-all-of word unclean or in-carcass-of beast unclean or in-carcass-of animal unclean, or, in-carcass-of swarm unclean ; and-he unclean and-has-been-concealed from-us, and-has-guiltied."
+        },
+        {
+          "n": 3,
+          "t": "or for he-will-touch in-uncleanness-of man, to/for-all-of uncleanness-of-him, who he-will-defile in-her ; and-he and-has-been-concealed from-us, has-known and-has-guiltied."
+        },
+        {
+          "n": 4,
+          "t": "or soul for will-be-sweared to/for-rashly in-lipses to/for-make-evil or to/for-make-improve to/for-all who the-man will-rashly in-oath and-has-been-concealed from-us ; and-he has-known and-has-guiltied to/for-one from-these."
+        },
+        {
+          "n": 5,
+          "t": "and-he-has-been for he-will-guilty to/for-one from-these ; and-he-has-self-confessed, who he-has-sinned on-her."
+        },
+        {
+          "n": 6,
+          "t": "and-has-made-come guilt-of-him to/for-YHWH on offense-of-him who has-sinned female from the-flock lamb or female-of goats to/for-offense ; the-priest and-has-covered on-him from-offense-of-him."
+        },
+        {
+          "n": 7,
+          "t": "and-if not hand-of-him will-make-touch sufficiency-of sheep and-has-made-come guilt-of-him who has-sinned two-of turtledoves or two-of sons-of dove to/for-YHWH ; one to/for-offense and-one to/for-burnt."
+        },
+        {
+          "n": 8,
+          "t": "and-has-made-come them toward the-priest, and-has-made-present who to/for-the-offense first ; and-has-niped head-of-him opposite neck-of-him and-not will-make-separate."
+        },
+        {
+          "n": 9,
+          "t": "and-has-made-sprinkle from-blood-of the-offense on wall-of the-altar, and-the-remained in-the-blood, will-be-drained toward foundation-of the-altar ; offense he."
+        },
+        {
+          "n": 10,
+          "t": "and-the-second he-will-do burnt like-the-justice ; the-priest and-has-covered on-him from-offense-of-him who has-sinned and-has-been-forgiven to/for-him."
+        },
+        {
+          "n": 11,
+          "t": "and-if not hand-of-him will-make-overtake to/for-two-of turtledoves or to/for-two-of sons-of dove and-has-made-come offering-of-him who has-sinned tenth-of the-ephah fine to/for-offense ; not oil will-put on-her and-not will-give on-her frankincense, for offense he."
+        },
+        {
+          "n": 12,
+          "t": "the-priest and-has-made-come-her toward and-has-grasped the-priest from-her fullness-of handful-of-him memorial-of-her and-has-made-offer the-altar-ward, on foods-of YHWH ; offense he."
+        },
+        {
+          "n": 13,
+          "t": "the-priest and-has-covered on-him on offense-of-him who has-sinned from-one from-these and-has-been-forgiven to/for-him ; and-she-has-been to/for-the-priest like-the-offering."
+        },
+        {
+          "n": 14,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 15,
+          "t": "soul for will-betray trespass, and-has-sinned in-unintentionally, from-holinesses-of YHWH ; and-has-made-come guilt-of-him to/for-YHWH ram unblemished from the-flock in-valuation-of-you silver-of shekels in-shekel-of the-holiness to/for-guilt."
+        },
+        {
+          "n": 16,
+          "t": "and-who the-holiness has-sinned from will-complete and-fifth-of-him let-make-add on-him, and-has-given him to/for-the-priest ; and-the-priest will-cover on-him in-ram-of the-guilt and-has-been-forgiven to/for-him."
+        },
+        {
+          "n": 17,
+          "t": "and-if soul for will-sin, and-has-done one from-all-of commandments-of YHWH, who not they-f-will-be-done ; and-not has-known and-has-guiltied iniquity-of-him and-has-lifted."
+        },
+        {
+          "n": 18,
+          "t": "ram unblemished and-has-made-come from the-flock in-valuation-of-you to/for-guilt toward the-priest ; the-priest and-has-covered on-him on unintentionally-of-him who has-gone and-he not has-known and-has-been-forgiven to/for-him."
+        },
+        {
+          "n": 19,
+          "t": "guilt he ; guilty he-has-guiltied to/for-YHWH."
+        },
+        {
+          "n": 20,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 21,
+          "t": "soul for will-sin, and-has-betrayed trespass in-YHWH ; and-he-has-deceived in-neighbor-of-him in-deposit or in-security-of hand or in-robbery, or he-has-oppressed neighbor-of-him."
+        },
+        {
+          "n": 22,
+          "t": "or has-found something and-has-deceived in-her deception ; and-has-been-sweared on on one from-all who the-man will-do to/for-sin in-they."
+        },
+        {
+          "n": 23,
+          "t": "and-he-has-been for he-will-sin and-he-has-guiltied and-he-has-made-return the-violence who he-has-plundered or the-oppression who he-has-oppressed, or the-deposit, who he-has-been-made-reckon with-him ; or the-something who he-has-found."
+        },
+        {
+          "n": 24,
+          "t": "or from-all who he-will-be-sweared on-him to/for-the-deception and-he-has-completed him in-head-of-him, and-fifth-of-him let-him-make-add on-him ; to/for-who he to/for-him will-give-him in-day-of guiltiness-of-him."
+        },
+        {
+          "n": 25,
+          "t": "and-guilt-of-him he-will-make-come to/for-YHWH ; ram unblemished from the-flock in-valuation-of-you to/for-guilt toward the-priest."
+        },
+        {
+          "n": 26,
+          "t": "the-priest and-has-covered on-him to/for-faces-of YHWH and-has-been-forgiven to/for-him ; on one from-all who he-will-do to/for-guiltiness in-her."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "command Aaron and-sons-of-him to/for-say, this-f instruction-of the-burnt ; he the-burnt on hearth on the-altar all-of the-night until the-morning, and-fire-of the-altar will-be-made-burn in-him."
+        },
+        {
+          "n": 3,
+          "t": "the-priest and-has-clothed garment-of-him linen and-undergarments-of linen will-clothe on flesh-of-him and-has-made-exalt the-ashes who the-fire will-eat the-burnt on the-altar ; the-altar and-has-put-him, beside."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-striped garments-of-him, and-he-has-clothed garments another ; and-has-made-exit the-ashes toward from-outside to/for-the-camp, toward place pure."
+        },
+        {
+          "n": 5,
+          "t": "and-the-fire on the-altar will-be-made-burn in-him not will-quench, the-priest and-has-burned on-her trees in-the-morning in-the-morning ; and-he-has-arranged on-her the-burnt, and-he-has-made-offer on-her fats-of the-peaces."
+        },
+        {
+          "n": 6,
+          "t": "fire continually will-be-made-burn on the-altar not will-quench."
+        },
+        {
+          "n": 7,
+          "t": "and-this-f instruction-of the-offering ; make-present her sons-of Aaron to/for-faces-of YHWH, toward faces-of the-altar."
+        },
+        {
+          "n": 8,
+          "t": "and-he-has-made-exalt from-us in-handful-of-him from-fine-of the-offering and-from-oil-of-her, and-all-of the-frankincense, who on the-offering ; the-altar and-has-made-offer aroma-of soothing memorial-of-her to/for-YHWH."
+        },
+        {
+          "n": 9,
+          "t": "and-the-remained from-her, will-eat Aaron and-sons-of-him ; unleaveneds she-will-be-eaten in-place holy, in-court-of tent-of meeting they-will-eat-her."
+        },
+        {
+          "n": 10,
+          "t": "not she-will-be-baked leaven, portion-of-them I-have-given her from-foods-of-me ; holiness-of holinesses he, like-the-offense and-like-the-guilt."
+        },
+        {
+          "n": 11,
+          "t": "all-of male in-sons-of Aaron will-eat-her, statute-of age to/for-generations-of-you-pl, from-foods-of YHWH ; all who will-touch in-them will-consecrate."
+        },
+        {
+          "n": 12,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 13,
+          "t": "this offering-of Aaron and-sons-of-him who will-make-present to/for-YHWH in-day-of be-anoint him, tenth-of the-ephah fine offering continually ; half-of-her in-the-morning, and-half-of-her in-the-evening."
+        },
+        {
+          "n": 14,
+          "t": "on griddle in-the-oil will-be-done been-made-stir you-will-make-come-her ; bakeds-of offering-of morsels, you-will-make-present aroma-of soothing to/for-YHWH."
+        },
+        {
+          "n": 15,
+          "t": "and-the-priest the-anointed under-him from-sons-of-him will-do her ; statute-of age, to/for-YHWH entire she-will-be-made-offer."
+        },
+        {
+          "n": 16,
+          "t": "and-all-of offering-of priest entire she-will-be not she-will-be-eaten."
+        },
+        {
+          "n": 17,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 18,
+          "t": "speak toward Aaron and-toward sons-of-him to/for-say, this-f instruction-of the-offense ; in-place-of who the-burnt will-be-slaughtered will-be-slaughtered the-offense to/for-faces-of YHWH, holiness-of holinesses he."
+        },
+        {
+          "n": 19,
+          "t": "the-priest will-eat-her ; the-sining her in-place holy she-will-be-eaten, in-court-of tent-of meeting."
+        },
+        {
+          "n": 20,
+          "t": "all who will-touch in-flesh-of-her will-consecrate ; and-who the-garment, will-sprinkle from-blood-of-her on who will-sprinkle on-her, you-will-washer's in-place holy."
+        },
+        {
+          "n": 21,
+          "t": "and-article-of earthenware who she-will-boil in-him will-be-breaked ; and-if in-article-of bronze she-has-been-boiled, and-he-has-been-polished and-he-has-been-overflowed in-the-waters."
+        },
+        {
+          "n": 22,
+          "t": "all-of male in-the-priests will-eat her ; holiness-of holinesses he."
+        },
+        {
+          "n": 23,
+          "t": "and-all-of offense who will-be-made-come from-blood-of-her toward tent-of meeting to/for-cover in-the-holiness not she-will-be-eaten ; in-the-fire she-will-be-burned."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-this-f instruction-of the-guilt ; holiness-of holinesses he."
+        },
+        {
+          "n": 2,
+          "t": "in-place-of who they-will-slaughter the-burnt, they-will-slaughter the-guilt ; and-blood-of-him the-altar around will-scatter on."
+        },
+        {
+          "n": 3,
+          "t": "and-all-of fat-of-him he-will-make-present from-us ; the-fat, and-the-fat the-covering the-entrails."
+        },
+        {
+          "n": 4,
+          "t": "and-two-of the-kidneys, and-the-fat who on-them-f, who on the-loins ; and-the-lobe on the-liver, on the-kidneys he-will-make-turn-her."
+        },
+        {
+          "n": 5,
+          "t": "and-has-made-offer them the-priest the-altar-ward, food to/for-YHWH ; guilt he."
+        },
+        {
+          "n": 6,
+          "t": "all-of male in-the-priests will-eat-him ; in-place holy holiness-of holinesses he will-be-eaten,."
+        },
+        {
+          "n": 7,
+          "t": "like-the-offense like-the-guilt, instruction one to/for-them ; the-priest who will-cover in-him to/for-him will-be."
+        },
+        {
+          "n": 8,
+          "t": "and-the-priest, the-present burnt-of man ; skin-of the-burnt who has-made-present, to/for-the-priest to/for-him will-be."
+        },
+        {
+          "n": 9,
+          "t": "and-all-of offering who will-be-baked in-the-ovens, and-all-of has-been-done in-the-pan and-on griddle ; to/for-the-priest the-present her to/for-him she-will-be."
+        },
+        {
+          "n": 10,
+          "t": "and-all-of offering mixed in-the-oil and-dry ; to/for-all-of sons-of Aaron she-will-be man like-brother-of-him."
+        },
+        {
+          "n": 11,
+          "t": "and-this-f instruction-of sacrifice-of the-peaces ; who he-will-make-present to/for-YHWH."
+        },
+        {
+          "n": 12,
+          "t": "if on thanksgiving will-make-present-him sacrifice-of the-thanksgiving and-has-made-present on buns unleaveneds mixed in-the-oil, and-flatbreads-of unleaveneds anointed in-the-oil ; and-fine been-made-stir, buns mixed in-the-oil."
+        },
+        {
+          "n": 13,
+          "t": "on offering-of-him ; will-make-present buns-of food-of leaven, on sacrifice thanksgiving-of peaces-of-him."
+        },
+        {
+          "n": 14,
+          "t": "and-he-has-made-present from-us one from-all-of offering, contribution to/for-YHWH ; to/for-the-priest the-scattering blood-of the-peaces to/for-him he-will-be."
+        },
+        {
+          "n": 15,
+          "t": "and-flesh-of sacrifice-of thanksgiving-of peaces-of-him, in-day-of offering-of-him will-be-eaten ; not morning will-make-rest from-us until."
+        },
+        {
+          "n": 16,
+          "t": "and-if vow or voluntariness sacrifice-of offering-of-him, in-day-of make-present-of-him will-be-eaten ; sacrifice-of-him and-from-morrow, and-the-remained from-us he-will-be-eaten."
+        },
+        {
+          "n": 17,
+          "t": "and-the-remained from-flesh-of the-sacrifice ; in-the-day the-third, in-the-fire he-will-be-burned."
+        },
+        {
+          "n": 18,
+          "t": "and-if be-eat will-be-eaten from-flesh-of sacrifice-of peaces-of-him in-the-day the-third not will-be-accepted the-present him not refuse will-be-devised to/for-him will-be ; and-the-soul the-eating from-us iniquity-of-her will-lift."
+        },
+        {
+          "n": 19,
+          "t": "and-the-flesh who will-touch in-all-of unclean not will-be-eaten, in-the-fire will-be-burned ; and-the-flesh, all-of pure will-eat flesh."
+        },
+        {
+          "n": 20,
+          "t": "and-the-soul who will-eat flesh from-sacrifice-of the-peaces who to/for-YHWH, and-uncleanness-of-him on-him ; the-soul the-he and-has-been-cut from-kinsmans-of-her."
+        },
+        {
+          "n": 21,
+          "t": "and-soul for will-touch in-all-of unclean in-uncleanness-of man or in-animal unclean or in-all-of detestation unclean, and-has-eaten from-flesh-of sacrifice-of the-peaces who to/for-YHWH ; the-soul the-he and-has-been-cut from-kinsmans-of-her."
+        },
+        {
+          "n": 22,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 23,
+          "t": "speak toward sons-of Israel to/for-say ; all-of fat-of cattle and-sheep and-goat not you-pl-will-eat."
+        },
+        {
+          "n": 24,
+          "t": "and-fat-of carcass and-fat-of torn, will-be-done to/for-all-of work ; and-eat not you-pl-will-eat-him."
+        },
+        {
+          "n": 25,
+          "t": "for all-of eating fat, from the-animal, who will-make-present from-her food to/for-YHWH ; the-soul the-eating and-has-been-cut from-kinsmans-of-her."
+        },
+        {
+          "n": 26,
+          "t": "and-all-of blood not you-pl-will-eat, in-all-of seats-of-you-pl ; to/for-the-bird and-to/for-the-animal."
+        },
+        {
+          "n": 27,
+          "t": "all-of soul who she-will-eat all-of blood ; the-soul the-he and-has-been-cut from-kinsmans-of-her."
+        },
+        {
+          "n": 28,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 29,
+          "t": "speak toward sons-of Israel to/for-say ; the-present sacrifice-of peaces-of-him to/for-YHWH, he-will-make-come offering-of-him to/for-YHWH from-sacrifice-of peaces-of-him."
+        },
+        {
+          "n": 30,
+          "t": "hands-of-him they-f-will-make-come, foods-of YHWH ; the-fat on the-breast will-make-come-him, the-breast to/for-make-wave him wave to/for-faces-of YHWH."
+        },
+        {
+          "n": 31,
+          "t": "the-priest and-has-made-offer the-fat the-altar-ward ; the-breast and-has-been, to/for-Aaron and-to/for-sons-of-him."
+        },
+        {
+          "n": 32,
+          "t": "and-leg-of the-right, you-pl-will-give contribution to/for-the-priest ; from-sacrifices-of peaces-of-you-pl."
+        },
+        {
+          "n": 33,
+          "t": "the-present blood-of the-peaces and-the-fat from-sons-of Aaron ; to/for-him leg-of the-right will-be to/for-portion."
+        },
+        {
+          "n": 34,
+          "t": "for breast-of the-wave and-leg-of the-contribution I-have-taken with sons-of Israel, from-sacrifices-of peaces-of-them ; and-I-have-given them to/for-Aaron the-priest and-to/for-sons-of-him to/for-statute-of age, with sons-of Israel."
+        },
+        {
+          "n": 35,
+          "t": "this-f anointing-of Aaron and-anointing-of sons-of-him, from-foods-of YHWH ; in-day-of he-has-made-present them, to/for-minister to/for-YHWH."
+        },
+        {
+          "n": 36,
+          "t": "who YHWH has-commanded to/for-give to/for-them in-day-of anoint-of-him them, with sons-of Israel ; statute-of age to/for-generations-of-them."
+        },
+        {
+          "n": 37,
+          "t": "this-f the-instruction to/for-the-burnt to/for-the-offering, and-to/for-the-offense and-to/for-the-guilt ; and-to/for-the-settings, and-to/for-sacrifice-of the-peaces."
+        },
+        {
+          "n": 38,
+          "t": "who YHWH has-commanded Moses in-mountain-of Sinai ; in-day-of command-of-him sons-of Israel to/for-make-present offerings-of-them to/for-YHWH in-wilderness-of Sinai."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "take Aaron and-sons-of-him with-him, and-the-garments, and-oil-of the-anointing ; and-bullock-of the-offense and-two-of the-rams, and-basket-of the-unleaveneds."
+        },
+        {
+          "n": 3,
+          "t": "and-all-of the-congregation make-gather ; toward entrance-of tent-of meeting."
+        },
+        {
+          "n": 4,
+          "t": "Moses and-has-done, like-when has-commanded YHWH him ; the-congregation and-has-been-gathered, toward entrance-of tent-of meeting."
+        },
+        {
+          "n": 5,
+          "t": "Moses and-has-said toward the-congregation ; this the-word, who has-commanded YHWH to/for-do."
+        },
+        {
+          "n": 6,
+          "t": "Moses and-has-made-present, Aaron and-sons-of-him ; and-he-has-washed them in-the-waters."
+        },
+        {
+          "n": 7,
+          "t": "and-has-given on-him the-tunic and-has-girded him in-the-girdle, and-has-made-clothe him with the-robe, and-has-given on-him the-ephod ; and-he-has-girded him in-artwork-of the-ephod, and-he-has-girded to/for-him in-him."
+        },
+        {
+          "n": 8,
+          "t": "and-he-has-put on-him the-breastpiece ; the-breastpiece, and-has-given toward the-urims and-the-thummims."
+        },
+        {
+          "n": 9,
+          "t": "and-has-put the-turban on head-of-him ; and-has-put on the-turban toward opposite faces-of-him flower-of the-gold consecration-of the-holiness, like-when has-commanded YHWH Moses."
+        },
+        {
+          "n": 10,
+          "t": "Moses and-has-taken oil-of the-anointing, and-has-anointed the-tabernacle and-all-of who in-him ; and-he-has-consecrated them."
+        },
+        {
+          "n": 11,
+          "t": "the-altar and-has-made-sprinkle from-us on seven strokes ; and-he-has-anointed the-altar and-all-of articles-of-him and-the-basin and-stand-of-him to/for-consecrate-of-them."
+        },
+        {
+          "n": 12,
+          "t": "and-has-poured from-oil-of the-anointing, on head-of Aaron ; and-he-has-anointed him to/for-consecrate-of-him."
+        },
+        {
+          "n": 13,
+          "t": "Moses and-has-made-present sons-of Aaron and-has-made-clothe-them tunics and-has-girded them girdle, and-has-saddled to/for-them headgears ; like-when YHWH has-commanded Moses."
+        },
+        {
+          "n": 14,
+          "t": "and-he-has-made-approach, bullock-of the-offense ; Aaron and-has-supported and-sons-of-him hands-of-them, on head-of bullock-of the-offense."
+        },
+        {
+          "n": 15,
+          "t": "and-has-slaughtered Moses and-has-taken the-blood and-has-given on horns-of the-altar around in-finger-of-him, and-has-sinned the-altar ; and-the-blood foundation-of the-altar, has-poured toward and-has-consecrated-him to/for-cover on-him."
+        },
+        {
+          "n": 16,
+          "t": "and-has-taken all-of the-fat who on the-entrails and-lobe-of the-liver, and-two-of the-kidneys and-fat-of-them-f ; Moses the-altar-ward and-has-made-offer."
+        },
+        {
+          "n": 17,
+          "t": "and-the-bullock and-skin-of-him and-flesh-of-him and-refuse-of-him, he-has-burned in-the-fire, from-outside to/for-the-camp ; like-when YHWH has-commanded Moses."
+        },
+        {
+          "n": 18,
+          "t": "and-he-has-made-present, ram-of the-burnt ; and-have-supported Aaron and-sons-of-him hands-of-them on head-of the-ram."
+        },
+        {
+          "n": 19,
+          "t": "and-he-has-slaughtered ; Moses and-has-scattered the-blood on the-altar around."
+        },
+        {
+          "n": 20,
+          "t": "and-the-ram, he-has-cut to/for-pieces-of-him ; Moses and-has-made-offer the-head, and-the-pieces and-the-suet."
+        },
+        {
+          "n": 21,
+          "t": "and-the-entrails and-the-legs he-has-washed in-the-waters ; Moses and-has-made-offer all-of the-ram the-altar-ward burnt he to/for-aroma-of soothing food he to/for-YHWH, like-when has-commanded YHWH Moses."
+        },
+        {
+          "n": 22,
+          "t": "and-has-made-present the-ram the-second, ram-of the-settings ; and-have-supported Aaron and-sons-of-him hands-of-them on head-of the-ram."
+        },
+        {
+          "n": 23,
+          "t": "and-has-slaughtered Moses and-has-taken from-blood-of-him, and-has-given on lobe-of ear-of Aaron the-right ; and-on thumb-of hand-of-him the-right, and-on thumb-of foot-of-him the-right."
+        },
+        {
+          "n": 24,
+          "t": "and-has-made-present sons-of Aaron Moses and-has-given from the-blood on lobe-of ear-of-them the-right, and-on thumb-of hand-of-them the-right, and-on thumb-of foot-of-them the-right ; Moses and-has-scattered the-blood on the-altar around."
+        },
+        {
+          "n": 25,
+          "t": "and-has-taken the-fat and-the-fat and-all-of the-fat who on the-entrails and-lobe-of the-liver, and-two-of the-kidneys and-fat-of-them-f ; and-leg-of the-right."
+        },
+        {
+          "n": 26,
+          "t": "and-from-basket-of the-unleaveneds who to/for-faces-of YHWH has-taken bun-of unleavened one and-bun-of food-of oil one and-flatbread one ; and-he-has-put on the-fats, and-on leg-of the-right."
+        },
+        {
+          "n": 27,
+          "t": "and-he-has-given the-all, on palms-of Aaron, and-on palms-of sons-of-him ; and-he-has-made-wave them wave to/for-faces-of YHWH."
+        },
+        {
+          "n": 28,
+          "t": "Moses and-has-taken them on palms-of-them, and-has-made-offer the-altar-ward on the-burnt ; settings they to/for-aroma-of soothing, food he to/for-YHWH."
+        },
+        {
+          "n": 29,
+          "t": "Moses and-has-taken the-breast, and-has-made-wave-him wave to/for-faces-of YHWH ; from-ram-of the-settings to/for-Moses has-been to/for-portion, like-when YHWH has-commanded Moses."
+        },
+        {
+          "n": 30,
+          "t": "Moses and-has-taken from-oil-of the-anointing and-from the-blood who on the-altar and-has-made-sprinkle on Aaron on garments-of-him, and-on sons-of-him and-on garments-of sons-of-him with-him ; and-he-has-consecrated Aaron garments-of-him, and-sons-of-him and-garments-of sons-of-him with-him."
+        },
+        {
+          "n": 31,
+          "t": "Moses and-has-said toward Aaron and-toward sons-of-him boil the-flesh entrance-of tent-of meeting and-there you-pl-will-eat him, and-the-food, who in-basket-of the-settings ; like-when I-have-commanded to/for-say, Aaron and-sons-of-him will-eat-him."
+        },
+        {
+          "n": 32,
+          "t": "and-the-remained in-the-flesh and-in-the-food ; in-the-fire you-pl-will-burn."
+        },
+        {
+          "n": 33,
+          "t": "and-from-entrance-of tent-of meeting not you-pl-will-exit seven-of days, until day-of fill, days-of settings-of-you-pl ; for seven-of days, he-will-fill hand-of-you-pl."
+        },
+        {
+          "n": 34,
+          "t": "like-when he-has-done in-the-day the-this ; YHWH has-commanded to/for-do to/for-cover on-you-pl."
+        },
+        {
+          "n": 35,
+          "t": "and-entrance-of tent-of meeting you-pl-will-dwell by and-night seven-of days, and-you-pl-have-kept charge-of YHWH and-not you-pl-will-die ; for thus I-have-been-commanded."
+        },
+        {
+          "n": 36,
+          "t": "Aaron and-has-done and-sons-of-him ; all-of the-words, who YHWH has-commanded in-hand-of Moses."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been in-the-day the-eighth, Moses has-called, to/for-Aaron and-to/for-sons-of-him ; and-to/for-old-of Israel."
+        },
+        {
+          "n": 2,
+          "t": "Aaron and-has-said toward take to/for-you calf son-of cattle to/for-offense and-ram to/for-burnt unblemished ; and-make-present to/for-faces-of YHWH."
+        },
+        {
+          "n": 3,
+          "t": "and-toward sons-of Israel you-will-speak to/for-say ; take he-goat-of goats to/for-offense, and-calf and-lamb sons-of year unblemished to/for-burnt."
+        },
+        {
+          "n": 4,
+          "t": "and-cattle and-ram to/for-peaces to/for-sacrifice to/for-faces-of YHWH, and-offering mixed in-the-oil ; for the-day, YHWH has-been-seen toward-you-pl."
+        },
+        {
+          "n": 5,
+          "t": "and-have-taken who Moses has-commanded, toward faces-of tent-of meeting ; and-they-have-presented all-of the-congregation, and-they-have-stood to/for-faces-of YHWH."
+        },
+        {
+          "n": 6,
+          "t": "Moses and-has-said, this the-word who has-commanded YHWH you-pl-will-do ; glory-of YHWH and-let-be-seen toward-you-pl."
+        },
+        {
+          "n": 7,
+          "t": "Moses and-has-said toward Aaron present toward the-altar and-do offense-of-you and-burnt-of-you, and-cover about-you and-about the-people ; and-do offering-of the-people and-cover about-them, like-when YHWH has-commanded."
+        },
+        {
+          "n": 8,
+          "t": "Aaron and-has-presented toward the-altar ; and-he-has-slaughtered calf-of the-offense who to/for-him."
+        },
+        {
+          "n": 9,
+          "t": "sons-of Aaron and-have-made-present the-blood toward-him and-he-has-diped finger-of-him in-the-blood, and-he-has-given on horns-of the-altar ; and-the-blood foundation-of the-altar has-poured, toward."
+        },
+        {
+          "n": 10,
+          "t": "and-the-fat and-the-kidneys and-the-lobe from the-liver from the-offense, has-made-offer the-altar-ward ; like-when YHWH has-commanded Moses."
+        },
+        {
+          "n": 11,
+          "t": "and-the-flesh and-the-skin ; he-has-burned in-the-fire, from-outside to/for-the-camp."
+        },
+        {
+          "n": 12,
+          "t": "and-he-has-slaughtered the-burnt ; sons-of Aaron and-have-made-find toward-him the-blood, and-has-scattered-him on the-altar around."
+        },
+        {
+          "n": 13,
+          "t": "and-the-burnt they-have-made-find toward-him to/for-pieces-of-her and-the-head ; the-altar and-has-made-offer on."
+        },
+        {
+          "n": 14,
+          "t": "and-he-has-washed the-entrails and-the-legs ; and-has-made-offer on the-burnt the-altar-ward."
+        },
+        {
+          "n": 15,
+          "t": "and-he-has-made-present, offering-of the-people ; and-he-has-taken he-goat-of the-offense who to/for-the-people, and-he-has-slaughtered-him and-he-has-sinned-him like-the-first."
+        },
+        {
+          "n": 16,
+          "t": "and-he-has-made-present the-burnt ; and-he-has-done-her like-the-justice."
+        },
+        {
+          "n": 17,
+          "t": "and-has-made-present the-offering and-has-filled palm-of-him from-her, the-altar ; and-has-made-offer on from-alone-of burnt-of the-morning."
+        },
+        {
+          "n": 18,
+          "t": "and-has-slaughtered the-cattle and-the-ram, sacrifice-of the-peaces who to/for-the-people ; sons-of Aaron and-have-made-find the-blood toward-him, and-has-scattered-him on the-altar around."
+        },
+        {
+          "n": 19,
+          "t": "and-the-fats from the-cattle ; and-from the-ram, the-fat and-the-covering and-the-kidneys, and-lobe-of the-liver."
+        },
+        {
+          "n": 20,
+          "t": "and-have-put the-fats on the-breasts ; and-has-made-offer the-fats the-altar-ward."
+        },
+        {
+          "n": 21,
+          "t": "Aaron has-made-wave and-the-breasts and-leg-of the-right,, wave to/for-faces-of YHWH ; like-when Moses has-commanded."
+        },
+        {
+          "n": 22,
+          "t": "Aaron and-has-lifted hand-of-him hands-of-him toward the-people and-has-blessed-them ; and-he-has-gone from-do the-offense and-the-burnt and-the-peaces."
+        },
+        {
+          "n": 23,
+          "t": "Moses and-Aaron and-has-come toward tent-of meeting, and-they-have-exited, and-they-have-blessed the-people ; glory-of YHWH and-has-been-seen toward all-of the-people."
+        },
+        {
+          "n": 24,
+          "t": "fire and-has-exited from-faces-of YHWH, and-has-eaten on the-altar, the-burnt and-the-fats ; all-of the-people and-has-seen and-have-sung, faces-of-them and-have-fallen on."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "sons-of Aaron and-have-taken Nadab and-Abihu man censer-of-him and-have-given they-them-f fire, and-have-put on-her incense ; and-they-have-made-present to/for-faces-of YHWH fire stranger, who not has-commanded them."
+        },
+        {
+          "n": 2,
+          "t": "fire and-has-exited from-faces-of YHWH and-has-eaten them ; and-they-have-died to/for-faces-of YHWH."
+        },
+        {
+          "n": 3,
+          "t": "Moses and-has-said toward Aaron he who has-spoken YHWH to/for-say in-near-of-me I-will-be-consecrated, and-on faces-of all-of the-people I-will-be-honored ; Aaron and-has-silenced."
+        },
+        {
+          "n": 4,
+          "t": "Moses and-has-called toward Mishael and-toward Elizaphan, sons-of Uzziel beloved-of Aaron ; and-he-has-said toward-them present lift brothers-of-you-pl with faces-of the-holiness, toward from-outside to/for-the-camp."
+        },
+        {
+          "n": 5,
+          "t": "and-they-have-presented and-they-have-lifted-them in-tunics-of-them, toward from-outside to/for-the-camp ; like-when Moses has-spoken."
+        },
+        {
+          "n": 6,
+          "t": "Moses and-has-said toward Aaron and-to/for-Eleazar and-to/for-Ithamar sons-of-him heads-of-you-pl do-not let-neglect and-garments-of-you-pl not you-pl-will-tear and-not you-pl-will-die, and-on all-of the-congregation will-angry ; and-brothers-of-you-pl all-of house-of Israel, will-weep the-fire, who YHWH has-burned."
+        },
+        {
+          "n": 7,
+          "t": "and-from-entrance-of tent-of meeting not you-pl-will-exit lest you-pl-will-die, for oil-of anointing-of YHWH on-you-pl ; and-they-have-done like-word-of Moses."
+        },
+        {
+          "n": 8,
+          "t": "YHWH and-has-spoken, toward Aaron to/for-say."
+        },
+        {
+          "n": 9,
+          "t": "wine and-strong do-not you let-drink and-sons-of-you with-you-f in-come-of-you-pl toward tent-of meeting and-not you-pl-will-die ; statute-of age to/for-generations-of-you-pl."
+        },
+        {
+          "n": 10,
+          "t": "and-to/for-make-separate, between the-holiness and-between the-common ; and-between the-unclean and-between the-pure."
+        },
+        {
+          "n": 11,
+          "t": "and-to/for-make-show sons-of Israel ; all-of the-statutes, who YHWH has-spoken toward-them in-hand-of Moses."
+        },
+        {
+          "n": 12,
+          "t": "Moses and-has-spoken toward Aaron and-toward Eleazar and-toward Ithamar sons-of-him the-remained take the-offering the-remained from-foods-of YHWH, and-eat-her unleaveneds beside the-altar ; for holiness-of holinesses he."
+        },
+        {
+          "n": 13,
+          "t": "and-you-pl-have-eaten her in-place holy, for statute-of-you and-statute-of sons-of-you he, from-foods-of YHWH ; for thus I-have-been-commanded."
+        },
+        {
+          "n": 14,
+          "t": "and-breast-of the-wave and-leg-of the-contribution you-pl-will-eat in-place pure, you, and-sons-of-you and-daughters-of-you with-you-f ; for statute-of-you and-statute-of sons-of-you they-have-been-given, from-sacrifices-of peaces-of sons-of Israel."
+        },
+        {
+          "n": 15,
+          "t": "leg-of the-contribution and-breast-of the-wave on foods-of the-fats will-make-come, to/for-make-wave wave to/for-faces-of YHWH ; and-has-been to/for-you and-to/for-sons-of-you with-you to/for-statute-of age, like-when YHWH has-commanded."
+        },
+        {
+          "n": 16,
+          "t": "and-he-goat-of the-offense seek Moses has-sought and-behold has-been-burned ; Eleazar and-has-angried on and-on Ithamar sons-of Aaron, the-remained to/for-say."
+        },
+        {
+          "n": 17,
+          "t": "why not you-pl-have-eaten the-offense in-place-of the-holiness, for holiness-of holinesses he ; and-her he-has-given to/for-you-pl to/for-lift iniquity-of the-congregation, to/for-cover on-them to/for-faces-of YHWH."
+        },
+        {
+          "n": 18,
+          "t": "lo not has-been-made-come blood-of-her, toward the-holiness within ; eat you-pl-will-eat her in-the-holiness like-when I-have-commanded."
+        },
+        {
+          "n": 19,
+          "t": "Aaron and-has-spoken toward Moses lo the-day they-have-made-present offense-of-them and-burnt-of-them to/for-faces-of YHWH, and-they-f-have-encountered me like-these ; and-I-have-eaten offense the-day, is-it-the-will-improve in-eyes-of YHWH."
+        },
+        {
+          "n": 20,
+          "t": "Moses and-has-heard, and-has-improved in-eyes-of-him."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses and-toward Aaron to/for-say toward-them."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel to/for-say ; this-f the-beast who you-pl-will-eat, from-all-of the-animal who on the-land."
+        },
+        {
+          "n": 3,
+          "t": "all making-divide hoof and-cleaving cleft-of hoofs, making-ascend-of cud in-the-animal ; her you-pl-will-eat."
+        },
+        {
+          "n": 4,
+          "t": "surely this not you-pl-will-eat, from-making-ascend-of the-cud, and-from-making-divide-of the-hoof ; the-camel for making-ascend-of cud he and-hoof naught-him making-divide, unclean he to/for-you-pl."
+        },
+        {
+          "n": 5,
+          "t": "and-the-rock for making-ascend-of cud he, and-hoof not will-make-divide ; unclean he to/for-you-pl."
+        },
+        {
+          "n": 6,
+          "t": "and-the-hare for making-ascend-of cud he, and-hoof not has-made-divide ; unclean he to/for-you-pl."
+        },
+        {
+          "n": 7,
+          "t": "and-the-swine for making-divide hoof he and-cleaving cleft-of hoof, and-he cud not will-be-draged ; unclean he to/for-you-pl."
+        },
+        {
+          "n": 8,
+          "t": "from-flesh-of-them not you-pl-will-eat, and-in-carcass-of-them not you-pl-will-touch ; unclean they to/for-you-pl."
+        },
+        {
+          "n": 9,
+          "t": "this you-pl-will-eat, from-all who in-the-waters ; all who to/for-him fin and-scale in-the-waters in-the-seas and-in-the-torrents them you-pl-will-eat."
+        },
+        {
+          "n": 10,
+          "t": "and-all who naught to/for-him fin and-scale in-the-seas and-in-the-torrents, from-all-of swarm-of the-waters, and-from-all-of soul-of the-living who in-the-waters ; detestation they to/for-you-pl."
+        },
+        {
+          "n": 11,
+          "t": "and-detestation they-will-be to/for-you-pl ; from-flesh-of-them not you-pl-will-eat, and-carcass-of-them you-pl-will-detest."
+        },
+        {
+          "n": 12,
+          "t": "all who naught to/for-him fin and-scale in-the-waters ; detestation he to/for-you-pl."
+        },
+        {
+          "n": 13,
+          "t": "and-these you-pl-will-detest from the-bird, not will-be-eaten detestation they ; the-eagle and-the-vulture, and-the-vulture."
+        },
+        {
+          "n": 14,
+          "t": "and-the-kite, and-the-falcon to/for-kind-of-her."
+        },
+        {
+          "n": 15,
+          "t": "all-of raven to/for-kind-of-him."
+        },
+        {
+          "n": 16,
+          "t": "and-daughter-of the-ostrich, and-the-ostrich and-the-gull ; and-the-hawk to/for-kind-of-him."
+        },
+        {
+          "n": 17,
+          "t": "and-the-owl and-the-cormorant and-the-owl."
+        },
+        {
+          "n": 18,
+          "t": "and-the-chameleon and-the-pelican and-the-carrion."
+        },
+        {
+          "n": 19,
+          "t": "and-the-stork, the-heron to/for-kind-of-her ; and-the-hoopoe and-the-bat."
+        },
+        {
+          "n": 20,
+          "t": "all-of swarm-of the-bird, the-going on four ; detestation he to/for-you-pl."
+        },
+        {
+          "n": 21,
+          "t": "surely this you-pl-will-eat, from-all-of swarm-of the-bird, the-going on four ; who not to/for-him legs from-above to/for-foots-of-him, to/for-start they-them-f on the-land."
+        },
+        {
+          "n": 22,
+          "t": "these from-them you-pl-will-eat, the-locust to/for-kind-of-him, and-the-locust to/for-kind-of-him ; and-the-locust to/for-kind-of-him, and-the-locust to/for-kind-of-him."
+        },
+        {
+          "n": 23,
+          "t": "and-all-of swarm-of the-bird, who to/for-him four foots ; detestation he to/for-you-pl."
+        },
+        {
+          "n": 24,
+          "t": "and-to/for-these you-pl-will-defile ; all-of the-touching in-carcass-of-them will-defile until the-evening."
+        },
+        {
+          "n": 25,
+          "t": "and-all-of the-lifting from-carcass-of-them ; will-washer's garments-of-him the-evening and-has-defiled until."
+        },
+        {
+          "n": 26,
+          "t": "to/for-all-of the-animal who he making-divide hoof and-cleave naught-her cleft and-cud naught-her making-ascend, unclean they to/for-you-pl ; all-of the-touching in-them will-defile."
+        },
+        {
+          "n": 27,
+          "t": "and-all going on palms-of-him in-all-of the-beast the-going on four, unclean they to/for-you-pl ; all-of the-touching in-carcass-of-them will-defile until the-evening."
+        },
+        {
+          "n": 28,
+          "t": "and-the-lifting carcass-of-them, will-washer's garments-of-him the-evening ; and-has-defiled until unclean they to/for-you-pl."
+        },
+        {
+          "n": 29,
+          "t": "and-this to/for-you-pl the-unclean, in-the-swarm the-swarming on the-land ; the-weasel and-the-mouse and-the-lizard to/for-kind-of-him."
+        },
+        {
+          "n": 30,
+          "t": "and-the-gecko and-the-reptile and-the-lizard ; and-the-lizard and-the-chameleon."
+        },
+        {
+          "n": 31,
+          "t": "these the-unclean to/for-you-pl in-all-of the-swarm ; all-of the-touching in-them in-death-of-them will-defile until the-evening."
+        },
+        {
+          "n": 32,
+          "t": "and-all who will-fall on-him from-them in-death-of-them will-defile from-all-of article-of tree or garment or skin or sack, all-of article, who will-be-done work in-them ; in-the-waters will-be-made-come the-evening and-has-defiled until and-has-pured."
+        },
+        {
+          "n": 33,
+          "t": "and-all-of article-of earthenware, who will-fall from-them toward midst-of-him ; all who in-midst-of-him will-defile and-him you-pl-will-break."
+        },
+        {
+          "n": 34,
+          "t": "from-all-of the-food who he-will-be-eaten who he-will-come on-him waters he-will-defile ; and-all-of irrigation who will-be-drunk, in-all-of article will-defile."
+        },
+        {
+          "n": 35,
+          "t": "and-all who will-fall from-carcass-of-them on-him ovens will-defile and-stoves will-be-made-tear unclean they ; and-unclean they-will-be to/for-you-pl."
+        },
+        {
+          "n": 36,
+          "t": "surely spring and-pit gathering-of waters will-be pure ; and-touching in-carcass-of-them he-will-defile."
+        },
+        {
+          "n": 37,
+          "t": "and-for all-of seed sowing will-fall from-carcass-of-them, on who will-be-sown ; pure he."
+        },
+        {
+          "n": 38,
+          "t": "and-for will-be-made-give waters on seed, and-has-fallen from-carcass-of-them on-him ; unclean he to/for-you-pl."
+        },
+        {
+          "n": 39,
+          "t": "and-for he-will-die from the-animal, who he to/for-you-pl to/for-food ; the-touching in-carcass-of-her the-evening will-defile until."
+        },
+        {
+          "n": 40,
+          "t": "and-the-eating from-carcass-of-her, will-washer's garments-of-him the-evening ; and-has-defiled until and-the-lifting carcass-of-her, will-washer's garments-of-him the-evening and-has-defiled until."
+        },
+        {
+          "n": 41,
+          "t": "and-all-of the-swarm the-swarming on the-land ; detestation he not will-be-eaten."
+        },
+        {
+          "n": 42,
+          "t": "all going on belly and-all going on four until all-of making-multiply-of foots, to/for-all-of the-swarm the-swarming on the-land ; not you-pl-will-eat-them for detestation they."
+        },
+        {
+          "n": 43,
+          "t": "do-not let-detest souls-of-you-pl, in-all-of the-swarm the-swarming ; and-not you-pl-will-defile in-them, and-you-pl-have-been-defiled in-them."
+        },
+        {
+          "n": 44,
+          "t": "for I YHWH god-of-you-pl and-you-pl-have-self-consecrated and-you-pl-have-been holy, for holy I ; and-not let-defile souls-of-you-pl, in-all-of the-swarm the-creeping on the-land."
+        },
+        {
+          "n": 45,
+          "t": "for I YHWH the-making-ascend you-pl from-land-of Egypt, to/for-be to/for-you-pl to/for-god ; and-you-pl-have-been holy, for holy I."
+        },
+        {
+          "n": 46,
+          "t": "this-f instruction-of the-animal and-the-bird, and-all-of soul-of the-living, the-creeping in-the-waters ; and-to/for-all-of soul the-swarming on the-land."
+        },
+        {
+          "n": 47,
+          "t": "to/for-make-separate, between the-unclean and-between the-pure ; and-between the-beast the-eaten, and-between the-beast, who not will-be-eaten."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel to/for-say, woman for will-sow, and-has-begotten male ; and-she-has-defiled seven-of days, like-days-of impurity-of sick-of-her she-will-defile."
+        },
+        {
+          "n": 3,
+          "t": "and-in-the-day the-eighth ; flesh-of x-of-him will-be-circumcised."
+        },
+        {
+          "n": 4,
+          "t": "and-thirty day and-three-of days, she-will-dwell in-bloods-of purifying ; in-all-of holiness not she-will-touch and-toward the-sanctuary not she-will-come, until fill days-of purifying-of-her."
+        },
+        {
+          "n": 5,
+          "t": "and-if female will-beget, and-has-defiled weeks like-impurity-of-her ; and-sixty day and-six-of days, she-will-dwell on bloods-of purifying."
+        },
+        {
+          "n": 6,
+          "t": "and-in-fill days-of purifying-of-her to/for-son or to/for-daughter will-make-come lamb son-of year-of-him to/for-burnt, and-son-of dove or turtledove to/for-offense ; toward entrance-of tent-of meeting toward the-priest."
+        },
+        {
+          "n": 7,
+          "t": "and-he-has-made-present-him to/for-faces-of YHWH and-he-has-covered on-her, and-she-has-pured from-fountain-of bloods-of-her ; this-f instruction-of the-begeting, to/for-the-male or to/for-the-female."
+        },
+        {
+          "n": 8,
+          "t": "and-if not hand-of-her will-find sufficiency-of sheep and-has-taken two-of turtledoves or two-of sons-of dove, one to/for-burnt and-one to/for-offense ; the-priest and-has-covered on-her and-she-has-pured."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken, toward Moses and-toward Aaron to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "man for will-be in-skin-of flesh-of-him elevation or scab or bright, and-has-been in-skin-of flesh-of-him to/for-plague-of leprosy ; Aaron the-priest, and-has-been-made-come toward or toward one from-sons-of-him the-priests."
+        },
+        {
+          "n": 3,
+          "t": "the-priest and-has-seen the-plague in-skin-of the-flesh and-hair in-the-plague has-overturned white and-sight-of the-plague deep from-skin-of flesh-of-him, plague-of leprosy he ; the-priest and-has-seen-him and-has-defiled him."
+        },
+        {
+          "n": 4,
+          "t": "and-if bright white he in-skin-of flesh-of-him and-deep naught sight-of-her from the-skin, and-hair-of-her not has-overturned white ; the-priest and-has-made-shut the-plague seven-of days."
+        },
+        {
+          "n": 5,
+          "t": "the-priest and-has-seen-him in-the-day the-seventh and-behold the-plague has-stood in-eyes-of-him, not the-plague has-spreaded in-the-skin ; the-priest and-has-made-shut-him seven-of days second."
+        },
+        {
+          "n": 6,
+          "t": "the-priest and-has-seen him in-the-day the-seventh second and-behold has-fainted the-plague, and-not has-spreaded the-plague in-the-skin ; the-priest and-has-pured-him scab he, and-has-washer'sed garments-of-him and-has-pured."
+        },
+        {
+          "n": 7,
+          "t": "and-if spread the-scab will-spread in-the-skin, after be-see-of-him toward the-priest to/for-purifying-of-him ; and-has-been-seen second toward the-priest."
+        },
+        {
+          "n": 8,
+          "t": "the-priest and-has-seen, and-behold has-spreaded the-scab in-the-skin ; the-priest and-has-defiled-him leprosy he."
+        },
+        {
+          "n": 9,
+          "t": "plague-of leprosy, for she-will-be in-man ; the-priest and-has-been-made-come toward."
+        },
+        {
+          "n": 10,
+          "t": "the-priest and-has-seen and-behold elevation-of white in-the-skin, and-he, has-overturned hair white ; and-recovery-of flesh living in-the-elevation."
+        },
+        {
+          "n": 11,
+          "t": "leprosy slept he in-skin-of flesh-of-him, the-priest and-has-defiled-him ; not will-make-shut-him, for unclean he."
+        },
+        {
+          "n": 12,
+          "t": "and-if break the-leprosy will-break in-the-skin, and-has-covered the-leprosy all-of skin-of the-plague, from-head-of-him and-until foots-of-him ; to/for-all-of sight-of eyes-of the-priest."
+        },
+        {
+          "n": 13,
+          "t": "the-priest and-has-seen and-behold has-covered the-leprosy all-of flesh-of-him, and-has-pured the-plague ; all-of-him has-overturned white pure he."
+        },
+        {
+          "n": 14,
+          "t": "and-in-day-of be-see in-him flesh living will-defile."
+        },
+        {
+          "n": 15,
+          "t": "the-priest and-has-seen the-flesh the-living and-has-defiled-him ; the-flesh the-living unclean he leprosy he."
+        },
+        {
+          "n": 16,
+          "t": "or for the-flesh the-living will-return and-has-been-overturned to/for-white ; the-priest and-has-come toward."
+        },
+        {
+          "n": 17,
+          "t": "the-priest and-has-seen-him, and-behold has-been-overturned the-plague to/for-white ; the-priest and-has-pured the-plague pure he."
+        },
+        {
+          "n": 18,
+          "t": "and-flesh, for will-be in-him in-skin-of-him boil ; and-he-has-been-healed."
+        },
+        {
+          "n": 19,
+          "t": "and-he-has-been in-place-of the-boil elevation white, or bright white reddish ; the-priest and-has-been-seen toward."
+        },
+        {
+          "n": 20,
+          "t": "the-priest and-has-seen and-behold sight-of-her low from the-skin, and-hair-of-her has-overturned white ; the-priest and-has-defiled-him plague-of leprosy he in-the-boil has-broken."
+        },
+        {
+          "n": 21,
+          "t": "and-if the-priest will-see-her and-behold naught in-her hair white, and-low naught-her from the-skin and-he faint ; the-priest and-has-made-shut-him seven-of days."
+        },
+        {
+          "n": 22,
+          "t": "and-if spread she-will-spread in-the-skin ; the-priest and-has-defiled him plague he."
+        },
+        {
+          "n": 23,
+          "t": "and-if under-her the-bright will-stand not has-spreaded, scar-of the-boil he ; the-priest and-has-pured-him."
+        },
+        {
+          "n": 24,
+          "t": "or flesh, for will-be in-skin-of-him burn-of fire ; recovery-of the-burn bright white reddish and-has-been or white."
+        },
+        {
+          "n": 25,
+          "t": "and-has-seen her the-priest and-behold hair white has-been-overturned in-the-bright and-sight-of-her deep from the-skin, leprosy he, in-the-burn has-broken ; and-has-defiled him the-priest, plague-of leprosy he."
+        },
+        {
+          "n": 26,
+          "t": "and-if the-priest will-see-her and-behold naught in-the-bright hair white, and-low naught-her from the-skin and-he faint ; the-priest and-has-made-shut-him seven-of days."
+        },
+        {
+          "n": 27,
+          "t": "the-priest and-has-seen-him in-the-day the-seventh ; if spread will-spread in-the-skin, the-priest and-has-defiled him, plague-of leprosy he."
+        },
+        {
+          "n": 28,
+          "t": "and-if under-her the-bright will-stand not has-spreaded in-the-skin and-he faint, elevation-of the-burn he ; the-priest and-has-pured-him, for scar-of the-burn he."
+        },
+        {
+          "n": 29,
+          "t": "and-man or woman, for will-be in-him plague ; in-head or in-beard."
+        },
+        {
+          "n": 30,
+          "t": "the-priest and-has-seen the-plague and-behold sight-of-him deep from the-skin, and-in-him hair yellow thin ; and-has-defiled him the-priest scab he, leprosy-of the-head or the-beard he."
+        },
+        {
+          "n": 31,
+          "t": "and-for the-priest will-see plague-of the-scab and-behold naught sight-of-him deep from the-skin, and-hair black naught in-him ; the-priest and-has-made-shut plague-of the-scab seven-of days."
+        },
+        {
+          "n": 32,
+          "t": "the-priest and-has-seen the-plague in-the-day the-seventh and-behold not has-spreaded the-scab, and-not has-been in-him hair yellow ; and-sight-of the-scab, naught deep from the-skin."
+        },
+        {
+          "n": 33,
+          "t": "and-he-has-self-shaved, and-the-scab not he-will-shave ; the-priest and-has-made-shut the-scab seven-of days second."
+        },
+        {
+          "n": 34,
+          "t": "the-priest and-has-seen the-scab in-the-day the-seventh and-behold not has-spreaded the-scab in-the-skin, and-sight-of-him, naught-him deep from the-skin ; and-he-has-pured him the-priest, and-he-has-washer'sed garments-of-him and-he-has-pured."
+        },
+        {
+          "n": 35,
+          "t": "and-if spread the-scab will-spread in-the-skin ; after purifying-of-him."
+        },
+        {
+          "n": 36,
+          "t": "the-priest and-has-seen-him, and-behold has-spreaded the-scab in-the-skin ; not the-priest will-enquire to/for-the-hair the-yellow unclean he."
+        },
+        {
+          "n": 37,
+          "t": "and-if in-eyes-of-him the-scab and-hair black has-stood has-springed in-him the-scab pure he has-been-healed ; the-priest and-has-pured-him."
+        },
+        {
+          "n": 38,
+          "t": "and-man or woman, for will-be in-skin-of flesh-of-them brights ; brights white."
+        },
+        {
+          "n": 39,
+          "t": "the-priest and-has-seen and-behold in-skin-of flesh-of-them brights faint white ; spot he has-broken in-the-skin pure he."
+        },
+        {
+          "n": 40,
+          "t": "and-man, for will-be-smoothed head-of-him ; bald he pure he."
+        },
+        {
+          "n": 41,
+          "t": "and-if from-side-of head-of-him ; will-be-smoothed faces-of-him, bald he pure he."
+        },
+        {
+          "n": 42,
+          "t": "and-for plague white reddish ; will-be in-the-baldness or in-the-baldness, leprosy breaking he, in-baldness-of-him or in-baldness-of-him."
+        },
+        {
+          "n": 43,
+          "t": "and-he-has-seen him the-priest and-behold elevation-of the-plague white reddish, in-baldness-of-him or in-baldness-of-him ; like-sight-of leprosy-of skin-of flesh."
+        },
+        {
+          "n": 44,
+          "t": "man-of leproused he unclean he ; defile the-priest will-defile-him in-head-of-him plague-of-him."
+        },
+        {
+          "n": 45,
+          "t": "and-the-leproused who in-him the-plague garments-of-him will-be teared and-head-of-him will-be neglected, and-on mustache will-enwrap ; and-unclean unclean he-will-call."
+        },
+        {
+          "n": 46,
+          "t": "all-of days-of who the-plague in-him will-defile unclean he ; alone will-dwell, from-outside to/for-the-camp seat-of-him."
+        },
+        {
+          "n": 47,
+          "t": "and-the-garment, for will-be in-him plague-of leprosy ; in-garment-of wool, or in-garment-of flaxes."
+        },
+        {
+          "n": 48,
+          "t": "or in-warp or in-mixture, to/for-the-flaxes and-to/for-the-wool ; or in-skin, or in-all-of work-of skin."
+        },
+        {
+          "n": 49,
+          "t": "the-plague greenish and-has-been or reddish in-the-garment or in-the-skin or in-the-warp or in-the-mixture or in-all-of article-of skin, plague-of leprosy he ; and-he-has-been-made-see the-priest."
+        },
+        {
+          "n": 50,
+          "t": "the-priest and-has-seen the-plague ; and-he-has-made-shut the-plague seven-of days."
+        },
+        {
+          "n": 51,
+          "t": "and-has-seen the-plague in-the-day the-seventh for the-plague has-spreaded in-the-garment or in-the-warp or in-the-mixture or in-the-skin, to/for-all who will-be-done the-skin to/for-work ; leprosy making-malign the-plague unclean he."
+        },
+        {
+          "n": 52,
+          "t": "and-has-burned the-garment or the-warp or the-mixture in-the-wool or in-the-flaxes, or all-of article-of the-skin, who the-plague ; will-be in-him for leprosy making-malign he, in-the-fire will-be-burned."
+        },
+        {
+          "n": 53,
+          "t": "and-if the-priest will-see and-behold not has-spreaded the-plague, in-the-garment, or in-the-warp or in-the-mixture ; or in-all-of article-of skin."
+        },
+        {
+          "n": 54,
+          "t": "the-priest and-has-commanded, and-they-have-washer'sed, who in-him the-plague ; and-he-has-made-shut-him seven-of days second."
+        },
+        {
+          "n": 55,
+          "t": "the-priest and-has-seen after washer's the-plague and-behold not has-overturned the-plague eye-of-him and-the-plague not has-spreaded, unclean he, in-the-fire you-will-burn-him ; eating he, in-baldness-of-him or in-baldness-of-him."
+        },
+        {
+          "n": 56,
+          "t": "and-if the-priest has-seen and-behold has-fainted the-plague, after washer's him ; and-has-teared him from the-garment or from the-skin, or from the-warp or from the-mixture."
+        },
+        {
+          "n": 57,
+          "t": "and-if will-be-seen still in-the-garment or in-the-warp or in-the-mixture or in-all-of article-of skin, sprouting he ; in-the-fire you-will-burn-him, who in-him the-plague."
+        },
+        {
+          "n": 58,
+          "t": "and-the-garment or the-warp or the-mixture or all-of article-of the-skin who you-will-washer's, the-plague ; and-has-turned from-them and-he-has-been-washer'sed second and-he-has-pured."
+        },
+        {
+          "n": 59,
+          "t": "this-f instruction-of plague-of leprosy-of garment-of the-wool or the-flaxes or the-warp or the-mixture, or all-of article-of skin ; to/for-pure-of-him or to/for-defile-of-him."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "this-f instruction-of will-be the-leproused, in-day-of purifying-of-him ; the-priest and-has-been-made-come toward."
+        },
+        {
+          "n": 3,
+          "t": "the-priest and-has-exited, toward from-outside to/for-the-camp ; the-priest and-has-seen, and-behold has-been-healed plague-of the-leprosy from the-leproused."
+        },
+        {
+          "n": 4,
+          "t": "the-priest and-has-commanded, and-has-taken to/for-the-self-puring two-of birds living pure ; and-tree-of cedar, and-scarlet-of worm and-hyssop."
+        },
+        {
+          "n": 5,
+          "t": "the-priest and-has-commanded, and-has-slaughtered the-bird the-one ; toward article-of earthenware on waters living."
+        },
+        {
+          "n": 6,
+          "t": "the-bird the-living he-will-take her, and-tree-of the-cedar and-scarlet-of the-worm and-the-hyssop ; and-he-has-diped them and-the-bird the-living in-blood-of the-bird the-slaughtered, on the-waters the-living."
+        },
+        {
+          "n": 7,
+          "t": "and-he-has-made-sprinkle on the-self-puring from the-leprosy seven strokes ; and-he-has-pured-him, and-he-has-sended the-bird the-living on faces-of the-field."
+        },
+        {
+          "n": 8,
+          "t": "and-has-washer'sed the-self-puring garments-of-him and-has-shaved all-of hair-of-him and-has-washed in-the-waters and-has-pured, and-after the-camp ; will-come toward and-he-has-dwelt from-outside to/for-tent-of-him seven-of days."
+        },
+        {
+          "n": 9,
+          "t": "and-he-has-been in-the-day the-seventh he-will-shave all-of hair-of-him head-of-him and-beard-of-him and-backs-of eyes-of-him, and-all-of hair-of-him he-will-shave ; and-he-has-washer'sed garments-of-him and-he-has-washed flesh-of-him in-the-waters and-he-has-pured."
+        },
+        {
+          "n": 10,
+          "t": "and-in-the-day the-eighth he-will-take two-of lambs unblemished, and-ewe-lamb one daughter-of year-of-her unblemished ; and-three tenths fine offering mixed in-the-oil, and-log one oil."
+        },
+        {
+          "n": 11,
+          "t": "the-priest the-puring and-has-made-stand the-man the-self-puring and-them ; to/for-faces-of YHWH, entrance-of tent-of meeting."
+        },
+        {
+          "n": 12,
+          "t": "the-priest and-has-taken the-lamb the-one and-has-made-present him to/for-guilt and-log-of the-oil ; and-he-has-made-wave them wave to/for-faces-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "and-he-has-slaughtered the-lamb in-place-of who he-will-slaughter the-offense and-the-burnt in-place-of the-holiness ; for like-the-offense the-guilt he to/for-the-priest, holiness-of holinesses he."
+        },
+        {
+          "n": 14,
+          "t": "the-priest and-has-taken from-blood-of the-guilt and-has-given the-priest, on lobe-of ear-of the-self-puring the-right ; and-on thumb-of hand-of-him the-right, and-on thumb-of foot-of-him the-right."
+        },
+        {
+          "n": 15,
+          "t": "the-priest and-has-taken from-log-of the-oil ; and-he-has-poured on palm-of the-priest the-left."
+        },
+        {
+          "n": 16,
+          "t": "the-priest and-has-diped finger-of-him the-right, from the-oil, who on palm-of-him the-left ; the-oil and-has-made-sprinkle from in-finger-of-him seven strokes to/for-faces-of YHWH."
+        },
+        {
+          "n": 17,
+          "t": "and-from-remainder-of the-oil who on the-priest will-give palm-of-him on lobe-of ear-of the-self-puring the-right, and-on thumb-of hand-of-him the-right, and-on thumb-of foot-of-him the-right ; on blood-of the-guilt."
+        },
+        {
+          "n": 18,
+          "t": "and-the-remained in-the-oil who on palm-of the-priest, head-of will-give on the-self-puring ; the-priest and-has-covered on-him to/for-faces-of YHWH."
+        },
+        {
+          "n": 19,
+          "t": "the-priest and-has-done the-offense, and-has-covered, on the-self-puring from-uncleanness-of-him ; and-after he-will-slaughter the-burnt."
+        },
+        {
+          "n": 20,
+          "t": "the-priest and-has-made-ascend the-burnt and-the-offering the-altar-ward ; the-priest and-has-covered on-him and-has-pured."
+        },
+        {
+          "n": 21,
+          "t": "and-if poor he and-naught hand-of-him making-overtake and-has-taken lamb one guilt to/for-wave to/for-cover on-him ; and-tenth fine one mixed in-the-oil to/for-offering and-log-of oil."
+        },
+        {
+          "n": 22,
+          "t": "and-two-of turtledoves or two-of sons-of dove, who hand-of-him will-make-overtake ; and-he-has-been one offense, and-the-one burnt."
+        },
+        {
+          "n": 23,
+          "t": "and-has-made-come them in-the-day the-eighth to/for-purifying-of-him toward the-priest ; toward entrance-of tent-of meeting to/for-faces-of YHWH."
+        },
+        {
+          "n": 24,
+          "t": "the-priest and-has-taken lamb-of the-guilt and-log-of the-oil ; and-he-has-made-wave them the-priest wave to/for-faces-of YHWH."
+        },
+        {
+          "n": 25,
+          "t": "and-has-slaughtered lamb-of the-guilt the-priest and-has-taken from-blood-of the-guilt, and-has-given on lobe-of ear-of the-self-puring the-right ; and-on thumb-of hand-of-him the-right, and-on thumb-of foot-of-him the-right."
+        },
+        {
+          "n": 26,
+          "t": "and-from the-oil will-pour the-priest ; on palm-of the-priest the-left."
+        },
+        {
+          "n": 27,
+          "t": "the-priest and-has-made-sprinkle in-finger-of-him the-right, from the-oil, who on palm-of-him the-left ; seven strokes to/for-faces-of YHWH."
+        },
+        {
+          "n": 28,
+          "t": "the-priest and-has-given from the-oil who on palm-of-him on lobe-of ear-of the-self-puring the-right, and-on thumb-of hand-of-him the-right, and-on thumb-of foot-of-him the-right ; on place-of blood-of the-guilt."
+        },
+        {
+          "n": 29,
+          "t": "and-the-remained from the-oil who on palm-of the-priest, will-give on head-of the-self-puring ; to/for-cover on-him to/for-faces-of YHWH."
+        },
+        {
+          "n": 30,
+          "t": "and-he-has-done the-one from the-turtledoves, or from sons-of the-dove ; from-whence hand-of-him will-make-overtake."
+        },
+        {
+          "n": 31,
+          "t": "who hand-of-him will-make-overtake the-one offense and-the-one burnt on the-offering ; the-priest and-has-covered on the-self-puring to/for-faces-of YHWH."
+        },
+        {
+          "n": 32,
+          "t": "this-f instruction-of, who in-him plague-of leprosy ; who not hand-of-him will-make-overtake in-purifying-of-him."
+        },
+        {
+          "n": 33,
+          "t": "YHWH and-has-spoken, toward Moses and-toward Aaron to/for-say."
+        },
+        {
+          "n": 34,
+          "t": "for you-pl-will-come toward land-of Canaan, who I giving to/for-you-pl to/for-possession ; and-I-have-given plague-of leprosy, in-house-of land-of possession-of-you-pl."
+        },
+        {
+          "n": 35,
+          "t": "and-has-come who to/for-him the-house, and-has-made-announce to/for-the-priest to/for-say ; like-plague, he-has-been-seen to/for-me in-the-house."
+        },
+        {
+          "n": 36,
+          "t": "the-priest and-has-commanded and-they-have-turned the-house in-before the-priest will-come to/for-see the-plague, and-not will-defile all-of who in-the-house ; and-after thus the-priest will-come to/for-see the-house."
+        },
+        {
+          "n": 37,
+          "t": "and-has-seen the-plague and-behold the-plague in-walls-of the-house, hollows greenish, or reddish ; and-sights-of-them-f low from the-wall."
+        },
+        {
+          "n": 38,
+          "t": "the-priest and-has-exited from the-house toward entrance-of the-house ; and-he-has-made-shut the-house seven-of days."
+        },
+        {
+          "n": 39,
+          "t": "the-priest and-has-returned in-the-day the-seventh ; and-has-seen, and-behold the-plague has-spreaded in-walls-of the-house."
+        },
+        {
+          "n": 40,
+          "t": "the-priest and-has-commanded, and-they-have-rescued the-stones, who in-them-f the-plague ; and-they-have-made-throw them-f toward from-outside to/for-the-city, toward place unclean."
+        },
+        {
+          "n": 41,
+          "t": "and-the-house around ; will-make-scrape from-house and-they-have-poured the-dust who they-have-made-cut, toward from-outside to/for-the-city, toward place unclean."
+        },
+        {
+          "n": 42,
+          "t": "stones another and-have-taken, and-have-made-come toward under the-stones ; and-dust another will-take and-has-overspreaded the-house."
+        },
+        {
+          "n": 43,
+          "t": "and-if the-plague will-return and-has-broken in-the-house, after has-rescued the-stones ; and-after make-cut the-house and-after be-overspread."
+        },
+        {
+          "n": 44,
+          "t": "the-priest and-has-come, and-has-seen, and-behold the-plague has-spreaded in-the-house ; leprosy making-malign he in-the-house unclean he."
+        },
+        {
+          "n": 45,
+          "t": "and-he-has-teared the-house stones-of-him and-trees-of-him, and-all-of dust-of the-house ; place unclean and-has-made-exit toward from-outside to/for-the-city, toward."
+        },
+        {
+          "n": 46,
+          "t": "and-the-coming toward the-house, all-of days-of has-made-shut him ; the-evening will-defile until."
+        },
+        {
+          "n": 47,
+          "t": "and-the-lying in-the-house, he-will-washer's garments-of-him ; and-the-eating in-the-house, he-will-washer's garments-of-him."
+        },
+        {
+          "n": 48,
+          "t": "and-if come the-priest will-come and-has-seen and-behold not the-plague has-spreaded in-the-house, after be-overspread the-house ; the-priest and-has-pured the-house, for has-been-healed the-plague."
+        },
+        {
+          "n": 49,
+          "t": "and-he-has-taken to/for-sin the-house two-of birds ; and-tree-of cedar, and-scarlet-of worm and-hyssop."
+        },
+        {
+          "n": 50,
+          "t": "and-he-has-slaughtered the-bird the-one ; toward article-of earthenware on waters living."
+        },
+        {
+          "n": 51,
+          "t": "and-he-has-taken tree-of the-cedar and-the-hyssop and-scarlet-of the-worm and-the-bird the-living and-he-has-diped them in-blood-of the-bird the-slaughtered, and-in-the-waters the-living ; the-house and-has-made-sprinkle toward seven strokes."
+        },
+        {
+          "n": 52,
+          "t": "and-he-has-sinned the-house, in-blood-of the-bird, and-in-the-waters the-living ; and-in-the-bird the-living and-in-tree-of the-cedar and-in-the-hyssop and-in-scarlet-of the-worm."
+        },
+        {
+          "n": 53,
+          "t": "and-he-has-sended the-bird the-living toward from-outside to/for-the-city toward faces-of the-field ; the-house and-has-covered on and-has-pured."
+        },
+        {
+          "n": 54,
+          "t": "this-f the-instruction ; to/for-all-of plague-of the-leprosy and-to/for-the-scab."
+        },
+        {
+          "n": 55,
+          "t": "and-to/for-leprosy-of the-garment and-to/for-the-house."
+        },
+        {
+          "n": 56,
+          "t": "and-to/for-the-elevation and-to/for-the-scab and-to/for-the-bright."
+        },
+        {
+          "n": 57,
+          "t": "to/for-make-show, in-day-of the-unclean and-in-day-of the-pure ; this-f instruction-of the-leprosy."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken, toward Moses and-toward Aaron to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel, and-you-pl-have-said toward-them ; man man for will-be flowing from-flesh-of-him, discharge-of-him unclean he."
+        },
+        {
+          "n": 3,
+          "t": "and-this-f uncleanness-of-him will-be in-discharge-of-him ; flesh-of-him has-run discharge-of-him or has-made-seal flesh-of-him from-discharge-of-him, uncleanness-of-him he."
+        },
+        {
+          "n": 4,
+          "t": "all-of the-bed who will-lie on-him the-flowing will-defile ; and-all-of the-article who will-dwell on-him will-defile."
+        },
+        {
+          "n": 5,
+          "t": "and-man, who will-touch in-bed-of-him ; will-washer's garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 6,
+          "t": "and-the-dwelling on the-article, who will-dwell on-him the-flowing ; will-washer's garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 7,
+          "t": "and-the-touching in-flesh-of the-flowing ; will-washer's garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 8,
+          "t": "and-for he-will-spit the-flowing in-the-pure ; and-has-washer'sed garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 9,
+          "t": "and-all-of the-chariot who will-ride on-him the-flowing will-defile."
+        },
+        {
+          "n": 10,
+          "t": "and-all-of the-touching in-all who will-be under-him, the-evening ; will-defile until and-the-lifting them, will-washer's garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 11,
+          "t": "and-all who will-touch in-him the-flowing, and-hands-of-him not has-overflowed in-the-waters ; and-has-washer'sed garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 12,
+          "t": "and-article-of earthenware who will-touch in-him the-flowing will-be-breaked ; and-all-of article-of tree, will-be-overflowed in-the-waters."
+        },
+        {
+          "n": 13,
+          "t": "and-for he-will-pure the-flowing from-discharge-of-him, and-he-has-recounted to/for-him seven-of days to/for-purifying-of-him and-he-has-washer'sed garments-of-him ; flesh-of-him and-has-washed in-waters living and-has-pured."
+        },
+        {
+          "n": 14,
+          "t": "and-in-the-day the-eighth he-will-take to/for-him two-of turtledoves, or two-of sons-of dove ; and-has-come to/for-faces-of YHWH toward entrance-of tent-of meeting, and-has-given-them toward the-priest."
+        },
+        {
+          "n": 15,
+          "t": "and-he-has-done them the-priest, one offense, and-the-one burnt ; the-priest and-has-covered on-him to/for-faces-of YHWH from-discharge-of-him."
+        },
+        {
+          "n": 16,
+          "t": "and-man, for semen-of seed ; will-exit from-us and-has-washed in-the-waters all-of flesh-of-him the-evening and-has-defiled until."
+        },
+        {
+          "n": 17,
+          "t": "and-all-of garment and-all-of skin, who will-be on-him semen-of seed ; and-has-been-washer'sed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 18,
+          "t": "and-woman, who man will-lie her semen-of seed ; and-they-have-washed in-the-waters, and-they-have-defiled until the-evening."
+        },
+        {
+          "n": 19,
+          "t": "and-woman for will-be discharging, blood will-be flow-of-her in-flesh-of-her ; seven-of days she-will-be in-impurity-of-her, and-all-of the-touching in-her will-defile until the-evening."
+        },
+        {
+          "n": 20,
+          "t": "and-all who she-will-lie on-him in-impurity-of-her will-defile ; and-all who she-will-dwell on-him will-defile."
+        },
+        {
+          "n": 21,
+          "t": "and-all-of the-touching in-bed-of-her ; will-washer's garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 22,
+          "t": "and-all-of the-touching, in-all-of article who she-will-dwell on-him ; will-washer's garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 23,
+          "t": "and-if on the-bed he or on the-article who he dwelling on-him in-touch-of-him in-him ; the-evening will-defile until."
+        },
+        {
+          "n": 24,
+          "t": "and-if lie man will-lie her and-let-be impurity-of-her on-him, and-has-defiled seven-of days ; and-all-of the-bed who will-lie on-him will-defile."
+        },
+        {
+          "n": 25,
+          "t": "and-woman for will-flow discharge-of blood-of-her days many in-not time-of impurity-of-her, or for will-flow on impurity-of-her ; all-of days-of discharge-of uncleanness-of-her like-days-of impurity-of-her will-be unclean he."
+        },
+        {
+          "n": 26,
+          "t": "all-of the-bed who she-will-lie on-him all-of days-of discharge-of-her, like-bed-of impurity-of-her will-be to/for-her ; and-all-of the-article who she-will-dwell on-him, unclean will-be, like-uncleanness-of impurity-of-her."
+        },
+        {
+          "n": 27,
+          "t": "and-all-of the-touching in-them will-defile ; and-has-washer'sed garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until."
+        },
+        {
+          "n": 28,
+          "t": "and-if she-has-pured from-discharge-of-her ; and-she-has-recounted to/for-her seven-of days and-after she-will-pure."
+        },
+        {
+          "n": 29,
+          "t": "and-in-the-day the-eighth she-will-take to/for-her two-of turtledoves, or two-of sons-of dove ; and-she-has-made-come them toward the-priest, toward entrance-of tent-of meeting."
+        },
+        {
+          "n": 30,
+          "t": "the-priest and-has-done the-one offense, and-the-one burnt ; the-priest and-has-covered on-her to/for-faces-of YHWH, from-discharge-of uncleanness-of-her."
+        },
+        {
+          "n": 31,
+          "t": "and-you-pl-have-made-dedicate sons-of Israel from-uncleanness-of-them ; and-not they-will-die in-uncleanness-of-them, in-defile-of-them tabernacle-of-me who in-midst-of-them."
+        },
+        {
+          "n": 32,
+          "t": "this-f instruction-of the-flowing ; and-who semen-of seed will-exit from-us to/for-defile in-her."
+        },
+        {
+          "n": 33,
+          "t": "and-the-sick in-impurity-of-her, and-the-flowing discharge-of-him, to/for-the-male and-to/for-the-female ; and-to/for-man, who he-will-lie with unclean."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses, after death-of, two-of sons-of Aaron ; in-present-of-them to/for-faces-of YHWH and-they-have-died."
+        },
+        {
+          "n": 2,
+          "t": "YHWH and-has-said toward Moses speak toward Aaron brother-of-you and-do-not let-come in-all-of time toward the-holiness, from-house-of to/for-the-curtain ; toward faces-of the-mercy who on the-ark and-not will-die, for in-the-cloud, I-will-be-seen on the-mercy."
+        },
+        {
+          "n": 3,
+          "t": "in-this-f Aaron will-come toward the-holiness ; in-bullock son-of cattle to/for-offense and-ram to/for-burnt."
+        },
+        {
+          "n": 4,
+          "t": "tunic-of linen-of holiness will-clothe and-undergarments-of linen will-be on flesh-of-him and-in-girdle-of linen will-gird, and-in-turban-of linen will-wrap ; garments-of holiness they, and-he-has-washed in-the-waters flesh-of-him and-he-has-clothed-them."
+        },
+        {
+          "n": 5,
+          "t": "and-from congregation-of sons-of Israel, he-will-take two-of he-goats-of goats to/for-offense ; and-ram one to/for-burnt."
+        },
+        {
+          "n": 6,
+          "t": "Aaron and-has-made-present bullock-of the-offense who to/for-him ; house-of-him and-has-covered about-him and-about."
+        },
+        {
+          "n": 7,
+          "t": "and-he-has-taken two-of the-he-goats ; and-has-made-stand them to/for-faces-of YHWH, entrance-of tent-of meeting."
+        },
+        {
+          "n": 8,
+          "t": "Aaron and-has-given on two-of the-he-goats allotteds ; allotted one to/for-YHWH, and-allotted one to/for-Azazel."
+        },
+        {
+          "n": 9,
+          "t": "Aaron and-has-made-present the-he-goat, who has-ascended on-him the-allotted to/for-YHWH ; and-he-has-done-him offense."
+        },
+        {
+          "n": 10,
+          "t": "and-the-he-goat who has-ascended on-him the-allotted to/for-Azazel, will-be-made-stand living to/for-faces-of YHWH to/for-cover on-him ; to/for-send him to/for-Azazel the-wilderness-ward."
+        },
+        {
+          "n": 11,
+          "t": "Aaron and-has-made-present bullock-of the-offense who to/for-him, and-has-covered about-him and-about house-of-him ; and-he-has-slaughtered bullock-of the-offense who to/for-him."
+        },
+        {
+          "n": 12,
+          "t": "fullness-of the-censer and-has-taken coals-of fire on the-altar from-faces-of YHWH, and-fullness-of palms-of-him, incense-of spices thin ; and-he-has-made-come from-house-of to/for-the-curtain."
+        },
+        {
+          "n": 13,
+          "t": "and-has-given the-incense on the-fire to/for-faces-of YHWH ; cloud-of the-incense and-has-covered the-mercy who on the-testimony and-not will-die."
+        },
+        {
+          "n": 14,
+          "t": "and-has-taken from-blood-of the-bullock, and-has-made-sprinkle in-finger-of-him on faces-of the-mercy east-ward ; and-to/for-faces-of the-mercy will-make-sprinkle seven strokes from the-blood in-finger-of-him."
+        },
+        {
+          "n": 15,
+          "t": "and-he-has-slaughtered he-goat-of the-offense who to/for-the-people, and-he-has-made-come blood-of-him, toward from-house-of to/for-the-curtain ; and-he-has-done blood-of-him like-when he-has-done to/for-blood-of the-bullock, and-he-has-made-sprinkle him on the-mercy and-to/for-faces-of the-mercy."
+        },
+        {
+          "n": 16,
+          "t": "the-holiness and-has-covered on from-uncleannesses-of sons-of Israel, and-from-transgressions-of-them to/for-all-of offenses-of-them ; and-thus he-will-do to/for-tent-of meeting, the-dwelling with-them, in-midst-of uncleannesses-of-them."
+        },
+        {
+          "n": 17,
+          "t": "and-all-of man not will-be in-tent-of meeting in-come-of-him to/for-cover in-the-holiness until exit-of-him ; house-of-him, and-has-covered about-him and-about and-about all-of assembly-of Israel."
+        },
+        {
+          "n": 18,
+          "t": "the-altar and-has-exited toward who to/for-faces-of YHWH and-has-covered on-him ; and-has-taken from-blood-of the-bullock and-from-blood-of the-he-goat, and-has-given on horns-of the-altar around."
+        },
+        {
+          "n": 19,
+          "t": "the-blood and-has-made-sprinkle on-him from in-finger-of-him seven strokes ; and-he-has-pured-him and-he-has-consecrated-him, from-uncleannesses-of sons-of Israel."
+        },
+        {
+          "n": 20,
+          "t": "and-he-has-finished from-cover the-holiness, and-tent-of meeting and-the-altar ; and-he-has-made-present the-he-goat the-living."
+        },
+        {
+          "n": 21,
+          "t": "Aaron and-has-supported two-of hands-of-him on head-of the-he-goat the-living and-has-self-confessed on-him all-of iniquities-of sons-of Israel, and-all-of transgressions-of-them to/for-all-of offenses-of-them ; and-has-given them on head-of the-he-goat, and-has-sended in-hand-of man timely the-wilderness-ward."
+        },
+        {
+          "n": 22,
+          "t": "the-he-goat and-has-lifted on-him all-of iniquities-of-them toward land isolation ; and-he-has-sended the-he-goat in-the-wilderness."
+        },
+        {
+          "n": 23,
+          "t": "Aaron and-has-come toward tent-of meeting, and-has-striped garments-of the-linen, who the-holiness ; has-clothed in-come-of-him toward and-he-has-made-rest-them there."
+        },
+        {
+          "n": 24,
+          "t": "and-he-has-washed flesh-of-him in-the-waters in-place holy, and-he-has-clothed garments-of-him ; and-has-exited and-has-done burnt-of-him and-burnt-of the-people, the-people and-has-covered about-him and-about."
+        },
+        {
+          "n": 25,
+          "t": "the-altar-ward will-make-offer and-fat-of the-offense."
+        },
+        {
+          "n": 26,
+          "t": "and-the-sending the-he-goat to/for-Azazel, he-will-washer's garments-of-him, and-he-has-washed flesh-of-him in-the-waters ; and-after thus the-camp will-come toward."
+        },
+        {
+          "n": 27,
+          "t": "and-bullock-of the-offense and-he-goat-of the-offense who he-has-been-made-come blood-of-them to/for-cover in-the-holiness, he-will-make-exit toward from-outside to/for-the-camp ; and-they-have-burned in-the-fire, skins-of-them and-flesh-of-them and-refuse-of-them."
+        },
+        {
+          "n": 28,
+          "t": "and-the-burning them, he-will-washer's garments-of-him, and-he-has-washed flesh-of-him in-the-waters ; and-after thus the-camp will-come toward."
+        },
+        {
+          "n": 29,
+          "t": "and-she-has-been to/for-you-pl to/for-statute-of age ; in-the-month the-seventh in-the-ten to/for-the-month you-pl-will-afflict souls-of-you-pl and-all-of work not you-pl-will-do, the-born, and-the-sojourner the-sojourning in-midst-of-you-pl."
+        },
+        {
+          "n": 30,
+          "t": "for in-the-day the-this he-will-cover on-you-pl to/for-pure you-pl ; from-all-of offenses-of-you-pl, to/for-faces-of YHWH you-pl-will-pure."
+        },
+        {
+          "n": 31,
+          "t": "sabbath-of sabbath he to/for-you-pl, and-you-pl-have-afflicted souls-of-you-pl ; statute-of age."
+        },
+        {
+          "n": 32,
+          "t": "the-priest and-has-covered who will-anoint him and-who will-fill hand-of-him, to/for-minister under father-of-him ; and-he-has-clothed garments-of the-linen garments-of the-holiness."
+        },
+        {
+          "n": 33,
+          "t": "and-he-has-covered sanctuary-of the-holiness, and-tent-of meeting and-the-altar he-will-cover ; and-on the-priests and-on all-of people-of the-assembly will-cover."
+        },
+        {
+          "n": 34,
+          "t": "and-she-has-been this-f to/for-you-pl to/for-statute-of age to/for-cover on sons-of Israel from-all-of offenses-of-them, one in-the-year ; and-has-done, like-when YHWH has-commanded Moses."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward Aaron and-toward sons-of-him and-toward all-of sons-of Israel, and-you-have-said toward-them ; this the-word, who has-commanded YHWH to/for-say."
+        },
+        {
+          "n": 3,
+          "t": "man man from-house-of Israel, who will-slaughter cattle or sheep or goat in-the-camp ; or who he-will-slaughter, from-outside to/for-the-camp."
+        },
+        {
+          "n": 4,
+          "t": "and-toward entrance-of tent-of meeting not has-made-come-him to/for-make-present offering to/for-YHWH, to/for-faces-of tabernacle-of YHWH ; blood will-be-devised to/for-the-man the-he blood has-poured, the-man the-he and-has-been-cut from-entrails-of kinsman-of-him."
+        },
+        {
+          "n": 5,
+          "t": "sake who sons-of Israel will-make-come sacrifices-of-them who they sacrificing on faces-of the-field and-have-made-come-them to/for-YHWH toward entrance-of tent-of meeting toward the-priest ; sacrifices-of peaces and-have-sacrificed to/for-YHWH them."
+        },
+        {
+          "n": 6,
+          "t": "the-priest and-has-scattered the-blood on altar-of YHWH, entrance-of tent-of meeting ; the-fat and-has-made-offer, to/for-aroma-of soothing to/for-YHWH."
+        },
+        {
+          "n": 7,
+          "t": "and-not will-sacrifice still sacrifices-of-them, to/for-the-satyrs, who they fornicating after-them ; statute-of age will-be this-f to/for-them to/for-generations-of-them."
+        },
+        {
+          "n": 8,
+          "t": "and-toward-them you-will-say, man man from-house-of Israel, and-from the-sojourner who will-sojourn in-midst-of-them ; who will-make-ascend burnt or sacrifice."
+        },
+        {
+          "n": 9,
+          "t": "and-toward entrance-of tent-of meeting not will-make-come-him, to/for-do him to/for-YHWH ; the-man the-he and-has-been-cut from-kinsmans-of-him."
+        },
+        {
+          "n": 10,
+          "t": "and-man man from-house-of Israel and-from the-sojourner the-sojourning in-midst-of-them, who will-eat all-of blood ; and-I-have-given faces-of-me in-the-soul the-eating the-blood, and-I-have-made-cut her from-entrails-of kinsman-of-her."
+        },
+        {
+          "n": 11,
+          "t": "for soul-of the-flesh in-the-blood he and-I have-given-him to/for-you-pl on the-altar, to/for-cover on souls-of-you-pl ; for the-blood he in-the-soul will-cover."
+        },
+        {
+          "n": 12,
+          "t": "on thus I-have-said to/for-sons-of Israel, all-of soul from-you-pl not she-will-eat blood ; and-the-sojourner the-sojourning in-midst-of-you-pl not will-eat blood."
+        },
+        {
+          "n": 13,
+          "t": "and-man man from-sons-of Israel and-from the-sojourner the-sojourning in-midst-of-them, who will-hunt wild-of beast or bird who will-be-eaten ; and-he-has-poured blood-of-him, and-he-has-covered-him in-the-dust."
+        },
+        {
+          "n": 14,
+          "t": "for soul-of all-of flesh blood-of-him in-soul-of-him he and-I-have-said to/for-sons-of Israel, blood-of all-of flesh not you-pl-will-eat ; for soul-of all-of flesh blood-of-him he, all-of eating-of-him will-be-cut."
+        },
+        {
+          "n": 15,
+          "t": "and-all-of soul who carcass and-torn will-eat, in-the-born and-in-the-sojourner ; and-has-washer'sed garments-of-him and-has-washed in-the-waters the-evening and-has-defiled until and-has-pured."
+        },
+        {
+          "n": 16,
+          "t": "and-if not and-flesh-of-him will-washer's, not will-wash ; iniquity-of-him and-has-lifted."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel, and-you-have-said toward-them ; I YHWH god-of-you-pl."
+        },
+        {
+          "n": 3,
+          "t": "like-deed-of land-of Egypt who you-pl-have-dwelt in-her not you-pl-will-do ; and-like-deed-of land-of Canaan who I making-come you-pl there-ward not you-pl-will-do, and-in-statutes-of-them not you-pl-will-walk."
+        },
+        {
+          "n": 4,
+          "t": "justices-of-me you-pl-will-do and-statutes-of-me you-pl-will-keep to/for-walk in-them ; I YHWH god-of-you-pl."
+        },
+        {
+          "n": 5,
+          "t": "and-you-pl-have-kept statutes-of-me and-justices-of-me, who he-will-do them the-man and-he-has-lived in-them ; I YHWH."
+        },
+        {
+          "n": 6,
+          "t": "man man toward all-of flesh-of flesh-of-him, not you-pl-will-present to/for-heglam nakedness ; I YHWH."
+        },
+        {
+          "n": 7,
+          "t": "nakedness-of father-of-you and-nakedness-of mother-of-you not you-will-heglam ; mother-of-you he, not you-will-heglam nakedness-of-her."
+        },
+        {
+          "n": 8,
+          "t": "nakedness-of woman-of father-of-you not you-will-heglam ; nakedness-of father-of-you he."
+        },
+        {
+          "n": 9,
+          "t": "nakedness-of sister-of-you daughter-of father-of-you or daughter-of mother-of-you, relatives-of house, or relatives-of outside ; not you-will-heglam nakedness-of-them-f."
+        },
+        {
+          "n": 10,
+          "t": "nakedness-of daughter-of son-of-you or daughter-of daughter-of-you, not you-will-heglam nakedness-of-them-f ; for nakedness-of-you they."
+        },
+        {
+          "n": 11,
+          "t": "nakedness-of daughter-of woman-of father-of-you relatives-of father-of-you, sister-of-you he ; not you-will-heglam nakedness-of-her."
+        },
+        {
+          "n": 12,
+          "t": "nakedness-of sister-of father-of-you not you-will-heglam ; flesh-of father-of-you he."
+        },
+        {
+          "n": 13,
+          "t": "nakedness-of sister-of mother-of-you not you-will-heglam ; for flesh-of mother-of-you he."
+        },
+        {
+          "n": 14,
+          "t": "nakedness-of brother-of father-of-you not you-will-heglam ; toward woman-of-him not you-will-present, aunt-of-you he."
+        },
+        {
+          "n": 15,
+          "t": "nakedness-of daughter-in-law-of-you not you-will-heglam ; woman-of son-of-you he, not you-will-heglam nakedness-of-her."
+        },
+        {
+          "n": 16,
+          "t": "nakedness-of woman-of brother-of-you not you-will-heglam ; nakedness-of brother-of-you he."
+        },
+        {
+          "n": 17,
+          "t": "nakedness-of woman and-daughter-of-her not you-will-heglam ; daughter-of son-of-her and-daughter-of daughter-of-her not you-will-take to/for-heglam nakedness-of-her, kinswomen they wickedness he."
+        },
+        {
+          "n": 18,
+          "t": "and-woman toward sister-of-her not you-will-take ; to/for-rival to/for-heglam nakedness-of-her on-her in-lifes-of-her."
+        },
+        {
+          "n": 19,
+          "t": "and-toward woman in-impurity-of uncleanness-of-her ; not you-will-present, to/for-heglam nakedness-of-her."
+        },
+        {
+          "n": 20,
+          "t": "and-toward woman-of neighbor-of-you, not you-will-give copulation-of-you to/for-seed ; to/for-defile in-her."
+        },
+        {
+          "n": 21,
+          "t": "and-from-seed-of-you not you-will-give to/for-make-pass to/for-the-Molech ; and-not you-will-begin name-of god-of-you I YHWH."
+        },
+        {
+          "n": 22,
+          "t": "and-with male, not you-will-lie beds-of woman ; abomination he."
+        },
+        {
+          "n": 23,
+          "t": "and-in-all-of animal not you-will-give copulation-of-you to/for-defile in-her ; and-woman not will-stand to/for-faces-of animal to/for-mate-of-her perversion he."
+        },
+        {
+          "n": 24,
+          "t": "do-not let-defile in-all-of these ; for in-all-of these the-nations have-been-defiled, who I sending from-faces-of-you-pl."
+        },
+        {
+          "n": 25,
+          "t": "the-land and-has-defiled, and-I-have-reckoned iniquity-of-her on-her ; the-land and-has-made-vomit dwelling-of-her."
+        },
+        {
+          "n": 26,
+          "t": "you and-have-kept statutes-of-me and-justices-of-me, and-not will-do, from-all-of the-abominations the-these ; the-born, and-the-sojourner the-sojourning in-midst-of-you-pl."
+        },
+        {
+          "n": 27,
+          "t": "for all-of the-abominations the-these, mans-of the-land have-done who to/for-faces-of-you-pl ; the-land and-has-defiled."
+        },
+        {
+          "n": 28,
+          "t": "and-not the-land will-make-vomit you-pl, in-defile-of-you-pl her ; like-when she-has-vomited the-nation who to/for-faces-of-you-pl."
+        },
+        {
+          "n": 29,
+          "t": "for all-of who will-do, from-all-of the-abominations the-these ; the-souls the-doing and-have-been-cut from-entrails-of kinsman-of-them."
+        },
+        {
+          "n": 30,
+          "t": "and-you-pl-have-kept charge-of-me to/for-without do from-statutes-of the-abominations who they-have-been-done to/for-faces-of-you-pl, and-not you-pl-will-defile in-them ; I YHWH god-of-you-pl."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward all-of congregation-of sons-of Israel and-you-have-said toward-them holy you-pl-will-be ; for holy, I YHWH god-of-you-pl."
+        },
+        {
+          "n": 3,
+          "t": "man mother-of-him and-father-of-him you-pl-will-fear, and-sabbaths-of-me you-pl-will-keep ; I YHWH god-of-you-pl."
+        },
+        {
+          "n": 4,
+          "t": "do-not let-turn toward the-idols, and-god-of liquid, not you-pl-will-do to/for-you-pl ; I YHWH god-of-you-pl."
+        },
+        {
+          "n": 5,
+          "t": "and-for you-pl-will-sacrifice sacrifice-of peaces to/for-YHWH ; to/for-acceptance-of-you-pl you-pl-will-sacrifice-him."
+        },
+        {
+          "n": 6,
+          "t": "in-day-of sacrifice-of-you-pl he-will-be-eaten and-from-morrow ; and-the-remained until day the-third, in-the-fire will-be-burned."
+        },
+        {
+          "n": 7,
+          "t": "and-if be-eat he-will-be-eaten in-the-day the-third ; refuse he not will-be-accepted."
+        },
+        {
+          "n": 8,
+          "t": "and-eating-of-him iniquity-of-him will-lift, for holiness-of YHWH has-begun ; the-soul the-he and-has-been-cut from-kinsmans-of-her."
+        },
+        {
+          "n": 9,
+          "t": "and-in-reap-of-you-pl harvest-of land-of-you-pl, not you-will-finish side-of field-of-you to/for-reap ; and-gleaning-of harvest-of-you not you-will-gather."
+        },
+        {
+          "n": 10,
+          "t": "and-vineyard-of-you not you-will-glean, and-broken-of vineyard-of-you not you-will-gather ; to/for-the-afflicted and-to/for-the-sojourner you-will-leave them, I YHWH god-of-you-pl."
+        },
+        {
+          "n": 11,
+          "t": "not you-pl-will-steal ; and-not you-pl-will-deceive and-not you-pl-will-deal man in-neighbor-of-him."
+        },
+        {
+          "n": 12,
+          "t": "and-not you-pl-will-be-sweared in-name-of-me to/for-the-deception ; and-you-have-begun name-of god-of-you I YHWH."
+        },
+        {
+          "n": 13,
+          "t": "not you-will-oppress neighbor-of-you and-not you-will-plunder ; not wages-of hired will-lodge with-you until morning."
+        },
+        {
+          "n": 14,
+          "t": "not you-will-lighten deaf, and-to/for-faces-of blind, not you-will-give stumbling ; and-you-have-feared from-god-of-you I YHWH."
+        },
+        {
+          "n": 15,
+          "t": "not you-pl-will-do injustice in-the-justice, not you-will-lift faces-of poor, and-not you-will-honor faces-of great ; in-righteousness you-will-judge neighbor-of-you."
+        },
+        {
+          "n": 16,
+          "t": "not you-will-walk slander in-peoples-of-you, not you-will-stand on blood-of neighbor-of-you ; I YHWH."
+        },
+        {
+          "n": 17,
+          "t": "not you-will-hate brother-of-you in-heart-of-you ; make-rebuke you-will-make-rebuke neighbor-of-you, and-not you-will-lift on-him sin."
+        },
+        {
+          "n": 18,
+          "t": "not you-will-avenge and-not you-will-keep sons-of people-of-you, and-you-have-loved to/for-neighbor-of-you like-you ; I YHWH."
+        },
+        {
+          "n": 19,
+          "t": "statutes-of-me you-pl-will-keep animal-of-you not you-will-make-mate mixtures, field-of-you not you-will-sow mixtures ; and-garment-of mixtures mixed, not will-ascend on-you."
+        },
+        {
+          "n": 20,
+          "t": "and-man for will-lie with woman semen-of seed and-he maidservant acquired to/for-man, and-be-make-ransom not has-been-ransomed, or freedom not has-been-given to/for-her ; scourging will-be not they-will-be-made-die for not has-been-freed."
+        },
+        {
+          "n": 21,
+          "t": "and-has-made-come guilt-of-him to/for-YHWH, toward entrance-of tent-of meeting ; ram-of guilt."
+        },
+        {
+          "n": 22,
+          "t": "the-priest and-has-covered on-him in-ram-of the-guilt to/for-faces-of YHWH, on offense-of-him who has-sinned ; and-he-has-been-forgiven to/for-him, from-offense-of-him who he-has-sinned."
+        },
+        {
+          "n": 23,
+          "t": "and-for you-pl-will-come toward the-land and-you-pl-have-planted all-of tree-of food, and-you-pl-have-uncircumciseded x-of-him fruit-of-him ; three years he-will-be to/for-you-pl uncircumcised not he-will-be-eaten."
+        },
+        {
+          "n": 24,
+          "t": "and-in-the-year the-fourth, all-of fruit-of-him will-be ; holiness praises to/for-YHWH."
+        },
+        {
+          "n": 25,
+          "t": "and-in-the-year the-fifth you-pl-will-eat fruit-of-him, to/for-make-add to/for-you-pl produce-of-him ; I YHWH god-of-you-pl."
+        },
+        {
+          "n": 26,
+          "t": "not you-pl-will-eat on the-blood ; not you-pl-will-divine and-not you-pl-will-divine."
+        },
+        {
+          "n": 27,
+          "t": "not you-pl-will-make-surround, side-of head-of-you-pl ; and-not you-will-destroy, side-of beard-of-you."
+        },
+        {
+          "n": 28,
+          "t": "and-incision to/for-soul not you-pl-will-give in-flesh-of-you-pl, and-imprint-of incision, not you-pl-will-give in-you-pl ; I YHWH."
+        },
+        {
+          "n": 29,
+          "t": "do-not let-begin daughter-of-you to/for-make-fornicate-of-her ; and-not the-land will-fornicate, and-has-filled the-land wickedness."
+        },
+        {
+          "n": 30,
+          "t": "sabbaths-of-me you-pl-will-keep, and-sanctuary-of-me you-pl-will-fear ; I YHWH."
+        },
+        {
+          "n": 31,
+          "t": "do-not let-turn toward the-mediums and-toward the-spiritists, do-not let-seek to/for-defile in-them ; I YHWH god-of-you-pl."
+        },
+        {
+          "n": 32,
+          "t": "from-faces-of greyheaded you-will-rise, and-you-have-honored faces-of old ; and-you-have-feared from-god-of-you I YHWH."
+        },
+        {
+          "n": 33,
+          "t": "and-for sojourner will-sojourn with-you in-land-of-you-pl ; not you-pl-will-make-oppress him."
+        },
+        {
+          "n": 34,
+          "t": "like-born from-you-pl the-sojourner the-sojourning will-be to/for-you-pl with-you-pl and-you-have-loved to/for-him like-you, for sojourners you-pl-have-been in-land-of Egypt ; I YHWH god-of-you-pl."
+        },
+        {
+          "n": 35,
+          "t": "not you-pl-will-do injustice in-the-justice ; in-the-measure, in-the-weight and-in-the-capacity."
+        },
+        {
+          "n": 36,
+          "t": "balances-of righteousness stones-of righteousness ephah-of righteousness and-hin-of righteousness will-be to/for-you-pl ; I YHWH god-of-you-pl, who have-made-exit you-pl from-land-of Egypt."
+        },
+        {
+          "n": 37,
+          "t": "and-you-pl-have-kept all-of statutes-of-me and-all-of justices-of-me, and-you-pl-have-done them ; I YHWH."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "and-toward sons-of Israel you-will-say man man from-sons-of Israel and-from the-sojourner the-sojourning in-Israel who will-give from-seed-of-him to/for-the-Molech die will-be-made-die ; people-of the-land they-will-stone-him in-the-stone."
+        },
+        {
+          "n": 3,
+          "t": "and-I will-give faces-of-me in-the-man the-he, and-have-made-cut him from-entrails-of people-of-him ; for from-seed-of-him he-has-given to/for-the-Molech, sake defile sanctuary-of-me, and-to/for-begin name-of holiness-of-me."
+        },
+        {
+          "n": 4,
+          "t": "and-if make-conceal they-will-make-conceal people-of the-land eyes-of-them from the-man the-he, in-give-of-him from-seed-of-him to/for-the-Molech ; to/for-without make-die him."
+        },
+        {
+          "n": 5,
+          "t": "I and-have-put faces-of-me in-the-man the-he and-in-family-of-him ; and-I-have-made-cut him and-all-of the-fornicating after-him to/for-fornicate after the-Molech from-entrails-of people-of-them."
+        },
+        {
+          "n": 6,
+          "t": "and-the-soul who will-turn toward the-mediums and-toward the-spiritists, to/for-fornicate after-them ; and-I-have-given faces-of-me in-the-soul the-he, and-I-have-made-cut him from-entrails-of people-of-him."
+        },
+        {
+          "n": 7,
+          "t": "and-you-pl-have-self-consecrated, and-you-pl-have-been holy ; for I YHWH god-of-you-pl."
+        },
+        {
+          "n": 8,
+          "t": "and-you-pl-have-kept statutes-of-me, and-you-pl-have-done them ; I YHWH consecrating-of-you-pl."
+        },
+        {
+          "n": 9,
+          "t": "for man man who will-lighten father-of-him and-mother-of-him die will-be-made-die ; father-of-him and-mother-of-him has-lightened bloods-of-him in-him."
+        },
+        {
+          "n": 10,
+          "t": "and-man who will-commit with woman-of man, who will-commit with woman-of neighbor-of-him ; die he-will-be-made-die the-commiting and-the-commiting."
+        },
+        {
+          "n": 11,
+          "t": "and-man who will-lie with woman-of father-of-him, nakedness-of father-of-him has-heglamed ; die will-be-made-die two-of-them bloods-of-them in-them."
+        },
+        {
+          "n": 12,
+          "t": "and-man who will-lie with daughter-in-law-of-him, die they-will-be-made-die two-of-them ; bloods-of-them have-done perversion in-them."
+        },
+        {
+          "n": 13,
+          "t": "and-man who will-lie with male beds-of woman, abomination have-done two-of-them ; die bloods-of-them will-be-made-die in-them."
+        },
+        {
+          "n": 14,
+          "t": "and-man who will-take woman and-mother-of-her wickedness he ; in-the-fire they-will-burn him and-them-f, and-not wickedness will-be in-midst-of-you-pl."
+        },
+        {
+          "n": 15,
+          "t": "and-man who will-give copulation-of-him in-animal die will-be-made-die ; and-the-animal you-pl-will-kill."
+        },
+        {
+          "n": 16,
+          "t": "and-woman who will-present toward all-of animal to/for-mate with-her, and-you-have-killed the-woman and-the-animal ; die bloods-of-them will-be-made-die in-them."
+        },
+        {
+          "n": 17,
+          "t": "and-man who will-take sister-of-him daughter-of father-of-him or daughter-of mother-of-him and-has-seen nakedness-of-her and-he will-see nakedness-of-him shame he, and-they-have-been-cut, to/for-eyes-of sons-of people-of-them ; nakedness-of sister-of-him iniquity-of-him has-heglamed will-lift."
+        },
+        {
+          "n": 18,
+          "t": "and-man who will-lie with woman sick and-has-heglamed nakedness-of-her fountain-of-her has-made-uncover, and-he, has-heglamed fountain-of bloods-of-her ; and-they-have-been-cut two-of-them from-entrails-of people-of-them."
+        },
+        {
+          "n": 19,
+          "t": "and-nakedness-of sister-of mother-of-you and-sister-of father-of-you not you-will-heglam ; for flesh-of-him iniquity-of-them has-made-uncover they-will-lift."
+        },
+        {
+          "n": 20,
+          "t": "and-man who will-lie with aunt-of-him, nakedness-of beloved-of-him has-heglamed ; sin-of-them they-will-lift childless they-will-die."
+        },
+        {
+          "n": 21,
+          "t": "and-man who will-take woman-of brother-of-him impurity he ; nakedness-of brother-of-him he-has-heglamed childless they-will-be."
+        },
+        {
+          "n": 22,
+          "t": "and-you-pl-have-kept all-of statutes-of-me and-all-of justices-of-me, and-you-pl-have-done them ; and-not she-will-make-vomit you-pl the-land, who I making-come you-pl there-ward to/for-dwell in-her."
+        },
+        {
+          "n": 23,
+          "t": "and-not you-pl-will-walk in-statutes-of the-nation, who I sending from-faces-of-you-pl ; for all-of these they-have-done, and-I-have-loathed in-them."
+        },
+        {
+          "n": 24,
+          "t": "and-have-said to/for-you-pl you will-possess ground-of-them and-I will-give-her to/for-you-pl to/for-possess her, land flowing-of milk and-honey ; I YHWH god-of-you-pl, who have-made-separate you-pl from the-peoples."
+        },
+        {
+          "n": 25,
+          "t": "and-you-pl-have-made-separate between the-animal the-pure to/for-the-unclean, and-between the-bird the-unclean to/for-the-pure ; and-not you-pl-will-detest souls-of-you-pl in-the-animal and-in-the-bird and-in-all who the-ground will-creep, who I-have-made-separate to/for-you-pl to/for-defile."
+        },
+        {
+          "n": 26,
+          "t": "and-you-pl-have-been to/for-me holy, for holy I YHWH ; and-I-have-made-separate you-pl from the-peoples to/for-be to/for-me."
+        },
+        {
+          "n": 27,
+          "t": "and-man or woman for will-be in-them medium or spiritist die they-will-be-made-die ; in-the-stone they-will-stone them bloods-of-them in-them."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-said toward Moses, say toward the-priests sons-of Aaron ; and-you-have-said toward-them, to/for-soul not he-will-defile in-kinsmans-of-him."
+        },
+        {
+          "n": 2,
+          "t": "that if to/for-flesh-of-him, the-near toward-him ; to/for-mother-of-him and-to/for-father-of-him, and-to/for-son-of-him and-to/for-daughter-of-him and-to/for-brother-of-him."
+        },
+        {
+          "n": 3,
+          "t": "and-to/for-sister-of-him the-virgin the-near toward-him, who not has-been to/for-man ; to/for-her he-will-defile."
+        },
+        {
+          "n": 4,
+          "t": "not master will-defile in-kinsmans-of-him ; to/for-be-begin-of-him."
+        },
+        {
+          "n": 5,
+          "t": "not she-will-bald they-will-bald bald in-head-of-them, and-side-of beard-of-them not they-will-shave ; and-in-flesh-of-them, not they-will-incise incision."
+        },
+        {
+          "n": 6,
+          "t": "holy they-will-be to/for-god-of-them, and-not they-will-begin, name-of god-of-them ; for foods-of YHWH food-of god-of-them they presents and-have-been holiness."
+        },
+        {
+          "n": 7,
+          "t": "woman fornicate and-profaned not they-will-take, and-woman driven from-man-of-her not they-will-take ; for holy he to/for-god-of-him."
+        },
+        {
+          "n": 8,
+          "t": "and-you-have-consecrated-him, for food-of god-of-you he present ; holy will-be to/for-you-f, for holy, I YHWH consecrating-of-you-pl."
+        },
+        {
+          "n": 9,
+          "t": "and-daughter-of man-of priest, for will-be-begun to/for-fornicate ; father-of-her he begining, in-the-fire will-be-burned."
+        },
+        {
+          "n": 10,
+          "t": "and-the-priest the-great from-brothers-of-him who will-be-made-pour on head-of-him oil-of the-anointing and-has-filled hand-of-him, to/for-clothe the-garments ; head-of-him not he-will-neglect, and-garments-of-him not he-will-tear."
+        },
+        {
+          "n": 11,
+          "t": "and-on all-of souls-of dying not will-come ; to/for-father-of-him and-to/for-mother-of-him not he-will-defile."
+        },
+        {
+          "n": 12,
+          "t": "and-from the-sanctuary not will-exit, and-not will-begin, sanctuary-of god-of-him ; for consecration-of oil-of anointing-of god-of-him on-him I YHWH."
+        },
+        {
+          "n": 13,
+          "t": "and-he, woman in-virginities-of-her will-take."
+        },
+        {
+          "n": 14,
+          "t": "widow and-driven and-profaned fornicate, these not he-will-take ; that if virgin from-kinsmans-of-him he-will-take woman."
+        },
+        {
+          "n": 15,
+          "t": "and-not seed-of-him will-begin in-kinsmans-of-him ; for I YHWH consecrating-of-him."
+        },
+        {
+          "n": 16,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 17,
+          "t": "speak toward Aaron to/for-say ; man from-seed-of-you to/for-generations-of-them who will-be in-him blemish, not will-present, to/for-make-present food-of god-of-him."
+        },
+        {
+          "n": 18,
+          "t": "for all-of man who in-him blemish not will-present ; man blind or lame, or slashed or extended."
+        },
+        {
+          "n": 19,
+          "t": "or man, who will-be in-him breaking-of foot ; or breaking-of hand."
+        },
+        {
+          "n": 20,
+          "t": "or humpbacked or thin, or defect in-eye-of-him ; or scab or scab, or crushed-of testicle."
+        },
+        {
+          "n": 21,
+          "t": "all-of man who in-him blemish from-seed-of Aaron the-priest, not will-approach, to/for-make-present foods-of YHWH ; blemish in-him, not will-approach food-of god-of-him, to/for-make-present."
+        },
+        {
+          "n": 22,
+          "t": "food-of god-of-him, from-holinesses-of the-holinesses ; and-from the-holinesses he-will-eat."
+        },
+        {
+          "n": 23,
+          "t": "surely toward the-curtain not the-altar will-come and-toward not will-approach for blemish in-him ; and-not will-begin sanctuaries-of-me, for I YHWH consecrating-of-them."
+        },
+        {
+          "n": 24,
+          "t": "Moses and-has-spoken, toward Aaron and-toward sons-of-him ; and-toward all-of sons-of Israel."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward Aaron and-toward sons-of-him and-will-be-dedicated from-holinesses-of sons-of Israel, and-not will-begin name-of holiness-of-me ; who they making-consecrate to/for-me I YHWH."
+        },
+        {
+          "n": 3,
+          "t": "say toward-them to/for-generations-of-you-pl all-of man who will-present from-all-of seed-of-you-pl toward the-holinesses who will-make-consecrate sons-of Israel to/for-YHWH, and-uncleanness-of-him on-him ; the-soul the-he and-has-been-cut from-faces-of-me I YHWH."
+        },
+        {
+          "n": 4,
+          "t": "man man from-seed-of Aaron and-he leproused or flowing, in-the-holinesses not will-eat, until who will-pure ; and-the-touching in-all-of unclean-of soul, or man, who semen-of seed will-exit from-us."
+        },
+        {
+          "n": 5,
+          "t": "or man who will-touch, in-all-of swarm who will-defile to/for-him ; or in-man who he-will-defile to/for-him, to/for-all-of uncleanness-of-him."
+        },
+        {
+          "n": 6,
+          "t": "soul who will-touch in-him, and-has-defiled until the-evening ; and-not will-eat from the-holinesses, that if flesh-of-him has-washed in-the-waters."
+        },
+        {
+          "n": 7,
+          "t": "the-sun and-has-come and-has-pured ; and-after will-eat from the-holinesses, for food-of-him he."
+        },
+        {
+          "n": 8,
+          "t": "carcass and-torn not he-will-eat to/for-defile in-her ; I YHWH."
+        },
+        {
+          "n": 9,
+          "t": "and-they-have-kept charge-of-me and-not they-will-lift on-him sin, and-they-have-died in-him for they-will-begin-him ; I YHWH consecrating-of-them."
+        },
+        {
+          "n": 10,
+          "t": "and-all-of stranger not will-eat holiness ; sojourner-of priest and-hired not will-eat holiness."
+        },
+        {
+          "n": 11,
+          "t": "and-priest for will-acquire soul acquisition-of silver-of-him, he will-eat in-him ; and-born-of house-of-him, they will-eat in-food-of-him."
+        },
+        {
+          "n": 12,
+          "t": "and-daughter-of priest, for will-be to/for-man stranger ; he, in-contribution-of the-holinesses not will-eat."
+        },
+        {
+          "n": 13,
+          "t": "and-daughter-of priest for will-be widow and-driven and-seed naught to/for-her and-has-returned toward house-of father-of-her like-youths-of-her, from-food-of father-of-her will-eat ; and-all-of stranger not will-eat in-him."
+        },
+        {
+          "n": 14,
+          "t": "and-man, for will-eat holiness in-unintentionally ; and-he-has-added fifth-of-him on-him, and-he-has-given to/for-the-priest the-holiness."
+        },
+        {
+          "n": 15,
+          "t": "and-not they-will-begin, holinesses-of sons-of Israel ; who they-will-make-exalt to/for-YHWH."
+        },
+        {
+          "n": 16,
+          "t": "and-they-have-made-lift them iniquity-of guiltiness, in-eat-of-them holinesses-of-them ; for I YHWH consecrating-of-them."
+        },
+        {
+          "n": 17,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 18,
+          "t": "speak toward Aaron and-toward sons-of-him and-toward all-of sons-of Israel, and-you-have-said toward-them ; man man from-house-of Israel and-from the-sojourner in-Israel who will-make-present offering-of-him to/for-all-of vows-of-them and-to/for-all-of voluntarinesses-of-them, who they-will-make-present to/for-YHWH to/for-burnt."
+        },
+        {
+          "n": 19,
+          "t": "to/for-acceptance-of-you-pl ; unblemished male, in-the-cattle, in-the-sheeps and-in-the-goats."
+        },
+        {
+          "n": 20,
+          "t": "all who in-him blemish not you-pl-will-make-present ; for not to/for-acceptance he-will-be to/for-you-pl."
+        },
+        {
+          "n": 21,
+          "t": "and-man for will-make-present sacrifice-of peaces to/for-YHWH, to/for-wonder vow or to/for-voluntariness, in-the-cattle or in-the-flock ; unblemished all-of blemish will-be to/for-acceptance, not will-be in-him."
+        },
+        {
+          "n": 22,
+          "t": "blindness or break or decided or running or scab or scab, not you-pl-will-make-present these to/for-YHWH ; and-food not you-pl-will-give from-them on the-altar to/for-YHWH."
+        },
+        {
+          "n": 23,
+          "t": "and-cattle and-sheep extended and-stunteded ; voluntariness you-will-do him, and-to/for-vow not he-will-be-accepted."
+        },
+        {
+          "n": 24,
+          "t": "and-bruised and-crushed and-teared and-cut, not you-pl-will-make-present to/for-YHWH ; and-in-land-of-you-pl not you-pl-will-do."
+        },
+        {
+          "n": 25,
+          "t": "and-from-hand-of son-of foreign not you-pl-will-make-present food-of god-of-you-pl from-all-of these ; for corruption-of-them in-them blemish in-them, not they-will-be-accepted to/for-you-pl."
+        },
+        {
+          "n": 26,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 27,
+          "t": "cattle or sheep or goat for will-be-begotten, and-has-been seven-of days under mother-of-him ; and-from-day-of the-eighth and-further, he-will-be-accepted, to/for-offering-of food to/for-YHWH."
+        },
+        {
+          "n": 28,
+          "t": "and-cattle or sheep ; him and-son-of-him, not you-pl-will-slaughter in-day one."
+        },
+        {
+          "n": 29,
+          "t": "and-for you-pl-will-sacrifice sacrifice-of thanksgiving to/for-YHWH ; to/for-acceptance-of-you-pl you-pl-will-sacrifice."
+        },
+        {
+          "n": 30,
+          "t": "in-the-day the-he will-be-eaten, not you-pl-will-make-remain from-us until morning ; I YHWH."
+        },
+        {
+          "n": 31,
+          "t": "and-you-pl-have-kept commandments-of-me, and-you-pl-have-done them ; I YHWH."
+        },
+        {
+          "n": 32,
+          "t": "and-not you-pl-will-begin name-of holiness-of-me, and-I-have-been-consecrated, in-midst-of sons-of Israel ; I YHWH consecrating-of-you-pl."
+        },
+        {
+          "n": 33,
+          "t": "the-making-exit you-pl from-land-of Egypt, to/for-be to/for-you-pl to/for-god ; I YHWH."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel and-you-have-said toward-them, meetings-of YHWH, who you-pl-will-call them assemblies-of holiness ; these they meetings-of-me."
+        },
+        {
+          "n": 3,
+          "t": "six-of days work will-be-done and-in-the-day the-seventh sabbath-of sabbath assembly-of holiness, all-of work not you-pl-will-do ; sabbath he to/for-YHWH, in-all-of seats-of-you-pl."
+        },
+        {
+          "n": 4,
+          "t": "these meetings-of YHWH, assemblies-of holiness ; who you-pl-will-call them in-meeting-of-them."
+        },
+        {
+          "n": 5,
+          "t": "in-the-month the-first in-four ten to/for-the-month between the-evenings ; passover to/for-YHWH."
+        },
+        {
+          "n": 6,
+          "t": "and-in-five ten day to/for-the-month the-this, feast-of the-unleaveneds to/for-YHWH ; seven-of days unleaveneds you-pl-will-eat."
+        },
+        {
+          "n": 7,
+          "t": "in-the-day the-first, assembly-of holiness will-be to/for-you-pl ; all-of work-of service not you-pl-will-do."
+        },
+        {
+          "n": 8,
+          "t": "and-you-pl-have-made-present food to/for-YHWH seven-of days ; in-the-day the-seventh assembly-of holiness, all-of work-of service not you-pl-will-do."
+        },
+        {
+          "n": 9,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 10,
+          "t": "speak toward sons-of Israel and-you-have-said toward-them, for you-pl-will-come toward the-land who I giving to/for-you-pl, and-you-pl-have-reaped harvest-of-her ; and-you-pl-have-made-come sheaf-of first-of harvest-of-you-pl toward the-priest."
+        },
+        {
+          "n": 11,
+          "t": "and-he-has-made-wave the-sheaf to/for-faces-of YHWH to/for-acceptance-of-you-pl ; from-morrow-of the-sabbath, the-priest will-make-wave-him."
+        },
+        {
+          "n": 12,
+          "t": "and-you-pl-have-done, in-day-of make-wave-of-you-pl the-sheaf ; lamb unblemished son-of year-of-him to/for-burnt to/for-YHWH."
+        },
+        {
+          "n": 13,
+          "t": "and-offering-of-him two-of tenths fine mixed in-the-oil food to/for-YHWH aroma-of soothing ; and-drink-of-him wine fourth-of the-hin."
+        },
+        {
+          "n": 14,
+          "t": "and-food and-roasted and-plantation not you-pl-will-eat until bone-of the-day the-this, until make-come-of-you-pl, offering-of god-of-you-pl ; statute-of age to/for-generations-of-you-pl, in-all-of seats-of-you-pl."
+        },
+        {
+          "n": 15,
+          "t": "and-you-pl-have-recounted to/for-you-pl from-morrow-of the-sabbath, from-day-of make-come-of-you-pl, sheaf-of the-wave ; seven sabbaths unblemished will-be."
+        },
+        {
+          "n": 16,
+          "t": "until from-morrow-of the-sabbath the-seventh, you-pl-will-recount fifty day ; and-you-pl-have-made-present offering new to/for-YHWH."
+        },
+        {
+          "n": 17,
+          "t": "from-seats-of-you-pl you-pl-will-make-come food-of wave two two-of tenths, fine they-f-will-be, leaven they-f-will-be-baked ; firstfruits to/for-YHWH."
+        },
+        {
+          "n": 18,
+          "t": "and-you-pl-have-made-present on the-food seven-of lambs unblemished sons-of year, and-bullock son-of cattle one and-rams two ; will-be burnt to/for-YHWH, and-offering-of-them and-drinks-of-them, food-of aroma-of soothing to/for-YHWH."
+        },
+        {
+          "n": 19,
+          "t": "and-you-pl-have-done he-goat-of goats one to/for-offense ; and-two-of lambs sons-of year to/for-sacrifice-of peaces."
+        },
+        {
+          "n": 20,
+          "t": "the-priest and-has-made-wave them on food-of the-firstfruits wave to/for-faces-of YHWH, on two-of lambs ; holiness they-will-be to/for-YHWH to/for-the-priest."
+        },
+        {
+          "n": 21,
+          "t": "and-you-pl-have-called in-bone-of the-day the-this assembly-of holiness will-be to/for-you-pl, all-of work-of service not you-pl-will-do ; statute-of age in-all-of seats-of-you-pl to/for-generations-of-you-pl."
+        },
+        {
+          "n": 22,
+          "t": "and-in-reap-of-you-pl harvest-of land-of-you-pl not you-will-finish side-of field-of-you in-reap-of-you, and-gleaning-of harvest-of-you not you-will-gather ; to/for-the-afflicted and-to/for-the-sojourner you-will-leave them, I YHWH god-of-you-pl."
+        },
+        {
+          "n": 23,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 24,
+          "t": "speak toward sons-of Israel to/for-say ; in-the-month the-seventh in-one to/for-the-month sabbath, will-be to/for-you-pl memorial-of shout assembly-of holiness."
+        },
+        {
+          "n": 25,
+          "t": "all-of work-of service not you-pl-will-do ; and-you-pl-have-made-present food to/for-YHWH."
+        },
+        {
+          "n": 26,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 27,
+          "t": "surely in-the-ten to/for-the-month the-seventh the-this day-of the-atonements he assembly-of holiness will-be to/for-you-pl, and-you-pl-have-afflicted souls-of-you-pl ; and-you-pl-have-made-present food to/for-YHWH."
+        },
+        {
+          "n": 28,
+          "t": "and-all-of work not you-pl-will-do, in-bone-of the-day the-this ; for day-of atonements he, to/for-cover on-you-pl, to/for-faces-of YHWH god-of-you-pl."
+        },
+        {
+          "n": 29,
+          "t": "for all-of the-soul who not she-will-afflict, in-bone-of the-day the-this ; and-she-has-been-cut from-kinsmans-of-her."
+        },
+        {
+          "n": 30,
+          "t": "and-all-of the-soul who she-will-do all-of work, in-bone-of the-day the-this ; and-I-have-made-perish the-soul the-he from-entrails-of people-of-her."
+        },
+        {
+          "n": 31,
+          "t": "all-of work not you-pl-will-do ; statute-of age to/for-generations-of-you-pl, in-all-of seats-of-you-pl."
+        },
+        {
+          "n": 32,
+          "t": "sabbath-of sabbath he to/for-you-pl, and-you-pl-have-afflicted souls-of-you-pl ; in-nine to/for-the-month in-the-evening, from-evening until evening, you-pl-will-keep sabbath-of-you-pl."
+        },
+        {
+          "n": 33,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 34,
+          "t": "speak toward sons-of Israel to/for-say ; in-five ten day to/for-the-month the-seventh the-this, feast-of the-booths seven-of days to/for-YHWH."
+        },
+        {
+          "n": 35,
+          "t": "in-the-day the-first assembly-of holiness ; all-of work-of service not you-pl-will-do."
+        },
+        {
+          "n": 36,
+          "t": "seven-of days, you-pl-will-make-present food to/for-YHWH ; in-the-day the-eighth assembly-of holiness will-be to/for-you-pl and-you-pl-have-made-present food to/for-YHWH assembly he, all-of work-of service not you-pl-will-do."
+        },
+        {
+          "n": 37,
+          "t": "these meetings-of YHWH, who you-pl-will-call them assemblies-of holiness ; to/for-make-present food to/for-YHWH burnt and-offering sacrifice and-drinks word-of day in-day-of-him."
+        },
+        {
+          "n": 38,
+          "t": "from-alone-of sabbaths-of YHWH ; and-from-alone-of gifts-of-you-pl and-from-alone-of all-of vows-of-you-pl and-from-alone-of all-of voluntarinesses-of-you-pl, who you-pl-will-give to/for-YHWH."
+        },
+        {
+          "n": 39,
+          "t": "surely in-five ten day to/for-the-month the-seventh in-gather-of-you-pl produce-of the-land, you-pl-will-celebrate feast-of YHWH seven-of days ; in-the-day the-first sabbath, and-in-the-day the-eighth sabbath."
+        },
+        {
+          "n": 40,
+          "t": "and-you-pl-have-taken to/for-you-pl in-the-day the-first fruit-of tree-of glory palms-of palms, and-branch-of tree leafy and-willowses-of torrent ; and-you-pl-have-rejoiced to/for-faces-of YHWH god-of-you-pl seven-of days."
+        },
+        {
+          "n": 41,
+          "t": "and-you-pl-have-celebrated him feast to/for-YHWH, seven-of days in-the-year ; statute-of age to/for-generations-of-you-pl, in-the-month the-seventh you-pl-will-celebrate him."
+        },
+        {
+          "n": 42,
+          "t": "in-the-booths you-pl-will-dwell seven-of days ; all-of the-born in-Israel, they-will-dwell in-the-booths."
+        },
+        {
+          "n": 43,
+          "t": "sake generations-of-you-pl will-know for in-the-booths I-have-made-dwell sons-of Israel, in-make-exit-of-me them from-land-of Egypt ; I YHWH god-of-you-pl."
+        },
+        {
+          "n": 44,
+          "t": "Moses and-has-spoken, meetings-of YHWH ; toward sons-of Israel."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "command sons-of Israel and-they-will-take toward-you oil-of olives pure beaten to/for-the-light ; to/for-make-ascend lamp continually."
+        },
+        {
+          "n": 3,
+          "t": "from-outside to/for-curtain-of the-testimony in-tent-of meeting will-arrange him Aaron from-evening until morning to/for-faces-of YHWH continually ; statute-of age to/for-generations-of-you-pl."
+        },
+        {
+          "n": 4,
+          "t": "on the-lampstand the-pure, he-will-arrange the-lamps ; to/for-faces-of YHWH continually."
+        },
+        {
+          "n": 5,
+          "t": "and-you-have-taken fine, and-you-have-baked her, two ten buns ; two-of tenths, he-will-be the-bun the-one."
+        },
+        {
+          "n": 6,
+          "t": "and-you-have-put them two ranks six the-row ; on the-table the-pure to/for-faces-of YHWH."
+        },
+        {
+          "n": 7,
+          "t": "and-you-have-given on the-row frankincense pure ; and-she-has-been to/for-the-food to/for-memorial, food to/for-YHWH."
+        },
+        {
+          "n": 8,
+          "t": "in-day-of the-sabbath in-day-of the-sabbath will-arrange-him to/for-faces-of YHWH continually ; with sons-of Israel covenant-of age."
+        },
+        {
+          "n": 9,
+          "t": "and-she-has-been to/for-Aaron and-to/for-sons-of-him, and-they-have-eaten-him in-place holy ; for holiness-of holinesses he to/for-him from-foods-of YHWH statute-of age."
+        },
+        {
+          "n": 10,
+          "t": "son-of woman and-has-exited Israelitess, and-he son-of man Egyptian, in-midst-of sons-of Israel ; and-they-have-been-struggled in-the-camp, son-of the-Israelitess, and-man-of the-Ishmaelite."
+        },
+        {
+          "n": 11,
+          "t": "son-of the-woman and-has-pierced the-Israelitess the-name and-has-lightened, and-they-have-made-come him toward Moses ; and-name-of mother-of-him Shelomith daughter-of Dibri to/for-tribe-of Dan."
+        },
+        {
+          "n": 12,
+          "t": "and-they-have-made-rest-him in-the-custody ; to/for-declare to/for-them on lip-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 14,
+          "t": "make-exit the-lightening toward from-outside to/for-the-camp, and-they-have-supported all-of the-hearing hands-of-them on head-of-him ; and-they-have-stoned him all-of the-congregation."
+        },
+        {
+          "n": 15,
+          "t": "and-toward sons-of Israel you-will-speak to/for-say ; man man for will-lighten god-of-him and-has-lifted sin-of-him."
+        },
+        {
+          "n": 16,
+          "t": "and-cursing name-of YHWH die will-be-made-die, stone they-will-stone in-him all-of the-congregation ; like-the-sojourner like-the-born, in-curse-of-him name will-be-made-die."
+        },
+        {
+          "n": 17,
+          "t": "and-man, for will-make-smite all-of soul-of man ; die he-will-be-made-die."
+        },
+        {
+          "n": 18,
+          "t": "and-making-smite-of soul-of animal will-complete-her ; soul under soul."
+        },
+        {
+          "n": 19,
+          "t": "and-man, for will-give blemish in-neighbor-of-him ; like-when he-has-done, thus he-will-be-done to/for-him."
+        },
+        {
+          "n": 20,
+          "t": "breaking under breaking, eye under eye, tooth under tooth ; like-when blemish will-give in-the-man, thus will-be-given in-him."
+        },
+        {
+          "n": 21,
+          "t": "and-making-smite-of animal he-will-complete-her ; and-making-smite-of man will-be-made-die."
+        },
+        {
+          "n": 22,
+          "t": "justice-of one will-be to/for-you-pl, like-the-sojourner like-the-born will-be ; for I YHWH god-of-you-pl."
+        },
+        {
+          "n": 23,
+          "t": "Moses and-has-spoken toward sons-of Israel and-have-made-exit the-lightening toward from-outside to/for-the-camp, and-have-stoned him stone ; and-sons-of Israel have-done, like-when YHWH has-commanded Moses."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses, in-mountain-of Sinai to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel and-you-have-said toward-them, for you-pl-will-come toward the-land, who I giving to/for-you-pl ; the-land sabbath and-has-kept, to/for-YHWH."
+        },
+        {
+          "n": 3,
+          "t": "six years you-will-sow field-of-you, and-six years you-will-prune vineyard-of-you ; and-you-have-gathered produce-of-her."
+        },
+        {
+          "n": 4,
+          "t": "and-in-the-year the-seventh sabbath-of sabbath will-be to/for-the-land, sabbath to/for-YHWH ; field-of-you not you-will-sow, and-vineyard-of-you not you-will-prune."
+        },
+        {
+          "n": 5,
+          "t": "aftergrowth-of harvest-of-you not you-will-reap, and-grapes-of nazirites-of-you not you-will-gather ; year-of sabbath he-will-be to/for-the-land."
+        },
+        {
+          "n": 6,
+          "t": "sabbath-of the-land and-has-been to/for-you-pl to/for-food, to/for-you and-to/for-servant-of-you and-to/for-maidservant-of-you ; and-to/for-hired-of-you and-to/for-sojourner-of-you, the-sojourning with-you-f."
+        },
+        {
+          "n": 7,
+          "t": "and-to/for-animal-of-you, and-to/for-the-beast who in-land-of-you ; she-will-be all-of produce-of-her to/for-eat."
+        },
+        {
+          "n": 8,
+          "t": "and-you-have-recounted to/for-you seven sabbaths-of years, seven years seven strokes ; days-of seven and-have-been to/for-you sabbaths-of the-years, nine and-forty year."
+        },
+        {
+          "n": 9,
+          "t": "and-you-have-made-pass trumpet-of shout in-the-month the-seventh, in-the-ten to/for-the-month ; in-day-of the-atonements, you-pl-will-make-pass trumpet in-all-of land-of-you-pl."
+        },
+        {
+          "n": 10,
+          "t": "and-you-pl-have-consecrated year-of the-fifty year, and-you-pl-have-called liberty in-the-land to/for-all-of dwelling-of-her ; jubilee he will-be to/for-you-pl, and-you-pl-have-returned man toward possession-of-him, and-man toward family-of-him you-pl-will-return."
+        },
+        {
+          "n": 11,
+          "t": "jubilee he year-of the-fifty year will-be to/for-you-pl ; not you-pl-will-sow, and-not you-pl-will-reap aftergrowths-of-her, and-not you-pl-will-gather nazirites-of-her."
+        },
+        {
+          "n": 12,
+          "t": "for jubilee he, holiness will-be to/for-you-pl ; from the-field, you-pl-will-eat produce-of-her."
+        },
+        {
+          "n": 13,
+          "t": "in-year-of the-jubilee the-this-f ; you-pl-will-return, man toward possession-of-him."
+        },
+        {
+          "n": 14,
+          "t": "and-for you-pl-will-sell sale to/for-neighbor-of-you, or acquire from-hand-of neighbor-of-you ; do-not let-make-oppress man brother-of-him."
+        },
+        {
+          "n": 15,
+          "t": "in-number-of years after the-jubilee, you-will-acquire with neighbor-of-you ; in-number-of year-of produces he-will-sell to/for-you-f."
+        },
+        {
+          "n": 16,
+          "t": "to/for-lip-of abundance-of the-years you-will-make-multiply purchase-of-him, and-to/for-lip-of diminish the-years, you-will-make-diminish purchase-of-him ; for number-of produces, he selling to/for-you-f."
+        },
+        {
+          "n": 17,
+          "t": "and-not you-pl-will-make-oppress man neighbor-of-him, and-you-have-feared from-god-of-you ; for I YHWH god-of-you-pl."
+        },
+        {
+          "n": 18,
+          "t": "and-you-pl-have-done statutes-of-me, and-justices-of-me you-pl-will-keep and-you-pl-have-done them ; and-you-pl-have-dwelt on the-land to/for-security."
+        },
+        {
+          "n": 19,
+          "t": "the-land and-has-given fruit-of-her, and-you-pl-have-eaten to/for-satiety ; and-you-pl-have-dwelt to/for-security on-her."
+        },
+        {
+          "n": 20,
+          "t": "and-for you-pl-will-say, what we-will-eat in-the-year the-seventh ; lo not we-will-sow, and-not we-will-gather produce-of-us."
+        },
+        {
+          "n": 21,
+          "t": "and-I-have-commanded blessing-of-me to/for-you-pl, in-the-year the-sixth ; and-she-has-done the-produce, to/for-three the-years."
+        },
+        {
+          "n": 22,
+          "t": "and-you-pl-have-sown the-year the-eighth, and-you-pl-have-eaten from the-produce Haychana ; until the-year the-ninth until come produce-of-her, you-pl-will-eat Haychana."
+        },
+        {
+          "n": 23,
+          "t": "and-the-land not will-be-sold to/for-finality, for to/for-me the-land ; for you sojourners and-sojourners beside-me."
+        },
+        {
+          "n": 24,
+          "t": "and-in-all-of land-of possession-of-you-pl ; redemption you-pl-will-give to/for-the-land."
+        },
+        {
+          "n": 25,
+          "t": "for brother-of-you will-poor, and-has-sold from-possession-of-him ; and-he-has-come redeeming-of-him the-near toward-him, and-he-has-redeemed, sale-of brother-of-him."
+        },
+        {
+          "n": 26,
+          "t": "and-man, for not will-be to/for-him redeeming ; hand-of-him and-has-made-overtake, and-has-found like-sufficiency-of redemption-of-him."
+        },
+        {
+          "n": 27,
+          "t": "and-he-has-devised year-of sale-of-him, and-he-has-made-return the-remaining, to/for-the-man who he-has-sold to/for-him ; and-he-has-returned to/for-possession-of-him."
+        },
+        {
+          "n": 28,
+          "t": "and-if not hand-of-him has-found sufficiency-of make-return to/for-him and-has-been sale-of-him in-hand-of the-acquiring him, until year-of the-jubilee ; and-he-has-exited in-the-jubilee, and-he-has-returned to/for-possession-of-him."
+        },
+        {
+          "n": 29,
+          "t": "and-man for will-sell house-of seat-of city wall, and-has-been redemption-of-him, until integrity year-of sale-of-him ; redemption-of-him will-be days."
+        },
+        {
+          "n": 30,
+          "t": "and-if not will-be-redeemed until fill to/for-him year unblemished the-house and-has-risen who in-the-city who not to/for-him wall to/for-the-finality to/for-the-acquiring him to/for-generations-of-him ; not he-will-exit in-the-jubilee."
+        },
+        {
+          "n": 31,
+          "t": "and-houses-of the-villages who naught to/for-them wall around, on field-of the-land will-be-devised ; redemption will-be to/for-him, and-in-the-jubilee he-will-exit."
+        },
+        {
+          "n": 32,
+          "t": "and-cities-of the-Levi, houses-of cities-of possession-of-them ; redemption-of age will-be to/for-the-Levi."
+        },
+        {
+          "n": 33,
+          "t": "and-who will-redeem from the-Levi, sale-of house and-has-exited and-city-of possession-of-him in-the-jubilee ; for houses-of cities-of the-Levi he possession-of-them, in-midst-of sons-of Israel."
+        },
+        {
+          "n": 34,
+          "t": "and-field-of pasture-of cities-of-them not will-be-sold ; for possession-of age he to/for-them."
+        },
+        {
+          "n": 35,
+          "t": "and-for brother-of-you will-poor, and-has-shaked hand-of-him with-you-f ; and-you-have-made-strengthen in-him, sojourner and-sojourner and-has-lived with-you-f."
+        },
+        {
+          "n": 36,
+          "t": "do-not let-take with-him interest and-increment, and-you-have-feared from-god-of-you ; brother-of-you and-has-lived with-you-f."
+        },
+        {
+          "n": 37,
+          "t": "silver-of-you, not you-will-give to/for-him in-interest ; and-in-greatness not you-will-give food-of-you."
+        },
+        {
+          "n": 38,
+          "t": "I YHWH god-of-you-pl, who have-made-exit you-pl from-land-of Egypt ; to/for-give to/for-you-pl land-of Canaan, to/for-be to/for-you-pl to/for-god."
+        },
+        {
+          "n": 39,
+          "t": "and-for brother-of-you will-poor with-you-f and-has-been-sold to/for-you-f ; not you-will-serve in-him service-of servant."
+        },
+        {
+          "n": 40,
+          "t": "like-hired like-sojourner he-will-be with-you-f ; until year-of the-jubilee he-will-serve with-you-f."
+        },
+        {
+          "n": 41,
+          "t": "he and-has-exited from-you-f, and-sons-of-him with-him ; and-he-has-returned toward family-of-him, and-toward possession-of fathers-of-him he-will-return."
+        },
+        {
+          "n": 42,
+          "t": "for servants-of-me they, who I-have-made-exit them from-land-of Egypt ; not they-will-be-sold sale-of servant."
+        },
+        {
+          "n": 43,
+          "t": "not you-will-rule in-him in-severity ; and-you-have-feared from-god-of-you."
+        },
+        {
+          "n": 44,
+          "t": "and-servant-of-you and-maidservant-of-you who they-will-be to/for-you-f ; with the-nations who arounds-of-you-pl, from-them you-pl-will-acquire servant and-maidservant."
+        },
+        {
+          "n": 45,
+          "t": "and-also from-sons-of the-sojourners the-sojourning with-you-pl from-them you-pl-will-acquire, and-from-family-of-them who with-you-pl, who they-have-made-beget in-land-of-you-pl ; and-they-have-been to/for-you-pl to/for-possession."
+        },
+        {
+          "n": 46,
+          "t": "and-you-pl-have-self-inherited them to/for-sons-of-you-pl after-you-pl to/for-possess possession, to/for-age in-them you-pl-will-serve ; and-in-brothers-of-you-pl sons-of Israel man in-brother-of-him, not you-will-rule in-him in-severity."
+        },
+        {
+          "n": 47,
+          "t": "and-for hand-of sojourner will-make-overtake and-sojourner with-you-f, and-has-poored brother-of-you with-him ; sojourner and-has-been-sold to/for-sojourner with-you-f, or to/for-descendant-of family-of sojourner."
+        },
+        {
+          "n": 48,
+          "t": "after he-has-been-sold, redemption will-be to/for-him ; one from-brothers-of-him he-will-redeem-him."
+        },
+        {
+          "n": 49,
+          "t": "or beloved-of-him or son-of beloved-of-him will-redeem-him, or from-flesh-of flesh-of-him from-family-of-him will-redeem-him ; or hand-of-him has-made-overtake and-has-been-redeemed."
+        },
+        {
+          "n": 50,
+          "t": "and-he-has-devised with acquiring-of-him, from-year-of be-sell-of-him to/for-him, until year-of the-jubilee ; silver-of sale-of-him and-has-been in-number-of years, like-days-of hired will-be with-him."
+        },
+        {
+          "n": 51,
+          "t": "if still many in-the-years ; to/for-lip-of-them-f he-will-make-return redemption-of-him, from-silver-of purchase-of-him."
+        },
+        {
+          "n": 52,
+          "t": "and-if little has-been-remained in-the-years until year-of the-jubilee and-has-devised to/for-him ; like-lip-of years-of-him, he-will-make-return redemption-of-him."
+        },
+        {
+          "n": 53,
+          "t": "like-hired-of year in-year he-will-be with-him ; not he-will-rule-him in-severity to/for-eyes-of-you."
+        },
+        {
+          "n": 54,
+          "t": "and-if not he-will-be-redeemed in-these ; and-has-exited in-year-of the-jubilee, he and-sons-of-him with-him."
+        },
+        {
+          "n": 55,
+          "t": "for to/for-me sons-of Israel servants, servants-of-me they, who I-have-made-exit them from-land-of Egypt ; I YHWH god-of-you-pl."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "verses": [
+        {
+          "n": 1,
+          "t": "not you-pl-will-do to/for-you-pl idols and-idol and-pillar not you-pl-will-make-rise to/for-you-pl, and-stone-of figure not you-pl-will-give in-land-of-you-pl, to/for-self-bow on-her ; for I YHWH god-of-you-pl."
+        },
+        {
+          "n": 2,
+          "t": "sabbaths-of-me you-pl-will-keep, and-sanctuary-of-me you-pl-will-fear ; I YHWH."
+        },
+        {
+          "n": 3,
+          "t": "if in-statutes-of-me you-pl-will-walk ; and-commandments-of-me you-pl-will-keep, and-you-pl-have-done them."
+        },
+        {
+          "n": 4,
+          "t": "and-I-have-given rains-of-you-pl in-time-of-them ; the-land and-has-given crops-of-her, and-tree-of the-field will-give fruit-of-him."
+        },
+        {
+          "n": 5,
+          "t": "threshing and-has-made-overtake to/for-you-pl vintage, and-vintage will-make-overtake seed ; and-you-pl-have-eaten food-of-you-pl to/for-satiety, and-you-pl-have-dwelt to/for-security in-land-of-you-pl."
+        },
+        {
+          "n": 6,
+          "t": "and-I-have-given peace in-the-land, and-you-pl-have-lain and-naught making-tremble ; and-I-have-made-cease beast bad from the-land, and-sword not will-pass in-land-of-you-pl."
+        },
+        {
+          "n": 7,
+          "t": "and-you-pl-have-pursued enemying-of-you-pl ; and-they-have-fallen to/for-faces-of-you-pl to/for-the-sword."
+        },
+        {
+          "n": 8,
+          "t": "and-they-have-pursued from-you-pl five hundred, and-hundred from-you-pl myriad they-will-pursue ; and-they-have-fallen enemying-of-you-pl to/for-faces-of-you-pl to/for-the-sword."
+        },
+        {
+          "n": 9,
+          "t": "and-I-have-turned toward-you-pl, and-I-have-made-fruit you-pl, and-I-have-made-multiply you-pl ; and-I-have-made-rise covenant-of-me with-you-pl."
+        },
+        {
+          "n": 10,
+          "t": "and-you-pl-have-eaten Haychana slept ; and-Haychana, from-faces-of new you-pl-will-make-exit."
+        },
+        {
+          "n": 11,
+          "t": "and-I-have-given tabernacle-of-me in-midst-of-you-pl ; and-not soul-of-me will-abhor you-pl."
+        },
+        {
+          "n": 12,
+          "t": "and-I-have-self-gone in-midst-of-you-pl, and-I-have-been to/for-you-pl to/for-god ; and-you will-be to/for-me to/for-people."
+        },
+        {
+          "n": 13,
+          "t": "I YHWH god-of-you-pl who have-made-exit you-pl from-land-of Egypt, from-be to/for-them servants ; and-I-have-breaked yokes-of yoke-of-you-pl, and-I-have-made-walk you-pl uprightness."
+        },
+        {
+          "n": 14,
+          "t": "and-if not you-pl-will-hear to/for-me ; and-not you-pl-will-do, all-of the-commandments the-these."
+        },
+        {
+          "n": 15,
+          "t": "and-if in-statutes-of-me you-pl-will-reject, and-if justices-of-me soul-of-you-pl will-abhor ; to/for-without do all-of commandments-of-me, to/for-make-break-of-you-pl covenant-of-me."
+        },
+        {
+          "n": 16,
+          "t": "even I will-do this-f to/for-you-pl and-have-made-reckon on-you-pl dismay the-illness and-the-fever, finishing eyes and-making-pine soul ; and-you-pl-have-sown to/for-the-vain seed-of-you-pl, and-they-have-eaten-him enemying-of-you-pl."
+        },
+        {
+          "n": 17,
+          "t": "and-I-have-given faces-of-me in-you-pl, and-you-pl-have-been-struck to/for-faces-of enemying-of-you-pl ; and-they-have-ruled in-you-pl hating-of-you-pl, and-you-pl-have-fled and-naught pursuing you-pl."
+        },
+        {
+          "n": 18,
+          "t": "and-if until these, not you-pl-will-hear to/for-me ; and-I-have-added to/for-discipline you-pl, seven on offenses-of-you-pl."
+        },
+        {
+          "n": 19,
+          "t": "and-I-have-breaked pride-of strength-of-you-pl ; and-I-have-given heavens-of-you-pl like-the-iron, and-land-of-you-pl like-the-bronze."
+        },
+        {
+          "n": 20,
+          "t": "strength-of-you-pl ; and-has-finished to/for-the-vain and-not land-of-you-pl will-give crops-of-her, and-tree-of the-land, not will-give fruit-of-him."
+        },
+        {
+          "n": 21,
+          "t": "and-if you-pl-will-walk with-me hostility, and-not you-pl-will-willing to/for-hear to/for-me ; and-I-have-added on-you-pl wound, seven like-offenses-of-you-pl."
+        },
+        {
+          "n": 22,
+          "t": "and-I-have-made-send in-you-pl beast-of the-field and-she-has-bereaveded you-pl, and-she-has-made-cut animal-of-you-pl, and-she-has-made-diminish you-pl ; ways-of-you-pl and-have-been-desolate."
+        },
+        {
+          "n": 23,
+          "t": "and-if in-these, not you-pl-will-be-disciplined to/for-me ; and-you-pl-have-gone with-me hostility."
+        },
+        {
+          "n": 24,
+          "t": "and-have-gone even I with-you-pl in-hostility ; and-have-made-smite you-pl also I, seven on offenses-of-you-pl."
+        },
+        {
+          "n": 25,
+          "t": "and-I-have-made-come on-you-pl sword avenging vengeance-of covenant, and-you-pl-have-been-gathered toward cities-of-you-pl ; and-I-have-sended pestilence in-midst-of-you-pl, and-you-pl-have-been-given in-hand-of enemying."
+        },
+        {
+          "n": 26,
+          "t": "in-break-of-me to/for-you-pl tribe-of food and-have-baked ten womans food-of-you-pl in-ovens one, and-have-made-return food-of-you-pl in-the-weight ; and-you-pl-have-eaten and-not you-pl-will-satisfy."
+        },
+        {
+          "n": 27,
+          "t": "and-if in-this-f, not you-pl-will-hear to/for-me ; and-you-pl-have-gone with-me in-hostility."
+        },
+        {
+          "n": 28,
+          "t": "and-I-have-gone with-you-pl in-rage-of hostility ; and-have-disciplined you-pl even I, seven on offenses-of-you-pl."
+        },
+        {
+          "n": 29,
+          "t": "and-you-pl-have-eaten flesh-of sons-of-you-pl ; and-flesh-of daughters-of-you-pl you-pl-will-eat."
+        },
+        {
+          "n": 30,
+          "t": "and-I-have-made-destroy highs-of-you-pl and-I-have-made-cut pillars-of-you-pl, and-I-have-given corpses-of-you-pl, on corpses-of idols-of-you-pl ; soul-of-me and-has-abhored you-pl."
+        },
+        {
+          "n": 31,
+          "t": "and-I-have-given cities-of-you-pl wreck, and-I-have-made-desolate sanctuaries-of-you-pl ; and-not I-will-make-smell, in-aroma-of soothing-of-you-pl."
+        },
+        {
+          "n": 32,
+          "t": "I and-have-made-desolate the-land ; and-they-have-desolate on-her enemying-of-you-pl, the-dwelling in-her."
+        },
+        {
+          "n": 33,
+          "t": "and-you-pl I-will-scatter in-the-nations, and-I-have-made-empty after-you-pl sword ; land-of-you-pl desolation and-has-been, and-cities-of-you-pl they-will-be wreck."
+        },
+        {
+          "n": 34,
+          "t": "then the-land will-accept sabbaths-of-her all-of days-of be-make-desolate-of-her, and-you in-land-of enemying-of-you-pl ; then the-land will-cease, and-has-made-accept sabbaths-of-her."
+        },
+        {
+          "n": 35,
+          "t": "all-of days-of be-make-desolate-of-her she-will-cease ; who not she-has-ceased in-sabbaths-of-you-pl in-dwell-of-you-pl on-her."
+        },
+        {
+          "n": 36,
+          "t": "and-the-remained in-you-pl, and-I-have-made-come weakness in-heart-of-them, in-lands-of enemying-of-them ; and-he-has-pursued them voice-of leaf drived, and-they-have-fled fugitive-of sword and-they-have-fallen and-naught pursuing."
+        },
+        {
+          "n": 37,
+          "t": "and-they-have-stumbled man in-brother-of-him like-faces-of sword and-pursuing naught ; and-not standing, will-be to/for-you-pl to/for-faces-of enemying-of-you-pl."
+        },
+        {
+          "n": 38,
+          "t": "and-you-pl-have-perished in-the-nations ; and-she-has-eaten you-pl, land-of enemying-of-you-pl."
+        },
+        {
+          "n": 39,
+          "t": "and-the-remained in-you-pl they-will-be-roted in-iniquity-of-them, in-lands-of enemying-of-you-pl ; and-even in-iniquities-of fathers-of-them with-them they-will-be-roted."
+        },
+        {
+          "n": 40,
+          "t": "and-they-have-self-confessed iniquity-of-them and-iniquity-of fathers-of-them, in-trespass-of-them who they-have-betrayed in-me ; and-even, who they-have-gone with-me in-hostility."
+        },
+        {
+          "n": 41,
+          "t": "even I will-walk with-them in-hostility, and-have-made-come them, in-land-of enemying-of-them ; or then heart-of-them the-uncircumcised will-be-humbled, and-then they-will-accept iniquity-of-them."
+        },
+        {
+          "n": 42,
+          "t": "and-I-have-remembered covenant-of-me Jacob ; and-even covenant-of-me Isaac and-even covenant-of-me Abraham I-will-remember and-the-land I-will-remember."
+        },
+        {
+          "n": 43,
+          "t": "and-the-land will-be-left from-them and-will-accept sabbaths-of-her in-be-make-desolate-of-her from-them, and-they will-accept iniquity-of-them ; because and-in-because, in-justices-of-me they-have-rejected, and-statutes-of-me soul-of-them has-abhored."
+        },
+        {
+          "n": 44,
+          "t": "and-even also this-f in-be-of-them in-land-of enemying-of-them not I-have-rejected-them and-not I-have-abhored-them to/for-finish-of-them, to/for-make-break covenant-of-me with-them ; for I YHWH god-of-them."
+        },
+        {
+          "n": 45,
+          "t": "and-I-have-remembered to/for-them covenant-of first ; who have-made-exit them from-land-of Egypt to/for-eyes-of the-nations to/for-be to/for-them to/for-god I YHWH."
+        },
+        {
+          "n": 46,
+          "t": "these the-statutes and-the-justices and-the-instructions who YHWH has-given, between-him, and-between sons-of Israel ; in-mountain-of Sinai in-hand-of Moses."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-spoken toward Moses to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "speak toward sons-of Israel and-you-have-said toward-them, man, for will-make-wonder vow ; in-valuation-of-you souls to/for-YHWH."
+        },
+        {
+          "n": 3,
+          "t": "valuation-of-you the-male and-has-been, from-son-of twenty year, and-until son-of sixty year ; valuation-of-you and-has-been fifty shekel silver in-shekel-of the-holiness."
+        },
+        {
+          "n": 4,
+          "t": "and-if female he ; valuation-of-you and-has-been thirty shekel."
+        },
+        {
+          "n": 5,
+          "t": "and-if from-son-of five years and-until son-of twenty valuation-of-you and-has-been year,, the-male twenty shekels ; and-to/for-the-female ten-of shekels."
+        },
+        {
+          "n": 6,
+          "t": "and-if from-son-of month and-until son-of five valuation-of-you and-has-been years,, the-male, five shekels silver ; and-to/for-the-female valuation-of-you, three-of shekels silver."
+        },
+        {
+          "n": 7,
+          "t": "and-if from-son-of sixty year and-above-ward if male, valuation-of-you and-has-been, five ten shekel ; and-to/for-the-female ten shekels."
+        },
+        {
+          "n": 8,
+          "t": "and-if pooring he from-valuation-of-you, and-has-made-stand-him to/for-faces-of the-priest, and-has-made-value him the-priest ; on lip-of who will-make-overtake hand-of the-vowing, will-make-value-him the-priest."
+        },
+        {
+          "n": 9,
+          "t": "and-if animal, who they-will-make-present from-her offering to/for-YHWH ; all who will-give from-us to/for-YHWH holiness will-be."
+        },
+        {
+          "n": 10,
+          "t": "not he-will-make-pass-him and-not he-will-make-change him good in-bad or bad in-good ; and-if make-change will-make-change animal in-animal, he and-has-been and-exchange-of-him will-be holiness."
+        },
+        {
+          "n": 11,
+          "t": "and-if all-of animal unclean, who not they-will-make-present from-her offering to/for-YHWH ; and-he-has-made-stand the-animal to/for-faces-of the-priest."
+        },
+        {
+          "n": 12,
+          "t": "the-priest and-has-made-value her, between good and-between bad ; like-valuation-of-you the-priest thus will-be."
+        },
+        {
+          "n": 13,
+          "t": "and-if redeem he-will-redeem-her ; and-has-added fifth-of-him on valuation-of-you."
+        },
+        {
+          "n": 14,
+          "t": "and-man for will-make-consecrate house-of-him holiness to/for-YHWH, and-has-made-value-him the-priest, between good and-between bad ; like-when he-will-make-value him the-priest thus he-will-rise."
+        },
+        {
+          "n": 15,
+          "t": "and-if the-making-consecrate, he-will-redeem house-of-him ; and-has-added fifth-of silver-of valuation-of-you on-him and-has-been to/for-him."
+        },
+        {
+          "n": 16,
+          "t": "and-if from-field-of possession-of-him man will-make-consecrate to/for-YHWH, and-has-been valuation-of-you to/for-lip-of seed-of-him ; seed-of homer-of barleys, in-the-fifty shekel-of silver."
+        },
+        {
+          "n": 17,
+          "t": "if from-year-of the-jubilee field-of-him will-make-consecrate ; like-valuation-of-you he-will-rise."
+        },
+        {
+          "n": 18,
+          "t": "and-if after the-jubilee will-make-consecrate field-of-him and-has-devised to/for-him the-priest the-silver on lip-of the-years the-remained, until year-of the-jubilee ; and-he-has-been-dimished from-valuation-of-you."
+        },
+        {
+          "n": 19,
+          "t": "and-if redeem he-will-redeem the-field, the-making-consecrate him ; and-has-added fifth-of silver-of valuation-of-you on-him and-has-risen to/for-him."
+        },
+        {
+          "n": 20,
+          "t": "and-if not he-will-redeem the-field, and-if he-has-sold the-field to/for-man another ; not he-will-be-redeemed still."
+        },
+        {
+          "n": 21,
+          "t": "the-field and-has-been in-exit-of-him in-the-jubilee holiness to/for-YHWH like-field-of the-devoted ; to/for-the-priest possession-of-him will-be."
+        },
+        {
+          "n": 22,
+          "t": "and-if field-of purchase-of-him, who, not from-field-of possession-of-him ; he-will-make-consecrate to/for-YHWH."
+        },
+        {
+          "n": 23,
+          "t": "the-priest and-has-devised to/for-him number-of the-valuation-of-you, until year-of the-jubilee ; and-has-given the-valuation-of-you in-the-day the-he, holiness to/for-YHWH."
+        },
+        {
+          "n": 24,
+          "t": "in-year-of the-jubilee the-field will-return, to/for-who has-acquired-him with-him ; to/for-who to/for-him possession-of the-land."
+        },
+        {
+          "n": 25,
+          "t": "and-all-of valuation-of-you, will-be in-shekel-of the-holiness ; twenty the-shekel will-be gerah."
+        },
+        {
+          "n": 26,
+          "t": "surely firstborn who will-gaocer to/for-YHWH in-animal, not man will-make-consecrate him ; if cattle if sheep, to/for-YHWH he."
+        },
+        {
+          "n": 27,
+          "t": "and-if in-the-animal the-unclean and-he-has-ransomed in-valuation-of-you, and-he-has-added fifth-of-him on-him ; and-if not he-will-be-redeemed and-he-has-been-sold in-valuation-of-you."
+        },
+        {
+          "n": 28,
+          "t": "surely all-of devoted who will-make-devote man to/for-YHWH from-all-of who to/for-him from-man and-animal and-from-field-of possession-of-him, not will-be-sold and-not will-be-redeemed ; all-of devoted, holiness-of holinesses he to/for-YHWH."
+        },
+        {
+          "n": 29,
+          "t": "all-of devoted who will-be-made-devote from the-man not will-be-ransomed ; die he-will-be-made-die."
+        },
+        {
+          "n": 30,
+          "t": "and-all-of tithe-of the-land from-seed-of the-land from-fruit-of the-tree, to/for-YHWH he ; holiness to/for-YHWH."
+        },
+        {
+          "n": 31,
+          "t": "and-if redeem man will-redeem from-tithe-of-him ; fifth-of-him he-will-make-add on-him."
+        },
+        {
+          "n": 32,
+          "t": "and-all-of tithe-of cattle and-flock, all who will-pass under the-tribe ; the-tenth, holiness will-be to/for-YHWH."
+        },
+        {
+          "n": 33,
+          "t": "not he-will-enquire between good to/for-the-bad and-not he-will-make-change-him ; and-if make-change will-make-change-him, he and-has-been and-exchange-of-him will-be holiness not will-be-redeemed."
+        },
+        {
+          "n": 34,
+          "t": "these the-commandments who YHWH has-commanded Moses toward sons-of Israel ; in-mountain-of Sinai."
+        }
+      ]
+    }
+  ]
+}

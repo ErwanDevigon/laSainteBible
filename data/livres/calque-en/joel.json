@@ -1,0 +1,334 @@
+{
+  "id": "joel",
+  "title": "Livre de Joël",
+  "original_title": "Joël",
+  "short": "Jl",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "word-of YHWH who has-been, toward Joel son-of Pethuel."
+        },
+        {
+          "n": 2,
+          "t": "hear this-f the-old, and-make-listen, all-of dwelling-of the-land ; is-it-the-she-has-been this-f in-days-of-you-pl, and-if in-days-of fathers-of-you-pl."
+        },
+        {
+          "n": 3,
+          "t": "on-her to/for-sons-of-you-pl recount ; and-sons-of-you-pl to/for-sons-of-them, and-sons-of-them to/for-generation another."
+        },
+        {
+          "n": 4,
+          "t": "remainder-of the-locust has-eaten the-locust, and-remainder-of the-locust has-eaten the-locust ; the-locust has-eaten and-remainder-of the-locust,."
+        },
+        {
+          "n": 5,
+          "t": "make-awake drunken and-weep, and-make-wail all-of drinking-of wine ; on sweet, for has-been-cut from-lip-of-you-pl."
+        },
+        {
+          "n": 6,
+          "t": "for nation has-ascended on land-of-me, mighty and-naught number ; tooths-of-him tooths-of lion, and-jaws-of lion to/for-him."
+        },
+        {
+          "n": 7,
+          "t": "vine-of-me has-put to/for-horror, and-fig-of-me to/for-splinter ; strip he-has-striped-her and-he-has-made-throw, tendrils-of-her have-made-whiten."
+        },
+        {
+          "n": 8,
+          "t": "wail, like-virgin girded-of sack on master-of youths-of-her."
+        },
+        {
+          "n": 9,
+          "t": "has-been-made-cut offering and-drink from-house-of YHWH ; the-priests ministering-of have-mourned, YHWH."
+        },
+        {
+          "n": 10,
+          "t": "field has-been-ruined, has-mourned ground ; for grain has-been-ruined, has-made-wither new has-weakened oil."
+        },
+        {
+          "n": 11,
+          "t": "make-blush farmers make-wail tends, on wheat and-on barley ; for harvest-of field has-perished."
+        },
+        {
+          "n": 12,
+          "t": "the-vine has-made-wither, and-the-fig has-weakened ; pomegranate also palm and-apple all-of trees-of the-field have-withered, for rejoicing has-made-wither from sons-of man."
+        },
+        {
+          "n": 13,
+          "t": "gird and-mourn the-priests make-wail ministering-of altar, come lodge in-the-sacks, ministering-of god-of-me ; for has-been-withholded from-house-of god-of-you-pl offering and-drink."
+        },
+        {
+          "n": 14,
+          "t": "consecrate fast call assembly, gather old all-of dwelling-of the-land, house-of YHWH god-of-you-pl ; and-out toward YHWH."
+        },
+        {
+          "n": 15,
+          "t": "alas to/for-the-day ; for near day-of YHWH, and-like-violence from-Almighty will-come."
+        },
+        {
+          "n": 16,
+          "t": "is-it-not before eyes-of-us food has-been-cut ; from-house-of god-of-us joy and-rejoicing."
+        },
+        {
+          "n": 17,
+          "t": "grains have-shriveled under clods-of-them, have-been-desolate treasures, have-been-overthrowed granaries ; for grain has-made-wither."
+        },
+        {
+          "n": 18,
+          "t": "what animal has-been-sighed have-been-perplexed flocks-of cattle, for naught pasture to/for-them ; also flocks-of the-flock have-been-guiltied."
+        },
+        {
+          "n": 19,
+          "t": "toward-you YHWH I-will-call ; for fire has-eaten habitations-of wilderness, and-flame, has-kindled all-of trees-of the-field."
+        },
+        {
+          "n": 20,
+          "t": "also animals-of field she-will-for toward-you ; for channels-of waters have-withered, and-fire, has-eaten habitations-of the-wilderness."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "blow trumpet in-Zion and-make-shout in-mountain-of holiness-of-me, let-them-tremble, all-of dwelling-of the-land ; for coming day-of YHWH for near."
+        },
+        {
+          "n": 2,
+          "t": "day-of darkness and-darkness day-of cloud and-cloud, like-dawn spreaded on the-mountains ; people many and-mighty, like-him not has-been-been from the-age, and-after-him not will-make-add, until year-of generation and-generation."
+        },
+        {
+          "n": 3,
+          "t": "to/for-faces-of-him fire has-eaten, and-after-him will-kindle flame ; like-garden-of Eden the-land to/for-faces-of-him and-after-him wilderness-of desolation, and-also survivor not has-been to/for-him."
+        },
+        {
+          "n": 4,
+          "t": "like-sight-of horses sight-of-him ; and-like-horses thus they-will-run."
+        },
+        {
+          "n": 5,
+          "t": "like-voice-of chariots on heads-of the-mountains will-about, like-voice-of flame-of fire, eating stubble ; like-people mighty, arranged-of battle."
+        },
+        {
+          "n": 6,
+          "t": "from-faces-of-him peoples will-twist ; all-of faces they-have-gathered pale."
+        },
+        {
+          "n": 7,
+          "t": "like-mighty they-will-run, like-mans-of battle they-will-ascend wall ; and-man in-ways-of-him will-walk, and-not ways-of-them will-lend."
+        },
+        {
+          "n": 8,
+          "t": "and-man brother-of-him not they-will-crowd, great in-highway-of-him they-will-walk ; and-about the-missile they-will-fall not they-will-off."
+        },
+        {
+          "n": 9,
+          "t": "in-the-city they-will-rush in-the-wall they-will-run, in-the-houses they-will-ascend ; about the-windows will-come like-the-thief."
+        },
+        {
+          "n": 10,
+          "t": "to/for-faces-of-him land has-trembled, have-shaked heavens ; sun and-moon and-stars have-darked, have-gathered brightness-of-them."
+        },
+        {
+          "n": 11,
+          "t": "and-YHWH has-given voice-of-him to/for-faces-of rampart-of-him, for many very camp-of-him, for mighty doing-of word-of-him ; for great day-of YHWH and-feared very and-who will-make-sustain-him."
+        },
+        {
+          "n": 12,
+          "t": "and-also now utterance-of YHWH, return until-me in-all-of heart-of-you-pl ; and-in-fast and-in-weeping and-in-mourning."
+        },
+        {
+          "n": 13,
+          "t": "and-tear heart-of-you-pl and-do-not garments-of-you-pl, and-return toward YHWH god-of-you-pl ; for gracious and-compassionate he, slow-of noses and-many-of kindness, and-sorried on the-evil."
+        },
+        {
+          "n": 14,
+          "t": "who knowing he-will-return and-he-has-been-sorried ; and-has-made-remain after-him blessing, offering and-drink, to/for-YHWH god-of-you-pl."
+        },
+        {
+          "n": 15,
+          "t": "blow trumpet in-Zion ; consecrate fast call assembly."
+        },
+        {
+          "n": 16,
+          "t": "gather people consecrate assembly gather old, gather infants, and-suckling-of breasts ; son-in-law let-exit from-chamber-of-him, and-daughter-in-law from-canopy-of-her."
+        },
+        {
+          "n": 17,
+          "t": "between the-hall and-to/for-the-altar, the-priests ministering-of let-weep, YHWH ; and-will-say pity-heh YHWH on people-of-you and-do-not let-give inheritance-of-you to/for-reproach to/for-rule in-them nations, to/for-what will-say in-the-peoples, where god-of-them."
+        },
+        {
+          "n": 18,
+          "t": "YHWH and-has-jealoused to/for-land-of-him ; people-of-him and-has-spared on."
+        },
+        {
+          "n": 19,
+          "t": "YHWH and-has-answered and-has-said to/for-people-of-him lo-me sending to/for-you-pl the-grain and-the-new and-the-oil, and-you-pl-have-satisfied him ; and-not I-will-give you-pl still reproach in-the-nations."
+        },
+        {
+          "n": 20,
+          "t": "and-the-northern I-will-make-remove on-you-pl and-I-have-made-banish-him toward land dryness and-desolation with faces-of-him toward the-sea the-eastern, and-end-of-him toward the-sea the-last ; stench-of-him and-has-ascended and-will-ascend stench-of-him, for has-made-magnify to/for-do."
+        },
+        {
+          "n": 21,
+          "t": "do-not let-fear ground ; rejoice and-rejoice, for YHWH has-made-magnify to/for-do."
+        },
+        {
+          "n": 22,
+          "t": "do-not let-fear animals-of sirion, for have-sprouted habitations-of wilderness ; for tree has-lifted fruit-of-him, fig and-vine they-have-given helech-of-them."
+        },
+        {
+          "n": 23,
+          "t": "and-sons-of Zion rejoice and-rejoice in-YHWH god-of-you-pl, for has-given to/for-you-pl the-rain to/for-rightness ; rain rain and-spring in-the-first and-has-made-go to/for-you-pl."
+        },
+        {
+          "n": 24,
+          "t": "the-threshings and-have-filled grain ; the-wines and-have-made-overflow new and-oil."
+        },
+        {
+          "n": 25,
+          "t": "and-I-have-completed to/for-you-pl the-years, who the-locust the-locust and-the-locust and-the-locust has-eaten ; helech-of-me the-great, who I-have-sended in-you-pl."
+        },
+        {
+          "n": 26,
+          "t": "and-you-pl-have-eaten eat and-satisfy, and-you-pl-have-boasted name-of YHWH god-of-you-pl, who has-done with-you-pl to/for-make-wonder ; and-not they-will-blush people-of-me to/for-age."
+        },
+        {
+          "n": 27,
+          "t": "and-you-pl-have-known for in-entrails-of Israel I, and-I YHWH god-of-you-pl and-naught still ; and-not they-will-blush people-of-me to/for-age."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been after thus I-will-pour spirit-of-me on all-of flesh, and-have-been-prophesied sons-of-you-pl and-daughters-of-you-pl ; old-of-you-pl dreams will-dream, youths-of-you-pl, visions will-see."
+        },
+        {
+          "n": 2,
+          "t": "and-also on the-servants and-on the-maidservants ; in-the-days the-they, I-will-pour spirit-of-me."
+        },
+        {
+          "n": 3,
+          "t": "and-I-have-given wonders, in-the-heavens and-in-the-land ; blood and-fire, and-columns-of smoke."
+        },
+        {
+          "n": 4,
+          "t": "the-sun will-be-overturned to/for-darkness, and-the-moon to/for-blood ; to/for-faces-of come day-of YHWH, the-great and-the-feared."
+        },
+        {
+          "n": 5,
+          "t": "all and-has-been who will-call in-name-of YHWH will-be-escaped ; for in-mountain-of Zion and-in-Jerusalem survivor will-be like-when has-said YHWH, and-in-the-survivors, who YHWH calling."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "for behold in-the-days the-they and-in-the-time the-he ; who I-will-return I-will-make-return captivity-of Judah and-Jerusalem."
+        },
+        {
+          "n": 2,
+          "t": "and-I-have-gathered all-of the-nations, and-I-have-made-go-them, toward valley-of Jehoshaphat ; and-I-have-been-judged with-them there on people-of-me and-inheritance-of-me Israel who they-have-scattered in-the-nations, and-land-of-me they-have-divided."
+        },
+        {
+          "n": 3,
+          "t": "and-toward people-of-me they-have-loted allotted ; and-they-have-given the-youth in-the-fornicate, and-the-maiden they-have-sold in-the-wine and-they-have-drunk."
+        },
+        {
+          "n": 4,
+          "t": "and-also what you to/for-me Tyre and-Sidon, and-all-of borders-of Philistia ; is-it-the-recompense you completing on-me, and-if weaning you on-me, swift haste, I-will-make-return recompense-of-you-pl in-head-of-you-pl."
+        },
+        {
+          "n": 5,
+          "t": "who silver-of-me and-gold-of-me you-pl-have-taken ; and-desires-of-me the-good, you-pl-have-made-come to/for-temples-of-you-pl."
+        },
+        {
+          "n": 6,
+          "t": "and-sons-of Judah and-sons-of Jerusalem, you-pl-have-sold to/for-sons-of the-Greek ; sake make-remove-of-them on border-of-them."
+        },
+        {
+          "n": 7,
+          "t": "lo-me making-rouse-of-them, from the-place, who you-pl-have-sold them there-ward ; and-I-have-made-return recompense-of-you-pl in-head-of-you-pl."
+        },
+        {
+          "n": 8,
+          "t": "and-I-have-sold sons-of-you-pl and-daughters-of-you-pl in-hand-of sons-of Judah, and-they-have-sold-them to/for-Sabean toward nation far ; for YHWH has-spoken."
+        },
+        {
+          "n": 9,
+          "t": "call this-f in-the-nations, consecrate battle ; make-rouse the-mighty, let-them-approach let-them-ascend, all-of mans-of the-battle."
+        },
+        {
+          "n": 10,
+          "t": "crush plowshares-of-you-pl to/for-swords, and-pruners-of-you-pl to/for-spears ; the-weak, let-him-say mighty I."
+        },
+        {
+          "n": 11,
+          "t": "help and-come all-of the-nations from-around and-they-have-been-gathered ; there-ward, make-descend YHWH mighty-of-you."
+        },
+        {
+          "n": 12,
+          "t": "let-be-roused the-nations and-let-ascend, toward valley-of Jehoshaphat ; for there I-will-dwell to/for-judge all-of the-nations from-around."
+        },
+        {
+          "n": 13,
+          "t": "send sickle, for has-boiled harvest ; come go for wine has-filled, have-made-overflow the-wines, for many evil-of-them."
+        },
+        {
+          "n": 14,
+          "t": "crowds crowds, in-valley-of the-Decision ; for near day-of YHWH, in-valley-of the-Decision."
+        },
+        {
+          "n": 15,
+          "t": "sun and-moon they-have-darked ; and-stars have-gathered brightness-of-them."
+        },
+        {
+          "n": 16,
+          "t": "and-YHWH from-Zion will-roar and-from-Jerusalem voice-of-him will-give, and-have-shaked heavens and-land ; and-YHWH refuge to/for-people-of-him, and-security to/for-sons-of Israel."
+        },
+        {
+          "n": 17,
+          "t": "and-you-pl-have-known for I YHWH god-of-you-pl, dwelling in-Zion mountain-of holiness-of-me ; Jerusalem and-has-been holiness, and-stranger not they-will-pass in-her still."
+        },
+        {
+          "n": 18,
+          "t": "the-he and-has-been in-the-day will-drip the-mountains sweet and-the-Gibat will-walk milk, and-all-of channels-of Judah will-walk waters ; and-spring from-house-of YHWH will-exit, and-has-made-water torrent-of the-Shittim."
+        },
+        {
+          "n": 19,
+          "t": "Egypt to/for-desolation and-Edom will-be, to/for-wilderness-of desolation she-will-be ; from-violence-of sons-of Judah, who they-have-poured blood innocent in-land-of-them."
+        },
+        {
+          "n": 20,
+          "t": "and-Judah to/for-age she-will-dwell ; and-Jerusalem to/for-generation and-generation."
+        },
+        {
+          "n": 21,
+          "t": "and-I-have-cleared blood-of-them not I-have-cleared ; and-YHWH dwelling in-Zion."
+        }
+      ]
+    }
+  ]
+}

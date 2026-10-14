@@ -1,0 +1,330 @@
+{
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "books": [
+    {
+      "id": "genese",
+      "title": "Livre de la Genèse",
+      "original_title": "Genèse",
+      "short": "Gn",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "exode",
+      "title": "Livre de l'Exode",
+      "original_title": "Exode",
+      "short": "Ex",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "levitique",
+      "title": "Livre du Lévitique",
+      "original_title": "Lévitique",
+      "short": "Lv",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "nombres",
+      "title": "Livre des Nombres",
+      "original_title": "Nombres",
+      "short": "Nb",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "deuteronome",
+      "title": "Livre du Deutéronome",
+      "original_title": "Deutéronome",
+      "short": "Dt",
+      "testament": "at",
+      "section": "torah"
+    },
+    {
+      "id": "josue",
+      "title": "Livre de Josué",
+      "original_title": "Josué",
+      "short": "Jos",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "juges",
+      "title": "Livre des Juges",
+      "original_title": "Juges",
+      "short": "Jg",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-samuel",
+      "title": "Premier livre de Samuel",
+      "original_title": "1 Samuel",
+      "short": "1 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-samuel",
+      "title": "Second livre de Samuel",
+      "original_title": "2 Samuel",
+      "short": "2 S",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "1-rois",
+      "title": "Premier livre des Rois",
+      "original_title": "1 Rois",
+      "short": "1 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "2-rois",
+      "title": "Second livre des Rois",
+      "original_title": "2 Rois",
+      "short": "2 R",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "esaie",
+      "title": "Livre d'Ésaïe",
+      "original_title": "Ésaïe",
+      "short": "Es",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jeremie",
+      "title": "Livre de Jérémie",
+      "original_title": "Jérémie",
+      "short": "Jr",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "ezechiel",
+      "title": "Livre d'Ézéchiel",
+      "original_title": "Ézéchiel",
+      "short": "Ez",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "osee",
+      "title": "Livre d'Osée",
+      "original_title": "Osée",
+      "short": "Os",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "joel",
+      "title": "Livre de Joël",
+      "original_title": "Joël",
+      "short": "Jl",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "amos",
+      "title": "Livre d'Amos",
+      "original_title": "Amos",
+      "short": "Am",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "abdias",
+      "title": "Livre d'Abdias",
+      "original_title": "Abdias",
+      "short": "Ab",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "jonas",
+      "title": "Livre de Jonas",
+      "original_title": "Jonas",
+      "short": "Jon",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "michee",
+      "title": "Livre de Michée",
+      "original_title": "Michée",
+      "short": "Mi",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "nahum",
+      "title": "Livre de Nahum",
+      "original_title": "Nahum",
+      "short": "Na",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "habacuc",
+      "title": "Livre d'Habacuc",
+      "original_title": "Habacuc",
+      "short": "Ha",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "sophonie",
+      "title": "Livre de Sophonie",
+      "original_title": "Sophonie",
+      "short": "So",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "aggee",
+      "title": "Livre d'Aggée",
+      "original_title": "Aggée",
+      "short": "Ag",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "zacharie",
+      "title": "Livre de Zacharie",
+      "original_title": "Zacharie",
+      "short": "Za",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "malachie",
+      "title": "Livre de Malachie",
+      "original_title": "Malachie",
+      "short": "Ml",
+      "testament": "at",
+      "section": "neviim"
+    },
+    {
+      "id": "psaumes",
+      "title": "Livre des Psaumes",
+      "original_title": "Psaume",
+      "short": "Ps",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "proverbes",
+      "title": "Livre des Proverbes",
+      "original_title": "Proverbes",
+      "short": "Pr",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "job",
+      "title": "Livre de Job",
+      "original_title": "Job",
+      "short": "Jb",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "cantique",
+      "title": "Cantique des cantiques",
+      "original_title": "Cantique des cantiques",
+      "short": "Ct",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ruth",
+      "title": "Livre de Ruth",
+      "original_title": "Ruth",
+      "short": "Rt",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "lamentations",
+      "title": "Lamentations de Jérémie",
+      "original_title": "Lamentations",
+      "short": "Lm",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "ecclesiaste",
+      "title": "L'Ecclésiaste",
+      "original_title": "Ecclésiaste",
+      "short": "Ec",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esther",
+      "title": "Livre d'Esther",
+      "original_title": "Esther",
+      "short": "Est",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "daniel",
+      "title": "Livre de Daniel",
+      "original_title": "Daniel",
+      "short": "Dn",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "esdras",
+      "title": "Livre d'Esdras",
+      "original_title": "Esdras",
+      "short": "Esd",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "nehemie",
+      "title": "Livre de Néhémie",
+      "original_title": "Néhémie",
+      "short": "Né",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "1-chroniques",
+      "title": "Premier livre des Chroniques",
+      "original_title": "1 Chroniques",
+      "short": "1 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    },
+    {
+      "id": "2-chroniques",
+      "title": "Second livre des Chroniques",
+      "original_title": "2 Chroniques",
+      "short": "2 Ch",
+      "testament": "at",
+      "section": "ketuvim"
+    }
+  ]
+}

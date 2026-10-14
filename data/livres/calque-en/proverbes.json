@@ -1,0 +1,3837 @@
+{
+  "id": "proverbes",
+  "title": "Livre des Proverbes",
+  "original_title": "Proverbes",
+  "short": "Pr",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "proverbs-of Solomon son-of David ; king-of Israel."
+        },
+        {
+          "n": 2,
+          "t": "to/for-know wisdom and-discipline ; to/for-make-discern words-of understanding."
+        },
+        {
+          "n": 3,
+          "t": "to/for-take discipline-of make-understand ; righteousness and-justice and-uprightnesses."
+        },
+        {
+          "n": 4,
+          "t": "to/for-give to/for-simples craftiness ; to/for-youth knowledge and-plot."
+        },
+        {
+          "n": 5,
+          "t": "wise will-hear and-will-make-add teaching ; and-discerned counsels he-will-acquire."
+        },
+        {
+          "n": 6,
+          "t": "to/for-make-discern proverb and-mockery ; words-of wise and-riddles-of-them."
+        },
+        {
+          "n": 7,
+          "t": "fear-of YHWH first-of knowledge ; wisdom and-discipline fool they-have-despised."
+        },
+        {
+          "n": 8,
+          "t": "hear son-of-me discipline-of father-of-you ; and-do-not let-leave instruction-of mother-of-you."
+        },
+        {
+          "n": 9,
+          "t": "for wreath-of favor they to/for-head-of-you ; and-necklaces to/for-necks-of-you."
+        },
+        {
+          "n": 10,
+          "t": "son-of-me if sinner will-entice-you do-not let-willing."
+        },
+        {
+          "n": 11,
+          "t": "if they-will-say walk-heh with-us let-us-ambush to/for-blood ; let-us-treasure to/for-innocent for."
+        },
+        {
+          "n": 12,
+          "t": "let-us-swallow-them like-hell living ; and-unblemished like-going-of pit."
+        },
+        {
+          "n": 13,
+          "t": "all-of substance precious we-will-find ; we-will-fill houses-of-us spoil."
+        },
+        {
+          "n": 14,
+          "t": "allotted-of-you you-will-make-fall in-midst-of-us ; purse one will-be to/for-all-of-us."
+        },
+        {
+          "n": 15,
+          "t": "son-of-me do-not let-walk in-way with-them ; withhold foot-of-you from-path-of-them."
+        },
+        {
+          "n": 16,
+          "t": "for foots-of-them to/for-the-evil they-will-run ; and-they-will-hasten to/for-pour blood."
+        },
+        {
+          "n": 17,
+          "t": "for for scattered the-net ; in-eyes-of all-of master-of wing."
+        },
+        {
+          "n": 18,
+          "t": "and-they to/for-blood-of-them will-ambush ; they-will-treasure to/for-souls-of-them."
+        },
+        {
+          "n": 19,
+          "t": "thus ways-of all-of offing unjust-gain ; soul-of masters-of-him he-will-take."
+        },
+        {
+          "n": 20,
+          "t": "wisdoms in-the-outside she-will-sing ; in-the-squares she-will-give voice-of-her."
+        },
+        {
+          "n": 21,
+          "t": "in-head-of roaring she-will-call in-entrances-of gates in-the-city words-of-her she-will-say."
+        },
+        {
+          "n": 22,
+          "t": "until how simples you-pl-will-love simplicity and-mock scorning have-desired to/for-them ; and-fool they-will-hate knowledge."
+        },
+        {
+          "n": 23,
+          "t": "you-pl-will-return to/for-argument-of-me behold let-me-make-bubble to/for-you-pl spirit-of-me ; let-me-make-know words-of-me you-pl."
+        },
+        {
+          "n": 24,
+          "t": "because I-have-called and-you-pl-have-refused ; I-have-stretched hand-of-me and-naught making-heed."
+        },
+        {
+          "n": 25,
+          "t": "and-you-pl-have-neglected all-of counsel-of-me ; and-argument-of-me not you-pl-have-willinged."
+        },
+        {
+          "n": 26,
+          "t": "also I in-calamity-of-you-pl will-laugh ; I-will-mock in-come dread-of-you-pl."
+        },
+        {
+          "n": 27,
+          "t": "in-come like-desolation like-devastation dread-of-you-pl and-calamity-of-you-pl like-whirlwind will-come ; in-come on-you-pl distress and-anguish."
+        },
+        {
+          "n": 28,
+          "t": "then they-will-call-me and-not I-will-answer ; they-will-seek-me and-not they-will-find-me."
+        },
+        {
+          "n": 29,
+          "t": "under for they-have-hated knowledge ; and-fear-of YHWH not they-have-chosen."
+        },
+        {
+          "n": 30,
+          "t": "not they-have-willinged to/for-counsel-of-me ; they-have-spurned all-of argument-of-me."
+        },
+        {
+          "n": 31,
+          "t": "and-they-will-eat from-fruit-of way-of-them ; and-from-counsels-of-them they-will-satisfy."
+        },
+        {
+          "n": 32,
+          "t": "for faithlessness-of simples will-kill-them ; and-ease-of fool will-perish-them."
+        },
+        {
+          "n": 33,
+          "t": "and-hearing to/for-me security will-dwell ; and-he-has-rested from-dread-of evil."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of-me if you-will-take words-of-me ; and-commandments-of-me you-will-treasure with-you-f."
+        },
+        {
+          "n": 2,
+          "t": "to/for-make-heed to/for-the-wisdom ear-of-you ; you-will-make-stretch heart-of-you to/for-the-understanding."
+        },
+        {
+          "n": 3,
+          "t": "for if to/for-the-understanding you-will-call ; to/for-the-understanding you-will-give voice-of-you."
+        },
+        {
+          "n": 4,
+          "t": "if you-will-seek-her like-the-silver ; and-like-the-treasures you-will-search-her."
+        },
+        {
+          "n": 5,
+          "t": "then you-will-discern fear-of YHWH ; and-knowledge-of god you-will-find."
+        },
+        {
+          "n": 6,
+          "t": "for YHWH will-give wisdom ; from-lip-of-him knowledge and-understanding."
+        },
+        {
+          "n": 7,
+          "t": "and-he-has-treasured he-will-treasure to/for-the-upright wisdom ; shield to/for-going-of integrity."
+        },
+        {
+          "n": 8,
+          "t": "to/for-watch ways-of justice ; and-way-of pious-of-him will-keep."
+        },
+        {
+          "n": 9,
+          "t": "then you-will-discern righteousness and-justice ; and-uprightnesses all-of track-of good."
+        },
+        {
+          "n": 10,
+          "t": "for wisdom will-come in-heart-of-you ; and-knowledge to/for-soul-of-you he-will-pleasant."
+        },
+        {
+          "n": 11,
+          "t": "plot will-keep on-you understanding will-watch-you."
+        },
+        {
+          "n": 12,
+          "t": "to/for-make-rescue-of-you from-way bad ; from-man speaking perversities."
+        },
+        {
+          "n": 13,
+          "t": "the-leaving ways-of uprightness ; to/for-walk in-ways-of darkness."
+        },
+        {
+          "n": 14,
+          "t": "the-glad to/for-do evil ; they-will-rejoice in-perversities-of evil."
+        },
+        {
+          "n": 15,
+          "t": "who ways-of-them twisted ; and-devioused in-tracks-of-them."
+        },
+        {
+          "n": 16,
+          "t": "to/for-make-rescue-of-you from-woman stranger ; from-foreign words-of-her she-has-made-smooth."
+        },
+        {
+          "n": 17,
+          "t": "the-leaving tame-of youths-of-her ; and-covenant-of god-of-her she-has-forgotten."
+        },
+        {
+          "n": 18,
+          "t": "for she-has-sinked toward death house-of-her ; and-toward shades tracks-of-her."
+        },
+        {
+          "n": 19,
+          "t": "all-of coming-of-her not they-will-return ; and-not ways-of lifes will-make-overtake."
+        },
+        {
+          "n": 20,
+          "t": "sake you-will-walk in-way-of good ; and-ways-of just you-will-keep."
+        },
+        {
+          "n": 21,
+          "t": "for upright they-will-dwell land ; and-unblemished they-will-be-remained in-her."
+        },
+        {
+          "n": 22,
+          "t": "and-wicked from-land they-will-be-cut ; and-treacherouslying they-will-pull from-her."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of-me instruction-of-me do-not let-forget ; heart-of-you let-watch and-commandments-of-me."
+        },
+        {
+          "n": 2,
+          "t": "for length-of days and-years-of lifes ; and-peace they-will-make-add to/for-you-f."
+        },
+        {
+          "n": 3,
+          "t": "kindness and-truth do-not let-them-leave-you conspire-them on necks-of-you ; write-them on tablet-of heart-of-you."
+        },
+        {
+          "n": 4,
+          "t": "and-find favor and-understanding good ; in-eyes-of god and-man."
+        },
+        {
+          "n": 5,
+          "t": "trust toward YHWH in-all-of heart-of-you ; and-toward understanding-of-you do-not let-be-leaned."
+        },
+        {
+          "n": 6,
+          "t": "in-all-of ways-of-you know-him ; and-he will-smooth ways-of-you."
+        },
+        {
+          "n": 7,
+          "t": "do-not let-be wise in-eyes-of-you ; fear YHWH and-turn from-evil."
+        },
+        {
+          "n": 8,
+          "t": "healing let-be to/for-cord-of-you ; and-drink to/for-bones-of-you."
+        },
+        {
+          "n": 9,
+          "t": "honor YHWH from-substance-of-you ; and-from-first-of all-of produce-of-you."
+        },
+        {
+          "n": 10,
+          "t": "storehouses-of-you and-will-be-filled abundance ; and-new wines-of-you will-break."
+        },
+        {
+          "n": 11,
+          "t": "discipline-of YHWH son-of-me do-not let-reject ; and-do-not let-loathe in-argument-of-him."
+        },
+        {
+          "n": 12,
+          "t": "for who YHWH will-love will-make-rebuke ; and-like-father son he-will-accept."
+        },
+        {
+          "n": 13,
+          "t": "blesseds man has-found wisdom ; and-man promote understanding."
+        },
+        {
+          "n": 14,
+          "t": "for good profit-of-her from-merchandise-of silver ; and-from-gold produce-of-her."
+        },
+        {
+          "n": 15,
+          "t": "precious he from-jewels ; and-all-of pleasures-of-you not they-will-like in-her."
+        },
+        {
+          "n": 16,
+          "t": "length-of days in-right-of-her ; in-left-of-her riches and-glory."
+        },
+        {
+          "n": 17,
+          "t": "ways-of-her way-of pleasantness ; and-all-of paths-of-her peace."
+        },
+        {
+          "n": 18,
+          "t": "tree-of lifes he to/for-the-making-strengthen in-her ; and-grasping-of-her blessed."
+        },
+        {
+          "n": 19,
+          "t": "YHWH in-wisdom has-founded land ; he-has-established heavens in-understanding."
+        },
+        {
+          "n": 20,
+          "t": "in-knowledge-of-him abysses have-been-broken ; and-clouds will-drip dew."
+        },
+        {
+          "n": 21,
+          "t": "son-of-me do-not let-them-devious from-eyes-of-you ; watch wisdom and-plot."
+        },
+        {
+          "n": 22,
+          "t": "lifes and-will-be to/for-soul-of-you ; and-favor to/for-necks-of-you."
+        },
+        {
+          "n": 23,
+          "t": "then you-will-walk to/for-security way-of-you ; and-foot-of-you not will-strike."
+        },
+        {
+          "n": 24,
+          "t": "if you-will-lie not you-will-dread ; and-you-have-lain sleep-of-you and-has-pleased."
+        },
+        {
+          "n": 25,
+          "t": "do-not let-fear from-dread suddenly ; and-from-devastation-of wicked for she-will-come."
+        },
+        {
+          "n": 26,
+          "t": "for YHWH will-be in-loin-of-you ; and-he-has-kept foot-of-you from-capture."
+        },
+        {
+          "n": 27,
+          "t": "do-not let-withhold good from-masters-of-him ; in-be to/for-El-of hands-of-you hand-of-you to/for-do."
+        },
+        {
+          "n": 28,
+          "t": "do-not let-say to/for-neighbors-of-you to/for-neighbor-of-you walk and-return and-tomorrow I-will-give and-there with-you-f."
+        },
+        {
+          "n": 29,
+          "t": "do-not let-plow on neighbor-of-you evil ; and-he dwelling to/for-security with-you-f."
+        },
+        {
+          "n": 30,
+          "t": "do-not let-contend with man for ; if not he-has-weaned-you evil."
+        },
+        {
+          "n": 31,
+          "t": "do-not let-jealous in-man-of violence ; and-do-not let-choose in-all-of ways-of-him."
+        },
+        {
+          "n": 32,
+          "t": "for abomination-of YHWH devioused ; and-with upright counsel-of-him."
+        },
+        {
+          "n": 33,
+          "t": "curse-of YHWH in-house-of wicked ; and-pasture-of just will-bless."
+        },
+        {
+          "n": 34,
+          "t": "if to/for-the-mock he will-make-mock ; and-to/for-afflicted and-to/for-poor favor will-give."
+        },
+        {
+          "n": 35,
+          "t": "glory wise they-will-inherit ; and-fool making-exalt dishonor."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "hear sons discipline-of father ; and-make-heed to/for-know understanding."
+        },
+        {
+          "n": 2,
+          "t": "for teaching good I-have-given to/for-you-pl ; instruction-of-me do-not let-leave."
+        },
+        {
+          "n": 3,
+          "t": "for son I-have-been to/for-father-of-me ; tender and-only to/for-faces-of mother-of-me."
+        },
+        {
+          "n": 4,
+          "t": "and-has-made-show-me and-has-said to/for-me let-grasp words-of-me heart-of-you ; keep commandments-of-me and-live."
+        },
+        {
+          "n": 5,
+          "t": "acquire wisdom acquire understanding ; do-not let-forget and-do-not let-stretch from-words-of lip-of-me."
+        },
+        {
+          "n": 6,
+          "t": "do-not let-leave-her and-she-will-keep-you ; love-her and-she-will-watch-you."
+        },
+        {
+          "n": 7,
+          "t": "first-of wisdom acquire wisdom ; and-in-all-of acquisition-of-you acquire understanding."
+        },
+        {
+          "n": 8,
+          "t": "build-her and-she-will-exalt-you ; she-will-honor-you for you-will-embrace-her."
+        },
+        {
+          "n": 9,
+          "t": "wreath-of favor ; will-give to/for-head-of-you crown-of beauty will-deliver-you."
+        },
+        {
+          "n": 10,
+          "t": "hear son-of-me and-take words-of-me ; and-they-will-multiply to/for-you years-of lifes."
+        },
+        {
+          "n": 11,
+          "t": "in-way-of wisdom I-have-made-show-you ; I-have-made-tread-you in-tracks-of uprightness."
+        },
+        {
+          "n": 12,
+          "t": "in-walk-of-you not step-of-you will-distressed ; and-if you-will-run not you-will-be-stumbled."
+        },
+        {
+          "n": 13,
+          "t": "make-strengthen in-the-discipline do-not let-make-slacken ; watch-her for he lifes-of-you."
+        },
+        {
+          "n": 14,
+          "t": "in-way-of wicked do-not let-come ; and-do-not let-bless in-way-of bad."
+        },
+        {
+          "n": 15,
+          "t": "neglect-him do-not let-pass in-him ; turn on-him and-pass."
+        },
+        {
+          "n": 16,
+          "t": "for not they-will-sleep if not they-will-make-evil ; sleep-of-them and-has-been-plundered if not they-will-stumble they-will-make-stumble."
+        },
+        {
+          "n": 17,
+          "t": "for they-have-oned food-of wickedness ; and-wine-of violences they-will-drink."
+        },
+        {
+          "n": 18,
+          "t": "and-way-of just like-light-of brightness ; going and-shining until established-of the-day."
+        },
+        {
+          "n": 19,
+          "t": "way-of wicked like-the-darkness ; not they-have-known in-what they-will-be-stumbled."
+        },
+        {
+          "n": 20,
+          "t": "son-of-me to/for-words-of-me make-heed-heh ; to/for-words-of-me make-stretch ear-of-you."
+        },
+        {
+          "n": 21,
+          "t": "do-not let-them-make-devious from-eyes-of-you ; keep-them in-midst-of heart-of-you."
+        },
+        {
+          "n": 22,
+          "t": "for lifes they to/for-finding-of-them ; and-to/for-all-of flesh-of-him healing."
+        },
+        {
+          "n": 23,
+          "t": "from-all-of custody watch heart-of-you ; for from-us outgoings-of lifes."
+        },
+        {
+          "n": 24,
+          "t": "make-turn from-you crookedness-of lip ; and-perversity-of lipses make-remove from-you."
+        },
+        {
+          "n": 25,
+          "t": "eyes-of-you to/for-before let-them-make-look ; and-eyelids-of-you let-make-smooth before-you."
+        },
+        {
+          "n": 26,
+          "t": "envy track-of foot-of-you ; and-all-of ways-of-you they-will-be-established."
+        },
+        {
+          "n": 27,
+          "t": "do-not let-stretch right and-left ; make-turn foot-of-you from-bad."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of-me to/for-wisdom-of-me make-heed-heh ; to/for-understanding-of-me make-stretch ear-of-you."
+        },
+        {
+          "n": 2,
+          "t": "to/for-keep plots ; and-knowledge lipses-of-you they-will-watch."
+        },
+        {
+          "n": 3,
+          "t": "for honey they-f-will-drip lipses-of stranger ; and-smooth from-oil palate-of-her."
+        },
+        {
+          "n": 4,
+          "t": "and-end-of-her bitter like-the-wormwood ; sharp like-sword-of lips."
+        },
+        {
+          "n": 5,
+          "t": "foots-of-her going death ; hell steps-of-her will-grasp."
+        },
+        {
+          "n": 6,
+          "t": "way-of lifes lest will-envy ; tracks-of-her have-shaked not you-will-know."
+        },
+        {
+          "n": 7,
+          "t": "and-now sons hear to/for-me ; and-do-not let-turn from-words-of lip-of-me."
+        },
+        {
+          "n": 8,
+          "t": "make-remove on-her way-of-you ; and-do-not let-present toward entrance-of house-of-her."
+        },
+        {
+          "n": 9,
+          "t": "lest you-will-give to/for-another splendor-of-you ; and-years-of-you to/for-cruel."
+        },
+        {
+          "n": 10,
+          "t": "lest they-will-satisfy stranger strength-of-you ; and-toils-of-you in-house-of foreign."
+        },
+        {
+          "n": 11,
+          "t": "and-you-have-groaned in-end-of-you ; in-finish flesh-of-you and-flesh-of-you."
+        },
+        {
+          "n": 12,
+          "t": "and-you-have-said how I-have-hated discipline ; heart-of-me has-spurned and-argument."
+        },
+        {
+          "n": 13,
+          "t": "and-not I-have-heard in-voice-of shows-of-me ; and-to/for-learning-of-me not I-have-made-stretch ear-of-me."
+        },
+        {
+          "n": 14,
+          "t": "like-little I-have-been in-all-of evil ; in-midst-of assembly and-congregation."
+        },
+        {
+          "n": 15,
+          "t": "drink waters from-pit-of-you ; and-flowing from-midst-of well-of-you."
+        },
+        {
+          "n": 16,
+          "t": "springs-of-you will-flow outside-ward ; in-the-squares streams-of waters."
+        },
+        {
+          "n": 17,
+          "t": "let-them-be to/for-you to/for-alone-of-you ; and-naught to/for-stranger with-you."
+        },
+        {
+          "n": 18,
+          "t": "fountain-of-you blessed let-be ; and-rejoice from-woman-of youth-of-you."
+        },
+        {
+          "n": 19,
+          "t": "doe-of lovers and-doe-of favor breasts-of-her let-them-quench-you in-all-of time ; in-love-of-her you-will-wander continually."
+        },
+        {
+          "n": 20,
+          "t": "and-to/for-what you-will-wander son-of-me in-stranger ; and-you-will-embrace bosom-of foreign."
+        },
+        {
+          "n": 21,
+          "t": "for before eyes-of YHWH ways-of man ; and-all-of tracks-of-him envying."
+        },
+        {
+          "n": 22,
+          "t": "iniquities-of-him will-capture-him the-wicked ; and-in-mahalabs-of offense-of-him he-will-be-grasped."
+        },
+        {
+          "n": 23,
+          "t": "he will-die in-naught discipline ; and-in-abundance-of folly-of-him he-will-wander."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of-me if you-have-pledged to/for-neighbor-of-you ; you-have-blowed to/for-the-stranger palms-of-you."
+        },
+        {
+          "n": 2,
+          "t": "you-have-been-snared in-words-of lip-of-you ; you-have-been-captured in-words-of lip-of-you."
+        },
+        {
+          "n": 3,
+          "t": "do this-f then son-of-me and-be-rescued for you-have-come in-palm-of neighbor-of-you ; walk stamp and-assertive neighbors-of-you."
+        },
+        {
+          "n": 4,
+          "t": "do-not let-give sleep to/for-eyes-of-you ; and-slumber to/for-eyelids-of-you."
+        },
+        {
+          "n": 5,
+          "t": "be-rescued like-gazelle from-hand ; and-like-bird from-hand-of fowler."
+        },
+        {
+          "n": 6,
+          "t": "walk toward ant sluggish ; see ways-of-her and-wise."
+        },
+        {
+          "n": 7,
+          "t": "who naught to/for-her chief officialing and-ruling."
+        },
+        {
+          "n": 8,
+          "t": "food-of-her ; will-make-establish in-the-summer she-has-gathered in-the-harvest food-of-her."
+        },
+        {
+          "n": 9,
+          "t": "until how sluggish you-will-lie ; how you-will-rise from-sleep-of-you."
+        },
+        {
+          "n": 10,
+          "t": "little-of sleeps little-of slumbers ; little-of folding-of hands to/for-lie."
+        },
+        {
+          "n": 11,
+          "t": "poverty-of-you ; and-has-come like-gone and-need-of-you like-man shield."
+        },
+        {
+          "n": 12,
+          "t": "man-of belial man-of evil ; going crookedness-of lip."
+        },
+        {
+          "n": 13,
+          "t": "winking in-eyes-of-him rubing in-foot-of-him ; show in-fingers-of-him."
+        },
+        {
+          "n": 14,
+          "t": "perversities in-heart-of-him plowing evil in-all-of time ; strifes he-will-send."
+        },
+        {
+          "n": 15,
+          "t": "on thus suddenly calamity-of-him will-come ; suddenness will-be-breaked and-naught healing."
+        },
+        {
+          "n": 16,
+          "t": "six they YHWH has-hated ; and-seven abominations-of abomination-of soul-of-him."
+        },
+        {
+          "n": 17,
+          "t": "eyes exalting tongue-of deception ; and-hands pouring blood innocent."
+        },
+        {
+          "n": 18,
+          "t": "heart plowing plots-of evil ; foots hastening to/for-run to/for-the-evil."
+        },
+        {
+          "n": 19,
+          "t": "will-make-breathe lies witness-of deception ; and-sending strifes between brothers."
+        },
+        {
+          "n": 20,
+          "t": "watch son-of-me commandment-of father-of-you ; and-do-not let-leave instruction-of mother-of-you."
+        },
+        {
+          "n": 21,
+          "t": "conspire-them on heart-of-you continually ; bind-them on necks-of-you."
+        },
+        {
+          "n": 22,
+          "t": "in-self-go-of-you she-will-make-lead you-f in-lie-of-you she-will-keep on-you ; and-you-have-made-awake he will-muse-you."
+        },
+        {
+          "n": 23,
+          "t": "for lamp commandment and-instruction light ; and-way-of lifes arguments-of discipline."
+        },
+        {
+          "n": 24,
+          "t": "to/for-keep-of-you from-woman-of evil ; from-smoothness-of tongue foreign."
+        },
+        {
+          "n": 25,
+          "t": "do-not let-desire beauty-of-her in-heart-of-you ; and-do-not let-take-you in-eyelids-of-her."
+        },
+        {
+          "n": 26,
+          "t": "for about woman fornicating until plain-of food and-woman-of man ; soul precious will-hunt."
+        },
+        {
+          "n": 27,
+          "t": "man fire is-it-will-snatch in-bosom-of-him ; and-garments-of-him not they-f-will-be-burned."
+        },
+        {
+          "n": 28,
+          "t": "if man will-go on the-coals ; and-foots-of-him not they-f-will-be-burned."
+        },
+        {
+          "n": 29,
+          "t": "thus the-coming toward woman-of neighbor-of-him ; not all-of will-be-cleared the-touching in-her."
+        },
+        {
+          "n": 30,
+          "t": "not they-will-despise to/for-the-thief for he-will-steal ; to/for-fill soul-of-him for will-hungry."
+        },
+        {
+          "n": 31,
+          "t": "and-he-has-been-found he-will-complete sevenfold ; all-of substance-of house-of-him he-will-give."
+        },
+        {
+          "n": 32,
+          "t": "commiting woman lacking-of heart ; destroying soul-of-him he will-do-her."
+        },
+        {
+          "n": 33,
+          "t": "plague and-dishonor will-find ; and-reproach-of-him not will-be-wiped."
+        },
+        {
+          "n": 34,
+          "t": "for jealousy rage-of great ; and-not he-will-spare in-day-of vengeance."
+        },
+        {
+          "n": 35,
+          "t": "not he-will-lift faces-of all-of ransom ; and-not will-willing for you-will-make-multiply bribe."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of-me keep words-of-me ; and-commandments-of-me you-will-treasure with-you-f."
+        },
+        {
+          "n": 2,
+          "t": "keep commandments-of-me and-live ; and-instruction-of-me like-pupil-of eyes-of-you."
+        },
+        {
+          "n": 3,
+          "t": "conspire-them on fingers-of-you ; write-them on tablet-of heart-of-you."
+        },
+        {
+          "n": 4,
+          "t": "say to/for-the-wisdom sister-of-me you ; and-kinsman to/for-the-understanding you-will-call."
+        },
+        {
+          "n": 5,
+          "t": "to/for-keep-of-you from-woman stranger ; from-foreign words-of-her she-has-made-smooth."
+        },
+        {
+          "n": 6,
+          "t": "for in-window-of house-of-me ; about lattice-of-me I-have-been-looked."
+        },
+        {
+          "n": 7,
+          "t": "and-I-have-seen in-the-simples let-me-discern in-the-sons youth lacking-of heart."
+        },
+        {
+          "n": 8,
+          "t": "passing in-the-street beside corner-of-her ; and-way-of house-of-her will-march."
+        },
+        {
+          "n": 9,
+          "t": "in-twilight in-evening day ; in-pupil-of night and-darkness."
+        },
+        {
+          "n": 10,
+          "t": "and-behold woman to/for-befall-of-him ; garment-of fornicating and-watched-of heart."
+        },
+        {
+          "n": 11,
+          "t": "roaring he and-rebeling ; in-house-of-her not they-will-dwell foots-of-her."
+        },
+        {
+          "n": 12,
+          "t": "stroke in-the-outside stroke in-the-squares ; and-beside all-of corner she-will-ambush."
+        },
+        {
+          "n": 13,
+          "t": "and-she-has-made-strengthen in-him and-she-has-kissed to/for-him ; she-has-made-strong faces-of-her and-she-has-said to/for-him."
+        },
+        {
+          "n": 14,
+          "t": "sacrifices-of peaces on-me ; the-day I-have-completed vows-of-me."
+        },
+        {
+          "n": 15,
+          "t": "on thus I-have-exited to/for-befall-of-you ; to/for-seek faces-of-you and-I-have-found-you."
+        },
+        {
+          "n": 16,
+          "t": "coverings I-have-spreaded bed-of-me ; coloreds-of linen-of Egypt."
+        },
+        {
+          "n": 17,
+          "t": "I-have-sprinkled bed-of-me ; myrrh aloes and-cinnamon."
+        },
+        {
+          "n": 18,
+          "t": "walk-heh let-us-quench beloveds until the-morning ; let-us-rejoice in-beloveds."
+        },
+        {
+          "n": 19,
+          "t": "for naught the-man in-house-of-him ; he-has-gone in-way from-far."
+        },
+        {
+          "n": 20,
+          "t": "bundle-of the-silver has-taken in-hand-of-him ; to/for-day-of the-moon house-of-him will-come."
+        },
+        {
+          "n": 21,
+          "t": "she-has-made-stretch-him in-abundance-of teaching-of-her ; in-smoothness-of lipses-of-her she-will-make-banish-him."
+        },
+        {
+          "n": 22,
+          "t": "going after-her suddenly like-cattle toward slaughter will-come ; and-like-anklet toward discipline-of fool."
+        },
+        {
+          "n": 23,
+          "t": "until arrow will-cleave liver-of-him like-hasten bird toward snare ; and-not he has-known for in-soul-of-him."
+        },
+        {
+          "n": 24,
+          "t": "and-now sons hear to/for-me ; and-make-heed to/for-words-of lip-of-me."
+        },
+        {
+          "n": 25,
+          "t": "do-not let-turn toward ways-of-her heart-of-you ; do-not let-go in-paths-of-her."
+        },
+        {
+          "n": 26,
+          "t": "for many slain she-has-made-fall ; and-mighty all-of killed-of-her."
+        },
+        {
+          "n": 27,
+          "t": "ways-of hell house-of-her ; going toward chambers-of death."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "is-it-not wisdom will-call ; and-understanding will-give voice-of-her."
+        },
+        {
+          "n": 2,
+          "t": "in-head-of heights on way ; place-of paths she-has-been-stood."
+        },
+        {
+          "n": 3,
+          "t": "to/for-hand-of gates to/for-lip-of town ; entrance-of entrances she-will-sing."
+        },
+        {
+          "n": 4,
+          "t": "toward-you-pl mans I-will-call ; and-voice-of-me toward sons-of man."
+        },
+        {
+          "n": 5,
+          "t": "make-discern simples craftiness ; and-fool make-discern heart."
+        },
+        {
+          "n": 6,
+          "t": "hear for leaders I-will-speak ; and-opening-of lipses-of-me uprightnesses."
+        },
+        {
+          "n": 7,
+          "t": "for palate-of-me ; will-mutter truth and-abomination-of lipses-of-me wickedness."
+        },
+        {
+          "n": 8,
+          "t": "in-righteousness all-of words-of lip-of-me ; naught in-them twisted and-twisted."
+        },
+        {
+          "n": 9,
+          "t": "all-of-them straightforward to/for-the-making-discern ; and-upright to/for-finding-of knowledge."
+        },
+        {
+          "n": 10,
+          "t": "take discipline-of-me and-do-not silver ; and-knowledge from-gold chosen."
+        },
+        {
+          "n": 11,
+          "t": "for good wisdom from-jewels ; and-all-of pleasures not they-will-like in-her."
+        },
+        {
+          "n": 12,
+          "t": "I wisdom have-dwelt craftiness ; and-knowledge-of plots I-will-find."
+        },
+        {
+          "n": 13,
+          "t": "fear-of YHWH hate evil pride and-pride and-way evil and-lip-of perversities I-have-hated."
+        },
+        {
+          "n": 14,
+          "t": "to/for-me counsel and-wisdom ; I understanding to/for-me might."
+        },
+        {
+          "n": 15,
+          "t": "in-me kings will-reign ; and-ruling they-will-decree righteousness."
+        },
+        {
+          "n": 16,
+          "t": "in-me officials will-rule ; and-noble all-of judging-of righteousness."
+        },
+        {
+          "n": 17,
+          "t": "I loving-of-her loving-of-me will-love ; and-seeking-of-me they-will-find-me."
+        },
+        {
+          "n": 18,
+          "t": "riches and-glory with-me ; substance surpassing and-rightness."
+        },
+        {
+          "n": 19,
+          "t": "good fruit-of-me from-gold and-from-pure ; and-produce-of-me from-silver chosen."
+        },
+        {
+          "n": 20,
+          "t": "in-way-of rightness I-will-go ; in-midst-of paths-of justice."
+        },
+        {
+          "n": 21,
+          "t": "to/for-make-inherit loving-of-me there ; and-treasures-of-them I-will-fill."
+        },
+        {
+          "n": 22,
+          "t": "YHWH has-acquired-me first-of way-of-him ; east-of works-of-him from-past."
+        },
+        {
+          "n": 23,
+          "t": "from-age I-have-been-installed from-head from-easts-of land."
+        },
+        {
+          "n": 24,
+          "t": "in-naught abysses I-have-been-twisted ; in-naught springs honors-of waters."
+        },
+        {
+          "n": 25,
+          "t": "in-before mountains have-been-made-sink ; to/for-faces-of Gibat I-have-been-twisted."
+        },
+        {
+          "n": 26,
+          "t": "until not land has-done and-outsides ; and-head-of dusts-of world."
+        },
+        {
+          "n": 27,
+          "t": "in-make-establish-of-him heavens there I ; in-decree-of-him circle on faces-of abyss."
+        },
+        {
+          "n": 28,
+          "t": "in-strengthen-of-him clouds from-above ; in-strong fountains-of abyss."
+        },
+        {
+          "n": 29,
+          "t": "in-put-of-him to/for-the-sea statute-of-him and-waters not will-pass lip-of-him ; in-decree-of-him foundations-of land."
+        },
+        {
+          "n": 30,
+          "t": "and-I-have-been beside-him artisan and-I-have-been delights day day ; laughing to/for-faces-of-him in-all-of time."
+        },
+        {
+          "n": 31,
+          "t": "laughing in-world-of land-of-him ; and-delights-of-me with sons-of man."
+        },
+        {
+          "n": 32,
+          "t": "and-now sons hear to/for-me ; and-blesseds ways-of-me will-keep."
+        },
+        {
+          "n": 33,
+          "t": "hear discipline and-wise and-do-not let-neglect."
+        },
+        {
+          "n": 34,
+          "t": "blesseds man hearing to/for-me to/for-watch on doors-of-me day day ; to/for-keep doorposts-of entrances-of-me."
+        },
+        {
+          "n": 35,
+          "t": "for finding-of-me finding-of he-has-found lifes ; acceptance and-has-made-promote from-YHWH."
+        },
+        {
+          "n": 36,
+          "t": "and-sining-of-me injuring soul-of-him ; all-of hating-of-me they-have-loved death."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "wisdoms she-has-built house-of-her ; she-has-hewed pillars-of-her seven."
+        },
+        {
+          "n": 2,
+          "t": "she-has-slaughtered slaughter-of-her she-has-mixed wine-of-her ; even she-has-arranged table-of-her."
+        },
+        {
+          "n": 3,
+          "t": "she-has-sended maidens-of-her she-will-call ; on singles-of heights-of town."
+        },
+        {
+          "n": 4,
+          "t": "who simple let-turn here ; lacking-of heart she-has-said to/for-him."
+        },
+        {
+          "n": 5,
+          "t": "walk on in-food-of-me ; and-drink in-wine I-have-mixed."
+        },
+        {
+          "n": 6,
+          "t": "leave simples and-live ; and-bless in-way-of understanding."
+        },
+        {
+          "n": 7,
+          "t": "disciplining mock taking to/for-him dishonor ; and-making-rebuke to/for-wicked blemish-of-him."
+        },
+        {
+          "n": 8,
+          "t": "do-not let-make-rebuke mock lest he-will-hate-you ; make-rebuke to/for-wise and-he-will-love-you."
+        },
+        {
+          "n": 9,
+          "t": "give to/for-wise and-he-will-wise still ; make-know to/for-just teaching and-will-make-add."
+        },
+        {
+          "n": 10,
+          "t": "beginning-of wisdom fear-of YHWH ; and-knowledge-of holy understanding."
+        },
+        {
+          "n": 11,
+          "t": "for in-me days-of-you will-multiply ; and-they-will-make-add to/for-you years-of lifes."
+        },
+        {
+          "n": 12,
+          "t": "if you-have-wised you-have-wised to/for-you-f ; and-you-have-mocked to/for-alone-of-you you-will-lift."
+        },
+        {
+          "n": 13,
+          "t": "woman-of stupidity roaring ; naivite and-not has-known what."
+        },
+        {
+          "n": 14,
+          "t": "and-she-has-dwelt to/for-entrance-of house-of-her ; on throne heights-of town."
+        },
+        {
+          "n": 15,
+          "t": "to/for-call to/for-passing-of way ; the-smoothing ways-of-them."
+        },
+        {
+          "n": 16,
+          "t": "who simple let-turn here ; and-lacking-of heart and-she-has-said to/for-him."
+        },
+        {
+          "n": 17,
+          "t": "waters stealed will-sweet ; and-food-of secrecies will-pleasant."
+        },
+        {
+          "n": 18,
+          "t": "and-not he-has-known for shades there ; in-unfathomables-of hell called-of-her."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "proverbs-of Solomon son wise will-rejoice father ; and-son fool grief-of mother-of-him."
+        },
+        {
+          "n": 2,
+          "t": "not treasures-of wickedness will-make-gain ; and-rightness will-make-rescue from-death."
+        },
+        {
+          "n": 3,
+          "t": "not YHWH will-make-hungry soul-of just ; and-desire-of wicked he-will-thrust."
+        },
+        {
+          "n": 4,
+          "t": "poor doing palm-of slackness ; and-hand-of sharp will-make-enrich."
+        },
+        {
+          "n": 5,
+          "t": "gathering in-the-summer son making-understand ; slept in-the-harvest son making-blush."
+        },
+        {
+          "n": 6,
+          "t": "blessings to/for-head just ; and-lip-of wicked will-cover violence."
+        },
+        {
+          "n": 7,
+          "t": "memorial-of just to/for-blessing ; and-name-of wicked will-rot."
+        },
+        {
+          "n": 8,
+          "t": "wise-of heart will-take commandments ; and-fool lipses he-will-be-ruined."
+        },
+        {
+          "n": 9,
+          "t": "going in-the-integrity security will-walk ; and-twisting ways-of-him he-will-be-known."
+        },
+        {
+          "n": 10,
+          "t": "winking eye will-give injury ; and-fool lipses he-will-be-ruined."
+        },
+        {
+          "n": 11,
+          "t": "fountain-of lifes lip-of just ; and-lip-of wicked will-cover violence."
+        },
+        {
+          "n": 12,
+          "t": "hating will-rouse strifes ; and-on love will-cover all-of transgressions."
+        },
+        {
+          "n": 13,
+          "t": "in-lipses-of discerned wisdom will-be-found ; and-tribe to/for-back-of lacking-of heart."
+        },
+        {
+          "n": 14,
+          "t": "wise they-will-treasure knowledge ; and-lip-of fool terror near."
+        },
+        {
+          "n": 15,
+          "t": "substance rich town-of strength-of-him ; terror-of poor poverty-of-them."
+        },
+        {
+          "n": 16,
+          "t": "wages-of just to/for-lifes ; produce-of wicked to/for-offense."
+        },
+        {
+          "n": 17,
+          "t": "way to/for-lifes keeping discipline ; and-leaving argument making-go."
+        },
+        {
+          "n": 18,
+          "t": "covering hating lipses-of deception ; and-making-exit slander he fool."
+        },
+        {
+          "n": 19,
+          "t": "in-abundance-of words not transgression will-cease ; and-withholding lipses-of-him making-understand."
+        },
+        {
+          "n": 20,
+          "t": "silver chosen tongue-of just ; heart-of wicked like-little."
+        },
+        {
+          "n": 21,
+          "t": "lipses-of just they-will-pasture many ; and-fool in-lacking-of heart they-will-die."
+        },
+        {
+          "n": 22,
+          "t": "blessing-of YHWH he will-make-enrich ; and-not toil will-make-add with-her."
+        },
+        {
+          "n": 23,
+          "t": "like-laughter to/for-fool do wickedness ; and-wisdom to/for-man-of understanding."
+        },
+        {
+          "n": 24,
+          "t": "fear-of wicked he will-come-him ; and-desire-of just he-will-give."
+        },
+        {
+          "n": 25,
+          "t": "like-pass whirlwind and-naught wicked ; and-just foundation-of age."
+        },
+        {
+          "n": 26,
+          "t": "like-the-vinegar to/for-the-tooths and-like-the-smoke to/for-the-eyes ; thus the-sluggish to/for-sending-of-him."
+        },
+        {
+          "n": 27,
+          "t": "fear-of YHWH will-make-add days ; and-years-of wicked will-short."
+        },
+        {
+          "n": 28,
+          "t": "hope-of just joy ; and-hope-of wicked will-perish."
+        },
+        {
+          "n": 29,
+          "t": "security to/for-the-integrity way-of YHWH ; and-terror to/for-working-of evil."
+        },
+        {
+          "n": 30,
+          "t": "just to/for-age not he-will-be-shaked ; and-wicked not they-will-dwell land."
+        },
+        {
+          "n": 31,
+          "t": "lip-of just will-fruit wisdom ; and-tongue-of perversities will-be-cut."
+        },
+        {
+          "n": 32,
+          "t": "lipses-of just they-will-know acceptance ; and-lip-of wicked perversities."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "balances-of deceit abomination-of YHWH ; and-stone complete acceptance-of-him."
+        },
+        {
+          "n": 2,
+          "t": "coming arrogance and-has-come dishonor ; and-with humble wisdom."
+        },
+        {
+          "n": 3,
+          "t": "integrity-of upright will-make-lead-them ; and-crookedness-of treacherouslying and-ruin-of-them will-ruin-them."
+        },
+        {
+          "n": 4,
+          "t": "not substance will-make-gain in-day-of fury ; and-rightness will-make-rescue from-death."
+        },
+        {
+          "n": 5,
+          "t": "rightness-of unblemished will-smooth way-of-him ; and-in-wickedness-of-him he-will-fall wicked."
+        },
+        {
+          "n": 6,
+          "t": "rightness-of upright will-make-rescue-them ; and-in-desire-of treacherouslying they-will-be-captured."
+        },
+        {
+          "n": 7,
+          "t": "in-death-of man wicked hope will-perish ; and-hope-of evils has-perished."
+        },
+        {
+          "n": 8,
+          "t": "just from-distress rescued ; and-he-has-come wicked under-him."
+        },
+        {
+          "n": 9,
+          "t": "in-lip profane neighbor-of-him will-destroy ; and-in-knowledge just they-will-be-rescued."
+        },
+        {
+          "n": 10,
+          "t": "in-goodness-of just town will-rejoice ; and-in-perish wicked cry."
+        },
+        {
+          "n": 11,
+          "t": "in-blessing-of upright town will-exalt ; and-in-lip-of wicked she-will-be-overthrowed."
+        },
+        {
+          "n": 12,
+          "t": "despising to/for-neighbor-of-him lacking-of heart ; and-man-of understandings will-make-quiet."
+        },
+        {
+          "n": 13,
+          "t": "going slander heglaming counsel ; and-faithfuled-of spirit covering word."
+        },
+        {
+          "n": 14,
+          "t": "in-naught people ; will-fall counsels and-deliverance in-abundance-of advising."
+        },
+        {
+          "n": 15,
+          "t": "evil he-will-be-eviled for he-has-pledged stranger ; and-hating blows trusting."
+        },
+        {
+          "n": 16,
+          "t": "glory ; will-grasp woman-of favor and-ruthless they-will-grasp riches."
+        },
+        {
+          "n": 17,
+          "t": "weaning soul-of-him man-of kindness ; and-troubling flesh-of-him cruel."
+        },
+        {
+          "n": 18,
+          "t": "wicked doing wages-of deception ; and-sowing rightness hire-of truth."
+        },
+        {
+          "n": 19,
+          "t": "right rightness to/for-lifes ; and-pursuing evil to/for-death-of-him."
+        },
+        {
+          "n": 20,
+          "t": "abomination-of YHWH twisted-of heart ; and-acceptance-of-him unblemished-of way."
+        },
+        {
+          "n": 21,
+          "t": "hand to/for-hand not will-be-cleared bad ; and-seed-of just has-been-escaped."
+        },
+        {
+          "n": 22,
+          "t": "ring-of gold in-nose-of swine ; woman beautiful and-turning-of taste."
+        },
+        {
+          "n": 23,
+          "t": "desire-of just surely good ; hope-of wicked fury."
+        },
+        {
+          "n": 24,
+          "t": "there scattering and-added still ; and-withholding from-uprightness surely to/for-need."
+        },
+        {
+          "n": 25,
+          "t": "soul-of blessing will-prosper ; and-making-quench also he will-be-made-shoot."
+        },
+        {
+          "n": 26,
+          "t": "withholding grain they-will-pierce-him people ; and-blessing to/for-head-of making-grain."
+        },
+        {
+          "n": 27,
+          "t": "seeking good acceptance will-seek ; and-seeking evil will-come-him."
+        },
+        {
+          "n": 28,
+          "t": "trusting in-riches-of-him he will-fall ; and-like-the-leaf just they-will-sprout."
+        },
+        {
+          "n": 29,
+          "t": "troubling house-of-him will-inherit spirit ; and-servant fool to/for-wise-of heart."
+        },
+        {
+          "n": 30,
+          "t": "fruit-of just tree-of lifes ; and-taking souls wise."
+        },
+        {
+          "n": 31,
+          "t": "lo just in-the-land he-will-complete ; even for wicked and-sining."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "loving discipline loving knowledge ; and-hating argument stupid."
+        },
+        {
+          "n": 2,
+          "t": "good acceptance will-make-promote from-YHWH ; and-man-of plots will-make-wrong."
+        },
+        {
+          "n": 3,
+          "t": "not man will-be-established in-wickedness ; and-root-of just not will-be-shaked."
+        },
+        {
+          "n": 4,
+          "t": "woman-of helech crown-of master-of-her ; and-like-rottenness in-bones-of-him making-blush."
+        },
+        {
+          "n": 5,
+          "t": "plots-of just justice ; counsels-of wicked deceit."
+        },
+        {
+          "n": 6,
+          "t": "words-of wicked ambush blood ; and-lip-of upright will-make-rescue-them."
+        },
+        {
+          "n": 7,
+          "t": "overturn wicked and-naught-them ; and-house-of just will-stand."
+        },
+        {
+          "n": 8,
+          "t": "to/for-lip-of understanding-of-him man will-boast ; and-twisted-of heart will-be to/for-contempt."
+        },
+        {
+          "n": 9,
+          "t": "good dishonored and-servant to/for-him ; from-honor and-lacking-of food."
+        },
+        {
+          "n": 10,
+          "t": "knowing just soul-of animal-of-him ; and-compassions-of wicked cruel."
+        },
+        {
+          "n": 11,
+          "t": "serving food ; will-satisfy ground-of-him and-pursuing worthless lacking-of heart."
+        },
+        {
+          "n": 12,
+          "t": "has-desired wicked net-of bad ; and-root-of just will-give."
+        },
+        {
+          "n": 13,
+          "t": "in-transgression-of lipses snare bad ; and-he-has-exited from-distress just."
+        },
+        {
+          "n": 14,
+          "t": "from-fruit-of lip-of man he-will-satisfy good ; and-recompense-of hands-of man will-return will-make-return to/for-him."
+        },
+        {
+          "n": 15,
+          "t": "way-of fool upright in-eyes-of-him ; and-hearing to/for-counsel wise."
+        },
+        {
+          "n": 16,
+          "t": "fool in-the-day vexation-of-him will-be-known ; and-covering dishonor prudent."
+        },
+        {
+          "n": 17,
+          "t": "will-make-breathe faithfulness righteousness will-make-announce ; and-witness-of deceptions deceit."
+        },
+        {
+          "n": 18,
+          "t": "there rashlying like-thrusts-of sword ; and-tongue-of wise healing."
+        },
+        {
+          "n": 19,
+          "t": "lips-of truth will-be-established to/for-perpetuity ; and-until let-me-make-disturb tongue-of deception."
+        },
+        {
+          "n": 20,
+          "t": "deceit in-heart-of plowing-of evil ; and-to/for-advising-of peace joy."
+        },
+        {
+          "n": 21,
+          "t": "not all-of evil ; will-meet to/for-the-just and-wicked they-have-filled evil."
+        },
+        {
+          "n": 22,
+          "t": "abomination-of YHWH lipses-of deception ; and-doing-of faithfulness acceptance-of-him."
+        },
+        {
+          "n": 23,
+          "t": "man prudent covering knowledge ; and-heart-of fool will-call folly."
+        },
+        {
+          "n": 24,
+          "t": "hand-of sharp will-rule ; and-slackness will-be to/for-taskworker."
+        },
+        {
+          "n": 25,
+          "t": "anxiety in-heart-of man he-will-make-bow-her ; and-word good will-rejoice-her."
+        },
+        {
+          "n": 26,
+          "t": "he-will-make-spy from-neighbor-of-him just ; and-way-of wicked will-make-go-them."
+        },
+        {
+          "n": 27,
+          "t": "not will-roast slackness wild-of-him ; and-substance man precious sharp."
+        },
+        {
+          "n": 28,
+          "t": "in-way-of rightness lifes ; and-way-of path do-not death."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son wise discipline-of father ; and-mock not he-has-heard rebuke."
+        },
+        {
+          "n": 2,
+          "t": "from-fruit-of lip-of man he-will-eat good ; and-soul-of treacherouslying violence."
+        },
+        {
+          "n": 3,
+          "t": "watching lip-of-him keeping soul-of-him ; opening lipses-of-him terror to/for-him."
+        },
+        {
+          "n": 4,
+          "t": "self-desiring and-naught soul-of-him sluggish ; and-soul-of sharp will-prosper."
+        },
+        {
+          "n": 5,
+          "t": "word-of deception will-hate just ; and-wicked he-will-make-stink and-he-will-make-ashamed."
+        },
+        {
+          "n": 6,
+          "t": "rightness will-watch integrity-of way ; and-wickedness will-pervert offense."
+        },
+        {
+          "n": 7,
+          "t": "there self-enriching and-naught all ; poored and-substance many."
+        },
+        {
+          "n": 8,
+          "t": "ransom-of soul-of man riches-of-him ; and-pooring not he-has-heard rebuke."
+        },
+        {
+          "n": 9,
+          "t": "light-of just will-rejoice ; and-lamp-of wicked will-out."
+        },
+        {
+          "n": 10,
+          "t": "except in-arrogance he-will-give strife ; and-with advised wisdom."
+        },
+        {
+          "n": 11,
+          "t": "substance from-vanity will-diminish ; and-gathering on hand will-make-multiply."
+        },
+        {
+          "n": 12,
+          "t": "hope drawn making-weak heart ; and-tree-of lifes desire coming."
+        },
+        {
+          "n": 13,
+          "t": "despising to/for-word he-will-be-destroyed to/for-him ; and-afraid-of commandment he will-complete."
+        },
+        {
+          "n": 14,
+          "t": "instruction-of wise fountain-of lifes ; to/for-turn from-snares-of death."
+        },
+        {
+          "n": 15,
+          "t": "understanding good will-give favor ; and-way-of treacherouslying strong."
+        },
+        {
+          "n": 16,
+          "t": "all-of prudent will-do in-knowledge ; and-fool he-will-spread folly."
+        },
+        {
+          "n": 17,
+          "t": "messenger wicked will-fall in-evil ; and-envoy-of faithfuls healing."
+        },
+        {
+          "n": 18,
+          "t": "poverty and-dishonor neglecting discipline ; and-keeping argument he-will-honor."
+        },
+        {
+          "n": 19,
+          "t": "desire been will-please to/for-soul ; and-abomination-of fool turn from-bad."
+        },
+        {
+          "n": 20,
+          "t": "go going with wise and-wise he-will-wise ; and-accompanying fool he-will-be-eviled."
+        },
+        {
+          "n": 21,
+          "t": "sinner evil will-pursue ; and-just he-will-complete good."
+        },
+        {
+          "n": 22,
+          "t": "good he-will-make-inherit sons-of sons ; and-treasured to/for-the-just helech-of sining."
+        },
+        {
+          "n": 23,
+          "t": "abundance-of food ground-of pooring ; and-there snatched in-not justice."
+        },
+        {
+          "n": 24,
+          "t": "withholding tribe-of-him hating son-of-him ; and-loving-of-him discipline has-sought-him."
+        },
+        {
+          "n": 25,
+          "t": "just eating to/for-satiety-of soul-of-him ; and-belly-of wicked will-lack."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "wisdom-of womans she-has-built house-of-her ; and-folly in-hands-of-her will-overthrow-him."
+        },
+        {
+          "n": 2,
+          "t": "going in-uprightness-of-him afraid-of YHWH ; and-devioused-of ways-of-him despising-of-him."
+        },
+        {
+          "n": 3,
+          "t": "in-lip-of fool branch-of pride ; and-lipses-of wise she-will-keep-them."
+        },
+        {
+          "n": 4,
+          "t": "in-naught cattle crib-of pure ; and-abundance-of produces in-strength-of cattle."
+        },
+        {
+          "n": 5,
+          "t": "witness-of faithfuls not will-lie ; and-will-make-breathe lies witness-of deception."
+        },
+        {
+          "n": 6,
+          "t": "he-has-sought mock wisdom and-naught ; and-knowledge to/for-discerned lightened."
+        },
+        {
+          "n": 7,
+          "t": "walk before to/for-man fool ; and-not you-have-known lipses-of knowledge."
+        },
+        {
+          "n": 8,
+          "t": "wisdom-of prudent make-discern way-of-him ; and-folly-of fool deceit."
+        },
+        {
+          "n": 9,
+          "t": "fool guilt will-make-mock ; and-between upright acceptance."
+        },
+        {
+          "n": 10,
+          "t": "heart knowing bitterness-of soul-of-him ; and-in-joy-of-him not he-will-pledge stranger."
+        },
+        {
+          "n": 11,
+          "t": "house-of wicked will-be-destroyed ; and-tent-of upright will-make-sprout."
+        },
+        {
+          "n": 12,
+          "t": "there way upright to/for-faces-of man ; and-end-of-her ways-of death."
+        },
+        {
+          "n": 13,
+          "t": "also in-laughter heart will-pain ; and-end-of-her joy grief."
+        },
+        {
+          "n": 14,
+          "t": "from-ways-of-him will-satisfy turn-of heart ; and-on-him man good."
+        },
+        {
+          "n": 15,
+          "t": "simple will-make-faithful to/for-all-of word ; and-prudent he-will-discern to/for-step-of-him."
+        },
+        {
+          "n": 16,
+          "t": "wise afraid and-turning from-bad ; and-fool self-angrying and-trusting."
+        },
+        {
+          "n": 17,
+          "t": "short-of noses he-will-do folly ; and-man-of plots will-be-hated."
+        },
+        {
+          "n": 18,
+          "t": "simples have-inherited folly ; and-prudent they-will-make-surround knowledge."
+        },
+        {
+          "n": 19,
+          "t": "they-have-bowed bad to/for-faces-of good ; and-wicked on gates-of just."
+        },
+        {
+          "n": 20,
+          "t": "also to/for-neighbor-of-him he-will-be-hated pooring ; and-loving-of rich many."
+        },
+        {
+          "n": 21,
+          "t": "despising to/for-neighbor-of-him sining ; and-graciousing afflicted poor blesseds-of-him."
+        },
+        {
+          "n": 22,
+          "t": "is-it-not they-will-go plowing-of evil ; and-kindness and-truth plowing-of good."
+        },
+        {
+          "n": 23,
+          "t": "in-all-of toil advantage will-be ; and-word-of lipses surely to/for-need."
+        },
+        {
+          "n": 24,
+          "t": "crown-of wise riches-of-them ; folly-of fool folly."
+        },
+        {
+          "n": 25,
+          "t": "making-rescue souls witness-of truth ; and-he-will-make-breathe lies deceit."
+        },
+        {
+          "n": 26,
+          "t": "in-fear-of YHWH confidence-of strength ; and-to/for-sons-of-him refuge will-be."
+        },
+        {
+          "n": 27,
+          "t": "fear-of YHWH fountain-of lifes ; to/for-turn from-snares-of death."
+        },
+        {
+          "n": 28,
+          "t": "in-abundance-of people adornment-of king ; and-in-end-of people terror-of prince."
+        },
+        {
+          "n": 29,
+          "t": "slow-of noses many-of understanding ; and-short-of spirit making-exalt folly."
+        },
+        {
+          "n": 30,
+          "t": "lifes-of fleshes heart-of healing ; and-rottenness-of bones jealousy."
+        },
+        {
+          "n": 31,
+          "t": "oppressing poor he-has-taunted doing-of-him ; and-honor-of-him graciousing needy."
+        },
+        {
+          "n": 32,
+          "t": "in-evil-of-him he-will-be-thrusted wicked ; and-refuging in-death-of-him just."
+        },
+        {
+          "n": 33,
+          "t": "in-heart discerned wisdom will-rest ; and-in-entrails-of fool she-will-be-known."
+        },
+        {
+          "n": 34,
+          "t": "rightness will-exalt nation ; and-shame-of peoples offense."
+        },
+        {
+          "n": 35,
+          "t": "acceptance-of king to/for-servant making-understand ; and-fury-of-him will-be making-blush."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "answer tender will-make-return rage ; nose will-make-ascend and-word-of toil."
+        },
+        {
+          "n": 2,
+          "t": "tongue-of wise will-make-improve knowledge ; and-lip-of fool will-make-bubble folly."
+        },
+        {
+          "n": 3,
+          "t": "in-all-of place eyes-of YHWH ; watching bad and-good."
+        },
+        {
+          "n": 4,
+          "t": "healing-of tongue tree-of lifes ; and-crookedness in-her breaking in-spirit."
+        },
+        {
+          "n": 5,
+          "t": "fool discipline-of father-of-him will-spurn ; and-keeping argument he-will-shrewd."
+        },
+        {
+          "n": 6,
+          "t": "house-of just wealth many ; and-in-produce-of wicked troubled."
+        },
+        {
+          "n": 7,
+          "t": "lipses-of wise they-will-scatter knowledge ; and-heart-of fool not right."
+        },
+        {
+          "n": 8,
+          "t": "sacrifice-of wicked abomination-of YHWH ; and-prayer-of upright acceptance-of-him."
+        },
+        {
+          "n": 9,
+          "t": "abomination-of YHWH way wicked ; and-pursuing rightness he-will-love."
+        },
+        {
+          "n": 10,
+          "t": "discipline bad to/for-leaving-of way ; hating argument he-will-die."
+        },
+        {
+          "n": 11,
+          "t": "hell and-Abaddon before YHWH ; even for hearts-of sons-of man."
+        },
+        {
+          "n": 12,
+          "t": "not he-will-love mock make-rebuke to/for-him ; toward wise not he-will-walk."
+        },
+        {
+          "n": 13,
+          "t": "heart glad will-make-improve faces ; and-in-injury-of heart spirit stricken."
+        },
+        {
+          "n": 14,
+          "t": "heart discerned will-seek knowledge ; and-faces-of and-lip-of fool will-pasture folly."
+        },
+        {
+          "n": 15,
+          "t": "all-of days-of afflicted bad ; and-good-of heart feast continually."
+        },
+        {
+          "n": 16,
+          "t": "good little in-fear-of YHWH ; from-treasure many and-tumult in-him."
+        },
+        {
+          "n": 17,
+          "t": "good ration-of herb and-love there ; from-cattle fattened and-hating in-him."
+        },
+        {
+          "n": 18,
+          "t": "strife ; will-stir man-of rage and-slow-of strife will-make-quiet noses."
+        },
+        {
+          "n": 19,
+          "t": "way sluggish like-hedge-of briar ; and-way-of upright built."
+        },
+        {
+          "n": 20,
+          "t": "son wise will-rejoice father ; and-fool man despising mother-of-him."
+        },
+        {
+          "n": 21,
+          "t": "folly joy to/for-lacking heart ; and-man-of understanding will-smooth walk."
+        },
+        {
+          "n": 22,
+          "t": "make-break plots in-naught counsel ; and-in-abundance-of advising she-will-rise."
+        },
+        {
+          "n": 23,
+          "t": "joy to/for-the-man in-answer-of lip-of-him ; and-word in-time-of-him what good."
+        },
+        {
+          "n": 24,
+          "t": "way-of lifes to/for-above-ward to/for-making-understand ; sake turn from-hell beneath."
+        },
+        {
+          "n": 25,
+          "t": "house-of proud will-pull YHWH ; border-of widow and-will-make-stand."
+        },
+        {
+          "n": 26,
+          "t": "abomination-of YHWH plots-of evil ; and-pure words-of pleasantness."
+        },
+        {
+          "n": 27,
+          "t": "troubling house-of-him offing unjust-gain ; and-hating gifts he-will-live."
+        },
+        {
+          "n": 28,
+          "t": "heart just will-mutter to/for-answer ; and-lip-of wicked will-make-bubble bad."
+        },
+        {
+          "n": 29,
+          "t": "far YHWH from-wicked ; and-prayer-of just he-will-hear."
+        },
+        {
+          "n": 30,
+          "t": "heart ; will-rejoice light-of eyes tidings good will-prosper bone."
+        },
+        {
+          "n": 31,
+          "t": "ear hearing-of argument-of lifes ; in-entrails-of wise she-will-lodge."
+        },
+        {
+          "n": 32,
+          "t": "neglecting discipline rejecting soul-of-him ; and-hearing argument acquiring heart."
+        },
+        {
+          "n": 33,
+          "t": "fear-of YHWH discipline-of wisdom ; and-to/for-faces-of glory humility."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "to/for-man plans-of heart ; and-from-YHWH answer-of tongue."
+        },
+        {
+          "n": 2,
+          "t": "all-of ways-of man pure in-eyes-of-him ; and-measuring spirits YHWH."
+        },
+        {
+          "n": 3,
+          "t": "roll toward YHWH deeds-of-you ; and-let-them-be-established plots-of-you."
+        },
+        {
+          "n": 4,
+          "t": "all has-worked YHWH to/for-the-answer-of-him ; and-also wicked to/for-day-of evil."
+        },
+        {
+          "n": 5,
+          "t": "abomination-of YHWH all-of high-of heart ; hand to/for-hand not will-be-cleared."
+        },
+        {
+          "n": 6,
+          "t": "in-kindness iniquity ; will-cover and-truth and-in-fear-of YHWH turn from-bad."
+        },
+        {
+          "n": 7,
+          "t": "in-accept YHWH ways-of man ; also enemying-of-him he-will-make-ally with-him."
+        },
+        {
+          "n": 8,
+          "t": "good little in-rightness ; from-abundance-of produces in-not justice."
+        },
+        {
+          "n": 9,
+          "t": "way-of-him ; will-devise heart-of man and-YHWH will-make-establish step-of-him."
+        },
+        {
+          "n": 10,
+          "t": "divination on lipses-of king ; in-justice not lip-of-him will-betray."
+        },
+        {
+          "n": 11,
+          "t": "balance and-balances-of justice to/for-YHWH ; deed-of-him all-of stones-of purse."
+        },
+        {
+          "n": 12,
+          "t": "abomination-of kings do wickedness ; for in-rightness throne will-be-established."
+        },
+        {
+          "n": 13,
+          "t": "acceptance-of kings lipses-of righteousness ; and-speaking upright he-will-love."
+        },
+        {
+          "n": 14,
+          "t": "rage-of king messengers-of death ; and-man wise will-cover-her."
+        },
+        {
+          "n": 15,
+          "t": "in-light-of faces-of king lifes ; and-acceptance-of-him like-cloud-of spring."
+        },
+        {
+          "n": 16,
+          "t": "acquire wisdom what good from-gold ; and-acquire understanding chosen from-silver."
+        },
+        {
+          "n": 17,
+          "t": "highway-of upright turn from-bad ; keeping soul-of-him watching way-of-him."
+        },
+        {
+          "n": 18,
+          "t": "to/for-faces-of breaking pride ; and-to/for-faces-of stumbling height-of spirit."
+        },
+        {
+          "n": 19,
+          "t": "good low spirit with afflicted poor ; from-divide spoil with proud."
+        },
+        {
+          "n": 20,
+          "t": "making-understand on word will-find good ; and-trusting in-YHWH blesseds-of-him."
+        },
+        {
+          "n": 21,
+          "t": "to/for-wise-of heart he-will-be-called discerned ; teaching will-make-add and-sweetness-of lipses."
+        },
+        {
+          "n": 22,
+          "t": "fountain-of lifes understanding-of masters-of-him ; and-discipline-of fool folly."
+        },
+        {
+          "n": 23,
+          "t": "heart wise will-make-understand lip-of-him ; and-on teaching will-make-add lipses-of-him."
+        },
+        {
+          "n": 24,
+          "t": "honeycomb-of honey words-of pleasantness ; sweet to/for-the-soul and-healing to/for-the-bone."
+        },
+        {
+          "n": 25,
+          "t": "there way upright to/for-faces-of man ; and-end-of-her ways-of death."
+        },
+        {
+          "n": 26,
+          "t": "soul-of labour has-toiled to/for-him ; for lip-of-him has-craved on-him."
+        },
+        {
+          "n": 27,
+          "t": "man-of belial piercing evil ; and-on lipses-of-him lips-of-him like-fire burning."
+        },
+        {
+          "n": 28,
+          "t": "strife ; will-send man-of perversities and-whisperered making-separate tame."
+        },
+        {
+          "n": 29,
+          "t": "neighbor-of-him ; will-entice man-of violence and-he-has-made-walk-him in-way not good."
+        },
+        {
+          "n": 30,
+          "t": "shuting eyes-of-him to/for-devise perversities ; winking lipses-of-him he-has-finished evil."
+        },
+        {
+          "n": 31,
+          "t": "crown-of beauty greyheaded ; in-way-of rightness she-will-be-found."
+        },
+        {
+          "n": 32,
+          "t": "good slow-of noses from-mighty ; and-ruling in-spirit-of-him from-capturing-of city."
+        },
+        {
+          "n": 33,
+          "t": "in-the-bosom he-will-be-made-cast the-allotted ; and-from-YHWH all-of justice-of-him."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "good morsel dry and-ease in-her ; from-house full sacrifices-of strife."
+        },
+        {
+          "n": 2,
+          "t": "servant making-understand will-rule in-son making-blush ; and-in-midst-of brothers he-will-divide inheritance."
+        },
+        {
+          "n": 3,
+          "t": "crucible to/for-the-silver and-furnace to/for-the-gold ; and-testing hearts YHWH."
+        },
+        {
+          "n": 4,
+          "t": "making-evil making-heed on lips-of evil ; deception making-listen on tongue-of desires."
+        },
+        {
+          "n": 5,
+          "t": "mocking to/for-the-pooring he-has-taunted doing-of-him ; glad to/for-calamity not he-will-be-cleared."
+        },
+        {
+          "n": 6,
+          "t": "crown-of old sons-of sons ; and-beauty-of sons fathers-of-them."
+        },
+        {
+          "n": 7,
+          "t": "not lovely to/for-foolish lips-of remainder ; even for to/for-noble lips-of deception."
+        },
+        {
+          "n": 8,
+          "t": "stone-of favor the-bribe in-eyes-of masters-of-him ; toward all-of who will-turn will-make-understand."
+        },
+        {
+          "n": 9,
+          "t": "covering transgression seeking love ; and-repeating in-word making-separate tame."
+        },
+        {
+          "n": 10,
+          "t": "rebuke in-making-discern will-descend ; from-make-smite fool hundred."
+        },
+        {
+          "n": 11,
+          "t": "surely egypt will-seek evil ; and-messenger cruel will-send in-him."
+        },
+        {
+          "n": 12,
+          "t": "meet bear childless in-man ; and-do-not fool in-folly-of-him."
+        },
+        {
+          "n": 13,
+          "t": "making-return evil under welfare ; not evil will-make-remove will-remove from-house-of-him."
+        },
+        {
+          "n": 14,
+          "t": "separating-of waters first-of strife ; and-to/for-faces-of the-strife has-self-quarreled leave."
+        },
+        {
+          "n": 15,
+          "t": "making-justify wicked and-making-wrong just ; abomination-of YHWH also two-of-them."
+        },
+        {
+          "n": 16,
+          "t": "to/for-what this price in-hand-of fool ; to/for-acquire wisdom and-heart-of naught."
+        },
+        {
+          "n": 17,
+          "t": "in-all-of time loving the-neighbor ; and-brother to/for-distress will-be-begotten."
+        },
+        {
+          "n": 18,
+          "t": "man lacking-of heart blowing palm ; pledging pledge to/for-faces-of neighbor-of-him."
+        },
+        {
+          "n": 19,
+          "t": "loving transgression loving strife ; making-exult entrance-of-him seeking breaking."
+        },
+        {
+          "n": 20,
+          "t": "twisted-of heart not will-find good ; and-overturned in-tongue-of-him he-will-fall in-evil."
+        },
+        {
+          "n": 21,
+          "t": "begeting fool to/for-grief to/for-him ; and-not father-of foolish will-rejoice."
+        },
+        {
+          "n": 22,
+          "t": "heart glad will-make-improve cure ; and-spirit stricken will-wither bone."
+        },
+        {
+          "n": 23,
+          "t": "bribe from-bosom-of wicked will-take ; to/for-make-stretch ways-of justice."
+        },
+        {
+          "n": 24,
+          "t": "with faces-of making-discern wisdom ; and-eyes-of fool in-end-of land."
+        },
+        {
+          "n": 25,
+          "t": "vexation to/for-father-of-him son fool ; and-bitterness to/for-begeting-of-him."
+        },
+        {
+          "n": 26,
+          "t": "also fine to/for-the-just not good ; to/for-make-smite noble on uprightness."
+        },
+        {
+          "n": 27,
+          "t": "withholding words-of-him knowing knowledge ; and-cool-of precious-of spirit man-of understanding."
+        },
+        {
+          "n": 28,
+          "t": "also fool making-quiet wise he-will-be-devised ; shuttering lipses-of-him discerned."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "to/for-desire he-will-seek separated ; in-all-of wisdom he-will-quarrel."
+        },
+        {
+          "n": 2,
+          "t": "not he-will-delight fool in-understanding ; that if in-self-heglam heart-of-him."
+        },
+        {
+          "n": 3,
+          "t": "in-come wicked contempt ; has-come also and-with dishonor reproach."
+        },
+        {
+          "n": 4,
+          "t": "waters deep words-of lip-of man ; torrent bubbling fountain-of wisdom."
+        },
+        {
+          "n": 5,
+          "t": "lift faces-of wicked not good ; to/for-make-stretch just in-the-justice."
+        },
+        {
+          "n": 6,
+          "t": "lipses-of fool they-will-come in-strife ; and-lip-of-him to/for-blows will-call."
+        },
+        {
+          "n": 7,
+          "t": "lip-of fool terror to/for-him ; and-lipses-of-him snare-of soul-of-him."
+        },
+        {
+          "n": 8,
+          "t": "words-of whisperered like-self-swallowing ; and-they have-gone chambers-of belly."
+        },
+        {
+          "n": 9,
+          "t": "also self-slackening in-work-of-him ; brother he to/for-master-of ruin."
+        },
+        {
+          "n": 10,
+          "t": "tower-of strength name-of YHWH ; in-him he-will-run just and-he-has-been-exalted."
+        },
+        {
+          "n": 11,
+          "t": "substance rich town-of strength-of-him ; and-like-wall exalted in-figure-of-him."
+        },
+        {
+          "n": 12,
+          "t": "to/for-faces-of breaking heart-of man will-exult ; and-to/for-faces-of glory humility."
+        },
+        {
+          "n": 13,
+          "t": "making-return word in-before will-hear ; folly he to/for-him and-shame."
+        },
+        {
+          "n": 14,
+          "t": "sickness-of-him ; will-sustain spirit-of man and-spirit stricken who will-lift-her."
+        },
+        {
+          "n": 15,
+          "t": "heart discerned will-acquire knowledge ; and-ear-of wise will-seek knowledge."
+        },
+        {
+          "n": 16,
+          "t": "gift-of man will-make-enlarge to/for-him ; and-to/for-faces-of great he-will-make-lead-him."
+        },
+        {
+          "n": 17,
+          "t": "just the-first in-strife-of-him ; neighbor-of-him will-come and-has-come and-has-searched-him."
+        },
+        {
+          "n": 18,
+          "t": "the-allotted ; will-make-cease contentions and-between mighty he-will-make-separate."
+        },
+        {
+          "n": 19,
+          "t": "brother transgressed from-town-of strength ; and-strifes and-contentions like-bar-of citadel."
+        },
+        {
+          "n": 20,
+          "t": "from-fruit-of belly-of-him ; will-satisfy lip-of man produce-of lipses-of-him he-will-satisfy."
+        },
+        {
+          "n": 21,
+          "t": "death and-lifes in-hand-of tongue ; and-loving-of-her fruit-of-her will-eat."
+        },
+        {
+          "n": 22,
+          "t": "he-has-found woman he-has-found good ; acceptance and-has-made-promote from-YHWH."
+        },
+        {
+          "n": 23,
+          "t": "pleas he-will-speak pooring ; and-rich he-will-answer strong."
+        },
+        {
+          "n": 24,
+          "t": "man-of neighbors to/for-shatter ; and-there loving cleaving from-brother."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "good pooring going in-integrity-of-him ; from-twisted-of lipses-of-him and-he fool."
+        },
+        {
+          "n": 2,
+          "t": "also in-not knowledge soul not good ; and-hastening in-foots sining."
+        },
+        {
+          "n": 3,
+          "t": "way-of-him ; will-pervert folly-of man and-on YHWH will-enrage heart-of-him."
+        },
+        {
+          "n": 4,
+          "t": "substance will-make-add neighbors many ; and-poor neighbor-of-him will-be-separated."
+        },
+        {
+          "n": 5,
+          "t": "witness-of deceptions not will-be-cleared ; and-he-will-make-breathe lies not he-will-be-escaped."
+        },
+        {
+          "n": 6,
+          "t": "many faces-of noble will-entreat ; and-all-of the-neighbor to/for-man-of gift."
+        },
+        {
+          "n": 7,
+          "t": "all-of brothers-of pooring they-have-hated-him even for companion-of-him they-have-removed from-us ; pursuing words not to/for-him they."
+        },
+        {
+          "n": 8,
+          "t": "acquiring heart loving soul-of-him ; keeping understanding to/for-find good."
+        },
+        {
+          "n": 9,
+          "t": "witness-of deceptions not will-be-cleared ; and-he-will-make-breathe lies he-will-perish."
+        },
+        {
+          "n": 10,
+          "t": "not lovely to/for-fool luxury ; even for to/for-servant rule in-officials."
+        },
+        {
+          "n": 11,
+          "t": "nose-of-him ; has-made-prolong understanding-of man and-beauty-of-him pass on transgression."
+        },
+        {
+          "n": 12,
+          "t": "roaring like-the-lion rage-of king ; and-like-dew on plant acceptance-of-him."
+        },
+        {
+          "n": 13,
+          "t": "desires to/for-father-of-him son fool ; and-dripping pursuing contentions-of woman."
+        },
+        {
+          "n": 14,
+          "t": "house and-substance inheritance-of fathers ; and-from-YHWH woman making-understand."
+        },
+        {
+          "n": 15,
+          "t": "sluggishness will-make-fall trance ; and-soul-of slackness will-hungry."
+        },
+        {
+          "n": 16,
+          "t": "keeping-of commandment keeping-of soul-of-him ; despising-of ways-of-him he-will-be-made-die he-will-die."
+        },
+        {
+          "n": 17,
+          "t": "making-borrow-of YHWH graciousing poor ; and-recompense-of-him will-complete to/for-him."
+        },
+        {
+          "n": 18,
+          "t": "discipline son-of-you for there hope ; and-toward make-die-of-him do-not let-lift soul-of-you."
+        },
+        {
+          "n": 19,
+          "t": "harsh-of great-of rage lifting fine ; that if you-will-make-rescue and-still you-will-make-add."
+        },
+        {
+          "n": 20,
+          "t": "hear counsel and-receive discipline ; sake you-will-wise in-end-of-you."
+        },
+        {
+          "n": 21,
+          "t": "many plots in-heart-of man ; and-counsel-of YHWH he will-rise."
+        },
+        {
+          "n": 22,
+          "t": "desire-of man kindness-of-him ; and-good pooring from-man-of lie."
+        },
+        {
+          "n": 23,
+          "t": "fear-of YHWH to/for-lifes ; and-sated he-will-lodge not he-will-be-reckoned evil."
+        },
+        {
+          "n": 24,
+          "t": "has-hidden sluggish hand-of-him in-the-dish ; also toward lip-of-him not will-make-return-her."
+        },
+        {
+          "n": 25,
+          "t": "mock you-will-make-smite and-simple will-shrewd ; and-make-rebuke to/for-discerned he-will-discern knowledge."
+        },
+        {
+          "n": 26,
+          "t": "ruining-of father will-make-flee mother ; son making-blush and-making-ashamed."
+        },
+        {
+          "n": 27,
+          "t": "cease son-of-me to/for-hear discipline ; to/for-wander from-words-of knowledge."
+        },
+        {
+          "n": 28,
+          "t": "justice ; will-make-mock witness-of belial and-lip-of wicked will-swallow evil."
+        },
+        {
+          "n": 29,
+          "t": "judgments ; have-been-established to/for-the-mock and-blows to/for-back-of fool."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "mock the-wine roaring strong ; and-all-of wandering in-him not will-wise."
+        },
+        {
+          "n": 2,
+          "t": "roaring like-the-lion terror-of king ; self-angrying-of-him sining soul-of-him."
+        },
+        {
+          "n": 3,
+          "t": "glory to/for-the-man cessation from-strife ; and-all-of fool will-quarrel."
+        },
+        {
+          "n": 4,
+          "t": "from-autumn sluggish not he-will-plow ; he-will-ask and-he-has-asked in-the-harvest and-naught."
+        },
+        {
+          "n": 5,
+          "t": "waters deep counsel in-heart-of man ; and-man-of understanding will-draw-her."
+        },
+        {
+          "n": 6,
+          "t": "man will-call abundance-of man, kindness-of-him ; and-man-of faithfuls who will-find."
+        },
+        {
+          "n": 7,
+          "t": "self-going in-integrity-of-him just ; blesseds sons-of-him after-him."
+        },
+        {
+          "n": 8,
+          "t": "king dwelling on throne-of judgment ; scattering in-eyes-of-him all-of bad."
+        },
+        {
+          "n": 9,
+          "t": "who will-say I-have-cleaned heart-of-me ; I-have-pured from-offense-of-me."
+        },
+        {
+          "n": 10,
+          "t": "stone and-stone ephah and-ephah ; abomination-of YHWH also two-of-them."
+        },
+        {
+          "n": 11,
+          "t": "also in-deeds-of-him youth will-recognize ; if pure and-if upright work-of-him."
+        },
+        {
+          "n": 12,
+          "t": "ear hearing and-eye seeing ; YHWH has-done also two-of-them."
+        },
+        {
+          "n": 13,
+          "t": "do-not let-love sleep lest you-will-be-possessed ; open eyes-of-you satisfy food."
+        },
+        {
+          "n": 14,
+          "t": "bad bad he-will-say the-acquiring ; and-goning to/for-him then he-will-boast."
+        },
+        {
+          "n": 15,
+          "t": "there gold and-abundance-of jewels ; and-article-of preciousness lipses-of knowledge."
+        },
+        {
+          "n": 16,
+          "t": "take garment-of-him for has-pledged stranger ; and-about foreign pledge-him."
+        },
+        {
+          "n": 17,
+          "t": "sweet to/for-the-man food-of deception ; and-after lip-of-him gravel will-be-filled."
+        },
+        {
+          "n": 18,
+          "t": "plots in-counsel she-will-be-established ; and-in-counsels do battle."
+        },
+        {
+          "n": 19,
+          "t": "heglaming counsel going-of slander ; and-to/for-widing lipses-of-him not you-will-pledge."
+        },
+        {
+          "n": 20,
+          "t": "lightening father-of-him and-mother-of-him ; lamp-of-him will-out in-pupil-of darkness."
+        },
+        {
+          "n": 21,
+          "t": "inheritance greedied dismayed in-the-first ; and-end-of-her not will-bless."
+        },
+        {
+          "n": 22,
+          "t": "do-not let-say let-me-complete evil ; await to/for-YHWH and-he-will-make-save to/for-you-f."
+        },
+        {
+          "n": 23,
+          "t": "abomination-of YHWH stone and-stone ; and-balances-of deceit not good."
+        },
+        {
+          "n": 24,
+          "t": "from-YHWH steps-of great ; and-man what will-discern way-of-him."
+        },
+        {
+          "n": 25,
+          "t": "holiness ; will-blurt snare-of man and-after vows to/for-enquire."
+        },
+        {
+          "n": 26,
+          "t": "scattering wicked king wise ; wheel and-has-made-return on-them."
+        },
+        {
+          "n": 27,
+          "t": "lamp-of YHWH breath-of man ; searching all-of chambers-of belly."
+        },
+        {
+          "n": 28,
+          "t": "kindness and-truth they-will-watch king ; throne-of-him and-has-supported in-the-kindness."
+        },
+        {
+          "n": 29,
+          "t": "beauty-of youths strength-of-them ; and-glory-of old greyheaded."
+        },
+        {
+          "n": 30,
+          "t": "wounds-of wound she-will-make-polish cosmetic in-bad ; and-wounds-of chambers-of belly."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "streams-of waters heart-of king in-hand-of YHWH ; on all-of who will-delight will-make-stretch-him."
+        },
+        {
+          "n": 2,
+          "t": "all-of way-of man upright in-eyes-of-him ; and-measuring hearts YHWH."
+        },
+        {
+          "n": 3,
+          "t": "do rightness and-justice ; chosen to/for-YHWH from-sacrifice."
+        },
+        {
+          "n": 4,
+          "t": "height-of eyes and-broad-of heart ; ground-of wicked offense."
+        },
+        {
+          "n": 5,
+          "t": "plots-of sharp surely to/for-advantage ; and-all-of hastening surely to/for-need."
+        },
+        {
+          "n": 6,
+          "t": "work-of treasures in-tongue-of deception ; vanity drived seeking-of death."
+        },
+        {
+          "n": 7,
+          "t": "violence-of wicked will-drag-them ; for they-have-refused to/for-do justice."
+        },
+        {
+          "n": 8,
+          "t": "crooked way-of man guilty ; and-pure upright work-of-him."
+        },
+        {
+          "n": 9,
+          "t": "good to/for-dwell on corner-of roof ; from-woman-of contentions and-house-of spell."
+        },
+        {
+          "n": 10,
+          "t": "soul-of wicked has-desired evil ; not neighbor-of-him will-be-made-gracious in-eyes-of-him."
+        },
+        {
+          "n": 11,
+          "t": "in-fine mock simple will-wise ; and-in-make-understand to/for-wise he-will-take knowledge."
+        },
+        {
+          "n": 12,
+          "t": "making-understand just to/for-house-of wicked ; perverting wicked to/for-the-evil."
+        },
+        {
+          "n": 13,
+          "t": "shuttering ear-of-him from-outcry-of poor ; also he will-call and-not will-be-answered."
+        },
+        {
+          "n": 14,
+          "t": "gift in-the-secrecy will-subdue nose ; and-bribe in-the-bosom rage strong."
+        },
+        {
+          "n": 15,
+          "t": "joy to/for-the-just do justice ; and-terror to/for-working-of evil."
+        },
+        {
+          "n": 16,
+          "t": "man going from-way-of make-understand ; in-assembly-of shades he-will-rest."
+        },
+        {
+          "n": 17,
+          "t": "man-of need loving joy ; loving wine and-oil not will-make-enrich."
+        },
+        {
+          "n": 18,
+          "t": "ransom to/for-the-just wicked ; and-under upright treacherouslying."
+        },
+        {
+          "n": 19,
+          "t": "good dwell in-land-of wilderness ; from-woman-of strifes contentions and-vexation."
+        },
+        {
+          "n": 20,
+          "t": "treasure desired and-oil in-pasture-of wise ; and-fool man will-swallow-him."
+        },
+        {
+          "n": 21,
+          "t": "pursuing rightness and-kindness ; will-find lifes rightness and-glory."
+        },
+        {
+          "n": 22,
+          "t": "city-of mighty he-has-ascended wise ; strength-of confidence-of-her and-has-made-go."
+        },
+        {
+          "n": 23,
+          "t": "keeping lip-of-him and-tongue-of-him ; keeping from-distresses soul-of-him."
+        },
+        {
+          "n": 24,
+          "t": "arrogant proud mock name-of-him ; doing in-fury-of arrogance."
+        },
+        {
+          "n": 25,
+          "t": "desire-of sluggish will-make-die-him ; for they-have-refused hands-of-him to/for-do."
+        },
+        {
+          "n": 26,
+          "t": "all-of the-day has-self-desired desire ; and-just he-will-give and-not he-will-withhold."
+        },
+        {
+          "n": 27,
+          "t": "sacrifice-of wicked abomination ; even for in-wickedness he-will-make-come-him."
+        },
+        {
+          "n": 28,
+          "t": "witness-of lies will-perish ; and-man hearing to/for-perpetuity will-speak."
+        },
+        {
+          "n": 29,
+          "t": "man wicked has-made-strong in-faces-of-him ; and-upright he will-make-establish will-discern ways-of-him way-of-him."
+        },
+        {
+          "n": 30,
+          "t": "naught wisdom and-naught understanding ; and-naught counsel before YHWH."
+        },
+        {
+          "n": 31,
+          "t": "horse been-made-establish to/for-day-of battle ; and-to/for-YHWH the-deliverance."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "verses": [
+        {
+          "n": 1,
+          "t": "chosen name from-riches many ; from-silver and-from-gold favor good."
+        },
+        {
+          "n": 2,
+          "t": "rich and-pooring they-have-been-met ; doing-of all-of-them YHWH."
+        },
+        {
+          "n": 3,
+          "t": "prudent he-has-seen evil and-he-will-be-hided and-he-has-been-hided ; and-simple they-have-passed and-they-have-been-fined."
+        },
+        {
+          "n": 4,
+          "t": "consequence-of humility fear-of YHWH ; riches and-glory and-lifes."
+        },
+        {
+          "n": 5,
+          "t": "thorns snares in-way-of twisted ; keeping-of soul-of-him will-remove from-them."
+        },
+        {
+          "n": 6,
+          "t": "dedicate to/for-the-youth on lip-of way-of-him ; also for he-will-make-old not he-will-turn from-her."
+        },
+        {
+          "n": 7,
+          "t": "rich in-pooring he-will-rule ; and-servant borrowing to/for-man making-borrow."
+        },
+        {
+          "n": 8,
+          "t": "sowing injustice will-reap evil ; and-tribe-of fury-of-him will-finish."
+        },
+        {
+          "n": 9,
+          "t": "good-of eye he will-bless ; for he-has-given from-food-of-him to/for-the-poor."
+        },
+        {
+          "n": 10,
+          "t": "drive mock strife and-will-exit ; judgment and-dishonor and-will-cease."
+        },
+        {
+          "n": 11,
+          "t": "loving pure-of heart ; favor-of lipses-of-him neighbor-of-him king."
+        },
+        {
+          "n": 12,
+          "t": "eyes-of YHWH they-have-watched knowledge ; and-he-has-perverted words-of treacherouslying."
+        },
+        {
+          "n": 13,
+          "t": "has-said sluggish lion in-the-outside ; in-midst-of squares I-will-be-murdered."
+        },
+        {
+          "n": 14,
+          "t": "pit deep lip-of stranger ; indignanted-of YHWH will-fall there."
+        },
+        {
+          "n": 15,
+          "t": "folly conspired in-heart-of youth ; tribe-of discipline will-make-remove-her from-him."
+        },
+        {
+          "n": 16,
+          "t": "oppressing poor to/for-make-multiply to/for-him ; giving to/for-rich surely to/for-need."
+        },
+        {
+          "n": 17,
+          "t": "make-stretch ear-of-you and-hear words-of wise ; and-heart-of-you you-will-set to/for-knowledge-of-me."
+        },
+        {
+          "n": 18,
+          "t": "for pleasant for you-will-keep-them in-belly-of-you ; they-will-be-established together on lipses-of-you."
+        },
+        {
+          "n": 19,
+          "t": "to/for-be in-YHWH confidence-of-you ; I-have-made-know-you the-day even you."
+        },
+        {
+          "n": 20,
+          "t": "is-it-not I-have-written to/for-you three officer ; in-counsels and-knowledge."
+        },
+        {
+          "n": 21,
+          "t": "to/for-make-know-of-you truth-of words-of truth ; to/for-make-return words truth to/for-sending-of-you."
+        },
+        {
+          "n": 22,
+          "t": "do-not let-plunder poor for poor he ; and-do-not let-crush afflicted in-the-gate."
+        },
+        {
+          "n": 23,
+          "t": "for YHWH will-contend strife-of-them ; and-has-robed robing-of-them soul."
+        },
+        {
+          "n": 24,
+          "t": "do-not let-accompany with master-of nose ; and-with man-of rages not you-will-come."
+        },
+        {
+          "n": 25,
+          "t": "lest you-will-teach way-of-him ways-of-him ; and-you-have-taken snare to/for-soul-of-you."
+        },
+        {
+          "n": 26,
+          "t": "do-not let-be in-blowing-of palm ; in-the-pledging loans."
+        },
+        {
+          "n": 27,
+          "t": "if naught to/for-you to/for-complete ; to/for-what bed-of-you will-take under-you."
+        },
+        {
+          "n": 28,
+          "t": "do-not let-make-remove border-of age ; who fathers-of-you have-done."
+        },
+        {
+          "n": 29,
+          "t": "you-have-seen man quick in-work-of-him to/for-faces-of kings will-stand ; not he-will-stand to/for-faces-of obscure."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "verses": [
+        {
+          "n": 1,
+          "t": "for you-will-dwell to/for-on with ruling ; discern let-discern who to/for-faces-of-you."
+        },
+        {
+          "n": 2,
+          "t": "and-you-have-put knife in-throat-of-you ; if you master-of soul."
+        },
+        {
+          "n": 3,
+          "t": "do-not let-desire to/for-delicacies-of-him ; and-he food-of lies."
+        },
+        {
+          "n": 4,
+          "t": "do-not let-weary to/for-make-enrich ; from-understanding-of-you cease."
+        },
+        {
+          "n": 5,
+          "t": "is-it-you-will-fly is-it-you-will-make-fly eyes-of-you in-him and-naught-him for do he-will-do to/for-him wings ; like-eagle and-he-has-flown he-will-fly the-heavens."
+        },
+        {
+          "n": 6,
+          "t": "do-not let-on food-of bad-of eye ; and-do-not let-desire to/for-delicacies-of-him."
+        },
+        {
+          "n": 7,
+          "t": "for like he has-calculated in-soul-of-him thus eat and-drink will-say to/for-you-f ; and-heart-of-him not with-you-f."
+        },
+        {
+          "n": 8,
+          "t": "morsel-of-you you-have-eaten you-will-make-vomit-her ; and-you-have-ruined words-of-you the-pleasant."
+        },
+        {
+          "n": 9,
+          "t": "in-ears-of fool do-not let-speak ; for he-will-despise to/for-understanding-of speeches-of-you."
+        },
+        {
+          "n": 10,
+          "t": "do-not let-make-remove border-of age ; and-in-fields-of orphans do-not let-come."
+        },
+        {
+          "n": 11,
+          "t": "for redeeming-of-them strong ; he will-contend strife-of-them with-you-f."
+        },
+        {
+          "n": 12,
+          "t": "make-come-heh to/for-the-discipline heart-of-you ; and-ears-of-you to/for-words-of knowledge."
+        },
+        {
+          "n": 13,
+          "t": "do-not let-withhold from-youth discipline ; for you-will-make-smite-him in-the-tribe not he-will-die."
+        },
+        {
+          "n": 14,
+          "t": "you in-the-tribe will-make-smite-him ; and-soul-of-him from-hell you-will-make-rescue."
+        },
+        {
+          "n": 15,
+          "t": "son-of-me if has-wised heart-of-you ; heart-of-me will-rejoice also I."
+        },
+        {
+          "n": 16,
+          "t": "kidneys-of-me and-will-exult ; in-speak lipses-of-you uprightnesses."
+        },
+        {
+          "n": 17,
+          "t": "do-not heart-of-you in-the-sinner let-jealous ; that if in-fear-of YHWH all-of the-day."
+        },
+        {
+          "n": 18,
+          "t": "that if there end ; and-hope-of-you not will-be-cut."
+        },
+        {
+          "n": 19,
+          "t": "hear you son-of-me and-wise ; and-bless in-the-way heart-of-you."
+        },
+        {
+          "n": 20,
+          "t": "do-not let-be in-imbibing-of wine ; in-viling-of flesh to/for-them."
+        },
+        {
+          "n": 21,
+          "t": "for imbibing and-viling he-will-be-possessed ; drowsiness will-make-clothe and-ragses."
+        },
+        {
+          "n": 22,
+          "t": "hear to/for-father-of-you this he-has-begotten-you ; and-do-not let-despise for mother-of-you has-olded."
+        },
+        {
+          "n": 23,
+          "t": "truth acquire and-do-not let-sell ; wisdom and-discipline and-understanding."
+        },
+        {
+          "n": 24,
+          "t": "rejoicing father-of just will-rejoice ; begeting and-begeting wise and-he-will-rejoice he-will-rejoice rejoice-him."
+        },
+        {
+          "n": 25,
+          "t": "father-of-you let-rejoice and-mother-of-you ; and-let-her-rejoice begeting-of-you."
+        },
+        {
+          "n": 26,
+          "t": "give-heh son-of-me heart-of-you to/for-me ; and-eyes-of-you ways-of-me let-accept let-watch."
+        },
+        {
+          "n": 27,
+          "t": "for pit deep fornicating ; and-well narrow foreign."
+        },
+        {
+          "n": 28,
+          "t": "even he like-robber will-ambush ; and-treacherouslying in-man she-will-make-add."
+        },
+        {
+          "n": 29,
+          "t": "to/for-who woe to/for-who pain to/for-who strifes contentions to/for-who complaint to/for-who wounds for ; to/for-who dullness-of eyes."
+        },
+        {
+          "n": 30,
+          "t": "to/for-the-delaying on the-wine ; to/for-the-coming to/for-search drink."
+        },
+        {
+          "n": 31,
+          "t": "do-not let-see wine for will-redden for eye-of-him ; will-give in-the-purse in-the-cup he-will-go in-uprightnesses."
+        },
+        {
+          "n": 32,
+          "t": "end-of-him like-serpent he-will-bite ; and-like-serpent he-will-make-pierce."
+        },
+        {
+          "n": 33,
+          "t": "eyes-of-you they-will-see stranger ; and-heart-of-you will-speak perversities."
+        },
+        {
+          "n": 34,
+          "t": "and-you-have-been like-lying in-heart-of sea ; and-like-lying in-head-of mast."
+        },
+        {
+          "n": 35,
+          "t": "they-have-made-smite-me not I-have-weaked they-have-smited-me not I-have-known how I-will-make-awake ; I-will-make-add I-will-seek-him still."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "verses": [
+        {
+          "n": 1,
+          "t": "do-not let-jealous in-mans-of evil ; and-do-not let-desire to/for-be with-them."
+        },
+        {
+          "n": 2,
+          "t": "for violence will-mutter heart-of-them ; and-trouble lipses-of-them they-f-will-speak."
+        },
+        {
+          "n": 3,
+          "t": "in-wisdom house will-be-built ; and-in-understanding he-will-establish."
+        },
+        {
+          "n": 4,
+          "t": "and-in-knowledge chambers will-be-filled ; all-of substance precious and-pleasant."
+        },
+        {
+          "n": 5,
+          "t": "great wise in-the-strength ; and-man-of knowledge strengthening strength."
+        },
+        {
+          "n": 6,
+          "t": "for in-counsels you-will-do to/for-you battle ; and-deliverance in-abundance advising."
+        },
+        {
+          "n": 7,
+          "t": "exalting to/for-fool wisdoms ; in-the-gate not lip-of-him will-open."
+        },
+        {
+          "n": 8,
+          "t": "devising to/for-make-evil ; to/for-him master-of plots they-will-call."
+        },
+        {
+          "n": 9,
+          "t": "wickedness-of folly offense ; and-abomination-of to/for-man mock."
+        },
+        {
+          "n": 10,
+          "t": "you-have-self-slackened in-day-of distress narrow strength-of-you."
+        },
+        {
+          "n": 11,
+          "t": "make-rescue taken to/for-the-death ; and-shaking to/for-the-slaughter if you-will-withhold."
+        },
+        {
+          "n": 12,
+          "t": "for you-will-say lo not we-have-known this is-it-not measuring hearts he will-discern and-watching soul-of-you he will-know ; and-he-has-made-return to/for-man like-work-of-him."
+        },
+        {
+          "n": 13,
+          "t": "eat son-of-me honey for good ; and-honey sweet on palate-of-you."
+        },
+        {
+          "n": 14,
+          "t": "thus know-heh wisdom to/for-soul-of-you if you-have-found and-there end ; and-hope-of-you not will-be-cut."
+        },
+        {
+          "n": 15,
+          "t": "do-not let-ambush wicked to/for-pasture-of just ; do-not let-ruin rest-of-him."
+        },
+        {
+          "n": 16,
+          "t": "for seven he-will-fall just and-he-has-risen ; and-wicked they-will-be-stumbled in-evil."
+        },
+        {
+          "n": 17,
+          "t": "in-fall enemying-of-you do-not let-rejoice ; and-in-be-stumble-of-him do-not heart-of-you let-rejoice."
+        },
+        {
+          "n": 18,
+          "t": "lest YHWH will-see and-has-eviled in-eyes-of-him ; nose-of-him and-has-made-return on-him."
+        },
+        {
+          "n": 19,
+          "t": "do-not let-kindle in-the-making-evil ; do-not let-jealous in-the-wicked."
+        },
+        {
+          "n": 20,
+          "t": "for not end to/for-the-bad will-be ; lamp-of wicked will-out."
+        },
+        {
+          "n": 21,
+          "t": "fear YHWH son-of-me and-king ; with changing do-not let-pledge."
+        },
+        {
+          "n": 22,
+          "t": "for suddenly calamity-of-them will-rise ; and-disaster-of two-of-them who knowing."
+        },
+        {
+          "n": 23,
+          "t": "also these to/for-wise ; make-recognize faces in-justice not good."
+        },
+        {
+          "n": 24,
+          "t": "saying to/for-wicked just you peoples will-pierce-him ; peoples will-indignant-him."
+        },
+        {
+          "n": 25,
+          "t": "and-to/for-the-making-rebuke he-will-pleasant ; and-on-them blessing-of good will-come."
+        },
+        {
+          "n": 26,
+          "t": "lipses he-will-kiss ; making-return words straightforward."
+        },
+        {
+          "n": 27,
+          "t": "make-establish in-the-outside work-of-you and-ready-her in-the-field to/for-you-f ; after and-you-have-built house-of-you."
+        },
+        {
+          "n": 28,
+          "t": "do-not let-be witness for in-neighbor-of-you ; is-it-and-you-have-wided in-lipses-of-you."
+        },
+        {
+          "n": 29,
+          "t": "do-not let-say like-when he-has-done to/for-me thus I-will-do to/for-him ; I-will-make-return to/for-the-man like-work-of-him."
+        },
+        {
+          "n": 30,
+          "t": "on field-of man sluggish I-have-passed ; and-on vineyard-of man lacking-of heart."
+        },
+        {
+          "n": 31,
+          "t": "and-behold all-of-him has-ascended thorns have-been-covered faces-of-him nettles ; and-wall-of stones-of-him she-has-been-overthrowed."
+        },
+        {
+          "n": 32,
+          "t": "I and-have-seen will-set heart-of-me ; I-have-seen I-have-taken discipline."
+        },
+        {
+          "n": 33,
+          "t": "little-of sleeps little-of slumbers ; little-of folding-of hands to/for-lie."
+        },
+        {
+          "n": 34,
+          "t": "and-has-come self-going poverty-of-you ; and-needs-of-you like-man shield."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "verses": [
+        {
+          "n": 1,
+          "t": "also these proverbs-of Solomon ; who mans-of Hezekiah have-made-proceed king-of Judah."
+        },
+        {
+          "n": 2,
+          "t": "glory-of god make-hide word ; and-glory-of kings search word."
+        },
+        {
+          "n": 3,
+          "t": "heavens to/for-the-height and-land to/for-the-depth ; and-heart-of kings naught search."
+        },
+        {
+          "n": 4,
+          "t": "remove drosses from-silver ; article and-has-exited to/for-the-refining."
+        },
+        {
+          "n": 5,
+          "t": "remove wicked to/for-faces-of king ; throne-of-him and-will-be-established in-the-righteousness."
+        },
+        {
+          "n": 6,
+          "t": "do-not let-honor to/for-faces-of king ; and-in-place-of great do-not let-stand."
+        },
+        {
+          "n": 7,
+          "t": "for good say to/for-you ascend here from-make-abase-of-you to/for-faces-of noble ; who they-have-seen eyes-of-you."
+        },
+        {
+          "n": 8,
+          "t": "do-not let-exit to/for-contend quickly lest what you-will-do in-end-of-her ; in-make-humiliated you neighbor-of-you."
+        },
+        {
+          "n": 9,
+          "t": "strife-of-you contend with neighbor-of-you ; and-counsel another do-not let-heglam."
+        },
+        {
+          "n": 10,
+          "t": "lest he-will-shame-you hearing ; and-slander-of-you not will-return."
+        },
+        {
+          "n": 11,
+          "t": "apples-of gold in-figures-of silver ; word spoken on times-of-him."
+        },
+        {
+          "n": 12,
+          "t": "ring-of gold and-ornament-of gold ; making-rebuke wise on ear hearing."
+        },
+        {
+          "n": 13,
+          "t": "like-coolness-of snow in-day-of harvest envoy faithfuled to/for-sending-of-him ; and-soul-of lords-of-him will-make-return."
+        },
+        {
+          "n": 14,
+          "t": "mists and-spirit and-rain naught ; man self-boasting in-gift-of deception."
+        },
+        {
+          "n": 15,
+          "t": "in-length-of chief ; will-entice noses and-tongue tender will-break bone."
+        },
+        {
+          "n": 16,
+          "t": "honey you-have-found eat sufficiency-of-you ; lest you-will-satisfy-him and-you-have-made-vomit-him."
+        },
+        {
+          "n": 17,
+          "t": "make-precious foot-of-you from-house-of neighbor-of-you ; lest he-will-satisfy-you and-he-has-hated-you."
+        },
+        {
+          "n": 18,
+          "t": "war-club and-sword and-arrow sharpened ; man answering in-neighbor-of-him witness-of deception."
+        },
+        {
+          "n": 19,
+          "t": "tooth shattering and-foot disjointeded ; confidence treacherouslying in-day-of distress."
+        },
+        {
+          "n": 20,
+          "t": "making-advance garment in-day-of cold vinegar on lye ; and-singing in-the-songs on heart-of bad."
+        },
+        {
+          "n": 21,
+          "t": "if hungry hating-of-you make-eat-him food ; and-if thirsty make-water-him waters."
+        },
+        {
+          "n": 22,
+          "t": "for coals you snatching on head-of-him ; and-YHWH will-complete to/for-you-f."
+        },
+        {
+          "n": 23,
+          "t": "spirit-of north will-twist rain ; and-faces indignanted tongue-of secrecy."
+        },
+        {
+          "n": 24,
+          "t": "good dwell on corner-of roof ; from-woman-of strifes contentions and-house-of spell."
+        },
+        {
+          "n": 25,
+          "t": "waters cool on soul faint ; and-tidings good from-land-of distance."
+        },
+        {
+          "n": 26,
+          "t": "spring fouled and-fountain been-made-ruin ; just shaking to/for-faces-of wicked."
+        },
+        {
+          "n": 27,
+          "t": "eat honey-of make-multiply not good ; and-search-of glory-of-them glory."
+        },
+        {
+          "n": 28,
+          "t": "city-of broken naught wall ; man who naught restraint to/for-spirit-of-him."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "verses": [
+        {
+          "n": 1,
+          "t": "like-the-snow in-the-summer and-like-the-rain in-the-harvest ; thus not lovely to/for-fool glory."
+        },
+        {
+          "n": 2,
+          "t": "like-the-bird to/for-wander like-the-swallow to/for-fly ; thus curse-of for not to/for-him will-come."
+        },
+        {
+          "n": 3,
+          "t": "whip to/for-the-horse bridle to/for-the-donkey ; and-tribe to/for-back-of fool."
+        },
+        {
+          "n": 4,
+          "t": "do-not let-answer fool like-folly-of-him ; lest you will-like to/for-him also."
+        },
+        {
+          "n": 5,
+          "t": "answer fool like-folly-of-him ; lest he-will-be wise in-eyes-of-him."
+        },
+        {
+          "n": 6,
+          "t": "cuting foots violence drinking ; sending words in-hand-of fool."
+        },
+        {
+          "n": 7,
+          "t": "they-have-languished legs from-lame ; and-proverb in-lip-of fool."
+        },
+        {
+          "n": 8,
+          "t": "like-constrain stone in-sling ; thus giving to/for-fool glory."
+        },
+        {
+          "n": 9,
+          "t": "thistle has-ascended in-hand-of drunken ; and-proverb in-lip-of fool."
+        },
+        {
+          "n": 10,
+          "t": "many twisting all ; and-hiring fool and-hiring passing."
+        },
+        {
+          "n": 11,
+          "t": "like-dog returning on vomit-of-him ; fool repeating in-folly-of-him."
+        },
+        {
+          "n": 12,
+          "t": "you-have-seen man wise in-eyes-of-him ; hope to/for-fool from-him."
+        },
+        {
+          "n": 13,
+          "t": "has-said sluggish lion in-the-way ; lion between the-squares."
+        },
+        {
+          "n": 14,
+          "t": "the-door will-turn on hinge-of-her ; and-sluggish on bed-of-him."
+        },
+        {
+          "n": 15,
+          "t": "has-hidden sluggish hand-of-him in-the-dish ; lip-of-him has-been-wearied to/for-make-return-of-her toward."
+        },
+        {
+          "n": 16,
+          "t": "wise sluggish in-eyes-of-him ; from-seven making-return-of taste."
+        },
+        {
+          "n": 17,
+          "t": "making-strengthen in-ears-of dog ; angrying self-angrying on strife not to/for-him."
+        },
+        {
+          "n": 18,
+          "t": "like-amazed the-show missiles arrows and-death."
+        },
+        {
+          "n": 19,
+          "t": "thus man has-deceived neighbor-of-him ; and-he-has-said is-it-not laughing I."
+        },
+        {
+          "n": 20,
+          "t": "in-end-of fire ; will-quench trees and-in-naught whisperered strife will-quiet."
+        },
+        {
+          "n": 21,
+          "t": "coal to/for-coals and-trees to/for-fire ; and-man-of strifes contentions to/for-scorch strife."
+        },
+        {
+          "n": 22,
+          "t": "words-of whisperered like-self-swallowing ; and-they have-gone chambers-of belly."
+        },
+        {
+          "n": 23,
+          "t": "silver-of drosses overlayed on earthenware ; lipses burning and-heart-of bad."
+        },
+        {
+          "n": 24,
+          "t": "in-lips-of-him in-lipses-of-him he-will-be-alienated hating ; and-in-entrails-of-him he-will-set deceit."
+        },
+        {
+          "n": 25,
+          "t": "for voice-of-him will-gracious do-not let-make-faithful in-him ; for seven abominations in-heart-of-him."
+        },
+        {
+          "n": 26,
+          "t": "hating will-be-covered in-guile ; evil-of-him will-be-heglamed in-assembly."
+        },
+        {
+          "n": 27,
+          "t": "piercing pit in-her he-will-fall ; and-rolling stone toward-him will-return."
+        },
+        {
+          "n": 28,
+          "t": "tongue-of deception will-hate crushed-of-him ; and-lip smooth will-do ruin."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "verses": [
+        {
+          "n": 1,
+          "t": "do-not let-boast in-day-of tomorrow ; for not you-will-know what day will-beget."
+        },
+        {
+          "n": 2,
+          "t": "let-boast-you stranger and-not lip-of-you ; foreign and-do-not lipses-of-you."
+        },
+        {
+          "n": 3,
+          "t": "heaviness-of stone and-weight-of the-sand ; and-vexation-of fool heavy from-two-of-them."
+        },
+        {
+          "n": 4,
+          "t": "cruel-of rage and-flood-of nose ; and-who he-will-stand to/for-faces-of jealousy."
+        },
+        {
+          "n": 5,
+          "t": "good argument heglamed ; from-love hided."
+        },
+        {
+          "n": 6,
+          "t": "faithfuled wounds-of loving ; and-abundanted kisses-of hating."
+        },
+        {
+          "n": 7,
+          "t": "soul sated will-trample honey ; and-soul hungry all-of bitter sweet."
+        },
+        {
+          "n": 8,
+          "t": "like-bird wandering from nest-of-her ; thus man wandering from-place-of-him."
+        },
+        {
+          "n": 9,
+          "t": "heart ; will-rejoice oil and-incense and-sweetness-of neighbor-of-him from-counsel-of soul."
+        },
+        {
+          "n": 10,
+          "t": "neighbor-of-you and-friend-of and-neighbor-of father-of-you do-not let-leave and-house-of brother-of-you do-not let-come in-day-of calamity-of-you ; good neighboring near from-brother far."
+        },
+        {
+          "n": 11,
+          "t": "wise son-of-me and-rejoice heart-of-me ; and-let-me-make-return taunting-of-me word."
+        },
+        {
+          "n": 12,
+          "t": "prudent he-has-seen evil he-has-been-hided ; simples have-passed have-been-fined."
+        },
+        {
+          "n": 13,
+          "t": "take garment-of-him for has-pledged stranger ; and-about foreign pledge-him."
+        },
+        {
+          "n": 14,
+          "t": "blessing neighbor-of-him in-voice great in-the-morning make-rise ; curse will-be-devised to/for-him."
+        },
+        {
+          "n": 15,
+          "t": "dripping pursuing in-day-of rain ; and-woman-of strifes contentions has-liked."
+        },
+        {
+          "n": 16,
+          "t": "treasuring-of-her spirit has-treasured ; and-oil-of right-of-him will-call."
+        },
+        {
+          "n": 17,
+          "t": "iron in-iron will-make-sharpen ; and-man will-make-sharpen faces-of neighbor-of-him."
+        },
+        {
+          "n": 18,
+          "t": "watching-of fruit-of-her ; will-eat fig and-keeping lords-of-him he-will-honor."
+        },
+        {
+          "n": 19,
+          "t": "like-the-waters the-faces to/for-the-faces ; thus heart-of the-man to/for-the-man."
+        },
+        {
+          "n": 20,
+          "t": "hell and-destruction-of not they-f-will-satisfy ; and-eyes-of the-man not they-f-will-satisfy."
+        },
+        {
+          "n": 21,
+          "t": "crucible to/for-the-silver and-furnace to/for-the-gold ; and-man to/for-lip-of praise-of-him."
+        },
+        {
+          "n": 22,
+          "t": "if you-will-pound the-fool in-the-hollow in-midst-of the-grains in-the-pestle ; not folly-of-him will-turn on-him."
+        },
+        {
+          "n": 23,
+          "t": "know let-know faces-of flock-of-you ; set heart-of-you to/for-flocks."
+        },
+        {
+          "n": 24,
+          "t": "for not to/for-age wealth ; and-if consecration to/for-generation generation and-generation."
+        },
+        {
+          "n": 25,
+          "t": "grass has-heglamed and-has-been-seen grass ; plants-of mountains and-have-been-gathered."
+        },
+        {
+          "n": 26,
+          "t": "lambs to/for-clothing-of-you ; and-price-of field goats."
+        },
+        {
+          "n": 27,
+          "t": "and-sufficiency-of milk-of goats to/for-food-of-you to/for-food-of house-of-you ; and-lifes to/for-maidens-of-you."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "verses": [
+        {
+          "n": 1,
+          "t": "they-have-fled and-naught pursuing wicked ; and-just like-lion he-will-trust."
+        },
+        {
+          "n": 2,
+          "t": "in-transgression-of land many officials-of-her ; and-in-man making-discern knowing right he-will-make-prolong."
+        },
+        {
+          "n": 3,
+          "t": "great pooring and-oppressing poor ; rain prostatrating and-naught food."
+        },
+        {
+          "n": 4,
+          "t": "leaving-of instruction they-will-boast wicked ; and-keeping-of instruction they-will-stir in-them."
+        },
+        {
+          "n": 5,
+          "t": "mans-of evil not will-discern justice ; and-seeking-of YHWH they-will-discern all."
+        },
+        {
+          "n": 6,
+          "t": "good pooring going in-integrity-of-him ; from-twisted-of ways and-he rich."
+        },
+        {
+          "n": 7,
+          "t": "watching instruction son making-discern ; and-accompanying viling father-of-him will-make-humiliated."
+        },
+        {
+          "n": 8,
+          "t": "making-multiply substance-of-him in-interest and-in-increment and-increment ; to/for-graciousing poor he-will-gather-him."
+        },
+        {
+          "n": 9,
+          "t": "making-turn ear-of-him from-hear instruction ; also prayer-of-him abomination."
+        },
+        {
+          "n": 10,
+          "t": "making-wander upright in-way-of bad in-pit-of-him he will-fall ; and-unblemished they-will-inherit good."
+        },
+        {
+          "n": 11,
+          "t": "wise in-eyes-of-him man rich ; and-poor making-discern he-will-search-him."
+        },
+        {
+          "n": 12,
+          "t": "in-rejoice just many beauty ; and-in-rise wicked man will-search."
+        },
+        {
+          "n": 13,
+          "t": "covering transgressions-of-him not he-will-make-prosper ; and-making-confess and-leaving he-will-compassion."
+        },
+        {
+          "n": 14,
+          "t": "blesseds man dreading continually ; and-making-harden heart-of-him will-fall in-evil."
+        },
+        {
+          "n": 15,
+          "t": "lion groaning and-bear rushing ; ruling wicked on people poor."
+        },
+        {
+          "n": 16,
+          "t": "leader lacking-of understandings and-many-of oppressions ; hating-of hating unjust-gain will-make-prolong days."
+        },
+        {
+          "n": 17,
+          "t": "man oppressed in-blood-of soul until pit will-flee do-not let-them-grasp in-him."
+        },
+        {
+          "n": 18,
+          "t": "going unblemished he-will-be-saved ; and-twisted-of ways he-will-fall in-one."
+        },
+        {
+          "n": 19,
+          "t": "serving-of food ; will-satisfy ground-of-him and-pursuing worthless poverty will-satisfy."
+        },
+        {
+          "n": 20,
+          "t": "man-of faithfulnesses many-of blessings ; and-hastening to/for-make-enrich not he-will-be-cleared."
+        },
+        {
+          "n": 21,
+          "t": "make-recognize faces not good ; and-on great will-transgress morsel-of food."
+        },
+        {
+          "n": 22,
+          "t": "dismayed to/for-the-substance man-of bad-of eye ; and-not poverty will-know for will-come-him."
+        },
+        {
+          "n": 23,
+          "t": "making-rebuke man backwards favor will-find ; from-making-smooth tongue."
+        },
+        {
+          "n": 24,
+          "t": "plundering father-of-him and-mother-of-him and-saying naught transgression ; companion he to/for-man destroying."
+        },
+        {
+          "n": 25,
+          "t": "broad-of soul will-stir strife ; and-trusting on YHWH will-prosper."
+        },
+        {
+          "n": 26,
+          "t": "trusting in-heart-of-him he fool ; and-going in-wisdom he will-be-escaped."
+        },
+        {
+          "n": 27,
+          "t": "giving to/for-the-pooring naught need ; and-making-conceal eyes-of-him many-of curses."
+        },
+        {
+          "n": 28,
+          "t": "in-rise wicked man will-be-hided ; and-in-perish-of-them they-will-multiply just."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "verses": [
+        {
+          "n": 1,
+          "t": "man-of arguments making-harden neck ; suddenness will-be-breaked and-naught healing."
+        },
+        {
+          "n": 2,
+          "t": "in-multiply just the-people will-rejoice ; and-in-rule wicked people will-be-sighed."
+        },
+        {
+          "n": 3,
+          "t": "man loving father-of-him ; will-rejoice wisdom and-accompanying fornicating substance will-perish."
+        },
+        {
+          "n": 4,
+          "t": "king in-justice will-make-stand land ; and-man-of contributions will-overthrow-her."
+        },
+        {
+          "n": 5,
+          "t": "great making-smooth on neighbor-of-him ; net spreading on strokes-of-him."
+        },
+        {
+          "n": 6,
+          "t": "in-transgression-of man evil snare ; and-just he-will-sing and-he-has-rejoiced."
+        },
+        {
+          "n": 7,
+          "t": "knowing just judgment-of poor ; wicked not he-will-discern knowledge."
+        },
+        {
+          "n": 8,
+          "t": "mans-of scorning will-make-breathe town ; and-wise they-will-make-return nose."
+        },
+        {
+          "n": 9,
+          "t": "man wise judged with man fool ; and-he-has-trembled and-he-has-laughed and-naught quietness."
+        },
+        {
+          "n": 10,
+          "t": "mans-of bloods will-hate complete ; and-upright they-will-seek soul-of-him."
+        },
+        {
+          "n": 11,
+          "t": "all-of spirit-of-him will-make-exit fool ; and-wise in-back he-will-soothe-her."
+        },
+        {
+          "n": 12,
+          "t": "ruling making-heed on word-of deception ; all-of ministering-of-him wicked."
+        },
+        {
+          "n": 13,
+          "t": "pooring and-man-of deceitfuls they-have-been-met ; making-shine eyes-of two-of-them YHWH."
+        },
+        {
+          "n": 14,
+          "t": "king judging in-truth poor ; throne-of-him to/for-perpetuity will-be-established."
+        },
+        {
+          "n": 15,
+          "t": "tribe and-argument will-give wisdom ; and-youth sended making-blush mother-of-him."
+        },
+        {
+          "n": 16,
+          "t": "in-multiply wicked transgression will-multiply ; and-just in-carcass-of-them they-will-see."
+        },
+        {
+          "n": 17,
+          "t": "discipline son-of-you and-will-make-rest-you ; and-he-will-give delicacies to/for-soul-of-you."
+        },
+        {
+          "n": 18,
+          "t": "in-naught vision will-be-neglected people ; and-keeping instruction blessed-of-him."
+        },
+        {
+          "n": 19,
+          "t": "in-words not servant will-be-disciplined ; for he-will-discern and-naught answer."
+        },
+        {
+          "n": 20,
+          "t": "you-have-seen man hastening in-words-of-him ; hope to/for-fool from-him."
+        },
+        {
+          "n": 21,
+          "t": "pampering from-youth servant-of-him ; progeny will-be and-end-of-him."
+        },
+        {
+          "n": 22,
+          "t": "man-of nose will-stir strife ; and-master-of rage many-of transgression."
+        },
+        {
+          "n": 23,
+          "t": "pride-of man will-make-abase-him ; and-low-of spirit will-grasp glory."
+        },
+        {
+          "n": 24,
+          "t": "dividing with thief hating soul-of-him ; curse he-will-hear and-not he-will-make-announce."
+        },
+        {
+          "n": 25,
+          "t": "snare ; will-give trembling-of man and-trusting in-YHWH he-will-exalt."
+        },
+        {
+          "n": 26,
+          "t": "many seeking faces-of ruling ; and-from-YHWH justice-of man."
+        },
+        {
+          "n": 27,
+          "t": "abomination-of just man-of injustice ; and-abomination-of wicked upright-of way."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "verses": [
+        {
+          "n": 1,
+          "t": "words-of Agur son-of Jakeh the-burden utterance-of the-great to/for-Ithiel ; to/for-Ithiel and-Veukhal."
+        },
+        {
+          "n": 2,
+          "t": "for I stupid from-man ; and-not understanding-of man to/for-me."
+        },
+        {
+          "n": 3,
+          "t": "and-not I-have-learned wisdom ; and-knowledge-of holy I-will-know."
+        },
+        {
+          "n": 4,
+          "t": "who has-ascended heavens and-has-gone who spirit has-gathered in-palms-of-him who has-constrained waters in-the-mantle who all-of ends-of land has-made-rise ; what name-of-him and-what name-of son-of-him for you-will-know."
+        },
+        {
+          "n": 5,
+          "t": "all-of saying-of god refined ; shield he to/for-the-refuging in-him."
+        },
+        {
+          "n": 6,
+          "t": "do-not let-make-add on words-of-him ; lest he-will-make-rebuke in-you and-you-have-been-lain."
+        },
+        {
+          "n": 7,
+          "t": "two I-have-asked with-you-f ; do-not let-withhold from-me in-before I-will-die."
+        },
+        {
+          "n": 8,
+          "t": "vanity and-word-of lie make-remove from-me poverty and-riches do-not let-give to/for-me ; make-tear-me food-of statute-of-me."
+        },
+        {
+          "n": 9,
+          "t": "lest I-will-satisfy and-I-have-deceived and-I-have-said who YHWH and-lest I-will-be-possessed and-I-have-stealed ; and-I-have-captured name-of god-of-me."
+        },
+        {
+          "n": 10,
+          "t": "do-not let-make-slander servant toward lords-of-him ; lest he-will-lighten-you and-you-have-guiltied."
+        },
+        {
+          "n": 11,
+          "t": "generation father-of-him will-lighten ; and-mother-of-him not he-will-bless."
+        },
+        {
+          "n": 12,
+          "t": "generation pure in-eyes-of-him ; and-from-filth-of-him not he-has-been-washed."
+        },
+        {
+          "n": 13,
+          "t": "generation what they-have-exalted eyes-of-him ; and-eyelids-of-him they-will-be-lifted."
+        },
+        {
+          "n": 14,
+          "t": "generation swords tooths-of-him and-knifes jaws-of-him to/for-eat afflicted from-land ; and-needy from-man."
+        },
+        {
+          "n": 15,
+          "t": "to/for-leech two-of daughters give give three they not will-satisfy ; four not they-have-said substance."
+        },
+        {
+          "n": 16,
+          "t": "hell and-coercion-of womb land not has-satisfied waters ; and-fire not has-said substance."
+        },
+        {
+          "n": 17,
+          "t": "eye will-mock to/for-father and-will-despise to/for-obedience-of mother ravens-of torrent will-dig-her ; sons-of eagle and-will-eat-her."
+        },
+        {
+          "n": 18,
+          "t": "three they have-been-wondered from-me ; and-four not I-have-known-them."
+        },
+        {
+          "n": 19,
+          "t": "way-of the-eagle in-the-heavens way-of serpent on rocks way-of fleet in-heart-of sea ; and-way-of great in-maiden."
+        },
+        {
+          "n": 20,
+          "t": "thus way-of woman commiting has-eaten and-has-wiped lip-of-her ; and-she-has-said not I-have-worked evil."
+        },
+        {
+          "n": 21,
+          "t": "under three land has-trembled ; and-under four not she-will-able lift."
+        },
+        {
+          "n": 22,
+          "t": "under servant for will-reign ; and-foolish for food will-satisfy."
+        },
+        {
+          "n": 23,
+          "t": "under hated for she-will-be-marrieded ; and-maidservant for will-possess lady-of-her."
+        },
+        {
+          "n": 24,
+          "t": "four they small-of land ; and-they wise wised."
+        },
+        {
+          "n": 25,
+          "t": "the-ants people not strong ; and-they-have-made-establish in-the-summer food-of-them."
+        },
+        {
+          "n": 26,
+          "t": "rocks people not mighty ; and-they-have-put in-the-Rock house-of-them."
+        },
+        {
+          "n": 27,
+          "t": "king naught to/for-the-locust ; and-has-exited dividing all-of-him."
+        },
+        {
+          "n": 28,
+          "t": "lizard in-hands you-will-capture ; and-he in-temples-of king."
+        },
+        {
+          "n": 29,
+          "t": "three they making-improve-of step ; and-four making-improve-of walk."
+        },
+        {
+          "n": 30,
+          "t": "lion mighty in-the-animal ; and-not he-will-return from-faces-of all."
+        },
+        {
+          "n": 31,
+          "t": "greyhound-of loins or male ; and-king army with-him."
+        },
+        {
+          "n": 32,
+          "t": "if you-have-senselessed in-self-lift ; and-if you-have-planed hand to/for-lip."
+        },
+        {
+          "n": 33,
+          "t": "for pressing-of milk will-make-exit curd and-pressing-of nose will-make-exit blood ; strife will-make-exit and-pressing noses."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "verses": [
+        {
+          "n": 1,
+          "t": "words-of Lemuel king ; burden who mother-of-him has-disciplined-him."
+        },
+        {
+          "n": 2,
+          "t": "what son-of-me and-what son-of belly-of-me ; and-what son-of vows-of-me."
+        },
+        {
+          "n": 3,
+          "t": "do-not let-give to/for-the-womans helech-of-you ; and-ways-of-you to/for-make-wipe kings."
+        },
+        {
+          "n": 4,
+          "t": "do-not to/for-the-kings Lemuel do-not to/for-the-kings drink wine ; and-to/for-ruling desire where strong."
+        },
+        {
+          "n": 5,
+          "t": "lest he-will-drink and-he-will-forget decreed ; judgment-of all-of sons-of affliction and-will-change."
+        },
+        {
+          "n": 6,
+          "t": "give strong to/for-perishing ; and-wine to/for-bitter-of soul."
+        },
+        {
+          "n": 7,
+          "t": "will-drink poverty-of-him and-will-forget ; and-trouble-of-him not let-remember still."
+        },
+        {
+          "n": 8,
+          "t": "open lip-of-you to/for-mute ; toward judgment-of all-of sons-of destruction."
+        },
+        {
+          "n": 9,
+          "t": "open lip-of-you judge righteousness ; and-judge afflicted and-needy."
+        },
+        {
+          "n": 10,
+          "t": "woman-of helech who he-will-find ; and-far from-jewels merchandise-of-her."
+        },
+        {
+          "n": 11,
+          "t": "heart-of master-of-her ; has-trusted in-her and-spoil not will-lack."
+        },
+        {
+          "n": 12,
+          "t": "she-has-weaned-him good and-not evil ; all-of days-of lifes-of-her."
+        },
+        {
+          "n": 13,
+          "t": "she-has-sought wool and-flaxes ; and-she-has-done in-pleasure-of palms-of-her."
+        },
+        {
+          "n": 14,
+          "t": "she-has-been like-fleets-of trading ; from-distance food-of-her will-make-come."
+        },
+        {
+          "n": 15,
+          "t": "and-she-has-risen in-still night and-she-has-given prey to/for-house-of-her ; and-statute to/for-maidens-of-her."
+        },
+        {
+          "n": 16,
+          "t": "she-has-planed field and-she-has-taken-him ; from-fruit-of vineyard has-planted palms-of-her."
+        },
+        {
+          "n": 17,
+          "t": "she-has-girded in-strength loins-of-her ; and-she-has-strengthened arms-of-her."
+        },
+        {
+          "n": 18,
+          "t": "she-has-perceived for good profit-of-her ; not lamp-of-her will-quench in-the-night."
+        },
+        {
+          "n": 19,
+          "t": "hands-of-her she-has-sended in-the-distaff ; and-palms-of-her they-have-grasped district."
+        },
+        {
+          "n": 20,
+          "t": "palm-of-her has-spreaded to/for-the-afflicted ; and-hands-of-her she-has-sended to/for-the-needy."
+        },
+        {
+          "n": 21,
+          "t": "not she-will-fear to/for-house-of-her from-snow ; for all-of house-of-her clothed scarlets."
+        },
+        {
+          "n": 22,
+          "t": "coverings she-has-done to/for-her ; linen and-purple clothing-of-her."
+        },
+        {
+          "n": 23,
+          "t": "known in-the-gates master-of-her ; in-dwell-of-him with old-of land."
+        },
+        {
+          "n": 24,
+          "t": "linen she-has-done and-she-has-sold ; and-belted she-has-given to/for-the-Merchant."
+        },
+        {
+          "n": 25,
+          "t": "strength and-glory clothing-of-her ; and-she-has-laughed to/for-day last."
+        },
+        {
+          "n": 26,
+          "t": "lip-of-her she-has-opened in-wisdom ; and-instruction-of kindness on tongue-of-her."
+        },
+        {
+          "n": 27,
+          "t": "watching walks-of house-of-her ; and-food-of sluggishness not will-eat."
+        },
+        {
+          "n": 28,
+          "t": "sons-of-her have-risen and-have-blessed-her ; master-of-her and-has-boasted-her."
+        },
+        {
+          "n": 29,
+          "t": "many daughters have-done helech ; and-you have-ascended on all-of-them-f."
+        },
+        {
+          "n": 30,
+          "t": "deception the-favor and-vanity the-beauty ; woman afraid-of YHWH he will-boast."
+        },
+        {
+          "n": 31,
+          "t": "give to/for-her from-fruit-of hands-of-her ; deeds-of-her and-will-boast-her in-the-gates."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4512 @@
+{
+  "id": "job",
+  "title": "Livre de Job",
+  "original_title": "Job",
+  "short": "Jb",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "homme a-été dans-terre-de Uz Job nom-de-lui ; le-homme le-lui parfait et-droit et-craintif-de dieu et-détournant depuis-mauvais et-a-été."
+        },
+        {
+          "n": 2,
+          "t": "et-ont-été-engendré à/pour-lui sept fils et-trois filles."
+        },
+        {
+          "n": 3,
+          "t": "bétail-de-lui et-a-été sept-de mille-de troupeau et-trois-de mille-de chameaux et-cinq cent paire-de bœufs et-cinq cent ânesses, et-service nombreuse très ; le-homme le-lui grand et-a-été, depuis-tout-de fils-de orient."
+        },
+        {
+          "n": 4,
+          "t": "fils-de-lui et-ont-marché et-ont-fait festin, maison-de homme jour-de-lui ; et-ils-ont-envoyé et-ils-ont-appelé à/pour-trois-de sœurs-de-eux, à/pour-manger et-à/pour-boire avec-eux."
+        },
+        {
+          "n": 5,
+          "t": "et-a-été car jours-de le-festin ont-fait-ggxfber et-a-envoyé Job et-a-sanctifié-eux et-a-fait-gkruer dans-le-matin et-a-fait-monter burnts nombre-de tout-de-eux car a-dit Job, peut-être ont-péché fils-de-moi, et-ont-béni dieu dans-volonté-de-eux ; gehn Job fera tout-de les-jours."
+        },
+        {
+          "n": 6,
+          "t": "le-jour et-a-été, et-sont-venu fils-de le-dieu, à/pour-se-fixer sur YHWH ; le-adversaire et-est-venu aussi dans-milieu-de-eux."
+        },
+        {
+          "n": 7,
+          "t": "YHWH et-a-dit vers le-adversaire depuis-gnf tu-viendras ; le-adversaire et-a-répondu YHWH et-a-dit, depuis-rôder dans-la-terre, et-depuis-se-marcher dans-elle."
+        },
+        {
+          "n": 8,
+          "t": "YHWH et-a-dit vers le-adversaire, est-ce-tu-as-mis cœur-de-toi sur serviteur-de-moi Job ; car néant comme-lui dans-la-terre, homme parfait et-droit craintif-de dieu et-détournant depuis-mauvais."
+        },
+        {
+          "n": 9,
+          "t": "le-adversaire et-a-répondu YHWH et-a-dit ; est-ce-le-librement, Job dieu a-craint."
+        },
+        {
+          "n": 10,
+          "t": "est-ce-non toi as-fermé derrière-lui et-derrière maison-de-lui et-derrière tout-de qui à/pour-lui depuis-alentour ; acte-de mains-de-lui tu-as-béni, et-bétail-de-lui a-éclaté dans-la-terre."
+        },
+        {
+          "n": 11,
+          "t": "et-mais envoye donc main-de-toi, et-touche dans-tout-de qui à/pour-lui ; si non sur faces-de-toi il-bénira-toi."
+        },
+        {
+          "n": 12,
+          "t": "YHWH et-a-dit vers le-adversaire voici tout-de qui à/pour-lui dans-main-de-toi, seulement vers-lui, ne tu-envoyes main-de-toi ; le-adversaire et-est-sorti, from faces-de YHWH."
+        },
+        {
+          "n": 13,
+          "t": "le-jour et-a-été ; et-fils-de-lui et-filles-de-lui mangeants et-buvants vin, dans-maison-de frère-de-eux le-premier-né."
+        },
+        {
+          "n": 14,
+          "t": "et-messager est-venu vers Job et-a-dit ; le-bœufs ont-été combinantes, et-les-ânesses paîtantes sur mains-de-eux."
+        },
+        {
+          "n": 15,
+          "t": "Sheba et-est-tombé et-elle-a-pris-eux, et-les-youths ils-ont-fait-frapper à/pour-bouche-de épée ; et-ai-été-sauvé-hé seulement je à/pour-seul-de-moi à/pour-faire-annoncer à/pour-toi-f."
+        },
+        {
+          "n": 16,
+          "t": "encore celui-ci parlant et-celui-ci est-venu feu-de dieu et-a-dit est-tombé depuis les-ciels, et-a-brûlé dans-le-troupeau et-dans-les-youths et-a-mangé-eux ; et-ai-été-sauvé-hé seulement je à/pour-seul-de-moi à/pour-faire-annoncer à/pour-toi-f."
+        },
+        {
+          "n": 17,
+          "t": "encore celui-ci parlant et-celui-ci est-venu Chaldéen et-a-dit ont-mis trois têtes et-ont-dépouillé sur les-chameaux et-ont-pris-eux, et-les-youths ont-fait-frapper à/pour-bouche-de épée ; et-ai-été-sauvé-hé seulement je à/pour-seul-de-moi à/pour-faire-annoncer à/pour-toi-f."
+        },
+        {
+          "n": 18,
+          "t": "jusqu'à celui-ci parlant, et-celui-ci il-est-venu et-il-a-dit ; fils-de-toi et-filles-de-toi mangeants et-buvants vin, dans-maison-de frère-de-eux le-premier-né."
+        },
+        {
+          "n": 19,
+          "t": "et-voici esprit grande est-venu depuis-delà-de le-désert et-a-touché dans-quatre angles-de le-maison, et-est-tombé sur les-youths et-sont-mort ; et-ai-été-sauvé-hé seulement je à/pour-seul-de-moi à/pour-faire-annoncer à/pour-toi-f."
+        },
+        {
+          "n": 20,
+          "t": "Job et-est-levé et-a-déchiré robe-de-lui, et-a-tondu tête-de-lui ; et-est-tombé terre-vers et-a-se-courbé."
+        },
+        {
+          "n": 21,
+          "t": "et-a-dit nu je-suis-sorti depuis-ventre-de mère-de-moi et-nu je-retournerai là-vers, YHWH a-donné, et-YHWH a-pris ; nom-de YHWH béni sera."
+        },
+        {
+          "n": 22,
+          "t": "dans-tout-de celle-ci non Job a-péché ; et-non il-a-donné folie à/pour-dieu."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "le-jour et-a-été, et-sont-venu fils-de le-dieu, à/pour-se-fixer sur YHWH ; le-adversaire et-est-venu aussi dans-milieu-de-eux, à/pour-se-fixer sur YHWH."
+        },
+        {
+          "n": 2,
+          "t": "YHWH et-a-dit vers le-adversaire, où depuis-celui-ci tu-viendras ; le-adversaire et-a-répondu YHWH et-a-dit, depuis-rôder dans-la-terre, et-depuis-se-marcher dans-elle."
+        },
+        {
+          "n": 3,
+          "t": "YHWH et-a-dit vers le-adversaire est-ce-tu-as-mis cœur-de-toi vers serviteur-de-moi Job car néant comme-lui dans-la-terre homme parfait et-droit craintif-de dieu et-détournant depuis-mauvais ; et-encore-de-lui faisant-fortifier dans-intégrité-de-lui, et-tu-as-fait-inciter-moi dans-lui à/pour-engloutir-de-lui librement."
+        },
+        {
+          "n": 4,
+          "t": "le-adversaire et-a-répondu YHWH et-a-dit ; peau derrière peau et-tout qui à/pour-le-homme, donnera derrière âme-de-lui."
+        },
+        {
+          "n": 5,
+          "t": "mais envoye donc main-de-toi, et-touche vers os-de-lui et-vers chair-de-lui ; si non vers faces-de-toi il-bénira-toi."
+        },
+        {
+          "n": 6,
+          "t": "YHWH et-a-dit vers le-adversaire voilà-lui dans-main-de-toi ; sûrement âme-de-lui garde."
+        },
+        {
+          "n": 7,
+          "t": "le-adversaire et-est-sorti, ensemble faces-de YHWH ; et-a-fait-frapper Job dans-furoncle bad, depuis-palme-de pied-de-lui jusqu'à et-jusqu'à couronne-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "tesson, et-a-pris à/pour-lui à/pour-se-gratter dans-lui ; et-lui habitant dans-milieu-de le-cendre."
+        },
+        {
+          "n": 9,
+          "t": "femme-de-lui, et-a-dit à/pour-lui encore-de-toi faisant-fortifier dans-intégrité-de-toi ; bénis dieu et-meurs."
+        },
+        {
+          "n": 10,
+          "t": "et-a-dit vers-elle comme-parler une les-insensées tu-f-parleras, aussi le-bien nous-recevoirons ensemble le-dieu, et-le-mauvais non nous-recevoirons ; dans-tout-de celle-ci non Job a-péché dans-lèvres-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "et-ont-écouté trois-de amis-de Job tout-de la-mal la-celle-ci la-elle-est-venu sur-lui et-sont-venu homme depuis-lieu-de-lui, Eliphaz le-Temanite et-Bildad le-Shuhite, et-Zophar le-Naamathite ; et-ils-ont-été-rencontré union, à/pour-venir à/pour-secouer à/pour-lui et-à/pour-consoler-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-ont-porté yeux-de-eux depuis-lointain et-non ils-ont-fait-reconnaître-lui, et-ils-ont-porté voix-de-eux et-ils-ont-pleuré ; et-ont-déchiré homme robe-de-lui, et-ont-jeté poussière sur têtes-de-eux les-ciels-vers."
+        },
+        {
+          "n": 13,
+          "t": "et-ont-habité ensemble-lui à/pour-la-terre, sept-de jours et-sept-de nuits ; et-néant parlant vers-lui parole, car ils-ont-vu, car le-douleur a-crû très."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "après ainsi Job a-gitaaé bouche-de-lui, et-a-légé jour-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 3,
+          "t": "jour périra je-serai-engendré dans-lui ; et-le-nuit a-dit guerrier a-été-conçu."
+        },
+        {
+          "n": 4,
+          "t": "le-jour le-lui soit ténèbre ne fréquente-lui god depuis-dessus ; et-ne ggni fasse-briller sur-lui."
+        },
+        {
+          "n": 5,
+          "t": "ils-racheteront-lui ténèbre et-shadow couvert ; habitera sur-lui noirceurs-de jour terrifieront-lui."
+        },
+        {
+          "n": 6,
+          "t": "le-nuit le-lui prendra-lui obscurité ne gcjne dans-jours-de année ; dans-nombre-de lunes ne il-vienne."
+        },
+        {
+          "n": 7,
+          "t": "voici le-nuit le-lui soit stérile ; ne triumphing vienne dans-lui."
+        },
+        {
+          "n": 8,
+          "t": "ils-perforeront-lui maudiants-de jour ; les-prêts éveiller léviathan."
+        },
+        {
+          "n": 9,
+          "t": "étoiles-de crépuscule-de-lui sombront il-espérera à/pour-lumière et-néant ; et-ne il-voie dans-paupières-de aube."
+        },
+        {
+          "n": 10,
+          "t": "car non il-a-fermé barrières-de ventre-de-moi ; peiner et-a-fait-cacher depuis-yeux-de-moi."
+        },
+        {
+          "n": 11,
+          "t": "à/pour-quoi non depuis-matrice je-mourrai ; depuis-ventre je-suis-sorti et-je-expirerai."
+        },
+        {
+          "n": 12,
+          "t": "why ils-ont-rencontré-moi genous ; et-quoi seins car je-allaiterai."
+        },
+        {
+          "n": 13,
+          "t": "car maintenant je-ai-menti et-je-apaiserai ; je-ai-dormi alors il-ggnuera à/pour-moi."
+        },
+        {
+          "n": 14,
+          "t": "avec rois et-conseillants-de terre ; les-bâtissants ruines à/pour-eux."
+        },
+        {
+          "n": 15,
+          "t": "ou avec princes or à/pour-eux ; les-remplissants maisons-de-eux argent."
+        },
+        {
+          "n": 16,
+          "t": "ou comme-avortement dissimulé non je-serai ; comme-enfants non ils-ont-vu lumière."
+        },
+        {
+          "n": 17,
+          "t": "là méchants ils-ont-cessé trouble ; et-là ils-ggnueront fatigués-de force."
+        },
+        {
+          "n": 18,
+          "t": "unitedness prisonniers ont-gkfgé ; non ils-ont-écouté voix-de ggluant."
+        },
+        {
+          "n": 19,
+          "t": "petit et-grand là lui ; et-serviteur libre depuis-lords-de-lui."
+        },
+        {
+          "n": 20,
+          "t": "à/pour-quoi lumière ; donnera à/pour-travailleur et-vies à/pour-amers-de âme."
+        },
+        {
+          "n": 21,
+          "t": "les-gcoxants à/pour-le-mort et-néant-lui ; et-ils-ont-creusé-lui depuis-trésors."
+        },
+        {
+          "n": 22,
+          "t": "les-réjouirs vers allégresse ; ils-exulteront car ils-trouveront sépulcre."
+        },
+        {
+          "n": 23,
+          "t": "à/pour-guerrier qui chemin-de-lui a-été-caché ; god et-a-fait-ghdnaer derrière-lui."
+        },
+        {
+          "n": 24,
+          "t": "car à/pour-faces-de pain-de-moi soupir-de-moi viendra ; et-ils-ont-versé comme-les-eaux rugissements-de-moi."
+        },
+        {
+          "n": 25,
+          "t": "car dread je-ai-révéré et-a-gafyé-moi ; et-qui je-ai-redouté il-viendra à/pour-moi."
+        },
+        {
+          "n": 26,
+          "t": "non je-ai-gksué et-non je-ai-apaisé et-non je-ai-ggnué trouble et-est-venu."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Eliphaz le-Temanite et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "parole est-ce-a-été-essayé vers-toi tu-gepoeras ; et-clore dans-discours lequel il-vaincra."
+        },
+        {
+          "n": 3,
+          "t": "voici tu-as-châtié nombreux ; et-mains faibles tu-fortifieras."
+        },
+        {
+          "n": 4,
+          "t": "chancelant ils-feront-lever discours-de-toi ; et-genous pliantes tu-gugeras."
+        },
+        {
+          "n": 5,
+          "t": "car maintenant elle-viendra vers-toi et-tu-as-gepoé ; elle-touchera jusqu'à-toi et-tu-as-été-terrifié."
+        },
+        {
+          "n": 6,
+          "t": "est-ce-non gdyt-de-toi confiance-de-toi ; cordon-de-toi et-intégrité-de chemins-de-toi."
+        },
+        {
+          "n": 7,
+          "t": "rappele donc lequel lui innocent a-péri ; et-gnk droits ils-ont-été-caché."
+        },
+        {
+          "n": 8,
+          "t": "comme-lorsque je-ai-vu combinants-de malheur ; et-semants-de peiner ils-moissonneront-lui."
+        },
+        {
+          "n": 9,
+          "t": "depuis-souffle-de god ils-périront ; et-depuis-esprit-de nez-de-lui ils-acheveront."
+        },
+        {
+          "n": 10,
+          "t": "rugissement-de lion et-voix-de gknz ; et-dents-de gelwas ils-ont-été-brisé."
+        },
+        {
+          "n": 11,
+          "t": "getr périssant depuis-nul-de proie ; et-fils-de geqkc sépareront."
+        },
+        {
+          "n": 12,
+          "t": "et-vers-moi parole volera ; oreille-de-moi et-a-pris whisper depuis-lui."
+        },
+        {
+          "n": 13,
+          "t": "dans-disquietings depuis-visions-de nuit ; dans-tomber torpeur sur hommes."
+        },
+        {
+          "n": 14,
+          "t": "dread a-arrivé-moi et-gjzy ; et-multitude-de os-de-moi a-fait-révérer."
+        },
+        {
+          "n": 15,
+          "t": "et-esprit sur faces-de-moi changera ; hair-de chair-de-moi ghfdera."
+        },
+        {
+          "n": 16,
+          "t": "restera et-non je-ferai-reconnaître aspect-de-lui forme devant yeux-de-moi ; calme et-voix je-écouterai."
+        },
+        {
+          "n": 17,
+          "t": "est-ce-personne depuis-god givgera ; si depuis-faisant-de-lui guerrier pura."
+        },
+        {
+          "n": 18,
+          "t": "voilà dans-serviteurs-de-lui non il-fera-supporter ; et-dans-messagers-de-lui il-mettra error."
+        },
+        {
+          "n": 19,
+          "t": "même habitants-de maisons-de argile qui dans-le-poussière fondement-de-eux ; ils-gbpxeront-eux à/pour-faces-de mite."
+        },
+        {
+          "n": 20,
+          "t": "depuis-matin à/pour-le-soir ils-seront-fait-broyer ; depuis-nul-de faisant-mettre à/pour-éminence ils-périront."
+        },
+        {
+          "n": 21,
+          "t": "est-ce-non cord-de-eux a-été-retiré dans-eux ; ils-mourront et-non dans-sagesse."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "appele donc est-ce-substance répondant-de-toi ; et-vers lequel depuis-saints tu-tourneras."
+        },
+        {
+          "n": 2,
+          "t": "car à/pour-sot vexations tuera ; et-séduiant jalousie fera-mourir."
+        },
+        {
+          "n": 3,
+          "t": "je ai-vu sot faisant-déraciner ; et-je-ai-gjeeé demeure-de-lui soudain."
+        },
+        {
+          "n": 4,
+          "t": "fils-de-lui éloigneront depuis-salut ; et-ils-gbpxeront dans-le-porte et-néant faisant-délivrer."
+        },
+        {
+          "n": 5,
+          "t": "qui moisson-de-lui hungry mangera et-vers depuis-épines prendra-lui ; et-a-reniflé gizvs compétence-de-eux."
+        },
+        {
+          "n": 6,
+          "t": "car non malheur ; sortira depuis-poussière et-depuis-sol non peiner poussera."
+        },
+        {
+          "n": 7,
+          "t": "car homme à/pour-peiner a-été-engendré ; et-fils-de étincelle feront-gazier voltiger."
+        },
+        {
+          "n": 8,
+          "t": "mais je fréquenterai vers El ; et-vers dieu je-mettrai cause-de-moi."
+        },
+        {
+          "n": 9,
+          "t": "faisant grandes et-néant investigation ; extraordinaiues jusqu'à néant nombre."
+        },
+        {
+          "n": 10,
+          "t": "le-donnant rain sur faces-de terre ; et-envoyant eaux sur faces-de dehors."
+        },
+        {
+          "n": 11,
+          "t": "à/pour-mettre humbles à/pour-ggbg ; et-gjfuants ils-ont-gkilé salut."
+        },
+        {
+          "n": 12,
+          "t": "faisant-rompre pensées-de rusés ; et-non elles-feront mains-de-eux succès."
+        },
+        {
+          "n": 13,
+          "t": "capturant sages dans-gideer-de-eux ; et-avis-de tortillés a-été-hâté."
+        },
+        {
+          "n": 14,
+          "t": "journellement ils-gihferont ténèbre ; et-comme-le-nuit ils-tâteront dans-les-middays."
+        },
+        {
+          "n": 15,
+          "t": "et-il-a-fait-sauver depuis-épée depuis-bouche-de-eux ; et-depuis-main-de fort indigent."
+        },
+        {
+          "n": 16,
+          "t": "cordon ; et-a-été à/pour-le-pauvre et-ghmtb a-fermé bouche-de-elle."
+        },
+        {
+          "n": 17,
+          "t": "voici god ; fera-corriger-lui bonheurs personne et-correction-de Almighty ne tu-rejetes."
+        },
+        {
+          "n": 18,
+          "t": "car lui fera-gedzer et-sellera ; il-gfhhera et-mains-de-lui elles-gkbgeront."
+        },
+        {
+          "n": 19,
+          "t": "dans-six angoisses il-fera-délivrer-toi ; et-dans-sept non il-touchera dans-toi mauvais."
+        },
+        {
+          "n": 20,
+          "t": "dans-famine il-a-sauvé-toi depuis-mort ; et-dans-guerre depuis-mains-de épée."
+        },
+        {
+          "n": 21,
+          "t": "dans-fouetter-de langue tu-seras-caché ; et-non tu-craindras depuis-dévastation car il-viendra."
+        },
+        {
+          "n": 22,
+          "t": "à/pour-dévastation et-à/pour-faim tu-riras ; et-depuis-fauve-de la-terre ne tu-craindes."
+        },
+        {
+          "n": 23,
+          "t": "car avec pierres-de le-champ alliance-de-toi ; et-fauve-de le-champ a-été-fait-gkuqber à/pour-toi-f."
+        },
+        {
+          "n": 24,
+          "t": "et-tu-as-su car paix tente-de-toi ; et-tu-as-visité demeure-de-toi et-non tu-pécheras."
+        },
+        {
+          "n": 25,
+          "t": "et-tu-as-su car nombreux semence-de-toi ; et-résultats-de-toi comme-plante-de la-terre."
+        },
+        {
+          "n": 26,
+          "t": "tu-viendras dans-vigueur vers sépulcre ; comme-monter gerbe dans-heure-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "voici celle-ci nous-avons-examiné-elle ainsi lui ; écoute-elle et-tu sache à/pour-toi-f."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "if peser vexations-de-moi sera-pesé ; et-calamité-de-moi et-gbvr-de-moi dans-balances ils-porteront unitedness."
+        },
+        {
+          "n": 3,
+          "t": "car maintenant depuis-sable-de mers il-honora ; sur ainsi paroles-de-moi ont-avalé."
+        },
+        {
+          "n": 4,
+          "t": "car flèches-de Almighty auprès-moi qui colère-de-eux buvante esprit-de-moi ; terreurs-de god arrangeront-moi."
+        },
+        {
+          "n": 5,
+          "t": "wild est-ce-hurlera sur herbe ; si bœuf mugira sur fourrage-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "est-ce-il-sera-mangé insipide depuis-nul-de sel ; si substance goût dans-salive-de mallow."
+        },
+        {
+          "n": 7,
+          "t": "âme-de-moi ; a-refusé à/pour-toucher eux comme-langueur-de pain-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "lequel il-donnera petition-de-moi viendra ; god donnera et-cordon-de-moi."
+        },
+        {
+          "n": 9,
+          "t": "god et-fasse-consentir et-gbpxera-moi ; main-de-lui fasse-ggzqber et-gatrera-moi."
+        },
+        {
+          "n": 10,
+          "t": "consolation-de-moi et-soit encore et-je-gheae dans-agony non il-spara ; car non je-ai-caché émissions-de saint."
+        },
+        {
+          "n": 11,
+          "t": "quoi force-de-moi car je-attendrai ; et-quoi fin-de-moi car je-ferai-prolonger âme-de-moi."
+        },
+        {
+          "n": 12,
+          "t": "si force-de pierres force-de-moi ; si chair-de-moi bronze."
+        },
+        {
+          "n": 13,
+          "t": "est-ce-si néant secours-de-moi dans-moi ; et-succès a-été-banni depuis-moi."
+        },
+        {
+          "n": 14,
+          "t": "à/pour-le-despairing ami-de-lui faveur ; et-gdyt-de Almighty il-abandonnera."
+        },
+        {
+          "n": 15,
+          "t": "frères-de-moi ont-gahné comme torrent ; comme-canal-de torrents ils-passeront."
+        },
+        {
+          "n": 16,
+          "t": "les-gjfuants depuis glace ; sur-eux neige cachera."
+        },
+        {
+          "n": 17,
+          "t": "dans-heure ils-dessécheront ils-ont-été-extirpé ; dans-chaleur-de-lui ils-ont-été-gbrzé depuis-lieu-de-eux."
+        },
+        {
+          "n": 18,
+          "t": "sentiers-de chemin-de-eux seront-geuqés ; ils-monteront dans-le-informe et-ils-périront."
+        },
+        {
+          "n": 19,
+          "t": "sentiers-de Tema ont-fait-regarder ; walks-de Sheba ont-espéré à/pour-eux."
+        },
+        {
+          "n": 20,
+          "t": "ils-ont-rougi car il-a-confié ; ils-sont-venu jusqu'à-elle et-ils-ont-gcxgé."
+        },
+        {
+          "n": 21,
+          "t": "car maintenant vous-avez-été non à/pour-lui ; vous-verrez terreur et-vous-avez-craint."
+        },
+        {
+          "n": 22,
+          "t": "est-ce-car je-ai-dit pourvoir à/pour-moi ; et-depuis-force-de-vous gkniez derrière-moi."
+        },
+        {
+          "n": 23,
+          "t": "et-sauvez-moi depuis-main-de étroit ; et-depuis-main-de terrifiants vous-sauverez-moi."
+        },
+        {
+          "n": 24,
+          "t": "faites-show-moi et-je ferai-labourer ; et-quoi je-ai-erré faites-discerner à/pour-moi."
+        },
+        {
+          "n": 25,
+          "t": "quoi émissions-de gecr ont-été-ggcxé ; et-quoi il-fera-corriger faire-corriger depuis-vous."
+        },
+        {
+          "n": 26,
+          "t": "est-ce-à/pour-le-faire-corriger discours vous-penserez ; et-à/pour-esprit émissions-de désespéré."
+        },
+        {
+          "n": 27,
+          "t": "même sur orphelin vous-ferez-tomber ; et-vous-percerez sur ami-de-vous."
+        },
+        {
+          "n": 28,
+          "t": "et-maintenant faites-consentir tournez dans-moi ; et-sur faces-de-vous si je-manquerai."
+        },
+        {
+          "n": 29,
+          "t": "retournez donc ne ghmtb soit ; et-retourne et-retournez encore justice-de-moi dans-elle."
+        },
+        {
+          "n": 30,
+          "t": "est-ce-substance dans-langue-de-moi ghmtb ; si goûter-de-moi non discernera gbvrs."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "est-ce-non armée à/pour-personne sur terre ; et-comme-jours-de loué jours-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "comme-serviteur ombre reniflera ; et-comme-loué œuvre-de-lui espérera."
+        },
+        {
+          "n": 3,
+          "t": "ainsi je-ai-été-fait-hériter à/pour-moi lunes-de vanité ; et-nuits-de peiner ont-calculé à/pour-moi."
+        },
+        {
+          "n": 4,
+          "t": "si je-ai-menti et-je-ai-dit ggid je-leverai soir et-a-continué ; et-je-ai-rassasié ballottements jusqu'à crépuscule."
+        },
+        {
+          "n": 5,
+          "t": "chair-de-moi a-vêtu gjye et-croûte-de poussière ; peau-de-moi a-agi et-a-été-gewjbé."
+        },
+        {
+          "n": 6,
+          "t": "jours-de-moi ont-légé depuis navette ; et-ils-ont-achevé dans-finalité-de cordon."
+        },
+        {
+          "n": 7,
+          "t": "rappele car esprit vies-de-moi ; non œil-de-moi retournera à/pour-voir bien."
+        },
+        {
+          "n": 8,
+          "t": "non œil-de observera-moi spectacle ; yeux-de-toi dans-moi et-néant-moi."
+        },
+        {
+          "n": 9,
+          "t": "nuageux a-achevé et-est-allé ; ainsi descendant scheol non montera."
+        },
+        {
+          "n": 10,
+          "t": "non il-retournera encore à/pour-maison-de-lui ; et-non lieu-de-lui fera-reconnaître-lui encore."
+        },
+        {
+          "n": 11,
+          "t": "aussi je non restreindrai bouche-de-moi parlerai dans-distress-de esprit-de-moi ; je-méditerai dans-amer-de âme-de-moi."
+        },
+        {
+          "n": 12,
+          "t": "je est-ce-mer si dragon ; car tu-mettras sur-moi prison."
+        },
+        {
+          "n": 13,
+          "t": "car je-ai-dit divan-de-moi consolera-moi ; bed-de-moi portera dans-plainte-de-moi."
+        },
+        {
+          "n": 14,
+          "t": "et-tu-as-gdfeé-moi dans-songes ; et-depuis-visions tu-terrifieras-moi."
+        },
+        {
+          "n": 15,
+          "t": "et-a-choisi suffocation âme-de-moi ; mort depuis-os-de-moi."
+        },
+        {
+          "n": 16,
+          "t": "je-ai-rejeté non à/pour-durée je-guérirai ; cesse depuis-moi car vanity jours-de-moi."
+        },
+        {
+          "n": 17,
+          "t": "quoi personne car tu-croîtras-lui ; et-car tu-poseras vers-lui cœur-de-toi."
+        },
+        {
+          "n": 18,
+          "t": "et-tu-as-visité-lui à/pour-matins ; à/pour-moments tu-éprouveras-lui."
+        },
+        {
+          "n": 19,
+          "t": "comme-quoi non tu-regarderas depuis-moi ; non tu-feras-baisser-moi jusqu'à engloutir-de-moi salive-de-moi."
+        },
+        {
+          "n": 20,
+          "t": "je-ai-péché quoi je-ouvrerai à/pour-toi-f surveillant-de le-homme à/pour-quoi tu-as-mis-moi à/pour-marquée à/pour-toi-f ; et-je-ai-été sur-moi à/pour-charge."
+        },
+        {
+          "n": 21,
+          "t": "et-quoi non tu-porteras forfait-de-moi et-tu-feras-passer iniquité-de-moi car maintenant à/pour-le-poussière je-mentirai ; et-tu-as-cherché-moi et-néant-moi."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Bildad le-Shuhite et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "jusqu'à where tu-prononceras ces ; et-esprit puissant émissions-de bouche-de-toi."
+        },
+        {
+          "n": 3,
+          "t": "est-ce-El ghnsera jugement ; et-si Almighty ghnsera justice."
+        },
+        {
+          "n": 4,
+          "t": "si fils-de-toi ont-péché à/pour-lui ; et-il-a-envoyé-eux dans-main-de forfait-de-eux."
+        },
+        {
+          "n": 5,
+          "t": "si tu chercheras vers El ; et-vers Almighty tu-gracieras."
+        },
+        {
+          "n": 6,
+          "t": "si propre et-droit tu car maintenant il-fera-éveiller sur-toi ; demeure-de justice-de-toi et-a-gkuqaé."
+        },
+        {
+          "n": 7,
+          "t": "et-a-été commencement-de-toi little ; et-end-de-toi il-gkioaera très."
+        },
+        {
+          "n": 8,
+          "t": "car demande donc à/pour-période premier ; et-affermis à/pour-investigation-de pères-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "car auparavant nous et-non saurons ; car ombre jours-de-nous sur terre."
+        },
+        {
+          "n": 10,
+          "t": "est-ce-non eux feront-show-toi diront à/pour-toi-f ; et-depuis-cœur-de-eux ils-feront-sortir discours."
+        },
+        {
+          "n": 11,
+          "t": "jonc est-ce-gaypera dans-non marais ; roseaux gkioaera nul eaux."
+        },
+        {
+          "n": 12,
+          "t": "encore-de-lui dans-greenery-de-lui non il-sera-arraché ; et-à/pour-faces-de tout-de herbage il-flétrira."
+        },
+        {
+          "n": 13,
+          "t": "ainsi sentiers-de tout-de ignorants-de El ; et-cordon-de profane périra."
+        },
+        {
+          "n": 14,
+          "t": "qui flanc-de-lui gjhvera ; et-maison-de araignée confiance-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "maison-de-lui sera-appuyé sur et-non restera ; il-fera-fortifier dans-lui et-non il-levera."
+        },
+        {
+          "n": 16,
+          "t": "moite lui à/pour-faces-de soleil ; et-sur jardin-de-lui rameau-de-lui sortira."
+        },
+        {
+          "n": 17,
+          "t": "sur source racines-de-lui entrelaceront ; galpa-de pierres apercevoira."
+        },
+        {
+          "n": 18,
+          "t": "si il-engloutira-lui depuis-lieu-de-lui ; et-il-a-renié dans-lui non je-ai-vu-toi."
+        },
+        {
+          "n": 19,
+          "t": "voilà lui joie-de chemin-de-lui ; et-depuis-poussière autre ils-pousseront."
+        },
+        {
+          "n": 20,
+          "t": "voilà El non rejetera parfait ; et-non il-fera-fortifier dans-main-de faisants-nuire."
+        },
+        {
+          "n": 21,
+          "t": "jusqu'à rire remplira bouche-de-toi ; et-lèvres-de-toi cri."
+        },
+        {
+          "n": 22,
+          "t": "gkzrants-de-toi ils-vêtiront honte ; et-tente-de méchants néant-lui."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "gue je-ai-su car ainsi ; et-quoi personne givgera avec El."
+        },
+        {
+          "n": 3,
+          "t": "si il-plaisira à/pour-gjwter avec-lui ; non il-répondra-lui une depuis mille."
+        },
+        {
+          "n": 4,
+          "t": "sage-de volonté et-puissant-de force ; lequel il-a-fait-durcir vers-lui et-il-a-gkuqaé."
+        },
+        {
+          "n": 5,
+          "t": "le-faisant-déplacer monts et-non ont-su ; qui il-a-tourné-eux dans-nez-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "le-faisant-enrager terre depuis-lieu-de-elle ; et-colonnes-de-elle trembleront."
+        },
+        {
+          "n": 7,
+          "t": "le-disant à/pour-le-Sun et-non il-apparaîtra ; et-derrière étoiles il-scellera."
+        },
+        {
+          "n": 8,
+          "t": "tendant ciels à/pour-seul-de-lui ; et-marchant sur crêtes-de mer."
+        },
+        {
+          "n": 9,
+          "t": "faisant bear orion et-pléiades et-chambres-de sud."
+        },
+        {
+          "n": 10,
+          "t": "faisant grandes jusqu'à néant investigation ; et-extraordinaiues jusqu'à néant nombre."
+        },
+        {
+          "n": 11,
+          "t": "voilà il-passera sur-moi et-non je-verrai ; et-il-changera et-non je-discernerai à/pour-lui."
+        },
+        {
+          "n": 12,
+          "t": "voilà il-emportera lequel il-fera-retourner-lui ; lequel il-dira vers-lui quoi tu-feras."
+        },
+        {
+          "n": 13,
+          "t": "god non fera-retourner nez-de-lui ; sous-lui ils-ont-gknqé aidants-de Rahaba."
+        },
+        {
+          "n": 14,
+          "t": "même car moi répondrai-lui ; je-choisisse paroles-de-moi avec-lui."
+        },
+        {
+          "n": 15,
+          "t": "qui si je-ai-givgé non je-répondrai ; à/pour-jugeant-de-moi je-gracierai."
+        },
+        {
+          "n": 16,
+          "t": "si je-ai-appelé et-il-a-répondu-moi ; non je-ferai-supporter car voix-de-moi fera-entendre."
+        },
+        {
+          "n": 17,
+          "t": "qui dans-orage il-écrasera-moi ; et-il-a-fait-multiplier blessures-de-moi librement."
+        },
+        {
+          "n": 18,
+          "t": "non donnera-moi faire-retourner esprit-de-moi ; car il-fera-rassasier-moi amertumes."
+        },
+        {
+          "n": 19,
+          "t": "si à/pour-force puissant voici ; et-si à/pour-jugement lequel il-fera-rencontrer-moi."
+        },
+        {
+          "n": 20,
+          "t": "si je-givgerai bouche-de-moi fera-méfaire-moi ; parfait je et-il-a-fait-gibder-moi."
+        },
+        {
+          "n": 21,
+          "t": "parfait je non saurai âme-de-moi rejeterai vies-de-moi."
+        },
+        {
+          "n": 22,
+          "t": "une lui sur ainsi je-ai-dit ; parfait et-méchant lui achevant."
+        },
+        {
+          "n": 23,
+          "t": "si fouetter fera-mourir soudain ; à/pour-test-de innocents il-ridiculisera."
+        },
+        {
+          "n": 24,
+          "t": "terre a-été-donné dans-main-de méchant faces-de jugeants-de-elle covera ; si non then lequel lui."
+        },
+        {
+          "n": 25,
+          "t": "et-jours-de-moi ont-légé depuis courant ; ils-ont-atteint non ils-ont-vu agréable."
+        },
+        {
+          "n": 26,
+          "t": "navires ont-changé avec jonc ; comme-aigle goj gdguera sur."
+        },
+        {
+          "n": 27,
+          "t": "si dire-de-moi je-ignore plainte-de-moi ; je-abandonne faces-de-moi et-je-fasse-sourire."
+        },
+        {
+          "n": 28,
+          "t": "je-ai-redouté tout-de dommages-de-moi ; je-ai-su car non tu-innocenteras-moi."
+        },
+        {
+          "n": 29,
+          "t": "moi méfairai ; à/pour-quoi celui-ci vanity je-peinerai."
+        },
+        {
+          "n": 30,
+          "t": "si je-ai-se-lavé dans dans-eaux-de neige ; et-je-ai-fait-gcdier dans-potasse palmes-de-moi."
+        },
+        {
+          "n": 31,
+          "t": "alors dans-la-pit tu-tremperas-moi ; manteaux-de-moi et-ont-glraé-moi."
+        },
+        {
+          "n": 32,
+          "t": "car non homme comme-moi je-répondrai-lui ; nous-viendrons union dans-le-jugement."
+        },
+        {
+          "n": 33,
+          "t": "if substance entre-nous faisant-corriger ; main-de-lui pose sur deux-de-nous."
+        },
+        {
+          "n": 34,
+          "t": "verge-de-lui ; fera-détourner sur-moi et-terreur-de-lui ne terrifie-moi."
+        },
+        {
+          "n": 35,
+          "t": "je-parle et-non je-craindrai-lui ; car non ainsi moi auprès-moi."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "âme-de-moi a-été-tiu dans-vies-de-moi je-abandonne sur-moi plainte-de-moi ; je-parle dans-amer-de âme-de-moi."
+        },
+        {
+          "n": 2,
+          "t": "je-dirai vers god ne tu-fasses-méfaire-moi ; fais-savoir-moi sur quoi tu-gjwteras-moi."
+        },
+        {
+          "n": 3,
+          "t": "est-ce-bon à/pour-toi car tu-violeras car tu-rejeteras besogne-de palmes-de-toi ; et-sur avis-de méchants tu-as-fait-briller."
+        },
+        {
+          "n": 4,
+          "t": "est-ce-yeux-de chair à/pour-toi-f ; si comme-voir personne tu-verras."
+        },
+        {
+          "n": 5,
+          "t": "est-ce-comme-jours-de personne jours-de-toi ; si années-de-toi comme-jours-de guerrier."
+        },
+        {
+          "n": 6,
+          "t": "car tu-chercheras à/pour-iniquité-de-moi ; et-à/pour-faute-de-moi tu-fréquenteras."
+        },
+        {
+          "n": 7,
+          "t": "sur connaissance-de-toi car non je-méfairai ; et-néant depuis-main-de-toi faisant-délivrer."
+        },
+        {
+          "n": 8,
+          "t": "mains-de-toi ils-ont-chagriné-moi et-ils-ont-fait-moi ; unitedness alentour et-tu-as-englouti-moi."
+        },
+        {
+          "n": 9,
+          "t": "rappele donc car comme-le-argile tu-as-fait-moi ; et-vers poussière tu-feras-retourner-moi."
+        },
+        {
+          "n": 10,
+          "t": "est-ce-non comme-le-lait tu-feras-verser-moi ; et-comme-la-fromage tu-feras-épaissir-moi."
+        },
+        {
+          "n": 11,
+          "t": "peau et-chair tu-feras-vêtir-moi ; et-dans-os et-nerfs tu-ghdnferas-moi."
+        },
+        {
+          "n": 12,
+          "t": "vies et-faveur tu-as-fait auprès-moi ; et-châtiment-de-toi a-gardé esprit-de-moi."
+        },
+        {
+          "n": 13,
+          "t": "et-ces tu-as-caché dans-volonté-de-toi ; je-ai-su car celle-ci avec-toi-f."
+        },
+        {
+          "n": 14,
+          "t": "si je-ai-péché et-tu-as-gardé-moi ; et-depuis-iniquité-de-moi non tu-innocenteras-moi."
+        },
+        {
+          "n": 15,
+          "t": "si je-ai-méfait grl à/pour-moi et-je-ai-givgé non je-porterai tête-de-moi ; rassasié-de honte et-gjpze affliction-de-moi."
+        },
+        {
+          "n": 16,
+          "t": "et-il-gaypera comme-le-gknz tu-givwaeras-moi ; et-tu-retourneras tu-extraordinairas dans-moi."
+        },
+        {
+          "n": 17,
+          "t": "tu-renouveleras witness-de-toi devant-moi et-tu-fasses-multiplier vexations-de-toi auprès-moi ; rechanges et-armée avec-moi."
+        },
+        {
+          "n": 18,
+          "t": "et-à/pour-quoi depuis-matrice tu-as-fait-sortir-moi ; je-expirerai et-œil non verra-moi."
+        },
+        {
+          "n": 19,
+          "t": "comme-lorsque non je-ai-été je-serai ; depuis-ventre à/pour-le-sépulcre je-serai-fait-apporter."
+        },
+        {
+          "n": 20,
+          "t": "est-ce-non peu jours-de-moi il-cesse et-cesse ; il-pose et-pose depuis-moi et-je-fasse-sourire peu."
+        },
+        {
+          "n": 21,
+          "t": "dans-avant je-irai et-non je-retournerai ; vers terre-de ténèbre et-shadow."
+        },
+        {
+          "n": 22,
+          "t": "terre-de darkness comme obscurité-de shadow et-non arrangements et-a-fait-briller comme obscurité."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Zophar le-Naamathite et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "est-ce-multitude-de paroles non sera-répondu ; et-si homme lèvres givgera."
+        },
+        {
+          "n": 3,
+          "t": "mensonges-de-toi mans feront-labourer ; et-tu-as-ridiculisé et-néant faisant-insulter."
+        },
+        {
+          "n": 4,
+          "t": "et-tu-as-dit propre enseignement-de-moi ; et-clair je-ai-été dans-yeux-de-toi."
+        },
+        {
+          "n": 5,
+          "t": "et-mais lequel god donnera parle ; et-il-gitaaera lèvres-de-lui avec-toi-f."
+        },
+        {
+          "n": 6,
+          "t": "et-fera-annoncer à/pour-toi secrets-de sagesse car doubles à/pour-succès et-sache car god fera-priver à/pour-toi depuis-iniquité-de-toi."
+        },
+        {
+          "n": 7,
+          "t": "est-ce-le-investigation-de god tu-trouveras ; si jusqu'à consommation-de Almighty tu-trouveras."
+        },
+        {
+          "n": 8,
+          "t": "hauteurs-de ciels quoi tu-ouvreras ; profonde depuis-scheol quoi tu-sauras."
+        },
+        {
+          "n": 9,
+          "t": "longe depuis-terre mesure-de-elle ; et-large depuis mer."
+        },
+        {
+          "n": 10,
+          "t": "si il-changera et-il-fera-fermer ; et-il-fera-assembler et-lequel il-fera-retourner-lui."
+        },
+        {
+          "n": 11,
+          "t": "car lui a-su mans-de vanité ; malheur et-a-vu et-non discernera."
+        },
+        {
+          "n": 12,
+          "t": "et-homme creusé sera-geqaaé ; et-colt-de wild homme sera-engendré."
+        },
+        {
+          "n": 13,
+          "t": "si tu as-fait-affermir cœur-de-toi ; et-tu-as-étendu vers-lui palme-de-toi."
+        },
+        {
+          "n": 14,
+          "t": "si malheur dans-main-de-toi fais-éloigner-lui ; et-ne tu-fasses-habiter dans-tentes-de-toi ghmtb."
+        },
+        {
+          "n": 15,
+          "t": "car alors tu-porteras faces-de-toi depuis-défaut ; et-tu-as-été été-fait-verser et-non tu-craindras."
+        },
+        {
+          "n": 16,
+          "t": "car tu peiner ignoreras ; comme-eaux ils-ont-passé tu-rappeleras."
+        },
+        {
+          "n": 17,
+          "t": "et-depuis-middays lifetime levera ; elle-ghnbbera-hé comme-le-matin elle-sera."
+        },
+        {
+          "n": 18,
+          "t": "et-tu-as-confié car substance cordon ; et-tu-as-creusé à/pour-sécurité tu-mentiras."
+        },
+        {
+          "n": 19,
+          "t": "et-tu-as-couché et-néant faisant-trembler ; faces-de-toi nombreux et-ont-supplié."
+        },
+        {
+          "n": 20,
+          "t": "et-yeux-de méchants elles-acheveront et-refuge a-péri depuis-eux ; et-cordon-de-eux expirant-de âme."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "gue car vous peuple ; et-avec-vous sagesse mourra."
+        },
+        {
+          "n": 3,
+          "t": "aussi à/pour-moi volonté comme-vous non tombant moi depuis-vous ; et-ensemble lequel néant comme ces."
+        },
+        {
+          "n": 4,
+          "t": "rire à/pour-ami-de-lui je-serai appelant à/pour-god et-a-répondu-lui ; rire juste entier."
+        },
+        {
+          "n": 5,
+          "t": "à/pour-le-torche mépris à/pour-pensée-de tranquille ; affermi à/pour-glissants-de pied."
+        },
+        {
+          "n": 6,
+          "t": "tentes à/pour-dévastants gksueront et-sécurités à/pour-faisants-enrager-de El ; à/pour-qui god a-fait-venir dans-main-de-lui."
+        },
+        {
+          "n": 7,
+          "t": "et-mais demande donc bêtes et-elle-fera-show-toi ; et-oiseau-de les-ciels et-fera-annoncer à/pour-toi-f."
+        },
+        {
+          "n": 8,
+          "t": "ou médite à/pour-la-terre et-elle-fera-show-toi ; fishs-de le-mer et-compteront à/pour-toi."
+        },
+        {
+          "n": 9,
+          "t": "lequel non il-a-su dans-tout-de ces ; car main-de YHWH a-fait celle-ci."
+        },
+        {
+          "n": 10,
+          "t": "qui dans-main-de-lui âme-de tout-de vivant ; et-esprit-de tout-de chair-de homme."
+        },
+        {
+          "n": 11,
+          "t": "est-ce-non oreille discours éprouvera ; et-goûter goj percevoira à/pour-lui."
+        },
+        {
+          "n": 12,
+          "t": "dans-ageds sagesse ; et-longueur-de jours intelligence."
+        },
+        {
+          "n": 13,
+          "t": "avec-lui sagesse et-might ; à/pour-lui avis et-intelligence."
+        },
+        {
+          "n": 14,
+          "t": "voilà il-renversera et-non il-sera-bâti ; homme fermera sur et-non sera-gitaaé."
+        },
+        {
+          "n": 15,
+          "t": "voilà il-clora dans-les-eaux et-ils-flétriront ; et-envoyera-eux et-ils-tourneront terre."
+        },
+        {
+          "n": 16,
+          "t": "avec-lui puissance et-succès ; à/pour-lui go et-faisant-errer."
+        },
+        {
+          "n": 17,
+          "t": "faisant-aller conseillants nu-pied ; et-jugeants il-gbxhcera."
+        },
+        {
+          "n": 18,
+          "t": "correction-de rois a-gitaaé ; girdle et-a-lié dans-hanches-de-eux."
+        },
+        {
+          "n": 19,
+          "t": "faisant-aller sacrificateurs nu-pied ; et-perpétuels il-pervertira."
+        },
+        {
+          "n": 20,
+          "t": "faisant-détourner lèvre à/pour-supportés ; et-goût-de vieux prendra."
+        },
+        {
+          "n": 21,
+          "t": "répandant mépris sur nobles ; et-gfetb-de canals a-baissé."
+        },
+        {
+          "n": 22,
+          "t": "découvrant profondes depuis ténèbre ; shadow et-a-fait-sortir à/pour-la-lumière."
+        },
+        {
+          "n": 23,
+          "t": "faisant-gkiier à/pour-les-nations et-il-a-péri-eux ; gkowant à/pour-les-nations et-il-a-fait-conduire-eux."
+        },
+        {
+          "n": 24,
+          "t": "faisant-détourner cœur-de têtes-de peuple-de la-terre ; et-a-fait-chanceler-eux dans-informe non chemin."
+        },
+        {
+          "n": 25,
+          "t": "ils-tâteront ténèbre et-non lumière ; et-il-a-fait-chanceler-eux comme-le-drunken."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "voilà œil-de-moi ; a-vu tout oreille-de-moi a-écouté et-a-discerné à/pour-elle."
+        },
+        {
+          "n": 2,
+          "t": "comme-connaissance-de-vous je ; ai-su aussi non tombant moi depuis-vous."
+        },
+        {
+          "n": 3,
+          "t": "mais je vers Almighty parlerai ; et-faire-corriger vers El je-plaisirai."
+        },
+        {
+          "n": 4,
+          "t": "et-mais vous salissants-de mensonge ; gkbgeants-de idole tout-de-vous."
+        },
+        {
+          "n": 5,
+          "t": "lequel il-donnera faire-labourer vous-ferez-labourer ; et-elle-sera à/pour-vous à/pour-sagesse."
+        },
+        {
+          "n": 6,
+          "t": "écoutez donc correction-de-moi ; et-disputes-de lèvres-de-moi faites-guetter."
+        },
+        {
+          "n": 7,
+          "t": "est-ce-à/pour-le-El vous-parlerez ghmtb ; et-à/pour-lui vous-parlerez paresse."
+        },
+        {
+          "n": 8,
+          "t": "est-ce-faces-de-lui vous-porterez ; si à/pour-le-El vous-gjwterez."
+        },
+        {
+          "n": 9,
+          "t": "est-ce-bon car il-examinera vous ; si comme-faire-gbztber dans-personne vous-ferez-gbztber dans-lui."
+        },
+        {
+          "n": 10,
+          "t": "faire-corriger il-fera-corriger vous ; si dans-le-abri faces vous-porterez."
+        },
+        {
+          "n": 11,
+          "t": "est-ce-non dignité-de-lui terrifiera vous ; et-dread-de-lui tombera sur-vous."
+        },
+        {
+          "n": 12,
+          "t": "souvenirs-de-vous proverbes-de cendre ; à/pour-dos-de argile dos-de-vous."
+        },
+        {
+          "n": 13,
+          "t": "faites-labourer depuis-moi je et-parle ; et-il-passera sur-moi quoi."
+        },
+        {
+          "n": 14,
+          "t": "sur quoi je-porterai chair-de-moi dans-dents-de-moi ; et-âme-de-moi je-mettrai dans-palme-de-moi."
+        },
+        {
+          "n": 15,
+          "t": "voilà il-tuera-moi non à/pour-lui je-attendrai ; sûrement chemins-de-moi vers faces-de-lui je-ferai-corriger."
+        },
+        {
+          "n": 16,
+          "t": "aussi lui à/pour-moi à/pour-délivrance ; car non à/pour-faces-de-lui profane il-viendra."
+        },
+        {
+          "n": 17,
+          "t": "écoutez écouter discours-de-moi ; et-déclaration-de-moi dans-oreilles-de-vous."
+        },
+        {
+          "n": 18,
+          "t": "voici donc je-ai-arrangé jugement ; je ai-su car givgerai."
+        },
+        {
+          "n": 19,
+          "t": "lequel lui gjwtera auprès-moi ; car maintenant je-ferai-labourer et-je-expirerai."
+        },
+        {
+          "n": 20,
+          "t": "sûrement deux ne tu-fasses auprès-moi ; alors depuis-faces-de-toi non je-serai-caché."
+        },
+        {
+          "n": 21,
+          "t": "palme-de-toi sur-moi fais-éloigner ; et-terreur-de-toi ne terrifie-moi."
+        },
+        {
+          "n": 22,
+          "t": "et-appele et-moi répondrai ; ou je-parlerai et-fais-retourner-moi."
+        },
+        {
+          "n": 23,
+          "t": "comme-quoi à/pour-moi iniquités et-fautes ; forfait-de-moi et-faute-de-moi fais-savoir-moi."
+        },
+        {
+          "n": 24,
+          "t": "à/pour-quoi faces-de-toi tu-feras-cacher ; et-tu-penseras-moi à/pour-gmcçant à/pour-toi-f."
+        },
+        {
+          "n": 25,
+          "t": "est-ce-le-feuille dissipé tu-redouteras ; et-chaume sec tu-poursuivras."
+        },
+        {
+          "n": 26,
+          "t": "car tu-écriras sur-moi fiels ; et-tu-feras-déposséder-moi iniquités-de jeunesses-de-moi."
+        },
+        {
+          "n": 27,
+          "t": "et-tu-mettras dans-le-fers pieds-de-moi et-tu-garderas tout-de sentiers-de-moi ; sur racines-de pieds-de-moi tu-sculpteras."
+        },
+        {
+          "n": 28,
+          "t": "et-lui comme-pourriture gaotera ; comme-perfidie mite a-mangé-lui."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "homme engendré-de femme ; court-de jours et-rassasié-de trouble."
+        },
+        {
+          "n": 2,
+          "t": "comme-flower il-est-sorti et-il-a-ggsqaé ; et-il-a-atteint comme-le-ombre et-non il-restera."
+        },
+        {
+          "n": 3,
+          "t": "même sur celui-ci tu-as-ouvert œil-de-toi ; et-moi tu-feras-venir dans-jugement avec-toi-f."
+        },
+        {
+          "n": 4,
+          "t": "lequel il-donnera pur depuis-impur non un."
+        },
+        {
+          "n": 5,
+          "t": "si tranchés jours-de-lui nombre-de mois-de-lui ensemble-toi-f ; ordonnance-de-lui ordonnances-de-lui tu-as-fait et-non il-passera."
+        },
+        {
+          "n": 6,
+          "t": "regarde sur-lui et-il-cessera ; jusqu'à jour-de-lui gkcgera comme-loué."
+        },
+        {
+          "n": 7,
+          "t": "car substance à/pour-le-arbre cordon si il-sera-coupé et-encore il-fera-changer ; et-rameau-de-lui non cessera."
+        },
+        {
+          "n": 8,
+          "t": "si racine-de-lui ; fera-vieillir dans-la-terre et-dans-le-poussière tronc-de-lui mourra."
+        },
+        {
+          "n": 9,
+          "t": "depuis-odeur-de eaux il-fera-fleurir ; foliage et-a-fait comme plantation."
+        },
+        {
+          "n": 10,
+          "t": "et-guerrier mourra et-a-gcrzé ; homme et-a-expiré et-gmh-lui."
+        },
+        {
+          "n": 11,
+          "t": "eaux ont-disparaîtu depuis mer ; et-fleuve gczmaera et-a-flétri."
+        },
+        {
+          "n": 12,
+          "t": "et-homme a-menti et-non levera jusqu'à sans ciels non feront-éveiller ; et-non ils-seront-éveillés depuis-sommeil-de-eux."
+        },
+        {
+          "n": 13,
+          "t": "lequel donnera dans-scheol tu-feras-cacher-moi tu-feras-cacher-moi jusqu'à retourner nez-de-toi ; tu-poseras à/pour-moi ordonnance et-tu-rappeleras-moi."
+        },
+        {
+          "n": 14,
+          "t": "si guerrier mourra est-ce-guérira tout-de jours-de armée-de-moi je-attendrai ; jusqu'à venir rechange-de-moi."
+        },
+        {
+          "n": 15,
+          "t": "tu-appeleras et-moi répondrai-toi ; à/pour-acte-de mains-de-toi tu-désireras."
+        },
+        {
+          "n": 16,
+          "t": "car maintenant pas-de-moi tu-compteras ; non tu-garderas sur faute-de-moi."
+        },
+        {
+          "n": 17,
+          "t": "scellé dans-paquet forfait-de-moi ; et-tu-as-sali sur iniquité-de-moi."
+        },
+        {
+          "n": 18,
+          "t": "et-mais mont tombant withera ; et-rocher déplacera depuis-lieu-de-lui."
+        },
+        {
+          "n": 19,
+          "t": "pierres ont-réduiu eaux elle-débordera outpourings-de-elle poussière-de terre ; et-cordon-de personne tu-as-fait-périr."
+        },
+        {
+          "n": 20,
+          "t": "tu-accableras-lui à/pour-éminence et-il-a-marché ; changeant faces-de-lui et-tu-as-envoyé-lui."
+        },
+        {
+          "n": 21,
+          "t": "fils-de-lui honoront et-non il-saura ; et-ils-gjbgeront et-non il-discernera à/pour-eux."
+        },
+        {
+          "n": 22,
+          "t": "sûrement chair-de-lui sur-lui gedzera ; et-âme-de-lui sur-lui gbdera."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Eliphaz le-Temanite et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "est-ce-le-sage il-répondra connaissance-de esprit ; orient et-remplira ventre-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "faire-corriger dans-parole non il-ghdtera ; et-discours non il-fera-profiter dans-eux."
+        },
+        {
+          "n": 4,
+          "t": "même tu feras-rompre gdyt ; et-tu-gbkaeras méditation à/pour-faces-de El."
+        },
+        {
+          "n": 5,
+          "t": "car iniquité-de-toi apprendra bouche-de-toi ; et-tu-choisiras langue-de rusés."
+        },
+        {
+          "n": 6,
+          "t": "bouche-de-toi fera-méfaire-toi et-non je ; et-lèvres-de-toi ils-répondront dans-toi-f."
+        },
+        {
+          "n": 7,
+          "t": "est-ce-premier homme tu-seras-engendré ; et-à/pour-faces-de Gibata tu-as-été-tremblé."
+        },
+        {
+          "n": 8,
+          "t": "est-ce-dans-conseil-de god tu-écouteras ; et-tu-gbkaeras vers-toi sagesse."
+        },
+        {
+          "n": 9,
+          "t": "quoi tu-as-su et-non nous-saurons ; tu-discerneras et-non avec-nous lui."
+        },
+        {
+          "n": 10,
+          "t": "aussi gkpoant aussi aged dans-nous ; puissant depuis-père-de-toi jours."
+        },
+        {
+          "n": 11,
+          "t": "est-ce-peu depuis-toi consolations-de El ; et-parole à/pour-douceur avec-toi-f."
+        },
+        {
+          "n": 12,
+          "t": "quoi cœur-de-toi prendra-toi ; et-quoi ils-cligneront yeux-de-toi."
+        },
+        {
+          "n": 13,
+          "t": "car tu-feras-retourner vers El esprit-de-toi ; et-tu-as-fait-sortir depuis-bouche-de-toi discours."
+        },
+        {
+          "n": 14,
+          "t": "quoi personne car gcdcera ; et-car il-givgera engendré-de femme."
+        },
+        {
+          "n": 15,
+          "t": "voilà dans-saint-de-lui dans-saints-de-lui non il-fera-supporter ; et-ciels non ont-gcdié dans-yeux-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "même car glraé et-gqbé ; homme buvant comme-les-eaux ghmtb."
+        },
+        {
+          "n": 17,
+          "t": "je-montrerai-toi écoute à/pour-moi ; et-celui-ci je-ai-apercevoir et-je-compte."
+        },
+        {
+          "n": 18,
+          "t": "qui sages ils-feront-annoncer ; et-non ils-ont-caché depuis-pères-de-eux."
+        },
+        {
+          "n": 19,
+          "t": "à/pour-eux à/pour-seul-de-eux la-terre a-été-donné ; et-non il-a-passé stranger dans-milieu-de-eux."
+        },
+        {
+          "n": 20,
+          "t": "tout-de jours-de méchant lui tremblé ; et-nombre-de années ils-ont-été-caché à/pour-la-terrifiante."
+        },
+        {
+          "n": 21,
+          "t": "voix-de dreads dans-oreilles-de-lui ; dans-le-paix dévastant il-viendra-lui."
+        },
+        {
+          "n": 22,
+          "t": "non fera-supporter retourner depuis ténèbre ; et-regardé lui vers épée."
+        },
+        {
+          "n": 23,
+          "t": "déménageant lui à/pour-le-pain gmh ; a-su car affermi dans-main-de-lui jour-de ténèbre."
+        },
+        {
+          "n": 24,
+          "t": "ils-terrifieront-lui distress et-gène ; elle-accablera-lui comme-roi prêt à/pour-le-combat."
+        },
+        {
+          "n": 25,
+          "t": "car El a-tendu vers main-de-lui ; et-vers Almighty prévaloira."
+        },
+        {
+          "n": 26,
+          "t": "il-courra vers-lui dans-cou ; dans-épaisseur-de dos-de boucliers-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "car il-a-cové faces-de-lui dans-gras-de-lui ; et-a-fait excess sur flanc."
+        },
+        {
+          "n": 28,
+          "t": "et-il-a-habité villes cachées maisons non habiteront à/pour-eux ; qui ils-ont-se-gifqé à/pour-sources."
+        },
+        {
+          "n": 29,
+          "t": "non enrichira et-non compétence-de-lui levera ; et-non gain-de-eux tendra à/pour-la-terre."
+        },
+        {
+          "n": 30,
+          "t": "non ténèbre détournera depuis rameau-de-lui flétrira flamme ; et-il-détournera dans-esprit-de bouche-de-lui."
+        },
+        {
+          "n": 31,
+          "t": "ne il-fasse-supporter dans-le-vanité il-a-été-chancelé ; car échange-de-lui sera vanité."
+        },
+        {
+          "n": 32,
+          "t": "dans-non jour-de-lui elle-sera-remplie ; et-branch-de-lui non a-gkazaé."
+        },
+        {
+          "n": 33,
+          "t": "unripe-de-lui ; brutalisera comme-la-vigne et-il-fera-jeter comme-le-olive fleur-de-lui."
+        },
+        {
+          "n": 34,
+          "t": "car assemblée-de profane stérile ; et-feu a-mangé tentes-de présent."
+        },
+        {
+          "n": 35,
+          "t": "concevoir peiner et-engendrer malheur ; et-ventre-de-eux fera-affermir tromperie."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "je-ai-écouté comme-ces nombreuses ; consolants-de peiner tout-de-vous."
+        },
+        {
+          "n": 3,
+          "t": "est-ce-fin à/pour-paroles-de esprit ; ou quoi il-fera-ggcxer-toi car tu-répondras."
+        },
+        {
+          "n": 4,
+          "t": "aussi moi comme-vous parle if substance âme-de-vous sous âme-de-moi fasse-unir sur-vous dans-discours ; et-je-fasse-errer sur-vous dans tête-de-moi."
+        },
+        {
+          "n": 5,
+          "t": "je-gugerai-vous dans bouche-de-moi ; et-solace-de lèvres-de-moi restreindra."
+        },
+        {
+          "n": 6,
+          "t": "si je-parle non douleur-de-moi sera-restreindu ; et-je-cesse quoi depuis-moi il-marchera."
+        },
+        {
+          "n": 7,
+          "t": "sûrement maintenant il-a-fait-gepoer-moi ; tu-as-fait-désoler tout-de assemblée-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "et-tu-as-seize-moi à/pour-witness il-a-été ; mensonge-de-moi et-est-levé dans-moi dans-faces-de-moi répondra."
+        },
+        {
+          "n": 9,
+          "t": "nez-de-lui a-arraché et-a-gkozé-moi a-grincé sur-moi dans-dents-de-lui ; étroit-de-moi aiguisera yeux-de-lui à/pour-moi."
+        },
+        {
+          "n": 10,
+          "t": "ils-ont-baillé sur-moi dans-bouche-de-eux dans-opprobre ils-ont-fait-frapper Lehi-de-moi ; unitedness sur-moi ils-rempliront."
+        },
+        {
+          "n": 11,
+          "t": "El fera-fermer-moi vers unjust ; et-sur mains-de méchants il-gdzsbera-moi."
+        },
+        {
+          "n": 12,
+          "t": "tranquille je-ai-été et-il-a-rompu-moi et-il-a-gjjé dans-cou-de-moi et-il-a-giiidé-moi ; et-il-a-fait-lever-moi à/pour-lui à/pour-but."
+        },
+        {
+          "n": 13,
+          "t": "archers-de-lui tourneront sur-moi il-gilbera rognons-de-moi et-non il-spara ; il-répandra à/pour-la-terre fiel-de-moi."
+        },
+        {
+          "n": 14,
+          "t": "brèche éclatera-moi sur faces-de brèche ; il-courra sur-moi comme-puissant."
+        },
+        {
+          "n": 15,
+          "t": "sac je-ai-cousu sur peau-de-moi ; et-je-ai-ghtydé dans-le-poussière corne-de-moi."
+        },
+        {
+          "n": 16,
+          "t": "faces-de-moi ont-fermenté depuis weeping ; et-sur paupières-de-moi shadow."
+        },
+        {
+          "n": 17,
+          "t": "sur non violence dans-palmes-de-moi ; et-prière-de-moi propre."
+        },
+        {
+          "n": 18,
+          "t": "terre ne tu-f-coves sang-de-moi ; et-ne lieu soit à/pour-cri-de-moi."
+        },
+        {
+          "n": 19,
+          "t": "aussi maintenant voici dans-les-ciels witness-de-moi ; et-témoin-de-moi dans-les-ggbgs."
+        },
+        {
+          "n": 20,
+          "t": "faisants-mépriser-de-moi amis-de-moi ; vers œil-de-moi a-dégoutté god."
+        },
+        {
+          "n": 21,
+          "t": "god ; et-fera-corriger à/pour-guerrier avec et-fils-de homme à/pour-ami-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "car années-de nombre ils-gafyeront ; et-sentier non je-retournerai je-marcherai."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "esprit-de-moi a-été-gchrbé jours-de-moi ont-été-gcfié sépulcres à/pour-moi."
+        },
+        {
+          "n": 2,
+          "t": "si non moqueurs auprès-moi ; et-dans-faire-ggazer-de-eux œil-de-moi logera."
+        },
+        {
+          "n": 3,
+          "t": "metts-hé donc échange-moi avec-toi-f ; lequel lui à/pour-main-de-moi sera-sonné."
+        },
+        {
+          "n": 4,
+          "t": "car cœur-de-eux tu-as-caché depuis-prudence ; sur ainsi non tu-éleveras."
+        },
+        {
+          "n": 5,
+          "t": "à/pour-part il-fera-annoncer amis ; et-yeux-de fils-de-lui elles-acheveront."
+        },
+        {
+          "n": 6,
+          "t": "et-il-a-fait-gdwter-moi à/pour-ggfzer peuples ; et-crachat à/pour-faces je-serai."
+        },
+        {
+          "n": 7,
+          "t": "œil-de-moi ; et-a-hésité depuis-vexations et-membres-de-moi comme-le-ombre tout-de-eux."
+        },
+        {
+          "n": 8,
+          "t": "ils-désoleront droits sur celle-ci ; et-innocent sur profane il-éveillera."
+        },
+        {
+          "n": 9,
+          "t": "et-gjjera juste chemin-de-lui ; et-pure-de force fera-ajouter mains."
+        },
+        {
+          "n": 10,
+          "t": "et-mais tout-de-eux vous-retournerez et-venez donc ; et-non je-trouverai dans-vous sage."
+        },
+        {
+          "n": 11,
+          "t": "jours-de-moi ont-passé plans-de-moi ont-été-extraiu ; possessions-de volonté-de-moi."
+        },
+        {
+          "n": 12,
+          "t": "nuit à/pour-jour ils-mettront ; lumière proche depuis-faces-de ténèbre."
+        },
+        {
+          "n": 13,
+          "t": "si je-espérerai scheol maison-de-moi ; dans-le-ténèbre je-ai-gkbné couches-de-moi."
+        },
+        {
+          "n": 14,
+          "t": "à/pour-la-pit je-ai-appelé père-de-moi tu ; mère-de-moi et-sœur-de-moi à/pour-la-gjye."
+        },
+        {
+          "n": 15,
+          "t": "et-gmh then cordon-de-moi ; et-cordon-de-moi lequel il-observera-elle."
+        },
+        {
+          "n": 16,
+          "t": "seuls-de scheol elles-descendront ; si unitedness sur poussière tranquillité."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Bildad le-Shuhite et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "jusqu'à where vous-mettrez pièges-de à/pour-discours ; vous-discernerez et-après nous-parlerons."
+        },
+        {
+          "n": 3,
+          "t": "why nous-avons-été-pensé comme-la-bête ; nous-avons-été-gdhué dans-yeux-de-vous."
+        },
+        {
+          "n": 4,
+          "t": "arrachant âme-de-lui dans-nez-de-lui est-ce-égard-toi sera-abandonnée terre ; rocher et-déplacera depuis-lieu-de-lui."
+        },
+        {
+          "n": 5,
+          "t": "aussi lumière-de méchants gbrzera ; et-non flamme-de feu-de-lui gglfera."
+        },
+        {
+          "n": 6,
+          "t": "lumière a-sombu dans-tente-de-lui ; et-lampe-de-lui sur-lui gbrzera."
+        },
+        {
+          "n": 7,
+          "t": "pas-de strength-de-lui noueront ; avis-de-lui et-fera-jeter-lui."
+        },
+        {
+          "n": 8,
+          "t": "car il-a-été-envoyé dans-net dans-pieds-de-lui ; et-sur maillage il-marchera."
+        },
+        {
+          "n": 9,
+          "t": "giiwa ; gjjera dans-talon il-fera-fortifier sur-lui gizvs."
+        },
+        {
+          "n": 10,
+          "t": "dissimulé dans-la-terre mahalab-de-lui ; et-trappe-de-lui sur sentier."
+        },
+        {
+          "n": 11,
+          "t": "terreurs ; ont-terrifié-lui alentour et-ils-ont-fait-éparpiller-lui à/pour-pieds-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "sera hungry strength-de-lui ; et-calamité affermi à/pour-côté-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "il-mangera seuls-de peau-de-lui ; mangera seuls-de-lui premier-né-de mort."
+        },
+        {
+          "n": 14,
+          "t": "confiance-de-lui ; sera-extraiu depuis-tente-de-lui et-elle-fera-gjaser-lui à/pour-roi-de terreurs."
+        },
+        {
+          "n": 15,
+          "t": "elle-habitera dans-tente-de-lui depuis-nul-de à/pour-lui ; demeure-de-lui dispersera sur soufre."
+        },
+        {
+          "n": 16,
+          "t": "sous racines-de-lui flétriront ; et-depuis-dessus foliage-de-lui ggsqaera."
+        },
+        {
+          "n": 17,
+          "t": "mémoire-de-lui a-péri depuis terre ; et-non nom à/pour-lui sur faces-de dehors."
+        },
+        {
+          "n": 18,
+          "t": "ils-chasseront-lui depuis-lumière vers ténèbre ; et-depuis-monde ils-feront-déménager-lui."
+        },
+        {
+          "n": 19,
+          "t": "non descendance à/pour-lui et-non postérité dans-peuple-de-lui ; et-néant reste dans-séjourners-de-lui."
+        },
+        {
+          "n": 20,
+          "t": "sur jour-de-lui ils-ont-été-désolé suivants ; et-orientals ils-ont-gjjé shuddering."
+        },
+        {
+          "n": 21,
+          "t": "sûrement ces tabernacles-de ghmu ; et-celui-ci lieu-de non a-su El."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "jusqu'à where vous-ferez-affliger âme-de-moi ; et-vous-gbpxerez-moi dans-discours."
+        },
+        {
+          "n": 3,
+          "t": "celui-ci tene fois vous-ferez-insulter-moi ; non vous-rougirez vous-ferez-gbwter à/pour-moi."
+        },
+        {
+          "n": 4,
+          "t": "et-même gue je-ai-erré ; ensemble-moi erreur-de-moi logera."
+        },
+        {
+          "n": 5,
+          "t": "si gue sur-moi vous-ferez-croître ; et-vous-ferez-corriger sur-moi opprobre-de-moi."
+        },
+        {
+          "n": 6,
+          "t": "sachez then car god a-ghnsé-moi ; et-filet-de-lui sur-moi a-fait-ggxfber."
+        },
+        {
+          "n": 7,
+          "t": "voilà je-crierai violence et-non je-serai-répondu ; je-gklterai et-néant jugement."
+        },
+        {
+          "n": 8,
+          "t": "sentier-de-moi a-gbcmé et-non je-passerai ; et-sur paths-de-moi ténèbre mettra."
+        },
+        {
+          "n": 9,
+          "t": "gloire-de-moi sur-moi a-fait-dépouiller ; et-il-a-fait-détourner couronne-de tête-de-moi."
+        },
+        {
+          "n": 10,
+          "t": "alentour renversera-moi et-je-suis-allé ; et-il-a-fait-retirer comme-le-arbre cordon-de-moi."
+        },
+        {
+          "n": 11,
+          "t": "nez-de-lui ; et-a-fait-embraser sur-moi et-il-a-pensé-moi à/pour-lui comme-étroits-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "unitedness troupes-de-lui viendront et-ont-frayé sur-moi chemin-de-eux ; et-ils-ont-campé alentour à/pour-tente-de-moi."
+        },
+        {
+          "n": 13,
+          "t": "frères-de-moi sur-moi il-a-fait-éloigner ; et-sachants-de-moi sûrement ils-ont-strangé depuis-moi."
+        },
+        {
+          "n": 14,
+          "t": "ils-ont-cessé proches-de-moi ; et-sus-de-moi ils-ont-ignoré-moi."
+        },
+        {
+          "n": 15,
+          "t": "séjournants-de maison-de-moi et-maidservants-de-moi à/pour-stranger penseront-moi ; étranger je-ai-été dans-yeux-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-serviteur-de-moi je-ai-appelé et-non il-répondra ; dans bouche-de-moi je-gracierai à/pour-lui."
+        },
+        {
+          "n": 17,
+          "t": "esprit-de-moi a-gcchbé à/pour-femme-de-moi ; et-je-ai-gcvcbé à/pour-fils-de ventre-de-moi."
+        },
+        {
+          "n": 18,
+          "t": "aussi garçons ont-rejeté dans-moi ; je-leve et-ils-ont-parlé dans-moi."
+        },
+        {
+          "n": 19,
+          "t": "ils-ont-glraé-moi tout-de mans-de conseil-de-moi ; et-celui-ci je-ai-aimé ils-ont-été-tourné dans-moi."
+        },
+        {
+          "n": 20,
+          "t": "dans-peau-de-moi et-dans-chair-de-moi os-de-moi a-collé ; et-je-ai-se-sauvé-hé dans-peau-de dents-de-moi."
+        },
+        {
+          "n": 21,
+          "t": "graciez-moi graciez-moi vous amis-de-moi ; car main-de god a-touché dans-moi."
+        },
+        {
+          "n": 22,
+          "t": "à/pour-quoi vous-poursuivrez-moi comme El ; et-depuis-chair-de-moi non vous-rassasierez."
+        },
+        {
+          "n": 23,
+          "t": "lequel il-donnera then et-ils-seront-écrits discours-de-moi ; lequel il-donnera dans-le-livre et-ils-seront-fait-graver."
+        },
+        {
+          "n": 24,
+          "t": "dans-style-de fer et-plomb ; à/pour-perpétuité dans-le-rocher ils-seront-carrièus."
+        },
+        {
+          "n": 25,
+          "t": "et-je ai-su rachetant-de-moi vivant ; et-suivant sur poussière levera."
+        },
+        {
+          "n": 26,
+          "t": "et-après peau-de-moi ils-ont-ggxfaé celle-ci ; et-depuis-chair-de-moi je-apercevoirai god."
+        },
+        {
+          "n": 27,
+          "t": "qui je apercevoirai à/pour-moi et-yeux-de-moi ils-ont-vu et-non stranger ; rognons-de-moi ont-achevé dans-sein-de-moi."
+        },
+        {
+          "n": 28,
+          "t": "car vous-direz quoi nous-poursuivrons à/pour-lui ; et-racine-de parole a-été-trouvé dans-moi."
+        },
+        {
+          "n": 29,
+          "t": "gbdycez à/pour-vous depuis-faces-de épée car colère iniquités-de épée ; égard vous-saurez que-judgment."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Zophar le-Naamathite et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "à/pour-ainsi disquietings-de-moi feront-retourner-moi ; et-cause gclwaer-de-moi dans-moi."
+        },
+        {
+          "n": 3,
+          "t": "correction-de confusion-de-moi je-écouterai ; et-esprit depuis-discernement-de-moi répondra-moi."
+        },
+        {
+          "n": 4,
+          "t": "est-ce-celle-ci tu-as-su depuis perpétuité ; depuis mettre homme sur terre."
+        },
+        {
+          "n": 5,
+          "t": "car triumphing-de méchants depuis-proche ; et-gaieté-de profane jusqu'à moment."
+        },
+        {
+          "n": 6,
+          "t": "si hauteur-de-lui ; montera à/pour-les-ciels et-tête-de-lui à/pour-le-nuée fera-toucher."
+        },
+        {
+          "n": 7,
+          "t": "comme-ordure-de-lui à/pour-éminence il-périra ; voyants-de-lui ils-diront où-lui."
+        },
+        {
+          "n": 8,
+          "t": "comme-songe il-voltigera et-non ils-trouveront-lui ; et-il-sera-fait-déménager comme-vision-de nuit."
+        },
+        {
+          "n": 9,
+          "t": "œil a-regardé-lui et-non fera-ajouter ; et-non encore elle-observera-lui lieu-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "fils-de-lui gkcgeront pauvres ; et-mains-de-lui elles-feront-retourner strength-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "os-de-lui ont-rempli ghtfs-de-lui ; et-avec-lui sur poussière elle-mentira."
+        },
+        {
+          "n": 12,
+          "t": "si mal ; fera-ggiser dans-bouche-de-lui langue-de-lui fera-cacher-elle sous."
+        },
+        {
+          "n": 13,
+          "t": "il-spara sur-elle et-non il-abandonnera-elle ; et-il-retenira-elle dans-milieu-de goûter-de-lui."
+        },
+        {
+          "n": 14,
+          "t": "pain-de-lui dans-entrailles-de-lui a-été-tourné ; fiel-de cobras dans-parmi-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "compétence a-englouti et-a-fait-vomir-lui ; depuis-ventre-de-lui El fera-déposséder-lui."
+        },
+        {
+          "n": 16,
+          "t": "venin-de cobras allaitera ; langue-de viper tuera-lui."
+        },
+        {
+          "n": 17,
+          "t": "ne il-voie dans-courants ; fleuves-de torrents-de miel et-crème."
+        },
+        {
+          "n": 18,
+          "t": "faisant-retourner salaire et-non engloutira ; comme-compétence-de échange-de-lui et-non il-ghukera."
+        },
+        {
+          "n": 19,
+          "t": "car il-a-opprimé il-a-abandonné pauvres ; maison a-pillé et-non bâtira-lui."
+        },
+        {
+          "n": 20,
+          "t": "car non il-a-su tranquille dans-ventre-de-lui ; dans-convoité-de-lui non il-sauvera."
+        },
+        {
+          "n": 21,
+          "t": "néant reste à/pour-goj-de-lui ; sur ainsi non bonté-de-lui gclbbera."
+        },
+        {
+          "n": 22,
+          "t": "dans-remplir moquerie-de-lui nouera à/pour-lui ; tout-de main-de travailleur elle-viendra-lui."
+        },
+        {
+          "n": 23,
+          "t": "soit à/pour-remplir ventre-de-lui gdaj-de nez-de-lui ; envoyera dans-lui et-il-fera-pluie sur-lui dans-intestins-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "il-atteindra depuis-équipement-de fer ; arc-de cuivre changera-lui."
+        },
+        {
+          "n": 25,
+          "t": "a-tiré et-éclair et-est-sorti depuis-gbdi depuis-fiel-de-lui marchera sur-lui terreurs."
+        },
+        {
+          "n": 26,
+          "t": "tout-de ténèbre dissimulé à/pour-cachés-de-lui mangera-lui feu non a-été-soufflé ; reste frissonnera dans-tente-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "ciels découvriront iniquité-de-lui ; et-terre levée à/pour-lui."
+        },
+        {
+          "n": 28,
+          "t": "produits-de maison-de-lui découvrira ; versées dans-jour-de nez-de-lui."
+        },
+        {
+          "n": 29,
+          "t": "celui-ci part homme méchant depuis-dieu ; et-héritage-de émission-de-lui depuis-El."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "écoutez écouter discours-de-moi ; et-elle-soit celle-ci consolations-de-vous."
+        },
+        {
+          "n": 3,
+          "t": "portez-moi et-moi parlerai ; et-après parler-de-moi tu-feras-ridiculiser."
+        },
+        {
+          "n": 4,
+          "t": "est-ce-le-moi à/pour-homme plainte-de-moi ; et-si why non esprit-de-moi gjmpaera."
+        },
+        {
+          "n": 5,
+          "t": "tournez vers-moi et-faites-désoler ; et-mettez main sur bouche."
+        },
+        {
+          "n": 6,
+          "t": "et-si je-ai-rappelé et-je-ai-été-terrifié ; chair-de-moi et-a-gjjé frissonnement."
+        },
+        {
+          "n": 7,
+          "t": "why méchants ils-guériront ; ils-ont-déplacé aussi ils-ont-prévalu compétence."
+        },
+        {
+          "n": 8,
+          "t": "semence-de-eux affermi à/pour-faces-de-eux avec-eux ; et-résultats-de-eux à/pour-yeux-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "maisons-de-eux paix depuis-dread ; et-non verge-de god sur-eux."
+        },
+        {
+          "n": 10,
+          "t": "bœuf-de-lui a-passé et-non fera-gbiper ; vache-de-lui échappera et-non échouera."
+        },
+        {
+          "n": 11,
+          "t": "garçons-de-eux ; envoyeront comme-le-troupeau et-enfants-de-eux gkczeront."
+        },
+        {
+          "n": 12,
+          "t": "ils-porteront comme-tambourin et-harpe ; et-ils-réjouiront à/pour-voix-de flûte."
+        },
+        {
+          "n": 13,
+          "t": "jours-de-eux ; gaoteront acheveront dans-le-bien et-dans-moment scheol ils-ggqgeront."
+        },
+        {
+          "n": 14,
+          "t": "et-ils-ont-dit à/pour-le-El détourne depuis-nous ; et-connaissance-de chemins-de-toi non nous-avons-plaisi."
+        },
+        {
+          "n": 15,
+          "t": "quoi Almighty car nous-servirons-nous ; et-quoi nous-ferons-profiter car nous-rencontrerons dans-lui."
+        },
+        {
+          "n": 16,
+          "t": "voilà non dans-main-de-eux bonté-de-eux ; avis-de méchants a-éloigné depuis-moi."
+        },
+        {
+          "n": 17,
+          "t": "comme-quoi lampe-de méchants gbrzera calamité-de-eux ; et-viendra sur-eux gchtbs il-divisera dans-nez-de-lui."
+        },
+        {
+          "n": 18,
+          "t": "ils-seront comme-paille à/pour-faces-de esprit ; et-comme-balle whirlwind a-volé-lui."
+        },
+        {
+          "n": 19,
+          "t": "god cachera à/pour-fils-de-lui malheur-de-lui ; il-gkuqaera vers-lui et-il-saura."
+        },
+        {
+          "n": 20,
+          "t": "ils-verront yeux-de-lui ruine-de-lui ; et-depuis-colère-de Almighty il-boira."
+        },
+        {
+          "n": 21,
+          "t": "car quoi pleasure-de-lui dans-maison-de-lui après-lui ; et-nombre-de mois-de-lui ils-ont-été-gcyhaé."
+        },
+        {
+          "n": 22,
+          "t": "est-ce-à/pour-le-El il-enseignera connaissance ; et-lui élevants jugera."
+        },
+        {
+          "n": 23,
+          "t": "celui-ci il-mourra dans-os-de intégrité-de-lui ; tout-de-lui sûr et-tranquille."
+        },
+        {
+          "n": 24,
+          "t": "seaux-de-lui ont-rempli lait ; et-moelle-de os-de-lui abreuvera."
+        },
+        {
+          "n": 25,
+          "t": "et-celui-ci il-mourra dans-âme amere ; et-non il-a-mangé dans-la-agréable-de."
+        },
+        {
+          "n": 26,
+          "t": "unitedness sur poussière ils-mentiront ; et-gjye covera sur-eux."
+        },
+        {
+          "n": 27,
+          "t": "voilà je-ai-su pensées-de-vous ; et-desseins sur-moi vous-brutaliserez."
+        },
+        {
+          "n": 28,
+          "t": "car vous-direz gmh maison-de noble ; et-gmh tente-de tabernacles-de méchants."
+        },
+        {
+          "n": 29,
+          "t": "est-ce-non vous-avez-demandé passants-de chemin ; et-signes-de-eux non vous-reconnaîtrez."
+        },
+        {
+          "n": 30,
+          "t": "car à/pour-jour-de calamité il-sera-restreindu bad ; à/pour-jour-de débordements ils-seront-fait-apporter."
+        },
+        {
+          "n": 31,
+          "t": "lequel fera-annoncer sur faces-de-lui chemin-de-lui ; et-lui a-fait lequel gkuqaera à/pour-lui."
+        },
+        {
+          "n": 32,
+          "t": "et-lui à/pour-sépulcres sera-fait-apporter ; et-sur meule veillera."
+        },
+        {
+          "n": 33,
+          "t": "clods-de torrent ont-ggisé à/pour-lui et-après-lui tout-de homme traînera ; et-à/pour-faces-de-lui néant nombre."
+        },
+        {
+          "n": 34,
+          "t": "et-how vous-consolerez-moi vanity ; trahison a-été-resté et-turns-de-vous."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Eliphaz le-Temanite et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "est-ce-à/pour-le-El guerrier ghdtera ; car il-ghdtera sur-lui faisant-comprendre."
+        },
+        {
+          "n": 3,
+          "t": "est-ce-le-pleasure à/pour-Almighty car tu-givgeras ; et-si profit car tu-feras-finir chemins-de-toi."
+        },
+        {
+          "n": 4,
+          "t": "est-ce-depuis-gdyt-de-toi il-fera-corriger-toi ; il-viendra avec-toi dans-le-jugement."
+        },
+        {
+          "n": 5,
+          "t": "est-ce-non mal-de-toi nombreuse ; et-néant fin à/pour-iniquités-de-toi."
+        },
+        {
+          "n": 6,
+          "t": "car tu-gchraeras frères-de-toi librement ; et-perfidies-de nus tu-feras-dépouiller."
+        },
+        {
+          "n": 7,
+          "t": "non eaux las tu-feras-abreuver ; et-depuis-hungry tu-reteniras pain."
+        },
+        {
+          "n": 8,
+          "t": "et-homme-de bras à/pour-lui la-terre ; et-porté-de faces il-habitera dans-elle."
+        },
+        {
+          "n": 9,
+          "t": "veuves tu-as-envoyé vainement ; et-bras-de orphelins il-gbpxera."
+        },
+        {
+          "n": 10,
+          "t": "sur ainsi alentours-de-toi giiwas ; dread et-terrifiera-toi soudain."
+        },
+        {
+          "n": 11,
+          "t": "ou ténèbre non tu-verras ; et-multitude-de eaux covera-toi."
+        },
+        {
+          "n": 12,
+          "t": "est-ce-non god hauteur-de ciels ; et-vois tête-de étoiles car ils-ont-élevé."
+        },
+        {
+          "n": 13,
+          "t": "et-tu-as-dit quoi El a-su ; est-ce-derrière nuage jugera."
+        },
+        {
+          "n": 14,
+          "t": "nuées abri à/pour-lui et-non verra ; et-cercle-de ciels marchera."
+        },
+        {
+          "n": 15,
+          "t": "est-ce-sentier-de durée tu-garderas ; qui mans-de malheur ont-marché."
+        },
+        {
+          "n": 16,
+          "t": "qui ils-ont-été-seize et-non heure ; fleuve sera-fait-verser fondement-de-eux."
+        },
+        {
+          "n": 17,
+          "t": "les-disants à/pour-le-El détourne depuis-nous ; et-quoi Almighty ouvrera à/pour-eux."
+        },
+        {
+          "n": 18,
+          "t": "et-lui a-rempli maisons-de-eux bien ; et-avis-de méchants a-éloigné depuis-moi."
+        },
+        {
+          "n": 19,
+          "t": "ils-verront justes et-ils-réjouiront ; et-innocent il-ridiculisera à/pour-eux."
+        },
+        {
+          "n": 20,
+          "t": "si non adversaire-de-nous a-été-caché ; feu a-mangé et-excès-de-eux."
+        },
+        {
+          "n": 21,
+          "t": "fais-ghdter donc avec-lui ; et-gkuqbe dans-eux elle-viendra-toi agréable."
+        },
+        {
+          "n": 22,
+          "t": "prends donc depuis-bouche-de-lui instruction ; et-metts émissions-de-lui dans-volonté-de-toi."
+        },
+        {
+          "n": 23,
+          "t": "si tu-retourneras jusqu'à Almighty tu-seras-bâti ; tu-feras-éloigner ghmtb depuis-tente-de-toi."
+        },
+        {
+          "n": 24,
+          "t": "et-pose sur poussière or ; et-dans-rocher-de torrents Ophir."
+        },
+        {
+          "n": 25,
+          "t": "Almighty et-a-été ors-de-toi ; et-argent-de sommets à/pour-toi-f."
+        },
+        {
+          "n": 26,
+          "t": "car alors sur Almighty tu-ghwteras ; et-tu-porteras vers god faces-de-toi."
+        },
+        {
+          "n": 27,
+          "t": "tu-feras-implorer vers-lui et-il-écoutera-toi ; et-vœus-de-toi tu-gkuqaeras."
+        },
+        {
+          "n": 28,
+          "t": "et-tu-couperas word et-leve à/pour-toi-f ; et-sur lumière a-gglfé chemins-de-toi."
+        },
+        {
+          "n": 29,
+          "t": "car ils-ont-fait-glcwer et-tu-as-dit orgueil ; et-abattu-de yeux il-fera-sauver."
+        },
+        {
+          "n": 30,
+          "t": "il-sauvera not innocent ; et-il-a-été-sauvé dans-pureté-de palmes-de-toi."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "aussi le-jour rébellion plainte-de-moi ; main-de-moi a-honor sur soupir-de-moi."
+        },
+        {
+          "n": 3,
+          "t": "lequel il-donnera je-ai-su et-je-trouverai-lui ; je-viendrai jusqu'à préparation-de-lui."
+        },
+        {
+          "n": 4,
+          "t": "je-arrange à/pour-faces-de-lui jugement ; et-bouche-de-moi je-remplirai corrections."
+        },
+        {
+          "n": 5,
+          "t": "je-sache discours il-répondra-moi ; et-je-discerne quoi il-dira à/pour-moi."
+        },
+        {
+          "n": 6,
+          "t": "est-ce-dans-le-nombreux-de force il-gjwtera auprès-moi ; non sûrement lui mettra dans-moi."
+        },
+        {
+          "n": 7,
+          "t": "là droit corrigé avec-lui ; et-je-échappe à/pour-éminence depuis-jugeant-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "voilà orient je-marcherai et-néant-lui ; et-back et-non je-discernerai à/pour-lui."
+        },
+        {
+          "n": 9,
+          "t": "gauche dans-faire-de-lui et-non je-apercevoirai ; il-ghpxaera right et-non je-verrai."
+        },
+        {
+          "n": 10,
+          "t": "car chemin a-su auprès-moi ; il-a-éprouvé-moi comme-le-or je-sortirai."
+        },
+        {
+          "n": 11,
+          "t": "dans-gaffa-de-lui pied-de-moi a-gjjé ; chemin-de-lui je-ai-gardé et-non je-ferai-tendre."
+        },
+        {
+          "n": 12,
+          "t": "commandement-de lèvres-de-lui et-non je-ferai-enlever ; depuis-ordonnance-de-moi je-ai-caché émissions-de bouche-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "et-lui dans-un et-lequel fera-retourner-lui ; et-âme-de-lui a-incliné et-a-fait."
+        },
+        {
+          "n": 14,
+          "t": "car ordonnance-de-moi fera-gkuqaer ; et-comme-elles nombreuses avec-lui."
+        },
+        {
+          "n": 15,
+          "t": "sur ainsi depuis-faces-de-lui je-serai-terrifié ; je-discernerai et-je-révérerai depuis-lui."
+        },
+        {
+          "n": 16,
+          "t": "et-El a-fait-tender cœur-de-moi ; et-Almighty a-fait-terrifier-moi."
+        },
+        {
+          "n": 17,
+          "t": "car non je-ai-été-extirpé depuis-faces-de ténèbre ; et-depuis-faces-de-moi obscurité a-cové."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "verses": [
+        {
+          "n": 1,
+          "t": "why depuis-Almighty non heures ont-été-caché ; et-sachant-de-lui et-sachants-de-lui non jours-de-lui ont-apercevoir."
+        },
+        {
+          "n": 2,
+          "t": "limites ils-feront-rattraper ; flock ils-ont-pillé et-ils-ont-pu."
+        },
+        {
+          "n": 3,
+          "t": "âne-de orphelins ils-meneront ; ils-gchraeront bœuf-de veuve."
+        },
+        {
+          "n": 4,
+          "t": "ils-feront-tendre indigents depuis-chemin ; unitedness ils-ont-été-caché humbles-de terre."
+        },
+        {
+          "n": 5,
+          "t": "voilà wilds dans-le-désert sont-sorti dans-œuvre-de-eux cherchants-de à/pour-le-proie ; plaine à/pour-lui pain à/pour-les-youths."
+        },
+        {
+          "n": 6,
+          "t": "dans-le-champ fourrage-de-lui ils-feront-moissonner ils-moissonneront ; et-vignoble méchant ils-glaneront."
+        },
+        {
+          "n": 7,
+          "t": "nu ils-logeront depuis-nul-de vêtements ; et-néant covering dans-la-froid."
+        },
+        {
+          "n": 8,
+          "t": "depuis-orage-de monts ils-gjwneront ; et-depuis-nul refuge ils-ont-étreindu rocher."
+        },
+        {
+          "n": 9,
+          "t": "ils-pilleront depuis-breast orphelin ; et-nourrisson affligé ils-gchraeront."
+        },
+        {
+          "n": 10,
+          "t": "nu ils-ont-marché nul vêtements ; et-hungrys ils-ont-porté sheaf."
+        },
+        {
+          "n": 11,
+          "t": "entre gkmqbs-de-eux ils-feront-givoer ; vins ont-marché et-ont-gizjé."
+        },
+        {
+          "n": 12,
+          "t": "depuis-ville mans ggjperont et-âme-de tués gkltera ; et-god non mettra folie."
+        },
+        {
+          "n": 13,
+          "t": "eux ont-été dans-rebellants-de lumière non chemins-de-lui ont-fait-reconnaître ; et-non ils-ont-habité dans-paths-de-lui."
+        },
+        {
+          "n": 14,
+          "t": "à/pour-la-lumière il-levera assassinant il-tuera affligé et-indigent ; et-dans-le-nuit il-soit comme-le-voleur."
+        },
+        {
+          "n": 15,
+          "t": "et-œil-de commettant a-gardé crépuscule à/pour-dire non œil observera-moi ; et-abri-de faces mettra."
+        },
+        {
+          "n": 16,
+          "t": "a-gdfdé dans-le-ténèbre maisons journellement ont-scellé à/pour-eux non ont-su lumière."
+        },
+        {
+          "n": 17,
+          "t": "car union matin à/pour-eux shadow ; car il-fera-reconnaître terreurs-de shadow."
+        },
+        {
+          "n": 18,
+          "t": "léger lui sur parcelle-de-eux légera faces-de eaux dans-la-terre ; non chemin-de vignobles tournera."
+        },
+        {
+          "n": 19,
+          "t": "sécheresse aussi chaleur eaux-de neige pilleront scheol ont-péché."
+        },
+        {
+          "n": 20,
+          "t": "matrice ignorera-lui a-nourri-lui gjye encore non sera-rappelé ; ghmtb et-a-été-brisé comme-le-arbre."
+        },
+        {
+          "n": 21,
+          "t": "paîtant stérile non elle-engendrera ; et-veuve non il-fera-améliorer."
+        },
+        {
+          "n": 22,
+          "t": "et-il-a-traîné vaillances dans-force-de-lui ; il-levera et-non il-fera-supporter dans-les-vies."
+        },
+        {
+          "n": 23,
+          "t": "il-donnera à/pour-lui à/pour-sécurité et-il-sera-appuyé ; et-yeux-de-lui sur chemins-de-eux."
+        },
+        {
+          "n": 24,
+          "t": "ils-ont-gjypé peu et-néant-lui et-ils-ont-été-fait-gfkmer comme-le-tout ils-seront-fermés ; et-comme-tête-de ear ils-ggsqaeront."
+        },
+        {
+          "n": 25,
+          "t": "et-si non then lequel il-fera-manquer-moi ; et-il-mette à/pour-ne discours-de-moi."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Bildad le-Shuhite et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "faire-gouverner et-dread avec-lui ; faisant paix dans-ggbgs-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "est-ce-substance nombre à/pour-troupes-de-lui ; et-sur lequel non lumière-de-lui levera."
+        },
+        {
+          "n": 4,
+          "t": "et-quoi personne givgera avec El ; et-quoi il-gcdcera engendré-de femme."
+        },
+        {
+          "n": 5,
+          "t": "voilà jusqu'à lune et-non fera-briller ; et-étoiles non ont-gcdié dans-yeux-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "même car personne gjye ; et-fils-de homme ver."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "quoi tu-as-aidé à/pour-non force ; tu-as-fait-sauver bras-de non puissance."
+        },
+        {
+          "n": 3,
+          "t": "quoi tu-as-conseillé à/pour-non sagesse ; et-succès à/pour-multitude tu-as-fait-savoir."
+        },
+        {
+          "n": 4,
+          "t": "ensemble lequel tu-as-fait-annoncer discours ; et-souffle-de lequel est-sorti depuis-toi."
+        },
+        {
+          "n": 5,
+          "t": "les-ombres trembleront ; sous eaux et-habitants-de-eux."
+        },
+        {
+          "n": 6,
+          "t": "nu scheol devant-lui ; et-néant covering à/pour-le-Abaddon."
+        },
+        {
+          "n": 7,
+          "t": "tendant nord sur informe ; glopant terre sur Beliy nothing."
+        },
+        {
+          "n": 8,
+          "t": "gjdwbant eaux dans-nuées-de-lui ; et-non nuageux a-été-fendu sous-eux."
+        },
+        {
+          "n": 9,
+          "t": "gjjant faces-de trône ; girxer sur-lui nuageux-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "ordonnance a-encerclé sur faces-de eaux ; jusqu'à consommation-de lumière avec ténèbre."
+        },
+        {
+          "n": 11,
+          "t": "colonnes-de ciels balanceront ; et-ils-glpkeront depuis-menace-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "dans-force-de-lui le-mer a-gjszaé ; et-dans-intelligence-de-lui Rahaba a-gfhhé."
+        },
+        {
+          "n": 13,
+          "t": "dans-esprit-de-lui ciels honnêteté ; main-de-lui a-pollué serpent fuyard."
+        },
+        {
+          "n": 14,
+          "t": "voilà ces extrémités-de chemins-de-lui et-quoi whisper-de parole nous-écouterons dans-lui ; et-tonnerre-de might-de-lui mights-de-lui lequel discernera."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-fait-ajouter porter proverbe-de-lui et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "vivant El a-fait-détourner jugement-de-moi ; et-Almighty a-fait-ggdger âme-de-moi."
+        },
+        {
+          "n": 3,
+          "t": "car tout-de encore souffle-de-moi dans-moi ; et-esprit-de god dans-nez-de-moi."
+        },
+        {
+          "n": 4,
+          "t": "si elles-parleront lèvres-de-moi ghmtb ; et-langue-de-moi si méditera paresse."
+        },
+        {
+          "n": 5,
+          "t": "forbid à/pour-moi si je-ferai-givger vous jusqu'à je-expirerai ; non je-ferai-détourner intégrité-de-moi depuis-moi."
+        },
+        {
+          "n": 6,
+          "t": "dans-droiture-de-moi je-ai-fait-fortifier et-non je-ferai-baisser-elle ; non volonté-de-moi gdbvaera depuis-jours-de-moi."
+        },
+        {
+          "n": 7,
+          "t": "il-sera comme-méchant gmcçant-de-moi ; et-levé-de-moi comme-ghmu."
+        },
+        {
+          "n": 8,
+          "t": "car quoi cordon-de profane car il-gatrera ; car god retirera âme-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "El ; écoutera est-ce-la-clameur-de-lui car angoisse viendra sur-lui."
+        },
+        {
+          "n": 10,
+          "t": "si sur Almighty ghwtera ; god appelera dans-tout-de heure."
+        },
+        {
+          "n": 11,
+          "t": "je-ferai-show vous dans-main-de El ; qui avec Almighty non je-cacherai."
+        },
+        {
+          "n": 12,
+          "t": "voilà vous tout-de-vous avez-apercevoir ; et-à/pour-quoi celui-ci vanity vous-gbtserez."
+        },
+        {
+          "n": 13,
+          "t": "celui-ci part-de homme méchant avec El ; et-héritage-de terrifiants depuis-Almighty ils-prendront."
+        },
+        {
+          "n": 14,
+          "t": "si fils-de-lui multiplieront en épée ; et-résultats-de-lui non rassasieront pain."
+        },
+        {
+          "n": 15,
+          "t": "reste-de-lui restes-de-lui dans-le-mort seront-enterrés ; et-veuves-de-lui non pleureront."
+        },
+        {
+          "n": 16,
+          "t": "si argent ; entassera comme-le-poussière et-comme-le-argile habillement fera-affermir."
+        },
+        {
+          "n": 17,
+          "t": "il-fera-affermir et-juste il-vêtira ; et-argent innocent divisera."
+        },
+        {
+          "n": 18,
+          "t": "maison-de-lui ; a-bâti comme-le-mite et-comme-fourré il-a-fait surveillant."
+        },
+        {
+          "n": 19,
+          "t": "riche il-mentira et-non il-sera-recueilli ; yeux-de-lui il-a-ouvert et-néant-lui."
+        },
+        {
+          "n": 20,
+          "t": "elle-fera-rattraper-lui comme-les-eaux terreurs ; whirlwind a-volé-lui nuit."
+        },
+        {
+          "n": 21,
+          "t": "orient portera-lui et-ira ; et-il-redoutera-lui depuis-lieu-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "et-il-fera-jeter sur-lui et-non il-spara ; depuis-main-de-lui atteindre il-atteindra."
+        },
+        {
+          "n": 23,
+          "t": "il-applaudira sur-lui palmes-de-lui ; et-il-sifflera sur-lui depuis-lieu-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "verses": [
+        {
+          "n": 1,
+          "t": "car substance à/pour-le-argent départ ; et-lieu à/pour-le-or ils-distilleront."
+        },
+        {
+          "n": 2,
+          "t": "fer depuis-poussière sera-pris ; et-pierre il-giwlera cuivre."
+        },
+        {
+          "n": 3,
+          "t": "fin mettant à/pour-le-ténèbre et-à/pour-tout-de consommation lui examinant ; pierre-de obscurité et-shadow."
+        },
+        {
+          "n": 4,
+          "t": "torrent a-éclaté from séjournant les-ignorés depuis pied ; ils-ont-gbqoé depuis-personne ils-ont-erré."
+        },
+        {
+          "n": 5,
+          "t": "terre depuis-elle sortira pain ; et-sous-elle feu a-été-tourné comme."
+        },
+        {
+          "n": 6,
+          "t": "lieu-de saphir pierres-de-elle ; et-poussières-de or à/pour-lui."
+        },
+        {
+          "n": 7,
+          "t": "sentier non a-su-lui bird ; et-non œil-de autour a-regardé-lui."
+        },
+        {
+          "n": 8,
+          "t": "non fils-de orgueil ont-fait-marcher-lui ; non gknz a-ghkpaé sur-lui."
+        },
+        {
+          "n": 9,
+          "t": "dans-le-flint main-de-lui a-envoyé ; il-a-tourné depuis-racine monts."
+        },
+        {
+          "n": 10,
+          "t": "dans-les-rochers Nile il-a-fendu ; œil-de-lui a-vu et-tout-de honneur."
+        },
+        {
+          "n": 11,
+          "t": "depuis-weeping fleuves il-a-sellé ; lumière fera-sortir et-secret."
+        },
+        {
+          "n": 12,
+          "t": "et-la-sagesse depuis-gnf sera-trouvée ; et-où celui-ci lieu-de discernement."
+        },
+        {
+          "n": 13,
+          "t": "non personne a-su estimer-de-elle ; et-non elle-sera-trouvée dans-terre-de les-vivants."
+        },
+        {
+          "n": 14,
+          "t": "abîme a-dit non dans-moi lui ; et-mer a-dit néant auprès-moi."
+        },
+        {
+          "n": 15,
+          "t": "non enveloppe sera-fait-donner sous-elle ; et-non argent sera-pesé gages-de-elle."
+        },
+        {
+          "n": 16,
+          "t": "non elle-ghecbera dans-gold-de Ophir ; dans-onyx précieux et-saphir."
+        },
+        {
+          "n": 17,
+          "t": "non or arrangera-elle et-verre ; et-échange-de-elle ustensile-de giis."
+        },
+        {
+          "n": 18,
+          "t": "corals et-cristal non sera-rappelé ; et-ggfm-de sagesse depuis-jewels."
+        },
+        {
+          "n": 19,
+          "t": "non il-arrangera-elle topaz-de Koush ; dans-gold pur non elle-ghecbera."
+        },
+        {
+          "n": 20,
+          "t": "et-la-sagesse depuis-gnf viendra ; et-où celui-ci lieu-de discernement."
+        },
+        {
+          "n": 21,
+          "t": "et-elle-a-été-caché depuis-yeux-de tout-de vivant ; et-depuis-oiseau-de les-ciels elle-a-été-caché."
+        },
+        {
+          "n": 22,
+          "t": "Abaddon et-mort ils-ont-dit ; dans-oreilles-de-nous nous-avons-écouté bruit-de-elle."
+        },
+        {
+          "n": 23,
+          "t": "dieu a-fait-discerner chemin-de-elle ; et-lui a-su lieu-de-elle."
+        },
+        {
+          "n": 24,
+          "t": "car lui à/pour-extrémités-de la-terre fera-regarder ; sous tout-de les-ciels verra."
+        },
+        {
+          "n": 25,
+          "t": "à/pour-faire à/pour-le-esprit poids ; et-eaux il-a-réglé dans-mesurer."
+        },
+        {
+          "n": 26,
+          "t": "dans-faire-de-lui à/pour-le-rain ordonnance ; et-chemin à/pour-foudre-de voix."
+        },
+        {
+          "n": 27,
+          "t": "alors il-a-vu-elle et-il-a-compté-elle ; il-a-fait-affermir-elle et-aussi il-a-examiné-elle."
+        },
+        {
+          "n": 28,
+          "t": "et-il-a-dit à/pour-le-homme voilà gdyt-de seigneurs-de-moi lui sagesse ; et-détourner depuis-mauvais discernement."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-fait-ajouter porter proverbe-de-lui et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "lequel il-donnera-moi comme-lunes-de orient ; comme-jours-de god il-gardera-moi."
+        },
+        {
+          "n": 3,
+          "t": "dans-faire-gbxhaer-de-lui lampe-de-lui sur tête-de-moi ; à/pour-lumière-de-lui je-irai ténèbre."
+        },
+        {
+          "n": 4,
+          "t": "comme-lorsque je-ai-été dans-jours-de automne-de-moi ; dans-conseil-de god sur tente-de-moi."
+        },
+        {
+          "n": 5,
+          "t": "dans-encore Almighty auprès-moi ; alentours-de-moi youths-de-moi."
+        },
+        {
+          "n": 6,
+          "t": "dans-laver gbxbs-de-moi dans-crème ; et-rocher giwlera auprès-moi gikrs-de huile."
+        },
+        {
+          "n": 7,
+          "t": "dans-sortir-de-moi porte sur ville ; dans-la-place je-ferai-affermir siège-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "youths ont-vu-moi et-ont-été-caché ; et-ageds ils-sont-levé ils-ont-resté."
+        },
+        {
+          "n": 9,
+          "t": "princes ont-clou dans-discours ; et-palme ils-mettront à/pour-bouche-de-eux."
+        },
+        {
+          "n": 10,
+          "t": "voix-de chefs ils-ont-été-caché ; et-langue-de-eux à/pour-goûter-de-eux a-collé."
+        },
+        {
+          "n": 11,
+          "t": "car oreille a-écouté et-a-avancé-moi ; et-œil a-vu et-a-fait-rendre-moi."
+        },
+        {
+          "n": 12,
+          "t": "car je-sauverai affligé gkltant ; et-orphelin et-non aidant à/pour-lui."
+        },
+        {
+          "n": 13,
+          "t": "bénédiction-de périssant sur-moi viendra ; et-cœur-de veuve je-ferai-chanter."
+        },
+        {
+          "n": 14,
+          "t": "justice je-ai-vêtu et-a-vêtu-moi ; comme-robe et-turban jugement-de-moi."
+        },
+        {
+          "n": 15,
+          "t": "yeux je-ai-été à/pour-le-aveugle ; je et-pieds à/pour-le-boiteux."
+        },
+        {
+          "n": 16,
+          "t": "moi père à/pour-les-indigents ; et-dispute non je-ai-su je-examinerai-lui."
+        },
+        {
+          "n": 17,
+          "t": "et-je-ai-brisé-hé dents-de ghmu ; et-depuis-dents-de-lui je-ferai-jeter proie."
+        },
+        {
+          "n": 18,
+          "t": "et-je-ai-dit avec nid-de-moi je-expirerai ; et-comme-le-sable je-ferai-multiplier jours."
+        },
+        {
+          "n": 19,
+          "t": "racine-de-moi gitaaé vers eaux ; et-rosée logera dans-foliage-de-moi."
+        },
+        {
+          "n": 20,
+          "t": "gloire-de-moi nouveau auprès-moi ; et-arc-de-moi dans-main-de-moi fera-changer."
+        },
+        {
+          "n": 21,
+          "t": "à/pour-moi ils-ont-écouté et-ils-ont-attendu ; et-ils-gbrfaeront en avis-de-moi."
+        },
+        {
+          "n": 22,
+          "t": "après parole-de-moi non ils-répéteront ; et-sur-eux discours-de-moi distillera."
+        },
+        {
+          "n": 23,
+          "t": "et-ils-ont-attendu comme-le-rain à/pour-moi ; et-bouche-de-eux ils-ont-baillé à/pour-spring."
+        },
+        {
+          "n": 24,
+          "t": "je-rirai vers-eux non ils-feront-supporter ; et-lumière-de faces-de-moi non ils-feront-tomber."
+        },
+        {
+          "n": 25,
+          "t": "je-choisirai chemin-de-eux et-je-habiterai tête et-je-habiterai comme-roi dans-le-troupe ; comme-lorsque deuils il-consolera."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-maintenant ont-ri sur-moi insignifiants depuis-moi à/pour-jours qui je-ai-rejeté pères-de-eux ; à/pour-poser avec chiens-de troupeau-de-moi."
+        },
+        {
+          "n": 2,
+          "t": "aussi force-de mains-de-eux à/pour-quoi à/pour-moi ; sur-eux vigueur a-péri."
+        },
+        {
+          "n": 3,
+          "t": "dans-pauvreté et-dans-faim stérile les-rongeants sécheresse ; hier ravage et-ruine."
+        },
+        {
+          "n": 4,
+          "t": "les-arrachants gfmn sur arbrisseau ; et-racine-de brooms à/pour-pain-de-eux."
+        },
+        {
+          "n": 5,
+          "t": "depuis midst ils-chasseront ; ils-feront-crier sur-eux comme-le-voleur."
+        },
+        {
+          "n": 6,
+          "t": "dans-affreux-de torrents à/pour-habiter ; trous-de poussière et-rochers."
+        },
+        {
+          "n": 7,
+          "t": "entre arbrisseaux hurleront ; sous ronces ils-ghgfaeront."
+        },
+        {
+          "n": 8,
+          "t": "fils-de insensé aussi fils-de nul nom ; ils-ont-été-ggrqé depuis la-terre."
+        },
+        {
+          "n": 9,
+          "t": "et-maintenant chant-de-eux je-ai-été ; et-je-ai-été à/pour-eux à/pour-discours."
+        },
+        {
+          "n": 10,
+          "t": "ils-ont-glraé-moi ils-ont-éloigné depuis-moi ; et-depuis-faces-de-moi non ils-ont-restreindu salive."
+        },
+        {
+          "n": 11,
+          "t": "car cord-de-lui cord-de-moi a-gitaaé et-a-ghwybé-moi ; et-licou depuis-faces-de-moi ils-ont-envoyé."
+        },
+        {
+          "n": 12,
+          "t": "sur right brood ils-leveront pieds-de-moi ils-ont-envoyé ; sentiers-de calamité-de-eux et-ont-frayé sur-moi."
+        },
+        {
+          "n": 13,
+          "t": "ils-ont-déchiré path-de-moi à/pour-gbvr-de-moi ils-feront-profiter ; non aidant à/pour-eux."
+        },
+        {
+          "n": 14,
+          "t": "comme-brèche large ils-gafyeront ; sous ravage ils-ont-roulé."
+        },
+        {
+          "n": 15,
+          "t": "il-a-été-fait-tourner sur-moi terreurs noblesse-de-moi ; poursuivra comme-le-esprit et-comme-nuée délivrance-de-moi a-passé."
+        },
+        {
+          "n": 16,
+          "t": "et-maintenant sur-moi âme-de-moi répandra ; jours-de affliction gjjeront-moi."
+        },
+        {
+          "n": 17,
+          "t": "nuit os-de-moi a-cueilli sur-moi ; et-rongeants-de-moi non ils-mentiront."
+        },
+        {
+          "n": 18,
+          "t": "dans-nombreux-de force vêtements-de-moi recherchera ; comme-bouche-de tunique-de-moi il-gimera-moi."
+        },
+        {
+          "n": 19,
+          "t": "il-a-fait-show-moi à/pour-le-argile ; et-je-ai-se-comparé comme-le-poussière et-cendre."
+        },
+        {
+          "n": 20,
+          "t": "je-gklterai vers-toi et-non tu-répondras-moi ; je-ai-resté et-tu-as-discerné dans-moi."
+        },
+        {
+          "n": 21,
+          "t": "tu-seras-tourné à/pour-cruel à/pour-moi ; dans-puissance-de main-de-toi tu-gkozeras-moi."
+        },
+        {
+          "n": 22,
+          "t": "tu-porteras-moi vers esprit tu-feras-chevaucher-moi ; et-tu-fondras-moi tu-gkkperas succès."
+        },
+        {
+          "n": 23,
+          "t": "car je-ai-su mort tu-feras-retourner-moi ; et-maison-de rencontre à/pour-tout-de vivant."
+        },
+        {
+          "n": 24,
+          "t": "sûrement non dans-ruins main envoyera ; si dans-désastre-de-lui therefore gklu."
+        },
+        {
+          "n": 25,
+          "t": "si non je-ai-pleuré à/pour-dur-de jour ; âme-de-moi à/pour-le-indigent a-ghkgé."
+        },
+        {
+          "n": 26,
+          "t": "car bien je-ai-espéré et-il-est-venu mauvais ; et-je-attende à/pour-lumière obscurité et-est-venu."
+        },
+        {
+          "n": 27,
+          "t": "entrailles-de-moi ont-été-gkedé et-non ont-gbrfaé jours-de affliction ont-rencontré-moi."
+        },
+        {
+          "n": 28,
+          "t": "gjfuant je-ai-marché dans-non gcsm ; je-suis-levé dans-le-congrégation je-gklterai."
+        },
+        {
+          "n": 29,
+          "t": "frère je-ai-été à/pour-jackals ; et-ami à/pour-filles-de ostrich."
+        },
+        {
+          "n": 30,
+          "t": "peau-de-moi a-gkoié sur-moi ; et-os-de-moi a-gdceé depuis chaleur."
+        },
+        {
+          "n": 31,
+          "t": "harpe-de-moi ; et-a-été à/pour-deuil et-flûte-de-moi à/pour-voix-de pleurants."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "verses": [
+        {
+          "n": 1,
+          "t": "alliance je-ai-coupé à/pour-yeux-de-moi ; et-quoi je-discernerai sur vierge."
+        },
+        {
+          "n": 2,
+          "t": "et-quoi part-de god depuis-dessus ; et-héritage-de Almighty depuis-ggbgs."
+        },
+        {
+          "n": 3,
+          "t": "est-ce-non calamité à/pour-ghmu ; et-misfortune à/pour-ouvrants-de malheur."
+        },
+        {
+          "n": 4,
+          "t": "est-ce-non lui verra chemins-de-moi ; et-tout-de pas-de-moi comptera."
+        },
+        {
+          "n": 5,
+          "t": "si je-ai-marché avec vanité ; tromperie et-a-gclwaé sur pied-de-moi."
+        },
+        {
+          "n": 6,
+          "t": "il-pesera-moi dans-balances-de justice ; god et-saura intégrité-de-moi."
+        },
+        {
+          "n": 7,
+          "t": "si gaffb-de-moi tendra depuis le-chemin et-après yeux-de-moi a-marché cœur-de-moi ; et-dans-palmes-de-moi tache a-collé."
+        },
+        {
+          "n": 8,
+          "t": "je-seme et-autre il-mangera ; et-résultats-de-moi déracineront."
+        },
+        {
+          "n": 9,
+          "t": "si cœur-de-moi a-été-séduiu sur femme ; et-sur entrée-de ami-de-moi je-ai-gzqé."
+        },
+        {
+          "n": 10,
+          "t": "femme-de-moi ; moudra à/pour-autre et-sur-elle ils-plieront autres."
+        },
+        {
+          "n": 11,
+          "t": "car lui plan ; et-lui iniquité juges."
+        },
+        {
+          "n": 12,
+          "t": "car feu lui jusqu'à Abaddon mangera ; et-dans-tout-de produire-de-moi elle-déracinera."
+        },
+        {
+          "n": 13,
+          "t": "si je-rejeterai jugement-de serviteur-de-moi et-maidservant-de-moi ; dans-être-gjwter-de-eux auprès-moi."
+        },
+        {
+          "n": 14,
+          "t": "et-quoi je-ferai car El levera ; et-car il-visitera quoi je-ferai-retourner-lui."
+        },
+        {
+          "n": 15,
+          "t": "est-ce-non dans-la-ventre faisant-de-moi il-a-fait-lui ; et-il-a-affermi-nous dans-le-matrice un."
+        },
+        {
+          "n": 16,
+          "t": "si je-retenirai depuis-pleasure-de pauvres ; et-yeux-de veuve je-acheverai."
+        },
+        {
+          "n": 17,
+          "t": "et-je-mangerai morceau-de-moi à/pour-seul-de-moi ; et-non orphelin a-mangé depuis-elle."
+        },
+        {
+          "n": 18,
+          "t": "car depuis-jeunesses-de-moi il-a-crû-moi comme-père ; et-depuis-ventre-de mère-de-moi je-ferai-conduire-elle."
+        },
+        {
+          "n": 19,
+          "t": "si je-verrai périssant depuis-nul-de vêtements ; et-néant covering à/pour-le-indigent."
+        },
+        {
+          "n": 20,
+          "t": "si non ils-ont-béni-moi reins-de-lui ; et-depuis-faucher-de agneaux-de-moi il-gctdera."
+        },
+        {
+          "n": 21,
+          "t": "si je-ai-fait-agiter sur orphelin main-de-moi ; car je-verrai dans-le-porte secours-de-moi."
+        },
+        {
+          "n": 22,
+          "t": "épaule-de-moi depuis-gkry-de-elle tombera ; et-arm-de-moi depuis-roseau-de-elle sera-brisée."
+        },
+        {
+          "n": 23,
+          "t": "car dread vers-moi calamité-de El ; et-depuis-dignité-de-lui non je-vaincrai."
+        },
+        {
+          "n": 24,
+          "t": "si je-ai-mis or flanc-de-moi ; et-à/pour-le-gold je-ai-dit confiance-de-moi."
+        },
+        {
+          "n": 25,
+          "t": "si je-réjouirai car nombreux compétence-de-moi ; et-car puissant main-de-moi a-trouvé."
+        },
+        {
+          "n": 26,
+          "t": "si je-verrai lumière car fera-gbxhaer ; et-lune précieux marchant."
+        },
+        {
+          "n": 27,
+          "t": "cœur-de-moi ; et-a-séduiu dans-le-abri main-de-moi et-a-embrassé à/pour-bouche-de-moi."
+        },
+        {
+          "n": 28,
+          "t": "aussi lui iniquité judiciaire ; car je-ai-renié à/pour-le-El depuis-dessus."
+        },
+        {
+          "n": 29,
+          "t": "si je-réjouirai dans-désastre-de gkzrant-de-moi ; et-je-ai-éveillé car il-a-trouvé-lui mauvais."
+        },
+        {
+          "n": 30,
+          "t": "et-non je-ai-donné à/pour-pécher goûter-de-moi ; à/pour-demander dans-malédiction âme-de-lui."
+        },
+        {
+          "n": 31,
+          "t": "si non mans-de tente-de-moi ont-dit ; lequel il-donnera depuis-chair-de-lui non rassasié."
+        },
+        {
+          "n": 32,
+          "t": "dans-le-dehors non sojourner logera ; barrières-de-moi à/pour-le-sentier je-gitaaerai."
+        },
+        {
+          "n": 33,
+          "t": "si je-ai-cové comme-Adam forfaits-de-moi ; à/pour-dissimuler dans-sein-de-moi iniquité-de-moi."
+        },
+        {
+          "n": 34,
+          "t": "car je-redouterai tumulte nombreuse et-mépris-de familles fera-gdfeer-moi ; et-je-ai-gbrfaé non je-sortirai entrée."
+        },
+        {
+          "n": 35,
+          "t": "lequel donnera à/pour-moi écoutant à/pour-moi voilà marque-de-moi Almighty répondra-moi ; et-livre a-écrit homme-de dispute-de-moi."
+        },
+        {
+          "n": 36,
+          "t": "si non sur shoulder-de-moi je-porterai-lui ; je-lierai-lui couronnes à/pour-moi."
+        },
+        {
+          "n": 37,
+          "t": "nombre-de pas-de-moi je-ferai-annoncer-lui ; comme chef je-presentai-lui."
+        },
+        {
+          "n": 38,
+          "t": "si sur-moi sol-de-moi gcfoera ; et-unitedness sillons-de-elle pleureront."
+        },
+        {
+          "n": 39,
+          "t": "si force-de-elle je-ai-mangé nul argent ; et-âme-de maris-de-elle je-ai-fait-souffler."
+        },
+        {
+          "n": 40,
+          "t": "sous épine sortira blé et-sous orge ivraie ; paroles-de Job ont-fini."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ont-cessé trois-de les-hommes les-ces depuis-répondre Job ; car lui juste dans-yeux-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "et-a-embrasé nez Elihu fils-de Barachel le-Buzite depuis-famille-de Rama dans-Job a-embrasé nez-de-lui ; sur givger-de-lui âme-de-lui depuis-dieu."
+        },
+        {
+          "n": 3,
+          "t": "et-dans-trois-de amis-de-lui nez-de-lui a-embrasé sur qui non ils-ont-trouvé réponse ; et-ils-ont-fait-méfaire Job."
+        },
+        {
+          "n": 4,
+          "t": "et-Elihu a-gcoxé Job dans-paroles ; car vieux eux depuis-nous à/pour-jours."
+        },
+        {
+          "n": 5,
+          "t": "Elihu et-a-vu car néant réponse dans-bouche-de trois-de les-hommes et-a-embrasé nez-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "Elihu et-a-répondu fils-de Barachel le-Buzite et-a-dit insignifiant je à/pour-jours et-vous ageds ; sur ainsi je-ai-gccmbé et-je-ai-craint depuis-montrer opinion-de-moi vous."
+        },
+        {
+          "n": 7,
+          "t": "je-ai-dit jours parleront ; et-multitude-de années ils-feront-savoir sagesse."
+        },
+        {
+          "n": 8,
+          "t": "surely esprit lui dans-personne ; et-souffle-de Almighty fera-discerner-eux."
+        },
+        {
+          "n": 9,
+          "t": "non nombreux ils-gcpeeront ; et-vieux ils-discerneront jugement."
+        },
+        {
+          "n": 10,
+          "t": "à/pour-ainsi je-ai-dit écoute-hé à/pour-moi ; montrerai opinion-de-moi même je."
+        },
+        {
+          "n": 11,
+          "t": "voilà je-ai-fait-attendre à/pour-paroles-de-vous je-ferai-entendre jusqu'à intelligences-de-vous ; jusqu'à vous-examinerez discours."
+        },
+        {
+          "n": 12,
+          "t": "et-jusqu'à-vous je-discernerai et-voici néant à/pour-Job faisant-corriger ; répondant émissions-de-lui depuis-vous."
+        },
+        {
+          "n": 13,
+          "t": "sinon vous-direz nous-avons-trouvé sagesse ; El dissipera-lui non homme."
+        },
+        {
+          "n": 14,
+          "t": "et-non il-a-arrangé vers-moi discours ; et-dans-émissions-de-vous non je-ferai-retourner-lui."
+        },
+        {
+          "n": 15,
+          "t": "ils-ont-gdfeé non ils-ont-répondu encore ; discours ont-fait-déplacer depuis-eux."
+        },
+        {
+          "n": 16,
+          "t": "et-je-ai-fait-attendre car non ils-parleront ; car ils-ont-resté non ils-ont-répondu encore."
+        },
+        {
+          "n": 17,
+          "t": "répondrai même je part-de-moi ; montrerai opinion-de-moi même je."
+        },
+        {
+          "n": 18,
+          "t": "car je-ai-rempli discours ; esprit-de ventre-de-moi a-fait-contraindre-moi."
+        },
+        {
+          "n": 19,
+          "t": "voici ventre-de-moi comme-vin non il-sera-gitaaé ; comme-mediums nouveaux il-sera-fendu."
+        },
+        {
+          "n": 20,
+          "t": "je-parle et-il-respirera à/pour-moi ; je-gitaaerai lèvres-de-moi et-je-répondrai."
+        },
+        {
+          "n": 21,
+          "t": "ne donc je-porte faces-de homme ; et-vers homme non je-titrerai."
+        },
+        {
+          "n": 22,
+          "t": "car non je-ai-su je-titrerai ; comme-peu il-portera-moi faisant-de-moi."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-mais écoute donc Job discours-de-moi ; et-tout-de paroles-de-moi fais-entendre-hé."
+        },
+        {
+          "n": 2,
+          "t": "voici donc je-ai-gitaaé bouche-de-moi ; langue-de-moi a-parlé dans-goûter-de-moi."
+        },
+        {
+          "n": 3,
+          "t": "gecr-de cœur-de-moi émissions-de-moi ; et-connaissance-de lèvres-de-moi purifier ils-ont-prononcé."
+        },
+        {
+          "n": 4,
+          "t": "esprit-de El a-fait-moi ; et-souffle-de Almighty guérira-moi."
+        },
+        {
+          "n": 5,
+          "t": "si tu-vaincras fais-retourner-moi ; arrange-hé à/pour-faces-de-moi fixe-hé."
+        },
+        {
+          "n": 6,
+          "t": "voilà je comme-bouche-de-toi à/pour-le-El ; depuis-argile je ai-été-gjosé aussi."
+        },
+        {
+          "n": 7,
+          "t": "voici terreur-de-moi non terrifiera-toi ; et-pression-de-moi sur-toi non honora."
+        },
+        {
+          "n": 8,
+          "t": "sûrement tu-as-dit dans-oreilles-de-moi ; et-voix-de discours je-écouterai."
+        },
+        {
+          "n": 9,
+          "t": "je propre nul moi forfait pur ; et-non iniquité à/pour-moi."
+        },
+        {
+          "n": 10,
+          "t": "voilà inimitiés sur-moi il-trouvera ; il-pensera-moi à/pour-gmcçant à/pour-lui."
+        },
+        {
+          "n": 11,
+          "t": "il-mette dans-le-fers pieds-de-moi ; tout-de sentiers-de-moi gardera."
+        },
+        {
+          "n": 12,
+          "t": "voilà celle-ci non tu-as-givgé je-répondrai-toi ; car god multipliera depuis-personne."
+        },
+        {
+          "n": 13,
+          "t": "why vers-lui tu-as-gjwté ; car tout-de paroles-de-lui non répondra."
+        },
+        {
+          "n": 14,
+          "t": "car dans-une El parlera ; et-dans-deux non il-observera-elle."
+        },
+        {
+          "n": 15,
+          "t": "dans-songe vision-de nuit dans-tomber torpeur sur hommes ; dans-assoupissements sur bed."
+        },
+        {
+          "n": 16,
+          "t": "alors il-découvrira oreille-de hommes ; et-dans-discipline-de-eux il-scellera."
+        },
+        {
+          "n": 17,
+          "t": "à/pour-faire-détourner homme acte ; et-orgueil depuis-guerrier il-covera."
+        },
+        {
+          "n": 18,
+          "t": "âme-de-lui restreindra depuis pit ; et-fauve-de-lui depuis-passer dans-le-arme."
+        },
+        {
+          "n": 19,
+          "t": "bed-de-lui ; et-a-été-fait-corriger dans-douleur sur et-dispute-de et-multitude-de os-de-lui perpétuel."
+        },
+        {
+          "n": 20,
+          "t": "fauve-de-lui pain et-a-gcblé-lui ; et-âme-de-lui nourriture-de désir."
+        },
+        {
+          "n": 21,
+          "t": "chair-de-lui acheve depuis-spectacle ; os-de-lui et-nudité-de et-ont-été-balayé non ont-été-vu."
+        },
+        {
+          "n": 22,
+          "t": "âme-de-lui ; et-a-present à/pour-la-pit et-fauve-de-lui à/pour-les-faisants-mourir."
+        },
+        {
+          "n": 23,
+          "t": "si substance sur-lui messager faisant-mépriser un depuis mille ; à/pour-faire-annoncer à/pour-homme gecr-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "et-a-gracié-lui et-a-dit délivre-lui depuis-descendre pit je-ai-trouvé ransom."
+        },
+        {
+          "n": 25,
+          "t": "chair-de-lui a-été-gjwqé depuis-jeunesse ; il-retournera à/pour-jours-de ghtfs-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "god implorera vers et-a-gkcgé-lui et-a-vu faces-de-lui dans-cri ; et-il-a-fait-retourner à/pour-personne droiture-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "il-observe sur hommes et-il-a-dit je-ai-péché et-droit je-ai-fait-déformer et-non il-a-gkkoaé à/pour-moi."
+        },
+        {
+          "n": 28,
+          "t": "âme-de-moi âme-de-lui a-sauvé depuis-passer dans-la-pit ; et-fauve-de-moi et-fauve-de-lui dans-la-lumière verra."
+        },
+        {
+          "n": 29,
+          "t": "voilà tout-de ces ouvrera El ; fois trois avec guerrier."
+        },
+        {
+          "n": 30,
+          "t": "à/pour-faire-retourner âme-de-lui depuis pit ; à/pour-être-luire dans-lumière-de les-vivants."
+        },
+        {
+          "n": 31,
+          "t": "fais-guetter Job écoute à/pour-moi ; fais-labourer et-moi parlerai."
+        },
+        {
+          "n": 32,
+          "t": "si substance discours fais-retourner-moi ; parle car je-ai-plaisi givger-de-toi."
+        },
+        {
+          "n": 33,
+          "t": "si néant tu écoute à/pour-moi ; fais-labourer et-je-apprendrai-toi sagesse."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Elihu et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "écoutez sages discours-de-moi ; et-sachants faites-entendre à/pour-moi."
+        },
+        {
+          "n": 3,
+          "t": "car oreille discours éprouvera ; et-goûter percevoira à/pour-manger."
+        },
+        {
+          "n": 4,
+          "t": "jugement nous-choisirons à/pour-nous ; nous-saurons entre-nous quoi bon."
+        },
+        {
+          "n": 5,
+          "t": "car Job a-dit je-ai-givgé ; et-El a-fait-détourner jugement-de-moi."
+        },
+        {
+          "n": 6,
+          "t": "sur jugement-de-moi je-manquerai ; gwger flèche-de-moi nul forfait."
+        },
+        {
+          "n": 7,
+          "t": "lequel guerrier comme-Job ; moquerie boira comme-les-eaux."
+        },
+        {
+          "n": 8,
+          "t": "et-a-voyagé à/pour-compagnie avec ouvrants-de malheur ; et-à/pour-aller avec hommes-de tort."
+        },
+        {
+          "n": 9,
+          "t": "car a-dit non guerrier ghdtera ; dans-gkcger-de-lui avec dieu."
+        },
+        {
+          "n": 10,
+          "t": "à/pour-ainsi hommes-de volonté écoutez à/pour-moi forbid à/pour-le-El depuis-tort et-Almighty depuis-injustice."
+        },
+        {
+          "n": 11,
+          "t": "car œuvre-de homme gkuqaera à/pour-lui ; et-comme-sentier-de homme il-fera-trouver-nous."
+        },
+        {
+          "n": 12,
+          "t": "même gue El non fera-méfaire ; et-Almighty non ghnsera jugement."
+        },
+        {
+          "n": 13,
+          "t": "lequel a-visité sur-lui terre-vers ; et-lequel a-mis monde tout-de-elle."
+        },
+        {
+          "n": 14,
+          "t": "si cœur-de-lui ; mettra vers-lui esprit-de-lui et-souffle-de-lui vers-lui recueillira."
+        },
+        {
+          "n": 15,
+          "t": "tout-de chair expirera union ; et-homme sur poussière retournera."
+        },
+        {
+          "n": 16,
+          "t": "et-si discernement écoute-hé celle-ci ; fais-entendre-hé à/pour-voix-de discours-de-moi."
+        },
+        {
+          "n": 17,
+          "t": "est-ce-même gkzrant-de jugement sellera ; et-si juste puissant tu-feras-méfaire."
+        },
+        {
+          "n": 18,
+          "t": "est-ce-dire à/pour-roi indignité ; méchant vers nobles."
+        },
+        {
+          "n": 19,
+          "t": "qui non a-porté faces-de princes et-non indépendant a-reconnaîtu à/pour-faces-de pauvre ; car acte-de mains-de-lui tout-de-eux."
+        },
+        {
+          "n": 20,
+          "t": "moment ils-mourront et-demi-de nuit ils-gbiueront peuple et-ils-passeront ; et-ils-feront-détourner vaillance non dans-main."
+        },
+        {
+          "n": 21,
+          "t": "car yeux-de-lui sur chemins-de homme ; et-tout-de pas-de-lui verra."
+        },
+        {
+          "n": 22,
+          "t": "néant ténèbre et-néant shadow ; à/pour-être-cacher là ouvrants-de malheur."
+        },
+        {
+          "n": 23,
+          "t": "car non sur homme mettra encore ; à/pour-marcher vers El dans-le-jugement."
+        },
+        {
+          "n": 24,
+          "t": "gkbabera puissants non investigation ; et-il-a-fait-rester autres sous-eux."
+        },
+        {
+          "n": 25,
+          "t": "à/pour-ainsi il-fera-reconnaître ouvrages-de-eux ; nuit et-a-tourné et-ils-gbpxeront."
+        },
+        {
+          "n": 26,
+          "t": "sous méchants il-a-applaudi-eux dans-lieu-de voyants."
+        },
+        {
+          "n": 27,
+          "t": "qui sur ainsi ils-ont-détourné après-lui ; et-tout-de chemins-de-lui non ils-ont-fait-comprendre."
+        },
+        {
+          "n": 28,
+          "t": "à/pour-faire-venir sur-lui clameur-de pauvre ; et-clameur-de affligés il-écoutera."
+        },
+        {
+          "n": 29,
+          "t": "et-lui fera-apaiser et-lequel fera-méfaire et-fera-cacher faces et-lequel observera-nous ; et-sur nation et-sur homme unitedness."
+        },
+        {
+          "n": 30,
+          "t": "depuis-régner homme profane depuis-pièges-de peuple."
+        },
+        {
+          "n": 31,
+          "t": "car vers El est-ce-a-dit je-ai-porté non je-gchrberai."
+        },
+        {
+          "n": 32,
+          "t": "excepté je-apercevoirai tu fais-show-moi ; si injustice je-ai-ouvré non je-ferai-ajouter."
+        },
+        {
+          "n": 33,
+          "t": "est-ce-from-toi il-gkuqaera-elle car tu as-rejeté car choisiras et-non je ; et-quoi tu-as-su parle."
+        },
+        {
+          "n": 34,
+          "t": "hommes-de volonté diront à/pour-moi ; et-guerrier sage écoutant à/pour-moi."
+        },
+        {
+          "n": 35,
+          "t": "Job non dans-connaissance parlera ; et-paroles-de-lui non dans-faire-comprendre."
+        },
+        {
+          "n": 36,
+          "t": "oh Job sera-éprouvé jusqu'à éminence ; sur turns dans-hommes-de malheur."
+        },
+        {
+          "n": 37,
+          "t": "car fera-ajouter sur faute-de-lui forfait entre-nous applaudira ; et-il-fera-multiplier émissions-de-lui à/pour-le-El."
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Elihu et-a-répondu et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "est-ce-celle-ci tu-as-pensé à/pour-jugement ; tu-as-dit justice-de-moi depuis-El."
+        },
+        {
+          "n": 3,
+          "t": "car tu-diras quoi il-ghdtera à/pour-toi-f ; quoi je-ferai-profiter depuis-faute-de-moi."
+        },
+        {
+          "n": 4,
+          "t": "je ferai-retourner-toi discours ; et-amis-de-toi avec-toi-f."
+        },
+        {
+          "n": 5,
+          "t": "fais-regarder ciels et-vois ; et-observe clouds ont-gazié depuis-toi."
+        },
+        {
+          "n": 6,
+          "t": "si tu-as-péché quoi tu-ouvreras dans-lui ; forfaits-de-toi et-ont-gjrcé quoi tu-feras à/pour-lui."
+        },
+        {
+          "n": 7,
+          "t": "si tu-as-givgé quoi tu-donneras à/pour-lui ; ou quoi depuis-main-de-toi il-prendra."
+        },
+        {
+          "n": 8,
+          "t": "à/pour-homme-de comme-toi tort-de-toi ; et-à/pour-fils-de homme droiture-de-toi."
+        },
+        {
+          "n": 9,
+          "t": "depuis-multitude-de oppressions ils-feront-gcfoer ; ils-gklteront depuis-bras-de nombreux."
+        },
+        {
+          "n": 10,
+          "t": "et-non a-dit où god faisants-de-moi ; donnant chants dans-le-nuit."
+        },
+        {
+          "n": 11,
+          "t": "apprendant-de-nous depuis-bêtes-de terre ; et-depuis-oiseau-de les-ciels il-gcpeera-nous."
+        },
+        {
+          "n": 12,
+          "t": "là ils-crieront et-non il-répondra ; depuis-faces-de orgueil-de bads."
+        },
+        {
+          "n": 13,
+          "t": "sûrement vanité non écoutera El ; et-Almighty non observera-elle."
+        },
+        {
+          "n": 14,
+          "t": "même car tu-diras non tu-observeras-nous ; judgment à/pour-faces-de-lui et-tu-trembleras à/pour-lui."
+        },
+        {
+          "n": 15,
+          "t": "et-maintenant car néant nez-de-lui a-visité ; et-non il-a-su dans-le-stupidité très."
+        },
+        {
+          "n": 16,
+          "t": "bouche-de-lui ; ouvrira et-Job vanity dans-nul-de connaissance discours il-fera-multiplier."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Elihu et-a-fait-ajouter et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "entoure à/pour-moi gcfg et-je-montrerai-toi ; car encore à/pour-god discours."
+        },
+        {
+          "n": 3,
+          "t": "je-porterai opinion-de-moi à/pour-lointain ; et-à/pour-ouvrant-de-moi je-donnerai justice."
+        },
+        {
+          "n": 4,
+          "t": "car gue non mensonge discours-de-moi ; entier-de knowledges avec-toi-f."
+        },
+        {
+          "n": 5,
+          "t": "voilà El puissant et-non rejetera ; puissant force-de cœur."
+        },
+        {
+          "n": 6,
+          "t": "non il-guérira méchant ; et-jugement-de affligés donnera."
+        },
+        {
+          "n": 7,
+          "t": "non il-gbkaera depuis-juste yeux-de-lui et-ensemble rois à/pour-le-trône ; et-il-a-fait-habiter-eux à/pour-éminence et-ils-ont-gazié."
+        },
+        {
+          "n": 8,
+          "t": "et-si liés dans-les-projectiles ; ils-seront-capturés dans-mahalabs-de affliction."
+        },
+        {
+          "n": 9,
+          "t": "œuvre-de-eux ; et-a-fait-annoncer à/pour-eux et-forfaits-de-eux car prévaloiront."
+        },
+        {
+          "n": 10,
+          "t": "et-il-a-découvri oreille-de-eux à/pour-le-correction ; et-il-a-dit car ils-retourneront depuis-malheur."
+        },
+        {
+          "n": 11,
+          "t": "si écouteront et-serviront jours-de-eux dans-le-bien acheveront ; et-année-de-eux dans-les-plaisants."
+        },
+        {
+          "n": 12,
+          "t": "et-si non ils-écouteront dans-arme ils-passeront ; et-ils-expireront comme-nul connaissance."
+        },
+        {
+          "n": 13,
+          "t": "et-profanes-de cœur ils-mettront nez ; non ils-gklteront car il-a-lié-eux."
+        },
+        {
+          "n": 14,
+          "t": "âme-de-eux ; meure dans-le-jeunesse et-fauve-de-eux dans-les-males."
+        },
+        {
+          "n": 15,
+          "t": "il-équipera affligé dans-affliction-de-lui ; et-il-découvrira dans-le-oppression oreille-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "et-même a-fait-inciter-toi depuis-bouche-de étroit breadth non détresse sous-elle ; ashes a-rempli et-tranquillité-de table-de-toi."
+        },
+        {
+          "n": 17,
+          "t": "et-judgment méchant tu-as-rempli ; judgment et-jugement ils-tiendront."
+        },
+        {
+          "n": 18,
+          "t": "car colère sinon il-fera-inciter-toi dans-mockery ; et-nombreux-de ransom ne fasse-tendre-toi."
+        },
+        {
+          "n": 19,
+          "t": "gklu-de-toi est-ce-arrangera non dans-or ; et-tout-de powers-de force."
+        },
+        {
+          "n": 20,
+          "t": "ne tu-renifles le-nuit ; à/pour-monter peuples sous-eux."
+        },
+        {
+          "n": 21,
+          "t": "sois-gardé ne tu-tournes vers malheur ; car sur celui-ci tu-as-choisi depuis-affliction."
+        },
+        {
+          "n": 22,
+          "t": "voilà El fera-gkiler dans-force-de-lui ; lequel comme-lui show."
+        },
+        {
+          "n": 23,
+          "t": "lequel chemin-de-lui ; a-visité sur-lui et-lequel a-dit tu-as-ouvré ghmtb."
+        },
+        {
+          "n": 24,
+          "t": "rappele car tu-feras-gkiier œuvre-de-lui ; qui hommes ont-chanté."
+        },
+        {
+          "n": 25,
+          "t": "tout-de homme ils-ont-apercevoir dans-lui ; personne fera-regarder depuis-lointain."
+        },
+        {
+          "n": 26,
+          "t": "voilà El great et-non nous-saurons ; nombre-de années-de-lui et-non investigation."
+        },
+        {
+          "n": 27,
+          "t": "car il-gbkaera drops-de eaux ; ils-distilleront rain à/pour-vapeur-de-lui."
+        },
+        {
+          "n": 28,
+          "t": "qui clouds couleront ; ils-gkbceront sur homme nombreux."
+        },
+        {
+          "n": 29,
+          "t": "même si il-discernera spreadings-de nuée ; shouts-de fourré-de-lui."
+        },
+        {
+          "n": 30,
+          "t": "voilà lumière-de-lui ; a-étendu sur-lui et-racines-de le-mer il-a-cové."
+        },
+        {
+          "n": 31,
+          "t": "car dans-eux il-contestera peuples ; goj à/pour-faisant-gfjzer donnera."
+        },
+        {
+          "n": 32,
+          "t": "sur lumière ; a-cové palmes et-il-a-commandé sur-elle dans-faisant-rencontrer."
+        },
+        {
+          "n": 33,
+          "t": "hurlement-de-lui ; fera-annoncer sur-lui bétail même sur montant."
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "verses": [
+        {
+          "n": 1,
+          "t": "même à/pour-celle-ci cœur-de-moi tremblera ; et-il-tressaillira depuis-lieu-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "écoutez écouter dans-trouble-de voix-de-lui ; et-grondement depuis-bouche-de-lui sortira."
+        },
+        {
+          "n": 3,
+          "t": "sous tout-de les-ciels gecpera-lui ; et-lumière-de-lui sur ailes-de la-terre."
+        },
+        {
+          "n": 4,
+          "t": "après-lui voix rugira fera-tonner dans-voix-de orgueil-de-lui ; et-non supplantera-eux car voix-de-lui sera-écouté."
+        },
+        {
+          "n": 5,
+          "t": "El fera-tonner dans-voix-de-lui extraordinaiues ; faisant grandes et-non nous-saurons."
+        },
+        {
+          "n": 6,
+          "t": "car à/pour-le-neige dira existe terre et-averse-de rain ; et-averse-de rains-de puissance-de-lui."
+        },
+        {
+          "n": 7,
+          "t": "dans-main-de tout-de homme il-scellera ; à/pour-savoir tout-de hommes-de acte-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "fauve et-est-venu dans ambush ; et-dans-demeures-de-elle elle-habitera."
+        },
+        {
+          "n": 9,
+          "t": "depuis whirlwind ; viendra le-chambre et-depuis-scatterings froid."
+        },
+        {
+          "n": 10,
+          "t": "depuis-souffle-de El glace donnera ; et-large-de eaux dans-détresse."
+        },
+        {
+          "n": 11,
+          "t": "même dans-humidité nuée fera-gdiuer ; nuageux-de lumière-de-lui fera-éparpiller."
+        },
+        {
+          "n": 12,
+          "t": "et-lui pourtours se-tournant dans-direction-de-lui dans-directions-de-lui à/pour-œuvre-de-eux ; tout qui commandera-eux sur faces-de monde terre-vers."
+        },
+        {
+          "n": 13,
+          "t": "si à/pour-verge si à/pour-terre-de-lui ; si à/pour-faveur il-fera-trouver-lui."
+        },
+        {
+          "n": 14,
+          "t": "fais-entendre-hé celle-ci Job ; reste et-discerne extraordinaiues-de El."
+        },
+        {
+          "n": 15,
+          "t": "est-ce-tu-sauras dans-mettre god sur-eux ; lumière-de nuageux-de-lui et-a-fait-briller."
+        },
+        {
+          "n": 16,
+          "t": "est-ce-tu-sauras sur balancements-de nuée ; wonders-de entier-de opinions."
+        },
+        {
+          "n": 17,
+          "t": "qui perfidies-de-toi chauds ; dans-faire-apaiser terre depuis-south."
+        },
+        {
+          "n": 18,
+          "t": "tu-feras-gkdner avec-lui à/pour-clouds ; forts comme-miroir été-fait-verser."
+        },
+        {
+          "n": 19,
+          "t": "fais-savoir-nous quoi nous-dirons à/pour-lui ; non nous-arrangerons depuis-faces-de ténèbre."
+        },
+        {
+          "n": 20,
+          "t": "est-ce-le-il-comptera à/pour-lui car je-parlerai ; si homme a-dit car engloutira."
+        },
+        {
+          "n": 21,
+          "t": "et-maintenant non ils-ont-vu lumière brillant lui dans-les-clouds ; et-esprit a-passé et-a-puu-eux."
+        },
+        {
+          "n": 22,
+          "t": "depuis-nord or gafyera ; sur god craint-de majesté."
+        },
+        {
+          "n": 23,
+          "t": "Almighty non nous-avons-trouvé-lui great-de force ; et-jugement et-multitude-de droiture non ghwybera."
+        },
+        {
+          "n": 24,
+          "t": "à/pour-ainsi hommes ont-craint-lui ; non tout-de sages-de cœur verra."
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH et-a-répondu Job depuis la-tempête et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "lequel celui-ci faisant-sombre avis dans-discours nul connaissance."
+        },
+        {
+          "n": 3,
+          "t": "gime donc comme-guerrier reins-de-toi ; et-je-demanderai-toi et-fais-savoir-moi."
+        },
+        {
+          "n": 4,
+          "t": "gnk tu-as-été dans-fonder-de-moi terre ; fais-annoncer si tu-as-su discernement."
+        },
+        {
+          "n": 5,
+          "t": "lequel il-a-mis dimensions-de-elle car tu-sauras ; ou lequel règle a-tendu sur-elle."
+        },
+        {
+          "n": 6,
+          "t": "sur quoi bases-de-elle ont-été-fait-enfoncer ; ou lequel il-a-show pierre-de angle-de-elle."
+        },
+        {
+          "n": 7,
+          "t": "dans-chanter unitedness étoiles-de matin ; et-ils-ont-fait-crier tout-de fils-de dieu."
+        },
+        {
+          "n": 8,
+          "t": "mer ; et-a-fait-ghdnaer dans-barrières dans-gbfjer-de-lui depuis-matrice il-sortira."
+        },
+        {
+          "n": 9,
+          "t": "dans-mettre-de-moi nuageux vêtements-de-lui ; et-nuage swaddling-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "et-je-ai-brisé sur-lui ordonnance-de-moi ; et-je-ai-mis barre et-barrières."
+        },
+        {
+          "n": 11,
+          "t": "et-je-ai-dit jusqu'à gihs tu-viendras et-non tu-feras-ajouter ; et-gihs il-posera dans-orgueil-de sources-de-toi."
+        },
+        {
+          "n": 12,
+          "t": "est-ce-depuis-jours-de-toi tu-as-commandé matin ; tu-as-su aube le-aube lieu-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "à/pour-gjjer dans-ailes-de la-terre ; et-ils-seront-secoués méchants depuis-elle."
+        },
+        {
+          "n": 14,
+          "t": "elle-tournera comme-argile-de sceau ; et-ils-fixeront comme vêtements."
+        },
+        {
+          "n": 15,
+          "t": "lumière-de-eux ; et-sera-reteni depuis-méchants et-bras-de élevante sera-brisée."
+        },
+        {
+          "n": 16,
+          "t": "est-ce-tu-es-venu jusqu'à ggkos-de mer ; et-dans-investigation-de abîme tu-as-se-marché."
+        },
+        {
+          "n": 17,
+          "t": "portes-de mort ; est-ce-ont-été-découvri à/pour-toi et-portes-de shadow tu-verras."
+        },
+        {
+          "n": 18,
+          "t": "tu-as-discerné jusqu'à breadths-de terre ; fais-annoncer si tu-as-su tout-de-elle."
+        },
+        {
+          "n": 19,
+          "t": "où celui-ci le-chemin habitera lumière ; et-ténèbre où celui-ci lieu-de-lui."
+        },
+        {
+          "n": 20,
+          "t": "car tu-prendras-lui vers frontière-de-lui ; et-car tu-discerneras paths-de maison-de-lui."
+        },
+        {
+          "n": 21,
+          "t": "tu-as-su car alors tu-seras-engendré ; et-nombre-de jours-de-toi nombreux."
+        },
+        {
+          "n": 22,
+          "t": "est-ce-tu-es-venu vers trésors-de neige ; et-trésors-de grêle tu-verras."
+        },
+        {
+          "n": 23,
+          "t": "qui je-ai-restreindu à/pour-heure-de distress ; à/pour-jour-de bataille et-guerre."
+        },
+        {
+          "n": 24,
+          "t": "où celui-ci le-chemin sera-divisé lumière ; orient fera-éparpiller sur terre."
+        },
+        {
+          "n": 25,
+          "t": "lequel il-a-partagé à/pour-le-flot conduit ; et-chemin à/pour-foudre-de voix."
+        },
+        {
+          "n": 26,
+          "t": "à/pour-faire-pluie sur terre non homme ; désert non homme dans-lui."
+        },
+        {
+          "n": 27,
+          "t": "à/pour-faire-rassasier ravage et-ruine ; et-à/pour-faire-pousser départ-de herbe."
+        },
+        {
+          "n": 28,
+          "t": "est-ce-substance à/pour-le-rain père ; ou lequel il-a-fait-engendrer gouttes-de rosée."
+        },
+        {
+          "n": 29,
+          "t": "depuis-ventre-de lequel le-glace est-sorti ; et-bol-de ciels lequel a-engendré-lui."
+        },
+        {
+          "n": 30,
+          "t": "comme-la-pierre eaux cacheront ; et-faces-de abîme captureront."
+        },
+        {
+          "n": 31,
+          "t": "est-ce-tu-conspireras bonds-de pléiades ; ou cordes-de orion tu-gitaaeras."
+        },
+        {
+          "n": 32,
+          "t": "est-ce-tu-feras-sortir Mazzaroth dans-heure-de-lui ; et-bear sur fils-de-elle tu-feras-conduire-eux."
+        },
+        {
+          "n": 33,
+          "t": "est-ce-tu-as-su statuts-de ciels ; si tu-mettras autorité-de-lui dans-la-terre."
+        },
+        {
+          "n": 34,
+          "t": "est-ce-tu-feras-élever à/pour-le-nuée voix-de-toi ; et-multitude-de eaux covera-toi."
+        },
+        {
+          "n": 35,
+          "t": "est-ce-le-tu-envoyeras éclairs et-iront ; et-ils-diront à/pour-toi voilà-nous."
+        },
+        {
+          "n": 36,
+          "t": "lequel il-a-posé dans-les-inners sagesse ; ou lequel il-a-donné à/pour-le-heart discernement."
+        },
+        {
+          "n": 37,
+          "t": "lequel il-comptera clouds dans-sagesse ; et-bags-de ciels lequel il-fera-mentir."
+        },
+        {
+          "n": 38,
+          "t": "dans-verser poussière à/pour-le-gfdeer ; et-clods colleront."
+        },
+        {
+          "n": 39,
+          "t": "est-ce-tu-givwaeras à/pour-geqkc proie ; et-fauve-de gelwas tu-rempliras."
+        },
+        {
+          "n": 40,
+          "t": "car ils-gknqeront dans-les-demeures ; ils-habiteront dans-la-fourré en ambush."
+        },
+        {
+          "n": 41,
+          "t": "lequel chasse-de-lui fera-affermir à/pour-le-corbeau car enfant-de-lui enfants-de-lui vers El gklteront ; ils-chanceleront à/pour-nul goj."
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "verses": [
+        {
+          "n": 1,
+          "t": "est-ce-tu-as-su heure-de engendrer wildgoats-de Rock ; trembler biches tu-garderas."
+        },
+        {
+          "n": 2,
+          "t": "tu-compteras lunes elles-rempliront ; et-tu-as-su heure-de engendrer-de-elles."
+        },
+        {
+          "n": 3,
+          "t": "elles-plieront enfants-de-elles elles-gilberont ; gchtbs-de-eux elles-envoyeront."
+        },
+        {
+          "n": 4,
+          "t": "fils-de-eux rêveront multiplieront dans-le-épi ; ils-sont-sorti et-non ils-sont-retourné à/pour-eux."
+        },
+        {
+          "n": 5,
+          "t": "lequel wild libre a-envoyé ; et-gfcms-de gici lequel il-a-gitaaé."
+        },
+        {
+          "n": 6,
+          "t": "qui je-ai-mis plaine maison-de-lui ; et-tabernacles-de-lui salé."
+        },
+        {
+          "n": 7,
+          "t": "il-rira à/pour-tumulte-de cité ; shouts-de ggluant non il-écoutera."
+        },
+        {
+          "n": 8,
+          "t": "gedgera monts pâture-de-lui ; et-après tout-de verdure fréquentera."
+        },
+        {
+          "n": 9,
+          "t": "gjql est-ce-voudra servir-de-toi ; si crèche-de-toi logera sur."
+        },
+        {
+          "n": 10,
+          "t": "est-ce-tu-conspireras gjql dans-sillon-de corde-de-lui ; si il-hersera vallées après-toi."
+        },
+        {
+          "n": 11,
+          "t": "est-ce-tu-confieras dans-lui car nombreux force-de-lui ; et-tu-abandonneras vers-lui besogne-de-toi."
+        },
+        {
+          "n": 12,
+          "t": "est-ce-tu-feras-supporter dans-lui car semence-de-toi retournera fera-retourner ; et-threshing-de-toi recueillira."
+        },
+        {
+          "n": 13,
+          "t": "aile-de gjzgs a-été-ghuké ; si pinion cigogne et-plumes."
+        },
+        {
+          "n": 14,
+          "t": "car elle-abandonnera à/pour-la-terre œufs-de-elle ; et-sur poussière elle-gctdera."
+        },
+        {
+          "n": 15,
+          "t": "pied et-a-ignoré car gcciera-elle ; et-fauve-de le-champ foulera-elle."
+        },
+        {
+          "n": 16,
+          "t": "il-a-fait-gjpler fils-de-elle à/pour-non à/pour-elle ; à/pour-vain besogne-de-elle nul dread."
+        },
+        {
+          "n": 17,
+          "t": "car god a-fait-priver-elle sagesse ; et-non il-a-divisé à/pour-elle dans-la-discernement."
+        },
+        {
+          "n": 18,
+          "t": "comme-la-heure dans-le-ggbg elle-fera-gfzver ; elle-rira à/pour-le-hirondelle et-à/pour-chevauchant-de-lui."
+        },
+        {
+          "n": 19,
+          "t": "est-ce-tu-donneras à/pour-le-hirondelle might ; est-ce-tu-feras-vêtir cou-de-lui vibration."
+        },
+        {
+          "n": 20,
+          "t": "est-ce-le-tu-feras-trembler-lui comme-le-locust ; majesté-de snorting-de-lui terreur."
+        },
+        {
+          "n": 21,
+          "t": "ils-creuseront dans-le-vallée et-il-exultera dans-force ; équipement sortira à/pour-rencontrer."
+        },
+        {
+          "n": 22,
+          "t": "il-rira à/pour-dread et-non il-sera-gdfeé ; et-non il-retournera depuis-faces-de épée."
+        },
+        {
+          "n": 23,
+          "t": "sur-lui quiver gjzcera ; flamme-de lance et-javelot."
+        },
+        {
+          "n": 24,
+          "t": "dans-mouvement et-trouble dévorera terre ; et-non voix-de trumpet fera-supporter car."
+        },
+        {
+          "n": 25,
+          "t": "dans-assez-de trumpet il-dira aha et-depuis-lointain il-fera-sentir guerre ; tonnerre-de princes et-cri."
+        },
+        {
+          "n": 26,
+          "t": "est-ce-depuis-discernement-de-toi hawk fera-voler ; il-étendra aile-de-lui ailes-de-lui à/pour-sud."
+        },
+        {
+          "n": 27,
+          "t": "si sur bouche-de-toi fera-gazier aigle ; et-car nid-de-lui fera-élever."
+        },
+        {
+          "n": 28,
+          "t": "Rock habitera et-logera ; sur dent-de Rock et-filet."
+        },
+        {
+          "n": 29,
+          "t": "depuis-là goj a-creusé ; à/pour-lointain yeux-de-lui ils-feront-regarder."
+        },
+        {
+          "n": 30,
+          "t": "et-gyq-de-lui ils-suceront sang ; et-dans-in tués là lui."
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH et-a-répondu Job et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "est-ce-gjwter avec Almighty faultfinder ; faisant-corriger god réponde-elle."
+        },
+        {
+          "n": 3,
+          "t": "Job et-a-répondu YHWH et-a-dit."
+        },
+        {
+          "n": 4,
+          "t": "voilà je-ai-légé quoi je-ferai-retourner-toi ; main-de-moi je-ai-mis en bouche-de-moi."
+        },
+        {
+          "n": 5,
+          "t": "une je-ai-parlé et-non je-répondrai ; et-deux et-non je-ferai-ajouter."
+        },
+        {
+          "n": 6,
+          "t": "YHWH et-a-répondu Job depuis tempête et-a-dit."
+        },
+        {
+          "n": 7,
+          "t": "gime donc comme-guerrier reins-de-toi ; je-demanderai-toi et-fais-savoir-moi."
+        },
+        {
+          "n": 8,
+          "t": "est-ce-même tu-feras-rompre jugement-de-moi ; tu-feras-méfaire-moi égard tu-givgeras."
+        },
+        {
+          "n": 9,
+          "t": "et-si bras comme-le-El à/pour-toi-f ; et-dans-voix comme-lui tu-feras-tonner."
+        },
+        {
+          "n": 10,
+          "t": "ghkpbe donc orgueil et-hauteur ; et-majesté et-splendeur tu-vêtisses."
+        },
+        {
+          "n": 11,
+          "t": "fais-éparpiller débordements-de nez-de-toi ; et-vois tout-de orgueilleux et-fais-glcwer-lui."
+        },
+        {
+          "n": 12,
+          "t": "vois tout-de orgueilleux fais-humilier-lui ; et-foule méchants sous-eux."
+        },
+        {
+          "n": 13,
+          "t": "dissimule-eux dans-le-poussière unitedness ; faces-de-eux selle dans-le-dissimulé."
+        },
+        {
+          "n": 14,
+          "t": "et-aussi je ferai-confesser-toi ; car right-de-toi fera-sauver à/pour-toi."
+        },
+        {
+          "n": 15,
+          "t": "voici donc behemoth qui je-ai-fait avec-toi-f ; herbage comme-le-bœufs mangera."
+        },
+        {
+          "n": 16,
+          "t": "voici donc force-de-lui dans-hanches-de-lui ; et-strength-de-lui dans-muscles-de ventre-de-lui."
+        },
+        {
+          "n": 17,
+          "t": "queue-de-lui gcxbbera comme cèdre ; nerfs-de cuisse-de-lui cuisses-de-lui glfheront."
+        },
+        {
+          "n": 18,
+          "t": "os-de-lui canals-de cuivre ; bones-de-lui comme-rod-de fer."
+        },
+        {
+          "n": 19,
+          "t": "lui commencement-de chemins-de El ; le-faisant-de-lui il-fasse-approcher épée-de-lui."
+        },
+        {
+          "n": 20,
+          "t": "car produit-de monts ils-porteront à/pour-lui ; et-tout-de fauve-de le-champ ils-riront là."
+        },
+        {
+          "n": 21,
+          "t": "sous lotus il-mentira ; dans-abri-de roseau et-marais."
+        },
+        {
+          "n": 22,
+          "t": "lotus encloront-lui ombre-de-lui ; ils-tourneront-lui saules-de torrent."
+        },
+        {
+          "n": 23,
+          "t": "voilà fleuve violera non gcwvera ; confiera car Jourdain gbfjera vers bouche-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "dans-yeux-de-lui il-prendra-lui ; dans-pièges nez perforera."
+        },
+        {
+          "n": 25,
+          "t": "tu-traîneras léviathan dans-hameçon ; et-dans-mahalab tu-feras-enfoncer langue-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "est-ce-tu-mettras jonc dans-nez-de-lui ; et-dans-épine tu-perforeras Lehi-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "est-ce-il-fera-multiplier vers-toi implorations ; si il-parlera vers-toi douxes."
+        },
+        {
+          "n": 28,
+          "t": "est-ce-il-coupera alliance avec-toi-f ; tu-prendras-lui à/pour-serviteur-de durée."
+        },
+        {
+          "n": 29,
+          "t": "est-ce-le-tu-riras dans-lui comme-la-volaille ; et-tu-conspireras-lui à/pour-servantes-de-toi."
+        },
+        {
+          "n": 30,
+          "t": "associés ; perceront sur-lui Canaanite diviseront-lui entre."
+        },
+        {
+          "n": 31,
+          "t": "est-ce-le-tu-rempliras dans-barbillons peau-de-lui ; et-dans-bourdonnement-de fishs tête-de-lui."
+        },
+        {
+          "n": 32,
+          "t": "metts sur-lui palme-de-toi ; rappele guerre ne tu-fasses-ajouter."
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "verses": [
+        {
+          "n": 1,
+          "t": "voilà espérance-de-lui a-été-manqué ; est-ce-aussi vers aspect-de-lui sera-fait-jeter."
+        },
+        {
+          "n": 2,
+          "t": "non cruel car il-éveillera-lui ; et-lequel lui à/pour-faces-de-moi fixera."
+        },
+        {
+          "n": 3,
+          "t": "lequel il-a-fait-rencontrer-moi et-je-gkuqaerai ; sous tout-de les-ciels à/pour-moi lui."
+        },
+        {
+          "n": 4,
+          "t": "non à/pour-lui je-ferai-labourer mensonges-de-lui ; et-parole-de mights et-beauté-de estimer-de-lui."
+        },
+        {
+          "n": 5,
+          "t": "lequel il-a-découvri faces-de vêtements-de-lui ; dans-double-de licou-de-lui lequel il-viendra."
+        },
+        {
+          "n": 6,
+          "t": "barrières-de faces-de-lui lequel il-a-gitaaé ; alentours-de dents-de-lui terreur."
+        },
+        {
+          "n": 7,
+          "t": "majesté canals-de boucliers ; fermé sceau serré."
+        },
+        {
+          "n": 8,
+          "t": "un dans-un ils-approcheront ; et-esprit non viendra entre-eux."
+        },
+        {
+          "n": 9,
+          "t": "homme dans-frère-de-lui ils-colleront ; ils-captureront et-non ils-sépareront."
+        },
+        {
+          "n": 10,
+          "t": "lumière ; fera-gbxhaer éternuements-de-lui et-yeux-de-lui comme-paupières-de aube."
+        },
+        {
+          "n": 11,
+          "t": "depuis-bouche-de-lui torches marcheront ; étincelles-de feu sauveront."
+        },
+        {
+          "n": 12,
+          "t": "depuis-narines-de-lui fumée sortira ; comme-panier soufflé et-jonc."
+        },
+        {
+          "n": 13,
+          "t": "âme-de-lui charbons brûlera ; et-flamme depuis-bouche-de-lui sortira."
+        },
+        {
+          "n": 14,
+          "t": "dans-cou-de-lui puissance logera ; et-à/pour-faces-de-lui dismay dansera."
+        },
+        {
+          "n": 15,
+          "t": "refuses-de chair-de-lui ont-collé ; versé sur-lui ni il-sera-chancelé."
+        },
+        {
+          "n": 16,
+          "t": "cœur-de-lui versé comme pierre ; et-versé comme-scission base."
+        },
+        {
+          "n": 17,
+          "t": "depuis-dignité-de-lui Els gbdyceront ; depuis-ruines ils-pécheront."
+        },
+        {
+          "n": 18,
+          "t": "faisant-rattraper-de-lui épée nul levera ; lance missile et-glgha."
+        },
+        {
+          "n": 19,
+          "t": "fer ; pensera à/pour-paille à/pour-arbre-de pourriture cuivre."
+        },
+        {
+          "n": 20,
+          "t": "non fils-de arc fera-atteindre-lui ; à/pour-chaume pierres-de sling ont-été-tourné à/pour-lui."
+        },
+        {
+          "n": 21,
+          "t": "comme-chaume ils-ont-été-pensé club ; et-il-rira à/pour-mouvement-de javelot."
+        },
+        {
+          "n": 22,
+          "t": "sous-lui pointus-de tesson ; diligent gkbnera sur boue."
+        },
+        {
+          "n": 23,
+          "t": "il-fera-gkeder comme-le-pot profond ; mer mettra comme-la-ggde."
+        },
+        {
+          "n": 24,
+          "t": "après-lui sentier fera-luire ; abîme pensera à/pour-âge."
+        },
+        {
+          "n": 25,
+          "t": "néant sur poussière likeness-de-lui ; le-fait à/pour-nul crainte."
+        },
+        {
+          "n": 26,
+          "t": "tout-de exalté il-verra ; lui roi sur tout-de fils-de orgueil."
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Job et-a-répondu YHWH et-a-dit."
+        },
+        {
+          "n": 2,
+          "t": "tu-as-su je-ai-su car tout tu-vaincras ; et-non il-sera-gatw depuis-toi dessein."
+        },
+        {
+          "n": 3,
+          "t": "lequel celui-ci faisant-cacher-de avis nul connaissance à/pour-ainsi je-ai-fait-annoncer et-non je-discernerai ; extraordinaiues depuis-moi et-non je-saurai."
+        },
+        {
+          "n": 4,
+          "t": "écoute donc et-moi parlerai ; je-demanderai-toi et-fais-savoir-moi."
+        },
+        {
+          "n": 5,
+          "t": "à/pour-bruit-de oreille je-ai-écouté-toi ; et-maintenant œil-de-moi a-vu-toi."
+        },
+        {
+          "n": 6,
+          "t": "sur ainsi je-rejeterai et-je-ai-été-consolé ; sur poussière et-cendre."
+        },
+        {
+          "n": 7,
+          "t": "et-a-été après YHWH a-parlé les-paroles les-ces vers Job ; YHWH et-a-dit vers Eliphaz le-Temanite a-embrasé nez-de-moi dans-toi et-dans-deux-de amis-de-toi, car non vous-avez-parlé vers-moi affermie comme-serviteur-de-moi Job."
+        },
+        {
+          "n": 8,
+          "t": "et-maintenant prenez à/pour-vous sept bouvillons et-sept béliers et-allez vers serviteur-de-moi Job et-vous-avez-fait-monter burnt derrière-vous, et-Job serviteur-de-moi, priera sur-vous ; pour gsxb faces-de-lui je-porterai à/pour-sans faire avec-vous folie, car non vous-avez-parlé vers-moi affermie comme-serviteur-de-moi Job."
+        },
+        {
+          "n": 9,
+          "t": "et-ils-sont-allé Eliphaz le-Temanite et-Bildad le-Shuhite Zophar le-Naamathite, et-ils-ont-fait, comme-lorsque YHWH ; a-parlé vers-eux YHWH et-a-porté faces-de Job."
+        },
+        {
+          "n": 10,
+          "t": "et-YHWH est-retourné captivity-de Job, dans-se-prier-de-lui derrière amis-de-lui ; YHWH et-a-fait-ajouter tout-de qui à/pour-Job à/pour-double."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-sont-venu vers-lui tout-de frères-de-lui et-tout-de sœurs-de-lui et-tout-de sachants-de-lui à/pour-faces et-ils-ont-mangé avec-lui pain dans-maison-de-lui et-ils-ont-secoué à/pour-lui et-ils-ont-consolé lui, sur tout-de la-mal, qui a-fait-venir YHWH sur-lui ; et-ils-ont-donné à/pour-lui homme coin une, et-homme, ggos-de or un."
+        },
+        {
+          "n": 12,
+          "t": "et-YHWH a-béni end-de Job depuis-commencement-de-lui ; et-a-été à/pour-lui quatre dix mille troupeau et-six-de mille chameaux, et-mille paire-de bœufs et-mille ânesses."
+        },
+        {
+          "n": 13,
+          "t": "et-il-a-été à/pour-lui gkhn fils et-trois filles."
+        },
+        {
+          "n": 14,
+          "t": "nom-de la-une Jemimah et-a-appelé, et-nom-de la-seconde Keziah ; et-nom-de la-troisième Qeren Hapoukh."
+        },
+        {
+          "n": 15,
+          "t": "et-non il-a-été-trouvé femmes belles comme-filles-de Job dans-tout-de la-terre ; père-de-eux et-a-donné à/pour-eux héritage dans-milieu-de frères-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "Job et-a-guéri après celle-ci, cent et-quarante année ; et-il-a-vu fils-de-lui et-fils-de fils-de-lui, quatre périodes."
+        },
+        {
+          "n": 17,
+          "t": "Job vieux et-rassasié-de et-est-mort, jours."
+        }
+      ]
+    }
+  ]
+}

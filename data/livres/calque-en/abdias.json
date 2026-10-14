@@ -1,0 +1,111 @@
+{
+  "id": "abdias",
+  "title": "Livre d'Abdias",
+  "original_title": "Abdias",
+  "short": "Ab",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "vision-of Obadiah ; thus has-said lords-of-me YHWH to/for-Edom tidings we-have-heard with YHWH and-envoy in-the-nations has-been-sended, rise and-let-us-rise on-her to/for-the-battle."
+        },
+        {
+          "n": 2,
+          "t": "behold small I-have-given-you in-the-nations ; despised you very."
+        },
+        {
+          "n": 3,
+          "t": "arrogance-of heart-of-you has-made-deceive-you, dwelling-of in-clefts-of Rock height-of seat-of-him ; saying in-heart-of-him, who land will-make-go-me."
+        },
+        {
+          "n": 4,
+          "t": "if you-will-make-exult like-the-eagle, and-if between stars put nest-of-you ; from-there I-will-make-go-you utterance-of YHWH."
+        },
+        {
+          "n": 5,
+          "t": "if thiefs have-come to/for-you if ruining-of night, how you-have-been-ceased, is-it-not will-steal sufficiency-of-them ; if gathers have-come to/for-you-f, is-it-not they-will-make-remain gleanings."
+        },
+        {
+          "n": 6,
+          "t": "how have-been-searched Esau, treasures-of-him have-been-enquired."
+        },
+        {
+          "n": 7,
+          "t": "until the-border have-sended-you all-of mans-of covenant-of-you, have-made-deceive-you mans-of peace-of-you ; have-abled to/for-you food-of-you they-will-put net under-you, naught understanding in-him."
+        },
+        {
+          "n": 8,
+          "t": "is-it-not in-the-day the-he utterance-of YHWH ; and-I-have-made-perish wise from-Edom, and-understanding from-mountain-of Esau."
+        },
+        {
+          "n": 9,
+          "t": "and-they-have-dismayeded mighty-of-you Teman ; sake man will-be-cut from-mountain-of Esau from-slaughter."
+        },
+        {
+          "n": 10,
+          "t": "from-violence-of shame ; will-cover-you brother-of-you Jacob and-you-have-been-cut to/for-age."
+        },
+        {
+          "n": 11,
+          "t": "in-day-of stand-of-you before, in-day-of captive stranger helech-of-him ; and-foreign gate-of-him gates-of-him have-come and-on Jerusalem have-loted allotted, also you like-one-of from-them."
+        },
+        {
+          "n": 12,
+          "t": "and-do-not let-see in-day-of brother-of-you in-day-of misfortune-of-him, and-do-not let-rejoice to/for-sons-of Judah in-day-of perish-of-them ; and-do-not let-make-magnify lip-of-you in-day-of distress."
+        },
+        {
+          "n": 13,
+          "t": "do-not let-come in-gate-of people-of-me in-day-of calamity-of-them, do-not you let-see also in-evil-of-him in-day-of calamity-of-him ; and-do-not let-send in-helech-of-him in-day-of calamity-of-him."
+        },
+        {
+          "n": 14,
+          "t": "and-do-not let-stand on the-plunder, to/for-make-cut survivors-of-him ; and-do-not let-make-shut survivors-of-him in-day-of distress."
+        },
+        {
+          "n": 15,
+          "t": "for near day-of YHWH on all-of the-nations ; like-when you-have-done recompense-of-you will-be-done to/for-you-f, will-return in-head-of-you."
+        },
+        {
+          "n": 16,
+          "t": "for like-when you-pl-have-drunk on mountain-of holiness-of-me, they-will-drink all-of the-nations continually ; and-they-have-drunk and-they-have-swallowed, and-they-have-been like-not they-have-been."
+        },
+        {
+          "n": 17,
+          "t": "and-in-mountain-of Zion survivor will-be and-has-been holiness ; and-they-have-possessed house-of Jacob, possessions-of-them."
+        },
+        {
+          "n": 18,
+          "t": "house-of Jacob fire and-has-been and-house-of Joseph flame and-house-of Esau to/for-stubble, and-they-have-burned in-them and-they-have-eaten-them ; and-not survivor will-be to/for-house-of Esau, for YHWH has-spoken."
+        },
+        {
+          "n": 19,
+          "t": "and-they-have-possessed the-negeb mountain-of Esau and-the-shephelah Philistine, and-they-have-possessed field-of Ephraim, and-field-of Samaria ; and-Benjamin the-Gilead."
+        },
+        {
+          "n": 20,
+          "t": "and-captivity-of the-rampart the-this to/for-sons-of Israel who Canaanite until Zarephath, and-captivity-of Jerusalem who in-Sepharad ; they-will-possess, cities-of the-negeb."
+        },
+        {
+          "n": 21,
+          "t": "and-they-have-ascended making-save in-mountain-of Zion, to/for-judge mountain-of Esau ; the-kingship and-has-been to/for-YHWH."
+        }
+      ]
+    }
+  ]
+}

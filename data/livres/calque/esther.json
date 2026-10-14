@@ -1,0 +1,740 @@
+{
+  "id": "esther",
+  "title": "Livre d'Esther",
+  "original_title": "Esther",
+  "short": "Est",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-il-a-été dans-jours-de Assuérus ; lui Assuérus le-régnant depuis-India et-jusqu'à Koush, sept et-vingt et-cent province."
+        },
+        {
+          "n": 2,
+          "t": "dans-les-jours les-eux ; comme-habiter le-roi Assuérus sur trône-de royauté-de-lui, qui dans-Bechouchan la-château."
+        },
+        {
+          "n": 3,
+          "t": "dans-année-de trois à/pour-régner-de-lui, festin a-fait, à/pour-tout-de princes-de-lui et-serviteurs-de-lui ; compétence-de Persia et-Médie les-nobles et-princes-de les-provinces à/pour-faces-de-lui."
+        },
+        {
+          "n": 4,
+          "t": "dans-faire-voir-de-lui richesse-de gloire-de royauté-de-lui, et-honneur-de, splendeur-de grandeur-de-lui ; jours nombreux, quatre-vingts et-cent-de jour."
+        },
+        {
+          "n": 5,
+          "t": "et-dans-remplir les-jours les-ces le-roi a-fait à/pour-tout-de le-peuple les-trouvés dans-Bechouchan la-château à/pour-grand et-jusqu'à jeune festin sept-de jours ; dans-enclos-de, jardin-de palace-de le-roi."
+        },
+        {
+          "n": 6,
+          "t": "white genx et-violet gjjé dans-mahalabs-de byssus et-rouge-pourpre, sur croisées-de argent et-colonnes-de alabastere ; lits-de or et-argent sur pavé-de porphyry et-alabastere et-perle et-stone."
+        },
+        {
+          "n": 7,
+          "t": "et-faire-abreuver dans-ustensiles-de or, et-ustensiles depuis-ustensiles changeants ; et-vin-de royauté nombreux comme-main-de le-roi."
+        },
+        {
+          "n": 8,
+          "t": "et-la-boire comme-la-loi néant forcçant ; car ainsi le-roi a-fondé sur tout-de beaucoup-de maison-de-lui, à/pour-faire comme-acceptation-de homme et-homme."
+        },
+        {
+          "n": 9,
+          "t": "aussi Vashti la-reine, a-fait festin-de femmes ; maison-de la-royauté, qui à/pour-le-roi Assuérus."
+        },
+        {
+          "n": 10,
+          "t": "dans-le-jour le-septième, comme-bon cœur-de le-roi dans-le-vin ; Biztha Harbona Bigtha et-Abagtha Zethar et-Carkas, a-dit à/pour-Mehuman sept-de les-eunuchs, les-administrants, ensemble faces-de le-roi Assuérus."
+        },
+        {
+          "n": 11,
+          "t": "à/pour-faire-venir Vashti la-reine à/pour-faces-de le-roi dans-couronne-de royauté ; à/pour-faire-voir les-peuples et-les-princes beauté-de-elle, car bone-de aspect lui."
+        },
+        {
+          "n": 12,
+          "t": "la-reine et-a-refusé Vashti à/pour-venir dans-parole-de le-roi, qui dans-main-de les-eunuchs ; le-roi et-a-gjmié très, et-colère-de-lui a-brûlé dans-lui."
+        },
+        {
+          "n": 13,
+          "t": "le-roi à/pour-les-sages sachants-de et-a-dit, les-heures ; car ainsi parole-de le-roi, à/pour-faces-de, tout-de sachants-de loi et-judgment."
+        },
+        {
+          "n": 14,
+          "t": "et-le-proche vers-lui Carshena Shethar Admatha Tarshish, Meres Marsena Memucan ; sept-de princes-de Persia et-Médie voyants-de faces-de le-roi, les-habitants premiere dans-la-royauté."
+        },
+        {
+          "n": 15,
+          "t": "comme-loi quoi à/pour-faire, dans-la-reine Vashti ; sur qui non elle-a-fait ordre-de le-roi Assuérus, dans-main-de les-eunuchs."
+        },
+        {
+          "n": 16,
+          "t": "Memucan et-a-dit à/pour-faces-de le-roi et-les-princes, non sur le-roi à/pour-seul-de-lui, a-tordu Vashti la-reine ; car sur tout-de les-princes et-sur tout-de les-peuples, qui, dans-tout-de provinces-de le-roi Assuérus."
+        },
+        {
+          "n": 17,
+          "t": "car parole-de la-reine sortira sur tout-de les-femmes, à/pour-faire-mépriser maris-de-elles dans-yeux-de-elles ; dans-dire-de-eux le-roi Assuérus a-dit à/pour-faire-venir Vashti la-reine à/pour-faces-de-lui et-non est-venu."
+        },
+        {
+          "n": 18,
+          "t": "et-le-jour le-celui-ci princesses-de Persia diront et-Médie qui ont-écouté parole-de la-reine, à/pour-tout-de princes-de le-roi ; et-comme-assez-de gaka et-courroux."
+        },
+        {
+          "n": 19,
+          "t": "si sur le-roi salutaire sortisse parole-de royauté depuis-faces-de-lui, et-sera-écrit dans-lois-de Persia et-Médie et-non passera ; qui non Vashti viendra à/pour-faces-de le-roi Assuérus, et-royauté-de-elle donnera le-roi, à/pour-neighbor-de-elle la-bone depuis-elle."
+        },
+        {
+          "n": 20,
+          "t": "edict-de le-roi et-a-été-écouté qui fera dans-tout-de royauté-de-lui, car nombreuse lui ; et-tout-de les-femmes ils-donneront honneur à/pour-maris-de-elles, à/pour-grand et-jusqu'à jeune."
+        },
+        {
+          "n": 21,
+          "t": "le-parole et-a-amélioré, dans-yeux-de le-roi et-les-princes ; le-roi et-a-fait comme-parole-de Memucan."
+        },
+        {
+          "n": 22,
+          "t": "et-a-envoyé livres vers tout-de provinces-de le-roi, vers province et-province comme-édit-de-elle, et-vers peuple et-peuple comme-langue-de-lui ; à/pour-être tout-de homme luttant dans-maison-de-lui, et-parlant comme-langue-de peuple-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "après les-paroles les-ces, comme-décroître, colère-de le-roi Assuérus ; il-a-rappelé Vashti et-qui elle-a-fait, et-qui il-a-été-coupé sur-elle."
+        },
+        {
+          "n": 2,
+          "t": "youths-de le-roi administrants-de-lui et-ont-dit ; ils-cherchent à/pour-le-roi servantes vierges bones-de aspect."
+        },
+        {
+          "n": 3,
+          "t": "le-roi et-fasse-visiter commissaires dans-tout-de provinces-de royauté-de-lui et-assemblent tout-de servante vierge bone-de aspect vers Bechouchan la-château vers maison-de les-femmes, vers main-de Hegai eunuch-de le-roi gardant-de les-femmes ; et-donner raclements-de-elles."
+        },
+        {
+          "n": 4,
+          "t": "et-la-servante qui améliorera dans-yeux-de le-roi, régne sous Vashti ; le-parole et-a-amélioré dans-yeux-de le-roi et-a-fait ainsi."
+        },
+        {
+          "n": 5,
+          "t": "homme Jew, a-été dans-Bechouchan la-château ; et-nom-de-lui Mardochée fils-de Jair fils-de Shimei fils-de Kish Garap Benjaminite."
+        },
+        {
+          "n": 6,
+          "t": "qui a-été-fait-découvrir depuis-Jérusalem, avec la-captivité qui a-été-fait-découvrir, avec Jeconiah roi-de Juda ; qui Nebucadnetsar a-fait-découvrir, roi-de Babylone."
+        },
+        {
+          "n": 7,
+          "t": "et-a-été supportant Hadassah lui Esther fille-de bien-aimé-de-lui, car néant à/pour-elle père et-mère ; et-la-servante belle-de figure et-bone-de aspect, et-dans-mort-de Mardochée a-pris-elle père-de-elle et-mère-de-elle, à/pour-lui à/pour-fille."
+        },
+        {
+          "n": 8,
+          "t": "et-a-été dans-être-écouter parole-de le-roi et-loi-de-lui, et-dans-être-assembler servantes nombreuses vers Bechouchan la-château vers main-de Hegai ; Esther et-a-été-pris vers maison-de le-roi, vers main-de Hegai gardant-de les-femmes."
+        },
+        {
+          "n": 9,
+          "t": "la-servante et-a-amélioré dans-yeux-de-lui et-a-porté faveur à/pour-faces-de-lui et-a-terrifié raclements-de-elle et-gfprs-de-elle à/pour-donner à/pour-elle, et-sept les-servantes, les-vues à/pour-donner à/pour-elle depuis-maison-de le-roi ; et-a-changé-elle et-servantes-de-elle à/pour-bon-de maison-de les-femmes."
+        },
+        {
+          "n": 10,
+          "t": "non Esther a-fait-annoncer, peuple-de-elle et-naissance-de-elle ; car Mardochée a-commandé sur-elle qui non elle-fera-annoncer."
+        },
+        {
+          "n": 11,
+          "t": "et-dans-tout-de jour et-jour, Mardochée se-marchant, à/pour-faces-de enclos-de maison-de les-femmes ; à/pour-savoir paix-de Esther, et-quoi il-sera-fait dans-elle."
+        },
+        {
+          "n": 12,
+          "t": "et-dans-faire-toucher tresse-de servante et-servante à/pour-venir vers le-roi Assuérus depuis-fin-de être à/pour-elle comme-loi-de les-femmes deux dix mois, car ainsi jours-de grattages-de-elles rempliront ; six mois dans-huile-de le-myrrhe, et-six mois dans-les-parfums, et-dans-raclements-de les-femmes."
+        },
+        {
+          "n": 13,
+          "t": "et-dans-celui-ci, la-servante venante vers le-roi ; tout qui elle-dira sera-donné à/pour-elle à/pour-venir avec-elle, depuis-maison-de les-femmes jusqu'à maison-de le-roi."
+        },
+        {
+          "n": 14,
+          "t": "dans-le-soir lui venante et-dans-le-matin lui retournante vers maison-de les-femmes second, vers main-de Shaashgaz eunuch-de le-roi gardant-de les-concubines ; non elle-viendra encore vers le-roi, pour gsxb a-plaisi dans-elle le-roi et-elle-a-été-appelé dans-nom."
+        },
+        {
+          "n": 15,
+          "t": "et-dans-faire-toucher tresse-de Esther fille-de Abihail bien-aimé-de Mardochée qui a-pris à/pour-lui à/pour-fille à/pour-venir vers le-roi non a-cherché parole, car si qui dira Hegai eunuch-de le-roi gardant-de les-femmes ; Esther portante-de et-a-été grâce, dans-yeux-de tout-de voyants-de-elle."
+        },
+        {
+          "n": 16,
+          "t": "Esther et-a-été-pris vers le-roi Assuérus vers maison-de royauté-de-lui, dans-le-mois le-tenth lui mois-de Tebeth ; dans-année-de sept à/pour-royauté-de-lui."
+        },
+        {
+          "n": 17,
+          "t": "le-roi et-a-aimé Esther depuis-tout-de les-femmes, et-elle-a-porté grâce et-faveur à/pour-faces-de-lui depuis-tout-de les-vierges ; couronne-de royauté et-a-mis dans-tête-de-elle, et-a-fait-régner-elle sous Vashti."
+        },
+        {
+          "n": 18,
+          "t": "le-roi festin grand et-a-fait à/pour-tout-de princes-de-lui et-serviteurs-de-lui, festin-de Esther ; et-vacances à/pour-les-provinces il-a-fait, et-il-a-donné élévation comme-main-de le-roi."
+        },
+        {
+          "n": 19,
+          "t": "et-dans-être-assembler vierges seconde ; et-Mardochée habitant dans-porte-de le-roi."
+        },
+        {
+          "n": 20,
+          "t": "néant Esther faisante-annoncer naissance-de-elle et-peuple-de-elle, comme-lorsque a-commandé sur-elle Mardochée ; et-ordre-de Mardochée Esther faisante, comme-lorsque elle-a-été dans-brought ensemble-lui."
+        },
+        {
+          "n": 21,
+          "t": "dans-les-jours les-eux, et-Mardochée habitant dans-porte-de le-roi ; Bigthan et-Teresh a-gjmié deux-de eunuchs-de le-roi depuis-gardants-de le-gobelet, et-ont-cherché à/pour-envoyer main, dans-le-roi Assuérus."
+        },
+        {
+          "n": 22,
+          "t": "le-parole et-a-été-su à/pour-Mardochée, et-a-fait-annoncer à/pour-Esther la-reine ; Esther et-a-dit à/pour-le-roi dans-nom-de Mardochée."
+        },
+        {
+          "n": 23,
+          "t": "le-parole et-a-été-cherché et-a-été-trouvé, et-ils-ont-été-glopé deux-de-eux sur arbre ; et-il-a-été-écrit dans-livre-de paroles-de les-jours à/pour-faces-de le-roi."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "après les-paroles les-ces le-roi Assuérus a-crû Haman fils-de Hammedatha le-Agagite et-a-porté-lui ; et-a-mis trône-de-lui, sur, tout-de les-princes qui ensemble-lui."
+        },
+        {
+          "n": 2,
+          "t": "et-tout-de serviteurs-de le-roi qui dans-porte-de le-roi pliants et-courbés à/pour-Haman, car ainsi a-commandé à/pour-lui le-roi ; et-Mardochée, non pliera et-non courbera."
+        },
+        {
+          "n": 3,
+          "t": "serviteurs-de le-roi et-ont-dit qui dans-porte-de le-roi à/pour-Mardochée ; why tu passant, commandement-de le-roi."
+        },
+        {
+          "n": 4,
+          "t": "et-a-été dans-dire-de-eux comme-dire-de-eux vers-lui jour et-jour, et-non a-écouté vers-eux ; et-ont-fait-annoncer à/pour-Haman à/pour-voir paroles-de Mardochée est-ce-resteront, car a-fait-annoncer à/pour-eux qui lui Jew."
+        },
+        {
+          "n": 5,
+          "t": "Haman et-a-vu, car néant Mardochée, pliant et-courbé à/pour-lui ; Haman et-a-été-rempli colère."
+        },
+        {
+          "n": 6,
+          "t": "main et-a-méprisé dans-yeux-de-lui à/pour-envoyer dans-Mardochée à/pour-seul-de-lui, car ils-ont-fait-annoncer à/pour-lui peuple-de Mardochée ; Haman et-a-cherché à/pour-faire-exterminer tout-de les-Jew qui dans-tout-de royauté-de Assuérus peuple-de Mardochée."
+        },
+        {
+          "n": 7,
+          "t": "dans-le-mois le-premier lui mois-de Nisan, dans-année-de deux dix, à/pour-le-roi Assuérus ; purim lui le-sort a-fait-tomber à/pour-faces-de Haman depuis-jour à/pour-jour et-depuis-mois à/pour-mois deux dix lui mois-de Gem."
+        },
+        {
+          "n": 8,
+          "t": "Haman et-a-dit à/pour-le-roi Assuérus, substance-lui peuple un dispersé et-séparé entre les-peuples, dans-tout-de provinces-de royauté-de-toi ; et-lois-de-eux changeantes depuis-tout-de peuple et-lois-de le-roi néant-eux faisants, et-à/pour-le-roi néant gkkoaant à/pour-faire-reposer-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "si sur le-roi salutaire, sera-écrit à/pour-périr-de-eux ; et-ten-de mille rond-de argent je-peserai sur mains-de faisants-de la-travail, à/pour-faire-venir vers trésors-de le-roi."
+        },
+        {
+          "n": 10,
+          "t": "le-roi et-a-fait-détourner cachet-de-lui sur main-de-lui ; fils-de Hammedatha le-Agagite gjdwdant-de et-a-donné-elle à/pour-Haman les-Jew."
+        },
+        {
+          "n": 11,
+          "t": "le-roi et-a-dit à/pour-Haman, le-argent donné à/pour-toi-f ; et-le-peuple, à/pour-faire dans-lui comme-le-bon dans-yeux-de-toi."
+        },
+        {
+          "n": 12,
+          "t": "dénombrers-de le-roi et-ont-été-appelé dans-le-mois le-premier dans-trois dix jour dans-lui et-a-été-écrit comme-tout qui Haman a-commandé vers satraps-de le-roi et-vers les-gouverneurs qui sur province et-province et-vers princes-de peuple et-peuple, province et-province comme-édit-de-elle, et-peuple et-peuple comme-langue-de-lui ; dans-nom-de le-roi Assuérus écrit, et-scellé dans-cachet-de le-roi."
+        },
+        {
+          "n": 13,
+          "t": "et-être-envoyer livres dans-main-de les-courants vers tout-de provinces-de le-roi à/pour-faire-exterminer à/pour-tuer et-à/pour-périr tout-de les-Jew depuis-youth et-jusqu'à vieux enfant et-femmes dans-jour un, dans-trois dix à/pour-mois deux dix lui mois-de Gem ; et-butin-de-eux à/pour-piller."
+        },
+        {
+          "n": 14,
+          "t": "copy-de le-édit à/pour-être-donner loi dans-tout-de province et-province, découvri à/pour-tout-de les-peuples ; à/pour-être prêts à/pour-le-jour le-celui-ci."
+        },
+        {
+          "n": 15,
+          "t": "les-courants ils-sont-sorti hâtés dans-parole-de le-roi, et-la-loi a-été-donné dans-Bechouchan la-château ; et-le-roi et-Haman ils-ont-habité à/pour-boire, et-la-ville Bechouchan a-été-gajgé."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-Mardochée a-su tout qui a-été-fait, Mardochée et-a-déchiré perfidies-de-lui, et-a-vêtu sac et-cendre ; et-il-est-sorti dans-milieu-de la-ville, et-il-a-gcfoé cri grande et-amere."
+        },
+        {
+          "n": 2,
+          "t": "et-il-est-venu, jusqu'à à/pour-faces-de porte-de le-roi ; car néant à/pour-venir vers porte-de le-roi dans-vêtements-de sac."
+        },
+        {
+          "n": 3,
+          "t": "et-dans-tout-de province et-province lieu-de qui parole-de le-roi et-loi-de-lui faisant-toucher, deuil grand à/pour-les-Jew, et-jeûne et-weeping et-gémissement ; sac et-cendre, sera-fait-gdxcer à/pour-les-nombreux."
+        },
+        {
+          "n": 4,
+          "t": "servantes-de Esther et-sont-venu et-eunuchs-de-elle et-ont-fait-annoncer à/pour-elle, la-reine et-a-tremblé très ; et-elle-a-envoyé perfidies à/pour-faire-vêtir Mardochée et-à/pour-faire-détourner sac-de-lui sur-lui et-non a-reçu."
+        },
+        {
+          "n": 5,
+          "t": "Esther et-a-appelé à/pour-Hathach depuis-eunuchs-de le-roi qui a-fait-rester à/pour-faces-de-elle, et-elle-a-commandé-lui sur Mardochée ; à/pour-savoir quoi celui-ci et-sur quoi celui-ci."
+        },
+        {
+          "n": 6,
+          "t": "Hathach et-est-sorti vers Mardochée ; vers place-de la-ville, qui à/pour-faces-de porte-de le-roi."
+        },
+        {
+          "n": 7,
+          "t": "Mardochée, et-a-fait-annoncer à/pour-lui tout qui a-gjnlaé-lui ; et-déclaration-de le-argent qui Haman a-dit à/pour-peser sur trésors-de le-roi dans-les-Jew à/pour-périr-de-eux."
+        },
+        {
+          "n": 8,
+          "t": "et-copy-de édit-de la-loi qui il-a-été-donné dans-Bechouchan à/pour-faire-exterminer-de-eux il-a-donné à/pour-lui, à/pour-faire-voir Esther et-à/pour-faire-annoncer à/pour-elle ; et-à/pour-commander sur-elle à/pour-venir vers le-roi à/pour-se-gracier à/pour-lui et-à/pour-chercher depuis-faces-de-lui sur peuple-de-elle."
+        },
+        {
+          "n": 9,
+          "t": "Hathach et-est-venu ; et-il-a-fait-annoncer à/pour-Esther, paroles-de Mardochée."
+        },
+        {
+          "n": 10,
+          "t": "Esther et-a-dit à/pour-Hathach, et-elle-a-commandé-lui vers Mardochée."
+        },
+        {
+          "n": 11,
+          "t": "tout-de serviteurs-de le-roi et-peuple-de provinces-de le-roi sachants qui tout-de homme et-femme qui viendra vers le-roi vers le-enclos la-intérieure qui non sera-appelé une loi-de-lui à/pour-faire-mourir, à/pour-seul depuis-whence le-roi fera-tendre à/pour-lui sceptre-de le-or et-a-guéri ; et-je non ai-été-appelé à/pour-venir vers le-roi, celui-ci trente jour."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-ont-fait-annoncer à/pour-Mardochée, paroles-de Esther."
+        },
+        {
+          "n": 13,
+          "t": "Mardochée et-a-dit à/pour-faire-retourner vers Esther ; ne tu-f-ressembles dans-âme-de-toi-f, à/pour-être-sauver maison-de le-roi depuis-tout-de les-Jew."
+        },
+        {
+          "n": 14,
+          "t": "pour gsxb faire-labourer feras-labourer dans-la-heure la-celle-ci espace et-délivrance restera à/pour-les-Jew depuis-lieu autre, et-toi et-maison-de père-de-toi-f vous-périrez ; et-lequel sachant, si à/pour-heure comme-celle-ci, tu-f-as-fait-toucher à/pour-la-royauté."
+        },
+        {
+          "n": 15,
+          "t": "Esther et-a-dit à/pour-faire-retourner vers Mardochée."
+        },
+        {
+          "n": 16,
+          "t": "va rassemble tout-de les-Jew les-trouvés dans-Bechouchan et-jeûnez sur-moi et-ne vous-mangiez et-ne vous-buviez trois-de jours nuit et-jour, aussi je et-servantes-de-moi jeûnerai ainsi ; et-dans-ainsi je-viendrai vers le-roi qui non comme-la-loi, et-comme-lorsque je-ai-péri je-ai-péri."
+        },
+        {
+          "n": 17,
+          "t": "Mardochée et-a-passé ; et-a-fait, comme-tout qui elle-a-commandé sur-lui Esther."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été dans-le-jour le-troisième Esther royauté et-a-vêtu, et-a-resté dans-enclos-de maison-de le-roi la-intérieure, before maison-de le-roi ; et-le-roi habitant sur trône-de royauté-de-lui dans-maison-de la-royauté, before entrée-de le-maison."
+        },
+        {
+          "n": 2,
+          "t": "et-a-été comme-voir le-roi Esther la-reine restante dans-le-enclos, a-porté grâce dans-yeux-de-lui ; le-roi et-a-fait-tendre à/pour-Esther sceptre-de le-or qui dans-main-de-lui, et-elle-a-present Esther, et-elle-a-touché dans-tête-de le-sceptre."
+        },
+        {
+          "n": 3,
+          "t": "le-roi, et-a-dit à/pour-elle quoi à/pour-toi-f Esther la-reine ; et-quoi requête-de-toi-f jusqu'à moitié-de la-royauté et-soit-donné à/pour-toi-f."
+        },
+        {
+          "n": 4,
+          "t": "Esther et-a-dit, si sur le-roi salutaire ; le-roi et-Haman le-jour viendra, vers le-festin qui je-ai-fait à/pour-lui."
+        },
+        {
+          "n": 5,
+          "t": "le-roi et-a-dit, hâtez Haman, à/pour-faire parole-de Esther ; le-roi et-Haman et-est-venu, vers le-festin qui elle-a-fait Esther."
+        },
+        {
+          "n": 6,
+          "t": "le-roi et-a-dit à/pour-Esther dans-festin-de le-vin, quoi petition-de-toi-f et-soit-donné à/pour-toi-f ; et-quoi requête-de-toi-f jusqu'à moitié-de la-royauté et-soit-fait."
+        },
+        {
+          "n": 7,
+          "t": "Esther et-a-répondu et-elle-a-dit ; petition-de-moi et-requête-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "si je-ai-trouvé grâce dans-yeux-de le-roi et-si sur le-roi salutaire, à/pour-donner petition-de-moi, et-à/pour-faire requête-de-moi ; le-roi et-Haman viendra vers le-festin qui je-ferai à/pour-eux, et-demain je-ferai comme-parole-de le-roi."
+        },
+        {
+          "n": 9,
+          "t": "Haman et-est-sorti dans-le-jour le-lui, joyeux et-bon-de cœur ; et-comme-voir Haman Mardochée dans-porte-de le-roi et-non est-levé et-non a-tremblé depuis-nous, Haman et-a-été-rempli sur Mardochée colère."
+        },
+        {
+          "n": 10,
+          "t": "Haman et-a-se-gylé, et-est-venu vers maison-de-lui ; et-il-a-envoyé et-il-a-fait-venir aimants-de-lui et-Zeresh femme-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "Haman et-a-compté à/pour-eux gloire-de richesse-de-lui et-multitude-de fils-de-lui ; et-tout-de qui le-roi a-crû-lui et-qui a-porté-lui, sur les-princes et-serviteurs-de le-roi."
+        },
+        {
+          "n": 12,
+          "t": "Haman et-a-dit même non a-fait-venir Esther la-reine avec le-roi vers le-festin qui a-fait pour gsxb moi ; et-aussi à/pour-demain je appelé à/pour-elle avec le-roi."
+        },
+        {
+          "n": 13,
+          "t": "et-tout-de celui-ci, néant-lui gkkoaant à/pour-moi ; dans-tout-de heure qui je voyant Mardochée le-Jew, habitant dans-porte-de le-roi."
+        },
+        {
+          "n": 14,
+          "t": "et-a-dit à/pour-lui Zeresh femme-de-lui et-tout-de aimants-de-lui ils-fassent arbre exalté cinquante coudée et-dans-le-matin dis à/pour-le-roi et-ils-glopent Mardochée sur-lui, et-viens avec le-roi vers le-festin joyeux ; le-parole et-a-amélioré à/pour-faces-de Haman et-a-fait le-arbre."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "dans-le-nuit le-lui, sommeil-de le-roi a-déménagé ; et-il-a-dit à/pour-faire-venir livre-de les-souvenirs paroles-de les-jours, et-ont-été appelés à/pour-faces-de le-roi."
+        },
+        {
+          "n": 2,
+          "t": "et-a-été-trouvé écrit qui Mardochée a-fait-annoncer sur Bigthan et-Teresh deux-de eunuchs-de le-roi, depuis-gardants-de le-gobelet ; qui ils-ont-cherché à/pour-envoyer main, dans-le-roi Assuérus."
+        },
+        {
+          "n": 3,
+          "t": "le-roi et-a-dit, quoi a-été-fait honneur et-grandeur à/pour-Mardochée sur celui-ci ; youths-de le-roi administrants-de-lui et-ont-dit, non a-été-fait avec-lui parole."
+        },
+        {
+          "n": 4,
+          "t": "le-roi et-a-dit lequel dans-le-enclos ; et-Haman est-venu à/pour-enclos-de maison-de le-roi la-extérieure, à/pour-dire à/pour-le-roi, à/pour-gloper Mardochée, sur le-arbre qui a-fait-affermir à/pour-lui."
+        },
+        {
+          "n": 5,
+          "t": "youths-de le-roi et-ont-dit vers-lui, voici Haman restant dans-le-enclos ; le-roi et-a-dit viendra."
+        },
+        {
+          "n": 6,
+          "t": "Haman et-est-venu et-a-dit à/pour-lui le-roi, quoi à/pour-faire, dans-le-homme, qui le-roi a-plaisi dans-honneur-de-lui ; Haman et-a-dit dans-cœur-de-lui, à/pour-lequel plaisira le-roi à/pour-faire honneur avantage depuis-moi."
+        },
+        {
+          "n": 7,
+          "t": "Haman et-a-dit vers le-roi ; homme, qui le-roi a-plaisi dans-honneur-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "ils-feront-venir vêtements-de royauté, qui a-vêtu dans-lui le-roi ; et-hirondelle qui a-chevauché sur-lui le-roi, et-qui a-été-donné couronne-de royauté dans-tête-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "et-donner le-vêtements et-le-hirondelle sur main-de homme depuis-princes-de le-roi les-nobles, et-ont-fait-vêtir le-homme, qui le-roi a-plaisi dans-honneur-de-lui ; et-ils-ont-fait-chevaucher-lui sur le-hirondelle dans-place-de la-ville, et-ils-ont-appelé à/pour-faces-de-lui, gehn sera-fait à/pour-le-homme, qui le-roi a-plaisi dans-honneur-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "le-roi et-a-dit à/pour-Haman hâte prends le-vêtements et-le-hirondelle comme-lorsque tu-as-parlé, et-fais ainsi à/pour-Mardochée le-Jew, le-habitant dans-porte-de le-roi ; ne tu-fasses-tomber parole, depuis-tout qui tu-as-parlé."
+        },
+        {
+          "n": 11,
+          "t": "Haman et-a-pris le-vêtements et-le-hirondelle, et-a-fait-vêtir Mardochée ; et-a-fait-chevaucher-lui dans-place-de la-ville, et-a-appelé à/pour-faces-de-lui, gehn sera-fait à/pour-le-homme, qui le-roi a-plaisi dans-honneur-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "Mardochée et-est-retourné vers porte-de le-roi ; et-Haman a-été-hâté vers maison-de-lui, deuil et-couvert-de tête."
+        },
+        {
+          "n": 13,
+          "t": "Haman et-a-compté à/pour-Zeresh femme-de-lui et-à/pour-tout-de aimants-de-lui, tout-de qui a-gjnlaé-lui ; et-ils-ont-dit à/pour-lui sages-de-lui et-Zeresh femme-de-lui si depuis-semence-de les-Jew Mardochée qui tu-as-fait-commencer à/pour-tomber à/pour-faces-de-lui non tu-vaincras à/pour-lui, car tomber tu-tomberas à/pour-faces-de-lui."
+        },
+        {
+          "n": 14,
+          "t": "encore-de-eux parlants avec-lui, et-eunuchs-de le-roi ont-fait-toucher ; et-ils-ont-fait-terrifier à/pour-faire-venir Haman, vers le-festin qui Esther a-fait."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "le-roi et-Haman et-est-venu, à/pour-boire avec Esther la-reine."
+        },
+        {
+          "n": 2,
+          "t": "le-roi et-a-dit à/pour-Esther aussi dans-le-jour le-second dans-festin-de le-vin, quoi petition-de-toi-f Esther la-reine et-sera-donnée à/pour-toi-f ; et-quoi requête-de-toi-f jusqu'à moitié-de la-royauté et-soit-fait."
+        },
+        {
+          "n": 3,
+          "t": "Esther la-reine et-a-répondu et-a-dit, si je-ai-trouvé grâce dans-yeux-de-toi le-roi, et-si sur le-roi salutaire ; âme-de-moi sera-donnée à/pour-moi dans-petition-de-moi, et-peuple-de-moi dans-requête-de-moi."
+        },
+        {
+          "n": 4,
+          "t": "car nous-avons-été-vendu je et-peuple-de-moi, à/pour-faire-exterminer à/pour-tuer et-à/pour-périr ; et-quoique à/pour-serviteurs et-à/pour-bonnes nous-avons-été-vendu je-ai-fait-labourer, car néant le-étroit gkkoaant dans-dommage-de le-roi."
+        },
+        {
+          "n": 5,
+          "t": "le-roi Assuérus et-a-dit, et-a-dit à/pour-Esther la-reine ; lequel lui celui-ci et-où celui-ci lui, qui a-rempli-lui cœur-de-lui à/pour-faire ainsi."
+        },
+        {
+          "n": 6,
+          "t": "Esther et-a-dit, homme étroit et-gmcçant, Haman le-bad le-celui-ci ; et-Haman a-été-terrifié, depuis-faces-de le-roi et-la-reine."
+        },
+        {
+          "n": 7,
+          "t": "et-le-roi est-levé dans-colère-de-lui depuis-festin-de le-vin, vers jardin-de le-palace ; et-Haman a-resté à/pour-chercher sur âme-de-lui depuis-Esther la-reine, car a-vu, car la-mal a-achevé vers-lui ensemble le-roi."
+        },
+        {
+          "n": 8,
+          "t": "et-le-roi est-retourné depuis-jardin-de le-palace vers maison-de festin-de le-vin et-Haman tombant, sur la-lit qui Esther sur-elle, et-a-dit le-roi, est-ce-aussi à/pour-assujettir la-reine avec-moi dans-le-maison ; le-parole est-sorti depuis-bouche-de le-roi, et-faces-de Haman ont-couvert."
+        },
+        {
+          "n": 9,
+          "t": "Harbona et-a-dit un depuis les-eunuchs à/pour-faces-de le-roi aussi voici le-arbre qui a-fait Haman à/pour-Mardochée qui a-parlé bon sur le-roi restant dans-maison-de Haman, exalté cinquante coudée ; le-roi et-a-dit glopez-lui sur-lui."
+        },
+        {
+          "n": 10,
+          "t": "et-ils-ont-glopé Haman, sur le-arbre qui a-fait-affermir à/pour-Mardochée ; et-colère-de le-roi a-décroîtu."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "dans-le-jour le-lui a-donné le-roi Assuérus à/pour-Esther la-reine, maison-de Haman gjdwdant-de les-Jew ; et-Mardochée est-venu à/pour-faces-de le-roi, car Esther a-fait-annoncer quoi lui à/pour-elle."
+        },
+        {
+          "n": 2,
+          "t": "le-roi et-a-fait-détourner cachet-de-lui qui a-fait-passer depuis-Haman, et-a-donné-elle à/pour-Mardochée ; Esther et-a-mis Mardochée sur maison-de Haman."
+        },
+        {
+          "n": 3,
+          "t": "Esther et-a-fait-ajouter et-elle-a-parlé à/pour-faces-de le-roi, et-elle-est-tombé à/pour-faces-de pieds-de-lui ; et-elle-a-pleuré et-elle-a-se-gracié à/pour-lui à/pour-faire-passer mal-de Haman le-Agagite, et-pensée-de-lui, qui a-pensé sur les-Jew."
+        },
+        {
+          "n": 4,
+          "t": "le-roi et-a-fait-tendre à/pour-Esther, sceptre-de le-or ; Esther et-est-levé, et-elle-a-resté à/pour-faces-de le-roi."
+        },
+        {
+          "n": 5,
+          "t": "et-elle-a-dit si sur le-roi bon et-si ai-trouvé grâce à/pour-faces-de-lui et-a-réussi le-parole à/pour-faces-de le-roi, et-bone je dans-yeux-de-lui ; soit-écrit à/pour-faire-retourner les-livres pensée-de Haman fils-de Hammedatha le-Agagite, qui a-écrit à/pour-périr les-Jew, qui dans-tout-de provinces-de le-roi."
+        },
+        {
+          "n": 6,
+          "t": "car gmkc je-vaincrai et-je-ai-vu, dans-la-mal qui il-trouvera peuple-de-moi ; et-gmkc je-vaincrai et-je-ai-vu, dans-destruction-de naissance-de-moi."
+        },
+        {
+          "n": 7,
+          "t": "le-roi Assuérus et-a-dit à/pour-Esther la-reine, et-à/pour-Mardochée le-Jew ; voici maison-de Haman je-ai-donné à/pour-Esther et-lui ils-ont-glopé sur le-arbre, sur qui a-envoyé main-de-lui dans-les-Jew."
+        },
+        {
+          "n": 8,
+          "t": "et-vous écrivez sur les-Jew comme-le-bon dans-yeux-de-vous dans-nom-de le-roi, et-scellez dans-cachet-de le-roi ; car édit qui écrit dans-nom-de le-roi et-être-sceller dans-cachet-de le-roi néant à/pour-faire-retourner."
+        },
+        {
+          "n": 9,
+          "t": "dénombrers-de le-roi et-ont-été-appelé dans-la-heure la-lui dans-le-mois le-troisième lui mois-de Sivan dans-trois et-vingt dans-lui et-a-été-écrit comme-tout-de qui Mardochée a-commandé vers les-Jew et-vers les-satraps et-les-gouverneurs et-princes-de les-provinces qui depuis-India et-jusqu'à Koush sept et-vingt et-cent province, province et-province comme-édit-de-elle, et-peuple et-peuple comme-langue-de-lui ; et-vers les-Jew, comme-écrire-de-eux et-comme-langue-de-eux."
+        },
+        {
+          "n": 10,
+          "t": "et-a-écrit dans-nom-de le-roi Assuérus, et-a-scellé dans-cachet-de le-roi ; et-a-envoyé livres dans-main-de les-courants dans-les-hirondelles chevauchants-de le-coursier les-steeds, fils-de les-juments."
+        },
+        {
+          "n": 11,
+          "t": "qui le-roi a-donné à/pour-les-Jew qui dans-tout-de ville et-ville à/pour-être-assembler et-à/pour-rester sur âme-de-eux à/pour-faire-exterminer et-à/pour-tuer et-à/pour-périr tout-de compétence-de peuple et-province les-provoquants eux enfant et-femmes ; et-butin-de-eux à/pour-piller."
+        },
+        {
+          "n": 12,
+          "t": "dans-jour un, dans-tout-de provinces-de le-roi Assuérus ; dans-trois dix à/pour-mois deux dix lui mois-de Gem."
+        },
+        {
+          "n": 13,
+          "t": "copy-de le-édit à/pour-être-donner loi dans-tout-de province et-province, découvri à/pour-tout-de les-peuples ; et-à/pour-être les-Jew préparés prêts à/pour-le-jour le-celui-ci, à/pour-être-venger depuis-gmcçants-de-eux."
+        },
+        {
+          "n": 14,
+          "t": "les-courants chevauchants-de le-coursier les-steeds, ils-sont-sorti terrifiés et-hâtés dans-parole-de le-roi ; et-la-loi a-été-donné dans-Bechouchan la-château."
+        },
+        {
+          "n": 15,
+          "t": "et-Mardochée est-sorti depuis-faces-de le-roi dans-vêtements-de royauté-de violet et-white, et-couronne-de or grande, et-robe-de byssus et-rouge-pourpre ; et-la-ville Bechouchan, a-henni et-a-réjoui."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-les-Jew, light et-gaieté a-été ; et-joie et-honneur."
+        },
+        {
+          "n": 17,
+          "t": "et-dans-tout-de province et-province et-dans-tout-de ville et-ville lieu-de qui parole-de le-roi et-loi-de-lui faisant-toucher, gaieté et-joie à/pour-les-Jew, festin et-jour bon ; et-nombreux depuis-peuples-de la-terre se-gdmlants, car dread-de les-Jew est-tombé sur-eux."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-dans-deux dix mois lui mois-de Gem dans-trois dix jour dans-lui, qui a-fait-toucher parole-de le-roi et-loi-de-lui à/pour-être-faire ; dans-le-jour qui ont-inspecté gmcçants-de les-Jew à/pour-dominer dans-eux, et-être-tourner lui, qui domineront les-Jew eux dans-gkzrants-de-eux."
+        },
+        {
+          "n": 2,
+          "t": "les-Jew ont-été-assemblé dans-villes-de-eux dans-tout-de provinces-de le-roi Assuérus, à/pour-envoyer main, dans-cherchants-de mal-de-eux ; et-homme non a-resté à/pour-faces-de-eux, car dread-de-eux est-tombé sur tout-de les-peuples."
+        },
+        {
+          "n": 3,
+          "t": "et-tout-de princes-de les-provinces et-les-satraps et-les-gouverneurs et-faisants-de la-travail qui à/pour-le-roi, portants les-Jew ; car dread-de Mardochée est-tombé sur-eux."
+        },
+        {
+          "n": 4,
+          "t": "car grand Mardochée dans-maison-de le-roi, et-renommée-de-lui marchant dans-tout-de les-provinces ; car le-homme Mardochée marchant et-grand."
+        },
+        {
+          "n": 5,
+          "t": "les-Jew et-ont-fait-frapper dans-tout-de gmcçants-de-eux, coup-de épée et-assassiner et-destruction ; et-ils-ont-fait dans-gkzrants-de-eux comme-acceptation-de-eux."
+        },
+        {
+          "n": 6,
+          "t": "et-dans-Bechouchan les-Jew ont-tué la-château et-périr, cinq cent homme."
+        },
+        {
+          "n": 7,
+          "t": "et-Parshandatha et-Dalphon et-Aspatha."
+        },
+        {
+          "n": 8,
+          "t": "et-Poratha et-Adalia et-Aridatha."
+        },
+        {
+          "n": 9,
+          "t": "et-Parmashta et-Arisai, et-Aridai et-Vaizatha."
+        },
+        {
+          "n": 10,
+          "t": "ten-de fils-de Haman fils-de Hammedatha gjdwdant-de les-Jew ont-tué ; et-dans-la-gajy, non ils-ont-envoyé main-de-eux."
+        },
+        {
+          "n": 11,
+          "t": "dans-le-jour le-lui est-venu nombre-de les-tués dans-Bechouchan la-château à/pour-faces-de le-roi."
+        },
+        {
+          "n": 12,
+          "t": "le-roi et-a-dit à/pour-Esther la-reine dans-Bechouchan la-château ont-tué les-Jew et-périr cinq cent homme et-ten-de fils-de Haman, dans-résidu-de provinces-de le-roi quoi ont-fait ; et-quoi petition-de-toi-f et-il-sera-donné à/pour-toi-f, et-quoi requête-de-toi-f encore et-soit-fait."
+        },
+        {
+          "n": 13,
+          "t": "Esther et-a-dit si sur le-roi bon, soit-donné aussi demain à/pour-les-Jew qui dans-Bechouchan, à/pour-faire comme-loi-de le-jour ; et-ten-de fils-de Haman ils-glopent sur le-arbre."
+        },
+        {
+          "n": 14,
+          "t": "le-roi et-a-dit à/pour-être-faire ainsi, et-a-été-donné loi dans-Bechouchan ; et-ten-de fils-de Haman ils-ont-glopé."
+        },
+        {
+          "n": 15,
+          "t": "les-Jew et-ont-été-assemblé qui dans-Bechouchan aussi dans-jour-de quatre dix à/pour-mois-de Gem, et-ont-tué dans-Bechouchan, trois cent homme ; et-dans-la-gajy, non ils-ont-envoyé main-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "et-résidu-de les-Jew qui dans-provinces-de le-roi ils-ont-été-assemblé et-rester sur âme-de-eux et-rest depuis-gmcçants-de-eux, et-tuer dans-gkzrants-de-eux, cinq et-soixante-dix mille ; et-dans-la-gajy, non ils-ont-envoyé main-de-eux."
+        },
+        {
+          "n": 17,
+          "t": "dans-jour-de trois dix à/pour-mois-de Gem ; et-ggnuer dans-quatre dix dans-lui, et-faire lui, jour-de festin et-gaieté."
+        },
+        {
+          "n": 18,
+          "t": "et-les-Jew qui dans-Bechouchan ont-été-assemblé dans-trois dix dans-lui, et-dans-quatre dix dans-lui ; et-ggnuer dans-cinq dix dans-lui, et-faire lui, jour-de festin et-gaieté."
+        },
+        {
+          "n": 19,
+          "t": "sur ainsi les-Jew les-villageois les-habitants dans-villes-de les-hameaux faisants jour-de quatre dix à/pour-mois-de Gem, gaieté et-festin et-jour bon ; et-gggbb-de gfprs homme à/pour-ami-de-lui."
+        },
+        {
+          "n": 20,
+          "t": "Mardochée et-a-écrit, les-paroles les-ces ; et-a-envoyé livres vers tout-de les-Jew qui dans-tout-de provinces-de le-roi Assuérus, les-proches et-les-lointains."
+        },
+        {
+          "n": 21,
+          "t": "à/pour-lever sur-eux à/pour-être faisants jour-de quatre dix à/pour-mois-de Gem, et-jour-de cinq dix dans-lui ; dans-tout-de année et-année."
+        },
+        {
+          "n": 22,
+          "t": "comme-les-jours qui les-Jew depuis-gmcçants-de-eux, ont-ggnué dans-eux et-le-mois qui a-été-tourné à/pour-eux depuis-douleur à/pour-gaieté, et-depuis-deuil à/pour-jour bon ; à/pour-faire eux jours-de festin et-gaieté, et-gggbb-de gfprs homme à/pour-ami-de-lui, et-dons à/pour-les-indigents."
+        },
+        {
+          "n": 23,
+          "t": "et-il-a-reçu les-Jew, qui ont-fait-commencer à/pour-faire ; et-qui Mardochée a-écrit vers-eux."
+        },
+        {
+          "n": 24,
+          "t": "car Haman fils-de Hammedatha le-Agagite gjdwdant-de tout-de les-Jew, a-pensé sur les-Jew à/pour-périr-de-eux ; purim lui le-sort et-a-fait-tomber, à/pour-défaire-de-eux et-à/pour-périr-de-eux."
+        },
+        {
+          "n": 25,
+          "t": "et-dans-venir-de-elle à/pour-faces-de le-roi le-livre, a-dit avec retournera pensée-de-lui la-bade qui a-pensé sur les-Jew sur tête-de-lui ; et-ils-ont-glopé lui et-fils-de-lui sur le-arbre."
+        },
+        {
+          "n": 26,
+          "t": "sur ainsi ils-ont-appelé à/pour-les-jours les-ces purim sur nom-de le-purim, sur ainsi, sur tout-de paroles-de la-lettre la-celle-ci ; et-quoi ils-ont-vu sur gehn, et-quoi il-a-fait-toucher vers-eux."
+        },
+        {
+          "n": 27,
+          "t": "ont-levé les-Jew et-a-reçu et-ont-reçu sur-eux et-sur semence-de-eux et-sur tout-de les-joints sur-eux et-non passera, à/pour-être faisants deux-de les-jours les-ces, comme-édit-de-eux et-comme-gceg-de-eux ; dans-tout-de année et-année."
+        },
+        {
+          "n": 28,
+          "t": "et-les-jours les-ces rappelés et-faits dans-tout-de période et-période famille et-famille, province et-province et-ville et-ville ; et-jours-de le-purim les-ces non passeront depuis-milieu-de les-Jew, et-mémoire-de-eux non ghbzera depuis-semence-de-eux."
+        },
+        {
+          "n": 29,
+          "t": "Esther la-reine et-a-écrit fille-de Abihail et-Mardochée le-Jew ensemble tout-de puissance ; à/pour-lever lettre-de le-purim la-celle-ci la-seconde."
+        },
+        {
+          "n": 30,
+          "t": "et-a-envoyé livres vers tout-de les-Jew vers sept et-vingt et-cent province, royauté-de Assuérus ; paroles-de paix et-vérité."
+        },
+        {
+          "n": 31,
+          "t": "à/pour-lever jours-de le-purim les-ces dans-gcegs-de-eux comme-lorsque Mardochée le-Jew et-Esther a-levé sur-eux la-reine, et-comme-lorsque ils-ont-levé sur âme-de-eux et-sur semence-de-eux ; paroles-de les-jeûnes et-cri-de-eux."
+        },
+        {
+          "n": 32,
+          "t": "et-ordre-de Esther, a-levé, paroles-de le-purim les-ces ; et-écrit dans-le-livre."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "le-roi Assuérus taskworker et-a-mis sur la-terre et-îles-de le-mer."
+        },
+        {
+          "n": 2,
+          "t": "et-tout-de acte-de puissance-de-lui et-might-de-lui, et-déclaration-de grandeur-de Mardochée, qui a-crû-lui le-roi ; est-ce-non eux écrits sur livre-de paroles-de les-jours, à/pour-rois-de Médie et-Persia."
+        },
+        {
+          "n": 3,
+          "t": "car Mardochée le-Jew double à/pour-le-roi Assuérus, et-grand à/pour-les-Jew, et-gkcgé à/pour-multitude-de frères-de-lui ; fréquentant bien à/pour-peuple-de-lui, et-parlant paix à/pour-tout-de semence-de-lui."
+        }
+      ]
+    }
+  ]
+}

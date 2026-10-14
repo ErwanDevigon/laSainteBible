@@ -1,0 +1,382 @@
+{
+  "id": "ruth",
+  "title": "Livre de Ruth",
+  "original_title": "Ruth",
+  "short": "Rt",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été dans-jours-de juger les-jugeants, famine et-a-été dans-la-terre ; homme et-est-allé depuis-Beyt Bethléhem Juda à/pour-séjourner dans-champs-de Moab, lui et-femme-de-lui et-deux-de fils-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "et-nom-de le-homme Elimelech et-nom-de femme-de-lui Naomi et-nom-de deux-de fils-de-lui Mahlon et-Chilion Ephraimite, depuis-Beyt Bethléhem Juda ; champs-de Moab et-sont-venu et-ont-été là."
+        },
+        {
+          "n": 3,
+          "t": "Elimelech et-est-mort homme-de Naomi ; lui et-a-été-resté et-deux-de fils-de-elle."
+        },
+        {
+          "n": 4,
+          "t": "et-ils-ont-porté à/pour-eux femmes Moabite, nom-de la-une Orpah, et-nom-de la-seconde Ruth ; et-ils-ont-habité là comme-tene années."
+        },
+        {
+          "n": 5,
+          "t": "et-ils-sont-mort aussi deux-de-eux Mahlon et-Chilion ; la-femme et-a-été-resté, depuis-deux-de enfants-de-elle et-depuis-homme-de-elle."
+        },
+        {
+          "n": 6,
+          "t": "lui et-est-levé et-belle-filles-de-elle, et-est-retourné depuis-champs-de Moab ; car a-écouté dans-champ-de Moab, car YHWH a-visité peuple-de-lui, à/pour-donner à/pour-eux pain."
+        },
+        {
+          "n": 7,
+          "t": "et-elle-est-sorti depuis le-lieu qui elle-a-été là-vers, et-deux-de belle-filles-de-elle avec-elle ; et-elles-sont-allé dans-le-chemin, à/pour-retourner vers terre-de Juda."
+        },
+        {
+          "n": 8,
+          "t": "Naomi et-a-dit à/pour-deux-de belle-filles-de-elle, allez retournez, femme à/pour-maison-de mère-de-elle ; YHWH fera fasse avec-vous faveur, comme-lorsque vous-avez-fait avec les-mourants et-avec-moi."
+        },
+        {
+          "n": 9,
+          "t": "YHWH donnera à/pour-vous, et-trouvez repos, femme maison-de homme-de-elle ; et-elle-a-embrassé à/pour-elles, et-elles-ont-porté voix-de-elles et-elles-ont-pleuré."
+        },
+        {
+          "n": 10,
+          "t": "et-elles-ont-dit à/pour-elle ; car ensemble-toi-f nous-retournerons à/pour-peuple-de-toi-f."
+        },
+        {
+          "n": 11,
+          "t": "Naomi et-a-dit retournez filles-de-moi, à/pour-quoi vous-f-irez avec-moi ; est-ce-encore à/pour-moi fils dans-entrailles-de-moi, et-ont-été à/pour-vous à/pour-hommes."
+        },
+        {
+          "n": 12,
+          "t": "retournez filles-de-moi allez, car je-ai-vieilli depuis-être à/pour-homme ; car je-ai-dit substance à/pour-moi cordon, aussi je-ai-été le-nuit à/pour-homme, et-aussi je-ai-engendré fils."
+        },
+        {
+          "n": 13,
+          "t": "est-ce-therefore vous-f-inspecterez jusqu'à qui ils-croîtront, est-ce-therefore vous-f-serez-renfermées, à/pour-sans être à/pour-homme ; ne filles-de-moi car a-ggdgé à/pour-moi très depuis-vous, car main-de YHWH est-sorti dans-moi."
+        },
+        {
+          "n": 14,
+          "t": "et-elles-ont-porté voix-de-elles, et-elles-ont-pleuré encore ; Orpah et-a-embrassé à/pour-belle-mère-de-elle, et-Ruth elle-a-collé dans-elle."
+        },
+        {
+          "n": 15,
+          "t": "et-a-dit voici belle-sœur-de-toi-f est-retourné, vers peuple-de-elle et-vers dieux-de-elle ; retourne après belle-sœur-de-toi-f."
+        },
+        {
+          "n": 16,
+          "t": "Ruth et-a-dit ne tu-f-rencontres dans-moi, à/pour-abandonner-de-toi-f à/pour-retourner après-toi-f ; car vers qui tu-f-iras je-irai et-dans-in tu-f-logeras je-logerai, peuple-de-toi-f peuple-de-moi, et-dieu-de-toi-f dieu-de-moi."
+        },
+        {
+          "n": 17,
+          "t": "dans-in tu-f-mourras je-mourrai, et-là je-serai-enterré ; thus YHWH fera à/pour-moi et-thus fera-ajouter, car le-mort, fera-séparer entre-moi et-entre-toi-f."
+        },
+        {
+          "n": 18,
+          "t": "et-a-vu, car se-gugeante lui à/pour-aller ensemble-elle ; et-elle-a-cessé à/pour-parler vers-elle."
+        },
+        {
+          "n": 19,
+          "t": "et-elles-sont-allé deux-de-eux, jusqu'à venir-de-elles Beyt Bethléhem ; et-a-été comme-venir-de-elles Beyt Bethléhem, et-elle-a-été-distraiu tout-de la-ville sur-elles, et-elles-ont-dit est-ce-celle-ci Naomi."
+        },
+        {
+          "n": 20,
+          "t": "et-elle-a-dit vers-elles, ne vous-f-appeliez à/pour-moi Naomi ; appelez à/pour-moi Mara, car a-fait-ggdger Almighty à/pour-moi très."
+        },
+        {
+          "n": 21,
+          "t": "je pleine ai-marché, et-vainement YHWH a-fait-retourner-moi ; à/pour-quoi vous-f-appelerez à/pour-moi Naomi, et-YHWH a-répondu dans-moi, et-Almighty a-fait-nuire à/pour-moi."
+        },
+        {
+          "n": 22,
+          "t": "Naomi et-est-retourné et-Ruth la-Moabite belle-fille-de-elle avec-elle, la-est-retourné depuis-champs-de Moab ; et-eux sont-venu Beyt Bethléhem, dans-commencement-de moisson-de orges."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-à/pour-Naomi su parent à/pour-homme-de-elle homme puissant-de compétence, depuis-famille-de Elimelech ; et-nom-de-lui Booz."
+        },
+        {
+          "n": 2,
+          "t": "Ruth la-Moabite et-a-dit vers Naomi je-aille donc le-champ et-je-glane dans-les-ears, après, qui je-trouverai grâce dans-yeux-de-lui ; et-a-dit à/pour-elle va fille-de-moi."
+        },
+        {
+          "n": 3,
+          "t": "et-elle-est-allé et-elle-est-venu et-elle-a-glané dans-le-champ, après les-moissonnants ; accident-de-elle et-a-gjnlaé, parcelle-de le-champ à/pour-Booz, qui depuis-famille-de Elimelech."
+        },
+        {
+          "n": 4,
+          "t": "et-voici Booz venant depuis-Beyt Bethléhem, et-a-dit à/pour-les-moissonnants YHWH avec-vous ; et-ils-ont-dit à/pour-lui YHWH bénira-toi."
+        },
+        {
+          "n": 5,
+          "t": "Booz et-a-dit à/pour-youth-de-lui, le-établi sur les-moissonnants ; à/pour-lequel la-servante la-celle-ci."
+        },
+        {
+          "n": 6,
+          "t": "le-youth le-établi et-a-répondu sur les-moissonnants et-a-dit ; servante Moabite lui, la-retournante avec Naomi depuis-champ-de Moab."
+        },
+        {
+          "n": 7,
+          "t": "et-elle-a-dit je-glane donc et-je-ai-recueilli dans-les-sheafs, après les-moissonnants ; et-elle-est-venu et-elle-a-resté depuis-past le-matin et-jusqu'à maintenant, celui-ci habiter-de-elle le-maison peu."
+        },
+        {
+          "n": 8,
+          "t": "Booz et-a-dit vers Ruth est-ce-non tu-f-as-écouté fille-de-moi ne tu-f-ailles à/pour-glaner dans-champ autre, et-aussi non tu-f-passeras depuis-celui-ci ; et-thus tu-f-colleras avec servantes-de-moi."
+        },
+        {
+          "n": 9,
+          "t": "yeux-de-toi-f dans-le-champ qui ils-moissonneront et-tu-f-as-marché après-elles, est-ce-non je-ai-commandé les-youths à/pour-sans toucher-de-toi-f ; et-tu-f-as-gizjé et-tu-f-as-marché vers les-ustensiles, et-tu-f-as-bu, depuis-whence les-youths tireront."
+        },
+        {
+          "n": 10,
+          "t": "et-est-tombé sur faces-de-elle, et-a-courbé terre-vers ; et-elle-a-dit vers-lui why ai-trouvé grâce dans-yeux-de-toi à/pour-faire-reconnaître-de-moi, et-moi étrangere."
+        },
+        {
+          "n": 11,
+          "t": "Booz et-a-répondu et-a-dit à/pour-elle, être-faire-annoncer tout a-été-fait-annoncer à/pour-moi qui tu-f-as-fait ensemble belle-mère-de-toi-f, après mort-de homme-de-toi-f ; et-tu-f-as-abandonné père-de-toi-f et-mère-de-toi-f et-terre-de naissance-de-toi-f, et-tu-f-es-allé, vers peuple, qui non tu-f-as-su auparavant three."
+        },
+        {
+          "n": 12,
+          "t": "YHWH gkuqaera œuvre-de-toi-f ; salaire-de-toi-f parfaite et-soit from YHWH dieu-de Israël, qui tu-f-es-venu à/pour-gcvter sous ailes-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "et-elle-a-dit je-trouverai grâce dans-yeux-de-toi lord-de-moi car tu-as-consolé-moi, et-car tu-as-parlé sur cœur-de bonne-de-toi ; et-moi non serai, comme-une-de bonnes-de-toi."
+        },
+        {
+          "n": 14,
+          "t": "Booz et-a-dit à/pour-elle à/pour-heure-de le-goj approche here et-tu-f-as-mangé depuis le-pain, et-tu-f-as-trempé morceau-de-toi-f dans-le-vinaigre ; et-elle-a-habité depuis-side-de les-moissonnants, gjjs, et-a-tendu à/pour-elle et-elle-a-mangé et-elle-a-rassasié et-elle-a-fait-demeurer."
+        },
+        {
+          "n": 15,
+          "t": "et-elle-est-levé à/pour-glaner ; Booz et-a-commandé youths-de-lui à/pour-dire aussi entre les-sheafs elle-glanera et-non vous-ferez-insulter-elle."
+        },
+        {
+          "n": 16,
+          "t": "et-aussi gkuoaer vous-gkuoaerez à/pour-elle depuis les-poignées ; et-vous-avez-abandonné et-elle-a-glané et-non vous-réprimanderez dans-elle."
+        },
+        {
+          "n": 17,
+          "t": "et-elle-a-glané dans-le-champ jusqu'à le-soir ; et-elle-a-gchoé qui elle-a-glané, et-il-a-été comme-épha orges."
+        },
+        {
+          "n": 18,
+          "t": "et-a-porté la-ville et-est-venu, et-a-vu belle-mère-de-elle qui a-glané ; et-elle-a-fait-sortir et-elle-a-donné à/pour-elle, qui elle-a-fait-demeurer depuis-satiété-de-elle."
+        },
+        {
+          "n": 19,
+          "t": "belle-mère-de-elle et-a-dit à/pour-elle gnk tu-f-as-glané le-jour et-where tu-f-as-fait, soit faisant-reconnaître-de-toi-f béni ; et-elle-a-fait-annoncer à/pour-belle-mère-de-elle qui elle-a-fait avec-lui, et-elle-a-dit nom-de le-homme qui je-ai-fait avec-lui le-jour Booz."
+        },
+        {
+          "n": 20,
+          "t": "Naomi et-a-dit à/pour-belle-fille-de-elle béni lui à/pour-YHWH, qui non a-abandonné faveur-de-lui, ensemble les-vivants et-ensemble les-mourants ; et-elle-a-dit à/pour-elle Naomi proche à/pour-nous le-homme, depuis-rachetant-de-nous lui."
+        },
+        {
+          "n": 21,
+          "t": "Ruth la-Moabite et-a-dit ; aussi car il-a-dit vers-moi avec les-youths qui à/pour-moi tu-f-colleras, jusqu'à si ont-achevé, tout-de le-moisson qui à/pour-moi."
+        },
+        {
+          "n": 22,
+          "t": "Naomi et-a-dit vers Ruth belle-fille-de-elle ; bon fille-de-moi car tu-f-sortiras avec servantes-de-lui, et-non ils-rencontreront dans-toi-f dans-champ autre."
+        },
+        {
+          "n": 23,
+          "t": "et-elle-a-collé dans-servantes-de Booz à/pour-glaner, jusqu'à achever moisson-de les-orges et-moisson-de les-blés ; belle-mère-de-elle et-a-habité ensemble."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-dit à/pour-elle Naomi belle-mère-de-elle ; fille-de-moi est-ce-non je-chercherai à/pour-toi-f resting qui améliorera à/pour-toi-f."
+        },
+        {
+          "n": 2,
+          "t": "et-maintenant est-ce-non Booz parenté-de-nous, qui tu-f-as-été ensemble servantes-de-lui ; voici lui dispersant threshing-de les-orges le-nuit."
+        },
+        {
+          "n": 3,
+          "t": "et-tu-f-as-lavé et-tu-f-as-oint et-tu-f-as-mis couverture-de-toi-f couvertures-de-toi-f sur-toi-f et-je-suis-descendu et-tu-f-es-descendu le-threshing ; ne tu-f-sois-su à/pour-le-homme, jusqu'à achever-de-lui à/pour-manger et-à/pour-boire."
+        },
+        {
+          "n": 4,
+          "t": "et-il-soit dans-mentir-de-lui et-tu-f-as-su le-lieu qui il-mentira là, et-tu-f-es-venu et-tu-f-as-découvri pieds-de-lui et-je-ai-menti et-tu-f-as-menti ; et-lui fera-annoncer à/pour-toi-f, qui tu-f-feras."
+        },
+        {
+          "n": 5,
+          "t": "et-elle-a-dit vers-elle ; tout qui tu-f-diras je-ferai."
+        },
+        {
+          "n": 6,
+          "t": "le-threshing et-est-descendu ; et-a-fait, comme-tout qui belle-mère-de-elle a-commandé-elle."
+        },
+        {
+          "n": 7,
+          "t": "Booz et-a-mangé et-a-bu cœur-de-lui et-a-amélioré, et-est-venu, à/pour-mentir dans-bout-de la-tas ; et-elle-est-venu dans-le-enchantement, et-elle-a-découvri pieds-de-lui et-elle-a-menti."
+        },
+        {
+          "n": 8,
+          "t": "et-a-été dans-moitié-de le-nuit, le-homme et-a-tremblé et-a-été-geuqé ; et-voici femme, mentissante pieds-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "et-il-a-dit lequel toi ; et-a-dit moi Ruth maidservant-de-toi, et-as-étendu aile-de-toi sur maidservant-de-toi, car rachetant tu."
+        },
+        {
+          "n": 10,
+          "t": "et-a-dit bénie toi à/pour-YHWH fille-de-moi, as-fait-améliorer faveur-de-toi-f le-suivant depuis le-premier ; à/pour-sans aller après les-gakhs, si pauvre et-si riche."
+        },
+        {
+          "n": 11,
+          "t": "et-maintenant fille-de-moi ne tu-f-craindes, tout qui tu-f-diras je-ferai à/pour-toi-f ; car sachant tout-de porte-de peuple-de-moi, car femme-de compétence toi."
+        },
+        {
+          "n": 12,
+          "t": "et-maintenant car gue, car si rachetant moi ; et-aussi substance rachetant proche depuis-moi."
+        },
+        {
+          "n": 13,
+          "t": "loge le-nuit et-a-été dans-le-matin si rachetera-toi-f bon rachetera, et-si non plaisira à/pour-racheter-de-toi-f moi et-ai-racheté-toi-f vivant YHWH ; mentis jusqu'à le-matin."
+        },
+        {
+          "n": 14,
+          "t": "et-elle-a-menti pieds-de-lui jusqu'à le-matin, et-elle-est-levé, dans-longueur dans-avant homme fera-reconnaître ami-de-lui ; et-a-dit ne soit-su, car la-femme le-threshing est-venu."
+        },
+        {
+          "n": 15,
+          "t": "et-il-a-dit pourvoir la-manteau qui sur-toi-f et-gjje dans-elle et-a-gjjé dans-elle ; et-il-a-mesuré six orges et-il-a-posé sur-elle, et-il-est-venu la-ville."
+        },
+        {
+          "n": 16,
+          "t": "belle-mère-de-elle, et-est-venu vers et-a-dit lequel toi fille-de-moi ; et-elle-a-fait-annoncer à/pour-elle, tout qui le-homme a-fait à/pour-elle."
+        },
+        {
+          "n": 17,
+          "t": "et-elle-a-dit, six les-orges les-ces il-a-donné à/pour-moi ; car il-a-dit ne tu-f-viennes vainement vers belle-mère-de-toi-f."
+        },
+        {
+          "n": 18,
+          "t": "et-a-dit habite fille-de-moi, jusqu'à qui tu-f-sauras, how parole tombera ; car non le-homme apaisera, pour gsxb a-achevé le-parole le-jour."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-Booz est-monté le-porte et-a-habité là et-voici le-rachetant passant qui Booz a-parlé, et-a-dit détourne-hé habite-hé gihs gima someone ; et-il-a-détourné et-il-a-habité."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-pris ten hommes depuis-vieux-de la-ville et-il-a-dit habitez gihs ; et-ils-ont-habité."
+        },
+        {
+          "n": 3,
+          "t": "et-il-a-dit à/pour-le-rachetant, parcelle-de le-champ, qui à/pour-frère-de-nous à/pour-Elimelech ; Naomi a-vendu, la-elle-est-retourné depuis-champ-de Moab."
+        },
+        {
+          "n": 4,
+          "t": "et-je ai-dit découvrirai oreille-de-toi à/pour-dire acquéris devant les-habitants et-devant vieux-de peuple-de-moi si tu-racheteras rachete, et-si non rachetera fais-annoncer-hé à/pour-moi et-saurai et-sache car néant exception-toi à/pour-racheter, et-moi après-toi ; et-il-a-dit moi racheterai."
+        },
+        {
+          "n": 5,
+          "t": "Booz et-a-dit, dans-jour-de acquérir-de-toi le-champ depuis-main-de Naomi ; et-depuis Ruth la-Moabite femme-de le-mourant je-ai-acquis tu-as-acquis, à/pour-faire-lever nom-de le-mourant sur héritage-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "et-il-a-dit le-rachetant non je-vaincrai à/pour-racheter à/pour-moi, sinon je-détruirai héritage-de-moi ; rachete à/pour-toi tu parenté-de-moi, car non je-vaincrai à/pour-racheter."
+        },
+        {
+          "n": 7,
+          "t": "et-celle-ci à/pour-faces dans-Israël sur la-parenté et-sur la-échange à/pour-lever tout-de parole, a-tiré homme sandale-de-lui et-a-donné à/pour-ami-de-lui ; et-celle-ci la-témoignage dans-Israël."
+        },
+        {
+          "n": 8,
+          "t": "et-il-a-dit le-rachetant à/pour-Booz acquéris à/pour-toi-f ; et-il-a-tiré sandale-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "Booz à/pour-les-vieux et-a-dit et-tout-de le-peuple witness vous le-jour, car je-ai-acquis tout-de qui à/pour-Elimelech, et-tout-de qui à/pour-Chilion et-Mahlon ; depuis-main-de Naomi."
+        },
+        {
+          "n": 10,
+          "t": "et-aussi Ruth la-Moabite femme-de Mahlon je-ai-acquis à/pour-moi à/pour-femme à/pour-faire-lever nom-de le-mourant sur héritage-de-lui, et-non sera-coupé nom-de le-mourant from frères-de-lui et-depuis-porte-de lieu-de-lui ; vous witness le-jour."
+        },
+        {
+          "n": 11,
+          "t": "et-ont-dit tout-de le-peuple qui dans-le-porte et-les-vieux witness ; YHWH donnera la-femme la-venante vers maison-de-toi comme-Rachel et-comme-Léa qui ils-ont-bâti deux-de-eux maison-de Israël, et-fais compétence dans-Ephrathah, et-appele nom dans-Beyt Bethléhem."
+        },
+        {
+          "n": 12,
+          "t": "maison-de-toi et-soit comme-maison-de Pérets, qui elle-a-engendré Tamara à/pour-Juda ; depuis le-semence qui donnera YHWH à/pour-toi, depuis la-servante la-celle-ci."
+        },
+        {
+          "n": 13,
+          "t": "Booz et-a-pris Ruth et-elle-a-été à/pour-lui à/pour-femme, et-est-venu vers-elle ; YHWH et-a-donné à/pour-elle grossesse et-elle-a-engendré fils."
+        },
+        {
+          "n": 14,
+          "t": "les-femmes et-ont-dit vers Naomi, béni YHWH, qui non a-fait-cesser à/pour-toi-f rachetant le-jour ; nom-de-lui et-sera-appelé dans-Israël."
+        },
+        {
+          "n": 15,
+          "t": "et-a-été à/pour-toi-f à/pour-faisant-retourner âme, et-à/pour-contenir âge-de-toi-f ; car belle-fille-de-toi-f qui a-aimé-toi-f a-engendré-lui, qui lui bone à/pour-toi-f, depuis-sept fils."
+        },
+        {
+          "n": 16,
+          "t": "Naomi et-a-pris le-enfant et-elle-a-posé-lui dans-sein-de-elle, et-elle-a-été à/pour-lui à/pour-supportante."
+        },
+        {
+          "n": 17,
+          "t": "et-elles-ont-appelé à/pour-lui les-voisines nom à/pour-dire, a-été-engendré fils à/pour-Naomi ; et-elles-ont-appelé nom-de-lui Obed, lui père-de Jesse père-de David."
+        },
+        {
+          "n": 18,
+          "t": "et-ces générations-de Pérets, Pérets a-fait-engendrer Hezron."
+        },
+        {
+          "n": 19,
+          "t": "et-Hezron a-fait-engendrer Rama, et-Rama a-fait-engendrer Amminadab."
+        },
+        {
+          "n": 20,
+          "t": "et-Amminadab a-fait-engendrer Nahshon, et-Nahshon a-fait-engendrer Salmon."
+        },
+        {
+          "n": 21,
+          "t": "et-Vesalmon a-fait-engendrer Booz, et-Booz a-fait-engendrer Obed."
+        },
+        {
+          "n": 22,
+          "t": "et-Obed a-fait-engendrer Jesse, et-Jesse a-fait-engendrer David."
+        }
+      ]
+    }
+  ]
+}

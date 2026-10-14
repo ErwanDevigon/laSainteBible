@@ -1,0 +1,880 @@
+{
+  "id": "osee",
+  "title": "Livre d'Osée",
+  "original_title": "Osée",
+  "short": "Os",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "word-of YHWH who has-been toward Hoshea son-of Beeri, in-days-of Uzziah Jotham Ahaz Hezekiah kings-of Judah ; and-in-days-of Jeroboam son-of Joash king-of Israel."
+        },
+        {
+          "n": 2,
+          "t": "YHWH has-spoken beginning-of in-Hoshea ; YHWH and-has-said toward Hoshea walk take to/for-you woman-of fornications and-youths-of fornications, for fornicate will-fornicate the-land, after YHWH."
+        },
+        {
+          "n": 3,
+          "t": "and-he-has-walked and-he-has-taken, Gomer daughter-of Diblaim ; and-she-has-conceived and-she-has-begotten to/for-him son."
+        },
+        {
+          "n": 4,
+          "t": "YHWH and-has-said toward-him, call name-of-him Jezreel ; for still little and-I-have-reckoned bloods-of Jezreel on house-of Jehu, and-I-have-made-cease, kingdom-of house-of Israel."
+        },
+        {
+          "n": 5,
+          "t": "the-he ; and-has-been in-the-day and-I-have-breaked bow-of Israel, in-valley-of Jezreel."
+        },
+        {
+          "n": 6,
+          "t": "and-has-conceived still daughter and-has-begotten, and-has-said to/for-him, call name-of-her Lo Ruhama ; for not I-will-make-add still I-will-compassion house-of Israel, for lift I-will-lift to/for-them."
+        },
+        {
+          "n": 7,
+          "t": "and-house-of Judah I-will-compassion, and-I-have-made-save-them in-YHWH god-of-them ; and-not I-will-make-save-them in-bow and-in-sword and-in-battle, in-horses and-in-horsemans."
+        },
+        {
+          "n": 8,
+          "t": "and-she-has-weaned Lo Ruhama ; and-she-has-conceived and-she-has-begotten son."
+        },
+        {
+          "n": 9,
+          "t": "and-has-said, call name-of-him Lo Not ; for you not people-of-me, and-I not will-be to/for-you-pl."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "number-of sons-of Israel and-has-been like-sand-of the-sea, who not will-be-measured and-not will-be-recounted ; and-has-been in-place-of who will-be-said to/for-them not people-of-me you, will-be-said to/for-them sons-of El living."
+        },
+        {
+          "n": 2,
+          "t": "sons-of Judah and-have-been-gathered and-sons-of Israel together, and-have-put to/for-them head one and-have-ascended from the-land ; for great day-of Jezreel."
+        },
+        {
+          "n": 3,
+          "t": "say to/for-brothers-of-you-pl people-of-me ; and-to/for-sisters-of-you-pl she-has-been-compassioned."
+        },
+        {
+          "n": 4,
+          "t": "contend in-mother-of-you-pl contend, for he not woman-of-me, and-I not man-of-her ; and-let-her-make-turn fornications-of-her from-faces-of-her, and-adulteries-of-her between breasts-of-her."
+        },
+        {
+          "n": 5,
+          "t": "lest I-will-make-strip-her naked, and-I-have-made-set-her, like-day-of be-beget-of-her ; and-I-have-put-her like-the-wilderness and-I-have-set-her like-land dryness, and-I-have-made-die-her in-the-thirst."
+        },
+        {
+          "n": 6,
+          "t": "and-sons-of-her not I-will-compassion ; for sons-of fornications they."
+        },
+        {
+          "n": 7,
+          "t": "for mother-of-them has-fornicated, has-made-wither conceiving-of-them ; for has-said I-will-walk after loving-of-me giving-of food-of-me and-waters-of-me, wool-of-me and-flax-of-me, oil-of-me and-drinks-of-me."
+        },
+        {
+          "n": 8,
+          "t": "to/for-thus lo-me hedging way-of-you-f in-the-thorn ; and-I-have-uped Wall-of-her, and-paths-of-her not she-will-find."
+        },
+        {
+          "n": 9,
+          "t": "and-she-has-pursued loving-of-her and-not she-will-make-overtake them, and-she-has-sought-them and-not she-will-find ; and-she-has-said I-will-walk and-I-will-return toward man-of-me the-first, for good to/for-me then from-now."
+        },
+        {
+          "n": 10,
+          "t": "and-he not has-known, for I have-given to/for-her, the-grain and-the-new and-the-oil ; and-silver I-have-made-multiply to/for-her and-gold they-have-done to/for-the-Baal."
+        },
+        {
+          "n": 11,
+          "t": "to/for-thus I-will-return, and-I-have-taken grain-of-me in-time-of-him, and-new-of-me in-meeting-of-him ; and-I-have-made-rescue wool-of-me and-flax-of-me, to/for-cover nakedness-of-her."
+        },
+        {
+          "n": 12,
+          "t": "and-now I-will-heglam lewdness-of-her to/for-eyes-of loving-of-her ; and-man not will-make-rescue-her from-hand-of-me."
+        },
+        {
+          "n": 13,
+          "t": "and-I-have-made-cease all-of rejoicing-of-her, feast-of-her month-of-her and-sabbath-of-her ; and-all-of meeting-of-her."
+        },
+        {
+          "n": 14,
+          "t": "and-I-have-made-desolate vine-of-her and-fig-of-her, who has-said wages they to/for-me, who have-given to/for-me loving-of-me ; and-I-have-put-them to/for-wood, beast-of the-field and-has-eaten-them."
+        },
+        {
+          "n": 15,
+          "t": "and-I-have-reckoned on-her days-of the-Baal who will-make-offer to/for-them, and-has-adorned ring-of-her and-jewelry-of-her, and-has-walked after loving-of-her ; and-me she-has-forgotten utterance-of YHWH."
+        },
+        {
+          "n": 16,
+          "t": "to/for-thus behold I enticing-of-her, and-have-made-walk-her the-wilderness ; and-I-have-spoken on heart-of-her."
+        },
+        {
+          "n": 17,
+          "t": "and-I-have-given to/for-her vineyards-of-her from-there, and-valley-of Akhor to/for-entrance-of hope ; and-she-has-answered there-ward like-days-of youths-of-her, and-like-day-of ascend-of-her from-land-of Egypt."
+        },
+        {
+          "n": 18,
+          "t": "the-he and-has-been in-the-day utterance-of YHWH, you-f-will-call man-of-me ; and-not you-f-will-call to/for-me still Baal-of-me."
+        },
+        {
+          "n": 19,
+          "t": "and-I-have-made-turn names-of the-Baal from-lip-of-her ; and-not they-will-be-remembered still in-name-of-them."
+        },
+        {
+          "n": 20,
+          "t": "and-I-have-cut to/for-them covenant in-the-day the-he, with beast-of the-field and-with bird-of the-heavens, and-creeping-of the-ground ; and-bow and-sword and-battle I-will-break from the-land, and-I-have-made-lie-them to/for-security."
+        },
+        {
+          "n": 21,
+          "t": "and-I-have-betrothed-you-f to/for-me to/for-age ; and-I-have-betrothed-you-f to/for-me in-righteousness and-in-justice, and-in-kindness and-in-compassions."
+        },
+        {
+          "n": 22,
+          "t": "and-I-have-betrothed-you-f to/for-me in-faithfulness ; and-you-f-have-known YHWH."
+        },
+        {
+          "n": 23,
+          "t": "the-he and-has-been in-the-day I-will-answer utterance-of YHWH, I-will-answer the-heavens ; and-they will-answer the-land."
+        },
+        {
+          "n": 24,
+          "t": "and-the-land will-answer, the-grain and-the-new and-the-oil ; and-they will-answer Jezreel."
+        },
+        {
+          "n": 25,
+          "t": "and-I-have-sown-her to/for-me in-the-land, and-I-have-compassioned not compassion ; and-I-have-said to/for-not people people-of-me you, and-he will-say god-of-me."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH and-has-said toward-me still walk love woman, loved-of neighbor and-commiting ; like-love YHWH sons-of Israel, and-they turning toward gods another, and-loving-of raisins-of grapes."
+        },
+        {
+          "n": 2,
+          "t": "and-I-have-traded-her to/for-me, in-five ten silver ; and-homer-of barleys and-lethek-of barleys."
+        },
+        {
+          "n": 3,
+          "t": "and-I-have-said toward-her days many you-f-will-dwell to/for-me, not you-f-will-fornicate, and-not you-f-will-be to/for-man ; and-also I toward-you-f."
+        },
+        {
+          "n": 4,
+          "t": "for days many will-dwell sons-of Israel, naught king and-naught official, and-naught sacrifice and-naught pillar ; and-naught ephod and-teraphims."
+        },
+        {
+          "n": 5,
+          "t": "after sons-of Israel will-return, and-have-sought YHWH god-of-them, and-David king-of-them ; and-they-have-dreaded toward YHWH and-toward goodness-of-him in-end-of the-days."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "hear word-of YHWH sons-of Israel ; for strife to/for-YHWH with dwelling-of the-land, for naught truth and-naught kindness and-naught knowledge-of god in-the-land."
+        },
+        {
+          "n": 2,
+          "t": "swear and-deceive, and-murder and-steal and-commit ; and-bloods have-broken, in-bloods have-touched."
+        },
+        {
+          "n": 3,
+          "t": "on thus the-land will-mourn and-has-weakened all-of dwelling in-her, in-beast-of the-field and-in-bird-of the-heavens ; and-also fishes-of the-sea will-be-gathered."
+        },
+        {
+          "n": 4,
+          "t": "surely man do-not let-contend and-do-not man let-make-rebuke ; and-people-of-you like-making-contend-of priest."
+        },
+        {
+          "n": 5,
+          "t": "and-you-have-stumbled the-day, and-has-stumbled also prophet with-you night ; and-I-have-ceased mother-of-you."
+        },
+        {
+          "n": 6,
+          "t": "they-have-been-ceased people-of-me from-without-of the-knowledge ; for you the-knowledge have-rejected and-will-reject-you from-minister to/for-me, and-have-forgotten instruction-of god-of-you, will-forget sons-of-you also I."
+        },
+        {
+          "n": 7,
+          "t": "like-multiply-of-them thus they-have-sinned to/for-me ; glory-of-them in-dishonor I-will-make-change."
+        },
+        {
+          "n": 8,
+          "t": "offense-of people-of-me they-will-eat ; and-toward iniquity-of-them they-will-lift soul-of-him."
+        },
+        {
+          "n": 9,
+          "t": "and-he-has-been like-the-people like-the-priest ; and-I-have-reckoned on-him ways-of-him, and-deeds-of-him I-will-make-return to/for-him."
+        },
+        {
+          "n": 10,
+          "t": "and-they-have-eaten and-not they-will-satisfy, they-have-made-fornicate and-not they-will-break ; for YHWH they-have-left to/for-keep."
+        },
+        {
+          "n": 11,
+          "t": "heart will-take fornication and-wine and-new."
+        },
+        {
+          "n": 12,
+          "t": "people-of-me in-tree-of-him will-ask, and-rod-of-him will-make-announce to/for-him ; for spirit-of fornications has-made-go, and-they-have-fornicated under god-of-them."
+        },
+        {
+          "n": 13,
+          "t": "on heads-of the-mountains will-sacrifice and-on the-Gibat will-offer, under oak and-poplar and-oak for good shadow-of-her ; on thus daughters-of-you-pl will-fornicate, and-daughter-in-laws-of-you-pl will-commit."
+        },
+        {
+          "n": 14,
+          "t": "not I-will-reckon on daughters-of-you-pl for will-fornicate and-on daughter-in-laws-of-you-pl for will-commit, for they with the-fornicating will-separate, and-with the-cult will-sacrifice ; and-people not will-discern will-be-ruined."
+        },
+        {
+          "n": 15,
+          "t": "if fornicating you Israel, do-not let-guilty Judah ; and-do-not let-come the-Gilgal and-do-not let-ascend Beth-aven Aven, and-do-not let-be-sweared living YHWH."
+        },
+        {
+          "n": 16,
+          "t": "for like-heifer rebeling, Israel has-rebelled ; now YHWH will-pasture-them, like-lamb in-the-broad."
+        },
+        {
+          "n": 17,
+          "t": "united-of idols Ephraim make-rest to/for-him."
+        },
+        {
+          "n": 18,
+          "t": "liquor-of-them has-turned ; make-fornicate have-made-fornicate, have-loved love dishonor shields-of-her."
+        },
+        {
+          "n": 19,
+          "t": "spirit has-constrained her in-wings-of-her ; and-they-will-blush from-sacrifices-of-them."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "hear this-f the-priests and-make-heed house-of Israel and-house-of the-king make-listen, for to/for-you-pl the-justice ; for snare you-pl-have-been to/for-Mizpah, and-net-of spreaded on Betabor."
+        },
+        {
+          "n": 2,
+          "t": "and-slaughtering rebellions have-made-deep ; and-I discipline to/for-all-of-them."
+        },
+        {
+          "n": 3,
+          "t": "I have-known Ephraim, and-Israel not has-been-hided from-me ; for now you-have-made-fornicate Ephraim, has-been-defiled Israel."
+        },
+        {
+          "n": 4,
+          "t": "not deeds-of-them will-give, to/for-return toward god-of-them ; for spirit-of fornications in-entrails-of-them, and-YHWH not they-have-known."
+        },
+        {
+          "n": 5,
+          "t": "pride-of Israel and-has-answered in-faces-of-him ; and-Israel and-Ephraim they-will-be-stumbled in-iniquity-of-them, has-stumbled also Judah with-them."
+        },
+        {
+          "n": 6,
+          "t": "in-flock-of-them and-in-cattle-of-them they-will-walk to/for-seek YHWH and-not they-will-find ; he-has-rescued from-them."
+        },
+        {
+          "n": 7,
+          "t": "in-YHWH sons stranger have-treacherouslied, for have-begotten ; now month will-eat-them with portions-of-them."
+        },
+        {
+          "n": 8,
+          "t": "blow trumpet in-the-Gibeah, trumpet in-the-Ramah ; make-shout Beth-aven Aven, after-you Benjamin."
+        },
+        {
+          "n": 9,
+          "t": "Ephraim to/for-horror she-will-be, in-day-of rebuke ; in-tribes-of Israel, I-have-made-know faithfuled."
+        },
+        {
+          "n": 10,
+          "t": "officials-of Judah like-making-remove-of have-been, border ; on-them, I-will-pour like-the-waters fury-of-me."
+        },
+        {
+          "n": 11,
+          "t": "oppressed Ephraim crushed-of justice ; for has-made-willing, command has-gone after."
+        },
+        {
+          "n": 12,
+          "t": "and-I like-the-moth to/for-Ephraim ; and-like-the-rottenness to/for-house-of Judah."
+        },
+        {
+          "n": 13,
+          "t": "Ephraim and-has-seen sickness-of-him and-Judah wound-of-him, and-has-walked Ephraim toward Asshur, and-has-sended toward king Yareb ; and-he not will-able to/for-heal to/for-you-pl, and-not wound will-cure from-you-pl."
+        },
+        {
+          "n": 14,
+          "t": "for I like-the-lion to/for-Ephraim, and-like-the-lion to/for-house-of Judah ; I I will-tear and-will-walk, will-lift and-naught making-rescue."
+        },
+        {
+          "n": 15,
+          "t": "I-will-walk I-will-return toward place-of-me, until who will-guilty faces-of-me and-have-sought ; in-the-distress to/for-them they-will-seek-me."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "walk and-let-us-return toward YHWH, for he has-teared and-will-heal-us ; he-will-make-smite and-he-will-saddle-us."
+        },
+        {
+          "n": 2,
+          "t": "he-will-live-us from-days ; in-the-day the-third, he-will-make-rise-us and-we-will-live to/for-faces-of-him."
+        },
+        {
+          "n": 3,
+          "t": "and-let-us-know we-will-pursue to/for-know YHWH, like-dawn established outgoing-of-him ; and-will-come like-the-rain to/for-us, like-spring land will-make-show."
+        },
+        {
+          "n": 4,
+          "t": "what I-will-do to/for-you Ephraim, what I-will-do to/for-you Judah ; and-kindness-of-you-pl like-cloud-of morning, and-like-the-dew making-rise going."
+        },
+        {
+          "n": 5,
+          "t": "on thus I-have-hewed in-the-prophets, I-have-killed-them in-words-of lip-of-me ; and-justices-of-you light will-exit."
+        },
+        {
+          "n": 6,
+          "t": "for kindness I-have-delighted and-not sacrifice ; and-knowledge-of god from-burnts."
+        },
+        {
+          "n": 7,
+          "t": "and-they, like-Adam have-passed covenant ; there they-have-treacherouslied in-me."
+        },
+        {
+          "n": 8,
+          "t": "Gilead, town-of working-of evil ; insidious from-blood."
+        },
+        {
+          "n": 9,
+          "t": "and-like-wait man bands spell-of priests, way will-murder Shechem-ward ; for wickedness they-have-done."
+        },
+        {
+          "n": 10,
+          "t": "in-house-of Israel, I-have-seen horror ; there fornication to/for-Ephraim, Israel has-been-defiled."
+        },
+        {
+          "n": 11,
+          "t": "also Judah, has-set harvest to/for-you-f ; in-return-of-me captivity-of people-of-me."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "like-heal-of-me to/for-Israel iniquity-of Ephraim and-has-been-heglamed and-evils-of Samaria, for have-worked deception ; and-thief will-come, band has-striped in-the-outside."
+        },
+        {
+          "n": 2,
+          "t": "and-not they-will-say to/for-heart-of-them, all-of evil-of-them I-have-remembered ; now deeds-of-them have-turned-them, before faces-of-me have-been."
+        },
+        {
+          "n": 3,
+          "t": "in-evil-of-them they-will-rejoice king ; and-in-lies-of-them officials."
+        },
+        {
+          "n": 4,
+          "t": "all-of-them commiting, like ovens, burning from-baking ; will-cease making-rouse, from-knead dough until leaven-of-him."
+        },
+        {
+          "n": 5,
+          "t": "officials have-made-weak day-of king-of-us,, rage-of from-wine ; hand-of-him has-drawn with scorning."
+        },
+        {
+          "n": 6,
+          "t": "for they-have-presented like-the-ovens heart-of-them in-ambush-of-them ; all-of the-night sleeping baking-of-them, morning, he burning like-fire-of flame."
+        },
+        {
+          "n": 7,
+          "t": "all-of-them they-will-warm like-the-ovens, and-they-have-eaten judging-of-them ; all-of kings-of-them they-have-fallen, naught calling in-them toward-me."
+        },
+        {
+          "n": 8,
+          "t": "Ephraim, in-the-peoples he will-mix ; Ephraim has-been bun without overturned."
+        },
+        {
+          "n": 9,
+          "t": "they-have-eaten stranger strength-of-him, and-he not has-known ; also greyheaded has-scattered in-him, and-he not has-known."
+        },
+        {
+          "n": 10,
+          "t": "pride-of Israel and-has-answered in-faces-of-him ; and-not they-have-returned toward YHWH god-of-them, and-not they-have-sought-him in-all-of this-f."
+        },
+        {
+          "n": 11,
+          "t": "Ephraim and-has-been, like-dove enticing naught heart ; Egypt they-have-called Asshur they-have-gone."
+        },
+        {
+          "n": 12,
+          "t": "like-when they-will-walk I-will-spread on-them net-of-me, like-bird-of the-heavens I-will-make-go-them ; I-will-make-discipline-them, like-report to/for-congregation-of-them."
+        },
+        {
+          "n": 13,
+          "t": "woe to/for-them for they-have-wandered from-me, violence to/for-them for they-have-transgressed in-me ; and-I will-ransom-them, and-they, have-spoken on-me lies."
+        },
+        {
+          "n": 14,
+          "t": "and-not have-outed toward-me in-heart-of-them, for beds-of-them ; will-make-wail on on grain and-new they-will-quarrel they-will-turn in-me."
+        },
+        {
+          "n": 15,
+          "t": "and-I have-disciplined, have-strengthened arms-of-them ; and-toward-me they-will-devise evil."
+        },
+        {
+          "n": 16,
+          "t": "will-return not most have-been like-bow-of deceit, officials-of-them will-fall in-the-sword from-indignation-of tongue-of-them ; this derision-of-them in-land-of Egypt."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "toward palate-of-you trumpet, like-the-eagle on house-of YHWH ; because they-have-passed covenant-of-me, and-on instruction-of-me they-have-transgressed."
+        },
+        {
+          "n": 2,
+          "t": "to/for-me they-will-out ; god-of-me we-have-known-you Israel."
+        },
+        {
+          "n": 3,
+          "t": "Israel good has-rejected ; enemying he-will-pursue-him."
+        },
+        {
+          "n": 4,
+          "t": "they have-made-reign and-not from-me, have-made-rule and-not I-have-known ; silver-of-them and-gold-of-them have-done to/for-them idols, sake will-be-cut."
+        },
+        {
+          "n": 5,
+          "t": "calf-of-you-f Samaria has-rejected, has-kindled nose-of-me in-them ; until how, not they-will-able innocence."
+        },
+        {
+          "n": 6,
+          "t": "for from-Israel and-he, artificer has-done-him, and-not god he ; for calf-of Samaria will-be, fragments."
+        },
+        {
+          "n": 7,
+          "t": "for spirit they-will-sow and-whirlwind they-will-reap ; standing naught to/for-him branch without will-do flour, perhaps will-do, stranger they-will-swallow-him."
+        },
+        {
+          "n": 8,
+          "t": "Israel has-been-swallowed ; now they-have-been in-the-nations, like-article naught pleasure in-him."
+        },
+        {
+          "n": 9,
+          "t": "for they have-ascended Asshur, wild alone to/for-him ; lovers have-made-hire Ephraim."
+        },
+        {
+          "n": 10,
+          "t": "also for they-will-hire in-the-nations now I-will-gather-them ; and-have-made-begin little, from-burden-of king officials."
+        },
+        {
+          "n": 11,
+          "t": "for Ephraim has-made-multiply altars to/for-sin ; altars have-been to/for-him to/for-sin."
+        },
+        {
+          "n": 12,
+          "t": "I-will-write write-him, ten-of abundance-of instruction-of-me ; like stranger they-have-been-devised."
+        },
+        {
+          "n": 13,
+          "t": "sacrifices-of gifts-of-me will-sacrifice flesh and-have-eaten, YHWH not has-accepted-them ; now iniquity-of-them will-remember and-will-reckon offenses-of-them, they Egypt will-return."
+        },
+        {
+          "n": 14,
+          "t": "Israel and-has-forgotten doing-of-him and-has-built temples, and-Judah, has-made-multiply cities gather ; and-I-have-sended fire in-cities-of-him, and-has-eaten citadels-of-her."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "do-not let-rejoice Israel toward rejoicing like-the-peoples, for you-have-fornicated on god-of-you ; you-have-loved wages, on all-of threshings-of grain."
+        },
+        {
+          "n": 2,
+          "t": "threshing and-wine not will-pasture-them ; and-new will-deceive in-her."
+        },
+        {
+          "n": 3,
+          "t": "not they-will-dwell in-land-of YHWH ; Ephraim Egypt and-has-returned, and-in-Asshur unclean they-will-eat."
+        },
+        {
+          "n": 4,
+          "t": "not will-pour to/for-YHWH wine and-not sacrifices-of-them will-pledge to/for-him like-food-of evils to/for-them, all-of eating-of-him will-defile ; for food-of-them to/for-soul-of-them, not will-come house-of YHWH."
+        },
+        {
+          "n": 5,
+          "t": "what you-pl-will-do to/for-day-of meeting ; and-to/for-day-of feast-of YHWH."
+        },
+        {
+          "n": 6,
+          "t": "for behold they-have-gone from-violence, Egypt Memphis will-gather-them she-will-bury-them ; desire-of to/for-silver-of-them nettle will-possess-them, thistle in-tents-of-them."
+        },
+        {
+          "n": 7,
+          "t": "days-of the-punishment have-come have-come days-of the-recompense, will-know Israel ; fool the-prophet maded man-of the-spirit, on abundance-of iniquity-of-you, and-many hatred."
+        },
+        {
+          "n": 8,
+          "t": "watching Ephraim with god-of-me ; prophet snare-of fowler on all-of ways-of-him, hatred in-house-of god-of-him."
+        },
+        {
+          "n": 9,
+          "t": "they-have-made-deep they-have-ruined like-days-of the-Gibeah ; iniquity-of-them will-remember, will-reckon offenses-of-them."
+        },
+        {
+          "n": 10,
+          "t": "like-grapes in-the-wilderness I-have-found Israel, like-fig in-fig in-first-of-her, I-have-seen fathers-of-you-pl ; they have-come Lebaal Peor and-have-been-dedicated to/for-the-shame, abominations and-have-been like-love-of-them."
+        },
+        {
+          "n": 11,
+          "t": "Ephraim, like-the-bird will-fly glory-of-them ; from-beget and-from-belly and-from-conception."
+        },
+        {
+          "n": 12,
+          "t": "that if they-will-magnify sons-of-them, and-I-have-bereaveded-them from-man ; for also woe to/for-them in-turn-of-me from-them."
+        },
+        {
+          "n": 13,
+          "t": "Ephraim like-when I-have-seen to/for-Tyre transplanted in-pasture ; and-Ephraim, to/for-make-exit toward killing sons-of-him."
+        },
+        {
+          "n": 14,
+          "t": "give to/for-them YHWH what you-will-give ; give to/for-them womb making-bereaved, and-breasts shriveling."
+        },
+        {
+          "n": 15,
+          "t": "all-of evil-of-them in-the-Gilgal for there I-have-hated-them, on evil-of deeds-of-them, from-house-of-me I-will-drive-them ; not let-me-make-add love-of-them, all-of officials-of-them rebeling."
+        },
+        {
+          "n": 16,
+          "t": "Ephraim has-been-made-smite, root-of-them has-withered fruit without not they-will-do ; also for will-beget, and-I-have-made-die desires-of belly-of-them."
+        },
+        {
+          "n": 17,
+          "t": "god-of-me will-reject-them, for not they-have-heard to/for-him ; and-they-will-be wandering in-the-nations."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "vine luxurianting Israel, fruit will-set to/for-him ; like-abundance to/for-fruit-of-him he-has-made-multiply to/for-the-altars, like-good to/for-land-of-him, pillars have-made-improve."
+        },
+        {
+          "n": 2,
+          "t": "heart-of-them has-smoothed now they-will-guilty ; he will-neck altars-of-them, will-ruin pillars-of-them."
+        },
+        {
+          "n": 3,
+          "t": "for now they-will-say, naught king to/for-us ; for not we-have-feared YHWH, and-the-king what will-do to/for-us."
+        },
+        {
+          "n": 4,
+          "t": "words have-spoken, swear vanity cut covenant ; justice, and-has-sprouted like-the-poison on furrows-of sirion."
+        },
+        {
+          "n": 5,
+          "t": "to/for-heifers-of Beth-aven Aven, they-will-dread neighboring-of Samaria ; for people-of-him has-mourned on-him and-pagans-of-him on-him will-rejoice, on glory-of-him for has-heglamed from-him."
+        },
+        {
+          "n": 6,
+          "t": "also him to/for-Asshur will-be-made-conduct, offering to/for-king Yareb ; shame Ephraim will-take, Israel and-will-blush from-counsel-of-him."
+        },
+        {
+          "n": 7,
+          "t": "ceased Samaria king-of-her ; like-splinter on faces-of waters."
+        },
+        {
+          "n": 8,
+          "t": "highs-of evil and-have-been-destroyed offense-of Israel, thorn and-thistle, will-ascend on altars-of-them ; and-they-have-said to/for-the-mountains cover-us, and-to/for-the-Gibat fall on-us."
+        },
+        {
+          "n": 9,
+          "t": "from-days-of the-Gibeah, you-have-sinned Israel ; there have-stood, not battle will-make-overtake-them in-the-Gibeah on sons-of iniquity."
+        },
+        {
+          "n": 10,
+          "t": "in-desire-of-me and-I-will-discipline-them ; peoples, and-have-been-gathered on-them in-bind-of-them to/for-two-of fountains-of-them iniquitieses-of-them."
+        },
+        {
+          "n": 11,
+          "t": "and-Ephraim heifer learned loving-of to/for-tread, and-I have-passed, on goodness-of neck-of-her ; I-will-make-ride Ephraim will-plow Judah, will-harrow to/for-him Jacob."
+        },
+        {
+          "n": 12,
+          "t": "sow to/for-you-pl to/for-rightness reap to/for-lip-of kindness, break to/for-you-pl ground ; and-time to/for-seek YHWH, until will-come, righteousness and-will-make-show to/for-you-pl."
+        },
+        {
+          "n": 13,
+          "t": "you-pl-have-plowed wickedness injustice-of you-pl-have-reaped you-pl-have-eaten fruit-of lie ; for you-have-trusted in-way-of-you in-abundance-of mighty-of-you."
+        },
+        {
+          "n": 14,
+          "t": "roar and-has-risen in-people-of-you and-all-of fortifications-of-you will-be-ruined, like-violence-of Shalman Beth-arbel Arbel in-day-of battle ; mother on sons has-been-piecesed."
+        },
+        {
+          "n": 15,
+          "t": "thus Lebeyt Bethel, has-done to/for-you-pl from-faces-of evil-of evil-of-you-pl ; in-the-dawn, be-cease king-of Israel has-been-ceased."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "for youth Israel and-I-have-loved-him ; and-from-Egypt I-have-called to/for-son-of-me."
+        },
+        {
+          "n": 2,
+          "t": "they-have-called to/for-them ; thus they-have-gone from-faces-of-them, to/for-the-Baal they-will-sacrifice, and-to/for-the-idols they-will-offer."
+        },
+        {
+          "n": 3,
+          "t": "and-I have-taught to/for-Ephraim, he-has-taken-them on arms-of-him ; and-not they-have-known for I-have-healed-them."
+        },
+        {
+          "n": 4,
+          "t": "in-mahalabs-of man I-will-draw-them in-cords-of love, and-I-have-been to/for-them like-making-exalt-of yoke on Lehi-of-them ; and-I-will-make-stretch toward-him I-will-make-eat."
+        },
+        {
+          "n": 5,
+          "t": "not land-of Egypt, and-Asshur he will-return toward king-of-him ; for they-have-refused to/for-return."
+        },
+        {
+          "n": 6,
+          "t": "sword and-has-twisted in-cities-of-him, and-has-finished alones-of-him and-has-eaten ; from-counsels-of-them."
+        },
+        {
+          "n": 7,
+          "t": "and-people-of-me hung to/for-faithlessness-of-me ; and-toward most they-will-call-him, unitedness not will-exalt."
+        },
+        {
+          "n": 8,
+          "t": "how I-will-give-you Ephraim I-will-deliver-you Israel, how I-will-give-you like-Admah, I-will-put-you like-Zeboiim ; heart-of-me, has-been-overturned on-me unitedness have-been-grown comforts-of-me."
+        },
+        {
+          "n": 9,
+          "t": "not I-will-do burning-of nose-of-me, not I-will-return to/for-ruin Ephraim ; for El I and-not man, in-entrails-of-you holy, and-not will-come in-excitement."
+        },
+        {
+          "n": 10,
+          "t": "after YHWH they-will-walk like-lion will-roar ; for he will-roar, sons and-will-tremble from-sea."
+        },
+        {
+          "n": 11,
+          "t": "they-will-tremble like-bird from-Egypt, and-like-dove from-land-of Asshur ; and-I-have-made-dwell-them on houses-of-them utterance-of YHWH."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "they-have-turned-me in-lie Ephraim, and-in-deceit house-of Israel ; and-Judah still roaming with El, and-with holy faithfuled."
+        },
+        {
+          "n": 2,
+          "t": "Ephraim pasturing spirit and-pursuing east, all-of the-day, lie and-violence will-make-multiply ; and-covenant with Asshur they-will-cut, and-oil to/for-Egypt will-be-made-conduct."
+        },
+        {
+          "n": 3,
+          "t": "and-strife to/for-YHWH with Judah ; and-to/for-reckon on Jacob like-ways-of-him, like-deeds-of-him will-make-return to/for-him."
+        },
+        {
+          "n": 4,
+          "t": "in-the-belly he-has-assailed brother-of-him ; and-in-strength-of-him god has-strived with."
+        },
+        {
+          "n": 5,
+          "t": "messenger and-has-reigned toward and-has-abled, has-weeped and-has-self-gracioused to/for-him ; Lebeyt Bethel will-find-him, and-there will-speak with-us."
+        },
+        {
+          "n": 6,
+          "t": "and-YHWH god-of the-hostses ; YHWH memorial-of-him."
+        },
+        {
+          "n": 7,
+          "t": "and-you in-god-of-you will-return ; kindness and-justice keep, and-await toward god-of-you continually."
+        },
+        {
+          "n": 8,
+          "t": "Canaan in-hand-of-him balances-of deceit to/for-oppress has-loved."
+        },
+        {
+          "n": 9,
+          "t": "Ephraim and-has-said, surely I-have-enriched, I-have-found strength to/for-me ; all-of toils-of-me, not they-will-find to/for-me iniquity who sin."
+        },
+        {
+          "n": 10,
+          "t": "and-I YHWH god-of-you from-land-of Egypt ; still I-will-make-dwell-you in-tents like-days-of meeting."
+        },
+        {
+          "n": 11,
+          "t": "and-have-spoken on the-prophets, and-I vision have-made-multiply ; and-in-hand-of the-prophets I-will-resemble."
+        },
+        {
+          "n": 12,
+          "t": "if Gilead evil surely vanity cattles have-been, in-the-Gilgal have-sacrificed ; also altars-of-them like-heaps, on furrows-of sirion."
+        },
+        {
+          "n": 13,
+          "t": "Jacob and-has-fled field-of Aram ; Israel and-has-served in-woman, and-in-woman has-kept."
+        },
+        {
+          "n": 14,
+          "t": "and-in-prophet, YHWH has-made-ascend Israel from-Egypt ; and-in-prophet he-has-been-kept."
+        },
+        {
+          "n": 15,
+          "t": "Ephraim has-made-provoke bitternesses ; and-bloods-of-him on-him he-will-leave, and-reproach-of-him, he-will-make-return to/for-him lords-of-him."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "like-speak Ephraim trembling, has-lifted he in-Israel ; and-he-has-guiltied in-the-Baal and-he-has-died."
+        },
+        {
+          "n": 2,
+          "t": "and-now will-make-add to/for-sin and-have-done to/for-them liquid from-silver-of-them like-understanding-of-them idols, deed-of artificers all-of-him ; to/for-them they saying, sacrificing-of man, calfs will-kiss."
+        },
+        {
+          "n": 3,
+          "t": "to/for-thus they-will-be like-cloud-of morning, and-like-the-dew making-rise going ; like-chaff he-will-rage from-threshing, and-like-smoke from-window."
+        },
+        {
+          "n": 4,
+          "t": "and-I YHWH god-of-you from-land-of Egypt ; and-god exception-me not you-will-know, and-making-save naught without-me."
+        },
+        {
+          "n": 5,
+          "t": "I have-known-you in-the-wilderness ; in-land-of droughts."
+        },
+        {
+          "n": 6,
+          "t": "like-pasturing-of-them and-they-have-satisfied, they-have-satisfied heart-of-them and-has-exalted ; on thus they-have-forgotten-me."
+        },
+        {
+          "n": 7,
+          "t": "and-I-have-been to/for-them like lion ; like-leopard on way I-will-see."
+        },
+        {
+          "n": 8,
+          "t": "I-will-meet-them like-bear childless, and-I-will-tear enclosure-of heart-of-them ; and-I-will-eat-them there like-lion, beast-of the-field will-break-them."
+        },
+        {
+          "n": 9,
+          "t": "Israel has-ruined-you for in-me in-help-of-you."
+        },
+        {
+          "n": 10,
+          "t": "where king-of-you then, and-will-make-save-you in-all-of cities-of-you ; and-judging-of-you, who you-have-said, give-heh to/for-me king and-officials."
+        },
+        {
+          "n": 11,
+          "t": "I-will-give to/for-you king in-nose-of-me, and-I-will-take in-fury-of-me."
+        },
+        {
+          "n": 12,
+          "t": "constrained iniquity-of Ephraim, treasured offense-of-him."
+        },
+        {
+          "n": 13,
+          "t": "pains-of begeting will-come to/for-him ; he son not wise, for time not will-stand in-birth-of sons."
+        },
+        {
+          "n": 14,
+          "t": "from-hand-of hell I-will-ransom-them, from-death I-will-redeem-them ; where pestilences-of-you death where destruction-of-you hell, repentance will-be-hided from-eyes-of-me."
+        },
+        {
+          "n": 15,
+          "t": "for he, between-of brothers will-make-fruitful ; east will-come spirit-of YHWH from-wilderness ascending and-will-blush fountain-of-him and-will-dry spring-of-him, he will-plunder, treasure-of all-of article-of desire."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Samaria will-guilty, for she-has-rebelled in-god-of-her ; in-the-sword infants-of-them will-fall, will-pieces, and-pregnant-of-him will-break."
+        },
+        {
+          "n": 2,
+          "t": "return-heh Israel, until YHWH god-of-you ; for you-have-stumbled in-iniquity-of-you."
+        },
+        {
+          "n": 3,
+          "t": "take with-you-pl words, and-return toward YHWH ; say toward-him all-of you-will-lift iniquity and-take good, and-let-us-complete bullocks lipses-of-us."
+        },
+        {
+          "n": 4,
+          "t": "Asshur not will-make-save-us on horse not we-will-ride, and-not we-will-say still god-of-us to/for-deed-of hands-of-us ; who in-you orphan will-compassion."
+        },
+        {
+          "n": 5,
+          "t": "I-will-heal faithlessness-of-them, I-will-love-them voluntariness ; for nose-of-me has-returned from-him."
+        },
+        {
+          "n": 6,
+          "t": "I-will-be like-the-dew to/for-Israel, he-will-sprout like-the-lily ; and-he-will-make-smite roots-of-him like-the-Lebanon."
+        },
+        {
+          "n": 7,
+          "t": "let-them-walk shoots-of-him, splendor-of-him ; and-let-be like-the-olives and-aroma to/for-him like-the-Lebanon."
+        },
+        {
+          "n": 8,
+          "t": "they-will-return dwelling-of in-shadow-of-him, they-will-live grain and-they-will-sprout like-the-vine ; memorial-of-him like-wine-of Lebanon."
+        },
+        {
+          "n": 9,
+          "t": "Ephraim, what to/for-me still to/for-the-idols ; I have-answered I and-have-seen-him like-cypress luxuriant, from-me fruit-of-you has-been-found."
+        },
+        {
+          "n": 10,
+          "t": "who wise and-let-him-discern these, discerned and-let-him-know-them ; for upright ways-of YHWH and-just will-walk in-them, and-transgressing will-be-stumbled in-them."
+        }
+      ]
+    }
+  ]
+}

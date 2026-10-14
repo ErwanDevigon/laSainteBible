@@ -1,0 +1,651 @@
+{
+  "id": "amos",
+  "title": "Livre d'Amos",
+  "original_title": "Amos",
+  "short": "Am",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "paroles-de Amos, qui il-a-été dans-les-bergers depuis-Teqoa ; qui Israël a-apercevoir sur dans-jours-de Uzziah roi-de Juda et-dans-jours-de Jéroboam fils-de Joash roi-de Israël, années à/pour-faces-de le-mouvement."
+        },
+        {
+          "n": 2,
+          "t": "YHWH et-a-dit depuis-Sion rugira, et-depuis-Jérusalem voix-de-lui donnera ; pâturages-de et-ont-gbdé les-paîtants, et-a-flétri tête-de le-Carmel."
+        },
+        {
+          "n": 3,
+          "t": "thus YHWH a-dit, sur trois forfaits-de Damas, et-sur quatre non je-ferai-retourner-lui ; sur fouler-de-eux dans-diligents-de le-fer le-Gilead."
+        },
+        {
+          "n": 4,
+          "t": "et-je-ai-envoyé feu dans-maison-de Hazael ; et-elle-a-mangé palais-de Gaqlp Ben-hadad."
+        },
+        {
+          "n": 5,
+          "t": "et-je-ai-brisé barre-de Damas, et-je-ai-fait-couper habitant depuis-vallée Avena, et-tenant-de verge depuis-maison délices ; et-ils-ont-découvri peuple-de Aram Kir-vers a-dit YHWH."
+        },
+        {
+          "n": 6,
+          "t": "thus YHWH a-dit, sur trois forfaits-de Gaza, et-sur quatre non je-ferai-retourner-lui ; sur faire-découvrir-de-eux exil parfaite à/pour-faire-fermer à/pour-Édom."
+        },
+        {
+          "n": 7,
+          "t": "et-je-ai-envoyé feu dans-mur-de Gaza ; et-elle-a-mangé palais-de-elle."
+        },
+        {
+          "n": 8,
+          "t": "et-je-ai-fait-couper habitant depuis-Ashdod, et-tenant-de verge depuis-Ashkelon ; et-je-ai-fait-retourner main-de-moi sur Ekron et-ont-péri résidu-de Philistin, a-dit seigneurs-de-moi Yehvi."
+        },
+        {
+          "n": 9,
+          "t": "thus YHWH a-dit, sur trois forfaits-de Tyr, et-sur quatre non je-ferai-retourner-lui ; sur faire-fermer-de-eux exil parfaite à/pour-Édom, et-non ils-ont-rappelé alliance-de frères."
+        },
+        {
+          "n": 10,
+          "t": "et-je-ai-envoyé feu dans-mur-de Tyr ; et-elle-a-mangé palais-de-elle."
+        },
+        {
+          "n": 11,
+          "t": "thus YHWH a-dit, sur trois forfaits-de Édom, et-sur quatre non je-ferai-retourner-lui ; sur poursuivre-de-lui dans-la-épée frère-de-lui et-a-ruiné miséricordes-de-lui, nez-de-lui, et-a-arraché à/pour-perpétuité et-débordement-de-lui a-gardé-elle éminence."
+        },
+        {
+          "n": 12,
+          "t": "et-je-ai-envoyé feu dans-Teman ; et-elle-a-mangé palais-de Bozrah."
+        },
+        {
+          "n": 13,
+          "t": "thus YHWH a-dit, sur trois forfaits-de fils-de Ammon, et-sur quatre non je-ferai-retourner-lui ; sur fendre-de-eux enceintes-de le-Gilead, égard faire-élargir frontière-de-eux."
+        },
+        {
+          "n": 14,
+          "t": "et-je-ai-fait-allumer feu dans-mur-de Rabbah, et-a-mangé palais-de-elle ; dans-cri dans-jour-de guerre, dans-tourbillon dans-jour-de whirlwind."
+        },
+        {
+          "n": 15,
+          "t": "roi-de-eux et-a-marché dans-la-captivité ; lui et-princes-de-lui union a-dit YHWH."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "thus YHWH a-dit, sur trois forfaits-de Moab, et-sur quatre non je-ferai-retourner-lui ; sur brûler-de-lui os-de roi-de Édom à/pour-le-chaux."
+        },
+        {
+          "n": 2,
+          "t": "et-je-ai-envoyé feu dans-Moab, et-a-mangé palais-de le-Kerioth ; Moab, et-est-mort dans-mugissement dans-cri dans-voix-de trumpet."
+        },
+        {
+          "n": 3,
+          "t": "et-je-ai-fait-couper jugeant depuis-parmi-de-elle ; et-tout-de princes-de-elle je-tuerai avec-lui YHWH a-dit."
+        },
+        {
+          "n": 4,
+          "t": "thus YHWH a-dit, sur trois forfaits-de Juda, et-sur quatre non je-ferai-retourner-lui ; sur rejeter-de-eux instruction-de YHWH et-ordonnances-de-lui non ont-gardé, faussetés-de-eux et-ont-fait-chanceler-eux, qui ont-marché pères-de-eux après-eux."
+        },
+        {
+          "n": 5,
+          "t": "et-je-ai-envoyé feu dans-Juda ; et-elle-a-mangé palais-de Jérusalem."
+        },
+        {
+          "n": 6,
+          "t": "thus YHWH a-dit, sur trois forfaits-de Israël, et-sur quatre non je-ferai-retourner-lui ; sur vendre-de-eux dans-le-argent juste, et-indigent dans-cause-de sandales."
+        },
+        {
+          "n": 7,
+          "t": "les-gkfjbants sur poussière-de terre dans-tête-de pauvres, et-chemin-de humbles ils-feront-tendre ; et-homme et-père-de-lui ils-iront vers la-servante, égard commencer nom-de sainteté-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "et-sur perfidies gchraés feront-tendre, joignant tout-de autel ; et-vin-de punirs ils-boiront, maison-de dieux-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "et-moi ai-fait-exterminer le-Amorite depuis-faces-de-eux, qui comme-hauteur-de cèdres hauteur-de-lui, et-gcwh lui comme-les-chênes ; et-je-ai-fait-exterminer fruit-de-lui depuis-dessus, et-racines-de-lui sous."
+        },
+        {
+          "n": 10,
+          "t": "et-moi ai-fait-monter vous depuis-terre-de Égypte ; et-je-ai-fait-aller vous dans-le-désert quarante année, à/pour-déposséder terre-de le-Amorite."
+        },
+        {
+          "n": 11,
+          "t": "et-je-ai-fait-lever depuis-fils-de-vous à/pour-prophètes, et-depuis-gakhs-de-vous à/pour-nazaréens ; est-ce-même néant celle-ci fils-de Israël déclaration-de YHWH."
+        },
+        {
+          "n": 12,
+          "t": "et-vous-avez-fait-abreuver les-nazaréens vin ; et-sur les-prophètes vous-avez-commandé à/pour-dire, non vous-serez-prophétisés."
+        },
+        {
+          "n": 13,
+          "t": "voici moi faisant-écraser sous-vous ; comme-lorsque la-chariot la-plénitude fera-écraser, à/pour-elle andain."
+        },
+        {
+          "n": 14,
+          "t": "refuge depuis-léger et-fort et-a-péri, non gugera force-de-lui ; et-puissant non âme-de-lui sauvera."
+        },
+        {
+          "n": 15,
+          "t": "et-saisissant-de la-arc non il-restera, et-léger dans-pieds-de-lui non il-sauvera ; et-chevauchant-de le-hirondelle, non sauvera âme-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "et-puissant-de cœur-de-lui dans-les-puissants ; nu le-lui fuira dans-le-jour déclaration-de YHWH."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "écoutez le-parole le-celui-ci qui YHWH a-parlé sur-vous fils-de Israël ; sur tout-de la-famille, qui je-ai-fait-monter depuis-terre-de Égypte à/pour-dire."
+        },
+        {
+          "n": 2,
+          "t": "seulement vous je-ai-su, depuis-tout-de familles-de la-sol ; sur ainsi je-visiterai sur-vous, tout-de iniquités-de-vous."
+        },
+        {
+          "n": 3,
+          "t": "est-ce-ils-iront deux union ; sans si ils-ont-été-rencontré."
+        },
+        {
+          "n": 4,
+          "t": "lion est-ce-rugira dans-le-forêt, et-proie néant à/pour-lui ; gelwa est-ce-donnera voix-de-lui depuis-demeure-de-lui, sans si a-capturé."
+        },
+        {
+          "n": 5,
+          "t": "volaille est-ce-tombera sur giiwa la-terre, et-piège néant à/pour-elle ; giiwa est-ce-montera depuis la-sol, et-capturer non capturera."
+        },
+        {
+          "n": 6,
+          "t": "si trumpet sera-sonné dans-ville, et-peuple non ils-trembleront ; si mal sera dans-ville, et-YHWH non a-fait."
+        },
+        {
+          "n": 7,
+          "t": "car non fera seigneurs-de-moi Yehvi parole ; pour gsxb conseil-de-lui a-découvri, vers serviteurs-de-lui les-prophètes."
+        },
+        {
+          "n": 8,
+          "t": "lion a-rugi lequel non craindra ; seigneurs-de-moi Yehvi a-parlé, lequel non sera-prophétisé."
+        },
+        {
+          "n": 9,
+          "t": "faites-écouter sur palais dans-Ashdod, et-sur palais dans-terre-de Égypte ; et-dites soyez-recueilli sur monts-de Samaria, et-voyez troubles nombreuses dans-milieu-de-elle, et-oppressions dans-parmi-de-elle."
+        },
+        {
+          "n": 10,
+          "t": "et-non ils-ont-su faire uprighte déclaration-de YHWH ; les-stoants violence et-dévastation dans-palais-de-eux."
+        },
+        {
+          "n": 11,
+          "t": "à/pour-ainsi thus a-dit seigneurs-de-moi Yehvi, étroit et-alentour-de la-terre ; puissance-de-toi-f, et-a-fait-descendre depuis-toi-f et-ont-été-pillé palais-de-toi-f."
+        },
+        {
+          "n": 12,
+          "t": "thus YHWH a-dit comme-lorsque fera-délivrer le-paîtant depuis-bouche-de le-gabja deux-de jambes ou gaie-de oreille ; ainsi fils-de Israël les-habitants seront-délivrés dans-Samaria, dans-bord-de lit et-dans-Silk divan."
+        },
+        {
+          "n": 13,
+          "t": "écoutez et-faites-rendre dans-maison-de Jacob ; déclaration-de seigneurs-de-moi Yehvi dieu-de les-armées."
+        },
+        {
+          "n": 14,
+          "t": "car dans-jour-de visiter-de-moi forfaits-de Israël sur-lui ; et-je-ai-visité sur autels-de Lebeyt Bethel, et-ont-été-abattu cornes-de le-autel, et-sont-tombé à/pour-la-terre."
+        },
+        {
+          "n": 15,
+          "t": "et-je-ai-fait-frapper maison-de le-automne sur maison-de le-été ; maisons-de la-dent et-ont-péri et-ont-ghbzé maisons nombreux déclaration-de YHWH."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "écoutez le-parole le-celui-ci vaches-de le-Bashan qui dans-mont-de Samaria, les-violantes pauvres, les-opprimantes indigents ; les-disantes à/pour-lords-de-eux fais-venir-hé et-nous-boirons."
+        },
+        {
+          "n": 2,
+          "t": "a-été-juré seigneurs-de-moi Yehvi dans-sainteté-de-lui, car voici jours venants sur-vous ; et-il-a-porté vous dans-hooks, et-end-de-vous-f dans-ghdfbs-de pêche."
+        },
+        {
+          "n": 3,
+          "t": "et-brèches vous-f-sortirez femme devant-elle ; et-vous-f-avez-fait-jeter le-Harmon-vers déclaration-de YHWH."
+        },
+        {
+          "n": 4,
+          "t": "venez Lebeyt Bethel et-transgressez, le-Gilgal faites-multiplier à/pour-transgresser ; et-faites-venir à/pour-le-matin sacrifices-de-vous, à/pour-trois-de jours dîmes-de-vous."
+        },
+        {
+          "n": 5,
+          "t": "et-offer depuis-leaven louange, et-appelez volontairements faites-écouter ; car ainsi vous-avez-aimé fils-de Israël, déclaration-de seigneurs-de-moi Yehvi."
+        },
+        {
+          "n": 6,
+          "t": "et-aussi je ai-donné à/pour-vous ggwzb-de dents dans-tout-de villes-de-vous, et-manque-de pain, dans-tout-de lieux-de-vous ; et-non vous-êtes-retourné jusqu'à-moi déclaration-de YHWH."
+        },
+        {
+          "n": 7,
+          "t": "et-aussi moi ai-reteni depuis-vous le-averse dans-encore trois mois à/pour-le-moisson, et-ai-fait-pluie sur ville une, et-sur ville une non ferai-pluie ; parcelle une sera-pluie, et-parcelle qui non fera-pluie sur-elle flétrira."
+        },
+        {
+          "n": 8,
+          "t": "et-ont-erré deux trois villes vers ville une à/pour-boire eaux et-non rassasieront ; et-non vous-êtes-retourné jusqu'à-moi déclaration-de YHWH."
+        },
+        {
+          "n": 9,
+          "t": "je-ai-fait-frapper vous dans-le-séchée et-dans-le-rouille faire-multiplier jardins-de-vous et-vignobles-de-vous et-figues-de-vous et-olives-de-vous le-gbes mangera ; et-non vous-êtes-retourné jusqu'à-moi déclaration-de YHWH."
+        },
+        {
+          "n": 10,
+          "t": "je-ai-envoyé dans-vous peste dans-chemin-de Égypte, je-ai-tué dans-la-épée gakhs-de-vous, avec captivité-de hirondelles-de-vous ; et-je-ai-fait-monter puanteur-de camp-de-vous et-dans-nez-de-vous, et-non vous-êtes-retourné jusqu'à-moi déclaration-de YHWH."
+        },
+        {
+          "n": 11,
+          "t": "je-ai-tourné dans-vous comme-renverser-de dieu Sodom et-Gomorrah, et-vous-avez-été, comme-tison été-fait-délivrer depuis-incendie ; et-non vous-êtes-retourné jusqu'à-moi déclaration-de YHWH."
+        },
+        {
+          "n": 12,
+          "t": "à/pour-ainsi, thus je-ferai à/pour-toi Israël ; conséquence car celle-ci je-ferai à/pour-toi-f, sois-affermi à/pour-rencontrer dieu-de-toi Israël."
+        },
+        {
+          "n": 13,
+          "t": "car voici formant monts et-créant esprit et-faisant-annoncer à/pour-homme quoi pensée-de-lui, faisant-de aube darkness, et-marchant sur crêtes-de terre ; YHWH dieu-de combats nom-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "écoutez le-parole le-celui-ci qui moi portant sur-vous lamentation maison-de Israël."
+        },
+        {
+          "n": 2,
+          "t": "est-tombé non fera-ajouter lever, vierge-de Israël ; sol-de-elle a-été-laissé sur néant faisant-lever-de-elle."
+        },
+        {
+          "n": 3,
+          "t": "car thus a-dit seigneurs-de-moi Yehvi, la-ville la-sortissante mille fera-rester cent ; et-la-sortissante cent elle-fera-rester ten à/pour-maison-de Israël."
+        },
+        {
+          "n": 4,
+          "t": "car thus YHWH a-dit à/pour-maison-de Israël ; fréquentez-moi et-guérissez."
+        },
+        {
+          "n": 5,
+          "t": "et-ne vous-fréquentiez Lebeyt Bethel, et-le-Gilgal non vous-viendrez, et-Beera Beersheba non vous-passerez ; car le-Gilgal découvrir découvrira, et-Lebeyt Bethel sera à/pour-malheur."
+        },
+        {
+          "n": 6,
+          "t": "fréquentez YHWH et-guérissez ; sinon maison-de Joseph, giyiaera comme-le-feu et-elle-a-mangé et-néant éteindant à/pour-Lebeyt Bethel."
+        },
+        {
+          "n": 7,
+          "t": "les-tournants à/pour-absinthe jugement ; et-droiture à/pour-la-terre ils-ont-fait-reposer."
+        },
+        {
+          "n": 8,
+          "t": "faisant-de pléiades et-orion et-tournant à/pour-le-matin shadow, et-jour nuit a-fait-sombre ; le-appelant à/pour-eaux-de le-mer et-a-répandu-eux sur faces-de la-terre YHWH nom-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "le-faisant-sourire dévastation sur féroce ; et-dévastation sur forteresse viendra."
+        },
+        {
+          "n": 10,
+          "t": "ils-ont-gkzré dans-le-porte faisant-corriger ; et-parlant entier ils-glraeront."
+        },
+        {
+          "n": 11,
+          "t": "à/pour-ainsi gdvf gaxrer-de-vous sur pauvre et-élévation-de blé vous-prendrez depuis-nous, maisons-de taille vous-avez-bâti et-non vous-habiterez dans-eux ; vignobles-de beauté vous-avez-planté, et-non vous-boirez vin-de-eux."
+        },
+        {
+          "n": 12,
+          "t": "car je-ai-su nombreux forfaits-de-vous, et-puissants fautes-de-vous ; gjdwdants-de juste prenants-de ransom, et-indigents dans-le-porte ils-ont-fait-tendre."
+        },
+        {
+          "n": 13,
+          "t": "à/pour-ainsi le-faisant-comprendre dans-la-heure la-lui il-gbrfaera ; car heure male lui."
+        },
+        {
+          "n": 14,
+          "t": "fréquentez bien et-ne mauvais égard vous-guérirez ; YHWH et-soit ainsi dieu-de combats ensemble-vous comme-lorsque vous-avez-dit."
+        },
+        {
+          "n": 15,
+          "t": "gkzrez mauvais et-aimez bien, et-faites-gdwter dans-le-porte jugement ; peut-être YHWH graciera dieu-de combats résidu-de Joseph."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-ainsi thus YHWH a-dit dieu-de combats seigneurs-de-moi, dans-tout-de places gémissement, et-dans-tout-de dehors diront gbvf gbvf ; et-ils-ont-appelé laboureur vers deuil, et-gémissement vers sachants-de wailing."
+        },
+        {
+          "n": 17,
+          "t": "et-dans-tout-de vignobles gémissement ; car je-passerai dans-parmi-de-toi YHWH a-dit."
+        },
+        {
+          "n": 18,
+          "t": "gbvu les-se-inclinants jour-de YHWH ; à/pour-quoi celui-ci à/pour-vous jour-de YHWH lui ténèbre et-non lumière."
+        },
+        {
+          "n": 19,
+          "t": "comme-lorsque homme fuira depuis-faces-de le-gabja, et-a-rencontré-lui le-ours ; le-maison et-est-venu, et-a-posé main-de-lui sur le-wall, et-a-mordu-lui le-serpent."
+        },
+        {
+          "n": 20,
+          "t": "est-ce-non ténèbre jour-de YHWH et-non lumière ; et-obscur et-non éclat à/pour-lui."
+        },
+        {
+          "n": 21,
+          "t": "je-ai-gkzré je-ai-rejeté fêtes-de-vous ; et-non je-ferai-sentir dans-assemblées-de-vous."
+        },
+        {
+          "n": 22,
+          "t": "pour gsxb vous-ferez-monter à/pour-moi burnts et-offrandes-de-vous non je-gkcgerai ; et-récompense-de fatlings-de-vous non je-ferai-regarder."
+        },
+        {
+          "n": 23,
+          "t": "fais-détourner sur-moi tumulte-de chants-de-toi ; et-musique-de harps-de-toi non je-écouterai."
+        },
+        {
+          "n": 24,
+          "t": "jugement ; et-sera-roulé comme-les-eaux et-droiture comme-torrent perpétuel."
+        },
+        {
+          "n": 25,
+          "t": "est-ce-les-sacrifices et-offrande vous-avez-fait-approcher à/pour-moi dans-le-désert quarante année maison-de Israël."
+        },
+        {
+          "n": 26,
+          "t": "et-vous-avez-porté Sikkuth Molech-de-vous, et-Kiyyun images-de-vous ; étoile-de dieu-de-vous, qui vous-avez-fait à/pour-vous."
+        },
+        {
+          "n": 27,
+          "t": "et-je-ai-fait-découvrir vous depuis-further à/pour-Damas ; YHWH a-dit dieu-de combats nom-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "gbvu les-tranquilles dans-Sion, et-les-confiants dans-mont-de Samaria ; perforés-de commencement-de les-nations, et-ils-sont-venu à/pour-eux maison-de Israël."
+        },
+        {
+          "n": 2,
+          "t": "passez Kalno et-voyez, et-allez depuis-là Hamata Rabaa ; et-descendez Gath Philistin est-ce-bons depuis les-royaumes les-ces, si nombreux frontière-de-eux depuis-frontière-de-vous."
+        },
+        {
+          "n": 3,
+          "t": "les-ggmgbants à/pour-jour mauvais ; et-vous-avez-fait-approcher seat-de violence."
+        },
+        {
+          "n": 4,
+          "t": "les-mentissants sur lits-de dent, et-retombés sur divans-de-eux ; et-mangeants rams depuis-troupeau, et-veaux depuis-milieu-de étable."
+        },
+        {
+          "n": 5,
+          "t": "les-chantants sur bouche-de le-harp ; comme-David, ustensiles-de chant ont-pensé à/pour-eux."
+        },
+        {
+          "n": 6,
+          "t": "les-buvants dans-bassins-de vin, et-commencement-de huiles ils-oindront ; et-non ils-ont-été-gcpzaé sur ruine-de Joseph."
+        },
+        {
+          "n": 7,
+          "t": "à/pour-ainsi maintenant ils-découvriront dans-tête découvrants ; ggbm-de et-a-détourné retombés."
+        },
+        {
+          "n": 8,
+          "t": "a-été-juré seigneurs-de-moi Yehvi dans-âme-de-lui déclaration-de YHWH dieu-de combats, gljbant moi orgueil-de Jacob, et-palais-de-lui ai-gkzré ; et-je-ai-fait-fermer ville et-plénitude-de-elle."
+        },
+        {
+          "n": 9,
+          "t": "et-il-a-été si seront-demeurés ten hommes dans-maison un et-sont-mort."
+        },
+        {
+          "n": 10,
+          "t": "bien-aimé-de-lui et-brûlant-de-lui et-a-porté-lui à/pour-faire-sortir os depuis le-maison et-a-dit à/pour-qui dans-flancs-de le-maison est-ce-encore avec-toi-f finalité et-a-dit ; et-il-a-dit silence, car non à/pour-faire-rappeler dans-nom-de YHWH."
+        },
+        {
+          "n": 11,
+          "t": "car voici YHWH commandant, et-a-fait-frapper le-maison le-grand gjzkbs ; et-le-maison le-petit brèches."
+        },
+        {
+          "n": 12,
+          "t": "hirondelles, est-ce-les-courront dans-le-Rock si il-combinera dans-les-bœufs ; car vous-avez-tourné à/pour-venin jugement, et-fruit-de droiture à/pour-absinthe."
+        },
+        {
+          "n": 13,
+          "t": "les-réjouirs à/pour-non parole ; les-disants, est-ce-non dans-force-de-nous, nous-avons-pris à/pour-nous Karnaim."
+        },
+        {
+          "n": 14,
+          "t": "car voilà-moi faisant-lever sur-vous maison-de Israël déclaration-de YHWH dieu-de les-combats nation ; et-ils-ont-serré vous depuis-venir Hamath jusqu'à torrent-de la-plaine."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "thus a-fait-voir-moi seigneurs-de-moi Yehvi, et-voici formant gbdfb, dans-commencement-de monter le-suites ; et-voici suites, après fauchers-de le-roi."
+        },
+        {
+          "n": 2,
+          "t": "et-a-été si a-achevé à/pour-manger plante-de la-terre, et-je-ai-dit seigneurs-de-moi Yehvi pardonne donc, lequel levera Jacob ; car petit lui."
+        },
+        {
+          "n": 3,
+          "t": "YHWH a-été-consolé sur celle-ci ; non elle-sera YHWH a-dit."
+        },
+        {
+          "n": 4,
+          "t": "thus a-fait-voir-moi seigneurs-de-moi Yehvi, et-voici appelant à/pour-gjwter dans-le-feu seigneurs-de-moi Yehvi ; et-elle-a-mangé abîme nombreuse, et-elle-a-mangé le-part."
+        },
+        {
+          "n": 5,
+          "t": "et-je-ai-dit seigneurs-de-moi Yehvi cesse donc, lequel levera Jacob ; car petit lui."
+        },
+        {
+          "n": 6,
+          "t": "YHWH a-été-consolé sur celle-ci ; aussi lui non sera, a-dit seigneurs-de-moi Yehvi."
+        },
+        {
+          "n": 7,
+          "t": "thus il-a-fait-voir-moi, et-voici seigneurs-de-moi établi sur mur-de niveau ; et-dans-main-de-lui niveau."
+        },
+        {
+          "n": 8,
+          "t": "YHWH et-a-dit vers-moi quoi tu voyant Amos, et-je-ai-dit niveau ; et-a-dit seigneurs-de-moi voilà-moi mettant niveau dans-parmi-de peuple-de-moi Israël, non je-ferai-ajouter encore passer à/pour-lui."
+        },
+        {
+          "n": 9,
+          "t": "crêtes-de Leishaq et-ont-été-désolé, et-sanctuaires-de Israël destroyont ; et-je-suis-levé sur maison-de Jéroboam dans-la-épée."
+        },
+        {
+          "n": 10,
+          "t": "Amaziah et-a-envoyé sacrificateur-de Lebeyt Bethel, vers Jéroboam roi-de Israël à/pour-dire ; Amos a-conspiré sur-toi dans-parmi-de maison-de Israël, non vaincra la-terre, à/pour-faire-contenir tout-de paroles-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "car thus Amos a-dit, dans-la-épée mourra Jéroboam ; et-Israël, découvrir découvrira sur sol-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "Amaziah et-a-dit vers Amos, voyant, va atteinds à/pour-toi vers terre-de Juda ; et-mange là pain, et-là tu-seras-prophétisé."
+        },
+        {
+          "n": 13,
+          "t": "et-Lebeyt Bethel, non tu-feras-ajouter encore à/pour-être-prophétiser ; car sanctuaire-de roi lui, et-maison-de royaume lui."
+        },
+        {
+          "n": 14,
+          "t": "Amos et-a-répondu et-a-dit vers Amaziah, non prophète moi, et-non fils-de prophète moi ; car berger moi et-gapkant-de sycomores."
+        },
+        {
+          "n": 15,
+          "t": "YHWH et-a-pris-moi, après le-troupeau ; YHWH, et-a-dit vers-moi va sois-prophétisé vers peuple-de-moi Israël."
+        },
+        {
+          "n": 16,
+          "t": "et-maintenant écoute parole-de YHWH ; tu disant non seras-prophétisé sur Israël, et-non feras-distiller sur maison-de Leishaq."
+        },
+        {
+          "n": 17,
+          "t": "à/pour-ainsi thus YHWH a-dit femme-de-toi dans-la-ville gcewera et-fils-de-toi et-filles-de-toi dans-la-épée tomberont, et-sol-de-toi dans-le-mahalab divisera ; et-tu sur sol impure mourras, et-Israël, découvrir découvrira sur sol-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "thus a-fait-voir-moi seigneurs-de-moi Yehvi ; et-voici cage-de été."
+        },
+        {
+          "n": 2,
+          "t": "et-a-dit quoi tu voyant Amos, et-je-ai-dit cage-de été ; YHWH et-a-dit vers-moi est-venu le-fin vers peuple-de-moi Israël, non je-ferai-ajouter encore passer à/pour-lui."
+        },
+        {
+          "n": 3,
+          "t": "chants-de temple et-ont-fait-hurler dans-le-jour le-lui, déclaration-de seigneurs-de-moi Yehvi ; nombreux le-corps, dans-tout-de lieu a-fait-jeter silence."
+        },
+        {
+          "n": 4,
+          "t": "écoutez celle-ci, les-gkfjbants indigent ; et-à/pour-faire-cesser humbles-de affligés-de terre."
+        },
+        {
+          "n": 5,
+          "t": "à/pour-dire ggid le-mois passera et-nous-faisons-gkhver grain, et-le-sabbat et-nous-gitaaons blé ; à/pour-faire-amoindrir épha et-à/pour-faire-croître sicle, et-à/pour-ghnser balances-de tromperie."
+        },
+        {
+          "n": 6,
+          "t": "à/pour-acquérir dans-le-argent pauvres, et-indigent dans-cause-de sandales ; et-refuse-de blé nous-ferons-gkhver."
+        },
+        {
+          "n": 7,
+          "t": "YHWH a-été-juré dans-orgueil-de Jacob ; si je-ignorerai à/pour-éminence tout-de actes-de-eux."
+        },
+        {
+          "n": 8,
+          "t": "est-ce-sur celle-ci non la-terre enragera, et-a-gbdé tout-de habitant dans-elle ; et-elle-est-monté comme-le-Nile tout-de-elle, et-elle-a-été-chassé et-elle-a-été-abreuvé et-elle-a-été-enfoncé comme-Nile Égypte."
+        },
+        {
+          "n": 9,
+          "t": "le-lui et-a-été dans-le-jour déclaration-de seigneurs-de-moi Yehvi, et-je-ai-fait-venir le-soleil dans-les-middays ; et-je-ai-fait-sombre à/pour-la-terre dans-jour-de lumière."
+        },
+        {
+          "n": 10,
+          "t": "et-je-ai-tourné fêtes-de-vous à/pour-deuil et-tout-de chants-de-vous à/pour-lamentation, et-je-ai-fait-monter sur tout-de hanches sac, et-sur tout-de tête calvitie ; et-je-ai-mis-elle comme-deuil solitaire, et-end-de-elle comme-jour amer."
+        },
+        {
+          "n": 11,
+          "t": "voici jours venants déclaration-de seigneurs-de-moi Yehvi, et-je-ai-fait-envoyer famine dans-la-terre ; non famine à/pour-le-pain et-non soif à/pour-les-eaux, pour gsxb à/pour-écouter, paroles-de YHWH."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-ont-erré depuis-mer jusqu'à mer, et-depuis-nord et-jusqu'à east ; ils-rôderont à/pour-chercher parole-de YHWH et-non ils-trouveront."
+        },
+        {
+          "n": 13,
+          "t": "dans-le-jour le-lui les-vierges les-belles ghuneront et-les-gakhs dans-le-soif."
+        },
+        {
+          "n": 14,
+          "t": "les-jurés dans-offense-de Samaria, et-ils-ont-dit vivant dieu-de-toi Dan, et-vivant chemin-de Beera Beersheba ; et-ils-sont-tombé et-non ils-leveront encore."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "je-ai-vu seigneurs-de-moi établi sur le-autel et-a-dit fais-frapper le-chapiteau et-trembleront les-gobelets et-gatre-eux dans-tête-de tout-de-eux, et-end-de-eux dans-la-épée je-tuerai ; non fuira à/pour-eux fuissant, et-non fugitif sera-sauvé à/pour-eux."
+        },
+        {
+          "n": 2,
+          "t": "si ils-gdfderont dans-scheol, depuis-là main-de-moi prendra-eux ; et-si les-ciels monteront, depuis-là je-ferai-descendre-eux."
+        },
+        {
+          "n": 3,
+          "t": "et-si ils-seront-cachés dans-tête-de le-Carmel, depuis-là je-rechercherai et-je-ai-pris-eux ; et-si ils-seront-cachés devant yeux-de-moi dans-plancher-de le-mer, depuis-là je-commanderai le-serpent et-il-a-mordu-eux."
+        },
+        {
+          "n": 4,
+          "t": "et-si ils-iront dans-la-captivité à/pour-faces-de gmcçants-de-eux, depuis-là je-commanderai la-épée et-elle-a-tué-eux ; et-je-ai-mis œil-de-moi sur-eux à/pour-mal et-non à/pour-agréable."
+        },
+        {
+          "n": 5,
+          "t": "et-seigneurs-de-moi Yehvi les-combats le-touchant dans-la-terre et-elle-a-fondu, et-ont-gbdé tout-de habitants-de dans-elle ; et-elle-est-monté comme-le-Nile tout-de-elle, et-elle-a-enfoncé comme-Nile Égypte."
+        },
+        {
+          "n": 6,
+          "t": "le-bâtissant dans-les-ciels steps-de-lui, et-bande-de-lui sur terre a-fondé-elle ; le-appelant à/pour-eaux-de le-mer et-a-répandu-eux sur faces-de la-terre YHWH nom-de-lui."
+        },
+        {
+          "n": 7,
+          "t": "est-ce-non vous comme-fils-de Ethiopian à/pour-moi fils-de Israël déclaration-de YHWH ; est-ce-non Israël je-ai-fait-monter depuis-terre-de Égypte, et-Philistin depuis-Caphtor et-Aram depuis-Kir."
+        },
+        {
+          "n": 8,
+          "t": "voici yeux-de seigneurs-de-moi Yehvi dans-la-royaume la-pécheurse, et-je-ai-fait-exterminer elle, sur faces-de la-sol ; finalité car non faire-exterminer je-ferai-exterminer maison-de Jacob déclaration-de YHWH."
+        },
+        {
+          "n": 9,
+          "t": "car voici moi commandant, et-ai-fait-errer dans-tout-de les-nations maison-de Israël ; comme-lorsque sera-erré dans-la-tamis, et-non colis terre tombera."
+        },
+        {
+          "n": 10,
+          "t": "dans-la-épée ils-mourront, tout-de pécheurs-de peuple-de-moi ; les-disants non fera-approcher la-mal et-fera-rencontrer jusqu'à-nous."
+        },
+        {
+          "n": 11,
+          "t": "dans-le-jour le-lui, je-ferai-lever fourré-de David la-tombante ; et-je-ai-gbcmé brèches-de-elles et-gbzfs-de-lui je-ferai-lever, et-je-ai-bâti-elle comme-jours-de durée."
+        },
+        {
+          "n": 12,
+          "t": "égard ils-déposséderont résidu-de Édom et-tout-de les-nations, qui a-été-appelé nom-de-moi sur-eux ; déclaration-de YHWH faisant celle-ci."
+        },
+        {
+          "n": 13,
+          "t": "voici jours venants déclaration-de YHWH, et-a-été-approché combinant dans-le-moissonnant, et-marchant-de raisins dans-traînant-de le-semence ; les-monts et-ont-fait-distiller pressoir, et-tout-de les-Gibata elles-fondront."
+        },
+        {
+          "n": 14,
+          "t": "et-je-suis-retourné captivity-de peuple-de-moi Israël villes désolations et-ont-bâti et-ont-habité, vignobles et-ont-planté, et-ont-bu vin-de-eux ; jardins et-ont-fait, et-ont-mangé fruit-de-eux."
+        },
+        {
+          "n": 15,
+          "t": "et-je-ai-planté-eux sur sol-de-eux ; et-non ils-seront-arrachés encore sur sol-de-eux qui je-ai-donné à/pour-eux, YHWH a-dit dieu-de-toi."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "nahum",
+  "title": "Livre de Nahum",
+  "original_title": "Nahum",
+  "short": "Na",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "maintien-de Ninive ; livre-de vision-de Nahum le-Elkoshite."
+        },
+        {
+          "n": 2,
+          "t": "El jealous et-vengeant YHWH, vengeant YHWH et-mari-de colère ; vengeant YHWH à/pour-étroits-de-lui, et-entretenissant lui à/pour-gmcçants-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "YHWH longues-de nez et-grand-de force, et-innocenter non innocentera ; YHWH dans-whirlwind et-dans-orage chemin-de-lui, et-nuageux dust-de pieds-de-lui."
+        },
+        {
+          "n": 4,
+          "t": "réprimandant dans-le-mer et-tout-de les-fleuves et-a-flétri-lui, a-fait-gczmaer ; Bashan et-Carmel a-penché, et-pousse-de Liban a-penché."
+        },
+        {
+          "n": 5,
+          "t": "monts ont-tremblé depuis-nous, et-les-Gibata ont-fondu ; la-terre et-a-porté depuis-faces-de-lui, et-monde et-tout-de habitants-de dans-elle."
+        },
+        {
+          "n": 6,
+          "t": "à/pour-faces-de indignation-de-lui lequel il-restera, et-lequel il-levera dans-gdaj-de nez-de-lui ; colère-de-lui a-été-versé comme-le-feu, et-les-rochers ont-été-renversé depuis-lui."
+        },
+        {
+          "n": 7,
+          "t": "bon YHWH, à/pour-forteresse dans-jour-de angoisse ; et-sachant gcvtants-de dans-lui."
+        },
+        {
+          "n": 8,
+          "t": "et-dans-flot passant, lieu-de-elle ; fera consomption et-gmcçants-de-lui ténèbre poursuivra."
+        },
+        {
+          "n": 9,
+          "t": "quoi vous-penserez vers YHWH, consomption lui faisant ; non levera fois angoisse."
+        },
+        {
+          "n": 10,
+          "t": "car jusqu'à ghdfbs entrelacés, et-comme-ghaaer-de-eux absorbés ; ils-ont-été-mangé, comme-chaume sec plein."
+        },
+        {
+          "n": 11,
+          "t": "depuis-toi-f est-sorti, pensant sur YHWH mal ; conseillant-de indignité."
+        },
+        {
+          "n": 12,
+          "t": "thus YHWH a-dit si parfaits et-ainsi nombreux, et-ainsi ils-ont-été-tondu et-a-passé ; et-je-ai-ghwybé-toi-f, non je-ghwyberai-toi-f encore."
+        },
+        {
+          "n": 13,
+          "t": "et-maintenant, je-briserai perche-de-lui sur-toi-f ; et-gfcms-de-toi-f je-extrairai."
+        },
+        {
+          "n": 14,
+          "t": "YHWH, et-a-commandé sur-toi non sera-semé depuis-nom-de-toi encore ; depuis-maison-de dieu-de-toi je-ferai-couper idol et-liquid je-mettrai sépulcre-de-toi car tu-as-légé."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "voici sur les-monts pieds-de publiant faisant-écouter paix, danse Juda fêtes-de-toi-f gkuqae vœus-de-toi-f ; car non indignité fera-ajouter encore à/pour-passer dans-toi-f tout-de-lui a-été-coupé."
+        },
+        {
+          "n": 2,
+          "t": "il-est-monté faisant-scatterer sur faces-de-toi-f surveiller forteresse ; regarde chemin fortifie hanches, guge force très."
+        },
+        {
+          "n": 3,
+          "t": "car YHWH est-retourné orgueil-de Jacob, comme-orgueil-de Israël ; car ont-gaupbé-eux gaupbants, et-sarments-de-eux ont-ruiné."
+        },
+        {
+          "n": 4,
+          "t": "bouclier-de puissants-de-lui gdoé hommes-de compétence glpaés, dans-feu-de fers le-char dans-jour-de faire-affermir-de-lui ; et-les-cyprès ont-été-fait-trembloter."
+        },
+        {
+          "n": 5,
+          "t": "dans-les-dehors ils-brilleront le-char, ils-accouriront dans-les-places ; aspect-de-elles comme-les-torches, comme-les-éclairs ils-courront."
+        },
+        {
+          "n": 6,
+          "t": "il-rappelera grandeurs-de-lui, ils-seront-chancelés dans-walks-de-eux dans-walk-de-eux ; ils-hâteront mur-de-elle, le-protector et-a-été-fait-affermir."
+        },
+        {
+          "n": 7,
+          "t": "portes-de les-fleuves ont-été-gitaaé ; et-le-temple a-été-fondu."
+        },
+        {
+          "n": 8,
+          "t": "et-il-a-été-fait-établir elle-a-été-découvri elle-a-été-fait-monter ; et-maidservants-de-elle guidantes comme-voix-de colombes, frappantes sur volontés-de-elles."
+        },
+        {
+          "n": 9,
+          "t": "et-Ninive comme-étang-de eaux depuis-jours-de lui ; et-eux fuissants, restez restez et-néant faisant-tourner."
+        },
+        {
+          "n": 10,
+          "t": "pillez argent pillez or ; et-néant gjlyb à/pour-la-arrangement, gloire, depuis-tout-de ustensile-de desire."
+        },
+        {
+          "n": 11,
+          "t": "vide et-emptiness et-dévastée ; et-cœur a-été-dissoudu et-vacillant-de genous et-angoisse dans-tout-de hanches, et-faces-de tout-de-eux ont-assemblé pale."
+        },
+        {
+          "n": 12,
+          "t": "gmh demeure-de gabjas, et-pâture lui à/pour-les-gelwas ; qui lion geqkc a-marché là petit-de lion et-néant faisant-trembler."
+        },
+        {
+          "n": 13,
+          "t": "lion arrachant dans-assez-de petits-de-lui, et-étranglant à/pour-geqkas-de-lui ; proie et-a-rempli trous-de-lui, et-demeures-de-lui torn."
+        },
+        {
+          "n": 14,
+          "t": "voilà-moi vers-toi-f déclaration-de YHWH combats, et-je-ai-fait-brûler dans-le-fumée char-de-elle, et-gelwas-de-toi-f épée mangera ; et-je-ai-fait-couper depuis-terre proie-de-toi-f, et-non sera-écouté encore voix-de messagers-de-toi-f."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "gbvu ville-de sangs ; tout-de-elle mensonge carrefour plénitude, non enlevera proie."
+        },
+        {
+          "n": 2,
+          "t": "voix-de fouetter, et-voix-de mouvement-de roue ; et-hirondelle caracolant, et-chariot gkczante."
+        },
+        {
+          "n": 3,
+          "t": "cheval faisant-monter et-flamme-de épée et-éclair-de lance, et-multitude-de tué et-heaviness-de corps ; et-néant gjlyb à/pour-la-body, ils-seront-chancelés et-ils-ont-chancelé dans-body-de-eux."
+        },
+        {
+          "n": 4,
+          "t": "depuis-multitude-de prostitutions-de gcewante, bone-de grâce maîtresse-de sortilèges ; la-vendante nations dans-prostitutions-de-elle, et-familles dans-sortilèges-de-elle."
+        },
+        {
+          "n": 5,
+          "t": "voilà-moi vers-toi-f déclaration-de YHWH combats, et-je-ai-découvri bordures-de-toi-f sur faces-de-toi-f ; et-je-ai-fait-voir nations nudité-de-toi-f, et-royaumes honte-de-toi-f."
+        },
+        {
+          "n": 6,
+          "t": "et-je-ai-fait-jeter sur-toi-f abominations et-je-ai-ggkpaé-toi-f ; et-je-ai-mis-toi-f comme-spectacle."
+        },
+        {
+          "n": 7,
+          "t": "tout-de et-a-été voyants-de-toi-f déménagera depuis-toi-f, et-a-dit Ninive a-été-dévasté, lequel secouera à/pour-elle ; depuis-gnf je-chercherai consolants à/pour-toi-f."
+        },
+        {
+          "n": 8,
+          "t": "est-ce-tu-f-feras-améliorer depuis-Thebes Amona, la-habitante dans-les-Nile, eaux alentour à/pour-elle ; qui rempart-de mer, depuis-mer mur-de-elle."
+        },
+        {
+          "n": 9,
+          "t": "Koush ghzy-de-elle et-Égypte et-néant gjlyb ; Put et-Libyan, ont-été dans-secours-de-toi-f."
+        },
+        {
+          "n": 10,
+          "t": "aussi lui à/pour-la-captivité a-marché dans-la-captivité, aussi enfants-de-elle gjwreront dans-tête-de tout-de dehors ; et-sur honors-de-elle ils-ont-gdlpé sort, et-tout-de grands-de-elle ils-ont-été-gkejé dans-les-projectiles."
+        },
+        {
+          "n": 11,
+          "t": "aussi toi ivras, elle-sera cachée ; aussi toi chercheras forteresse depuis-gmcçant."
+        },
+        {
+          "n": 12,
+          "t": "tout-de forteresses-de-toi-f, figues avec prémices ; si ils-seront-errés, et-ils-sont-tombé sur bouche-de mangeant."
+        },
+        {
+          "n": 13,
+          "t": "voici peuple-de-toi-f femmes dans-parmi-de-toi-f, à/pour-gmcçants-de-toi-f, gitaaer ont-été-gitaaé portes-de terre-de-toi-f ; feu a-mangé barres-de-toi-f."
+        },
+        {
+          "n": 14,
+          "t": "eaux-de siege tire à/pour-toi-f, fortifie forteresses-de-toi-f ; viens dans-le-boue et-piétine dans-le-argile fais-fortifier brick."
+        },
+        {
+          "n": 15,
+          "t": "là feu mangera-toi-f, fera-couper-toi-f épée, mangera-toi-f comme-le-gdst ; honor comme-le-gdst, honor comme-le-locust."
+        },
+        {
+          "n": 16,
+          "t": "tu-f-as-fait-multiplier circulants-de-toi-f, depuis-étoiles-de les-ciels ; gdst a-dépouillé et-a-voltigé."
+        },
+        {
+          "n": 17,
+          "t": "princes-de-toi-f comme-le-locust, et-scribes-de-toi-f comme-gbdfa-de gbdfbs ; les-campants dans-les-Ougdera dans-jour-de froid, soleil a-apparaîtu et-a-déménagé, et-non lieu-de-lui a-été-su où-eux."
+        },
+        {
+          "n": 18,
+          "t": "ils-ont-sommeillé paîtants-de-toi roi-de Assur, ils-habiteront grandeurs-de-toi ; ont-été-scatté peuple-de-toi sur les-monts et-néant assemblant."
+        },
+        {
+          "n": 19,
+          "t": "néant extinction à/pour-ruine-de-toi, gcpzaée coup-de-toi ; tout-de écoutants-de bruit-de-toi ils-ont-sonné palme sur-toi, car sur lequel non a-passé mal-de-toi perpétuité."
+        }
+      ]
+    }
+  ]
+}

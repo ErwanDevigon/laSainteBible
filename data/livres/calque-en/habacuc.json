@@ -1,0 +1,261 @@
+{
+  "id": "habacuc",
+  "title": "Livre d'Habacuc",
+  "original_title": "Habacuc",
+  "short": "Ha",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "the-oracle who has-seen, Habakkuk the-prophet."
+        },
+        {
+          "n": 2,
+          "t": "until where YHWH I-have-cried and-not you-will-hear ; I-will-out toward-you violence and-not you-will-make-save."
+        },
+        {
+          "n": 3,
+          "t": "to/for-what you-will-make-see-me evil and-trouble you-will-make-look, and-violence and-violence before-me ; strife and-strife and-has-been will-lift."
+        },
+        {
+          "n": 4,
+          "t": "on thus instruction will-numb, and-not will-exit to/for-perpetuity justice ; for wicked making-surround the-just, on thus justice twisted will-exit."
+        },
+        {
+          "n": 5,
+          "t": "see in-the-nations and-make-look, and-astounded astounded ; for work working in-days-of-you-pl, not you-pl-will-make-faithful for will-recount."
+        },
+        {
+          "n": 6,
+          "t": "for lo-me making-rise the-Chaldean, the-nation the-bitter and-the-hastened ; the-going to/for-broads-of land, to/for-possess tabernacles not to/for-him."
+        },
+        {
+          "n": 7,
+          "t": "terrible and-feared he ; from-us, justice-of-him and-elevation-of-him will-exit."
+        },
+        {
+          "n": 8,
+          "t": "horses-of-him and-have-lightened from-leopards and-have-sharped from-wolfs-of evening, horsemans-of-him and-have-leaped ; and-horsemans-of-him from-far will-come, will-fly, like-eagle hastening to/for-eat."
+        },
+        {
+          "n": 9,
+          "t": "all-of-him to/for-violence will-come, horde-of faces-of-them east-ward ; captivity and-has-gathered like-the-sand."
+        },
+        {
+          "n": 10,
+          "t": "and-he in-the-kings will-mock, and-ruling laughing to/for-him ; he to/for-all-of fortification will-laugh, dust and-has-heaped and-has-captured-her."
+        },
+        {
+          "n": 11,
+          "t": "then spirit has-passed and-has-passed and-has-guiltied ; this strength-of-him to/for-god-of-him."
+        },
+        {
+          "n": 12,
+          "t": "is-it-not you from-east YHWH god-of-me holy-of-me not we-will-die ; YHWH to/for-justice you-have-put-him, and-rocks to/for-make-rebuke you-have-founded-him."
+        },
+        {
+          "n": 13,
+          "t": "pureness-of eyes from-see bad, and-make-look toward trouble not you-will-able ; to/for-what you-will-make-look treacherouslying, you-will-make-quiet, in-swallow wicked just from-him."
+        },
+        {
+          "n": 14,
+          "t": "and-you-have-done man like-fishes-of the-sea ; like-creeping not ruling in-him."
+        },
+        {
+          "n": 15,
+          "t": "all-of-him in-hook has-made-ascend, will-drag-him in-net-of-him, and-will-gather-him in-net-of-him ; on thus he-will-rejoice and-he-will-rejoice."
+        },
+        {
+          "n": 16,
+          "t": "on thus he-will-sacrifice to/for-net-of-him, and-he-will-offer to/for-net-of-him ; for in-they rich portion-of-him, and-food-of-him fat."
+        },
+        {
+          "n": 17,
+          "t": "is-it-on thus net-of-him will-make-empty ; and-continually to/for-kill nations not will-spare."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "on charge-of-me let-me-stand, and-let-me-stand on siege ; and-I-will-watch to/for-see what he-will-speak in-me, and-what I-will-make-return on argument-of-me."
+        },
+        {
+          "n": 2,
+          "t": "YHWH and-has-answered-me and-has-said, write vision, and-make on the-tablets ; sake he-will-run calling in-him."
+        },
+        {
+          "n": 3,
+          "t": "for still vision to/for-the-meeting, and-will-make-breathe to/for-the-end and-not will-lie ; if he-will-delay wait to/for-him, for come he-will-come not he-will-delay."
+        },
+        {
+          "n": 4,
+          "t": "behold has-been-swelled, not soul-of-him has-smoothed in-him ; and-just in-faithfulness-of-him he-will-live."
+        },
+        {
+          "n": 5,
+          "t": "and-even for the-wine treacherouslying, great proud and-not will-dwell ; who soul-of-him and-he has-made-enlarge like-hell like-the-death and-not will-satisfy, all-of the-nations, and-has-gathered toward-him and-has-gathered toward-him all-of the-peoples."
+        },
+        {
+          "n": 6,
+          "t": "is-it-not these all-of-them on-him proverb they-will-lift, and-mockery riddles to/for-him ; and-will-say woe the-making-multiply not to/for-him, until how, and-honor on-him debt."
+        },
+        {
+          "n": 7,
+          "t": "is-it-not suddenness they-will-rise biting-of-you, and-they-will-awake trembled-of-you ; and-you-have-been to/for-plunders to/for-them."
+        },
+        {
+          "n": 8,
+          "t": "for you have-looted nations many, will-loot-you all-of remainder-of peoples ; from-bloods-of man and-violence-of land, town and-all-of dwelling-of in-her."
+        },
+        {
+          "n": 9,
+          "t": "woe offing unjust-gain bad to/for-house-of-him ; to/for-put in-the-height nest-of-him, to/for-be-rescue from-palm-of evil."
+        },
+        {
+          "n": 10,
+          "t": "you-have-advised shame to/for-house-of-you ; cut peoples many and-sining soul-of-you."
+        },
+        {
+          "n": 11,
+          "t": "for stone from-wall will-out ; and-rafter from-tree will-answer-her."
+        },
+        {
+          "n": 12,
+          "t": "woe building city in-bloods ; and-he-has-established town in-injustice."
+        },
+        {
+          "n": 13,
+          "t": "is-it-not behold, with YHWH hostses ; peoples and-will-weary in-sufficiency-of fire, and-peoples in-sufficiency-of vain will-fly."
+        },
+        {
+          "n": 14,
+          "t": "for the-land will-be-filled, to/for-know glory-of YHWH ; like-the-waters they-will-cover on sea."
+        },
+        {
+          "n": 15,
+          "t": "woe making-water-of neighbor-of-him, attaching bottle-of-you and-even drunk ; sake make-look on nakednesses-of-them."
+        },
+        {
+          "n": 16,
+          "t": "have-satisfied dishonor from-glory, drink also you and-be-uncircumciseded ; cup-of right-of YHWH, will-turn on-you and-disgrace on glory-of-you."
+        },
+        {
+          "n": 17,
+          "t": "for violence-of Lebanon will-cover-you, and-violence-of animals will-make-dismayed-them-f ; from-bloods-of man and-violence-of land, town and-all-of dwelling-of in-her."
+        },
+        {
+          "n": 18,
+          "t": "what idol has-made-gain for has-hewed-him intention-of-him, liquid and-show deception ; for has-trusted forming intention-of-him on-him, to/for-do idols mute."
+        },
+        {
+          "n": 19,
+          "t": "woe saying to/for-the-tree make-awake-heh, rouse to/for-stone-of silence ; he will-make-show, behold he captured gold and-silver, and-all-of spirit naught in-entrails-of-him."
+        },
+        {
+          "n": 20,
+          "t": "and-YHWH in-temple-of holiness-of-him ; silence from-faces-of-him all-of the-land."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "prayer to/for-Habakkuk the-prophet ; on Shiggaion."
+        },
+        {
+          "n": 2,
+          "t": "YHWH I-have-heard report-of-you I-have-feared YHWH work-of-you in-entrails-of years live-him, in-entrails-of years let-make-know ; in-turmoil compassion let-remember."
+        },
+        {
+          "n": 3,
+          "t": "god from-Teman will-come, and-holy from-mountain-of Paran selah ; has-covered heavens splendor-of-him, and-praise-of-him has-filled the-land."
+        },
+        {
+          "n": 4,
+          "t": "and-brightness like-the-light will-be, horns from-hand-of-him to/for-him ; and-there hiding-of strength-of-him."
+        },
+        {
+          "n": 5,
+          "t": "to/for-faces-of-him pestilence will-walk ; flash and-will-exit to/for-foots-of-him."
+        },
+        {
+          "n": 6,
+          "t": "has-stood land and-has-shaked has-seen and-has-made-start nations, and-have-scattered mountains-of perpetuity, have-bowed Gibat-of age ; walks-of age to/for-him."
+        },
+        {
+          "n": 7,
+          "t": "under evil, I-have-seen tents-of Cushan ; they-will-tremble, curtains-of land-of Midian."
+        },
+        {
+          "n": 8,
+          "t": "is-it-in-rivers YHWH has-kindled, if in-the-rivers nose-of-you, if in-the-sea fury-of-you ; for you-will-ride on horses-of-you, chariots-of-you salvation."
+        },
+        {
+          "n": 9,
+          "t": "nakedness will-be-exposeded bow-of-you, oaths tribes word selah ; rivers you-will-break land."
+        },
+        {
+          "n": 10,
+          "t": "have-seen-you mountains will-twist, storm-of waters has-passed ; abyss has-given voice-of-him, hight-of hands-of-him has-lifted."
+        },
+        {
+          "n": 11,
+          "t": "elevation-ward ; has-stood sun moon to/for-light-of arrows-of-you they-will-go, to/for-brightness-of lightning-of spear-of-you."
+        },
+        {
+          "n": 12,
+          "t": "in-indignation you-will-march land ; in-nose you-will-tread nations."
+        },
+        {
+          "n": 13,
+          "t": "you-have-exited to/for-salvation-of people-of-you, to/for-salvation with anointed-of-you ; you-have-wounded head from-house-of wicked, uncover foundation until neck selah."
+        },
+        {
+          "n": 14,
+          "t": "you-have-pierced in-tribes-of-him head-of warrior-of-him warriors-of-him, they-will-rage to/for-make-scatter-of-me ; exultation-of-them, like to/for-eat afflicted in-the-hiding."
+        },
+        {
+          "n": 15,
+          "t": "you-have-treaded in-the-sea horses-of-you ; heap-of waters many."
+        },
+        {
+          "n": 16,
+          "t": "I-have-heard belly-of-me and-has-trembled to/for-voice they-have-tingled lipses-of-me, rottenness will-come in-bones-of-me and-under-me I-will-tremble ; who I-will-rest to/for-day-of distress, to/for-ascend to/for-people he-will-raid-us."
+        },
+        {
+          "n": 17,
+          "t": "for fig not will-sprout and-naught crops in-the-vines, has-deceived deed-of olives, and-fields not has-done food ; flock, has-cut from-fold and-naught cattle in-the-stalls."
+        },
+        {
+          "n": 18,
+          "t": "and-I in-YHWH let-me-exult ; let-me-rejoice in-god-of salvation-of-me."
+        },
+        {
+          "n": 19,
+          "t": "YHWH lords-of-me helech-of-me, and-has-put foots-of-me like-the-does, and-on highs-of-me will-make-tread-me ; to/for-the-conducting in-musics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "id": "cantique",
+  "title": "Cantique des cantiques",
+  "original_title": "Cantique des cantiques",
+  "short": "Ct",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "song-of the-songs who to/for-Solomon."
+        },
+        {
+          "n": 2,
+          "t": "he-will-kiss-me from-kisses-of lip-of-him, for good beloveds-of-you from-wine."
+        },
+        {
+          "n": 3,
+          "t": "to/for-aroma oils-of-you good, oil she-will-be-made-empty name-of-you ; on thus maidens have-loved-you."
+        },
+        {
+          "n": 4,
+          "t": "draw-me after-you let-us-run ; the-king has-made-come-me chambers-of-him let-us-rejoice and-let-us-rejoice in-you-f, let-us-make-remember beloveds-of-you from-wine, uprightnesses have-loved-you."
+        },
+        {
+          "n": 5,
+          "t": "I black and-lovely, daughters-of Jerusalem ; like-tents-of Kedar, like-curtains-of Solomon."
+        },
+        {
+          "n": 6,
+          "t": "do-not let-see-me that-I blackish, the-sun that-has-seen-me ; sons-of mother-of-me have-been-scorched in-me have-put-me keeping the-vineyards, vineyard-of-me that-to/for-me not I-have-kept."
+        },
+        {
+          "n": 7,
+          "t": "make-announce-heh to/for-me soul-of-me that-has-loved, how you-will-pasture, how you-will-make-lie in-the-middays ; that-to/for-what I-will-be like-enwraping, on flocks-of companions-of-you."
+        },
+        {
+          "n": 8,
+          "t": "if not you-f-will-know to/for-you-f, the-beautiful in-the-womans ; exit to/for-you-f in-heels-of the-flock and-pasture kids-of-you-f, on tabernacles-of the-pasturing."
+        },
+        {
+          "n": 9,
+          "t": "to/for-mare-of-me in-chariots-of Pharaoh, I-have-resembled-you-f darling-of-me."
+        },
+        {
+          "n": 10,
+          "t": "they-have-lovelied Lehi-of-you-f in-the-plaits, neck-of-you-f in-the-strings."
+        },
+        {
+          "n": 11,
+          "t": "plaits-of gold we-will-do to/for-you-f, with beads-of the-silver."
+        },
+        {
+          "n": 12,
+          "t": "until that-the-king in-surrounds-of-him, nard-of-me has-given aroma-of-him."
+        },
+        {
+          "n": 13,
+          "t": "bundle-of the-myrrh beloved-of-me to/for-me, between breasts-of-me will-lodge."
+        },
+        {
+          "n": 14,
+          "t": "cluster-of the-henna beloved-of-me to/for-me, in-vineyards-of Veeyn Engedi."
+        },
+        {
+          "n": 15,
+          "t": "lo-you-f beautiful darling-of-me, lo-you-f beautiful eyes-of-you-f doves."
+        },
+        {
+          "n": 16,
+          "t": "lo-you beautiful beloved-of-me even pleasant, even bed-of-us luxuriant."
+        },
+        {
+          "n": 17,
+          "t": "beams-of houses-of-us cedars, rafter-of-us cypresses."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "I crocus-of the-Lasharon, lily-of the-valleys."
+        },
+        {
+          "n": 2,
+          "t": "like-lily between the-thistles, thus darling-of-me between the-daughters."
+        },
+        {
+          "n": 3,
+          "t": "like-apple in-trees-of the-wood, thus beloved-of-me between the-sons ; in-shadow-of-him I-have-desired and-I-have-dwelt, and-fruit-of-him sweet to/for-palate-of-me."
+        },
+        {
+          "n": 4,
+          "t": "house-of the-wine, has-made-come-me toward and-standard-of-him on-me love."
+        },
+        {
+          "n": 5,
+          "t": "support-me in-the-raisins, spread-me in-the-apples ; for weaking-of love I."
+        },
+        {
+          "n": 6,
+          "t": "left-of-him under to/for-head-of-me, and-right-of-him will-embrace-me."
+        },
+        {
+          "n": 7,
+          "t": "I-have-made-swear you-pl daughters-of Jerusalem in-gazelles, or in-does-of the-field ; if you-pl-will-make-rouse and-if you-pl-will-rouse the-love until that-she-will-delight."
+        },
+        {
+          "n": 8,
+          "t": "voice-of beloved-of-me, behold this coming ; leaping on the-mountains, gathering on the-Gibat."
+        },
+        {
+          "n": 9,
+          "t": "resembling beloved-of-me to/for-gazelle, or to/for-fawn-of the-deers ; behold this standing after wall-of-us, making-gaze from the-windows, making-gaze from the-lattices."
+        },
+        {
+          "n": 10,
+          "t": "beloved-of-me has-answered and-has-said to/for-me ; rise to/for-you-f darling-of-me beautiful-of-me and-walk to/for-you-f."
+        },
+        {
+          "n": 11,
+          "t": "for behold the-winter has-passed ; the-rain, has-passed has-gone to/for-him."
+        },
+        {
+          "n": 12,
+          "t": "the-flowers have-been-seen in-the-land, time-of the-branch has-made-touch ; and-voice-of the-turtledove has-been-heard in-land-of-us."
+        },
+        {
+          "n": 13,
+          "t": "the-fig has-spiced figs-of-her, and-the-vines blossom have-given aroma ; rise walk to/for-you-f darling-of-me beautiful-of-me and-walk to/for-you-f."
+        },
+        {
+          "n": 14,
+          "t": "dove-of-me in-clefts-of the-Rock in-secrecy-of the-steep, make-see-me sights-of-you-f, make-hear-me voice-of-you-f ; for voice-of-you-f sweet and-sight-of-you-f lovely."
+        },
+        {
+          "n": 15,
+          "t": "grasp to/for-us foxes, foxes small destroying vineyards ; and-vineyards-of-us blossom."
+        },
+        {
+          "n": 16,
+          "t": "beloved-of-me to/for-me and-I to/for-him, the-pasturing in-the-lilies."
+        },
+        {
+          "n": 17,
+          "t": "until the-day that-will-breathe, and-have-fled the-shadows ; turn resemble to/for-you beloved-of-me to/for-gazelle or to/for-fawn-of the-deers on mountains-of clefts."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "on bed-of-me in-the-nights, I-have-sought, soul-of-me that-has-loved ; I-have-sought-him and-not I-have-found-him."
+        },
+        {
+          "n": 2,
+          "t": "let-me-rise please and-let-me-turn in-the-city in-the-streets and-in-the-squares, let-me-seek, soul-of-me that-has-loved ; I-have-sought-him and-not I-have-found-him."
+        },
+        {
+          "n": 3,
+          "t": "they-have-found-me the-keeping, the-turning in-the-city ; soul-of-me that-has-loved you-pl-have-seen."
+        },
+        {
+          "n": 4,
+          "t": "like-little that-I-have-passed from-them, until that-I-have-found, soul-of-me that-has-loved ; I-have-grasped-him and-not I-will-make-slacken-him, until that-I-have-made-come-him toward house-of mother-of-me, and-toward chamber-of conceiving-of-me."
+        },
+        {
+          "n": 5,
+          "t": "I-have-made-swear you-pl daughters-of Jerusalem in-gazelles, or in-does-of the-field ; if you-pl-will-make-rouse and-if you-pl-will-rouse the-love until that-she-will-delight."
+        },
+        {
+          "n": 6,
+          "t": "who this-f ascending from the-wilderness, like-columns-of smoke ; offered-of myrrh and-frankincense, from-all-of powder-of trading."
+        },
+        {
+          "n": 7,
+          "t": "behold bed-of-him that-to/for-Solomon, sixty mighty around to/for-her ; from-mighty-of Israel."
+        },
+        {
+          "n": 8,
+          "t": "all-of-them grasped-of sword, learned-of battle ; man sword-of-him on thigh-of-him, from-dread in-the-nights."
+        },
+        {
+          "n": 9,
+          "t": "carriage has-done to/for-him the-king Solomon, from-trees-of the-Lebanon."
+        },
+        {
+          "n": 10,
+          "t": "silver, has-done pillars-of-him, back-of-him gold, chariot-of-him purple ; midst-of-him fited love, from-daughters-of Jerusalem."
+        },
+        {
+          "n": 11,
+          "t": "exit and-see daughters-of Zion in-the-king Solomon ; in-the-crown mother-of-him that-has-crowned to/for-him in-day-of marriage-of-him, and-in-day-of joy-of heart-of-him."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "lo-you-f beautiful darling-of-me lo-you-f beautiful, eyes-of-you-f doves, about to/for-veil-of-you-f ; hair-of-you-f like-flock-of the-goats, that-they-have-downed from-mountain-of Gilead."
+        },
+        {
+          "n": 2,
+          "t": "tooths-of-you-f like-flock-of the-sheared, that-they-have-ascended from the-washing ; that-all-of-them doubles, and-childless naught in-them."
+        },
+        {
+          "n": 3,
+          "t": "like-thread-of the-scarlet lipses-of-you-f, and-mouth-of-you-f lovely ; like-millstone-of the-pomegranate temple-of-you-f, about to/for-veil-of-you-f."
+        },
+        {
+          "n": 4,
+          "t": "like-tower-of David neck-of-you-f, built to/for-weapons ; thousand the-shield hung on-him, all-of shields-of the-mighty."
+        },
+        {
+          "n": 5,
+          "t": "two-of breasts-of-you-f like-two-of fawns twins-of gazelle ; the-pasturing in-the-lilies."
+        },
+        {
+          "n": 6,
+          "t": "until the-day that-will-breathe, and-have-fled the-shadows ; I-will-walk to/for-me toward mountain-of the-myrrh, and-toward Gibat-of the-frankincense."
+        },
+        {
+          "n": 7,
+          "t": "all-of-you-f beautiful darling-of-me, and-blemish naught in-you-f."
+        },
+        {
+          "n": 8,
+          "t": "with-me from-Lebanon daughter-in-law, with-me from-Lebanon let-come ; you-f-will-see from-head-of Amana from-head-of Senir and-Hermon, from-habitations-of lions, from-mountains-of leopards."
+        },
+        {
+          "n": 9,
+          "t": "you-f-have-encouraged-me sister-of-me daughter-in-law ; you-f-have-encouraged-me in-one from-eyes-of-you-f, in-one-of necklace from-necklaces-of-you-f."
+        },
+        {
+          "n": 10,
+          "t": "what beloveds-of-you-f have-beautifuled sister-of-me daughter-in-law ; what beloveds-of-you-f have-pleasinged from-wine, and-aroma-of oils-of-you-f from-all-of spices."
+        },
+        {
+          "n": 11,
+          "t": "lipses-of-you-f will-drip honey, daughter-in-law ; honey and-milk under tongue-of-you-f, and-aroma-of garments-of-you-f like-aroma-of Lebanon."
+        },
+        {
+          "n": 12,
+          "t": "garden locked sister-of-me daughter-in-law ; heap locked spring sealed."
+        },
+        {
+          "n": 13,
+          "t": "missiles-of-you-f park-of pomegranates, with fruit-of excellences ; hennas with nards."
+        },
+        {
+          "n": 14,
+          "t": "nard and-saffron branch and-cinnamon, with all-of trees-of frankincense ; myrrh and-aloes, with all-of heads-of spices."
+        },
+        {
+          "n": 15,
+          "t": "spring-of gardens, well-of waters living ; and-flowing from Lebanon."
+        },
+        {
+          "n": 16,
+          "t": "rouse north and-come south, make-breathe spices-of-him ; let-flow garden-of-me beloved-of-me let-come to/for-garden-of-him, and-let-eat fruit-of excellences-of-him."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "I-have-come to/for-garden-of-me sister-of-me daughter-in-law I-have-plucked myrrh-of-me with spice-of-me, I-have-eaten honeycomb-of-me with honey-of-me, I-have-drunk wine-of-me with milk-of-me ; eat neighbors, drink and-drunk beloveds."
+        },
+        {
+          "n": 2,
+          "t": "I sleeping and-heart-of-me rousing ; voice-of beloved-of-me beating open to/for-me sister-of-me darling-of-me dove-of-me complete-of-me, that-head-of-me filled dew, locks-of-me drops-of night."
+        },
+        {
+          "n": 3,
+          "t": "I-have-striped tunic-of-me, how I-will-clothe-her ; I-have-washed foots-of-me how I-will-soil-them."
+        },
+        {
+          "n": 4,
+          "t": "beloved-of-me has-sended hand-of-him from the-hole, and-bellies-of-me have-roared on-him."
+        },
+        {
+          "n": 5,
+          "t": "I have-risen to/for-open to/for-beloved-of-me ; and-hands-of-me have-driped myrrh and-fingers-of-me myrrh passing, on palms-of the-bolt."
+        },
+        {
+          "n": 6,
+          "t": "I have-opened to/for-beloved-of-me, and-beloved-of-me has-awayed has-passed ; soul-of-me has-exited in-speak-of-him, I-have-sought-him and-not I-have-found-him, I-have-called-him and-not has-answered-me."
+        },
+        {
+          "n": 7,
+          "t": "they-have-found-me the-keeping the-turning in-the-city they-have-made-smite-me they-have-wounded-me ; have-lifted veil-of-me on-me, keeping-of the-walls."
+        },
+        {
+          "n": 8,
+          "t": "I-have-made-swear you-pl daughters-of Jerusalem ; if you-pl-will-find beloved-of-me, what you-pl-will-make-announce to/for-him, that-weaking-of love I."
+        },
+        {
+          "n": 9,
+          "t": "what beloved-of-you-f from-beloved, the-beautiful in-the-womans ; what beloved-of-you-f from-beloved, that-thus you-f-have-made-swear-us."
+        },
+        {
+          "n": 10,
+          "t": "beloved-of-me dazzling and-red, looked from-myriad."
+        },
+        {
+          "n": 11,
+          "t": "head-of-him gold-of pure ; locks-of-him locks, black like-the-raven."
+        },
+        {
+          "n": 12,
+          "t": "eyes-of-him, like-doves on channels-of waters ; washing in-the-milk, dwelling on setting."
+        },
+        {
+          "n": 13,
+          "t": "Lehi-of-him like-bed-of the-spice, towers-of spices ; lipses-of-him lilies, driping myrrh passing."
+        },
+        {
+          "n": 14,
+          "t": "hands-of-him circuits-of gold, filled in-the-jasper ; bellies-of-him plate-of tooth, enwraped sapphires."
+        },
+        {
+          "n": 15,
+          "t": "legs-of-him pillars-of alabaster, founded on sockets-of pure ; sight-of-him like-the-Lebanon, chosen like-the-cedars."
+        },
+        {
+          "n": 16,
+          "t": "palate-of-him sweetnesses, and-all-of-him desires ; this beloved-of-me and-this neighbor-of-me, daughters-of Jerusalem."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "where beloved-of-you-f the-beautiful has-gone, in-the-womans ; where beloved-of-you-f has-turned, and-we-will-seek-him with-you-f."
+        },
+        {
+          "n": 2,
+          "t": "beloved-of-me has-gone to/for-garden-of-him, to/for-beds-of the-spice ; to/for-pasture in-the-gardens, and-to/for-gather lilies."
+        },
+        {
+          "n": 3,
+          "t": "I to/for-beloved-of-me and-beloved-of-me to/for-me, the-pasturing in-the-lilies."
+        },
+        {
+          "n": 4,
+          "t": "you beautiful darling-of-me like-Tirzah, lovely like-Jerusalem ; terrible like-the-set."
+        },
+        {
+          "n": 5,
+          "t": "make-turn eyes-of-you-f before-me, they-them they-have-made-assertive-me ; hair-of-you-f like-flock-of the-goats, that-they-have-downed from the-Gilead."
+        },
+        {
+          "n": 6,
+          "t": "tooths-of-you-f like-flock-of the-ewes, that-they-have-ascended from the-washing ; that-all-of-them doubles, and-childless naught in-them."
+        },
+        {
+          "n": 7,
+          "t": "like-millstone-of the-pomegranate temple-of-you-f, about to/for-veil-of-you-f."
+        },
+        {
+          "n": 8,
+          "t": "sixty they queens, and-eighty concubines ; and-maidens naught number."
+        },
+        {
+          "n": 9,
+          "t": "one he dove-of-me complete-of-me, one he to/for-mother-of-her, pure he to/for-begeting-of-her ; daughters have-seen-her and-they-have-blessed-her, queens and-concubines and-they-have-boasted-her."
+        },
+        {
+          "n": 10,
+          "t": "who this-f the-looked like dawn ; beautiful like-the-moon pure like-the-heat, terrible like-the-set."
+        },
+        {
+          "n": 11,
+          "t": "toward garden-of nut I-have-gone, to/for-see in-greeneries-of the-torrent ; to/for-see the-vine the-has-sprouted, have-made-bud the-pomegranates."
+        },
+        {
+          "n": 12,
+          "t": "not I-have-known, soul-of-me has-put-me, chariots-of people-of-me noble."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "return return the-Shulammites, return return and-we-will-see in-you-f ; what you-pl-will-see in-the-Shulammites, like-dance-of the-camps."
+        },
+        {
+          "n": 2,
+          "t": "what they-have-beautifuled strokes-of-you-f in-the-sandals daughter-of noble ; curves-of thighs-of-you-f, like ornaments, deed-of hands-of artisan."
+        },
+        {
+          "n": 3,
+          "t": "navel-of-you-f vessel-of the-roundness, do-not let-lack the-mixture ; belly-of-you-f heap-of wheats, fenced in-the-lilies."
+        },
+        {
+          "n": 4,
+          "t": "two-of breasts-of-you-f like-two-of fawns twins-of gazelle."
+        },
+        {
+          "n": 5,
+          "t": "neck-of-you-f like-tower-of the-tooth ; eyes-of-you-f pools in-Heshbon on gate-of Bat Rabiym, nose-of-you-f like-tower-of the-Lebanon, watching faces-of Damascus."
+        },
+        {
+          "n": 6,
+          "t": "head-of-you-f on-you-f like-the-Carmel, and-hair-of head-of-you-f like-the-purple ; king binded in-the-locks."
+        },
+        {
+          "n": 7,
+          "t": "what you-f-have-beautifuled and-what you-f-have-pleasanted, love in-the-luxuries."
+        },
+        {
+          "n": 8,
+          "t": "this-f height-of-you-f has-resembled to/for-palm, and-breasts-of-you-f to/for-clusters."
+        },
+        {
+          "n": 9,
+          "t": "I-have-said let-me-ascend in-palm, let-me-grasp in-fruit-stalks-of-him ; and-let-them-be please breasts-of-you-f like-clusters-of the-vine, and-aroma-of nose-of-you-f like-the-apples."
+        },
+        {
+          "n": 10,
+          "t": "and-palate-of-you-f, like-wine-of the-good going to/for-beloved-of-me to/for-uprightnesses ; gliding lipses-of sleep."
+        },
+        {
+          "n": 11,
+          "t": "I to/for-beloved-of-me, and-on-me longing-of-him."
+        },
+        {
+          "n": 12,
+          "t": "walk-heh beloved-of-me let-us-exit the-field, let-us-lodge in-the-chephars."
+        },
+        {
+          "n": 13,
+          "t": "let-us-make-rise to/for-the-vineyards, let-us-see if the-vine has-sprouted has-opened the-blossom, have-made-bud the-pomegranates ; there I-will-give beloveds-of-me to/for-you-f."
+        },
+        {
+          "n": 14,
+          "t": "the-mandrakes have-given aroma and-on entrances-of-us all-of excellences, new also Haychana ; beloved-of-me I-have-treasured to/for-you-f."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "who he-will-give-you like-brother to/for-me, suckling breasts-of mother-of-me ; I-will-find-you in-the-outside I-will-kiss-you, also not they-will-despise to/for-me."
+        },
+        {
+          "n": 2,
+          "t": "I-will-lead-you I-will-make-come-you toward house-of mother-of-me she-will-learn-me ; I-will-make-water-you from-wine the-spice, from-sweet-of pomegranate-of-me."
+        },
+        {
+          "n": 3,
+          "t": "left-of-him under head-of-me, and-right-of-him will-embrace-me."
+        },
+        {
+          "n": 4,
+          "t": "I-have-made-swear you-pl daughters-of Jerusalem ; what you-pl-will-make-rouse and-what you-pl-will-rouse the-love until that-she-will-delight."
+        },
+        {
+          "n": 5,
+          "t": "who this-f ascending from the-wilderness, self-leaning on beloved-of-her ; under the-apple I-have-roused-you, there-ward mother-of-you has-laboured-you, there-ward has-laboured has-begotten-you."
+        },
+        {
+          "n": 6,
+          "t": "put-me like-the-signet on heart-of-you like-the-signet on arm-of-you, for strong like-the-death love, severe like-hell jealousy ; flashes-of-her, flashes-of, fire flame LORD."
+        },
+        {
+          "n": 7,
+          "t": "waters many not will-able to/for-quench the-love, and-rivers not will-overflow-her ; if man will-give all-of substance-of house-of-him in-the-love, despise they-will-despise to/for-him."
+        },
+        {
+          "n": 8,
+          "t": "sister to/for-us small, and-breasts naught to/for-her ; what we-will-do to/for-sister-of-us, in-the-day that-he-will-speak in-her."
+        },
+        {
+          "n": 9,
+          "t": "if wall he, we-will-build on-her encampment-of silver ; and-if door he, we-will-confine on-her tablet-of cedar."
+        },
+        {
+          "n": 10,
+          "t": "I wall, and-breasts-of-me like-the-towers ; then I-have-been in-eyes-of-him like-making-find peace."
+        },
+        {
+          "n": 11,
+          "t": "vineyard has-been to/for-Solomon in-Baal-hamon Hamon, has-given the-vineyard to/for-the-keeping ; man will-make-come in-fruit-of-him thousand silver."
+        },
+        {
+          "n": 12,
+          "t": "vineyard-of-me that-to/for-me to/for-faces-of-me ; the-thousand to/for-you Solomon, and-hundred to/for-keeping fruit-of-him."
+        },
+        {
+          "n": 13,
+          "t": "the-dwelling in-the-gardens companions making-heed to/for-voice-of-you-f make-hear-me."
+        },
+        {
+          "n": 14,
+          "t": "flee beloved-of-me and-resemble to/for-you to/for-gazelle or to/for-fawn-of the-deers, on mountains-of spices."
+        }
+      ]
+    }
+  ]
+}

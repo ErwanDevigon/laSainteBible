@@ -1,0 +1,740 @@
+{
+  "id": "esther",
+  "title": "Livre d'Esther",
+  "original_title": "Esther",
+  "short": "Est",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-he-has-been in-days-of Ahasuerus ; he Ahasuerus the-reigning from-India and-until Cush, seven and-twenty and-hundred province."
+        },
+        {
+          "n": 2,
+          "t": "in-the-days the-they ; like-dwell the-king Ahasuerus on throne-of kingdom-of-him, who in-Susa the-palace."
+        },
+        {
+          "n": 3,
+          "t": "in-year-of three to/for-reign-of-him, feast has-done, to/for-all-of officials-of-him and-servants-of-him ; helech-of Persia and-Media the-nobles and-officials-of the-provinces to/for-faces-of-him."
+        },
+        {
+          "n": 4,
+          "t": "in-make-see-of-him riches-of glory-of kingdom-of-him, and-preciousness-of, beauty-of greatness-of-him ; days many, eighty and-hundred-of day."
+        },
+        {
+          "n": 5,
+          "t": "and-in-fill the-days the-these the-king has-done to/for-all-of the-people the-found in-Susa the-palace to/for-great and-until small feast seven-of days ; in-court-of, garden-of palace-of the-king."
+        },
+        {
+          "n": 6,
+          "t": "white fine and-blue grasped in-mahalabs-of fine and-purple, on circuits-of silver and-pillars-of alabaster ; beds-of gold and-silver on pavement-of porphyry and-alabaster and-mother-of-pearl and-stone."
+        },
+        {
+          "n": 7,
+          "t": "and-make-water in-articles-of gold, and-articles from-articles changing ; and-wine-of kingdom many like-hand-of the-king."
+        },
+        {
+          "n": 8,
+          "t": "and-the-drinking like-the-law naught compeling ; for thus the-king has-founded on all-of chief-of house-of-him, to/for-do like-acceptance-of man and-man."
+        },
+        {
+          "n": 9,
+          "t": "also Vashti the-queen, has-done feast-of womans ; house-of the-kingdom, who to/for-the-king Ahasuerus."
+        },
+        {
+          "n": 10,
+          "t": "in-the-day the-seventh, like-good heart-of the-king in-the-wine ; Biztha Harbona Bigtha and-Abagtha Zethar and-Carkas, has-said to/for-Mehuman seven-of the-eunuches, the-ministering, with faces-of the-king Ahasuerus."
+        },
+        {
+          "n": 11,
+          "t": "to/for-make-come Vashti the-queen to/for-faces-of the-king in-crown-of kingdom ; to/for-make-see the-peoples and-the-officials beauty-of-her, for good-of sight he."
+        },
+        {
+          "n": 12,
+          "t": "the-queen and-has-refused Vashti to/for-come in-word-of the-king, who in-hand-of the-eunuches ; the-king and-has-angried very, and-rage-of-him has-burned in-him."
+        },
+        {
+          "n": 13,
+          "t": "the-king to/for-the-wise knowing-of and-has-said, the-times ; for thus word-of the-king, to/for-faces-of, all-of knowing-of law and-judgment."
+        },
+        {
+          "n": 14,
+          "t": "and-the-near toward-him Carshena Shethar Admatha Tarshish, Meres Marsena Memucan ; seven-of officials-of Persia and-Media seeing-of faces-of the-king, the-dwelling first in-the-kingdom."
+        },
+        {
+          "n": 15,
+          "t": "like-law what to/for-do, in-the-queen Vashti ; on who not she-has-done command-of the-king Ahasuerus, in-hand-of the-eunuches."
+        },
+        {
+          "n": 16,
+          "t": "Memucan and-has-said to/for-faces-of the-king and-the-officials, not on the-king to/for-alone-of-him, has-twisted Vashti the-queen ; for on all-of the-officials and-on all-of the-peoples, who, in-all-of provinces-of the-king Ahasuerus."
+        },
+        {
+          "n": 17,
+          "t": "for word-of the-queen will-exit on all-of the-womans, to/for-make-despise masters-of-them-f in-eyes-of-them-f ; in-say-of-them the-king Ahasuerus has-said to/for-make-come Vashti the-queen to/for-faces-of-him and-not has-come."
+        },
+        {
+          "n": 18,
+          "t": "and-the-day the-this princesses-of Persia will-say and-Media who have-heard word-of the-queen, to/for-all-of officials-of the-king ; and-like-sufficiency-of contempt and-wrath."
+        },
+        {
+          "n": 19,
+          "t": "if on the-king pleasing let-exit word-of kingdom from-faces-of-him, and-will-be-written in-laws-of Persia and-Media and-not will-pass ; who not Vashti will-come to/for-faces-of the-king Ahasuerus, and-kingdom-of-her will-give the-king, to/for-neighbor-of-her the-good from-her."
+        },
+        {
+          "n": 20,
+          "t": "edict-of the-king and-has-been-heard who will-do in-all-of kingdom-of-him, for many he ; and-all-of the-womans they-will-give preciousness to/for-masters-of-them-f, to/for-great and-until small."
+        },
+        {
+          "n": 21,
+          "t": "the-word and-has-improved, in-eyes-of the-king and-the-officials ; the-king and-has-done like-word-of Memucan."
+        },
+        {
+          "n": 22,
+          "t": "and-has-sended books toward all-of provinces-of the-king, toward province and-province like-writing-of-her, and-toward people and-people like-tongue-of-him ; to/for-be all-of man ruling in-house-of-him, and-speaking like-tongue-of people-of-him."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "after the-words the-these, like-subside, rage-of the-king Ahasuerus ; he-has-remembered Vashti and-who she-has-done, and-who he-has-been-cut on-her."
+        },
+        {
+          "n": 2,
+          "t": "youths-of the-king ministering-of-him and-have-said ; let-them-seek to/for-the-king maidens virgins good-of sight."
+        },
+        {
+          "n": 3,
+          "t": "the-king and-let-make-reckon overseers in-all-of provinces-of kingdom-of-him and-let-gather all-of maiden virgin good-of sight toward Susa the-palace toward house-of the-womans, toward hand-of Hegai eunuch-of the-king keeping-of the-womans ; and-give cosmetics-of-them-f."
+        },
+        {
+          "n": 4,
+          "t": "and-the-maiden who will-improve in-eyes-of the-king, let-reign under Vashti ; the-word and-has-improved in-eyes-of the-king and-has-done thus."
+        },
+        {
+          "n": 5,
+          "t": "man Jew, has-been in-Susa the-palace ; and-name-of-him Mordecai son-of Jair son-of Shimei son-of Kish Benjaminite Benjaminite."
+        },
+        {
+          "n": 6,
+          "t": "who has-been-made-heglam from-Jerusalem, with the-captivity who has-been-made-heglam, with Jeconiah king-of Judah ; who Nebuchadnezzar has-made-heglam, king-of Babylon."
+        },
+        {
+          "n": 7,
+          "t": "and-has-been faithfuling Hadassah he Esther daughter-of beloved-of-him, for naught to/for-her father and-mother ; and-the-maiden beautiful-of appearance and-good-of sight, and-in-death-of Mordecai has-taken-her father-of-her and-mother-of-her, to/for-him to/for-daughter."
+        },
+        {
+          "n": 8,
+          "t": "and-has-been in-be-hear word-of the-king and-law-of-him, and-in-be-gather maidens many toward Susa the-palace toward hand-of Hegai ; Esther and-has-been-taken toward house-of the-king, toward hand-of Hegai keeping-of the-womans."
+        },
+        {
+          "n": 9,
+          "t": "the-maiden and-has-improved in-eyes-of-him and-has-lifted kindness to/for-faces-of-him and-has-dismayed cosmetics-of-her and-portions-of-her to/for-give to/for-her, and-seven the-maidens, the-seen to/for-give to/for-her from-house-of the-king ; and-has-changed-her and-maidens-of-her to/for-good-of house-of the-womans."
+        },
+        {
+          "n": 10,
+          "t": "not Esther has-made-announce, people-of-her and-relatives-of-her ; for Mordecai has-commanded on-her who not she-will-make-announce."
+        },
+        {
+          "n": 11,
+          "t": "and-in-all-of day and-day, Mordecai self-going, to/for-faces-of court-of house-of the-womans ; to/for-know peace-of Esther, and-what he-will-be-done in-her."
+        },
+        {
+          "n": 12,
+          "t": "and-in-make-touch plait-of maiden and-maiden to/for-come toward the-king Ahasuerus from-end-of be to/for-her like-law-of the-womans two ten month, for thus days-of rubbings-of-them-f will-fill ; six months in-oil-of the-myrrh, and-six months in-the-spices, and-in-cosmetics-of the-womans."
+        },
+        {
+          "n": 13,
+          "t": "and-in-this, the-maiden coming toward the-king ; all who she-will-say will-be-given to/for-her to/for-come with-her, from-house-of the-womans until house-of the-king."
+        },
+        {
+          "n": 14,
+          "t": "in-the-evening he coming and-in-the-morning he returning toward house-of the-womans second, toward hand-of Shaashgaz eunuch-of the-king keeping-of the-concubines ; not she-will-come still toward the-king, that if has-delighted in-her the-king and-she-has-been-called in-name."
+        },
+        {
+          "n": 15,
+          "t": "and-in-make-touch plait-of Esther daughter-of Abihail beloved-of Mordecai who has-taken to/for-him to/for-daughter to/for-come toward the-king not has-sought word, for if who will-say Hegai eunuch-of the-king keeping-of the-womans ; Esther lifting-of and-has-been favor, in-eyes-of all-of seeing-of-her."
+        },
+        {
+          "n": 16,
+          "t": "Esther and-has-been-taken toward the-king Ahasuerus toward house-of kingdom-of-him, in-the-month the-tenth he month-of Tebeth ; in-year-of seven to/for-kingdom-of-him."
+        },
+        {
+          "n": 17,
+          "t": "the-king and-has-loved Esther from-all-of the-womans, and-she-has-lifted favor and-kindness to/for-faces-of-him from-all-of the-virgins ; crown-of kingdom and-has-put in-head-of-her, and-has-made-reign-her under Vashti."
+        },
+        {
+          "n": 18,
+          "t": "the-king feast great and-has-done to/for-all-of officials-of-him and-servants-of-him, feast-of Esther ; and-holiday to/for-the-provinces he-has-done, and-he-has-given tribute like-hand-of the-king."
+        },
+        {
+          "n": 19,
+          "t": "and-in-be-gather virgins second ; and-Mordecai dwelling in-gate-of the-king."
+        },
+        {
+          "n": 20,
+          "t": "naught Esther making-announce relatives-of-her and-people-of-her, like-when has-commanded on-her Mordecai ; and-command-of Mordecai Esther doing, like-when she-has-been in-brought with-him."
+        },
+        {
+          "n": 21,
+          "t": "in-the-days the-they, and-Mordecai dwelling in-gate-of the-king ; Bigthan and-Teresh has-angried two-of eunuches-of the-king from-keeping-of the-threshold, and-have-sought to/for-send hand, in-the-king Ahasuerus."
+        },
+        {
+          "n": 22,
+          "t": "the-word and-has-been-known to/for-Mordecai, and-has-made-announce to/for-Esther the-queen ; Esther and-has-said to/for-the-king in-name-of Mordecai."
+        },
+        {
+          "n": 23,
+          "t": "the-word and-has-been-sought and-has-been-found, and-they-have-been-hung two-of-them on tree ; and-he-has-been-written in-book-of words-of the-days to/for-faces-of the-king."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "after the-words the-these the-king Ahasuerus has-magnified Haman son-of Hammedatha the-Agagite and-has-lifted-him ; and-has-put throne-of-him, on, all-of the-officials who with-him."
+        },
+        {
+          "n": 2,
+          "t": "and-all-of servants-of the-king who in-gate-of the-king bowing and-bowed to/for-Haman, for thus has-commanded to/for-him the-king ; and-Mordecai, not will-bow and-not will-bow."
+        },
+        {
+          "n": 3,
+          "t": "servants-of the-king and-have-said who in-gate-of the-king to/for-Mordecai ; why you passing, commandment-of the-king."
+        },
+        {
+          "n": 4,
+          "t": "and-has-been in-say-of-them like-say-of-them toward-him day and-day, and-not has-heard toward-them ; and-have-made-announce to/for-Haman to/for-see words-of Mordecai is-it-will-stand, for has-made-announce to/for-them who he Jew."
+        },
+        {
+          "n": 5,
+          "t": "Haman and-has-seen, for naught Mordecai, bowing and-bowed to/for-him ; Haman and-has-been-filled rage."
+        },
+        {
+          "n": 6,
+          "t": "hand and-has-despised in-eyes-of-him to/for-send in-Mordecai to/for-alone-of-him, for they-have-made-announce to/for-him people-of Mordecai ; Haman and-has-sought to/for-make-destroy all-of the-Jew who in-all-of kingdom-of Ahasuerus people-of Mordecai."
+        },
+        {
+          "n": 7,
+          "t": "in-the-month the-first he month-of Nisan, in-year-of two ten, to/for-the-king Ahasuerus ; purim he the-allotted has-made-fall to/for-faces-of Haman from-day to/for-day and-from-month to/for-month two ten he month-of Adar."
+        },
+        {
+          "n": 8,
+          "t": "Haman and-has-said to/for-the-king Ahasuerus, there-him people one scattered and-separated between the-peoples, in-all-of provinces-of kingdom-of-you ; and-laws-of-them changing from-all-of people and-laws-of the-king naught-them doing, and-to/for-the-king naught liking to/for-make-rest-of-them."
+        },
+        {
+          "n": 9,
+          "t": "if on the-king pleasing, will-be-written to/for-perish-of-them ; and-ten-of thousand plain-of silver I-will-weigh on hands-of doing-of the-work, to/for-make-come toward treasuries-of the-king."
+        },
+        {
+          "n": 10,
+          "t": "the-king and-has-made-turn ring-of-him on hand-of-him ; son-of Hammedatha the-Agagite vexing-of and-has-given-her to/for-Haman the-Jew."
+        },
+        {
+          "n": 11,
+          "t": "the-king and-has-said to/for-Haman, the-silver given to/for-you-f ; and-the-people, to/for-do in-him like-the-good in-eyes-of-you."
+        },
+        {
+          "n": 12,
+          "t": "secretaries-of the-king and-have-been-called in-the-month the-first in-three ten day in-him and-has-been-written like-all who Haman has-commanded toward satraps-of the-king and-toward the-governors who on province and-province and-toward officials-of people and-people, province and-province like-writing-of-her, and-people and-people like-tongue-of-him ; in-name-of the-king Ahasuerus written, and-sealed in-ring-of the-king."
+        },
+        {
+          "n": 13,
+          "t": "and-be-send books in-hand-of the-runing toward all-of provinces-of the-king to/for-make-destroy to/for-kill and-to/for-perish all-of the-Jew from-youth and-until old child and-womans in-day one, in-three ten to/for-month two ten he month-of Adar ; and-spoil-of-them to/for-plunder."
+        },
+        {
+          "n": 14,
+          "t": "copy-of the-writing to/for-be-give law in-all-of province and-province, heglamed to/for-all-of the-peoples ; to/for-be ready to/for-the-day the-this."
+        },
+        {
+          "n": 15,
+          "t": "the-runing they-have-exited hastened in-word-of the-king, and-the-law has-been-given in-Susa the-palace ; and-the-king and-Haman they-have-dwelt to/for-drink, and-the-city Susa has-been-perplexed."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-Mordecai has-known all who has-been-done, Mordecai and-has-teared garments-of-him, and-has-clothed sack and-ash ; and-he-has-exited in-midst-of the-city, and-he-has-outed outcry great and-bitter."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-come, until to/for-faces-of gate-of the-king ; for naught to/for-come toward gate-of the-king in-clothing-of sack."
+        },
+        {
+          "n": 3,
+          "t": "and-in-all-of province and-province place-of who word-of the-king and-law-of-him making-touch, mourning great to/for-the-Jew, and-fast and-weeping and-mourning ; sack and-ash, will-be-made-lay to/for-the-many."
+        },
+        {
+          "n": 4,
+          "t": "maidens-of Esther and-have-come and-eunuches-of-her and-have-made-announce to/for-her, the-queen and-has-twisted very ; and-she-has-sended garments to/for-make-clothe Mordecai and-to/for-make-turn sack-of-him on-him and-not has-received."
+        },
+        {
+          "n": 5,
+          "t": "Esther and-has-called to/for-Hathach from-eunuches-of the-king who has-made-stand to/for-faces-of-her, and-she-has-commanded-him on Mordecai ; to/for-know what this and-on what this."
+        },
+        {
+          "n": 6,
+          "t": "Hathach and-has-exited toward Mordecai ; toward square-of the-city, who to/for-faces-of gate-of the-king."
+        },
+        {
+          "n": 7,
+          "t": "Mordecai, and-has-made-announce to/for-him all who has-met-him ; and-declaration-of the-silver who Haman has-said to/for-weigh on treasuries-of the-king in-the-Jew to/for-perish-of-them."
+        },
+        {
+          "n": 8,
+          "t": "and-copy-of writing-of the-law who he-has-been-given in-Susa to/for-make-destroy-of-them he-has-given to/for-him, to/for-make-see Esther and-to/for-make-announce to/for-her ; and-to/for-command on-her to/for-come toward the-king to/for-self-gracious to/for-him and-to/for-seek from-faces-of-him on people-of-her."
+        },
+        {
+          "n": 9,
+          "t": "Hathach and-has-come ; and-he-has-made-announce to/for-Esther, words-of Mordecai."
+        },
+        {
+          "n": 10,
+          "t": "Esther and-has-said to/for-Hathach, and-she-has-commanded-him toward Mordecai."
+        },
+        {
+          "n": 11,
+          "t": "all-of servants-of the-king and-people-of provinces-of the-king knowing who all-of man and-woman who will-come toward the-king toward the-court the-inner who not will-be-called one law-of-him to/for-make-die, to/for-alone from-whence the-king will-make-extend to/for-him scepter-of the-gold and-has-lived ; and-I not have-been-called to/for-come toward the-king, this thirty day."
+        },
+        {
+          "n": 12,
+          "t": "and-they-have-made-announce to/for-Mordecai, words-of Esther."
+        },
+        {
+          "n": 13,
+          "t": "Mordecai and-has-said to/for-make-return toward Esther ; do-not let-resemble in-soul-of-you-f, to/for-be-escape house-of the-king from-all-of the-Jew."
+        },
+        {
+          "n": 14,
+          "t": "that if make-quiet will-make-quiet in-the-time the-this-f space and-deliverance will-stand to/for-the-Jew from-place another, and-you and-house-of father-of-you-f you-pl-will-perish ; and-who knowing, if to/for-time like-this-f, you-f-have-made-touch to/for-the-kingdom."
+        },
+        {
+          "n": 15,
+          "t": "Esther and-has-said to/for-make-return toward Mordecai."
+        },
+        {
+          "n": 16,
+          "t": "walk gather all-of the-Jew the-found in-Susa and-fast on-me and-do-not let-eat and-do-not let-drink three-of days night and-day, also I and-maidens-of-me will-fast thus ; and-in-thus I-will-come toward the-king who not like-the-law, and-like-when I-have-perished I-have-perished."
+        },
+        {
+          "n": 17,
+          "t": "Mordecai and-has-passed ; and-has-done, like-all who she-has-commanded on-him Esther."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been in-the-day the-third Esther kingdom and-has-clothed, and-has-stood in-court-of house-of the-king the-inner, before house-of the-king ; and-the-king dwelling on throne-of kingdom-of-him in-house-of the-kingdom, before entrance-of the-house."
+        },
+        {
+          "n": 2,
+          "t": "and-has-been like-see the-king Esther the-queen standing in-the-court, has-lifted favor in-eyes-of-him ; the-king and-has-made-extend to/for-Esther scepter-of the-gold who in-hand-of-him, and-she-has-presented Esther, and-she-has-touched in-head-of the-scepter."
+        },
+        {
+          "n": 3,
+          "t": "the-king, and-has-said to/for-her what to/for-you-f Esther the-queen ; and-what request-of-you-f until half-of the-kingdom and-let-be-given to/for-you-f."
+        },
+        {
+          "n": 4,
+          "t": "Esther and-has-said, if on the-king pleasing ; the-king and-Haman the-day will-come, toward the-feast who I-have-done to/for-him."
+        },
+        {
+          "n": 5,
+          "t": "the-king and-has-said, hasten Haman, to/for-do word-of Esther ; the-king and-Haman and-has-come, toward the-feast who she-has-done Esther."
+        },
+        {
+          "n": 6,
+          "t": "the-king and-has-said to/for-Esther in-feast-of the-wine, what petition-of-you-f and-let-be-given to/for-you-f ; and-what request-of-you-f until half-of the-kingdom and-let-be-done."
+        },
+        {
+          "n": 7,
+          "t": "Esther and-has-answered and-she-has-said ; petition-of-me and-request-of-me."
+        },
+        {
+          "n": 8,
+          "t": "if I-have-found favor in-eyes-of the-king and-if on the-king pleasing, to/for-give petition-of-me, and-to/for-do request-of-me ; the-king and-Haman will-come toward the-feast who I-will-do to/for-them, and-tomorrow I-will-do like-word-of the-king."
+        },
+        {
+          "n": 9,
+          "t": "Haman and-has-exited in-the-day the-he, glad and-good-of heart ; and-like-see Haman Mordecai in-gate-of the-king and-not has-risen and-not has-trembled from-us, Haman and-has-been-filled on Mordecai rage."
+        },
+        {
+          "n": 10,
+          "t": "Haman and-has-self-refrained, and-has-come toward house-of-him ; and-he-has-sended and-he-has-made-come loving-of-him and-Zeresh woman-of-him."
+        },
+        {
+          "n": 11,
+          "t": "Haman and-has-recounted to/for-them glory-of riches-of-him and-abundance-of sons-of-him ; and-all-of who the-king has-magnified-him and-who has-lifted-him, on the-officials and-servants-of the-king."
+        },
+        {
+          "n": 12,
+          "t": "Haman and-has-said even not has-made-come Esther the-queen with the-king toward the-feast who has-done that if me ; and-also to/for-tomorrow I called to/for-her with the-king."
+        },
+        {
+          "n": 13,
+          "t": "and-all-of this, naught-him liking to/for-me ; in-all-of time who I seeing Mordecai the-Jew, dwelling in-gate-of the-king."
+        },
+        {
+          "n": 14,
+          "t": "and-has-said to/for-him Zeresh woman-of-him and-all-of loving-of-him let-them-do tree high fifty cubit and-in-the-morning say to/for-the-king and-let-them-hang Mordecai on-him, and-come with the-king toward the-feast glad ; the-word and-has-improved to/for-faces-of Haman and-has-done the-tree."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-the-night the-he, sleep-of the-king has-wandered ; and-he-has-said to/for-make-come book-of the-memorials words-of the-days, and-have-been called to/for-faces-of the-king."
+        },
+        {
+          "n": 2,
+          "t": "and-has-been-found written who Mordecai has-made-announce on Bigthan and-Teresh two-of eunuches-of the-king, from-keeping-of the-threshold ; who they-have-sought to/for-send hand, in-the-king Ahasuerus."
+        },
+        {
+          "n": 3,
+          "t": "the-king and-has-said, what has-been-done preciousness and-greatness to/for-Mordecai on this ; youths-of the-king ministering-of-him and-have-said, not has-been-done with-him word."
+        },
+        {
+          "n": 4,
+          "t": "the-king and-has-said who in-the-court ; and-Haman has-come to/for-court-of house-of the-king the-outer, to/for-say to/for-the-king, to/for-hang Mordecai, on the-tree who has-made-establish to/for-him."
+        },
+        {
+          "n": 5,
+          "t": "youths-of the-king and-have-said toward-him, behold Haman standing in-the-court ; the-king and-has-said will-come."
+        },
+        {
+          "n": 6,
+          "t": "Haman and-has-come and-has-said to/for-him the-king, what to/for-do, in-the-man, who the-king has-delighted in-preciousness-of-him ; Haman and-has-said in-heart-of-him, to/for-who will-delight the-king to/for-do preciousness advantage from-me."
+        },
+        {
+          "n": 7,
+          "t": "Haman and-has-said toward the-king ; man, who the-king has-delighted in-preciousness-of-him."
+        },
+        {
+          "n": 8,
+          "t": "they-will-make-come clothing-of kingdom, who has-clothed in-him the-king ; and-horse who has-rided on-him the-king, and-who has-been-given crown-of kingdom in-head-of-him."
+        },
+        {
+          "n": 9,
+          "t": "and-give the-clothing and-the-horse on hand-of man from-officials-of the-king the-nobles, and-have-made-clothe the-man, who the-king has-delighted in-preciousness-of-him ; and-they-have-made-ride-him on the-horse in-square-of the-city, and-they-have-called to/for-faces-of-him, thus will-be-done to/for-the-man, who the-king has-delighted in-preciousness-of-him."
+        },
+        {
+          "n": 10,
+          "t": "the-king and-has-said to/for-Haman hasten take the-clothing and-the-horse like-when you-have-spoken, and-do thus to/for-Mordecai the-Jew, the-dwelling in-gate-of the-king ; do-not let-make-fall word, from-all who you-have-spoken."
+        },
+        {
+          "n": 11,
+          "t": "Haman and-has-taken the-clothing and-the-horse, and-has-made-clothe Mordecai ; and-has-made-ride-him in-square-of the-city, and-has-called to/for-faces-of-him, thus will-be-done to/for-the-man, who the-king has-delighted in-preciousness-of-him."
+        },
+        {
+          "n": 12,
+          "t": "Mordecai and-has-returned toward gate-of the-king ; and-Haman has-been-hastened toward house-of-him, mourning and-covered-of head."
+        },
+        {
+          "n": 13,
+          "t": "Haman and-has-recounted to/for-Zeresh woman-of-him and-to/for-all-of loving-of-him, all-of who has-met-him ; and-they-have-said to/for-him wise-of-him and-Zeresh woman-of-him if from-seed-of the-Jew Mordecai who you-have-made-begin to/for-fall to/for-faces-of-him not you-will-able to/for-him, for fall you-will-fall to/for-faces-of-him."
+        },
+        {
+          "n": 14,
+          "t": "still-of-them speaking with-him, and-eunuches-of the-king have-made-touch ; and-they-have-made-dismay to/for-make-come Haman, toward the-feast who Esther has-done."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "the-king and-Haman and-has-come, to/for-drink with Esther the-queen."
+        },
+        {
+          "n": 2,
+          "t": "the-king and-has-said to/for-Esther also in-the-day the-second in-feast-of the-wine, what petition-of-you-f Esther the-queen and-will-be-given to/for-you-f ; and-what request-of-you-f until half-of the-kingdom and-let-be-done."
+        },
+        {
+          "n": 3,
+          "t": "Esther the-queen and-has-answered and-has-said, if I-have-found favor in-eyes-of-you the-king, and-if on the-king pleasing ; soul-of-me will-be-given to/for-me in-petition-of-me, and-people-of-me in-request-of-me."
+        },
+        {
+          "n": 4,
+          "t": "for we-have-been-sold I and-people-of-me, to/for-make-destroy to/for-kill and-to/for-perish ; and-except to/for-servants and-to/for-maidservants we-have-been-sold I-have-made-quiet, for naught the-enemy liking in-injury-of the-king."
+        },
+        {
+          "n": 5,
+          "t": "the-king Ahasuerus and-has-said, and-has-said to/for-Esther the-queen ; who he this and-where this he, who has-filled-him heart-of-him to/for-do thus."
+        },
+        {
+          "n": 6,
+          "t": "Esther and-has-said, man enemy and-enemying, Haman the-bad the-this ; and-Haman has-been-terrified, from-faces-of the-king and-the-queen."
+        },
+        {
+          "n": 7,
+          "t": "and-the-king has-risen in-rage-of-him from-feast-of the-wine, toward garden-of the-palace ; and-Haman has-stood to/for-seek on soul-of-him from-Esther the-queen, for has-seen, for the-evil has-finished toward-him with the-king."
+        },
+        {
+          "n": 8,
+          "t": "and-the-king has-returned from-garden-of the-palace toward house-of feast-of the-wine and-Haman falling, on the-bed who Esther on-her, and-has-said the-king, is-it-also to/for-subdue the-queen with-me in-the-house ; the-word has-exited from-lip-of the-king, and-faces-of Haman have-covered."
+        },
+        {
+          "n": 9,
+          "t": "Harbona and-has-said one from the-eunuches to/for-faces-of the-king also behold the-tree who has-done Haman to/for-Mordecai who has-spoken good on the-king standing in-house-of Haman, high fifty cubit ; the-king and-has-said hang-him on-him."
+        },
+        {
+          "n": 10,
+          "t": "and-they-have-hung Haman, on the-tree who has-made-establish to/for-Mordecai ; and-rage-of the-king has-subsided."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-the-day the-he has-given the-king Ahasuerus to/for-Esther the-queen, house-of Haman vexing-of the-Jew ; and-Mordecai has-come to/for-faces-of the-king, for Esther has-made-announce what he to/for-her."
+        },
+        {
+          "n": 2,
+          "t": "the-king and-has-made-turn ring-of-him who has-made-pass from-Haman, and-has-given-her to/for-Mordecai ; Esther and-has-put Mordecai on house-of Haman."
+        },
+        {
+          "n": 3,
+          "t": "Esther and-has-made-add and-she-has-spoken to/for-faces-of the-king, and-she-has-fallen to/for-faces-of foots-of-him ; and-she-has-weeped and-she-has-self-gracioused to/for-him to/for-make-pass evil-of Haman the-Agagite, and-plot-of-him, who has-devised on the-Jew."
+        },
+        {
+          "n": 4,
+          "t": "the-king and-has-made-extend to/for-Esther, scepter-of the-gold ; Esther and-has-risen, and-she-has-stood to/for-faces-of the-king."
+        },
+        {
+          "n": 5,
+          "t": "and-she-has-said if on the-king good and-if have-found favor to/for-faces-of-him and-has-succeeded the-word to/for-faces-of the-king, and-good I in-eyes-of-him ; let-be-written to/for-make-return the-books plot-of Haman son-of Hammedatha the-Agagite, who has-written to/for-perish the-Jew, who in-all-of provinces-of the-king."
+        },
+        {
+          "n": 6,
+          "t": "for how I-will-able and-I-have-seen, in-the-evil who he-will-find people-of-me ; and-how I-will-able and-I-have-seen, in-destruction-of relatives-of-me."
+        },
+        {
+          "n": 7,
+          "t": "the-king Ahasuerus and-has-said to/for-Esther the-queen, and-to/for-Mordecai the-Jew ; behold house-of Haman I-have-given to/for-Esther and-him they-have-hung on the-tree, on who has-sended hand-of-him in-the-Jew."
+        },
+        {
+          "n": 8,
+          "t": "and-you write on the-Jew like-the-good in-eyes-of-you-pl in-name-of the-king, and-seal in-ring-of the-king ; for writing who written in-name-of the-king and-be-seal in-ring-of the-king naught to/for-make-return."
+        },
+        {
+          "n": 9,
+          "t": "secretaries-of the-king and-have-been-called in-the-time the-he in-the-month the-third he month-of Sivan in-three and-twenty in-him and-has-been-written like-all-of who Mordecai has-commanded toward the-Jew and-toward the-satraps and-the-governors and-officials-of the-provinces who from-India and-until Cush seven and-twenty and-hundred province, province and-province like-writing-of-her, and-people and-people like-tongue-of-him ; and-toward the-Jew, like-write-of-them and-like-tongue-of-them."
+        },
+        {
+          "n": 10,
+          "t": "and-has-written in-name-of the-king Ahasuerus, and-has-sealed in-ring-of the-king ; and-has-sended books in-hand-of the-runing in-the-horses riding-of the-steed the-steed, sons-of the-mares."
+        },
+        {
+          "n": 11,
+          "t": "who the-king has-given to/for-the-Jew who in-all-of city and-city to/for-be-gather and-to/for-stand on soul-of-them to/for-make-destroy and-to/for-kill and-to/for-perish all-of helech-of people and-province the-provoking them child and-womans ; and-spoil-of-them to/for-plunder."
+        },
+        {
+          "n": 12,
+          "t": "in-day one, in-all-of provinces-of the-king Ahasuerus ; in-three ten to/for-month two ten he month-of Adar."
+        },
+        {
+          "n": 13,
+          "t": "copy-of the-writing to/for-be-give law in-all-of province and-province, heglamed to/for-all-of the-peoples ; and-to/for-be the-Jew ready to/for-the-day the-this, to/for-be-avenge from-enemying-of-them."
+        },
+        {
+          "n": 14,
+          "t": "the-runing riding-of the-steed the-steed, they-have-exited dismayed and-hastened in-word-of the-king ; and-the-law has-been-given in-Susa the-palace."
+        },
+        {
+          "n": 15,
+          "t": "and-Mordecai has-exited from-faces-of the-king in-clothing-of kingdom-of blue and-white, and-crown-of gold great, and-robe-of fine and-purple ; and-the-city Susa, has-cried and-has-rejoiced."
+        },
+        {
+          "n": 16,
+          "t": "to/for-the-Jew, light and-joy has-been ; and-rejoicing and-preciousness."
+        },
+        {
+          "n": 17,
+          "t": "and-in-all-of province and-province and-in-all-of city and-city place-of who word-of the-king and-law-of-him making-touch, joy and-rejoicing to/for-the-Jew, feast and-day good ; and-many from-peoples-of the-land self-jewing, for dread-of the-Jew has-fallen on-them."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-in-two ten month he month-of Adar in-three ten day in-him, who has-made-touch word-of the-king and-law-of-him to/for-be-do ; in-the-day who have-awaited enemying-of the-Jew to/for-domineer in-them, and-be-overturn he, who will-domineer the-Jew they in-hating-of-them."
+        },
+        {
+          "n": 2,
+          "t": "the-Jew have-been-gathered in-cities-of-them in-all-of provinces-of the-king Ahasuerus, to/for-send hand, in-seeking-of evil-of-them ; and-man not has-stood to/for-faces-of-them, for dread-of-them has-fallen on all-of the-peoples."
+        },
+        {
+          "n": 3,
+          "t": "and-all-of officials-of the-provinces and-the-satraps and-the-governors and-doing-of the-work who to/for-the-king, lifting the-Jew ; for dread-of Mordecai has-fallen on-them."
+        },
+        {
+          "n": 4,
+          "t": "for great Mordecai in-house-of the-king, and-report-of-him going in-all-of the-provinces ; for the-man Mordecai going and-great."
+        },
+        {
+          "n": 5,
+          "t": "the-Jew and-have-made-smite in-all-of enemying-of-them, wound-of sword and-slaughter and-destruction ; and-they-have-done in-hating-of-them like-acceptance-of-them."
+        },
+        {
+          "n": 6,
+          "t": "and-in-Susa the-Jew have-killed the-palace and-perish, five hundred man."
+        },
+        {
+          "n": 7,
+          "t": "and-Parshandatha and-Dalphon and-Aspatha."
+        },
+        {
+          "n": 8,
+          "t": "and-Poratha and-Adalia and-Aridatha."
+        },
+        {
+          "n": 9,
+          "t": "and-Parmashta and-Arisai, and-Aridai and-Vaizatha."
+        },
+        {
+          "n": 10,
+          "t": "ten-of sons-of Haman son-of Hammedatha vexing-of the-Jew have-killed ; and-in-the-plunder, not they-have-sended hand-of-them."
+        },
+        {
+          "n": 11,
+          "t": "in-the-day the-he has-come number-of the-killed in-Susa the-palace to/for-faces-of the-king."
+        },
+        {
+          "n": 12,
+          "t": "the-king and-has-said to/for-Esther the-queen in-Susa the-palace have-killed the-Jew and-perish five hundred man and-ten-of sons-of Haman, in-remnant-of provinces-of the-king what have-done ; and-what petition-of-you-f and-he-will-be-given to/for-you-f, and-what request-of-you-f still and-let-be-done."
+        },
+        {
+          "n": 13,
+          "t": "Esther and-has-said if on the-king good, let-be-given also tomorrow to/for-the-Jew who in-Susa, to/for-do like-law-of the-day ; and-ten-of sons-of Haman let-them-hang on the-tree."
+        },
+        {
+          "n": 14,
+          "t": "the-king and-has-said to/for-be-do thus, and-has-been-given law in-Susa ; and-ten-of sons-of Haman they-have-hung."
+        },
+        {
+          "n": 15,
+          "t": "the-Jew and-have-been-gathered who in-Susa also in-day-of four ten to/for-month-of Adar, and-have-killed in-Susa, three hundred man ; and-in-the-plunder, not they-have-sended hand-of-them."
+        },
+        {
+          "n": 16,
+          "t": "and-remnant-of the-Jew who in-provinces-of the-king they-have-been-gathered and-stand on soul-of-them and-rest from-enemying-of-them, and-kill in-hating-of-them, five and-seventy thousand ; and-in-the-plunder, not they-have-sended hand-of-them."
+        },
+        {
+          "n": 17,
+          "t": "in-day-of three ten to/for-month-of Adar ; and-rest in-four ten in-him, and-do him, day-of feast and-joy."
+        },
+        {
+          "n": 18,
+          "t": "and-the-Jew who in-Susa have-been-gathered in-three ten in-him, and-in-four ten in-him ; and-rest in-five ten in-him, and-do him, day-of feast and-joy."
+        },
+        {
+          "n": 19,
+          "t": "on thus the-Jew the-villagers the-dwelling in-cities-of the-villages doing day-of four ten to/for-month-of Adar, joy and-feast and-day good ; and-sending-of portions man to/for-neighbor-of-him."
+        },
+        {
+          "n": 20,
+          "t": "Mordecai and-has-written, the-words the-these ; and-has-sended books toward all-of the-Jew who in-all-of provinces-of the-king Ahasuerus, the-near and-the-far."
+        },
+        {
+          "n": 21,
+          "t": "to/for-rise on-them to/for-be doing day-of four ten to/for-month-of Adar, and-day-of five ten in-him ; in-all-of year and-year."
+        },
+        {
+          "n": 22,
+          "t": "like-the-days who the-Jew from-enemying-of-them, have-rested in-them and-the-month who has-been-overturned to/for-them from-sorrow to/for-joy, and-from-mourning to/for-day good ; to/for-do them days-of feast and-joy, and-sending-of portions man to/for-neighbor-of-him, and-gifts to/for-the-needy."
+        },
+        {
+          "n": 23,
+          "t": "and-he-has-received the-Jew, who have-made-begin to/for-do ; and-who Mordecai has-written toward-them."
+        },
+        {
+          "n": 24,
+          "t": "for Haman son-of Hammedatha the-Agagite vexing-of all-of the-Jew, has-devised on the-Jew to/for-perish-of-them ; purim he the-allotted and-has-made-fall, to/for-confuse-of-them and-to/for-perish-of-them."
+        },
+        {
+          "n": 25,
+          "t": "and-in-come-of-her to/for-faces-of the-king the-book, has-said with will-return plot-of-him the-bad who has-devised on the-Jew on head-of-him ; and-they-have-hung him and-sons-of-him on the-tree."
+        },
+        {
+          "n": 26,
+          "t": "on thus they-have-called to/for-the-days the-these purim on name-of the-purim, on thus, on all-of words-of the-letter the-this-f ; and-what they-have-seen on thus, and-what he-has-made-touch toward-them."
+        },
+        {
+          "n": 27,
+          "t": "have-risen the-Jew and-has-received and-have-received on-them and-on seed-of-them and-on all-of the-joined on-them and-not will-pass, to/for-be doing two-of the-days the-these, like-writing-of-them and-like-time-of-them ; in-all-of year and-year."
+        },
+        {
+          "n": 28,
+          "t": "and-the-days the-these remembered and-done in-all-of generation and-generation family and-family, province and-province and-city and-city ; and-days-of the-purim the-these not will-pass from-midst-of the-Jew, and-memorial-of-them not will-cease from-seed-of-them."
+        },
+        {
+          "n": 29,
+          "t": "Esther the-queen and-has-written daughter-of Abihail and-Mordecai the-Jew with all-of power ; to/for-rise letter-of the-purim the-this-f the-second."
+        },
+        {
+          "n": 30,
+          "t": "and-has-sended books toward all-of the-Jew toward seven and-twenty and-hundred province, kingdom-of Ahasuerus ; words-of peace and-truth."
+        },
+        {
+          "n": 31,
+          "t": "to/for-rise days-of the-purim the-these in-times-of-them like-when Mordecai the-Jew and-Esther has-risen on-them the-queen, and-like-when they-have-risen on soul-of-them and-on seed-of-them ; words-of the-fasts and-outcry-of-them."
+        },
+        {
+          "n": 32,
+          "t": "and-command-of Esther, has-risen, words-of the-purim the-these ; and-written in-the-book."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "the-king Ahasuerus taskworker and-has-put on the-land and-coastlands-of the-sea."
+        },
+        {
+          "n": 2,
+          "t": "and-all-of deed-of power-of-him and-might-of-him, and-declaration-of greatness-of Mordecai, who has-magnified-him the-king ; is-it-not they written on book-of words-of the-days, to/for-kings-of Media and-Persia."
+        },
+        {
+          "n": 3,
+          "t": "for Mordecai the-Jew second to/for-the-king Ahasuerus, and-great to/for-the-Jew, and-accepted to/for-abundance-of brothers-of-him ; seeking good to/for-people-of-him, and-speaking peace to/for-all-of seed-of-him."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3490 @@
+{
+  "id": "2-chroniques",
+  "title": "Second livre des Chroniques",
+  "original_title": "2 Chroniques",
+  "short": "2 Ch",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Solomon and-has-self-strengthened son-of David on kingdom-of-him ; and-YHWH god-of-him with-him, and-has-magnified-him to/for-above-ward."
+        },
+        {
+          "n": 2,
+          "t": "Solomon and-has-said to/for-all-of Israel to/for-officials-of the-thousand and-the-hundred and-to/for-the-judging and-to/for-all-of leader to/for-all-of Israel heads-of the-fathers."
+        },
+        {
+          "n": 3,
+          "t": "and-they-have-walked Solomon and-all-of the-assembly with-him, to/for-the-high who in-Gibeon ; for there tent-of meeting-of the-god has-been, who has-done Moses servant-of YHWH in-the-wilderness."
+        },
+        {
+          "n": 4,
+          "t": "truly ark-of the-god has-made-ascend David from-Veqiryat Yeariym, in-the-has-made-establish to/for-him David ; for tent has-stretched to/for-him in-Jerusalem."
+        },
+        {
+          "n": 5,
+          "t": "and-altar-of the-bronze who has-done Bezalel son-of Uri son-of Hur, has-put, to/for-faces-of tabernacle-of YHWH ; Solomon and-the-assembly and-has-sought-him."
+        },
+        {
+          "n": 6,
+          "t": "Solomon and-has-made-ascend there on altar-of the-bronze to/for-faces-of YHWH, who to/for-tent-of meeting ; and-he-has-made-ascend on-him burnts thousand."
+        },
+        {
+          "n": 7,
+          "t": "in-the-night the-he, has-been-seen god to/for-Solomon ; and-he-has-said to/for-him, ask what I-will-give to/for-you-f."
+        },
+        {
+          "n": 8,
+          "t": "Solomon and-has-said to/for-god, you have-done with David father-of-me kindness great ; and-you-have-made-reign-me under-him."
+        },
+        {
+          "n": 9,
+          "t": "now word-of-you, let-be-faithfuled YHWH god, with David father-of-me ; for you have-made-reign-me, on people, many like-dust-of the-land."
+        },
+        {
+          "n": 10,
+          "t": "now wisdom and-knowledge give to/for-me, and-let-me-exit to/for-faces-of the-people the-this and-let-me-come ; for who he-will-judge, people-of-you the-this the-great."
+        },
+        {
+          "n": 11,
+          "t": "god and-has-said to/for-Solomon because who has-been this-f with heart-of-you and-not you-have-asked riches wealths and-glory and-soul-of hating-of-you, and-also days many not you-have-asked ; and-you-have-asked to/for-you wisdom and-knowledge, who you-will-judge people-of-me, who I-have-made-reign-you on-him."
+        },
+        {
+          "n": 12,
+          "t": "the-wisdom and-the-knowledge given to/for-you-f ; and-riches and-wealths and-glory I-will-give to/for-you-f, who not has-been thus to/for-the-kings who to/for-faces-of-you, and-after-you not will-be thus."
+        },
+        {
+          "n": 13,
+          "t": "Solomon and-has-come to/for-the-high who in-Gibeon Jerusalem, from-faces-of tent-of meeting ; Israel and-has-reigned on."
+        },
+        {
+          "n": 14,
+          "t": "Solomon chariot and-has-gathered and-horsemans and-has-been to/for-him thousand and-four hundred chariot, and-two ten thousand horsemans ; and-has-made-rest-them in-cities-of the-chariot, and-with the-king in-Jerusalem."
+        },
+        {
+          "n": 15,
+          "t": "the-king and-has-given the-silver and-the-gold in-Jerusalem like-the-stones ; and-the-cedars he-has-given like-the-sycamores who in-the-shephelah to/for-abundance."
+        },
+        {
+          "n": 16,
+          "t": "and-outgoing-of the-horses who to/for-Solomon from-Egypt ; and-from-Kue, trading-of the-king, from-Kue they-will-take in-price."
+        },
+        {
+          "n": 17,
+          "t": "and-they-have-made-ascend and-they-have-made-exit from-Egypt chariot in-six hundred silver, and-horse in-fifty and-hundred ; and-thus to/for-all-of kings-of the-Hittite and-kings-of Aram in-hand-of-them will-make-exit."
+        },
+        {
+          "n": 18,
+          "t": "Solomon and-has-said to/for-build house to/for-name-of YHWH, and-house to/for-kingdom-of-him."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Solomon and-has-recounted seventy thousand man burden, and-eighty thousand man hewing in-the-mountain ; and-conducting on-them, three-of thousand and-six hundred."
+        },
+        {
+          "n": 2,
+          "t": "Solomon and-has-sended, toward Hiram king-of Tyre to/for-say ; like-when you-have-done with David father-of-me, and-you-have-sended to/for-him cedars, to/for-build to/for-him house to/for-dwell in-him."
+        },
+        {
+          "n": 3,
+          "t": "behold I building house to/for-name-of YHWH god-of-me to/for-make-consecrate to/for-him to/for-make-offer to/for-faces-of-him incense-of spices and-row-of continually and-burnts to/for-the-morning and-to/for-the-evening, to/for-the-sabbaths and-to/for-the-months, and-to/for-meetings-of YHWH god-of-us ; to/for-age this-f on Israel."
+        },
+        {
+          "n": 4,
+          "t": "and-the-house who I building great ; for great god-of-us from-all-of the-god."
+        },
+        {
+          "n": 5,
+          "t": "and-who strength will-restrain to/for-build to/for-him house, for the-heavens and-heavens-of the-heavens not will-sustain-him ; and-who I who will-build to/for-him house, that if to/for-make-offer to/for-faces-of-him."
+        },
+        {
+          "n": 6,
+          "t": "and-now send to/for-me man wise to/for-do in-the-gold and-in-the-silver and-in-the-bronze and-in-the-iron and-in-the-purple and-crimson and-blue, and-knowing to/for-engrave engravings ; with the-wise who with-me in-Judah and-in-Jerusalem, who David has-made-establish father-of-me."
+        },
+        {
+          "n": 7,
+          "t": "and-send to/for-me trees-of cedars cypresses and-algums from-the-Lebanon for I have-known, who servants-of-you knowing, to/for-cut trees-of Lebanon ; and-behold servants-of-me with servants-of-you."
+        },
+        {
+          "n": 8,
+          "t": "and-to/for-make-establish to/for-me trees to/for-abundance ; for the-house who I building great and-make-wonder."
+        },
+        {
+          "n": 9,
+          "t": "and-behold to/for-the-choping to/for-cuting-of the-trees I-have-given wheats wounds to/for-servants-of-you kors twenty thousand, and-barleys, kors twenty thousand ; and-wine baths twenty thousand, and-oil, baths twenty thousand."
+        },
+        {
+          "n": 10,
+          "t": "Hiram and-has-said king-of Tyre in-writing, and-has-sended toward Solomon ; in-love-of YHWH people-of-him, king has-given-you on-them."
+        },
+        {
+          "n": 11,
+          "t": "Hiram blessed YHWH and-has-said god-of Israel, who has-done, the-heavens and-the-land ; who the-king son wise knowing understanding has-given to/for-David and-understanding, who will-build house to/for-YHWH, and-house to/for-kingdom-of-him."
+        },
+        {
+          "n": 12,
+          "t": "and-now I-have-sended man wise knowing understanding to/for-Hiram father."
+        },
+        {
+          "n": 13,
+          "t": "son-of woman from daughters-of Dan and-father-of-him man Tyrian knowing to/for-do in-the-gold and-in-the-silver in-the-bronze in-the-iron in-the-stones and-in-the-trees in-the-purple in-the-blue and-in-the-fine and-in-the-crimson, and-to/for-engrave all-of engraving, and-to/for-devise all-of plot ; who will-be-given to/for-him with wise-of-you, and-wise-of, lord-of-me David father-of-you."
+        },
+        {
+          "n": 14,
+          "t": "and-now the-wheats and-the-barleys the-oil and-the-wine who has-said lord-of-me, let-send to/for-servants-of-him."
+        },
+        {
+          "n": 15,
+          "t": "and-we will-cut trees from the-Lebanon like-all-of need-of-you, and-will-make-come-them to/for-you rafts on sea Joppa ; and-you will-make-ascend them Jerusalem."
+        },
+        {
+          "n": 16,
+          "t": "Solomon and-has-recounted all-of the-mans the-sojourners who in-land-of Israel, after the-numbering, who has-recounted-them David father-of-him ; and-they-have-been-found hundred and-fifty thousand, and-three-of thousand and-six hundred."
+        },
+        {
+          "n": 17,
+          "t": "and-has-done from-them seventy thousand burden, and-eighty thousand hewing in-the-mountain ; and-three-of thousand and-six hundred, conducting to/for-make-serve the-people."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Solomon and-has-made-begin to/for-build house-of YHWH in-Jerusalem, in-mountain-of the-Hamoriya, who has-been-seen to/for-David father-of-him ; who has-made-establish in-place-of David, in-threshing-of Ornan the-Jebusite."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-made-begin to/for-build in-the-month the-second in-the-second, in-year-of four to/for-kingdom-of-him."
+        },
+        {
+          "n": 3,
+          "t": "and-these Solomon has-been-made-found, to/for-build house-of the-god ; the-length cubits in-the-measure the-first cubits sixty, and-width cubits twenty."
+        },
+        {
+          "n": 4,
+          "t": "and-the-hall who on faces-of the-length on faces-of width-of the-house cubits twenty, and-the-height hundred and-twenty ; gold pure and-has-overlayed-him from-within."
+        },
+        {
+          "n": 5,
+          "t": "and-the-house the-great tree-of cypresses has-covered, and-has-covered-him gold good ; and-he-has-made-ascend on-him palms and-chains."
+        },
+        {
+          "n": 6,
+          "t": "and-he-has-overlayed the-house stone precious to/for-beauty ; and-the-gold gold-of Parvaim."
+        },
+        {
+          "n": 7,
+          "t": "and-has-covered the-house the-beams the-thresholds and-walls-of-him and-doors-of-him gold ; and-he-has-engraved cherubs on the-walls."
+        },
+        {
+          "n": 8,
+          "t": "and-has-done house-of holiness-of the-holinesses, length-of-him on faces-of width-of the-house cubits twenty, and-width-of-him cubits twenty ; gold good and-has-covered-him, to/for-plains six hundred."
+        },
+        {
+          "n": 9,
+          "t": "and-weight to/for-nails to/for-shekels fifty gold ; gold has-covered and-the-uppers."
+        },
+        {
+          "n": 10,
+          "t": "and-has-done in-house-of holiness-of the-holinesses cherubs two, deed-of images ; and-they-have-overlayed them gold."
+        },
+        {
+          "n": 11,
+          "t": "and-wings-of the-cherubs, length-of-them cubits twenty ; wing-of the-one to/for-cubits five making-touch to/for-wall-of the-house, and-the-wing the-another cubits five, making-touch, to/for-wing-of the-cherub the-another."
+        },
+        {
+          "n": 12,
+          "t": "and-wing-of the-cherub the-one cubits five, making-touch to/for-wall-of the-house ; and-the-wing the-another cubits five, cleaving, to/for-wing-of the-cherub the-another."
+        },
+        {
+          "n": 13,
+          "t": "wings-of the-cherubs the-these, spreading cubits twenty ; and-they standing on foots-of-them and-faces-of-them to/for-the-house."
+        },
+        {
+          "n": 14,
+          "t": "and-has-done the-curtain, blue and-purple and-crimson and-fine ; and-he-has-made-ascend on-him cherubs."
+        },
+        {
+          "n": 15,
+          "t": "and-has-done to/for-faces-of the-house pillars two, cubits, thirty and-five length ; and-the-capital who on head-of-him cubits five."
+        },
+        {
+          "n": 16,
+          "t": "and-has-done chains in-the-sanctuary, head-of the-pillars ; and-has-given on and-he-has-done pomegranates hundred, and-he-has-given in-the-chains."
+        },
+        {
+          "n": 17,
+          "t": "and-he-has-made-rise the-pillars on faces-of the-temple, one from-right and-one from-the-left ; name-of the-right Jachin and-has-called, and-name-of the-left Boaz."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "altar-of bronze and-has-done, twenty cubit length-of-him, and-twenty cubit width-of-him ; and-ten cubits height-of-him."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-done the-sea been-made-pour ; ten in-the-cubit from-lips-of-him toward lips-of-him round around and-five in-the-cubit height-of-him, and-line thirty in-the-cubit, will-turn him around."
+        },
+        {
+          "n": 3,
+          "t": "and-likeness-of cattles under to/for-him around around turning him, ten in-the-cubit, making-surround the-sea around ; two rows the-cattle, poured in-casting-of-him."
+        },
+        {
+          "n": 4,
+          "t": "standing on two ten cattle three turning north-ward and-three turning sea-ward and-three turning negeb-ward and-three turning east-ward, and-the-sea on-them from-above-ward ; and-all-of backs-of-them house-ward."
+        },
+        {
+          "n": 5,
+          "t": "and-thickness-of-him handbreadth, and-lips-of-him like-deed-of lips-of cup, flower-of lily ; making-strengthen baths, three-of thousand he-will-make-sustain."
+        },
+        {
+          "n": 6,
+          "t": "and-he-has-done basins ten and-he-has-given five from-right and-five from-left to/for-wash in-them, deed-of the-burnt will-make-wash in-them ; and-the-sea, to/for-wash to/for-the-priests in-him."
+        },
+        {
+          "n": 7,
+          "t": "and-he-has-done lampstands-of the-gold ten like-justice-of-them ; and-he-has-given in-the-temple, five from-right and-five from-left."
+        },
+        {
+          "n": 8,
+          "t": "and-he-has-done tables ten and-he-has-made-rest in-the-temple, five from-right and-five from-left ; and-he-has-done bowls-of gold hundred."
+        },
+        {
+          "n": 9,
+          "t": "court-of the-priests and-has-done, and-the-enclosure the-great ; and-doors to/for-the-enclosure and-doors-of-them he-has-overlayed bronze."
+        },
+        {
+          "n": 10,
+          "t": "and-the-sea has-given from-shoulder-of the-right east-ward opposite negeb-ward."
+        },
+        {
+          "n": 11,
+          "t": "Hiram and-has-done, the-pots, and-the-shovels and-the-bowls ; Hiram and-has-finished to/for-do the-work, who has-done to/for-the-king Solomon in-house-of the-god."
+        },
+        {
+          "n": 12,
+          "t": "pillars two, and-the-bowls and-the-capitals on head-of the-pillars two ; and-the-latticeworks two, to/for-cover two-of bowls-of the-capitals, who on head-of the-pillars."
+        },
+        {
+          "n": 13,
+          "t": "and-the-pomegranates four hundred to/for-two-of the-latticeworks ; two rows pomegranates to/for-the-latticework the-one, to/for-cover two-of bowls-of the-capitals, who on faces-of the-pillars."
+        },
+        {
+          "n": 14,
+          "t": "and-the-bases he-has-done ; and-the-basins he-has-done on the-bases."
+        },
+        {
+          "n": 15,
+          "t": "the-sea one ; and-the-cattle two ten under-him."
+        },
+        {
+          "n": 16,
+          "t": "Hiram has-done and-the-pots and-the-shovels and-the-forks and-all-of articles-of-them,, father to/for-the-king Solomon to/for-house-of YHWH ; bronze polished."
+        },
+        {
+          "n": 17,
+          "t": "in-plain-of the-Jordan the-king has-poured-them, in-cloud-of the-ground ; between Succoth and-between Zeredah-ward."
+        },
+        {
+          "n": 18,
+          "t": "Solomon and-has-done all-of the-articles the-these to/for-abundance very ; for not weight-of the-bronze has-been-searched."
+        },
+        {
+          "n": 19,
+          "t": "Solomon and-has-done, all-of the-articles, who house-of the-god ; and-altar-of the-gold, and-the-tables, and-on-them food-of the-faces."
+        },
+        {
+          "n": 20,
+          "t": "and-the-lampstands and-lamps-of-them to/for-burn-of-them like-the-justice to/for-faces-of the-sanctuary gold shut."
+        },
+        {
+          "n": 21,
+          "t": "and-the-flower and-the-lamps and-the-tongs gold ; he perfections-of gold."
+        },
+        {
+          "n": 22,
+          "t": "and-the-snuffers and-the-bowls and-the-palms and-the-censers gold shut ; and-entrance-of the-house doors-of-him the-inner to/for-holiness-of the-holinesses and-doors-of the-house to/for-the-temple gold."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-she-has-completed all-of the-work, who has-done Solomon to/for-house-of YHWH ; Solomon and-has-made-come holinesses-of David father-of-him and-the-silver and-the-gold and-all-of the-articles, has-given, in-treasures-of house-of the-god."
+        },
+        {
+          "n": 2,
+          "t": "then Solomon will-make-gather old-of Israel and-all-of heads-of the-tribes leaders-of the-fathers to/for-sons-of Israel toward Jerusalem ; to/for-make-ascend ark-of covenant-of YHWH from-city-of David he Zion."
+        },
+        {
+          "n": 3,
+          "t": "and-they-have-been-gathered toward the-king all-of man-of Israel in-the-feast ; he the-month the-seventh."
+        },
+        {
+          "n": 4,
+          "t": "and-they-have-come, all-of old-of Israel ; the-Levi and-have-lifted the-ark."
+        },
+        {
+          "n": 5,
+          "t": "and-they-have-made-ascend the-ark and-tent-of meeting, and-all-of articles-of the-holiness who in-the-tent ; have-made-ascend them, the-priests the-Levi."
+        },
+        {
+          "n": 6,
+          "t": "and-the-king Solomon and-all-of congregation-of Israel the-appointed on-him to/for-faces-of the-ark ; sacrificing flock and-cattle, who not they-will-be-recounted and-not they-will-be-counted from-abundance."
+        },
+        {
+          "n": 7,
+          "t": "the-priests and-have-made-come ark-of covenant-of YHWH toward place-of-him toward sanctuary-of the-house toward holiness-of the-holinesses ; toward under wings-of the-cherubs."
+        },
+        {
+          "n": 8,
+          "t": "the-cherubs spreading and-have-been wings, on place-of the-ark ; the-cherubs and-have-covered on the-ark and-on alones-of-him from-above-ward."
+        },
+        {
+          "n": 9,
+          "t": "the-alones and-have-made-prolong and-have-been-seen heads-of the-alones from the-ark on faces-of the-sanctuary, and-not will-be-seen the-outside-ward ; the-day and-has-been there, until the-this."
+        },
+        {
+          "n": 10,
+          "t": "naught in-the-ark, except two-of the-tablets, who Moses has-given in-Horeb ; who YHWH has-cut with sons-of Israel, in-exit-of-them from-Egypt."
+        },
+        {
+          "n": 11,
+          "t": "and-has-been, in-exit the-priests from the-holiness ; for all-of the-priests the-found they-have-self-consecrated, naught to/for-keep to/for-divisions."
+        },
+        {
+          "n": 12,
+          "t": "and-the-Levi the-singing to/for-all-of-them to/for-Asaph to/for-Heman to/for-Jeduthun and-to/for-sons-of-them and-to/for-brothers-of-them clothed fine in-cymbals and-in-harps and-lyres, standing east to/for-the-altar ; and-with-them priests to/for-hundred and-twenty, making-blow in-trumpets."
+        },
+        {
+          "n": 13,
+          "t": "and-has-been like-one to/for-the-blowing and-to/for-the-singing to/for-make-hear voice one to/for-boast and-to/for-make-confess to/for-YHWH and-like-make-exalt voice in-trumpets and-in-cymbals and-in-articles-of the-song and-in-boast to/for-YHWH for good, for to/for-age kindness-of-him ; and-the-house has-filled cloud house-of YHWH."
+        },
+        {
+          "n": 14,
+          "t": "and-not the-priests have-abled to/for-stand to/for-minister from-faces-of the-cloud ; for glory-of YHWH has-filled house-of the-god."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "then Solomon has-said ; YHWH has-said, to/for-dwell in-the-cloud."
+        },
+        {
+          "n": 2,
+          "t": "and-I have-built house-of elevation to/for-you-f ; and-foundation to/for-dwell-of-you ages."
+        },
+        {
+          "n": 3,
+          "t": "the-king and-has-made-turn faces-of-him, and-has-blessed, all-of assembly-of Israel ; and-all-of assembly-of Israel standing."
+        },
+        {
+          "n": 4,
+          "t": "and-has-said blessed YHWH god-of Israel, who has-spoken in-lip-of-him, with David father-of-me ; and-in-hands-of-him he-has-filled to/for-say."
+        },
+        {
+          "n": 5,
+          "t": "from the-day who I-have-made-exit people-of-me from-land-of Egypt not I-have-chosen in-city from-all-of tribes-of Israel, to/for-build house, to/for-be name-of-me there ; and-not I-have-chosen in-man, to/for-be leader on people-of-me Israel."
+        },
+        {
+          "n": 6,
+          "t": "and-I-have-chosen in-Jerusalem, to/for-be name-of-me there ; and-I-have-chosen in-David, to/for-be on people-of-me Israel."
+        },
+        {
+          "n": 7,
+          "t": "heart-of David and-has-been, with father-of-me ; to/for-build house, to/for-name-of YHWH god-of Israel."
+        },
+        {
+          "n": 8,
+          "t": "YHWH and-has-said toward David father-of-me, because who has-been with heart-of-you, to/for-build house to/for-name-of-me ; you-have-made-pleasing, for heart-of-you has-been with."
+        },
+        {
+          "n": 9,
+          "t": "except you, not will-build the-house ; for son-of-you the-exiting from-loins-of-you, he will-build the-house to/for-name-of-me."
+        },
+        {
+          "n": 10,
+          "t": "YHWH and-has-made-rise, word-of-him who has-spoken ; and-I-have-risen under David father-of-me and-I-have-dwelt on throne-of Israel like-when has-spoken YHWH, and-I-have-built the-house, to/for-name-of YHWH god-of Israel."
+        },
+        {
+          "n": 11,
+          "t": "and-I-have-put there the-ark, who there covenant-of YHWH ; who he-has-cut with sons-of Israel."
+        },
+        {
+          "n": 12,
+          "t": "and-has-stood to/for-faces-of altar-of YHWH, before all-of assembly-of Israel ; and-he-has-spreaded palms-of-him."
+        },
+        {
+          "n": 13,
+          "t": "for Solomon has-done basin-of bronze and-has-given-him in-midst-of the-enclosure five cubits length-of-him and-five cubits width-of-him, and-cubits three height-of-him ; and-has-stood on-him and-has-blessed on knees-of-him before all-of assembly-of Israel, and-has-spreaded palms-of-him the-heavens-ward."
+        },
+        {
+          "n": 14,
+          "t": "YHWH and-has-said god-of Israel naught like-you god, in-the-heavens and-in-the-land ; keeping the-covenant and-the-kindness, to/for-servants-of-you, the-going to/for-faces-of-you in-all-of heart-of-them."
+        },
+        {
+          "n": 15,
+          "t": "who you-have-kept to/for-servant-of-you David father-of-me, who you-have-spoken to/for-him ; and-you-have-spoken in-lip-of-you and-in-hand-of-you you-have-filled like-the-day the-this."
+        },
+        {
+          "n": 16,
+          "t": "and-now YHWH god-of Israel keep to/for-servant-of-you David father-of-me who you-have-spoken to/for-him to/for-say, not man will-be-cut to/for-you from-faces-of-me, dwelling on throne-of Israel ; except if sons-of-you will-keep way-of-them to/for-walk in-instruction-of-me, like-when you-have-gone to/for-faces-of-me."
+        },
+        {
+          "n": 17,
+          "t": "and-now, YHWH god-of Israel ; word-of-you will-be-faithfuled, who you-have-spoken to/for-servant-of-you to/for-David."
+        },
+        {
+          "n": 18,
+          "t": "for is-it-truly, god will-dwell with the-man on the-land ; behold heavens and-heavens-of the-heavens not will-sustain-you, even, for the-house the-this who I-have-built."
+        },
+        {
+          "n": 19,
+          "t": "and-you-have-turned toward prayer-of servant-of-you and-toward supplication-of-him YHWH god-of-me ; to/for-hear toward the-cry and-toward the-prayer, who servant-of-you self-praying to/for-faces-of-you."
+        },
+        {
+          "n": 20,
+          "t": "to/for-be eyes-of-you opened toward the-house the-this by and-night, toward the-place, who you-have-said, to/for-put name-of-you there ; to/for-hear toward the-prayer, who servant-of-you will-pray, toward the-place the-this."
+        },
+        {
+          "n": 21,
+          "t": "and-you-have-heard toward pleas-of servant-of-you and-people-of-you Israel, who will-pray toward the-place the-this ; and-you will-hear from-place-of dwell-of-you from the-heavens, and-have-heard and-have-forgiven."
+        },
+        {
+          "n": 22,
+          "t": "if man will-sin to/for-neighbor-of-him, and-has-lifted in-him swear to/for-make-curse-of-him ; and-he-has-come curse to/for-faces-of altar-of-you in-the-house the-this."
+        },
+        {
+          "n": 23,
+          "t": "and-you will-hear from the-heavens and-have-done and-have-judged servants-of-you, to/for-make-return to/for-wicked, to/for-give way-of-him in-head-of-him ; and-to/for-make-justify just, to/for-give to/for-him like-rightness-of-him."
+        },
+        {
+          "n": 24,
+          "t": "and-if people-of-you Israel will-be-struck to/for-faces-of enemying for they-will-sin to/for-you-f ; and-they-have-returned and-they-have-made-confess name-of-you, and-they-have-self-prayed and-they-have-self-gracioused to/for-faces-of-you in-the-house the-this."
+        },
+        {
+          "n": 25,
+          "t": "and-you will-hear from the-heavens, and-have-forgiven, to/for-offense-of people-of-you Israel ; and-you-have-made-return-them toward the-ground, who you-have-given to/for-them and-to/for-fathers-of-them."
+        },
+        {
+          "n": 26,
+          "t": "in-be-restrain the-heavens and-not will-be rain for will-sin to/for-you-f ; and-they-have-self-prayed toward the-place the-this and-they-have-made-confess name-of-you, from-offense-of-them they-will-return for you-will-make-afflict-them."
+        },
+        {
+          "n": 27,
+          "t": "and-you will-hear the-heavens and-have-forgiven to/for-offense-of servants-of-you and-people-of-you Israel, for will-make-show-them toward the-way the-good who will-walk in-her ; and-you-have-given rain on land-of-you, who you-have-given to/for-people-of-you to/for-inheritance."
+        },
+        {
+          "n": 28,
+          "t": "famine for will-be in-the-land pestilence for will-be blight and-mildew locust and-locust for will-be, for will-make-confine to/for-him enemying-of-him in-land-of gates-of-him ; all-of plague and-all-of sickness."
+        },
+        {
+          "n": 29,
+          "t": "all-of prayer all-of supplication who will-be to/for-all-of the-man, and-to/for-all-of people-of-you Israel ; who they-will-know man plague-of-him and-pain-of-him, and-has-spreaded palms-of-him toward the-house the-this."
+        },
+        {
+          "n": 30,
+          "t": "and-you will-hear from the-heavens foundation-of dwell-of-you and-have-forgiven, and-have-given to/for-the-man like-all-of ways-of-him, who will-know heart-of-him ; for you to/for-alone-of-you have-known, heart-of sons-of the-man."
+        },
+        {
+          "n": 31,
+          "t": "sake will-fear-you to/for-walk in-ways-of-you, all-of the-days, who they living on faces-of the-ground ; who you-have-given to/for-fathers-of-us."
+        },
+        {
+          "n": 32,
+          "t": "and-also toward the-foreign who not from-people-of-you Israel he and-has-come from-land far sake name-of-you the-great and-hand-of-you the-strong, and-arm-of-you the-stretched ; and-they-have-come and-they-have-self-prayed toward the-house the-this."
+        },
+        {
+          "n": 33,
+          "t": "and-you will-hear from the-heavens from-foundation-of dwell-of-you, and-have-done, like-all who he-will-call toward-you the-foreign ; sake they-will-know all-of peoples-of the-land name-of-you and-to/for-fear you like-people-of-you Israel, and-to/for-know, for name-of-you has-been-called, on the-house the-this who I-have-built."
+        },
+        {
+          "n": 34,
+          "t": "for people-of-you will-exit to/for-the-battle on enemying-of-him, in-the-way who you-will-send-them ; and-they-have-self-prayed toward-you way-of the-city the-this-f who you-have-chosen in-her, and-the-house who I-have-built to/for-name-of-you."
+        },
+        {
+          "n": 35,
+          "t": "and-you-have-heard from the-heavens, prayer-of-them and-supplication-of-them ; and-you-have-done justice-of-them."
+        },
+        {
+          "n": 36,
+          "t": "for they-will-sin to/for-you-f for naught man who not will-sin, and-you-have-angried in-them, and-you-have-given-them to/for-faces-of enemying ; and-they-have-captived-them captiving-of-them toward land far or near."
+        },
+        {
+          "n": 37,
+          "t": "and-they-have-made-return toward heart-of-them, in-the-land who they-have-been-captived there ; and-they-have-returned and-they-have-self-gracioused toward-you in-land-of captive-of-them to/for-say, we-have-sinned we-have-made-twist and-we-have-wronged."
+        },
+        {
+          "n": 38,
+          "t": "and-they-have-returned toward-you in-all-of heart-of-them and-in-all-of soul-of-them, in-land-of captive-of-them who they-have-captived them ; and-they-have-self-prayed way-of land-of-them who you-have-given to/for-fathers-of-them, and-the-city who you-have-chosen, and-to/for-the-house who I-have-built to/for-name-of-you."
+        },
+        {
+          "n": 39,
+          "t": "and-you-have-heard from the-heavens from-foundation-of dwell-of-you prayer-of-them and-supplications-of-them, and-you-have-done justice-of-them ; and-you-have-forgiven to/for-people-of-you who they-have-sinned to/for-you-f."
+        },
+        {
+          "n": 40,
+          "t": "now god-of-me let-them-be please eyes-of-you opened, and-ears-of-you attentive ; to/for-prayer-of the-place the-this."
+        },
+        {
+          "n": 41,
+          "t": "and-now rise-heh YHWH god to/for-rest-of-you, you and-ark-of strength-of-you ; priests-of-you YHWH god will-clothe deliverance, and-pious-of-you will-rejoice in-the-good."
+        },
+        {
+          "n": 42,
+          "t": "YHWH god, do-not let-make-return faces-of anointeds-of-you ; remember-heh, to/for-kindnesses-of David servant-of-you."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-like-finish Solomon to/for-self-pray, and-the-fire has-gone from-the-heavens, the-burnt and-has-eaten and-the-sacrifices ; and-glory-of YHWH has-filled the-house."
+        },
+        {
+          "n": 2,
+          "t": "and-not the-priests have-abled, to/for-come toward house-of YHWH ; for glory-of YHWH has-filled house-of YHWH."
+        },
+        {
+          "n": 3,
+          "t": "and-all-of sons-of Israel seeing in-go the-fire, and-glory-of YHWH on the-house ; and-they-have-bowed noses land-ward on the-pavement and-they-have-self-bowed, and-make-confess to/for-YHWH for good, for to/for-age kindness-of-him."
+        },
+        {
+          "n": 4,
+          "t": "and-the-king and-all-of the-people ; sacrificing sacrifice to/for-faces-of YHWH."
+        },
+        {
+          "n": 5,
+          "t": "the-king Solomon and-has-sacrificed sacrifice-of the-cattle twenty and-two thousand, and-flock, hundred and-twenty thousand ; and-they-have-dedicated house-of the-god, the-king and-all-of the-people."
+        },
+        {
+          "n": 6,
+          "t": "and-the-priests on charges-of-them standing and-the-Levi in-articles-of song-of YHWH who David the-king has-done to/for-make-confess to/for-YHWH for to/for-age kindness-of-him, in-boast David in-hand-of-them ; and-the-priests making-blow before-them, and-all-of Israel standing."
+        },
+        {
+          "n": 7,
+          "t": "Solomon and-has-consecrated midst-of the-court who to/for-faces-of house-of YHWH, for has-done there the-burnts, and-fats-of the-peaces ; for altar-of the-bronze who has-done Solomon, not has-abled to/for-make-sustain the-burnt and-the-offering and-the-fats."
+        },
+        {
+          "n": 8,
+          "t": "Solomon and-has-done the-feast in-the-time the-he seven-of days and-all-of Israel with-him, assembly great very ; from-come Hamath until torrent-of Egypt."
+        },
+        {
+          "n": 9,
+          "t": "and-they-have-done in-the-day the-eighth assembly ; for dedication-of the-altar have-done seven-of days, and-the-feast seven-of days."
+        },
+        {
+          "n": 10,
+          "t": "and-in-day-of twenty and-three to/for-the-month the-seventh, he-has-sended the-people to/for-tents-of-them ; glad and-good-of heart, on the-welfare who has-done YHWH to/for-David and-to/for-Solomon, and-to/for-Israel people-of-him."
+        },
+        {
+          "n": 11,
+          "t": "Solomon and-has-finished house-of YHWH and-house-of the-king ; and-all-of the-coming on heart-of Solomon to/for-do in-house-of YHWH and-in-house-of-him has-made-prosper."
+        },
+        {
+          "n": 12,
+          "t": "YHWH and-has-been-seen toward Solomon in-the-night ; and-he-has-said to/for-him I-have-heard prayer-of-you, and-I-have-chosen in-the-place the-this to/for-me to/for-house-of sacrifice."
+        },
+        {
+          "n": 13,
+          "t": "lo I-will-restrain the-heavens and-not rain will-be, and-lo I-will-command on locust to/for-eat the-land ; and-if I-will-send pestilence in-people-of-me."
+        },
+        {
+          "n": 14,
+          "t": "and-will-be-humbled people-of-me who has-been-called name-of-me on-them and-will-pray faces-of-me and-will-seek, and-will-return from-ways-of-them the-bad ; and-I will-hear from the-heavens, and-will-forgive to/for-offense-of-them, and-will-heal land-of-them."
+        },
+        {
+          "n": 15,
+          "t": "now eyes-of-me they-will-be opened, and-ears-of-me attentive ; to/for-prayer-of the-place the-this."
+        },
+        {
+          "n": 16,
+          "t": "and-now I-have-chosen and-I-have-made-consecrate the-house the-this, to/for-be name-of-me there until age ; and-they-have-been eyes-of-me and-heart-of-me there all-of the-days."
+        },
+        {
+          "n": 17,
+          "t": "and-you if will-walk to/for-faces-of-me like-when David has-gone father-of-you, and-to/for-do, like-all who I-have-commanded-you ; and-statutes-of-me and-justices-of-me you-will-keep."
+        },
+        {
+          "n": 18,
+          "t": "and-I-have-made-rise, throne-of kingdom-of-you ; like-when I-have-cut to/for-David father-of-you to/for-say, not will-be-cut to/for-you man, ruling in-Israel."
+        },
+        {
+          "n": 19,
+          "t": "and-if you will-return, and-have-left statutes-of-me and-commandments-of-me, who I-have-given to/for-faces-of-you-pl ; and-you-pl-have-gone and-you-pl-have-served gods another, and-you-pl-have-bowed to/for-them."
+        },
+        {
+          "n": 20,
+          "t": "and-I-have-uprooted-them on ground-of-me who I-have-given to/for-them, and-the-house the-this who I-have-made-consecrate to/for-name-of-me, I-will-make-throw on faces-of-me ; and-I-will-give-him to/for-proverb and-to/for-taunt in-all-of the-peoples."
+        },
+        {
+          "n": 21,
+          "t": "and-the-house the-this who has-been high, to/for-all-of passing on-him will-desolate ; and-has-said in-what YHWH has-done thus, to/for-the-land the-this-f and-to/for-the-house the-this."
+        },
+        {
+          "n": 22,
+          "t": "and-they-have-said on who they-have-left YHWH god-of fathers-of-them who has-made-exit-them from-land-of Egypt and-they-have-made-strengthen in-god another, and-they-have-self-bowed to/for-them and-they-have-served-them ; on thus he-has-made-come on-them, all-of the-evil the-this-f."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been from-end-of twenty year who Solomon has-built house-of YHWH and-house-of-him."
+        },
+        {
+          "n": 2,
+          "t": "and-the-cities who Hiram has-given to/for-Solomon, has-built Solomon them ; and-he-has-made-dwell there sons-of Israel."
+        },
+        {
+          "n": 3,
+          "t": "Solomon Hamat Tsoba and-has-walked, and-has-strengthened on-her."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-built Tadmor in-the-wilderness ; and-all-of cities-of the-storages, who he-has-built in-Hamath."
+        },
+        {
+          "n": 5,
+          "t": "and-has-built Beth-horon Horon the-high, and-Beth-horon Horon the-lower ; cities-of siege, walls doors and-bar."
+        },
+        {
+          "n": 6,
+          "t": "and-Baalath and-all-of cities-of the-storages who they-have-been to/for-Solomon, and-all-of cities-of the-chariot, and-cities-of the-horsemans ; and-all-of desire-of Solomon who he-has-desired to/for-build in-Jerusalem and-in-the-Lebanon, and-in-all-of land-of dominion-of-him."
+        },
+        {
+          "n": 7,
+          "t": "all-of the-people the-remained from the-Hittite and-the-Amorite and-the-Perizzite and-the-Hivite and-the-Jebusite, who not from-Israel they."
+        },
+        {
+          "n": 8,
+          "t": "from sons-of-them who have-been-remained after-them in-the-land, who not sons-of Israel have-finished-them ; Solomon and-has-made-ascend-them to/for-taskworker, until the-day the-this."
+        },
+        {
+          "n": 9,
+          "t": "and-from sons-of Israel, who not Solomon has-given to/for-servants to/for-work-of-him ; for they mans-of battle and-officials-of officers-of-him, and-officials-of chariot-of-him and-horsemans-of-him."
+        },
+        {
+          "n": 10,
+          "t": "and-these officials-of the-garrisons the-stood who to/for-the-king Solomon fifty and-hundred ; the-ruling in-the-people."
+        },
+        {
+          "n": 11,
+          "t": "and-daughter-of Pharaoh Solomon has-made-ascend from-city-of David, to/for-the-house who has-built to/for-her ; for has-said not woman will-dwell to/for-me in-house-of David king-of Israel, for holiness they, who has-come toward-them ark-of YHWH."
+        },
+        {
+          "n": 12,
+          "t": "then Solomon has-made-ascend burnts to/for-YHWH ; on altar-of YHWH, who has-built to/for-faces-of the-hall."
+        },
+        {
+          "n": 13,
+          "t": "and-in-word-of day in-day to/for-make-ascend like-commandment-of Moses, to/for-the-sabbaths and-to/for-the-months, and-to/for-the-meetings, three strokes in-the-year ; in-feast-of the-unleaveneds and-in-feast-of the-weeks and-in-feast-of the-booths."
+        },
+        {
+          "n": 14,
+          "t": "and-has-made-stand like-justice-of David father-of-him divisions-of the-priests on service-of-them and-the-Levi on charges-of-them to/for-boast and-to/for-minister before the-priests to/for-word-of day in-day-of-him, and-the-gatekeepers in-divisions-of-them to/for-gate and-gate ; for thus, commandment-of David man-of the-god."
+        },
+        {
+          "n": 15,
+          "t": "and-not have-turned commandment-of the-king on the-priests and-the-Levi to/for-all-of word and-to/for-the-treasures."
+        },
+        {
+          "n": 16,
+          "t": "and-she-has-been-established all-of work-of Solomon, until the-day foundation-of house-of YHWH and-until finish-of-him ; complete house-of YHWH."
+        },
+        {
+          "n": 17,
+          "t": "then Solomon has-gone to/for-Beetsyon Gaber and-toward Eloth on lips-of the-sea in-land-of Edom."
+        },
+        {
+          "n": 18,
+          "t": "Hiram and-has-sended to/for-him in-hand-of servants-of-him fleets and-servants knowing-of sea and-have-come with servants-of Solomon Ophir-ward, and-have-taken from-there, four hundred and-fifty plain-of gold ; and-they-have-made-come toward the-king Solomon."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-queen-of Sheba has-heard report-of Solomon and-has-come to/for-test Solomon in-riddles in-Jerusalem in-helech heavy very and-camels lifting spices and-gold to/for-abundance and-stone precious ; and-she-has-come toward Solomon, and-she-has-spoken with-him, all-of who heart-of-her has-been with."
+        },
+        {
+          "n": 2,
+          "t": "Solomon and-has-made-announce to/for-her all-of words-of-her ; and-not word has-been-concealed from-Solomon, who not has-made-announce to/for-her."
+        },
+        {
+          "n": 3,
+          "t": "queen-of Sheba and-has-seen, wisdom-of Solomon ; and-the-house who has-built."
+        },
+        {
+          "n": 4,
+          "t": "and-food-of table-of-him and-seat-of servants-of-him and-office-of ministering-of-him and-garments-of-them and-cupbearers-of-him and-garments-of-them, and-upper-of-him, who will-ascend house-of YHWH ; and-not spirit has-been still in-her."
+        },
+        {
+          "n": 5,
+          "t": "and-has-said toward the-king, truth the-word, who I-have-heard in-land-of-me ; on words-of-you and-on wisdom-of-you."
+        },
+        {
+          "n": 6,
+          "t": "and-not I-have-made-faithful to/for-words-of-them until who I-have-come and-they-f-have-seen eyes-of-me, and-behold not half-of greatness-of wisdom-of-you ; has-been-made-announce to/for-me, you-have-added, on the-tidings who I-have-heard."
+        },
+        {
+          "n": 7,
+          "t": "blesseds mans-of-you, and-blesseds servants-of-you these ; the-standing to/for-faces-of-you continually, and-hearing wisdom-of-you."
+        },
+        {
+          "n": 8,
+          "t": "YHWH let-be god-of-you blessed, who has-delighted in-you to/for-give-of-you on throne-of-him to/for-king, to/for-YHWH god-of-you ; in-love god-of-you Israel to/for-make-stand-of-him to/for-age, and-has-given-you on-them to/for-king, to/for-do justice and-rightness."
+        },
+        {
+          "n": 9,
+          "t": "and-has-given to/for-the-king hundred and-twenty plain-of gold and-spices to/for-abundance very and-stone precious ; and-not the-he, has-been like-the-spice who has-given queen-of Sheba to/for-the-king Solomon."
+        },
+        {
+          "n": 10,
+          "t": "and-also servants-of Hiram and-servants-of Solomon, who have-made-come gold from-Ophir ; trees-of algums have-made-come and-stone precious."
+        },
+        {
+          "n": 11,
+          "t": "the-king and-has-done trees-of the-algums highways to/for-house-of YHWH and-to/for-house-of the-king, and-lyres and-harps to/for-the-singing ; and-not they-have-been-seen like-they to/for-faces in-land-of Judah."
+        },
+        {
+          "n": 12,
+          "t": "and-the-king Solomon has-given to/for-queen-of Sheba all-of pleasure-of-her who she-has-asked, from-alone-of who she-has-made-come toward the-king ; and-has-overturned he and-has-walked to/for-land-of-her and-servants-of-her."
+        },
+        {
+          "n": 13,
+          "t": "weight-of the-gold and-has-been, who has-come to/for-Solomon in-year one ; six hundred and-sixty and-six plains-of gold."
+        },
+        {
+          "n": 14,
+          "t": "to/for-alone from-mans-of the-spying and-the-trading making-come ; and-all-of kings-of arabia and-governors-of the-land, making-come gold and-silver to/for-Solomon."
+        },
+        {
+          "n": 15,
+          "t": "the-king Solomon and-has-done hundred shield gold beatened ; six hundred gold beatened, will-make-ascend on the-shield the-one."
+        },
+        {
+          "n": 16,
+          "t": "and-three hundred shields gold beatened, three hundred gold, will-make-ascend on the-shield the-one ; the-king and-has-given-them, in-house-of wood-of the-Lebanon."
+        },
+        {
+          "n": 17,
+          "t": "the-king throne tooth great and-has-done ; gold pure and-has-overlayed-him."
+        },
+        {
+          "n": 18,
+          "t": "and-six steps to/for-the-throne and-footstool in-the-gold to/for-the-throne been-made-grasp, and-hands from-this and-from-this on place-of the-dwell ; and-two lions, standing beside the-hands."
+        },
+        {
+          "n": 19,
+          "t": "and-two ten lions standing there on six the-steps from-this and-from-this ; not he-has-been-done thus to/for-all-of kingdom."
+        },
+        {
+          "n": 20,
+          "t": "and-all-of articles-of irrigation-of the-king Solomon gold, and-all-of articles-of house-of wood-of the-Lebanon gold shut ; naught silver devised in-days-of Solomon to/for-anything."
+        },
+        {
+          "n": 21,
+          "t": "for fleets to/for-the-king going Tarshish, with servants-of Hiram ; one to/for-three years will-come fleets-of Tarshish lifting gold and-silver, ivories and-apes and-peacocks."
+        },
+        {
+          "n": 22,
+          "t": "the-king Solomon and-has-magnified, from-all-of kings-of the-land ; to/for-riches and-wisdom."
+        },
+        {
+          "n": 23,
+          "t": "and-all-of kings-of the-land, seeking faces-of Solomon ; to/for-hear wisdom-of-him, who the-god has-given in-heart-of-him."
+        },
+        {
+          "n": 24,
+          "t": "and-they making-come man offering-of-him articles-of silver and-articles-of gold and-garments weapon and-spices, horses and-mules ; word-of year in-year."
+        },
+        {
+          "n": 25,
+          "t": "and-he-has-been to/for-Solomon four-of thousand stalls-of horses and-chariots, and-two ten thousand horsemans ; and-has-made-rest-them in-cities-of the-chariot, and-with the-king in-Jerusalem."
+        },
+        {
+          "n": 26,
+          "t": "and-he-has-been ruling in-all-of the-kings ; from the-river and-until land-of Philistine, and-until border-of Egypt."
+        },
+        {
+          "n": 27,
+          "t": "the-king and-has-given the-silver in-Jerusalem like-the-stones ; and-the-cedars he-has-given like-the-sycamores who in-the-shephelah to/for-abundance."
+        },
+        {
+          "n": 28,
+          "t": "and-making-exit horses from-Egypt to/for-Solomon and-from-all-of the-lands."
+        },
+        {
+          "n": 29,
+          "t": "and-remnant-of words-of Solomon, the-first and-the-last ; is-it-not they written on words-of Nathan the-prophet, and-on prophecy-of Ahijah the-Shilonite and-in-vision-of Iddo the-seer, on Jeroboam son-of Nebat."
+        },
+        {
+          "n": 30,
+          "t": "Solomon and-has-reigned in-Jerusalem on all-of Israel forty year."
+        },
+        {
+          "n": 31,
+          "t": "Solomon and-has-lain with fathers-of-him, and-have-buried-him, in-city-of David father-of-him ; Rehoboam and-has-reigned son-of-him under-him."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Rehoboam Shechem-ward and-has-walked ; for Shechem they-have-come all-of Israel to/for-make-reign him."
+        },
+        {
+          "n": 2,
+          "t": "and-has-been like-hear Jeroboam son-of Nebat and-he in-Egypt, who has-fled, from-faces-of Solomon the-king ; Jeroboam and-has-returned from-Egypt."
+        },
+        {
+          "n": 3,
+          "t": "and-they-have-sended and-they-have-called to/for-him, Jeroboam and-has-come and-all-of Israel ; and-they-have-spoken, toward Rehoboam to/for-say."
+        },
+        {
+          "n": 4,
+          "t": "father-of-you has-made-harden yoke-of-us ; and-now make-lighten from-service-of father-of-you the-severe and-from-yoke-of-him the-heavy who he-has-given on-us and-we-will-serve-you."
+        },
+        {
+          "n": 5,
+          "t": "and-he-has-said toward-them still three-of days and-return toward-me ; the-people and-has-walked."
+        },
+        {
+          "n": 6,
+          "t": "the-king Rehoboam and-has-been-advised with the-old who they-have-been standing to/for-faces-of Solomon father-of-him, in-be-of-him living to/for-say ; how you advised, to/for-make-return to/for-the-people the-this word."
+        },
+        {
+          "n": 7,
+          "t": "and-have-spoken toward-him to/for-say if you-will-be to/for-good to/for-the-people the-this and-you-have-accepted-them, and-you-have-spoken toward-them words good ; servants and-have-been to/for-you all-of the-days."
+        },
+        {
+          "n": 8,
+          "t": "and-he-has-left counsel-of the-old who they-have-advised-him ; and-he-has-been-advised with the-youths who have-magnified with-him, the-standing to/for-faces-of-him."
+        },
+        {
+          "n": 9,
+          "t": "and-has-said toward-them what you advised, and-we-will-make-return word the-people the-this ; who they-have-spoken toward-me to/for-say, make-lighten from the-yoke, who has-given father-of-you on-us."
+        },
+        {
+          "n": 10,
+          "t": "the-youths and-have-spoken with-him who have-magnified with-him to/for-say thus will-say to/for-the-people who have-spoken toward-you to/for-say father-of-you has-made-honor yoke-of-us, and-you make-lighten on-us ; thus you-will-say toward-them, little-of-me has-thickened from-loins-of father-of-me."
+        },
+        {
+          "n": 11,
+          "t": "and-now father-of-me has-made-lift on-you-pl yoke heavy, and-I will-make-add on yoke-of-you-pl ; father-of-me has-disciplined you-pl in-the-whips, and-I in-the-scorpions."
+        },
+        {
+          "n": 12,
+          "t": "Jeroboam and-has-come and-all-of the-people toward Rehoboam in-the-day the-third ; like-when the-king has-spoken to/for-say, return toward-me in-the-day the-third."
+        },
+        {
+          "n": 13,
+          "t": "the-king severe and-has-answered-them ; the-king Rehoboam and-has-left, counsel-of the-old."
+        },
+        {
+          "n": 14,
+          "t": "and-he-has-spoken toward-them like-counsel-of the-youths to/for-say, will-make-honor yoke-of-you-pl, and-I will-make-add on-him ; father-of-me has-disciplined you-pl in-the-whips, and-I in-the-scorpions."
+        },
+        {
+          "n": 15,
+          "t": "and-not the-king has-heard toward the-people ; for turn has-been from the-god, sake make-rise YHWH word-of-him who has-spoken in-hand-of Ahijah the-Shilonite, toward Jeroboam son-of Nebat."
+        },
+        {
+          "n": 16,
+          "t": "and-all-of Israel for not has-heard the-king to/for-them and-they-have-made-return the-people the-king to/for-say what to/for-us portion in-David and-not inheritance in-son-of Jesse man to/for-tents-of-you Israel, now, see house-of-you David ; all-of Israel and-has-walked to/for-tents-of-him."
+        },
+        {
+          "n": 17,
+          "t": "and-sons-of Israel, the-dwelling in-cities-of Judah ; Rehoboam and-has-reigned on-them."
+        },
+        {
+          "n": 18,
+          "t": "the-king Rehoboam and-has-sended Hadoram who on the-taskworker, and-have-stoned in-him sons-of Israel stone and-has-died ; and-the-king Rehoboam has-self-strengthened to/for-ascend in-the-chariot, to/for-flee Jerusalem."
+        },
+        {
+          "n": 19,
+          "t": "and-they-have-transgressed Israel in-house-of David, until the-day the-this."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Rehoboam Jerusalem and-has-come and-has-made-gather house-of Judah and-Benjamin hundred and-eighty thousand chosen doing-of battle ; to/for-be-fight with Israel, to/for-make-return the-kingdom to/for-Rehoboam."
+        },
+        {
+          "n": 2,
+          "t": "word-of YHWH and-has-been, toward Shemaiah man-of the-god to/for-say."
+        },
+        {
+          "n": 3,
+          "t": "say, toward Rehoboam son-of Solomon king-of Judah ; and-toward all-of Israel, in-Judah and-Benjamin to/for-say."
+        },
+        {
+          "n": 4,
+          "t": "thus YHWH has-said not you-pl-will-ascend and-not you-pl-will-be-fought with brothers-of-you-pl return man to/for-house-of-him, for with-me has-been-been the-word the-this ; and-they-have-heard words-of YHWH, and-they-have-returned from-walk toward Jeroboam."
+        },
+        {
+          "n": 5,
+          "t": "Rehoboam and-has-dwelt in-Jerusalem ; and-he-has-built cities to/for-siege in-Judah."
+        },
+        {
+          "n": 6,
+          "t": "and-has-built Beyt Bethlehem and-Etam and-Tekoa."
+        },
+        {
+          "n": 7,
+          "t": "and-Beth-zur Tsour and-Socoh and-Adullam."
+        },
+        {
+          "n": 8,
+          "t": "and-Gath and-Mareshah and-Ziph."
+        },
+        {
+          "n": 9,
+          "t": "and-Adoraim and-Lachish and-Azekah."
+        },
+        {
+          "n": 10,
+          "t": "and-Zorah and-Aijalon, and-Hebron, who in-Judah and-in-Benjamin ; cities-of fortresses."
+        },
+        {
+          "n": 11,
+          "t": "and-he-has-strengthened the-fortresses ; and-has-given in-them leaders, and-treasures-of food and-oil and-wine."
+        },
+        {
+          "n": 12,
+          "t": "and-in-all-of city and-city shields and-spears, and-he-has-strengthened-them to/for-make-multiply very ; Judah and-Benjamin and-has-been to/for-him."
+        },
+        {
+          "n": 13,
+          "t": "and-the-priests and-the-Levi, who in-all-of Israel ; they-have-self-stood on-him from-all-of border-of-them."
+        },
+        {
+          "n": 14,
+          "t": "for the-Levi have-left pastures-of-them and-possession-of-them, and-have-walked to/for-Judah and-to/for-Jerusalem ; for Jeroboam has-made-reject-them and-sons-of-him, from-minister to/for-YHWH."
+        },
+        {
+          "n": 15,
+          "t": "and-he-has-made-stand to/for-him priests, to/for-the-highs and-to/for-the-satyrs ; and-to/for-the-calfs who he-has-done."
+        },
+        {
+          "n": 16,
+          "t": "and-after-them from-all-of tribes-of Israel, the-giving heart-of-them, to/for-seek, YHWH god-of Israel ; they-have-come Jerusalem, to/for-sacrifice, to/for-YHWH god-of fathers-of-them."
+        },
+        {
+          "n": 17,
+          "t": "and-they-have-strengthened kingdom-of Judah, and-they-have-strengthened Rehoboam son-of Solomon to/for-years three ; for they-have-gone in-way-of David and-Solomon to/for-years three."
+        },
+        {
+          "n": 18,
+          "t": "Rehoboam and-has-taken to/for-him woman, Mahalath, son-of daughter-of Jerimoth son-of David ; Abihail, daughter-of Eliab son-of Jesse."
+        },
+        {
+          "n": 19,
+          "t": "and-she-has-begotten to/for-him sons ; Jeush and-Shemariah and-Zaham."
+        },
+        {
+          "n": 20,
+          "t": "and-after-her he-has-taken, Maacah daughter-of Absalom ; and-she-has-begotten to/for-him Abijah and-Attai, and-Ziza and-Shelomith."
+        },
+        {
+          "n": 21,
+          "t": "Rehoboam and-has-loved Maacah daughter-of Absalom from-all-of womans-of-him and-concubines-of-him, for womans eight ten has-lifted, and-concubines sixty ; and-he-has-made-beget twenty and-eight sons and-sixty daughters."
+        },
+        {
+          "n": 22,
+          "t": "Rehoboam and-has-made-stand to/for-the-head Abijah son-of Maacah to/for-leader in-brothers-of-him ; for to/for-make-reign-of-him."
+        },
+        {
+          "n": 23,
+          "t": "and-has-discerned and-has-broken from-all-of sons-of-him to/for-all-of lands-of Judah and-Benjamin to/for-all-of cities-of the-fortresses, and-has-given to/for-them the-food to/for-abundance ; crowd-of womans and-has-asked."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-he-has-been like-make-establish kingdom-of Rehoboam and-like-strength-of-him, he-has-left instruction-of YHWH ; and-all-of Israel with-him."
+        },
+        {
+          "n": 2,
+          "t": "and-has-been in-the-year the-fifth to/for-the-king Rehoboam, has-ascended Shishak king-of Egypt on Jerusalem ; for they-have-betrayed in-YHWH."
+        },
+        {
+          "n": 3,
+          "t": "in-thousand and-hundred chariot, and-in-sixty thousand horsemans ; and-naught number to/for-the-people who Libyan Sukkiim and-Ethiopian have-come with-him from-Egypt,."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-captured cities-of the-fortresses who to/for-Judah ; Jerusalem and-has-come until."
+        },
+        {
+          "n": 5,
+          "t": "and-Shemaiah the-prophet has-come toward Rehoboam, and-officials-of Judah, who have-been-gathered toward Jerusalem from-faces-of Shishak ; and-has-said to/for-them thus YHWH has-said you have-left me, and-even I have-left you-pl in-hand-of Shishak."
+        },
+        {
+          "n": 6,
+          "t": "officials-of Israel and-have-been-humbled and-the-king ; and-they-have-said just YHWH."
+        },
+        {
+          "n": 7,
+          "t": "and-in-see YHWH for they-have-been-humbled, word-of YHWH has-been toward Shemaiah to/for-say they-have-been-humbled not I-will-destroy-them ; and-I-have-given to/for-them like-little to/for-survivor, and-not rage-of-me will-pour in-Jerusalem in-hand-of Shishak."
+        },
+        {
+          "n": 8,
+          "t": "for they-will-be to/for-him to/for-servants ; and-they-will-know service-of-me, and-service-of kingdoms-of the-lands."
+        },
+        {
+          "n": 9,
+          "t": "Shishak and-has-ascended king-of Egypt on Jerusalem and-has-taken treasures-of house-of YHWH and-treasures-of house-of the-king, the-all has-taken ; and-has-taken shields-of the-gold, who Solomon has-done."
+        },
+        {
+          "n": 10,
+          "t": "the-king Rehoboam and-has-done under-them, shields-of bronze ; hand-of officials-of and-has-made-reckon on the-runing, the-keeping, entrance-of house-of the-king."
+        },
+        {
+          "n": 11,
+          "t": "and-has-been from-sufficiency-of come the-king house-of YHWH ; they-have-come the-runing and-they-have-lifted-them, and-they-have-made-return-them toward chamber-of the-runing."
+        },
+        {
+          "n": 12,
+          "t": "and-in-be-humble-of-him has-returned from-us nose YHWH, and-not to/for-destroy to/for-consummation ; and-also in-Judah, he-has-been words good."
+        },
+        {
+          "n": 13,
+          "t": "the-king Rehoboam and-has-self-strengthened in-Jerusalem and-has-reigned ; for son-of forty and-one year Rehoboam in-reign-of-him and-seven ten year has-reigned in-Jerusalem the-city who YHWH has-chosen to/for-put name-of-him there from-all-of tribes-of Israel, and-name-of mother-of-him, Naamah the-Ammonitess."
+        },
+        {
+          "n": 14,
+          "t": "and-he-has-done the-evil ; for not heart-of-him has-made-establish, to/for-seek YHWH."
+        },
+        {
+          "n": 15,
+          "t": "and-words-of Rehoboam the-first and-the-last, is-it-not they written in-words-of Shemaiah the-prophet and-Iddo the-seer to/for-self-enroll ; and-battles-of Rehoboam and-Jeroboam all-of the-days."
+        },
+        {
+          "n": 16,
+          "t": "Rehoboam and-has-lain with fathers-of-him, and-has-been-buried in-city-of David ; Abijah and-has-reigned son-of-him under-him."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-year-of eight ten to/for-the-king Jeroboam ; Abijah and-has-reigned on Judah."
+        },
+        {
+          "n": 2,
+          "t": "three years and-name-of mother-of-him, Micaiah has-reigned in-Jerusalem, daughter-of Uriel from Gibeah ; and-battle has-been between Abijah and-between Jeroboam."
+        },
+        {
+          "n": 3,
+          "t": "Abijah and-has-binded the-battle in-helech mighty-of battle, four hundred thousand man chosen ; and-Jeroboam has-arranged with-him battle, in-eight hundred thousand man chosen mighty-of helech."
+        },
+        {
+          "n": 4,
+          "t": "Abijah and-has-risen on to/for-mountain-of Outsmaraim, who in-mountain-of Ephraim ; and-has-said, hear-me Jeroboam and-all-of Israel."
+        },
+        {
+          "n": 5,
+          "t": "is-it-not to/for-you-pl to/for-know, for YHWH god-of Israel has-given kingdom to/for-David on Israel to/for-age ; to/for-him and-to/for-sons-of-him covenant-of salt."
+        },
+        {
+          "n": 6,
+          "t": "Jeroboam and-has-risen son-of Nebat, servant-of Solomon son-of David ; and-he-has-rebelled on lords-of-him."
+        },
+        {
+          "n": 7,
+          "t": "mans worthless and-have-been-gathered on-him sons-of belial, and-have-self-strengthened on Rehoboam son-of Solomon ; and-Rehoboam has-been youth and-tender-of heart, and-not has-self-strengthened to/for-faces-of-them."
+        },
+        {
+          "n": 8,
+          "t": "and-now you saying to/for-self-strengthen to/for-faces-of kingdom-of YHWH, in-hand-of sons-of David ; and-you crowd many, and-with-you-pl calfs-of gold, who has-done to/for-you-pl Jeroboam to/for-gods."
+        },
+        {
+          "n": 9,
+          "t": "is-it-not you-pl-have-made-banish priests-of YHWH, sons-of Aaron and-the-Levi ; and-you-pl-have-done to/for-you-pl priests like-peoples-of the-lands, all-of the-coming to/for-fill hand-of-him in-bullock son-of cattle and-rams seven, and-has-been priest to/for-not god."
+        },
+        {
+          "n": 10,
+          "t": "and-we YHWH god-of-us and-not have-left-him ; and-priests ministering to/for-YHWH sons-of Aaron, and-the-Levi in-the-work."
+        },
+        {
+          "n": 11,
+          "t": "and-making-offer to/for-YHWH burnts in-the-morning in-the-morning and-in-the-evening in-the-evening and-incense-of spices and-row-of food on the-table the-pure and-lampstand-of the-gold and-lamps-of-her to/for-burn in-the-evening in-the-evening, for keeping we, charge-of YHWH god-of-us ; and-you have-left him."
+        },
+        {
+          "n": 12,
+          "t": "and-behold with-us in-the-head the-god and-priests-of-him and-trumpets-of the-shout to/for-make-shout on-you-pl ; sons-of Israel do-not let-be-fought with YHWH god-of fathers-of-you-pl for not you-pl-will-make-prosper."
+        },
+        {
+          "n": 13,
+          "t": "and-Jeroboam has-made-turn the-ambush, to/for-come after-them ; and-they-have-been to/for-faces-of Judah, and-the-ambush after-them."
+        },
+        {
+          "n": 14,
+          "t": "and-have-turned Judah and-behold to/for-them the-battle faces and-back, and-have-cried to/for-YHWH ; and-the-priests, making-blow in-trumpets."
+        },
+        {
+          "n": 15,
+          "t": "and-they-have-made-shout man-of Judah ; and-has-been in-make-shout man-of Judah, and-the-god has-struck Jeroboam and-all-of Israel, to/for-faces-of Abijah and-Judah."
+        },
+        {
+          "n": 16,
+          "t": "sons-of Israel and-have-fled from-faces-of Judah ; god and-has-given-them in-hand-of-them."
+        },
+        {
+          "n": 17,
+          "t": "and-they-have-made-smite in-them Abijah and-people-of-him wound many ; and-they-have-fallen slain from-Israel, five hundred thousand man chosen."
+        },
+        {
+          "n": 18,
+          "t": "sons-of Israel and-have-been-humbled in-the-time the-he ; sons-of Judah and-have-strengthened, for have-been-leaned, on YHWH god-of fathers-of-them."
+        },
+        {
+          "n": 19,
+          "t": "Abijah and-has-pursued after Jeroboam and-has-captured from-us cities, Lebeyt Bethel and-daughters-of-her, and-Jeshanah and-daughters-of-her ; and-Ephron and-daughters-of-her."
+        },
+        {
+          "n": 20,
+          "t": "and-not strength-of Jeroboam has-restrained still in-days-of Abijah ; YHWH and-has-struck-him and-has-died."
+        },
+        {
+          "n": 21,
+          "t": "Abijah and-has-self-strengthened, and-has-lifted to/for-him, womans four ten ; and-he-has-made-beget twenty and-two sons, and-six ten daughters."
+        },
+        {
+          "n": 22,
+          "t": "and-remainder-of words-of Abijah, and-ways-of-him and-words-of-him ; written, in-story-of the-prophet Iddo."
+        },
+        {
+          "n": 23,
+          "t": "Abijah and-has-lain with fathers-of-him and-have-buried him in-city-of David, Asa and-has-reigned son-of-him under-him ; in-days-of-him the-land has-quieted ten years."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Asa the-good and-the-upright and-has-done, in-eyes-of YHWH god-of-him."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-made-turn altars-of the-foreign and-the-highs ; and-he-has-breaked the-pillars, and-he-has-cut the-Asherah."
+        },
+        {
+          "n": 3,
+          "t": "and-has-said to/for-Judah, to/for-seek, YHWH god-of fathers-of-them ; and-to/for-do the-instruction and-the-commandment."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-made-turn from-all-of cities-of Judah, the-highs and-the-pillars ; the-kingdom and-has-quieted to/for-faces-of-him."
+        },
+        {
+          "n": 5,
+          "t": "and-he-has-built cities-of fortress in-Judah ; for the-land has-quieted and-naught with-him battle in-the-years the-these, for has-made-rest YHWH to/for-him."
+        },
+        {
+          "n": 6,
+          "t": "and-has-said to/for-Judah we-will-build the-cities the-these and-we-will-make-turn wall and-towers doors and-bars still-of-him the-land to/for-faces-of-us for we-have-sought YHWH god-of-us, we-have-sought, and-has-made-rest to/for-us from-around ; and-they-have-built and-they-have-made-prosper."
+        },
+        {
+          "n": 7,
+          "t": "helech lifting and-has-been to/for-Asa shield and-spear from-Judah three hundred thousand, and-from-Benjamin lifting-of shield and-treading-of bow, hundred and-eighty thousand ; all-of these mighty-of helech."
+        },
+        {
+          "n": 8,
+          "t": "Zerah the-Ethiopian and-has-exited toward-them in-helech thousand thousand, and-chariots three hundred ; Mareshah and-has-come until."
+        },
+        {
+          "n": 9,
+          "t": "Asa and-has-exited to/for-faces-of-him ; and-they-have-arranged battle, in-valley-of Zephathah to/for-Mareshah."
+        },
+        {
+          "n": 10,
+          "t": "Asa and-has-called toward YHWH god-of-him and-has-said YHWH naught with-you to/for-help between many to/for-naught strength, help-us YHWH god-of-us for on-you we-have-been-leaned, and-in-name-of-you we-have-come, on the-crowd the-this ; YHWH god-of-us you, do-not let-restrain with-you human."
+        },
+        {
+          "n": 11,
+          "t": "YHWH and-has-struck the-Ethiopian, to/for-faces-of Asa and-to/for-faces-of Judah ; the-Ethiopian and-have-fled."
+        },
+        {
+          "n": 12,
+          "t": "Asa and-the-people and-has-pursued-them who with-him until to/for-Gerar and-has-fallen from-Ethiopian to/for-naught to/for-them recovery, for they-have-been-breaked to/for-faces-of YHWH and-to/for-faces-of camp-of-him ; and-they-have-lifted spoil make-multiply very."
+        },
+        {
+          "n": 13,
+          "t": "and-have-made-smite all-of the-cities arounds Gerar, for has-been dread-of YHWH on-them ; and-they-have-plundered all-of the-cities, for plunder many has-been in-them."
+        },
+        {
+          "n": 14,
+          "t": "and-also tents-of livestock have-made-smite ; and-have-captived flock to/for-abundance and-camels, and-have-returned Jerusalem."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-Azariah son-of Oded, spirit-of god has-been on-him."
+        },
+        {
+          "n": 2,
+          "t": "and-has-exited to/for-faces-of Asa and-has-said to/for-him, hear-me, Asa and-all-of Judah and-Benjamin ; YHWH with-you-pl in-be-of-you-pl with-him, and-if you-pl-will-seek-him will-be-found to/for-you-pl, and-if you-pl-will-leave-him will-leave you-pl."
+        },
+        {
+          "n": 3,
+          "t": "and-days many to/for-Israel ; to/for-not god-of truth and-to/for-not priest show and-to/for-not instruction."
+        },
+        {
+          "n": 4,
+          "t": "YHWH and-has-returned in-the-distress to/for-him, on god-of Israel ; and-they-have-sought-him and-he-has-been-found to/for-them."
+        },
+        {
+          "n": 5,
+          "t": "and-in-the-times the-they, naught peace to/for-the-exiting and-to/for-the-coming ; for tumults many, on all-of dwelling-of the-lands."
+        },
+        {
+          "n": 6,
+          "t": "and-they-have-been-crushed nation in-nation and-city in-city ; for god has-confused-them in-all-of distress."
+        },
+        {
+          "n": 7,
+          "t": "and-you strengthen, and-do-not let-them-slacken hands-of-you-pl ; for there wages to/for-wages-of-you-pl."
+        },
+        {
+          "n": 8,
+          "t": "and-like-hear Asa the-words the-these and-the-prophecy Oded the-prophet has-self-strengthened and-has-made-pass the-abominations from-all-of land-of Judah and-Benjamin, and-from the-cities, who has-captured from-mountain-of Ephraim ; and-he-has-renewed altar-of YHWH, who, to/for-faces-of hall-of YHWH."
+        },
+        {
+          "n": 9,
+          "t": "and-has-gathered all-of Judah and-Benjamin, and-the-sojourning with-them, from-Ephraim and-Manasseh and-from-Simeon ; for they-have-fallen on-him from-Israel to/for-abundance, in-see-of-them, for YHWH god-of-him with-him."
+        },
+        {
+          "n": 10,
+          "t": "and-they-have-been-gathered Jerusalem in-the-month the-third ; to/for-year-of five ten to/for-kingdom-of Asa."
+        },
+        {
+          "n": 11,
+          "t": "and-they-have-sacrificed to/for-YHWH in-the-day the-he, from the-spoil they-have-made-come ; cattle seven hundred, and-flock seven-of thousand."
+        },
+        {
+          "n": 12,
+          "t": "and-they-have-come in-the-covenant, to/for-seek, YHWH god-of fathers-of-them ; in-all-of heart-of-them and-in-all-of soul-of-them."
+        },
+        {
+          "n": 13,
+          "t": "and-all who not will-seek to/for-YHWH god-of Israel will-be-made-die ; from small and-until great, to/for-man and-until woman."
+        },
+        {
+          "n": 14,
+          "t": "and-they-have-been-sweared to/for-YHWH, in-voice great and-in-shout ; and-in-trumpets and-in-trumpets."
+        },
+        {
+          "n": 15,
+          "t": "and-they-have-rejoiced all-of Judah on the-oath for in-all-of heart-of-them they-have-been-sweared, and-in-all-of acceptance-of-them they-have-sought-him, and-has-been-found to/for-them ; YHWH and-has-made-rest to/for-them from-around."
+        },
+        {
+          "n": 16,
+          "t": "and-also Maacah mother-of Asa the-king has-made-turn-her from-queen, who horror ; has-done to/for-Asherah Asa and-has-cut horror-of-her, and-has-made-crush, and-has-burned in-torrent-of Kidron."
+        },
+        {
+          "n": 17,
+          "t": "and-the-highs, not have-turned from-Israel ; except heart-of Asa has-been complete all-of days-of-him."
+        },
+        {
+          "n": 18,
+          "t": "and-has-made-come holinesses-of father-of-him and-consecrates-of-him house-of the-god ; silver and-gold and-articles."
+        },
+        {
+          "n": 19,
+          "t": "and-battle not has-been ; until year-of thirty and-five to/for-kingdom-of Asa."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-year-of thirty and-six to/for-kingdom-of Asa, Baasha has-ascended king-of Israel on Judah, and-has-built the-Ramah ; to/for-without give exiting and-coming, to/for-Asa king-of Judah."
+        },
+        {
+          "n": 2,
+          "t": "Asa silver and-gold and-has-made-exit from-treasures-of house-of YHWH and-house-of the-king ; Ben-hadad Ben-hadad and-has-sended toward king-of Aram, the-dwelling in-Damascus to/for-say."
+        },
+        {
+          "n": 3,
+          "t": "covenant between-me and-between-you, and-between father-of-me and-between father-of-you ; behold I-have-sended to/for-you silver and-gold, walk make-break covenant-of-you with Baasha king-of Israel, and-will-ascend on-me."
+        },
+        {
+          "n": 4,
+          "t": "Ben-hadad Ben-hadad and-has-heard toward the-king Asa and-has-sended officials-of the-heleches who to/for-him toward cities-of Israel, and-they-have-made-smite Ijon and-Dan, and-Abel-maim Maim ; and-all-of storages-of cities-of Naphtali."
+        },
+        {
+          "n": 5,
+          "t": "and-has-been like-hear Baasha, and-has-ceased, from-build the-Ramah ; and-he-has-made-cease work-of-him."
+        },
+        {
+          "n": 6,
+          "t": "and-Asa the-king has-taken all-of Judah, and-they-have-lifted stones-of the-Ramah and-trees-of-her, who Baasha has-built ; and-he-has-built in-them, Geba and-the-Mizpah."
+        },
+        {
+          "n": 7,
+          "t": "and-in-the-time the-he Hanani the-see has-come, toward Asa king-of Judah ; king-of Aram and-has-said toward-him in-be-lean-of-you on and-not you-have-been-leaned on YHWH god-of-you, on thus has-been-escaped rampart-of king-of Aram from-hand-of-you."
+        },
+        {
+          "n": 8,
+          "t": "is-it-not the-Ethiopian and-the-Libyan have-been to/for-helech to/for-abundance to/for-chariot and-to/for-horsemans to/for-make-multiply very ; and-in-be-lean-of-you on YHWH has-given-them in-hand-of-you."
+        },
+        {
+          "n": 9,
+          "t": "for YHWH eyes-of-him roving in-all-of the-land to/for-self-strengthen with heart-of-them complete toward-him you-have-been-foolished on this-f ; for from-now, there with-you battles."
+        },
+        {
+          "n": 10,
+          "t": "Asa and-has-provoked toward the-see and-has-given-him house-of the-stocks, for in-rage with-him on this-f ; Asa and-has-crushed from the-people in-the-time the-he."
+        },
+        {
+          "n": 11,
+          "t": "and-behold words-of Asa, the-first and-the-last ; lo-them written on book-of the-kings, to/for-Judah and-Israel."
+        },
+        {
+          "n": 12,
+          "t": "Asa and-has-sicked in-year-of thirty and-nine to/for-kingdom-of-him in-foots-of-him, until to/for-above-ward sickness-of-him ; and-also in-sickness-of-him not he-has-sought YHWH, for in-the-healing."
+        },
+        {
+          "n": 13,
+          "t": "Asa and-has-lain with fathers-of-him ; and-he-has-died, in-year-of forty and-one to/for-reign-of-him."
+        },
+        {
+          "n": 14,
+          "t": "and-have-buried-him in-graves-of-him who he-has-pierced to/for-him in-city-of David and-have-made-lie-him in-the-bed who he-has-filled spices and-kinds, mixed in-ointment-of deed ; and-they-have-burned to/for-him fire great until to/for-very."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Jehoshaphat and-has-reigned son-of-him under-him ; Israel and-has-self-strengthened on."
+        },
+        {
+          "n": 2,
+          "t": "helech and-has-given, in-all-of cities-of Judah the-gather ; and-has-given garrisons in-land-of Judah, and-in-cities-of Ephraim, who Asa has-captured father-of-him."
+        },
+        {
+          "n": 3,
+          "t": "YHWH and-has-been with Jehoshaphat ; for has-gone in-ways-of David father-of-him the-first, and-not has-sought to/for-the-Baal."
+        },
+        {
+          "n": 4,
+          "t": "for to/for-god-of father-of-him he-has-sought, and-in-commandments-of-him he-has-gone ; and-not like-deed-of Israel."
+        },
+        {
+          "n": 5,
+          "t": "YHWH and-has-made-establish the-kingdom in-hand-of-him, and-they-have-given all-of Judah offering to/for-Jehoshaphat ; riches and-glory and-has-been to/for-him to/for-abundance."
+        },
+        {
+          "n": 6,
+          "t": "heart-of-him and-has-exulted in-ways-of YHWH ; and-still he-has-made-turn the-highs and-the-Asherah from-Judah."
+        },
+        {
+          "n": 7,
+          "t": "and-in-year-of three to/for-reign-of-him Hail has-sended to/for-officials-of-him to/for-Leben and-to/for-Obadiah and-to/for-Zechariah, and-to/for-Nethanel and-to/for-Micaiah ; to/for-learn in-cities-of Judah."
+        },
+        {
+          "n": 8,
+          "t": "and-with-them the-Levi Shemaiah and-Nethaniah and-Zebadiah and-Asahel and-Shemiramoth and-Jonathan and-Adonijah and-Tobijah and-Vetob Tobadonijah the-Levi ; and-with-them Elishama and-Jehoram the-priests."
+        },
+        {
+          "n": 9,
+          "t": "and-they-have-learned in-Judah, and-with-them, book-of instruction-of YHWH ; and-they-have-turned in-all-of cities-of Judah, and-they-have-learned in-the-people."
+        },
+        {
+          "n": 10,
+          "t": "dread-of YHWH and-has-been on all-of kingdoms-of the-lands, who arounds Judah ; and-not they-have-been-fought with Jehoshaphat."
+        },
+        {
+          "n": 11,
+          "t": "and-from Philistine making-come to/for-Jehoshaphat offering and-silver burden ; also the-Arabian making-come to/for-him flock, rams, seven-of thousand and-seven hundred, and-males, seven-of thousand and-seven hundred."
+        },
+        {
+          "n": 12,
+          "t": "Jehoshaphat going and-growinging and-has-been until to/for-above-ward ; and-he-has-built in-Judah fortresses and-cities-of storages."
+        },
+        {
+          "n": 13,
+          "t": "and-work many he-has-been to/for-him in-cities-of Judah ; and-mans-of battle mighty-of helech in-Jerusalem."
+        },
+        {
+          "n": 14,
+          "t": "and-these punishment-of-them to/for-house-of fathers-of-them ; to/for-Judah officials-of thousand, Adnah the-official, and-with-him mighty-of helech, three hundred thousand."
+        },
+        {
+          "n": 15,
+          "t": "and-on hand-of-him Johanan the-official ; and-with-him, hundred and-eighty thousand."
+        },
+        {
+          "n": 16,
+          "t": "and-on hand-of-him Amasiah son-of Zichri, the-self-willinging to/for-YHWH ; and-with-him hundred thousand mighty-of helech."
+        },
+        {
+          "n": 17,
+          "t": "and-from Benjamin, mighty-of helech Eliada ; and-with-him handling-of bow and-shield hundred thousand."
+        },
+        {
+          "n": 18,
+          "t": "and-on hand-of-him Jehozabad ; and-with-him hundred and-eighty thousand armed-of host."
+        },
+        {
+          "n": 19,
+          "t": "these the-ministering the-king ; from-alone-of who the-king has-given in-cities-of the-fortification in-all-of Judah."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "riches and-glory and-has-been to/for-Jehoshaphat to/for-abundance ; and-he-has-self-relateded to/for-Ahab."
+        },
+        {
+          "n": 2,
+          "t": "and-has-gone to/for-end-of years toward Ahab to/for-Samaria, and-has-sacrificed to/for-him Ahab flock and-cattle to/for-abundance, and-to/for-the-people who with-him ; Ramot Gilead and-has-made-incite-him, to/for-ascend toward."
+        },
+        {
+          "n": 3,
+          "t": "Ahab and-has-said king-of Israel toward Jehoshaphat king-of Judah, is-it-you-will-walk with-me Ramot Gilead ; people-of-me, and-has-said to/for-him like-me like-you and-like-people-of-you and-with-you in-the-battle."
+        },
+        {
+          "n": 4,
+          "t": "Jehoshaphat and-has-said toward king-of Israel ; seek please like-the-day word-of YHWH."
+        },
+        {
+          "n": 5,
+          "t": "king-of Israel and-has-gathered the-prophets four hundred man and-has-said toward-them is-it-we-will-walk toward Ramot Gilead to/for-the-battle if I-will-cease ; and-they-have-said ascend, the-god and-will-give in-hand-of the-king."
+        },
+        {
+          "n": 6,
+          "t": "Jehoshaphat and-has-said, is-it-naught here prophet to/for-YHWH still ; and-let-us-seek from-him."
+        },
+        {
+          "n": 7,
+          "t": "king-of Israel and-has-said toward Jehoshaphat still man one to/for-seek YHWH from-him and-I I-have-hated-him for naught-him self-prophesying on-me to/for-welfare for all-of days-of-him to/for-evil, he Micaiah son-of Imlah ; Jehoshaphat and-has-said, do-not let-say the-king thus."
+        },
+        {
+          "n": 8,
+          "t": "king-of Israel and-has-called, toward eunuch one ; and-has-said, hasten Micah Micaiah son-of Imlah."
+        },
+        {
+          "n": 9,
+          "t": "and-king-of Israel and-Jehoshaphat king-of Judah dwelling man on throne-of-him clothed garments and-dwelling in-threshing, entrance-of gate-of Samaria ; and-all-of the-prophets, self-prophesying to/for-faces-of-them."
+        },
+        {
+          "n": 10,
+          "t": "Zedekiah and-has-done to/for-him son-of Chenaanah horns-of iron ; and-has-said thus YHWH has-said, in-these you-will-gore Aram until finish-of-them."
+        },
+        {
+          "n": 11,
+          "t": "and-all-of the-prophets, prophesied thus to/for-say ; ascend Ramot Gilead and-make-prosper, and-has-given YHWH in-hand-of the-king."
+        },
+        {
+          "n": 12,
+          "t": "and-the-messenger who has-gone to/for-call to/for-Micaiah has-spoken toward-him to/for-say, behold words-of the-prophets lip one good toward the-king ; and-let-be please word-of-you like-one-of from-them and-you-have-spoken good."
+        },
+        {
+          "n": 13,
+          "t": "Micaiah and-has-said ; living YHWH, for who will-say god-of-me him I-will-speak."
+        },
+        {
+          "n": 14,
+          "t": "the-king and-has-come toward and-has-said the-king toward-him Micah is-it-we-will-walk toward Ramot Gilead to/for-the-battle if I-will-cease ; and-he-has-said ascend and-make-prosper, and-they-will-be-given in-hand-of-you-pl."
+        },
+        {
+          "n": 15,
+          "t": "the-king, and-has-said toward-him until like-what strokes I making-swear-of-you ; who not you-will-speak toward-me except truth in-name-of YHWH."
+        },
+        {
+          "n": 16,
+          "t": "and-he-has-said I-have-seen all-of Israel scattered on the-mountains, like-the-flock, who naught to/for-them-f pasturing ; YHWH and-has-said not lords to/for-these, will-return man to/for-house-of-him in-peace."
+        },
+        {
+          "n": 17,
+          "t": "king-of Israel and-has-said toward Jehoshaphat ; is-it-not I-have-said toward-you, not he-will-prophesy on-me good that if to/for-evil."
+        },
+        {
+          "n": 18,
+          "t": "and-has-said, to/for-thus hear word-of YHWH ; I-have-seen YHWH dwelling on throne-of-him, and-all-of host-of the-heavens standing, on right-of-him and-left-of-him."
+        },
+        {
+          "n": 19,
+          "t": "YHWH and-has-said who will-entice Ahab king-of Israel, and-let-ascend, Gilead ; and-will-fall in-Ramot and-he-has-said, this saying thus, and-this saying thus."
+        },
+        {
+          "n": 20,
+          "t": "the-spirit and-has-exited and-has-stood to/for-faces-of YHWH, and-has-said I will-entice-him ; YHWH and-has-said toward-him in-what."
+        },
+        {
+          "n": 21,
+          "t": "and-he-has-said I-will-exit and-I-have-been to/for-spirit-of deception, in-lip-of all-of prophets-of-him ; and-he-has-said you-will-entice and-also you-will-able, exit and-do thus."
+        },
+        {
+          "n": 22,
+          "t": "and-now behold YHWH has-given spirit-of deception, in-lip-of prophets-of-you these ; and-YHWH, has-spoken on-you evil."
+        },
+        {
+          "n": 23,
+          "t": "Zedekiah and-has-approached son-of Chenaanah, and-has-made-smite Micaiah on the-Lehi ; and-has-said where this the-way has-passed spirit-of YHWH with-me to/for-speak you-f."
+        },
+        {
+          "n": 24,
+          "t": "Micaiah and-has-said, lo-you seeing in-the-day the-he ; who you-will-come chamber in-chamber to/for-be-hide."
+        },
+        {
+          "n": 25,
+          "t": "king-of Israel and-has-said, take Micaiah, and-make-return-him toward Amon official-of the-city ; and-toward Joash son-of the-king."
+        },
+        {
+          "n": 26,
+          "t": "and-you-pl-have-said thus the-king has-said, put this house-of the-prison ; and-make-eat-him food oppression and-waters oppression, until return-of-me in-peace."
+        },
+        {
+          "n": 27,
+          "t": "Micaiah and-has-said, if return you-will-return in-peace, not YHWH has-spoken in-me ; and-has-said, hear peoples all-of-them."
+        },
+        {
+          "n": 28,
+          "t": "king-of Israel and-Jehoshaphat and-has-ascended king-of Judah toward Ramot Gilead."
+        },
+        {
+          "n": 29,
+          "t": "king-of Israel and-has-said toward Jehoshaphat self-search and-come in-the-battle, and-you clothe garments-of-you ; king-of Israel and-has-self-searched, and-they-have-come in-the-battle."
+        },
+        {
+          "n": 30,
+          "t": "and-king-of Aram has-commanded officials-of the-chariot who to/for-him to/for-say, not you-pl-will-be-fought, with the-small with the-great ; that if with king-of Israel to/for-alone-of-him."
+        },
+        {
+          "n": 31,
+          "t": "and-has-been like-see officials-of the-chariot Jehoshaphat and-they have-said king-of Israel he, and-have-turned on-him to/for-be-fight ; Jehoshaphat and-YHWH and-has-outed has-helped-him, god and-has-made-incite-them from-him."
+        },
+        {
+          "n": 32,
+          "t": "and-has-been like-see officials-of the-chariot, for not king-of Israel has-been ; and-they-have-returned after-him."
+        },
+        {
+          "n": 33,
+          "t": "and-man has-drawn in-the-bow to/for-integrity-of-him, and-has-made-smite king-of Israel, between the-joints and-between the-armor ; and-has-said to/for-the-charioteer overturn hands-of-you hand-of-you and-you-have-made-exit-me from the-camp for I-have-been-made-weak."
+        },
+        {
+          "n": 34,
+          "t": "the-battle and-has-ascended in-the-day the-he, and-king-of Israel has-been making-stand in-the-chariot before Aram until the-evening ; and-has-died, to/for-time come the-sun."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Jehoshaphat and-has-returned king-of Judah toward house-of-him in-peace to/for-Jerusalem."
+        },
+        {
+          "n": 2,
+          "t": "and-has-exited toward faces-of-him Jehu son-of Hanani the-seer and-has-said toward the-king Jehoshaphat, is-it-to/for-the-wicked to/for-help, and-to/for-hating-of YHWH you-will-love ; and-in-this-f on-you wrath, from-faces-of YHWH."
+        },
+        {
+          "n": 3,
+          "t": "truly, words good have-been-found with-you-f ; for you-have-burned the-Asherah from the-land, and-you-have-made-establish heart-of-you to/for-seek the-god."
+        },
+        {
+          "n": 4,
+          "t": "Jehoshaphat and-has-dwelt in-Jerusalem ; and-has-returned and-has-exited in-the-people from-Beer Beersheba until mountain-of Ephraim, and-has-made-return-them, toward YHWH god-of fathers-of-them."
+        },
+        {
+          "n": 5,
+          "t": "and-he-has-made-stand judging in-the-land in-all-of cities-of Judah the-gather to/for-city and-city."
+        },
+        {
+          "n": 6,
+          "t": "and-he-has-said toward the-judging see what you doing, for not to/for-man will-judge for to/for-YHWH ; and-with-you-pl in-word-of justice."
+        },
+        {
+          "n": 7,
+          "t": "and-now, dread-of YHWH let-be on-you-pl ; keep and-do, for naught with YHWH god-of-us injustice and-respect-of faces and-taking-of bribe."
+        },
+        {
+          "n": 8,
+          "t": "and-also in-Jerusalem Jehoshaphat has-made-stand from the-Levi and-the-priests and-from-heads-of the-fathers to/for-Israel, to/for-justice-of YHWH and-to/for-the-strife ; and-they-have-returned Jerusalem."
+        },
+        {
+          "n": 9,
+          "t": "and-he-has-commanded on-them to/for-say ; thus you-pl-will-do in-fear-of YHWH, in-faithfulness and-in-heart complete."
+        },
+        {
+          "n": 10,
+          "t": "and-all-of strife who will-come on-you-pl from-brothers-of-you-pl the-dwelling in-cities-of-them between blood to/for-blood between instruction to/for-commandment to/for-statutes and-to/for-justices and-you-pl-have-made-warn them, and-not will-guilty to/for-YHWH, wrath and-has-been on-you-pl and-on brothers-of-you-pl ; thus you-pl-will-do and-not you-pl-will-guilty."
+        },
+        {
+          "n": 11,
+          "t": "and-behold Amariah priest-of the-head on-you-pl to/for-all-of word-of YHWH and-Zebadiah son-of Ishmael the-leader to/for-house-of Judah to/for-all-of word-of the-king, and-officialing the-Levi to/for-faces-of-you-pl ; strengthen and-do, YHWH and-will-be with the-good."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been after thus sons-of Moab have-come and-sons-of Ammon and-with-them from-the-Meunite on Jehoshaphat to/for-the-battle."
+        },
+        {
+          "n": 2,
+          "t": "and-they-have-come and-they-have-made-announce to/for-Jehoshaphat to/for-say, crowd many has-come on-you from-side to/for-the-sea from-Aram ; and-behold-them in-Behatstson Tamar, he Veeyn Engedi."
+        },
+        {
+          "n": 3,
+          "t": "and-has-feared, Jehoshaphat and-has-given faces-of-him to/for-seek to/for-YHWH ; fast and-has-called on all-of Judah."
+        },
+        {
+          "n": 4,
+          "t": "and-they-have-been-gathered Judah, to/for-seek from-YHWH ; also from-all-of cities-of Judah, they-have-come to/for-seek YHWH."
+        },
+        {
+          "n": 5,
+          "t": "Jehoshaphat and-has-stood in-assembly-of Judah and-Jerusalem in-house-of YHWH ; to/for-faces-of the-court the-new."
+        },
+        {
+          "n": 6,
+          "t": "YHWH and-has-said god-of fathers-of-us is-it-not you he god in-the-heavens, and-you ruling, in-all-of kingdoms-of the-nations ; and-in-hand-of-you strength and-might, and-naught with-you to/for-self-stand."
+        },
+        {
+          "n": 7,
+          "t": "is-it-not you god-of-us have-made-possess dwelling-of the-land the-this-f, from-faces-of people-of-you Israel ; and-you-have-given-her to/for-seed-of Abraham loving-of-you to/for-age."
+        },
+        {
+          "n": 8,
+          "t": "and-they-have-dwelt in-her ; and-they-have-built to/for-you in-her sanctuary to/for-name-of-you to/for-say."
+        },
+        {
+          "n": 9,
+          "t": "if evil sword will-come on-us judgment and-pestilence and-famine let-us-stand to/for-faces-of the-house the-this and-to/for-faces-of-you, for name-of-you in-the-house the-this ; and-we-will-out toward-you from-distress-of-us and-you-will-hear and-you-will-make-save."
+        },
+        {
+          "n": 10,
+          "t": "and-now behold sons-of Ammon and-Moab and-mountain-of Seir who not you-have-given to/for-Israel to/for-come in-them, in-come-of-them from-land-of Egypt ; for they-have-turned on-them and-not they-have-made-destroy-them."
+        },
+        {
+          "n": 11,
+          "t": "and-behold they, weaning on-us ; to/for-come to/for-drive-of-us, from-possession-of-you who you-have-made-possess-us."
+        },
+        {
+          "n": 12,
+          "t": "god-of-us is-it-not you-will-judge in-them, for naught in-us strength, to/for-faces-of the-crowd the-many the-this the-coming on-us ; and-we not will-know what will-do, for on-you eyes-of-us."
+        },
+        {
+          "n": 13,
+          "t": "and-all-of Judah, standing to/for-faces-of YHWH ; also child-of-them womans-of-them and-sons-of-them."
+        },
+        {
+          "n": 14,
+          "t": "and-Jahaziel son-of Zechariah son-of Benaiah son-of Jeiel son-of Mattaniah the-Levi from sons-of Asaph ; spirit-of YHWH, has-been on-him in-midst-of the-assembly."
+        },
+        {
+          "n": 15,
+          "t": "and-has-said make-heed all-of Judah and-dwelling-of Jerusalem, and-the-king Jehoshaphat ; thus YHWH has-said to/for-you-pl you do-not let-fear and-do-not let-be-dismayeded from-faces-of the-crowd the-many the-this, for not to/for-you-pl the-battle for to/for-god."
+        },
+        {
+          "n": 16,
+          "t": "tomorrow go on-them, lo-them ascending in-ascent-of the-Ziz ; and-you-pl-have-found them in-end-of the-torrent, faces-of wilderness-of Jeruel."
+        },
+        {
+          "n": 17,
+          "t": "not to/for-you-pl to/for-be-fight in-this-f ; stand stand and-see salvation-of YHWH with-you-pl Judah and-Jerusalem do-not let-fear and-do-not let-be-dismayeded, tomorrow exit to/for-faces-of-them, and-YHWH with-you-pl."
+        },
+        {
+          "n": 18,
+          "t": "Jehoshaphat and-has-bowed noses land-ward ; and-all-of Judah and-dwelling-of Jerusalem they-have-fallen to/for-faces-of YHWH, to/for-self-bow to/for-YHWH."
+        },
+        {
+          "n": 19,
+          "t": "the-Levi and-have-risen from sons-of the-Kohathite and-from sons-of the-Korahite ; to/for-boast to/for-YHWH god-of Israel, in-voice great to/for-above-ward."
+        },
+        {
+          "n": 20,
+          "t": "and-they-have-made-rise in-the-morning, and-they-have-exited to/for-wilderness-of Tekoa ; and-in-exit-of-them Jehoshaphat has-stood and-has-said hear-me Judah and-dwelling-of Jerusalem, make-faithful in-YHWH god-of-you-pl and-you-pl-will-be-faithfuled, make-faithful in-prophets-of-him and-make-prosper."
+        },
+        {
+          "n": 21,
+          "t": "the-people, and-has-been-advised toward and-has-made-stand singing to/for-YHWH, and-boasting to/for-adornment-of holiness ; in-exit to/for-faces-of the-armed, and-saying make-confess to/for-YHWH, for to/for-age kindness-of-him."
+        },
+        {
+          "n": 22,
+          "t": "and-in-time have-made-begin in-cry and-praise YHWH ambushing has-given on sons-of Ammon Moab and-mountain-of Seir the-coming to/for-Judah and-have-been-struck."
+        },
+        {
+          "n": 23,
+          "t": "sons-of Ammon and-have-stood and-Moab on dwelling-of mountain-of Seir to/for-make-devote and-to/for-make-destroy ; and-like-finish-of-them in-dwelling-of Seir, they-have-helped man in-neighbor-of-him to/for-destruction."
+        },
+        {
+          "n": 24,
+          "t": "and-Judah has-come on the-lookout to/for-the-wilderness ; and-have-turned toward the-crowd, and-lo-them corpses falling land-ward and-naught survivor."
+        },
+        {
+          "n": 25,
+          "t": "Jehoshaphat and-has-come and-people-of-him to/for-plunder spoil-of-them and-have-found in-them to/for-abundance and-property and-corpses and-articles-of delights, and-have-rescued to/for-them to/for-naught burden ; days and-have-been three plundering the-spoil for many he."
+        },
+        {
+          "n": 26,
+          "t": "and-in-the-day the-fourth they-have-been-gathered to/for-valley-of Beracah, for there they-have-blessed YHWH ; on thus they-have-called name-of the-place the-he valley-of Beracah until the-day."
+        },
+        {
+          "n": 27,
+          "t": "and-they-have-returned all-of man-of Judah and-Jerusalem and-Jehoshaphat in-head-of-them, to/for-return toward Jerusalem in-joy ; for YHWH from-enemying-of-them has-rejoiced-them."
+        },
+        {
+          "n": 28,
+          "t": "and-they-have-come Jerusalem, in-harps and-in-lyres and-in-trumpets ; toward house-of YHWH."
+        },
+        {
+          "n": 29,
+          "t": "dread-of god and-has-been, on all-of kingdoms-of the-lands ; in-hear-of-them, for YHWH has-been-fought, with enemying-of Israel."
+        },
+        {
+          "n": 30,
+          "t": "kingdom-of Jehoshaphat and-has-quieted ; god-of-him and-has-made-rest to/for-him from-around."
+        },
+        {
+          "n": 31,
+          "t": "Jehoshaphat and-has-reigned on Judah ; son-of thirty and-five year in-reign-of-him and-twenty and-five year has-reigned in-Jerusalem, and-name-of mother-of-him, Azubah daughter-of Shilhi."
+        },
+        {
+          "n": 32,
+          "t": "and-has-walked in-way-of father-of-him Asa and-not has-turned from-her ; to/for-do the-upright in-eyes-of YHWH."
+        },
+        {
+          "n": 33,
+          "t": "surely the-highs not have-turned ; and-still the-people not they-have-made-establish heart-of-them, to/for-god-of fathers-of-them."
+        },
+        {
+          "n": 34,
+          "t": "and-remainder-of words-of Jehoshaphat, the-first and-the-last ; lo-them written in-words-of Jehu son-of Hanani, who has-been-made-ascend, on book-of kings-of Israel."
+        },
+        {
+          "n": 35,
+          "t": "and-after thus Jehoshaphat has-self-united king-of Judah, with Ahaziah king-of Israel ; he has-made-wrong to/for-do."
+        },
+        {
+          "n": 36,
+          "t": "and-has-united-him with-him, to/for-do fleets to/for-walk Tarshish ; and-they-have-done fleets in-Beetsyon Gaber."
+        },
+        {
+          "n": 37,
+          "t": "Eliezer and-has-self-prophesied son-of Dodavahu from-Mareshah, on Jehoshaphat to/for-say ; like-self-unite-of-you with Ahaziah has-broken YHWH deeds-of-you, and-they-have-been-breaked fleets, and-not have-restrained to/for-walk toward Tarshish."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Jehoshaphat and-has-lain with fathers-of-him, and-has-been-buried with fathers-of-him in-city-of David ; Jehoram and-has-reigned son-of-him under-him."
+        },
+        {
+          "n": 2,
+          "t": "and-to/for-him brothers sons-of Jehoshaphat Azariah and-Jehiel and-Zechariah and-Azariah, and-Michael and-Shephatiah ; all-of these, sons-of Jehoshaphat king-of Israel."
+        },
+        {
+          "n": 3,
+          "t": "father-of-them and-has-given to/for-them gifts many to/for-silver and-to/for-gold and-to/for-preciouses, with cities-of fortresses in-Judah ; and-the-kingdom he the-firstborn has-given to/for-Jehoram for."
+        },
+        {
+          "n": 4,
+          "t": "Jehoram and-has-risen on kingdom-of father-of-him and-has-self-strengthened, and-has-killed all-of brothers-of-him in-the-sword ; and-also from-officials-of Israel."
+        },
+        {
+          "n": 5,
+          "t": "son-of thirty and-two year Jehoram in-reign-of-him ; and-eight years, he-has-reigned in-Jerusalem."
+        },
+        {
+          "n": 6,
+          "t": "and-has-walked in-way-of kings-of Israel like-when they-have-done house-of Ahab, for daughter-of Ahab, has-been to/for-him woman ; and-he-has-done the-bad in-eyes-of YHWH."
+        },
+        {
+          "n": 7,
+          "t": "and-not YHWH has-willinged to/for-destroy house-of David, sake the-covenant, who has-cut to/for-David ; and-like-when lamp has-said to/for-give to/for-him and-to/for-sons-of-him all-of the-days."
+        },
+        {
+          "n": 8,
+          "t": "in-days-of-him Edom has-transgressed, under hand-of Judah ; and-they-have-made-reign on-them king."
+        },
+        {
+          "n": 9,
+          "t": "Jehoram and-has-passed with officials-of-him, and-all-of the-chariot with-him ; and-has-been rising night, and-has-made-smite Edom the-turning toward-him, and-officials-of the-chariot."
+        },
+        {
+          "n": 10,
+          "t": "Edom and-has-transgressed under hand-of Judah until the-day the-this, then will-transgress Libnah in-the-time the-he under hand-of-him ; for has-left, YHWH god-of fathers-of-him."
+        },
+        {
+          "n": 11,
+          "t": "also he has-done highs in-mountains-of Judah ; and-has-made-fornicate dwelling-of Jerusalem, and-has-made-banish Judah."
+        },
+        {
+          "n": 12,
+          "t": "writing, and-has-come toward-him from-Elijah the-prophet to/for-say ; thus YHWH has-said god-of David father-of-you, under who not you-have-gone in-ways-of Jehoshaphat father-of-you, and-in-ways-of Asa king-of Judah."
+        },
+        {
+          "n": 13,
+          "t": "and-you-have-walked in-way-of kings-of Israel, and-you-have-made-fornicate Judah and-dwelling-of Jerusalem, like-make-fornicate house-of Ahab ; and-also brothers-of-you house-of father-of-you the-good from-you you-have-killed."
+        },
+        {
+          "n": 14,
+          "t": "behold YHWH striking plague great in-people-of-you ; and-in-sons-of-you and-in-womans-of-you and-in-all-of property-of-you."
+        },
+        {
+          "n": 15,
+          "t": "and-you in-sicknesses many in-sickness-of bellies-of-you ; until bellies-of-you will-exit from the-sickness, days on days."
+        },
+        {
+          "n": 16,
+          "t": "YHWH and-has-made-rouse on Jehoram spirit-of the-Philistine and-the-Arabian, who on hand-of Ethiopian."
+        },
+        {
+          "n": 17,
+          "t": "and-have-ascended in-Judah and-have-broken-her, and-have-captived all-of the-property the-found to/for-house-of the-king, and-also sons-of-him and-womans-of-him ; and-not son, has-been-remained to/for-him that if Jehoahaz small-of sons-of-him."
+        },
+        {
+          "n": 18,
+          "t": "and-after all-of this-f ; YHWH has-struck-him in-bellies-of-him to/for-sickness to/for-naught healing."
+        },
+        {
+          "n": 19,
+          "t": "and-has-been to/for-days from-days and-like-time-of exit the-end to/for-days two have-exited bellies-of-him with sickness-of-him, and-has-died in-diseases bad ; and-not they-have-done to/for-him people-of-him fire like-fire-of fathers-of-him."
+        },
+        {
+          "n": 20,
+          "t": "son-of thirty and-two has-been in-reign-of-him, and-eight years, has-reigned in-Jerusalem ; and-he-has-walked in-not desire, and-they-have-buried-him in-city-of David, and-not in-graves-of the-kings."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-they-have-made-reign dwelling-of Jerusalem Ahaziah son-of-him the-small under-him, for all-of the-first has-killed the-band, the-coming in-the-Arabian to/for-the-camp ; Ahaziah and-has-reigned son-of Jehoram king-of Judah."
+        },
+        {
+          "n": 2,
+          "t": "son-of forty and-two year Ahaziah in-reign-of-him, and-year one, has-reigned in-Jerusalem ; and-name-of mother-of-him, Athaliah daughter-of Omri."
+        },
+        {
+          "n": 3,
+          "t": "also he has-gone, in-ways-of house-of Ahab ; for mother-of-him has-been advising-of-him to/for-make-wrong."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-done the-bad in-eyes-of YHWH like-house-of Ahab ; for they have-been to/for-him advising after death-of father-of-him to/for-destruction to/for-him."
+        },
+        {
+          "n": 5,
+          "t": "also in-counsel-of-them has-gone Jehoram and-has-walked with son-of Ahab king-of Israel to/for-the-battle on Hazael king-of Aram in-Ramot Gilead ; the-Syrian and-have-made-smite Joram."
+        },
+        {
+          "n": 6,
+          "t": "and-has-returned to/for-self-heal in-Jezreel for the-wounds who have-made-smite-him in-the-Ramah, in-be-fight-of-him, with Hazael king-of Aram ; and-Azariah son-of Jehoram king-of Judah has-gone to/for-see Jehoram son-of Ahab in-Jezreel for weaking he."
+        },
+        {
+          "n": 7,
+          "t": "and-from-god ruin-of Ahaziah has-been, to/for-come toward Joram ; and-in-come-of-him Jehoram has-exited with toward Jehu son-of Nimshi, who has-anointed-him YHWH, to/for-make-cut house-of Ahab."
+        },
+        {
+          "n": 8,
+          "t": "and-has-been, like-be-judge Jehu with house-of Ahab ; and-he-has-found officials-of Judah and-sons-of brothers-of Ahaziah ministering to/for-Ahaziah and-he-has-killed-them."
+        },
+        {
+          "n": 9,
+          "t": "and-has-sought Ahaziah and-they-have-captured-him and-he self-hiding in-Samaria and-they-have-made-come-him toward Jehu and-they-have-made-die-him and-they-have-buried-him, for they-have-said son-of Jehoshaphat he, who has-sought YHWH in-all-of heart-of-him ; and-naught to/for-house-of Ahaziah, to/for-restrain strength to/for-kingdom."
+        },
+        {
+          "n": 10,
+          "t": "and-Athaliah mother-of Ahaziah, has-seen for son-of-her has-died ; and-she-has-risen and-she-has-spoken all-of seed-of the-kingdom to/for-house-of Judah."
+        },
+        {
+          "n": 11,
+          "t": "Jehoshabeath and-has-taken daughter-of the-king Joash son-of Ahaziah and-has-stealed him from-midst-of sons-of the-king the-been-made-die, and-has-given him and-suckle-of-him in-chamber-of the-beds ; Jehoshabeath and-has-made-hide-him daughter-of the-king Jehoram woman-of Jehoiada the-priest for he has-been sister-of Ahaziah from-faces-of Athaliah and-not has-made-die-him."
+        },
+        {
+          "n": 12,
+          "t": "and-has-been with-them in-house-of the-god, self-hiding six years and-Athaliah reigning on the-land."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-in-the-year the-seventh Jehoiada has-self-strengthened and-has-taken officials-of the-hundred to/for-Azariah son-of Jeroham and-to/for-Ishmael son-of Johanan and-to/for-Azariah son-of Obed and-Maaseiah son-of Adaiah and-Elishaphat son-of Zichri with-him in-the-covenant."
+        },
+        {
+          "n": 2,
+          "t": "and-have-turned in-Judah, and-have-gathered the-Levi from-all-of cities-of Judah, and-heads-of the-fathers to/for-Israel ; and-they-have-come toward Jerusalem."
+        },
+        {
+          "n": 3,
+          "t": "all-of the-assembly and-has-cut covenant in-house-of the-god with the-king ; and-has-said to/for-them behold son-of the-king will-reign, like-when YHWH has-spoken on sons-of David."
+        },
+        {
+          "n": 4,
+          "t": "this the-word who you-pl-will-do ; the-third from-you-pl coming-of the-sabbath to/for-the-priests and-to/for-the-Levi, to/for-gatekeepers-of the-thresholds."
+        },
+        {
+          "n": 5,
+          "t": "and-the-third in-house-of the-king, and-the-third in-gate-of the-foundation ; and-all-of the-people, in-courts-of house-of YHWH."
+        },
+        {
+          "n": 6,
+          "t": "and-do-not house-of YHWH let-come that if the-priests and-the-ministering to/for-the-Levi, they let-come for holiness they ; and-all-of the-people, they-will-keep charge-of YHWH."
+        },
+        {
+          "n": 7,
+          "t": "the-Levi and-have-made-surround the-king around man and-articles-of-him in-hand-of-him, and-the-coming toward the-house will-be-made-die ; and-be with the-king in-come-of-him and-in-exit-of-him."
+        },
+        {
+          "n": 8,
+          "t": "the-Levi and-have-done and-all-of Judah like-all who has-commanded Jehoiada the-priest and-have-taken man mans-of-him, coming-of the-sabbath, with exiting-of the-sabbath ; for not Jehoiada the-priest has-separated the-divisions."
+        },
+        {
+          "n": 9,
+          "t": "Jehoiada the-priest and-has-given to/for-officials-of the-hundred the-spears and-the-shields and-the-shields, who to/for-the-king David ; who house-of the-god."
+        },
+        {
+          "n": 10,
+          "t": "and-has-made-stand all-of the-people and-man missile-of-him in-hand-of-him from-shoulder-of the-house the-right until shoulder-of the-house the-left, to/for-the-altar and-to/for-the-house ; on the-king around."
+        },
+        {
+          "n": 11,
+          "t": "and-they-have-made-exit son-of the-king and-they-have-given on-him the-consecration and-the-testimony, and-they-have-made-reign him ; and-have-anointed-him Jehoiada and-sons-of-him, and-have-said the-king let-live."
+        },
+        {
+          "n": 12,
+          "t": "Athaliah and-has-heard voice-of the-people the-runing, and-the-boasting the-king ; and-she-has-come toward the-people house-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "and-she-has-seen and-behold the-king standing on pillar-of-him in-the-entrance and-the-officials and-the-trumpets on the-king and-all-of people-of the-land glad and-blowing in-trumpets, and-the-singing in-articles-of the-song, and-making-know to/for-boast ; Athaliah and-has-teared garments-of-her, and-she-has-said conspiracy conspiracy."
+        },
+        {
+          "n": 14,
+          "t": "Jehoiada the-priest and-has-made-exit officials-of the-hundred reckoned-of the-helech and-has-said toward-them make-exit-her toward from-house-of the-ranks, and-the-coming after-her will-be-made-die in-the-sword ; for the-priest has-said, not you-pl-will-make-die-her house-of YHWH."
+        },
+        {
+          "n": 15,
+          "t": "and-they-have-put to/for-her hands, and-she-has-come toward entrance-of gate-of the-horses house-of the-king ; and-they-have-made-die-her there."
+        },
+        {
+          "n": 16,
+          "t": "Jehoiada and-has-cut covenant, between-him, and-between all-of the-people and-between the-king ; to/for-be to/for-people to/for-YHWH."
+        },
+        {
+          "n": 17,
+          "t": "and-they-have-come all-of the-people house-of the-Baal and-they-have-teared-him, and-altars-of-him and-images-of-him they-have-breaked ; and-Mattan priest-of the-Baal, they-have-killed to/for-faces-of the-altars."
+        },
+        {
+          "n": 18,
+          "t": "Jehoiada and-has-put punishments-of house-of YHWH in-hand-of the-priests the-Levi who has-divided David on house-of YHWH to/for-make-ascend burnts-of YHWH like-the-written in-instruction-of Moses in-joy and-in-song ; on hands-of David."
+        },
+        {
+          "n": 19,
+          "t": "and-he-has-made-stand the-gatekeepers, on gates-of house-of YHWH ; and-not he-will-come unclean to/for-all-of word."
+        },
+        {
+          "n": 20,
+          "t": "and-has-taken officials-of the-hundred and-the-great and-the-ruling in-the-people and-all-of people-of the-land and-has-made-go the-king from-house-of YHWH, and-they-have-come in-midst-of gate-of the-high house-of the-king ; and-they-have-made-dwell the-king, on throne-of the-kingdom."
+        },
+        {
+          "n": 21,
+          "t": "and-they-have-rejoiced all-of people-of the-land and-the-city has-quieted ; and-Athaliah they-have-made-die in-the-sword."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of seven years Joash in-reign-of-him, and-forty year, has-reigned in-Jerusalem ; and-name-of mother-of-him, Zibiah from-Beer Beersheba."
+        },
+        {
+          "n": 2,
+          "t": "Joash the-upright and-has-done in-eyes-of YHWH ; all-of days-of Jehoiada the-priest."
+        },
+        {
+          "n": 3,
+          "t": "Jehoiada and-has-lifted to/for-him womans two ; and-he-has-made-beget sons and-daughters."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-been after thus ; heart-of Joash, has-been with to/for-renew house-of YHWH."
+        },
+        {
+          "n": 5,
+          "t": "and-has-gathered the-priests and-the-Levi and-has-said to/for-them exit to/for-cities-of Judah and-gather from-all-of Israel silver to/for-strengthen house-of god-of-you-pl from-sufficiency-of year in-year, and-you will-hasten to/for-the-word ; and-not the-Levi have-hastened."
+        },
+        {
+          "n": 6,
+          "t": "the-king and-has-called to/for-Jehoiada the-head and-has-said to/for-him why not you-have-sought on the-Levi, to/for-make-come from-Judah and-from-Jerusalem tribute-of Moses servant-of YHWH, and-the-assembly to/for-Israel ; to/for-tent-of the-testimony."
+        },
+        {
+          "n": 7,
+          "t": "for Athaliah the-wickedness, sons-of-her have-broken house-of the-god ; and-also all-of holinesses-of house-of YHWH, they-have-done to/for-the-Baal."
+        },
+        {
+          "n": 8,
+          "t": "the-king and-has-said, and-they-have-done ark one ; and-they-have-given-him in-gate-of house-of YHWH outside-ward."
+        },
+        {
+          "n": 9,
+          "t": "and-they-have-given voice in-Judah and-in-Jerusalem to/for-make-come to/for-YHWH tribute-of Moses servant-of the-god on Israel in-the-wilderness."
+        },
+        {
+          "n": 10,
+          "t": "and-they-have-rejoiced all-of the-officials and-all-of the-people ; and-they-have-made-come and-they-have-made-throw to/for-the-ark until to/for-finish."
+        },
+        {
+          "n": 11,
+          "t": "and-has-been in-time-of will-make-come the-ark toward punishment-of the-king in-hand-of the-Levi and-like-see-of-them for many the-silver and-has-come secretary-of the-king and-overseer-of priest-of the-head, and-they-will-uncover the-ark, and-they-will-lift-him and-they-will-make-return-him toward place-of-him ; thus they-have-done to/for-day in-day, and-they-have-gathered silver to/for-abundance."
+        },
+        {
+          "n": 12,
+          "t": "the-king and-Jehoiada and-has-given-him toward doing-of work-of service-of house-of YHWH, and-have-been hiring hewing and-artificers, to/for-renew house-of YHWH ; and-also to/for-artificers-of iron and-bronze, to/for-strengthen house-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "and-they-have-done doing-of the-work, and-has-ascended health to/for-the-work in-hand-of-them ; and-they-have-made-stand house-of the-god on tally-of-him and-they-have-strengthened-him."
+        },
+        {
+          "n": 14,
+          "t": "and-like-finish-of-them have-made-come to/for-faces-of the-king and-Jehoiada remnant-of the-silver and-has-done-him articles to/for-house-of YHWH articles-of ministry, and-make-ascend and-palms, and-articles-of gold and-silver ; and-they-have-been making-ascend burnts in-house-of YHWH continually, all-of days-of Jehoiada."
+        },
+        {
+          "n": 15,
+          "t": "Jehoiada and-has-olded and-has-satisfied days and-has-died ; son-of hundred and-thirty year in-death-of-him."
+        },
+        {
+          "n": 16,
+          "t": "and-have-buried-him in-city-of David with the-kings ; for has-done welfare in-Israel, and-with the-god and-house-of-him."
+        },
+        {
+          "n": 17,
+          "t": "and-after death-of Jehoiada, officials-of Judah have-come, and-have-self-bowed to/for-the-king ; then the-king has-heard toward-them."
+        },
+        {
+          "n": 18,
+          "t": "and-they-have-left house-of YHWH god-of fathers-of-them, and-they-have-served the-Asherah and-the-idols ; wrath and-has-been on Judah and-Jerusalem, in-guiltiness-of-them this-f."
+        },
+        {
+          "n": 19,
+          "t": "and-has-sended in-them prophets, to/for-make-return-of-them toward YHWH ; and-they-have-made-testify in-them and-not they-have-made-listen."
+        },
+        {
+          "n": 20,
+          "t": "and-spirit-of god has-clothed Zechariah son-of Jehoiada the-priest, and-has-stood on to/for-the-people ; and-has-said to/for-them thus the-god has-said to/for-what you passing commandments-of YHWH and-not will-make-prosper, for have-left YHWH and-has-left you-pl."
+        },
+        {
+          "n": 21,
+          "t": "and-they-have-conspired on-him, and-they-have-stoned-him stone in-commandment-of the-king ; in-court-of house-of YHWH."
+        },
+        {
+          "n": 22,
+          "t": "and-not Joash the-king the-kindness has-remembered who has-done Jehoiada father-of-him with-him, and-has-killed son-of-him ; and-like-die-of-him has-said, YHWH let-see and-will-seek."
+        },
+        {
+          "n": 23,
+          "t": "and-has-been to/for-circuit-of the-year rampart-of Aram has-ascended on-him and-they-have-come toward Judah and-Jerusalem, and-they-have-destroyed all-of officials-of the-people from-people ; and-all-of spoil-of-them they-have-sended to/for-king-of Damascus."
+        },
+        {
+          "n": 24,
+          "t": "for in-little-of mans they-have-come rampart-of Aram and-YHWH has-given in-hand-of-them helech to/for-abundance very, for they-have-left, YHWH god-of fathers-of-them ; and-with judgments have-done Joash."
+        },
+        {
+          "n": 25,
+          "t": "and-in-walk-of-them from-us for have-left him in-sufferings many servants-of-him have-self-conspired on-him in-bloods-of sons-of Jehoiada the-priest, and-have-killed-him on bed-of-him and-has-died ; and-they-have-buried-him in-city-of David, and-not they-have-buried-him in-graves-of the-kings."
+        },
+        {
+          "n": 26,
+          "t": "and-these the-self-conspiring on-him ; Zabad son-of Shimeath the-Ammonitess, and-Jehozabad, son-of Shimrith the-Moabite."
+        },
+        {
+          "n": 27,
+          "t": "the-oracle and-abundance-of will-multiply and-sons-of-him on-him and-foundation house-of the-god, lo-them written, on story-of book-of the-kings ; Amaziah and-has-reigned son-of-him under-him."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of twenty and-five year has-reigned Amaziah, and-twenty and-nine year, has-reigned in-Jerusalem ; and-name-of mother-of-him, Jehoaddan from-Jerusalem."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-done the-upright in-eyes-of YHWH ; except, not in-heart complete."
+        },
+        {
+          "n": 3,
+          "t": "and-he-has-been, like-when the-kingdom has-strengthened on-him ; and-has-killed servants-of-him, the-making-smite the-king father-of-him."
+        },
+        {
+          "n": 4,
+          "t": "and-sons-of-them not he-has-made-die ; for like-the-written in-the-instruction in-book-of Moses who YHWH has-commanded to/for-say not will-die fathers on sons and-sons not will-die on fathers, for man in-sin-of-him will-die."
+        },
+        {
+          "n": 5,
+          "t": "Amaziah and-has-gathered Judah, and-has-made-stand-them to/for-house-of fathers to/for-officials-of the-thousand and-to/for-officials-of the-hundred, to/for-all-of Judah and-Benjamin ; and-has-reckoned-them to/for-son-of twenty year and-above-ward, and-has-found-them three hundred thousand chosen exiting host, grasping spear and-shield."
+        },
+        {
+          "n": 6,
+          "t": "and-has-hired from-Israel hundred thousand mighty-of helech in-hundred plain-of silver."
+        },
+        {
+          "n": 7,
+          "t": "and-man-of the-god has-come toward-him to/for-say, the-king, do-not let-come with-you host-of Israel ; for naught YHWH with Israel, all-of sons-of Ephraim."
+        },
+        {
+          "n": 8,
+          "t": "that if come you, do strengthen to/for-the-battle ; the-god will-make-stumble-you to/for-faces-of enemying, for there strength in-god to/for-help and-to/for-make-stumble."
+        },
+        {
+          "n": 9,
+          "t": "Amaziah and-has-said to/for-man-of the-god, and-what to/for-do to/for-hundred-of the-plain, who I-have-given to/for-band-of Israel ; man-of the-god and-has-said, there to/for-YHWH, to/for-give to/for-you make-multiply from-this."
+        },
+        {
+          "n": 10,
+          "t": "Amaziah and-has-made-separate-them to/for-the-band who has-come toward-him from-Ephraim, to/for-walk to/for-place-of-them ; nose-of-them and-has-kindled very in-Judah, and-they-have-returned to/for-place-of-them in-burning-of nose."
+        },
+        {
+          "n": 11,
+          "t": "and-Amaziah has-self-strengthened, and-has-led people-of-him, valley salt and-has-walked ; and-he-has-made-smite sons-of Seir ten-of thousand."
+        },
+        {
+          "n": 12,
+          "t": "and-ten-of thousand living sons-of Judah have-captived, and-have-made-come-them to/for-head-of the-Rock ; and-they-have-made-throw-them from-head-of the-Rock and-all-of-them they-have-been-broken."
+        },
+        {
+          "n": 13,
+          "t": "and-sons-of the-band who has-made-return Amaziah from-walk with-him to/for-the-battle, and-have-striped in-cities-of Judah, from-Samaria and-until Beth-horon Horon ; and-they-have-made-smite from-them three-of thousand, and-they-have-plundered plunder many."
+        },
+        {
+          "n": 14,
+          "t": "and-has-been after come Amaziah from-make-smite Edomite, and-has-made-come gods-of sons-of Seir, and-has-made-stand-them to/for-him to/for-gods ; and-to/for-faces-of-them he-will-bow and-to/for-them he-will-offer."
+        },
+        {
+          "n": 15,
+          "t": "and-has-kindled nose YHWH in-Amaziah ; prophet, and-has-sended toward-him and-has-said to/for-him to/for-what you-have-sought gods-of the-people, who not they-have-made-rescue people-of-them from-hand-of-you."
+        },
+        {
+          "n": 16,
+          "t": "and-he-has-been in-speak-of-him toward-him and-he-has-said to/for-him is-it-to/for-the-advising to/for-the-king we-have-given-you, cease to/for-you to/for-what they-will-make-smite-you ; the-prophet and-has-ceased and-has-said I-have-known for god has-advised to/for-destroy-of-you, for you-have-done this-f, and-not you-have-heard to/for-counsel-of-me."
+        },
+        {
+          "n": 17,
+          "t": "Amaziah and-has-been-advised king-of Judah, and-has-sended toward Joash son-of Jehoahaz son-of Jehu king-of Israel to/for-say ; to/for-to/for go-heh let-us-see faces."
+        },
+        {
+          "n": 18,
+          "t": "Joash and-has-sended king-of Israel toward Amaziah king-of Judah to/for-say the-thistle who in-the-Lebanon has-sended toward the-cedar who in-the-Lebanon to/for-say, give-heh daughter-of-you to/for-son-of-me to/for-woman ; beast-of the-field and-has-passed who in-the-Lebanon, and-has-trampled the-thistle."
+        },
+        {
+          "n": 19,
+          "t": "you-have-said behold you-have-made-smite Edom, heart-of-you and-has-lifted-you to/for-make-honor ; now dwell-heh in-house-of-you, to/for-what will-stir in-evil, you and-have-fallen, and-Judah with-you-f."
+        },
+        {
+          "n": 20,
+          "t": "and-not Amaziah has-heard, for from-the-god he, sake give-of-them in-hand ; for they-have-sought, god-of Edom."
+        },
+        {
+          "n": 21,
+          "t": "Joash and-has-ascended king-of Israel and-have-self-seen faces, he and-Amaziah king-of Judah ; in-Beth-shemesh Chemech who to/for-Judah."
+        },
+        {
+          "n": 22,
+          "t": "Judah and-has-been-struck to/for-faces-of Israel ; and-they-have-fled man to/for-tents-of-him."
+        },
+        {
+          "n": 23,
+          "t": "Joash has-captured and-Amaziah king-of Judah son-of Joash son-of Jehoahaz, king-of Israel in-Beth-shemesh Chemech ; Jerusalem and-has-made-come-him, and-has-broken in-wall-of Jerusalem from-gate-of Ephraim until gate-of the-turning, four hundred cubit."
+        },
+        {
+          "n": 24,
+          "t": "and-all-of the-gold and-the-silver and-all-of the-articles the-found in-house-of the-god with Obed Edom and-treasures-of house-of the-king, and-sons-of the-securities ; Samaria and-has-returned."
+        },
+        {
+          "n": 25,
+          "t": "Amaziah and-has-lived son-of Joash king-of Judah, after death-of, Joash son-of Jehoahaz king-of Israel ; five ten year."
+        },
+        {
+          "n": 26,
+          "t": "and-remainder-of words-of Amaziah, the-first and-the-last ; is-it-not lo-them written, on book-of kings-of Judah and-Israel."
+        },
+        {
+          "n": 27,
+          "t": "and-from-time who Amaziah has-turned after YHWH, and-they-have-conspired on-him conspiracy in-Jerusalem and-has-fled Lachish-ward ; and-they-have-sended after-him Lachish-ward, and-they-have-made-die-him there."
+        },
+        {
+          "n": 28,
+          "t": "the-horses ; and-have-lifted-him on and-have-buried him with fathers-of-him in-city-of Judah."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-they-have-taken all-of people-of Judah Uzziah, and-he, son-of six ten year ; and-they-have-made-reign him, under father-of-him Amaziah."
+        },
+        {
+          "n": 2,
+          "t": "he has-built Eloth, and-has-made-return-her to/for-Judah ; after lie the-king with fathers-of-him."
+        },
+        {
+          "n": 3,
+          "t": "son-of six ten year Uzziah in-reign-of-him, and-fifty and-two year, has-reigned in-Jerusalem ; and-name-of mother-of-him, Jecoliah from Jerusalem."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-done the-upright in-eyes-of YHWH ; like-all who Amaziah has-done father-of-him."
+        },
+        {
+          "n": 5,
+          "t": "and-has-been to/for-seek god, in-days-of Zechariah, the-making-discern in-see the-god ; and-in-days-of seek-of-him the-god has-made-prosper-him YHWH,."
+        },
+        {
+          "n": 6,
+          "t": "and-he-has-exited and-he-has-been-fought in-the-Philistine, and-he-has-broken wall-of Gath and-wall-of Jabneh, and-wall-of Ashdod ; and-he-has-built cities, in-Ashdod and-in-the-Philistine."
+        },
+        {
+          "n": 7,
+          "t": "the-god and-has-helped-him on Philistine and-on the-Arabian the-dwelling in-Begour Gurbaal and-the-Meunite."
+        },
+        {
+          "n": 8,
+          "t": "the-Meunite and-have-given offering to/for-Uzziah ; name-of-him and-has-walked until to/for-come Egypt, for has-made-strengthen until to/for-above-ward."
+        },
+        {
+          "n": 9,
+          "t": "Uzziah and-has-built towers in-Jerusalem, on gate-of the-corner and-on gate-of the-valley and-on the-angle ; and-he-has-strengthened-them."
+        },
+        {
+          "n": 10,
+          "t": "and-has-built towers in-the-wilderness and-has-hewed pits many, for livestock many has-been to/for-him, and-in-the-shephelah and-in-the-plain ; farmers and-tends in-the-mountains and-in-the-Carmel, for loving ground he-has-been."
+        },
+        {
+          "n": 11,
+          "t": "helech doing-of and-has-been to/for-Uzziah battle exiting-of host to/for-band in-number-of punishment-of-them, in-hand-of Jeiel the-secretary, and-Maaseiah the-officialing ; on hand-of Hananiah, from-officials-of the-king."
+        },
+        {
+          "n": 12,
+          "t": "all-of number-of heads-of the-fathers to/for-mighty-of helech, thousand and-six hundred."
+        },
+        {
+          "n": 13,
+          "t": "and-on hand-of-them rampart-of host three hundred thousand and-seven-of thousand and-five hundred, doing-of battle in-strength-of helech ; to/for-help to/for-the-king on the-enemying."
+        },
+        {
+          "n": 14,
+          "t": "Uzziah and-has-made-establish to/for-them to/for-all-of the-host shields and-spears and-helmets, and-armors and-bows ; and-to/for-stones-of slings."
+        },
+        {
+          "n": 15,
+          "t": "and-he-has-done in-Jerusalem inventions plot-of devising to/for-be on the-towers and-on the-corners, to/for-shoot in-the-arrows, and-in-the-stones great ; name-of-him and-has-exited until to/for-far, for has-made-wonder to/for-be-help until for has-strengthened."
+        },
+        {
+          "n": 16,
+          "t": "and-like-strength-of-him heart-of-him has-exulted until to/for-destroy, and-has-betrayed in-YHWH god-of-him ; temple-of YHWH, and-has-come toward to/for-make-offer on altar-of the-incense."
+        },
+        {
+          "n": 17,
+          "t": "Azariah the-priest ; and-has-come after-him and-with-him priests to/for-YHWH eighty sons-of helech."
+        },
+        {
+          "n": 18,
+          "t": "and-have-stood on Uzziah the-king and-have-said to/for-him not to/for-you Uzziah to/for-make-offer to/for-YHWH, for to/for-the-priests sons-of Aaron the-consecrated to/for-make-offer ; exit from the-sanctuary for you-have-betrayed, and-not to/for-you to/for-glory from-YHWH god."
+        },
+        {
+          "n": 19,
+          "t": "Uzziah and-has-enraged, and-in-hand-of-him censer to/for-make-offer ; and-in-enrage-of-him with the-priests and-the-leprosy has-risen in-forehead-of-him to/for-faces-of the-priests in-house-of YHWH, on to/for-altar-of the-incense."
+        },
+        {
+          "n": 20,
+          "t": "Azariah and-has-turned toward-him priest-of the-head and-all-of the-priests and-behold he leproused in-forehead-of-him, and-they-have-made-dismay-him from-there ; and-also he has-been-hastened to/for-exit, for YHWH has-touched-him."
+        },
+        {
+          "n": 21,
+          "t": "Uzziah the-king leproused and-has-been until day-of death-of-him and-has-dwelt house-of the-freedom leproused, for has-been-cut from-house-of YHWH ; and-Jotham son-of-him on house-of the-king, judging people-of the-land."
+        },
+        {
+          "n": 22,
+          "t": "and-remainder-of words-of Uzziah, the-first and-the-last ; Isaiah has-written son-of Amoz the-prophet."
+        },
+        {
+          "n": 23,
+          "t": "Uzziah and-has-lain with fathers-of-him and-have-buried him with fathers-of-him in-field-of the-tomb who to/for-the-kings, for have-said leproused he ; Jotham and-has-reigned son-of-him under-him."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of twenty and-five year Jotham in-reign-of-him, and-six ten year, has-reigned in-Jerusalem ; and-name-of mother-of-him, Jerusha daughter-of Zadok."
+        },
+        {
+          "n": 2,
+          "t": "and-has-done the-upright in-eyes-of YHWH like-all who Uzziah has-done father-of-him, except, not has-come toward temple-of YHWH ; and-still the-people destroying."
+        },
+        {
+          "n": 3,
+          "t": "he has-built gate-of house-of YHWH the-high ; and-in-wall-of the-Ophel he-has-built to/for-abundance."
+        },
+        {
+          "n": 4,
+          "t": "and-cities he-has-built in-mountain-of Judah ; and-in-the-Horesh he-has-built, fortresses and-towers."
+        },
+        {
+          "n": 5,
+          "t": "and-he has-been-fought with king-of sons-of Ammon and-has-strengthened on-them sons-of Ammon and-have-given to/for-him in-the-year the-he hundred plain-of silver, and-ten-of thousand kors wheats, and-barleys ten-of thousand ; this-f sons-of Ammon, have-made-return to/for-him and-in-the-year the-second and-the-third."
+        },
+        {
+          "n": 6,
+          "t": "Jotham and-has-self-strengthened ; for has-made-establish ways-of-him, to/for-faces-of YHWH god-of-him."
+        },
+        {
+          "n": 7,
+          "t": "and-remainder-of words-of Jotham, and-all-of battles-of-him and-ways-of-him ; lo-them written, on book-of kings-of Israel and-Judah."
+        },
+        {
+          "n": 8,
+          "t": "son-of twenty and-five year has-been in-reign-of-him ; and-six ten year, he-has-reigned in-Jerusalem."
+        },
+        {
+          "n": 9,
+          "t": "Jotham and-has-lain with fathers-of-him, and-have-buried him in-city-of David ; Ahaz and-has-reigned son-of-him under-him."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of twenty year Ahaz in-reign-of-him, and-six ten year, has-reigned in-Jerusalem ; and-not has-done the-upright in-eyes-of YHWH like-David father-of-him."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-walked, in-ways-of kings-of Israel ; and-also liquids he-has-done to/for-the-Baal."
+        },
+        {
+          "n": 3,
+          "t": "and-he has-made-offer in-valley-of son Hinom ; and-has-made-burn sons-of-him in-the-fire, like-abominations-of the-nations, who YHWH has-made-possess, from-faces-of sons-of Israel."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-sacrificed and-he-has-offered in-the-highs and-on the-Gibat ; and-under all-of tree luxuriant."
+        },
+        {
+          "n": 5,
+          "t": "YHWH and-has-given-him god-of-him in-hand-of king-of Aram and-they-have-made-smite in-him, and-they-have-captived from-us captive great, and-they-have-made-come Damascus ; and-also in-hand-of king-of Israel given, and-he-has-made-smite in-him wound great."
+        },
+        {
+          "n": 6,
+          "t": "Pekah and-has-killed son-of Remaliah in-Judah hundred and-twenty thousand in-day one the-all sons-of helech ; in-leave-of-them, YHWH god-of fathers-of-them."
+        },
+        {
+          "n": 7,
+          "t": "Zichri mighty-of Ephraim and-has-killed Maaseiah son-of the-king, and-Azrikam leader-of the-house ; and-Elkanah second-of the-king."
+        },
+        {
+          "n": 8,
+          "t": "sons-of Israel and-have-captived from-brothers-of-them hundred thousand womans sons and-daughters, and-also spoil many have-plundered from-them ; and-they-have-made-come the-spoil to/for-Samaria."
+        },
+        {
+          "n": 9,
+          "t": "and-there prophet has-been to/for-YHWH Oded name-of-him and-has-exited to/for-faces-of the-host the-coming to/for-Samaria, and-has-said to/for-them behold in-rage-of YHWH god-of fathers-of-you-pl on Judah has-given-them in-hand-of-you-pl ; and-you-pl-have-killed in-them in-rage, until to/for-the-heavens he-has-made-touch."
+        },
+        {
+          "n": 10,
+          "t": "and-now sons-of Judah and-Jerusalem you saying, to/for-subdue to/for-servants and-to/for-maidservants to/for-you-pl ; is-it-not except you with-you-pl guiltinesses, to/for-YHWH god-of-you-pl."
+        },
+        {
+          "n": 11,
+          "t": "and-now hear-me, and-make-return the-captive, who you-pl-have-captived from-brothers-of-you-pl ; for burning-of nose YHWH on-you-pl."
+        },
+        {
+          "n": 12,
+          "t": "mans and-have-risen from-heads-of sons-of Ephraim Azariah son-of Johanan Berechiah son-of Meshillemoth, and-Jehizkiah son-of Shallum, and-Amasa son-of Hadlai ; on the-coming from the-host."
+        },
+        {
+          "n": 13,
+          "t": "and-they-have-said to/for-them not will-make-come the-captive here, for to/for-guiltiness-of YHWH on-us you saying, to/for-make-add on offenses-of-us and-on guiltiness-of-us ; for many guiltiness to/for-us, and-burning-of nose on Israel."
+        },
+        {
+          "n": 14,
+          "t": "and-has-left the-armed the-captive and-the-plunder, to/for-faces-of the-officials and-all-of the-assembly."
+        },
+        {
+          "n": 15,
+          "t": "the-mans and-have-risen who have-been-pierced in-names and-have-made-strengthen in-the-captive and-all-of nakeds-of-them have-made-clothe from the-spoil and-have-made-clothe-them and-have-made-shoe-them and-have-made-eat-them and-have-made-water-them and-have-anointed-them and-have-guided-them in-donkeys to/for-all-of stumbling, and-have-made-come-them Jericho city-of the-palms beside brothers-of-them ; and-they-have-returned Samaria."
+        },
+        {
+          "n": 16,
+          "t": "in-the-time the-he the-king Ahaz has-sended on kings-of Asshur to/for-help to/for-him."
+        },
+        {
+          "n": 17,
+          "t": "and-still Edomite have-come ; and-they-have-made-smite in-Judah and-they-have-captived captivity."
+        },
+        {
+          "n": 18,
+          "t": "and-Philistine have-striped in-cities-of the-shephelah and-the-negeb to/for-Judah and-have-captured Beth-shemesh Chemech and-Aijalon and-the-Gederoth and-Socoh and-daughters-of-her and-Timnah and-daughters-of-her, and-Gimzo and-daughters-of-her ; and-they-have-dwelt there."
+        },
+        {
+          "n": 19,
+          "t": "for YHWH has-made-humble Judah, in-sake-of Ahaz king-of Israel ; for has-made-neglect in-Judah, and-betray trespass in-YHWH."
+        },
+        {
+          "n": 20,
+          "t": "Tiglat Pileser and-has-come on-him, king-of Asshur ; and-he-has-made-confine to/for-him and-not he-has-strengthened-him."
+        },
+        {
+          "n": 21,
+          "t": "for Ahaz has-divided house-of YHWH, and-house-of the-king and-the-officials ; and-he-has-given to/for-king-of Asshur, and-not to/for-help to/for-him."
+        },
+        {
+          "n": 22,
+          "t": "and-in-time-of make-constrain to/for-him, and-he-has-made-add to/for-betray in-YHWH ; he the-king Ahaz."
+        },
+        {
+          "n": 23,
+          "t": "and-he-has-sacrificed to/for-gods-of Damascus the-making-smite in-him and-he-has-said for gods-of kings-of Aram they making-help them, to/for-them I-will-sacrifice and-will-make-help-me ; and-they have-been to/for-him to/for-make-stumble-of-him and-to/for-all-of Israel."
+        },
+        {
+          "n": 24,
+          "t": "Ahaz and-has-gathered articles-of house-of the-god and-has-cut articles-of house-of the-god, and-has-shuted doors-of house-of YHWH ; and-he-has-done to/for-him altars in-all-of corner in-Jerusalem."
+        },
+        {
+          "n": 25,
+          "t": "and-in-all-of city and-city to/for-Judah he-has-done highs, to/for-offer to/for-god another ; and-has-made-provoke, YHWH god-of fathers-of-him."
+        },
+        {
+          "n": 26,
+          "t": "and-remainder-of words-of-him and-all-of ways-of-him, the-first and-the-last ; lo-them written, on book-of kings-of Judah and-Israel."
+        },
+        {
+          "n": 27,
+          "t": "Ahaz and-has-lain with fathers-of-him and-have-buried-him in-the-city in-Jerusalem, for not have-made-come-him, to/for-graves-of kings-of Israel ; Hezekiah and-has-reigned son-of-him under-him."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Hezekiah has-reigned son-of twenty and-five year, and-twenty and-nine year, has-reigned in-Jerusalem ; and-name-of mother-of-him, Abijah daughter-of Zechariah."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-done the-upright in-eyes-of YHWH ; like-all who David has-done father-of-him."
+        },
+        {
+          "n": 3,
+          "t": "he in-the-year the-first to/for-reign-of-him in-the-month the-first has-opened doors-of house-of YHWH and-has-strengthened-them."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-made-come the-priests and-the-Levi ; and-he-has-gathered-them to/for-square-of the-east."
+        },
+        {
+          "n": 5,
+          "t": "and-he-has-said to/for-them hear-me the-Levi ; now consecrate and-consecrate house-of YHWH god-of fathers-of-you-pl, and-make-exit the-impurity from the-holiness."
+        },
+        {
+          "n": 6,
+          "t": "for fathers-of-us have-betrayed and-have-done the-bad in-eyes-of YHWH god-of-us and-have-left-him ; faces-of-them and-have-made-turn from-tabernacle-of YHWH and-have-given neck."
+        },
+        {
+          "n": 7,
+          "t": "also doors-of the-hall have-shuted and-they-have-quenched the-lamps, and-incense not have-made-offer ; and-burnt not they-have-made-ascend in-the-holiness, to/for-god-of Israel."
+        },
+        {
+          "n": 8,
+          "t": "wrath-of YHWH and-has-been, on Judah and-Jerusalem ; and-he-has-given-them to/for-trembling to/for-horror to/for-horror and-to/for-hissing, like-when you seeing in-eyes-of-you-pl."
+        },
+        {
+          "n": 9,
+          "t": "and-behold fathers-of-us have-fallen in-the-sword ; and-sons-of-us and-daughters-of-us and-womans-of-us in-the-captivity on this-f."
+        },
+        {
+          "n": 10,
+          "t": "now with heart-of-me, to/for-cut covenant, to/for-YHWH god-of Israel ; burning-of nose-of-him and-let-return from-us."
+        },
+        {
+          "n": 11,
+          "t": "sons-of-me, now do-not let-be-neglected ; for in-you-pl YHWH has-chosen to/for-stand to/for-faces-of-him to/for-minister-of-him, and-to/for-be to/for-him ministering and-making-offer."
+        },
+        {
+          "n": 12,
+          "t": "the-Levi and-have-risen Mahath son-of Amasai and-Joel son-of Azariah from sons-of the-Kohathite and-from sons-of Merari, Kish son-of Abdi, and-Azariah son-of Jehallelel ; and-from the-Gershonite, Joah son-of Zimmah, and-Eden son-of Joah."
+        },
+        {
+          "n": 13,
+          "t": "and-from sons-of Elizaphan, Shimri and-Jeiel ; and-from sons-of Asaph, Zechariah and-Mattaniah."
+        },
+        {
+          "n": 14,
+          "t": "and-from sons-of Heman Jehiel and-Shimei ; and-from sons-of Jeduthun, Shemaiah and-Uzziel."
+        },
+        {
+          "n": 15,
+          "t": "and-they-have-gathered brothers-of-them and-they-have-self-consecrated, and-they-have-come like-commandment-of the-king in-words-of YHWH ; to/for-pure house-of YHWH."
+        },
+        {
+          "n": 16,
+          "t": "the-priests and-have-come to/for-within house-of YHWH to/for-pure and-have-made-exit all-of the-uncleanness who have-found in-temple-of YHWH, to/for-court-of house-of YHWH ; the-Levi and-have-received, to/for-make-exit to/for-torrent-of Kidron outside-ward."
+        },
+        {
+          "n": 17,
+          "t": "and-they-have-made-begin in-one to/for-the-month the-first to/for-consecrate and-in-day-of eight to/for-the-month they-have-come to/for-hall-of YHWH, and-they-have-consecrated house-of YHWH to/for-days eight ; and-in-day-of six ten to/for-the-month the-first they-have-finished."
+        },
+        {
+          "n": 18,
+          "t": "and-they-have-come within toward Hezekiah the-king, and-they-have-said, we-have-pured all-of house-of YHWH ; altar-of the-burnt and-all-of articles-of-him, and-table-of the-row and-all-of articles-of-him."
+        },
+        {
+          "n": 19,
+          "t": "and-all-of the-articles who the-king Ahaz has-made-reject in-kingdom-of-him in-trespass-of-him we-have-made-establish and-we-have-made-consecrate ; and-lo-them, to/for-faces-of altar-of YHWH."
+        },
+        {
+          "n": 20,
+          "t": "Hezekiah the-king and-has-made-rise, and-has-gathered, officials-of the-city ; house-of YHWH and-has-ascended."
+        },
+        {
+          "n": 21,
+          "t": "bullocks and-have-made-come seven and-rams seven and-lambs seven and-males-of goats seven to/for-offense, on the-kingdom and-on the-sanctuary and-on Judah ; and-has-said to/for-sons-of Aaron the-priests, to/for-make-ascend on altar-of YHWH."
+        },
+        {
+          "n": 22,
+          "t": "and-have-slaughtered the-cattle, the-priests and-have-received the-blood, and-have-scattered the-altar-ward ; the-rams and-have-slaughtered and-have-scattered the-blood the-altar-ward, the-lambs and-have-slaughtered, and-have-scattered the-blood the-altar-ward."
+        },
+        {
+          "n": 23,
+          "t": "and-they-have-made-approach he-goats-of the-offense, to/for-faces-of the-king and-the-assembly ; and-they-have-supported hands-of-them on-them."
+        },
+        {
+          "n": 24,
+          "t": "the-priests and-have-slaughtered-them, and-have-sinned blood-of-them the-altar-ward, to/for-cover on all-of Israel ; for to/for-all-of Israel the-king has-said, the-burnt and-the-offense."
+        },
+        {
+          "n": 25,
+          "t": "and-has-made-stand the-Levi house-of YHWH in-cymbals in-harps and-in-lyres, in-commandment-of David and-Gad seer-of the-king and-Nathan the-prophet ; for in-hand-of YHWH the-commandment in-hand-of prophets-of-him."
+        },
+        {
+          "n": 26,
+          "t": "the-Levi and-have-stood in-articles-of David, and-the-priests in-trumpets."
+        },
+        {
+          "n": 27,
+          "t": "Hezekiah and-has-said, to/for-make-ascend the-burnt to/for-the-altar ; and-in-time has-made-begin the-burnt song-of YHWH has-made-begin and-the-trumpets, and-on hands-of, articles-of David king-of Israel."
+        },
+        {
+          "n": 28,
+          "t": "and-all-of the-assembly bowed, and-the-song singing, and-the-trumpets making-blow ; the-all, until to/for-finish the-burnt."
+        },
+        {
+          "n": 29,
+          "t": "and-like-finish to/for-make-ascend ; they-have-bowed the-king and-all-of the-found with-him and-they-have-self-bowed."
+        },
+        {
+          "n": 30,
+          "t": "Hezekiah the-king and-has-said and-the-officials to/for-the-Levi, to/for-boast to/for-YHWH, in-words-of David and-Asaph the-seer ; and-they-have-boasted until to/for-joy, and-they-have-bowed and-they-have-self-bowed."
+        },
+        {
+          "n": 31,
+          "t": "Hezekiah and-has-answered and-has-said now you-pl-have-filled hand-of-you-pl to/for-YHWH, approach and-make-come sacrifices and-thanksgivings to/for-house-of YHWH ; and-have-made-come the-assembly sacrifices and-thanksgivings, and-all-of noble-of heart burnts."
+        },
+        {
+          "n": 32,
+          "t": "number-of the-burnt and-has-been who have-made-come the-assembly cattle seventy, rams hundred lambs hundred ; to/for-burnt to/for-YHWH all-of these."
+        },
+        {
+          "n": 33,
+          "t": "and-the-holinesses ; cattle six hundred, and-flock three-of thousand."
+        },
+        {
+          "n": 34,
+          "t": "except the-priests have-been to/for-little, and-not have-abled, to/for-make-strip all-of the-burnts ; brothers-of-them the-Levi and-have-strengthened-them until finish the-work and-until will-consecrate the-priests, for the-Levi upright-of heart, to/for-self-consecrate from-the-priests."
+        },
+        {
+          "n": 35,
+          "t": "and-also burnt to/for-abundance in-fats-of the-peaces and-in-the-drinks to/for-the-burnt ; service-of house-of YHWH and-has-been-established."
+        },
+        {
+          "n": 36,
+          "t": "Hezekiah and-has-rejoiced and-all-of the-people, on that-the-has-made-establish the-god to/for-the-people ; for in-suddenly the-word has-been."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Hezekiah and-has-sended on all-of Israel and-Judah and-also letters has-written on Ephraim and-Manasseh, to/for-come to/for-house-of YHWH in-Jerusalem ; to/for-do passover, to/for-YHWH god-of Israel."
+        },
+        {
+          "n": 2,
+          "t": "the-king and-has-been-advised and-officials-of-him and-all-of the-assembly in-Jerusalem ; to/for-do the-passover in-the-month the-second."
+        },
+        {
+          "n": 3,
+          "t": "for not they-have-abled to/for-do-of-him in-the-time the-he ; for the-priests not have-self-consecrated to/for-what sufficiency, and-the-people not have-been-gathered to/for-Jerusalem."
+        },
+        {
+          "n": 4,
+          "t": "the-word and-has-smoothed in-eyes-of the-king ; and-in-eyes-of all-of the-assembly."
+        },
+        {
+          "n": 5,
+          "t": "and-they-have-made-stand word to/for-make-pass voice in-all-of Israel from-Beer Beersheba and-until Dan, to/for-come to/for-do passover to/for-YHWH god-of Israel in-Jerusalem ; for not to/for-abundance they-have-done like-the-written."
+        },
+        {
+          "n": 6,
+          "t": "and-have-walked the-runing in-the-letters from-hand-of the-king and-officials-of-him in-all-of Israel and-Judah, and-like-commandment-of the-king to/for-say ; sons-of Israel return toward YHWH god-of Abraham Isaac and-Israel, and-let-return toward the-survivor, the-remained to/for-you-pl, from-palm-of kings-of Asshur."
+        },
+        {
+          "n": 7,
+          "t": "and-do-not let-be like-fathers-of-you-pl and-like-brothers-of-you-pl, who they-have-betrayed, in-YHWH god-of fathers-of-them ; and-he-has-given-them to/for-horror, like-when you seeing."
+        },
+        {
+          "n": 8,
+          "t": "now, do-not let-make-harden neck-of-you-pl like-fathers-of-you-pl ; give hand to/for-YHWH and-come to/for-sanctuary-of-him who has-made-consecrate to/for-age, and-serve YHWH god-of-you-pl, and-let-return from-you-pl burning-of nose-of-him."
+        },
+        {
+          "n": 9,
+          "t": "for in-return-of-you-pl on YHWH brothers-of-you-pl and-sons-of-you-pl to/for-compassions to/for-faces-of captiving-of-them, and-to/for-return to/for-the-land the-this-f ; for gracious and-compassionate YHWH god-of-you-pl, and-not will-make-turn faces from-you-pl, if you-pl-will-return toward-him."
+        },
+        {
+          "n": 10,
+          "t": "and-they-have-been the-runing passing from-city to/for-the-city in-land-of Ephraim and-Manasseh and-until Zebulun ; and-they-have-been making-laugh on-them, and-making-mock in-them."
+        },
+        {
+          "n": 11,
+          "t": "surely mans from-Asher and-Manasseh and-from-Zebulun ; they-have-been-humbled, and-they-have-come to/for-Jerusalem."
+        },
+        {
+          "n": 12,
+          "t": "also in-Judah hand-of the-god has-been, to/for-give to/for-them heart one ; to/for-do commandment-of the-king and-the-officials in-word-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "and-they-have-been-gathered Jerusalem people many, to/for-do feast-of the-unleaveneds in-the-month the-second ; assembly to/for-abundance very."
+        },
+        {
+          "n": 14,
+          "t": "and-they-have-risen, and-they-have-made-turn the-altars, who in-Jerusalem ; and-all-of the-incense-altars they-have-made-turn, and-they-have-made-throw to/for-torrent-of Kidron."
+        },
+        {
+          "n": 15,
+          "t": "and-they-have-slaughtered the-passover, in-four ten to/for-the-month the-second ; and-the-priests and-the-Levi have-been-humiliateded and-have-self-consecrated, and-have-made-come burnts house-of YHWH."
+        },
+        {
+          "n": 16,
+          "t": "and-they-have-stood on post-of-them like-justice-of-them, like-instruction-of Moses man-of the-god ; the-priests scattering the-blood, from-hand-of the-Levi."
+        },
+        {
+          "n": 17,
+          "t": "for many-of in-the-assembly who not they-have-self-consecrated ; and-the-Levi on slaughtering-of the-passovers to/for-all not pure, to/for-make-consecrate to/for-YHWH."
+        },
+        {
+          "n": 18,
+          "t": "for greatness-of the-people many-of from-Ephraim and-Manasseh Issachar and-Zebulun not they-have-self-pured, for they-have-eaten the-passover in-not like-the-written ; for Hezekiah has-self-prayed on-them to/for-say, YHWH the-good will-cover about."
+        },
+        {
+          "n": 19,
+          "t": "all-of heart-of-him has-made-establish, to/for-seek the-god YHWH god-of fathers-of-him ; and-not like-purifying-of the-holiness."
+        },
+        {
+          "n": 20,
+          "t": "YHWH and-has-heard toward Hezekiah, and-has-healed the-people."
+        },
+        {
+          "n": 21,
+          "t": "sons-of Israel the-found and-have-done in-Jerusalem feast-of the-unleaveneds seven-of days in-joy great ; and-boasting to/for-YHWH day in-day the-Levi and-the-priests in-articles-of strength to/for-YHWH."
+        },
+        {
+          "n": 22,
+          "t": "Hezekiah and-has-spoken on heart-of all-of the-Levi, the-making-understand understanding-of good to/for-YHWH ; and-have-eaten the-meeting seven-of the-days, sacrificing sacrifices-of peaces, and-self-confessing, to/for-YHWH god-of fathers-of-them."
+        },
+        {
+          "n": 23,
+          "t": "and-have-been-advised all-of the-assembly, to/for-do, seven-of days another ; and-have-done seven-of days joy."
+        },
+        {
+          "n": 24,
+          "t": "for Hezekiah king-of Judah has-made-exalt to/for-the-assembly thousand bullocks and-seven-of thousand flock and-the-officials have-made-exalt to/for-the-assembly bullocks thousand, and-flock ten-of thousand ; priests and-have-self-consecrated to/for-abundance."
+        },
+        {
+          "n": 25,
+          "t": "and-have-rejoiced all-of assembly-of Judah and-the-priests and-the-Levi, and-all-of the-assembly the-coming from-Israel ; and-the-sojourners the-coming from-land-of Israel, and-the-dwelling in-Judah."
+        },
+        {
+          "n": 26,
+          "t": "joy great and-has-been in-Jerusalem ; for from-days-of Solomon son-of David king-of Israel, not like-this-f in-Jerusalem."
+        },
+        {
+          "n": 27,
+          "t": "the-priests the-Levi and-have-risen and-have-blessed the-people, and-he-has-been-heard in-voice-of-them ; prayer-of-them and-has-come to/for-habitation-of holiness-of-him to/for-the-heavens."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-like-finish all-of this-f have-exited all-of Israel the-found to/for-cities-of Judah and-they-have-breaked the-pillars and-they-have-cut the-Asherah and-they-have-teared the-highs and-the-altars from-all-of Judah and-Benjamin and-in-Ephraim and-Manasseh until to/for-finish ; and-they-have-returned all-of sons-of Israel man to/for-possession-of-him to/for-cities-of-them."
+        },
+        {
+          "n": 2,
+          "t": "Hezekiah and-has-made-stand divisions-of the-priests and-the-Levi on divisions-of-them man like-lip-of service-of-him to/for-the-priests and-to/for-the-Levi, to/for-burnt and-to/for-peaces ; to/for-minister and-to/for-make-confess and-to/for-boast, in-gates-of camps-of YHWH."
+        },
+        {
+          "n": 3,
+          "t": "and-portion-of the-king from property-of-him to/for-the-burnts to/for-burnts-of the-morning and-the-evening, and-the-burnts, to/for-the-sabbaths and-to/for-the-months and-to/for-the-meetings ; like-the-written in-instruction-of YHWH."
+        },
+        {
+          "n": 4,
+          "t": "Jerusalem, and-has-said to/for-the-people to/for-dwelling-of to/for-give, portion-of the-priests and-the-Levi ; sake they-will-strengthen in-instruction-of YHWH."
+        },
+        {
+          "n": 5,
+          "t": "and-like-break sons-of Israel have-made-multiply the-word, first-of grain new and-oil and-honey, and-all-of produce-of field ; and-tithe-of the-all to/for-abundance they-have-made-come."
+        },
+        {
+          "n": 6,
+          "t": "and-sons-of Israel and-Judah the-dwelling in-cities-of Judah also they tithe-of cattle and-flock, and-tithe-of holinesses, the-consecrated to/for-YHWH god-of-them ; have-made-come, and-they-have-given heaps heaps."
+        },
+        {
+          "n": 7,
+          "t": "in-the-month the-third, the-heaps have-made-begin to/for-found ; and-in-the-month the-seventh they-have-finished."
+        },
+        {
+          "n": 8,
+          "t": "and-have-come Hezekiah and-the-officials, and-have-seen the-heaps ; and-they-have-blessed YHWH, and-people-of-him Israel."
+        },
+        {
+          "n": 9,
+          "t": "Hezekiah and-has-sought on the-priests and-the-Levi on the-heaps."
+        },
+        {
+          "n": 10,
+          "t": "Azariah the-priest the-head and-has-said toward-him to/for-house-of Zadok ; and-has-said from-make-begin the-contribution to/for-make-come house-of YHWH eat and-satisfy and-make-remain until to/for-abundance, for YHWH has-blessed people-of-him, and-the-remained the-crowd the-this."
+        },
+        {
+          "n": 11,
+          "t": "Hezekiah and-has-said to/for-make-establish chambers in-house-of YHWH and-they-have-made-establish."
+        },
+        {
+          "n": 12,
+          "t": "and-have-made-come the-contribution and-the-tithe and-the-holinesses in-faithfulness ; and-on-them leader Conaniah the-Levi, and-Shimei brother-of-him second."
+        },
+        {
+          "n": 13,
+          "t": "and-Jehiel and-Azaziah and-Nahath and-Asahel and-Jerimoth and-Jozacar and-Eliel and-Ismachiah, and-Mahath and-Benaiah ; overseers from-hand-of Conaniah and-Shimei brother-of-him, in-muster-of Hezekiah the-king, and-Azariah leader-of house-of the-god."
+        },
+        {
+          "n": 14,
+          "t": "and-Kore son-of Imnah the-Levi the-gatekeeper to/for-the-east-ward, on voluntarinesses-of the-god ; to/for-give contribution-of YHWH, and-holinesses-of the-holinesses."
+        },
+        {
+          "n": 15,
+          "t": "and-on hand-of-him Eden and-Miniamin and-Jeshua and-Shemaiah Amariah and-Shecaniah in-cities-of the-priests in-faithfulness ; to/for-give to/for-brothers-of-them in-divisions, like-the-great like-the-small."
+        },
+        {
+          "n": 16,
+          "t": "from-alone-of self-enroll-of-them to/for-male from-son-of three years and-to/for-above-ward, to/for-all-of the-coming to/for-house-of YHWH to/for-word-of day in-day-of-him ; to/for-service-of-them, in-charges-of-them like-divisions-of-them."
+        },
+        {
+          "n": 17,
+          "t": "and-self-enroll the-priests to/for-house-of fathers-of-them, and-the-Levi, from-son-of twenty year and-to/for-above-ward ; in-charges-of-them in-divisions-of-them."
+        },
+        {
+          "n": 18,
+          "t": "and-to/for-self-enroll in-all-of child-of-them womans-of-them and-sons-of-them and-daughters-of-them to/for-all-of assembly ; for in-faithfulness-of-them they-will-consecrate holiness."
+        },
+        {
+          "n": 19,
+          "t": "and-to/for-sons-of Aaron the-priests in-fields-of pasture-of cities-of-them in-all-of city and-city, mans, who have-been-pierced in-names ; to/for-give portions to/for-all-of male in-the-priests, and-to/for-all-of self-enroll in-the-Levi."
+        },
+        {
+          "n": 20,
+          "t": "Hezekiah and-has-done like-this-f in-all-of Judah ; and-has-done the-good and-the-upright and-the-truth, to/for-faces-of YHWH god-of-him."
+        },
+        {
+          "n": 21,
+          "t": "and-in-all-of deed who he-has-made-begin in-service-of house-of the-god and-in-the-instruction and-in-the-commandment, to/for-seek to/for-god-of-him ; in-all-of heart-of-him he-has-done and-he-has-made-prosper."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "verses": [
+        {
+          "n": 1,
+          "t": "after the-words and-the-truth the-these, Sennacherib has-come king-of Asshur ; and-he-has-come in-Judah and-he-has-camped on the-cities the-gather, and-he-has-said to/for-break-of-them toward-him."
+        },
+        {
+          "n": 2,
+          "t": "Hezekiah and-has-seen, for has-come Sennacherib ; and-faces-of-him, to/for-the-battle on Jerusalem."
+        },
+        {
+          "n": 3,
+          "t": "and-he-has-been-advised with officials-of-him and-mighty-of-him, to/for-close waters-of the-fountains, who from-outside to/for-the-city ; and-they-have-helped-him."
+        },
+        {
+          "n": 4,
+          "t": "and-they-have-been-gathered people many, and-they-have-closed all-of the-springs, and-the-torrent the-overflowing in-midst-of the-land to/for-say ; to/for-what kings-of Asshur will-come, and-have-found waters many."
+        },
+        {
+          "n": 5,
+          "t": "and-he-has-self-strengthened and-he-has-built all-of the-wall the-broken and-he-has-made-ascend on the-towers and-to/for-the-outside-ward the-wall another, and-he-has-strengthened the-Millo city-of David ; missile and-has-done to/for-abundance and-shields."
+        },
+        {
+          "n": 6,
+          "t": "and-has-given officials-of battles on the-people ; and-has-gathered-them toward-him toward square-of gate-of the-city, heart-of-them and-has-spoken on to/for-say."
+        },
+        {
+          "n": 7,
+          "t": "strengthen and-strengthen, do-not let-fear and-do-not let-be-dismayeded from-faces-of king-of Asshur, and-from-faces-of all-of the-crowd who with-him ; for with-us many from-him."
+        },
+        {
+          "n": 8,
+          "t": "with-him arm-of flesh, and-with-us YHWH god-of-us to/for-help-of-us, and-to/for-be-fight battles-of-us ; and-have-been-supported the-people, on words-of Hezekiah king-of Judah."
+        },
+        {
+          "n": 9,
+          "t": "after this Sennacherib has-sended king-of Asshur servants-of-him Jerusalem-ward, and-he on Lachish, and-all-of dominion-of-him with-him ; on Hezekiah king-of Judah, and-on all-of Judah who in-Jerusalem to/for-say."
+        },
+        {
+          "n": 10,
+          "t": "thus Sennacherib has-said, king-of Asshur ; on what you trusting, and-dwelling in-siege in-Jerusalem."
+        },
+        {
+          "n": 11,
+          "t": "is-it-not Hezekiah making-incite you-pl, to/for-give you-pl, to/for-die in-famine and-in-thirst to/for-say ; YHWH god-of-us, will-make-rescue-us, from-palm-of king-of Asshur."
+        },
+        {
+          "n": 12,
+          "t": "is-it-not he Hezekiah, has-made-turn highs-of-him and-altars-of-him ; and-he-has-said to/for-Judah and-to/for-Jerusalem to/for-say, to/for-faces-of altar one you-pl-will-bow and-on-him you-pl-will-make-offer."
+        },
+        {
+          "n": 13,
+          "t": "is-it-not you-pl-will-know what I have-done and-fathers-of-me, to/for-all-of peoples-of the-lands ; is-it-able gods-of nations-of the-lands have-abled, to/for-make-rescue land-of-them from-hand-of-me."
+        },
+        {
+          "n": 14,
+          "t": "who in-all-of god-of the-nations the-these who fathers-of-me have-made-devote, who he-has-abled, to/for-make-rescue people-of-him from-hand-of-me ; for god-of-you-pl will-able, to/for-make-rescue you-pl from-hand-of-me."
+        },
+        {
+          "n": 15,
+          "t": "and-now do-not let-make-deceive you-pl Hezekiah and-do-not let-make-incite you-pl like-this-f and-do-not let-make-faithful to/for-him for not all-of god will-able all-of nation and-kingdom, to/for-make-rescue people-of-him from-hand-of-me and-from-hand-of fathers-of-me ; even for god-of-you-pl, not they-will-make-rescue you-pl from-hand-of-me."
+        },
+        {
+          "n": 16,
+          "t": "and-still servants-of-him have-spoken, on YHWH the-god ; and-on Hezekiah servant-of-him."
+        },
+        {
+          "n": 17,
+          "t": "and-books god-of Israel ; has-written, to/for-taunt, to/for-YHWH and-to/for-say on-him to/for-say like-god-of nations-of the-lands who not they-have-made-rescue people-of-them from-hand-of-me, thus not will-make-rescue god-of Hezekiah people-of-him from-hand-of-me."
+        },
+        {
+          "n": 18,
+          "t": "and-they-have-called in-voice great Judahite on people-of Jerusalem who on the-wall, to/for-fear-of-them and-to/for-dismay-of-them ; sake they-will-capture the-city."
+        },
+        {
+          "n": 19,
+          "t": "and-they-have-spoken, toward god-of Jerusalem ; on god-of peoples-of the-land, deed-of hands-of the-man."
+        },
+        {
+          "n": 20,
+          "t": "Hezekiah the-king and-Isaiah and-has-self-prayed son-of Amoz the-prophet on this-f ; the-heavens and-have-outed."
+        },
+        {
+          "n": 21,
+          "t": "YHWH messenger and-has-sended, and-has-made-hide all-of mighty-of helech and-leader and-official, in-camp-of king-of Asshur ; and-has-returned in-shame-of faces to/for-land-of-him house-of god-of-him and-has-come, and-from-offspring-of-him and-from-offsprings-of bellies-of-him, there they-have-made-fall-him in-the-sword."
+        },
+        {
+          "n": 22,
+          "t": "YHWH and-has-made-save Hezekiah and-dwelling-of Jerusalem from-hand-of Sennacherib king-of Asshur and-from-hand-of all ; and-he-has-guided-them from-around."
+        },
+        {
+          "n": 23,
+          "t": "and-many making-come offering to/for-YHWH to/for-Jerusalem, and-preciouses, to/for-Hezekiah king-of Judah ; and-he-has-self-lifted to/for-eyes-of all-of the-nations after thus."
+        },
+        {
+          "n": 24,
+          "t": "in-the-days the-they, Hezekiah has-weaked until to/for-die ; YHWH, and-has-self-prayed toward and-has-said to/for-him, and-wonder has-given to/for-him."
+        },
+        {
+          "n": 25,
+          "t": "and-not like-recompense on-him Hezekiah has-made-return, for has-exulted heart-of-him ; wrath, and-has-been on-him and-on Judah and-Jerusalem."
+        },
+        {
+          "n": 26,
+          "t": "Hezekiah and-has-been-humbled in-height-of heart-of-him, he and-dwelling-of Jerusalem ; and-not wrath-of YHWH, has-come on-them in-days-of Hezekiah."
+        },
+        {
+          "n": 27,
+          "t": "riches and-glory and-has-been to/for-Hezekiah make-multiply very ; and-treasures he-has-done to/for-him to/for-silver and-to/for-gold and-to/for-stone precious and-to/for-spices and-to/for-shields, and-to/for-all-of articles-of desire."
+        },
+        {
+          "n": 28,
+          "t": "and-storages, to/for-produce-of grain and-new and-oil ; and-stalls to/for-all-of animal and-animal, and-flocks to/for-the-stalls."
+        },
+        {
+          "n": 29,
+          "t": "and-cities and-livestock-of flock and-cattle has-done to/for-him, to/for-abundance ; for god, property many has-given to/for-him very."
+        },
+        {
+          "n": 30,
+          "t": "and-he Hezekiah has-closed outgoing-of waters-of Gihon the-high, and-has-smoothed-them to/for-beneath west-ward to/for-city-of David ; Hezekiah and-has-made-prosper in-all-of deed-of-him."
+        },
+        {
+          "n": 31,
+          "t": "and-thus in-making-mock-of officials-of Babylon the-sending on-him to/for-seek the-wonder who has-been in-the-land, the-god has-left-him ; to/for-test-of-him, to/for-know all-of in-heart-of-him."
+        },
+        {
+          "n": 32,
+          "t": "and-remainder-of words-of Hezekiah and-kindnesses-of-him ; lo-them written in-vision-of Isaiah son-of Amoz the-prophet, on book-of kings-of Judah and-Israel."
+        },
+        {
+          "n": 33,
+          "t": "Hezekiah and-has-lain with fathers-of-him and-have-buried-him in-ascent-of graves-of sons-of David and-glory have-done to/for-him in-death-of-him, all-of Judah and-dwelling-of Jerusalem ; Manasseh and-has-reigned son-of-him under-him."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of two ten year Manasseh in-reign-of-him ; and-fifty and-five year, he-has-reigned in-Jerusalem."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-done the-bad in-eyes-of YHWH ; like-abominations-of the-nations, who YHWH has-made-possess, from-faces-of sons-of Israel."
+        },
+        {
+          "n": 3,
+          "t": "and-has-returned and-has-built the-highs, who Hezekiah has-teared father-of-him ; and-has-made-rise altars to/for-the-Baal Asherah and-has-done, and-has-self-bowed to/for-all-of host-of the-heavens, and-has-served them."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-built altars in-house-of YHWH ; who YHWH has-said, in-Jerusalem will-be name-of-me to/for-age."
+        },
+        {
+          "n": 5,
+          "t": "and-he-has-built altars to/for-all-of host-of the-heavens ; in-two-of courts-of house-of YHWH."
+        },
+        {
+          "n": 6,
+          "t": "and-he has-made-pass sons-of-him in-the-fire in-valley-of son Hinom, and-has-divined and-has-divined and-has-sorceried, medium and-spiritist and-has-done ; he-has-made-multiply to/for-do the-bad in-eyes-of YHWH to/for-make-provoke-of-him."
+        },
+        {
+          "n": 7,
+          "t": "and-he-has-put, idol-of the-idol who he-has-done ; in-house-of the-god who god has-said toward David and-toward Solomon son-of-him, in-the-house the-this and-in-Jerusalem who I-have-chosen from-all-of tribes-of Israel, I-will-put name-of-me to/for-ever."
+        },
+        {
+          "n": 8,
+          "t": "and-not I-will-make-add to/for-make-turn foot-of Israel, on the-ground, who I-have-made-stand to/for-fathers-of-you-pl ; except if will-keep to/for-do all-of who I-have-commanded-them, to/for-all-of the-instruction and-the-statutes and-the-justices in-hand-of Moses."
+        },
+        {
+          "n": 9,
+          "t": "Manasseh and-has-made-go, Judah and-dwelling-of Jerusalem ; to/for-do evil, from the-nations, who YHWH has-made-destroy, from-faces-of sons-of Israel."
+        },
+        {
+          "n": 10,
+          "t": "YHWH and-has-spoken toward Manasseh and-toward people-of-him and-not they-have-made-heed."
+        },
+        {
+          "n": 11,
+          "t": "YHWH and-has-made-come on-them officials-of the-host who to/for-king-of Asshur, and-they-have-captured Manasseh in-the-thistles ; and-they-have-binded-him in-the-bronzes, and-they-have-made-walk-him Babylon-ward."
+        },
+        {
+          "n": 12,
+          "t": "and-like-make-constrain to/for-him, has-entreated, faces-of YHWH god-of-him ; and-he-has-been-humbled very, from-faces-of god-of fathers-of-him."
+        },
+        {
+          "n": 13,
+          "t": "and-has-self-prayed toward-him and-has-been-prayed to/for-him and-has-heard supplication-of-him, Jerusalem and-has-made-return-him to/for-kingdom-of-him ; Manasseh and-has-known, for YHWH he the-god."
+        },
+        {
+          "n": 14,
+          "t": "and-after thus has-built wall outer to/for-city-of David west-ward to/for-Gihon in-the-torrent and-to/for-come in-gate-of the-fishes and-has-turned to/for-the-Ophel, and-has-made-exult-her very ; and-he-has-put officials-of helech in-all-of the-cities the-gather in-Judah."
+        },
+        {
+          "n": 15,
+          "t": "and-has-made-turn gods-of the-foreign and-the-idol from-house-of YHWH, and-all-of the-altars who has-built in-mountain-of house-of YHWH and-in-Jerusalem ; and-has-made-throw outside-ward to/for-the-city."
+        },
+        {
+          "n": 16,
+          "t": "and-he-has-made-establish and-he-has-built altar-of YHWH, and-he-has-sacrificed on-him, sacrifices-of peaces and-thanksgiving ; and-has-said to/for-Judah, to/for-serve, YHWH god-of Israel."
+        },
+        {
+          "n": 17,
+          "t": "truly still the-people, sacrificing in-the-highs ; except to/for-YHWH god-of-them."
+        },
+        {
+          "n": 18,
+          "t": "and-remainder-of words-of Manasseh and-prayer-of-him toward god-of-him and-words-of the-seers, the-speaking toward-him, in-name-of YHWH god-of Israel ; lo-them, on words-of kings-of Israel."
+        },
+        {
+          "n": 19,
+          "t": "and-prayer-of-him and-be-pray to/for-him and-all-of offense-of-him and-trespass-of-him and-the-places who has-built in-them highs the-Asherah and-has-made-stand and-the-idols, to/for-faces-of be-humble-of-him ; lo-them written, on words-of Seer."
+        },
+        {
+          "n": 20,
+          "t": "Manasseh and-has-lain with fathers-of-him, and-have-buried-him house-of-him ; Amon and-has-reigned son-of-him under-him."
+        },
+        {
+          "n": 21,
+          "t": "son-of twenty and-two year Amon in-reign-of-him ; and-two years, he-has-reigned in-Jerusalem."
+        },
+        {
+          "n": 22,
+          "t": "and-has-done the-bad in-eyes-of YHWH, like-when Manasseh has-done father-of-him ; and-to/for-all-of the-idols who Manasseh has-done father-of-him, has-sacrificed Amon and-has-served-them."
+        },
+        {
+          "n": 23,
+          "t": "and-not has-been-humbled from-faces-of YHWH, like-be-humble Manasseh father-of-him ; for he Amon has-made-multiply guiltiness."
+        },
+        {
+          "n": 24,
+          "t": "servants-of-him, and-have-conspired on-him and-have-made-die-him in-house-of-him."
+        },
+        {
+          "n": 25,
+          "t": "and-they-have-made-smite people-of the-land, all-of the-conspiring on the-king Amon ; and-they-have-made-reign people-of the-land Josiah son-of-him under-him."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "verses": [
+        {
+          "n": 1,
+          "t": "son-of eight years Josiah in-reign-of-him ; and-thirty and-one year, he-has-reigned in-Jerusalem."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-done the-upright in-eyes-of YHWH ; and-has-walked in-ways-of David father-of-him, and-not has-turned right and-left."
+        },
+        {
+          "n": 3,
+          "t": "and-in-eight years to/for-reign-of-him and-he still-of-him youth, has-made-begin, to/for-seek, to/for-god-of David father-of-him ; and-in-two ten year has-made-begin to/for-pure, Judah and-Jerusalem, from the-highs and-the-Asherah, and-the-idols and-the-liquids."
+        },
+        {
+          "n": 4,
+          "t": "and-have-teared to/for-faces-of-him altars-of the-Baal, and-the-pillars who to/for-above-ward on-them he-has-cut ; and-the-Asherah and-the-idols and-the-liquids has-breaked and-has-made-crush, and-has-scattered on faces-of the-graves, the-sacrificing to/for-them."
+        },
+        {
+          "n": 5,
+          "t": "and-bones-of priests, he-has-burned on altars altars-of-them ; and-he-has-pured Judah and-Jerusalem."
+        },
+        {
+          "n": 6,
+          "t": "and-in-cities-of Manasseh and-Ephraim and-Simeon and-until Naphtali ; in-mountain-of houses-of-them in-swords-of-them around."
+        },
+        {
+          "n": 7,
+          "t": "and-has-teared the-altars and-the-Asherah and-the-idols and-all-of the-pillars has-crushed to/for-make-crush, has-cut in-all-of land-of Israel ; and-he-has-returned to/for-Jerusalem."
+        },
+        {
+          "n": 8,
+          "t": "and-in-year-of eight ten to/for-reign-of-him, to/for-pure the-land and-the-house ; has-sended Shaphan son-of Azaliah and-Maaseiah official-of the-city and-Joah son-of Joahaz the-making-remember, to/for-strengthen, house-of YHWH god-of-him."
+        },
+        {
+          "n": 9,
+          "t": "and-have-come toward Hilkiah the-priest the-great and-have-given the-silver the-been-made-come house-of god who the-Levi keeping-of have-gathered the-threshold from-hand-of Manasseh and-Ephraim and-from-all-of remnant-of Israel, and-from-all-of Judah and-Benjamin ; and-dwelling-of and-they-have-returned Jerusalem."
+        },
+        {
+          "n": 10,
+          "t": "and-they-have-given on hand-of doing-of the-work, the-been-made-reckon in-house-of YHWH ; and-they-have-given him doing-of the-work who doing in-house-of YHWH, to/for-repair and-to/for-strengthen the-house."
+        },
+        {
+          "n": 11,
+          "t": "and-have-given to/for-the-artificers and-to/for-the-building, to/for-acquire stones-of hewing, and-trees to/for-the-clamps ; and-to/for-beams the-houses, who kings-of Judah have-destroyed."
+        },
+        {
+          "n": 12,
+          "t": "and-the-mans doing in-faithfulness in-the-work and-on-them been-made-reckon Jahath and-Obadiah the-Levi from sons-of Merari, and-Zechariah and-Meshullam from sons-of the-Kohathite to/for-conduct ; and-the-Levi, all-of making-discern in-articles-of song."
+        },
+        {
+          "n": 13,
+          "t": "and-on the-burdens and-conducting to/for-all-of doing-of work, to/for-service and-service ; and-from-the-Levi, secretaries and-officials and-gatekeepers."
+        },
+        {
+          "n": 14,
+          "t": "and-in-make-exit-of-them the-silver, the-been-made-come house-of YHWH ; Hilkiah the-priest has-found, book-of instruction-of YHWH in-hand-of Moses."
+        },
+        {
+          "n": 15,
+          "t": "Hilkiah and-has-answered and-has-said toward Shaphan the-secretary, book-of the-instruction I-have-found in-house-of YHWH ; Hilkiah and-has-given the-book toward Shaphan."
+        },
+        {
+          "n": 16,
+          "t": "Shaphan and-has-made-come the-book toward the-king, and-has-made-return still the-king word to/for-say ; all who has-been-given in-hand-of servants-of-you they doing."
+        },
+        {
+          "n": 17,
+          "t": "and-they-have-made-pour, the-silver the-found in-house-of YHWH ; and-they-have-given-him on hand-of the-been-made-reckon, and-on hand-of doing-of the-work."
+        },
+        {
+          "n": 18,
+          "t": "Shaphan the-secretary and-has-made-announce to/for-the-king to/for-say, book has-given to/for-me, Hilkiah the-priest ; Shaphan and-has-called in-him to/for-faces-of the-king."
+        },
+        {
+          "n": 19,
+          "t": "and-has-been like-hear the-king, words-of the-instruction ; and-he-has-teared garments-of-him."
+        },
+        {
+          "n": 20,
+          "t": "the-king and-has-commanded Hilkiah and-Ahikam son-of Shaphan and-Abdon son-of Micah and-Shaphan the-secretary and-Asaiah servant-of the-king to/for-say."
+        },
+        {
+          "n": 21,
+          "t": "walk seek YHWH about-me and-about the-remained in-Israel and-in-Judah, on words-of the-book who he-has-been-found ; for great rage-of YHWH who has-been-poured in-us, on who not fathers-of-us have-kept word-of YHWH, to/for-do, like-all-of the-written on the-book the-this."
+        },
+        {
+          "n": 22,
+          "t": "Hilkiah and-has-walked and-who the-king toward Huldah the-prophetess woman-of Shallum son-of Tokhath son-of Hasrah keeping-of the-garments, and-he dwelling in-Jerusalem in-the-second ; and-they-have-spoken toward-her like-this-f."
+        },
+        {
+          "n": 23,
+          "t": "and-she-has-said to/for-them, thus YHWH has-said god-of Israel ; say to/for-the-man, who he-has-sended you-pl toward-me."
+        },
+        {
+          "n": 24,
+          "t": "thus YHWH has-said, lo-me making-come evil on the-place the-this and-on dwelling-of-him ; all-of the-curses the-written on the-book, who they-have-called, to/for-faces-of king-of Judah."
+        },
+        {
+          "n": 25,
+          "t": "under who they-have-left-me and-they-have-made-offer and-they-have-offered to/for-gods another, sake make-provoke-of-me, in-all-of deeds-of hands-of-them ; rage-of-me and-will-pour in-the-place the-this and-not will-quench."
+        },
+        {
+          "n": 26,
+          "t": "and-toward king-of Judah the-sending you-pl to/for-seek in-YHWH, thus you-pl-will-say toward-him ; thus YHWH has-said god-of Israel, the-words who you-have-heard."
+        },
+        {
+          "n": 27,
+          "t": "because heart-of-you has-tendered and-you-have-been-humbled from-faces-of god in-hear-of-you words-of-him on the-place the-this and-on dwelling-of-him, and-you-have-been-humbled to/for-faces-of-me, and-you-have-teared garments-of-you and-you-have-weeped to/for-faces-of-me ; and-also I have-heard utterance-of YHWH."
+        },
+        {
+          "n": 28,
+          "t": "lo-me gathering-of-you toward fathers-of-you and-you-have-been-gathered toward graves-of-you in-peace and-not they-f-will-see eyes-of-you, in-all-of the-evil, who I making-come on the-place the-this and-on dwelling-of-him ; and-they-have-made-return the-king word."
+        },
+        {
+          "n": 29,
+          "t": "the-king and-has-sended ; and-has-gathered, all-of old-of Judah and-Jerusalem."
+        },
+        {
+          "n": 30,
+          "t": "the-king and-has-ascended house-of YHWH and-all-of man-of Judah and-dwelling-of Jerusalem and-the-priests and-the-Levi, and-all-of the-people from-great and-until small ; and-has-called in-ears-of-them all-of words-of book-of the-covenant, the-found house-of YHWH."
+        },
+        {
+          "n": 31,
+          "t": "the-king and-has-stood on post-of-him and-has-cut the-covenant to/for-faces-of YHWH to/for-walk after YHWH and-to/for-keep commandments-of-him and-testimonies-of-him and-statutes-of-him, in-all-of heart-of-him and-in-all-of soul-of-him ; to/for-do words-of the-covenant, the-written on the-book the-this."
+        },
+        {
+          "n": 32,
+          "t": "and-has-made-stand, all-of the-found in-Jerusalem and-Benjamin ; and-they-have-done dwelling-of Jerusalem, like-covenant-of god god-of fathers-of-them."
+        },
+        {
+          "n": 33,
+          "t": "Josiah and-has-made-turn all-of the-abominations from-all-of the-lands who to/for-sons-of Israel and-has-made-serve all-of the-found in-Israel, to/for-serve YHWH god-of-them ; all-of days-of-him, not they-have-turned, after, YHWH god-of fathers-of-them."
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Josiah and-has-done in-Jerusalem passover to/for-YHWH ; and-they-have-slaughtered the-passover, in-four ten to/for-the-month the-first."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-made-stand the-priests on charges-of-them ; and-he-has-strengthened-them, to/for-service-of house-of YHWH."
+        },
+        {
+          "n": 3,
+          "t": "and-has-said to/for-the-Levi the-making-discern to/for-all-of Israel the-holy to/for-YHWH give ark-of the-holiness in-the-house who Solomon has-built son-of David king-of Israel, naught to/for-you-pl burden in-the-shoulder ; now serve YHWH god-of-you-pl, and-people-of-him Israel."
+        },
+        {
+          "n": 4,
+          "t": "and-make-establish to/for-house-of fathers-of-you-pl like-divisions-of-you-pl ; in-writing-of David king-of Israel, and-in-writing-of Solomon son-of-him."
+        },
+        {
+          "n": 5,
+          "t": "and-stand in-the-holiness to/for-divisions-of house-of the-fathers, to/for-brothers-of-you-pl sons-of the-people ; and-division-of house-of father to/for-the-Levi."
+        },
+        {
+          "n": 6,
+          "t": "and-slaughter the-passover ; and-consecrate and-make-establish to/for-brothers-of-you-pl, to/for-do like-word-of YHWH in-hand-of Moses."
+        },
+        {
+          "n": 7,
+          "t": "Josiah and-has-made-exalt to/for-sons-of the-people flock lambs and-sons-of goats the-all to/for-the-passovers to/for-all-of the-found to/for-number-of thirty thousand, and-cattle three-of thousand ; these from-property-of the-king."
+        },
+        {
+          "n": 8,
+          "t": "and-officials-of-him to/for-voluntariness to/for-the-people to/for-the-priests and-to/for-the-Levi have-made-exalt ; Hilkiah and-Zechariah and-Jehiel leaders-of house-of the-god, to/for-the-priests have-given to/for-the-passovers thousand and-six hundred, and-cattle three hundred."
+        },
+        {
+          "n": 9,
+          "t": "and-Conaniah and-Shemaiah and-Nethanel brothers-of-him and-Hashabiah and-Jeiel and-Jozacar officials-of the-Levi ; they-have-made-exalt to/for-the-Levi to/for-the-passovers five-of thousand, and-cattle five hundred."
+        },
+        {
+          "n": 10,
+          "t": "the-service and-has-been-established ; the-priests and-have-stood on post-of-them and-the-Levi on divisions-of-them like-commandment-of the-king."
+        },
+        {
+          "n": 11,
+          "t": "and-they-have-slaughtered the-passover ; the-priests and-have-scattered from-hand-of-them, and-the-Levi making-strip."
+        },
+        {
+          "n": 12,
+          "t": "and-they-have-made-turn the-burnt to/for-give-of-them to/for-divisions to/for-house-of fathers to/for-sons-of the-people, to/for-make-present to/for-YHWH, like-the-written in-book-of Moses ; and-thus to/for-the-cattle."
+        },
+        {
+          "n": 13,
+          "t": "and-they-have-boiled the-passover in-the-fire like-the-justice ; and-the-holinesses have-boiled in-the-pots and-in-the-pots and-in-the-pots, and-have-made-run to/for-all-of sons-of the-people."
+        },
+        {
+          "n": 14,
+          "t": "and-after the-priests have-made-establish to/for-them and-to/for-the-priests, for sons-of Aaron, in-make-ascend the-burnt and-the-fats until night ; and-the-Levi have-made-establish to/for-them, and-to/for-the-priests sons-of Aaron."
+        },
+        {
+          "n": 15,
+          "t": "and-the-singing sons-of Asaph on office-of-them like-commandment-of David and-Asaph and-Heman and-Jeduthun seer-of the-king, and-the-gatekeepers to/for-gate and-gate ; naught to/for-them to/for-turn on service-of-them, for brothers-of-them the-Levi have-made-establish to/for-them."
+        },
+        {
+          "n": 16,
+          "t": "and-she-has-been-established all-of service-of YHWH in-the-day the-he to/for-do the-passover, and-make-ascend burnts, on altar-of YHWH ; like-commandment-of the-king Josiah."
+        },
+        {
+          "n": 17,
+          "t": "sons-of Israel the-found and-have-done the-passover in-the-time the-he ; and-feast-of the-unleaveneds seven-of days."
+        },
+        {
+          "n": 18,
+          "t": "and-not passover has-been-done like-him in-Israel, from-days-of Samuel the-prophet ; and-all-of kings-of Israel not have-done like-the-passover who Josiah has-done and-the-priests and-the-Levi and-all-of Judah and-Israel the-found, and-dwelling-of Jerusalem."
+        },
+        {
+          "n": 19,
+          "t": "in-eight ten year, to/for-kingdom-of Josiah ; the-passover has-been-done the-this."
+        },
+        {
+          "n": 20,
+          "t": "after all-of this-f who has-made-establish Josiah the-house, has-ascended Neco king-of Egypt to/for-be-fight in-Carchemish on Euphrates ; Josiah and-has-exited to/for-befall-of-him."
+        },
+        {
+          "n": 21,
+          "t": "and-has-sended toward-him messengers to/for-say what to/for-me and-to/for-you-f king-of Judah not on-you you the-day for toward house-of battle-of-me, and-god has-said to/for-dismay-of-me ; cease to/for-you from-god who with-me and-do-not let-him-destroy-you."
+        },
+        {
+          "n": 22,
+          "t": "and-not Josiah has-made-turn faces-of-him from-us for to/for-be-fight in-him has-self-searched, and-not has-heard toward words-of Neco from-lip-of god ; and-he-has-come, to/for-be-fight in-valley-of Megiddo."
+        },
+        {
+          "n": 23,
+          "t": "and-they-have-made-show the-shows, to/for-the-king Josiah ; the-king and-has-said to/for-servants-of-him make-pass-me, for I-have-been-made-weak very."
+        },
+        {
+          "n": 24,
+          "t": "servants-of-him and-have-made-pass-him from the-chariot and-have-made-ride-him on chariot-of the-second who to/for-him and-have-made-walk-him Jerusalem, and-has-died, and-has-been-buried in-graves-of fathers-of-him ; and-all-of Judah and-Jerusalem, self-mourning on Josiah."
+        },
+        {
+          "n": 25,
+          "t": "Jeremiah and-has-chanted on Josiah and-they-have-said all-of the-singing and-the-singing in-dirges-of-them on Josiah until the-day, and-they-have-given-them to/for-statute on Israel ; and-lo-them written on the-dirges."
+        },
+        {
+          "n": 26,
+          "t": "and-remainder-of words-of Josiah and-kindnesses-of-him ; like-the-written in-instruction-of YHWH."
+        },
+        {
+          "n": 27,
+          "t": "and-words-of-him, the-first and-the-last ; lo-them written, on book-of kings-of Israel and-Judah."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-they-have-taken people-of the-land, Jehoahaz son-of Josiah ; and-they-have-made-reign-him under father-of-him in-Jerusalem."
+        },
+        {
+          "n": 2,
+          "t": "son-of three and-twenty year Joahaz in-reign-of-him ; and-three months, he-has-reigned in-Jerusalem."
+        },
+        {
+          "n": 3,
+          "t": "king-of Egypt and-has-made-turn-him in-Jerusalem ; and-has-fined the-land, hundred plain-of silver and-plain-of gold."
+        },
+        {
+          "n": 4,
+          "t": "king-of Egypt and-has-made-reign Eliakim brother-of-him on Judah and-Jerusalem, and-has-made-turn name-of-him Jehoiakim ; and-Joahaz brother-of-him has-taken Neco, and-has-made-come-him Egypt-ward."
+        },
+        {
+          "n": 5,
+          "t": "son-of twenty and-five year Jehoiakim in-reign-of-him, and-one ten year, has-reigned in-Jerusalem ; and-has-done the-bad, in-eyes-of YHWH god-of-him."
+        },
+        {
+          "n": 6,
+          "t": "on-him Nebuchadnezzar has-ascended, king-of Babylon ; and-has-binded-him in-the-bronzes, to/for-make-walk-of-him Babylon-ward."
+        },
+        {
+          "n": 7,
+          "t": "and-from-articles-of Nebuchadnezzar has-made-come house-of YHWH, to/for-Babylon ; and-he-has-given-them in-temple-of-him in-Babylon."
+        },
+        {
+          "n": 8,
+          "t": "and-remainder-of words-of Jehoiakim and-abominations-of-him who has-done and-the-found on-him, lo-them written on book-of kings-of Israel and-Judah ; Jehoiachin and-has-reigned son-of-him under-him."
+        },
+        {
+          "n": 9,
+          "t": "son-of eight years Jehoiachin in-reign-of-him, and-three months and-ten-of days, has-reigned in-Jerusalem ; and-he-has-done the-bad in-eyes-of YHWH."
+        },
+        {
+          "n": 10,
+          "t": "and-to/for-turn-of the-year the-king Nebuchadnezzar has-sended, and-has-made-come-him Babylon-ward, with articles-of desire-of house-of YHWH ; and-has-made-reign Zedekiah brother-of-him, on Judah and-Jerusalem."
+        },
+        {
+          "n": 11,
+          "t": "son-of twenty and-one year Zedekiah in-reign-of-him ; and-one ten year, he-has-reigned in-Jerusalem."
+        },
+        {
+          "n": 12,
+          "t": "and-has-done the-bad, in-eyes-of YHWH god-of-him ; not has-been-humbled from-faces-of Jeremiah the-prophet from-lip-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "and-also in-the-king Nebuchadnezzar has-rebelled, who has-made-swear-him in-god ; and-has-made-harden neck-of-him and-has-strengthened heart-of-him, from-return, toward YHWH god-of Israel."
+        },
+        {
+          "n": 14,
+          "t": "also all-of officials-of the-priests and-the-people they-have-made-multiply to/for-betray betray, like-all-of abominations-of the-nations ; and-they-have-defiled house-of YHWH, who he-has-made-consecrate in-Jerusalem."
+        },
+        {
+          "n": 15,
+          "t": "YHWH and-has-sended god-of fathers-of-them on-them in-hand-of messengers-of-him make-rise and-send ; for people-of-him has-spared on and-on habitation-of-him."
+        },
+        {
+          "n": 16,
+          "t": "and-have-been making-jest in-messengers-of the-god, and-despising words-of-him, and-mocked in-prophets-of-him ; until ascend rage-of YHWH in-people-of-him until to/for-naught healing."
+        },
+        {
+          "n": 17,
+          "t": "and-has-made-ascend on-them king-of Chaldeans and-has-killed youths-of-them in-the-sword in-house-of sanctuary-of-them, and-not youth has-spared on and-virgin old and-decrepit ; the-all has-given in-hand-of-him."
+        },
+        {
+          "n": 18,
+          "t": "and-all-of articles-of house-of the-god the-great and-the-small, and-treasures-of house-of YHWH, and-treasures-of the-king and-officials-of-him ; the-all has-made-come Babylon."
+        },
+        {
+          "n": 19,
+          "t": "and-they-have-burned house-of the-god, and-they-have-teared, wall-of Jerusalem ; and-all-of citadels-of-her they-have-burned in-the-fire, and-all-of articles-of desires-of-her to/for-destroy."
+        },
+        {
+          "n": 20,
+          "t": "and-has-made-heglam the-remnant from the-sword toward Babylon ; and-they-have-been to/for-him and-to/for-sons-of-him to/for-servants, until reign kingdom-of Persia."
+        },
+        {
+          "n": 21,
+          "t": "to/for-fill word-of YHWH in-lip-of Jeremiah, until the-land has-accepted sabbaths-of-her ; all-of days-of be-make-desolate-of-her has-ceased, to/for-fill seventy year."
+        },
+        {
+          "n": 22,
+          "t": "and-in-year-of one to/for-Cyrus king-of Persia, to/for-finish word-of YHWH in-lip-of Jeremiah ; YHWH has-made-rouse spirit-of Cyrus king-of Persia, and-has-made-pass voice in-all-of kingdom-of-him, and-also in-writing to/for-say."
+        },
+        {
+          "n": 23,
+          "t": "thus Cyrus has-said king-of Persia all-of kingdoms-of the-land has-given to/for-me YHWH god-of the-heavens, and-he has-reckoned on-me to/for-build to/for-him house, in-Jerusalem who in-Judah ; who in-you-pl from-all-of people-of-him YHWH god-of-him with-him and-will-ascend."
+        }
+      ]
+    }
+  ]
+}

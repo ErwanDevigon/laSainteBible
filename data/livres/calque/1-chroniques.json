@@ -1,0 +1,3939 @@
+{
+  "id": "1-chroniques",
+  "title": "Premier livre des Chroniques",
+  "original_title": "1 Chroniques",
+  "short": "1 Ch",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Adam Seth Énosh."
+        },
+        {
+          "n": 2,
+          "t": "Kénan Mahalaleel Jéred."
+        },
+        {
+          "n": 3,
+          "t": "Hénoc Mathusalem Lémec."
+        },
+        {
+          "n": 4,
+          "t": "Noé Sem Cham et-Japhet."
+        },
+        {
+          "n": 5,
+          "t": "fils-de Japhet, Gomer et-Magog, et-Médie et-Javan et-Tubal ; et-Meshech et-Tiras."
+        },
+        {
+          "n": 6,
+          "t": "et-fils-de Gomer ; Ashkenaz et-Vediyfat et-Togarmah."
+        },
+        {
+          "n": 7,
+          "t": "et-fils-de Javan Elishah et-Tarshish ; Kittim et-Dodanim."
+        },
+        {
+          "n": 8,
+          "t": "fils-de Cham ; Koush et-Égypte Put et-Canaan."
+        },
+        {
+          "n": 9,
+          "t": "et-fils-de Koush, Seba et-Havila, et-Sabtah et-Raamah et-Sabteca ; et-fils-de Raamah Sheba et-Dedan."
+        },
+        {
+          "n": 10,
+          "t": "et-Koush a-engendré Nimrod ; lui a-fait-commencer, à/pour-être puissant dans-la-terre."
+        },
+        {
+          "n": 11,
+          "t": "et-Égypte a-engendré Ludite et-Anamim et-Lehabim et-Naphtuhim."
+        },
+        {
+          "n": 12,
+          "t": "et-Pathrusim et-Casluhim qui Philistin sont-sorti depuis-là et-Caphtorim."
+        },
+        {
+          "n": 13,
+          "t": "et-Canaan a-engendré Sidon premier-né-de-lui et-Heth."
+        },
+        {
+          "n": 14,
+          "t": "et-le-Jebusite et-le-Amorite, et-le-Girgashite."
+        },
+        {
+          "n": 15,
+          "t": "et-le-Hivite et-le-Arkite et-le-Sinite."
+        },
+        {
+          "n": 16,
+          "t": "et-le-Arvadite et-le-Zemarite et-le-Hamathite."
+        },
+        {
+          "n": 17,
+          "t": "fils-de Sem, Elam et-Assur, et-Arpachshad et-Lud et-Aram ; et-Uz et-Hul et-Gether et-Meshech."
+        },
+        {
+          "n": 18,
+          "t": "et-Arpachshad a-engendré Shelah ; et-Shelah a-engendré Eber."
+        },
+        {
+          "n": 19,
+          "t": "et-à/pour-Eber il-a-été-engendré deux-de fils ; nom-de le-un Peleg car dans-jours-de-lui la-terre a-été-partagé, et-nom-de frère-de-lui Joktan."
+        },
+        {
+          "n": 20,
+          "t": "et-Joktan a-engendré, Almodad et-Sheleph ; et-Hazarmaveth et-Jerah."
+        },
+        {
+          "n": 21,
+          "t": "et-Hadoram et-Uzal et-Diklah."
+        },
+        {
+          "n": 22,
+          "t": "et-Eybala et-Abimael et-Sheba."
+        },
+        {
+          "n": 23,
+          "t": "et-Ophir et-Havila et-Jobab ; tout-de ces fils-de Joktan."
+        },
+        {
+          "n": 24,
+          "t": "Sem Arpachshad Shelah."
+        },
+        {
+          "n": 25,
+          "t": "Eber Peleg Reu."
+        },
+        {
+          "n": 26,
+          "t": "Serug Nachor Térach."
+        },
+        {
+          "n": 27,
+          "t": "Abram lui Abraham."
+        },
+        {
+          "n": 28,
+          "t": "fils-de Abraham, Isaac et-Ismaël."
+        },
+        {
+          "n": 29,
+          "t": "ces générations-de-eux ; premier-né-de Ismaël Nebaioth, et-Kedar et-Adbeel et-Mibsam."
+        },
+        {
+          "n": 30,
+          "t": "Mishma et-Dumah, Massa Hadad et-Tema."
+        },
+        {
+          "n": 31,
+          "t": "Jetur Naphish et-Kedemah ; ces eux fils-de Ismaël."
+        },
+        {
+          "n": 32,
+          "t": "et-fils-de Keturah concubine-de Abraham a-engendré Zimran et-Jokshan et-Medan et-Madian et-Ishbak et-Shuah ; et-fils-de Jokshan Sheba et-Dedan."
+        },
+        {
+          "n": 33,
+          "t": "et-fils-de Madian Ephah et-Epher et-Hénoc, et-Abida et-Eldaah ; tout-de ces fils-de Keturah."
+        },
+        {
+          "n": 34,
+          "t": "Abraham et-a-fait-engendrer Isaac ; fils-de Isaac, Ésaü et-Israël."
+        },
+        {
+          "n": 35,
+          "t": "fils-de Ésaü ; Eliphaz Reuel et-Jeush et-Jalam et-Coré."
+        },
+        {
+          "n": 36,
+          "t": "fils-de Eliphaz ; Teman et-Omar Zepho et-Gatam, Kenaz et-Timna et-Amalek."
+        },
+        {
+          "n": 37,
+          "t": "fils-de Reuel ; Nahath Zerah Shammah et-Mizzah."
+        },
+        {
+          "n": 38,
+          "t": "et-fils-de Seiyr, Lotan et-Shobal et-Zibeon et-Anah ; et-Dishon et-Ezer et-Dishan."
+        },
+        {
+          "n": 39,
+          "t": "et-fils-de Lotan Hori et-Vehomam ; et-sœur-de Lotan Timna."
+        },
+        {
+          "n": 40,
+          "t": "fils-de Shobal, Alvan et-Manahath et-Ebal Shepho et-Onam ; et-fils-de Zibeon Aiah et-Anah."
+        },
+        {
+          "n": 41,
+          "t": "fils-de Anah Dishon ; et-fils-de Dishon, Hamran et-Eshban et-Ithran et-Cheran."
+        },
+        {
+          "n": 42,
+          "t": "fils-de Ezer, Bilhan et-Zaavan Gdvp ; fils-de Dishon Uz et-Aran."
+        },
+        {
+          "n": 43,
+          "t": "et-ces les-rois qui ont-régné dans-terre-de Édom, à/pour-faces-de régner roi à/pour-fils-de Israël ; Belaa fils-de Beor, et-nom-de ville-de-lui Dinhabah."
+        },
+        {
+          "n": 44,
+          "t": "Belaa et-est-mort ; Jobab et-a-régné sous-lui, fils-de Zerah depuis-Bozrah."
+        },
+        {
+          "n": 45,
+          "t": "Jobab et-est-mort ; Husham et-a-régné sous-lui, depuis-terre-de le-Temanite."
+        },
+        {
+          "n": 46,
+          "t": "Husham et-est-mort ; Hadada et-a-régné sous-lui fils-de Bedad le-faisant-frapper Madian dans-champ-de Moab, et-nom-de ville-de-lui Avith."
+        },
+        {
+          "n": 47,
+          "t": "Hadada et-est-mort ; Samlah et-a-régné sous-lui, depuis-Masrekah."
+        },
+        {
+          "n": 48,
+          "t": "Samlah et-est-mort ; Saül et-a-régné sous-lui, depuis-Rehoboth le-fleuve."
+        },
+        {
+          "n": 49,
+          "t": "Saül et-est-mort ; Baal Hanan et-a-régné sous-lui, fils-de Achbor."
+        },
+        {
+          "n": 50,
+          "t": "Baal Hanan et-est-mort, et-a-régné sous-lui Hadada, et-nom-de ville-de-lui Pau ; et-nom-de femme-de-lui Mehetabel fille-de Matred, fille-de Mey Mezahab."
+        },
+        {
+          "n": 51,
+          "t": "Hadada et-est-mort ; dociles-de Édom et-ont-été, docile Timna docile Alvah docile Jetheth."
+        },
+        {
+          "n": 52,
+          "t": "docile Oholibamah docile Elah docile Pinon."
+        },
+        {
+          "n": 53,
+          "t": "docile Kenaz docile Teman docile Mibzar."
+        },
+        {
+          "n": 54,
+          "t": "docile Magdiel docile Iram ; ces dociles-de Édom."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "ces fils-de Israël ; Ruben Siméon Lévi et-Juda, Issacar et-Zabulon."
+        },
+        {
+          "n": 2,
+          "t": "Dan Joseph et-Benjamin, Nephthali Gad et-Aser."
+        },
+        {
+          "n": 3,
+          "t": "fils-de Juda Er et-Onan et-Chela, trois a-été-engendré à/pour-lui, depuis-fille-de Chouaa la-Canaanite ; Er et-a-été premier-né-de Juda bad dans-yeux-de YHWH et-a-fait-mourir-lui."
+        },
+        {
+          "n": 4,
+          "t": "et-Tamara belle-fille-de-lui, a-engendré à/pour-lui Pérets et-Zerah ; tout-de fils-de Juda cinq."
+        },
+        {
+          "n": 5,
+          "t": "fils-de Pérets Hezron et-Hamul."
+        },
+        {
+          "n": 6,
+          "t": "et-fils-de Zerah Zimri et-Ethan et-Heman et-Calcol et-Dara tout-de-eux cinq."
+        },
+        {
+          "n": 7,
+          "t": "et-fils-de Carmi ; Akhar troublant Israël, qui a-trahi dans-le-ban."
+        },
+        {
+          "n": 8,
+          "t": "et-fils-de Ethan Azariah."
+        },
+        {
+          "n": 9,
+          "t": "et-fils-de Hezron qui il-a-été-engendré à/pour-lui ; Jerahmeel et-Rama et-Chelubai."
+        },
+        {
+          "n": 10,
+          "t": "et-Rama a-fait-engendrer Amminadab ; et-Amminadab a-fait-engendrer Nahshon, leader-de fils-de Juda."
+        },
+        {
+          "n": 11,
+          "t": "et-Nahshon a-fait-engendrer Salma, et-Salma a-fait-engendrer Booz."
+        },
+        {
+          "n": 12,
+          "t": "et-Booz a-fait-engendrer Obed, et-Obed a-fait-engendrer Jesse."
+        },
+        {
+          "n": 13,
+          "t": "et-Jesse a-fait-engendrer premier-né-de-lui Eliab ; et-Abinadab le-second, et-Shimea le-troisième."
+        },
+        {
+          "n": 14,
+          "t": "Nethanel le-quatrième, Raddai le-cinquième."
+        },
+        {
+          "n": 15,
+          "t": "Ozem le-sixième, David le-septième."
+        },
+        {
+          "n": 16,
+          "t": "et-sœurs-de-eux Zeruiah et-Abigail ; et-fils-de Zeruiah Abishai et-Joab et-Asa Asahel trois."
+        },
+        {
+          "n": 17,
+          "t": "et-Abigail, elle-a-engendré Amasa ; et-père-de Amasa, Jether le-Ishmaelite."
+        },
+        {
+          "n": 18,
+          "t": "et-Caleb fils-de Hezron a-fait-engendrer Azubah femme et-ensemble Jerioth ; et-ces fils-de-elle, Jesher et-Shobab et-Ardon."
+        },
+        {
+          "n": 19,
+          "t": "Azubah et-est-mort ; Caleb et-a-pris à/pour-lui Ephrathah, et-elle-a-engendré à/pour-lui Hur."
+        },
+        {
+          "n": 20,
+          "t": "et-Hur a-fait-engendrer Uri, et-Uri a-fait-engendrer Bezalel."
+        },
+        {
+          "n": 21,
+          "t": "et-après Hezron est-venu vers fille-de Machir père-de Gilead, et-lui a-pris-elle, et-lui fils-de soixante année ; et-elle-a-engendré à/pour-lui Segub."
+        },
+        {
+          "n": 22,
+          "t": "et-Segub a-fait-engendrer Jair ; et-il-a-été à/pour-lui vingt et-trois villes, dans-terre-de le-Gilead."
+        },
+        {
+          "n": 23,
+          "t": "Geshur et-Aram et-a-pris villages-de Jair ensemble-eux ensemble Kenath et-filles-de-elle soixante ville ; tout-de ces, fils-de Machir père-de Gilead."
+        },
+        {
+          "n": 24,
+          "t": "et-après mort-de Hezron dans-Bekhaleb Efrata ; et-femme-de Hezron Abijah, et-a-engendré à/pour-lui, Ashhur père-de Teqoa."
+        },
+        {
+          "n": 25,
+          "t": "fils-de Jerahmeel et-ont-été premier-né-de Hezron le-premier-né Rama ; et-Bunah et-Oren et-Ozem Ahijah."
+        },
+        {
+          "n": 26,
+          "t": "femme autre et-a-été à/pour-Jerahmeel et-nom-de-elle Atarah ; lui mère-de Onam."
+        },
+        {
+          "n": 27,
+          "t": "fils-de Rama et-ont-été premier-né-de Jerahmeel ; Maaz et-Jamin et-Eker."
+        },
+        {
+          "n": 28,
+          "t": "fils-de Onam et-ont-été Shammai et-Jada ; et-fils-de Shammai, Nadab et-Abishur."
+        },
+        {
+          "n": 29,
+          "t": "et-nom-de femme-de Abishur Abihail ; et-elle-a-engendré à/pour-lui, Ahban et-Molid."
+        },
+        {
+          "n": 30,
+          "t": "et-fils-de Nadab Seled et-Appaim ; Seled et-est-mort non fils."
+        },
+        {
+          "n": 31,
+          "t": "et-fils-de Appaim Ishi ; et-fils-de Ishi Sheshan, et-fils-de Sheshan Ahlai."
+        },
+        {
+          "n": 32,
+          "t": "et-fils-de Jada frère-de Shammai, Jether et-Jonathan ; Jether et-est-mort non fils."
+        },
+        {
+          "n": 33,
+          "t": "et-fils-de Jonathan Peleth et-Zaza ; ces fils-de Jerahmeel ont-été."
+        },
+        {
+          "n": 34,
+          "t": "et-non il-a-été à/pour-Sheshan fils pour gsxb filles ; et-à/pour-Sheshan serviteur Egyptian et-nom-de-lui Jarha."
+        },
+        {
+          "n": 35,
+          "t": "Sheshan et-a-donné fille-de-lui à/pour-Jarha serviteur-de-lui à/pour-femme ; et-elle-a-engendré à/pour-lui Attai."
+        },
+        {
+          "n": 36,
+          "t": "et-Attai a-fait-engendrer Nathan, et-Nathan a-fait-engendrer Zabad."
+        },
+        {
+          "n": 37,
+          "t": "et-Zabad a-fait-engendrer Ephlal, et-Ephlal a-fait-engendrer Obed."
+        },
+        {
+          "n": 38,
+          "t": "et-Obed a-fait-engendrer Jehu, et-Jehu a-fait-engendrer Azariah."
+        },
+        {
+          "n": 39,
+          "t": "et-Azariah a-fait-engendrer Helez, et-Helez a-fait-engendrer Eleasah."
+        },
+        {
+          "n": 40,
+          "t": "et-Eleasah a-fait-engendrer Sismai, et-Sismai a-fait-engendrer Shallum."
+        },
+        {
+          "n": 41,
+          "t": "et-Shallum a-fait-engendrer Jekamiah, et-Jekamiah a-fait-engendrer Elishama."
+        },
+        {
+          "n": 42,
+          "t": "et-fils-de Caleb frère-de Jerahmeel, Meycha premier-né-de-lui lui père-de Ziph ; et-fils-de Mareshah père-de Vehebron."
+        },
+        {
+          "n": 43,
+          "t": "et-fils-de Vehebron ; Coré et-Vetapuha et-Rekem et-Vachama."
+        },
+        {
+          "n": 44,
+          "t": "et-Vachama a-fait-engendrer, Raham père-de Jorkeam ; et-Rekem a-fait-engendrer Shammai."
+        },
+        {
+          "n": 45,
+          "t": "et-fils-de Shammai Maon ; et-Maon père-de Beth-zur Tsour."
+        },
+        {
+          "n": 46,
+          "t": "et-Ephah concubine-de Caleb, a-engendré Gdbob et-Moza et-Gazez ; et-Gdbob a-fait-engendrer Gazez."
+        },
+        {
+          "n": 47,
+          "t": "et-fils-de Jahdai ; Regem et-Jotham et-Geshan et-Pelet et-Ephah et-Shaaph."
+        },
+        {
+          "n": 48,
+          "t": "concubine-de Caleb Maacah, Sheber a-engendré et-Tirhanah."
+        },
+        {
+          "n": 49,
+          "t": "Shaaph et-a-engendré père-de Madmannah, Sheva père-de Machbenah et-père-de Gibea ; et-fille-de Caleb Achsah."
+        },
+        {
+          "n": 50,
+          "t": "ces fils-de Caleb ont-été, fils-de Hur premier-né-de Ephrathah ; Shobal, père-de Veqiryat Yeariym."
+        },
+        {
+          "n": 51,
+          "t": "Salma père-de Beyt Bethléhem, Hareph père-de Beth-gader Gader."
+        },
+        {
+          "n": 52,
+          "t": "fils et-ont-été à/pour-Shobal, père-de Veqiryat Yeariym ; Haroeh Hatsiy-de le-Hamnuhot."
+        },
+        {
+          "n": 53,
+          "t": "et-familles-de Veqiryat Yeariym, le-Ithrite et-le-Puthite, et-le-Shumathite et-le-Mishraite ; depuis-ces ils-sont-sorti le-Zorathite, et-le-Eshtaolite."
+        },
+        {
+          "n": 54,
+          "t": "fils-de Salma Beyt Bethléhem et-Netophathite, Atroth-beth-joab Atroth-beth-joab Yoab ; et-Vahatsiy-de le-Hamanahtiy le-Zorathite."
+        },
+        {
+          "n": 55,
+          "t": "et-familles-de dénombrers ils-ont-habité habitants-de Jabez, Tirathite Shimeathite Sucathites ; eux les-Kenite les-venants, depuis-Mehamat père-de maison-de Rechab."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ces fils-de David ont-été, qui il-a-été-engendré à/pour-lui dans-Hébron ; le-premier-né Amnon à/pour-Ahinoam la-Jezreelitess, second Daniel, à/pour-Abigail la-Carmelitess."
+        },
+        {
+          "n": 2,
+          "t": "le-troisième à/pour-Absalom fils-de Maacah, fille-de Talmai roi-de Geshur ; le-quatrième Adonijah fils-de Haggith."
+        },
+        {
+          "n": 3,
+          "t": "le-cinquième Shephatiah à/pour-Abital ; le-sixième Ithream à/pour-Eglah femme-de-lui."
+        },
+        {
+          "n": 4,
+          "t": "six il-a-été-engendré à/pour-lui dans-Hébron, et-il-a-régné là, sept années et-six mois ; et-trente et-trois année, il-a-régné dans-Jérusalem."
+        },
+        {
+          "n": 5,
+          "t": "et-ces ils-ont-été-engendré à/pour-lui dans-Jérusalem ; Shimea et-Shobab et-Nathan et-Salomon quatre, à/pour-Lebat Bath-shua fille-de Ammiel."
+        },
+        {
+          "n": 6,
+          "t": "et-Ibhar et-Elishama et-Eliphelet."
+        },
+        {
+          "n": 7,
+          "t": "et-Nogah et-Nepheg et-Japhia."
+        },
+        {
+          "n": 8,
+          "t": "et-Elishama et-Eliada et-Eliphelet neuf."
+        },
+        {
+          "n": 9,
+          "t": "tout-de fils-de David ; depuis-seul-de fils-de concubines et-Tamara sœur-de-eux."
+        },
+        {
+          "n": 10,
+          "t": "et-fils-de Salomon Roboam ; Abijah fils-de-lui Asaa fils-de-lui Jehoshaphat fils-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "Joram fils-de-lui Ahaziah fils-de-lui Joash fils-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "Amaziah fils-de-lui Azariah fils-de-lui Jotham fils-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "Ahaz fils-de-lui Ézéchias fils-de-lui Manassé fils-de-lui."
+        },
+        {
+          "n": 14,
+          "t": "Amon fils-de-lui Josias fils-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "et-fils-de Josias, le-premier-né Johanan, le-second Jehoiakim ; le-troisième Zedekiah, le-quatrième Shallum."
+        },
+        {
+          "n": 16,
+          "t": "et-fils-de Jehoiakim ; Jeconiah fils-de-lui Zedekiah fils-de-lui."
+        },
+        {
+          "n": 17,
+          "t": "et-fils-de Jeconiah Assir, Shealtiel fils-de-lui."
+        },
+        {
+          "n": 18,
+          "t": "et-Malchiram et-Pedaiah et-Shenazzar ; Jekamiah Hoshama et-Nedabiah."
+        },
+        {
+          "n": 19,
+          "t": "et-fils-de Pedaiah, Zerubbabel et-Shimei ; et-fils-de Zerubbabel Meshullam et-Hananiah, et-Shelomith sœur-de-eux."
+        },
+        {
+          "n": 20,
+          "t": "et-Hashubah et-Ohel et-Berechiah et-Hasadiah Youchab Heseda cinq."
+        },
+        {
+          "n": 21,
+          "t": "et-fils-de Hananiah Pelatiah et-Jeshaiah ; fils-de Rephaiah fils-de Arnan, fils-de Obadiah fils-de Shecaniah."
+        },
+        {
+          "n": 22,
+          "t": "et-fils-de Shecaniah Shemaiah ; et-fils-de Shemaiah Hattush et-Igal et-Bariah et-Neariah et-Shaphat six."
+        },
+        {
+          "n": 23,
+          "t": "et-fils-de Neariah Elioenai et-Ézéchias et-Azrikam trois."
+        },
+        {
+          "n": 24,
+          "t": "et-fils-de Elioenai Hodaiah Hodaviah et-Eliashib et-Pelaiah et-Akkub et-Johanan et-Delaiah et-Anani sept."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de Juda ; Pérets Hezron et-Carmi et-Hur et-Shobal."
+        },
+        {
+          "n": 2,
+          "t": "et-Reaiah fils-de Shobal a-fait-engendrer Jahath, et-Jahath a-fait-engendrer, Ahumai et-Lahad ; ces familles-de le-Zorathite."
+        },
+        {
+          "n": 3,
+          "t": "et-ces père-de Etam, Jezreel et-Ishma et-Idbash ; et-nom-de sœur-de-eux Hazzelelponi."
+        },
+        {
+          "n": 4,
+          "t": "et-Peniel père-de Gedor, et-Veezer père-de Hushah ; ces fils-de Hur premier-né-de Ephrathah, père-de Beyt Bethléhem."
+        },
+        {
+          "n": 5,
+          "t": "et-à/pour-Ashhur père-de Teqoa, ont-été deux-de femmes ; Helah et-Venaara."
+        },
+        {
+          "n": 6,
+          "t": "et-elle-a-engendré à/pour-lui Venaara Ahuzzam et-Hepher, et-Temeni et-le-Haahashtari ; ces fils-de Venaara."
+        },
+        {
+          "n": 7,
+          "t": "et-fils-de Helah ; Zereth Ytshr et-Zohar et-Ethnan."
+        },
+        {
+          "n": 8,
+          "t": "et-Koz a-fait-engendrer, Anub et-le-Zobebah ; et-familles-de Aharhel fils-de Harum."
+        },
+        {
+          "n": 9,
+          "t": "Jabez honor et-a-été, depuis-frères-de-lui ; et-mère-de-lui a-appelé nom-de-lui Jabez à/pour-dire, car je-ai-engendré dans-ghzfa."
+        },
+        {
+          "n": 10,
+          "t": "Jabez et-a-appelé à/pour-dieu-de Israël à/pour-dire si bénir tu-béniras-moi et-tu-as-fait-multiplier frontière-de-moi main-de-toi et-a-été avec-moi, et-tu-as-fait depuis-mal à/pour-sans affliger-de-moi ; dieu et-a-fait-venir qui a-demandé."
+        },
+        {
+          "n": 11,
+          "t": "et-Chelub frère-de Shuhah a-fait-engendrer Mehir ; lui père-de Eshton."
+        },
+        {
+          "n": 12,
+          "t": "et-Eshton a-fait-engendrer Beth-rapha Rafa et-Paseah, et-Tehinnah père-de Iyr Nahach ; ces hommes-de Recah."
+        },
+        {
+          "n": 13,
+          "t": "et-fils-de Kenaz, Othniel et-Seraiah ; et-fils-de Othniel Hathath."
+        },
+        {
+          "n": 14,
+          "t": "et-Meonothai a-fait-engendrer Ophrah ; et-Seraiah a-fait-engendrer Joab père-de gbfh-de Harachiym, car artisans ont-été."
+        },
+        {
+          "n": 15,
+          "t": "et-fils-de Caleb fils-de Jephunneh, Iru Elah et-Naam ; et-fils-de Elah et-Kenaz."
+        },
+        {
+          "n": 16,
+          "t": "et-fils-de Jehallelel ; Ziph et-Ziphah, Tiria et-Asarel."
+        },
+        {
+          "n": 17,
+          "t": "et-fils-de Ezrah, Jether et-Mered et-Epher et-Jalon ; et-elle-a-conçu Miryam et-Shammai, et-Ishbah père-de Eshtemoa."
+        },
+        {
+          "n": 18,
+          "t": "et-femme-de-lui la-Hayhudiya a-engendré Jéred père-de Gedor et-Heber père-de Socoh, et-Jekuthiel père-de Zanoah ; et-ces fils-de Bithiah fille-de Pharaon, qui Mered a-pris."
+        },
+        {
+          "n": 19,
+          "t": "et-fils-de femme-de Hodiah, sœur-de Naham, père-de Keilah le-Garmite ; et-Eshtemoa le-Maacathite."
+        },
+        {
+          "n": 20,
+          "t": "et-fils-de Shimon, Amnon et-Rinnah, Gaqqp Ben-hanan et-Tilon ; et-fils-de Ishi, Zoheth et-Ouben Zohet."
+        },
+        {
+          "n": 21,
+          "t": "fils-de Chela fils-de Juda, Er père-de Lecah, et-Laadah père-de Mareshah ; et-familles-de maison-de service-de le-byssus à/pour-maison-de Achbea."
+        },
+        {
+          "n": 22,
+          "t": "et-Jokim et-hommes-de Cozeba et-Joash et-Saraph qui ont-épousé à/pour-Moab et-Veyachubiy Lehem ; et-les-paroles anciens."
+        },
+        {
+          "n": 23,
+          "t": "eux les-formants, et-habitants-de Netaim et-Ougdera ; avec le-roi dans-travail-de-lui ils-ont-habité là."
+        },
+        {
+          "n": 24,
+          "t": "fils-de Siméon ; Nemuel et-Jamin, Jarib Zerah Saül."
+        },
+        {
+          "n": 25,
+          "t": "Shallum fils-de-lui Mibsam fils-de-lui Mishma fils-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "et-fils-de Mishma ; Hammuel fils-de-lui Zaccur fils-de-lui Shimei fils-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "et-à/pour-Shimei fils six dix et-filles six, et-à/pour-frères-de-lui, néant fils nombreux ; et-tout-de famille-de-eux, non fils-de Juda ont-fait-multiplier jusqu'à."
+        },
+        {
+          "n": 28,
+          "t": "et-ils-ont-habité dans-Beera Beersheba et-Moladah et-Vahatsara Choual."
+        },
+        {
+          "n": 29,
+          "t": "et-dans-Oubbilha et-dans-Ezem et-dans-Tolad."
+        },
+        {
+          "n": 30,
+          "t": "et-dans-Oubibtouel et-dans-Hormah et-dans-Ziklag."
+        },
+        {
+          "n": 31,
+          "t": "et-dans-Beth-marcaboth Hamarkabot et-dans-Oubahatsar Sousiym, et-dans-Oubbeyt Biriy et-dans-Shaaraim ; ces villes-de-eux jusqu'à régner David."
+        },
+        {
+          "n": 32,
+          "t": "et-enclos-de-eux Etam et-Ain, Verimon et-Tochen et-Ashan ; villes cinq."
+        },
+        {
+          "n": 33,
+          "t": "et-tout-de enclos-de-eux qui alentours-de les-villes les-ces jusqu'à Garxb ; celle-ci sièges-de-eux, et-se-enrôler-de-eux à/pour-eux."
+        },
+        {
+          "n": 34,
+          "t": "et-Meshobab et-Jamlech, et-Joshah fils-de Amaziah."
+        },
+        {
+          "n": 35,
+          "t": "et-Joel ; et-Jehu fils-de Joshibiah, fils-de Seraiah fils-de Asiel."
+        },
+        {
+          "n": 36,
+          "t": "et-Elioenai et-Jaakobah et-Jeshohaiah et-Asaiah et-Adiel et-Jesimiel et-Benaiah."
+        },
+        {
+          "n": 37,
+          "t": "et-Ziza fils-de Shiphi fils-de oak fils-de Jedaiah fils-de Shimri fils-de Shemaiah."
+        },
+        {
+          "n": 38,
+          "t": "ces les-venants dans-noms, leaders dans-familles-de-eux ; et-maison-de pères-de-eux, ils-ont-éclaté à/pour-multitude."
+        },
+        {
+          "n": 39,
+          "t": "et-ils-sont-allé à/pour-entrer-de Gedor, jusqu'à à/pour-east-de le-gbfh ; à/pour-chercher pâture à/pour-troupeau-de-eux."
+        },
+        {
+          "n": 40,
+          "t": "et-ils-ont-trouvé pâture riche et-bon, et-la-terre large-de mains, et-apaisante et-tranquille ; car depuis Cham, les-habitants là à/pour-faces."
+        },
+        {
+          "n": 41,
+          "t": "et-ils-sont-venu ces les-écrits dans-noms dans-jours-de Ézéchias roi-de Juda et-ils-ont-fait-frapper tentes-de-eux et-les-Hamouniym qui ils-ont-été-trouvé là-vers et-ils-ont-fait-dévouer-eux jusqu'à le-jour le-celui-ci, et-ils-ont-habité sous-eux ; car pâture à/pour-troupeau-de-eux là."
+        },
+        {
+          "n": 42,
+          "t": "et-depuis-eux depuis fils-de Siméon ont-marché à/pour-mont-de Seir, hommes cinq cent ; et-Pelatiah et-Neariah et-Rephaiah et-Uzziel fils-de Ishi dans-tête-de-eux."
+        },
+        {
+          "n": 43,
+          "t": "et-ils-ont-fait-frapper, résidu-de la-fuite à/pour-Amalek ; et-ils-ont-habité là, jusqu'à le-jour le-celui-ci."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-fils-de Ruben premier-né-de Israël car lui le-premier-né et-dans-commencer-de-lui aînesse-de-lui, a-été-donné couches-de père-de-lui, à/pour-fils-de Joseph fils-de Israël ; et-non à/pour-se-enrôler à/pour-le-aînesse."
+        },
+        {
+          "n": 2,
+          "t": "car Juda a-prévalu dans-frères-de-lui, et-à/pour-chef depuis-nous ; et-le-aînesse à/pour-Joseph."
+        },
+        {
+          "n": 3,
+          "t": "fils-de Ruben premier-né-de Israël ; Hénoc et-Pallu Hezron et-Carmi."
+        },
+        {
+          "n": 4,
+          "t": "fils-de Joel ; Shemaiah fils-de-lui Gog fils-de-lui Shimei fils-de-lui."
+        },
+        {
+          "n": 5,
+          "t": "Micah fils-de-lui Reaiah fils-de-lui Garxb fils-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "Beerah fils-de-lui, qui a-fait-découvrir, Tiglat Pileser roi-de Assur ; lui leader à/pour-le-Reubenite."
+        },
+        {
+          "n": 7,
+          "t": "et-frères-de-lui à/pour-familles-de-lui, dans-se-enrôler à/pour-générations-de-eux ; le-tête Jeiel et-Zechariah."
+        },
+        {
+          "n": 8,
+          "t": "et-Belaa fils-de Azaz, fils-de Vachama fils-de Joel ; lui habitant dans-Aroer, et-jusqu'à Nebo et-Baal-meon Meon."
+        },
+        {
+          "n": 9,
+          "t": "et-à/pour-le-east a-habité jusqu'à à/pour-venir désert-vers, depuis le-fleuve Euphrate ; car bétail-de-eux ils-ont-multiplié dans-terre-de Gilead."
+        },
+        {
+          "n": 10,
+          "t": "et-dans-jours-de Saül ont-fait guerre avec les-Hagri, et-sont-tombé dans-main-de-eux ; et-ils-ont-habité dans-tentes-de-eux, sur tout-de faces-de east à/pour-le-Gilead."
+        },
+        {
+          "n": 11,
+          "t": "et-fils-de Gad devant-eux ont-habité dans-terre-de le-Bashan jusqu'à Salecah."
+        },
+        {
+          "n": 12,
+          "t": "Joel le-tête, et-Shapham le-double ; et-Janai et-Shaphat dans-le-Bashan."
+        },
+        {
+          "n": 13,
+          "t": "et-frères-de-eux à/pour-maison-de pères-de-eux Michel et-Meshullam et-gkhhae et-Jorai et-Jacan et-Zia et-Eber sept."
+        },
+        {
+          "n": 14,
+          "t": "ces fils-de Abihail fils-de Huri fils-de Jaroah fils-de Gilead fils-de Michel fils-de Jeshishai fils-de Jahdo fils-de Buz."
+        },
+        {
+          "n": 15,
+          "t": "Ahi fils-de Abdiel fils-de Guni, tête à/pour-maison-de pères-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "et-ils-ont-habité dans-le-Gilead dans-le-Bashan et-dans-filles-de-elle ; et-dans-tout-de communs-de Lasharon sur issues-de-eux."
+        },
+        {
+          "n": 17,
+          "t": "tout-de-eux ils-ont-se-enrôlé, dans-jours-de Jotham roi-de Juda ; et-dans-jours-de Jéroboam roi-de Israël."
+        },
+        {
+          "n": 18,
+          "t": "fils-de Ruben et-Hagadiy et-moitié-de verge-de Manassé depuis fils-de compétence hommes portants-de bouclier et-épée et-marchants-de arc, et-enseignés-de guerre ; quarante et-quatre mille et-sept cent et-soixante sortissants-de armée."
+        },
+        {
+          "n": 19,
+          "t": "et-ont-fait guerre avec les-Hagri ; et-Jetur et-Naphish et-Nodab."
+        },
+        {
+          "n": 20,
+          "t": "et-ont-été-aidé sur-eux, les-Hagri, et-ont-été-donné dans-main-de-eux et-tout que-avec-eux ; car à/pour-dieu ils-ont-gcfoé dans-la-guerre, et-être-implorer à/pour-eux car ils-ont-confié dans-lui."
+        },
+        {
+          "n": 21,
+          "t": "et-ont-emmené bétail-de-eux chameaux-de-eux cinquante mille et-troupeau cent et-cinquante mille, et-ânes mille ; et-âme-de homme cent mille."
+        },
+        {
+          "n": 22,
+          "t": "car tués nombreux ils-sont-tombé, car depuis-le-dieu la-guerre ; et-ils-ont-habité sous-eux jusqu'à la-captivité."
+        },
+        {
+          "n": 23,
+          "t": "et-fils-de moitié-de verge-de Manassé, ont-habité dans-la-terre ; depuis-Bashan jusqu'à Baal-hermon Hermona et-Senir et-mont-de Hermon eux ont-multiplié."
+        },
+        {
+          "n": 24,
+          "t": "et-ces têtes-de maison-de pères-de-eux ; et-Epher et-Ishi et-Eliel et-Azriel et-Jérémie et-Hodaviah et-Jahdiel hommes puissants-de compétence, hommes-de noms, têtes à/pour-maison-de pères-de-eux."
+        },
+        {
+          "n": 25,
+          "t": "et-ils-ont-trahi, dans-dieu-de pères-de-eux ; et-ils-ont-gcewé après dieu-de peuples-de la-terre, qui a-fait-exterminer dieu depuis-faces-de-eux."
+        },
+        {
+          "n": 26,
+          "t": "dieu-de Israël et-a-fait-éveiller esprit-de Pul roi-de Assur et-esprit-de Tiglat Pileser roi-de Assur, et-a-fait-découvrir-eux à/pour-le-Reubenite et-à/pour-le-Hagadiy, et-à/pour-moitié-de verge-de Manassé ; et-Habor et-Hara et-a-fait-venir-eux à/pour-Halah et-fleuve-de Gozan, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 27,
+          "t": "fils-de Lévi ; Gershon, Kohath et-Merari."
+        },
+        {
+          "n": 28,
+          "t": "et-fils-de Kohath ; Amram Izhar, et-Vehebron et-Uzziel."
+        },
+        {
+          "n": 29,
+          "t": "et-fils-de Amram, Aaron et-Moïse et-Miryam ; et-fils-de Aaron, Nadab et-Abihu, Éléazar et-Ithamar."
+        },
+        {
+          "n": 30,
+          "t": "Éléazar a-fait-engendrer Phinées, Phinées a-fait-engendrer Abishua."
+        },
+        {
+          "n": 31,
+          "t": "et-Abishua a-fait-engendrer Bukki, et-Bukki a-fait-engendrer Uzzi."
+        },
+        {
+          "n": 32,
+          "t": "et-Uzzi a-fait-engendrer Zerahiah, et-Zerahiah a-fait-engendrer Meraioth."
+        },
+        {
+          "n": 33,
+          "t": "Meraioth a-fait-engendrer Amariah, et-Amariah a-fait-engendrer Ahitub."
+        },
+        {
+          "n": 34,
+          "t": "et-Ahitub a-fait-engendrer Zadok, et-Zadok a-fait-engendrer Ahimaaz."
+        },
+        {
+          "n": 35,
+          "t": "et-Ahimaaz a-fait-engendrer Azariah, et-Azariah a-fait-engendrer Johanan."
+        },
+        {
+          "n": 36,
+          "t": "et-Johanan a-fait-engendrer Azariah ; lui qui a-ministé, dans-le-maison, qui Salomon a-bâti dans-Jérusalem."
+        },
+        {
+          "n": 37,
+          "t": "Azariah et-a-fait-engendrer Amariah ; et-Amariah a-fait-engendrer Ahitub."
+        },
+        {
+          "n": 38,
+          "t": "et-Ahitub a-fait-engendrer Zadok, et-Zadok a-fait-engendrer Shallum."
+        },
+        {
+          "n": 39,
+          "t": "et-Shallum a-fait-engendrer Hilkiah, et-Hilkiah a-fait-engendrer Azariah."
+        },
+        {
+          "n": 40,
+          "t": "et-Azariah a-fait-engendrer Seraiah, et-Seraiah a-fait-engendrer Jehozadak."
+        },
+        {
+          "n": 41,
+          "t": "et-Jehozadak a-marché, dans-faire-découvrir YHWH, Juda et-Jérusalem ; dans-main-de Nebucadnetsar."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de Lévi ; Gershom, Kohath et-Merari."
+        },
+        {
+          "n": 2,
+          "t": "et-ces noms-de fils-de Gershom Libni et-Shimei."
+        },
+        {
+          "n": 3,
+          "t": "et-fils-de Kohath ; Amram et-Izhar, et-Vehebron et-Uzziel."
+        },
+        {
+          "n": 4,
+          "t": "fils-de Merari Mahli et-Mushi ; et-ces familles-de le-Haleviy à/pour-pères-de-eux."
+        },
+        {
+          "n": 5,
+          "t": "à/pour-Gershom ; Libni fils-de-lui Jahath fils-de-lui Zimmah fils-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "Joah fils-de-lui Iddo fils-de-lui, Zerah fils-de-lui Jeatherai fils-de-lui."
+        },
+        {
+          "n": 7,
+          "t": "fils-de Kohath ; Amminadab fils-de-lui, Coré fils-de-lui Assir fils-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "Elkanah fils-de-lui et-Ebiasaph fils-de-lui et-Assir fils-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "Tahath fils-de-lui Uriel fils-de-lui, Uzziah fils-de-lui et-Saül fils-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "et-fils-de Elkanah, Amasai et-Ahimoth."
+        },
+        {
+          "n": 11,
+          "t": "Elkanah ; fils-de-lui fils-de Elkanah, Zuph fils-de-lui et-Nahath fils-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "Eliab fils-de-lui Jeroham fils-de-lui Elkanah fils-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "et-fils-de Samuel le-premier-né Vachniy et-Abijah."
+        },
+        {
+          "n": 14,
+          "t": "fils-de Merari Mahli ; Libni fils-de-lui Shimei fils-de-lui Uzaa fils-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "Shimea fils-de-lui Haggiah fils-de-lui Asaiah fils-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "et-ces qui David a-fait-rester sur mains-de chant maison-de YHWH ; depuis-resting-de la-arche."
+        },
+        {
+          "n": 17,
+          "t": "et-ils-ont-été administrants à/pour-faces-de tabernacle-de tente-de rencontre dans-le-chant, jusqu'à bâtir Salomon maison-de YHWH dans-Jérusalem ; et-ils-ont-resté comme-jugement-de-eux sur service-de-eux."
+        },
+        {
+          "n": 18,
+          "t": "et-ces les-restants et-fils-de-eux ; depuis-fils-de le-Kohathite, Heman le-chantant, fils-de Joel fils-de Samuel."
+        },
+        {
+          "n": 19,
+          "t": "fils-de Elkanah fils-de Jeroham, fils-de Eliel fils-de Toah."
+        },
+        {
+          "n": 20,
+          "t": "fils-de Zuph fils-de Elkanah, fils-de Mahath fils-de Amasai."
+        },
+        {
+          "n": 21,
+          "t": "fils-de Elkanah fils-de Joel, fils-de Azariah fils-de Zephaniah."
+        },
+        {
+          "n": 22,
+          "t": "fils-de Tahath fils-de Assir, fils-de Ebiasaph fils-de Coré."
+        },
+        {
+          "n": 23,
+          "t": "fils-de Izhar fils-de Kohath, fils-de Lévi fils-de Israël."
+        },
+        {
+          "n": 24,
+          "t": "et-frère-de-lui Asaph, le-restant sur right-de-lui ; Asaph fils-de Berechiah fils-de Shimea."
+        },
+        {
+          "n": 25,
+          "t": "fils-de Michel fils-de Baaseiah fils-de Malchijah."
+        },
+        {
+          "n": 26,
+          "t": "fils-de Ethni fils-de Zerah fils-de Adaiah."
+        },
+        {
+          "n": 27,
+          "t": "fils-de Ethan fils-de Zimmah fils-de Shimei."
+        },
+        {
+          "n": 28,
+          "t": "fils-de Jahath fils-de Gershom fils-de Lévi."
+        },
+        {
+          "n": 29,
+          "t": "et-fils-de Merari frères-de-eux sur le-gauche ; Ethan fils-de Kishi, fils-de Abdi fils-de Malluch."
+        },
+        {
+          "n": 30,
+          "t": "fils-de Hashabiah fils-de Amaziah fils-de Hilkiah."
+        },
+        {
+          "n": 31,
+          "t": "fils-de Amzi fils-de Bani fils-de Shemer."
+        },
+        {
+          "n": 32,
+          "t": "fils-de Mahli fils-de Mushi, fils-de Merari fils-de Lévi."
+        },
+        {
+          "n": 33,
+          "t": "et-frères-de-eux les-Haleviy ; donnés, à/pour-tout-de service-de, tabernacle-de maison-de le-dieu."
+        },
+        {
+          "n": 34,
+          "t": "et-Aaron et-fils-de-lui faisants-offer sur autel-de la-burnt et-sur autel-de la-encens, à/pour-tout-de, travail-de sainteté-de les-saintetés ; et-à/pour-couvrir sur Israël, comme-tout qui a-commandé, Moïse serviteur-de le-dieu."
+        },
+        {
+          "n": 35,
+          "t": "et-ces fils-de Aaron ; Éléazar fils-de-lui Phinées fils-de-lui Abishua fils-de-lui."
+        },
+        {
+          "n": 36,
+          "t": "Bukki fils-de-lui Uzzi fils-de-lui Zerahiah fils-de-lui."
+        },
+        {
+          "n": 37,
+          "t": "Meraioth fils-de-lui Amariah fils-de-lui Ahitub fils-de-lui."
+        },
+        {
+          "n": 38,
+          "t": "Zadok fils-de-lui Ahimaaz fils-de-lui."
+        },
+        {
+          "n": 39,
+          "t": "et-ces sièges-de-eux, à/pour-campements-de-eux dans-frontière-de-eux ; à/pour-fils-de Aaron à/pour-famille-de le-Kohathite, car à/pour-eux le-sort a-été."
+        },
+        {
+          "n": 40,
+          "t": "et-ils-ont-donné à/pour-eux Hébron dans-terre-de Juda ; et-communs-de-elle alentours-de-elle."
+        },
+        {
+          "n": 41,
+          "t": "et-champ-de la-ville et-cours-de-elle ; ils-ont-donné à/pour-Caleb fils-de Jephunneh."
+        },
+        {
+          "n": 42,
+          "t": "et-à/pour-fils-de Aaron ils-ont-donné villes-de le-refuge, Hébron et-Libnah et-communs-de-elle ; et-Jattir et-Eshtemoa et-communs-de-elle."
+        },
+        {
+          "n": 43,
+          "t": "et-Hilen et-communs-de-elle, Debir et-communs-de-elle."
+        },
+        {
+          "n": 44,
+          "t": "et-Ashan et-communs-de-elle, et-Beth-shemesh Chemech et-communs-de-elle."
+        },
+        {
+          "n": 45,
+          "t": "et-depuis-tribu-de Benjamin Geba et-communs-de-elle et-Alemeth et-communs-de-elle, et-Anathoth et-communs-de-elle ; tout-de villes-de-eux trois dix ville dans-familles-de-eux."
+        },
+        {
+          "n": 46,
+          "t": "et-à/pour-fils-de Kohath les-demeurés depuis-famille-de le-tribu depuis-half-de tribu-de moitié-de Manassé dans-le-sort villes tene."
+        },
+        {
+          "n": 47,
+          "t": "et-à/pour-fils-de Gershom à/pour-familles-de-eux depuis-tribu-de Issacar et-depuis-tribu-de Aser et-depuis-tribu-de Nephthali et-depuis-tribu-de Manassé dans-le-Bashan, villes trois dix."
+        },
+        {
+          "n": 48,
+          "t": "à/pour-fils-de Merari à/pour-familles-de-eux depuis-tribu-de Ruben et-depuis-tribu-de Gad et-depuis-tribu-de Zabulon dans-le-sort, villes deux dix."
+        },
+        {
+          "n": 49,
+          "t": "fils-de Israël et-ont-donné à/pour-les-Haleviy ; les-villes et-communs-de-eux."
+        },
+        {
+          "n": 50,
+          "t": "et-ils-ont-donné dans-le-sort depuis-tribu-de fils-de Juda et-depuis-tribu-de fils-de Siméon, et-depuis-tribu-de fils-de Benjamin ; les-villes les-ces, qui ils-appeleront eux dans-noms."
+        },
+        {
+          "n": 51,
+          "t": "et-depuis-familles-de fils-de Kohath ; et-il-a-été villes-de frontière-de-eux, depuis-tribu-de Éphraïm."
+        },
+        {
+          "n": 52,
+          "t": "et-ils-ont-donné à/pour-eux villes-de le-refuge Shechem et-communs-de-elle dans-mont-de Éphraïm ; et-Gezer et-communs-de-elle."
+        },
+        {
+          "n": 53,
+          "t": "et-Jokmeam et-communs-de-elle, et-Beth-horon Horon et-communs-de-elle."
+        },
+        {
+          "n": 54,
+          "t": "et-Aijalon et-communs-de-elle, et-Vegat Rimon et-communs-de-elle."
+        },
+        {
+          "n": 55,
+          "t": "et-depuis-half-de tribu-de Manassé, Aner et-communs-de-elle, et-Bileam et-communs-de-elle ; à/pour-famille-de à/pour-fils-de Kohath les-demeurés."
+        },
+        {
+          "n": 56,
+          "t": "à/pour-fils-de Gershom depuis-famille-de moitié-de tribu-de Manassé, Golan dans-le-Bashan et-communs-de-elle ; et-Ashtaroth et-communs-de-elle."
+        },
+        {
+          "n": 57,
+          "t": "et-depuis-tribu-de Issacar, Kedesh et-communs-de-elle ; Daberath et-communs-de-elle."
+        },
+        {
+          "n": 58,
+          "t": "et-Ramoth et-communs-de-elle, et-Anem et-communs-de-elle."
+        },
+        {
+          "n": 59,
+          "t": "et-depuis-tribu-de Aser, Mashal et-communs-de-elle ; et-Abdon et-communs-de-elle."
+        },
+        {
+          "n": 60,
+          "t": "et-Hukok et-communs-de-elle, et-Rehob et-communs-de-elle."
+        },
+        {
+          "n": 61,
+          "t": "et-depuis-tribu-de Nephthali Kedesh dans-le-Galilee et-communs-de-elle, et-Hammon et-communs-de-elle ; et-Kiriathaim et-communs-de-elle."
+        },
+        {
+          "n": 62,
+          "t": "à/pour-fils-de Merari les-demeurés depuis-tribu-de Zabulon, Verimon et-communs-de-elle ; Betabor et-communs-de-elle."
+        },
+        {
+          "n": 63,
+          "t": "et-depuis-delà à/pour-Jourdain Jéricho à/pour-east-de le-Jourdain depuis-tribu-de Ruben, Bezer dans-le-désert et-communs-de-elle ; et-Jahaz-vers et-communs-de-elle."
+        },
+        {
+          "n": 64,
+          "t": "et-Kedemoth et-communs-de-elle, et-Mephaath et-communs-de-elle."
+        },
+        {
+          "n": 65,
+          "t": "et-depuis-tribu-de Gad, Ramoth dans-le-Gilead et-communs-de-elle ; et-Mahanaim et-communs-de-elle."
+        },
+        {
+          "n": 66,
+          "t": "et-Heshbon et-communs-de-elle, et-Jazer et-communs-de-elle."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-à/pour-fils-de Issacar Tola et-Puah Jashub et-Shimron quatre."
+        },
+        {
+          "n": 2,
+          "t": "et-fils-de Tola Uzzi et-Rephaiah et-Jeriel et-Jahmai et-Ibsam et-Samuel têtes à/pour-maison-de pères-de-eux à/pour-Tola, puissants-de compétence à/pour-générations-de-eux ; nombre-de-eux dans-jours-de David, vingt et-deux mille et-six cent."
+        },
+        {
+          "n": 3,
+          "t": "et-fils-de Uzzi Izrahiah ; et-fils-de Izrahiah Michel et-Obadiah et-Joel Isshiah cinq têtes tout-de-eux."
+        },
+        {
+          "n": 4,
+          "t": "et-sur-eux à/pour-générations-de-eux à/pour-maison-de pères-de-eux troupes-de armée-de guerre, trente et-six mille ; car femmes et-fils ont-fait-multiplier."
+        },
+        {
+          "n": 5,
+          "t": "et-frères-de-eux à/pour-tout-de familles-de Issacar, puissants-de compétences ; quatre-vingts et-sept mille, se-enrôler-de-eux à/pour-le-tout."
+        },
+        {
+          "n": 6,
+          "t": "Benjamin Belaa et-Becher et-Jediael trois."
+        },
+        {
+          "n": 7,
+          "t": "et-fils-de Belaa Ezbon et-Uzzi et-Uzziel et-Jerimoth et-Iri cinq têtes-de maison-de pères, puissants-de compétences ; et-se-enrôler-de-eux vingt et-deux mille, et-trente et-quatre."
+        },
+        {
+          "n": 8,
+          "t": "et-fils-de Becher Zemirah et-Veyoach et-Eliezer et-Elioenai et-Omri et-Jerimoth et-Abijah, et-Anathoth et-Alemeth ; tout-de ces fils-de Becher."
+        },
+        {
+          "n": 9,
+          "t": "et-se-enrôler-de-eux à/pour-générations-de-eux têtes-de maison-de pères-de-eux, puissants-de compétence ; vingt mille et-cent."
+        },
+        {
+          "n": 10,
+          "t": "et-fils-de Jediael Bilhan ; et-fils-de Bilhan Jeush et-Benjamin et-Ehud et-Chenaanah et-Zethan, et-Tarshish et-Ahishahar."
+        },
+        {
+          "n": 11,
+          "t": "tout-de ces fils-de Jediael à/pour-têtes-de les-pères, puissants-de compétences ; sept dix mille et-cent, sortissants-de armée à/pour-la-guerre."
+        },
+        {
+          "n": 12,
+          "t": "et-Shuppim et-Huppim fils-de Ir, Hushim fils-de Aher."
+        },
+        {
+          "n": 13,
+          "t": "fils-de Nephthali Jahziel et-Guni et-Jezer et-Shallum fils-de Bilha."
+        },
+        {
+          "n": 14,
+          "t": "fils-de Manassé, Asriel qui elle-a-engendré ; concubine-de-lui la-Aramean, a-engendré, Machir père-de Gilead."
+        },
+        {
+          "n": 15,
+          "t": "et-Machir a-pris femme à/pour-Huppim et-à/pour-Shuppim, et-nom-de sœur-de-lui Maacah, et-nom-de le-second Zelophehad ; filles et-ont-été à/pour-Zelophehad."
+        },
+        {
+          "n": 16,
+          "t": "Maacah et-a-engendré femme-de Machir fils, et-a-appelé nom-de-lui Peresh, et-nom-de frère-de-lui Sheresh ; et-fils-de-lui Ulam et-Rekem."
+        },
+        {
+          "n": 17,
+          "t": "et-fils-de Ulam Bedan ; ces fils-de Gilead, fils-de Machir fils-de Manassé."
+        },
+        {
+          "n": 18,
+          "t": "et-sœur-de-lui le-Hammolecheth ; elle-a-engendré Ishhod, et-Abiezer et-Mahlah."
+        },
+        {
+          "n": 19,
+          "t": "fils-de Shemida et-ont-été ; Ahian et-Vechekhem, et-Likhi et-Aniam."
+        },
+        {
+          "n": 20,
+          "t": "et-fils-de Éphraïm Shuthelah ; et-Bered fils-de-lui et-Tahath fils-de-lui, et-Eleadah fils-de-lui et-Tahath fils-de-lui."
+        },
+        {
+          "n": 21,
+          "t": "et-Zabad fils-de-lui et-Shuthelah fils-de-lui et-Veezera et-Elead ; hommes-de Gath les-engendrés et-ont-tué-eux dans-la-terre, car sont-descendu, à/pour-prendre bétail-de-eux."
+        },
+        {
+          "n": 22,
+          "t": "Éphraïm et-a-se-gbdé père-de-eux jours nombreux ; frères-de-lui et-sont-venu à/pour-consoler-de-lui."
+        },
+        {
+          "n": 23,
+          "t": "et-est-venu vers femme-de-lui, et-a-conçu et-a-engendré fils ; et-a-appelé nom-de-lui Beriah, car dans-mal elle-a-été dans-maison-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "et-fille-de-lui Sheerah, et-a-bâti Beth-horon Horon le-inférieur et-le-haut ; et-Uzen Cheera."
+        },
+        {
+          "n": 25,
+          "t": "et-Rephah fils-de-lui et-Resheph et-Telah fils-de-lui et-Tahan fils-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "Ladan fils-de-lui Ammihud fils-de-lui Elishama fils-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "Nun fils-de-lui Josué fils-de-lui."
+        },
+        {
+          "n": 28,
+          "t": "et-possession-de-eux et-sièges-de-eux, Lebeyt Bethel et-filles-de-elle ; et-à/pour-le-east Naaran, et-à/pour-le-occident Gezer et-filles-de-elle et-Shechem et-filles-de-elle, jusqu'à Gaza et-filles-de-elle."
+        },
+        {
+          "n": 29,
+          "t": "et-sur mains-de fils-de Manassé Beth-shean Chean et-filles-de-elle Taanach et-filles-de-elle, Megiddo et-filles-de-elle Dor et-filles-de-elle ; dans-ces fils-de Joseph ont-habité, fils-de Israël."
+        },
+        {
+          "n": 30,
+          "t": "fils-de Aser Imnah et-Ishvah et-Ishvi et-Beriah et-Serah sœur-de-eux."
+        },
+        {
+          "n": 31,
+          "t": "et-fils-de Beriah, Heber et-Malchiel ; lui père-de Birzaith."
+        },
+        {
+          "n": 32,
+          "t": "et-Heber a-fait-engendrer Japhlet, et-Shomer et-Hotham ; et-Chouaa sœur-de-eux."
+        },
+        {
+          "n": 33,
+          "t": "et-fils-de Japhlet, Pasach et-Bimhal et-Ashvath ; ces fils-de Japhlet."
+        },
+        {
+          "n": 34,
+          "t": "et-fils-de Shemer ; Ahi et-Rohgah Jehubbah et-Jehubbah et-Aram."
+        },
+        {
+          "n": 35,
+          "t": "et-fils-de Helem frère-de-lui ; Zophah et-Imna et-Shelesh et-Amal."
+        },
+        {
+          "n": 36,
+          "t": "fils-de Zophah ; Suah et-Harnepher et-Vechoual et-Beri et-Imrah."
+        },
+        {
+          "n": 37,
+          "t": "Bezer et-Hod et-Chama et-Shilshah et-Ithran et-Oubera."
+        },
+        {
+          "n": 38,
+          "t": "et-fils-de Jether ; Jephunneh et-Pispa et-Ara."
+        },
+        {
+          "n": 39,
+          "t": "et-fils-de Ulla ; Arah et-Hanniel et-Rizia."
+        },
+        {
+          "n": 40,
+          "t": "tout-de ces fils-de Aser têtes-de maison-de les-pères purifiés puissants-de compétences, têtes-de les-leaders ; et-se-enrôler-de-eux dans-la-armée dans-la-guerre, nombre-de-eux hommes, vingt et-six mille."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-Benjamin, a-fait-engendrer Belaa premier-né-de-lui ; Ashbel le-second, et-Aharah le-troisième."
+        },
+        {
+          "n": 2,
+          "t": "Nohah le-quatrième, et-Raphah le-cinquième."
+        },
+        {
+          "n": 3,
+          "t": "fils et-ont-été à/pour-Belaa ; Addar et-Gera et-Abihud."
+        },
+        {
+          "n": 4,
+          "t": "et-Abishua et-Naaman et-Ahoah."
+        },
+        {
+          "n": 5,
+          "t": "et-Gera et-Shephuphan et-Vehouram."
+        },
+        {
+          "n": 6,
+          "t": "et-ces fils-de Ehoud ; ces eux têtes-de pères à/pour-habitants-de Geba, et-ont-fait-découvrir-eux vers Manahat."
+        },
+        {
+          "n": 7,
+          "t": "et-Naaman et-Ahijah et-Gera lui a-fait-découvrir-eux ; et-il-a-fait-engendrer Uzzah et-Ahiyhud."
+        },
+        {
+          "n": 8,
+          "t": "et-Shaharaim a-fait-engendrer dans-champ-de Moab, depuis envoyer-de-lui eux ; Houchiym et-Baara femmes-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "Hodesh et-a-fait-engendrer depuis femme-de-lui ; Jobab et-Zibia, et-Meychaa et-Malcam."
+        },
+        {
+          "n": 10,
+          "t": "et-Jeuz et-Sachia et-Mirmah ; ces fils-de-lui têtes-de pères."
+        },
+        {
+          "n": 11,
+          "t": "et-depuis-Houchiym il-a-fait-engendrer Abitub et-Elpaal."
+        },
+        {
+          "n": 12,
+          "t": "et-fils-de Elpaal, Eber et-Misham et-Shemer ; lui a-bâti Ono, et-Lod et-filles-de-elle."
+        },
+        {
+          "n": 13,
+          "t": "et-Beriah et-Vachama, eux têtes-de les-pères, à/pour-habitants-de Aijalon ; eux ont-fait-atteindre habitants-de Gath."
+        },
+        {
+          "n": 14,
+          "t": "et-Ahio Shashak et-Jerimoth."
+        },
+        {
+          "n": 15,
+          "t": "et-Zebadiah et-Vaarad et-Vaader."
+        },
+        {
+          "n": 16,
+          "t": "et-Michel et-Ishpah et-Joha fils-de Beriah."
+        },
+        {
+          "n": 17,
+          "t": "et-Zebadiah et-Meshullam et-Hizki et-Heber."
+        },
+        {
+          "n": 18,
+          "t": "et-Ishmerai et-Izliah et-Jobab fils-de Elpaal."
+        },
+        {
+          "n": 19,
+          "t": "et-Jakim et-Zichri et-Zabdi."
+        },
+        {
+          "n": 20,
+          "t": "et-Elienai et-Zillethai et-Eliel."
+        },
+        {
+          "n": 21,
+          "t": "et-Adaiah et-Beraiah et-Shimrath fils-de Shimei."
+        },
+        {
+          "n": 22,
+          "t": "et-Ishpan et-Eber et-Eliel."
+        },
+        {
+          "n": 23,
+          "t": "et-Abdon et-Zichri et-Vehanan."
+        },
+        {
+          "n": 24,
+          "t": "et-Hananiah et-Veeylam et-Anthothijah."
+        },
+        {
+          "n": 25,
+          "t": "et-Iphdeiah et-Peniel fils-de Shashak."
+        },
+        {
+          "n": 26,
+          "t": "et-Shamsherai et-Shehariah et-Athaliah."
+        },
+        {
+          "n": 27,
+          "t": "et-Jaareshiah et-Élie et-Zichri fils-de Jeroham."
+        },
+        {
+          "n": 28,
+          "t": "ces têtes-de pères à/pour-générations-de-eux têtes ; ces ils-ont-habité dans-Jérusalem."
+        },
+        {
+          "n": 29,
+          "t": "et-dans-Gibeon ils-ont-habité père-de Gibeon ; et-nom-de femme-de-lui Maacah."
+        },
+        {
+          "n": 30,
+          "t": "et-fils-de-lui le-premier-né Abdon ; et-Zur et-Kish et-Garxb et-Nadab."
+        },
+        {
+          "n": 31,
+          "t": "et-Gedor et-Ahio et-Zecher."
+        },
+        {
+          "n": 32,
+          "t": "et-Mikloth a-fait-engendrer Chima ; et-même eux devant frères-de-eux ont-habité dans-Jérusalem avec frères-de-eux."
+        },
+        {
+          "n": 33,
+          "t": "et-Ner a-fait-engendrer Kish, et-Kish a-fait-engendrer Saül ; et-Saül a-fait-engendrer Yehonatan et-Oumalkiya Choua, et-Abinadab et-Eshbaal."
+        },
+        {
+          "n": 34,
+          "t": "et-fils-de Yehonatan Meriyb Merib-baal ; et-Meriyb Merib-baal a-fait-engendrer Micah."
+        },
+        {
+          "n": 35,
+          "t": "et-fils-de Micah ; Pithon et-Melech et-Tarea et-Ahaz."
+        },
+        {
+          "n": 36,
+          "t": "et-Ahaz a-fait-engendrer Jehoaddah, et-Jehoaddah a-fait-engendrer Alemeth et-Azmaveth et-Zimri ; et-Zimri a-fait-engendrer Moza."
+        },
+        {
+          "n": 37,
+          "t": "et-Moza a-fait-engendrer Binea ; Raphah fils-de-lui Eleasah fils-de-lui Azel fils-de-lui."
+        },
+        {
+          "n": 38,
+          "t": "et-à/pour-Azel six fils et-ces noms-de-eux Azrikam Bocheru et-Ismaël et-Sheariah, et-Obadiah et-Vehanan ; tout-de ces fils-de Azel."
+        },
+        {
+          "n": 39,
+          "t": "et-fils-de Eshek frère-de-lui ; Ulam premier-né-de-lui, Jeush le-second, et-Eliphelet le-troisième."
+        },
+        {
+          "n": 40,
+          "t": "fils-de Ulam hommes puissants-de et-ont-été compétence marchants-de arc et-faisants-multiplier fils et-fils-de fils, cent et-cinquante ; tout-de ces depuis-fils-de Benjamin."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-tout-de Israël ils-ont-se-enrôlé, et-voici-eux écrits, sur livre-de rois-de Israël ; et-Juda ils-ont-été-fait-découvrir à/pour-Babylone dans-trahison-de-eux."
+        },
+        {
+          "n": 2,
+          "t": "et-les-habitants les-premiers, qui dans-possession-de-eux dans-villes-de-eux ; Israël les-sacrificateurs, les-Haleviy et-les-néthiniens."
+        },
+        {
+          "n": 3,
+          "t": "et-dans-Jérusalem fils-de Juda ont-habité, depuis et-depuis fils-de Benjamin ; et-depuis fils-de Éphraïm et-Manassé."
+        },
+        {
+          "n": 4,
+          "t": "Uthai fils-de Ammihud fils-de Omri fils-de Imri fils-de dans-Benjamin-de depuis fils-de Pérets fils-de Juda."
+        },
+        {
+          "n": 5,
+          "t": "et-depuis le-Shilonite, Asaiah le-premier-né et-fils-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "et-depuis fils-de Zerah Jeuel ; et-frères-de-eux six cent et-quatre-vingt-dix."
+        },
+        {
+          "n": 7,
+          "t": "et-depuis fils-de Benjamin ; Sallu fils-de Meshullam, fils-de Hodaviah fils-de le-Hassenuah."
+        },
+        {
+          "n": 8,
+          "t": "et-Ibneiah fils-de Jeroham, et-Elah fils-de Uzzi fils-de Michri ; et-Meshullam fils-de Shephatiah, fils-de Reuel fils-de Ibnijah."
+        },
+        {
+          "n": 9,
+          "t": "et-frères-de-eux à/pour-générations-de-eux, neuf cent et-cinquante et-six ; tout-de ces hommes, têtes-de pères à/pour-maison-de pères-de-eux."
+        },
+        {
+          "n": 10,
+          "t": "et-depuis les-sacrificateurs ; Yedaeya et-Jehoiarib et-Jachin."
+        },
+        {
+          "n": 11,
+          "t": "et-Azariah fils-de Hilkiah fils-de Meshullam fils-de Zadok fils-de Meraioth fils-de Ahitub, chef-de maison-de le-dieu."
+        },
+        {
+          "n": 12,
+          "t": "et-Adaiah fils-de Jeroham, fils-de Pashhur fils-de Malchijah ; et-Maasai fils-de Adiel fils-de Jahzerah fils-de Meshullam fils-de Meshillemith fils-de Immer."
+        },
+        {
+          "n": 13,
+          "t": "et-frères-de-eux têtes à/pour-maison-de pères-de-eux, mille, et-sept cent et-soixante ; puissants-de compétence-de, travail-de service-de maison-de le-dieu."
+        },
+        {
+          "n": 14,
+          "t": "et-depuis les-Haleviy ; Shemaiah fils-de Hasshub fils-de Azrikam fils-de Hashabiah depuis fils-de Merari."
+        },
+        {
+          "n": 15,
+          "t": "et-Bakbakkar Heresh et-Galal ; et-Mattaniah fils-de Mica, fils-de Zichri fils-de Asaph."
+        },
+        {
+          "n": 16,
+          "t": "et-Obadiah fils-de Shemaiah, fils-de Galal fils-de Jeduthun ; et-Berechiah fils-de Asaa fils-de Elkanah, le-habitant dans-cours-de Netophathite."
+        },
+        {
+          "n": 17,
+          "t": "et-les-portiers Shallum et-Akkub, et-Talmon et-Ahiman ; et-frère-de-eux Shallum le-tête."
+        },
+        {
+          "n": 18,
+          "t": "et-jusqu'à ici, dans-porte-de le-roi east-vers ; eux les-portiers, à/pour-camps-de fils-de Lévi."
+        },
+        {
+          "n": 19,
+          "t": "et-Shallum fils-de Kore fils-de Ebiasaph fils-de Coré et-frères-de-lui à/pour-maison-de père-de-lui les-Korahite sur travail-de la-service, gardants-de les-gobelets à/pour-le-tente ; et-pères-de-eux sur camp-de YHWH, gardants-de le-entrer."
+        },
+        {
+          "n": 20,
+          "t": "et-Phinées fils-de Éléazar chef a-été sur-eux à/pour-faces YHWH avec-lui."
+        },
+        {
+          "n": 21,
+          "t": "Zechariah fils-de Meshelemiah, portier entrée à/pour-tente-de rencontre."
+        },
+        {
+          "n": 22,
+          "t": "tout-de-eux les-purifiés à/pour-portiers dans-les-gobelets, cent et-deux dix ; eux dans-cours-de-eux se-enrôler-de-eux, eux David et-Samuel le-voir a-fondé dans-fidélité-de-eux."
+        },
+        {
+          "n": 23,
+          "t": "et-eux et-fils-de-eux sur les-portes à/pour-maison-de YHWH à/pour-maison-de le-tente à/pour-gardes."
+        },
+        {
+          "n": 24,
+          "t": "à/pour-quatre esprits, seront les-portiers ; east mer-vers nord-vers et-negeb-vers."
+        },
+        {
+          "n": 25,
+          "t": "et-frères-de-eux dans-cours-de-eux à/pour-venir à/pour-sept-de les-jours depuis-heure vers heure avec ces."
+        },
+        {
+          "n": 26,
+          "t": "car dans-fidélité eux quatre-de puissants-de les-portiers, eux les-Haleviy ; les-salles, et-ont-été sur et-sur les-trésors-de maison-de le-dieu."
+        },
+        {
+          "n": 27,
+          "t": "et-alentours-de maison-de le-dieu logeront ; car sur-eux garde, et-eux sur le-ouverture et-à/pour-le-matin à/pour-le-matin."
+        },
+        {
+          "n": 28,
+          "t": "et-depuis-eux sur ustensiles-de la-service ; car dans-nombre ils-feront-venir-eux, et-dans-nombre ils-feront-sortir-eux."
+        },
+        {
+          "n": 29,
+          "t": "et-depuis-eux calculés sur les-ustensiles, et-sur tout-de ustensiles-de le-sainteté ; et-sur la-fine et-le-vin et-le-huile, et-la-frankincense et-les-parfums."
+        },
+        {
+          "n": 30,
+          "t": "et-depuis fils-de les-sacrificateurs, composants-de la-ointment à/pour-les-parfums."
+        },
+        {
+          "n": 31,
+          "t": "et-Mattithiah depuis les-Haleviy, lui le-premier-né à/pour-Shallum le-Korahite ; dans-fidélité, sur acte-de les-galettes."
+        },
+        {
+          "n": 32,
+          "t": "et-depuis fils-de le-Kohathite depuis frères-de-eux sur pain-de la-rangées ; à/pour-faire-affermir sabbat-de sabbat."
+        },
+        {
+          "n": 33,
+          "t": "et-ces les-chantants têtes-de pères à/pour-les-Haleviy dans-les-salles exempts gijrés ; car journellement et-nuit sur-eux dans-la-travail."
+        },
+        {
+          "n": 34,
+          "t": "ces têtes-de les-pères à/pour-les-Haleviy à/pour-générations-de-eux têtes ; ces ils-ont-habité dans-Jérusalem."
+        },
+        {
+          "n": 35,
+          "t": "et-dans-Gibeon ils-ont-habité père-de Gibeon Jeiel ; et-nom-de femme-de-lui Maacah."
+        },
+        {
+          "n": 36,
+          "t": "et-fils-de-lui le-premier-né Abdon ; et-Zur et-Kish, et-Garxb et-Ner et-Nadab."
+        },
+        {
+          "n": 37,
+          "t": "et-Gedor et-Ahio, et-Zechariah et-Mikloth."
+        },
+        {
+          "n": 38,
+          "t": "et-Mikloth a-fait-engendrer Shimeam ; et-même eux devant frères-de-eux ont-habité dans-Jérusalem avec frères-de-eux."
+        },
+        {
+          "n": 39,
+          "t": "et-Ner a-fait-engendrer Kish, et-Kish a-fait-engendrer Saül ; et-Saül a-fait-engendrer Yehonatan et-Oumalkiya Choua, et-Abinadab et-Eshbaal."
+        },
+        {
+          "n": 40,
+          "t": "et-fils-de Yehonatan Meriyb Merib-baal ; et-Oumriy Ggbz a-fait-engendrer Micah."
+        },
+        {
+          "n": 41,
+          "t": "et-fils-de Micah ; Pithon et-Melech et-Tahrea."
+        },
+        {
+          "n": 42,
+          "t": "et-Ahaz a-fait-engendrer Jarah, et-Jarah a-fait-engendrer Alemeth et-Azmaveth et-Zimri ; et-Zimri a-fait-engendrer Moza."
+        },
+        {
+          "n": 43,
+          "t": "et-Moza a-fait-engendrer Binea ; et-Rephaiah fils-de-lui Eleasah fils-de-lui Azel fils-de-lui."
+        },
+        {
+          "n": 44,
+          "t": "et-à/pour-Azel six fils et-ces noms-de-eux Azrikam Bocheru et-Ismaël et-Sheariah, et-Obadiah et-Vehanan ; ces fils-de Azel."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-Philistin ont-été-combattu dans-Israël ; et-il-a-fui ; homme-de Israël depuis-faces-de Philistin, et-ils-sont-tombé tués dans-mont-de Gilboa."
+        },
+        {
+          "n": 2,
+          "t": "Philistin et-ont-fait-coller, après Saül et-après fils-de-lui ; Philistin et-ont-fait-frapper Jonathan et-Abinadab et-Oumalkiya Choua fils-de Saül."
+        },
+        {
+          "n": 3,
+          "t": "la-guerre et-a-honor sur Saül, et-ils-ont-trouvé-lui les-shows dans-la-arc ; et-il-a-tremblé depuis les-shows."
+        },
+        {
+          "n": 4,
+          "t": "Saül et-a-dit vers portant-de ustensiles-de-lui tire épée-de-toi et-perce-moi dans-elle sinon viendront les-incirconcis les-ces et-ont-se-traité dans-moi, et-non a-voulu portant-de ustensiles-de-lui, car a-craint très ; Saül et-a-pris la-épée, et-est-tombé sur-elle."
+        },
+        {
+          "n": 5,
+          "t": "et-a-vu portant-de ustensiles-de-lui car Saül est-mort ; et-est-tombé aussi lui sur la-épée et-est-mort."
+        },
+        {
+          "n": 6,
+          "t": "Saül et-est-mort et-trois-de fils-de-lui, et-tout-de maison-de-lui union sont-mort."
+        },
+        {
+          "n": 7,
+          "t": "et-ont-vu tout-de homme-de Israël qui dans-le-vallée car ont-fui, et-car sont-mort Saül et-fils-de-lui ; et-ont-abandonné villes-de-eux et-ont-fui, Philistin et-sont-venu, et-ont-habité dans-eux."
+        },
+        {
+          "n": 8,
+          "t": "et-il-a-été depuis-morrow, Philistin et-sont-venu, à/pour-dépouiller les-tués ; et-ils-ont-trouvé Saül et-fils-de-lui, tombants dans-mont-de Gilboa."
+        },
+        {
+          "n": 9,
+          "t": "et-ils-ont-fait-dépouiller-lui, et-ils-ont-porté tête-de-lui et-ustensiles-de-lui ; et-ils-ont-envoyé dans-terre-de Philistin alentour à/pour-publier idoles-de-eux et-le-peuple."
+        },
+        {
+          "n": 10,
+          "t": "et-ils-ont-mis ustensiles-de-lui, maison-de dieu-de-eux ; et-scrutin-de-lui ils-ont-sonné maison-de Ledagon."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-ont-écouté, tout-de Miyabeych Gilead ; tout-de qui Philistin ont-fait à/pour-Saül."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-sont-levé tout-de homme-de compétence et-ils-ont-porté cadavre-de Saül et-cadavres-de fils-de-lui, et-ils-ont-fait-venir-eux Miyabeych-vers ; et-ont-enterré os-de-eux sous la-térébinthe dans-Miyabeych, et-ont-jeûné sept-de jours."
+        },
+        {
+          "n": 13,
+          "t": "Saül et-est-mort dans-trahison-de-lui qui a-trahi dans-YHWH, sur parole-de YHWH qui non a-gardé ; et-aussi à/pour-demander dans-le-medium à/pour-fréquenter."
+        },
+        {
+          "n": 14,
+          "t": "et-non il-a-fréquenté dans-YHWH et-il-a-fait-mourir-lui ; et-a-fait-tourner la-kingship, à/pour-David fils-de Jesse."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ils-ont-été-assemblé tout-de Israël vers David Hébron-vers à/pour-dire ; voici nous os-de-toi et-chair-de-toi."
+        },
+        {
+          "n": 2,
+          "t": "aussi auparavant aussi three aussi dans-être Saül roi, tu le-faisant-sortir et-le-faisant-venir Israël ; YHWH et-a-dit dieu-de-toi à/pour-toi tu paîtras peuple-de-moi Israël, et-tu seras chef, sur peuple-de-moi Israël."
+        },
+        {
+          "n": 3,
+          "t": "et-ils-sont-venu tout-de vieux-de Israël vers le-roi Hébron-vers, et-a-coupé à/pour-eux David alliance dans-Hébron à/pour-faces-de YHWH ; et-ils-ont-oint David à/pour-roi sur Israël, comme-parole-de YHWH dans-main-de Samuel."
+        },
+        {
+          "n": 4,
+          "t": "David et-est-allé et-tout-de Israël Jérusalem lui Jebus ; et-là le-Jebusite, habitants-de la-terre."
+        },
+        {
+          "n": 5,
+          "t": "et-ils-ont-dit habitants-de Jebus à/pour-David, non tu-viendras ici ; David et-a-capturé filet-de Sion, lui ville-de David."
+        },
+        {
+          "n": 6,
+          "t": "David et-a-dit, tout-de faisant-frapper-de Jebusite dans-la-premiere, sera à/pour-tête et-à/pour-prince ; Joab et-est-monté dans-la-premiere fils-de Zeruiah et-a-été à/pour-tête."
+        },
+        {
+          "n": 7,
+          "t": "David et-a-habité dans-la-stronghold ; sur ainsi ils-ont-appelé à/pour-lui ville-de David."
+        },
+        {
+          "n": 8,
+          "t": "et-a-bâti la-ville depuis-alentour, depuis le-Millo et-jusqu'à le-alentour ; et-Joab, guérira résidu-de la-ville."
+        },
+        {
+          "n": 9,
+          "t": "David et-est-allé marcher et-grand ; et-YHWH combats avec-lui."
+        },
+        {
+          "n": 10,
+          "t": "et-ces têtes-de les-puissants qui à/pour-David, les-se-fortifiants avec-lui dans-royauté-de-lui avec tout-de Israël à/pour-faire-régner-de-lui ; comme-parole-de YHWH sur Israël."
+        },
+        {
+          "n": 11,
+          "t": "et-ces nombre-de les-puissants qui à/pour-David ; Jashobeam fils-de Hachmonite tête-de les-trente les-tiers, lui a-éveillé lance-de-lui sur trois cent tué dans-fois une."
+        },
+        {
+          "n": 12,
+          "t": "et-après-lui Éléazar fils-de Dodo le-Ahohite ; lui dans-trois les-puissants."
+        },
+        {
+          "n": 13,
+          "t": "lui a-été avec David dans-le-Bapas Damiyma et-les-Philistin ont-été-recueilli là à/pour-la-guerre, parcelle-de le-champ pleine et-a-été orges ; et-le-peuple ils-ont-fui depuis-faces-de Philistin."
+        },
+        {
+          "n": 14,
+          "t": "et-ils-ont-se-fixé dans-milieu-de la-parcelle et-ils-ont-fait-délivrer-elle, et-ils-ont-fait-frapper Philistin ; YHWH et-a-fait-sauver deliverance grande."
+        },
+        {
+          "n": 15,
+          "t": "et-ils-sont-descendu trois depuis les-trente tête sur le-rocher vers David, vers caverne-de Adullam ; et-camp-de Philistin, campante dans-vallée-de Rephaim."
+        },
+        {
+          "n": 16,
+          "t": "et-David alors dans-le-filet ; et-unegarnison-de Philistin, alors dans-Beyt Bethléhem."
+        },
+        {
+          "n": 17,
+          "t": "David et-a-se-incliné et-a-dit ; lequel fera-abreuver-moi eaux, depuis-fosse-de Beyt Bethléhem qui dans-le-porte."
+        },
+        {
+          "n": 18,
+          "t": "et-ont-fendu le-trois dans-camp-de Philistin eaux et-ont-tiré depuis-fosse-de Beyt Bethléhem qui dans-le-porte, et-ont-porté et-ont-fait-venir vers David ; et-non David a-voulu à/pour-boire-de-eux, et-a-offert eux à/pour-YHWH."
+        },
+        {
+          "n": 19,
+          "t": "et-a-dit forbid à/pour-moi depuis-dieu-de-moi depuis-faire celle-ci est-ce-sang-de les-hommes les-ces je-boirai dans-âmes-de-eux car dans-âmes-de-eux ils-ont-fait-venir-eux, et-non a-voulu à/pour-boire-de-eux ; ces ils-ont-fait, trois-de les-puissants."
+        },
+        {
+          "n": 20,
+          "t": "et-Abishai frère-de Joab lui a-été tête-de le-trois, et-lui a-éveillé lance-de-lui, sur trois cent tué ; et-non et-à/pour-lui nom dans-le-trois."
+        },
+        {
+          "n": 21,
+          "t": "depuis le-trois dans-les-deux honor, et-il-a-été à/pour-eux à/pour-prince ; et-jusqu'à le-trois non il-est-venu."
+        },
+        {
+          "n": 22,
+          "t": "Benaiah fils-de Jehoiada fils-de homme-de compétence nombreux-de œuvres depuis Kabzeel ; lui a-fait-frapper deux-de Ariel Moab, et-lui est-descendu et-a-fait-frapper le-gabja dans-milieu-de le-fosse dans-jour-de le-neige."
+        },
+        {
+          "n": 23,
+          "t": "et-lui a-fait-frapper le-homme le-Egyptian homme-de mesurer cinq dans-la-coudée et-dans-main-de le-Egyptian lance comme-loom-beam-de tissants, et-est-descendu vers-lui dans-le-verge ; et-il-a-pillé la-lance depuis-main-de le-Egyptian, et-il-a-tué-lui dans-lance-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "ces Benaiah a-fait, fils-de Jehoiada ; et-à/pour-lui nom dans-trois les-puissants."
+        },
+        {
+          "n": 25,
+          "t": "depuis les-trente voilà-lui honor lui, et-vers le-trois non est-venu ; David et-a-mis-lui sur sujets-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "et-puissants-de les-compétences ; Asa Asahel frère-de Joab, Elhanan fils-de Dodo depuis-Beyt Bethléhem."
+        },
+        {
+          "n": 27,
+          "t": "Shammoth le-Haharoriy, Helez le-Pelonite."
+        },
+        {
+          "n": 28,
+          "t": "Ira fils-de Ikkesh le-Tekoa, Abiezer le-Haantotiy."
+        },
+        {
+          "n": 29,
+          "t": "Sibbecai le-Hushathite, Ilai le-Ahohite."
+        },
+        {
+          "n": 30,
+          "t": "Maharai le-Netophathite, Heled fils-de Baanah le-Netophathite."
+        },
+        {
+          "n": 31,
+          "t": "Ittai fils-de Ribai depuis-Gibeah fils-de Benjamin, Benaiah le-Pirathon."
+        },
+        {
+          "n": 32,
+          "t": "Hurai depuis-torrents-de Gaash, Abiel le-Arbathite."
+        },
+        {
+          "n": 33,
+          "t": "Azmaveth le-Baharumite, Eliahba le-Shaalbonite."
+        },
+        {
+          "n": 34,
+          "t": "fils-de Hashem le-Gizonite, Jonathan fils-de Shagee le-Hararite."
+        },
+        {
+          "n": 35,
+          "t": "Ahiam fils-de Sachar le-Hararite Eliphal fils-de Our."
+        },
+        {
+          "n": 36,
+          "t": "Hepher le-Mecherathite, Ahijah le-Pelonite."
+        },
+        {
+          "n": 37,
+          "t": "Hezro le-Carmelite, Naarai fils-de Ezbai."
+        },
+        {
+          "n": 38,
+          "t": "Joel frère-de Nathan, Mibhar fils-de Hagri."
+        },
+        {
+          "n": 39,
+          "t": "Zelek le-Meunite ; Naharai le-Haberotiy, portant, ustensiles-de Joab fils-de Zeruiah."
+        },
+        {
+          "n": 40,
+          "t": "Ira le-Ithrite, Gareb le-Ithrite."
+        },
+        {
+          "n": 41,
+          "t": "Uriah le-Hittite, Zabad fils-de Ahlai."
+        },
+        {
+          "n": 42,
+          "t": "Adina fils-de Shiza le-Reubenite tête à/pour-le-Reubenite et-sur-lui trente."
+        },
+        {
+          "n": 43,
+          "t": "Vehanan fils-de Maacah, et-Joshaphat le-Mithnite."
+        },
+        {
+          "n": 44,
+          "t": "Uzzia le-Ashterathite ; Shama et-Jeiel, fils-de Hotham le-Aroerite."
+        },
+        {
+          "n": 45,
+          "t": "Jediael fils-de Shimri, et-Joha frère-de-lui le-Tizite."
+        },
+        {
+          "n": 46,
+          "t": "Eliel les-Mahavite, et-Jeribai et-Joshaviah fils-de Elnaam ; et-Ithmah le-Moabite."
+        },
+        {
+          "n": 47,
+          "t": "Eliel et-Obed, et-Jaasiel le-Mezobaite."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ces les-venants vers David à/pour-Ziklag, encore clou, depuis-faces-de Saül fils-de Kish ; et-eux dans-les-puissants, aidants-de la-guerre."
+        },
+        {
+          "n": 2,
+          "t": "ggysbants-de arc faisants-gdtger et-faisants-gkwger dans-les-pierres, et-dans-les-flèches dans-la-arc ; depuis-frères-de Saül depuis-Benjamin."
+        },
+        {
+          "n": 3,
+          "t": "le-tête Ahiezer et-Joash fils-de le-Shemaah le-Gibeathite, et-Jeziel et-Pelet fils-de Azmaveth ; et-Beracah, et-Jehu le-Haantotiy."
+        },
+        {
+          "n": 4,
+          "t": "et-Ishmaiah le-Gibeonite puissant dans-les-trente et-sur les-trente."
+        },
+        {
+          "n": 5,
+          "t": "et-Jérémie et-Jahaziel et-Veyohanan, et-Veyozabad le-Gederathite."
+        },
+        {
+          "n": 6,
+          "t": "Eluzai et-Jerimoth et-Bealiah et-Shemariah, et-Shephatiah le-Haruphite."
+        },
+        {
+          "n": 7,
+          "t": "Elkanah et-Isshiah et-Azarel et-Joezer et-Jashobeam les-Korahite."
+        },
+        {
+          "n": 8,
+          "t": "et-Joelah et-Zebadiah fils-de Jeroham depuis le-Gedor."
+        },
+        {
+          "n": 9,
+          "t": "et-depuis le-Hagadiy ont-été-séparé vers David à/pour-la-stronghold désert-vers puissants-de le-compétence hommes-de armée à/pour-la-guerre, arrangeants-de crochet et-javelot ; et-faces-de gabj faces-de-eux, et-comme-gloires sur les-monts à/pour-hâter."
+        },
+        {
+          "n": 10,
+          "t": "Veezer le-tête ; Obadiah le-second, Eliab le-troisième."
+        },
+        {
+          "n": 11,
+          "t": "Mishmannah le-quatrième, Jérémie le-cinquième."
+        },
+        {
+          "n": 12,
+          "t": "Attai le-sixième, Eliel le-septième."
+        },
+        {
+          "n": 13,
+          "t": "Veyohanan le-huitième, Elzabad le-neuvième."
+        },
+        {
+          "n": 14,
+          "t": "Jérémie le-tenth, Machbannai onzes-de dix."
+        },
+        {
+          "n": 15,
+          "t": "ces depuis-fils-de Gad têtes-de la-armée ; un à/pour-cent le-petit, et-le-grand à/pour-mille."
+        },
+        {
+          "n": 16,
+          "t": "ces eux qui ont-passé le-Jourdain dans-le-mois le-premier, et-lui remplissant sur tout-de rivages-de-lui banks-de-lui ; et-ils-ont-fait-atteindre tout-de les-vallées, à/pour-le-east et-à/pour-le-occident."
+        },
+        {
+          "n": 17,
+          "t": "fils-de Benjamin et-sont-venu depuis et-Juda, jusqu'à à/pour-la-stronghold à/pour-David."
+        },
+        {
+          "n": 18,
+          "t": "David et-est-sorti à/pour-faces-de-eux et-a-répondu et-a-dit à/pour-eux, si à/pour-paix vous-êtes-venu vers-moi à/pour-aider-de-moi, volonté sera à/pour-moi sur-vous à/pour-unitedness ; et-si à/pour-jeter-de-moi à/pour-étroits-de-moi dans-non violence dans-palmes-de-moi, verra dieu-de pères-de-nous et-fera-corriger."
+        },
+        {
+          "n": 19,
+          "t": "et-esprit a-vêtu Amasai tête-de les-trente à/pour-toi David et-avec-toi fils-de Jesse, paix paix à/pour-toi et-paix à/pour-aidant-de-toi, car a-aidé-toi dieu-de-toi ; David et-a-reçu-eux, et-a-donné-eux dans-têtes-de le-troupe."
+        },
+        {
+          "n": 20,
+          "t": "et-depuis-Manassé sont-tombé sur David dans-venir-de-lui avec Philistin sur Saül à/pour-la-guerre et-non ont-aidé-eux ; car dans-avis souverains-de Philistin ont-envoyé-lui à/pour-dire, dans-têtes-de-nous, tombera vers lords-de-lui Saül."
+        },
+        {
+          "n": 21,
+          "t": "dans-aller-de-lui vers Ziklag ils-sont-tombé sur-lui depuis-Manassé Adnah et-Veyozabad et-Jediael et-Michel et-Veyozabad, et-Elihu et-Zillethai ; têtes-de les-mille qui à/pour-Manassé."
+        },
+        {
+          "n": 22,
+          "t": "et-eux ont-aidé avec David sur le-troupe, car puissants-de compétence tout-de-eux ; princes et-ont-été dans-la-armée."
+        },
+        {
+          "n": 23,
+          "t": "car à/pour-heure-de jour dans-jour, ils-viendront sur David à/pour-aider-de-lui ; jusqu'à à/pour-camp grand comme-camp-de dieu."
+        },
+        {
+          "n": 24,
+          "t": "et-ces nombres-de têtes-de le-armé à/pour-la-armée, sont-venu sur David Hébron-vers ; à/pour-faire-tourner royauté-de Saül vers-lui comme-bouche-de YHWH."
+        },
+        {
+          "n": 25,
+          "t": "fils-de Juda, portants-de crochet et-javelot ; six-de mille et-huit cent armés-de armée."
+        },
+        {
+          "n": 26,
+          "t": "depuis fils-de Siméon puissants-de compétence à/pour-la-armée, sept-de mille et-cent."
+        },
+        {
+          "n": 27,
+          "t": "depuis fils-de le-Lévi, quatre-de mille et-six cent."
+        },
+        {
+          "n": 28,
+          "t": "et-Jehoiada le-chef à/pour-Aaron ; et-avec-lui, trois-de mille et-sept cent."
+        },
+        {
+          "n": 29,
+          "t": "et-Zadok youth puissant-de compétence ; et-maison-de père-de-lui princes vingt et-deux."
+        },
+        {
+          "n": 30,
+          "t": "et-depuis fils-de Benjamin frères-de Saül trois-de mille ; et-jusqu'à ici accroissement-de-eux, gardants, garde-de maison-de Saül."
+        },
+        {
+          "n": 31,
+          "t": "et-depuis fils-de Éphraïm, vingt mille et-huit cent ; puissants-de compétence, hommes-de noms à/pour-maison-de pères-de-eux."
+        },
+        {
+          "n": 32,
+          "t": "et-depuis-moitié-de tribu-de Manassé, huit dix mille ; qui ils-ont-été-perforé dans-noms, à/pour-venir à/pour-faire-régner David."
+        },
+        {
+          "n": 33,
+          "t": "et-depuis-fils-de Issacar sachants-de discernement à/pour-les-heures, à/pour-savoir quoi Israël fera ; têtes-de-eux cent, et-tout-de frères-de-eux sur bouche-de-eux."
+        },
+        {
+          "n": 34,
+          "t": "depuis-Zabulon sortissants-de armée arrangeants-de guerre dans-tout-de ustensiles-de guerre cinquante mille ; et-à/pour-ghlqaer dans-non cœur et-cœur."
+        },
+        {
+          "n": 35,
+          "t": "et-depuis-Nephthali princes mille ; et-avec-eux dans-crochet et-lance, trente et-sept mille."
+        },
+        {
+          "n": 36,
+          "t": "et-depuis le-Danite arrangeants-de guerre, vingt et-huit mille et-six cent."
+        },
+        {
+          "n": 37,
+          "t": "et-depuis-Aser sortissants-de armée à/pour-arranger guerre quarante mille."
+        },
+        {
+          "n": 38,
+          "t": "et-depuis-delà à/pour-le-Jourdain depuis le-Reubenite et-le-Hagadiy et-moitié-de verge-de Manassé dans-tout-de ustensiles-de armée-de guerre, cent et-vingt mille."
+        },
+        {
+          "n": 39,
+          "t": "tout-de ces hommes-de guerre arrangeants-de rangée dans-parfait volonté sont-venu Hébron-vers, à/pour-faire-régner David sur tout-de Israël ; et-aussi tout-de résidu-de Israël cœur un à/pour-faire-régner David."
+        },
+        {
+          "n": 40,
+          "t": "et-ont-été là avec David jours trois, mangeants et-buvants ; car frères-de-eux ont-fait-affermir à/pour-eux."
+        },
+        {
+          "n": 41,
+          "t": "et-aussi les-proches vers-eux jusqu'à Issacar et-Zabulon et-Nephthali faisants-venir pain dans-les-ânes et-dans-les-chameaux et-dans-les-mulets et-dans-le-bœufs nourriture farine figs et-clusters et-vin et-huile et-bœufs et-troupeau à/pour-multitude ; car gaieté dans-Israël."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David et-a-été-conseillé avec princes-de les-mille et-les-cent à/pour-tout-de chef."
+        },
+        {
+          "n": 2,
+          "t": "David et-a-dit à/pour-tout-de congrégation-de Israël si sur-vous salutaire et-depuis YHWH dieu-de-nous nous-éclatons nous-envoyons sur frères-de-nous les-restés dans-tout-de terres-de Israël, et-avec-eux les-sacrificateurs et-les-Haleviy dans-villes-de communs-de-eux ; et-ils-seront-assemblés vers-nous."
+        },
+        {
+          "n": 3,
+          "t": "et-nous-faisons-tourner arche-de dieu-de-nous vers-nous ; car non nous-avons-fréquenté-lui dans-jours-de Saül."
+        },
+        {
+          "n": 4,
+          "t": "et-ils-ont-dit tout-de le-congrégation à/pour-faire ainsi ; car le-parole a-gecpé dans-yeux-de tout-de le-peuple."
+        },
+        {
+          "n": 5,
+          "t": "David et-a-fait-assembler tout-de Israël, depuis Shihor Égypte et-jusqu'à venir Hamath ; à/pour-faire-venir arche-de le-dieu, depuis-Veqiryat Yeariym."
+        },
+        {
+          "n": 6,
+          "t": "David et-est-monté et-tout-de Israël Baalaa-vers, vers Veqiryat Yeariym qui à/pour-Juda ; à/pour-faire-monter depuis-là arche-de le-dieu YHWH habitant les-chérubins qui a-été-appelé nom."
+        },
+        {
+          "n": 7,
+          "t": "et-ils-ont-fait-chevaucher arche-de le-dieu sur chariot nouveaue, depuis-maison-de Abinadab ; et-Uzzah et-Ahio, menants dans-la-chariot."
+        },
+        {
+          "n": 8,
+          "t": "et-David et-tout-de Israël riants à/pour-faces-de le-dieu dans-tout-de puissance ; et-dans-chants et-dans-harpes et-dans-harps et-dans-tambourins, et-dans-cymbales et-dans-trompettes."
+        },
+        {
+          "n": 9,
+          "t": "et-ils-sont-venu jusqu'à threshing-de Chidon ; Uzzah et-a-envoyé main-de-lui à/pour-gjjer la-arche, car ils-ont-libéré le-bœufs."
+        },
+        {
+          "n": 10,
+          "t": "et-a-embrasé nez YHWH dans-Uzzah, et-a-fait-frapper-lui, sur qui main-de-lui a-envoyé sur la-arche ; et-il-est-mort là à/pour-faces-de dieu."
+        },
+        {
+          "n": 11,
+          "t": "et-a-embrasé à/pour-David, car YHWH brèche a-éclaté dans-Uzzah ; le-lui Perets Uza, et-a-appelé à/pour-le-lieu jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 12,
+          "t": "David et-a-craint le-dieu, dans-le-jour le-lui à/pour-dire ; comment je-ferai-venir vers-moi, arche-de le-dieu."
+        },
+        {
+          "n": 13,
+          "t": "et-non David a-fait-détourner la-arche vers-lui vers ville-de David ; maison-de Obeda Edom le-Gittite et-a-fait-tendre-lui, vers."
+        },
+        {
+          "n": 14,
+          "t": "arche-de le-dieu et-a-habité avec maison-de Obeda Edom dans-maison-de-lui trois mois ; YHWH et-a-béni maison-de Obeda Edom et-tout-de qui à/pour-lui."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Hiram et-a-envoyé roi-de Tyr messagers vers David et-arbres-de cèdres, et-artisans-de wall, et-artisans-de arbres ; à/pour-bâtir à/pour-lui maison."
+        },
+        {
+          "n": 2,
+          "t": "David et-a-su, car a-fait-affermir-lui YHWH à/pour-roi sur Israël ; car a-été-porté à/pour-dessus-vers royauté-de-lui, dans-cause-de peuple-de-lui Israël."
+        },
+        {
+          "n": 3,
+          "t": "David et-a-pris encore femmes dans-Jérusalem ; David et-a-fait-engendrer encore fils et-filles."
+        },
+        {
+          "n": 4,
+          "t": "et-ces noms-de les-engendrés, qui ont-été à/pour-lui dans-Jérusalem ; Shammua et-Shobab, Nathan et-Salomon."
+        },
+        {
+          "n": 5,
+          "t": "et-Ibhar et-Elishua et-Eliphelet."
+        },
+        {
+          "n": 6,
+          "t": "et-Nogah et-Nepheg et-Japhia."
+        },
+        {
+          "n": 7,
+          "t": "et-Elishama et-Beeliada et-Eliphelet."
+        },
+        {
+          "n": 8,
+          "t": "Philistin et-ont-écouté car a-été-oint David à/pour-roi sur tout-de Israël, et-sont-monté tout-de Philistin à/pour-chercher David ; David et-a-écouté, et-est-sorti à/pour-faces-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "et-Philistin sont-venu ; et-ils-ont-dépouillé dans-vallée-de Rephaim."
+        },
+        {
+          "n": 10,
+          "t": "David et-a-demandé dans-dieu à/pour-dire, est-ce-je-monterai sur Philistin, et-tu-as-donné-eux dans-main-de-moi ; YHWH et-a-dit à/pour-lui monte, et-je-ai-donné-eux dans-main-de-toi."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-sont-monté dans-Bebaala Peratsiym et-a-fait-frapper-eux là David et-a-dit David, a-éclaté le-dieu gmcçants-de-moi dans-main-de-moi comme-brèche-de eaux ; sur ainsi ils-ont-appelé nom-de le-lieu le-lui Bebaala Peratsiym."
+        },
+        {
+          "n": 12,
+          "t": "et-ils-ont-abandonné là dieux-de-eux ; David et-a-dit, et-ils-ont-été-brûlé dans-le-feu."
+        },
+        {
+          "n": 13,
+          "t": "Philistin, et-ont-fait-ajouter encore et-ont-dépouillé dans-le-vallée."
+        },
+        {
+          "n": 14,
+          "t": "David et-a-demandé encore dans-dieu, et-a-dit à/pour-lui le-dieu, non tu-monteras après-eux ; fais-tourner sur-eux, et-tu-es-venu à/pour-eux opposite les-mûriers."
+        },
+        {
+          "n": 15,
+          "t": "et-il-soit comme-écouter-de-toi voix-de la-marche dans-têtes-de les-mûriers, alors tu-sortiras dans-la-guerre ; car le-dieu est-sorti à/pour-faces-de-toi, à/pour-faire-frapper camp-de Philistin."
+        },
+        {
+          "n": 16,
+          "t": "David et-a-fait, comme-lorsque a-commandé-lui le-dieu ; et-ils-ont-fait-frapper camp-de Philistin, depuis-Gibeon et-jusqu'à Gezer-vers."
+        },
+        {
+          "n": 17,
+          "t": "nom-de David et-est-sorti dans-tout-de les-terres ; et-YHWH a-donné dread-de-lui sur tout-de les-nations."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-il-a-fait à/pour-lui maisons dans-ville-de David ; lieu et-a-fait-affermir à/pour-arche-de le-dieu, et-a-tendu à/pour-lui tente."
+        },
+        {
+          "n": 2,
+          "t": "alors David a-dit, non à/pour-porter arche-de le-dieu, pour gsxb les-Haleviy ; car dans-eux YHWH a-choisi à/pour-porter arche-de YHWH et-à/pour-administrer-de-lui jusqu'à durée."
+        },
+        {
+          "n": 3,
+          "t": "David et-a-fait-assembler tout-de Israël vers Jérusalem ; à/pour-faire-monter arche-de YHWH, vers lieu-de-lui qui a-fait-affermir à/pour-lui."
+        },
+        {
+          "n": 4,
+          "t": "David et-a-recueilli fils-de Aaron et-les-Haleviy."
+        },
+        {
+          "n": 5,
+          "t": "à/pour-fils-de Kohath ; Uriel le-prince, et-frères-de-lui cent et-vingt."
+        },
+        {
+          "n": 6,
+          "t": "à/pour-fils-de Merari ; Asaiah le-prince, et-frères-de-lui cent et-vingt."
+        },
+        {
+          "n": 7,
+          "t": "à/pour-fils-de Gershon ; Joel le-prince, et-frères-de-lui cent et-trente."
+        },
+        {
+          "n": 8,
+          "t": "à/pour-fils-de Elizaphan ; Shemaiah le-prince et-frères-de-lui cent."
+        },
+        {
+          "n": 9,
+          "t": "à/pour-fils-de Vehebron ; Eliel le-prince et-frères-de-lui quatre-vingts."
+        },
+        {
+          "n": 10,
+          "t": "à/pour-fils-de Uzziel ; Amminadab le-prince, et-frères-de-lui, cent et-deux dix."
+        },
+        {
+          "n": 11,
+          "t": "David et-a-appelé, à/pour-Zadok et-à/pour-Abiathar les-sacrificateurs ; et-à/pour-les-Haleviy à/pour-Uriel Asaiah et-Joel Shemaiah, et-Eliel et-Amminadab."
+        },
+        {
+          "n": 12,
+          "t": "et-il-a-dit à/pour-eux, vous têtes-de les-pères à/pour-les-Haleviy ; sanctifiez vous et-frères-de-vous, et-avez-fait-monter arche-de YHWH dieu-de Israël, vers je-ai-fait-affermir à/pour-lui."
+        },
+        {
+          "n": 13,
+          "t": "car à/pour-quoi dans-la-premiere non vous ; YHWH a-éclaté dieu-de-nous dans-nous, car non nous-avons-fréquenté-lui comme-le-jugement."
+        },
+        {
+          "n": 14,
+          "t": "les-sacrificateurs et-les-Haleviy et-ont-se-sanctifié ; à/pour-faire-monter, arche-de YHWH dieu-de Israël."
+        },
+        {
+          "n": 15,
+          "t": "fils-de les-Haleviy et-ont-porté arche-de le-dieu, comme-lorsque a-commandé Moïse comme-parole-de YHWH ; dans-épaule-de-eux dans-les-perches sur-eux."
+        },
+        {
+          "n": 16,
+          "t": "David et-a-dit à/pour-princes-de les-Haleviy à/pour-faire-rester frères-de-eux les-chantants, dans-ustensiles-de chant harps et-harpes et-cymbales ; faisants-écouter à/pour-faire-élever dans-voix à/pour-gaieté."
+        },
+        {
+          "n": 17,
+          "t": "les-Haleviy et-ont-fait-rester Heman fils-de Joel, et-depuis frères-de-lui, Asaph fils-de Berechiah ; et-depuis fils-de Merari frères-de-eux, Ethan fils-de Kushaiah."
+        },
+        {
+          "n": 18,
+          "t": "et-avec-eux frères-de-eux les-doubles ; Zechariah Gaqd et-Jaaziel et-Shemiramoth et-Jehiel et-Unni Eliab et-Benaiah et-Maaseiah et-Mattithiah et-Eliphelehu et-Mikneiah et-Obeda Edom et-Jeiel les-portiers."
+        },
+        {
+          "n": 19,
+          "t": "et-les-chantants, Heman Asaph et-Ethan ; dans-cymbales cuivre à/pour-faire-écouter."
+        },
+        {
+          "n": 20,
+          "t": "et-Zechariah et-Aziel et-Shemiramoth et-Jehiel et-Unni et-Eliab, et-Maaseiah et-Benaiah ; dans-harps sur alamoths."
+        },
+        {
+          "n": 21,
+          "t": "et-Mattithiah et-Eliphelehu et-Mikneiah et-Obeda Edom, et-Jeiel et-Azaziah ; dans-harpes sur la-sheminithe à/pour-exceller."
+        },
+        {
+          "n": 22,
+          "t": "et-Chenaniah prince-de les-Haleviy dans-charge ; châtier dans-le-charge, car faisant-discerner lui."
+        },
+        {
+          "n": 23,
+          "t": "et-Berechiah et-Elkanah, portiers à/pour-la-arche."
+        },
+        {
+          "n": 24,
+          "t": "et-Shebaniah et-Joshaphat et-Nethanel et-Amasai et-Zechariah et-Benaiah et-Eliezer les-sacrificateurs, faisants-gcyler dans-trompettes, à/pour-faces-de arche-de le-dieu ; et-Obeda Edom et-Jehiah, portiers à/pour-la-arche."
+        },
+        {
+          "n": 25,
+          "t": "David et-vieux-de Israël et-a-été et-princes-de les-mille ; les-marchants à/pour-faire-monter arche-de alliance-de YHWH depuis maison-de Obeda Edom dans-gaieté."
+        },
+        {
+          "n": 26,
+          "t": "et-a-été dans-aider le-dieu, les-Haleviy, portants-de arche-de alliance-de YHWH ; et-ont-sacrifié sept bouvillons et-sept béliers."
+        },
+        {
+          "n": 27,
+          "t": "et-David gemré dans-robe-de byssus et-tout-de les-Haleviy les-portants la-arche, et-les-chantants, et-Chenaniah le-prince le-charge les-chantants ; et-sur David éphod-de linen."
+        },
+        {
+          "n": 28,
+          "t": "et-tout-de Israël faisants-monter arche-de alliance-de YHWH, dans-cri et-dans-voix-de trumpet, et-dans-trompettes et-dans-cymbales ; faisants-écouter, dans-harps et-harpes."
+        },
+        {
+          "n": 29,
+          "t": "arche-de alliance-de YHWH et-a-été, est-venu jusqu'à ville-de David ; et-Michal fille-de Saül a-été-regardé derrière le-window et-a-vu le-roi David gkczant et-riant, et-a-méprisé à/pour-lui dans-cœur-de-elle."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ils-ont-fait-venir arche-de le-dieu, et-ils-ont-fait-gdwter lui, dans-milieu-de le-tente, qui David ; a-tendu à/pour-lui et-ont-fait-present burnts et-récompenses à/pour-faces-de le-dieu."
+        },
+        {
+          "n": 2,
+          "t": "David et-a-achevé, depuis-faire-monter la-burnt et-les-récompenses ; et-il-a-béni le-peuple dans-nom-de YHWH."
+        },
+        {
+          "n": 3,
+          "t": "et-il-a-divisé à/pour-tout-de homme-de Israël, depuis-homme et-jusqu'à femme ; à/pour-homme rond-de pain, et-gaew et-raisin."
+        },
+        {
+          "n": 4,
+          "t": "et-il-a-donné à/pour-faces-de arche-de YHWH depuis les-Haleviy administrants ; et-à/pour-faire-rappeler et-à/pour-faire-confesser et-à/pour-briller, à/pour-YHWH dieu-de Israël."
+        },
+        {
+          "n": 5,
+          "t": "Asaph le-tête et-double-de-lui Zechariah ; Jeiel et-Shemiramoth et-Jehiel et-Mattithiah et-Eliab et-Benaiah et-Obeda Edom et-Jeiel dans-ustensiles-de harps et-dans-harpes, et-Asaph dans-les-cymbales faisant-écouter."
+        },
+        {
+          "n": 6,
+          "t": "et-Benaiah et-Jahaziel les-sacrificateurs ; dans-trompettes perpétuité, à/pour-faces-de arche-de alliance-de le-dieu."
+        },
+        {
+          "n": 7,
+          "t": "dans-le-jour le-lui alors a-donné David dans-le-tête, à/pour-faire-confesser à/pour-YHWH ; dans-main-de Asaph et-frères-de-lui."
+        },
+        {
+          "n": 8,
+          "t": "faites-confesser à/pour-YHWH appelez dans-nom-de-lui, faites-savoir dans-les-peuples actions-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "chantez à/pour-lui chantez à/pour-lui, méditez dans-tout-de extraordinaiues-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "brillez dans-nom-de sainteté-de-lui, cœur-de réjouira, cherchants-de YHWH."
+        },
+        {
+          "n": 11,
+          "t": "fréquentez YHWH et-puissance-de-lui, cherchez faces-de-lui perpétuité."
+        },
+        {
+          "n": 12,
+          "t": "rappelez extraordinaiues-de-lui qui il-a-fait, miracles-de-lui et-jugements-de bouche-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "semence-de Israël serviteur-de-lui, fils-de Jacob élus-de-lui."
+        },
+        {
+          "n": 14,
+          "t": "lui YHWH dieu-de-nous, dans-tout-de la-terre jugements-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "rappelez à/pour-durée alliance-de-lui, parole a-commandé à/pour-mille période."
+        },
+        {
+          "n": 16,
+          "t": "qui Abraham, a-coupé ensemble et-serment-de-lui à/pour-Isaac."
+        },
+        {
+          "n": 17,
+          "t": "et-il-a-fait-rester-elle à/pour-Jacob à/pour-ordonnance, à/pour-Israël alliance-de durée."
+        },
+        {
+          "n": 18,
+          "t": "à/pour-dire à/pour-toi je-donnerai terre-de Canaan, mahalab-de héritage-de-vous."
+        },
+        {
+          "n": 19,
+          "t": "dans-être-de-vous mans-de nombre, comme-peu et-séjournants dans-elle."
+        },
+        {
+          "n": 20,
+          "t": "et-ils-ont-se-marché depuis-nation vers nation, et-depuis-royaume vers peuple autre."
+        },
+        {
+          "n": 21,
+          "t": "non il-a-fait-reposer à/pour-homme à/pour-violer-de-eux, et-il-a-fait-corriger sur-eux rois."
+        },
+        {
+          "n": 22,
+          "t": "ne vous-touchiez dans-oints-de-moi, et-dans-prophètes-de-moi ne vous-fassiez-nuire."
+        },
+        {
+          "n": 23,
+          "t": "chantez à/pour-YHWH tout-de la-terre, publiez depuis-jour vers jour délivrance-de-lui."
+        },
+        {
+          "n": 24,
+          "t": "comptez dans-les-nations gloire-de-lui, dans-tout-de les-peuples extraordinaiues-de-lui."
+        },
+        {
+          "n": 25,
+          "t": "car grand YHWH et-brillé très, et-craint lui sur tout-de dieux."
+        },
+        {
+          "n": 26,
+          "t": "car tout-de dieux-de les-peuples idoles, et-YHWH ciels a-fait."
+        },
+        {
+          "n": 27,
+          "t": "majesté et-splendeur à/pour-faces-de-lui, puissance et-joie dans-lieu-de-lui."
+        },
+        {
+          "n": 28,
+          "t": "pourvoir à/pour-YHWH familles-de peuples, pourvoir à/pour-YHWH gloire et-puissance."
+        },
+        {
+          "n": 29,
+          "t": "pourvoir à/pour-YHWH gloire-de nom-de-lui ; portez offrande et-venez à/pour-faces-de-lui, courbez à/pour-YHWH dans-ornement-de sainteté."
+        },
+        {
+          "n": 30,
+          "t": "tremblez depuis-faces-de-lui tout-de la-terre, même monde sera-affermie ni sera-chancelée."
+        },
+        {
+          "n": 31,
+          "t": "les-ciels joyeuxont et-gbfoe la-terre, et-diront dans-les-nations YHWH a-régné."
+        },
+        {
+          "n": 32,
+          "t": "le-mer tonnera et-plénitude-de-lui, ghupera le-champ et-tout-de qui dans-lui."
+        },
+        {
+          "n": 33,
+          "t": "alors arbres-de le-forêt chanteront ; depuis-faces-de YHWH, car il-est-venu à/pour-juger la-terre."
+        },
+        {
+          "n": 34,
+          "t": "faites-confesser à/pour-YHWH car bon, car à/pour-durée faveur-de-lui."
+        },
+        {
+          "n": 35,
+          "t": "et-dites, fais-sauver-nous dieu-de salut-de-nous, et-assemble-nous et-fais-délivrer-nous depuis les-nations ; à/pour-faire-confesser à/pour-nom-de sainteté-de-toi, à/pour-se-calmer dans-glkr-de-toi."
+        },
+        {
+          "n": 36,
+          "t": "béni YHWH dieu-de Israël, depuis le-durée et-jusqu'à le-durée ; et-ils-ont-dit tout-de le-peuple amen, et-briller à/pour-YHWH."
+        },
+        {
+          "n": 37,
+          "t": "et-a-abandonné là à/pour-faces-de arche-de alliance YHWH, à/pour-Asaph et-à/pour-frères-de-lui ; à/pour-administrer à/pour-faces-de la-arche perpétuité à/pour-parole-de jour dans-jour-de-lui."
+        },
+        {
+          "n": 38,
+          "t": "et-Obeda Edom et-frères-de-eux soixante et-huit ; et-Obeda Edom fils-de Jeduthun et-Hosah à/pour-portiers."
+        },
+        {
+          "n": 39,
+          "t": "et-Zadok le-sacrificateur et-frères-de-lui les-sacrificateurs, à/pour-faces-de tabernacle-de YHWH ; dans-la-crête qui dans-Gibeon."
+        },
+        {
+          "n": 40,
+          "t": "à/pour-faire-monter burnts à/pour-YHWH sur autel-de la-burnt perpétuité à/pour-le-matin et-à/pour-le-soir ; et-à/pour-tout-de le-écrit dans-instruction-de YHWH, qui Israël a-commandé sur."
+        },
+        {
+          "n": 41,
+          "t": "et-avec-eux Heman et-Jeduthun, et-résidu-de les-purifiés, qui ils-ont-été-perforé dans-noms ; à/pour-faire-confesser à/pour-YHWH, car à/pour-durée faveur-de-lui."
+        },
+        {
+          "n": 42,
+          "t": "et-avec-eux Heman et-Jeduthun trompettes et-cymbales à/pour-faisants-écouter, et-ustensiles-de chant-de le-dieu ; et-fils-de Jeduthun à/pour-le-porte."
+        },
+        {
+          "n": 43,
+          "t": "et-ils-sont-allé tout-de le-peuple homme à/pour-maison-de-lui ; David et-a-tourné à/pour-bénir maison-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été, comme-lorsque David a-habité dans-maison-de-lui ; David et-a-dit vers Nathan le-prophète voici moi habitant dans-maison-de les-cèdres, et-arche-de alliance-de YHWH sous tapis."
+        },
+        {
+          "n": 2,
+          "t": "Nathan et-a-dit vers David, tout qui dans-volonté-de-toi fais ; car le-dieu avec-toi-f."
+        },
+        {
+          "n": 3,
+          "t": "le-lui ; et-a-été dans-le-nuit parole-de dieu et-a-été, vers Nathan à/pour-dire."
+        },
+        {
+          "n": 4,
+          "t": "va et-tu-as-dit vers David serviteur-de-moi, thus a-dit YHWH ; non tu bâtiras à/pour-moi le-maison à/pour-habiter."
+        },
+        {
+          "n": 5,
+          "t": "car non je-ai-habité dans-maison, depuis le-jour qui je-ai-fait-monter Israël, jusqu'à le-jour le-celui-ci ; et-je-ai-été depuis-tente vers tente et-depuis-tabernacle."
+        },
+        {
+          "n": 6,
+          "t": "dans-tout qui je-ai-se-marché dans-tout-de Israël est-ce-parole je-ai-parlé ensemble un jugeants-de Israël, qui je-ai-commandé à/pour-paître peuple-de-moi à/pour-dire ; à/pour-quoi non vous-avez-bâti à/pour-moi maison-de cèdres."
+        },
+        {
+          "n": 7,
+          "t": "et-maintenant thus tu-diras à/pour-serviteur-de-moi à/pour-David thus YHWH a-dit combats, je ai-pris-toi depuis le-demeure, depuis après le-troupeau ; à/pour-être chef, sur peuple-de-moi Israël."
+        },
+        {
+          "n": 8,
+          "t": "et-je-ai-été avec-toi dans-tout qui tu-as-marché, et-je-ai-fait-couper tout-de gmcçants-de-toi depuis-faces-de-toi ; et-je-ai-fait à/pour-toi nom, comme-nom-de les-grands qui dans-la-terre."
+        },
+        {
+          "n": 9,
+          "t": "et-je-ai-mis lieu à/pour-peuple-de-moi Israël et-je-ai-planté-lui et-a-habité sous-lui, et-non enragera encore ; et-non fils-de ghmtb feront-ajouter à/pour-gaoter-de-lui, comme-lorsque dans-la-premiere."
+        },
+        {
+          "n": 10,
+          "t": "et-à/pour-jours qui je-ai-commandé jugeants sur peuple-de-moi Israël, et-je-ai-fait-humilier tout-de gmcçants-de-toi ; et-je-ai-fait-annoncer à/pour-toi-f, et-maison bâtira à/pour-toi YHWH."
+        },
+        {
+          "n": 11,
+          "t": "et-il-a-été car jours-de-toi ont-rempli à/pour-aller avec pères-de-toi, et-je-ai-fait-lever semence-de-toi après-toi, qui il-sera depuis-fils-de-toi ; et-je-ai-fait-affermir royauté-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "lui bâtira à/pour-moi maison ; et-je-ai-affermi trône-de-lui jusqu'à durée."
+        },
+        {
+          "n": 13,
+          "t": "je serai à/pour-lui à/pour-père, et-lui sera à/pour-moi à/pour-fils ; et-faveur-de-moi non je-ferai-détourner from-lui, comme-lorsque je-ai-fait-détourner, depuis-whence a-été à/pour-faces-de-toi."
+        },
+        {
+          "n": 14,
+          "t": "et-je-ai-fait-rester-lui dans-maison-de-moi et-dans-royauté-de-moi jusqu'à le-durée ; et-trône-de-lui, sera affermi jusqu'à durée."
+        },
+        {
+          "n": 15,
+          "t": "comme-tout-de les-paroles les-ces, et-comme-tout-de le-vision le-celui-ci ; ainsi Nathan a-parlé vers David."
+        },
+        {
+          "n": 16,
+          "t": "le-roi David et-est-venu, et-a-habité à/pour-faces-de YHWH ; et-a-dit lequel je YHWH dieu et-lequel maison-de-moi, car tu-as-fait-venir-moi jusqu'à here."
+        },
+        {
+          "n": 17,
+          "t": "et-elle-a-amoindri celle-ci dans-yeux-de-toi dieu, et-tu-as-parlé sur maison-de serviteur-de-toi à/pour-lointain ; et-tu-as-vu-moi comme-natte-de le-homme la-step YHWH dieu."
+        },
+        {
+          "n": 18,
+          "t": "quoi David fera-ajouter encore vers-toi à/pour-gloire serviteur-de-toi ; et-tu as-su serviteur-de-toi."
+        },
+        {
+          "n": 19,
+          "t": "YHWH, dans-cause-de serviteur-de-toi et-comme-cœur-de-toi, tu-as-fait, tout-de la-grandeur la-celle-ci ; à/pour-faire-savoir tout-de les-grandeurs."
+        },
+        {
+          "n": 20,
+          "t": "YHWH néant comme-toi, et-néant dieu exception-toi ; dans-tout qui nous-avons-écouté dans-oreilles-de-nous."
+        },
+        {
+          "n": 21,
+          "t": "et-lequel comme-peuple-de-toi Israël, nation un dans-la-terre ; qui le-dieu a-marché à/pour-sauver à/pour-lui peuple à/pour-mettre à/pour-toi nom grandeurs et-craintes, à/pour-chasser depuis-faces-de peuple-de-toi qui tu-as-sauvé depuis-Égypte nations."
+        },
+        {
+          "n": 22,
+          "t": "et-tu-as-donné peuple-de-toi Israël à/pour-toi à/pour-peuple jusqu'à durée ; et-tu YHWH, as-été à/pour-eux à/pour-dieu."
+        },
+        {
+          "n": 23,
+          "t": "et-maintenant YHWH, le-parole qui tu-as-parlé sur serviteur-de-toi et-sur maison-de-lui, sera-supporté jusqu'à durée ; et-fais comme-lorsque tu-as-parlé."
+        },
+        {
+          "n": 24,
+          "t": "et-sera-supporté nom-de-toi et-croîtra jusqu'à durée à/pour-dire, YHWH combats dieu-de Israël, dieu à/pour-Israël ; et-maison-de David serviteur-de-toi affermi à/pour-faces-de-toi."
+        },
+        {
+          "n": 25,
+          "t": "car tu dieu-de-moi as-découvri oreille-de serviteur-de-toi, à/pour-bâtir à/pour-lui maison ; sur ainsi serviteur-de-toi a-trouvé, à/pour-se-prier à/pour-faces-de-toi."
+        },
+        {
+          "n": 26,
+          "t": "et-maintenant YHWH, tu lui le-dieu ; et-tu-as-parlé sur serviteur-de-toi, la-agréable la-celle-ci."
+        },
+        {
+          "n": 27,
+          "t": "et-maintenant tu-as-fait-consentir à/pour-bénir maison-de serviteur-de-toi, à/pour-être à/pour-durée à/pour-faces-de-toi ; car tu YHWH as-béni, et-béni à/pour-durée."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été après ainsi, David et-a-fait-frapper Philistin et-a-fait-humilier-eux ; et-il-a-pris Gath et-filles-de-elle depuis-main-de Philistin."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-fait-frapper Moab ; et-ont-été Moab serviteurs à/pour-David, portants-de offrande."
+        },
+        {
+          "n": 3,
+          "t": "David et-a-fait-frapper Hadadezer roi-de Zobah Hamath-vers ; dans-aller-de-lui, à/pour-faire-établir main-de-lui dans-fleuve-de Euphrate."
+        },
+        {
+          "n": 4,
+          "t": "David et-a-capturé depuis-nous mille char et-sept-de mille chevals, et-vingt mille homme gjss ; David et-a-déraciné tout-de le-char, et-a-fait-demeurer depuis-nous cent char."
+        },
+        {
+          "n": 5,
+          "t": "Aram Damas et-est-venu, à/pour-aider, à/pour-Hadadezer roi-de Zobah ; David et-a-fait-frapper dans-Aram, vingt et-deux mille homme."
+        },
+        {
+          "n": 6,
+          "t": "David et-a-mis dans-Aram Damas, et-a-été Aram à/pour-David, serviteurs portants-de offrande ; YHWH et-a-fait-sauver à/pour-David, dans-tout qui a-marché."
+        },
+        {
+          "n": 7,
+          "t": "David et-a-pris shields-de le-or, qui ont-été, sur serviteurs-de Hadadezer ; Jérusalem et-a-fait-venir-eux."
+        },
+        {
+          "n": 8,
+          "t": "et-depuis-Tibhath et-depuis-Cun David a-pris villes-de Hadadezer,, cuivre nombreuse très ; dans-elle Salomon a-fait mer-de la-cuivre et-les-colonnes, et-ustensiles-de la-cuivre."
+        },
+        {
+          "n": 9,
+          "t": "Toiy et-a-écouté, roi-de Hamath ; car David a-fait-frapper, tout-de rempart-de Hadadezer roi-de Zobah."
+        },
+        {
+          "n": 10,
+          "t": "et-a-envoyé Hadoram fils-de-lui vers le-roi David à/pour-demander demander-lui à/pour-paix et-à/pour-bénir-de-lui sur qui a-été-combattu dans-Hadadezer homme-de guerres-de Toiy et-a-fait-frapper-lui, car a-été Hadadezer ; et-tout-de ustensiles-de or et-argent et-cuivre."
+        },
+        {
+          "n": 11,
+          "t": "aussi eux le-roi David a-fait-sanctifier à/pour-YHWH, avec le-argent et-le-or, qui a-porté depuis-tout-de les-nations ; depuis-Édom et-depuis-Moab et-depuis-fils-de Ammon, et-depuis-Philistin et-depuis-Amalek."
+        },
+        {
+          "n": 12,
+          "t": "et-Abishai fils-de Zeruiah a-fait-frapper Édom dans-gbfh sel, huit dix mille."
+        },
+        {
+          "n": 13,
+          "t": "et-a-mis dans-Édom unegarnisons, et-ont-été tout-de Édom serviteurs à/pour-David ; YHWH et-a-fait-sauver David, dans-tout qui a-marché."
+        },
+        {
+          "n": 14,
+          "t": "David et-a-régné sur tout-de Israël ; et-a-été faisant jugement et-droiture à/pour-tout-de peuple-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "et-Joab fils-de Zeruiah sur la-armée ; et-Jehoshaphat fils-de Ahilud faisant-rappeler."
+        },
+        {
+          "n": 16,
+          "t": "et-Zadok fils-de Ahitub et-Abimelech fils-de Abiathar sacrificateurs ; et-Shavsha dénombrer."
+        },
+        {
+          "n": 17,
+          "t": "et-Benaiah fils-de Jehoiada, sur le-Cherethite et-le-Pelethite ; et-fils-de David les-premiers à/pour-main-de le-roi."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été après ainsi, Nahash et-est-mort, roi-de fils-de Ammon ; fils-de-lui et-a-régné sous-lui."
+        },
+        {
+          "n": 2,
+          "t": "David et-a-dit je-ferai faveur avec Hanun fils-de Nahash car a-fait père-de-lui avec-moi faveur, et-a-envoyé David messagers à/pour-consoler-de-lui sur père-de-lui ; serviteurs-de David et-sont-venu vers terre-de fils-de Ammon vers Hanun à/pour-consoler-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "princes-de fils-de Ammon et-ont-dit à/pour-Hanun est-ce-le-honor David père-de-toi dans-yeux-de-toi, car a-envoyé à/pour-toi consolants ; est-ce-non dans-cause-de à/pour-examiner et-à/pour-tourner et-à/pour-explorer serviteurs-de-lui sont-venu la-terre, vers-toi."
+        },
+        {
+          "n": 4,
+          "t": "Hanun et-a-pris serviteurs-de David et-a-rasé-eux, et-a-coupé vêtements-de-eux dans-le-moitié jusqu'à la-hanche ; et-il-a-envoyé-eux."
+        },
+        {
+          "n": 5,
+          "t": "et-sont-allé les-hommes et-ont-fait-annoncer à/pour-David sur et-il-a-envoyé à/pour-rencontrer-de-eux, car les-hommes insultés ont-été très ; le-roi et-a-dit habitez dans-Jéricho, jusqu'à qui poussera barbe-de-vous et-vous-êtes-retourné."
+        },
+        {
+          "n": 6,
+          "t": "fils-de Ammon et-ont-vu, car ont-se-pué avec David ; Hanun et-a-envoyé et-fils-de Ammon mille rond-de argent à/pour-louer à/pour-eux depuis Arama Mesopotamia et-depuis Aram Maacah et-depuis-Zobah, char et-chevals."
+        },
+        {
+          "n": 7,
+          "t": "et-ils-ont-loué à/pour-eux deux et-trente mille char et-roi-de Maacah et-peuple-de-lui, et-ils-sont-venu, et-ils-ont-campé à/pour-faces-de Medeba ; et-fils-de Ammon ont-été-recueilli depuis-villes-de-eux, et-sont-venu à/pour-la-guerre."
+        },
+        {
+          "n": 8,
+          "t": "David et-a-écouté ; et-il-a-envoyé Joab, et-tout-de armée les-puissants."
+        },
+        {
+          "n": 9,
+          "t": "fils-de Ammon et-sont-sorti, et-ont-arrangé guerre entrée-de la-ville ; et-les-rois qui sont-venu, à/pour-seul-de-eux dans-le-champ."
+        },
+        {
+          "n": 10,
+          "t": "Joab et-a-vu car elle-a-été faces-de la-guerre vers-lui faces et-back ; et-a-choisi depuis-tout-de choisi dans-Israël, Aram et-a-arrangé à/pour-rencontrer."
+        },
+        {
+          "n": 11,
+          "t": "et-excès-de le-peuple, a-donné, dans-main-de Abishai frère-de-lui ; fils-de Ammon et-ont-arrangé, à/pour-rencontrer."
+        },
+        {
+          "n": 12,
+          "t": "et-a-dit si elle-fortifiera depuis-moi Aram, et-tu-as-été à/pour-moi à/pour-deliverance ; et-si fils-de Ammon fortifieront depuis-toi et-je-ai-fait-sauver-toi."
+        },
+        {
+          "n": 13,
+          "t": "fortifie et-nous-fortifions derrière peuple-de-nous, et-derrière villes-de dieu-de-nous ; et-YHWH, le-bon dans-yeux-de-lui fera."
+        },
+        {
+          "n": 14,
+          "t": "Joab et-le-peuple et-a-approché qui avec-lui à/pour-faces-de Aram à/pour-la-guerre ; et-ils-ont-fui depuis-faces-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "et-fils-de Ammon ont-vu car Aram a-fui, et-ont-fui aussi eux depuis-faces-de Abishai frère-de-lui, et-sont-venu la-ville-vers ; Joab Jérusalem et-est-venu."
+        },
+        {
+          "n": 16,
+          "t": "Aram et-a-vu car ont-été-battu à/pour-faces-de Israël messagers et-ont-envoyé, et-ont-fait-sortir Aram, qui depuis-delà-de le-fleuve ; et-Shophach prince-de armée-de Hadadezer à/pour-faces-de-eux."
+        },
+        {
+          "n": 17,
+          "t": "et-a-été-fait-annoncer à/pour-David et-a-recueilli tout-de Israël le-Jourdain et-a-passé, et-est-venu vers-eux, et-a-arrangé vers-eux ; David et-a-arrangé à/pour-rencontrer Aram guerre, et-ils-ont-été-combattu avec-lui."
+        },
+        {
+          "n": 18,
+          "t": "Aram et-a-fui depuis-faces-de Israël et-a-tué David depuis-Aram sept-de mille char, et-quarante mille homme gjss ; et-Shophach prince-de la-armée a-fait-mourir."
+        },
+        {
+          "n": 19,
+          "t": "serviteurs-de Hadadezer et-ont-vu car ont-été-battu à/pour-faces-de Israël, et-ont-fait-gkuqber avec David et-ont-servi-lui ; et-non Aram a-voulu, à/pour-faire-sauver fils-de Ammon encore."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été à/pour-heure-de turn-de la-année à/pour-heure-de sortir les-rois Joab et-a-mené rempart-de la-armée et-a-détruit terre-de fils-de Ammon et-est-venu et-a-giwnaé Rabbah, et-David habitant dans-Jérusalem ; Joab et-a-fait-frapper Rabbah et-a-renversé-elle."
+        },
+        {
+          "n": 2,
+          "t": "David et-a-pris couronne-de roi-de-eux sur tête-de-lui et-a-trouvé-elle poids-de rond-de or et-dans-elle pierre précieuse, et-a-été sur tête-de David ; et-butin-de la-ville a-fait-sortir faire-multiplier très."
+        },
+        {
+          "n": 3,
+          "t": "et-le-peuple qui dans-elle a-fait-sortir et-a-scié dans-la-scie et-dans-herses-de le-fer et-dans-les-scies, et-ainsi David fera, à/pour-tout-de villes-de fils-de Ammon ; David et-est-retourné et-tout-de le-peuple Jérusalem."
+        },
+        {
+          "n": 4,
+          "t": "et-il-a-été après ainsi, guerre et-a-resté dans-Gezer avec Philistin ; alors Sibbecai le-Hushathite a-fait-frapper Sippai depuis-nés-de le-Rephaim et-ils-ont-été-humilié."
+        },
+        {
+          "n": 5,
+          "t": "guerre et-a-été encore ensemble Philistin ; Elhanan et-a-fait-frapper fils-de Yaiyra Lahmi frère-de Goliath le-Gittite, et-arbre-de lance-de-lui, comme-loom-beam-de tissants."
+        },
+        {
+          "n": 6,
+          "t": "guerre et-a-été encore dans-Gath ; homme-de mesurer et-a-été et-doigts-de-lui six et-six vingt et-quatre, et-aussi lui a-été-engendré à/pour-le-Rapha."
+        },
+        {
+          "n": 7,
+          "t": "et-il-a-gdbvaé Israël ; Yehonatan et-a-fait-frapper-lui, fils-de Shimea frère-de David."
+        },
+        {
+          "n": 8,
+          "t": "these ils-ont-été-engendré à/pour-le-Rapha dans-Gath ; et-ils-sont-tombé dans-main-de David et-dans-main-de serviteurs-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "adversaire et-a-resté sur Israël ; et-il-a-fait-inciter David, à/pour-calculer Israël."
+        },
+        {
+          "n": 2,
+          "t": "David et-a-dit vers Joab et-vers princes-de le-peuple, allez comptez Israël, depuis-Beera Beersheba et-jusqu'à Dan ; et-faites-venir vers-moi, et-je-sache nombre-de-eux."
+        },
+        {
+          "n": 3,
+          "t": "Joab et-a-dit fasse-ajouter YHWH sur peuple-de-lui comme-eux cent fois, est-ce-non lord-de-moi le-roi, tout-de-eux à/pour-lord-de-moi à/pour-serviteurs ; à/pour-quoi cherchera celle-ci lord-de-moi, à/pour-quoi sera à/pour-offense à/pour-Israël."
+        },
+        {
+          "n": 4,
+          "t": "et-parole-de le-roi a-fortifié sur Joab ; Joab et-est-sorti et-a-se-marché dans-tout-de Israël, Jérusalem et-est-venu."
+        },
+        {
+          "n": 5,
+          "t": "Joab et-a-donné nombre-de rassemblement-de le-peuple vers David ; tout-de Israël et-a-été mille mille et-cent mille homme tirant épée, et-Juda, quatre cent et-soixante-dix mille homme tirant épée."
+        },
+        {
+          "n": 6,
+          "t": "et-Lévi et-Benjamin, non a-visité dans-milieu-de-eux ; car parole-de le-roi a-été-glraé ensemble Joab."
+        },
+        {
+          "n": 7,
+          "t": "et-a-nui dans-yeux-de le-dieu, sur le-parole le-celui-ci ; et-il-a-fait-frapper Israël."
+        },
+        {
+          "n": 8,
+          "t": "David et-a-dit vers le-dieu, je-ai-péché très, qui je-ai-fait le-parole le-celui-ci ; et-maintenant fais-passer donc iniquité-de serviteur-de-toi, car je-ai-été-affolé très."
+        },
+        {
+          "n": 9,
+          "t": "YHWH et-a-parlé vers Gad, voyant-de David à/pour-dire."
+        },
+        {
+          "n": 10,
+          "t": "va et-tu-as-parlé vers David à/pour-dire thus a-dit YHWH, trois, je tendant sur-toi ; choisis à/pour-toi une depuis-elles et-je-ferai à/pour-toi-f."
+        },
+        {
+          "n": 11,
+          "t": "Gad et-est-venu vers David ; et-a-dit à/pour-lui thus YHWH a-dit recevoir à/pour-toi-f."
+        },
+        {
+          "n": 12,
+          "t": "si trois années famine et-si trois mois détruit depuis-faces-de étroits-de-toi et-épée-de gmcçants-de-toi à/pour-faisante-rattraper et-si trois-de jours épée-de YHWH et-peste dans-la-terre, et-messager-de YHWH, détruiant dans-tout-de frontière-de Israël ; et-maintenant vois, quoi je-ferai-retourner ensemble envoyant-de-moi parole."
+        },
+        {
+          "n": 13,
+          "t": "David et-a-dit vers Gad a-étroit à/pour-moi très ; je-tombe donc dans-main-de YHWH car nombreux miséricordes-de-lui très, et-dans-main-de homme ne je-tombe."
+        },
+        {
+          "n": 14,
+          "t": "YHWH peste et-a-donné dans-Israël ; et-est-tombé depuis-Israël, soixante-dix mille homme."
+        },
+        {
+          "n": 15,
+          "t": "le-dieu messager et-a-envoyé à/pour-Jérusalem à/pour-détruire-de-elle et-comme-détruire a-vu YHWH et-a-été-consolé sur la-mal, et-a-dit à/pour-le-messager le-détruiant nombreux, maintenant fais-baisser main-de-toi ; et-messager-de YHWH restant, avec threshing-de Ornan le-Jebusite."
+        },
+        {
+          "n": 16,
+          "t": "David et-a-porté yeux-de-lui et-a-vu messager-de YHWH restant entre la-terre et-entre les-ciels, et-épée-de-lui tirée dans-main-de-lui, tendue sur Jérusalem ; David et-les-vieux covés et-est-tombé dans-les-sacs sur faces-de-eux."
+        },
+        {
+          "n": 17,
+          "t": "David et-a-dit vers le-dieu est-ce-non je ai-dit à/pour-calculer dans-le-peuple et-je lui qui ai-péché et-faire-nuire ai-fait-nuire, et-ces le-troupeau quoi ils-ont-fait ; YHWH dieu-de-moi soit donc main-de-toi dans-moi et-dans-maison-de père-de-moi, et-dans-peuple-de-toi non à/pour-massacre."
+        },
+        {
+          "n": 18,
+          "t": "et-messager-de YHWH a-dit vers Gad à/pour-dire à/pour-David ; car David montera à/pour-faire-lever autel à/pour-YHWH, dans-threshing-de Ornan le-Jebusite."
+        },
+        {
+          "n": 19,
+          "t": "David et-est-monté dans-parole-de Gad, qui a-parlé dans-nom-de YHWH."
+        },
+        {
+          "n": 20,
+          "t": "Ornan et-est-retourné et-a-vu le-messager, et-quatre-de fils-de-lui avec-lui se-cachants ; et-Ornan foulant blés."
+        },
+        {
+          "n": 21,
+          "t": "David et-est-venu jusqu'à Ornan ; Ornan et-a-fait-regarder et-a-vu David, le-threshing, et-est-sorti depuis et-a-se-courbé à/pour-David nez terre-vers."
+        },
+        {
+          "n": 22,
+          "t": "David et-a-dit vers Ornan donne-hé à/pour-moi lieu-de le-threshing, et-je-bâtisse dans-lui autel à/pour-YHWH ; dans-argent plein donne-lui à/pour-moi, la-massacre et-soit-clou sur le-peuple."
+        },
+        {
+          "n": 23,
+          "t": "Ornan et-a-dit vers David prends à/pour-toi-f, et-fasse lord-de-moi le-roi le-bon dans-yeux-de-lui ; vois je-ai-donné le-bœufs à/pour-les-burnts et-les-gfdms à/pour-les-arbres et-les-blés à/pour-la-offrande le-tout je-ai-donné."
+        },
+        {
+          "n": 24,
+          "t": "le-roi David et-a-dit à/pour-Ornan, non, car acquérir je-acquérirai dans-argent plein ; car non je-porterai qui à/pour-toi à/pour-YHWH, et-faire-monter burnt librement."
+        },
+        {
+          "n": 25,
+          "t": "David et-a-donné à/pour-Ornan dans-le-lieu ; sicles-de or, poids six cent."
+        },
+        {
+          "n": 26,
+          "t": "David autel et-a-bâti là à/pour-YHWH, et-a-fait-monter burnts et-récompenses ; YHWH, et-a-appelé vers et-a-répondu-lui dans-le-feu depuis les-ciels, sur autel-de la-burnt."
+        },
+        {
+          "n": 27,
+          "t": "YHWH et-a-dit à/pour-le-messager, et-a-fait-retourner épée-de-lui vers étui-de-elle."
+        },
+        {
+          "n": 28,
+          "t": "dans-la-heure la-lui, dans-voir David car a-répondu-lui YHWH, dans-threshing-de Ornan le-Jebusite ; et-il-a-sacrifié là."
+        },
+        {
+          "n": 29,
+          "t": "et-tabernacle-de YHWH qui a-fait Moïse dans-le-désert et-autel-de la-burnt dans-la-heure la-lui ; dans-la-crête dans-Gibeon."
+        },
+        {
+          "n": 30,
+          "t": "et-non David a-vaincu à/pour-aller à/pour-faces-de-lui à/pour-fréquenter dieu ; car il-a-été-terrifié, depuis-faces-de, épée-de messager-de YHWH."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David et-a-dit, celui-ci lui, maison-de YHWH le-dieu ; et-celui-ci autel à/pour-burnt à/pour-Israël."
+        },
+        {
+          "n": 2,
+          "t": "David et-a-dit, à/pour-rassembler les-sojourners, qui dans-terre-de Israël ; et-a-fait-rester carrièants à/pour-carrière pierres-de taille, à/pour-bâtir maison-de le-dieu."
+        },
+        {
+          "n": 3,
+          "t": "et-fer à/pour-multitude à/pour-les-nails à/pour-barrières-de les-portes et-à/pour-les-crampons a-fait-affermir David ; et-cuivre à/pour-multitude néant poids."
+        },
+        {
+          "n": 4,
+          "t": "et-arbres-de cèdres à/pour-néant nombre ; car les-Sidonian et-les-Tyrian ont-fait-venir arbres-de cèdres à/pour-multitude à/pour-David."
+        },
+        {
+          "n": 5,
+          "t": "David Salomon et-a-dit fils-de-moi youth et-doux et-le-maison à/pour-bâtir à/pour-YHWH à/pour-faire-croître à/pour-dessus-vers à/pour-nom et-à/pour-splendeur à/pour-tout-de les-terres, je-fasse-affermir donc à/pour-lui ; David et-a-fait-affermir à/pour-multitude à/pour-faces-de mort-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "fils-de-lui ; et-a-appelé à/pour-Salomon maison, et-a-commandé-lui à/pour-bâtir à/pour-YHWH dieu-de Israël."
+        },
+        {
+          "n": 7,
+          "t": "David et-a-dit à/pour-Salomon ; fils-de-lui fils-de-moi, je a-été avec volonté-de-moi, à/pour-bâtir maison, à/pour-nom-de YHWH dieu-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "parole-de YHWH et-a-été sur-moi à/pour-dire, sang à/pour-multitude tu-as-répandu, et-guerres grandes tu-as-fait ; non tu-bâtiras maison à/pour-nom-de-moi, car sangs nombreux, tu-as-répandu terre-vers à/pour-faces-de-moi."
+        },
+        {
+          "n": 9,
+          "t": "voici fils engendré à/pour-toi-f lui sera homme-de repos, et-je-ai-fait-ggnuer à/pour-lui depuis-tout-de gmcçants-de-lui depuis-alentour ; car Salomon sera nom-de-lui, et-paix et-tranquillité je-donnerai sur Israël dans-jours-de-lui."
+        },
+        {
+          "n": 10,
+          "t": "lui bâtira maison à/pour-nom-de-moi, et-lui sera à/pour-moi à/pour-fils, et-je à/pour-lui à/pour-père ; et-je-ai-fait-affermir trône-de royauté-de-lui sur Israël jusqu'à durée."
+        },
+        {
+          "n": 11,
+          "t": "maintenant fils-de-moi, soit YHWH avec-toi-f ; et-tu-as-fait-prosper et-tu-as-bâti maison-de YHWH dieu-de-toi, comme-lorsque a-parlé sur-toi."
+        },
+        {
+          "n": 12,
+          "t": "sûrement YHWH prudence donnera à/pour-toi et-discernement, et-commandera-toi sur Israël ; et-à/pour-garder, instruction-de YHWH dieu-de-toi."
+        },
+        {
+          "n": 13,
+          "t": "alors tu-feras-prosper, si tu-garderas à/pour-faire les-ordonnances et-les-jugements, qui YHWH a-commandé Moïse sur Israël ; fortifie et-guge, ne tu-craindes et-ne tu-sois-gdfeé."
+        },
+        {
+          "n": 14,
+          "t": "et-voici dans-affliction-de-moi je-ai-fait-affermir à/pour-maison-de YHWH or ronds cent mille et-argent mille mille ronds, et-à/pour-la-cuivre et-à/pour-le-fer néant poids, car à/pour-multitude a-été ; et-arbres et-pierres je-ai-fait-affermir, et-sur-eux tu-feras-ajouter."
+        },
+        {
+          "n": 15,
+          "t": "et-avec-toi à/pour-multitude faisants-de travail, carrièants, et-artisans-de pierre et-arbre ; et-tout-de sage dans-tout-de travail."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-le-or à/pour-le-argent et-à/pour-la-cuivre et-à/pour-le-fer néant nombre ; leve et-fais, YHWH et-soit avec-toi-f."
+        },
+        {
+          "n": 17,
+          "t": "David et-a-commandé à/pour-tout-de princes-de Israël, à/pour-aider à/pour-Salomon fils-de-lui."
+        },
+        {
+          "n": 18,
+          "t": "est-ce-non YHWH dieu-de-vous avec-vous, et-a-fait-ggnuer à/pour-vous depuis-alentour ; car a-donné dans-main-de-moi habitants-de la-terre, et-a-été-assujetti la-terre à/pour-faces-de YHWH et-à/pour-faces-de peuple-de-lui."
+        },
+        {
+          "n": 19,
+          "t": "maintenant donnez volonté-de-vous et-âme-de-vous, à/pour-fréquenter à/pour-YHWH dieu-de-vous ; et-levez et-bâtissez sanctuaire-de YHWH le-dieu, à/pour-faire-venir arche-de alliance-de YHWH et-ustensiles-de sainteté-de le-dieu, à/pour-le-maison le-bâti à/pour-nom-de YHWH."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-David a-vieilli et-a-rassasié jours ; et-a-fait-régner Salomon fils-de-lui sur Israël."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-recueilli tout-de princes-de Israël, et-les-sacrificateurs et-les-Haleviy."
+        },
+        {
+          "n": 3,
+          "t": "les-Haleviy et-ont-été-compté, depuis-fils-de trente année et-dessus-vers ; nombre-de-eux et-a-été à/pour-scrutins-de-eux à/pour-guerriers, trente et-huit mille."
+        },
+        {
+          "n": 4,
+          "t": "depuis-ces à/pour-exceller sur travail-de maison-de YHWH, vingt et-quatre mille ; et-fonctionnaiants et-jugeants six-de mille."
+        },
+        {
+          "n": 5,
+          "t": "et-quatre-de mille portiers ; et-quatre-de mille brillants à/pour-YHWH, dans-les-ustensiles, qui je-ai-fait à/pour-briller."
+        },
+        {
+          "n": 6,
+          "t": "David et-a-divisé-eux divisions ; à/pour-fils-de Lévi, à/pour-Gershom Kohath et-Merari."
+        },
+        {
+          "n": 7,
+          "t": "à/pour-le-Gershonite Ladan et-Shimei."
+        },
+        {
+          "n": 8,
+          "t": "fils-de Ladan le-tête Jehiel et-Zetham et-Joel trois."
+        },
+        {
+          "n": 9,
+          "t": "fils-de Shimei Shelomoth Chelomiyt et-Haziel et-Haran trois ; ces têtes-de les-pères à/pour-Ladan."
+        },
+        {
+          "n": 10,
+          "t": "et-fils-de Shimei, Jahath Zina, et-Jeush et-Beriah ; ces fils-de Shimei quatre."
+        },
+        {
+          "n": 11,
+          "t": "Jahath le-tête et-Zizah le-second et-a-été ; et-Jeush et-Beriah non fils ont-fait-multiplier, et-ont-été à/pour-maison-de père, à/pour-châtiment une."
+        },
+        {
+          "n": 12,
+          "t": "fils-de Kohath Amram Izhar Vehebron et-Uzziel quatre."
+        },
+        {
+          "n": 13,
+          "t": "fils-de Amram Aaron et-Moïse ; Aaron et-a-été-séparé à/pour-faire-sanctifier-de-lui sainteté-de saintetés lui et-fils-de-lui jusqu'à durée, à/pour-faire-offer à/pour-faces-de YHWH à/pour-administrer-de-lui et-à/pour-bénir dans-nom-de-lui jusqu'à durée."
+        },
+        {
+          "n": 14,
+          "t": "et-Moïse homme-de le-dieu ; fils-de-lui, seront-appelés sur verge-de le-Lévi."
+        },
+        {
+          "n": 15,
+          "t": "fils-de Moïse, Gershom et-Eliezer."
+        },
+        {
+          "n": 16,
+          "t": "fils-de Gershom Shebuel le-tête."
+        },
+        {
+          "n": 17,
+          "t": "fils-de Eliezer et-ont-été Rehabiah le-tête ; et-non il-a-été à/pour-Eliezer fils autres, et-fils-de Rehabiah ont-multiplié à/pour-dessus-vers."
+        },
+        {
+          "n": 18,
+          "t": "fils-de Izhar Chelomiyt le-tête."
+        },
+        {
+          "n": 19,
+          "t": "fils-de Vehebron ; Jeriah le-tête Amariah le-second, Jahaziel le-troisième, et-Jekameam le-quatrième."
+        },
+        {
+          "n": 20,
+          "t": "fils-de Uzziel ; Micah le-tête, et-Isshiah le-second."
+        },
+        {
+          "n": 21,
+          "t": "fils-de Merari Mahli et-Mushi, fils-de Mahli Éléazar et-Kish."
+        },
+        {
+          "n": 22,
+          "t": "Éléazar et-est-mort, et-non ont-été à/pour-lui fils pour gsxb filles ; fils-de Kish et-ont-porté-eux frères-de-eux."
+        },
+        {
+          "n": 23,
+          "t": "fils-de Mushi Mahli et-Veedera et-Jerimoth trois."
+        },
+        {
+          "n": 24,
+          "t": "ces fils-de Lévi à/pour-maison-de pères-de-eux têtes-de les-pères à/pour-visités-de-eux dans-nombre-de noms à/pour-scrutins-de-eux, faisant-de la-travail, à/pour-service-de maison-de YHWH ; depuis-fils-de vingt année et-dessus-vers."
+        },
+        {
+          "n": 25,
+          "t": "car David a-dit, a-fait-ggnuer YHWH dieu-de Israël à/pour-peuple-de-lui ; et-il-a-habité dans-Jérusalem jusqu'à à/pour-durée."
+        },
+        {
+          "n": 26,
+          "t": "et-aussi à/pour-les-Haleviy ; néant à/pour-porter le-tabernacle et-tout-de ustensiles-de-lui à/pour-service-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "car dans-paroles-de David les-suivants, eux nombre-de fils-de Haleviy ; depuis-fils-de vingt année et-à/pour-dessus-vers."
+        },
+        {
+          "n": 28,
+          "t": "car office-de-eux à/pour-main-de fils-de Aaron à/pour-service-de maison-de YHWH, sur les-enclos et-sur les-salles, et-sur purification-de à/pour-tout-de sainteté ; et-acte-de, service-de maison-de le-dieu."
+        },
+        {
+          "n": 29,
+          "t": "et-à/pour-pain-de la-rangées et-à/pour-fine à/pour-offrande et-à/pour-galettes-de les-unleaveneds, et-à/pour-la-poêle et-à/pour-la-été-fait-mêler ; et-à/pour-tout-de mesure et-mesurer."
+        },
+        {
+          "n": 30,
+          "t": "et-à/pour-rester dans-le-matin dans-le-matin, à/pour-faire-confesser et-à/pour-briller à/pour-YHWH ; et-ainsi à/pour-le-soir."
+        },
+        {
+          "n": 31,
+          "t": "et-à/pour-tout-de faire-monter burnts à/pour-YHWH, à/pour-les-sabbats, à/pour-les-mois et-à/pour-les-rencontres ; dans-nombre comme-jugement sur-eux perpétuité à/pour-faces-de YHWH."
+        },
+        {
+          "n": 32,
+          "t": "et-ont-gardé garde-de tente-de rencontre et-garde-de le-sainteté, et-garde-de, fils-de Aaron frères-de-eux ; à/pour-service-de maison-de YHWH."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-à/pour-fils-de Aaron divisions-de-eux ; fils-de Aaron, Nadab et-Abihu, Éléazar et-Ithamar."
+        },
+        {
+          "n": 2,
+          "t": "Nadab et-Abihu et-est-mort à/pour-faces-de père-de-eux, et-fils non ont-été à/pour-eux ; et-ils-ont-ministé, Éléazar et-Ithamar."
+        },
+        {
+          "n": 3,
+          "t": "David et-Zadok et-a-divisé-eux, depuis fils-de Éléazar, et-Ahimelech depuis fils-de Ithamar ; à/pour-châtiment-de-eux dans-service-de-eux."
+        },
+        {
+          "n": 4,
+          "t": "fils-de Éléazar nombreux et-ont-été-trouvé à/pour-têtes-de les-guerriers depuis fils-de Ithamar et-ont-divisé-eux ; à/pour-fils-de Éléazar têtes à/pour-maison-de pères six dix, et-à/pour-fils-de Ithamar à/pour-maison-de pères-de-eux huit."
+        },
+        {
+          "n": 5,
+          "t": "et-ils-ont-divisé-eux dans-sorts ces avec ces ; car princes-de sainteté ont-été et-princes-de le-dieu, depuis-fils-de Éléazar et-dans-fils-de Ithamar."
+        },
+        {
+          "n": 6,
+          "t": "Shemaiah et-a-écrit-eux fils-de Nethanel le-dénombrer depuis le-Haleviy à/pour-faces-de le-roi et-les-princes et-Zadok le-sacrificateur et-Ahimelech fils-de Abiathar, et-têtes-de les-pères, à/pour-les-sacrificateurs et-à/pour-les-Haleviy ; maison-de père un gjjé à/pour-Éléazar, et-gjjé gjjé à/pour-Ithamar."
+        },
+        {
+          "n": 7,
+          "t": "le-sort le-premier et-est-sorti à/pour-Jehoiarib, à/pour-Yedaeya le-second."
+        },
+        {
+          "n": 8,
+          "t": "à/pour-Harim le-troisième, à/pour-Seorim le-quatrième."
+        },
+        {
+          "n": 9,
+          "t": "à/pour-Malchijah le-cinquième, à/pour-Mijamin le-sixième."
+        },
+        {
+          "n": 10,
+          "t": "à/pour-Koz le-septième, à/pour-Abijah le-huitième."
+        },
+        {
+          "n": 11,
+          "t": "à/pour-Jeshua le-neuvième, à/pour-Shecaniah le-tenth."
+        },
+        {
+          "n": 12,
+          "t": "à/pour-Eliashib onzes-de dix, à/pour-Jakim deux dix."
+        },
+        {
+          "n": 13,
+          "t": "à/pour-Huppah trois dix, à/pour-Jeshebeab quatre dix."
+        },
+        {
+          "n": 14,
+          "t": "à/pour-Bilgah cinq dix, à/pour-Immer six dix."
+        },
+        {
+          "n": 15,
+          "t": "à/pour-Hezir sept dix, à/pour-le-Happizzez huit dix."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-Pethahiah neuf dix, à/pour-Jehezkel les-vingt."
+        },
+        {
+          "n": 17,
+          "t": "à/pour-Jachin un et-vingt, à/pour-Gamul deux et-vingt."
+        },
+        {
+          "n": 18,
+          "t": "à/pour-Delaiah trois et-vingt, à/pour-Maaziah quatre et-vingt."
+        },
+        {
+          "n": 19,
+          "t": "ces châtiment-de-eux à/pour-service-de-eux à/pour-venir à/pour-maison-de YHWH comme-jugement-de-eux, dans-main-de Aaron père-de-eux ; comme-lorsque YHWH a-commandé-lui, dieu-de Israël."
+        },
+        {
+          "n": 20,
+          "t": "et-à/pour-fils-de Lévi les-demeurés ; à/pour-fils-de Amram Shebuel, à/pour-fils-de Shebuel Jehdeiah."
+        },
+        {
+          "n": 21,
+          "t": "à/pour-Rehabiah ; à/pour-fils-de Rehabiah, le-tête Isshiah."
+        },
+        {
+          "n": 22,
+          "t": "à/pour-le-Izharite Shelomoth, à/pour-fils-de Shelomoth Jahath."
+        },
+        {
+          "n": 23,
+          "t": "et-fils-de Jeriah ; Amariah le-second, Jahaziel le-troisième, Jekameam le-quatrième."
+        },
+        {
+          "n": 24,
+          "t": "fils-de Uzziel Micah, à/pour-fils-de Micah Chmvr Shamir."
+        },
+        {
+          "n": 25,
+          "t": "frère-de Micah Isshiah, à/pour-fils-de Isshiah Zechariah."
+        },
+        {
+          "n": 26,
+          "t": "fils-de Merari Mahli et-Mushi, fils-de Jaaziah petit-fils-de-lui."
+        },
+        {
+          "n": 27,
+          "t": "fils-de Merari ; à/pour-Jaaziah petit-fils-de-lui, et-Shoham et-Zaccur et-Ibri."
+        },
+        {
+          "n": 28,
+          "t": "à/pour-Mahli Éléazar, et-non a-été à/pour-lui fils."
+        },
+        {
+          "n": 29,
+          "t": "à/pour-Kish fils-de Kish Jerahmeel."
+        },
+        {
+          "n": 30,
+          "t": "et-fils-de Mushi, Mahli et-Veedera et-Jerimoth ; ces fils-de les-Haleviy à/pour-maison-de pères-de-eux."
+        },
+        {
+          "n": 31,
+          "t": "eux sorts et-ont-fait-tomber aussi à/pour-juxtaposition-de frères-de-eux fils-de Aaron à/pour-faces-de David le-roi et-Zadok et-Ahimelech, et-têtes-de les-pères, à/pour-les-sacrificateurs et-à/pour-les-Haleviy ; pères le-tête, à/pour-juxtaposition-de frère-de-lui le-jeune."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David et-a-fait-séparer et-princes-de la-armée à/pour-service à/pour-fils-de Asaph et-Heman et-Jeduthun, les-prophètes les-prophétisés dans-harpes dans-harps et-dans-cymbales ; nombre-de-eux et-a-été, hommes-de travail à/pour-service-de-eux."
+        },
+        {
+          "n": 2,
+          "t": "à/pour-fils-de Asaph Zaccur et-Joseph et-Nethaniah et-Asharelah fils-de Asaph ; sur main-de Asaph, le-prophétisé sur mains-de le-roi."
+        },
+        {
+          "n": 3,
+          "t": "à/pour-Jeduthun ; fils-de Jeduthun Gedaliah et-Zeri et-Ésaïe Hashabiah et-Mattithiah six sur mains-de père-de-eux Jeduthun dans-le-harpe, le-prophétisé, sur faire-confesser et-briller à/pour-YHWH."
+        },
+        {
+          "n": 4,
+          "t": "à/pour-Heman ; fils-de Heman Bukkiah Mattaniah Uzziel Shebuel et-Jerimoth Hananiah Hanani Eliathah Giddalti et-Veromamtiy Ezera, Joshbekashah Mallothi, Hothir Mahazioth."
+        },
+        {
+          "n": 5,
+          "t": "tout-de ces fils à/pour-Heman voyant-de le-roi dans-paroles-de le-dieu à/pour-faire-élever corne ; le-dieu et-a-donné à/pour-Heman fils quatre dix et-filles trois."
+        },
+        {
+          "n": 6,
+          "t": "tout-de ces sur mains-de père-de-eux dans-le-chant maison-de YHWH dans-cymbales harps et-harpes, à/pour-service-de maison-de le-dieu ; sur mains-de le-roi, Asaph et-Jeduthun et-Heman."
+        },
+        {
+          "n": 7,
+          "t": "nombre-de-eux et-a-été avec frères-de-eux, enseignés-de chant à/pour-YHWH ; tout-de le-faisant-discerner, cent quatre-vingts et-huit."
+        },
+        {
+          "n": 8,
+          "t": "sorts et-ont-fait-tomber garde à/pour-juxtaposition-de comme-le-petit comme-le-grand, faisant-discerner avec savant."
+        },
+        {
+          "n": 9,
+          "t": "le-sort le-premier et-est-sorti à/pour-Asaph à/pour-Joseph ; Gedaliah le-second, lui et-frères-de-lui et-fils-de-lui deux dix."
+        },
+        {
+          "n": 10,
+          "t": "le-troisième Zaccur, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 11,
+          "t": "le-quatrième à/pour-le-Izri, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 12,
+          "t": "le-cinquième Nethaniah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 13,
+          "t": "le-sixième Bukkiah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 14,
+          "t": "le-septième Jesharelah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 15,
+          "t": "le-huitième Ésaïe, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 16,
+          "t": "le-neuvième Mattaniah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 17,
+          "t": "le-tenth Shimei, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 18,
+          "t": "onzes-de dix Azarel, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 19,
+          "t": "les-deux dix à/pour-Hashabiah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 20,
+          "t": "à/pour-trois dix Shebuel, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 21,
+          "t": "à/pour-quatre dix Mattithiah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 22,
+          "t": "à/pour-cinq dix à/pour-Jerimoth, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 23,
+          "t": "à/pour-six dix à/pour-Hananiah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 24,
+          "t": "à/pour-sept dix à/pour-Joshbekashah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 25,
+          "t": "à/pour-huit dix à/pour-Hanani, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 26,
+          "t": "à/pour-neuf dix à/pour-Mallothi, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 27,
+          "t": "à/pour-vingt à/pour-Eliathah, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 28,
+          "t": "à/pour-un et-vingt à/pour-Hothir, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 29,
+          "t": "à/pour-deux et-vingt à/pour-Giddalti, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 30,
+          "t": "à/pour-trois et-vingt à/pour-Mahazioth, fils-de-lui et-frères-de-lui deux dix."
+        },
+        {
+          "n": 31,
+          "t": "à/pour-quatre et-vingt à/pour-Veromamtiy Ezera, fils-de-lui et-frères-de-lui deux dix."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "verses": [
+        {
+          "n": 1,
+          "t": "à/pour-divisions à/pour-portiers ; à/pour-les-Korahite, Meshelemiah fils-de Kore depuis fils-de Asaph."
+        },
+        {
+          "n": 2,
+          "t": "et-à/pour-Meshelemiah fils ; Zechariah le-premier-né Jediael le-second, Zebadiah le-troisième, Jathniel le-quatrième."
+        },
+        {
+          "n": 3,
+          "t": "Veeylam le-cinquième Veyohanan le-sixième, Eliehoenai le-septième."
+        },
+        {
+          "n": 4,
+          "t": "et-à/pour-Obeda Edom fils ; Shemaiah le-premier-né Jehozabad le-second, Joah le-troisième et-Sachar le-quatrième, et-Nethanel le-cinquième."
+        },
+        {
+          "n": 5,
+          "t": "Ammiel le-sixième Issacar le-septième, Peullethai le-huitième ; car dieu a-béni-lui."
+        },
+        {
+          "n": 6,
+          "t": "et-à/pour-Shemaiah fils-de-lui a-été-engendré fils, les-dominations à/pour-maison-de père-de-eux ; car puissants-de compétence eux."
+        },
+        {
+          "n": 7,
+          "t": "fils-de Shemaiah Othni et-Rephael et-Obed Elzabad frères-de-lui fils-de compétence ; Elihu et-Semachiah."
+        },
+        {
+          "n": 8,
+          "t": "tout-de ces depuis-fils-de Obeda Edom eux et-fils-de-eux et-frères-de-eux, homme-de compétence dans-le-force à/pour-service ; soixante et-deux à/pour-Obeda Edom."
+        },
+        {
+          "n": 9,
+          "t": "et-à/pour-Meshelemiah fils et-frères fils-de compétence huit dix."
+        },
+        {
+          "n": 10,
+          "t": "et-à/pour-Hosah depuis fils-de Merari fils ; Shimri le-tête car non a-été premier-né, et-a-mis-lui père-de-lui à/pour-tête."
+        },
+        {
+          "n": 11,
+          "t": "Hilkiah le-second Tebaliah le-troisième, Zechariah le-quatrième ; tout-de fils et-frères à/pour-Hosah trois dix."
+        },
+        {
+          "n": 12,
+          "t": "à/pour-ces divisions-de les-portiers à/pour-têtes-de les-guerriers gardes à/pour-juxtaposition-de frères-de-eux ; à/pour-administrer dans-maison-de YHWH."
+        },
+        {
+          "n": 13,
+          "t": "sorts comme-le-petit comme-le-grand et-ont-fait-tomber à/pour-maison-de pères-de-eux à/pour-porte et-porte."
+        },
+        {
+          "n": 14,
+          "t": "le-sort east-vers et-est-tombé à/pour-Shelemiah ; et-Zechariah fils-de-lui conseillant dans-prudence ont-fait-tomber sorts, et-est-sorti sort-de-lui nord-vers."
+        },
+        {
+          "n": 15,
+          "t": "à/pour-Obeda Edom negeb-vers ; et-à/pour-fils-de-lui maison-de les-magasins."
+        },
+        {
+          "n": 16,
+          "t": "à/pour-Shuppim et-à/pour-Hosah à/pour-le-occident, avec porte-de Shallecheth, dans-la-highway la-montante ; prison à/pour-juxtaposition-de prison."
+        },
+        {
+          "n": 17,
+          "t": "à/pour-le-east les-Haleviy six à/pour-la-nord-vers à/pour-le-jour quatre, à/pour-le-negeb-vers à/pour-le-jour quatre ; et-à/pour-les-magasins deux deux."
+        },
+        {
+          "n": 18,
+          "t": "à/pour-le-Colonnade à/pour-le-occident ; quatre à/pour-la-highway, deux à/pour-le-Colonnade."
+        },
+        {
+          "n": 19,
+          "t": "ces divisions-de les-portiers, à/pour-fils-de le-Korahite et-à/pour-fils-de Merari."
+        },
+        {
+          "n": 20,
+          "t": "et-les-Haleviy ; Ahijah sur trésors-de maison-de le-dieu, et-à/pour-trésors-de les-saintetés."
+        },
+        {
+          "n": 21,
+          "t": "fils-de Ladan fils-de le-Gershonite à/pour-Ladan têtes-de les-pères à/pour-Ladan le-Gershonite Jehieli."
+        },
+        {
+          "n": 22,
+          "t": "fils-de Jehieli ; Zetham et-Joel frère-de-lui, sur trésors-de maison-de YHWH."
+        },
+        {
+          "n": 23,
+          "t": "à/pour-le-Amramite à/pour-le-Izharite, à/pour-le-Hebronite à/pour-le-Uzzielite."
+        },
+        {
+          "n": 24,
+          "t": "et-Shebuel fils-de Gershom fils-de Moïse, chef sur les-trésors."
+        },
+        {
+          "n": 25,
+          "t": "et-frères-de-lui à/pour-Eliezer ; Rehabiah fils-de-lui et-Ésaïe fils-de-lui et-Joram fils-de-lui, et-Zichri fils-de-lui et-Shelomoth fils-de-lui."
+        },
+        {
+          "n": 26,
+          "t": "lui Shelomoth et-frères-de-lui sur tout-de trésors-de les-saintetés qui a-fait-sanctifier David le-roi et-têtes-de les-pères à/pour-princes-de les-mille et-les-cent et-princes-de la-armée."
+        },
+        {
+          "n": 27,
+          "t": "depuis les-guerres et-depuis le-butin ont-fait-sanctifier ; à/pour-fortifier à/pour-maison-de YHWH."
+        },
+        {
+          "n": 28,
+          "t": "et-tout le-a-fait-sanctifier Samuel le-voir et-Saül fils-de Kish, et-Abner fils-de Ner, et-Joab fils-de Zeruiah ; tout-de le-faisant-sanctifier, sur main-de Chelomiyt et-frères-de-lui."
+        },
+        {
+          "n": 29,
+          "t": "à/pour-le-Izharite Chenaniah et-fils-de-lui à/pour-la-travail la-extérieure sur Israël, à/pour-fonctionnaires et-à/pour-jugeants."
+        },
+        {
+          "n": 30,
+          "t": "à/pour-le-Hebronite Hashabiah et-frères-de-lui fils-de compétence mille et-sept cent sur châtiment-de Israël, depuis-delà à/pour-le-Jourdain occident-vers ; à/pour-tout-de travail-de YHWH, et-à/pour-service-de le-roi."
+        },
+        {
+          "n": 31,
+          "t": "à/pour-le-Hebronite Jeriah le-tête, à/pour-le-Hebronite à/pour-générations-de-lui à/pour-pères ; dans-année-de les-quarante à/pour-royauté-de David ils-ont-été-fréquenté, et-a-été-trouvé dans-eux puissants-de compétence dans-Jazer Gilead."
+        },
+        {
+          "n": 32,
+          "t": "et-frères-de-lui fils-de compétence mille et-sept cent têtes-de les-pères ; David le-roi et-a-fait-visiter-eux sur le-Reubenite et-le-Hagadiy et-moitié-de verge-de le-Manassite, à/pour-tout-de parole-de le-dieu et-parole-de le-roi."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-fils-de Israël à/pour-nombre-de-eux têtes-de les-pères et-princes-de les-mille et-les-cent et-fonctionnaires-de-eux les-administrants le-roi à/pour-tout-de parole-de les-divisions la-venante et-la-sortissante mois dans-mois, à/pour-tout-de mois-de la-année ; la-division la-une, vingt et-quatre mille."
+        },
+        {
+          "n": 2,
+          "t": "sur la-division la-premiere à/pour-le-mois le-premier, Jashobeam fils-de Zabdiel ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 3,
+          "t": "depuis fils-de Pérets le-tête à/pour-tout-de princes-de les-combats à/pour-le-mois le-premier."
+        },
+        {
+          "n": 4,
+          "t": "et-sur division-de le-mois le-second Dodai le-Ahohite et-division-de-lui, et-Mikloth le-chef ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 5,
+          "t": "prince-de la-armée le-troisième à/pour-le-mois le-troisième, Benaiah fils-de Jehoiada le-sacrificateur tête ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 6,
+          "t": "lui Benaiah puissant-de les-trente et-sur les-trente ; et-division-de-lui, Ammizabad fils-de-lui."
+        },
+        {
+          "n": 7,
+          "t": "le-quatrième à/pour-le-mois le-quatrième Asa Asahel frère-de Joab, et-Zebadiah fils-de-lui après-lui ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 8,
+          "t": "le-cinquième à/pour-le-mois le-cinquième, le-prince Shamhuth le-Izrahite ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 9,
+          "t": "le-sixième à/pour-le-mois le-sixième, Ira fils-de Ikkesh le-Tekoa ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 10,
+          "t": "le-septième à/pour-le-mois le-septième, Helez le-Pelonite depuis fils-de Éphraïm ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 11,
+          "t": "le-huitième à/pour-le-mois le-huitième, Sibbecai le-Hushathite à/pour-le-Zerahite ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 12,
+          "t": "le-neuvième à/pour-le-mois le-neuvième, Abiezer le-Haantotiy à/pour-le-Benjaminite Yemiyniya ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 13,
+          "t": "le-tenth à/pour-le-mois le-tenth, Maharai le-Netophathite à/pour-le-Zerahite ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 14,
+          "t": "onzes-de dix à/pour-onzes-de dix le-mois, Benaiah le-Pirathon depuis fils-de Éphraïm ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 15,
+          "t": "les-deux dix à/pour-deux dix le-mois, Heldai le-Netophathite à/pour-Othniel ; et-sur division-de-lui, vingt et-quatre mille."
+        },
+        {
+          "n": 16,
+          "t": "et-sur verges-de Israël, à/pour-le-Reubenite chef, Eliezer fils-de Zichri ; à/pour-le-Lachimoniy, Shephatiah fils-de Maacah."
+        },
+        {
+          "n": 17,
+          "t": "à/pour-Haleviy Hashabiah fils-de Kemuel à/pour-Aaron Zadok."
+        },
+        {
+          "n": 18,
+          "t": "à/pour-Juda, Elihu depuis-frères-de David ; à/pour-Issacar, Omri fils-de Michel."
+        },
+        {
+          "n": 19,
+          "t": "à/pour-Zabulon, Ishmaiah fils-de Obadiah ; à/pour-Nephthali, Jerimoth fils-de Azriel."
+        },
+        {
+          "n": 20,
+          "t": "à/pour-fils-de Éphraïm, Hoshea fils-de Azaziah ; à/pour-moitié-de verge-de Manassé, Joel fils-de Pedaiah."
+        },
+        {
+          "n": 21,
+          "t": "à/pour-moitié-de le-Manassé Gilead-vers, Ido fils-de Zechariah ; à/pour-Benjamin, Jaasiel fils-de Abner."
+        },
+        {
+          "n": 22,
+          "t": "à/pour-Dan, Azarel fils-de Jeroham ; ces, princes-de verges-de Israël."
+        },
+        {
+          "n": 23,
+          "t": "et-non David a-porté nombre-de-eux, à/pour-fils-de vingt année et-à/pour-beneath ; car YHWH a-dit, à/pour-faire-multiplier Israël comme-étoiles-de les-ciels."
+        },
+        {
+          "n": 24,
+          "t": "Joab fils-de Zeruiah a-fait-commencer à/pour-calculer et-non a-achevé, courroux et-a-été dans-celle-ci sur Israël ; et-non le-nombre est-monté, dans-nombre-de paroles-de les-jours à/pour-le-roi David."
+        },
+        {
+          "n": 25,
+          "t": "et-sur trésors-de le-roi, Azmaveth fils-de Adiel ; et-sur les-trésors dans-le-champ dans-les-villes et-dans-les-villages et-dans-les-tours, Yehonatan fils-de Uzziah."
+        },
+        {
+          "n": 26,
+          "t": "et-sur faisants-de travail-de le-champ, à/pour-service-de la-sol ; Ezri fils-de Chelub."
+        },
+        {
+          "n": 27,
+          "t": "et-sur les-vignobles, Shimei le-Ramathite ; et-sur que-dans-les-vignobles à/pour-trésors-de le-vin, Zabdi le-Shiphmite."
+        },
+        {
+          "n": 28,
+          "t": "et-sur les-olives et-les-sycomores qui dans-la-shephelah, Baal Hanan le-Gederite ; et-sur trésors-de le-huile Veyoach."
+        },
+        {
+          "n": 29,
+          "t": "et-sur le-bœufs les-paîtants dans-le-Lasharon, Shitrai le-Sharonite ; et-sur le-bœufs dans-les-vallées, Shaphat fils-de Adlai."
+        },
+        {
+          "n": 30,
+          "t": "et-sur les-chameaux, Obil le-Ishmaelite ; et-sur les-ânesses, Jehdeiah le-Meronothite."
+        },
+        {
+          "n": 31,
+          "t": "et-sur le-troupeau Jaziz le-Hagri ; tout-de ces princes-de le-biens, qui à/pour-le-roi David."
+        },
+        {
+          "n": 32,
+          "t": "et-Yehonatan bien-aimé-de David conseillant, homme-de faisant-discerner et-dénombrer lui ; et-Jehiel fils-de Hachmonite avec fils-de le-roi."
+        },
+        {
+          "n": 33,
+          "t": "et-Ahithophel conseillant à/pour-le-roi ; et-Hushai le-Archite ami-de le-roi."
+        },
+        {
+          "n": 34,
+          "t": "et-après Ahithophel Jehoiada fils-de Benaiah et-Abiathar, et-prince-de armée à/pour-le-roi Joab."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David et-a-fait-assembler tout-de princes-de Israël princes-de les-verges et-princes-de les-divisions les-administrants le-roi et-princes-de les-mille et-princes-de les-cent et-princes-de tout-de biens et-bétail à/pour-le-roi et-à/pour-fils-de-lui avec les-eunuchs et-les-puissants et-à/pour-tout-de puissant-de compétence vers Jérusalem."
+        },
+        {
+          "n": 2,
+          "t": "David le-roi et-est-levé sur pieds-de-lui, et-a-dit, écoutez-moi frères-de-moi et-peuple-de-moi ; je avec volonté-de-moi à/pour-bâtir maison-de repos à/pour-arche-de alliance-de YHWH et-à/pour-marchepied-de pieds-de dieu-de-nous, et-ai-fait-affermir à/pour-bâtir."
+        },
+        {
+          "n": 3,
+          "t": "et-le-dieu a-dit à/pour-moi, non tu-bâtiras maison à/pour-nom-de-moi ; car homme-de guerres tu et-sangs as-répandu."
+        },
+        {
+          "n": 4,
+          "t": "YHWH et-a-choisi dieu-de Israël dans-moi depuis-tout-de maison-de père-de-moi à/pour-être à/pour-roi sur Israël à/pour-durée, car dans-Juda a-choisi à/pour-chef, et-dans-maison-de Juda maison-de père-de-moi ; et-dans-fils-de père-de-moi, dans-moi tout-de Israël a-gkcgé, à/pour-faire-régner sur."
+        },
+        {
+          "n": 5,
+          "t": "et-depuis-tout-de fils-de-moi, car nombreux fils, YHWH ; a-donné à/pour-moi fils-de-moi, et-a-choisi dans-Salomon à/pour-habiter sur trône-de royauté-de YHWH sur Israël."
+        },
+        {
+          "n": 6,
+          "t": "Salomon et-a-dit à/pour-moi, fils-de-toi, lui bâtira maison-de-moi et-enclos-de-moi ; car et-je ai-choisi dans-lui à/pour-moi à/pour-fils, serai à/pour-lui à/pour-père."
+        },
+        {
+          "n": 7,
+          "t": "et-je-ai-fait-affermir royauté-de-lui jusqu'à à/pour-durée ; si il-fortifiera à/pour-faire commandements-de-moi et-jugements-de-moi comme-le-jour le-celui-ci."
+        },
+        {
+          "n": 8,
+          "t": "et-maintenant à/pour-yeux-de tout-de Israël congrégation-de YHWH et-dans-oreilles-de dieu-de-nous, gardez et-fréquentez, tout-de commandements-de YHWH dieu-de-vous ; égard vous-déposséderez la-terre la-bone, et-vous-avez-fait-hériter à/pour-fils-de-vous après-vous jusqu'à durée."
+        },
+        {
+          "n": 9,
+          "t": "et-tu Salomon fils-de-moi sache dieu-de père-de-toi et-servis-lui dans-cœur parfait et-dans-âme désire, car tout-de volontés fréquentant YHWH, et-tout-de forme-de pensées faisant-discerner ; si tu-fréquenteras-lui il-sera-trouvé à/pour-toi-f, et-si tu-abandonneras-lui il-fera-gcfbaer-toi à/pour-perpétuité."
+        },
+        {
+          "n": 10,
+          "t": "vois maintenant car YHWH a-choisi dans-toi à/pour-bâtir maison à/pour-le-sanctuaire fortifie et-fais."
+        },
+        {
+          "n": 11,
+          "t": "David et-a-donné à/pour-Salomon fils-de-lui figure-de le-portique et-maisons-de-lui et-treasurys-de-lui et-uppers-de-lui et-chambres-de-lui les-intérieurs et-maison-de la-propitiatoire."
+        },
+        {
+          "n": 12,
+          "t": "et-figure-de tout qui a-été dans-le-esprit avec-lui, à/pour-enclos-de maison-de YHWH et-à/pour-tout-de les-salles alentour ; à/pour-trésors-de maison-de le-dieu, et-à/pour-trésors-de les-saintetés."
+        },
+        {
+          "n": 13,
+          "t": "et-à/pour-divisions-de les-sacrificateurs et-les-Haleviy, et-à/pour-tout-de travail-de service-de maison-de YHWH ; et-à/pour-tout-de ustensiles-de service-de maison-de YHWH."
+        },
+        {
+          "n": 14,
+          "t": "à/pour-le-or dans-le-poids à/pour-le-or, à/pour-tout-de ustensiles-de service et-service ; à/pour-tout-de ustensiles-de le-argent dans-poids, à/pour-tout-de ustensiles-de service et-service."
+        },
+        {
+          "n": 15,
+          "t": "et-poids à/pour-lampstands-de le-or et-lampes-de-eux or, dans-poids-de lampstand et-lampstand et-lampes-de-elle ; et-à/pour-lampstands-de le-argent dans-poids à/pour-lampstand et-lampes-de-elle, comme-service-de lampstand et-lampstand."
+        },
+        {
+          "n": 16,
+          "t": "et-le-or poids à/pour-tables-de la-rangées à/pour-table et-table ; et-argent à/pour-tables-de le-argent."
+        },
+        {
+          "n": 17,
+          "t": "et-les-fourchettes et-les-bassins et-les-jugs or pur ; et-à/pour-geluas-de le-or dans-poids à/pour-gelua et-gelua, et-à/pour-geluas-de le-argent dans-poids à/pour-gelua et-gelua."
+        },
+        {
+          "n": 18,
+          "t": "et-à/pour-autel-de la-encens or distillé dans-le-poids ; et-à/pour-figure-de la-chariot les-chérubins or à/pour-étendants, et-encloants sur arche-de alliance-de YHWH."
+        },
+        {
+          "n": 19,
+          "t": "le-tout dans-édit depuis-main-de YHWH sur-moi a-fait-comprendre ; tout-de travails-de la-figure."
+        },
+        {
+          "n": 20,
+          "t": "David et-a-dit à/pour-Salomon fils-de-lui fortifie et-guge et-fais, ne tu-craindes et-ne tu-sois-gdfeé ; car YHWH dieu dieu-de-moi avec-toi, non fera-baisser-toi et-non tout-de travail-de service-de maison-de YHWH abandonnera-toi, jusqu'à à/pour-achever,."
+        },
+        {
+          "n": 21,
+          "t": "et-voici divisions-de les-sacrificateurs et-les-Haleviy, à/pour-tout-de service-de maison-de le-dieu ; et-avec-toi dans-tout-de travail à/pour-tout-de noble dans-la-sagesse à/pour-tout-de service, et-les-princes et-tout-de le-peuple à/pour-tout-de paroles-de-toi."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David le-roi et-a-dit à/pour-tout-de le-congrégation, Salomon fils-de-moi un a-choisi dans-lui dieu youth et-doux ; et-la-travail grande, car non à/pour-homme la-château, car à/pour-YHWH dieu."
+        },
+        {
+          "n": 2,
+          "t": "et-comme-tout-de force-de-moi je-ai-fait-affermir à/pour-maison-de dieu-de-moi le-or à/pour-le-or et-le-argent à/pour-le-argent et-la-cuivre à/pour-la-cuivre le-fer à/pour-le-fer, et-les-arbres à/pour-les-arbres ; pierres-de onyx et-garnitures pierres-de antimoine et-brodées et-tout-de pierre précieuse et-pierres-de albâtre à/pour-multitude."
+        },
+        {
+          "n": 3,
+          "t": "et-encore dans-gkcger-de-moi dans-maison-de dieu-de-moi, substance à/pour-moi propriété or et-argent ; je-ai-donné à/pour-maison-de dieu-de-moi à/pour-dessus-vers, depuis-tout-de je-ai-fait-affermir à/pour-maison-de le-sainteté."
+        },
+        {
+          "n": 4,
+          "t": "trois-de mille ronds-de or depuis-or-de Ophir ; et-sept-de mille rond-de argent distillé, à/pour-plâtrer walls-de les-maisons."
+        },
+        {
+          "n": 5,
+          "t": "à/pour-le-or à/pour-le-or et-à/pour-le-argent à/pour-le-argent, et-à/pour-tout-de travail dans-main-de artisans ; et-lequel se-incitant, à/pour-remplir main-de-lui le-jour à/pour-YHWH."
+        },
+        {
+          "n": 6,
+          "t": "princes-de les-pères et-ont-se-incité et-princes-de verges-de Israël et-princes-de les-mille et-les-cent, et-à/pour-princes-de travail-de le-roi."
+        },
+        {
+          "n": 7,
+          "t": "et-ont-donné à/pour-service-de maison-de le-dieu or ronds cinq-de mille et-drachmes milliers et-argent ronds ten-de mille, et-cuivre, milliers et-huit-de mille ronds ; et-fer cent mille ronds."
+        },
+        {
+          "n": 8,
+          "t": "et-le-trouvé ensemble-lui pierres, ont-donné à/pour-trésor-de maison-de YHWH ; sur main-de Jehiel le-Gershonite."
+        },
+        {
+          "n": 9,
+          "t": "et-ils-ont-réjoui le-peuple sur se-inciter-de-eux, car dans-cœur parfait, ils-ont-se-incité à/pour-YHWH ; et-aussi David le-roi, a-réjoui gaieté grande."
+        },
+        {
+          "n": 10,
+          "t": "David et-a-béni YHWH, à/pour-yeux-de tout-de le-congrégation ; David béni et-a-dit tu YHWH dieu-de Israël père-de-nous, depuis-durée et-jusqu'à durée."
+        },
+        {
+          "n": 11,
+          "t": "à/pour-toi YHWH la-grandeur et-la-might et-la-splendeur et-le-éminence et-le-majesté, car tout dans-les-ciels et-dans-la-terre ; à/pour-toi YHWH la-royaume, et-le-se-ggissant à/pour-tout à/pour-tête."
+        },
+        {
+          "n": 12,
+          "t": "et-le-richesse et-la-gloire depuis-faces-de-toi, et-tu gouvernant dans-le-tout, et-dans-main-de-toi force et-might ; et-dans-main-de-toi, à/pour-croître et-à/pour-fortifier à/pour-le-tout."
+        },
+        {
+          "n": 13,
+          "t": "et-maintenant dieu-de-nous, faisants-confesser nous à/pour-toi-f ; et-brillants à/pour-nom-de splendeur-de-toi."
+        },
+        {
+          "n": 14,
+          "t": "et-car lequel je et-lequel peuple-de-moi, car nous-clorons force, à/pour-se-inciter comme-celle-ci ; car depuis-toi le-tout, et-depuis-main-de-toi nous-avons-donné à/pour-toi-f."
+        },
+        {
+          "n": 15,
+          "t": "car nous sojourners à/pour-faces-de-toi et-étrangers comme-tout-de pères-de-nous ; comme-le-ombre jours-de-nous sur la-terre et-néant espérance."
+        },
+        {
+          "n": 16,
+          "t": "YHWH dieu-de-nous, tout-de le-tumulte le-celui-ci qui nous-avons-fait-affermir, à/pour-bâtir à/pour-toi maison à/pour-nom-de sainteté-de-toi ; depuis-main-de-toi lui et-à/pour-toi le-tout."
+        },
+        {
+          "n": 17,
+          "t": "et-je-ai-su dieu-de-moi, car tu éprouvant volonté, et-droitures gkcgeras ; je dans-gecr-de volonté-de-moi ai-se-incité tout-de ces, et-maintenant peuple-de-toi les-ils-ont-été-trouvé gihs, ai-vu dans-gaieté à/pour-se-inciter à/pour-toi-f."
+        },
+        {
+          "n": 18,
+          "t": "YHWH dieu-de Abraham Isaac et-Israël pères-de-nous, garde-hé celle-ci à/pour-durée, à/pour-forme-de pensées-de volonté-de peuple-de-toi ; et-fais-affermir volonté-de-eux vers-toi."
+        },
+        {
+          "n": 19,
+          "t": "et-à/pour-Salomon fils-de-moi donne volonté parfait, à/pour-garder commandements-de-toi, témoignages-de-toi et-statuts-de-toi ; et-à/pour-faire le-tout, et-à/pour-bâtir la-château qui je-ai-fait-affermir."
+        },
+        {
+          "n": 20,
+          "t": "David et-a-dit à/pour-tout-de le-congrégation, bénissez donc YHWH dieu-de-vous ; et-ils-ont-béni tout-de le-congrégation à/pour-YHWH dieu-de pères-de-eux, et-ils-ont-gjeyé et-ils-ont-se-courbé à/pour-YHWH et-à/pour-le-roi."
+        },
+        {
+          "n": 21,
+          "t": "sacrifices et-ont-sacrifié à/pour-YHWH et-ont-fait-monter burnts à/pour-YHWH à/pour-morrow-de le-jour le-lui bouvillons mille béliers mille agneaux mille et-libations-de-eux ; et-sacrifices à/pour-multitude à/pour-tout-de Israël."
+        },
+        {
+          "n": 22,
+          "t": "et-ils-ont-mangé et-ils-ont-bu à/pour-faces-de YHWH dans-le-jour le-lui dans-gaieté grande ; et-ils-ont-fait-régner seconde à/pour-Salomon fils-de David, et-ils-ont-oint à/pour-YHWH à/pour-chef et-à/pour-Zadok à/pour-sacrificateur."
+        },
+        {
+          "n": 23,
+          "t": "Salomon et-a-habité sur trône-de YHWH à/pour-roi sous David père-de-lui et-a-fait-prosper ; et-ils-ont-écouté vers-lui tout-de Israël."
+        },
+        {
+          "n": 24,
+          "t": "et-tout-de les-princes et-les-puissants, et-aussi, tout-de fils-de le-roi David ; ils-ont-donné main, sous Salomon le-roi."
+        },
+        {
+          "n": 25,
+          "t": "YHWH et-a-crû Salomon à/pour-dessus-vers, à/pour-yeux-de tout-de Israël ; majesté-de royauté, et-a-donné sur-lui qui non a-été sur tout-de roi à/pour-faces-de-lui sur Israël."
+        },
+        {
+          "n": 26,
+          "t": "et-David fils-de Jesse, a-régné sur tout-de Israël."
+        },
+        {
+          "n": 27,
+          "t": "et-les-jours qui Israël, a-régné sur quarante année ; dans-Hébron il-a-régné sept années, et-dans-Jérusalem il-a-régné trente et-trois."
+        },
+        {
+          "n": 28,
+          "t": "et-est-mort dans-âge bone, rassasié-de jours richesse et-gloire ; Salomon et-a-régné fils-de-lui sous-lui."
+        },
+        {
+          "n": 29,
+          "t": "et-paroles-de David le-roi, les-premiers et-les-suivants ; voici-eux écrits sur paroles-de Samuel le-voir, et-sur paroles-de Nathan le-prophète, et-sur paroles-de Gad le-voyant."
+        },
+        {
+          "n": 30,
+          "t": "avec tout-de royauté-de-lui et-might-de-lui ; et-les-heures qui ont-passé sur-lui et-sur Israël, et-sur tout-de royaumes-de les-terres."
+        }
+      ]
+    }
+  ]
+}

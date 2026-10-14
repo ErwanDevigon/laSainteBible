@@ -1,0 +1,530 @@
+{
+  "id": "cantique",
+  "title": "Cantique des cantiques",
+  "original_title": "Cantique des cantiques",
+  "short": "Ct",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "chant-de les-chants qui à/pour-Salomon."
+        },
+        {
+          "n": 2,
+          "t": "il-embrassera-moi depuis-baisers-de bouche-de-lui, car bons bien-aimés-de-toi depuis-vin."
+        },
+        {
+          "n": 3,
+          "t": "à/pour-odeur huiles-de-toi bons, huile elle-sera-fait-vider nom-de-toi ; sur ainsi maidens ont-aimé-toi."
+        },
+        {
+          "n": 4,
+          "t": "traîne-moi après-toi nous-courons ; le-roi a-fait-venir-moi chambres-de-lui nous-gbfoons et-nous-réjouissons dans-toi-f, nous-faisons-rappeler bien-aimés-de-toi depuis-vin, droitures ont-aimé-toi."
+        },
+        {
+          "n": 5,
+          "t": "je noire et-belle, filles-de Jérusalem ; comme-tentes-de Kedar, comme-tapis-de Salomon."
+        },
+        {
+          "n": 6,
+          "t": "ne vous-voyiez-moi que-je tirante, le-soleil que-a-regardé-moi ; fils-de mère-de-moi ont-été-gdceé dans-moi ont-mis-moi entretenissante les-vignobles, vignoble-de-moi que-à/pour-moi non je-ai-entreteni."
+        },
+        {
+          "n": 7,
+          "t": "fais-annoncer-hé à/pour-moi âme-de-moi que-a-aimé, gmkb tu-paîtras, gmkb tu-feras-coucher dans-les-middays ; que-à/pour-quoi je-serai comme-enroulante, sur flocks-de unis-de-toi."
+        },
+        {
+          "n": 8,
+          "t": "si non tu-f-sauras à/pour-toi-f, la-belle dans-les-femmes ; sortis à/pour-toi-f dans-talons-de le-troupeau et-paîts chevreaux-de-toi-f, sur tabernacles-de les-paîtants."
+        },
+        {
+          "n": 9,
+          "t": "à/pour-jument-de-moi dans-chars-de Pharaon, je-ai-ressemblé-toi-f compagne-de-moi."
+        },
+        {
+          "n": 10,
+          "t": "ils-ont-ggjfé Lehi-de-toi-f dans-les-tresses, cou-de-toi-f dans-les-perles."
+        },
+        {
+          "n": 11,
+          "t": "tresses-de or nous-ferons à/pour-toi-f, avec points-de le-argent."
+        },
+        {
+          "n": 12,
+          "t": "jusqu'à que-le-roi dans-pourtour-de-lui, nard-de-moi a-donné odeur-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "paquet-de le-myrrhe bien-aimé-de-moi à/pour-moi, entre seins-de-moi logera."
+        },
+        {
+          "n": 14,
+          "t": "grappe-de le-henna bien-aimé-de-moi à/pour-moi, dans-vignobles-de Veeyn Engedi."
+        },
+        {
+          "n": 15,
+          "t": "voilà-toi-f belle compagne-de-moi, voilà-toi-f belle yeux-de-toi-f colombes."
+        },
+        {
+          "n": 16,
+          "t": "voilà-toi belle bien-aimé-de-moi même plaisant, même divan-de-nous verdire."
+        },
+        {
+          "n": 17,
+          "t": "poutres-de maisons-de-nous cèdres, chevrons-de-nous sapins."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "je narcisse-de le-Lasharon, lis-de les-vallées."
+        },
+        {
+          "n": 2,
+          "t": "comme-lis entre les-épines, ainsi compagne-de-moi entre les-filles."
+        },
+        {
+          "n": 3,
+          "t": "comme-pomme dans-arbres-de le-forêt, ainsi bien-aimé-de-moi entre les-fils ; dans-ombre-de-lui je-ai-convoité et-je-ai-habité, et-fruit-de-lui douce à/pour-goûter-de-moi."
+        },
+        {
+          "n": 4,
+          "t": "maison-de le-vin, a-fait-venir-moi vers et-bannière-de-lui sur-moi gfder."
+        },
+        {
+          "n": 5,
+          "t": "posez-moi dans-les-raisins, gkbnez-moi dans-les-pommes ; car gcpzaante-de gfder je."
+        },
+        {
+          "n": 6,
+          "t": "gauche-de-lui sous à/pour-tête-de-moi, et-right-de-lui étreindra-moi."
+        },
+        {
+          "n": 7,
+          "t": "je-ai-fait-jurer vous filles-de Jérusalem dans-gloires, ou dans-biches-de le-champ ; si vous-ferez-éveiller et-si vous-éveillerez la-gfder jusqu'à que-elle-plaisira."
+        },
+        {
+          "n": 8,
+          "t": "voix-de bien-aimé-de-moi, voici celui-ci venant ; sautant sur les-monts, fermant sur les-Gibata."
+        },
+        {
+          "n": 9,
+          "t": "ressemblant bien-aimé-de-moi à/pour-gloire, ou à/pour-faon-de les-cerfs ; voici celui-ci restant après mur-de-nous, faisant-gkir depuis les-windows, faisant-giwjber depuis les-lattices."
+        },
+        {
+          "n": 10,
+          "t": "bien-aimé-de-moi a-répondu et-a-dit à/pour-moi ; leve à/pour-toi-f compagne-de-moi belle-de-moi et-va à/pour-toi-f."
+        },
+        {
+          "n": 11,
+          "t": "car voici le-hiver a-passé ; le-averse, a-changé a-marché à/pour-lui."
+        },
+        {
+          "n": 12,
+          "t": "les-fleurs ont-été-vu dans-la-terre, heure-de le-élagage a-fait-toucher ; et-voix-de le-tourterelle a-été-écouté dans-terre-de-nous."
+        },
+        {
+          "n": 13,
+          "t": "la-figue a-embaumé vertes-de-elle, et-les-vignes blossom ont-donné odeur ; leve va à/pour-toi-f compagne-de-moi belle-de-moi et-va à/pour-toi-f."
+        },
+        {
+          "n": 14,
+          "t": "colombe-de-moi dans-fentes-de le-Rock dans-abri-de la-escarpé, fais-voir-moi aspects-de-toi-f, fais-écouter-moi voix-de-toi-f ; car voix-de-toi-f sweet et-aspect-de-toi-f belle."
+        },
+        {
+          "n": 15,
+          "t": "gjjez à/pour-nous renards, renards jeunes gchrbants vignobles ; et-vignobles-de-nous blossom."
+        },
+        {
+          "n": 16,
+          "t": "bien-aimé-de-moi à/pour-moi et-je à/pour-lui, le-paîtant dans-les-lis."
+        },
+        {
+          "n": 17,
+          "t": "jusqu'à le-jour que-soufflera, et-ont-fui les-ombres ; tourne ressemble à/pour-toi bien-aimé-de-moi à/pour-gloire ou à/pour-faon-de les-cerfs sur monts-de régions."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "sur bed-de-moi dans-les-nuits, je-ai-cherché, âme-de-moi que-a-aimé ; je-ai-cherché-lui et-non je-ai-trouvé-lui."
+        },
+        {
+          "n": 2,
+          "t": "je-leve donc et-je-tourne dans-la-ville dans-les-rues et-dans-les-places, je-cherche, âme-de-moi que-a-aimé ; je-ai-cherché-lui et-non je-ai-trouvé-lui."
+        },
+        {
+          "n": 3,
+          "t": "ils-ont-trouvé-moi les-gardants, les-tournants dans-la-ville ; âme-de-moi que-a-aimé vous-avez-vu."
+        },
+        {
+          "n": 4,
+          "t": "comme-peu que-je-ai-passé depuis-eux, jusqu'à que-je-ai-trouvé, âme-de-moi que-a-aimé ; je-ai-gjjé-lui et-non je-ferai-baisser-lui, jusqu'à que-je-ai-fait-venir-lui vers maison-de mère-de-moi, et-vers chambre-de concevoissante-de-moi."
+        },
+        {
+          "n": 5,
+          "t": "je-ai-fait-jurer vous filles-de Jérusalem dans-gloires, ou dans-biches-de le-champ ; si vous-ferez-éveiller et-si vous-éveillerez la-gfder jusqu'à que-elle-plaisira."
+        },
+        {
+          "n": 6,
+          "t": "lequel celle-ci montante depuis le-désert, comme-columns-de fumée ; offée-de myrrhe et-frankincense, depuis-tout-de aromates-de circulant."
+        },
+        {
+          "n": 7,
+          "t": "voici lit-de-lui que-à/pour-Salomon, soixante puissants alentour à/pour-elle ; depuis-puissants-de Israël."
+        },
+        {
+          "n": 8,
+          "t": "tout-de-eux gjjés-de épée, enseignés-de guerre ; homme épée-de-lui sur cuisse-de-lui, depuis-dread dans-les-nuits."
+        },
+        {
+          "n": 9,
+          "t": "litière a-fait à/pour-lui le-roi Salomon, depuis-arbres-de le-Liban."
+        },
+        {
+          "n": 10,
+          "t": "argent, a-fait colonnes-de-lui, appui-de-lui or, char-de-lui rouge-pourpre ; milieu-de-lui ajusté gfder, depuis-filles-de Jérusalem."
+        },
+        {
+          "n": 11,
+          "t": "sortissez et-voyez filles-de Sion dans-le-roi Salomon ; dans-la-couronne mère-de-lui que-a-ghpybé à/pour-lui dans-jour-de noces-de-lui, et-dans-jour-de gaieté-de cœur-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "voilà-toi-f belle compagne-de-moi voilà-toi-f belle, yeux-de-toi-f colombes, derrière à/pour-gizq-de-toi-f ; poil-de-toi-f comme-flock-de les-goats, que-ils-ont-accroché depuis-mont-de Gilead."
+        },
+        {
+          "n": 2,
+          "t": "dents-de-toi-f comme-flock-de les-gjlvées, que-ils-sont-monté depuis la-washing ; que-tout-de-eux gljjs, et-childlesse néant dans-eux."
+        },
+        {
+          "n": 3,
+          "t": "comme-thread-de le-cramoisi lèvres-de-toi-f, et-mouth-de-toi-f belle ; comme-scission-de le-grenade temple-de-toi-f, derrière à/pour-gizq-de-toi-f."
+        },
+        {
+          "n": 4,
+          "t": "comme-tour-de David cou-de-toi-f, bâti à/pour-arsenals ; mille le-bouclier glopé sur-lui, tout-de shields-de les-puissants."
+        },
+        {
+          "n": 5,
+          "t": "deux-de seins-de-toi-f comme-deux-de faons jumeaux-de gazelle ; les-paîtants dans-les-lis."
+        },
+        {
+          "n": 6,
+          "t": "jusqu'à le-jour que-soufflera, et-ont-fui les-ombres ; je-irai à/pour-moi vers mont-de le-myrrhe, et-vers Gibata-de la-frankincense."
+        },
+        {
+          "n": 7,
+          "t": "tout-de-toi-f belle compagne-de-moi, et-défaut néant dans-toi-f."
+        },
+        {
+          "n": 8,
+          "t": "ensemble-moi depuis-Liban belle-fille, ensemble-moi depuis-Liban tu-f-viennes ; tu-f-observeras depuis-tête-de Amana depuis-tête-de Senir et-Hermon, depuis-demeures-de gabjas, depuis-montagnes-de léopards."
+        },
+        {
+          "n": 9,
+          "t": "tu-f-as-geqaaé-moi sœur-de-moi belle-fille ; tu-f-as-geqaaé-moi dans-un dans-une depuis-yeux-de-toi-f, dans-un-de collier depuis-nuques-de-toi-f."
+        },
+        {
+          "n": 10,
+          "t": "quoi bien-aimés-de-toi-f ont-gdvzé sœur-de-moi belle-fille ; quoi bien-aimés-de-toi-f ont-salutaiu depuis-vin, et-odeur-de huiles-de-toi-f depuis-tout-de parfums."
+        },
+        {
+          "n": 11,
+          "t": "lèvres-de-toi-f distilleront honey, belle-fille ; miel et-lait sous langue-de-toi-f, et-odeur-de manteaux-de-toi-f comme-odeur-de Liban."
+        },
+        {
+          "n": 12,
+          "t": "jardin barré sœur-de-moi belle-fille ; source barré source scellé."
+        },
+        {
+          "n": 13,
+          "t": "armes-de-toi-f parc-de grenades, avec fruit-de excellences ; hennas avec nards."
+        },
+        {
+          "n": 14,
+          "t": "nard et-safran roseau et-cinnamome, avec tout-de arbres-de frankincense ; myrrhe et-aloès, avec tout-de têtes-de parfums."
+        },
+        {
+          "n": 15,
+          "t": "source-de jardins, puits-de eaux vivants ; et-coulants depuis Liban."
+        },
+        {
+          "n": 16,
+          "t": "éveille nord et-viens sud, fais-souffler parfums-de-lui ; coulent jardin-de-moi bien-aimé-de-moi vienne à/pour-jardin-de-lui, et-mange fruit-de excellences-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "je-suis-venu à/pour-jardin-de-moi sœur-de-moi belle-fille je-ai-gaaoé myrrhe-de-moi avec baume-de-moi, je-ai-mangé bois-de-moi avec miel-de-moi, je-ai-bu vin-de-moi avec lait-de-moi ; mangez amis, buvez et-ivez bien-aimés."
+        },
+        {
+          "n": 2,
+          "t": "je sleepinge et-cœur-de-moi éveillant ; voix-de bien-aimé-de-moi frappant gitaae à/pour-moi sœur-de-moi compagne-de-moi colombe-de-moi parfaite-de-moi, que-tête-de-moi rempli rosée, boucles-de-moi gjzkas-de nuit."
+        },
+        {
+          "n": 3,
+          "t": "je-ai-dépouillé tunique-de-moi, gmkc je-vêtirai-elle ; je-ai-lavé pieds-de-moi gmkc je-gdhxerai-eux."
+        },
+        {
+          "n": 4,
+          "t": "bien-aimé-de-moi a-envoyé main-de-lui depuis le-trou, et-entrailles-de-moi ont-grogné sur-lui."
+        },
+        {
+          "n": 5,
+          "t": "je suis-levé à/pour-gitaaer à/pour-bien-aimé-de-moi ; et-mains-de-moi ont-distillé myrrhe et-doigts-de-moi myrrhe passant, sur palmes-de le-bolt."
+        },
+        {
+          "n": 6,
+          "t": "je ai-gitaaé à/pour-bien-aimé-de-moi, et-bien-aimé-de-moi a-gctké a-passé ; âme-de-moi est-sorti dans-parler-de-lui, je-ai-cherché-lui et-non je-ai-trouvé-lui, je-ai-appelé-lui et-non a-répondu-moi."
+        },
+        {
+          "n": 7,
+          "t": "ils-ont-trouvé-moi les-gardants les-tournants dans-la-ville ils-ont-fait-frapper-moi ils-ont-blessé-moi ; ont-porté quelque-de-moi sur-moi, gardants-de les-murs."
+        },
+        {
+          "n": 8,
+          "t": "je-ai-fait-jurer vous filles-de Jérusalem ; si vous-trouverez bien-aimé-de-moi, quoi vous-ferez-annoncer à/pour-lui, que-gcpzaante-de gfder je."
+        },
+        {
+          "n": 9,
+          "t": "quoi bien-aimé-de-toi-f depuis-bien-aimé, la-belle dans-les-femmes ; quoi bien-aimé-de-toi-f depuis-bien-aimé, que-gehn tu-f-as-fait-jurer-nous."
+        },
+        {
+          "n": 10,
+          "t": "bien-aimé-de-moi clair et-red, gbmwaé depuis-myriade."
+        },
+        {
+          "n": 11,
+          "t": "tête-de-lui gold-de giis ; boucles-de-lui ondules, noires comme-le-corbeau."
+        },
+        {
+          "n": 12,
+          "t": "yeux-de-lui, comme-colombes sur canals-de eaux ; lavantes dans-le-lait, habitantes sur setting."
+        },
+        {
+          "n": 13,
+          "t": "Lehi-de-lui comme-parterre-de le-parfum, tours-de ggdds ; lèvres-de-lui lis, distillantes myrrhe passant."
+        },
+        {
+          "n": 14,
+          "t": "mains-de-lui croisées-de or, remplis dans-le-gltz ; entrailles-de-lui plaque-de dent, ghunée saphirs."
+        },
+        {
+          "n": 15,
+          "t": "pattes-de-lui colonnes-de alabastere, fondés sur bases-de giis ; aspect-de-lui comme-le-Liban, choisi comme-les-cèdres."
+        },
+        {
+          "n": 16,
+          "t": "goûter-de-lui douceurs, et-tout-de-lui plaisantes ; celui-ci bien-aimé-de-moi et-celui-ci ami-de-moi, filles-de Jérusalem."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "where bien-aimé-de-toi-f la-belle a-marché, dans-les-femmes ; where bien-aimé-de-toi-f a-tourné, et-nous-chercherons-lui avec-toi-f."
+        },
+        {
+          "n": 2,
+          "t": "bien-aimé-de-moi est-descendu à/pour-jardin-de-lui, à/pour-parterres-de le-parfum ; à/pour-paître dans-les-jardins, et-à/pour-glaner lis."
+        },
+        {
+          "n": 3,
+          "t": "je à/pour-bien-aimé-de-moi et-bien-aimé-de-moi à/pour-moi, le-paîtant dans-les-lis."
+        },
+        {
+          "n": 4,
+          "t": "toi belle compagne-de-moi comme-Tirzah, belle comme-Jérusalem ; terrible comme-les-parues."
+        },
+        {
+          "n": 5,
+          "t": "fais-tourner yeux-de-toi-f devant-moi, eux-eux ils-ont-fait-gjtler-moi ; poil-de-toi-f comme-flock-de les-goats, que-ils-ont-accroché depuis le-Gilead."
+        },
+        {
+          "n": 6,
+          "t": "dents-de-toi-f comme-flock-de les-agnelles, que-ils-sont-monté depuis la-washing ; que-tout-de-eux gljjs, et-childlesse néant dans-eux."
+        },
+        {
+          "n": 7,
+          "t": "comme-scission-de le-grenade temple-de-toi-f, derrière à/pour-gizq-de-toi-f."
+        },
+        {
+          "n": 8,
+          "t": "soixante eux reines, et-quatre-vingts concubines ; et-maidens néant nombre."
+        },
+        {
+          "n": 9,
+          "t": "une lui colombe-de-moi parfaite-de-moi, une lui à/pour-mère-de-elle, claire lui à/pour-engendrante-de-elle ; filles ont-vu-elle et-ils-ont-avancé-elle, reines et-concubines et-ils-ont-brillé-elle."
+        },
+        {
+          "n": 10,
+          "t": "lequel celle-ci la-regardée comme aube ; belle comme-la-geqt claire comme-la-gcsm, terrible comme-les-parues."
+        },
+        {
+          "n": 11,
+          "t": "vers jardin-de noix je-suis-descendu, à/pour-voir dans-greenerys-de le-torrent ; à/pour-voir la-vigne la-a-fleuri, ont-fait-ggojber les-grenades."
+        },
+        {
+          "n": 12,
+          "t": "non je-ai-su, âme-de-moi a-mis-moi, chariots-de peuple-de-moi noble."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "retourne retourne la-Shulammites, retourne retourne et-nous-apercevoirons dans-toi-f ; quoi vous-apercevoirez dans-la-Shulammites, comme-danse-de les-camps."
+        },
+        {
+          "n": 2,
+          "t": "quoi ils-ont-belle fois-de-toi-f dans-les-sandales fille-de noble ; contours-de cuisses-de-toi-f, comme joailleries, acte-de mains-de artiste."
+        },
+        {
+          "n": 3,
+          "t": "nombril-de-toi-f coupe-de le-rondeur, ne diminue le-liqueur ; ventre-de-toi-f tas-de blés, clôturée dans-les-lis."
+        },
+        {
+          "n": 4,
+          "t": "deux-de seins-de-toi-f comme-deux-de faons jumeaux-de gazelle."
+        },
+        {
+          "n": 5,
+          "t": "cou-de-toi-f comme-tour-de la-dent ; yeux-de-toi-f étangs dans-Heshbon sur porte-de Bata Rabiym, nez-de-toi-f comme-tour-de le-Liban, regardant faces-de Damas."
+        },
+        {
+          "n": 6,
+          "t": "tête-de-toi-f sur-toi-f comme-le-Carmel, et-gbqia-de tête-de-toi-f comme-le-rouge-pourpre ; roi lié dans-les-locks."
+        },
+        {
+          "n": 7,
+          "t": "quoi tu-f-as-gdvzé et-quoi tu-f-as-ggtxé, gfder dans-les-exquis."
+        },
+        {
+          "n": 8,
+          "t": "celle-ci gjgy-de-toi-f a-ressemblé à/pour-palm, et-seins-de-toi-f à/pour-grappes."
+        },
+        {
+          "n": 9,
+          "t": "je-ai-dit je-monte dans-palm, je-gjje dans-tiges-de-lui ; et-ils-soient donc seins-de-toi-f comme-grappes-de la-vigne, et-odeur-de nez-de-toi-f comme-les-pommes."
+        },
+        {
+          "n": 10,
+          "t": "et-goûter-de-toi-f, comme-vin-de le-bon marchant à/pour-bien-aimé-de-moi à/pour-droitures ; glissant lèvres-de dormirs."
+        },
+        {
+          "n": 11,
+          "t": "je à/pour-bien-aimé-de-moi, et-sur-moi convoitise-de-lui."
+        },
+        {
+          "n": 12,
+          "t": "va-hé bien-aimé-de-moi nous-sortissons le-champ, nous-logeons dans-les-villages."
+        },
+        {
+          "n": 13,
+          "t": "nous-faisons-gkruer à/pour-les-vignobles, nous-voyons si la-vigne a-fleuri a-gitaaé le-blossom, ont-fait-ggojber les-grenades ; là je-donnerai bien-aimés-de-moi à/pour-toi-f."
+        },
+        {
+          "n": 14,
+          "t": "les-mandragores ont-donné odeur et-sur entrées-de-nous tout-de excellences, nouveaux aussi Haychana ; bien-aimé-de-moi je-ai-caché à/pour-toi-f."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "lequel il-donnera-toi comme-frère à/pour-moi, allaitant seins-de mère-de-moi ; je-trouverai-toi dans-le-dehors je-embrasserai-toi, aussi non ils-gaizeront à/pour-moi."
+        },
+        {
+          "n": 2,
+          "t": "je-menerai-toi je-ferai-venir-toi vers maison-de mère-de-moi elle-enseignera-moi ; je-ferai-abreuver-toi depuis-vin le-aromate, depuis-pressoir-de grenade-de-moi."
+        },
+        {
+          "n": 3,
+          "t": "gauche-de-lui sous tête-de-moi, et-right-de-lui étreindra-moi."
+        },
+        {
+          "n": 4,
+          "t": "je-ai-fait-jurer vous filles-de Jérusalem ; quoi vous-ferez-éveiller et-quoi vous-éveillerez la-gfder jusqu'à que-elle-plaisira."
+        },
+        {
+          "n": 5,
+          "t": "lequel celle-ci montante depuis le-désert, se-appuyante sur bien-aimé-de-elle ; sous le-pomme je-ai-éveillé-toi, là-vers mère-de-toi a-gchrcé-toi, là-vers a-gchrcé a-engendré-toi."
+        },
+        {
+          "n": 6,
+          "t": "metts-moi comme-le-sceau sur cœur-de-toi comme-le-sceau sur bras-de-toi, car féroce comme-le-mort gfder, dure comme-scheol jalousie ; étincelles-de-elle, étincelles-de, feu flamme Yah."
+        },
+        {
+          "n": 7,
+          "t": "eaux nombreux non vaincront à/pour-éteindre la-gfder, et-fleuves non déborderont-elle ; si homme donnera tout-de richesse-de maison-de-lui dans-la-gfder, gaizer ils-gaizeront à/pour-lui."
+        },
+        {
+          "n": 8,
+          "t": "sœur à/pour-nous jeune, et-seins néant à/pour-elle ; quoi nous-ferons à/pour-sœur-de-nous, dans-le-jour que-il-parlera dans-elle."
+        },
+        {
+          "n": 9,
+          "t": "si mur lui, nous-bâtirons sur-elle campement-de argent ; et-si barrière lui, nous-giwnaerons sur-elle planche-de cèdre."
+        },
+        {
+          "n": 10,
+          "t": "je mur, et-seins-de-moi comme-les-tours ; alors je-ai-été dans-yeux-de-lui comme-faisante-trouver paix."
+        },
+        {
+          "n": 11,
+          "t": "vignoble a-été à/pour-Salomon dans-Baal-hamon Hamon, a-donné le-vignoble à/pour-les-entretenissants ; homme fera-venir dans-fruit-de-lui mille argent."
+        },
+        {
+          "n": 12,
+          "t": "vignoble-de-moi que-à/pour-moi à/pour-faces-de-moi ; le-mille à/pour-toi Salomon, et-cent à/pour-entretenissants fruit-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "la-habitante dans-les-jardins unis faisants-guetter à/pour-voix-de-toi-f fais-écouter-moi."
+        },
+        {
+          "n": 14,
+          "t": "atteinds bien-aimé-de-moi et-ressemble à/pour-toi à/pour-gloire ou à/pour-faon-de les-cerfs, sur monts-de parfums."
+        }
+      ]
+    }
+  ]
+}

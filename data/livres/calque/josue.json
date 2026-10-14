@@ -1,0 +1,2774 @@
+{
+  "id": "josue",
+  "title": "Livre de Josué",
+  "original_title": "Josué",
+  "short": "Jos",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "mort-de Moïse et-a-été après serviteur-de YHWH ; YHWH et-a-dit vers Josué fils-de Nun, administrant-de Moïse à/pour-dire."
+        },
+        {
+          "n": 2,
+          "t": "Moïse serviteur-de-moi est-mort ; et-maintenant leve passe le-Jourdain le-celui-ci tu et-tout-de le-peuple le-celui-ci, vers la-terre, qui moi donnant à/pour-eux à/pour-fils-de Israël."
+        },
+        {
+          "n": 3,
+          "t": "tout-de lieu qui palme-de pied-de-vous marchera dans-lui à/pour-vous je-ai-donné-lui ; comme-lorsque je-ai-parlé vers Moïse."
+        },
+        {
+          "n": 4,
+          "t": "depuis-le-désert et-le-Liban le-celui-ci et-jusqu'à le-fleuve le-grand fleuve-de Euphrate tout-de terre-de les-Hittite, et-jusqu'à le-mer le-grand entrer-de le-soleil ; frontière-de-vous sera."
+        },
+        {
+          "n": 5,
+          "t": "non homme fixera à/pour-faces-de-toi, tout-de jours-de vies-de-toi ; comme-lorsque je-ai-été avec Moïse je-serai avec-toi-f, non je-ferai-baisser-toi et-non je-abandonnerai-toi."
+        },
+        {
+          "n": 6,
+          "t": "fortifie et-guge ; car tu feras-hériter le-peuple le-celui-ci, la-terre, qui je-ai-été-juré à/pour-pères-de-eux à/pour-donner à/pour-eux."
+        },
+        {
+          "n": 7,
+          "t": "seulement fortifie et-guge très à/pour-garder à/pour-faire comme-tout-de la-instruction qui Moïse a-commandé-toi serviteur-de-moi, ne tu-détournes depuis-nous right et-gauche ; égard tu-feras-comprendre, dans-tout qui tu-iras."
+        },
+        {
+          "n": 8,
+          "t": "non livre-de la-instruction enlevera le-celui-ci depuis-bouche-de-toi et-tu-as-médité dans-lui journellement et-nuit, égard tu-garderas à/pour-faire, comme-tout-de le-écrit dans-lui ; car alors tu-feras-prosper chemins-de-toi et-alors tu-feras-comprendre."
+        },
+        {
+          "n": 9,
+          "t": "est-ce-non je-ai-commandé-toi fortifie et-guge, ne tu-redoutes et-ne tu-sois-gdfeé ; car avec-toi YHWH dieu-de-toi, dans-tout qui tu-iras."
+        },
+        {
+          "n": 10,
+          "t": "Josué et-a-commandé, fonctionnaires-de le-peuple à/pour-dire."
+        },
+        {
+          "n": 11,
+          "t": "passez dans-parmi-de le-camp et-commandez le-peuple à/pour-dire, faites-affermir à/pour-vous provision ; car dans-encore trois-de jours vous passants le-Jourdain le-celui-ci, à/pour-venir à/pour-déposséder la-terre, qui YHWH dieu-de-vous, donnant à/pour-vous à/pour-déposséder-de-elle."
+        },
+        {
+          "n": 12,
+          "t": "et-à/pour-le-Reubenite et-à/pour-le-Hagadiy, et-à/pour-moitié-de verge-de le-Manassé ; Josué a-dit à/pour-dire."
+        },
+        {
+          "n": 13,
+          "t": "rappeler le-parole, qui a-commandé vous Moïse serviteur-de YHWH à/pour-dire ; YHWH dieu-de-vous faisant-ggnuer à/pour-vous, et-a-donné à/pour-vous la-terre la-celle-ci."
+        },
+        {
+          "n": 14,
+          "t": "femmes-de-vous enfant-de-vous et-bétails-de-vous habiteront, dans-la-terre, qui Moïse a-donné à/pour-vous dans-delà-de le-Jourdain ; et-vous passerez gctwés à/pour-faces-de frères-de-vous tout-de puissants-de le-compétence, et-avez-aidé eux."
+        },
+        {
+          "n": 15,
+          "t": "jusqu'à qui YHWH fera-ggnuer à/pour-frères-de-vous comme-vous et-ont-dépossédé aussi eux, la-terre, qui YHWH dieu-de-vous donnant à/pour-eux ; et-vous-êtes-retourné à/pour-terre-de possession-de-vous et-vous-avez-dépossédé elle, qui Moïse a-donné à/pour-vous serviteur-de YHWH, dans-delà-de le-Jourdain east-de le-soleil."
+        },
+        {
+          "n": 16,
+          "t": "et-ils-ont-répondu, Josué à/pour-dire ; tout qui tu-as-commandé-nous nous-ferons, et-vers tout-de qui tu-envoyeras-nous nous-irons."
+        },
+        {
+          "n": 17,
+          "t": "comme-tout qui nous-avons-écouté vers Moïse, ainsi nous-écouterons vers-toi ; seulement YHWH sera dieu-de-toi avec-toi-f, comme-lorsque a-été avec Moïse."
+        },
+        {
+          "n": 18,
+          "t": "tout-de homme qui fera-ggazer bouche-de-toi et-non écoutera paroles-de-toi à/pour-tout qui tu-commanderas-lui sera-fait-mourir ; seulement fortifie et-guge."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Josué et-a-envoyé fils-de Nun depuis le-Shittim deux hommes explorants secrètement à/pour-dire, allez voyez la-terre et-Jéricho ; et-ils-sont-allé et-ils-sont-venu maison-de femme gcewante et-nom-de-elle Rahab et-ils-ont-menti là-vers."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-été-dit, à/pour-roi-de Jéricho à/pour-dire ; voici hommes sont-venu ici le-nuit depuis-fils-de Israël à/pour-creuser la-terre."
+        },
+        {
+          "n": 3,
+          "t": "roi-de Jéricho et-a-envoyé, vers Rahab à/pour-dire ; fais-sortir les-hommes les-venants vers-toi-f qui sont-venu à/pour-maison-de-toi-f, car à/pour-creuser tout-de la-terre sont-venu."
+        },
+        {
+          "n": 4,
+          "t": "la-femme et-a-pris deux-de les-hommes et-a-caché-lui ; et-elle-a-dit droite les-hommes, sont-venu vers-moi et-non je-ai-su depuis-gnf eux."
+        },
+        {
+          "n": 5,
+          "t": "le-porte et-a-été à/pour-fermer dans-le-ténèbre et-les-hommes sont-sorti, non je-ai-su, where les-hommes ont-marché ; poursuivez gfbjber après-eux car vous-ferez-rattraper-eux."
+        },
+        {
+          "n": 6,
+          "t": "et-lui a-fait-monter-eux le-toit-vers ; et-elle-a-dissimulé-eux dans-toiles-de le-arbre, les-arrangées à/pour-elle sur le-toit."
+        },
+        {
+          "n": 7,
+          "t": "et-les-hommes ont-poursuivu après-eux chemin-de le-Jourdain, sur les-gfssbs ; et-le-porte ils-ont-fermé, après, comme-lorsque ils-sont-sorti les-poursuivants après-eux."
+        },
+        {
+          "n": 8,
+          "t": "et-eux avant mentiront ; et-lui est-monté sur-eux sur le-toit."
+        },
+        {
+          "n": 9,
+          "t": "et-elle-a-dit vers les-hommes, je-ai-su, car YHWH a-donné à/pour-vous la-terre ; et-car terreur-de-vous est-tombé sur-nous, et-car ils-ont-été-fondu tout-de habitants-de la-terre depuis-faces-de-vous."
+        },
+        {
+          "n": 10,
+          "t": "car nous-avons-écouté qui YHWH a-fait-flétrir eaux-de mer-de roseau depuis-faces-de-vous, dans-sortir-de-vous depuis-Égypte ; et-qui vous-avez-fait à/pour-deux-de rois-de le-Amorite qui dans-delà-de le-Jourdain à/pour-Sihon et-à/pour-Og, qui vous-avez-fait-dévouer eux."
+        },
+        {
+          "n": 11,
+          "t": "et-nous-avons-écouté volonté-de-nous et-a-été-dissoudu, et-non est-levé encore esprit dans-homme depuis-faces-de-vous ; car YHWH dieu-de-vous, lui dieu dans-les-ciels depuis-dessus, et-sur la-terre sous."
+        },
+        {
+          "n": 12,
+          "t": "et-maintenant soyez-juré donc à/pour-moi dans-YHWH, car je-ai-fait avec-vous faveur ; et-avez-fait aussi vous avec maison-de père-de-moi faveur, et-avez-donné à/pour-moi signe-de vérité."
+        },
+        {
+          "n": 13,
+          "t": "et-vous-avez-fait-guérir père-de-moi et-mère-de-moi et-frères-de-moi et-sœur-de-moi sœurs-de-moi, et-tout-de qui à/pour-eux ; et-vous-avez-fait-délivrer âmes-de-nous depuis-mort."
+        },
+        {
+          "n": 14,
+          "t": "les-hommes et-ont-dit à/pour-elle âme-de-nous sous-vous à/pour-mourir, si non vous-ferez-annoncer, parole-de-nous celui-ci ; et-a-été dans-donner YHWH à/pour-nous la-terre, et-nous-avons-fait avec-toi-f faveur et-vérité."
+        },
+        {
+          "n": 15,
+          "t": "le-window ; et-a-fait-descendre-eux dans-le-mahalab derrière car maison-de-elle dans-wall-de la-mur, et-dans-la-mur lui habitante."
+        },
+        {
+          "n": 16,
+          "t": "et-elle-a-dit à/pour-eux le-mont-vers allez, sinon ils-rencontreront dans-vous les-poursuivants ; et-vous-avez-été-gchké là-vers trois-de jours jusqu'à retourner les-poursuivants, et-après vous-alliez à/pour-chemin-de-vous."
+        },
+        {
+          "n": 17,
+          "t": "les-hommes ; et-ont-dit vers-elle innocents nous, depuis-serment-de-toi-f le-celui-ci qui tu-f-as-fait-jurer-nous."
+        },
+        {
+          "n": 18,
+          "t": "voici nous venants dans-la-terre ; corde-de thread-de le-cramoisi le-celui-ci tu-f-conspireras dans-le-window qui tu-f-as-fait-descendre-nous dans-lui, et-père-de-toi-f et-mère-de-toi-f et-frères-de-toi-f et-tout-de maison-de père-de-toi-f, tu-f-recueilliras vers-toi-f le-maison-vers."
+        },
+        {
+          "n": 19,
+          "t": "tout et-a-été qui sortira depuis-barrières-de maison-de-toi-f le-dehors-vers sang-de-lui dans-tête-de-lui et-nous innocents ; et-tout qui sera ensemble-toi-f dans-le-maison, sang-de-lui dans-tête-de-nous, si main sera dans-lui."
+        },
+        {
+          "n": 20,
+          "t": "et-si tu-f-feras-annoncer parole-de-nous celui-ci ; et-nous-avons-été innocents, depuis-serment-de-toi-f qui tu-f-as-fait-jurer-nous."
+        },
+        {
+          "n": 21,
+          "t": "et-elle-a-dit comme-paroles-de-vous ainsi lui, et-elle-a-envoyé-eux et-ils-sont-allé ; et-elle-a-conspiré corde-de le-cramoisi dans-le-window."
+        },
+        {
+          "n": 22,
+          "t": "et-sont-allé et-sont-venu le-mont-vers, et-ont-habité là trois-de jours, jusqu'à sont-retourné les-poursuivants ; et-ils-ont-cherché les-poursuivants dans-tout-de le-chemin et-non ils-ont-trouvé."
+        },
+        {
+          "n": 23,
+          "t": "et-sont-retourné deux-de les-hommes et-sont-descendu depuis-le-mont, et-ont-passé et-sont-venu, vers Josué fils-de Nun ; et-ils-ont-compté à/pour-lui, tout-de les-trouvantes eux."
+        },
+        {
+          "n": 24,
+          "t": "et-ils-ont-dit vers Josué, car a-donné YHWH dans-main-de-nous tout-de la-terre ; et-aussi ils-ont-été-fondu tout-de habitants-de la-terre depuis-faces-de-nous."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Josué et-a-fait-gkruer dans-le-matin et-ils-ont-retiré depuis-le-Shittim et-ils-sont-venu jusqu'à le-Jourdain, lui et-tout-de fils-de Israël ; et-ils-ont-logé là avant ils-passeront."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-été, depuis-bout-de trois-de jours ; les-fonctionnaires et-ont-passé dans-parmi-de le-camp."
+        },
+        {
+          "n": 3,
+          "t": "et-ont-commandé le-peuple à/pour-dire comme-voir-de-vous arche-de alliance-de YHWH dieu-de-vous, et-les-sacrificateurs les-Haleviy, portants lui ; et-vous retirerez depuis-lieu-de-vous, et-avez-marché après-lui."
+        },
+        {
+          "n": 4,
+          "t": "sûrement lointain il-sera entre-vous et-entre-lui, comme-mille coudée dans-la-mesurer ; ne vous-present vers-lui égard qui vous-saurez le-chemin qui vous-irez dans-elle, car non vous-avez-passé dans-le-chemin depuis-auparavant three."
+        },
+        {
+          "n": 5,
+          "t": "Josué et-a-dit vers le-peuple sanctifiez ; car demain fera YHWH dans-parmi-de-vous extraordinaiues."
+        },
+        {
+          "n": 6,
+          "t": "Josué et-a-dit vers les-sacrificateurs à/pour-dire, portez arche-de la-alliance, et-passez à/pour-faces-de le-peuple ; et-ils-ont-porté arche-de la-alliance, et-ils-sont-allé à/pour-faces-de le-peuple."
+        },
+        {
+          "n": 7,
+          "t": "YHWH et-a-dit vers Josué, le-jour le-celui-ci je-ferai-commencer croître-de-toi, dans-yeux-de tout-de Israël ; qui ils-sauront, car comme-lorsque je-ai-été avec Moïse je-serai avec-toi-f."
+        },
+        {
+          "n": 8,
+          "t": "et-tu commanderas les-sacrificateurs, portants-de arche-de la-alliance à/pour-dire ; comme-venir-de-vous jusqu'à bout-de eaux-de le-Jourdain, dans-le-Jourdain vous-resterez."
+        },
+        {
+          "n": 9,
+          "t": "Josué et-a-dit vers fils-de Israël ; approchez ici, et-écoutez, paroles-de YHWH dieu-de-vous."
+        },
+        {
+          "n": 10,
+          "t": "Josué et-a-dit, dans-celle-ci vous-saurez, car El vivant dans-parmi-de-vous ; et-faire-déposséder fera-déposséder depuis-faces-de-vous le-Canaanite et-le-Hittite et-le-Hivite et-le-Perizzite et-le-Girgashite, et-le-Amorite et-le-Jebusite."
+        },
+        {
+          "n": 11,
+          "t": "voici arche-de la-alliance, seigneur-de tout-de la-terre ; passant à/pour-faces-de-vous dans-le-Jourdain."
+        },
+        {
+          "n": 12,
+          "t": "et-maintenant prenez à/pour-vous deux-de dix homme, depuis-verges-de Israël ; homme un homme un à/pour-le-verge."
+        },
+        {
+          "n": 13,
+          "t": "et-a-été comme-ggnuer palmes-de pieds-de les-sacrificateurs portants-de arche-de YHWH seigneur-de tout-de la-terre dans-eaux-de le-Jourdain, eaux-de le-Jourdain seront-coupés, les-eaux les-descendants depuis-dessus-vers ; et-ils-resteront heap un."
+        },
+        {
+          "n": 14,
+          "t": "et-a-été dans-retirer le-peuple depuis-tentes-de-eux, à/pour-passer le-Jourdain ; et-les-sacrificateurs portants-de la-arche la-alliance à/pour-faces-de le-peuple."
+        },
+        {
+          "n": 15,
+          "t": "et-comme-venir portants-de la-arche jusqu'à le-Jourdain, et-pieds-de les-sacrificateurs portants-de la-arche, ils-ont-été-trempé dans-bout-de les-eaux ; et-le-Jourdain a-rempli sur tout-de banks-de-lui, tout-de jours-de moisson."
+        },
+        {
+          "n": 16,
+          "t": "les-eaux les-descendants et-ont-resté depuis-dessus-vers sont-levé heap un faire-éloigner très dans-le-Adam depuis-Adam la-ville qui depuis-side-de Zarethan, et-les-descendants sur mer-de la-plaine mer-de le-sel ont-fini ont-été-coupé ; et-le-peuple ils-ont-passé devant Jéricho."
+        },
+        {
+          "n": 17,
+          "t": "les-sacrificateurs portants-de et-ont-resté la-arche alliance-de YHWH dans-la-sécher dans-milieu-de le-Jourdain faire-affermir ; et-tout-de Israël passants dans-la-sécher, jusqu'à qui ils-ont-fini tout-de le-nation, à/pour-passer le-Jourdain."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été comme-lorsque ils-ont-fini tout-de le-nation, à/pour-passer le-Jourdain ; YHWH et-a-dit, vers Josué à/pour-dire."
+        },
+        {
+          "n": 2,
+          "t": "prenez à/pour-vous depuis le-peuple, deux dix hommes ; homme un homme un depuis-verge."
+        },
+        {
+          "n": 3,
+          "t": "et-commandez eux à/pour-dire portez à/pour-vous depuis-celui-ci depuis-milieu-de le-Jourdain depuis-station-de pieds-de les-sacrificateurs, faire-affermir deux dix pierres ; et-vous-avez-fait-passer eux avec-vous, et-vous-avez-fait-reposer eux, dans-le-auberge, qui vous-logerez dans-lui le-nuit."
+        },
+        {
+          "n": 4,
+          "t": "Josué et-a-appelé vers deux le-dix homme, qui a-fait-affermir depuis-fils-de Israël ; homme un homme un depuis-verge."
+        },
+        {
+          "n": 5,
+          "t": "Josué, et-a-dit à/pour-eux passez à/pour-faces-de arche-de YHWH dieu-de-vous vers milieu-de le-Jourdain ; et-faites-élever à/pour-vous homme pierre une sur shoulder-de-lui, à/pour-nombre-de verges-de fils-de Israël."
+        },
+        {
+          "n": 6,
+          "t": "égard sera celle-ci signe dans-parmi-de-vous ; car fils-de-vous demanderont demain à/pour-dire, quoi les-pierres les-ces à/pour-vous."
+        },
+        {
+          "n": 7,
+          "t": "et-vous-avez-dit à/pour-eux qui eaux-de le-Jourdain ont-été-coupé depuis-faces-de arche-de alliance-de YHWH, dans-passer-de-lui dans-le-Jourdain, ont-été-coupé eaux-de le-Jourdain ; les-pierres et-ont-été les-ces à/pour-souvenir à/pour-fils-de Israël jusqu'à durée."
+        },
+        {
+          "n": 8,
+          "t": "fils-de Israël et-ont-fait ainsi comme-lorsque a-commandé Josué et-ont-porté deux-de dix pierres depuis-milieu-de le-Jourdain comme-lorsque YHWH a-parlé vers Josué, à/pour-nombre-de verges-de fils-de Israël ; et-ils-ont-fait-passer-eux avec-eux vers le-auberge, et-ils-ont-fait-reposer-eux là."
+        },
+        {
+          "n": 9,
+          "t": "et-deux dix Josué a-fait-lever pierres dans-milieu-de le-Jourdain sous station-de pieds-de les-sacrificateurs, portants-de arche-de la-alliance ; et-ils-ont-été là, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 10,
+          "t": "et-les-sacrificateurs portants-de la-arche restants dans-milieu-de le-Jourdain jusqu'à finir tout-de le-parole qui a-commandé YHWH Josué à/pour-parler vers le-peuple, comme-tout qui a-commandé Moïse Josué ; et-ils-ont-hâté le-peuple et-ils-ont-passé."
+        },
+        {
+          "n": 11,
+          "t": "et-a-été comme-lorsque tout-de le-peuple a-fini à/pour-passer ; arche-de YHWH et-a-passé et-les-sacrificateurs à/pour-faces-de le-peuple."
+        },
+        {
+          "n": 12,
+          "t": "fils-de Ruben et-ont-passé et-fils-de Gad et-moitié-de verge-de le-Manassé gctwés, à/pour-faces-de fils-de Israël ; comme-lorsque Moïse a-parlé vers-eux."
+        },
+        {
+          "n": 13,
+          "t": "comme-quarante mille armés-de la-armée ; ont-passé à/pour-faces-de YHWH à/pour-la-guerre, vers plaines-de Jéricho."
+        },
+        {
+          "n": 14,
+          "t": "dans-le-jour le-lui a-crû YHWH Josué, dans-yeux-de tout-de Israël ; et-ils-ont-craint lui, comme-lorsque ils-ont-craint Moïse tout-de jours-de vies-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "YHWH et-a-dit, vers Josué à/pour-dire."
+        },
+        {
+          "n": 16,
+          "t": "commande les-sacrificateurs, portants-de arche-de la-témoignage ; et-ils-monteront depuis le-Jourdain."
+        },
+        {
+          "n": 17,
+          "t": "Josué et-a-commandé, les-sacrificateurs à/pour-dire ; montez depuis le-Jourdain."
+        },
+        {
+          "n": 18,
+          "t": "et-a-été dans-monter comme-monter les-sacrificateurs portants-de arche-de alliance-de YHWH depuis-milieu-de le-Jourdain, ont-été-extraiu palmes-de pieds-de les-sacrificateurs, vers la-sécher ; eaux-de le-Jourdain et-sont-retourné à/pour-lieu-de-eux, et-sont-allé comme-auparavant three sur tout-de banks-de-lui."
+        },
+        {
+          "n": 19,
+          "t": "et-le-peuple ils-sont-monté depuis le-Jourdain, dans-le-décade à/pour-le-mois le-premier ; et-ils-ont-campé dans-le-Gilgal, dans-bout-de east-de Jéricho."
+        },
+        {
+          "n": 20,
+          "t": "et-deux dix les-pierres les-ces, qui ont-pris depuis le-Jourdain ; Josué a-fait-lever dans-le-Gilgal."
+        },
+        {
+          "n": 21,
+          "t": "et-il-a-dit vers fils-de Israël à/pour-dire ; qui fils-de-vous demanderont demain pères-de-eux à/pour-dire, quoi les-pierres les-ces."
+        },
+        {
+          "n": 22,
+          "t": "et-vous-avez-fait-savoir fils-de-vous à/pour-dire ; dans-la-sèche Israël a-passé, le-Jourdain le-celui-ci."
+        },
+        {
+          "n": 23,
+          "t": "qui YHWH a-fait-flétrir dieu-de-vous eaux-de le-Jourdain depuis-faces-de-vous jusqu'à passer-de-vous ; comme-lorsque YHWH a-fait dieu-de-vous à/pour-mer-de roseau qui a-fait-flétrir depuis-faces-de-nous jusqu'à passer-de-nous."
+        },
+        {
+          "n": 24,
+          "t": "égard savoir tout-de peuples-de la-terre main-de YHWH, car forte lui ; égard vous-avez-craint YHWH dieu-de-vous tout-de les-jours."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été comme-écouter tout-de rois-de le-Amorite qui dans-delà-de le-Jourdain mer-vers et-tout-de rois-de le-Canaanite qui sur le-mer, qui a-fait-flétrir YHWH eaux-de le-Jourdain depuis-faces-de fils-de Israël jusqu'à passer-de-nous passer-de-eux ; volonté-de-eux et-a-été-dissoudu et-non a-été dans-eux encore esprit, depuis-faces-de fils-de Israël."
+        },
+        {
+          "n": 2,
+          "t": "dans-la-heure la-lui YHWH a-dit vers Josué, fais à/pour-toi épées-de rochers ; et-retourne gfcabe fils-de Israël seconde."
+        },
+        {
+          "n": 3,
+          "t": "Josué et-a-fait à/pour-lui épées-de rochers ; et-il-a-circonciu fils-de Israël, vers Gibata-de les-prépuces."
+        },
+        {
+          "n": 4,
+          "t": "et-celui-ci le-parole qui a-circonciu Josué ; tout-de le-peuple le-sortissant depuis-Égypte les-mâles tout-de hommes-de la-guerre sont-mort dans-le-désert dans-le-chemin, dans-sortir-de-eux depuis-Égypte."
+        },
+        {
+          "n": 5,
+          "t": "car circoncius ils-ont-été, tout-de le-peuple les-sortissants ; et-tout-de le-peuple les-nés dans-le-désert dans-le-chemin dans-sortir-de-eux depuis-Égypte non ils-ont-circonciu."
+        },
+        {
+          "n": 6,
+          "t": "car quarante année fils-de Israël ont-marché dans-le-désert jusqu'à finir tout-de le-nation hommes-de la-guerre les-sortissants depuis-Égypte, qui non ont-écouté dans-voix-de YHWH ; qui YHWH a-été-juré à/pour-eux, à/pour-sans faire-voir-de-eux la-terre qui a-été-juré YHWH à/pour-pères-de-eux à/pour-donner à/pour-nous, terre coulante-de lait et-miel."
+        },
+        {
+          "n": 7,
+          "t": "et-fils-de-eux a-fait-lever sous-eux, eux Josué a-circonciu ; car incirconcis ils-ont-été, car non ils-ont-circonciu eux dans-le-chemin."
+        },
+        {
+          "n": 8,
+          "t": "et-a-été comme-lorsque ils-ont-fini tout-de le-nation à/pour-être-circoncire ; et-ils-ont-habité sous-eux dans-le-camp jusqu'à guérir-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "YHWH et-a-dit vers Josué, le-jour je-ai-roulé opprobre-de Égypte sur-vous ; nom-de le-lieu le-lui Gilgal et-a-appelé, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 10,
+          "t": "fils-de Israël et-ont-campé dans-le-Gilgal ; et-ils-ont-fait le-pâque dans-quatre dix jour à/pour-le-mois dans-le-soir dans-plaines-de Jéricho."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-ont-mangé depuis-fournir-de la-terre depuis-morrow-de le-pâque unleaveneds et-rôti ; dans-os-de le-jour le-celui-ci."
+        },
+        {
+          "n": 12,
+          "t": "le-manne et-a-cessé depuis-morrow dans-manger-de-eux depuis-fournir-de la-terre, et-non a-été encore à/pour-fils-de Israël manne ; et-ils-ont-mangé depuis-produire-de terre-de Canaan, dans-la-année la-lui."
+        },
+        {
+          "n": 13,
+          "t": "et-a-été dans-être Josué dans-Jéricho et-a-porté yeux-de-lui et-a-vu, et-voici homme restant devant-lui, et-épée-de-lui tirée dans-main-de-lui ; Josué et-est-allé vers-lui et-a-dit à/pour-lui, est-ce-à/pour-nous tu si à/pour-étroits-de-nous."
+        },
+        {
+          "n": 14,
+          "t": "et-a-dit non car je prince-de armée-de YHWH maintenant suis-venu ; Josué et-est-tombé vers faces-de-lui terre-vers et-a-se-courbé, et-a-dit à/pour-lui, quoi seigneur-de-moi parlant vers serviteur-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "prince-de armée-de YHWH et-a-dit vers Josué chasse sandale-de-toi sur pied-de-toi, car le-lieu qui tu restant sur-lui sainteté lui ; Josué et-a-fait ainsi."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-Jéricho fermante et-fermée, depuis-faces-de fils-de Israël ; néant sortissant et-néant venant."
+        },
+        {
+          "n": 2,
+          "t": "YHWH et-a-dit vers Josué, vois je-ai-donné dans-main-de-toi, Jéricho et-roi-de-elle ; puissants-de le-compétence."
+        },
+        {
+          "n": 3,
+          "t": "et-vous-avez-tourné la-ville tout-de hommes-de la-guerre, faire-ggxfber la-ville fois-de une ; thus tu-feras six-de jours."
+        },
+        {
+          "n": 4,
+          "t": "et-sept sacrificateurs porteront sept trumpets-de les-trompettes à/pour-faces-de la-arche, et-dans-le-jour le-septième, vous-tournerez la-ville sept fois ; et-les-sacrificateurs, sonneront dans-les-trumpets."
+        },
+        {
+          "n": 5,
+          "t": "et-a-été dans-traîner dans-corne-de le-trompette dans-écouter-de-vous comme-écouter-de-vous voix-de le-trumpet, ils-feront-crier tout-de le-peuple cri grande ; mur-de la-ville et-est-tombé sous-elle, et-ils-sont-monté le-peuple homme devant-lui."
+        },
+        {
+          "n": 6,
+          "t": "Josué et-a-appelé fils-de Nun vers les-sacrificateurs, et-a-dit vers-eux, portez arche-de la-alliance ; et-sept sacrificateurs porteront sept trumpets-de trompettes, à/pour-faces-de arche-de YHWH."
+        },
+        {
+          "n": 7,
+          "t": "le-peuple, et-ont-dit et-a-dit vers passez et-tournez la-ville ; et-le-armé, il-passera, à/pour-faces-de arche-de YHWH."
+        },
+        {
+          "n": 8,
+          "t": "et-a-été comme-dire Josué vers le-peuple et-sept les-sacrificateurs portants sept trumpets-de les-trompettes à/pour-faces-de YHWH, ont-passé, et-ont-sonné dans-les-trumpets ; et-arche-de alliance-de YHWH, marchant après-eux."
+        },
+        {
+          "n": 9,
+          "t": "et-le-armé marchant, à/pour-faces-de les-sacrificateurs, ils-ont-sonné sonnants-de les-trumpets ; et-le-recueillissant marchant après la-arche, marcher et-sonner dans-les-trumpets."
+        },
+        {
+          "n": 10,
+          "t": "et-le-peuple Josué a-commandé à/pour-dire non vous-ferez-crier et-non vous-ferez-écouter voix-de-vous, et-non parole ; sortira depuis-bouche-de-vous jusqu'à jour dire-de-moi vers-vous faites-crier et-vous-avez-fait-crier."
+        },
+        {
+          "n": 11,
+          "t": "arche-de YHWH et-a-fait-tourner la-ville, faire-ggxfber fois-de une ; et-ils-sont-venu le-camp, et-ils-ont-logé dans-le-camp."
+        },
+        {
+          "n": 12,
+          "t": "Josué et-a-fait-gkruer dans-le-matin ; les-sacrificateurs et-ont-porté arche-de YHWH."
+        },
+        {
+          "n": 13,
+          "t": "et-sept les-sacrificateurs portants sept trumpets-de les-trompettes à/pour-faces-de arche-de YHWH, marchants marcher, et-ont-sonné dans-les-trumpets ; et-le-armé marchant à/pour-faces-de-eux, et-le-recueillissant marchant après arche-de YHWH, marchant marcher et-sonner dans-les-trumpets."
+        },
+        {
+          "n": 14,
+          "t": "et-ils-ont-tourné la-ville dans-le-jour le-second fois-de une, et-ils-sont-retourné le-camp ; thus ont-fait six-de jours."
+        },
+        {
+          "n": 15,
+          "t": "et-a-été dans-le-jour le-septième et-ils-ont-fait-gkruer comme-monter le-aube, et-ils-ont-tourné la-ville comme-le-jugement le-celui-ci sept fois ; seulement dans-le-jour le-lui, ont-tourné la-ville sept fois."
+        },
+        {
+          "n": 16,
+          "t": "et-il-a-été dans-la-fois la-septième, les-sacrificateurs ont-sonné dans-les-trumpets ; Josué et-a-dit vers le-peuple faites-crier, car a-donné YHWH à/pour-vous la-ville."
+        },
+        {
+          "n": 17,
+          "t": "la-ville et-a-été ban lui et-tout-de qui dans-elle à/pour-YHWH ; seulement Rahab la-gcewante lui guérira et-tout-de qui ensemble-elle dans-le-maison, car a-fait-cacher, les-messagers qui nous-avons-envoyé."
+        },
+        {
+          "n": 18,
+          "t": "et-seulement vous gardez depuis le-ban, sinon ferez-dévouer et-avez-pris depuis le-ban ; et-vous-avez-mis camp-de Israël à/pour-ban, et-vous-avez-troublé lui."
+        },
+        {
+          "n": 19,
+          "t": "et-tout-de argent et-or et-ustensiles-de cuivre et-fer, sainteté lui à/pour-YHWH ; trésor-de YHWH viendra."
+        },
+        {
+          "n": 20,
+          "t": "le-peuple et-a-fait-crier, et-ils-ont-sonné dans-les-trumpets ; et-a-été comme-écouter le-peuple voix-de le-trumpet et-ils-ont-fait-crier le-peuple cri grande, et-est-tombé la-mur sous-elle et-est-monté le-peuple la-ville-vers homme devant-lui, et-ils-ont-capturé la-ville."
+        },
+        {
+          "n": 21,
+          "t": "et-ils-ont-fait-dévouer tout-de qui dans-la-ville, depuis-homme et-jusqu'à femme, depuis-youth et-jusqu'à vieux ; et-jusqu'à bœuf et-mouton et-âne à/pour-bouche-de épée."
+        },
+        {
+          "n": 22,
+          "t": "et-à/pour-deux les-hommes les-explorants la-terre Josué a-dit, venez maison-de la-femme la-gcewante ; et-faites-sortir depuis-là la-femme et-tout-de lorsque à/pour-elle, comme-lorsque vous-avez-été-juré à/pour-elle."
+        },
+        {
+          "n": 23,
+          "t": "les-youths les-explorants et-sont-venu et-ont-fait-sortir Rahab et-père-de-elle et-mère-de-elle et-frères-de-elle et-tout-de qui à/pour-elle, et-tout-de familles-de-elle ont-fait-sortir ; et-ils-ont-fait-reposer-eux, depuis-dehors à/pour-camp-de Israël."
+        },
+        {
+          "n": 24,
+          "t": "et-la-ville ils-ont-brûlé dans-le-feu et-tout-de qui dans-elle ; seulement le-argent et-le-or et-ustensiles-de la-cuivre et-le-fer, ont-donné trésor-de maison-de YHWH."
+        },
+        {
+          "n": 25,
+          "t": "et-Rahab la-gcewante et-maison-de père-de-elle et-tout-de qui à/pour-elle Josué a-fait-guérir, et-elle-a-habité dans-parmi-de Israël, jusqu'à le-jour le-celui-ci ; car elle-a-fait-cacher les-messagers, qui Josué a-envoyé à/pour-explorer Jéricho."
+        },
+        {
+          "n": 26,
+          "t": "Josué et-a-fait-jurer, dans-la-heure la-lui à/pour-dire ; maudit le-homme à/pour-faces-de YHWH qui levera et-a-bâti la-ville la-celle-ci Jéricho, dans-premier-né-de-lui fondera-elle, et-dans-insignifiant-de-lui fera-établir barrières-de-elle."
+        },
+        {
+          "n": 27,
+          "t": "YHWH et-a-été ensemble Josué ; renommée-de-lui et-a-été dans-tout-de la-terre."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "fils-de Israël et-ont-trahi trahison dans-le-ban ; Achan et-a-pris fils-de Carmi fils-de Zabdi fils-de Zerah à/pour-tribu-de Juda depuis le-ban, et-a-embrasé nez YHWH dans-fils-de Israël."
+        },
+        {
+          "n": 2,
+          "t": "Josué et-a-envoyé hommes depuis-Jéricho le-Ai qui avec Beth-aven Aven depuis-orient à/pour-Lebeyt Bethel, et-a-dit vers-eux à/pour-dire, montez et-explorez la-terre ; les-hommes et-sont-monté, et-ont-exploré le-Ai."
+        },
+        {
+          "n": 3,
+          "t": "et-ils-sont-retourné vers Josué et-ils-ont-dit vers-lui ne tout-de le-peuple monte comme-mille homme ou comme-trois-de mille homme, ils-montent et-ils-fassent-frapper le-Ai ; ne tu-peines là-vers tout-de le-peuple, car peu eux."
+        },
+        {
+          "n": 4,
+          "t": "et-ils-sont-monté depuis le-peuple là-vers, comme-trois-de mille homme ; et-ils-ont-fui, à/pour-faces-de hommes-de le-Ai."
+        },
+        {
+          "n": 5,
+          "t": "hommes-de le-Ai et-ont-fait-frapper depuis-eux comme-trente et-six homme, et-ont-poursuivu-eux à/pour-faces-de le-porte jusqu'à le-Shebarim, et-ont-fait-frapper-eux dans-le-descente ; volonté-de le-peuple et-a-été-dissoudu et-a-été à/pour-eaux."
+        },
+        {
+          "n": 6,
+          "t": "Josué et-a-déchiré couvertures-de-lui et-est-tombé sur faces-de-lui terre-vers à/pour-faces-de arche-de YHWH jusqu'à le-soir, lui et-vieux-de Israël ; et-ils-ont-fait-monter poussière sur tête-de-eux."
+        },
+        {
+          "n": 7,
+          "t": "Josué et-a-dit alas seigneurs-de-moi Yehvi à/pour-quoi tu-as-fait-passer faire-passer le-peuple le-celui-ci le-Jourdain, à/pour-donner nous dans-main-de le-Amorite à/pour-faire-périr-de-nous ; et-if nous-avons-fait-consentir et-nous-avons-habité, dans-delà-de le-Jourdain."
+        },
+        {
+          "n": 8,
+          "t": "excusez-moi seigneurs-de-moi ; quoi je-dirai, après qui Israël cou a-tourné à/pour-faces-de gmcçants-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "et-ils-écouteront le-Canaanite et-tout-de habitants-de la-terre, et-ils-ont-été-tourné sur-nous, et-ils-ont-fait-couper nom-de-nous depuis la-terre ; et-quoi tu-feras à/pour-nom-de-toi le-grand."
+        },
+        {
+          "n": 10,
+          "t": "YHWH et-a-dit vers Josué leve à/pour-toi-f ; à/pour-quoi celui-ci, tu tombant sur faces-de-toi."
+        },
+        {
+          "n": 11,
+          "t": "Israël a-péché, et-aussi ils-ont-passé alliance-de-moi, qui je-ai-commandé eux ; et-aussi ils-ont-pris depuis le-ban, et-aussi ils-ont-volé et-aussi ils-ont-renié, et-aussi ils-ont-mis dans-ustensiles-de-eux."
+        },
+        {
+          "n": 12,
+          "t": "et-non fils-de Israël vaincront à/pour-lever à/pour-faces-de gmcçants-de-eux, cou tourneront à/pour-faces-de gmcçants-de-eux, car ont-été à/pour-ban ; non je-ferai-ajouter à/pour-être avec-vous, si non vous-ferez-exterminer le-ban depuis-parmi-de-vous."
+        },
+        {
+          "n": 13,
+          "t": "leve sanctifie le-peuple, et-tu-as-dit sanctifiez à/pour-demain ; car thus YHWH a-dit dieu-de Israël ban dans-parmi-de-toi Israël, non tu-vaincras à/pour-lever à/pour-faces-de gmcçants-de-toi, jusqu'à faire-détourner-de-vous le-ban depuis-parmi-de-vous."
+        },
+        {
+          "n": 14,
+          "t": "et-vous-avez-été-present dans-le-matin à/pour-verges-de-vous ; le-verge et-a-été qui capturera-lui YHWH presenta à/pour-les-familles et-la-famille qui capturera-elle YHWH presenta à/pour-les-maisons, et-le-maison qui capturera-lui YHWH, presenta à/pour-les-guerriers."
+        },
+        {
+          "n": 15,
+          "t": "et-il-a-été le-capturé dans-le-ban, il-sera-brûlé dans-le-feu, lui et-tout-de qui à/pour-lui ; car il-a-passé alliance-de YHWH, et-car il-a-fait folie dans-Israël."
+        },
+        {
+          "n": 16,
+          "t": "Josué et-a-fait-gkruer dans-le-matin, et-a-fait-present Israël à/pour-verges-de-lui ; verge-de Juda et-a-été-capturé."
+        },
+        {
+          "n": 17,
+          "t": "et-il-a-fait-present famille-de Juda, et-il-a-capturé, famille-de le-Zerahite ; et-a-fait-present famille-de le-Zerahite à/pour-les-guerriers, Zabdi et-a-été-capturé."
+        },
+        {
+          "n": 18,
+          "t": "et-il-a-fait-present maison-de-lui à/pour-les-guerriers ; Achan et-a-été-capturé fils-de Carmi fils-de Zabdi fils-de Zerah à/pour-tribu-de Juda."
+        },
+        {
+          "n": 19,
+          "t": "Josué et-a-dit vers Achan fils-de-moi metts donc gloire à/pour-YHWH dieu-de Israël et-donne à/pour-lui louange ; et-fais-annoncer donc à/pour-moi quoi tu-as-fait, ne tu-caches depuis-moi."
+        },
+        {
+          "n": 20,
+          "t": "Achan et-a-répondu Josué et-a-dit ; truly moi ai-péché à/pour-YHWH dieu-de Israël, et-comme-celle-ci et-comme-celle-ci ai-fait."
+        },
+        {
+          "n": 21,
+          "t": "et-je-ai-vu dans-le-butin manteau-de Shinar une bone et-cent sicles argent et-langue-de or un cinquante sicles poids-de-lui, et-je-ai-convoité-eux et-je-ai-pris-eux ; et-voici-eux dissimulés dans-la-terre dans-milieu-de le-tente-de-moi et-le-argent sous-elle."
+        },
+        {
+          "n": 22,
+          "t": "Josué et-a-envoyé messagers, et-ont-couru le-tente-vers ; et-voici dissimulée dans-tente-de-lui et-le-argent sous-elle."
+        },
+        {
+          "n": 23,
+          "t": "et-ils-ont-pris-eux depuis-milieu-de le-tente, et-ils-ont-fait-venir-eux vers Josué, et-vers tout-de fils-de Israël ; et-ils-ont-fait-verser-eux à/pour-faces-de YHWH."
+        },
+        {
+          "n": 24,
+          "t": "Josué et-a-pris Achan fils-de Zerah et-le-argent et-la-manteau et-langue-de le-or et-fils-de-lui et-filles-de-lui et-bœuf-de-lui et-âne-de-lui et-troupeau-de-lui et-tente-de-lui et-tout-de qui à/pour-lui, et-tout-de Israël avec-lui ; et-ils-ont-fait-monter eux vallée-de Akhor."
+        },
+        {
+          "n": 25,
+          "t": "Josué et-a-dit quoi tu-as-troublé-nous, YHWH troublera-toi dans-le-jour le-celui-ci ; et-ils-ont-lapidé lui tout-de Israël pierre, et-ils-ont-brûlé eux dans-le-feu, et-ils-ont-lapidé eux dans-les-pierres."
+        },
+        {
+          "n": 26,
+          "t": "et-ils-ont-fait-lever sur-lui source-de pierres grand jusqu'à le-jour le-celui-ci, et-est-retourné YHWH depuis-gdaj-de nez-de-lui ; sur ainsi nom-de le-lieu le-lui a-appelé vallée-de Akhor, jusqu'à le-jour le-celui-ci."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH et-a-dit vers Josué ne tu-craindes et-ne tu-sois-gdfeé, prends avec-toi tout-de peuple-de la-guerre, et-leve monte le-Ai ; vois je-ai-donné dans-main-de-toi roi-de le-Ai et-peuple-de-lui, et-ville-de-lui et-terre-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "et-tu-as-fait à/pour-le-Ai et-à/pour-roi-de-elle comme-lorsque tu-as-fait à/pour-Jéricho et-à/pour-roi-de-elle, seulement butin-de-elle et-bête-de-elle vous-pillerez à/pour-vous ; metts à/pour-toi gzqant à/pour-la-ville après-elle."
+        },
+        {
+          "n": 3,
+          "t": "Josué et-est-levé et-tout-de peuple-de la-guerre à/pour-monter le-Ai ; Josué et-a-choisi trente mille homme puissants-de le-compétence, et-a-envoyé-eux nuit."
+        },
+        {
+          "n": 4,
+          "t": "et-il-a-commandé eux à/pour-dire voyez vous gzqants à/pour-la-ville après la-ville, ne fassiez-éloigner depuis la-ville très ; et-vous-avez-été tout-de-vous affermis."
+        },
+        {
+          "n": 5,
+          "t": "et-je et-tout-de le-peuple qui ensemble-moi, nous-presentons vers la-ville ; et-il-a-été car ils-sortiront à/pour-rencontrer-de-nous comme-lorsque dans-la-premiere, et-nous-avons-fui à/pour-faces-de-eux."
+        },
+        {
+          "n": 6,
+          "t": "et-ils-sont-sorti après-nous jusqu'à faire-extraire-de-nous eux depuis la-ville, car ils-diront, fuissants à/pour-faces-de-nous, comme-lorsque dans-la-premiere ; et-nous-avons-fui à/pour-faces-de-eux."
+        },
+        {
+          "n": 7,
+          "t": "et-vous leverez depuis-le-gzqant, et-avez-fait-déposséder la-ville ; YHWH et-a-donné-elle dieu-de-vous dans-main-de-vous."
+        },
+        {
+          "n": 8,
+          "t": "et-il-a-été comme-saisir-de-vous la-ville vous-ferez-allumer la-ville dans-le-feu, comme-parole-de YHWH vous-ferez ; voyez je-ai-commandé vous."
+        },
+        {
+          "n": 9,
+          "t": "Josué et-a-envoyé-eux et-ils-sont-allé vers le-embuscade, et-ils-ont-habité entre Lebeyt Bethel et-entre le-Ai depuis-mer à/pour-le-Ai ; Josué et-a-logé dans-le-nuit le-lui dans-milieu-de le-peuple."
+        },
+        {
+          "n": 10,
+          "t": "Josué et-a-fait-gkruer dans-le-matin, et-a-visité le-peuple ; lui et-vieux-de Israël et-est-monté à/pour-faces-de le-peuple le-Ai."
+        },
+        {
+          "n": 11,
+          "t": "et-tout-de le-peuple la-guerre qui ensemble-lui ils-sont-monté et-ils-ont-approché, et-ils-sont-venu devant la-ville ; et-ils-ont-campé depuis-nord-de à/pour-le-Ai, et-le-gbfh entre-lui et-entre le-Ai."
+        },
+        {
+          "n": 12,
+          "t": "et-a-pris, comme-cinq-de mille homme ; et-a-mis eux gzqant entre Lebeyt Bethel et-entre le-Ai depuis-mer à/pour-la-ville."
+        },
+        {
+          "n": 13,
+          "t": "et-ils-ont-mis le-peuple tout-de le-camp qui depuis-nord-de à/pour-la-ville, et-talon-de-lui depuis-mer à/pour-la-ville ; Josué et-est-allé dans-le-nuit le-lui dans-milieu-de le-vallée."
+        },
+        {
+          "n": 14,
+          "t": "et-a-été comme-voir roi-de le-Ai et-ont-hâté et-ont-fait-gkruer hommes-de la-ville et-sont-sorti à/pour-rencontrer Israël à/pour-la-guerre lui et-tout-de peuple-de-lui à/pour-le-rencontre à/pour-faces-de la-plaine ; et-lui non a-su, car gzqant à/pour-lui après la-ville."
+        },
+        {
+          "n": 15,
+          "t": "et-ils-ont-été-touché Josué et-tout-de Israël à/pour-faces-de-eux ; et-ils-ont-fui chemin-de le-désert."
+        },
+        {
+          "n": 16,
+          "t": "et-ils-ont-été-gcfoé tout-de le-peuple qui dans-la-ville dans-le-Ai, à/pour-poursuivre après-eux ; et-ils-ont-poursuivu après Josué, et-ils-ont-été-extraiu depuis la-ville."
+        },
+        {
+          "n": 17,
+          "t": "et-non homme a-été-resté dans-le-Ai et-Lebeyt Bethel, qui non ils-sont-sorti après Israël ; et-ils-ont-abandonné la-ville gitaaée, et-ils-ont-poursuivu après Israël."
+        },
+        {
+          "n": 18,
+          "t": "YHWH et-a-dit vers Josué tends dans-le-javelot qui dans-main-de-toi vers le-Ai, car dans-main-de-toi je-donnerai-elle ; Josué et-a-tendu dans-le-javelot qui dans-main-de-lui vers la-ville."
+        },
+        {
+          "n": 19,
+          "t": "et-le-gzqant est-levé hâte depuis-lieu-de-lui et-ils-ont-couru comme-tendre main-de-lui, et-ils-sont-venu la-ville et-ils-ont-capturé-elle ; et-ils-ont-hâté, et-ils-ont-fait-allumer la-ville dans-le-feu."
+        },
+        {
+          "n": 20,
+          "t": "hommes-de le-Ai et-ont-tourné après-eux et-ont-vu et-voici fumée-de la-ville est-monté les-ciels-vers, et-non a-été dans-eux mains à/pour-fuir ici et-ici ; et-le-peuple le-fuissant le-désert, a-été-tourné vers le-poursuivant."
+        },
+        {
+          "n": 21,
+          "t": "et-Josué et-tout-de Israël ils-ont-vu car a-capturé le-gzqant la-ville, et-car fumée-de la-ville est-monté ; et-ils-sont-retourné, et-ils-ont-fait-frapper hommes-de le-Ai."
+        },
+        {
+          "n": 22,
+          "t": "et-ces ils-sont-sorti depuis la-ville à/pour-rencontrer-de-eux, et-ils-ont-été à/pour-Israël dans-le-milieu, ces depuis-celui-ci et-ces depuis-celui-ci ; et-ils-ont-fait-frapper eux, jusqu'à sans reste et-fugitif a-fait-rester à/pour-lui."
+        },
+        {
+          "n": 23,
+          "t": "et-roi-de le-Ai ils-ont-saisi vivant ; et-ils-ont-fait-present lui vers Josué."
+        },
+        {
+          "n": 24,
+          "t": "et-a-été comme-achever Israël à/pour-tuer tout-de habitants-de le-Ai dans-le-champ dans-le-désert qui ils-ont-poursuivu-eux dans-lui, et-ils-sont-tombé tout-de-eux à/pour-bouche-de épée jusqu'à finir-de-eux ; et-ils-sont-retourné tout-de Israël le-Ai, et-ils-ont-fait-frapper elle à/pour-bouche-de épée."
+        },
+        {
+          "n": 25,
+          "t": "tout-de et-a-été les-tombants dans-le-jour le-lui depuis-homme et-jusqu'à femme, deux dix mille ; tout-de hommes-de le-Ai."
+        },
+        {
+          "n": 26,
+          "t": "et-Josué non a-fait-retourner main-de-lui, qui a-tendu dans-le-javelot ; jusqu'à qui a-fait-dévouer, tout-de habitants-de le-Ai."
+        },
+        {
+          "n": 27,
+          "t": "seulement la-bête et-butin-de la-ville la-lui, ils-ont-pillé à/pour-eux Israël ; comme-parole-de YHWH, qui il-a-commandé Josué."
+        },
+        {
+          "n": 28,
+          "t": "Josué et-a-brûlé le-Ai ; tertre-de durée et-a-mis-elle désolation, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 29,
+          "t": "et-roi-de le-Ai le-arbre a-glopé sur jusqu'à heure-de le-soir ; et-comme-venir le-soleil a-commandé Josué et-ils-ont-fait-descendre cadavre-de-lui depuis le-arbre et-ils-ont-fait-jeter elle vers entrée-de porte-de la-ville, et-ils-ont-fait-lever sur-lui source-de pierres grand, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 30,
+          "t": "alors Josué autel bâtira, à/pour-YHWH dieu-de Israël ; dans-mont-de Eybal."
+        },
+        {
+          "n": 31,
+          "t": "comme-lorsque Moïse a-commandé serviteur-de YHWH fils-de Israël comme-le-écrit dans-livre-de instruction-de Moïse, autel-de pierres parfaites, qui non a-fait-agiter sur-elles fer ; et-ont-fait-monter sur-lui burnts à/pour-YHWH, récompenses et-ont-sacrifié."
+        },
+        {
+          "n": 32,
+          "t": "et-il-a-écrit là sur les-pierres ; double-de instruction-de Moïse, qui il-a-écrit, à/pour-faces-de fils-de Israël."
+        },
+        {
+          "n": 33,
+          "t": "et-tout-de Israël et-vieux-de-lui et-fonctionnaiants et-jugeants-de-lui restants depuis-celui-ci et-depuis-celui-ci à/pour-la-arche devant les-sacrificateurs les-Haleviy portants-de arche-de alliance-de YHWH comme-le-sojourner comme-le-born, moitié-de-lui vers opposite mont-de Geriziym, et-le-moitié-de-lui vers opposite mont-de Eybal ; comme-lorsque Moïse a-commandé serviteur-de YHWH à/pour-bénir le-peuple Israël dans-la-premiere."
+        },
+        {
+          "n": 34,
+          "t": "et-après ainsi il-a-appelé tout-de paroles-de la-instruction, la-bénédiction et-la-diffamation ; comme-tout-de le-écrit dans-livre-de la-instruction."
+        },
+        {
+          "n": 35,
+          "t": "non parole a-été, depuis-tout qui a-commandé Moïse ; qui non Josué a-appelé devant tout-de congrégation-de Israël et-les-femmes et-le-enfant, et-le-sojourner le-marchant dans-parmi-de-eux."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été comme-écouter tout-de les-rois qui dans-delà-de le-Jourdain dans-le-mont et-dans-la-shephelah et-dans-tout-de côte-de le-mer le-grand, vers opposite le-Liban ; le-Hittite et-le-Amorite, le-Canaanite le-Perizzite, le-Hivite et-le-Jebusite."
+        },
+        {
+          "n": 2,
+          "t": "et-ils-ont-se-assemblé union, à/pour-être-combattre avec Josué et-avec Israël ; bouche un."
+        },
+        {
+          "n": 3,
+          "t": "et-habitants-de Gibeon ils-ont-écouté qui Josué a-fait à/pour-Jéricho et-à/pour-le-Ai."
+        },
+        {
+          "n": 4,
+          "t": "eux et-ont-fait aussi dans-ruse, et-sont-allé et-ont-se-giycé ; sacs passés et-ont-pris à/pour-ânes-de-eux, et-outres-de vin passés, et-fendus et-gjdwbés."
+        },
+        {
+          "n": 5,
+          "t": "et-sandales passées et-rapiécées dans-pieds-de-eux, et-manteaux passées sur-eux ; et-tout-de pain-de provision-de-eux, a-flétri a-été miettes."
+        },
+        {
+          "n": 6,
+          "t": "et-ils-sont-allé vers Josué vers le-camp le-Gilgal ; et-ils-ont-dit vers-lui et-vers homme-de Israël depuis-terre lointaine nous-sommes-venu, et-maintenant coupez à/pour-nous alliance."
+        },
+        {
+          "n": 7,
+          "t": "homme-de Israël et-ont-dit et-a-dit vers le-Hivite ; peut-être dans-parmi-de-moi tu habitant, et-how je-couperai couper-toi alliance."
+        },
+        {
+          "n": 8,
+          "t": "et-ont-dit vers Josué serviteurs-de-toi nous ; Josué et-a-dit vers-eux lequel vous et-depuis-gnf viendrez."
+        },
+        {
+          "n": 9,
+          "t": "et-ont-dit vers-lui depuis-terre lointaine très serviteurs-de-toi sont-venu, à/pour-nom-de YHWH dieu-de-toi ; car nous-avons-écouté renommée-de-lui, et-tout-de qui a-fait dans-Égypte."
+        },
+        {
+          "n": 10,
+          "t": "et-tout-de qui il-a-fait à/pour-deux-de rois-de le-Amorite, qui dans-delà-de le-Jourdain ; à/pour-Sihon roi-de Heshbon, et-à/pour-Og roi-de le-Bashan qui dans-Ashtaroth."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-ont-dit vers-nous vieux-de-nous et-tout-de habitants-de terre-de-nous à/pour-dire prenez dans-main-de-vous provision à/pour-le-chemin, et-allez à/pour-rencontrer-de-eux ; et-vous-avez-dit vers-eux serviteurs-de-vous nous, et-maintenant coupez à/pour-nous alliance."
+        },
+        {
+          "n": 12,
+          "t": "celui-ci pain-de-nous chaud nous-avons-se-givwbé lui depuis-maisons-de-nous, dans-jour-de sortir-de-nous à/pour-aller vers-toi ; et-maintenant voici il-a-flétri, et-il-a-été miettes."
+        },
+        {
+          "n": 13,
+          "t": "et-ces outres-de le-vin qui nous-avons-rempli nouveaux, et-voici ont-se-fendu ; et-ces manteaux-de-nous et-sandales-de-nous, ont-gaoté, depuis-multitude-de le-chemin très."
+        },
+        {
+          "n": 14,
+          "t": "les-hommes et-ont-pris depuis-chasse-de-eux ; et-bouche-de YHWH non ils-ont-demandé."
+        },
+        {
+          "n": 15,
+          "t": "Josué paix, et-a-fait à/pour-eux et-a-coupé à/pour-eux alliance à/pour-guérir-de-eux ; leaders-de la-assemblée et-ont-été-juré à/pour-eux,."
+        },
+        {
+          "n": 16,
+          "t": "et-il-a-été depuis-bout-de trois-de jours, après, qui ils-ont-coupé à/pour-eux alliance ; et-ont-écouté car proches eux vers-lui, et-dans-parmi-de-lui eux habitants."
+        },
+        {
+          "n": 17,
+          "t": "fils-de Israël et-ont-retiré et-sont-venu vers villes-de-eux dans-le-jour le-troisième ; et-villes-de-eux Gibeon et-le-Chephirah, et-Beeroth et-Veqiryat Yeariym."
+        },
+        {
+          "n": 18,
+          "t": "et-non fils-de Israël ont-fait-frapper-eux, car ont-été-juré à/pour-eux leaders-de la-assemblée, dans-YHWH dieu-de Israël ; et-ont-été-geskbé tout-de la-assemblée sur les-leaders."
+        },
+        {
+          "n": 19,
+          "t": "et-ils-ont-dit tout-de les-leaders vers tout-de la-assemblée, nous avons-été-juré à/pour-eux, dans-YHWH dieu-de Israël ; et-maintenant, non nous-vaincrons à/pour-toucher dans-eux."
+        },
+        {
+          "n": 20,
+          "t": "celle-ci nous-ferons à/pour-eux et-faire-guérir eux ; et-non courroux, sera sur-nous sur la-serment qui nous-avons-été-juré à/pour-eux."
+        },
+        {
+          "n": 21,
+          "t": "les-leaders et-ont-dit vers-eux guériront ; et-ont-été gcnlants-de arbres et-tirants-de eaux à/pour-tout-de la-assemblée, comme-lorsque ont-parlé à/pour-eux les-leaders."
+        },
+        {
+          "n": 22,
+          "t": "Josué, et-a-appelé à/pour-eux et-a-parlé vers-eux à/pour-dire ; à/pour-quoi avez-jeté nous à/pour-dire lointains nous depuis-vous très, et-vous dans-parmi-de-nous habitants."
+        },
+        {
+          "n": 23,
+          "t": "et-maintenant maudits vous ; et-non serviteur et-gcnlants-de sera-coupé depuis-vous arbres et-tirants-de eaux à/pour-maison-de dieu-de-moi."
+        },
+        {
+          "n": 24,
+          "t": "et-ils-ont-répondu Josué et-ils-ont-dit car être-faire-annoncer a-été-fait-annoncer à/pour-serviteurs-de-toi qui YHWH a-commandé dieu-de-toi Moïse serviteur-de-lui, à/pour-donner à/pour-vous tout-de la-terre, et-à/pour-faire-exterminer tout-de habitants-de la-terre depuis-faces-de-vous ; et-nous-avons-craint très à/pour-âmes-de-nous depuis-faces-de-vous, et-nous-avons-fait le-parole le-celui-ci."
+        },
+        {
+          "n": 25,
+          "t": "et-maintenant voilà-nous dans-main-de-toi ; comme-le-bon et-comme-le-droit dans-yeux-de-toi à/pour-faire à/pour-nous fais."
+        },
+        {
+          "n": 26,
+          "t": "et-il-a-fait à/pour-eux ainsi ; et-il-a-fait-délivrer eux depuis-main-de fils-de Israël et-non ils-ont-tué-eux."
+        },
+        {
+          "n": 27,
+          "t": "Josué et-a-donné-eux dans-le-jour le-lui gcnlants-de arbres et-tirants-de eaux à/pour-la-assemblée ; et-à/pour-autel-de YHWH jusqu'à le-jour le-celui-ci, vers le-lieu qui choisira."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été comme-écouter Adoniy Tsedeq roi-de Jérusalem car a-capturé Josué le-Ai et-a-fait-dévouer-elle comme-lorsque a-fait à/pour-Jéricho et-à/pour-roi-de-elle, ainsi a-fait à/pour-le-Ai et-à/pour-roi-de-elle ; et-car ils-ont-fait-gkuqber habitants-de Gibeon ensemble Israël, et-ils-ont-été dans-parmi-de-eux."
+        },
+        {
+          "n": 2,
+          "t": "et-ils-ont-craint très, car ville grande Gibeon, comme-une-de villes-de la-royaume ; et-car lui grande depuis le-Ai, et-tout-de hommes-de-elle puissants."
+        },
+        {
+          "n": 3,
+          "t": "Adoniy Tsedeq et-a-envoyé roi-de Jérusalem vers Hoham roi-de Hébron et-vers Piram roi-de Jarmuth et-vers Japhia roi-de Lachish et-vers Debir roi-de Eglon à/pour-dire."
+        },
+        {
+          "n": 4,
+          "t": "montez vers-moi et-aidez-moi, et-nous-ferons-frapper Gibeon ; car elle-a-fait-gkuqber ensemble Josué et-ensemble fils-de Israël."
+        },
+        {
+          "n": 5,
+          "t": "et-ont-été-recueilli et-sont-monté cinq-de rois-de le-Amorite roi-de Jérusalem roi-de Hébron roi-de Jarmuth roi-de Lachish roi-de Eglon, eux et-tout-de camps-de-eux ; et-ils-ont-campé sur Gibeon, et-ils-ont-été-combattu sur-elle."
+        },
+        {
+          "n": 6,
+          "t": "hommes-de Gibeon et-ont-envoyé vers Josué vers le-camp le-Gilgal-vers à/pour-dire, ne tu-fasses-baisser mains-de-toi depuis-serviteurs-de-toi ; monte vers-nous hâte et-fais-sauver-hé à/pour-nous et-aide-nous, car ils-ont-été-assemblé vers-nous, tout-de rois-de le-Amorite habitants-de le-mont."
+        },
+        {
+          "n": 7,
+          "t": "Josué et-est-monté depuis le-Gilgal lui et-tout-de peuple-de la-guerre avec-lui, et-tout-de puissants-de le-compétence."
+        },
+        {
+          "n": 8,
+          "t": "YHWH et-a-dit vers Josué ne tu-craindes depuis-eux, car dans-main-de-toi je-ai-donné-eux ; non homme restera depuis-eux dans-faces-de-toi."
+        },
+        {
+          "n": 9,
+          "t": "Josué et-est-venu vers-eux soudain ; tout-de le-nuit, est-monté depuis le-Gilgal."
+        },
+        {
+          "n": 10,
+          "t": "YHWH et-a-défaiu-eux à/pour-faces-de Israël, et-a-fait-frapper-eux coup grande dans-Gibeon ; chemin-de step-de Beth-horon Horon et-a-poursuivu-eux, et-a-fait-frapper-eux jusqu'à Azekah et-jusqu'à Makkedah."
+        },
+        {
+          "n": 11,
+          "t": "et-a-été dans-fuir-de-eux depuis-faces-de Israël eux dans-descente-de Beth-horon Horon et-YHWH a-fait-jeter sur-eux pierres grandes depuis les-ciels jusqu'à Azekah et-sont-mort ; nombreux qui sont-mort dans-pierres-de le-grêle, depuis-whence fils-de Israël ont-tué dans-la-épée."
+        },
+        {
+          "n": 12,
+          "t": "alors Josué parlera à/pour-YHWH, dans-jour-de donner YHWH le-Amorite, à/pour-faces-de fils-de Israël ; et-a-dit à/pour-yeux-de Israël soleil dans-Gibeon gbrfae, et-lune dans-vallée-de Aijalon."
+        },
+        {
+          "n": 13,
+          "t": "le-soleil et-lune et-a-gbrfaé a-resté jusqu'à nation gmcçants-de-lui vengera, est-ce-non lui écrite sur livre-de le-droit ; le-soleil et-a-resté dans-moitié-de les-ciels, et-non a-gheé à/pour-venir comme-jour entier."
+        },
+        {
+          "n": 14,
+          "t": "et-non le-lui a-été comme-le-jour à/pour-faces-de-lui et-après-lui, à/pour-écouter YHWH dans-voix-de homme ; car YHWH, a-été-combattu à/pour-Israël."
+        },
+        {
+          "n": 15,
+          "t": "Josué et-est-retourné et-tout-de Israël avec-lui, vers le-camp le-Gilgal-vers."
+        },
+        {
+          "n": 16,
+          "t": "et-ont-fui, cinq-de les-rois les-ces ; et-ils-ont-été-caché dans-la-caverne dans-Makkedah."
+        },
+        {
+          "n": 17,
+          "t": "et-il-a-été-fait-annoncer à/pour-Josué à/pour-dire ; ont-été-trouvé cinq-de les-rois, cachés dans-la-caverne dans-Makkedah."
+        },
+        {
+          "n": 18,
+          "t": "Josué et-a-dit, roulez pierres grandes vers bouche-de la-caverne ; et-faites-visiter sur-elle hommes à/pour-garder-de-eux."
+        },
+        {
+          "n": 19,
+          "t": "et-vous ne restiez, poursuivez après gmcçants-de-vous, et-avez-gceué eux ; ne vous-donniez-eux à/pour-venir vers villes-de-eux, car YHWH a-donné-eux dieu-de-vous dans-main-de-vous."
+        },
+        {
+          "n": 20,
+          "t": "et-a-été comme-achever Josué et-fils-de Israël à/pour-faire-frapper-de-eux coup grande très jusqu'à finir-de-eux ; et-les-restes ont-échappé depuis-eux, et-sont-venu vers villes-de le-forteresse."
+        },
+        {
+          "n": 21,
+          "t": "et-ils-sont-retourné tout-de le-peuple vers le-camp vers Josué Makkedah dans-paix ; non il-a-tranché à/pour-fils-de Israël à/pour-homme langue-de-lui."
+        },
+        {
+          "n": 22,
+          "t": "Josué et-a-dit, gitaaez bouche-de la-caverne ; et-faites-sortir vers-moi cinq-de les-rois les-ces depuis la-caverne."
+        },
+        {
+          "n": 23,
+          "t": "et-ils-ont-fait ainsi, et-ils-ont-fait-sortir vers-lui cinq-de les-rois les-ces depuis la-caverne ; roi-de Jérusalem roi-de Hébron roi-de Jarmuth, roi-de Lachish roi-de Eglon."
+        },
+        {
+          "n": 24,
+          "t": "et-a-été comme-faire-sortir-de-eux les-rois les-ces vers Josué et-a-appelé Josué vers tout-de homme-de Israël et-a-dit vers chefs-de hommes-de la-guerre les-ont-marché ensemble-lui, present mettez pieds-de-vous, sur cous-de les-rois les-ces ; et-ont-present, et-ont-mis pieds-de-eux sur cous-de-eux."
+        },
+        {
+          "n": 25,
+          "t": "Josué, et-a-dit vers-eux ne vous-craindiez et-ne vous-soyez-gdfeé ; fortifiez et-gugez, car gehn YHWH fera à/pour-tout-de gmcçants-de-vous, qui vous combattus eux."
+        },
+        {
+          "n": 26,
+          "t": "Josué et-a-fait-frapper-eux après ainsi et-a-fait-mourir-eux, et-a-glopé-eux, sur cinq arbres ; et-ont-été glopés sur les-arbres jusqu'à le-soir."
+        },
+        {
+          "n": 27,
+          "t": "et-a-été à/pour-heure-de venir le-soleil a-commandé Josué et-ont-fait-descendre-eux sur les-arbres, et-ont-fait-jeter-eux, vers la-caverne qui ont-été-caché là ; et-ils-ont-mis pierres grandes sur bouche-de la-caverne, jusqu'à os-de le-jour le-celui-ci."
+        },
+        {
+          "n": 28,
+          "t": "et-Makkedah Josué a-capturé dans-le-jour le-lui et-a-fait-frapper-elle à/pour-bouche-de épée et-roi-de-elle a-fait-dévouer eux et-tout-de la-âme qui dans-elle, non reste a-fait-rester ; et-il-a-fait à/pour-roi-de Makkedah, comme-lorsque il-a-fait à/pour-roi-de Jéricho."
+        },
+        {
+          "n": 29,
+          "t": "Josué et-a-passé et-tout-de Israël avec-lui depuis-Makkedah Libnah ; Libnah et-a-été-combattu avec."
+        },
+        {
+          "n": 30,
+          "t": "YHWH et-a-donné aussi elle dans-main-de Israël et-roi-de-elle et-a-fait-frapper-elle à/pour-bouche-de épée et-tout-de la-âme qui dans-elle, non reste ; a-fait-rester dans-elle et-il-a-fait à/pour-roi-de-elle, comme-lorsque il-a-fait à/pour-roi-de Jéricho."
+        },
+        {
+          "n": 31,
+          "t": "Josué et-a-passé et-tout-de Israël avec-lui depuis-Libnah Lachish-vers ; et-il-a-campé sur-elle, et-il-a-été-combattu dans-elle."
+        },
+        {
+          "n": 32,
+          "t": "YHWH et-a-donné Lachish dans-main-de Israël et-a-capturé-elle dans-le-jour le-second, et-a-fait-frapper-elle à/pour-bouche-de épée, et-tout-de la-âme qui dans-elle ; comme-tout qui il-a-fait à/pour-Libnah."
+        },
+        {
+          "n": 33,
+          "t": "alors Horam est-monté roi-de Gezer, à/pour-aider Lachish ; Josué et-a-fait-frapper-lui et-peuple-de-lui, jusqu'à sans a-fait-rester à/pour-lui reste."
+        },
+        {
+          "n": 34,
+          "t": "Josué et-a-passé et-tout-de Israël avec-lui depuis-Lachish Eglon-vers ; et-ils-ont-campé sur-elle, et-ils-ont-été-combattu sur-elle."
+        },
+        {
+          "n": 35,
+          "t": "et-ils-ont-capturé-elle dans-le-jour le-lui et-ils-ont-fait-frapper-elle à/pour-bouche-de épée, et-tout-de la-âme qui dans-elle, dans-le-jour le-lui a-fait-dévouer ; comme-tout qui il-a-fait à/pour-Lachish."
+        },
+        {
+          "n": 36,
+          "t": "Josué et-est-monté et-tout-de Israël avec-lui depuis-Eglon-vers Hébron-vers ; et-ils-ont-été-combattu sur-elle."
+        },
+        {
+          "n": 37,
+          "t": "et-ils-ont-capturé-elle et-ils-ont-fait-frapper-elle à/pour-bouche-de épée et-roi-de-elle et-tout-de villes-de-elle et-tout-de la-âme qui dans-elle non reste a-fait-rester, comme-tout qui a-fait à/pour-Eglon ; et-il-a-fait-dévouer elle, et-tout-de la-âme qui dans-elle."
+        },
+        {
+          "n": 38,
+          "t": "Josué et-est-retourné et-tout-de Israël avec-lui Debir-vers ; et-il-a-été-combattu sur-elle."
+        },
+        {
+          "n": 39,
+          "t": "et-a-capturé-elle et-roi-de-elle et-tout-de villes-de-elle et-ils-ont-fait-frapper-eux à/pour-bouche-de épée, et-ils-ont-fait-dévouer tout-de âme qui dans-elle, non reste a-fait-rester ; comme-lorsque il-a-fait à/pour-Hébron ainsi il-a-fait à/pour-Debir-vers et-à/pour-roi-de-elle, et-comme-lorsque il-a-fait à/pour-Libnah et-à/pour-roi-de-elle."
+        },
+        {
+          "n": 40,
+          "t": "Josué et-a-fait-frapper tout-de la-terre le-mont et-le-negeb et-la-shephelah et-les-pentes et-tout-de rois-de-eux, non a-fait-rester reste ; et-tout-de la-souffle a-fait-dévouer, comme-lorsque YHWH a-commandé, dieu-de Israël."
+        },
+        {
+          "n": 41,
+          "t": "Josué et-a-fait-frapper-eux depuis-Miqadech Barnea et-jusqu'à Gaza ; et-tout-de terre-de Goshen et-jusqu'à Gibeon."
+        },
+        {
+          "n": 42,
+          "t": "et-tout-de les-rois les-ces et-terre-de-eux, Josué a-capturé fois-de une ; car YHWH dieu-de Israël, a-été-combattu à/pour-Israël."
+        },
+        {
+          "n": 43,
+          "t": "Josué et-est-retourné et-tout-de Israël avec-lui, vers le-camp le-Gilgal-vers."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été, comme-écouter Jabin roi-de Hazor ; Jobab et-a-envoyé vers roi-de Madon, et-vers roi-de Chimron et-vers roi-de Achshaph."
+        },
+        {
+          "n": 2,
+          "t": "et-vers les-rois qui depuis-nord-de dans-le-mont et-dans-la-plaine negeb-de Kineret et-dans-la-shephelah ; et-dans-heights-de Dor depuis-mer."
+        },
+        {
+          "n": 3,
+          "t": "le-Canaanite depuis-east et-depuis-mer, et-le-Amorite et-le-Hittite et-le-Perizzite et-le-Jebusite dans-le-mont ; et-le-Hivite sous Hermon, dans-terre-de le-Mizpah."
+        },
+        {
+          "n": 4,
+          "t": "eux et-sont-sorti et-tout-de camps-de-eux avec-eux, peuple nombreux, comme-le-sable qui sur lèvre-de le-mer à/pour-multitude ; et-hirondelle et-char nombreux très."
+        },
+        {
+          "n": 5,
+          "t": "et-ils-ont-été-rencontré, tout-de les-rois les-ces ; et-sont-venu eaux-de Merom, et-ont-campé union vers à/pour-être-combattre avec Israël."
+        },
+        {
+          "n": 6,
+          "t": "YHWH et-a-dit vers Josué ne tu-craindes depuis-faces-de-eux car demain comme-la-heure la-celle-ci moi donnant tout-de-eux tués à/pour-faces-de Israël ; hirondelles-de-eux tu-déracineras, et-chariots-de-eux tu-brûleras dans-le-feu."
+        },
+        {
+          "n": 7,
+          "t": "Josué et-est-venu et-tout-de peuple-de la-guerre avec-lui sur-eux sur eaux-de Merom soudain ; et-ils-sont-tombé dans-eux."
+        },
+        {
+          "n": 8,
+          "t": "YHWH et-a-donné-eux dans-main-de Israël et-ils-ont-fait-frapper-eux et-ils-ont-poursuivu-eux jusqu'à Sidon nombreuse et-jusqu'à Misrfot Maim, et-jusqu'à vallée-de Mizpeh east-vers ; et-ils-ont-fait-frapper-eux, jusqu'à sans reste a-fait-rester à/pour-eux."
+        },
+        {
+          "n": 9,
+          "t": "Josué, et-a-fait à/pour-eux comme-lorsque a-dit à/pour-lui YHWH ; hirondelles-de-eux il-a-déraciné, et-chariots-de-eux il-a-brûlé dans-le-feu."
+        },
+        {
+          "n": 10,
+          "t": "Josué et-est-retourné dans-la-heure la-lui et-a-capturé Hazor, et-roi-de-elle a-fait-frapper dans-la-épée ; car Hazor à/pour-faces, lui, tête-de tout-de les-royaumes les-ces."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-ont-fait-frapper tout-de la-âme qui dans-elle à/pour-bouche-de épée faire-dévouer, non tout-de souffle a-été-demeuré ; et-Hazor il-a-brûlé dans-le-feu."
+        },
+        {
+          "n": 12,
+          "t": "et-tout-de villes-de les-rois les-ces et-tout-de rois-de-eux Josué a-capturé et-a-fait-frapper-eux à/pour-bouche-de épée a-fait-dévouer eux ; comme-lorsque Moïse a-commandé, serviteur-de YHWH."
+        },
+        {
+          "n": 13,
+          "t": "seulement tout-de les-villes les-restantes sur tertre-de-eux, non a-brûlé-eux Israël ; exception Hazor à/pour-seul-de-elle Josué a-brûlé."
+        },
+        {
+          "n": 14,
+          "t": "et-tout-de butin-de les-villes les-ces et-la-bête, fils-de Israël ; ont-pillé à/pour-eux seulement tout-de le-homme ils-ont-fait-frapper à/pour-bouche-de épée jusqu'à faire-exterminer-de-eux eux, non ils-ont-fait-rester tout-de souffle."
+        },
+        {
+          "n": 15,
+          "t": "comme-lorsque YHWH a-commandé Moïse serviteur-de-lui, ainsi a-commandé Moïse Josué ; et-ainsi Josué a-fait, non a-fait-détourner parole, depuis-tout qui a-commandé YHWH Moïse."
+        },
+        {
+          "n": 16,
+          "t": "Josué et-a-pris tout-de la-terre la-celle-ci le-mont et-tout-de le-negeb et-tout-de terre-de le-Goshen, et-la-shephelah et-la-plaine ; et-mont-de Israël et-shephelah-de-lui."
+        },
+        {
+          "n": 17,
+          "t": "depuis le-mont le-Hehalaq le-montant Seir, et-jusqu'à Baal-gad Gada dans-vallée-de le-Liban, sous mont-de Hermon ; et-tout-de rois-de-eux il-a-capturé, et-il-a-fait-frapper-eux et-il-a-fait-mourir-eux."
+        },
+        {
+          "n": 18,
+          "t": "jours nombreux Josué a-fait ensemble tout-de les-rois les-ces guerre."
+        },
+        {
+          "n": 19,
+          "t": "non ville a-été qui a-fait-gkuqber vers fils-de Israël, sans le-Hivite habitants-de Gibeon ; le-tout ils-ont-pris dans-la-guerre."
+        },
+        {
+          "n": 20,
+          "t": "car ensemble YHWH a-été à/pour-fortifier cœur-de-eux à/pour-rencontrer la-guerre ensemble Israël égard faire-dévouer-de-eux, à/pour-sans être à/pour-eux supplication ; car égard faire-exterminer-de-eux, comme-lorsque YHWH a-commandé Moïse."
+        },
+        {
+          "n": 21,
+          "t": "Josué et-est-venu dans-la-heure la-lui et-a-fait-couper les-anakites depuis le-mont depuis Hébron depuis Debir depuis Anab, et-depuis-tout-de mont-de Juda, et-depuis-tout-de mont-de Israël ; avec Josué a-fait-dévouer-eux villes-de-eux."
+        },
+        {
+          "n": 22,
+          "t": "non il-a-été-demeuré anakites, dans-terre-de fils-de Israël ; seulement dans-Gaza dans-Gath et-dans-Ashdod ils-ont-été-resté."
+        },
+        {
+          "n": 23,
+          "t": "Josué et-a-pris tout-de la-terre comme-tout qui a-parlé YHWH vers Moïse et-a-donné-elle Josué à/pour-héritage à/pour-Israël comme-divisions-de-eux à/pour-verges-de-eux ; et-la-terre a-apaisé depuis-guerre."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ces rois-de la-terre qui ont-fait-frapper fils-de Israël et-ont-dépossédé terre-de-eux, dans-delà-de le-Jourdain east-de le-soleil ; depuis-torrent-de Arnon jusqu'à mont-de Hermon, et-tout-de la-plaine east-vers."
+        },
+        {
+          "n": 2,
+          "t": "Sihon roi-de le-Amorite, le-habitant dans-Heshbon ; gouvernant depuis-Aroer qui sur lèvre-de torrent-de Arnon et-milieu-de le-torrent et-moitié-de le-Gilead, et-jusqu'à Jabbok le-torrent, frontière-de fils-de Ammon."
+        },
+        {
+          "n": 3,
+          "t": "et-la-plaine jusqu'à mer-de Kineret east-vers et-jusqu'à mer-de la-plaine mer-de le-sel east-vers, chemin-de Mibeyt Haychimot ; et-depuis-sud, sous pentes-de le-Pisgah."
+        },
+        {
+          "n": 4,
+          "t": "et-frontière-de Og roi-de le-Bashan, depuis-excès-de le-Rephaim ; le-habitant dans-Ashtaroth et-dans-Edrei."
+        },
+        {
+          "n": 5,
+          "t": "et-gouvernant dans-mont-de Hermon et-dans-Salecah et-dans-tout-de le-Bashan, jusqu'à frontière-de le-Geshurite et-le-Maacathite ; et-moitié-de le-Gilead, frontière-de Sihon roi-de Heshbon."
+        },
+        {
+          "n": 6,
+          "t": "Moïse serviteur-de YHWH et-fils-de Israël ont-fait-frapper-eux ; Moïse et-a-donné-elle serviteur-de YHWH possession à/pour-le-Reubenite et-à/pour-le-Hagadiy, et-à/pour-moitié-de verge-de le-Manassé."
+        },
+        {
+          "n": 7,
+          "t": "et-ces rois-de la-terre qui Josué a-fait-frapper et-fils-de Israël dans-delà-de le-Jourdain mer-vers, depuis-Baal-gad Gada dans-vallée-de le-Liban, et-jusqu'à le-mont le-Hehalaq le-montant Seir-vers ; Josué et-a-donné-elle à/pour-verges-de Israël possession comme-divisions-de-eux."
+        },
+        {
+          "n": 8,
+          "t": "dans-le-mont et-dans-la-shephelah et-dans-la-plaine et-dans-les-pentes, et-dans-le-désert et-dans-le-negeb ; le-Hittite le-Amorite, et-le-Canaanite le-Perizzite, le-Hivite et-le-Jebusite."
+        },
+        {
+          "n": 9,
+          "t": "roi-de Jéricho un ; roi-de le-Ai qui depuis-side-de Lebeyt Bethel un."
+        },
+        {
+          "n": 10,
+          "t": "roi-de Jérusalem un, roi-de Hébron un."
+        },
+        {
+          "n": 11,
+          "t": "roi-de Jarmuth un, roi-de Lachish un."
+        },
+        {
+          "n": 12,
+          "t": "roi-de Eglon un, roi-de Gezer un."
+        },
+        {
+          "n": 13,
+          "t": "roi-de Debir un, roi-de Geder un."
+        },
+        {
+          "n": 14,
+          "t": "roi-de Hormah un, roi-de Arad un."
+        },
+        {
+          "n": 15,
+          "t": "roi-de Libnah un, roi-de Adullam un."
+        },
+        {
+          "n": 16,
+          "t": "roi-de Makkedah un, roi-de Lebeyt Bethel un."
+        },
+        {
+          "n": 17,
+          "t": "roi-de Tappuah un, roi-de Hefer un."
+        },
+        {
+          "n": 18,
+          "t": "roi-de Aphek un, roi à/pour-le-Lasharon un."
+        },
+        {
+          "n": 19,
+          "t": "roi-de Madon un, roi-de Hazor un."
+        },
+        {
+          "n": 20,
+          "t": "roi-de Chimrona Meron un, roi-de Achshaph un."
+        },
+        {
+          "n": 21,
+          "t": "roi-de Taanach un, roi-de Megiddo un."
+        },
+        {
+          "n": 22,
+          "t": "roi-de Kedesh un, roi-de Jokneam à/pour-le-Carmel un."
+        },
+        {
+          "n": 23,
+          "t": "roi-de Dor à/pour-height-de Dor un ; roi-de nations à/pour-Gilgal un."
+        },
+        {
+          "n": 24,
+          "t": "roi-de Tirzah un ; tout-de rois trente et-un."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-Josué a-vieilli, est-venu dans-les-jours ; YHWH et-a-dit vers-lui tu as-vieilli es-venu dans-les-jours, et-la-terre a-été-resté faire-multiplier très à/pour-déposséder-de-elle."
+        },
+        {
+          "n": 2,
+          "t": "celle-ci la-terre la-restée ; tout-de circuits-de les-Philistin et-tout-de le-Geshurite."
+        },
+        {
+          "n": 3,
+          "t": "depuis le-Shihor qui sur faces-de Égypte et-jusqu'à frontière-de Ekron nord-vers, à/pour-le-Canaanite sera-pensée ; cinq-de souverains-de Philistin le-Haazatiy et-le-Vehaachdodiy le-Ashkelonite le-Gittite, et-le-Vehaeqroniy et-le-Avites."
+        },
+        {
+          "n": 4,
+          "t": "depuis-sud tout-de terre-de le-Canaanite et-Mearah qui à/pour-les-Sidonian jusqu'à Aphek-vers ; jusqu'à frontière-de le-Amorite."
+        },
+        {
+          "n": 5,
+          "t": "et-la-terre le-Gebalite et-tout-de le-Liban east-de le-soleil, depuis-Baal-gad Gada, sous mont-de Hermon ; jusqu'à venir Hamath."
+        },
+        {
+          "n": 6,
+          "t": "tout-de habitants-de le-mont depuis le-Liban jusqu'à Misrfot Maim tout-de Sidonian, moi ferai-déposséder-eux, depuis-faces-de fils-de Israël ; seulement fais-tomber-elle à/pour-Israël dans-héritage, comme-lorsque je-ai-commandé-toi."
+        },
+        {
+          "n": 7,
+          "t": "et-maintenant divise la-terre la-celle-ci dans-héritage à/pour-neuf-de les-verges ; et-moitié-de le-verge le-Manassé."
+        },
+        {
+          "n": 8,
+          "t": "avec-lui le-Reubenite et-le-Hagadiy, ils-ont-pris héritage-de-eux ; qui Moïse a-donné à/pour-eux dans-delà-de le-Jourdain east-vers, comme-lorsque a-donné à/pour-eux, Moïse serviteur-de YHWH."
+        },
+        {
+          "n": 9,
+          "t": "depuis-Aroer qui sur lèvre-de torrent-de Arnon et-la-ville qui dans-milieu-de le-torrent et-tout-de le-droiture Medeba jusqu'à Dibon."
+        },
+        {
+          "n": 10,
+          "t": "et-tout-de villes-de Sihon roi-de le-Amorite, qui a-régné dans-Heshbon ; jusqu'à frontière-de fils-de Ammon."
+        },
+        {
+          "n": 11,
+          "t": "et-le-Gilead et-frontière-de le-Geshurite et-le-Maacathite et-tout-de mont-de Hermon et-tout-de le-Bashan jusqu'à Salecah."
+        },
+        {
+          "n": 12,
+          "t": "tout-de royaume-de Og dans-le-Bashan, qui a-régné dans-Ashtaroth et-dans-Edrei ; lui a-été-resté depuis-excès-de le-Rephaim, Moïse et-a-fait-frapper-eux et-a-fait-déposséder-eux."
+        },
+        {
+          "n": 13,
+          "t": "et-non fils-de Israël ont-fait-déposséder, le-Geshurite et-le-Maacathite ; Geshur et-Maacah et-a-habité dans-parmi-de Israël, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 14,
+          "t": "seulement à/pour-verge-de le-Lévi, non il-a-donné héritage ; holocaustes-de YHWH dieu-de Israël lui héritage-de-lui, comme-lorsque a-parlé à/pour-lui."
+        },
+        {
+          "n": 15,
+          "t": "Moïse et-a-donné, à/pour-tribu-de fils-de Ruben à/pour-familles-de-eux."
+        },
+        {
+          "n": 16,
+          "t": "le-frontière et-a-été à/pour-eux depuis-Aroer qui sur lèvre-de torrent-de Arnon et-la-ville qui dans-milieu-de le-torrent et-tout-de le-droiture sur Medeba."
+        },
+        {
+          "n": 17,
+          "t": "Heshbon et-tout-de villes-de-elle qui dans-le-droiture ; Dibon et-Bamot Bamoth, et-Oubeyt Oubeyt Meona."
+        },
+        {
+          "n": 18,
+          "t": "et-Jahaz-vers et-Kedemoth et-Mephaath."
+        },
+        {
+          "n": 19,
+          "t": "et-Kiriathaim et-Sebam, et-Vetseret Hachahar dans-mont-de le-vallée."
+        },
+        {
+          "n": 20,
+          "t": "et-Gangp Beth-peor et-pentes-de le-Pisgah et-Mibeyt Haychimot."
+        },
+        {
+          "n": 21,
+          "t": "et-tout-de villes-de le-droiture, et-tout-de royaume-de Sihon roi-de le-Amorite, qui a-régné dans-Heshbon ; qui Moïse a-fait-frapper lui et-leaders-de Madian Evi et-Rekem et-Zur et-Hur et-Reba, ggtebs-de Sihon, habitants-de la-terre."
+        },
+        {
+          "n": 22,
+          "t": "et-Balaam fils-de Beor le-gjlhant ; fils-de Israël ont-tué dans-la-épée vers tués-de-eux."
+        },
+        {
+          "n": 23,
+          "t": "frontière-de fils-de Ruben le-Jourdain et-frontière et-a-été ; celle-ci héritage-de fils-de Ruben à/pour-familles-de-eux, les-villes et-cours-de-elles."
+        },
+        {
+          "n": 24,
+          "t": "Moïse et-a-donné à/pour-tribu-de Gad, à/pour-fils-de Gad à/pour-familles-de-eux."
+        },
+        {
+          "n": 25,
+          "t": "le-frontière, Jazer et-a-été à/pour-eux et-tout-de villes-de le-Gilead, et-moitié-de, terre-de fils-de Ammon ; jusqu'à Aroer, qui sur faces-de Rabbah."
+        },
+        {
+          "n": 26,
+          "t": "et-depuis-Heshbon jusqu'à Ramat le-Hamitspe et-Betonim ; et-depuis-Mahanaim jusqu'à frontière-de Lidbir."
+        },
+        {
+          "n": 27,
+          "t": "et-dans-le-vallée Beth-haram Haram et-Beth-nimrah Nimra et-Succoth et-Zaphon excès-de royaume-de Sihon roi-de Heshbon, le-Jourdain et-frontière ; jusqu'à bout-de mer-de Kineret, delà-de le-Jourdain east-vers."
+        },
+        {
+          "n": 28,
+          "t": "celle-ci héritage-de fils-de Gad à/pour-familles-de-eux ; les-villes et-cours-de-eux."
+        },
+        {
+          "n": 29,
+          "t": "Moïse et-a-donné, à/pour-moitié-de verge-de Manassé ; et-il-a-été à/pour-moitié-de tribu-de fils-de Manassé à/pour-familles-de-eux."
+        },
+        {
+          "n": 30,
+          "t": "frontière-de-eux et-a-été depuis-Mahanaim tout-de le-Bashan tout-de royaume-de Og roi-de le-Bashan et-tout-de villages-de Jair qui dans-le-Bashan soixante ville."
+        },
+        {
+          "n": 31,
+          "t": "et-moitié-de le-Gilead et-Ashtaroth et-Edrei, villes-de royaume-de Og dans-le-Bashan ; à/pour-fils-de Machir fils-de Manassé, à/pour-moitié-de fils-de Machir à/pour-familles-de-eux."
+        },
+        {
+          "n": 32,
+          "t": "ces, qui Moïse a-hérité dans-plaines-de Moab ; depuis-delà à/pour-Jourdain Jéricho east-vers."
+        },
+        {
+          "n": 33,
+          "t": "et-à/pour-verge-de le-Lévi, non Moïse a-donné héritage ; YHWH dieu-de Israël lui héritage-de-eux, comme-lorsque a-parlé à/pour-eux."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ces qui fils-de Israël ont-hérité dans-terre-de Canaan ; qui ont-hérité eux Éléazar le-sacrificateur et-Josué fils-de Nun, et-têtes-de pères-de les-tribus à/pour-fils-de Israël."
+        },
+        {
+          "n": 2,
+          "t": "dans-sort-de héritage-de-eux ; comme-lorsque YHWH a-commandé dans-main-de Moïse, à/pour-neuf-de les-tribus et-moitié-de le-tribu."
+        },
+        {
+          "n": 3,
+          "t": "car Moïse a-donné héritage-de deux-de les-tribus et-moitié-de le-tribu, depuis-delà à/pour-le-Jourdain ; et-à/pour-les-Haleviy, non il-a-donné héritage dans-milieu-de-eux."
+        },
+        {
+          "n": 4,
+          "t": "car fils-de Joseph ont-été deux-de tribus Manassé et-Éphraïm ; et-non ont-donné part à/pour-les-Haleviy dans-la-terre pour gsxb villes à/pour-habiter, et-communs-de-eux, à/pour-bétails-de-eux et-à/pour-acquisition-de-eux."
+        },
+        {
+          "n": 5,
+          "t": "comme-lorsque YHWH a-commandé Moïse, ainsi ont-fait fils-de Israël ; et-ils-ont-divisé la-terre."
+        },
+        {
+          "n": 6,
+          "t": "fils-de Juda et-ont-approché vers Josué dans-le-Gilgal, et-a-dit vers-lui, Caleb fils-de Jephunneh le-Kenizzite ; tu as-su le-parole qui YHWH a-parlé vers Moïse homme-de le-dieu sur gfz-de-moi et-sur gfz-de-toi dans-Miqadech Barnea."
+        },
+        {
+          "n": 7,
+          "t": "fils-de quarante année moi dans-envoyer Moïse serviteur-de YHWH moi depuis-Miqadech Barnea à/pour-explorer la-terre ; et-je-ai-fait-retourner lui parole, comme-lorsque avec volonté-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "et-frères-de-moi qui sont-monté avec-moi, ont-fait-gfre cœur-de le-peuple ; et-moi ai-rempli, après YHWH dieu-de-moi."
+        },
+        {
+          "n": 9,
+          "t": "Moïse et-a-été-juré dans-le-jour le-lui à/pour-dire si non la-terre qui a-marché pied-de-toi dans-elle, à/pour-toi sera à/pour-héritage et-à/pour-fils-de-toi jusqu'à durée ; car tu-as-rempli, après YHWH dieu-de-moi."
+        },
+        {
+          "n": 10,
+          "t": "et-maintenant voici YHWH a-fait-guérir moi comme-lorsque a-parlé celui-ci quarante et-cinq année depuis-past YHWH a-parlé le-parole le-celui-ci vers Moïse, qui a-marché Israël dans-le-désert ; et-maintenant voici moi le-jour, fils-de cinq et-quatre-vingts année."
+        },
+        {
+          "n": 11,
+          "t": "encore-de-moi le-jour fort comme-lorsque dans-jour-de envoyer moi Moïse, comme-force-de-moi alors et-comme-force-de-moi maintenant ; à/pour-la-guerre et-à/pour-sortir et-à/pour-venir."
+        },
+        {
+          "n": 12,
+          "t": "et-maintenant donne-hé à/pour-moi le-mont le-celui-ci, qui YHWH a-parlé dans-le-jour le-lui ; car tu as-écouté dans-le-jour le-lui car anakites là et-villes grandes gatwes, peut-être YHWH ensemble-moi et-je-ai-fait-déposséder-eux, comme-lorsque YHWH a-parlé."
+        },
+        {
+          "n": 13,
+          "t": "Josué et-a-béni-lui ; et-a-donné Hébron à/pour-Caleb fils-de Jephunneh à/pour-héritage."
+        },
+        {
+          "n": 14,
+          "t": "sur ainsi Hébron a-été à/pour-Caleb fils-de Jephunneh le-Kenizzite à/pour-héritage, jusqu'à le-jour le-celui-ci ; gdvf qui YHWH a-rempli, après, dieu-de Israël."
+        },
+        {
+          "n": 15,
+          "t": "et-nom-de Hébron à/pour-faces Beqiryat kiriath-arbae, le-homme le-grand dans-les-anakites lui ; et-la-terre a-apaisé depuis-guerre."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "le-sort et-a-été à/pour-tribu-de fils-de Juda à/pour-familles-de-eux ; vers frontière-de Édom désert-de Zin negeb-vers depuis-bout-de sud."
+        },
+        {
+          "n": 2,
+          "t": "frontière-de negeb, et-a-été à/pour-eux depuis-bout-de mer-de le-sel ; depuis la-langue le-tournant negeb-vers."
+        },
+        {
+          "n": 3,
+          "t": "et-est-sorti vers depuis-negeb à/pour-Lemaale-de Akrabbim et-a-passé Zin-vers, et-est-monté depuis-negeb à/pour-Miqadech Barnea ; Hezron et-a-passé et-est-monté Addar-vers, et-a-été-tourné le-Karka-vers."
+        },
+        {
+          "n": 4,
+          "t": "et-a-passé Azmon-vers et-est-sorti torrent-de Égypte, et-a-été et-ont-été issues-de le-frontière mer-vers ; celui-ci frontière-de negeb sera à/pour-vous."
+        },
+        {
+          "n": 5,
+          "t": "et-frontière est-vers mer-de le-sel, jusqu'à bout-de le-Jourdain ; et-frontière à/pour-bord-de nord-vers depuis-langue-de le-mer, depuis-bout-de le-Jourdain."
+        },
+        {
+          "n": 6,
+          "t": "le-frontière Beth-hoglah Hagla et-est-monté, et-a-passé, depuis-nord-de à/pour-Lebeyta Haaraba ; le-frontière et-est-monté, pierre-de Bohan fils-de Ruben."
+        },
+        {
+          "n": 7,
+          "t": "le-frontière Debir-vers et-est-monté depuis-vallée-de Akhor et-nord-vers tournant vers le-Gilgal qui before à/pour-ascent-de Adummim, qui depuis-negeb à/pour-le-torrent ; le-frontière et-a-passé vers eaux-de En-shemesh Chemecha, et-ont-été issues-de-lui vers Eyna Rogel."
+        },
+        {
+          "n": 8,
+          "t": "le-frontière et-est-monté gbfh-de fils-de Hinom vers épaule-de le-Jebusite depuis-negeb, lui Jérusalem ; le-frontière et-est-monté vers tête-de le-mont qui sur faces-de gbfh-de Hinom mer-vers, qui dans-bout-de vallée-de Rephaim nord-vers."
+        },
+        {
+          "n": 9,
+          "t": "le-frontière et-a-esquissé depuis-tête-de le-mont vers source-de eaux-de Nephtoah, et-est-sorti vers villes-de mont-de Ephron ; le-frontière Baalaa et-a-esquissé, lui Veqiryat Yeariym."
+        },
+        {
+          "n": 10,
+          "t": "le-frontière et-a-été-tourné depuis-Baalaa mer-vers vers mont-de Seir, et-a-passé, vers épaule-de mont-de Yeariyma depuis-nord-vers lui Chesalon ; Beth-shemesh Chemech et-est-descendu et-a-passé Timnah."
+        },
+        {
+          "n": 11,
+          "t": "le-frontière et-est-sorti vers épaule-de Ekron nord-vers et-a-esquissé le-frontière Shikkeron-vers, et-a-passé mont-de le-Baalaa et-est-sorti Jabneel ; issues-de le-frontière et-ont-été mer-vers."
+        },
+        {
+          "n": 12,
+          "t": "et-frontière-de mer, le-mer-vers le-grand et-frontière ; celui-ci frontière-de fils-de Juda alentour à/pour-familles-de-eux."
+        },
+        {
+          "n": 13,
+          "t": "et-à/pour-Caleb part a-donné fils-de Jephunneh dans-milieu-de fils-de Juda, vers bouche-de YHWH à/pour-Josué ; Beqiryat kiriath-arbae père-de le-Anak lui Hébron."
+        },
+        {
+          "n": 14,
+          "t": "Caleb, et-a-fait-déposséder depuis-là trois fils-de le-Anak ; Sheshai et-Ahiman et-Talmai, nés-de le-Anak."
+        },
+        {
+          "n": 15,
+          "t": "et-est-monté depuis-là, vers habitants-de Debir ; et-nom-de Debir à/pour-faces Qiryata Sefer."
+        },
+        {
+          "n": 16,
+          "t": "Caleb et-a-dit, qui fera-frapper Qiryata Sefer et-a-capturé-elle ; et-je-ai-donné à/pour-lui Achsah fille-de-moi à/pour-femme."
+        },
+        {
+          "n": 17,
+          "t": "Othniel et-a-capturé-elle fils-de Kenaz frère-de Caleb ; et-il-a-donné à/pour-lui Achsah fille-de-lui à/pour-femme."
+        },
+        {
+          "n": 18,
+          "t": "et-a-été dans-venir-de-elle et-a-fait-inciter-lui à/pour-demander ensemble père-de-elle champ, et-a-gjaié sur le-âne ; Caleb et-a-dit à/pour-elle quoi à/pour-toi-f."
+        },
+        {
+          "n": 19,
+          "t": "et-a-dit donne-hé à/pour-moi bénédiction car terre-de le-negeb tu-as-donné-moi, et-tu-as-donné à/pour-moi cuvettes-de eaux ; et-il-a-donné à/pour-elle cuvettes supérieures, et-cuvettes bases."
+        },
+        {
+          "n": 20,
+          "t": "celle-ci héritage-de tribu-de fils-de Juda à/pour-familles-de-eux."
+        },
+        {
+          "n": 21,
+          "t": "et-ils-ont-été les-villes depuis-bout-de à/pour-tribu-de fils-de Juda, vers frontière-de Édom dans-le-negeb-vers ; Kabzeel et-Veeder et-Jagur."
+        },
+        {
+          "n": 22,
+          "t": "et-Kinah et-Dimonah et-Adadah."
+        },
+        {
+          "n": 23,
+          "t": "et-Kedesh et-Hazor et-Ithnan."
+        },
+        {
+          "n": 24,
+          "t": "Ziph et-Telem et-Bealoth."
+        },
+        {
+          "n": 25,
+          "t": "et-Vehatsor Hadata et-Kerioth, Hezron lui Hazor."
+        },
+        {
+          "n": 26,
+          "t": "Amam et-Shema et-Moladah."
+        },
+        {
+          "n": 27,
+          "t": "et-Vahatsar Gadaa et-Heshmon et-Beth-pelet Palet."
+        },
+        {
+          "n": 28,
+          "t": "et-Vahatsara Choual et-Beera Beersheba et-Biziothiah."
+        },
+        {
+          "n": 29,
+          "t": "Baalaa et-Iyim et-Ezem."
+        },
+        {
+          "n": 30,
+          "t": "et-Eltolad et-Chesil et-Hormah."
+        },
+        {
+          "n": 31,
+          "t": "et-Ziklag et-Madmannah et-Sansannah."
+        },
+        {
+          "n": 32,
+          "t": "et-Lebaoth et-Shilhim et-Ain et-Verimon ; tout-de villes vingt et-neuf et-cours-de-elles."
+        },
+        {
+          "n": 33,
+          "t": "dans-la-shephelah ; Eshtaol et-Zorah et-Ashnah."
+        },
+        {
+          "n": 34,
+          "t": "et-Zanoah et-Veeyna Ganiym, Tappuah et-le-Enaim."
+        },
+        {
+          "n": 35,
+          "t": "Jarmuth et-Adullam, Socoh et-Azekah."
+        },
+        {
+          "n": 36,
+          "t": "et-Shaaraim et-Adithaim, et-le-Gederah et-Gederothaim ; villes quatre dix et-cours-de-elles."
+        },
+        {
+          "n": 37,
+          "t": "Zenan et-Hadashah et-Oumigdal Migdal-gad."
+        },
+        {
+          "n": 38,
+          "t": "et-Dilean et-le-Mizpeh et-Joktheel."
+        },
+        {
+          "n": 39,
+          "t": "Lachish et-Bozkath et-Eglon."
+        },
+        {
+          "n": 40,
+          "t": "et-Cabbon et-Lahmam et-Chitlish."
+        },
+        {
+          "n": 41,
+          "t": "et-Gederoth, Beth-dagon Dagon et-Venaama et-Makkedah ; villes six dix et-cours-de-elles."
+        },
+        {
+          "n": 42,
+          "t": "Libnah et-Ether et-Ashan."
+        },
+        {
+          "n": 43,
+          "t": "et-Iphtah et-Ashnah et-Nezib."
+        },
+        {
+          "n": 44,
+          "t": "et-Keilah et-Achzib et-Mareshah ; villes neuf et-cours-de-elles."
+        },
+        {
+          "n": 45,
+          "t": "Ekron et-filles-de-elle et-cours-de-elle."
+        },
+        {
+          "n": 46,
+          "t": "depuis-Ekron et-mer-vers ; tout qui sur main-de Ashdod et-cours-de-elles."
+        },
+        {
+          "n": 47,
+          "t": "Ashdod filles-de-elle et-cours-de-elle Gaza filles-de-elle et-cours-de-elle jusqu'à torrent-de Égypte ; et-le-mer le-frontière le-grand et-frontière."
+        },
+        {
+          "n": 48,
+          "t": "et-dans-le-mont ; Shamir et-Jattir et-Socoh."
+        },
+        {
+          "n": 49,
+          "t": "et-Dannah et-Qiryata Sefer lui Debir."
+        },
+        {
+          "n": 50,
+          "t": "et-Anab et-Eshtemoa et-Anim."
+        },
+        {
+          "n": 51,
+          "t": "et-Goshen et-Holon et-Giloh ; villes une dix et-cours-de-elles."
+        },
+        {
+          "n": 52,
+          "t": "Arab et-Dumah et-Eshan."
+        },
+        {
+          "n": 53,
+          "t": "et-Janim et-Beth-tappuah Tapouha et-Aphekah."
+        },
+        {
+          "n": 54,
+          "t": "et-Humtah et-Beqiryat kiriath-arbae lui Hébron et-Zior ; villes neuf et-cours-de-elles."
+        },
+        {
+          "n": 55,
+          "t": "Maon Carmel et-Ziph et-Juttah."
+        },
+        {
+          "n": 56,
+          "t": "et-Jezreel et-Jokdeam et-Zanoah."
+        },
+        {
+          "n": 57,
+          "t": "le-Kain Gibeah et-Timnah ; villes tene et-cours-de-elles."
+        },
+        {
+          "n": 58,
+          "t": "Halhul Beth-zur Tsour et-Gedor."
+        },
+        {
+          "n": 59,
+          "t": "et-Maarath et-Oubeyta Anot et-Eltekon ; villes six et-cours-de-elles."
+        },
+        {
+          "n": 60,
+          "t": "Gjodp Kiriath-baal lui Veqiryat Yeariym et-le-Rabbah ; villes deux et-cours-de-elles."
+        },
+        {
+          "n": 61,
+          "t": "dans-le-désert ; Lebeyta Haaraba, Middin et-Secacah."
+        },
+        {
+          "n": 62,
+          "t": "et-le-Nibshan et-Veiyr-de le-city et-Veeyn Engedi ; villes six et-cours-de-elles."
+        },
+        {
+          "n": 63,
+          "t": "et-le-Jebusite habitants-de Jérusalem, non fils-de Juda vaincront ont-vaincu à/pour-faire-déposséder-de-eux ; le-Jebusite et-a-habité ensemble fils-de Juda dans-Jérusalem, jusqu'à le-jour le-celui-ci."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "le-sort et-est-sorti à/pour-fils-de Joseph depuis-Jourdain Jéricho, à/pour-eaux-de Jéricho east-vers ; le-désert montant depuis-Jéricho dans-le-mont Lebeyt Bethel."
+        },
+        {
+          "n": 2,
+          "t": "Bethel Luz-vers ; et-est-sorti depuis-Lebeyt frontière-de le-Archite Ataroth et-a-passé vers."
+        },
+        {
+          "n": 3,
+          "t": "et-est-descendu mer-vers vers frontière-de le-Japhletite jusqu'à frontière-de Beth-horon Horon inférieur et-jusqu'à Gezer ; issues-de-lui et-ont-été mer-vers."
+        },
+        {
+          "n": 4,
+          "t": "fils-de Joseph et-ont-hérité Manassé et-Éphraïm."
+        },
+        {
+          "n": 5,
+          "t": "frontière-de fils-de Éphraïm et-a-été à/pour-familles-de-eux ; frontière-de héritage-de-eux east-vers Atrota Adara et-a-été, jusqu'à Beth-horon Horon haut."
+        },
+        {
+          "n": 6,
+          "t": "le-frontière le-mer-vers le-Michmethath et-est-sorti depuis-nord, et-a-été-tourné le-frontière east-vers Taanat Chilo ; et-il-a-passé lui, depuis-east-de Janoah-vers."
+        },
+        {
+          "n": 7,
+          "t": "et-est-descendu depuis-Janoah-vers Ataroth et-Naarah-vers ; et-a-rencontré dans-Jéricho, le-Jourdain et-est-sorti."
+        },
+        {
+          "n": 8,
+          "t": "depuis-Tappuah le-frontière mer-vers ira torrent-de Kanah, et-ont-été issues-de-lui le-mer-vers ; celle-ci héritage-de tribu-de fils-de Éphraïm à/pour-familles-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "et-les-villes les-separates à/pour-fils-de Éphraïm, dans-milieu-de héritage-de fils-de Manassé ; tout-de les-villes et-cours-de-elles."
+        },
+        {
+          "n": 10,
+          "t": "et-non ils-ont-fait-déposséder, le-Canaanite le-habitant dans-Gezer ; le-Canaanite et-a-habité dans-parmi-de Éphraïm jusqu'à le-jour le-celui-ci, et-a-été à/pour-taskworker-de servissant."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "le-sort et-a-été à/pour-tribu-de Manassé, car lui premier-né-de Joseph ; à/pour-Machir premier-né-de Manassé père-de le-Gilead car lui a-été homme-de guerre, et-a-été à/pour-lui le-Gilead et-le-Bashan."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-été à/pour-fils-de Manassé les-demeurés à/pour-familles-de-eux à/pour-fils-de Abiezer et-à/pour-fils-de Helek et-à/pour-fils-de Asriel et-à/pour-fils-de Vechekhem, et-à/pour-fils-de Hepher et-à/pour-fils-de Shemida ; ces fils-de Manassé fils-de Joseph les-mâles à/pour-familles-de-eux."
+        },
+        {
+          "n": 3,
+          "t": "et-à/pour-Zelophehad fils-de Hepher fils-de Gilead fils-de Machir fils-de Manassé non fils ont-été à/pour-lui pour gsxb filles ; et-ces noms-de filles-de-lui, Mahlah et-Venoa, Hoglah Milcah et-Tirzah."
+        },
+        {
+          "n": 4,
+          "t": "et-elles-ont-present à/pour-faces-de Éléazar le-sacrificateur et-à/pour-faces-de Josué fils-de Nun et-à/pour-faces-de les-leaders à/pour-dire, YHWH a-commandé Moïse, à/pour-donner à/pour-nous héritage dans-milieu-de frères-de-nous ; bouche-de YHWH et-a-donné à/pour-eux vers héritage, dans-milieu-de frères-de père-de-elles."
+        },
+        {
+          "n": 5,
+          "t": "mahalabs-de Manassé et-sont-tombé ten ; à/pour-seul depuis-terre-de le-Gilead et-le-Bashan, qui depuis-delà à/pour-le-Jourdain."
+        },
+        {
+          "n": 6,
+          "t": "car filles-de Manassé, ont-hérité héritage dans-milieu-de fils-de-lui ; et-terre-de le-Gilead, a-été à/pour-fils-de Manassé les-demeurés."
+        },
+        {
+          "n": 7,
+          "t": "frontière-de Manassé et-a-été depuis-Aser, le-Michmethath, qui sur faces-de Shechem ; le-frontière et-a-marché vers la-right, vers habitants-de En-tappuah Tapouhaa."
+        },
+        {
+          "n": 8,
+          "t": "à/pour-Manassé, terre-de Tappuah a-été ; et-Tappuah vers frontière-de Manassé à/pour-fils-de Éphraïm."
+        },
+        {
+          "n": 9,
+          "t": "le-frontière et-est-descendu torrent-de Kanah negeb-vers à/pour-le-torrent villes les-ces à/pour-Éphraïm, dans-milieu-de villes-de Manassé ; et-frontière-de Manassé depuis-nord-de à/pour-le-torrent, et-a-été issues-de-lui le-mer-vers."
+        },
+        {
+          "n": 10,
+          "t": "negeb-vers à/pour-Éphraïm et-nord-vers à/pour-Manassé, et-a-été le-mer frontière-de-lui ; et-dans-Aser ils-rencontreront depuis-nord, et-dans-Issacar depuis-east."
+        },
+        {
+          "n": 11,
+          "t": "Beth-shean Chean et-a-été à/pour-Manassé dans-Issacar et-dans-Aser et-filles-de-elle et-Ibleam et-filles-de-elle et-habitants-de Dor et-filles-de-elle et-habitants-de En-dor Dora et-filles-de-elle, et-habitants-de Taanach et-filles-de-elle, et-habitants-de Megiddo et-filles-de-elle ; trois-de la-hauteur."
+        },
+        {
+          "n": 12,
+          "t": "et-non fils-de Manassé ont-vaincu, à/pour-faire-déposséder les-villes les-ces ; le-Canaanite et-a-fait-consentir, à/pour-habiter dans-la-terre la-celle-ci."
+        },
+        {
+          "n": 13,
+          "t": "et-il-a-été car fils-de Israël ont-fortifié, et-ont-donné le-Canaanite à/pour-taskworker ; et-faire-déposséder non il-a-fait-déposséder-lui."
+        },
+        {
+          "n": 14,
+          "t": "fils-de Joseph et-ont-parlé, ensemble Josué à/pour-dire ; why tu-as-donné à/pour-moi héritage sort un et-mahalab un, et-je peuple nombreux, jusqu'à qui jusqu'à thus a-béni-moi YHWH."
+        },
+        {
+          "n": 15,
+          "t": "Josué et-a-dit vers-eux si peuple nombreux tu monte à/pour-toi le-forêt-vers, et-as-créé à/pour-toi là, dans-terre-de le-Perizzite et-le-Rephaim ; car mont-de Éphraïm a-gheé à/pour-toi."
+        },
+        {
+          "n": 16,
+          "t": "fils-de Joseph et-ont-dit, non sera-trouvé à/pour-nous le-mont ; et-char-de fer dans-tout-de le-Canaanite le-habitant dans-terre-de le-vallée, à/pour-qui dans-Beth-shean Chean et-filles-de-elle, et-à/pour-qui dans-vallée-de Jezreel."
+        },
+        {
+          "n": 17,
+          "t": "Josué et-a-dit vers maison-de Joseph, à/pour-Éphraïm et-à/pour-Manassé à/pour-dire ; peuple nombreux tu et-force grand à/pour-toi-f, non sera à/pour-toi sort un."
+        },
+        {
+          "n": 18,
+          "t": "car mont sera à/pour-toi-f car forêt lui, et-tu-as-créé-lui, et-a-été à/pour-toi issues-de-lui ; car tu-feras-déposséder le-Canaanite car char-de fer à/pour-lui, car fort lui."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-ils-ont-été-assemblé tout-de assemblée-de fils-de Israël Shiloh, et-ils-ont-fait-habiter là tente-de rencontre ; et-la-terre a-été-assujetti à/pour-faces-de-eux."
+        },
+        {
+          "n": 2,
+          "t": "et-ils-ont-été-demeuré dans-fils-de Israël, qui non ils-ont-divisé héritage-de-eux ; sept verges."
+        },
+        {
+          "n": 3,
+          "t": "Josué et-a-dit vers fils-de Israël ; jusqu'à where vous se-baissants, à/pour-venir à/pour-déposséder la-terre, qui YHWH a-donné à/pour-vous, dieu-de pères-de-vous."
+        },
+        {
+          "n": 4,
+          "t": "pourvoir à/pour-vous trois hommes à/pour-le-verge ; et-je-envoyerai-eux et-ils-leveront et-ils-marcheront dans-la-terre et-ils-écriront elle à/pour-bouche-de héritage-de-eux et-ils-viendront vers-moi."
+        },
+        {
+          "n": 5,
+          "t": "et-ont-se-divisé elle à/pour-sept parts ; Juda restera sur frontière-de-lui depuis-negeb, et-maison-de Joseph ils-resteront sur frontière-de-eux depuis-nord."
+        },
+        {
+          "n": 6,
+          "t": "et-vous écrirez la-terre sept parts, et-avez-fait-venir vers-moi ici ; et-je-ai-show à/pour-vous sort gihs, à/pour-faces-de YHWH dieu-de-nous."
+        },
+        {
+          "n": 7,
+          "t": "car néant part à/pour-les-Haleviy dans-parmi-de-vous, car sacerdoce-de YHWH héritage-de-lui ; et-Gad et-Ruben et-moitié-de verge-de le-Manassé ils-ont-pris héritage-de-eux depuis-delà à/pour-le-Jourdain east-vers, qui a-donné à/pour-eux, Moïse serviteur-de YHWH."
+        },
+        {
+          "n": 8,
+          "t": "les-hommes et-sont-levé et-sont-allé ; Josué et-a-commandé les-marchants à/pour-écrire la-terre à/pour-dire allez et-marchez dans-la-terre et-écrivez elle et-retournez vers-moi, et-gihs je-ferai-jeter à/pour-vous sort à/pour-faces-de YHWH dans-Shiloh."
+        },
+        {
+          "n": 9,
+          "t": "les-hommes et-sont-allé et-ont-passé dans-la-terre, parts et-ont-écrit-elle à/pour-les-villes à/pour-sept sur livre ; et-ils-sont-venu vers Josué vers le-camp Shiloh."
+        },
+        {
+          "n": 10,
+          "t": "Josué sort et-a-fait-jeter à/pour-eux dans-Shiloh à/pour-faces-de YHWH ; Josué et-a-divisé là la-terre à/pour-fils-de Israël comme-divisions-de-eux."
+        },
+        {
+          "n": 11,
+          "t": "sort-de tribu-de fils-de Benjamin et-est-monté à/pour-familles-de-eux ; frontière-de sort-de-eux et-est-sorti, entre fils-de Juda, et-entre fils-de Joseph."
+        },
+        {
+          "n": 12,
+          "t": "le-frontière et-a-été à/pour-eux à/pour-bord-de nord-vers depuis le-Jourdain ; le-frontière et-est-monté vers épaule-de Jéricho depuis-nord et-est-monté dans-le-mont mer-vers, et-a-été et-ont-été issues-de-lui, désert-de Beth-aven Aven."
+        },
+        {
+          "n": 13,
+          "t": "le-frontière Luz-vers et-a-passé depuis-là vers épaule-de Luz-vers negeb-vers, lui Lebeyt Bethel ; le-frontière Atrota Adara et-est-descendu, sur le-mont, qui depuis-negeb à/pour-Beth-horon Horon inférieur."
+        },
+        {
+          "n": 14,
+          "t": "le-frontière et-a-esquissé et-a-été-tourné à/pour-bord-de mer negeb-vers depuis le-mont qui sur faces-de Beth-horon Horon negeb-vers et-a-été et-ont-été issues-de-lui vers Gjodp Kiriath-baal lui Veqiryat Yeariym, ville-de fils-de Juda ; celle-ci bord-de mer."
+        },
+        {
+          "n": 15,
+          "t": "et-bord-de negeb-vers, depuis-bout-de Veqiryat Yeariym ; le-frontière mer-vers et-est-sorti, et-est-sorti, vers source-de eaux-de Nephtoah."
+        },
+        {
+          "n": 16,
+          "t": "le-frontière et-est-descendu vers bout-de le-mont qui sur faces-de gbfh-de fils-de Hinom, qui dans-vallée-de Rephaim nord-vers ; gbfh-de Hinom et-est-descendu vers épaule-de le-Jebusite negeb-vers, et-est-descendu Eyna Rogel."
+        },
+        {
+          "n": 17,
+          "t": "et-a-esquissé depuis-nord En-shemesh Chemecha et-est-sorti, et-est-sorti vers Geliloth, qui before ascent-de Adummim ; et-est-descendu, pierre-de Bohan fils-de Ruben."
+        },
+        {
+          "n": 18,
+          "t": "et-il-a-passé vers épaule-de opposite la-plaine nord-vers ; et-il-est-descendu la-plaine-vers."
+        },
+        {
+          "n": 19,
+          "t": "le-frontière et-a-passé vers épaule-de Beth-hoglah Hagla nord-vers et-a-été et-ont-été issues-de-lui issues-de le-frontière vers langue-de mer-de le-sel nord-vers, vers bout-de le-Jourdain negeb-vers ; celui-ci frontière-de negeb."
+        },
+        {
+          "n": 20,
+          "t": "et-le-Jourdain limitera lui à/pour-bord-de est-vers ; celle-ci héritage-de fils-de Benjamin à/pour-limites-de-elle alentour à/pour-familles-de-eux."
+        },
+        {
+          "n": 21,
+          "t": "les-villes et-ont-été à/pour-tribu-de fils-de Benjamin à/pour-familles-de-eux ; Jéricho et-Beth-hoglah Hagla et-vallée-de Qetsiyts."
+        },
+        {
+          "n": 22,
+          "t": "et-Lebeyta Haaraba et-Outsmaraim et-Lebeyt Bethel."
+        },
+        {
+          "n": 23,
+          "t": "et-le-Avvim et-le-Parah et-Ophrah."
+        },
+        {
+          "n": 24,
+          "t": "et-Oukhfar Haamona et-le-Ophni et-Geba ; villes deux dix et-cours-de-elles."
+        },
+        {
+          "n": 25,
+          "t": "Gibeon et-le-Ramah et-Beeroth."
+        },
+        {
+          "n": 26,
+          "t": "et-le-Mizpeh et-le-Chephirah et-le-Mozah."
+        },
+        {
+          "n": 27,
+          "t": "et-Rekem et-Irpeel et-Taralah."
+        },
+        {
+          "n": 28,
+          "t": "et-Zela Haeleph et-le-Jebusite lui Jérusalem Gibat Yeariym, villes quatre dix et-cours-de-elles ; celle-ci héritage-de fils-de Benjamin à/pour-familles-de-eux."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "le-sort le-second et-est-sorti à/pour-Siméon, à/pour-tribu-de fils-de Siméon à/pour-familles-de-eux ; et-il-a-été héritage-de-eux, dans-milieu-de héritage-de fils-de Juda."
+        },
+        {
+          "n": 2,
+          "t": "et-il-a-été à/pour-eux dans-héritage-de-eux ; Beera Beersheba et-benjamite et-Moladah."
+        },
+        {
+          "n": 3,
+          "t": "et-Vahatsara Choual et-Balah et-Ezem."
+        },
+        {
+          "n": 4,
+          "t": "et-Eltolad et-Bethul et-Hormah."
+        },
+        {
+          "n": 5,
+          "t": "et-Ziklag et-Beth-marcaboth Hamarkabot et-Hazar-susah Sousa."
+        },
+        {
+          "n": 6,
+          "t": "et-Beth-lebaoth Lebaot et-Sharuhen ; villes trois dix et-cours-de-elles."
+        },
+        {
+          "n": 7,
+          "t": "Ain Verimon et-Ether et-Ashan ; villes quatre et-cours-de-elles."
+        },
+        {
+          "n": 8,
+          "t": "et-tout-de les-cours qui alentours-de les-villes les-ces, jusqu'à Baalat Baalath-beer Ramah negeb ; celle-ci héritage-de tribu-de fils-de Siméon à/pour-familles-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "depuis-mahalab-de fils-de Juda, héritage-de fils-de Siméon ; car part-de fils-de Juda nombreux a-été depuis-eux, et-ont-hérité fils-de Siméon dans-milieu-de héritage-de-eux."
+        },
+        {
+          "n": 10,
+          "t": "le-sort le-troisième et-est-monté, à/pour-fils-de Zabulon à/pour-familles-de-eux ; frontière-de héritage-de-eux et-a-été jusqu'à Sarid."
+        },
+        {
+          "n": 11,
+          "t": "frontière-de-eux et-est-monté à/pour-le-mer-vers et-Mareal et-a-rencontré dans-Dabbesheth ; le-torrent, et-a-rencontré vers qui sur faces-de Jokneam."
+        },
+        {
+          "n": 12,
+          "t": "et-est-retourné depuis-Sarid est-vers east-de le-soleil, sur frontière-de Kislot Tabora ; le-Daberath et-est-sorti vers et-est-monté Japhia."
+        },
+        {
+          "n": 13,
+          "t": "et-depuis-là a-passé est-vers east-vers, Gita-vers Hefera Ita Qatsiyn ; Verimon le-esquissé le-Neah et-est-sorti."
+        },
+        {
+          "n": 14,
+          "t": "et-il-a-été-tourné lui le-frontière, depuis-nord-de Hannathon ; issues-de-lui et-ont-été, gbfh-de Ifta Ela."
+        },
+        {
+          "n": 15,
+          "t": "et-Kattath et-Nahalol et-Chimron, et-Idalah et-Beyt Bethléhem ; villes deux dix et-cours-de-elles."
+        },
+        {
+          "n": 16,
+          "t": "celle-ci héritage-de fils-de Zabulon à/pour-familles-de-eux ; les-villes les-ces et-cours-de-elles."
+        },
+        {
+          "n": 17,
+          "t": "à/pour-Issacar, le-sort le-quatrième est-sorti ; à/pour-fils-de Issacar à/pour-familles-de-eux."
+        },
+        {
+          "n": 18,
+          "t": "frontière-de-eux et-a-été ; Jezreel-vers et-le-Chesulloth et-Shunem."
+        },
+        {
+          "n": 19,
+          "t": "et-Hapharaim et-Shion et-Anaharath."
+        },
+        {
+          "n": 20,
+          "t": "et-le-Rabbith et-Kishion et-Ebez."
+        },
+        {
+          "n": 21,
+          "t": "et-Remeth et-Veeyna Ganiym et-En-haddah Hada et-Beth-pazzez Patsets."
+        },
+        {
+          "n": 22,
+          "t": "le-frontière et-a-rencontré dans-Betabor et-Shahazumah-vers et-Beth-shemesh Chemech, et-ont-été issues-de frontière-de-eux le-Jourdain ; villes six dix et-cours-de-elles."
+        },
+        {
+          "n": 23,
+          "t": "celle-ci héritage-de tribu-de fils-de Issacar à/pour-familles-de-eux ; les-villes et-cours-de-elles."
+        },
+        {
+          "n": 24,
+          "t": "le-sort le-cinquième et-est-sorti, à/pour-tribu-de fils-de Aser à/pour-familles-de-eux."
+        },
+        {
+          "n": 25,
+          "t": "frontière-de-eux et-a-été ; Helkath et-Hali et-Beten et-Achshaph."
+        },
+        {
+          "n": 26,
+          "t": "et-Allammelech et-Amad et-Mishal ; et-a-rencontré dans-Carmel le-mer-vers, et-dans-Oubchiyhor Libnat."
+        },
+        {
+          "n": 27,
+          "t": "east-de le-soleil Beth-dagon Dagon et-est-retourné et-a-rencontré dans-Zabulon et-dans-gbfh-de Ifta Ela nord-vers Beth-emek Haemeq et-Neiel ; Cabul et-est-sorti vers depuis-gauche."
+        },
+        {
+          "n": 28,
+          "t": "et-Ebron et-Rehob et-Hammon et-Kanah ; jusqu'à Sidon nombreuse."
+        },
+        {
+          "n": 29,
+          "t": "le-frontière le-Ramah et-est-retourné, et-jusqu'à ville-de forteresse-de Tyr ; le-frontière Hosah et-est-retourné, et-seront et-ont-été issues-de-lui le-mer-vers depuis-mahalab Achzib-vers."
+        },
+        {
+          "n": 30,
+          "t": "et-Ummah et-Aphek et-Rehob ; villes vingt et-deux et-cours-de-elles."
+        },
+        {
+          "n": 31,
+          "t": "celle-ci héritage-de tribu-de fils-de Aser à/pour-familles-de-eux ; les-villes les-ces et-cours-de-elles."
+        },
+        {
+          "n": 32,
+          "t": "à/pour-fils-de Nephthali, le-sort le-sixième est-sorti ; à/pour-fils-de Nephthali à/pour-familles-de-eux."
+        },
+        {
+          "n": 33,
+          "t": "frontière-de-eux et-a-été depuis-Heleph depuis-oak dans-Zaanannim et-Adami Haneqeb et-Jabneel jusqu'à Lakkum ; et-a-été issues-de-lui le-Jourdain."
+        },
+        {
+          "n": 34,
+          "t": "le-frontière mer-vers Aznot Tabor et-est-retourné, et-est-sorti depuis-là Hukkok-vers ; et-a-rencontré dans-Zabulon depuis-negeb et-dans-Aser le-Jourdain a-rencontré depuis-mer, et-dans-Juda, east-de le-soleil."
+        },
+        {
+          "n": 35,
+          "t": "et-villes-de forteresse ; le-Ziddim Zer, et-Hammath Rakkath et-Kineret."
+        },
+        {
+          "n": 36,
+          "t": "et-Adamah et-le-Ramah et-Hazor."
+        },
+        {
+          "n": 37,
+          "t": "et-Kedesh et-Edrei et-En-hazor Hatsor."
+        },
+        {
+          "n": 38,
+          "t": "et-Yiron et-Oumigdala Migdal-el, Horem et-Beth-anath Anat et-Beth-shemesh Chemech ; villes neuf dix et-cours-de-elles."
+        },
+        {
+          "n": 39,
+          "t": "celle-ci héritage-de tribu-de fils-de Nephthali à/pour-familles-de-eux ; les-villes et-cours-de-elles."
+        },
+        {
+          "n": 40,
+          "t": "à/pour-tribu-de fils-de Dan à/pour-familles-de-eux ; le-sort le-septième est-sorti."
+        },
+        {
+          "n": 41,
+          "t": "frontière-de héritage-de-eux et-a-été ; Zorah et-Eshtaol et-Veiyra Chamech."
+        },
+        {
+          "n": 42,
+          "t": "et-Shaalbim et-Aijalon et-Ithlah."
+        },
+        {
+          "n": 43,
+          "t": "et-Elon et-Timnah-vers et-Ekron."
+        },
+        {
+          "n": 44,
+          "t": "et-Eltekeh et-Gibbethon et-Baalath."
+        },
+        {
+          "n": 45,
+          "t": "et-Jehud et-Oubney Beraq et-Vegat Rimon."
+        },
+        {
+          "n": 46,
+          "t": "et-Oumey Hayarqon et-le-Rakkon ; avec le-frontière opposite Joppa."
+        },
+        {
+          "n": 47,
+          "t": "frontière-de fils-de Dan et-est-sorti depuis-eux ; fils-de Dan et-sont-monté et-ont-été-combattu avec Leshem et-ont-capturé elle et-ont-fait-frapper elle à/pour-bouche-de épée et-ont-dépossédé elle et-ont-habité dans-elle, et-ont-appelé à/pour-Leshem Dan, comme-nom-de Dan père-de-eux."
+        },
+        {
+          "n": 48,
+          "t": "celle-ci héritage-de tribu-de fils-de Dan à/pour-familles-de-eux ; les-villes les-ces et-cours-de-elles."
+        },
+        {
+          "n": 49,
+          "t": "et-ils-ont-achevé à/pour-hériter la-terre à/pour-limites-de-elle ; fils-de Israël et-ont-donné héritage à/pour-Josué fils-de Nun dans-milieu-de-eux."
+        },
+        {
+          "n": 50,
+          "t": "sur bouche-de YHWH ils-ont-donné à/pour-lui la-ville qui a-demandé, Timnat Timnat dans-mont-de Éphraïm ; et-il-a-bâti la-ville et-il-a-habité dans-elle."
+        },
+        {
+          "n": 51,
+          "t": "ces les-héritages qui ont-hérité Éléazar le-sacrificateur et-Josué fils-de Nun et-têtes-de les-pères à/pour-tribus-de fils-de Israël dans-sort dans-Shiloh à/pour-faces-de YHWH, entrée-de tente-de rencontre ; et-ils-ont-achevé, depuis-diviser la-terre."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH et-a-parlé, vers Josué à/pour-dire."
+        },
+        {
+          "n": 2,
+          "t": "parle vers fils-de Israël à/pour-dire ; donnez à/pour-vous villes-de le-refuge, qui je-ai-parlé vers-vous dans-main-de Moïse."
+        },
+        {
+          "n": 3,
+          "t": "à/pour-fuir là-vers assassinant, faisant-frapper-de âme dans-unintentionally dans-nul-de connaissance ; et-ils-ont-été à/pour-vous à/pour-refuge, depuis-rachetant-de le-sang."
+        },
+        {
+          "n": 4,
+          "t": "et-a-fui vers une depuis-les-villes les-ces entrée-de porte-de la-ville et-a-resté, et-a-parlé dans-oreilles-de vieux-de la-ville la-lui paroles-de-lui ; et-ils-ont-recueilli lui la-ville-vers vers-eux, et-ils-ont-donné à/pour-lui lieu et-a-habité avec-eux."
+        },
+        {
+          "n": 5,
+          "t": "et-car poursuivra rachetant-de le-sang après-lui, et-non ils-feront-fermer le-assassinant dans-main-de-lui ; car dans-nul connaissance a-fait-frapper ami-de-lui, et-non gkzrant lui à/pour-lui depuis-auparavant three."
+        },
+        {
+          "n": 6,
+          "t": "et-a-habité dans-la-ville la-lui jusqu'à rester-de-lui à/pour-faces-de la-assemblée à/pour-le-jugement, jusqu'à mort-de le-sacrificateur le-grand, qui sera dans-les-jours les-eux ; alors retournera le-assassinant et-est-venu vers ville-de-lui et-vers maison-de-lui, vers la-ville qui a-fui depuis-là."
+        },
+        {
+          "n": 7,
+          "t": "et-ils-ont-fait-sanctifier Kedesh dans-le-Galilee dans-mont-de Nephthali, et-Shechem dans-mont-de Éphraïm ; et-Beqiryat kiriath-arbae lui Hébron dans-mont-de Juda."
+        },
+        {
+          "n": 8,
+          "t": "et-depuis-delà à/pour-Jourdain Jéricho east-vers, ils-ont-donné Bezer dans-le-désert dans-le-droiture depuis-tribu-de Ruben ; et-Ramoth dans-le-Gilead depuis-tribu-de Gad, et-Golan dans-le-Bashan depuis-tribu-de Manassé."
+        },
+        {
+          "n": 9,
+          "t": "ces villes-de la-déterminées ont-été à/pour-tout-de fils-de Israël et-à/pour-le-sojourner le-séjournant dans-milieu-de-eux, à/pour-fuir là-vers, tout-de faisant-frapper-de âme dans-unintentionally ; et-non mourra dans-main-de rachetant-de le-sang, jusqu'à rester-de-lui à/pour-faces-de la-assemblée."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "têtes-de pères-de les-Haleviy et-ont-approché, vers Éléazar le-sacrificateur, et-vers Josué fils-de Nun ; et-vers têtes-de pères-de les-tribus à/pour-fils-de Israël."
+        },
+        {
+          "n": 2,
+          "t": "et-ils-ont-parlé vers-eux dans-Shiloh dans-terre-de Canaan à/pour-dire, YHWH a-commandé dans-main-de Moïse, à/pour-donner à/pour-nous villes à/pour-habiter ; et-communs-de-elles à/pour-bête-de-nous."
+        },
+        {
+          "n": 3,
+          "t": "fils-de Israël et-ont-donné à/pour-les-Haleviy depuis-héritage-de-eux vers bouche-de YHWH ; les-villes les-ces et-communs-de-elles."
+        },
+        {
+          "n": 4,
+          "t": "le-sort et-est-sorti à/pour-familles-de le-Kohathite ; et-a-été à/pour-fils-de Aaron le-sacrificateur depuis les-Haleviy depuis-tribu-de Juda et-depuis-tribu-de le-Lachimoniy et-depuis-tribu-de Benjamin dans-le-sort, villes trois dix."
+        },
+        {
+          "n": 5,
+          "t": "et-à/pour-fils-de Kohath les-demeurés depuis-familles-de tribu-de Éphraïm et-depuis-tribu-de Dan et-depuis-moitié-de tribu-de Manassé dans-le-sort villes tene."
+        },
+        {
+          "n": 6,
+          "t": "et-à/pour-fils-de Gershon depuis-familles-de tribu-de Issacar et-depuis-tribu-de Aser et-depuis-tribu-de Nephthali et-depuis-moitié-de tribu-de Manassé dans-le-Bashan dans-le-sort, villes trois dix."
+        },
+        {
+          "n": 7,
+          "t": "à/pour-fils-de Merari à/pour-familles-de-eux depuis-tribu-de Ruben et-depuis-tribu-de Gad et-depuis-tribu-de Zabulon, villes deux dix."
+        },
+        {
+          "n": 8,
+          "t": "fils-de Israël et-ont-donné à/pour-les-Haleviy, les-villes les-ces et-communs-de-elles ; comme-lorsque YHWH a-commandé dans-main-de Moïse dans-le-sort."
+        },
+        {
+          "n": 9,
+          "t": "et-ils-ont-donné depuis-tribu-de fils-de Juda, et-depuis-tribu-de fils-de Siméon ; les-villes les-ces, qui il-appelera elles dans-nom."
+        },
+        {
+          "n": 10,
+          "t": "et-il-a-été à/pour-fils-de Aaron, depuis-familles-de le-Kohathite depuis-fils-de Lévi ; car à/pour-eux le-sort premiere a-été."
+        },
+        {
+          "n": 11,
+          "t": "et-ils-ont-donné à/pour-eux Beqiryat kiriath-arbae père-de le-Anak lui Hébron dans-mont-de Juda ; et-communs-de-elle alentours-de-elle."
+        },
+        {
+          "n": 12,
+          "t": "et-champ-de la-ville et-cours-de-elle ; ils-ont-donné à/pour-Caleb fils-de Jephunneh dans-possession-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "et-à/pour-fils-de Aaron le-sacrificateur ils-ont-donné ville-de refuge-de le-assassinant, Hébron et-communs-de-elle ; et-Libnah et-communs-de-elle."
+        },
+        {
+          "n": 14,
+          "t": "et-Jattir et-communs-de-elle, et-Eshtemoa et-communs-de-elle."
+        },
+        {
+          "n": 15,
+          "t": "et-Holon et-communs-de-elle, et-Debir et-communs-de-elle."
+        },
+        {
+          "n": 16,
+          "t": "et-Ain et-communs-de-elle et-Juttah et-communs-de-elle, Beth-shemesh Chemech et-communs-de-elle ; villes neuf, ensemble, deux-de les-verges les-ces."
+        },
+        {
+          "n": 17,
+          "t": "et-depuis-tribu-de Benjamin, Gibeon et-communs-de-elle ; Geba et-communs-de-elle."
+        },
+        {
+          "n": 18,
+          "t": "Anathoth et-communs-de-elle, et-Almon et-communs-de-elle ; villes quatre."
+        },
+        {
+          "n": 19,
+          "t": "tout-de villes-de fils-de Aaron les-sacrificateurs ; trois dix villes et-communs-de-elles."
+        },
+        {
+          "n": 20,
+          "t": "et-à/pour-familles-de fils-de Kohath les-Haleviy, les-demeurés depuis-fils-de Kohath ; et-il-a-été villes-de sort-de-eux, depuis-tribu-de Éphraïm."
+        },
+        {
+          "n": 21,
+          "t": "et-ils-ont-donné à/pour-eux ville-de refuge-de le-assassinant Shechem et-communs-de-elle dans-mont-de Éphraïm ; et-Gezer et-communs-de-elle."
+        },
+        {
+          "n": 22,
+          "t": "et-Kibzaim et-communs-de-elle, et-Beth-horon Horon et-communs-de-elle ; villes quatre."
+        },
+        {
+          "n": 23,
+          "t": "et-depuis-tribu-de Dan, Eltekeh et-communs-de-elle ; Gibbethon et-communs-de-elle."
+        },
+        {
+          "n": 24,
+          "t": "Aijalon et-communs-de-elle, Vegat Rimon et-communs-de-elle ; villes quatre."
+        },
+        {
+          "n": 25,
+          "t": "et-depuis-half-de tribu-de Manassé, Taanach et-communs-de-elle, et-Vegat Rimon et-communs-de-elle ; villes deux."
+        },
+        {
+          "n": 26,
+          "t": "tout-de villes tene et-communs-de-elles ; à/pour-familles-de fils-de Kohath les-demeurés."
+        },
+        {
+          "n": 27,
+          "t": "et-à/pour-fils-de Gershon depuis-familles-de les-Haleviy depuis-moitié-de tribu-de Manassé ville-de refuge-de le-assassinant, Golan dans-le-Bashan et-communs-de-elle, et-Beeshterah et-communs-de-elle ; villes deux."
+        },
+        {
+          "n": 28,
+          "t": "et-depuis-tribu-de Issacar, Kishion et-communs-de-elle ; Daberath et-communs-de-elle."
+        },
+        {
+          "n": 29,
+          "t": "Jarmuth et-communs-de-elle, Veeyna Ganiym et-communs-de-elle ; villes quatre."
+        },
+        {
+          "n": 30,
+          "t": "et-depuis-tribu-de Aser, Mishal et-communs-de-elle ; Abdon et-communs-de-elle."
+        },
+        {
+          "n": 31,
+          "t": "Helkath et-communs-de-elle, et-Rehob et-communs-de-elle ; villes quatre."
+        },
+        {
+          "n": 32,
+          "t": "et-depuis-tribu-de Nephthali ville-de refuge-de le-assassinant Kedesh dans-le-Galilee et-communs-de-elle et-Hamot Hammoth-dor et-communs-de-elle, et-Kartan et-communs-de-elle ; villes trois."
+        },
+        {
+          "n": 33,
+          "t": "tout-de villes-de le-Gershonite à/pour-familles-de-eux ; trois dix ville et-communs-de-elles."
+        },
+        {
+          "n": 34,
+          "t": "et-à/pour-familles-de fils-de Merari les-Haleviy les-demeurés ensemble tribu-de Zabulon, Jokneam et-communs-de-elle ; Kartah et-communs-de-elle."
+        },
+        {
+          "n": 35,
+          "t": "Dimnah et-communs-de-elle, Nahalol et-communs-de-elle ; villes quatre."
+        },
+        {
+          "n": 36,
+          "t": "et-depuis-tribu-de Ruben, Bezer et-communs-de-elle ; et-Jahaz-vers et-communs-de-elle."
+        },
+        {
+          "n": 37,
+          "t": "Kedemoth et-communs-de-elle, et-Mephaath et-communs-de-elle ; villes quatre."
+        },
+        {
+          "n": 38,
+          "t": "et-depuis-tribu-de Gad ville-de refuge-de le-assassinant, Ramot dans-le-Gilead et-communs-de-elle ; et-Mahanaim et-communs-de-elle."
+        },
+        {
+          "n": 39,
+          "t": "Heshbon et-communs-de-elle, Jazer et-communs-de-elle ; tout-de villes quatre."
+        },
+        {
+          "n": 40,
+          "t": "tout-de les-villes à/pour-fils-de Merari à/pour-familles-de-eux, les-demeurés depuis-familles-de les-Haleviy ; sort-de-eux et-a-été, villes deux dix."
+        },
+        {
+          "n": 41,
+          "t": "tout-de villes-de les-Haleviy, dans-milieu-de possession-de fils-de Israël ; villes quarante et-huit et-communs-de-elles."
+        },
+        {
+          "n": 42,
+          "t": "les-villes seront les-ces, ville ville, et-communs-de-elle alentours-de-elle ; ainsi à/pour-tout-de les-villes les-ces."
+        },
+        {
+          "n": 43,
+          "t": "YHWH et-a-donné à/pour-Israël, tout-de la-terre, qui a-été-juré à/pour-donner à/pour-pères-de-eux ; et-ils-ont-dépossédé-elle et-ils-ont-habité dans-elle."
+        },
+        {
+          "n": 44,
+          "t": "YHWH et-a-fait-ggnuer à/pour-eux depuis-alentour, comme-tout qui a-été-juré à/pour-pères-de-eux ; et-non homme a-resté dans-faces-de-eux depuis-tout-de gmcçants-de-eux, tout-de gmcçants-de-eux, a-donné YHWH dans-main-de-eux."
+        },
+        {
+          "n": 45,
+          "t": "non parole est-tombé, depuis-tout-de le-parole le-bon, qui a-parlé YHWH vers maison-de Israël ; le-tout est-venu."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "verses": [
+        {
+          "n": 1,
+          "t": "alors Josué appelera, à/pour-le-Reubenite et-à/pour-le-Hagadiy ; et-à/pour-moitié-de tribu-de Manassé."
+        },
+        {
+          "n": 2,
+          "t": "et-a-dit vers-eux, vous avez-gardé, tout-de qui a-commandé vous, Moïse serviteur-de YHWH ; et-vous-avez-écouté dans-voix-de-moi, à/pour-tout qui je-ai-commandé vous."
+        },
+        {
+          "n": 3,
+          "t": "non vous-avez-abandonné frères-de-vous celui-ci jours nombreux, jusqu'à le-jour le-celui-ci ; et-vous-avez-gardé, garde-de, commandement-de YHWH dieu-de-vous."
+        },
+        {
+          "n": 4,
+          "t": "et-maintenant YHWH a-fait-ggnuer dieu-de-vous à/pour-frères-de-vous, comme-lorsque a-parlé à/pour-eux ; et-maintenant tournez et-allez à/pour-vous à/pour-tentes-de-vous vers terre-de possession-de-vous, qui a-donné à/pour-vous Moïse serviteur-de YHWH, dans-delà-de le-Jourdain."
+        },
+        {
+          "n": 5,
+          "t": "seulement gardez très à/pour-faire la-commandement et-la-instruction qui a-commandé vous Moïse serviteur-de YHWH à/pour-aimer YHWH dieu-de-vous et-à/pour-aller dans-tout-de chemins-de-lui et-à/pour-garder commandements-de-lui et-à/pour-coller dans-lui ; et-à/pour-servir-de-lui, dans-tout-de volonté-de-vous et-dans-tout-de âme-de-vous."
+        },
+        {
+          "n": 6,
+          "t": "Josué et-a-béni-eux ; et-il-a-envoyé-eux, tentes-de-eux et-sont-allé vers."
+        },
+        {
+          "n": 7,
+          "t": "et-à/pour-moitié-de verge-de le-Manassé Moïse a-donné dans-le-Bashan et-à/pour-moitié-de-lui a-donné Josué avec frères-de-eux, depuis-delà-de dans-delà-de le-Jourdain mer-vers ; et-aussi car Josué a-envoyé-eux vers tentes-de-eux et-a-béni-eux."
+        },
+        {
+          "n": 8,
+          "t": "et-il-a-dit vers-eux à/pour-dire dans-trésors nombreux retournez vers tentes-de-vous et-dans-bétail nombreux très, dans-argent et-dans-or et-dans-cuivre et-dans-fer et-dans-manteaux faire-multiplier très ; divisez butin-de gmcçants-de-vous avec frères-de-vous."
+        },
+        {
+          "n": 9,
+          "t": "et-sont-retourné fils-de Ruben et-sont-allé et-fils-de Gad et-moitié-de verge-de le-Manassé ensemble fils-de Israël, depuis-Shiloh qui dans-terre-de Canaan ; à/pour-aller vers terre-de le-Gilead vers terre-de possession-de-eux qui ils-ont-été-gjjé dans-elle, sur bouche-de YHWH dans-main-de Moïse."
+        },
+        {
+          "n": 10,
+          "t": "et-ils-sont-venu vers circuits-de le-Jourdain, qui dans-terre-de Canaan ; fils-de Ruben et-ont-bâti et-fils-de Gad et-moitié-de verge-de le-Manassé là autel sur le-Jourdain, autel grand à/pour-aspect."
+        },
+        {
+          "n": 11,
+          "t": "fils-de Israël et-ont-écouté à/pour-dire ; voici fils-de Ruben ont-bâti et-fils-de Gad et-moitié-de verge-de le-Manassé le-autel vers opposite terre-de Canaan, vers circuits-de le-Jourdain, vers delà-de fils-de Israël."
+        },
+        {
+          "n": 12,
+          "t": "fils-de Israël et-ont-écouté ; et-ils-ont-été-assemblé tout-de assemblée-de fils-de Israël Shiloh, à/pour-monter sur-eux à/pour-la-armée."
+        },
+        {
+          "n": 13,
+          "t": "fils-de Israël et-ont-envoyé vers fils-de Ruben et-vers fils-de Gad et-vers moitié-de verge-de Manassé vers terre-de le-Gilead ; Phinées fils-de Éléazar le-sacrificateur."
+        },
+        {
+          "n": 14,
+          "t": "et-ten leaders avec-lui, leader un leader un à/pour-maison-de père, à/pour-tout-de tribus-de Israël ; et-homme tête-de maison-de pères-de-eux eux à/pour-mille-de Israël."
+        },
+        {
+          "n": 15,
+          "t": "fils-de Ruben et-sont-venu vers et-vers fils-de Gad et-vers moitié-de verge-de Manassé vers terre-de le-Gilead ; et-ils-ont-parlé ensemble-eux à/pour-dire."
+        },
+        {
+          "n": 16,
+          "t": "thus ils-ont-dit tout-de assemblée-de YHWH quoi le-trahison le-celui-ci qui vous-avez-trahi dans-dieu-de Israël, à/pour-retourner le-jour, après YHWH ; dans-bâtir-de-vous à/pour-vous autel, à/pour-rebeller-de-vous le-jour dans-YHWH."
+        },
+        {
+          "n": 17,
+          "t": "est-ce-le-peu à/pour-nous iniquité-de Peor, qui non nous-avons-se-puu depuis-nous, jusqu'à le-jour le-celui-ci ; le-coup et-a-été dans-assemblée-de YHWH."
+        },
+        {
+          "n": 18,
+          "t": "et-vous retournerez le-jour, après YHWH ; et-a-été vous rebellerez le-jour dans-YHWH, et-demain, vers tout-de assemblée-de Israël gjmiera."
+        },
+        {
+          "n": 19,
+          "t": "et-sûrement si impure terre-de possession-de-vous passez à/pour-vous vers terre-de possession-de YHWH qui a-habité là tabernacle-de YHWH, et-soyez-gjjé dans-milieu-de-nous ; et-dans-YHWH ne vous-rebelliez et-nous ne vous-rebelliez, dans-bâtir-de-vous à/pour-vous autel, excepté, autel-de YHWH dieu-de-nous."
+        },
+        {
+          "n": 20,
+          "t": "est-ce-non Achan fils-de Zerah a-trahi trahison dans-le-ban, et-sur tout-de assemblée-de Israël a-été courroux ; et-lui homme un, non a-expiré dans-iniquité-de-lui."
+        },
+        {
+          "n": 21,
+          "t": "fils-de Ruben et-ont-répondu et-fils-de Gad, et-moitié-de verge-de le-Manassé ; têtes-de mille-de Israël et-ont-parlé, ensemble."
+        },
+        {
+          "n": 22,
+          "t": "El dieu YHWH El dieu YHWH lui sachant, et-Israël lui sache ; si dans-rébellion et-si dans-trahison dans-YHWH, ne tu-fasses-sauver-nous le-jour le-celui-ci."
+        },
+        {
+          "n": 23,
+          "t": "à/pour-bâtir à/pour-nous autel, à/pour-retourner après YHWH ; et-si à/pour-faire-monter sur-lui burnt et-offrande et-si à/pour-faire sur-lui sacrifices-de récompenses, YHWH lui cherchera."
+        },
+        {
+          "n": 24,
+          "t": "et-si non depuis-angoisse depuis-parole, nous-avons-fait celle-ci à/pour-dire ; fils-de-vous diront demain à/pour-fils-de-nous à/pour-dire, quoi à/pour-vous, et-à/pour-YHWH dieu-de Israël."
+        },
+        {
+          "n": 25,
+          "t": "et-frontière a-donné YHWH entre-nous et-entre-vous fils-de Ruben et-fils-de Gad le-Jourdain, néant à/pour-vous part dans-YHWH ; fils-de-vous et-ont-fait-cesser fils-de-nous, à/pour-sans craindre YHWH."
+        },
+        {
+          "n": 26,
+          "t": "et-nous-avons-dit, nous-faisons donc à/pour-nous, à/pour-bâtir le-autel ; non à/pour-burnt et-non à/pour-sacrifice."
+        },
+        {
+          "n": 27,
+          "t": "car witness lui entre-nous et-entre-vous et-entre périodes-de-nous après-nous à/pour-servir service-de YHWH à/pour-faces-de-lui, dans-burnts-de-nous et-dans-sacrifices-de-nous et-dans-récompenses-de-nous ; et-non fils-de-vous diront demain à/pour-fils-de-nous, néant à/pour-vous part dans-YHWH."
+        },
+        {
+          "n": 28,
+          "t": "et-nous-avons-dit, et-a-été car périodes-de-nous diront vers-nous et-vers demain ; et-nous-avons-dit voyez figure-de autel-de YHWH qui pères-de-nous ont-fait non à/pour-burnt et-non à/pour-sacrifice, car witness lui, entre-nous et-entre-vous."
+        },
+        {
+          "n": 29,
+          "t": "forbid-vers à/pour-nous depuis-nous à/pour-rebeller dans-YHWH et-à/pour-retourner le-jour après YHWH, à/pour-bâtir autel, à/pour-burnt à/pour-offrande et-à/pour-sacrifice ; depuis-seul-de autel-de YHWH dieu-de-nous, qui à/pour-faces-de tabernacle-de-lui."
+        },
+        {
+          "n": 30,
+          "t": "Phinées le-sacrificateur et-a-écouté et-leaders-de la-assemblée et-têtes-de mille-de Israël qui ensemble-lui, les-paroles, qui ont-parlé fils-de Ruben et-fils-de Gad et-fils-de Manassé ; et-il-a-amélioré dans-yeux-de-eux."
+        },
+        {
+          "n": 31,
+          "t": "Phinées et-a-dit fils-de Éléazar le-sacrificateur vers fils-de Ruben et-vers fils-de Gad et-vers fils-de Manassé le-jour nous-avons-su car dans-milieu-de-nous YHWH, qui non vous-avez-trahi dans-YHWH le-trahison le-celui-ci ; alors vous-avez-fait-délivrer fils-de Israël depuis-main-de YHWH."
+        },
+        {
+          "n": 32,
+          "t": "Phinées et-est-retourné fils-de Éléazar le-sacrificateur et-les-leaders ensemble fils-de Ruben et-depuis fils-de Gad depuis-terre-de le-Gilead vers terre-de Canaan vers fils-de Israël ; et-ils-ont-fait-retourner eux parole."
+        },
+        {
+          "n": 33,
+          "t": "le-parole et-a-amélioré dans-yeux-de fils-de Israël, et-ont-béni dieu fils-de Israël ; et-non ont-dit à/pour-monter sur-eux à/pour-la-armée, à/pour-ruiner la-terre, qui fils-de Ruben et-fils-de Gad habitants dans-elle."
+        },
+        {
+          "n": 34,
+          "t": "fils-de Ruben et-ont-appelé et-fils-de Gad à/pour-le-autel ; car witness lui entre-nous, car YHWH le-dieu."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-a-été depuis-jours nombreux, après qui YHWH a-fait-ggnuer à/pour-Israël depuis-tout-de gmcçants-de-eux depuis-alentour ; et-Josué a-vieilli, est-venu dans-les-jours."
+        },
+        {
+          "n": 2,
+          "t": "Josué et-a-appelé à/pour-tout-de Israël, à/pour-vieux-de-lui et-à/pour-têtes-de-lui, et-à/pour-jugeants-de-lui et-à/pour-fonctionnaiants-de-lui ; et-il-a-dit vers-eux, je ai-vieilli, suis-venu dans-les-jours."
+        },
+        {
+          "n": 3,
+          "t": "et-vous avez-vu tout-de qui YHWH a-fait dieu-de-vous à/pour-tout-de les-nations les-ces depuis-faces-de-vous ; car YHWH dieu-de-vous, lui le-combattu à/pour-vous."
+        },
+        {
+          "n": 4,
+          "t": "voyez je-ai-fait-tomber à/pour-vous les-nations les-restés les-ces dans-héritage à/pour-verges-de-vous ; depuis le-Jourdain et-tout-de les-nations qui je-ai-fait-couper, et-le-mer le-grand entrer-de le-soleil."
+        },
+        {
+          "n": 5,
+          "t": "et-YHWH dieu-de-vous lui chassera-eux depuis-faces-de-vous, et-a-fait-déposséder eux depuis-faces-de-vous ; et-vous-avez-dépossédé terre-de-eux, comme-lorsque YHWH a-parlé dieu-de-vous à/pour-vous."
+        },
+        {
+          "n": 6,
+          "t": "et-vous-avez-fortifié très, à/pour-garder et-à/pour-faire, tout-de le-écrit, dans-livre-de instruction-de Moïse ; à/pour-sans détourner depuis-nous right et-gauche."
+        },
+        {
+          "n": 7,
+          "t": "à/pour-sans venir dans-les-nations les-ces, les-restés les-ces ensemble-vous ; et-dans-nom-de dieux-de-eux non vous-ferez-rappeler et-non vous-ferez-jurer, et-non vous-servirez-eux, et-non vous-courberez à/pour-eux."
+        },
+        {
+          "n": 8,
+          "t": "pour gsxb dans-YHWH dieu-de-vous vous-collerez ; comme-lorsque vous-avez-fait, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 9,
+          "t": "YHWH et-a-fait-déposséder depuis-faces-de-vous, nations grands et-puissants ; et-vous non homme a-resté dans-faces-de-vous, jusqu'à le-jour le-celui-ci."
+        },
+        {
+          "n": 10,
+          "t": "homme un depuis-vous poursuivra mille ; car YHWH dieu-de-vous lui le-combattu à/pour-vous, comme-lorsque a-parlé à/pour-vous."
+        },
+        {
+          "n": 11,
+          "t": "et-vous-avez-été-gardé très à/pour-âmes-de-vous ; à/pour-aimer YHWH dieu-de-vous."
+        },
+        {
+          "n": 12,
+          "t": "pour gsxb retourner vous-retournerez et-vous-avez-collé dans-excès-de les-nations les-ces, les-restés les-ces ensemble-vous ; et-vous-avez-se-allié dans-eux et-vous-êtes-venu dans-eux et-eux dans-vous."
+        },
+        {
+          "n": 13,
+          "t": "savoir vous-saurez, car non YHWH fera-ajouter dieu-de-vous à/pour-faire-déposséder les-nations les-ces depuis-faces-de-vous ; et-ils-ont-été à/pour-vous à/pour-giiwa et-à/pour-piège et-à/pour-châtier dans-sides-de-vous et-à/pour-épines dans-yeux-de-vous, jusqu'à périr-de-vous sur la-sol la-bone la-celle-ci, qui YHWH a-donné à/pour-vous, dieu-de-vous."
+        },
+        {
+          "n": 14,
+          "t": "et-voici moi marchant le-jour, dans-chemin-de tout-de la-terre ; et-vous-avez-su dans-tout-de volonté-de-vous et-dans-tout-de âme-de-vous car non parole est-tombé un depuis-tout-de les-paroles les-bons qui a-parlé YHWH dieu-de-vous sur-vous, le-tout ils-sont-venu à/pour-vous, non parole est-tombé depuis-nous un."
+        },
+        {
+          "n": 15,
+          "t": "et-a-été comme-lorsque tout-de le-parole le-bon, est-venu sur-vous qui a-parlé YHWH dieu-de-vous vers-vous ; ainsi YHWH fera-venir sur-vous tout-de le-parole le-bad, jusqu'à faire-exterminer-de-lui vous sur la-sol la-bone la-celle-ci, qui a-donné à/pour-vous, YHWH dieu-de-vous."
+        },
+        {
+          "n": 16,
+          "t": "dans-passer-de-vous alliance-de YHWH dieu-de-vous qui a-commandé vous et-vous-avez-marché et-vous-avez-servi dieu autres, et-vous-avez-courbé à/pour-eux ; et-a-embrasé nez YHWH dans-vous, et-vous-avez-péri hâte, sur la-terre la-bone, qui a-donné à/pour-vous."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Josué et-a-recueilli tout-de verges-de Israël Shechem-vers ; et-il-a-appelé à/pour-vieux-de Israël et-à/pour-têtes-de-lui et-à/pour-jugeants-de-lui et-à/pour-fonctionnaiants-de-lui, et-ils-ont-se-fixé à/pour-faces-de le-dieu."
+        },
+        {
+          "n": 2,
+          "t": "Josué et-a-dit vers tout-de le-peuple thus a-dit YHWH dieu-de Israël dans-delà-de le-fleuve ont-habité pères-de-vous depuis-durée, Térach père-de Abraham et-père-de Nachor ; et-ils-ont-servi dieu autres."
+        },
+        {
+          "n": 3,
+          "t": "et-je-ai-pris père-de-vous Abraham depuis-delà-de le-fleuve, et-je-ai-fait-aller lui dans-tout-de terre-de Canaan ; et-je-ai-fait-multiplier semence-de-lui, et-je-ai-donné à/pour-lui Isaac."
+        },
+        {
+          "n": 4,
+          "t": "et-je-ai-donné à/pour-Isaac, Jacob et-Ésaü ; et-je-ai-donné à/pour-Ésaü mont-de Seir à/pour-déposséder lui, et-Jacob et-fils-de-lui sont-descendu Égypte."
+        },
+        {
+          "n": 5,
+          "t": "et-je-ai-envoyé Moïse et-Aaron et-je-ai-battu Égypte, comme-lorsque je-ai-fait dans-parmi-de-lui ; et-après je-ai-fait-sortir vous."
+        },
+        {
+          "n": 6,
+          "t": "et-je-ai-fait-sortir pères-de-vous depuis-Égypte, et-vous-êtes-venu le-mer-vers ; et-ont-poursuivu Egyptian après pères-de-vous dans-char et-dans-chevals mer-de roseau."
+        },
+        {
+          "n": 7,
+          "t": "et-ont-crié vers YHWH et-a-mis obscurité entre-vous et-entre les-Egyptian et-a-fait-venir sur-lui le-mer et-a-cové-lui, et-elles-ont-vu yeux-de-vous, qui je-ai-fait dans-Égypte ; et-vous-avez-habité dans-le-désert jours nombreux."
+        },
+        {
+          "n": 8,
+          "t": "et-je-ai-fait-venir-hé et-je-ai-fait-venir vous vers terre-de le-Amorite le-habitant dans-delà-de le-Jourdain, et-ils-ont-été-combattu ensemble-vous ; et-je-ai-donné eux dans-main-de-vous et-vous-avez-dépossédé terre-de-eux, et-je-ai-fait-exterminer-eux depuis-faces-de-vous."
+        },
+        {
+          "n": 9,
+          "t": "Balak et-est-levé fils-de Zippor roi-de Moab, et-a-été-combattu dans-Israël ; et-a-envoyé fils-de Beor et-a-appelé à/pour-Balaam à/pour-léger vous."
+        },
+        {
+          "n": 10,
+          "t": "et-non je-ai-voulu à/pour-écouter à/pour-Balaam ; et-il-a-béni bénir vous, et-je-ai-fait-délivrer vous depuis-main-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "et-vous-avez-passé le-Jourdain et-vous-êtes-venu vers Jéricho maris-de Jéricho et-ont-été-combattu dans-vous le-Amorite et-le-Perizzite et-le-Canaanite et-le-Hittite et-le-Girgashite, le-Hivite et-le-Jebusite ; et-je-ai-donné eux dans-main-de-vous."
+        },
+        {
+          "n": 12,
+          "t": "et-je-ai-envoyé à/pour-faces-de-vous la-frelons, et-elle-a-chassé eux depuis-faces-de-vous, deux-de rois-de le-Amorite ; non dans-épée-de-toi et-non dans-arc-de-toi."
+        },
+        {
+          "n": 13,
+          "t": "et-je-ai-donné à/pour-vous terre qui non tu-as-peiné dans-elle et-villes qui non vous-avez-bâti, et-vous-avez-habité dans-eux ; vignobles et-olives qui non vous mangeants avez-planté,."
+        },
+        {
+          "n": 14,
+          "t": "et-maintenant craindez YHWH et-servissez lui dans-entier et-dans-vérité ; et-faites-détourner dieux qui pères-de-vous ont-servi dans-delà-de le-fleuve et-dans-Égypte, et-servissez YHWH."
+        },
+        {
+          "n": 15,
+          "t": "et-si bad dans-yeux-de-vous à/pour-servir YHWH choisissez à/pour-vous le-jour lequel servirez si dieux qui pères-de-vous ont-servi qui dans-delà-de depuis-delà-de le-fleuve, et-si dieux-de le-Amorite, qui vous habitants dans-terre-de-eux ; et-moi et-maison-de-moi, nous-servirons YHWH."
+        },
+        {
+          "n": 16,
+          "t": "le-peuple et-a-répondu et-a-dit, forbid à/pour-nous, depuis-abandonner YHWH ; à/pour-servir dieux autres."
+        },
+        {
+          "n": 17,
+          "t": "car YHWH dieu-de-nous, lui le-faisant-monter nous et-pères-de-nous depuis-terre-de Égypte depuis-maison-de serviteurs ; et-qui il-a-fait à/pour-yeux-de-nous les-signes les-grandes les-ces, et-il-a-gardé-nous dans-tout-de le-chemin qui nous-avons-marché dans-elle, et-dans-tout-de les-peuples, qui nous-avons-passé dans-parmi-de-eux."
+        },
+        {
+          "n": 18,
+          "t": "YHWH et-a-chassé tout-de les-peuples et-le-Amorite habitant la-terre depuis-faces-de-nous ; aussi nous servirons YHWH, car lui dieu-de-nous."
+        },
+        {
+          "n": 19,
+          "t": "Josué et-a-dit vers le-peuple non vous-vaincrez à/pour-servir YHWH, car dieu saints lui ; El jealous lui, non portera à/pour-forfait-de-vous et-à/pour-fautes-de-vous."
+        },
+        {
+          "n": 20,
+          "t": "car vous-abandonnerez YHWH, et-vous-avez-servi dieux-de foreign ; et-il-est-retourné et-il-a-fait-nuire à/pour-vous et-il-a-achevé vous, après qui il-a-fait-améliorer à/pour-vous."
+        },
+        {
+          "n": 21,
+          "t": "le-peuple et-a-dit vers Josué ; non, car YHWH nous-servirons."
+        },
+        {
+          "n": 22,
+          "t": "Josué et-a-dit vers le-peuple witness vous dans-vous, car vous avez-choisi à/pour-vous YHWH à/pour-servir lui ; witness et-ont-dit."
+        },
+        {
+          "n": 23,
+          "t": "et-maintenant, faites-détourner dieu-de le-foreign qui dans-parmi-de-vous ; et-faites-tendre volonté-de-vous, vers YHWH dieu-de Israël."
+        },
+        {
+          "n": 24,
+          "t": "et-ils-ont-dit le-peuple vers Josué ; YHWH dieu-de-nous nous-servirons, et-dans-voix-de-lui nous-écouterons."
+        },
+        {
+          "n": 25,
+          "t": "Josué et-a-coupé alliance à/pour-le-peuple dans-le-jour le-lui ; ordonnance et-jugement et-a-mis à/pour-lui dans-Shechem."
+        },
+        {
+          "n": 26,
+          "t": "Josué et-a-écrit les-paroles les-ces, dans-livre-de instruction-de dieu ; et-il-a-pris pierre grande, et-il-a-fait-lever-elle là, sous la-chêne, qui dans-sanctuaire-de YHWH."
+        },
+        {
+          "n": 27,
+          "t": "Josué et-a-dit vers tout-de le-peuple voici la-pierre la-celle-ci sera dans-nous à/pour-témoin, car lui a-écouté tout-de émissions-de YHWH, qui a-parlé avec-nous ; et-elle-a-été dans-vous à/pour-témoin, sinon vous-renierez dans-dieu-de-vous."
+        },
+        {
+          "n": 28,
+          "t": "Josué et-a-envoyé le-peuple, homme à/pour-héritage-de-lui."
+        },
+        {
+          "n": 29,
+          "t": "et-a-été après les-paroles les-ces, Josué et-est-mort fils-de Nun serviteur-de YHWH ; fils-de cent et-tene années."
+        },
+        {
+          "n": 30,
+          "t": "et-ils-ont-enterré lui dans-frontière-de héritage-de-lui, dans-Timnat Timnat qui dans-mont-de Éphraïm ; depuis-nord-de à/pour-mont-de Gaash."
+        },
+        {
+          "n": 31,
+          "t": "Israël et-a-servi YHWH, tout-de jours-de Josué ; et-tout-de jours-de les-vieux qui ont-fait-prolonger jours après Josué, et-qui ont-su tout-de acte-de YHWH, qui a-fait à/pour-Israël."
+        },
+        {
+          "n": 32,
+          "t": "et-os-de Joseph qui fils-de Israël ont-fait-monter depuis-Égypte ont-enterré dans-Shechem dans-parcelle-de le-champ qui Jacob a-acquis ensemble fils-de Hamor père-de Shechem dans-cent coin ; et-ils-ont-été à/pour-fils-de Joseph à/pour-héritage."
+        },
+        {
+          "n": 33,
+          "t": "et-Éléazar fils-de Aaron est-mort ; et-ils-ont-enterré lui dans-Gibata-de Phinées fils-de-lui, qui a-été-donné à/pour-lui dans-mont-de Éphraïm."
+        }
+      ]
+    }
+  ]
+}

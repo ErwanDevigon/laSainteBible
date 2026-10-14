@@ -1,0 +1,1510 @@
+{
+  "id": "daniel",
+  "title": "Livre de Daniel",
+  "original_title": "Daniel",
+  "short": "Dn",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-year-of three, to/for-kingdom-of Jehoiakim king-of Judah ; Nebuchadnezzar has-come king-of Babylon Jerusalem and-has-confined on-her."
+        },
+        {
+          "n": 2,
+          "t": "and-has-given lords-of-me in-hand-of-him Jehoiakim king-of Judah and-from-end-of articles-of house-of the-god, and-has-made-come-them land-of Shinar house-of god-of-him ; house-of treasure-of god-of-him has-made-come, and-the-articles."
+        },
+        {
+          "n": 3,
+          "t": "the-king and-has-said, to/for-Ashpenaz chief-of eunuches-of-him ; to/for-make-come from-sons-of Israel and-from-seed-of the-kingship and-from the-nobles."
+        },
+        {
+          "n": 4,
+          "t": "youths who naught in-them all-of blemish and-good-of sight and-making-understand in-all-of wisdom and-knowing-of knowledge and-making-discern-of knowledge, and-who strength in-them, to/for-stand in-temple-of the-king ; and-to/for-learn-of-them book and-tongue-of Chaldean."
+        },
+        {
+          "n": 5,
+          "t": "the-king and-has-counted to/for-them word-of day in-day-of-him from-Mipat-of choice-of the-king and-from-wine-of feast-of-him, and-to/for-magnify-of-them years three ; and-from-end-of-them, they-will-stand to/for-faces-of the-king."
+        },
+        {
+          "n": 6,
+          "t": "and-he-has-been in-them from-sons-of Judah ; Daniel Hananiah, Mishael and-Azariah."
+        },
+        {
+          "n": 7,
+          "t": "official-of the-eunuches and-has-put to/for-them names ; Belteshazzar and-has-put to/for-Daniel and-to/for-Hananiah Shadrach, and-to/for-Mishael Meshach, and-to/for-Azariah Abed Abednego."
+        },
+        {
+          "n": 8,
+          "t": "Daniel and-has-put on heart-of-him, who not will-defile in-choice-of the-king and-in-wine-of feast-of-him ; and-he-has-sought from-official-of the-eunuches, who not he-will-defile."
+        },
+        {
+          "n": 9,
+          "t": "the-god and-has-given Daniel, to/for-kindness and-to/for-compassions ; to/for-faces-of official-of the-eunuches."
+        },
+        {
+          "n": 10,
+          "t": "official-of the-eunuches and-has-said to/for-Daniel, afraid I lord-of-me the-king, who has-counted, food-of-you-pl and-feast-of-you-pl ; who to/for-what he-will-see faces-of-you-pl enraging from the-youths who like-youth-of-you-pl, and-you-pl-have-endangered head-of-me to/for-the-king."
+        },
+        {
+          "n": 11,
+          "t": "Daniel and-has-said toward the-x ; who official-of the-eunuches has-counted, on Daniel Hananiah, Mishael and-Azariah."
+        },
+        {
+          "n": 12,
+          "t": "test please servants-of-you days ten ; the-vegetables and-let-give to/for-us from and-let-us-eat and-waters and-let-us-drink."
+        },
+        {
+          "n": 13,
+          "t": "and-let-them-be-seen to/for-faces-of-you sight-of-us, and-sight-of the-youths, the-eating, choice-of the-king ; and-like-when you-will-see, do with servants-of-you."
+        },
+        {
+          "n": 14,
+          "t": "and-he-has-heard to/for-them to/for-the-word the-this ; and-he-has-tested-them days ten."
+        },
+        {
+          "n": 15,
+          "t": "and-from-end-of days ten, sight-of-them good and-fat-of flesh has-been-seen ; from all-of the-youths, the-eating, choice-of the-king."
+        },
+        {
+          "n": 16,
+          "t": "the-x lifting and-has-been choice-of-them, and-wine-of feast-of-them ; and-giving to/for-them vegetables."
+        },
+        {
+          "n": 17,
+          "t": "and-the-youths the-these four-of-them, the-god knowledge has-given to/for-them and-make-understand in-all-of book and-wisdom ; and-Daniel has-made-discern, in-all-of vision and-dreams."
+        },
+        {
+          "n": 18,
+          "t": "and-to/for-end-of the-days, who the-king has-said to/for-make-come-of-them ; official-of the-eunuches and-has-made-come-them, to/for-faces-of Nebuchadnezzar."
+        },
+        {
+          "n": 19,
+          "t": "the-king and-has-spoken with-them and-not has-been-found from-all-of-them, like-Daniel Hananiah, Mishael and-Azariah ; and-they-have-stood to/for-faces-of the-king."
+        },
+        {
+          "n": 20,
+          "t": "and-all-of word-of wisdom-of understanding, who has-sought from-them the-king ; and-has-found-them ten hands on all-of the-magicians the-enchanters, who in-all-of kingdom-of-him."
+        },
+        {
+          "n": 21,
+          "t": "Daniel and-has-been, until year-of one to/for-Cyrus the-king."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-in-year-of two to/for-kingdom-of Nebuchadnezzar, Nebuchadnezzar has-dreamed dreams ; spirit-of-him and-has-self-troubled, and-sleep-of-him has-been-been on-him."
+        },
+        {
+          "n": 2,
+          "t": "the-king and-has-said to/for-call to/for-the-magicians and-to/for-the-enchanters and-to/for-the-sorcerying and-to/for-the-Chaldeans, to/for-make-announce to/for-the-king dreams-of-him ; and-they-have-come, and-they-have-stood to/for-faces-of the-king."
+        },
+        {
+          "n": 3,
+          "t": "the-king dream and-has-said to/for-them I-have-dreamed ; spirit-of-me and-has-been-troubled, to/for-know the-dream."
+        },
+        {
+          "n": 4,
+          "t": "the-Chaldeans and-have-spoken to/for-the-king Aramaic ; the-king to/for-perpetuities live, say the-dream to/for-servants-of-you to/for-servant-of-you and-the-interpretation we-will-show."
+        },
+        {
+          "n": 5,
+          "t": "answering the-king and-saying to/for-the-Chaldean to/for-Chaldean-of-me, the-word from-me gone ; if not you-pl-will-make-know-me the-dream and-interpretation-of-him, pieces you-pl-will-make, and-houses-of-you-pl dunghill will-set."
+        },
+        {
+          "n": 6,
+          "t": "and-if the-dream and-interpretation-of-him you-pl-will-make-show, gifts and-reward and-honor greatly, you-pl-will-receive from before-me ; therefore, the-dream and-interpretation-of-him make-show-me."
+        },
+        {
+          "n": 7,
+          "t": "they-have-answered time and-saying ; the-king, the-dream will-say to/for-servants-of-him and-interpretation-of-him we-will-make-show."
+        },
+        {
+          "n": 8,
+          "t": "answering the-king and-saying, from certain knowing me, that the-time you buying ; and-like-all before that you-pl-have-seen, that gone from-me the-word."
+        },
+        {
+          "n": 9,
+          "t": "that if the-dream not you-pl-will-make-know-me one he law-of-you-pl and-word false and-corrupted you-pl-have-made-agree they-have-agreed to/for-say before-me, till that the-time will-change ; therefore the-dream say to/for-me, and-I-will-know, that interpretation-of-him you-pl-will-make-show-me."
+        },
+        {
+          "n": 10,
+          "t": "the-Chaldean Chaldean-of-me have-answered before the-king and-saying, not there man since the-earth, that word-of the-king, will-able to/for-make-show ; and-like-all before that all-of king great and-ruling, word like-this not has-asked, to/for-all-of magician and-enchanter and-Chaldean."
+        },
+        {
+          "n": 11,
+          "t": "and-the-word that the-king asking honorable, and-another not there, that will-show-her before the-king ; except gods, that dwelling-of-them, with the-flesh not there-him."
+        },
+        {
+          "n": 12,
+          "t": "and-like-all before this, the-king, has-angried and-has-angried greatly ; to/for-all-of wises-of Babylon and-has-said to/for-make-destroy,."
+        },
+        {
+          "n": 13,
+          "t": "and-the-law has-outed, and-the-wises slayed ; and-have-asked Daniel and-fellows-of-him to/for-slay."
+        },
+        {
+          "n": 14,
+          "t": "in-then Daniel has-made-return counsel and-command, to/for-Arioch, great-of the-guardsmans that the-king ; that he-has-outed to/for-slay, to/for-wises-of Babylon."
+        },
+        {
+          "n": 15,
+          "t": "answering and-saying to/for-Arioch the-ruling that the-king, since what the-law making-hasty from before the-king ; then Arioch has-made-know the-word, to/for-Daniel."
+        },
+        {
+          "n": 16,
+          "t": "and-Daniel, has-come the-king ; and-has-asked from that time will-give to/for-him, and-the-interpretation to/for-make-show to/for-the-king."
+        },
+        {
+          "n": 17,
+          "t": "then Daniel to/for-house-of-him has-gone ; and-to/for-Hananiah Mishael and-Azariah fellows-of-him the-word has-made-know."
+        },
+        {
+          "n": 18,
+          "t": "and-compassions to/for-ask from before god-of the-heavens, since the-mystery this ; that not will-make-destroy Daniel and-fellows-of-him, with remainder-of wises-of Babylon."
+        },
+        {
+          "n": 19,
+          "t": "then to/for-Daniel in-the-vision that the-night the-mystery has-been-revealed ; then Daniel, has-blessed to/for-god-of the-heavens."
+        },
+        {
+          "n": 20,
+          "t": "answering Daniel and-saying, will-gbvjer name-of-him that the-god blessed, from the-perpetuity and-till the-perpetuity ; that the-wisdom and-the-might that to/for-him he."
+        },
+        {
+          "n": 21,
+          "t": "and-he making-change the-times and-the-times, making-on kings and-making-stand kings ; giving the-wisdom to/for-wises, and-the-knowledge to/for-knowing-of understanding."
+        },
+        {
+          "n": 22,
+          "t": "he revealing the-deep and-the-hidden ; knowing what in-the-darkness, and-the-light with-him loosed."
+        },
+        {
+          "n": 23,
+          "t": "to/for-you god-of fathers-of-me making-praise and-praising me, that the-wisdom and-the-might you-have-given to/for-me ; and-now you-have-made-know-me that we-have-asked from-you, that word-of the-king you-have-made-know-us."
+        },
+        {
+          "n": 24,
+          "t": "and-like-all before this Daniel has-come since Arioch, that has-reckoned the-king, to/for-make-destroy to/for-wises-of Babylon ; going and-thus saying to/for-him to/for-wises-of Babylon not you-will-make-destroy, make-come-me before the-king, and-the-interpretation to/for-the-king I-will-show."
+        },
+        {
+          "n": 25,
+          "t": "then Arioch in-dismay, has-made-come to/for-Daniel before the-king ; and-thus has-said to/for-him that I-have-made-find man from sons-of the-captivity that Judah, that the-interpretation to/for-the-king will-make-know."
+        },
+        {
+          "n": 26,
+          "t": "answering the-king and-saying to/for-Daniel, that name-of-him Belteshazzar ; is-it-the-there-you abling to/for-make-know-of-me the-dream that see and-interpretation-of-him."
+        },
+        {
+          "n": 27,
+          "t": "answering Daniel before the-king and-saying ; the-mystery that the-king asking, not wises enchanters magicians determining, abling to/for-make-show to/for-the-king."
+        },
+        {
+          "n": 28,
+          "t": "nevertheless there god in-the-heavens revealing mysteries, and-has-made-know to/for-the-king Nebuchadnezzar, what that will-gbvjer in-latter-of the-days ; dream-of-you and-visions-of head-of-you since bed-of-you this he."
+        },
+        {
+          "n": 29,
+          "t": "you the-king thoughts-of-you since bed-of-you have-ascended, what that will-gbvjer after this ; and-revealing-of the-mysteries he-has-made-know-you what that he-will-gbvjer."
+        },
+        {
+          "n": 30,
+          "t": "and-me not in-wisdom that there in-me from all-of the-living, the-mystery this has-been-revealed to/for-me ; except since cause-of that the-interpretation to/for-the-king and-thoughts-of heart-of-you will-make-know, you-will-know."
+        },
+        {
+          "n": 31,
+          "t": "you the-king making-see have-gbvjered and-behold image one greatly, the-image this great and-splendor-of-him preeminent standing before-you ; and-appearance-of-him feared."
+        },
+        {
+          "n": 32,
+          "t": "he the-image head-of-him that gold fine, breast-of-him and-arms-of-him that silver ; bellies-of-him and-thighs-of-him that bronze."
+        },
+        {
+          "n": 33,
+          "t": "legs-of-him that iron ; foots-of-him, from-them from-them-f that iron, and-from-them and-from-them-f that clay."
+        },
+        {
+          "n": 34,
+          "t": "seeing you-have-gbvjered till that stone has-determined that not in-hands, and-has-smited to/for-the-image since foots-of-him, that the-iron and-the-clay ; and-she-has-made-up they."
+        },
+        {
+          "n": 35,
+          "t": "in-then have-uped like-one the-iron the-clay the-bronze the-silver and-the-gold and-have-gbvjered like-chaff from floors-of summer, and-has-lifted they the-spirit, and-all-of place not has-finded to/for-them ; and-the-stone that has-smited to/for-the-image has-gbvjered to/for-mountain great and-has-filled all-of the-earth."
+        },
+        {
+          "n": 36,
+          "t": "this the-dream, and-interpretation-of-him we-will-say before the-king."
+        },
+        {
+          "n": 37,
+          "t": "you the-king, king-of the-kings ; that god-of the-heavens, the-kingdom the-authority and-the-might and-the-honor has-given to/for-you."
+        },
+        {
+          "n": 38,
+          "t": "and-in-all that dwelling sons-of the-man beast-of the-field and-bird-of the-heavens has-given in-hand-of-you, and-has-made-rule-you in-all-of-them ; you he, the-head that the-gold."
+        },
+        {
+          "n": 39,
+          "t": "kingdom another will-stand and-place-of-you, earth-of earth from-you ; and-kingdom third another that the-bronze, that will-rule in-all-of the-earth."
+        },
+        {
+          "n": 40,
+          "t": "and-kingdom fourth, will-gbvjer strong like-the-iron ; and-like-all before that the-iron making-up and-shattering the-all, and-like-the-iron that breaking all-of these she-will-make-up and-she-will-break."
+        },
+        {
+          "n": 41,
+          "t": "and-that you-have-seen the-foots and-the-digits from-them from-them-f clay that potter and-from-them and-from-them-f iron, kingdom divided will-gbvjer, and-from the-firmness that the-iron will-gbvjer in-him ; and-like-all before that you-have-seen, the-iron, mixed in-clay-of the-common."
+        },
+        {
+          "n": 42,
+          "t": "and-digits-of the-foots, from-them from-them-f iron and-from-them and-from-them-f clay ; from end-of the-kingdom will-gbvjer strong, and-from-her will-gbvjer broken."
+        },
+        {
+          "n": 43,
+          "t": "that and-that you-have-seen the-iron mixed in-clay-of the-common, mixed they-will-gbvjer in-seed-of the-man, and-not they-will-gbvjer cleaving this with this ; behold and-like-that the-iron, not mixed with the-clay."
+        },
+        {
+          "n": 44,
+          "t": "and-in-days-of-them that the-kings they god-of the-heavens will-make-stand kingdom that to/for-perpetuities not will-destroy, and-the-kingdom, to/for-people another not will-left ; will-make-up and-will-make-fulfilled all-of these the-kingdom, and-he will-stand to/for-the-perpetuities."
+        },
+        {
+          "n": 45,
+          "t": "and-like-all before that you-have-seen that from-the-mountain stone has-determined that not in-hands and-has-made-up the-iron the-bronze the-clay the-silver and-the-gold, god great has-made-know to/for-the-king, what that will-gbvjer after this ; and-certain the-dream and-trusted interpretation-of-him."
+        },
+        {
+          "n": 46,
+          "t": "in-then the-king Nebuchadnezzar has-fallen since faces-of-him, and-to/for-Daniel has-homaged ; and-offering and-soothings, he-has-said to/for-pour to/for-him."
+        },
+        {
+          "n": 47,
+          "t": "answering the-king to/for-Daniel and-saying from truth that god-of-you-pl he god-of gods and-lord-of kings and-revealing-of mysteries ; that you-have-abled, to/for-reveal the-mystery this."
+        },
+        {
+          "n": 48,
+          "t": "then the-king to/for-Daniel has-greated and-gifts great greatly has-given to/for-him, all-of province-of Babylon ; and-has-made-rule-him, since and-great-of prefects, since all-of wises-of Babylon."
+        },
+        {
+          "n": 49,
+          "t": "and-Daniel has-asked from the-king, and-has-reckoned since the-service that province-of Babylon, to/for-Shadrach Meshach and-Vaabed Abednego ; and-Daniel in-door-of the-king."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "image has-made Nebuchadnezzar the-king that gold, height-of-him cubit sixty, breadth-of-him cubit six ; he-has-made-stand-him in-plain-of Dura, in-province-of Babylon."
+        },
+        {
+          "n": 2,
+          "t": "and-Nebuchadnezzar the-king has-sended to/for-gather to/for-the-satraps the-prefects and-the-governors the-judges the-treasurers the-judges the-magistrates, and-all-of governors-of the-province ; to/for-come to/for-dedication-of the-image, that Nebuchadnezzar the-king has-made-stand."
+        },
+        {
+          "n": 3,
+          "t": "in-then gathered the-satraps the-prefects and-the-governors the-judges the-treasurers the-judges the-magistrates and-all-of governors-of the-province, and-to/for-dedication-of the-image, that has-made-stand Nebuchadnezzar the-king ; and-standing before the-image, that has-made-stand Nebuchadnezzar."
+        },
+        {
+          "n": 4,
+          "t": "and-the-proclaimer reading in-strength ; to/for-you-pl saying the-peoples, the-peoples and-the-tongues."
+        },
+        {
+          "n": 5,
+          "t": "in-the-time that you-pl-will-hear voice-of the-horn the-flute lyre trigon psaltery bagpipe, and-all-of kinds-of the-music ; you-pl-will-fall and-you-pl-will-homage to/for-image-of the-gold, that Nebuchadnezzar the-king has-made-stand."
+        },
+        {
+          "n": 6,
+          "t": "and-who that not he-will-fall and-he-will-homage ; in-him the-moment he-will-cast, to/for-midst-of furnace-of the-fire the-burning."
+        },
+        {
+          "n": 7,
+          "t": "and-like-all before this in-him the-time like-that hearing all-of the-peoples voice-of the-horn the-flute lyre trigon psaltery, and-all-of kinds-of the-music ; falling all-of the-peoples the-peoples and-the-tongues homaging to/for-image-of the-gold, that has-made-stand Nebuchadnezzar the-king."
+        },
+        {
+          "n": 8,
+          "t": "and-like-all before this in-him mans have-approached the-time,, Chaldean ; chargeses-of-them and-have-devoured that the-Jew."
+        },
+        {
+          "n": 9,
+          "t": "they-have-answered and-saying, to/for-Nebuchadnezzar the-king ; the-king to/for-perpetuities live."
+        },
+        {
+          "n": 10,
+          "t": "you the-king have-set command that all-of man that will-hear voice-of the-horn the-flute lyre trigon psaltery and-bagpipe, and-all-of kinds-of the-music ; he-will-fall and-he-will-homage to/for-image-of the-gold."
+        },
+        {
+          "n": 11,
+          "t": "and-who that not he-will-fall and-he-will-homage ; he-will-cast, to/for-midst-of furnace-of the-fire the-burning."
+        },
+        {
+          "n": 12,
+          "t": "there mans Jew that you-have-reckoned whom-them since service-of province-of Babylon, Shadrach Meshach and-Vaabed Abednego ; the-mans these not have-set since-you the-king command, to/for-gods-of-you to/for-god-of-you not serving, and-to/for-image-of the-gold that you-have-made-stand not homaging."
+        },
+        {
+          "n": 13,
+          "t": "in-then Nebuchadnezzar in-rage and-rage, has-said to/for-make-come, to/for-Shadrach Meshach and-Vaabed Abednego ; in-then the-mans these, have-been-made-come before the-king."
+        },
+        {
+          "n": 14,
+          "t": "answering Nebuchadnezzar and-saying to/for-them, is-it-the-intended, Shadrach Meshach and-Vaabed Abednego ; to/for-god-of-me not there-you-pl serving, and-to/for-image-of the-gold that I-have-made-stand not homaging."
+        },
+        {
+          "n": 15,
+          "t": "now if there-you-pl ready that in-the-time that you-pl-will-hear voice-of the-horn the-flute lyre trigon psaltery and-bagpipe and-all-of kinds-of the-music you-pl-will-fall and-you-pl-will-homage to/for-the-image that I-have-made and-if not you-pl-will-homage, in-him the-moment you-pl-will-cast, to/for-midst-of furnace-of the-fire the-burning ; and-who he god, that will-rescue-you-pl from hands-of-me."
+        },
+        {
+          "n": 16,
+          "t": "they-have-answered Shadrach Meshach and-Vaabed Abednego, and-saying to/for-the-king ; Nebuchadnezzar, not needing we since this edict to/for-make-return-of-you."
+        },
+        {
+          "n": 17,
+          "t": "if there god-of-us that we serving, will-able to/for-rescue-of-us ; from furnace-of the-fire the-burning and-from hands-of-you the-king will-rescue."
+        },
+        {
+          "n": 18,
+          "t": "and-if not, known the-king ; will-gbvjer to/for-you that to/for-gods-of-you to/for-god-of-you not there-us serving, and-to/for-image-of the-gold that you-have-made-stand not we-will-homage."
+        },
+        {
+          "n": 19,
+          "t": "in-then Nebuchadnezzar has-filled rage and-image-of faces-of-him has-been-changed, since Shadrach Meshach and-Vaabed Abednego ; answering and-saying to/for-heat to/for-the-furnace, one seven, since that seen to/for-heat-of-him."
+        },
+        {
+          "n": 20,
+          "t": "and-to/for-mans mighties-of strength that in-strength-of-him, to/for-Shadrach Meshach and-Vaabed Abednego ; has-said to/for-bind, to/for-cast, to/for-furnace-of the-fire the-burning."
+        },
+        {
+          "n": 21,
+          "t": "in-then the-mans these have-been-binded in-mantles-of-them leggings-of-them, and-helmets-of-them and-garments-of-them ; and-they-have-been-casted, to/for-midst-of furnace-of the-fire the-burning."
+        },
+        {
+          "n": 22,
+          "t": "and-like-all before this from that word-of the-king making-hasty, and-the-furnace heated preeminent ; the-mans these that have-made-up to/for-Shadrach Meshach and-Vaabed Abednego, has-slayed they, the-flame that the-fire."
+        },
+        {
+          "n": 23,
+          "t": "and-the-mans these three-of-them, Shadrach Meshach and-Vaabed Abednego ; they-have-fallen to/for-midst-of furnace-of the-fire the-burning binded."
+        },
+        {
+          "n": 24,
+          "t": "then Nebuchadnezzar the-king, has-startleded and-has-stood in-dismay ; answering and-saying to/for-counselors-of-him is-it-not mans three we-have-casted to/for-midst-of the-fire binding, answering and-saying to/for-the-king, certain the-king."
+        },
+        {
+          "n": 25,
+          "t": "answering and-saying behold me seeing mans four loosed making-go in-midst-of the-fire, and-harm not there in-them ; and-appearance-of-him that the-fourth, liking to/for-son-of gods."
+        },
+        {
+          "n": 26,
+          "t": "in-then Nebuchadnezzar has-approached to/for-door-of furnace-of the-fire the-burning answering and-saying Shadrach Meshach and-Vaabed Abednego servants-of-him that the-god the-high out and-come ; in-then outing Shadrach Meshach and-Vaabed Abednego from midst-of the-fire."
+        },
+        {
+          "n": 27,
+          "t": "and-gathered the-satraps the-prefects and-the-governors and-counselors-of the-king seeing to/for-the-mans these that not has-ruled the-fire in-body-of-them and-hair-of head-of-them not has-singed, and-mantles-of-them not have-changed ; and-smell-of fire, not has-oned in-them."
+        },
+        {
+          "n": 28,
+          "t": "answering Nebuchadnezzar and-saying blessed god-of-them that Shadrach Meshach and-Vaabed Abednego, that has-sended angel-of-him and-has-rescued to/for-servants-of-him, that have-trusted since-him ; and-word-of the-king they-have-changed, and-they-have-given bodies-of-them body-of-them that not they-will-serve and-not they-will-homage to/for-all-of god, except to/for-god-of-them."
+        },
+        {
+          "n": 29,
+          "t": "and-from-me command has-been-set that all-of people people and-tongue that will-say error neglect since god-of-them that Shadrach Meshach and-Vaabed Abednego, pieces will-make, and-house-of-him dunghill will-set ; and-like-all before that not there god another, that will-able to/for-make-rescue like-this."
+        },
+        {
+          "n": 30,
+          "t": "in-then the-king has-made-prosper to/for-Shadrach Meshach and-Vaabed Abednego in-province-of Babylon."
+        },
+        {
+          "n": 31,
+          "t": "Nebuchadnezzar the-king to/for-all-of the-peoples the-peoples and-the-tongues that dwelling in-all-of the-earth peace-of-you-pl will-great."
+        },
+        {
+          "n": 32,
+          "t": "the-signs and-the-wonders, that the-god the-high ; has-made with-me, he-has-acceptabled before-me to/for-make-show."
+        },
+        {
+          "n": 33,
+          "t": "signs-of-him like-what great, and-wonders-of-him like-what strong ; kingdom-of-him kingdom-of perpetuity, and-dominion-of-him with generation and-generation."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "me Nebuchadnezzar safe have-gbvjered in-house-of-me, and-luxuriant in-temple-of-me."
+        },
+        {
+          "n": 2,
+          "t": "dream I-have-seen and-will-fear-me ; and-fantasieses since bed-of-me, and-visions-of head-of-me will-dismay-me."
+        },
+        {
+          "n": 3,
+          "t": "and-from-me command has-been-set, to/for-make-come before-me, to/for-all-of wises-of Babylon ; that interpretation-of the-dream they-will-make-know-me."
+        },
+        {
+          "n": 4,
+          "t": "in-then coming the-magicians the-enchanters, the-Chaldean Chaldean-of-me and-the-determining ; and-the-dream saying me before-them, and-interpretation-of-him not making-know to/for-me."
+        },
+        {
+          "n": 5,
+          "t": "and-till finally Daniel has-come before-me that name-of-him Belteshazzar like-name-of god-of-me, and-that spirit-of gods holy in-him ; and-the-dream before-him I-have-said."
+        },
+        {
+          "n": 6,
+          "t": "Belteshazzar great-of the-magicians that me have-known that spirit-of gods holy in-you, and-all-of mystery not constraining to/for-you ; visions-of dream-of-me that I-have-seen and-interpretation-of-him say."
+        },
+        {
+          "n": 7,
+          "t": "and-visions-of head-of-me since bed-of-me ; seeing I-have-gbvjered, and-behold tree in-midst-of the-earth and-height-of-him greatly."
+        },
+        {
+          "n": 8,
+          "t": "the-tree has-greated and-has-stronged ; and-height-of-him will-reach to/for-the-heavens, and-visibility-of-him to/for-end-of all-of the-earth."
+        },
+        {
+          "n": 9,
+          "t": "foliage-of-him fair and-fruit-of-him greatly, and-food to/for-the-all in-him ; under-him beast-of the-field will-make-shade and-in-boughs-of-him they-will-dwell birds-of the-heavens, and-from-him all-of the-flesh will-feed."
+        },
+        {
+          "n": 10,
+          "t": "seeing I-have-gbvjered in-visions-of head-of-me since bed-of-me ; and-behold watcher and-holy, from the-heavens descending."
+        },
+        {
+          "n": 11,
+          "t": "reading in-strength and-thus saying chop the-tree and-cut boughs-of-him, make-strip foliage-of-him and-scatter fruit-of-him ; the-beast will-flee from under-him, and-the-birds from bough-of-him."
+        },
+        {
+          "n": 12,
+          "t": "nevertheless root-of roots-of-him in-the-earth left, and-in-bond that iron and-bronze, in-the-grass that the-field ; and-in-dew-of the-heavens will-drench, and-with the-beast portion-of-him in-grass-of the-earth."
+        },
+        {
+          "n": 13,
+          "t": "heart-of-him from the-man they-will-change, and-heart-of beast will-give to/for-him ; and-seven times will-pass since-him."
+        },
+        {
+          "n": 14,
+          "t": "in-decree-of watchers the-edict, and-command-of holy the-affair ; till cause-of that will-know the-living that ruling the-high in-kingdom-of the-man and-to/for-who that has-willed will-give-her, and-low-of mans will-make-stand since-her."
+        },
+        {
+          "n": 15,
+          "t": "this the-dream me have-seen, the-king Nebuchadnezzar ; and-you Belteshazzar the-interpretation say and-like-all before that all-of wises-of kingdom-of-me not abling the-interpretation to/for-make-know-of-me, and-you abling, that spirit-of gods holy in-you."
+        },
+        {
+          "n": 16,
+          "t": "then Daniel that name-of-him Belteshazzar has-appalleded like-moment one, and-thoughts-of-him will-dismay-him ; answering the-king and-saying Belteshazzar the-dream and-the-interpretation not will-dismay-you, answering Belteshazzar and-saying, lord-of-me, the-dream to/for-hating-of-you and-interpretation-of-him to/for-foes-of-you to/for-foe-of-you."
+        },
+        {
+          "n": 17,
+          "t": "the-tree that you-have-seen, that has-greated and-has-stronged ; and-height-of-him will-reach to/for-the-heavens, and-visibility-of-him to/for-all-of the-earth."
+        },
+        {
+          "n": 18,
+          "t": "and-foliage-of-him fair and-fruit-of-him greatly, and-food to/for-the-all in-him ; under-him beast-of the-field will-dwell, and-in-boughs-of-him, he-will-dwell birds-of the-heavens."
+        },
+        {
+          "n": 19,
+          "t": "you he the-king, that have-greated and-have-stronged ; and-greatness-of-you has-greated and-has-reached to/for-the-heavens, and-dominion-of-you to/for-end-of the-earth."
+        },
+        {
+          "n": 20,
+          "t": "and-that the-king watcher and-holy descending has-seen from the-heavens and-saying chop the-tree and-destroy-him nevertheless root-of roots-of-him in-the-earth left, and-in-bond that iron and-bronze, in-the-grass that the-field ; and-in-dew-of the-heavens will-drench and-with beast-of the-field portion-of-him, till that seven time they-will-pass since-him."
+        },
+        {
+          "n": 21,
+          "t": "this the-interpretation the-king ; and-decree-of the-high he, that has-reached since lord-of-me king-of-me."
+        },
+        {
+          "n": 22,
+          "t": "and-to/for-you awaying from the-man and-with beast-of the-field will-gbvjer dwelling-of-you and-the-grass like-bullocks to/for-you will-feed and-from-dew-of the-heavens to/for-to/for drenching, and-seven times will-pass since-you ; till that you-will-know that ruling the-high in-kingdom-of the-man, and-to/for-who that he-will-will he-will-give-her."
+        },
+        {
+          "n": 23,
+          "t": "and-that they-have-said to/for-left root-of roots-of-him that the-tree, kingdom-of-you to/for-you enduring ; from that you-will-know, that ruling the-heavens."
+        },
+        {
+          "n": 24,
+          "t": "except the-king counsel-of-me will-acceptable since-you, and-sin-of-you in-righteousness break, and-iniquities-of-you in-gracious afflicts ; therefore lengthening will-gbvjer to/for-ease-of-you."
+        },
+        {
+          "n": 25,
+          "t": "the-all has-reached, since Nebuchadnezzar the-king."
+        },
+        {
+          "n": 26,
+          "t": "to/for-end-of months two-of ten ; since temple-of the-kingdom that Babylon going has-gbvjered."
+        },
+        {
+          "n": 27,
+          "t": "answering the-king and-saying, is-it-not this he Babylon the-great ; that me have-built-her to/for-house-of kingdom, in-might-of authority-of-me and-to/for-honor-of honor-of-me."
+        },
+        {
+          "n": 28,
+          "t": "still the-word in-mouth-of the-king, voice from the-heavens has-fallen ; to/for-you saying Nebuchadnezzar the-king, the-kingdom has-oned from-you."
+        },
+        {
+          "n": 29,
+          "t": "and-from the-man to/for-to/for-you awaying and-with beast-of the-field dwelling-of-you the-grass like-bullocks to/for-you will-feed, and-seven times will-pass since-you ; till that you-will-know that ruling the-high in-kingdom-of the-man, and-to/for-who that he-will-will he-will-give-her."
+        },
+        {
+          "n": 30,
+          "t": "in-her the-moment the-word has-fulfilleded since Nebuchadnezzar and-from the-man has-been-awayed, and-the-grass like-bullocks will-devour, and-from-dew-of the-heavens body-of-him will-drench ; till that hair-of-him like-eagles has-greated and-nails-of-him like-birds."
+        },
+        {
+          "n": 31,
+          "t": "and-to/for-end-of the-days me Nebuchadnezzar eye-of-me to/for-the-heavens have-lifted and-knowledge-of-me since-me will-return, and-to/for-the-high have-blessed, and-to/for-living-of the-perpetuity have-praised and-have-honored ; that dominion-of-him dominion-of perpetuity, and-kingdom-of-him with generation and-generation."
+        },
+        {
+          "n": 32,
+          "t": "and-all-of dwelling-of the-earth like-not accounted, and-like-will-of-him making in-strength-of the-heavens, and-dwelling-of the-earth ; and-not there that he-will-smite in-hand-of-him, and-he-will-say to/for-him what you-have-made."
+        },
+        {
+          "n": 33,
+          "t": "in-him the-time knowledge-of-me will-return since-me and-to/for-honor-of kingdom-of-me honor-of-me and-splendor-of-me will-return since-me, and-to/for-me, counselors-of-me and-noble-of-me will-ask ; and-since kingdom-of-me has-been-made-confirm, and-greatness preeminent has-been-made-add to/for-me."
+        },
+        {
+          "n": 34,
+          "t": "now me Nebuchadnezzar praising and-rising and-honoring to/for-king-of the-heavens, that all-of works-of-him truth, and-ways-of-him judgment ; and-that making-go in-pride, abling to/for-make-low."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "feast great, has-made Belshazzar the-king to/for-nobles-of-him thousand ; and-before the-thousand the-wine drinking."
+        },
+        {
+          "n": 2,
+          "t": "Belshazzar has-said in-feed-of the-wine to/for-make-come to/for-utensils-of the-gold and-the-silver, that has-made-out Nebuchadnezzar father-of-him, from the-temple that in-Jerusalem ; and-will-drink in-them the-king and-nobles-of-him, consorts-of-him and-concubine-of-him."
+        },
+        {
+          "n": 3,
+          "t": "in-then utensils-of the-gold have-made-come, that have-made-out from the-temple that house-of the-god that in-Jerusalem ; and-have-drunk in-them the-king and-nobles-of-him, consorts-of-him and-concubines-of-him."
+        },
+        {
+          "n": 4,
+          "t": "they-have-drunk the-wine ; to/for-gods-of the-gold and-have-praised and-the-silver the-bronze the-iron the-wood and-the-stone."
+        },
+        {
+          "n": 5,
+          "t": "in-her digits have-outed the-moment that hand-of man, and-writing before the-lampstand, since the-plaster, that wall-of the-temple that the-king ; and-the-king seeing, palm-of the-hand that writing."
+        },
+        {
+          "n": 6,
+          "t": "then the-king splendors-of-him have-changed-him, and-thoughts-of-him will-dismay-him ; and-joints-of loin-of-him loosed, and-knees-of-him, this to/for-this knocking."
+        },
+        {
+          "n": 7,
+          "t": "reading the-king in-strength, to/for-make-come to/for-the-enchanters, the-Chaldean Chaldean-of-me and-the-determining ; answering the-king and-saying to/for-wises-of Babylon that all-of man that will-read the-inscription this and-interpretation-of-him will-show-me, the-purple will-clothe and-the-chain that the-gold since neck-of-him, and-third in-the-kingdom will-rule."
+        },
+        {
+          "n": 8,
+          "t": "then coming, all-of wises-of the-king ; and-not abling the-inscription to/for-read, and-the-interpretation and-interpretation-of-him to/for-make-know to/for-the-king."
+        },
+        {
+          "n": 9,
+          "t": "then the-king Belshazzar greatly dismayed, and-splendors-of-him changing since-him ; and-nobles-of-him perplexeded."
+        },
+        {
+          "n": 10,
+          "t": "the-queen, before words-of the-king and-nobles-of-him, to/for-house-of the-feast has-come ; the-queen has-answered and-has-said the-king to/for-perpetuities live, not thoughts-of-you will-dismay-you, and-splendors-of-you not will-change."
+        },
+        {
+          "n": 11,
+          "t": "there man in-kingdom-of-you that spirit-of gods holy in-him and-in-days-of father-of-you illumination and-insight and-wisdom like-wisdom-of gods has-finded in-him ; and-the-king Nebuchadnezzar father-of-you, great-of magicians enchanters Chaldean determining, has-made-stand-him father-of-you the-king."
+        },
+        {
+          "n": 12,
+          "t": "and-like-all before that spirit preeminent and-knowledge and-insight interpreting-of dreams and-make-explanation riddles and-loosing-of joints has-finded in-him in-Daniel, that the-king has-set name-of-him Belteshazzar ; now Daniel will-read and-the-interpretation will-make-show."
+        },
+        {
+          "n": 13,
+          "t": "in-then Daniel, has-been-made-come before the-king ; answering the-king and-saying to/for-Daniel you he Daniel that from sons-of the-captivity that Judah, that has-made-come the-king father-of-me from Judah."
+        },
+        {
+          "n": 14,
+          "t": "and-I-have-heard since-you, that spirit-of gods in-you ; and-illumination and-insight and-wisdom preeminent has-finded in-you."
+        },
+        {
+          "n": 15,
+          "t": "and-now the-wises the-enchanters, have-been-made-come before-me that the-inscription this will-read, and-interpretation-of-him to/for-make-know-of-me ; and-not abling interpretation-of the-word to/for-make-show."
+        },
+        {
+          "n": 16,
+          "t": "and-me have-heard since-you, that you-will-able interpretations to/for-interpret and-joints to/for-loose ; now if you-will-able the-inscription to/for-read and-interpretation-of-him to/for-make-know-of-me, the-purple you-will-clothe and-the-chain that the-gold since neck-of-you, and-third in-the-kingdom you-will-rule."
+        },
+        {
+          "n": 17,
+          "t": "in-then answering Daniel and-saying before the-king, gifts-of-you to/for-you will-gbvjer, and-rewards-of-you to/for-another give ; nevertheless the-inscription I-will-read to/for-the-king, and-the-interpretation I-will-make-know-him."
+        },
+        {
+          "n": 18,
+          "t": "you the-king ; the-god the-high, the-kingdom and-the-greatness and-the-honor and-the-honor, will-give to/for-Nebuchadnezzar father-of-you."
+        },
+        {
+          "n": 19,
+          "t": "and-from the-greatness that all-of the-peoples has-given to/for-him, the-peoples and-the-tongues, have-gbvjered trembling and-fearing from before-him ; that he-has-gbvjered willing he-has-gbvjered slaying and-that he-has-gbvjered willing he-has-gbvjered living, and-that he-has-gbvjered willing he-has-gbvjered making-rise, and-that he-has-gbvjered willing he-has-gbvjered making-low."
+        },
+        {
+          "n": 20,
+          "t": "and-like-that heart-of-him has-risen, and-spirit-of-him will-strong to/for-make-proud ; throne-of kingdom-of-him, and-the-honor has-been-made-descend from they-have-made-on from-him."
+        },
+        {
+          "n": 21,
+          "t": "and-from sons-of the-man has-been-awayed and-heart-of-him with the-beast have-been-liked and-with the-donkeys dwelling-of-him, the-grass like-bullocks will-feed-him, and-from-dew-of the-heavens body-of-him will-drench ; till that has-known that ruling the-god the-high in-kingdom-of the-man, and-to/for-who that will-will will-make-stand since-him."
+        },
+        {
+          "n": 22,
+          "t": "and-you son-of-him Belshazzar, not have-made-low heart-of-you ; and-like-all before, that all-of this you-have-known."
+        },
+        {
+          "n": 23,
+          "t": "and-since lord-of the-heavens have-risen and-to/for-the-utensils that house-of-him have-made-come before-you and-you and-nobles-of-you and-noble-of-you consorts-of-you and-concubines-of-you the-wine drinking in-them and-to/for-gods-of the-silver and-the-gold the-bronze the-iron the-wood and-the-stone that not seeing and-not hearing and-not knowing have-praised ; and-to/for-the-god that breath-of-you in-hand-of-him and-all-of ways-of-you to/for-him not you-have-honored."
+        },
+        {
+          "n": 24,
+          "t": "in-then from before-him, the-palm has-been-sended that the-hand ; and-the-inscription this has-been-signed."
+        },
+        {
+          "n": 25,
+          "t": "and-this the-inscription that has-been-signed ; mina mina shekel and-half."
+        },
+        {
+          "n": 26,
+          "t": "this interpretation-of the-word ; mina, has-reckoned the-god kingdom-of-you and-has-made-complete-her."
+        },
+        {
+          "n": 27,
+          "t": "shekel ; you-will-be-weighed in-the-scales and-you-have-finded lacking."
+        },
+        {
+          "n": 28,
+          "t": "half ; kingdom-of-you has-been-divided, and-has-been-given to/for-Mede and-Persia."
+        },
+        {
+          "n": 29,
+          "t": "in-then Belshazzar has-said and-they-have-made-clothe to/for-Daniel the-purple, and-the-chain that the-gold since neck-of-him ; and-they-have-made-proclaim since-him, that he-will-gbvjer ruling third in-the-kingdom."
+        },
+        {
+          "n": 30,
+          "t": "in-him in-the-night, Belshazzar the-king the-Chaldean has-been-slayed,."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-Darius the-Mede, has-received the-kingdom ; like-son-of years sixty and-two."
+        },
+        {
+          "n": 2,
+          "t": "Darius, has-acceptabled before and-has-made-stand since the-kingdom, to/for-the-satraps hundred and-twenty ; that they-will-gbvjer in-all-of the-kingdom."
+        },
+        {
+          "n": 3,
+          "t": "and-above from-them chiefs three, that Daniel one from-them ; that the-satraps will-gbvjer these giving to/for-them the-account, and-the-king not will-gbvjer suffering."
+        },
+        {
+          "n": 4,
+          "t": "then Daniel this, has-gbvjered oneselfed, since the-chiefs and-the-satrap ; and-like-all before that spirit preeminent in-him, and-the-king planed, to/for-make-stand-of-him since all-of the-kingdom."
+        },
+        {
+          "n": 5,
+          "t": "then the-chiefs and-the-satraps have-gbvjered asking pretext to/for-make-find to/for-Daniel from-side-of the-kingdom ; and-all-of pretext and-corrupted not abling to/for-make-find and-like-all before that trusted he, and-all-of neglect and-corrupted, not she-has-finded since-him."
+        },
+        {
+          "n": 6,
+          "t": "then the-mans these saying, that not we-will-make-find to/for-Daniel this all-of pretext ; except, we-have-made-find since-him in-law-of god-of-him."
+        },
+        {
+          "n": 7,
+          "t": "then the-chiefs and-the-satraps these, have-made-throng since the-king ; and-thus saying to/for-him, Darius the-king to/for-perpetuities live."
+        },
+        {
+          "n": 8,
+          "t": "have-been-counseled all-of chiefs-of the-kingdom the-prefects and-the-satraps the-counselors and-the-governors, to/for-stand statute-of the-king, and-to/for-strong injunction ; that all-of that will-ask petition from all-of god and-man till days thirty except from-you the-king, will-cast, to/for-den-of the-lions."
+        },
+        {
+          "n": 9,
+          "t": "now the-king, you-will-make-stand the-injunction and-you-will-sign the-inscription ; that not to/for-make-change like-law-of Mede and-Persia that not she-will-on."
+        },
+        {
+          "n": 10,
+          "t": "and-like-all before this ; the-inscription has-signed the-king Darius,, and-the-injunction."
+        },
+        {
+          "n": 11,
+          "t": "and-Daniel and-like-that has-known that the-inscription has-been-signed has-come to/for-house-of-him, and-windows opened to/for-him in-roof-of-him, before Jerusalem ; and-times three in-the-days he blessing since knees-of-him and-praying and-making-praise before god-of-him, and-like-all before that has-gbvjered making, from previously-of this."
+        },
+        {
+          "n": 12,
+          "t": "then the-mans these have-made-throng, and-have-made-find to/for-Daniel ; asking and-gracioused before god-of-him."
+        },
+        {
+          "n": 13,
+          "t": "in-then have-been-approached and-saying before the-king since injunction-of the-king is-it-not injunction you-have-signed that all-of man that will-ask from all-of god and-man till days thirty except from-you the-king, will-cast, to/for-den-of the-lions ; answering the-king and-saying certain the-word like-law-of Mede and-Persia that not will-on."
+        },
+        {
+          "n": 14,
+          "t": "in-then have-answered and-saying before the-king that Daniel that from sons-of the-captivity that Judah not has-set since-you the-king command, and-since the-injunction that you-have-signed ; and-times three in-the-day, asking petition-of-him."
+        },
+        {
+          "n": 15,
+          "t": "then the-king and-like-that the-word has-heard greatly displeaseding since-him, and-since Daniel has-set mind to/for-rescue-of-him ; and-till downs-of the-sun, he-has-gbvjered strived to/for-make-rescue-of-him."
+        },
+        {
+          "n": 16,
+          "t": "in-then the-mans these, have-made-throng since the-king ; and-saying to/for-the-king know the-king that law to/for-Mede and-Persia, that all-of injunction-of and-statute that the-king will-make-stand not to/for-make-change."
+        },
+        {
+          "n": 17,
+          "t": "in-then the-king has-said and-have-made-come to/for-Daniel, and-have-casted, to/for-the-den that the-lions ; answering the-king and-saying to/for-Daniel, god-of-you that you serving to/for-to/for-him in-the-continuance, he will-rescue-you."
+        },
+        {
+          "n": 18,
+          "t": "stone one and-has-been-made-come, and-has-been-set since mouth-of the-den ; the-king and-has-sealed-her in-ring-of-him and-in-ring-of nobles-of-him, that not will-change thing in-Daniel."
+        },
+        {
+          "n": 19,
+          "t": "then the-king has-gone to/for-temple-of-him and-has-lodged fasting, and-diversions not has-made-come before-him ; and-sleep-of-him has-fled since-him."
+        },
+        {
+          "n": 20,
+          "t": "in-then the-king, in-the-dawn will-stand in-the-daylight ; and-in-dismay, to/for-the-den that the-lions he-has-gone."
+        },
+        {
+          "n": 21,
+          "t": "and-like-approach-of-him to/for-the-den, to/for-Daniel, in-voice pain he-has-outed ; answering the-king and-saying to/for-Daniel Daniel servant-of the-god the-living, god-of-you that you serving to/for-to/for-him in-the-continuance, is-it-the-has-abled to/for-rescue-of-you from the-lions."
+        },
+        {
+          "n": 22,
+          "t": "then Daniel, with the-king has-spoken ; the-king to/for-perpetuities live."
+        },
+        {
+          "n": 23,
+          "t": "god-of-me has-sended angel-of-him and-has-shuted mouth-of the-lions and-not they-have-destroyed-me ; and-like-all before that before-him innocence has-finded to/for-me, and-also before-you the-king, crime not I-have-made."
+        },
+        {
+          "n": 24,
+          "t": "in-then the-king greatly has-gooded since-him, and-to/for-Daniel, has-said to/for-make-up from the-den ; Daniel and-has-been-made-up from the-den and-all-of harm not has-finded in-him, that has-made-trust in-god-of-him."
+        },
+        {
+          "n": 25,
+          "t": "the-king and-has-said and-have-made-come the-mans these that have-devoured chargeses-of-him that Daniel, and-to/for-den-of the-lions have-casted, they sons-of-them and-womans-of-them ; and-not have-reached to/for-bottom-of the-den till that the-lions, have-ruled in-them and-all-of bones-of-them have-made-up."
+        },
+        {
+          "n": 26,
+          "t": "in-then Darius the-king has-written to/for-all-of the-peoples the-peoples and-the-tongues that dwelling in-all-of the-earth peace-of-you-pl will-great."
+        },
+        {
+          "n": 27,
+          "t": "from before-me command has-set that in-all-of dominion-of kingdom-of-me they-will-gbvjer trembling and-fearing, from before god-of-him that Daniel ; that he the-god the-living and-enduring to/for-perpetuities, and-kingdom-of-him that not will-destroy, and-dominion-of-him till the-end."
+        },
+        {
+          "n": 28,
+          "t": "rescued and-making-rescue and-making signs and-wonders, in-the-heavens and-in-the-earth ; that to/for-Daniel has-rescued, from hand-of the-lions."
+        },
+        {
+          "n": 29,
+          "t": "and-Daniel this, has-made-prosper in-kingdom-of Darius ; and-in-kingdom-of Cyrus the-Persian."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-year-of one to/for-Belshazzar king-of Babylon, Daniel dream has-seen, and-visions-of head-of-him since bed-of-him ; in-then the-dream has-written, head-of words has-said."
+        },
+        {
+          "n": 2,
+          "t": "answering Daniel and-saying, seeing I-have-gbvjered in-vision-of-me with the-night ; and-behold four spirits-of the-heavens, making-strive to/for-the-sea the-great."
+        },
+        {
+          "n": 3,
+          "t": "and-four beasts great, ascending from the-sea ; changing this from this."
+        },
+        {
+          "n": 4,
+          "t": "the-first like-lion, and-wings that eagle to/for-her ; seeing I-have-gbvjered till that wings-of-her have-been-plucked and-has-been-lifted from the-earth and-since foots like-man has-been-made-stand, and-heart-of man has-been-given to/for-her."
+        },
+        {
+          "n": 5,
+          "t": "and-behold beast another second liking to/for-bear and-to/for-side one has-been-made-stand, and-three ribs in-mouth-of-her between the-tooths tooth-of-her ; and-thus saying to/for-her, stand devour flesh greatly."
+        },
+        {
+          "n": 6,
+          "t": "place this seeing I-have-gbvjered and-behold another like-leopard, and-to/for-her wings four that bird since the-backs back-of-her ; and-four heads to/for-the-beast, and-dominion has-been-given to/for-her."
+        },
+        {
+          "n": 7,
+          "t": "place this seeing I-have-gbvjered in-visions-of the-night and-behold beast fourth feared and-terrible and-strong preeminent and-tooths that iron to/for-her great, devouring and-making-up, and-the-remainder in-the-foots in-foot-of-her treading ; and-he changed from all-of the-beast that the-before, and-horns ten to/for-her."
+        },
+        {
+          "n": 8,
+          "t": "contemplated I-have-gbvjered in-the-horns and-behold horn another little has-ascended between-them between-them-f, and-three from the-horns the-first, they-have-uprooteded from the-before before-her ; and-behold eyes like-eyes-of the-man in-the-horn this, and-mouth speaking great."
+        },
+        {
+          "n": 9,
+          "t": "seeing I-have-gbvjered till that thrones have-been-casted, and-Ancient-of days he-has-dwelt ; garment-of-him like-snow white and-hair-of head-of-him like-wool pure, throne-of-him flames that fire, wheels-of-him fire burning."
+        },
+        {
+          "n": 10,
+          "t": "River that fire flowing and-outing from before-him, thousand-of thousand they-will-minister-him, and-myriad-of myriad before-him they-will-stand ; the-judgment has-dwelt and-scrolls have-been-opened."
+        },
+        {
+          "n": 11,
+          "t": "seeing I-have-gbvjered, in-then from voice-of the-words the-great, that the-horn speaking ; seeing I-have-gbvjered till that the-beast has-been-slayed and-has-been-made-destroy body-of-her, and-has-been-given to/for-burning-of fire."
+        },
+        {
+          "n": 12,
+          "t": "and-remainder-of the-beasts, they-have-made-on dominion-of-them ; and-lengthening in-living has-been-given to/for-them till time and-time."
+        },
+        {
+          "n": 13,
+          "t": "seeing I-have-gbvjered in-visions-of the-night, and-behold with clouds-of the-heavens, like-son-of man coming he-has-gbvjered ; and-till Ancient-of the-days he-has-reached, and-before-him have-made-approach-him."
+        },
+        {
+          "n": 14,
+          "t": "and-to/for-him dominion and-honor has-been-given and-kingdom, and-all-of the-peoples the-peoples and-the-tongues to/for-him will-serve ; dominion-of-him dominion-of perpetuity that not will-on, and-kingdom-of-him that not will-destroy."
+        },
+        {
+          "n": 15,
+          "t": "spirit-of-me has-distresseded me Daniel in-midst-of sheath ; and-visions-of head-of-me will-dismay-me."
+        },
+        {
+          "n": 16,
+          "t": "I-have-approached since one from the-standing, and-certain I-will-ask from-him since all-of this ; and-interpretation-of the-words and-has-said to/for-me, will-make-know-me."
+        },
+        {
+          "n": 17,
+          "t": "these the-beasts the-great, that they four ; four kings will-stand from the-earth."
+        },
+        {
+          "n": 18,
+          "t": "and-they-will-receive the-kingdom, holy-of high ; and-they-will-make-possess the-kingdom till the-perpetuity, and-till perpetuity-of the-perpetuities."
+        },
+        {
+          "n": 19,
+          "t": "then I-have-willed to/for-know, since the-beast the-fourth, that has-gbvjered changing from all-of-them all-of-her ; feared preeminent tooths-of-her tooth-of-her that iron and-nails-of-her that bronze, devouring making-up, and-the-remainder in-foots-of-her treading."
+        },
+        {
+          "n": 20,
+          "t": "and-since the-horns ten that in-head-of-her, and-another that she-has-ascended, and-have-fallen from before-her three ; and-the-horn this and-eyes to/for-her and-mouth speaking great, and-vision-of-her great from associates-of-her."
+        },
+        {
+          "n": 21,
+          "t": "seeing I-have-gbvjered, and-the-horn this, making war with holy ; and-abling to/for-them."
+        },
+        {
+          "n": 22,
+          "t": "till that Ancient the-day and-the-judgment has-come, has-been-given, to/for-holy-of high ; and-the-time has-reached, and-the-kingdom they-have-made-possess holy."
+        },
+        {
+          "n": 23,
+          "t": "thus he-has-said the-beast the-fourth, kingdom the-fourth will-gbvjer in-the-earth, that will-change from will-all the-kingdoms ; and-she-will-devour all-of the-earth, and-she-will-tread-her and-she-will-make-up-her."
+        },
+        {
+          "n": 24,
+          "t": "and-the-horns ten, from-her the-kingdom, ten kings will-stand ; and-another and-he will-stand after-them will-change from the-first, and-three kings will-make-low."
+        },
+        {
+          "n": 25,
+          "t": "and-words to/for-side-of the-high he-will-speak, and-to/for-holy-of high he-will-out ; and-will-intend to/for-make-change times and-law, and-will-give in-hand-of-him, till time and-times and-half-of time."
+        },
+        {
+          "n": 26,
+          "t": "and-the-judgment will-dwell ; and-dominion-of-him they-will-make-on, to/for-make-destroy and-to/for-make-destroy till the-end."
+        },
+        {
+          "n": 27,
+          "t": "and-the-kingdom and-the-dominion and-the-greatness that kingdoms-of under all-of the-heavens, has-been-given, to/for-people-of holy-of high ; kingdom-of-him kingdom-of perpetuity, and-all-of the-dominions, to/for-him they-will-serve and-they-will-hear."
+        },
+        {
+          "n": 28,
+          "t": "till thus the-end that the-word ; me Daniel greatly thoughts-of-me will-dismay-me and-splendors-of-me will-change since-me, and-the-word in-heart-of-me have-kept."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-year-of three, to/for-kingdom-of Belshazzar the-king ; vision has-been-seen toward-me I Daniel, after the-has-been-seen toward-me in-the-beginning."
+        },
+        {
+          "n": 2,
+          "t": "and-have-seen in-the-vision and-he-has-been in-see-of-me, and-I in-Susa the-palace, who in-Elam the-province ; and-I and-have-seen in-the-vision, have-been on river-of Ulai."
+        },
+        {
+          "n": 3,
+          "t": "and-I-have-lifted eyes-of-me and-I-have-seen, and-behold ram one standing to/for-faces-of the-river and-to/for-him horns ; and-the-horns high and-the-one high from the-second, and-the-high, ascending in-the-last."
+        },
+        {
+          "n": 4,
+          "t": "I-have-seen the-ram goring sea-ward and-north-ward and-negeb-ward and-all-of beasts not they-will-stand to/for-faces-of-him, and-naught making-rescue from-hand-of-him ; and-he-has-done like-acceptance-of-him and-he-has-made-magnify."
+        },
+        {
+          "n": 5,
+          "t": "and-I have-been making-discern and-behold male-of the-goats coming from the-west on faces-of all-of the-land, and-naught touching in-the-land ; and-the-male, horn-of vision between eyes-of-him."
+        },
+        {
+          "n": 6,
+          "t": "the-ram and-has-come until master-of the-horns, who I-have-seen, standing to/for-faces-of the-river ; and-he-has-run toward-him in-rage-of strength-of-him."
+        },
+        {
+          "n": 7,
+          "t": "and-I-have-seen-him making-touch beside the-ram and-has-provoked toward-him and-has-made-smite the-ram, and-has-breaked two-of horns-of-him, and-not strength has-been in-the-ram to/for-stand to/for-faces-of-him ; and-has-made-throw-him land-ward and-has-trampled-him, and-not has-been making-rescue to/for-the-ram from-hand-of-him."
+        },
+        {
+          "n": 8,
+          "t": "and-male-of the-goats has-made-magnify until very ; and-like-vast-of-him the-horn the-great has-been-breaked, and-have-ascended vision four under-her, to/for-four spirits-of the-heavens."
+        },
+        {
+          "n": 9,
+          "t": "and-from the-one from-them, horn has-exited one from-little ; and-she-has-magnified remainder toward the-negeb and-toward the-east and-toward the-beauty."
+        },
+        {
+          "n": 10,
+          "t": "host-of the-heavens ; and-has-magnified until and-has-made-fall land-ward from the-host and-from the-stars and-has-trampled-them."
+        },
+        {
+          "n": 11,
+          "t": "and-until official-of the-host has-made-magnify ; and-from-him the-continually has-made-exalt has-been-made-exalt, and-has-been-made-throw foundation-of sanctuary-of-him."
+        },
+        {
+          "n": 12,
+          "t": "and-host will-be-given on the-continually in-transgression ; truth land-ward and-will-make-throw, and-has-done and-has-made-prosper."
+        },
+        {
+          "n": 13,
+          "t": "and-I-have-heard-heh one holy speaking ; and-has-said one holy to/for-the-certain the-speaking until how the-vision the-continually and-the-transgression desolate, give and-holiness and-host trampling."
+        },
+        {
+          "n": 14,
+          "t": "evening morning, and-has-said toward-me, until thousand and-three hundred ; holiness and-has-been-justified."
+        },
+        {
+          "n": 15,
+          "t": "and-has-been in-see-of-me I Daniel the-vision ; and-I-have-sought-heh understanding, and-behold standing before-me like-sight-of great."
+        },
+        {
+          "n": 16,
+          "t": "and-I-have-heard voice-of man between Ulai ; and-has-called Gabriel and-has-said, make-discern to/for-this the-sight."
+        },
+        {
+          "n": 17,
+          "t": "stand-of-me, and-has-come beside and-in-come-of-him I-have-been-terrified, and-I-have-fallen-heh on faces-of-me ; and-has-said toward-me make-discern son-of man, for to/for-time-of end the-vision."
+        },
+        {
+          "n": 18,
+          "t": "and-in-speak-of-him with-me, I-have-been-slept on faces-of-me land-ward ; and-has-touched in-me, stand-of-me and-has-made-stand-me on."
+        },
+        {
+          "n": 19,
+          "t": "and-he-has-said lo-me making-know-of-you, who he-will-be in-end-of the-indignation ; for to/for-meeting-of end."
+        },
+        {
+          "n": 20,
+          "t": "the-ram who you-have-seen master-of the-horns ; kings-of Media and-Persia."
+        },
+        {
+          "n": 21,
+          "t": "and-the-male the-he-goat king-of Javan ; and-the-horn the-great who between eyes-of-him, he the-king the-first."
+        },
+        {
+          "n": 22,
+          "t": "and-the-breaked, and-they-f-have-stood four under-her ; four kingdoms from-nation will-stand and-not in-strength-of-him."
+        },
+        {
+          "n": 23,
+          "t": "and-in-end-of kingdom-of-them, like-make-finish the-transgressing ; king strong-of will-stand faces and-making-discern riddles."
+        },
+        {
+          "n": 24,
+          "t": "strength-of-him and-has-vasted and-not in-strength-of-him, and-wondered will-destroy and-has-made-prosper and-has-done ; and-has-destroyed mighty and-people-of holy."
+        },
+        {
+          "n": 25,
+          "t": "and-on understanding-of-him and-has-made-prosper deceit in-hand-of-him, and-in-heart-of-him will-make-magnify, and-in-ease will-destroy many ; and-on official-of officials will-stand, and-in-end-of hand will-be-breaked."
+        },
+        {
+          "n": 26,
+          "t": "and-sight-of the-evening and-the-morning who has-been-said truth he ; and-you close the-vision, for to/for-days many."
+        },
+        {
+          "n": 27,
+          "t": "and-I Daniel have-been-been and-have-been-weaked days, and-have-risen, and-have-done work-of the-king ; and-I-have-desolate on the-sight and-naught making-discern."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-year-of one to/for-Darius son-of Ahasuerus from-seed-of Media ; who he-has-been-made-reign, on kingdom-of Chaldean."
+        },
+        {
+          "n": 2,
+          "t": "in-year-of one to/for-reign-of-him, I Daniel, have-discerned in-the-books ; number-of the-years who has-been word-of YHWH toward Jeremiah the-prophet, to/for-fill to/for-wrecks-of Jerusalem seventy year."
+        },
+        {
+          "n": 3,
+          "t": "and-I-have-given-heh faces-of-me toward lords-of-me the-god, to/for-seek prayer and-pleas ; in-fast and-sack and-ash."
+        },
+        {
+          "n": 4,
+          "t": "and-I-have-self-prayed-heh to/for-YHWH god-of-me and-I-have-self-confessed ; and-I-have-said-heh oh lords-of-me the-El the-great and-the-feared, keeping the-covenant and-the-kindness, to/for-loving-of-him and-to/for-keeping-of commandments-of-him."
+        },
+        {
+          "n": 5,
+          "t": "we-have-sinned and-we-have-twisted and-we-have-made-wrong we-have-made-wrong and-we-have-rebelled ; and-turn from-commandments-of-you and-from-justices-of-you."
+        },
+        {
+          "n": 6,
+          "t": "and-not we-have-heard toward servants-of-you the-prophets, who have-spoken in-name-of-you, toward kings-of-us officials-of-us and-fathers-of-us ; and-toward all-of people-of the-land."
+        },
+        {
+          "n": 7,
+          "t": "to/for-you lords-of-me the-rightness, and-to/for-us shame-of the-faces like-the-day the-this ; to/for-man-of Judah and-to/for-dwelling-of Jerusalem, and-to/for-all-of Israel the-near and-the-far in-all-of the-lands who you-have-made-banish-them there, in-trespass-of-them who they-have-betrayed in-you-f."
+        },
+        {
+          "n": 8,
+          "t": "YHWH to/for-us shame-of the-faces, to/for-kings-of-us to/for-officials-of-us and-to/for-fathers-of-us ; who we-have-sinned to/for-you-f."
+        },
+        {
+          "n": 9,
+          "t": "to/for-lords-of-me god-of-us, the-compassions and-the-forgivenesses ; for we-have-rebelled in-him."
+        },
+        {
+          "n": 10,
+          "t": "and-not we-have-heard, in-voice-of YHWH god-of-us ; to/for-walk in-instructions-of-him who he-has-given to/for-faces-of-us, in-hand-of servants-of-him the-prophets."
+        },
+        {
+          "n": 11,
+          "t": "and-all-of Israel they-have-passed instruction-of-you, and-turn, to/for-without hear in-voice-of-you ; the-curse and-the-oath and-has-poured on-us who written in-instruction-of Moses servant-of the-god, for we-have-sinned to/for-him."
+        },
+        {
+          "n": 12,
+          "t": "and-he-has-made-rise words-of-him word-of-him who he-has-spoken on-us and-on judging-of-us who they-have-judged-us, to/for-make-come on-us evil great ; who not she-has-been-done under all-of the-heavens, like-when she-has-been-done in-Jerusalem."
+        },
+        {
+          "n": 13,
+          "t": "like-when written in-instruction-of Moses, all-of the-evil the-this-f she-has-come on-us ; and-not we-have-entreated faces-of YHWH god-of-us to/for-return from-iniquity-of-us, and-to/for-make-understand in-truth-of-you."
+        },
+        {
+          "n": 14,
+          "t": "YHWH and-has-watched on the-evil, and-has-made-come-her on-us ; for just YHWH god-of-us on all-of deeds-of-him who has-done, and-not we-have-heard in-voice-of-him."
+        },
+        {
+          "n": 15,
+          "t": "and-now lords-of-me god-of-us who you-have-made-exit people-of-you from-land-of Egypt in-hand strong, and-you-have-done to/for-you name like-the-day the-this ; we-have-sinned we-have-wronged."
+        },
+        {
+          "n": 16,
+          "t": "lords-of-me like-all-of rightnesses-of-you let-return please nose-of-you and-rage-of-you, from-city-of-you Jerusalem mountain-of holiness-of-you ; for in-sins-of-us and-in-iniquities-of fathers-of-us, Jerusalem and-people-of-you to/for-reproach to/for-all-of arounds-of-us."
+        },
+        {
+          "n": 17,
+          "t": "and-now hear god-of-us toward prayer-of servant-of-you and-toward pleas-of-him, and-make-shine faces-of-you, on sanctuary-of-you the-devastated ; sake lords-of-me."
+        },
+        {
+          "n": 18,
+          "t": "make-stretch god-of-me ear-of-you and-hear open-heh open eyes-of-you and-see desolations-of-us, and-the-city, who has-been-called name-of-you on-her ; for not on rightnesses-of-us we making-fall pleas-of-us to/for-faces-of-you, for on compassions-of-you the-many."
+        },
+        {
+          "n": 19,
+          "t": "lords-of-me hear-heh lords-of-me forgive-heh, lords-of-me make-heed-heh and-do do-not let-delay ; sake-you god-of-me, for name-of-you has-been-called, on city-of-you and-on people-of-you."
+        },
+        {
+          "n": 20,
+          "t": "and-still I speaking and-self-praying, and-self-confessing offense-of-me, and-offense-of people-of-me Israel ; and-making-fall supplication-of-me to/for-faces-of YHWH god-of-me, on mountain-of holiness-of god-of-me."
+        },
+        {
+          "n": 21,
+          "t": "and-still I speaking in-the-prayer ; and-the-man Gabriel who I-have-seen in-the-vision in-the-beginning been-made-fly in-weariness, touching toward-me, like-time-of offering-of evening."
+        },
+        {
+          "n": 22,
+          "t": "and-he-has-made-discern and-he-has-spoken with-me ; Daniel and-has-said, now I-have-exited to/for-make-understand-of-you understanding."
+        },
+        {
+          "n": 23,
+          "t": "in-beginning-of pleas-of-you word has-exited and-I have-come to/for-make-announce, for delights you ; and-discern in-the-word, and-make-discern in-the-sight."
+        },
+        {
+          "n": 24,
+          "t": "weeks seventy people-of-you has-been-determined on and-on city-of holiness-of-you to/for-restrain the-transgression and-to/for-seal and-to/for-make-finish offenses offense and-to/for-cover iniquity, and-to/for-make-come righteousness-of ages ; and-to/for-seal vision and-prophet, and-to/for-anoint holiness-of holinesses."
+        },
+        {
+          "n": 25,
+          "t": "and-you-will-know and-you-will-make-understand from outgoing-of word to/for-make-return and-to/for-build Jerusalem until anointed leader, weeks seven ; and-weeks sixty and-two will-return square and-has-been-built and-trench, and-in-distress-of the-times."
+        },
+        {
+          "n": 26,
+          "t": "and-after the-weeks sixty and-two, anointed will-be-cut and-naught to/for-him ; people-of leader the-coming will-destroy and-the-city and-the-holiness, and-end-of-him in-the-flood, and-until end battle, decided desolations."
+        },
+        {
+          "n": 27,
+          "t": "and-has-made-prevail covenant to/for-the-many week one ; and-half-of the-week will-make-cease sacrifice and-offering and-on wing-of abominations desolator, and-until consummation and-decided, will-pour on desolate."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "in-year-of three to/for-Cyrus king-of Persia, word has-been-heglamed to/for-Daniel, who name-of-him Belteshazzar has-been-called ; and-truth the-word and-host great, and-has-discerned the-word, and-understanding to/for-him in-the-sight."
+        },
+        {
+          "n": 2,
+          "t": "in-the-days the-they ; I Daniel have-been self-mourning, three weeks days."
+        },
+        {
+          "n": 3,
+          "t": "food-of delights not I-have-eaten and-flesh and-wine not has-come toward lip-of-me and-anoint not I-have-anointed ; until fill, three-of weeks days."
+        },
+        {
+          "n": 4,
+          "t": "and-in-day-of twenty and-four to/for-the-month the-first ; and-I have-been on hand-of the-river the-great he Tigris."
+        },
+        {
+          "n": 5,
+          "t": "and-I-have-lifted eyes-of-me and-I-have-seen, and-behold man one clothed linens ; and-loins-of-him girded in-gold-of Uphaz."
+        },
+        {
+          "n": 6,
+          "t": "and-body-of-him like-jasper and-faces-of-him like-sight-of lightning and-eyes-of-him like-torches-of fire, and-arms-of-him and-feets-of-him, like-eye-of bronze burnished ; and-voice-of words-of-him like-voice-of crowd."
+        },
+        {
+          "n": 7,
+          "t": "I and-have-seen Daniel to/for-alone-of-me the-vision, and-the-mans who have-been with-me, not have-seen the-vision ; truly trembling great has-fallen on-them, and-they-have-fled in-be-hide."
+        },
+        {
+          "n": 8,
+          "t": "and-I have-been-remained to/for-alone-of-me, and-have-seen the-vision the-great the-this-f, and-not strength ; has-been-remained in-me and-splendor-of-me has-been-overturned on-me to/for-destruction, and-not I-have-restrained strength."
+        },
+        {
+          "n": 9,
+          "t": "and-I-have-heard voice-of words-of-him ; and-like-hear-of-me voice-of words-of-him, and-I have-been slept on faces-of-me and-faces-of-me land-ward."
+        },
+        {
+          "n": 10,
+          "t": "and-behold hand has-touched in-me ; and-she-has-made-shake-me on knees-of-me and-palms-of hands-of-me."
+        },
+        {
+          "n": 11,
+          "t": "Daniel and-has-said toward-me man-of delights make-discern in-the-words who I speaking toward-you and-stand on stand-of-you, for now have-been-sended toward-you ; and-in-speak-of-him with-me the-word the-this I-have-stood making-tremble."
+        },
+        {
+          "n": 12,
+          "t": "and-has-said toward-me do-not let-fear Daniel for from the-day the-first who you-have-given heart-of-you to/for-make-discern and-to/for-self-afflict to/for-faces-of god-of-you words-of-you have-been-heard ; and-I have-come in-words-of-you."
+        },
+        {
+          "n": 13,
+          "t": "and-official-of kingdom-of Persia standing before-me twenty and-one day, and-behold Michael one the-officials the-first has-come to/for-help-of-me ; and-I have-been-remained there, beside kings-of Persia."
+        },
+        {
+          "n": 14,
+          "t": "and-I-have-come to/for-make-discern-of-you, who he-will-meet to/for-people-of-you in-end-of the-days ; for still vision to/for-the-days."
+        },
+        {
+          "n": 15,
+          "t": "and-in-speak-of-him with-me, like-the-words the-these ; I-have-given faces-of-me land-ward and-I-have-been-dumbed."
+        },
+        {
+          "n": 16,
+          "t": "and-behold like-likeness-of sons-of man, touching on lipses-of-me ; and-I-have-opened lip-of-me and-I-have-spoken-heh and-I-have-said-heh toward the-standing before-me, lord-of-me in-the-vision pangs-of-me have-been-overturned on-me, and-not I-have-restrained strength."
+        },
+        {
+          "n": 17,
+          "t": "and-how servant-of lord-of-me will-able this, to/for-speak with lord-of-me this ; and-I from-now not strength, will-stand in-me and-breath not has-been-remained in-me."
+        },
+        {
+          "n": 18,
+          "t": "and-he-has-made-add and-he-has-touched in-me like-sight-of man and-he-has-strengthened-me."
+        },
+        {
+          "n": 19,
+          "t": "and-has-said do-not let-fear man-of delights peace to/for-you-f strengthen and-strengthen ; and-in-speak-of-him with-me I-have-self-strengthened, and-I-have-said-heh lord-of-me let-speak for you-have-strengthened-me."
+        },
+        {
+          "n": 20,
+          "t": "and-has-said is-it-you-have-known to/for-what I-have-come toward-you, and-now I-will-return, to/for-be-fight with official-of Persia ; and-I exiting, and-behold official-of Javan coming."
+        },
+        {
+          "n": 21,
+          "t": "truly I-will-make-announce to/for-you, the-inscribed in-writing-of truth ; and-naught one self-strengthening with-me on these, that if Michael official-of-you-pl."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-I in-year-of one, to/for-Darius the-Mede ; stand-of-me to/for-making-strengthen and-to/for-security to/for-him."
+        },
+        {
+          "n": 2,
+          "t": "and-now, truth I-will-make-announce to/for-you-f ; behold still three kings standing to/for-Persia and-the-fourth riches great will-make-enrich from-all, and-like-strength-of-him in-riches-of-him, will-make-rouse the-all, kingdom-of Javan."
+        },
+        {
+          "n": 3,
+          "t": "king-of mighty and-has-stood ; dominion many and-has-ruled, and-has-done like-acceptance-of-him."
+        },
+        {
+          "n": 4,
+          "t": "and-like-stand-of-him kingdom-of-him will-be-breaked, and-let-be-divided, to/for-four spirits-of the-heavens ; and-not to/for-end-of-him and-not like-dominion-of-him who he-has-ruled, for kingdom-of-him and-to/for-another will-be-uprooted, from-alone-of these."
+        },
+        {
+          "n": 5,
+          "t": "king-of the-negeb and-will-strengthen and-from officials-of-him ; and-will-strengthen on-him dominion many and-has-ruled, dominion-of-him."
+        },
+        {
+          "n": 6,
+          "t": "and-to/for-end-of years will-unite, and-daughter-of king-of the-negeb will-come toward king-of the-north, to/for-do uprightnesses ; and-not will-restrain strength-of the-arm and-not will-stand and-arm-of-him, and-will-be-given he and-making-come-of-her and-the-begeting-of-her, and-making-strengthen-of-her in-the-times."
+        },
+        {
+          "n": 7,
+          "t": "and-has-stood from-branch-of roots-of-her stand-of-him ; the-helech and-will-come toward and-will-come in-security-of king-of the-north, and-has-done in-them and-has-made-strengthen."
+        },
+        {
+          "n": 8,
+          "t": "and-also gods-of-them with libations-of-them with articles-of desire-of-them silver and-gold in-the-captivity will-make-come Egypt ; and-he years will-stand, from-king-of the-north."
+        },
+        {
+          "n": 9,
+          "t": "king-of the-negeb, and-has-come in-kingdom and-has-returned toward ground-of-him."
+        },
+        {
+          "n": 10,
+          "t": "and-son-of-him and-sons-of-him will-stir and-have-gathered crowd-of heleches many, and-has-come come and-has-overflowed and-has-passed ; and-let-return security-of-her security-of-him and-will-stir until."
+        },
+        {
+          "n": 11,
+          "t": "king-of the-negeb and-will-provoke, and-has-exited, king-of the-north ; and-has-been-fought with-him with crowd many and-has-made-stand, and-has-been-given the-crowd in-hand-of-him."
+        },
+        {
+          "n": 12,
+          "t": "the-crowd and-has-been-lifted will-exalt and-has-exalted heart-of-him ; and-he-has-made-fall ten and-not he-will-strong."
+        },
+        {
+          "n": 13,
+          "t": "king-of the-north and-has-returned, and-has-made-stand crowd, many from the-first ; and-to/for-end-of the-times years he-will-come come, in-helech great and-in-property many."
+        },
+        {
+          "n": 14,
+          "t": "and-in-the-times the-they, many will-stand on king-of the-negeb ; and-sons-of violents-of people-of-you will-lift to/for-make-stand vision and-have-been-stumbled."
+        },
+        {
+          "n": 15,
+          "t": "king-of the-north and-will-come, and-will-pour mound, and-has-captured city-of fortifications ; and-arms-of the-negeb not will-stand, and-people-of bests-of-him, and-naught strength to/for-stand."
+        },
+        {
+          "n": 16,
+          "t": "and-let-him-do the-coming toward-him like-acceptance-of-him, and-naught standing to/for-faces-of-him ; and-he-will-stand in-land-of the-beauty and-finish in-hand-of-him."
+        },
+        {
+          "n": 17,
+          "t": "and-let-him-put faces-of-him to/for-come in-power-of all-of kingdom-of-him and-upright with-him and-he-has-done ; and-daughter-of the-womans he-will-give to/for-him to/for-destroy-of-her, and-not will-stand and-not to/for-him will-be."
+        },
+        {
+          "n": 18,
+          "t": "and-he-will-make-return and-he-will-put faces-of-him to/for-coastlands and-he-has-captured many ; chief and-has-made-cease reproach-of-him to/for-him, without reproach-of-him will-make-return to/for-him."
+        },
+        {
+          "n": 19,
+          "t": "and-let-him-make-return faces-of-him, to/for-securities-of land-of-him ; and-he-has-been-stumbled and-he-has-fallen and-not he-will-be-found."
+        },
+        {
+          "n": 20,
+          "t": "stand-of-him making-pass oppressing and-has-stood on glory-of kingdom ; and-in-days one he-will-be-breaked, and-not in-noses and-not in-battle."
+        },
+        {
+          "n": 21,
+          "t": "stand-of-him despised, and-has-stood on and-not they-have-given on-him splendor-of kingdom ; and-he-has-come in-ease, and-he-has-made-strengthen kingdom in-smoothnesses."
+        },
+        {
+          "n": 22,
+          "t": "and-arms-of the-flood will-be-overflowed from-faces-of-him and-will-be-breaked ; and-also leader-of covenant."
+        },
+        {
+          "n": 23,
+          "t": "and-from self-unite toward-him he-will-do deceit ; and-he-has-ascended and-he-has-vasted in-little-of nation."
+        },
+        {
+          "n": 24,
+          "t": "in-ease and-in-fatnesses-of province will-come and-has-done who not fathers-of-him have-done and-fathers-of fathers-of-him, plunder and-spoil and-property to/for-them will-scatter ; and-on fortifications will-devise plots-of-him and-until time."
+        },
+        {
+          "n": 25,
+          "t": "strength-of-him and-let-make-rouse and-heart-of-him on king-of the-negeb in-helech great and-king-of the-negeb will-stir to/for-the-battle, in-helech great and-mighty until very ; and-not he-will-stand, for they-will-devise on-him plots."
+        },
+        {
+          "n": 26,
+          "t": "and-eating-of Mipat-of choice-of-him they-will-break-him and-helech-of-him will-overflow ; and-they-have-fallen slain many."
+        },
+        {
+          "n": 27,
+          "t": "and-two-of-them the-kings heart-of-them to/for-mischief, and-on table one lie will-speak ; and-not she-will-prosper, for still end to/for-the-meeting."
+        },
+        {
+          "n": 28,
+          "t": "land-of-him and-let-return in-property great, and-heart-of-him on covenant-of holiness ; and-he-has-done and-he-has-returned to/for-land-of-him."
+        },
+        {
+          "n": 29,
+          "t": "to/for-the-meeting he-will-return and-he-has-come in-the-negeb ; and-not she-will-be like-the-first and-like-the-last."
+        },
+        {
+          "n": 30,
+          "t": "ships and-have-come in-him Kittim and-has-been-dishearteneded, and-has-returned and-has-indignanted on covenant-of holiness and-has-done ; and-he-has-returned and-let-him-discern, on leaving-of covenant-of holiness."
+        },
+        {
+          "n": 31,
+          "t": "and-arms from-us will-stand ; and-they-have-begun the-sanctuary the-security and-they-have-made-turn the-continually, and-they-have-given the-abomination desolator."
+        },
+        {
+          "n": 32,
+          "t": "and-making-wrong-of covenant, he-will-make-pollute in-flattery ; and-people-of knowing-of god-of-him they-will-make-strengthen and-they-have-done."
+        },
+        {
+          "n": 33,
+          "t": "and-making-understand-of people, they-will-make-discern to/for-the-many ; days and-have-been-stumbled in-sword and-in-flame in-captivity and-in-plunder."
+        },
+        {
+          "n": 34,
+          "t": "and-in-be-stumble-of-them, they-will-be-helped help little ; and-they-have-been-joined on-them many in-smoothnesses."
+        },
+        {
+          "n": 35,
+          "t": "and-from the-making-understand they-will-be-stumbled to/for-refine in-them and-to/for-purify and-to/for-make-whiten until time-of end ; for still to/for-the-meeting."
+        },
+        {
+          "n": 36,
+          "t": "the-king and-has-done like-acceptance-of-him and-will-exalt all-of El, and-will-magnify on and-on El-of Els, will-speak wondered ; and-has-made-prosper until indignation has-finished, for decided she-has-been-done."
+        },
+        {
+          "n": 37,
+          "t": "and-on god-of fathers-of-him not will-discern, and-on desire-of womans and-on all-of god not will-discern ; for on all will-magnify."
+        },
+        {
+          "n": 38,
+          "t": "and-to/for-god-of securities, on stand-of-him will-honor ; and-to/for-god who not fathers-of-him have-known-him he-will-honor in-gold and-in-silver and-in-stone precious and-in-delights."
+        },
+        {
+          "n": 39,
+          "t": "and-has-done to/for-fortifications-of securities with god-of foreign, who has-made-recognize will-make-recognize glory will-make-multiply ; and-he-has-made-rule-them in-the-many, and-ground he-will-divide in-price."
+        },
+        {
+          "n": 40,
+          "t": "and-in-time-of end king-of the-negeb, will-gore with-him and-will-storm on-him king-of the-north in-chariot and-in-horsemans, and-in-fleets many ; and-he-has-come in-lands and-he-has-overflowed and-he-has-passed."
+        },
+        {
+          "n": 41,
+          "t": "and-he-has-come in-land-of the-beauty, and-many they-will-be-stumbled ; and-these they-will-be-escaped from-hand-of-him, Edom and-Moab, and-first-of sons-of Ammon."
+        },
+        {
+          "n": 42,
+          "t": "hand-of-him and-will-send in-lands ; and-land-of Egypt, not will-be to/for-survivor."
+        },
+        {
+          "n": 43,
+          "t": "and-has-ruled in-hiddens-of the-gold and-the-silver, and-in-all-of delights-of Egypt ; and-Libyan and-Ethiopian in-steps-of-him."
+        },
+        {
+          "n": 44,
+          "t": "and-tidingses they-will-dismay-him, from-east and-from-north ; and-he-has-exited in-rage great, to/for-make-destroy and-to/for-make-devote many."
+        },
+        {
+          "n": 45,
+          "t": "and-he-will-plant tents-of palace-of-him, between seas to/for-mountain-of beauty-of holiness ; end-of-him, and-has-come until and-naught helping to/for-him."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-in-the-time the-he will-stand Michael the-official the-great the-standing on sons-of people-of-you and-has-been time-of distress, who not has-been-been from-be nation, until the-time the-he ; and-in-the-time the-he people-of-you will-be-escaped, all-of the-found written in-the-book."
+        },
+        {
+          "n": 2,
+          "t": "and-many, from-sleeping-of ground-of dust they-will-make-awake ; these to/for-lifes-of age, and-these to/for-reproaches to/for-abhorrence-of age."
+        },
+        {
+          "n": 3,
+          "t": "and-the-making-understand, they-will-make-shine like-brightness-of the-expanse ; and-making-justify-of the-many, like-the-stars to/for-age and-perpetuity."
+        },
+        {
+          "n": 4,
+          "t": "and-you Daniel close the-words and-seal the-book until time-of end ; they-will-rove many the-knowledge and-will-multiply."
+        },
+        {
+          "n": 5,
+          "t": "I and-have-seen Daniel, and-behold two another standing ; one here to/for-lips-of the-Nile, and-one here to/for-lips-of the-Nile."
+        },
+        {
+          "n": 6,
+          "t": "and-he-has-said to/for-the-man clothed-of the-linens, who from-above to/for-waters-of the-Nile ; until how end-of the-wonders."
+        },
+        {
+          "n": 7,
+          "t": "and-I-have-heard the-man clothed-of the-linens who from-above to/for-waters-of the-Nile and-has-made-exalt right-of-him and-left-of-him toward the-heavens, and-has-been-sweared in-living-of the-age ; for to/for-meeting meetings and-half and-like-finish shatter hand-of people-of holiness they-f-will-finish all-of these."
+        },
+        {
+          "n": 8,
+          "t": "and-I have-heard and-not will-discern ; and-I-have-said-heh, lord-of-me, what end these."
+        },
+        {
+          "n": 9,
+          "t": "and-has-said walk Daniel ; for closed and-sealed the-words until time-of end."
+        },
+        {
+          "n": 10,
+          "t": "they-will-purify and-they-will-whiten and-they-will-be-refined many, and-they-have-made-wrong wicked, and-not they-will-discern all-of wicked ; and-the-making-understand they-will-discern."
+        },
+        {
+          "n": 11,
+          "t": "and-from-time the-continually has-been-made-turn, and-to/for-give abomination desolate ; days, thousand hundred and-ninety."
+        },
+        {
+          "n": 12,
+          "t": "blesseds the-waiting and-he-will-make-touch ; to/for-days, thousand, three hundred thirty and-five."
+        },
+        {
+          "n": 13,
+          "t": "and-you walk to/for-the-end ; and-you-will-rest and-you-will-stand to/for-allotted-of-you to/for-end-of the-days."
+        }
+      ]
+    }
+  ]
+}

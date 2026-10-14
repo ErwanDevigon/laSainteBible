@@ -1,0 +1,234 @@
+{
+  "id": "jonas",
+  "title": "Livre de Jonas",
+  "original_title": "Jonas",
+  "short": "Jon",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "word-of YHWH and-has-been, toward Jonah son-of Amittai to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "rise walk toward Nineveh the-city the-great and-call on-her ; for evil-of-them has-ascended to/for-faces-of-me."
+        },
+        {
+          "n": 3,
+          "t": "Jonah and-has-risen to/for-flee Tarshish-ward, from-faces-of YHWH ; Joppa and-has-gone and-has-found fleet coming Tarshish and-has-given wages-of-her and-has-gone in-her to/for-come with-them Tarshish-ward, from-faces-of YHWH."
+        },
+        {
+          "n": 4,
+          "t": "and-YHWH has-made-cast spirit great toward the-sea, and-has-been tempest great in-the-sea ; and-the-fleet, has-devised to/for-be-break."
+        },
+        {
+          "n": 5,
+          "t": "the-mariners and-have-feared and-have-outed man toward god-of-him and-have-made-cast the-articles who in-the-fleet toward the-sea, to/for-make-lighten on-them ; and-Jonah has-gone toward flanks-of the-ship, and-has-lain and-has-been-slept."
+        },
+        {
+          "n": 6,
+          "t": "chief-of the-pilot, and-has-presented toward-him and-has-said to/for-him what to/for-you slept ; rise call toward god-of-you, perhaps will-think the-god to/for-us and-not we-will-perish."
+        },
+        {
+          "n": 7,
+          "t": "and-have-said man toward neighbor-of-him walk and-let-us-make-fall allotteds, and-let-us-know, that-in-who the-evil the-this-f to/for-us ; allotteds and-have-made-fall, and-has-fallen the-allotted on Jonah."
+        },
+        {
+          "n": 8,
+          "t": "and-they-have-said toward-him, make-announce-heh please to/for-us, in-in to/for-who the-evil the-this-f to/for-us ; what work-of-you and-from-where will-come, what land-of-you, and-where from-this people you."
+        },
+        {
+          "n": 9,
+          "t": "Hebrew and-has-said toward-them I ; and-YHWH god-of the-heavens I has-afraided, who has-done the-sea and-the-dryland."
+        },
+        {
+          "n": 10,
+          "t": "the-mans and-have-feared afraid great, and-have-said toward-him what this-f you-have-done ; for the-mans have-known for from-faces-of YHWH he fleeing, for has-made-announce to/for-them."
+        },
+        {
+          "n": 11,
+          "t": "and-they-have-said toward-him what we-will-do to/for-you-f, the-sea and-will-quiet on-us ; for the-sea going and-raging."
+        },
+        {
+          "n": 12,
+          "t": "and-has-said toward-them lift-me and-make-cast-me toward the-sea, and-will-quiet the-sea on-you-pl ; for knowing I, for that-which-me, the-tempest the-great the-this on-you-pl."
+        },
+        {
+          "n": 13,
+          "t": "the-mans and-have-dug to/for-make-return toward the-dryland and-not have-abled ; for the-sea, going and-raging on-them."
+        },
+        {
+          "n": 14,
+          "t": "and-they-have-called toward YHWH and-they-have-said oh YHWH do-not please let-us-perish in-soul-of the-man the-this, and-do-not let-give on-us blood innocent ; for you YHWH, like-when have-delighted have-done."
+        },
+        {
+          "n": 15,
+          "t": "and-they-have-lifted Jonah, and-they-have-made-cast-him toward the-sea ; the-sea and-has-stood from-rage-of-him."
+        },
+        {
+          "n": 16,
+          "t": "the-mans and-have-feared afraid great YHWH ; and-have-sacrificed sacrifice to/for-YHWH, vows and-have-vowed."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "YHWH fish great and-has-counted, to/for-swallow Jonah ; Jonah and-has-been in-bellies-of the-fish, three days and-three nights."
+        },
+        {
+          "n": 2,
+          "t": "Jonah and-has-self-prayed, toward YHWH god-of-him ; from-bellies-of the-fish."
+        },
+        {
+          "n": 3,
+          "t": "and-has-said I-have-called from-distress to/for-me toward YHWH and-has-answered-me ; from-belly-of hell I-have-cried you-have-heard voice-of-me."
+        },
+        {
+          "n": 4,
+          "t": "and-you-have-made-throw-me depth in-heart-of seas, and-river he-will-turn-me ; all-of waves-of-you and-heaps-of-you on-me have-passed."
+        },
+        {
+          "n": 5,
+          "t": "and-I have-said, have-been-driven before eyes-of-you ; surely I-will-make-add to/for-make-look, toward temple-of holiness-of-you."
+        },
+        {
+          "n": 6,
+          "t": "waters have-surrounded-me until soul, abyss will-turn-me ; red saddled to/for-head-of-me."
+        },
+        {
+          "n": 7,
+          "t": "to/for-shapes-of mountains I-have-gone, the-land bars-of-her about-me to/for-age ; and-you-have-made-ascend from-pit lifes-of-me YHWH god-of-me."
+        },
+        {
+          "n": 8,
+          "t": "in-self-enfeeble on-me soul-of-me, YHWH I-have-remembered ; prayer-of-me, and-has-come toward-you toward temple-of holiness-of-you."
+        },
+        {
+          "n": 9,
+          "t": "keeping vanities-of vanity ; kindness-of-them they-will-leave."
+        },
+        {
+          "n": 10,
+          "t": "and-I in-voice-of thanksgiving let-me-sacrifice to/for-you-f, who have-vowed let-me-complete ; salvation to/for-YHWH."
+        },
+        {
+          "n": 11,
+          "t": "YHWH and-has-said to/for-the-fish ; and-he-has-made-vomit Jonah toward the-dryland."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "word-of YHWH and-has-been toward Jonah second to/for-say."
+        },
+        {
+          "n": 2,
+          "t": "rise walk toward Nineveh the-city the-great ; and-call toward-her the-proclamation, who I speaking toward-you."
+        },
+        {
+          "n": 3,
+          "t": "Jonah and-has-risen and-has-walked toward Nineveh like-word-of YHWH ; city great has-been and-Nineveh to/for-god, journey-of three-of days."
+        },
+        {
+          "n": 4,
+          "t": "Jonah and-has-made-begin to/for-come in-the-city, journey-of day one ; and-has-called and-has-said, still forty day, and-Nineveh overturned."
+        },
+        {
+          "n": 5,
+          "t": "mans-of Nineveh and-have-made-faithful in-god ; and-have-called fast sacks from-great-of-them and-have-clothed, and-until small-of-them."
+        },
+        {
+          "n": 6,
+          "t": "the-word and-has-touched toward king-of Nineveh, and-has-risen from-throne-of-him, and-has-made-pass clothing-of-him on-him ; sack and-has-covered, and-has-dwelt on the-ash."
+        },
+        {
+          "n": 7,
+          "t": "and-he-has-made-out and-he-has-said in-Nineveh, from-taste-of the-king and-great-of-him to/for-say ; the-man and-the-animal the-cattle and-the-flock do-not let-them-perceive anything, do-not let-them-pasture, and-water do-not let-them-drink."
+        },
+        {
+          "n": 8,
+          "t": "sacks and-will-cover the-man and-the-animal, and-will-call toward god in-force ; and-they-will-return man from-way-of-him the-evil, and-from the-violence who in-palms-of-them."
+        },
+        {
+          "n": 9,
+          "t": "who knowing will-return, the-god and-has-been-sorried ; and-he-has-returned from-burning-of nose-of-him and-not we-will-perish."
+        },
+        {
+          "n": 10,
+          "t": "the-god and-has-seen deeds-of-them, for they-have-returned from-way-of-them the-evil ; the-god and-has-been-sorried on the-evil who has-spoken to/for-do to/for-them and-not has-done."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Jonah and-has-eviled toward evil great ; and-he-has-kindled to/for-him."
+        },
+        {
+          "n": 2,
+          "t": "YHWH and-has-self-prayed toward and-has-said oh YHWH is-it-not this word-of-me until be-of-me on ground-of-me, on thus I-have-meeted to/for-flee Tarshish-ward ; for I-have-known for you El gracious and-compassionate, slow-of noses and-many-of kindness, and-sorried on the-evil."
+        },
+        {
+          "n": 3,
+          "t": "and-now YHWH, take please soul-of-me from-me ; for good death-of-me from-lifes-of-me."
+        },
+        {
+          "n": 4,
+          "t": "YHWH and-has-said, is-it-the-make-improve has-kindled to/for-you-f."
+        },
+        {
+          "n": 5,
+          "t": "Jonah and-has-exited from the-city, and-has-dwelt from-east to/for-the-city ; and-he-has-done to/for-him there booth and-he-has-dwelt under-her in-the-shadow, until who he-will-see, what he-will-be in-the-city."
+        },
+        {
+          "n": 6,
+          "t": "YHWH god plant and-has-counted and-has-ascended on to/for-Jonah to/for-be shadow on head-of-him, to/for-make-rescue to/for-him from-evil-of-him ; Jonah and-has-rejoiced on the-plant joy great."
+        },
+        {
+          "n": 7,
+          "t": "the-god and-has-counted worm, in-ascend the-dawn to/for-the-morrow ; and-she-has-made-smite the-plant and-he-has-withered."
+        },
+        {
+          "n": 8,
+          "t": "and-has-been like-rise the-sun and-has-counted god spirit-of east scorching, and-has-made-smite the-sun on head-of Jonah and-has-self-enwraped ; and-has-asked soul-of-him to/for-die, and-has-said, good die-of-me from-lifes-of-me."
+        },
+        {
+          "n": 9,
+          "t": "god and-has-said toward Jonah, is-it-the-make-improve has-kindled to/for-you on the-plant ; and-has-said, make-improve death has-kindled to/for-me until."
+        },
+        {
+          "n": 10,
+          "t": "YHWH and-has-said, you have-pitied on the-plant, who not have-toiled in-him and-not have-magnified-him ; that-son-of night has-been and-son-of night has-perished."
+        },
+        {
+          "n": 11,
+          "t": "and-I not will-pity, on Nineveh the-city the-great ; who there in-her make-multiply from-two ten ten man who not has-known between right-of-him to/for-left-of-him, and-in-animal many."
+        }
+      ]
+    }
+  ]
+}

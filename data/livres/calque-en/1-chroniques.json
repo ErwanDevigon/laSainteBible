@@ -1,0 +1,3939 @@
+{
+  "id": "1-chroniques",
+  "title": "Premier livre des Chroniques",
+  "original_title": "1 Chroniques",
+  "short": "1 Ch",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Adam Seth Enosh."
+        },
+        {
+          "n": 2,
+          "t": "Kenan Mahalalel Jared."
+        },
+        {
+          "n": 3,
+          "t": "Enoch Methuselah Lamech."
+        },
+        {
+          "n": 4,
+          "t": "Noah Shem Ham and-Japheth."
+        },
+        {
+          "n": 5,
+          "t": "sons-of Japheth, Gomer and-Magog, and-Media and-Javan and-Tubal ; and-Meshech and-Tiras."
+        },
+        {
+          "n": 6,
+          "t": "and-sons-of Gomer ; Ashkenaz and-Riphath and-Togarmah."
+        },
+        {
+          "n": 7,
+          "t": "and-sons-of Javan Elishah and-Tarshish ; Kittim and-Dodanim."
+        },
+        {
+          "n": 8,
+          "t": "sons-of Ham ; Cush and-Egypt Put and-Canaan."
+        },
+        {
+          "n": 9,
+          "t": "and-sons-of Cush, Seba and-Havilah, and-Sabtah and-Raamah and-Sabteca ; and-sons-of Raamah Sheba and-Dedan."
+        },
+        {
+          "n": 10,
+          "t": "and-Cush has-begotten Nimrod ; he has-made-begin, to/for-be mighty in-the-land."
+        },
+        {
+          "n": 11,
+          "t": "and-Egypt has-begotten Ludite and-Anamim and-Lehabim and-Naphtuhim."
+        },
+        {
+          "n": 12,
+          "t": "and-Pathrusim and-Casluhim who Philistine have-exited from-there and-Caphtorim."
+        },
+        {
+          "n": 13,
+          "t": "and-Canaan has-begotten Sidon firstborn-of-him and-Heth."
+        },
+        {
+          "n": 14,
+          "t": "and-the-Jebusite and-the-Amorite, and-the-Girgashite."
+        },
+        {
+          "n": 15,
+          "t": "and-the-Hivite and-the-Arkite and-the-Sinite."
+        },
+        {
+          "n": 16,
+          "t": "and-the-Arvadite and-the-Zemarite and-the-Hamathite."
+        },
+        {
+          "n": 17,
+          "t": "sons-of Shem, Elam and-Asshur, and-Arpachshad and-Lud and-Aram ; and-Uz and-Hul and-Gether and-Meshech."
+        },
+        {
+          "n": 18,
+          "t": "and-Arpachshad has-begotten Shelah ; and-Shelah has-begotten Eber."
+        },
+        {
+          "n": 19,
+          "t": "and-to/for-Eber he-has-been-begotten two-of sons ; name-of the-one Peleg for in-days-of-him the-land has-been-divided, and-name-of brother-of-him Joktan."
+        },
+        {
+          "n": 20,
+          "t": "and-Joktan has-begotten, Almodad and-Sheleph ; and-Hazarmaveth and-Jerah."
+        },
+        {
+          "n": 21,
+          "t": "and-Hadoram and-Uzal and-Diklah."
+        },
+        {
+          "n": 22,
+          "t": "and-Obal and-Abimael and-Sheba."
+        },
+        {
+          "n": 23,
+          "t": "and-Ophir and-Havilah and-Jobab ; all-of these sons-of Joktan."
+        },
+        {
+          "n": 24,
+          "t": "Shem Arpachshad Shelah."
+        },
+        {
+          "n": 25,
+          "t": "Eber Peleg Reu."
+        },
+        {
+          "n": 26,
+          "t": "Serug Nahor Terah."
+        },
+        {
+          "n": 27,
+          "t": "Abram he Abraham."
+        },
+        {
+          "n": 28,
+          "t": "sons-of Abraham, Isaac and-Ishmael."
+        },
+        {
+          "n": 29,
+          "t": "these generations-of-them ; firstborn-of Ishmael Nebaioth, and-Kedar and-Adbeel and-Mibsam."
+        },
+        {
+          "n": 30,
+          "t": "Mishma and-Dumah, Massa Hadad and-Tema."
+        },
+        {
+          "n": 31,
+          "t": "Jetur Naphish and-Kedemah ; these they sons-of Ishmael."
+        },
+        {
+          "n": 32,
+          "t": "and-sons-of Keturah concubine-of Abraham has-begotten Zimran and-Jokshan and-Medan and-Midian and-Ishbak and-Shuah ; and-sons-of Jokshan Sheba and-Dedan."
+        },
+        {
+          "n": 33,
+          "t": "and-sons-of Midian Ephah and-Epher and-Enoch, and-Abida and-Eldaah ; all-of these sons-of Keturah."
+        },
+        {
+          "n": 34,
+          "t": "Abraham and-has-made-beget Isaac ; sons-of Isaac, Esau and-Israel."
+        },
+        {
+          "n": 35,
+          "t": "sons-of Esau ; Eliphaz Reuel and-Jeush and-Jalam and-Korah."
+        },
+        {
+          "n": 36,
+          "t": "sons-of Eliphaz ; Teman and-Omar Zepho and-Gatam, Kenaz and-Timna and-Amalek."
+        },
+        {
+          "n": 37,
+          "t": "sons-of Reuel ; Nahath Zerah Shammah and-Mizzah."
+        },
+        {
+          "n": 38,
+          "t": "and-sons-of Seir, Lotan and-Shobal and-Zibeon and-Anah ; and-Dishon and-Ezer and-Dishan."
+        },
+        {
+          "n": 39,
+          "t": "and-sons-of Lotan Hori and-Hemam ; and-sister-of Lotan Timna."
+        },
+        {
+          "n": 40,
+          "t": "sons-of Shobal, Alvan and-Manahath and-Ebal Shepho and-Onam ; and-sons-of Zibeon Aiah and-Anah."
+        },
+        {
+          "n": 41,
+          "t": "sons-of Anah Dishon ; and-sons-of Dishon, Hemdan and-Eshban and-Ithran and-Cheran."
+        },
+        {
+          "n": 42,
+          "t": "sons-of Ezer, Bilhan and-Zaavan Akan ; sons-of Dishon Uz and-Aran."
+        },
+        {
+          "n": 43,
+          "t": "and-these the-kings who have-reigned in-land-of Edom, to/for-faces-of reign king to/for-sons-of Israel ; Bela son-of Beor, and-name-of city-of-him Dinhabah."
+        },
+        {
+          "n": 44,
+          "t": "Bela and-has-died ; Jobab and-has-reigned under-him, son-of Zerah from-Bozrah."
+        },
+        {
+          "n": 45,
+          "t": "Jobab and-has-died ; Husham and-has-reigned under-him, from-land-of the-Temanite."
+        },
+        {
+          "n": 46,
+          "t": "Husham and-has-died ; Hadad and-has-reigned under-him son-of Bedad the-making-smite Midian in-field-of Moab, and-name-of city-of-him Avith."
+        },
+        {
+          "n": 47,
+          "t": "Hadad and-has-died ; Samlah and-has-reigned under-him, from-Masrekah."
+        },
+        {
+          "n": 48,
+          "t": "Samlah and-has-died ; Saul and-has-reigned under-him, from-Rehoboth the-river."
+        },
+        {
+          "n": 49,
+          "t": "Saul and-has-died ; Baal Hanan and-has-reigned under-him, son-of Achbor."
+        },
+        {
+          "n": 50,
+          "t": "Baal Hanan and-has-died, and-has-reigned under-him Hadad, and-name-of city-of-him Pau ; and-name-of woman-of-him Mehetabel daughter-of Matred, daughter-of Mey Mezahab."
+        },
+        {
+          "n": 51,
+          "t": "Hadad and-has-died ; chiefs-of Edom and-have-been, chief Timna chief Alvah chief Jetheth."
+        },
+        {
+          "n": 52,
+          "t": "chief Oholibamah chief Elah chief Pinon."
+        },
+        {
+          "n": 53,
+          "t": "chief Kenaz chief Teman chief Mibzar."
+        },
+        {
+          "n": 54,
+          "t": "chief Magdiel chief Iram ; these chiefs-of Edom."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "these sons-of Israel ; Reuben Simeon Levi and-Judah, Issachar and-Zebulun."
+        },
+        {
+          "n": 2,
+          "t": "Dan Joseph and-Benjamin, Naphtali Gad and-Asher."
+        },
+        {
+          "n": 3,
+          "t": "sons-of Judah Er and-Onan and-Shelah, three has-been-begotten to/for-him, from-daughter-of Shua the-Canaanite ; Er and-has-been firstborn-of Judah bad in-eyes-of YHWH and-has-made-die-him."
+        },
+        {
+          "n": 4,
+          "t": "and-Tamar daughter-in-law-of-him, has-begotten to/for-him Perez and-Zerah ; all-of sons-of Judah five."
+        },
+        {
+          "n": 5,
+          "t": "sons-of Perez Hezron and-Hamul."
+        },
+        {
+          "n": 6,
+          "t": "and-sons-of Zerah Zimri and-Ethan and-Heman and-Calcol and-Dara all-of-them five."
+        },
+        {
+          "n": 7,
+          "t": "and-sons-of Carmi ; Achan troubling Israel, who has-betrayed in-the-devoted."
+        },
+        {
+          "n": 8,
+          "t": "and-sons-of Ethan Azariah."
+        },
+        {
+          "n": 9,
+          "t": "and-sons-of Hezron who he-has-been-begotten to/for-him ; Jerahmeel and-Ram and-Chelubai."
+        },
+        {
+          "n": 10,
+          "t": "and-Ram has-made-beget Amminadab ; and-Amminadab has-made-beget Nahshon, leader-of sons-of Judah."
+        },
+        {
+          "n": 11,
+          "t": "and-Nahshon has-made-beget Salmon, and-Salmon has-made-beget Boaz."
+        },
+        {
+          "n": 12,
+          "t": "and-Boaz has-made-beget Obed, and-Obed has-made-beget Jesse."
+        },
+        {
+          "n": 13,
+          "t": "and-Jesse has-made-beget firstborn-of-him Eliab ; and-Abinadab the-second, and-Shimea the-third."
+        },
+        {
+          "n": 14,
+          "t": "Nethanel the-fourth, Raddai the-fifth."
+        },
+        {
+          "n": 15,
+          "t": "Ozem the-sixth, David the-seventh."
+        },
+        {
+          "n": 16,
+          "t": "and-sisters-of-them Zeruiah and-Abigail ; and-sons-of Zeruiah Abishai and-Joab and-Asa Asahel three."
+        },
+        {
+          "n": 17,
+          "t": "and-Abigail, she-has-begotten Amasa ; and-father-of Amasa, Jether the-Ishmaelite."
+        },
+        {
+          "n": 18,
+          "t": "and-Caleb son-of Hezron has-made-beget Azubah woman and-with Jerioth ; and-these sons-of-her, Jesher and-Shobab and-Ardon."
+        },
+        {
+          "n": 19,
+          "t": "Azubah and-has-died ; Caleb and-has-taken to/for-him Ephrathah, and-she-has-begotten to/for-him Hur."
+        },
+        {
+          "n": 20,
+          "t": "and-Hur has-made-beget Uri, and-Uri has-made-beget Bezalel."
+        },
+        {
+          "n": 21,
+          "t": "and-after Hezron has-come toward daughter-of Machir father-of Gilead, and-he has-taken-her, and-he son-of sixty year ; and-she-has-begotten to/for-him Segub."
+        },
+        {
+          "n": 22,
+          "t": "and-Segub has-made-beget Jair ; and-he-has-been to/for-him twenty and-three cities, in-land-of the-Gilead."
+        },
+        {
+          "n": 23,
+          "t": "Geshur and-Aram and-has-taken villages-of Jair with-them with Kenath and-daughters-of-her sixty city ; all-of these, sons-of Machir father-of Gilead."
+        },
+        {
+          "n": 24,
+          "t": "and-after death-of Hezron in-Bekhaleb Caleb ; and-woman-of Hezron Abijah, and-has-begotten to/for-him, Ashhur father-of Tekoa."
+        },
+        {
+          "n": 25,
+          "t": "sons-of Jerahmeel and-have-been firstborn-of Hezron the-firstborn Ram ; and-Bunah and-Oren and-Ozem Ahijah."
+        },
+        {
+          "n": 26,
+          "t": "woman another and-has-been to/for-Jerahmeel and-name-of-her Atarah ; he mother-of Onam."
+        },
+        {
+          "n": 27,
+          "t": "sons-of Ram and-have-been firstborn-of Jerahmeel ; Maaz and-Jamin and-Eker."
+        },
+        {
+          "n": 28,
+          "t": "sons-of Onam and-have-been Shammai and-Jada ; and-sons-of Shammai, Nadab and-Abishur."
+        },
+        {
+          "n": 29,
+          "t": "and-name-of woman-of Abishur Abihail ; and-she-has-begotten to/for-him, Ahban and-Molid."
+        },
+        {
+          "n": 30,
+          "t": "and-sons-of Nadab Seled and-Appaim ; Seled and-has-died not sons."
+        },
+        {
+          "n": 31,
+          "t": "and-sons-of Appaim Ishi ; and-sons-of Ishi Sheshan, and-sons-of Sheshan Ahlai."
+        },
+        {
+          "n": 32,
+          "t": "and-sons-of Jada brother-of Shammai, Jether and-Jonathan ; Jether and-has-died not sons."
+        },
+        {
+          "n": 33,
+          "t": "and-sons-of Jonathan Peleth and-Zaza ; these sons-of Jerahmeel have-been."
+        },
+        {
+          "n": 34,
+          "t": "and-not he-has-been to/for-Sheshan sons that if daughters ; and-to/for-Sheshan servant Egyptian and-name-of-him Jarha."
+        },
+        {
+          "n": 35,
+          "t": "Sheshan and-has-given daughter-of-him to/for-Jarha servant-of-him to/for-woman ; and-she-has-begotten to/for-him Attai."
+        },
+        {
+          "n": 36,
+          "t": "and-Attai has-made-beget Nathan, and-Nathan has-made-beget Zabad."
+        },
+        {
+          "n": 37,
+          "t": "and-Zabad has-made-beget Ephlal, and-Ephlal has-made-beget Obed."
+        },
+        {
+          "n": 38,
+          "t": "and-Obed has-made-beget Jehu, and-Jehu has-made-beget Azariah."
+        },
+        {
+          "n": 39,
+          "t": "and-Azariah has-made-beget Helez, and-Helez has-made-beget Eleasah."
+        },
+        {
+          "n": 40,
+          "t": "and-Eleasah has-made-beget Sismai, and-Sismai has-made-beget Shallum."
+        },
+        {
+          "n": 41,
+          "t": "and-Shallum has-made-beget Jekamiah, and-Jekamiah has-made-beget Elishama."
+        },
+        {
+          "n": 42,
+          "t": "and-sons-of Caleb brother-of Jerahmeel, Mareshah firstborn-of-him he father-of Ziph ; and-sons-of Mareshah father-of Hebron."
+        },
+        {
+          "n": 43,
+          "t": "and-sons-of Hebron ; Korah and-Tappuah and-Rekem and-Shema."
+        },
+        {
+          "n": 44,
+          "t": "and-Shema has-made-beget, Raham father-of Jorkeam ; and-Rekem has-made-beget Shammai."
+        },
+        {
+          "n": 45,
+          "t": "and-son-of Shammai Maon ; and-Maon father-of Beth-zur Tsour."
+        },
+        {
+          "n": 46,
+          "t": "and-Ephah concubine-of Caleb, has-begotten Haran and-Moza and-Gazez ; and-Haran has-made-beget Gazez."
+        },
+        {
+          "n": 47,
+          "t": "and-sons-of Jahdai ; Regem and-Jotham and-Geshan and-Pelet and-Ephah and-Shaaph."
+        },
+        {
+          "n": 48,
+          "t": "concubine-of Caleb Maacah, Sheber has-begotten and-Tirhanah."
+        },
+        {
+          "n": 49,
+          "t": "Shaaph and-has-begotten father-of Madmannah, Sheva father-of Machbenah and-father-of Gibea ; and-daughter-of Caleb Achsah."
+        },
+        {
+          "n": 50,
+          "t": "these sons-of Caleb have-been, son-of Hur firstborn-of Ephrathah ; Shobal, father-of Veqiryat Yeariym."
+        },
+        {
+          "n": 51,
+          "t": "Salmon father-of Beyt Bethlehem, Hareph father-of Beth-gader Gader."
+        },
+        {
+          "n": 52,
+          "t": "sons and-have-been to/for-Shobal, father-of Veqiryat Yeariym ; Haroeh Hatsiy-of the-Hamnuhot."
+        },
+        {
+          "n": 53,
+          "t": "and-families-of Veqiryat Yeariym, the-Ithrite and-the-Puthite, and-the-Shumathite and-the-Mishraite ; from-these they-have-exited the-Zorathite, and-the-Eshtaolite."
+        },
+        {
+          "n": 54,
+          "t": "sons-of Salmon Beyt Bethlehem and-Netophathite, Atroth-beth-joab Atroth-beth-joab Yoab ; and-Vahatsiy-of the-Hamanahtiy the-Zorathite."
+        },
+        {
+          "n": 55,
+          "t": "and-families-of secretaries they-have-dwelt dwelling-of Jabez, Tirathite Shimeathite Sucathites ; they the-Kenite the-coming, from-Hammath father-of house-of Rechab."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-these sons-of David have-been, who he-has-been-begotten to/for-him in-Hebron ; the-firstborn Amnon to/for-Ahinoam the-Jezreelitess, second Daniel, to/for-Abigail the-Carmelitess."
+        },
+        {
+          "n": 2,
+          "t": "the-third to/for-Absalom son-of Maacah, daughter-of Talmai king-of Geshur ; the-fourth Adonijah son-of Haggith."
+        },
+        {
+          "n": 3,
+          "t": "the-fifth Shephatiah to/for-Abital ; the-sixth Ithream to/for-Eglah woman-of-him."
+        },
+        {
+          "n": 4,
+          "t": "six he-has-been-begotten to/for-him in-Hebron, and-he-has-reigned there, seven years and-six months ; and-thirty and-three year, he-has-reigned in-Jerusalem."
+        },
+        {
+          "n": 5,
+          "t": "and-these they-have-been-begotten to/for-him in-Jerusalem ; Shimea and-Shobab and-Nathan and-Solomon four, to/for-Lebat Bath-shua daughter-of Ammiel."
+        },
+        {
+          "n": 6,
+          "t": "and-Ibhar and-Elishama and-Eliphelet."
+        },
+        {
+          "n": 7,
+          "t": "and-Nogah and-Nepheg and-Japhia."
+        },
+        {
+          "n": 8,
+          "t": "and-Elishama and-Eliada and-Eliphelet nine."
+        },
+        {
+          "n": 9,
+          "t": "all-of sons-of David ; from-alone-of sons-of concubines and-Tamar sister-of-them."
+        },
+        {
+          "n": 10,
+          "t": "and-son-of Solomon Rehoboam ; Abijah son-of-him Asa son-of-him Jehoshaphat son-of-him."
+        },
+        {
+          "n": 11,
+          "t": "Joram son-of-him Ahaziah son-of-him Joash son-of-him."
+        },
+        {
+          "n": 12,
+          "t": "Amaziah son-of-him Azariah son-of-him Jotham son-of-him."
+        },
+        {
+          "n": 13,
+          "t": "Ahaz son-of-him Hezekiah son-of-him Manasseh son-of-him."
+        },
+        {
+          "n": 14,
+          "t": "Amon son-of-him Josiah son-of-him."
+        },
+        {
+          "n": 15,
+          "t": "and-sons-of Josiah, the-firstborn Johanan, the-second Jehoiakim ; the-third Zedekiah, the-fourth Shallum."
+        },
+        {
+          "n": 16,
+          "t": "and-sons-of Jehoiakim ; Jeconiah son-of-him Zedekiah son-of-him."
+        },
+        {
+          "n": 17,
+          "t": "and-sons-of Jeconiah Assir, Shealtiel son-of-him."
+        },
+        {
+          "n": 18,
+          "t": "and-Malchiram and-Pedaiah and-Shenazzar ; Jekamiah Hoshama and-Nedabiah."
+        },
+        {
+          "n": 19,
+          "t": "and-sons-of Pedaiah, Zerubbabel and-Shimei ; and-son-of Zerubbabel Meshullam and-Hananiah, and-Shelomith sister-of-them."
+        },
+        {
+          "n": 20,
+          "t": "and-Hashubah and-Ohel and-Berechiah and-Hasadiah Youchab Hesed five."
+        },
+        {
+          "n": 21,
+          "t": "and-son-of Hananiah Pelatiah and-Jeshaiah ; sons-of Rephaiah sons-of Arnan, sons-of Obadiah sons-of Shecaniah."
+        },
+        {
+          "n": 22,
+          "t": "and-sons-of Shecaniah Shemaiah ; and-sons-of Shemaiah Hattush and-Igal and-Bariah and-Neariah and-Shaphat six."
+        },
+        {
+          "n": 23,
+          "t": "and-son-of Neariah Elioenai and-Hezekiah and-Azrikam three."
+        },
+        {
+          "n": 24,
+          "t": "and-sons-of Elioenai Hodaiah Hodaviah and-Eliashib and-Pelaiah and-Akkub and-Johanan and-Delaiah and-Anani seven."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "sons-of Judah ; Perez Hezron and-Carmi and-Hur and-Shobal."
+        },
+        {
+          "n": 2,
+          "t": "and-Reaiah son-of Shobal has-made-beget Jahath, and-Jahath has-made-beget, Ahumai and-Lahad ; these families-of the-Zorathite."
+        },
+        {
+          "n": 3,
+          "t": "and-these father-of Etam, Jezreel and-Ishma and-Idbash ; and-name-of sister-of-them Hazzelelponi."
+        },
+        {
+          "n": 4,
+          "t": "and-Peniel father-of Gedor, and-Ezer father-of Hushah ; these sons-of Hur firstborn-of Ephrathah, father-of Beyt Bethlehem."
+        },
+        {
+          "n": 5,
+          "t": "and-to/for-Ashhur father-of Tekoa, have-been two-of womans ; Helah and-Naarah."
+        },
+        {
+          "n": 6,
+          "t": "and-she-has-begotten to/for-him Naarah Ahuzzam and-Hepher, and-Temeni and-the-Haahashtari ; these sons-of Naarah."
+        },
+        {
+          "n": 7,
+          "t": "and-sons-of Helah ; Zereth Izhar and-Zohar and-Ethnan."
+        },
+        {
+          "n": 8,
+          "t": "and-Koz has-made-beget, Anub and-the-Zobebah ; and-families-of Aharhel son-of Harum."
+        },
+        {
+          "n": 9,
+          "t": "Jabez honor and-has-been, from-brothers-of-him ; and-mother-of-him has-called name-of-him Jabez to/for-say, for I-have-begotten in-pain."
+        },
+        {
+          "n": 10,
+          "t": "Jabez and-has-called to/for-god-of Israel to/for-say if bless you-will-bless-me and-you-have-made-multiply border-of-me hand-of-you and-has-been with-me, and-you-have-done from-evil to/for-without hurt-of-me ; god and-has-made-come who has-asked."
+        },
+        {
+          "n": 11,
+          "t": "and-Chelub brother-of Shuhah has-made-beget Mehir ; he father-of Eshton."
+        },
+        {
+          "n": 12,
+          "t": "and-Eshton has-made-beget Beth-rapha Rafa and-Paseah, and-Tehinnah father-of Iyr Nahach ; these mans-of Recah."
+        },
+        {
+          "n": 13,
+          "t": "and-sons-of Kenaz, Othniel and-Seraiah ; and-sons-of Othniel Hathath."
+        },
+        {
+          "n": 14,
+          "t": "and-Meonothai has-made-beget Ophrah ; and-Seraiah has-made-beget Joab father-of valley-of Harachiym, for artificers have-been."
+        },
+        {
+          "n": 15,
+          "t": "and-sons-of Caleb son-of Jephunneh, Iru Elah and-Naam ; and-sons-of Elah and-Kenaz."
+        },
+        {
+          "n": 16,
+          "t": "and-sons-of Jehallelel ; Ziph and-Ziphah, Tiria and-Asarel."
+        },
+        {
+          "n": 17,
+          "t": "and-son-of Ezrah, Jether and-Mered and-Epher and-Jalon ; and-she-has-conceived Miriam and-Shammai, and-Ishbah father-of Eshtemoa."
+        },
+        {
+          "n": 18,
+          "t": "and-woman-of-him the-Hayhudiya has-begotten Jared father-of Gedor and-Heber father-of Socoh, and-Jekuthiel father-of Zanoah ; and-these sons-of Bithiah daughter-of Pharaoh, who Mered has-taken."
+        },
+        {
+          "n": 19,
+          "t": "and-sons-of woman-of Hodiah, sister-of Naham, father-of Keilah the-Garmite ; and-Eshtemoa the-Maacathite."
+        },
+        {
+          "n": 20,
+          "t": "and-sons-of Shimon, Amnon and-Rinnah, Ben-hanan Ben-hanan and-Tilon ; and-sons-of Ishi, Zoheth and-Ouben Zohet."
+        },
+        {
+          "n": 21,
+          "t": "sons-of Shelah son-of Judah, Er father-of Lecah, and-Laadah father-of Mareshah ; and-families-of house-of service-of the-fine to/for-house-of Achbea."
+        },
+        {
+          "n": 22,
+          "t": "and-Jokim and-mans-of Cozeba and-Joash and-Saraph who have-marrieded to/for-Moab and-Veyachubiy Lehem ; and-the-words ancient."
+        },
+        {
+          "n": 23,
+          "t": "they the-forming, and-dwelling-of Netaim and-Wall ; with the-king in-work-of-him they-have-dwelt there."
+        },
+        {
+          "n": 24,
+          "t": "sons-of Simeon ; Nemuel and-Jamin, Jarib Zerah Saul."
+        },
+        {
+          "n": 25,
+          "t": "Shallum son-of-him Mibsam son-of-him Mishma son-of-him."
+        },
+        {
+          "n": 26,
+          "t": "and-sons-of Mishma ; Hammuel son-of-him Zaccur son-of-him Shimei son-of-him."
+        },
+        {
+          "n": 27,
+          "t": "and-to/for-Shimei sons six ten and-daughters six, and-to/for-brothers-of-him, naught sons many ; and-all-of family-of-them, not sons-of Judah have-made-multiply until."
+        },
+        {
+          "n": 28,
+          "t": "and-they-have-dwelt in-Beer Beersheba and-Moladah and-Vahatsar Choual."
+        },
+        {
+          "n": 29,
+          "t": "and-in-Bilhah and-in-Ezem and-in-Tolad."
+        },
+        {
+          "n": 30,
+          "t": "and-in-Bethuel and-in-Hormah and-in-Ziklag."
+        },
+        {
+          "n": 31,
+          "t": "and-in-Beth-marcaboth Hamarkabot and-in-Oubahatsar Sousiym, and-in-Oubbeyt Biriy and-in-Shaaraim ; these cities-of-them until reign David."
+        },
+        {
+          "n": 32,
+          "t": "and-courts-of-them Etam and-Ain, Verimon and-Tochen and-Ashan ; cities five."
+        },
+        {
+          "n": 33,
+          "t": "and-all-of courts-of-them who arounds-of the-cities the-these until Baal ; this-f seats-of-them, and-self-enroll-of-them to/for-them."
+        },
+        {
+          "n": 34,
+          "t": "and-Meshobab and-Jamlech, and-Joshah son-of Amaziah."
+        },
+        {
+          "n": 35,
+          "t": "and-Joel ; and-Jehu son-of Joshibiah, son-of Seraiah son-of Asiel."
+        },
+        {
+          "n": 36,
+          "t": "and-Elioenai and-Jaakobah and-Jeshohaiah and-Asaiah and-Adiel and-Jesimiel and-Benaiah."
+        },
+        {
+          "n": 37,
+          "t": "and-Ziza son-of Shiphi son-of oak son-of Jedaiah son-of Shimri son-of Shemaiah."
+        },
+        {
+          "n": 38,
+          "t": "these the-coming in-names, leaders in-families-of-them ; and-house-of fathers-of-them, they-have-broken to/for-abundance."
+        },
+        {
+          "n": 39,
+          "t": "and-they-have-walked to/for-entrance-of Gedor, until to/for-east-of the-valley ; to/for-seek pasture to/for-flock-of-them."
+        },
+        {
+          "n": 40,
+          "t": "and-they-have-found pasture rich and-good, and-the-land broad-of hands, and-quieting and-at ; for from Ham, the-dwelling there to/for-faces."
+        },
+        {
+          "n": 41,
+          "t": "and-they-have-come these the-written in-names in-days-of Hezekiah king-of Judah and-they-have-made-smite tents-of-them and-the-Meunite who they-have-been-found there-ward and-they-have-made-devote-them until the-day the-this, and-they-have-dwelt under-them ; for pasture to/for-flock-of-them there."
+        },
+        {
+          "n": 42,
+          "t": "and-from-them from sons-of Simeon have-gone to/for-mountain-of Seir, mans five hundred ; and-Pelatiah and-Neariah and-Rephaiah and-Uzziel sons-of Ishi in-head-of-them."
+        },
+        {
+          "n": 43,
+          "t": "and-they-have-made-smite, remnant-of the-survivor to/for-Amalek ; and-they-have-dwelt there, until the-day the-this."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-sons-of Reuben firstborn-of Israel for he the-firstborn and-in-begin-of-him birthright-of-him, has-been-given beds-of father-of-him, to/for-sons-of Joseph son-of Israel ; and-not to/for-self-enroll to/for-the-birthright."
+        },
+        {
+          "n": 2,
+          "t": "for Judah has-prevailed in-brothers-of-him, and-to/for-leader from-us ; and-the-birthright to/for-Joseph."
+        },
+        {
+          "n": 3,
+          "t": "sons-of Reuben firstborn-of Israel ; Enoch and-Pallu Hezron and-Carmi."
+        },
+        {
+          "n": 4,
+          "t": "sons-of Joel ; Shemaiah son-of-him Gog son-of-him Shimei son-of-him."
+        },
+        {
+          "n": 5,
+          "t": "Micah son-of-him Reaiah son-of-him Baal son-of-him."
+        },
+        {
+          "n": 6,
+          "t": "Beerah son-of-him, who has-made-heglam, Tiglat Pileser king-of Asshur ; he leader to/for-the-Reubenite."
+        },
+        {
+          "n": 7,
+          "t": "and-brothers-of-him to/for-families-of-him, in-self-enroll to/for-generations-of-them ; the-head Jeiel and-Zechariah."
+        },
+        {
+          "n": 8,
+          "t": "and-Bela son-of Azaz, son-of Shema son-of Joel ; he dwelling in-Aroer, and-until Nebo and-Baal-meon Meon."
+        },
+        {
+          "n": 9,
+          "t": "and-to/for-the-east has-dwelt until to/for-come wilderness-ward, from the-river Euphrates ; for livestock-of-them they-have-multiplied in-land-of Gilead."
+        },
+        {
+          "n": 10,
+          "t": "and-in-days-of Saul have-done battle with the-Hagri, and-have-fallen in-hand-of-them ; and-they-have-dwelt in-tents-of-them, on all-of faces-of east to/for-the-Gilead."
+        },
+        {
+          "n": 11,
+          "t": "and-sons-of Gad before-them have-dwelt in-land-of the-Bashan until Salecah."
+        },
+        {
+          "n": 12,
+          "t": "Joel the-head, and-Shapham the-second ; and-Janai and-Shaphat in-the-Bashan."
+        },
+        {
+          "n": 13,
+          "t": "and-brothers-of-them to/for-house-of fathers-of-them Michael and-Meshullam and-sheba and-Jorai and-Jacan and-Zia and-Eber seven."
+        },
+        {
+          "n": 14,
+          "t": "these sons-of Abihail son-of Huri son-of Jaroah son-of Gilead son-of Michael son-of Jeshishai son-of Jahdo son-of Buz."
+        },
+        {
+          "n": 15,
+          "t": "Ahi son-of Abdiel son-of Guni, head to/for-house-of fathers-of-them."
+        },
+        {
+          "n": 16,
+          "t": "and-they-have-dwelt in-the-Gilead in-the-Bashan and-in-daughters-of-her ; and-in-all-of pastures-of Lasharon on outgoings-of-them."
+        },
+        {
+          "n": 17,
+          "t": "all-of-them they-have-self-enrolled, in-days-of Jotham king-of Judah ; and-in-days-of Jeroboam king-of Israel."
+        },
+        {
+          "n": 18,
+          "t": "sons-of Reuben and-Gad and-half-of tribe-of Manasseh from sons-of helech mans lifting-of shield and-sword and-treading-of bow, and-learned-of battle ; forty and-four thousand and-seven hundred and-sixty exiting-of host."
+        },
+        {
+          "n": 19,
+          "t": "and-have-done battle with the-Hagri ; and-Jetur and-Naphish and-Nodab."
+        },
+        {
+          "n": 20,
+          "t": "and-have-been-helped on-them, the-Hagri, and-have-been-given in-hand-of-them and-all that-with-them ; for to/for-god they-have-outed in-the-battle, and-be-pray to/for-them for they-have-trusted in-him."
+        },
+        {
+          "n": 21,
+          "t": "and-have-captived livestock-of-them camels-of-them fifty thousand and-flock hundred and-fifty thousand, and-donkeys thousand ; and-soul-of man hundred thousand."
+        },
+        {
+          "n": 22,
+          "t": "for slain many they-have-fallen, for from-the-god the-battle ; and-they-have-dwelt under-them until the-captivity."
+        },
+        {
+          "n": 23,
+          "t": "and-sons-of half-of tribe-of Manasseh, have-dwelt in-the-land ; from-Bashan until Baal-hermon Hermon and-Senir and-mountain-of Hermon they have-multiplied."
+        },
+        {
+          "n": 24,
+          "t": "and-these heads-of house-of fathers-of-them ; and-Epher and-Ishi and-Eliel and-Azriel and-Jeremiah and-Hodaviah and-Jahdiel mans mighty-of helech, mans-of names, heads to/for-house-of fathers-of-them."
+        },
+        {
+          "n": 25,
+          "t": "and-they-have-betrayed, in-god-of fathers-of-them ; and-they-have-fornicated after god-of peoples-of the-land, who has-made-destroy god from-faces-of-them."
+        },
+        {
+          "n": 26,
+          "t": "god-of Israel and-has-made-rouse spirit-of Pul king-of Asshur and-spirit-of Tiglat Pileser king-of Asshur, and-has-made-heglam-them to/for-the-Reubenite and-to/for-the-Gad, and-to/for-half-of tribe-of Manasseh ; and-Habor and-Hara and-has-made-come-them to/for-Halah and-river-of Gozan, until the-day the-this."
+        },
+        {
+          "n": 27,
+          "t": "sons-of Levi ; Gershon, Kohath and-Merari."
+        },
+        {
+          "n": 28,
+          "t": "and-sons-of Kohath ; Amram Izhar, and-Hebron and-Uzziel."
+        },
+        {
+          "n": 29,
+          "t": "and-sons-of Amram, Aaron and-Moses and-Miriam ; and-sons-of Aaron, Nadab and-Abihu, Eleazar and-Ithamar."
+        },
+        {
+          "n": 30,
+          "t": "Eleazar has-made-beget Phinehas, Phinehas has-made-beget Abishua."
+        },
+        {
+          "n": 31,
+          "t": "and-Abishua has-made-beget Bukki, and-Bukki has-made-beget Uzzi."
+        },
+        {
+          "n": 32,
+          "t": "and-Uzzi has-made-beget Zerahiah, and-Zerahiah has-made-beget Meraioth."
+        },
+        {
+          "n": 33,
+          "t": "Meraioth has-made-beget Amariah, and-Amariah has-made-beget Ahitub."
+        },
+        {
+          "n": 34,
+          "t": "and-Ahitub has-made-beget Zadok, and-Zadok has-made-beget Ahimaaz."
+        },
+        {
+          "n": 35,
+          "t": "and-Ahimaaz has-made-beget Azariah, and-Azariah has-made-beget Johanan."
+        },
+        {
+          "n": 36,
+          "t": "and-Johanan has-made-beget Azariah ; he who has-ministered, in-the-house, who Solomon has-built in-Jerusalem."
+        },
+        {
+          "n": 37,
+          "t": "Azariah and-has-made-beget Amariah ; and-Amariah has-made-beget Ahitub."
+        },
+        {
+          "n": 38,
+          "t": "and-Ahitub has-made-beget Zadok, and-Zadok has-made-beget Shallum."
+        },
+        {
+          "n": 39,
+          "t": "and-Shallum has-made-beget Hilkiah, and-Hilkiah has-made-beget Azariah."
+        },
+        {
+          "n": 40,
+          "t": "and-Azariah has-made-beget Seraiah, and-Seraiah has-made-beget Jehozadak."
+        },
+        {
+          "n": 41,
+          "t": "and-Jehozadak has-gone, in-make-heglam YHWH, Judah and-Jerusalem ; in-hand-of Nebuchadnezzar."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "sons-of Levi ; Gershom, Kohath and-Merari."
+        },
+        {
+          "n": 2,
+          "t": "and-these names-of sons-of Gershom Libni and-Shimei."
+        },
+        {
+          "n": 3,
+          "t": "and-sons-of Kohath ; Amram and-Izhar, and-Hebron and-Uzziel."
+        },
+        {
+          "n": 4,
+          "t": "sons-of Merari Mahli and-Mushi ; and-these families-of the-Levi to/for-fathers-of-them."
+        },
+        {
+          "n": 5,
+          "t": "to/for-Gershom ; Libni son-of-him Jahath son-of-him Zimmah son-of-him."
+        },
+        {
+          "n": 6,
+          "t": "Joah son-of-him Iddo son-of-him, Zerah son-of-him Jeatherai son-of-him."
+        },
+        {
+          "n": 7,
+          "t": "sons-of Kohath ; Amminadab son-of-him, Korah son-of-him Assir son-of-him."
+        },
+        {
+          "n": 8,
+          "t": "Elkanah son-of-him and-Ebiasaph son-of-him and-Assir son-of-him."
+        },
+        {
+          "n": 9,
+          "t": "Tahath son-of-him Uriel son-of-him, Uzziah son-of-him and-Saul son-of-him."
+        },
+        {
+          "n": 10,
+          "t": "and-sons-of Elkanah, Amasai and-Ahimoth."
+        },
+        {
+          "n": 11,
+          "t": "Elkanah ; son-of-him sons-of Elkanah, Zuph son-of-him and-Nahath son-of-him."
+        },
+        {
+          "n": 12,
+          "t": "Eliab son-of-him Jeroham son-of-him Elkanah son-of-him."
+        },
+        {
+          "n": 13,
+          "t": "and-sons-of Samuel the-firstborn Vachniy and-Abijah."
+        },
+        {
+          "n": 14,
+          "t": "sons-of Merari Mahli ; Libni son-of-him Shimei son-of-him Uzzah son-of-him."
+        },
+        {
+          "n": 15,
+          "t": "Shimea son-of-him Haggiah son-of-him Asaiah son-of-him."
+        },
+        {
+          "n": 16,
+          "t": "and-these who David has-made-stand on hands-of song house-of YHWH ; from-resting-of the-ark."
+        },
+        {
+          "n": 17,
+          "t": "and-they-have-been ministering to/for-faces-of tabernacle-of tent-of meeting in-the-song, until build Solomon house-of YHWH in-Jerusalem ; and-they-have-stood like-justice-of-them on service-of-them."
+        },
+        {
+          "n": 18,
+          "t": "and-these the-standing and-sons-of-them ; from-sons-of the-Kohathite, Heman the-singing, son-of Joel son-of Samuel."
+        },
+        {
+          "n": 19,
+          "t": "son-of Elkanah son-of Jeroham, son-of Eliel son-of Toah."
+        },
+        {
+          "n": 20,
+          "t": "son-of Zuph son-of Elkanah, son-of Mahath son-of Amasai."
+        },
+        {
+          "n": 21,
+          "t": "son-of Elkanah son-of Joel, son-of Azariah son-of Zephaniah."
+        },
+        {
+          "n": 22,
+          "t": "son-of Tahath son-of Assir, son-of Ebiasaph son-of Korah."
+        },
+        {
+          "n": 23,
+          "t": "son-of Izhar son-of Kohath, son-of Levi son-of Israel."
+        },
+        {
+          "n": 24,
+          "t": "and-brother-of-him Asaph, the-standing on right-of-him ; Asaph son-of Berechiah son-of Shimea."
+        },
+        {
+          "n": 25,
+          "t": "son-of Michael son-of Baaseiah son-of Malchijah."
+        },
+        {
+          "n": 26,
+          "t": "son-of Ethni son-of Zerah son-of Adaiah."
+        },
+        {
+          "n": 27,
+          "t": "son-of Ethan son-of Zimmah son-of Shimei."
+        },
+        {
+          "n": 28,
+          "t": "son-of Jahath son-of Gershom son-of Levi."
+        },
+        {
+          "n": 29,
+          "t": "and-sons-of Merari brothers-of-them on the-left ; Ethan son-of Kishi, son-of Abdi son-of Malluch."
+        },
+        {
+          "n": 30,
+          "t": "son-of Hashabiah son-of Amaziah son-of Hilkiah."
+        },
+        {
+          "n": 31,
+          "t": "son-of Amzi son-of Bani son-of Shemer."
+        },
+        {
+          "n": 32,
+          "t": "son-of Mahli son-of Mushi, son-of Merari son-of Levi."
+        },
+        {
+          "n": 33,
+          "t": "and-brothers-of-them the-Levi ; given, to/for-all-of service-of, tabernacle-of house-of the-god."
+        },
+        {
+          "n": 34,
+          "t": "and-Aaron and-sons-of-him making-offer on altar-of the-burnt and-on altar-of the-incense, to/for-all-of, work-of holiness-of the-holinesses ; and-to/for-cover on Israel, like-all who has-commanded, Moses servant-of the-god."
+        },
+        {
+          "n": 35,
+          "t": "and-these sons-of Aaron ; Eleazar son-of-him Phinehas son-of-him Abishua son-of-him."
+        },
+        {
+          "n": 36,
+          "t": "Bukki son-of-him Uzzi son-of-him Zerahiah son-of-him."
+        },
+        {
+          "n": 37,
+          "t": "Meraioth son-of-him Amariah son-of-him Ahitub son-of-him."
+        },
+        {
+          "n": 38,
+          "t": "Zadok son-of-him Ahimaaz son-of-him."
+        },
+        {
+          "n": 39,
+          "t": "and-these seats-of-them, to/for-encampments-of-them in-border-of-them ; to/for-sons-of Aaron to/for-family-of the-Kohathite, for to/for-them the-allotted has-been."
+        },
+        {
+          "n": 40,
+          "t": "and-they-have-given to/for-them Hebron in-land-of Judah ; and-pastures-of-her arounds-of-her."
+        },
+        {
+          "n": 41,
+          "t": "and-field-of the-city and-villages-of-her ; they-have-given to/for-Caleb son-of Jephunneh."
+        },
+        {
+          "n": 42,
+          "t": "and-to/for-sons-of Aaron they-have-given cities-of the-refuge, Hebron and-Libnah and-pastures-of-her ; and-Jattir and-Eshtemoa and-pastures-of-her."
+        },
+        {
+          "n": 43,
+          "t": "and-Hilen and-pastures-of-her, Debir and-pastures-of-her."
+        },
+        {
+          "n": 44,
+          "t": "and-Ashan and-pastures-of-her, and-Beth-shemesh Chemech and-pastures-of-her."
+        },
+        {
+          "n": 45,
+          "t": "and-from-tribe-of Benjamin Geba and-pastures-of-her and-Alemeth and-pastures-of-her, and-Anathoth and-pastures-of-her ; all-of cities-of-them three ten city in-families-of-them."
+        },
+        {
+          "n": 46,
+          "t": "and-to/for-sons-of Kohath the-remained from-family-of the-tribe from-half-of tribe-of half-of Manasseh in-the-allotted cities ten."
+        },
+        {
+          "n": 47,
+          "t": "and-to/for-sons-of Gershom to/for-families-of-them from-tribe-of Issachar and-from-tribe-of Asher and-from-tribe-of Naphtali and-from-tribe-of Manasseh in-the-Bashan, cities three ten."
+        },
+        {
+          "n": 48,
+          "t": "to/for-sons-of Merari to/for-families-of-them from-tribe-of Reuben and-from-tribe-of Gad and-from-tribe-of Zebulun in-the-allotted, cities two ten."
+        },
+        {
+          "n": 49,
+          "t": "sons-of Israel and-have-given to/for-the-Levi ; the-cities and-pastures-of-them."
+        },
+        {
+          "n": 50,
+          "t": "and-they-have-given in-the-allotted from-tribe-of sons-of Judah and-from-tribe-of sons-of Simeon, and-from-tribe-of sons-of Benjamin ; the-cities the-these, who they-will-call them in-names."
+        },
+        {
+          "n": 51,
+          "t": "and-from-families-of sons-of Kohath ; and-he-has-been cities-of border-of-them, from-tribe-of Ephraim."
+        },
+        {
+          "n": 52,
+          "t": "and-they-have-given to/for-them cities-of the-refuge Shechem and-pastures-of-her in-mountain-of Ephraim ; and-Gezer and-pastures-of-her."
+        },
+        {
+          "n": 53,
+          "t": "and-Jokmeam and-pastures-of-her, and-Beth-horon Horon and-pastures-of-her."
+        },
+        {
+          "n": 54,
+          "t": "and-Aijalon and-pastures-of-her, and-Vegat Rimon and-pastures-of-her."
+        },
+        {
+          "n": 55,
+          "t": "and-from-half-of tribe-of Manasseh, Aner and-pastures-of-her, and-Bileam and-pastures-of-her ; to/for-family-of to/for-sons-of Kohath the-remained."
+        },
+        {
+          "n": 56,
+          "t": "to/for-sons-of Gershom from-family-of half-of tribe-of Manasseh, Golan in-the-Bashan and-pastures-of-her ; and-Ashtaroth and-pastures-of-her."
+        },
+        {
+          "n": 57,
+          "t": "and-from-tribe-of Issachar, Kedesh and-pastures-of-her ; Daberath and-pastures-of-her."
+        },
+        {
+          "n": 58,
+          "t": "and-Ramoth and-pastures-of-her, and-Anem and-pastures-of-her."
+        },
+        {
+          "n": 59,
+          "t": "and-from-tribe-of Asher, Mashal and-pastures-of-her ; and-Abdon and-pastures-of-her."
+        },
+        {
+          "n": 60,
+          "t": "and-Hukok and-pastures-of-her, and-Rehob and-pastures-of-her."
+        },
+        {
+          "n": 61,
+          "t": "and-from-tribe-of Naphtali Kedesh in-the-Galilee and-pastures-of-her, and-Hammon and-pastures-of-her ; and-Kiriathaim and-pastures-of-her."
+        },
+        {
+          "n": 62,
+          "t": "to/for-sons-of Merari the-remained from-tribe-of Zebulun, Verimon and-pastures-of-her ; Betabor and-pastures-of-her."
+        },
+        {
+          "n": 63,
+          "t": "and-from-side to/for-Jordan Jericho to/for-east-of the-Jordan from-tribe-of Reuben, Bezer in-the-wilderness and-pastures-of-her ; and-Jahaz-ward and-pastures-of-her."
+        },
+        {
+          "n": 64,
+          "t": "and-Kedemoth and-pastures-of-her, and-Mephaath and-pastures-of-her."
+        },
+        {
+          "n": 65,
+          "t": "and-from-tribe-of Gad, Ramoth in-the-Gilead and-pastures-of-her ; and-Mahanaim and-pastures-of-her."
+        },
+        {
+          "n": 66,
+          "t": "and-Heshbon and-pastures-of-her, and-Jazer and-pastures-of-her."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-to/for-sons-of Issachar Tola and-Puah Jashub and-Shimron four."
+        },
+        {
+          "n": 2,
+          "t": "and-sons-of Tola Uzzi and-Rephaiah and-Jeriel and-Jahmai and-Ibsam and-Samuel heads to/for-house-of fathers-of-them to/for-Tola, mighty-of helech to/for-generations-of-them ; number-of-them in-days-of David, twenty and-two thousand and-six hundred."
+        },
+        {
+          "n": 3,
+          "t": "and-sons-of Uzzi Izrahiah ; and-sons-of Izrahiah Michael and-Obadiah and-Joel Isshiah five heads all-of-them."
+        },
+        {
+          "n": 4,
+          "t": "and-on-them to/for-generations-of-them to/for-house-of fathers-of-them bands-of host-of battle, thirty and-six thousand ; for womans and-sons have-made-multiply."
+        },
+        {
+          "n": 5,
+          "t": "and-brothers-of-them to/for-all-of families-of Issachar, mighty-of heleches ; eighty and-seven thousand, self-enroll-of-them to/for-the-all."
+        },
+        {
+          "n": 6,
+          "t": "Benjamin Bela and-Becher and-Jediael three."
+        },
+        {
+          "n": 7,
+          "t": "and-sons-of Bela Ezbon and-Uzzi and-Uzziel and-Jerimoth and-Iri five heads-of house-of fathers, mighty-of heleches ; and-self-enroll-of-them twenty and-two thousand, and-thirty and-four."
+        },
+        {
+          "n": 8,
+          "t": "and-sons-of Becher Zemirah and-Joash and-Eliezer and-Elioenai and-Omri and-Jerimoth and-Abijah, and-Anathoth and-Alemeth ; all-of these sons-of Becher."
+        },
+        {
+          "n": 9,
+          "t": "and-self-enroll-of-them to/for-generations-of-them heads-of house-of fathers-of-them, mighty-of helech ; twenty thousand and-hundred."
+        },
+        {
+          "n": 10,
+          "t": "and-sons-of Jediael Bilhan ; and-sons-of Bilhan Jeush and-Benjamin and-Ehud and-Chenaanah and-Zethan, and-Tarshish and-Ahishahar."
+        },
+        {
+          "n": 11,
+          "t": "all-of these sons-of Jediael to/for-heads-of the-fathers, mighty-of heleches ; seven ten thousand and-hundred, exiting-of host to/for-the-battle."
+        },
+        {
+          "n": 12,
+          "t": "and-Shuppim and-Huppim sons-of Ir, Hushim sons-of Aher."
+        },
+        {
+          "n": 13,
+          "t": "sons-of Naphtali Jahziel and-Guni and-Jezer and-Shallum sons-of Bilhah."
+        },
+        {
+          "n": 14,
+          "t": "sons-of Manasseh, Asriel who she-has-begotten ; concubine-of-him the-Aramean, has-begotten, Machir father-of Gilead."
+        },
+        {
+          "n": 15,
+          "t": "and-Machir has-taken woman to/for-Huppim and-to/for-Shuppim, and-name-of sister-of-him Maacah, and-name-of the-second Zelophehad ; daughters and-have-been to/for-Zelophehad."
+        },
+        {
+          "n": 16,
+          "t": "Maacah and-has-begotten woman-of Machir son, and-has-called name-of-him Peresh, and-name-of brother-of-him Sheresh ; and-sons-of-him Ulam and-Rekem."
+        },
+        {
+          "n": 17,
+          "t": "and-sons-of Ulam Bedan ; these sons-of Gilead, son-of Machir son-of Manasseh."
+        },
+        {
+          "n": 18,
+          "t": "and-sister-of-him the-Hammolecheth ; she-has-begotten Ishhod, and-Abiezer and-Mahlah."
+        },
+        {
+          "n": 19,
+          "t": "sons-of Shemida and-have-been ; Ahian and-Shechem, and-Likhi and-Aniam."
+        },
+        {
+          "n": 20,
+          "t": "and-sons-of Ephraim Shuthelah ; and-Bered son-of-him and-Tahath son-of-him, and-Eleadah son-of-him and-Tahath son-of-him."
+        },
+        {
+          "n": 21,
+          "t": "and-Zabad son-of-him and-Shuthelah son-of-him and-Ezer and-Elead ; mans-of Gath the-begotten and-have-killed-them in-the-land, for have-gone, to/for-take livestock-of-them."
+        },
+        {
+          "n": 22,
+          "t": "Ephraim and-has-self-mourned father-of-them days many ; brothers-of-him and-have-come to/for-sorry-of-him."
+        },
+        {
+          "n": 23,
+          "t": "and-has-come toward woman-of-him, and-has-conceived and-has-begotten son ; and-has-called name-of-him Beriah, for in-evil she-has-been in-house-of-him."
+        },
+        {
+          "n": 24,
+          "t": "and-daughter-of-him Sheerah, and-has-built Beth-horon Horon the-lower and-the-high ; and-Uzen Cheera."
+        },
+        {
+          "n": 25,
+          "t": "and-Rephah son-of-him and-Resheph and-Telah son-of-him and-Tahan son-of-him."
+        },
+        {
+          "n": 26,
+          "t": "Ladan son-of-him Ammihud son-of-him Elishama son-of-him."
+        },
+        {
+          "n": 27,
+          "t": "Nun son-of-him Joshua son-of-him."
+        },
+        {
+          "n": 28,
+          "t": "and-possession-of-them and-seats-of-them, Lebeyt Bethel and-daughters-of-her ; and-to/for-the-east Naaran, and-to/for-the-west Gezer and-daughters-of-her and-Shechem and-daughters-of-her, until Gaza and-daughters-of-her."
+        },
+        {
+          "n": 29,
+          "t": "and-on hands-of sons-of Manasseh Beth-shean Chean and-daughters-of-her Taanach and-daughters-of-her, Megiddo and-daughters-of-her Dor and-daughters-of-her ; in-these sons-of Joseph have-dwelt, son-of Israel."
+        },
+        {
+          "n": 30,
+          "t": "sons-of Asher Imnah and-Ishvah and-Ishvi and-Beriah and-Serah sister-of-them."
+        },
+        {
+          "n": 31,
+          "t": "and-sons-of Beriah, Heber and-Malchiel ; he father-of Birzaith."
+        },
+        {
+          "n": 32,
+          "t": "and-Heber has-made-beget Japhlet, and-Shomer and-Hotham ; and-Shua sister-of-them."
+        },
+        {
+          "n": 33,
+          "t": "and-sons-of Japhlet, Pasach and-Bimhal and-Ashvath ; these sons-of Japhlet."
+        },
+        {
+          "n": 34,
+          "t": "and-sons-of Shemer ; Ahi and-Rohgah Jehubbah and-Jehubbah and-Aram."
+        },
+        {
+          "n": 35,
+          "t": "and-son-of Helem brother-of-him ; Zophah and-Imna and-Shelesh and-Amal."
+        },
+        {
+          "n": 36,
+          "t": "sons-of Zophah ; Suah and-Harnepher and-Shual and-Beri and-Imrah."
+        },
+        {
+          "n": 37,
+          "t": "Bezer and-Hod and-Shammah and-Shilshah and-Ithran and-Beera."
+        },
+        {
+          "n": 38,
+          "t": "and-sons-of Jether ; Jephunneh and-Pispa and-Ara."
+        },
+        {
+          "n": 39,
+          "t": "and-sons-of Ulla ; Arah and-Hanniel and-Rizia."
+        },
+        {
+          "n": 40,
+          "t": "all-of these sons-of Asher heads-of house-of the-fathers purified mighty-of heleches, heads-of the-leaders ; and-self-enroll-of-them in-the-host in-the-battle, number-of-them mans, twenty and-six thousand."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-Benjamin, has-made-beget Bela firstborn-of-him ; Ashbel the-second, and-Aharah the-third."
+        },
+        {
+          "n": 2,
+          "t": "Nohah the-fourth, and-Raphah the-fifth."
+        },
+        {
+          "n": 3,
+          "t": "sons and-have-been to/for-Bela ; Addar and-Gera and-Abihud."
+        },
+        {
+          "n": 4,
+          "t": "and-Abishua and-Naaman and-Ahoah."
+        },
+        {
+          "n": 5,
+          "t": "and-Gera and-Shephuphan and-Hiram."
+        },
+        {
+          "n": 6,
+          "t": "and-these sons-of Ehud ; these they heads-of fathers to/for-dwelling-of Geba, and-have-made-heglam-them toward Manahath."
+        },
+        {
+          "n": 7,
+          "t": "and-Naaman and-Ahijah and-Gera he has-made-heglam-them ; and-he-has-made-beget Uzzah and-Ahihud."
+        },
+        {
+          "n": 8,
+          "t": "and-Shaharaim has-made-beget in-field-of Moab, from send-of-him them ; Hushim and-Baara womans-of-him."
+        },
+        {
+          "n": 9,
+          "t": "Hodesh and-has-made-beget from woman-of-him ; Jobab and-Zibia, and-Mesha and-Malcam."
+        },
+        {
+          "n": 10,
+          "t": "and-Jeuz and-Sachia and-Mirmah ; these sons-of-him heads-of fathers."
+        },
+        {
+          "n": 11,
+          "t": "and-from-Hushim he-has-made-beget Abitub and-Elpaal."
+        },
+        {
+          "n": 12,
+          "t": "and-sons-of Elpaal, Eber and-Misham and-Shemer ; he has-built Ono, and-Lod and-daughters-of-her."
+        },
+        {
+          "n": 13,
+          "t": "and-Beriah and-Shema, they heads-of the-fathers, to/for-dwelling-of Aijalon ; they have-made-flee dwelling-of Gath."
+        },
+        {
+          "n": 14,
+          "t": "and-Ahio Shashak and-Jerimoth."
+        },
+        {
+          "n": 15,
+          "t": "and-Zebadiah and-Arad and-Eder."
+        },
+        {
+          "n": 16,
+          "t": "and-Michael and-Ishpah and-Joha sons-of Beriah."
+        },
+        {
+          "n": 17,
+          "t": "and-Zebadiah and-Meshullam and-Hizki and-Heber."
+        },
+        {
+          "n": 18,
+          "t": "and-Ishmerai and-Izliah and-Jobab sons-of Elpaal."
+        },
+        {
+          "n": 19,
+          "t": "and-Jakim and-Zichri and-Zabdi."
+        },
+        {
+          "n": 20,
+          "t": "and-Elienai and-Zillethai and-Eliel."
+        },
+        {
+          "n": 21,
+          "t": "and-Adaiah and-Beraiah and-Shimrath sons-of Shimei."
+        },
+        {
+          "n": 22,
+          "t": "and-Ishpan and-Eber and-Eliel."
+        },
+        {
+          "n": 23,
+          "t": "and-Abdon and-Zichri and-Hanan."
+        },
+        {
+          "n": 24,
+          "t": "and-Hananiah and-Elam and-Anthothijah."
+        },
+        {
+          "n": 25,
+          "t": "and-Iphdeiah and-Peniel sons-of Shashak."
+        },
+        {
+          "n": 26,
+          "t": "and-Shamsherai and-Shehariah and-Athaliah."
+        },
+        {
+          "n": 27,
+          "t": "and-Jaareshiah and-Elijah and-Zichri sons-of Jeroham."
+        },
+        {
+          "n": 28,
+          "t": "these heads-of fathers to/for-generations-of-them heads ; these they-have-dwelt in-Jerusalem."
+        },
+        {
+          "n": 29,
+          "t": "and-in-Gibeon they-have-dwelt father-of Gibeon ; and-name-of woman-of-him Maacah."
+        },
+        {
+          "n": 30,
+          "t": "and-son-of-him the-firstborn Abdon ; and-Zur and-Kish and-Baal and-Nadab."
+        },
+        {
+          "n": 31,
+          "t": "and-Gedor and-Ahio and-Zecher."
+        },
+        {
+          "n": 32,
+          "t": "and-Mikloth has-made-beget Shimeah ; and-even they before brothers-of-them have-dwelt in-Jerusalem with brothers-of-them."
+        },
+        {
+          "n": 33,
+          "t": "and-Ner has-made-beget Kish, and-Kish has-made-beget Saul ; and-Saul has-made-beget Jonathan and-Oumalkiy Choua, and-Abinadab and-Eshbaal."
+        },
+        {
+          "n": 34,
+          "t": "and-son-of Jonathan Meriyb Merib-baal ; and-Meriyb Merib-baal has-made-beget Micah."
+        },
+        {
+          "n": 35,
+          "t": "and-sons-of Micah ; Pithon and-Melech and-Tarea and-Ahaz."
+        },
+        {
+          "n": 36,
+          "t": "and-Ahaz has-made-beget Jehoaddah, and-Jehoaddah has-made-beget Alemeth and-Azmaveth and-Zimri ; and-Zimri has-made-beget Moza."
+        },
+        {
+          "n": 37,
+          "t": "and-Moza has-made-beget Binea ; Raphah son-of-him Eleasah son-of-him Azel son-of-him."
+        },
+        {
+          "n": 38,
+          "t": "and-to/for-Azel six sons and-these names-of-them Azrikam Bocheru and-Ishmael and-Sheariah, and-Obadiah and-Hanan ; all-of these sons-of Azel."
+        },
+        {
+          "n": 39,
+          "t": "and-sons-of Eshek brother-of-him ; Ulam firstborn-of-him, Jeush the-second, and-Eliphelet the-third."
+        },
+        {
+          "n": 40,
+          "t": "sons-of Ulam mans mighty-of and-have-been helech treading-of bow and-making-multiply sons and-sons-of sons, hundred and-fifty ; all-of these from-sons-of Benjamin."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-all-of Israel they-have-self-enrolled, and-behold-them written, on book-of kings-of Israel ; and-Judah they-have-been-made-heglam to/for-Babylon in-trespass-of-them."
+        },
+        {
+          "n": 2,
+          "t": "and-the-dwelling the-first, who in-possession-of-them in-cities-of-them ; Israel the-priests, the-Levi and-the-temples."
+        },
+        {
+          "n": 3,
+          "t": "and-in-Jerusalem sons-of Judah have-dwelt, from and-from sons-of Benjamin ; and-from sons-of Ephraim and-Manasseh."
+        },
+        {
+          "n": 4,
+          "t": "Uthai son-of Ammihud son-of Omri son-of Imri son-of in-Benjamin-of from sons-of Perez son-of Judah."
+        },
+        {
+          "n": 5,
+          "t": "and-from the-Shilonite, Asaiah the-firstborn and-sons-of-him."
+        },
+        {
+          "n": 6,
+          "t": "and-from sons-of Zerah Jeuel ; and-brothers-of-them six hundred and-ninety."
+        },
+        {
+          "n": 7,
+          "t": "and-from sons-of Benjamin ; Sallu son-of Meshullam, son-of Hodaviah son-of the-Hassenuah."
+        },
+        {
+          "n": 8,
+          "t": "and-Ibneiah son-of Jeroham, and-Elah son-of Uzzi son-of Michri ; and-Meshullam son-of Shephatiah, son-of Reuel son-of Ibnijah."
+        },
+        {
+          "n": 9,
+          "t": "and-brothers-of-them to/for-generations-of-them, nine hundred and-fifty and-six ; all-of these mans, heads-of fathers to/for-house-of fathers-of-them."
+        },
+        {
+          "n": 10,
+          "t": "and-from the-priests ; Jedaiah and-Jehoiarib and-Jachin."
+        },
+        {
+          "n": 11,
+          "t": "and-Azariah son-of Hilkiah son-of Meshullam son-of Zadok son-of Meraioth son-of Ahitub, leader-of house-of the-god."
+        },
+        {
+          "n": 12,
+          "t": "and-Adaiah son-of Jeroham, son-of Pashhur son-of Malchijah ; and-Maasai son-of Adiel son-of Jahzerah son-of Meshullam son-of Meshillemith son-of Immer."
+        },
+        {
+          "n": 13,
+          "t": "and-brothers-of-them heads to/for-house-of fathers-of-them, thousand, and-seven hundred and-sixty ; mighty-of helech-of, work-of service-of house-of the-god."
+        },
+        {
+          "n": 14,
+          "t": "and-from the-Levi ; Shemaiah son-of Hasshub son-of Azrikam son-of Hashabiah from sons-of Merari."
+        },
+        {
+          "n": 15,
+          "t": "and-Bakbakkar Heresh and-Galal ; and-Mattaniah son-of Mica, son-of Zichri son-of Asaph."
+        },
+        {
+          "n": 16,
+          "t": "and-Obadiah son-of Shemaiah, son-of Galal son-of Jeduthun ; and-Berechiah son-of Asa son-of Elkanah, the-dwelling in-villages-of Netophathite."
+        },
+        {
+          "n": 17,
+          "t": "and-the-gatekeepers Shallum and-Akkub, and-Talmon and-Ahiman ; and-brother-of-them Shallum the-head."
+        },
+        {
+          "n": 18,
+          "t": "and-until here, in-gate-of the-king east-ward ; they the-gatekeepers, to/for-camps-of sons-of Levi."
+        },
+        {
+          "n": 19,
+          "t": "and-Shallum son-of Kore son-of Ebiasaph son-of Korah and-brothers-of-him to/for-house-of father-of-him the-Korahite on work-of the-service, keeping-of the-thresholds to/for-the-tent ; and-fathers-of-them on camp-of YHWH, keeping-of the-entrance."
+        },
+        {
+          "n": 20,
+          "t": "and-Phinehas son-of Eleazar leader has-been on-them to/for-faces YHWH with-him."
+        },
+        {
+          "n": 21,
+          "t": "Zechariah son-of Meshelemiah, gatekeeper entrance to/for-tent-of meeting."
+        },
+        {
+          "n": 22,
+          "t": "all-of-them the-purified to/for-gatekeepers in-the-thresholds, hundred and-two ten ; they in-villages-of-them self-enroll-of-them, they David and-Samuel the-see has-founded in-faithfulness-of-them."
+        },
+        {
+          "n": 23,
+          "t": "and-they and-sons-of-them on the-gates to/for-house-of YHWH to/for-house-of the-tent to/for-charges."
+        },
+        {
+          "n": 24,
+          "t": "to/for-four spirits, will-be the-gatekeepers ; east sea-ward north-ward and-negeb-ward."
+        },
+        {
+          "n": 25,
+          "t": "and-brothers-of-them in-villages-of-them to/for-come to/for-seven-of the-days from-time toward time with these."
+        },
+        {
+          "n": 26,
+          "t": "for in-faithfulness they four-of mighty-of the-gatekeepers, they the-Levi ; the-chambers, and-have-been on and-on the-treasures-of house-of the-god."
+        },
+        {
+          "n": 27,
+          "t": "and-arounds-of house-of the-god will-lodge ; for on-them charge, and-they on the-opening and-to/for-the-morning to/for-the-morning."
+        },
+        {
+          "n": 28,
+          "t": "and-from-them on articles-of the-service ; for in-number they-will-make-come-them, and-in-number they-will-make-exit-them."
+        },
+        {
+          "n": 29,
+          "t": "and-from-them counted on the-articles, and-on all-of articles-of the-holiness ; and-on the-fine and-the-wine and-the-oil, and-the-frankincense and-the-spices."
+        },
+        {
+          "n": 30,
+          "t": "and-from sons-of the-priests, mixing-of the-ointment to/for-the-spices."
+        },
+        {
+          "n": 31,
+          "t": "and-Mattithiah from the-Levi, he the-firstborn to/for-Shallum the-Korahite ; in-faithfulness, on deed-of the-flatbreads."
+        },
+        {
+          "n": 32,
+          "t": "and-from sons-of the-Kohathite from brothers-of-them on food-of the-row ; to/for-make-establish sabbath-of sabbath."
+        },
+        {
+          "n": 33,
+          "t": "and-these the-singing heads-of fathers to/for-the-Levi in-the-chambers frees separated ; for by and-night on-them in-the-work."
+        },
+        {
+          "n": 34,
+          "t": "these heads-of the-fathers to/for-the-Levi to/for-generations-of-them heads ; these they-have-dwelt in-Jerusalem."
+        },
+        {
+          "n": 35,
+          "t": "and-in-Gibeon they-have-dwelt father-of Gibeon Jeiel ; and-name-of woman-of-him Maacah."
+        },
+        {
+          "n": 36,
+          "t": "and-son-of-him the-firstborn Abdon ; and-Zur and-Kish, and-Baal and-Ner and-Nadab."
+        },
+        {
+          "n": 37,
+          "t": "and-Gedor and-Ahio, and-Zechariah and-Mikloth."
+        },
+        {
+          "n": 38,
+          "t": "and-Mikloth has-made-beget Shimeam ; and-even they before brothers-of-them have-dwelt in-Jerusalem with brothers-of-them."
+        },
+        {
+          "n": 39,
+          "t": "and-Ner has-made-beget Kish, and-Kish has-made-beget Saul ; and-Saul has-made-beget Jonathan and-Oumalkiy Choua, and-Abinadab and-Eshbaal."
+        },
+        {
+          "n": 40,
+          "t": "and-son-of Jonathan Meriyb Merib-baal ; and-Oumriy Merib-baal has-made-beget Micah."
+        },
+        {
+          "n": 41,
+          "t": "and-sons-of Micah ; Pithon and-Melech and-Tahrea."
+        },
+        {
+          "n": 42,
+          "t": "and-Ahaz has-made-beget Jarah, and-Jarah has-made-beget Alemeth and-Azmaveth and-Zimri ; and-Zimri has-made-beget Moza."
+        },
+        {
+          "n": 43,
+          "t": "and-Moza has-made-beget Binea ; and-Rephaiah son-of-him Eleasah son-of-him Azel son-of-him."
+        },
+        {
+          "n": 44,
+          "t": "and-to/for-Azel six sons and-these names-of-them Azrikam Bocheru and-Ishmael and-Sheariah, and-Obadiah and-Hanan ; these sons-of Azel."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-Philistine have-been-fought in-Israel ; and-he-has-fled ; man-of Israel from-faces-of Philistine, and-they-have-fallen slain in-mountain-of Gilboa."
+        },
+        {
+          "n": 2,
+          "t": "Philistine and-have-made-cleave, after Saul and-after sons-of-him ; Philistine and-have-made-smite Jonathan and-Abinadab and-Oumalkiy Choua sons-of Saul."
+        },
+        {
+          "n": 3,
+          "t": "the-battle and-has-honored on Saul, and-they-have-found-him the-shows in-the-bow ; and-he-has-twisted from the-shows."
+        },
+        {
+          "n": 4,
+          "t": "Saul and-has-said toward lifting-of articles-of-him draw sword-of-you and-pierce-me in-her lest will-come the-uncircumcised the-these and-have-self-abused in-me, and-not has-willinged lifting-of articles-of-him, for has-feared very ; Saul and-has-taken the-sword, and-has-fallen on-her."
+        },
+        {
+          "n": 5,
+          "t": "and-has-seen lifting-of articles-of-him for Saul has-died ; and-has-fallen also he on the-sword and-has-died."
+        },
+        {
+          "n": 6,
+          "t": "Saul and-has-died and-three-of sons-of-him, and-all-of house-of-him together have-died."
+        },
+        {
+          "n": 7,
+          "t": "and-have-seen all-of man-of Israel who in-the-valley for have-fled, and-for have-died Saul and-sons-of-him ; and-have-left cities-of-them and-have-fled, Philistine and-have-come, and-have-dwelt in-them."
+        },
+        {
+          "n": 8,
+          "t": "and-he-has-been from-morrow, Philistine and-have-come, to/for-strip the-slain ; and-they-have-found Saul and-sons-of-him, falling in-mountain-of Gilboa."
+        },
+        {
+          "n": 9,
+          "t": "and-they-have-made-strip-him, and-they-have-lifted head-of-him and-articles-of-him ; and-they-have-sended in-land-of Philistine around to/for-bear idols-of-them and-the-people."
+        },
+        {
+          "n": 10,
+          "t": "and-they-have-put articles-of-him, house-of god-of-them ; and-head-of-him they-have-blowed house-of Dagon."
+        },
+        {
+          "n": 11,
+          "t": "and-they-have-heard, all-of Miyabeych Gilead ; all-of who Philistine have-done to/for-Saul."
+        },
+        {
+          "n": 12,
+          "t": "and-they-have-risen all-of man-of helech and-they-have-lifted body-of Saul and-bodies-of sons-of-him, and-they-have-made-come-them Miyabeych-ward ; and-have-buried bones-of-them under the-oak in-Miyabeych, and-have-fasted seven-of days."
+        },
+        {
+          "n": 13,
+          "t": "Saul and-has-died in-trespass-of-him who has-betrayed in-YHWH, on word-of YHWH who not has-kept ; and-also to/for-ask in-the-medium to/for-seek."
+        },
+        {
+          "n": 14,
+          "t": "and-not he-has-sought in-YHWH and-he-has-made-die-him ; and-has-made-turn the-kingship, to/for-David son-of Jesse."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-they-have-been-gathered all-of Israel toward David Hebron-ward to/for-say ; behold we bone-of-you and-flesh-of-you."
+        },
+        {
+          "n": 2,
+          "t": "also yesterday also three also in-be Saul king, you the-making-exit and-the-making-come Israel ; YHWH and-has-said god-of-you to/for-you you will-pasture people-of-me Israel, and-you will-be leader, on people-of-me Israel."
+        },
+        {
+          "n": 3,
+          "t": "and-they-have-come all-of old-of Israel toward the-king Hebron-ward, and-has-cut to/for-them David covenant in-Hebron to/for-faces-of YHWH ; and-they-have-anointed David to/for-king on Israel, like-word-of YHWH in-hand-of Samuel."
+        },
+        {
+          "n": 4,
+          "t": "David and-has-walked and-all-of Israel Jerusalem he Jebus ; and-there the-Jebusite, dwelling-of the-land."
+        },
+        {
+          "n": 5,
+          "t": "and-they-have-said dwelling-of Jebus to/for-David, not you-will-come here ; David and-has-captured fortress-of Zion, he city-of David."
+        },
+        {
+          "n": 6,
+          "t": "David and-has-said, all-of making-smite-of Jebusite in-the-first, will-be to/for-head and-to/for-official ; Joab and-has-ascended in-the-first son-of Zeruiah and-has-been to/for-head."
+        },
+        {
+          "n": 7,
+          "t": "David and-has-dwelt in-the-stronghold ; on thus they-have-called to/for-him city-of David."
+        },
+        {
+          "n": 8,
+          "t": "and-has-built the-city from-around, from the-Millo and-until the-around ; and-Joab, will-live remnant-of the-city."
+        },
+        {
+          "n": 9,
+          "t": "David and-has-walked go and-great ; and-YHWH hostses with-him."
+        },
+        {
+          "n": 10,
+          "t": "and-these heads-of the-mighty who to/for-David, the-self-strengthening with-him in-kingdom-of-him with all-of Israel to/for-make-reign-of-him ; like-word-of YHWH on Israel."
+        },
+        {
+          "n": 11,
+          "t": "and-these number-of the-mighty who to/for-David ; Jashobeam son-of Hachmonite head-of the-thirty the-officer, he has-roused spear-of-him on three hundred slain in-stroke one."
+        },
+        {
+          "n": 12,
+          "t": "and-after-him Eleazar son-of Dodo the-Ahohite ; he in-three the-mighty."
+        },
+        {
+          "n": 13,
+          "t": "he has-been with David in-the-Bapas Damiym and-the-Philistine have-been-gathered there to/for-the-battle, portion-of the-field full and-has-been barleys ; and-the-people they-have-fled from-faces-of Philistine."
+        },
+        {
+          "n": 14,
+          "t": "and-they-have-self-stood in-midst-of the-portion and-they-have-made-rescue-her, and-they-have-made-smite Philistine ; YHWH and-has-made-save deliverance great."
+        },
+        {
+          "n": 15,
+          "t": "and-they-have-gone three from the-thirty head on the-rocks toward David, toward cave-of Adullam ; and-camp-of Philistine, camping in-valley-of Rephaim."
+        },
+        {
+          "n": 16,
+          "t": "and-David then in-the-fortress ; and-garrison-of Philistine, then in-Beyt Bethlehem."
+        },
+        {
+          "n": 17,
+          "t": "David and-has-self-desired and-has-said ; who will-make-water-me waters, from-pit-of Beyt Bethlehem who in-the-gate."
+        },
+        {
+          "n": 18,
+          "t": "and-have-broken the-three in-camp-of Philistine waters and-have-drawn from-pit-of Beyt Bethlehem who in-the-gate, and-have-lifted and-have-made-come toward David ; and-not David has-willinged to/for-drink-of-them, and-has-poured them to/for-YHWH."
+        },
+        {
+          "n": 19,
+          "t": "and-has-said forbid to/for-me from-god-of-me from-do this-f is-it-blood-of the-mans the-these I-will-drink in-souls-of-them for in-souls-of-them they-have-made-come-them, and-not has-willinged to/for-drink-of-them ; these they-have-done, three-of the-mighty."
+        },
+        {
+          "n": 20,
+          "t": "and-Abishai brother-of Joab he has-been head-of the-three, and-he has-roused spear-of-him, on three hundred slain ; and-not and-to/for-him name in-the-three."
+        },
+        {
+          "n": 21,
+          "t": "from the-three in-the-two honor, and-he-has-been to/for-them to/for-official ; and-until the-three not he-has-come."
+        },
+        {
+          "n": 22,
+          "t": "Benaiah son-of Jehoiada son-of man-of helech many-of works from Kabzeel ; he has-made-smite two-of Ariel Moab, and-he has-gone and-has-made-smite the-lion in-midst-of the-pit in-day-of the-snow."
+        },
+        {
+          "n": 23,
+          "t": "and-he has-made-smite the-man the-Egyptian man-of measure five in-the-cubit and-in-hand-of the-Egyptian spear like-loom-beam-of weaving, and-has-gone toward-him in-the-tribe ; and-he-has-plundered the-spear from-hand-of the-Egyptian, and-he-has-killed-him in-spear-of-him."
+        },
+        {
+          "n": 24,
+          "t": "these Benaiah has-done, son-of Jehoiada ; and-to/for-him name in-three the-mighty."
+        },
+        {
+          "n": 25,
+          "t": "from the-thirty lo-him honor he, and-toward the-three not has-come ; David and-has-put-him on guard-of-him."
+        },
+        {
+          "n": 26,
+          "t": "and-mighty-of the-heleches ; Asa Asahel brother-of Joab, Elhanan son-of Dodo from-Beyt Bethlehem."
+        },
+        {
+          "n": 27,
+          "t": "Shammoth the-Harod, Helez the-Pelonite."
+        },
+        {
+          "n": 28,
+          "t": "Ira son-of Ikkesh the-Tekoa, Abiezer the-Anathoth."
+        },
+        {
+          "n": 29,
+          "t": "Sibbecai the-Hushathite, Ilai the-Ahohite."
+        },
+        {
+          "n": 30,
+          "t": "Maharai the-Netophathite, Heled son-of Baanah the-Netophathite."
+        },
+        {
+          "n": 31,
+          "t": "Ittai son-of Ribai from-Gibeah sons-of Benjamin, Benaiah the-Pirathon."
+        },
+        {
+          "n": 32,
+          "t": "Hurai from-torrents-of Gaash, Abiel the-Arbathite."
+        },
+        {
+          "n": 33,
+          "t": "Azmaveth the-Baharumite, Eliahba the-Shaalbonite."
+        },
+        {
+          "n": 34,
+          "t": "sons-of Hashem the-Gizonite, Jonathan son-of Shagee the-Hararite."
+        },
+        {
+          "n": 35,
+          "t": "Ahiam son-of Sachar the-Hararite Eliphal son-of Ur."
+        },
+        {
+          "n": 36,
+          "t": "Hepher the-Mecherathite, Ahijah the-Pelonite."
+        },
+        {
+          "n": 37,
+          "t": "Hezro the-Carmelite, Naarai son-of Ezbai."
+        },
+        {
+          "n": 38,
+          "t": "Joel brother-of Nathan, Mibhar son-of Hagri."
+        },
+        {
+          "n": 39,
+          "t": "Zelek the-Meunite ; Naharai the-Beeroth, lifting, articles-of Joab son-of Zeruiah."
+        },
+        {
+          "n": 40,
+          "t": "Ira the-Ithrite, Gareb the-Ithrite."
+        },
+        {
+          "n": 41,
+          "t": "Uriah the-Hittite, Zabad son-of Ahlai."
+        },
+        {
+          "n": 42,
+          "t": "Adina son-of Shiza the-Reubenite head to/for-the-Reubenite and-on-him thirty."
+        },
+        {
+          "n": 43,
+          "t": "Hanan son-of Maacah, and-Joshaphat the-Mithnite."
+        },
+        {
+          "n": 44,
+          "t": "Uzzia the-Ashterathite ; Shama and-Jeiel, sons-of Hotham the-Aroerite."
+        },
+        {
+          "n": 45,
+          "t": "Jediael son-of Shimri, and-Joha brother-of-him the-Tizite."
+        },
+        {
+          "n": 46,
+          "t": "Eliel the-Mahavite, and-Jeribai and-Joshaviah sons-of Elnaam ; and-Ithmah the-Moabite."
+        },
+        {
+          "n": 47,
+          "t": "Eliel and-Obed, and-Jaasiel the-Mezobaite."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-these the-coming toward David to/for-Ziklag, still restrained, from-faces-of Saul son-of Kish ; and-they in-the-mighty, helping-of the-battle."
+        },
+        {
+          "n": 2,
+          "t": "handling-of bow making-right and-making-left in-the-stones, and-in-the-arrows in-the-bow ; from-brothers-of Saul from-Benjamin."
+        },
+        {
+          "n": 3,
+          "t": "the-head Ahiezer and-Joash sons-of the-Shemaah the-Gibeathite, and-Jeziel and-Pelet sons-of Azmaveth ; and-Beracah, and-Jehu the-Anathoth."
+        },
+        {
+          "n": 4,
+          "t": "and-Ishmaiah the-Gibeonite mighty in-the-thirty and-on the-thirty."
+        },
+        {
+          "n": 5,
+          "t": "and-Jeremiah and-Jahaziel and-Johanan, and-Jozacar the-Gederathite."
+        },
+        {
+          "n": 6,
+          "t": "Eluzai and-Jerimoth and-Bealiah and-Shemariah, and-Shephatiah the-Haruphite."
+        },
+        {
+          "n": 7,
+          "t": "Elkanah and-Isshiah and-Azarel and-Joezer and-Jashobeam the-Korahite."
+        },
+        {
+          "n": 8,
+          "t": "and-Joelah and-Zebadiah sons-of Jeroham from the-Gedor."
+        },
+        {
+          "n": 9,
+          "t": "and-from the-Gad have-been-separated toward David to/for-the-stronghold wilderness-ward mighty-of the-helech mans-of host to/for-the-battle, arranging-of shield and-spear ; and-faces-of lion faces-of-them, and-like-gazelles on the-mountains to/for-hasten."
+        },
+        {
+          "n": 10,
+          "t": "Ezer the-head ; Obadiah the-second, Eliab the-third."
+        },
+        {
+          "n": 11,
+          "t": "Mishmannah the-fourth, Jeremiah the-fifth."
+        },
+        {
+          "n": 12,
+          "t": "Attai the-sixth, Eliel the-seventh."
+        },
+        {
+          "n": 13,
+          "t": "Johanan the-eighth, Elzabad the-ninth."
+        },
+        {
+          "n": 14,
+          "t": "Jeremiah the-tenth, Machbannai eleven-of ten."
+        },
+        {
+          "n": 15,
+          "t": "these from-sons-of Gad heads-of the-host ; one to/for-hundred the-small, and-the-great to/for-thousand."
+        },
+        {
+          "n": 16,
+          "t": "these they who have-passed the-Jordan in-the-month the-first, and-he filling on all-of banks-of-him ; and-they-have-made-flee all-of the-valleys, to/for-the-east and-to/for-the-west."
+        },
+        {
+          "n": 17,
+          "t": "sons-of Benjamin and-have-come from and-Judah, until to/for-the-stronghold to/for-David."
+        },
+        {
+          "n": 18,
+          "t": "David and-has-exited to/for-faces-of-them and-has-answered and-has-said to/for-them, if to/for-peace you-pl-have-come toward-me to/for-help-of-me, heart will-be to/for-me on-you-pl to/for-unitedness ; and-if to/for-deceive-of-me to/for-enemies-of-me in-not violence in-palms-of-me, will-see god-of fathers-of-us and-will-make-rebuke."
+        },
+        {
+          "n": 19,
+          "t": "and-spirit has-clothed Amasai head-of the-thirty to/for-you David and-with-you son-of Jesse, peace peace to/for-you and-peace to/for-helping-of-you, for has-helped-you god-of-you ; David and-has-received-them, and-has-given-them in-heads-of the-band."
+        },
+        {
+          "n": 20,
+          "t": "and-from-Manasseh have-fallen on David in-come-of-him with Philistine on Saul to/for-the-battle and-not have-helped-them ; for in-counsel lords-of Philistine have-sended-him to/for-say, in-heads-of-us, will-fall toward lords-of-him Saul."
+        },
+        {
+          "n": 21,
+          "t": "in-walk-of-him toward Ziklag they-have-fallen on-him from-Manasseh Adnah and-Jozacar and-Jediael and-Michael and-Jozacar, and-Elihu and-Zillethai ; heads-of the-thousand who to/for-Manasseh."
+        },
+        {
+          "n": 22,
+          "t": "and-they have-helped with David on the-band, for mighty-of helech all-of-them ; officials and-have-been in-the-host."
+        },
+        {
+          "n": 23,
+          "t": "for to/for-time-of day in-day, they-will-come on David to/for-help-of-him ; until to/for-camp great like-camp-of god."
+        },
+        {
+          "n": 24,
+          "t": "and-these numbers-of heads-of the-armed to/for-the-host, have-come on David Hebron-ward ; to/for-make-turn kingdom-of Saul toward-him like-lip-of YHWH."
+        },
+        {
+          "n": 25,
+          "t": "sons-of Judah, lifting-of shield and-spear ; six-of thousand and-eight hundred armed-of host."
+        },
+        {
+          "n": 26,
+          "t": "from sons-of Simeon mighty-of helech to/for-the-host, seven-of thousand and-hundred."
+        },
+        {
+          "n": 27,
+          "t": "from sons-of the-Levi, four-of thousand and-six hundred."
+        },
+        {
+          "n": 28,
+          "t": "and-Jehoiada the-leader to/for-Aaron ; and-with-him, three-of thousand and-seven hundred."
+        },
+        {
+          "n": 29,
+          "t": "and-Zadok youth mighty-of helech ; and-house-of father-of-him officials twenty and-two."
+        },
+        {
+          "n": 30,
+          "t": "and-from sons-of Benjamin brothers-of Saul three-of thousand ; and-until here greatness-of-them, keeping, charge-of house-of Saul."
+        },
+        {
+          "n": 31,
+          "t": "and-from sons-of Ephraim, twenty thousand and-eight hundred ; mighty-of helech, mans-of names to/for-house-of fathers-of-them."
+        },
+        {
+          "n": 32,
+          "t": "and-from-half-of tribe-of Manasseh, eight ten thousand ; who they-have-been-pierced in-names, to/for-come to/for-make-reign David."
+        },
+        {
+          "n": 33,
+          "t": "and-from-sons-of Issachar knowing-of understanding to/for-the-times, to/for-know what Israel will-do ; heads-of-them hundred, and-all-of brothers-of-them on lip-of-them."
+        },
+        {
+          "n": 34,
+          "t": "from-Zebulun exiting-of host arranging-of battle in-all-of articles-of battle fifty thousand ; and-to/for-help in-not heart and-heart."
+        },
+        {
+          "n": 35,
+          "t": "and-from-Naphtali officials thousand ; and-with-them in-shield and-spear, thirty and-seven thousand."
+        },
+        {
+          "n": 36,
+          "t": "and-from the-Danite arranging-of battle, twenty and-eight thousand and-six hundred."
+        },
+        {
+          "n": 37,
+          "t": "and-from-Asher exiting-of host to/for-arrange battle forty thousand."
+        },
+        {
+          "n": 38,
+          "t": "and-from-side to/for-the-Jordan from the-Reubenite and-the-Gad and-half-of tribe-of Manasseh in-all-of articles-of host-of battle, hundred and-twenty thousand."
+        },
+        {
+          "n": 39,
+          "t": "all-of these mans-of battle arranging-of rank in-complete heart have-come Hebron-ward, to/for-make-reign David on all-of Israel ; and-also all-of remnant-of Israel heart one to/for-make-reign David."
+        },
+        {
+          "n": 40,
+          "t": "and-have-been there with David days three, eating and-drinking ; for brothers-of-them have-made-establish to/for-them."
+        },
+        {
+          "n": 41,
+          "t": "and-also the-near toward-them until Issachar and-Zebulun and-Naphtali making-come food in-the-donkeys and-in-the-camels and-in-the-mules and-in-the-cattle food flour figs and-clusters and-wine and-oil and-cattle and-flock to/for-abundance ; for joy in-Israel."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David and-has-been-advised with officials-of the-thousand and-the-hundred to/for-all-of leader."
+        },
+        {
+          "n": 2,
+          "t": "David and-has-said to/for-all-of assembly-of Israel if on-you-pl pleasing and-from YHWH god-of-us let-us-break let-us-send on brothers-of-us the-remained in-all-of lands-of Israel, and-with-them the-priests and-the-Levi in-cities-of pastures-of-them ; and-they-will-be-gathered toward-us."
+        },
+        {
+          "n": 3,
+          "t": "and-let-us-make-turn ark-of god-of-us toward-us ; for not we-have-sought-him in-days-of Saul."
+        },
+        {
+          "n": 4,
+          "t": "and-they-have-said all-of the-assembly to/for-do thus ; for the-word has-smoothed in-eyes-of all-of the-people."
+        },
+        {
+          "n": 5,
+          "t": "David and-has-made-gather all-of Israel, from Shihor Egypt and-until come Hamath ; to/for-make-come ark-of the-god, from-Veqiryat Yeariym."
+        },
+        {
+          "n": 6,
+          "t": "David and-has-ascended and-all-of Israel Baala-ward, toward Veqiryat Yeariym who to/for-Judah ; to/for-make-ascend from-there ark-of the-god YHWH dwelling the-cherubs who has-been-called name."
+        },
+        {
+          "n": 7,
+          "t": "and-they-have-made-ride ark-of the-god on cart new, from-house-of Abinadab ; and-Uzzah and-Ahio, leading in-the-cart."
+        },
+        {
+          "n": 8,
+          "t": "and-David and-all-of Israel laughing to/for-faces-of the-god in-all-of strength ; and-in-songs and-in-lyres and-in-harps and-in-tambourines, and-in-cymbals and-in-trumpets."
+        },
+        {
+          "n": 9,
+          "t": "and-they-have-come until threshing-of Chidon ; Uzzah and-has-sended hand-of-him to/for-grasp the-ark, for they-have-released the-cattle."
+        },
+        {
+          "n": 10,
+          "t": "and-has-kindled nose YHWH in-Uzzah, and-has-made-smite-him, on who hand-of-him has-sended on the-ark ; and-he-has-died there to/for-faces-of god."
+        },
+        {
+          "n": 11,
+          "t": "and-has-kindled to/for-David, for YHWH breach has-broken in-Uzzah ; the-he Perets Uza, and-has-called to/for-the-place until the-day the-this."
+        },
+        {
+          "n": 12,
+          "t": "David and-has-feared the-god, in-the-day the-he to/for-say ; how I-will-make-come toward-me, ark-of the-god."
+        },
+        {
+          "n": 13,
+          "t": "and-not David has-made-turn the-ark toward-him toward city-of David ; house-of Obed Edom the-Gittite and-has-made-stretch-him, toward."
+        },
+        {
+          "n": 14,
+          "t": "ark-of the-god and-has-dwelt with house-of Obed Edom in-house-of-him three months ; YHWH and-has-blessed house-of Obed Edom and-all-of who to/for-him."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "verses": [
+        {
+          "n": 1,
+          "t": "Hiram and-has-sended king-of Tyre messengers toward David and-trees-of cedars, and-artificers-of wall, and-artificers-of trees ; to/for-build to/for-him house."
+        },
+        {
+          "n": 2,
+          "t": "David and-has-known, for has-made-establish-him YHWH to/for-king on Israel ; for has-been-lifted to/for-above-ward kingdom-of-him, in-sake-of people-of-him Israel."
+        },
+        {
+          "n": 3,
+          "t": "David and-has-taken still womans in-Jerusalem ; David and-has-made-beget still sons and-daughters."
+        },
+        {
+          "n": 4,
+          "t": "and-these names-of the-begotten, who have-been to/for-him in-Jerusalem ; Shammua and-Shobab, Nathan and-Solomon."
+        },
+        {
+          "n": 5,
+          "t": "and-Ibhar and-Elishua and-Eliphelet."
+        },
+        {
+          "n": 6,
+          "t": "and-Nogah and-Nepheg and-Japhia."
+        },
+        {
+          "n": 7,
+          "t": "and-Elishama and-Beeliada and-Eliphelet."
+        },
+        {
+          "n": 8,
+          "t": "Philistine and-have-heard for has-been-anointed David to/for-king on all-of Israel, and-have-ascended all-of Philistine to/for-seek David ; David and-has-heard, and-has-exited to/for-faces-of-them."
+        },
+        {
+          "n": 9,
+          "t": "and-Philistine have-come ; and-they-have-striped in-valley-of Rephaim."
+        },
+        {
+          "n": 10,
+          "t": "David and-has-asked in-god to/for-say, is-it-I-will-ascend on Philistine, and-you-have-given-them in-hand-of-me ; YHWH and-has-said to/for-him ascend, and-I-have-given-them in-hand-of-you."
+        },
+        {
+          "n": 11,
+          "t": "and-they-have-ascended in-Bebaal Peratsiym and-has-made-smite-them there David and-has-said David, has-broken the-god enemying-of-me in-hand-of-me like-breach-of waters ; on thus they-have-called name-of the-place the-he Bebaal Peratsiym."
+        },
+        {
+          "n": 12,
+          "t": "and-they-have-left there gods-of-them ; David and-has-said, and-they-have-been-burned in-the-fire."
+        },
+        {
+          "n": 13,
+          "t": "Philistine, and-have-made-add still and-have-striped in-the-valley."
+        },
+        {
+          "n": 14,
+          "t": "David and-has-asked still in-god, and-has-said to/for-him the-god, not you-will-ascend after-them ; make-turn on-them, and-you-have-come to/for-them opposite the-balsams."
+        },
+        {
+          "n": 15,
+          "t": "and-let-him-be like-hear-of-you voice-of the-marching in-heads-of the-balsams, then you-will-exit in-the-battle ; for the-god has-exited to/for-faces-of-you, to/for-make-smite camp-of Philistine."
+        },
+        {
+          "n": 16,
+          "t": "David and-has-done, like-when has-commanded-him the-god ; and-they-have-made-smite camp-of Philistine, from-Gibeon and-until Gezer-ward."
+        },
+        {
+          "n": 17,
+          "t": "name-of David and-has-exited in-all-of the-lands ; and-YHWH has-given dread-of-him on all-of the-nations."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-he-has-done to/for-him houses in-city-of David ; place and-has-made-establish to/for-ark-of the-god, and-has-stretched to/for-him tent."
+        },
+        {
+          "n": 2,
+          "t": "then David has-said, not to/for-lift ark-of the-god, that if the-Levi ; for in-them YHWH has-chosen to/for-lift ark-of YHWH and-to/for-minister-of-him until age."
+        },
+        {
+          "n": 3,
+          "t": "David and-has-made-gather all-of Israel toward Jerusalem ; to/for-make-ascend ark-of YHWH, toward place-of-him who has-made-establish to/for-him."
+        },
+        {
+          "n": 4,
+          "t": "David and-has-gathered sons-of Aaron and-the-Levi."
+        },
+        {
+          "n": 5,
+          "t": "to/for-sons-of Kohath ; Uriel the-official, and-brothers-of-him hundred and-twenty."
+        },
+        {
+          "n": 6,
+          "t": "to/for-sons-of Merari ; Asaiah the-official, and-brothers-of-him hundred and-twenty."
+        },
+        {
+          "n": 7,
+          "t": "to/for-sons-of Gershon ; Joel the-official, and-brothers-of-him hundred and-thirty."
+        },
+        {
+          "n": 8,
+          "t": "to/for-sons-of Elizaphan ; Shemaiah the-official and-brothers-of-him hundred."
+        },
+        {
+          "n": 9,
+          "t": "to/for-sons-of Hebron ; Eliel the-official and-brothers-of-him eighty."
+        },
+        {
+          "n": 10,
+          "t": "to/for-sons-of Uzziel ; Amminadab the-official, and-brothers-of-him, hundred and-two ten."
+        },
+        {
+          "n": 11,
+          "t": "David and-has-called, to/for-Zadok and-to/for-Abiathar the-priests ; and-to/for-the-Levi to/for-Uriel Asaiah and-Joel Shemaiah, and-Eliel and-Amminadab."
+        },
+        {
+          "n": 12,
+          "t": "and-he-has-said to/for-them, you heads-of the-fathers to/for-the-Levi ; consecrate you and-brothers-of-you-pl, and-have-made-ascend ark-of YHWH god-of Israel, toward I-have-made-establish to/for-him."
+        },
+        {
+          "n": 13,
+          "t": "for to/for-what in-the-first not you ; YHWH has-broken god-of-us in-us, for not we-have-sought-him like-the-justice."
+        },
+        {
+          "n": 14,
+          "t": "the-priests and-the-Levi and-have-self-consecrated ; to/for-make-ascend, ark-of YHWH god-of Israel."
+        },
+        {
+          "n": 15,
+          "t": "sons-of the-Levi and-have-lifted ark-of the-god, like-when has-commanded Moses like-word-of YHWH ; in-shoulder-of-them in-the-yokes on-them."
+        },
+        {
+          "n": 16,
+          "t": "David and-has-said to/for-officials-of the-Levi to/for-make-stand brothers-of-them the-singing, in-articles-of song harps and-lyres and-cymbals ; making-hear to/for-make-exalt in-voice to/for-joy."
+        },
+        {
+          "n": 17,
+          "t": "the-Levi and-have-made-stand Heman son-of Joel, and-from brothers-of-him, Asaph son-of Berechiah ; and-from sons-of Merari brothers-of-them, Ethan son-of Kushaiah."
+        },
+        {
+          "n": 18,
+          "t": "and-with-them brothers-of-them the-seconds ; Zechariah Ben and-Jaaziel and-Shemiramoth and-Jehiel and-Unni Eliab and-Benaiah and-Maaseiah and-Mattithiah and-Eliphelehu and-Mikneiah and-Obed Edom and-Jeiel the-gatekeepers."
+        },
+        {
+          "n": 19,
+          "t": "and-the-singing, Heman Asaph and-Ethan ; in-cymbals bronze to/for-make-hear."
+        },
+        {
+          "n": 20,
+          "t": "and-Zechariah and-Aziel and-Shemiramoth and-Jehiel and-Unni and-Eliab, and-Maaseiah and-Benaiah ; in-harps on alamoths."
+        },
+        {
+          "n": 21,
+          "t": "and-Mattithiah and-Eliphelehu and-Mikneiah and-Obed Edom, and-Jeiel and-Azaziah ; in-lyres on the-sheminith to/for-conduct."
+        },
+        {
+          "n": 22,
+          "t": "and-Chenaniah official-of the-Levi in-burden ; discipline in-the-burden, for making-discern he."
+        },
+        {
+          "n": 23,
+          "t": "and-Berechiah and-Elkanah, gatekeepers to/for-the-ark."
+        },
+        {
+          "n": 24,
+          "t": "and-Shebaniah and-Joshaphat and-Nethanel and-Amasai and-Zechariah and-Benaiah and-Eliezer the-priests, making-blow in-trumpets, to/for-faces-of ark-of the-god ; and-Obed Edom and-Jehiah, gatekeepers to/for-the-ark."
+        },
+        {
+          "n": 25,
+          "t": "David and-old-of Israel and-has-been and-officials-of the-thousand ; the-going to/for-make-ascend ark-of covenant-of YHWH from house-of Obed Edom in-joy."
+        },
+        {
+          "n": 26,
+          "t": "and-has-been in-help the-god, the-Levi, lifting-of ark-of covenant-of YHWH ; and-have-sacrificed seven bullocks and-seven rams."
+        },
+        {
+          "n": 27,
+          "t": "and-David clotheded in-robe-of fine and-all-of the-Levi the-lifting the-ark, and-the-singing, and-Chenaniah the-official the-burden the-singing ; and-on David ephod-of linen."
+        },
+        {
+          "n": 28,
+          "t": "and-all-of Israel making-ascend ark-of covenant-of YHWH, in-shout and-in-voice-of trumpet, and-in-trumpets and-in-cymbals ; making-hear, in-harps and-lyres."
+        },
+        {
+          "n": 29,
+          "t": "ark-of covenant-of YHWH and-has-been, has-come until city-of David ; and-Michal daughter-of Saul has-been-looked about the-window and-has-seen the-king David abouting and-laughing, and-has-despised to/for-him in-heart-of-her."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-they-have-made-come ark-of the-god, and-they-have-made-set him, in-midst-of the-tent, who David ; has-stretched to/for-him and-have-made-present burnts and-peaces to/for-faces-of the-god."
+        },
+        {
+          "n": 2,
+          "t": "David and-has-finished, from-make-ascend the-burnt and-the-peaces ; and-he-has-blessed the-people in-name-of YHWH."
+        },
+        {
+          "n": 3,
+          "t": "and-he-has-divided to/for-all-of man-of Israel, from-man and-until woman ; to/for-man plain-of food, and-raisin and-raisin."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-given to/for-faces-of ark-of YHWH from the-Levi ministering ; and-to/for-make-remember and-to/for-make-confess and-to/for-boast, to/for-YHWH god-of Israel."
+        },
+        {
+          "n": 5,
+          "t": "Asaph the-head and-second-of-him Zechariah ; Jeiel and-Shemiramoth and-Jehiel and-Mattithiah and-Eliab and-Benaiah and-Obed Edom and-Jeiel in-articles-of harps and-in-lyres, and-Asaph in-the-cymbals making-hear."
+        },
+        {
+          "n": 6,
+          "t": "and-Benaiah and-Jahaziel the-priests ; in-trumpets continually, to/for-faces-of ark-of covenant-of the-god."
+        },
+        {
+          "n": 7,
+          "t": "in-the-day the-he then has-given David in-the-head, to/for-make-confess to/for-YHWH ; in-hand-of Asaph and-brothers-of-him."
+        },
+        {
+          "n": 8,
+          "t": "make-confess to/for-YHWH call in-name-of-him, make-know in-the-peoples wantonnesses-of-him."
+        },
+        {
+          "n": 9,
+          "t": "sing to/for-him sing to/for-him, muse in-all-of wondered-of-him."
+        },
+        {
+          "n": 10,
+          "t": "boast in-name-of holiness-of-him, heart-of will-rejoice, seeking-of YHWH."
+        },
+        {
+          "n": 11,
+          "t": "seek YHWH and-strength-of-him, seek faces-of-him continually."
+        },
+        {
+          "n": 12,
+          "t": "remember wondered-of-him who he-has-done, wonders-of-him and-justices-of lip-of-him."
+        },
+        {
+          "n": 13,
+          "t": "seed-of Israel servant-of-him, sons-of Jacob chosens-of-him."
+        },
+        {
+          "n": 14,
+          "t": "he YHWH god-of-us, in-all-of the-land justices-of-him."
+        },
+        {
+          "n": 15,
+          "t": "remember to/for-age covenant-of-him, word has-commanded to/for-thousand generation."
+        },
+        {
+          "n": 16,
+          "t": "who Abraham, has-cut with and-oath-of-him to/for-Isaac."
+        },
+        {
+          "n": 17,
+          "t": "and-he-has-made-stand-her to/for-Jacob to/for-statute, to/for-Israel covenant-of age."
+        },
+        {
+          "n": 18,
+          "t": "to/for-say to/for-you I-will-give land-of Canaan, mahalab-of inheritance-of-you-pl."
+        },
+        {
+          "n": 19,
+          "t": "in-be-of-you-pl mans-of number, like-little and-sojourning in-her."
+        },
+        {
+          "n": 20,
+          "t": "and-they-have-self-gone from-nation toward nation, and-from-kingdom toward people another."
+        },
+        {
+          "n": 21,
+          "t": "not he-has-made-rest to/for-man to/for-oppress-of-them, and-he-has-made-rebuke on-them kings."
+        },
+        {
+          "n": 22,
+          "t": "do-not let-touch in-anointed-of-me, and-in-prophets-of-me do-not let-make-evil."
+        },
+        {
+          "n": 23,
+          "t": "sing to/for-YHWH all-of the-land, bear from-day toward day salvation-of-him."
+        },
+        {
+          "n": 24,
+          "t": "recount in-the-nations glory-of-him, in-all-of the-peoples wondered-of-him."
+        },
+        {
+          "n": 25,
+          "t": "for great YHWH and-boasted very, and-feared he on all-of gods."
+        },
+        {
+          "n": 26,
+          "t": "for all-of gods-of the-peoples idols, and-YHWH heavens has-done."
+        },
+        {
+          "n": 27,
+          "t": "splendor and-glory to/for-faces-of-him, strength and-joy in-place-of-him."
+        },
+        {
+          "n": 28,
+          "t": "give to/for-YHWH families-of peoples, give to/for-YHWH glory and-strength."
+        },
+        {
+          "n": 29,
+          "t": "give to/for-YHWH glory-of name-of-him ; lift offering and-come to/for-faces-of-him, bow to/for-YHWH in-adornment-of holiness."
+        },
+        {
+          "n": 30,
+          "t": "twist from-faces-of-him all-of the-land, even world will-be-established not will-be-shaked."
+        },
+        {
+          "n": 31,
+          "t": "the-heavens will-glad and-let-rejoice the-land, and-will-say in-the-nations YHWH has-reigned."
+        },
+        {
+          "n": 32,
+          "t": "the-sea will-thunder and-fullness-of-him, will-rejoice the-field and-all-of who in-him."
+        },
+        {
+          "n": 33,
+          "t": "then trees-of the-wood will-sing ; from-faces-of YHWH, for he-has-come to/for-judge the-land."
+        },
+        {
+          "n": 34,
+          "t": "make-confess to/for-YHWH for good, for to/for-age kindness-of-him."
+        },
+        {
+          "n": 35,
+          "t": "and-say, make-save-us god-of salvation-of-us, and-gather-us and-make-rescue-us from the-nations ; to/for-make-confess to/for-name-of holiness-of-you, to/for-self-praise in-praise-of-you."
+        },
+        {
+          "n": 36,
+          "t": "blessed YHWH god-of Israel, from the-age and-until the-age ; and-they-have-said all-of the-people amen, and-boast to/for-YHWH."
+        },
+        {
+          "n": 37,
+          "t": "and-has-left there to/for-faces-of ark-of covenant YHWH, to/for-Asaph and-to/for-brothers-of-him ; to/for-minister to/for-faces-of the-ark continually to/for-word-of day in-day-of-him."
+        },
+        {
+          "n": 38,
+          "t": "and-Obed Edom and-brothers-of-them sixty and-eight ; and-Obed Edom son-of Jeduthun and-Hosah to/for-gatekeepers."
+        },
+        {
+          "n": 39,
+          "t": "and-Zadok the-priest and-brothers-of-him the-priests, to/for-faces-of tabernacle-of YHWH ; in-the-high who in-Gibeon."
+        },
+        {
+          "n": 40,
+          "t": "to/for-make-ascend burnts to/for-YHWH on altar-of the-burnt continually to/for-the-morning and-to/for-the-evening ; and-to/for-all-of the-written in-instruction-of YHWH, who Israel has-commanded on."
+        },
+        {
+          "n": 41,
+          "t": "and-with-them Heman and-Jeduthun, and-remnant-of the-purified, who they-have-been-pierced in-names ; to/for-make-confess to/for-YHWH, for to/for-age kindness-of-him."
+        },
+        {
+          "n": 42,
+          "t": "and-with-them Heman and-Jeduthun trumpets and-cymbals to/for-making-hear, and-articles-of song-of the-god ; and-sons-of Jeduthun to/for-the-gate."
+        },
+        {
+          "n": 43,
+          "t": "and-they-have-walked all-of the-people man to/for-house-of-him ; David and-has-turned to/for-bless house-of-him."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been, like-when David has-dwelt in-house-of-him ; David and-has-said toward Nathan the-prophet behold I dwelling in-house-of the-cedars, and-ark-of covenant-of YHWH under curtains."
+        },
+        {
+          "n": 2,
+          "t": "Nathan and-has-said toward David, all who in-heart-of-you do ; for the-god with-you-f."
+        },
+        {
+          "n": 3,
+          "t": "the-he ; and-has-been in-the-night word-of god and-has-been, toward Nathan to/for-say."
+        },
+        {
+          "n": 4,
+          "t": "walk and-you-have-said toward David servant-of-me, thus has-said YHWH ; not you will-build to/for-me the-house to/for-dwell."
+        },
+        {
+          "n": 5,
+          "t": "for not I-have-dwelt in-house, from the-day who I-have-made-ascend Israel, until the-day the-this ; and-I-have-been from-tent toward tent and-from-tabernacle."
+        },
+        {
+          "n": 6,
+          "t": "in-all who I-have-self-gone in-all-of Israel is-it-word I-have-spoken with one judging-of Israel, who I-have-commanded to/for-pasture people-of-me to/for-say ; to/for-what not you-pl-have-built to/for-me house-of cedars."
+        },
+        {
+          "n": 7,
+          "t": "and-now thus you-will-say to/for-servant-of-me to/for-David thus YHWH has-said hostses, I have-taken-you from the-pasture, from after the-flock ; to/for-be leader, on people-of-me Israel."
+        },
+        {
+          "n": 8,
+          "t": "and-I-have-been with-you in-all who you-have-gone, and-I-have-made-cut all-of enemying-of-you from-faces-of-you ; and-I-have-done to/for-you name, like-name-of the-great who in-the-land."
+        },
+        {
+          "n": 9,
+          "t": "and-I-have-put place to/for-people-of-me Israel and-I-have-planted-him and-has-dwelt under-him, and-not will-tremble still ; and-not sons-of injustice will-make-add to/for-old-of-him, like-when in-the-first."
+        },
+        {
+          "n": 10,
+          "t": "and-to/for-days who I-have-commanded judging on people-of-me Israel, and-I-have-made-humble all-of enemying-of-you ; and-I-have-made-announce to/for-you-f, and-house will-build to/for-you YHWH."
+        },
+        {
+          "n": 11,
+          "t": "and-he-has-been for days-of-you have-filled to/for-walk with fathers-of-you, and-I-have-made-rise seed-of-you after-you, who he-will-be from-sons-of-you ; and-I-have-made-establish kingdom-of-him."
+        },
+        {
+          "n": 12,
+          "t": "he will-build to/for-me house ; and-I-have-established throne-of-him until age."
+        },
+        {
+          "n": 13,
+          "t": "I will-be to/for-him to/for-father, and-he will-be to/for-me to/for-son ; and-kindness-of-me not I-will-make-turn from-him, like-when I-have-made-turn, from-whence has-been to/for-faces-of-you."
+        },
+        {
+          "n": 14,
+          "t": "and-I-have-made-stand-him in-house-of-me and-in-kingdom-of-me until the-age ; and-throne-of-him, will-be established until age."
+        },
+        {
+          "n": 15,
+          "t": "like-all-of the-words the-these, and-like-all-of the-vision the-this ; thus Nathan has-spoken toward David."
+        },
+        {
+          "n": 16,
+          "t": "the-king David and-has-come, and-has-dwelt to/for-faces-of YHWH ; and-has-said who I YHWH god and-who house-of-me, for you-have-made-come-me until here."
+        },
+        {
+          "n": 17,
+          "t": "and-she-has-smalled this-f in-eyes-of-you god, and-you-have-spoken on house-of servant-of-you to/for-far ; and-you-have-seen-me like-border-of the-man the-step YHWH god."
+        },
+        {
+          "n": 18,
+          "t": "what David will-make-add still toward-you to/for-glory servant-of-you ; and-you have-known servant-of-you."
+        },
+        {
+          "n": 19,
+          "t": "YHWH, in-sake-of servant-of-you and-like-heart-of-you, you-have-done, all-of the-greatness the-this-f ; to/for-make-know all-of the-greatnesses."
+        },
+        {
+          "n": 20,
+          "t": "YHWH naught like-you, and-naught god exception-you ; in-all who we-have-heard in-ears-of-us."
+        },
+        {
+          "n": 21,
+          "t": "and-who like-people-of-you Israel, nation one in-the-land ; who the-god has-gone to/for-ransom to/for-him people to/for-put to/for-you name greatnesses and-feared, to/for-drive from-faces-of people-of-you who you-have-ransomed from-Egypt nations."
+        },
+        {
+          "n": 22,
+          "t": "and-you-have-given people-of-you Israel to/for-you to/for-people until age ; and-you YHWH, have-been to/for-them to/for-god."
+        },
+        {
+          "n": 23,
+          "t": "and-now YHWH, the-word who you-have-spoken on servant-of-you and-on house-of-him, will-be-faithfuled until age ; and-do like-when you-have-spoken."
+        },
+        {
+          "n": 24,
+          "t": "and-will-be-faithfuled name-of-you and-will-magnify until age to/for-say, YHWH hostses god-of Israel, god to/for-Israel ; and-house-of David servant-of-you established to/for-faces-of-you."
+        },
+        {
+          "n": 25,
+          "t": "for you god-of-me have-heglamed ear-of servant-of-you, to/for-build to/for-him house ; on thus servant-of-you has-found, to/for-self-pray to/for-faces-of-you."
+        },
+        {
+          "n": 26,
+          "t": "and-now YHWH, you he the-god ; and-you-have-spoken on servant-of-you, the-welfare the-this-f."
+        },
+        {
+          "n": 27,
+          "t": "and-now you-have-made-willing to/for-bless house-of servant-of-you, to/for-be to/for-age to/for-faces-of-you ; for you YHWH have-blessed, and-blessed to/for-age."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been after thus, David and-has-made-smite Philistine and-has-made-humble-them ; and-he-has-taken Gath and-daughters-of-her from-hand-of Philistine."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-made-smite Moab ; and-have-been Moab servants to/for-David, lifting-of offering."
+        },
+        {
+          "n": 3,
+          "t": "David and-has-made-smite Hadadezer king-of Zobah Hamath-ward ; in-walk-of-him, to/for-make-stand hand-of-him in-river-of Euphrates."
+        },
+        {
+          "n": 4,
+          "t": "David and-has-captured from-us thousand chariot and-seven-of thousand horsemans, and-twenty thousand man on ; David and-has-hamstringed all-of the-chariot, and-has-made-remain from-us hundred chariot."
+        },
+        {
+          "n": 5,
+          "t": "Aram Damascus and-has-come, to/for-help, to/for-Hadadezer king-of Zobah ; David and-has-made-smite in-Aram, twenty and-two thousand man."
+        },
+        {
+          "n": 6,
+          "t": "David and-has-put in-Aram Damascus, and-has-been Aram to/for-David, servants lifting-of offering ; YHWH and-has-made-save to/for-David, in-all who has-gone."
+        },
+        {
+          "n": 7,
+          "t": "David and-has-taken shields-of the-gold, who have-been, on servants-of Hadadezer ; Jerusalem and-has-made-come-them."
+        },
+        {
+          "n": 8,
+          "t": "and-from-Tibhath and-from-Cun David has-taken cities-of Hadadezer,, bronze many very ; in-her Solomon has-done sea-of the-bronze and-the-pillars, and-articles-of the-bronze."
+        },
+        {
+          "n": 9,
+          "t": "Toi and-has-heard, king-of Hamath ; for David has-made-smite, all-of rampart-of Hadadezer king-of Zobah."
+        },
+        {
+          "n": 10,
+          "t": "and-has-sended Hadoram son-of-him toward the-king David to/for-ask ask-him to/for-peace and-to/for-bless-of-him on who has-been-fought in-Hadadezer man-of battles-of Toi and-has-made-smite-him, for has-been Hadadezer ; and-all-of articles-of gold and-silver and-bronze."
+        },
+        {
+          "n": 11,
+          "t": "also them the-king David has-made-consecrate to/for-YHWH, with the-silver and-the-gold, who has-lifted from-all-of the-nations ; from-Edom and-from-Moab and-from-sons-of Ammon, and-from-Philistine and-from-Amalek."
+        },
+        {
+          "n": 12,
+          "t": "and-Abishai son-of Zeruiah has-made-smite Edom in-valley salt, eight ten thousand."
+        },
+        {
+          "n": 13,
+          "t": "and-has-put in-Edom garrisons, and-have-been all-of Edom servants to/for-David ; YHWH and-has-made-save David, in-all who has-gone."
+        },
+        {
+          "n": 14,
+          "t": "David and-has-reigned on all-of Israel ; and-has-been doing justice and-rightness to/for-all-of people-of-him."
+        },
+        {
+          "n": 15,
+          "t": "and-Joab son-of Zeruiah on the-host ; and-Jehoshaphat son-of Ahilud making-remember."
+        },
+        {
+          "n": 16,
+          "t": "and-Zadok son-of Ahitub and-Abimelech son-of Abiathar priests ; and-Shavsha secretary."
+        },
+        {
+          "n": 17,
+          "t": "and-Benaiah son-of Jehoiada, on the-Cherethite and-the-Pelethite ; and-sons-of David the-first to/for-hand-of the-king."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been after thus, Nahash and-has-died, king-of sons-of Ammon ; son-of-him and-has-reigned under-him."
+        },
+        {
+          "n": 2,
+          "t": "David and-has-said I-will-do kindness with Hanun son-of Nahash for has-done father-of-him with-me kindness, and-has-sended David messengers to/for-sorry-of-him on father-of-him ; servants-of David and-have-come toward land-of sons-of Ammon toward Hanun to/for-sorry-of-him."
+        },
+        {
+          "n": 3,
+          "t": "officials-of sons-of Ammon and-have-said to/for-Hanun is-it-the-honor David father-of-you in-eyes-of-you, for has-sended to/for-you sorrying ; is-it-not in-sake-of to/for-search and-to/for-overturn and-to/for-spy servants-of-him have-come the-land, toward-you."
+        },
+        {
+          "n": 4,
+          "t": "Hanun and-has-taken servants-of David and-has-shaved-them, and-has-cut garments-of-them in-the-half until the-hip ; and-he-has-sended-them."
+        },
+        {
+          "n": 5,
+          "t": "and-have-walked the-mans and-have-made-announce to/for-David on and-he-has-sended to/for-befall-of-them, for the-mans humiliateded have-been very ; the-king and-has-said dwell in-Jericho, until who will-spring beard-of-you-pl and-you-pl-have-returned."
+        },
+        {
+          "n": 6,
+          "t": "sons-of Ammon and-have-seen, for have-self-stinked with David ; Hanun and-has-sended and-sons-of Ammon thousand plain-of silver to/for-hire to/for-them from Aram Mesopotamia and-from Aram Maacah and-from-Zobah, chariot and-horsemans."
+        },
+        {
+          "n": 7,
+          "t": "and-they-have-hired to/for-them two and-thirty thousand chariot and-king-of Maacah and-people-of-him, and-they-have-come, and-they-have-camped to/for-faces-of Medeba ; and-sons-of Ammon have-been-gathered from-cities-of-them, and-have-come to/for-the-battle."
+        },
+        {
+          "n": 8,
+          "t": "David and-has-heard ; and-he-has-sended Joab, and-all-of host the-mighty."
+        },
+        {
+          "n": 9,
+          "t": "sons-of Ammon and-have-exited, and-have-arranged battle entrance-of the-city ; and-the-kings who have-come, to/for-alone-of-them in-the-field."
+        },
+        {
+          "n": 10,
+          "t": "Joab and-has-seen for she-has-been faces-of the-battle toward-him faces and-back ; and-has-chosen from-all-of chosen in-Israel, Aram and-has-arranged to/for-befall."
+        },
+        {
+          "n": 11,
+          "t": "and-remainder-of the-people, has-given, in-hand-of Abishai brother-of-him ; sons-of Ammon and-have-arranged, to/for-befall."
+        },
+        {
+          "n": 12,
+          "t": "and-has-said if she-will-strengthen from-me Aram, and-you-have-been to/for-me to/for-deliverance ; and-if sons-of Ammon will-strengthen from-you and-I-have-made-save-you."
+        },
+        {
+          "n": 13,
+          "t": "strengthen and-let-us-strengthen about people-of-us, and-about cities-of god-of-us ; and-YHWH, the-good in-eyes-of-him will-do."
+        },
+        {
+          "n": 14,
+          "t": "Joab and-the-people and-has-approached who with-him to/for-faces-of Aram to/for-the-battle ; and-they-have-fled from-faces-of-him."
+        },
+        {
+          "n": 15,
+          "t": "and-sons-of Ammon have-seen for Aram has-fled, and-have-fled also they from-faces-of Abishai brother-of-him, and-have-come the-city-ward ; Joab Jerusalem and-has-come."
+        },
+        {
+          "n": 16,
+          "t": "Aram and-has-seen for have-been-struck to/for-faces-of Israel messengers and-have-sended, and-have-made-exit Aram, who from-side-of the-river ; and-Shophach official-of host-of Hadadezer to/for-faces-of-them."
+        },
+        {
+          "n": 17,
+          "t": "and-has-been-made-announce to/for-David and-has-gathered all-of Israel the-Jordan and-has-passed, and-has-come toward-them, and-has-arranged toward-them ; David and-has-arranged to/for-befall Aram battle, and-they-have-been-fought with-him."
+        },
+        {
+          "n": 18,
+          "t": "Aram and-has-fled from-faces-of Israel and-has-killed David from-Aram seven-of thousand chariot, and-forty thousand man on ; and-Shophach official-of the-host has-made-die."
+        },
+        {
+          "n": 19,
+          "t": "servants-of Hadadezer and-have-seen for have-been-struck to/for-faces-of Israel, and-have-made-ally with David and-have-served-him ; and-not Aram has-willinged, to/for-make-save sons-of Ammon still."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-has-been to/for-time-of turn-of the-year to/for-time-of exit the-kings Joab and-has-led rampart-of the-host and-has-destroyed land-of sons-of Ammon and-has-come and-has-confined Rabbah, and-David dwelling in-Jerusalem ; Joab and-has-made-smite Rabbah and-has-overthrowed-her."
+        },
+        {
+          "n": 2,
+          "t": "David and-has-taken crown-of king-of-them on head-of-him and-has-found-her weight-of plain-of gold and-in-her stone precious, and-has-been on head-of David ; and-spoil-of the-city has-made-exit make-multiply very."
+        },
+        {
+          "n": 3,
+          "t": "and-the-people who in-her has-made-exit and-has-sawed in-the-saw and-in-incisions-of the-iron and-in-the-saws, and-thus David will-do, to/for-all-of cities-of sons-of Ammon ; David and-has-returned and-all-of the-people Jerusalem."
+        },
+        {
+          "n": 4,
+          "t": "and-he-has-been after thus, battle and-has-stood in-Gezer with Philistine ; then Sibbecai the-Hushathite has-made-smite Sippai from-borns-of the-Rephaim and-they-have-been-humbled."
+        },
+        {
+          "n": 5,
+          "t": "battle and-has-been still with Philistine ; Elhanan and-has-made-smite son-of Jair Lahmi brother-of Goliath the-Gittite, and-tree-of spear-of-him, like-loom-beam-of weaving."
+        },
+        {
+          "n": 6,
+          "t": "battle and-has-been still in-Gath ; man-of measure and-has-been and-fingers-of-him six and-six twenty and-four, and-also he has-been-begotten to/for-the-Rapha."
+        },
+        {
+          "n": 7,
+          "t": "and-he-has-taunted Israel ; Jonathan and-has-made-smite-him, son-of Shimea brother-of David."
+        },
+        {
+          "n": 8,
+          "t": "these they-have-been-begotten to/for-the-Rapha in-Gath ; and-they-have-fallen in-hand-of David and-in-hand-of servants-of-him."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "verses": [
+        {
+          "n": 1,
+          "t": "satan and-has-stood on Israel ; and-he-has-made-incite David, to/for-count Israel."
+        },
+        {
+          "n": 2,
+          "t": "David and-has-said toward Joab and-toward officials-of the-people, walk recount Israel, from-Beer Beersheba and-until Dan ; and-make-come toward-me, and-let-me-know number-of-them."
+        },
+        {
+          "n": 3,
+          "t": "Joab and-has-said let-make-add YHWH on people-of-him like-they hundred strokes, is-it-not lord-of-me the-king, all-of-them to/for-lord-of-me to/for-servants ; to/for-what will-seek this-f lord-of-me, to/for-what will-be to/for-guiltiness to/for-Israel."
+        },
+        {
+          "n": 4,
+          "t": "and-word-of the-king has-strengthened on Joab ; Joab and-has-exited and-has-self-gone in-all-of Israel, Jerusalem and-has-come."
+        },
+        {
+          "n": 5,
+          "t": "Joab and-has-given number-of muster-of the-people toward David ; all-of Israel and-has-been thousand thousand and-hundred thousand man drawing sword, and-Judah, four hundred and-seventy thousand man drawing sword."
+        },
+        {
+          "n": 6,
+          "t": "and-Levi and-Benjamin, not has-reckoned in-midst-of-them ; for word-of the-king has-been-abhored with Joab."
+        },
+        {
+          "n": 7,
+          "t": "and-has-eviled in-eyes-of the-god, on the-word the-this ; and-he-has-made-smite Israel."
+        },
+        {
+          "n": 8,
+          "t": "David and-has-said toward the-god, I-have-sinned very, who I-have-done the-word the-this ; and-now make-pass please iniquity-of servant-of-you, for I-have-been-foolished very."
+        },
+        {
+          "n": 9,
+          "t": "YHWH and-has-spoken toward Gad, seer-of David to/for-say."
+        },
+        {
+          "n": 10,
+          "t": "walk and-you-have-spoken toward David to/for-say thus has-said YHWH, three, I stretching on-you ; choose to/for-you one from-they and-I-will-do to/for-you-f."
+        },
+        {
+          "n": 11,
+          "t": "Gad and-has-come toward David ; and-has-said to/for-him thus YHWH has-said receive to/for-you-f."
+        },
+        {
+          "n": 12,
+          "t": "if three years famine and-if three months snatched from-faces-of enemies-of-you and-sword-of enemying-of-you to/for-making-overtake and-if three-of days sword-of YHWH and-pestilence in-the-land, and-messenger-of YHWH, destroying in-all-of border-of Israel ; and-now see, what I-will-make-return with sending-of-me word."
+        },
+        {
+          "n": 13,
+          "t": "David and-has-said toward Gad has-enemy to/for-me very ; let-me-fall please in-hand-of YHWH for many compassions-of-him very, and-in-hand-of man do-not let-me-fall."
+        },
+        {
+          "n": 14,
+          "t": "YHWH pestilence and-has-given in-Israel ; and-has-fallen from-Israel, seventy thousand man."
+        },
+        {
+          "n": 15,
+          "t": "the-god messenger and-has-sended to/for-Jerusalem to/for-destroy-of-her and-like-destroy has-seen YHWH and-has-been-sorried on the-evil, and-has-said to/for-the-messenger the-destroying many, now make-slacken hand-of-you ; and-messenger-of YHWH standing, with threshing-of Ornan the-Jebusite."
+        },
+        {
+          "n": 16,
+          "t": "David and-has-lifted eyes-of-him and-has-seen messenger-of YHWH standing between the-land and-between the-heavens, and-sword-of-him drawed in-hand-of-him, stretched on Jerusalem ; David and-the-old covered and-has-fallen in-the-sacks on faces-of-them."
+        },
+        {
+          "n": 17,
+          "t": "David and-has-said toward the-god is-it-not I have-said to/for-count in-the-people and-I he who have-sinned and-make-evil have-made-evil, and-these the-flock what they-have-done ; YHWH god-of-me let-be please hand-of-you in-me and-in-house-of father-of-me, and-in-people-of-you not to/for-plague."
+        },
+        {
+          "n": 18,
+          "t": "and-messenger-of YHWH has-said toward Gad to/for-say to/for-David ; for David will-ascend to/for-make-rise altar to/for-YHWH, in-threshing-of Ornan the-Jebusite."
+        },
+        {
+          "n": 19,
+          "t": "David and-has-ascended in-word-of Gad, who has-spoken in-name-of YHWH."
+        },
+        {
+          "n": 20,
+          "t": "Ornan and-has-returned and-has-seen the-messenger, and-four-of sons-of-him with-him self-hiding ; and-Ornan treading wheats."
+        },
+        {
+          "n": 21,
+          "t": "David and-has-come until Ornan ; Ornan and-has-made-look and-has-seen David, the-threshing, and-has-exited from and-has-self-bowed to/for-David noses land-ward."
+        },
+        {
+          "n": 22,
+          "t": "David and-has-said toward Ornan give-heh to/for-me place-of the-threshing, and-let-me-build in-him altar to/for-YHWH ; in-silver full give-him to/for-me, the-plague and-let-be-restrained on the-people."
+        },
+        {
+          "n": 23,
+          "t": "Ornan and-has-said toward David take to/for-you-f, and-let-do lord-of-me the-king the-good in-eyes-of-him ; see I-have-given the-cattle to/for-the-burnts and-the-threshings to/for-the-trees and-the-wheats to/for-the-offering the-all I-have-given."
+        },
+        {
+          "n": 24,
+          "t": "the-king David and-has-said to/for-Ornan, not, for acquire I-will-acquire in-silver full ; for not I-will-lift who to/for-you to/for-YHWH, and-make-ascend burnt for."
+        },
+        {
+          "n": 25,
+          "t": "David and-has-given to/for-Ornan in-the-place ; shekels-of gold, weight six hundred."
+        },
+        {
+          "n": 26,
+          "t": "David altar and-has-built there to/for-YHWH, and-has-made-ascend burnts and-peaces ; YHWH, and-has-called toward and-has-answered-him in-the-fire from the-heavens, on altar-of the-burnt."
+        },
+        {
+          "n": 27,
+          "t": "YHWH and-has-said to/for-the-messenger, and-has-made-return sword-of-him toward sheath-of-her."
+        },
+        {
+          "n": 28,
+          "t": "in-the-time the-he, in-see David for has-answered-him YHWH, in-threshing-of Ornan the-Jebusite ; and-he-has-sacrificed there."
+        },
+        {
+          "n": 29,
+          "t": "and-tabernacle-of YHWH who has-done Moses in-the-wilderness and-altar-of the-burnt in-the-time the-he ; in-the-high in-Gibeon."
+        },
+        {
+          "n": 30,
+          "t": "and-not David has-abled to/for-walk to/for-faces-of-him to/for-seek god ; for he-has-been-terrified, from-faces-of, sword-of messenger-of YHWH."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David and-has-said, this he, house-of YHWH the-god ; and-this altar to/for-burnt to/for-Israel."
+        },
+        {
+          "n": 2,
+          "t": "David and-has-said, to/for-gather the-sojourners, who in-land-of Israel ; and-has-made-stand hewing to/for-hew stones-of cutting, to/for-build house-of the-god."
+        },
+        {
+          "n": 3,
+          "t": "and-iron to/for-abundance to/for-the-nails to/for-doors-of the-gates and-to/for-the-clamps has-made-establish David ; and-bronze to/for-abundance naught weight."
+        },
+        {
+          "n": 4,
+          "t": "and-trees-of cedars to/for-naught number ; for the-Sidonian and-the-Tyrian have-made-come trees-of cedars to/for-abundance to/for-David."
+        },
+        {
+          "n": 5,
+          "t": "David Solomon and-has-said son-of-me youth and-tender and-the-house to/for-build to/for-YHWH to/for-make-magnify to/for-above-ward to/for-name and-to/for-beauty to/for-all-of the-lands, let-me-make-establish please to/for-him ; David and-has-made-establish to/for-abundance to/for-faces-of death-of-him."
+        },
+        {
+          "n": 6,
+          "t": "son-of-him ; and-has-called to/for-Solomon house, and-has-commanded-him to/for-build to/for-YHWH god-of Israel."
+        },
+        {
+          "n": 7,
+          "t": "David and-has-said to/for-Solomon ; son-of-him son-of-me, I has-been with heart-of-me, to/for-build house, to/for-name-of YHWH god-of-me."
+        },
+        {
+          "n": 8,
+          "t": "word-of YHWH and-has-been on-me to/for-say, blood to/for-abundance you-have-poured, and-battles great you-have-done ; not you-will-build house to/for-name-of-me, for bloods many, you-have-poured land-ward to/for-faces-of-me."
+        },
+        {
+          "n": 9,
+          "t": "behold son begotten to/for-you-f he will-be man-of nohah, and-I-have-made-rest to/for-him from-all-of enemying-of-him from-around ; for Solomon will-be name-of-him, and-peace and-quietness I-will-give on Israel in-days-of-him."
+        },
+        {
+          "n": 10,
+          "t": "he will-build house to/for-name-of-me, and-he will-be to/for-me to/for-son, and-I to/for-him to/for-father ; and-I-have-made-establish throne-of kingdom-of-him on Israel until age."
+        },
+        {
+          "n": 11,
+          "t": "now son-of-me, let-be YHWH with-you-f ; and-you-have-made-prosper and-you-have-built house-of YHWH god-of-you, like-when has-spoken on-you."
+        },
+        {
+          "n": 12,
+          "t": "surely YHWH understanding will-give to/for-you and-understanding, and-will-command-you on Israel ; and-to/for-keep, instruction-of YHWH god-of-you."
+        },
+        {
+          "n": 13,
+          "t": "then you-will-make-prosper, if you-will-keep to/for-do the-statutes and-the-justices, who YHWH has-commanded Moses on Israel ; strengthen and-strengthen, do-not let-fear and-do-not let-be-dismayeded."
+        },
+        {
+          "n": 14,
+          "t": "and-behold in-affliction-of-me I-have-made-establish to/for-house-of YHWH gold plains hundred thousand and-silver thousand thousand plains, and-to/for-the-bronze and-to/for-the-iron naught weight, for to/for-abundance has-been ; and-trees and-stones I-have-made-establish, and-on-them you-will-make-add."
+        },
+        {
+          "n": 15,
+          "t": "and-with-you to/for-abundance doing-of work, hewing, and-artificers-of stone and-tree ; and-all-of wise in-all-of work."
+        },
+        {
+          "n": 16,
+          "t": "to/for-the-gold to/for-the-silver and-to/for-the-bronze and-to/for-the-iron naught number ; rise and-do, YHWH and-let-be with-you-f."
+        },
+        {
+          "n": 17,
+          "t": "David and-has-commanded to/for-all-of officials-of Israel, to/for-help to/for-Solomon son-of-him."
+        },
+        {
+          "n": 18,
+          "t": "is-it-not YHWH god-of-you-pl with-you-pl, and-has-made-rest to/for-you-pl from-around ; for has-given in-hand-of-me dwelling-of the-land, and-has-been-subdued the-land to/for-faces-of YHWH and-to/for-faces-of people-of-him."
+        },
+        {
+          "n": 19,
+          "t": "now give heart-of-you-pl and-soul-of-you-pl, to/for-seek to/for-YHWH god-of-you-pl ; and-rise and-build sanctuary-of YHWH the-god, to/for-make-come ark-of covenant-of YHWH and-articles-of holiness-of the-god, to/for-the-house the-built to/for-name-of YHWH."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-David has-olded and-has-satisfied days ; and-has-made-reign Solomon son-of-him on Israel."
+        },
+        {
+          "n": 2,
+          "t": "and-he-has-gathered all-of officials-of Israel, and-the-priests and-the-Levi."
+        },
+        {
+          "n": 3,
+          "t": "the-Levi and-have-been-recounted, from-son-of thirty year and-above-ward ; number-of-them and-has-been to/for-heads-of-them to/for-greats, thirty and-eight thousand."
+        },
+        {
+          "n": 4,
+          "t": "from-these to/for-conduct on work-of house-of YHWH, twenty and-four thousand ; and-officialing and-judging six-of thousand."
+        },
+        {
+          "n": 5,
+          "t": "and-four-of thousand gatekeepers ; and-four-of thousand boasting to/for-YHWH, in-the-articles, who I-have-done to/for-boast."
+        },
+        {
+          "n": 6,
+          "t": "David and-has-divided-them divisions ; to/for-sons-of Levi, to/for-Gershom Kohath and-Merari."
+        },
+        {
+          "n": 7,
+          "t": "to/for-the-Gershonite Ladan and-Shimei."
+        },
+        {
+          "n": 8,
+          "t": "sons-of Ladan the-head Jehiel and-Zetham and-Joel three."
+        },
+        {
+          "n": 9,
+          "t": "sons-of Shimei Shelomoth Shelomith and-Haziel and-Haran three ; these heads-of the-fathers to/for-Ladan."
+        },
+        {
+          "n": 10,
+          "t": "and-sons-of Shimei, Jahath Zina, and-Jeush and-Beriah ; these sons-of Shimei four."
+        },
+        {
+          "n": 11,
+          "t": "Jahath the-head and-Zizah the-second and-has-been ; and-Jeush and-Beriah not sons have-made-multiply, and-have-been to/for-house-of father, to/for-punishment one."
+        },
+        {
+          "n": 12,
+          "t": "sons-of Kohath Amram Izhar Hebron and-Uzziel four."
+        },
+        {
+          "n": 13,
+          "t": "sons-of Amram Aaron and-Moses ; Aaron and-has-been-separated to/for-make-consecrate-of-him holiness-of holinesses he and-sons-of-him until age, to/for-make-offer to/for-faces-of YHWH to/for-minister-of-him and-to/for-bless in-name-of-him until age."
+        },
+        {
+          "n": 14,
+          "t": "and-Moses man-of the-god ; sons-of-him, will-be-called on tribe-of the-Levi."
+        },
+        {
+          "n": 15,
+          "t": "sons-of Moses, Gershom and-Eliezer."
+        },
+        {
+          "n": 16,
+          "t": "sons-of Gershom Shebuel the-head."
+        },
+        {
+          "n": 17,
+          "t": "sons-of Eliezer and-have-been Rehabiah the-head ; and-not he-has-been to/for-Eliezer sons another, and-sons-of Rehabiah have-multiplied to/for-above-ward."
+        },
+        {
+          "n": 18,
+          "t": "sons-of Izhar Shelomith the-head."
+        },
+        {
+          "n": 19,
+          "t": "sons-of Hebron ; Jeriah the-head Amariah the-second, Jahaziel the-third, and-Jekameam the-fourth."
+        },
+        {
+          "n": 20,
+          "t": "sons-of Uzziel ; Micah the-head, and-Isshiah the-second."
+        },
+        {
+          "n": 21,
+          "t": "sons-of Merari Mahli and-Mushi, sons-of Mahli Eleazar and-Kish."
+        },
+        {
+          "n": 22,
+          "t": "Eleazar and-has-died, and-not have-been to/for-him sons that if daughters ; sons-of Kish and-have-lifted-them brothers-of-them."
+        },
+        {
+          "n": 23,
+          "t": "sons-of Mushi Mahli and-Eder and-Jerimoth three."
+        },
+        {
+          "n": 24,
+          "t": "these sons-of Levi to/for-house-of fathers-of-them heads-of the-fathers to/for-reckoned-of-them in-number-of names to/for-heads-of-them, doing-of the-work, to/for-service-of house-of YHWH ; from-son-of twenty year and-above-ward."
+        },
+        {
+          "n": 25,
+          "t": "for David has-said, has-made-rest YHWH god-of Israel to/for-people-of-him ; and-he-has-dwelt in-Jerusalem until to/for-age."
+        },
+        {
+          "n": 26,
+          "t": "and-also to/for-the-Levi ; naught to/for-lift the-tabernacle and-all-of articles-of-him to/for-service-of-him."
+        },
+        {
+          "n": 27,
+          "t": "for in-words-of David the-last, they number-of sons-of Levi ; from-son-of twenty year and-to/for-above-ward."
+        },
+        {
+          "n": 28,
+          "t": "for office-of-them to/for-hand-of sons-of Aaron to/for-service-of house-of YHWH, on the-courts and-on the-chambers, and-on purifying-of to/for-all-of holiness ; and-deed-of, service-of house-of the-god."
+        },
+        {
+          "n": 29,
+          "t": "and-to/for-food-of the-row and-to/for-fine to/for-offering and-to/for-flatbreads-of the-unleaveneds, and-to/for-the-griddle and-to/for-the-been-made-stir ; and-to/for-all-of capacity and-measure."
+        },
+        {
+          "n": 30,
+          "t": "and-to/for-stand in-the-morning in-the-morning, to/for-make-confess and-to/for-boast to/for-YHWH ; and-thus to/for-the-evening."
+        },
+        {
+          "n": 31,
+          "t": "and-to/for-all-of make-ascend burnts to/for-YHWH, to/for-the-sabbaths, to/for-the-months and-to/for-the-meetings ; in-number like-justice on-them continually to/for-faces-of YHWH."
+        },
+        {
+          "n": 32,
+          "t": "and-have-kept charge-of tent-of meeting and-charge-of the-holiness, and-charge-of, sons-of Aaron brothers-of-them ; to/for-service-of house-of YHWH."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-to/for-sons-of Aaron divisions-of-them ; sons-of Aaron, Nadab and-Abihu, Eleazar and-Ithamar."
+        },
+        {
+          "n": 2,
+          "t": "Nadab and-Abihu and-has-died to/for-faces-of father-of-them, and-sons not have-been to/for-them ; and-they-have-ministered, Eleazar and-Ithamar."
+        },
+        {
+          "n": 3,
+          "t": "David and-Zadok and-has-divided-them, from sons-of Eleazar, and-Ahimelech from sons-of Ithamar ; to/for-punishment-of-them in-service-of-them."
+        },
+        {
+          "n": 4,
+          "t": "sons-of Eleazar many and-have-been-found to/for-heads-of the-greats from sons-of Ithamar and-have-divided-them ; to/for-sons-of Eleazar heads to/for-house-of fathers six ten, and-to/for-sons-of Ithamar to/for-house-of fathers-of-them eight."
+        },
+        {
+          "n": 5,
+          "t": "and-they-have-divided-them in-allotteds these with these ; for officials-of holiness have-been and-officials-of the-god, from-sons-of Eleazar and-in-sons-of Ithamar."
+        },
+        {
+          "n": 6,
+          "t": "Shemaiah and-has-written-them son-of Nethanel the-secretary from the-Levi to/for-faces-of the-king and-the-officials and-Zadok the-priest and-Ahimelech son-of Abiathar, and-heads-of the-fathers, to/for-the-priests and-to/for-the-Levi ; house-of father one grasped to/for-Eleazar, and-grasped grasped to/for-Ithamar."
+        },
+        {
+          "n": 7,
+          "t": "the-allotted the-first and-has-exited to/for-Jehoiarib, to/for-Jedaiah the-second."
+        },
+        {
+          "n": 8,
+          "t": "to/for-Harim the-third, to/for-Seorim the-fourth."
+        },
+        {
+          "n": 9,
+          "t": "to/for-Malchijah the-fifth, to/for-Mijamin the-sixth."
+        },
+        {
+          "n": 10,
+          "t": "to/for-Koz the-seventh, to/for-Abijah the-eighth."
+        },
+        {
+          "n": 11,
+          "t": "to/for-Jeshua the-ninth, to/for-Shecaniah the-tenth."
+        },
+        {
+          "n": 12,
+          "t": "to/for-Eliashib eleven-of ten, to/for-Jakim two ten."
+        },
+        {
+          "n": 13,
+          "t": "to/for-Huppah three ten, to/for-Jeshebeab four ten."
+        },
+        {
+          "n": 14,
+          "t": "to/for-Bilgah five ten, to/for-Immer six ten."
+        },
+        {
+          "n": 15,
+          "t": "to/for-Hezir seven ten, to/for-the-Happizzez eight ten."
+        },
+        {
+          "n": 16,
+          "t": "to/for-Pethahiah nine ten, to/for-Jehezkel the-twenty."
+        },
+        {
+          "n": 17,
+          "t": "to/for-Jachin one and-twenty, to/for-Gamul two and-twenty."
+        },
+        {
+          "n": 18,
+          "t": "to/for-Delaiah three and-twenty, to/for-Maaziah four and-twenty."
+        },
+        {
+          "n": 19,
+          "t": "these punishment-of-them to/for-service-of-them to/for-come to/for-house-of YHWH like-justice-of-them, in-hand-of Aaron father-of-them ; like-when YHWH has-commanded-him, god-of Israel."
+        },
+        {
+          "n": 20,
+          "t": "and-to/for-sons-of Levi the-remained ; to/for-sons-of Amram Shebuel, to/for-sons-of Shebuel Jehdeiah."
+        },
+        {
+          "n": 21,
+          "t": "to/for-Rehabiah ; to/for-sons-of Rehabiah, the-head Isshiah."
+        },
+        {
+          "n": 22,
+          "t": "to/for-the-Izharite Shelomoth, to/for-sons-of Shelomoth Jahath."
+        },
+        {
+          "n": 23,
+          "t": "and-sons-of Jeriah ; Amariah the-second, Jahaziel the-third, Jekameam the-fourth."
+        },
+        {
+          "n": 24,
+          "t": "sons-of Uzziel Micah, to/for-sons-of Micah Shamir."
+        },
+        {
+          "n": 25,
+          "t": "brother-of Micah Isshiah, to/for-sons-of Isshiah Zechariah."
+        },
+        {
+          "n": 26,
+          "t": "sons-of Merari Mahli and-Mushi, sons-of Jaaziah beno-of-him."
+        },
+        {
+          "n": 27,
+          "t": "sons-of Merari ; to/for-Jaaziah beno-of-him, and-Shoham and-Zaccur and-Ibri."
+        },
+        {
+          "n": 28,
+          "t": "to/for-Mahli Eleazar, and-not has-been to/for-him sons."
+        },
+        {
+          "n": 29,
+          "t": "to/for-Kish sons-of Kish Jerahmeel."
+        },
+        {
+          "n": 30,
+          "t": "and-sons-of Mushi, Mahli and-Eder and-Jerimoth ; these sons-of the-Levi to/for-house-of fathers-of-them."
+        },
+        {
+          "n": 31,
+          "t": "they allotteds and-have-made-fall also to/for-close-of brothers-of-them sons-of Aaron to/for-faces-of David the-king and-Zadok and-Ahimelech, and-heads-of the-fathers, to/for-the-priests and-to/for-the-Levi ; fathers the-head, to/for-close-of brother-of-him the-small."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David and-has-made-separate and-officials-of the-host to/for-service to/for-sons-of Asaph and-Heman and-Jeduthun, the-prophets the-prophesied in-lyres in-harps and-in-cymbals ; number-of-them and-has-been, mans-of work to/for-service-of-them."
+        },
+        {
+          "n": 2,
+          "t": "to/for-sons-of Asaph Zaccur and-Joseph and-Nethaniah and-Asharelah sons-of Asaph ; on hand-of Asaph, the-prophesied on hands-of the-king."
+        },
+        {
+          "n": 3,
+          "t": "to/for-Jeduthun ; sons-of Jeduthun Gedaliah and-Zeri and-Isaiah Hashabiah and-Mattithiah six on hands-of father-of-them Jeduthun in-the-lyre, the-prophesied, on make-confess and-boast to/for-YHWH."
+        },
+        {
+          "n": 4,
+          "t": "to/for-Heman ; sons-of Heman Bukkiah Mattaniah Uzziel Shebuel and-Jerimoth Hananiah Hanani Eliathah Giddalti and-Veromamtiy Ezer, Joshbekashah Mallothi, Hothir Mahazioth."
+        },
+        {
+          "n": 5,
+          "t": "all-of these sons to/for-Heman seer-of the-king in-words-of the-god to/for-make-exalt horn ; the-god and-has-given to/for-Heman sons four ten and-daughters three."
+        },
+        {
+          "n": 6,
+          "t": "all-of these on hands-of father-of-them in-the-song house-of YHWH in-cymbals harps and-lyres, to/for-service-of house-of the-god ; on hands-of the-king, Asaph and-Jeduthun and-Heman."
+        },
+        {
+          "n": 7,
+          "t": "number-of-them and-has-been with brothers-of-them, learned-of song to/for-YHWH ; all-of the-making-discern, hundred eighty and-eight."
+        },
+        {
+          "n": 8,
+          "t": "allotteds and-have-made-fall charge to/for-close-of like-the-small like-the-great, making-discern with pupil."
+        },
+        {
+          "n": 9,
+          "t": "the-allotted the-first and-has-exited to/for-Asaph to/for-Joseph ; Gedaliah the-second, he and-brothers-of-him and-sons-of-him two ten."
+        },
+        {
+          "n": 10,
+          "t": "the-third Zaccur, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 11,
+          "t": "the-fourth to/for-the-Izri, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 12,
+          "t": "the-fifth Nethaniah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 13,
+          "t": "the-sixth Bukkiah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 14,
+          "t": "the-seventh Jesharelah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 15,
+          "t": "the-eighth Isaiah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 16,
+          "t": "the-ninth Mattaniah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 17,
+          "t": "the-tenth Shimei, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 18,
+          "t": "eleven-of ten Azarel, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 19,
+          "t": "the-two ten to/for-Hashabiah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 20,
+          "t": "to/for-three ten Shebuel, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 21,
+          "t": "to/for-four ten Mattithiah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 22,
+          "t": "to/for-five ten to/for-Jerimoth, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 23,
+          "t": "to/for-six ten to/for-Hananiah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 24,
+          "t": "to/for-seven ten to/for-Joshbekashah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 25,
+          "t": "to/for-eight ten to/for-Hanani, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 26,
+          "t": "to/for-nine ten to/for-Mallothi, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 27,
+          "t": "to/for-twenty to/for-Eliathah, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 28,
+          "t": "to/for-one and-twenty to/for-Hothir, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 29,
+          "t": "to/for-two and-twenty to/for-Giddalti, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 30,
+          "t": "to/for-three and-twenty to/for-Mahazioth, sons-of-him and-brothers-of-him two ten."
+        },
+        {
+          "n": 31,
+          "t": "to/for-four and-twenty to/for-Veromamtiy Ezer, sons-of-him and-brothers-of-him two ten."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "verses": [
+        {
+          "n": 1,
+          "t": "to/for-divisions to/for-gatekeepers ; to/for-the-Korahite, Meshelemiah son-of Kore from sons-of Asaph."
+        },
+        {
+          "n": 2,
+          "t": "and-to/for-Meshelemiah sons ; Zechariah the-firstborn Jediael the-second, Zebadiah the-third, Jathniel the-fourth."
+        },
+        {
+          "n": 3,
+          "t": "Elam the-fifth Johanan the-sixth, Eliehoenai the-seventh."
+        },
+        {
+          "n": 4,
+          "t": "and-to/for-Obed Edom sons ; Shemaiah the-firstborn Jehozabad the-second, Joah the-third and-Sachar the-fourth, and-Nethanel the-fifth."
+        },
+        {
+          "n": 5,
+          "t": "Ammiel the-sixth Issachar the-seventh, Peullethai the-eighth ; for god has-blessed-him."
+        },
+        {
+          "n": 6,
+          "t": "and-to/for-Shemaiah son-of-him has-been-begotten sons, the-dominions to/for-house-of father-of-them ; for mighty-of helech they."
+        },
+        {
+          "n": 7,
+          "t": "sons-of Shemaiah Othni and-Rephael and-Obed Elzabad brothers-of-him sons-of helech ; Elihu and-Semachiah."
+        },
+        {
+          "n": 8,
+          "t": "all-of these from-sons-of Obed Edom they and-sons-of-them and-brothers-of-them, man-of helech in-the-strength to/for-service ; sixty and-two to/for-Obed Edom."
+        },
+        {
+          "n": 9,
+          "t": "and-to/for-Meshelemiah sons and-brothers sons-of helech eight ten."
+        },
+        {
+          "n": 10,
+          "t": "and-to/for-Hosah from sons-of Merari sons ; Shimri the-head for not has-been firstborn, and-has-put-him father-of-him to/for-head."
+        },
+        {
+          "n": 11,
+          "t": "Hilkiah the-second Tebaliah the-third, Zechariah the-fourth ; all-of sons and-brothers to/for-Hosah three ten."
+        },
+        {
+          "n": 12,
+          "t": "to/for-these divisions-of the-gatekeepers to/for-heads-of the-greats charges to/for-close-of brothers-of-them ; to/for-minister in-house-of YHWH."
+        },
+        {
+          "n": 13,
+          "t": "allotteds like-the-small like-the-great and-have-made-fall to/for-house-of fathers-of-them to/for-gate and-gate."
+        },
+        {
+          "n": 14,
+          "t": "the-allotted east-ward and-has-fallen to/for-Shelemiah ; and-Zechariah son-of-him advising in-understanding have-made-fall allotteds, and-has-exited allotted-of-him north-ward."
+        },
+        {
+          "n": 15,
+          "t": "to/for-Obed Edom negeb-ward ; and-to/for-sons-of-him house-of the-storehouses."
+        },
+        {
+          "n": 16,
+          "t": "to/for-Shuppim and-to/for-Hosah to/for-the-west, with gate-of Shallecheth, in-the-highway the-ascending ; custody to/for-close-of custody."
+        },
+        {
+          "n": 17,
+          "t": "to/for-the-east the-Levi six to/for-the-north-ward to/for-the-day four, to/for-the-negeb-ward to/for-the-day four ; and-to/for-the-storehouses two two."
+        },
+        {
+          "n": 18,
+          "t": "to/for-the-Colonnade to/for-the-west ; four to/for-the-highway, two to/for-the-Colonnade."
+        },
+        {
+          "n": 19,
+          "t": "these divisions-of the-gatekeepers, to/for-sons-of the-Korahite and-to/for-sons-of Merari."
+        },
+        {
+          "n": 20,
+          "t": "and-the-Levi ; Ahijah on treasures-of house-of the-god, and-to/for-treasures-of the-holinesses."
+        },
+        {
+          "n": 21,
+          "t": "sons-of Ladan sons-of the-Gershonite to/for-Ladan heads-of the-fathers to/for-Ladan the-Gershonite Jehieli."
+        },
+        {
+          "n": 22,
+          "t": "sons-of Jehieli ; Zetham and-Joel brother-of-him, on treasures-of house-of YHWH."
+        },
+        {
+          "n": 23,
+          "t": "to/for-the-Amramite to/for-the-Izharite, to/for-the-Hebronite to/for-the-Uzzielite."
+        },
+        {
+          "n": 24,
+          "t": "and-Shebuel son-of Gershom son-of Moses, leader on the-treasures."
+        },
+        {
+          "n": 25,
+          "t": "and-brothers-of-him to/for-Eliezer ; Rehabiah son-of-him and-Isaiah son-of-him and-Joram son-of-him, and-Zichri son-of-him and-Shelomoth son-of-him."
+        },
+        {
+          "n": 26,
+          "t": "he Shelomoth and-brothers-of-him on all-of treasures-of the-holinesses who has-made-consecrate David the-king and-heads-of the-fathers to/for-officials-of the-thousand and-the-hundred and-officials-of the-host."
+        },
+        {
+          "n": 27,
+          "t": "from the-battles and-from the-spoil have-made-consecrate ; to/for-strengthen to/for-house-of YHWH."
+        },
+        {
+          "n": 28,
+          "t": "and-all the-has-made-consecrate Samuel the-see and-Saul son-of Kish, and-Abner son-of Ner, and-Joab son-of Zeruiah ; all-of the-making-consecrate, on hand-of Shelomith and-brothers-of-him."
+        },
+        {
+          "n": 29,
+          "t": "to/for-the-Izharite Chenaniah and-sons-of-him to/for-the-work the-outer on Israel, to/for-officials and-to/for-judging."
+        },
+        {
+          "n": 30,
+          "t": "to/for-the-Hebronite Hashabiah and-brothers-of-him sons-of helech thousand and-seven hundred on punishment-of Israel, from-side to/for-the-Jordan west-ward ; to/for-all-of work-of YHWH, and-to/for-service-of the-king."
+        },
+        {
+          "n": 31,
+          "t": "to/for-the-Hebronite Jeriah the-head, to/for-the-Hebronite to/for-generations-of-him to/for-fathers ; in-year-of the-forty to/for-kingdom-of David they-have-been-sought, and-has-been-found in-them mighty-of helech in-Jazer Gilead."
+        },
+        {
+          "n": 32,
+          "t": "and-brothers-of-him sons-of helech thousand and-seven hundred heads-of the-fathers ; David the-king and-has-made-reckon-them on the-Reubenite and-the-Gad and-half-of tribe-of the-Manassite, to/for-all-of word-of the-god and-word-of the-king."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-sons-of Israel to/for-number-of-them heads-of the-fathers and-officials-of the-thousand and-the-hundred and-officials-of-them the-ministering the-king to/for-all-of word-of the-divisions the-coming and-the-exiting month in-month, to/for-all-of months-of the-year ; the-division the-one, twenty and-four thousand."
+        },
+        {
+          "n": 2,
+          "t": "on the-division the-first to/for-the-month the-first, Jashobeam son-of Zabdiel ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 3,
+          "t": "from sons-of Perez the-head to/for-all-of officials-of the-hostses to/for-the-month the-first."
+        },
+        {
+          "n": 4,
+          "t": "and-on division-of the-month the-second Dodai the-Ahohite and-division-of-him, and-Mikloth the-leader ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 5,
+          "t": "official-of the-host the-third to/for-the-month the-third, Benaiah son-of Jehoiada the-priest head ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 6,
+          "t": "he Benaiah mighty-of the-thirty and-on the-thirty ; and-division-of-him, Ammizabad son-of-him."
+        },
+        {
+          "n": 7,
+          "t": "the-fourth to/for-the-month the-fourth Asa Asahel brother-of Joab, and-Zebadiah son-of-him after-him ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 8,
+          "t": "the-fifth to/for-the-month the-fifth, the-official Shamhuth the-Izrahite ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 9,
+          "t": "the-sixth to/for-the-month the-sixth, Ira son-of Ikkesh the-Tekoa ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 10,
+          "t": "the-seventh to/for-the-month the-seventh, Helez the-Pelonite from sons-of Ephraim ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 11,
+          "t": "the-eighth to/for-the-month the-eighth, Sibbecai the-Hushathite to/for-the-Zerahite ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 12,
+          "t": "the-ninth to/for-the-month the-ninth, Abiezer the-Anathoth to/for-the-Benjaminite Right ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 13,
+          "t": "the-tenth to/for-the-month the-tenth, Maharai the-Netophathite to/for-the-Zerahite ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 14,
+          "t": "eleven-of ten to/for-eleven-of ten the-month, Benaiah the-Pirathon from sons-of Ephraim ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 15,
+          "t": "the-two ten to/for-two ten the-month, Heldai the-Netophathite to/for-Othniel ; and-on division-of-him, twenty and-four thousand."
+        },
+        {
+          "n": 16,
+          "t": "and-on tribes-of Israel, to/for-the-Reubenite leader, Eliezer son-of Zichri ; to/for-the-Simeon, Shephatiah son-of Maacah."
+        },
+        {
+          "n": 17,
+          "t": "to/for-Levi Hashabiah son-of Kemuel to/for-Aaron Zadok."
+        },
+        {
+          "n": 18,
+          "t": "to/for-Judah, Elihu from-brothers-of David ; to/for-Issachar, Omri son-of Michael."
+        },
+        {
+          "n": 19,
+          "t": "to/for-Zebulun, Ishmaiah son-of Obadiah ; to/for-Naphtali, Jerimoth son-of Azriel."
+        },
+        {
+          "n": 20,
+          "t": "to/for-sons-of Ephraim, Hoshea son-of Azaziah ; to/for-half-of tribe-of Manasseh, Joel son-of Pedaiah."
+        },
+        {
+          "n": 21,
+          "t": "to/for-half-of the-Manasseh Gilead-ward, Iddo son-of Zechariah ; to/for-Benjamin, Jaasiel son-of Abner."
+        },
+        {
+          "n": 22,
+          "t": "to/for-Dan, Azarel son-of Jeroham ; these, officials-of tribes-of Israel."
+        },
+        {
+          "n": 23,
+          "t": "and-not David has-lifted number-of-them, to/for-son-of twenty year and-to/for-beneath ; for YHWH has-said, to/for-make-multiply Israel like-stars-of the-heavens."
+        },
+        {
+          "n": 24,
+          "t": "Joab son-of Zeruiah has-made-begin to/for-count and-not has-finished, wrath and-has-been in-this-f on Israel ; and-not the-number has-ascended, in-number-of words-of the-days to/for-the-king David."
+        },
+        {
+          "n": 25,
+          "t": "and-on treasures-of the-king, Azmaveth son-of Adiel ; and-on the-treasures in-the-field in-the-cities and-in-the-chephars and-in-the-towers, Jonathan son-of Uzziah."
+        },
+        {
+          "n": 26,
+          "t": "and-on doing-of work-of the-field, to/for-service-of the-ground ; Ezri son-of Chelub."
+        },
+        {
+          "n": 27,
+          "t": "and-on the-vineyards, Shimei the-Ramathite ; and-on that-in-the-vineyards to/for-treasures-of the-wine, Zabdi the-Shiphmite."
+        },
+        {
+          "n": 28,
+          "t": "and-on the-oliveses and-the-sycamores who in-the-shephelah, Baal Hanan the-Gederite ; and-on treasures-of the-oil Joash."
+        },
+        {
+          "n": 29,
+          "t": "and-on the-cattle the-pasturing in-the-Lasharon, Shitrai the-Sharonite ; and-on the-cattle in-the-valleys, Shaphat son-of Adlai."
+        },
+        {
+          "n": 30,
+          "t": "and-on the-camels, Obil the-Ishmaelite ; and-on the-she-asses, Jehdeiah the-Meronothite."
+        },
+        {
+          "n": 31,
+          "t": "and-on the-flock Jaziz the-Hagri ; all-of these officials-of the-property, who to/for-the-king David."
+        },
+        {
+          "n": 32,
+          "t": "and-Jonathan beloved-of David advising, man-of making-discern and-secretary he ; and-Jehiel son-of Hachmonite with sons-of the-king."
+        },
+        {
+          "n": 33,
+          "t": "and-Ahithophel advising to/for-the-king ; and-Hushai the-Archite neighbor-of the-king."
+        },
+        {
+          "n": 34,
+          "t": "and-after Ahithophel Jehoiada son-of Benaiah and-Abiathar, and-official-of host to/for-the-king Joab."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David and-has-made-gather all-of officials-of Israel officials-of the-tribes and-officials-of the-divisions the-ministering the-king and-officials-of the-thousand and-officials-of the-hundred and-officials-of all-of property and-livestock to/for-the-king and-to/for-sons-of-him with the-eunuches and-the-mighty and-to/for-all-of mighty-of helech toward Jerusalem."
+        },
+        {
+          "n": 2,
+          "t": "David the-king and-has-risen on foots-of-him, and-has-said, hear-me brothers-of-me and-people-of-me ; I with heart-of-me to/for-build house-of nohah to/for-ark-of covenant-of YHWH and-to/for-footstool-of foots-of god-of-us, and-have-made-establish to/for-build."
+        },
+        {
+          "n": 3,
+          "t": "and-the-god has-said to/for-me, not you-will-build house to/for-name-of-me ; for man-of battles you and-bloods have-poured."
+        },
+        {
+          "n": 4,
+          "t": "YHWH and-has-chosen god-of Israel in-me from-all-of house-of father-of-me to/for-be to/for-king on Israel to/for-age, for in-Judah has-chosen to/for-leader, and-in-house-of Judah house-of father-of-me ; and-in-sons-of father-of-me, in-me all-of Israel has-accepted, to/for-make-reign on."
+        },
+        {
+          "n": 5,
+          "t": "and-from-all-of sons-of-me, for many sons, YHWH ; has-given to/for-me son-of-me, and-has-chosen in-Solomon to/for-dwell on throne-of kingdom-of YHWH on Israel."
+        },
+        {
+          "n": 6,
+          "t": "Solomon and-has-said to/for-me, son-of-you, he will-build house-of-me and-courts-of-me ; for and-I have-chosen in-him to/for-me to/for-son, will-be to/for-him to/for-father."
+        },
+        {
+          "n": 7,
+          "t": "and-I-have-made-establish kingdom-of-him until to/for-age ; if he-will-strengthen to/for-do commandments-of-me and-justices-of-me like-the-day the-this."
+        },
+        {
+          "n": 8,
+          "t": "and-now to/for-eyes-of all-of Israel assembly-of YHWH and-in-ears-of god-of-us, keep and-seek, all-of commandments-of YHWH god-of-you-pl ; sake you-pl-will-possess the-land the-good, and-you-pl-have-made-inherit to/for-sons-of-you-pl after-you-pl until age."
+        },
+        {
+          "n": 9,
+          "t": "and-you Solomon son-of-me know god-of father-of-you and-serve-him in-heart complete and-in-soul delighting, for all-of hearts seeking YHWH, and-all-of intention-of plots making-discern ; if you-will-seek-him he-will-be-found to/for-you-f, and-if you-will-leave-him he-will-make-reject-you to/for-perpetuity."
+        },
+        {
+          "n": 10,
+          "t": "see now for YHWH has-chosen in-you to/for-build house to/for-the-sanctuary strengthen and-do."
+        },
+        {
+          "n": 11,
+          "t": "David and-has-given to/for-Solomon son-of-him pattern-of the-hall and-houses-of-him and-treasuries-of-him and-uppers-of-him and-chambers-of-him the-inner and-house-of the-mercy."
+        },
+        {
+          "n": 12,
+          "t": "and-pattern-of all who has-been in-the-spirit with-him, to/for-courts-of house-of YHWH and-to/for-all-of the-chambers around ; to/for-treasures-of house-of the-god, and-to/for-treasures-of the-holinesses."
+        },
+        {
+          "n": 13,
+          "t": "and-to/for-divisions-of the-priests and-the-Levi, and-to/for-all-of work-of service-of house-of YHWH ; and-to/for-all-of articles-of service-of house-of YHWH."
+        },
+        {
+          "n": 14,
+          "t": "to/for-the-gold in-the-weight to/for-the-gold, to/for-all-of articles-of service and-service ; to/for-all-of articles-of the-silver in-weight, to/for-all-of articles-of service and-service."
+        },
+        {
+          "n": 15,
+          "t": "and-weight to/for-lampstands-of the-gold and-lamps-of-them gold, in-weight-of lampstand and-lampstand and-lamps-of-her ; and-to/for-lampstands-of the-silver in-weight to/for-lampstand and-lamps-of-her, like-service-of lampstand and-lampstand."
+        },
+        {
+          "n": 16,
+          "t": "and-the-gold weight to/for-tables-of the-row to/for-table and-table ; and-silver to/for-tables-of the-silver."
+        },
+        {
+          "n": 17,
+          "t": "and-the-forks and-the-bowls and-the-jugs gold pure ; and-to/for-bowls-of the-gold in-weight to/for-bowl and-bowl, and-to/for-bowls-of the-silver in-weight to/for-bowl and-bowl."
+        },
+        {
+          "n": 18,
+          "t": "and-to/for-altar-of the-incense gold refined in-the-weight ; and-to/for-pattern-of the-chariot the-cherubs gold to/for-spreading, and-covering on ark-of covenant-of YHWH."
+        },
+        {
+          "n": 19,
+          "t": "the-all in-writing from-hand-of YHWH on-me has-made-understand ; all-of works-of the-pattern."
+        },
+        {
+          "n": 20,
+          "t": "David and-has-said to/for-Solomon son-of-him strengthen and-strengthen and-do, do-not let-fear and-do-not let-be-dismayeded ; for YHWH god god-of-me with-you, not will-make-slacken-you and-not all-of work-of service-of house-of YHWH will-leave-you, until to/for-finish,."
+        },
+        {
+          "n": 21,
+          "t": "and-behold divisions-of the-priests and-the-Levi, to/for-all-of service-of house-of the-god ; and-with-you in-all-of work to/for-all-of noble in-the-wisdom to/for-all-of service, and-the-officials and-all-of the-people to/for-all-of words-of-you."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "verses": [
+        {
+          "n": 1,
+          "t": "David the-king and-has-said to/for-all-of the-assembly, Solomon son-of-me one has-chosen in-him god youth and-tender ; and-the-work great, for not to/for-man the-palace, for to/for-YHWH god."
+        },
+        {
+          "n": 2,
+          "t": "and-like-all-of strength-of-me I-have-made-establish to/for-house-of god-of-me the-gold to/for-the-gold and-the-silver to/for-the-silver and-the-bronze to/for-the-bronze the-iron to/for-the-iron, and-the-trees to/for-the-trees ; stones-of onyx and-settings stones-of color and-embroidery and-all-of stone precious and-stones-of alabaster to/for-abundance."
+        },
+        {
+          "n": 3,
+          "t": "and-still in-accept-of-me in-house-of god-of-me, there to/for-me possession gold and-silver ; I-have-given to/for-house-of god-of-me to/for-above-ward, from-all-of I-have-made-establish to/for-house-of the-holiness."
+        },
+        {
+          "n": 4,
+          "t": "three-of thousand plains-of gold from-gold-of Ophir ; and-seven-of thousand plain-of silver refined, to/for-overspread walls-of the-houses."
+        },
+        {
+          "n": 5,
+          "t": "to/for-the-gold to/for-the-gold and-to/for-the-silver to/for-the-silver, and-to/for-all-of work in-hand-of artificers ; and-who self-willinging, to/for-fill hand-of-him the-day to/for-YHWH."
+        },
+        {
+          "n": 6,
+          "t": "officials-of the-fathers and-have-self-willinged and-officials-of tribes-of Israel and-officials-of the-thousand and-the-hundred, and-to/for-officials-of work-of the-king."
+        },
+        {
+          "n": 7,
+          "t": "and-have-given to/for-service-of house-of the-god gold plains five-of thousand and-drams ten and-silver plains ten-of thousand, and-bronze, ten and-eight-of thousand plains ; and-iron hundred thousand plains."
+        },
+        {
+          "n": 8,
+          "t": "and-the-found with-him stones, have-given to/for-treasure-of house-of YHWH ; on hand-of Jehiel the-Gershonite."
+        },
+        {
+          "n": 9,
+          "t": "and-they-have-rejoiced the-people on self-willing-of-them, for in-heart complete, they-have-self-willinged to/for-YHWH ; and-also David the-king, has-rejoiced joy great."
+        },
+        {
+          "n": 10,
+          "t": "David and-has-blessed YHWH, to/for-eyes-of all-of the-assembly ; David blessed and-has-said you YHWH god-of Israel father-of-us, from-age and-until age."
+        },
+        {
+          "n": 11,
+          "t": "to/for-you YHWH the-greatness and-the-might and-the-beauty and-the-perpetuity and-the-splendor, for all in-the-heavens and-in-the-land ; to/for-you YHWH the-kingdom, and-the-self-exalting to/for-all to/for-head."
+        },
+        {
+          "n": 12,
+          "t": "and-the-riches and-the-glory from-faces-of-you, and-you ruling in-the-all, and-in-hand-of-you strength and-might ; and-in-hand-of-you, to/for-magnify and-to/for-strengthen to/for-the-all."
+        },
+        {
+          "n": 13,
+          "t": "and-now god-of-us, making-confess we to/for-you-f ; and-boasting to/for-name-of beauty-of-you."
+        },
+        {
+          "n": 14,
+          "t": "and-for who I and-who people-of-me, for we-will-restrain strength, to/for-self-willing like-this-f ; for from-you the-all, and-from-hand-of-you we-have-given to/for-you-f."
+        },
+        {
+          "n": 15,
+          "t": "for we sojourners to/for-faces-of-you and-sojourners like-all-of fathers-of-us ; like-the-shadow days-of-us on the-land and-naught hope."
+        },
+        {
+          "n": 16,
+          "t": "YHWH god-of-us, all-of the-crowd the-this who we-have-made-establish, to/for-build to/for-you house to/for-name-of holiness-of-you ; from-hand-of-you he and-to/for-you the-all."
+        },
+        {
+          "n": 17,
+          "t": "and-I-have-known god-of-me, for you testing heart, and-uprightnesses will-accept ; I in-uprightness-of heart-of-me have-self-willinged all-of these, and-now people-of-you the-they-have-been-found here, have-seen in-joy to/for-self-willing to/for-you-f."
+        },
+        {
+          "n": 18,
+          "t": "YHWH god-of Abraham Isaac and-Israel fathers-of-us, keep-heh this-f to/for-age, to/for-intention-of plots-of heart-of people-of-you ; and-make-establish heart-of-them toward-you."
+        },
+        {
+          "n": 19,
+          "t": "and-to/for-Solomon son-of-me give heart complete, to/for-keep commandments-of-you, testimonies-of-you and-statutes-of-you ; and-to/for-do the-all, and-to/for-build the-palace who I-have-made-establish."
+        },
+        {
+          "n": 20,
+          "t": "David and-has-said to/for-all-of the-assembly, bless please YHWH god-of-you-pl ; and-they-have-blessed all-of the-assembly to/for-YHWH god-of fathers-of-them, and-they-have-bowed and-they-have-self-bowed to/for-YHWH and-to/for-the-king."
+        },
+        {
+          "n": 21,
+          "t": "sacrifices and-have-sacrificed to/for-YHWH and-have-made-ascend burnts to/for-YHWH to/for-morrow-of the-day the-he bullocks thousand rams thousand lambs thousand and-drinks-of-them ; and-sacrifices to/for-abundance to/for-all-of Israel."
+        },
+        {
+          "n": 22,
+          "t": "and-they-have-eaten and-they-have-drunk to/for-faces-of YHWH in-the-day the-he in-joy great ; and-they-have-made-reign second to/for-Solomon son-of David, and-they-have-anointed to/for-YHWH to/for-leader and-to/for-Zadok to/for-priest."
+        },
+        {
+          "n": 23,
+          "t": "Solomon and-has-dwelt on throne-of YHWH to/for-king under David father-of-him and-has-made-prosper ; and-they-have-heard toward-him all-of Israel."
+        },
+        {
+          "n": 24,
+          "t": "and-all-of the-officials and-the-mighty, and-also, all-of sons-of the-king David ; they-have-given hand, under Solomon the-king."
+        },
+        {
+          "n": 25,
+          "t": "YHWH and-has-magnified Solomon to/for-above-ward, to/for-eyes-of all-of Israel ; splendor-of kingdom, and-has-given on-him who not has-been on all-of king to/for-faces-of-him on Israel."
+        },
+        {
+          "n": 26,
+          "t": "and-David son-of Jesse, has-reigned on all-of Israel."
+        },
+        {
+          "n": 27,
+          "t": "and-the-days who Israel, has-reigned on forty year ; in-Hebron he-has-reigned seven years, and-in-Jerusalem he-has-reigned thirty and-three."
+        },
+        {
+          "n": 28,
+          "t": "and-has-died in-greyheaded good, sated-of days riches and-glory ; Solomon and-has-reigned son-of-him under-him."
+        },
+        {
+          "n": 29,
+          "t": "and-words-of David the-king, the-first and-the-last ; behold-them written on words-of Samuel the-see, and-on words-of Nathan the-prophet, and-on words-of Gad the-seer."
+        },
+        {
+          "n": 30,
+          "t": "with all-of kingdom-of-him and-might-of-him ; and-the-times who have-passed on-him and-on Israel, and-on all-of kingdoms-of the-lands."
+        }
+      ]
+    }
+  ]
+}

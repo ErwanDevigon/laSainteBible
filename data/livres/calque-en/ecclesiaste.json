@@ -1,0 +1,970 @@
+{
+  "id": "ecclesiaste",
+  "title": "L'Ecclésiaste",
+  "original_title": "Ecclésiaste",
+  "short": "Ec",
+  "version": {
+    "id": "calque-en",
+    "label": "Calque EN",
+    "name": "Masoretic calque",
+    "blurb": "Word-for-word calque of the Leningrad text · English",
+    "year": 2026,
+    "lang": "en",
+    "license": "non-commercial — finished text only",
+    "source": "Westminster Leningrad Codex, public domain. Morphology Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque-en",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "New Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "words-of preacher son-of David, king in-Jerusalem."
+        },
+        {
+          "n": 2,
+          "t": "preacher, has-said vanity-of vanities, vanity-of vanities the-all vanity."
+        },
+        {
+          "n": 3,
+          "t": "what advantage to/for-the-man ; in-all-of trouble-of-him, the-sun that-will-toil under."
+        },
+        {
+          "n": 4,
+          "t": "generation going and-generation coming, and-the-land to/for-age standing."
+        },
+        {
+          "n": 5,
+          "t": "the-sun and-has-risen and-has-come the-sun ; and-toward place-of-him, longing rising he there."
+        },
+        {
+          "n": 6,
+          "t": "going toward south, and-turning toward north ; turning turning going the-spirit, and-on arounds-of-him returning the-spirit."
+        },
+        {
+          "n": 7,
+          "t": "all-of the-torrents going toward the-sea, and-the-sea naught-him full ; toward place-of that-the-torrents going, there they returning to/for-walk."
+        },
+        {
+          "n": 8,
+          "t": "all-of the-words weary, not will-able man to/for-speak ; not eye will-satisfy to/for-see, and-not will-be-filled ear from-hear."
+        },
+        {
+          "n": 9,
+          "t": "what he that-has-been that-will-be, and-what he that-has-been-done, that-will-be-done ; and-naught all-of new under the-sun."
+        },
+        {
+          "n": 10,
+          "t": "there word that-will-say see this new he ; already he-has-been to/for-ages, who he-has-been from-faces-of-us."
+        },
+        {
+          "n": 11,
+          "t": "naught memorial-of to/for-the-first ; and-also to/for-the-last that-they-will-be not memorial, will-be to/for-them with that-they-will-be to/for-the-last."
+        },
+        {
+          "n": 12,
+          "t": "I preacher have-been king on Israel in-Jerusalem."
+        },
+        {
+          "n": 13,
+          "t": "and-I-have-given heart-of-me to/for-seek and-to/for-spy in-the-wisdom, on all who has-been-done under the-heavens ; he task bad has-given god to/for-sons-of the-man to/for-occupied in-him."
+        },
+        {
+          "n": 14,
+          "t": "I-have-seen all-of the-deeds, that-they-have-been-done under the-sun ; and-behold the-all vanity and-longing-of spirit."
+        },
+        {
+          "n": 15,
+          "t": "perverted not he-will-able to/for-straight ; and-deficiency not will-able to/for-be-count."
+        },
+        {
+          "n": 16,
+          "t": "I have-spoken with heart-of-me to/for-say, I behold have-made-magnify and-have-made-add wisdom, on all who has-been to/for-faces-of-me on Jerusalem ; and-heart-of-me has-seen make-multiply wisdom and-knowledge."
+        },
+        {
+          "n": 17,
+          "t": "and-I-have-given-heh heart-of-me to/for-know wisdom, and-know madnesses and-folly ; I-have-known, that-also this he striving-of spirit."
+        },
+        {
+          "n": 18,
+          "t": "for in-abundance-of wisdom many-of vexation ; and-will-make-add knowledge pain will-make-add."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "I have-said in-heart-of-me, walk-heh please let-me-test-you in-joy and-see in-good ; and-behold also he vanity."
+        },
+        {
+          "n": 2,
+          "t": "to/for-laughter I-have-said boasted ; and-to/for-joy what this doing."
+        },
+        {
+          "n": 3,
+          "t": "I-have-spied in-heart-of-me, to/for-draw in-the-wine flesh-of-me ; and-heart-of-me leading in-the-wisdom and-to/for-grasp in-folly, until who I-will-see where this good to/for-sons-of the-man who the-heavens, will-do under number-of days-of lifes-of-them."
+        },
+        {
+          "n": 4,
+          "t": "I-have-made-magnify deeds-of-me ; I-have-built to/for-me houses, I-have-planted to/for-me vineyards."
+        },
+        {
+          "n": 5,
+          "t": "I-have-done to/for-me, gardens and-parks ; and-I-have-planted in-them tree-of all-of fruit."
+        },
+        {
+          "n": 6,
+          "t": "I-have-done to/for-me pools-of waters ; to/for-make-water from-them, wood-of springing-of trees."
+        },
+        {
+          "n": 7,
+          "t": "I-have-acquired servants and-maidservants, and-sons-of house he-has-been to/for-me ; also livestock cattle and-flock make-multiply has-been to/for-me, from-all-of that-they-have-been to/for-faces-of-me in-Jerusalem."
+        },
+        {
+          "n": 8,
+          "t": "I-have-gathered to/for-me also silver and-gold, and-possession-of kings and-the-provinces ; I-have-done to/for-me singing and-singing and-luxuries-of sons-of the-man concubine and-concubines."
+        },
+        {
+          "n": 9,
+          "t": "and-I-have-magnified and-I-have-made-add, from-all that-he-has-been to/for-faces-of-me in-Jerusalem ; even wisdom-of-me has-stood to/for-me."
+        },
+        {
+          "n": 10,
+          "t": "and-all who they-have-asked eyes-of-me, not I-have-reserved from-them ; not I-have-withholded heart-of-me from-all-of joy for heart-of-me glad from-all-of trouble-of-me, and-this has-been portion-of-me from-all-of trouble-of-me."
+        },
+        {
+          "n": 11,
+          "t": "I and-have-turned in-all-of deeds-of-me that-they-have-done hands-of-me, and-in-the-trouble that-have-toiled to/for-do ; and-behold the-all vanity and-longing-of spirit, and-naught advantage under the-sun."
+        },
+        {
+          "n": 12,
+          "t": "I and-have-turned to/for-see wisdom, and-madnesses and-folly ; for what the-man that-will-come after the-king, who already they-have-done-him."
+        },
+        {
+          "n": 13,
+          "t": "I and-have-seen, that-there advantage to/for-the-wisdom from the-folly ; like-advantage-of the-light from the-darkness."
+        },
+        {
+          "n": 14,
+          "t": "the-wise eyes-of-him in-head-of-him, and-the-fool in-the-darkness going ; I, and-have-known also that-accident one will-meet all-of-them."
+        },
+        {
+          "n": 15,
+          "t": "I and-have-said in-heart-of-me like-accident-of the-fool also I will-meet-me, and-to/for-what I have-wised then advantage ; and-I-have-spoken in-heart-of-me, that-also this vanity."
+        },
+        {
+          "n": 16,
+          "t": "for naught memorial-of to/for-the-wise with the-fool to/for-age ; that-in-already the-days the-coming the-all has-been-forgotten, and-how will-die the-wise with the-fool."
+        },
+        {
+          "n": 17,
+          "t": "and-I-have-hated the-lifes, for bad on-me the-deed, that-has-been-done under the-sun ; for the-all vanity and-longing-of spirit."
+        },
+        {
+          "n": 18,
+          "t": "I and-have-hated all-of trouble-of-me, that-I laborious under the-sun ; that-I-will-make-rest-him, to/for-the-man that-he-will-be after-me."
+        },
+        {
+          "n": 19,
+          "t": "and-who knowing is-it-wise fool, will-be or and-will-domineer in-all-of trouble-of-me, that-I-have-toiled that-and-I-have-wised under the-sun ; also this vanity."
+        },
+        {
+          "n": 20,
+          "t": "I and-have-turned to/for-despair heart-of-me ; on all-of the-trouble, that-I-have-toiled under the-sun."
+        },
+        {
+          "n": 21,
+          "t": "for there man that-trouble-of-him in-wisdom and-in-knowledge and-in-skill ; and-to/for-man that-not has-toiled in-him portion-of-him will-give-him, also this vanity and-evil many."
+        },
+        {
+          "n": 22,
+          "t": "for what being to/for-the-man in-all-of trouble-of-him, and-in-striving-of heart-of-him ; that-he laborious under the-sun."
+        },
+        {
+          "n": 23,
+          "t": "for all-of days-of-him pains and-vexation task-of-him, also in-the-night not has-lain heart-of-him ; also this vanity he."
+        },
+        {
+          "n": 24,
+          "t": "naught good in-the-man that-he-will-eat and-he-has-drunk, and-he-has-made-see soul-of-him good in-trouble-of-him ; also this I have-seen, for from-hand-of the-god he."
+        },
+        {
+          "n": 25,
+          "t": "for who will-eat and-who outside will-enjoy from-me."
+        },
+        {
+          "n": 26,
+          "t": "for to/for-man that-good to/for-faces-of-him, he-has-given wisdom and-knowledge and-joy ; and-to/for-the-sining task has-given to/for-gather and-to/for-gather to/for-give to/for-good to/for-faces-of the-god, also this vanity and-longing-of spirit."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "to/for-the-all time ; and-time to/for-all-of pleasure under the-heavens."
+        },
+        {
+          "n": 2,
+          "t": "time to/for-beget and-time to/for-die ; time to/for-plant, and-time to/for-uproot planted."
+        },
+        {
+          "n": 3,
+          "t": "time to/for-kill and-time to/for-heal, time to/for-break and-time to/for-build."
+        },
+        {
+          "n": 4,
+          "t": "time to/for-weep and-time to/for-laugh, time-of mourn and-time-of about."
+        },
+        {
+          "n": 5,
+          "t": "time to/for-make-throw stones, and-time-of gather stones ; time to/for-embrace, and-time to/for-remove from-embrace."
+        },
+        {
+          "n": 6,
+          "t": "time to/for-seek and-time to/for-perish, time to/for-keep and-time to/for-make-throw."
+        },
+        {
+          "n": 7,
+          "t": "time to/for-tear and-time to/for-sew, time to/for-silent and-time to/for-speak."
+        },
+        {
+          "n": 8,
+          "t": "time to/for-love and-time to/for-hate, time-of battle and-time-of peace."
+        },
+        {
+          "n": 9,
+          "t": "what advantage-of the-doing, in-in he laborious."
+        },
+        {
+          "n": 10,
+          "t": "I-have-seen the-task who god has-given to/for-sons-of the-man to/for-occupied in-him."
+        },
+        {
+          "n": 11,
+          "t": "the-all he-has-done beautiful in-time-of-him ; also the-age has-given in-heart-of-them, from-without-of who not the-man will-find the-deed who has-done the-god from-head and-until end."
+        },
+        {
+          "n": 12,
+          "t": "I-have-known, for naught good in-them ; that if to/for-rejoice, and-to/for-do good in-lifes-of-him."
+        },
+        {
+          "n": 13,
+          "t": "and-also all-of the-man that-will-eat and-has-drunk, and-has-seen good in-all-of trouble-of-him ; gift-of god he."
+        },
+        {
+          "n": 14,
+          "t": "I-have-known for all who will-do the-god he will-be to/for-age, on-him naught to/for-make-add, and-from-him naught to/for-dimish ; and-the-god has-done, that-they-will-fear from-faces-of-him."
+        },
+        {
+          "n": 15,
+          "t": "what he, that-has-been already and-who to/for-be already has-been ; and-the-god will-seek pursued."
+        },
+        {
+          "n": 16,
+          "t": "and-still I-have-seen under the-sun ; place-of the-justice there-ward the-wickedness, and-place-of the-righteousness there-ward the-wickedness."
+        },
+        {
+          "n": 17,
+          "t": "I have-said in-heart-of-me, the-just and-the-wicked, will-judge the-god ; for time to/for-all-of pleasure, and-on all-of the-deed there."
+        },
+        {
+          "n": 18,
+          "t": "I have-said in-heart-of-me, on cause-of sons-of the-man, to/for-purify-of-them the-god ; and-to/for-see, that-they animal they to/for-them."
+        },
+        {
+          "n": 19,
+          "t": "for accident sons-of the-man and-accident the-animal and-accident one to/for-them, like-death-of this thus death-of this, and-spirit one to/for-the-all ; and-advantage-of the-man from the-animal naught, for the-all vanity."
+        },
+        {
+          "n": 20,
+          "t": "the-all going toward place one ; the-all has-been from the-dust, and-the-all has-returned toward the-dust."
+        },
+        {
+          "n": 21,
+          "t": "who knowing spirit-of sons-of the-man, the-ascending he to/for-above-ward ; and-spirit-of the-animal, the-going he to/for-beneath to/for-the-land."
+        },
+        {
+          "n": 22,
+          "t": "and-I-have-seen for naught good from-whence the-man will-rejoice in-deeds-of-him, for he portion-of-him ; for who he-will-make-come-him to/for-see, in-what that-he-will-be after-him."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "I and-have-returned and-have-seen all-of the-oppressions, who done under the-sun ; and-behold tears-of the-oppressions and-naught to/for-them sorrying, and-from-hand-of oppressing-of-them strength, and-naught to/for-them sorrying."
+        },
+        {
+          "n": 2,
+          "t": "and-praise I the-dying that-already they-have-died ; from the-living, who they living still."
+        },
+        {
+          "n": 3,
+          "t": "and-good from-two-of-them, who still not he-has-been ; who not has-seen the-deed the-bad, who the-sun has-been-done under."
+        },
+        {
+          "n": 4,
+          "t": "I and-have-seen all-of trouble and-all-of skill-of the-deed, for he jealousy-of man from-neighbor-of-him ; also this vanity and-longing-of spirit."
+        },
+        {
+          "n": 5,
+          "t": "the-fool embracing hands-of-him, and-eating flesh-of-him."
+        },
+        {
+          "n": 6,
+          "t": "good, fullness-of palm-of quietness ; from-fullness-of palms trouble and-longing-of spirit."
+        },
+        {
+          "n": 7,
+          "t": "I and-have-returned and-have-seen vanity under the-sun."
+        },
+        {
+          "n": 8,
+          "t": "there one and-naught second also son and-brother naught to/for-him and-naught end to/for-all-of trouble-of-him, also eyes-of-him eye-of-him not will-satisfy riches ; and-to/for-who I laborious and-lacking soul-of-me from-welfare, also this vanity and-task bad he."
+        },
+        {
+          "n": 9,
+          "t": "good the-two from the-one ; who there to/for-them wages good in-trouble-of-them."
+        },
+        {
+          "n": 10,
+          "t": "that if they-will-fall, the-one he-will-make-rise companion-of-him ; lo-and-woe-him the-one that-he-will-fall, and-naught second to/for-make-rise-of-him."
+        },
+        {
+          "n": 11,
+          "t": "also if they-will-lie two and-he-has-warmed to/for-them ; and-to/for-one how he-will-conceive."
+        },
+        {
+          "n": 12,
+          "t": "and-if he-will-prevail-him the-one, the-two they-will-stand before-him ; and-the-thread the-threed, not in-haste will-be-teared."
+        },
+        {
+          "n": 13,
+          "t": "good youth poor and-wise ; from-king old and-fool, who not he-has-known to/for-be-warn still."
+        },
+        {
+          "n": 14,
+          "t": "for from-house-of the-binded he-has-exited to/for-reign ; for also in-kingdom-of-him he-has-been-begotten pooring."
+        },
+        {
+          "n": 15,
+          "t": "I-have-seen all-of the-living, the-going under the-sun ; with the-youth the-second, who will-stand under-him."
+        },
+        {
+          "n": 16,
+          "t": "naught end to/for-all-of the-people to/for-all who has-been to/for-faces-of-them, also the-last not they-will-rejoice in-him ; for also this vanity and-striving-of spirit."
+        },
+        {
+          "n": 17,
+          "t": "keep foots-of-you foot-of-you like-when you-will-walk toward house-of the-god, and-near to/for-hear, from-give the-fool sacrifice ; for naught-them knowing to/for-do bad."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "do-not let-dismay on lip-of-you and-heart-of-you do-not let-hasten to/for-make-exit word to/for-faces-of the-god ; for the-god in-the-heavens and-you on the-land, on thus words-of-you little let-be."
+        },
+        {
+          "n": 2,
+          "t": "for the-dream has-come in-abundance-of task ; and-voice-of fool in-abundance-of words."
+        },
+        {
+          "n": 3,
+          "t": "like-when you-will-vow vow to/for-god do-not let-delay to/for-complete-of-him, for naught pleasure in-the-fool ; who you-will-vow complete."
+        },
+        {
+          "n": 4,
+          "t": "good who not you-will-vow ; that-from-you-will-vow and-not you-will-complete."
+        },
+        {
+          "n": 5,
+          "t": "do-not let-give lip-of-you to/for-make-sin flesh-of-you, and-do-not let-say to/for-faces-of the-messenger, for unintentionally he ; to/for-what the-god will-angry on voice-of-you, and-has-destroyed deed-of hands-of-you."
+        },
+        {
+          "n": 6,
+          "t": "for in-abundance-of dreams and-vanities, and-words make-multiply ; for the-god fear."
+        },
+        {
+          "n": 7,
+          "t": "if oppression-of pooring and-violence-of justice and-righteousness you-will-see in-the-province, do-not let-astounded on the-pleasure ; for high on high keeping, and-high on-them."
+        },
+        {
+          "n": 8,
+          "t": "and-advantage-of land in-the-all he ; king to/for-field has-been-served."
+        },
+        {
+          "n": 9,
+          "t": "loving silver not will-satisfy silver, and-who loving in-the-crowd not produce ; also this vanity."
+        },
+        {
+          "n": 10,
+          "t": "in-multiply the-welfare, they-have-multiplied eating-of-her ; and-what skill to/for-masters-of-her, that if sight-of behold-of eyes-of-him."
+        },
+        {
+          "n": 11,
+          "t": "sweet sleep-of the-serving, if little and-if make-multiply will-eat ; and-the-abundance to/for-the-rich, naught-him making-rest to/for-him to/for-sleep."
+        },
+        {
+          "n": 12,
+          "t": "there evil weaking, I-have-seen under the-sun ; riches kept to/for-masters-of-him to/for-evil-of-him."
+        },
+        {
+          "n": 13,
+          "t": "the-riches the-he and-has-perished in-task bad ; son and-has-made-beget, and-naught in-hand-of-him anything."
+        },
+        {
+          "n": 14,
+          "t": "like-when he-has-exited from-belly-of mother-of-him, naked he-will-return to/for-walk that-like-he-has-come ; and-anything not he-will-lift in-trouble-of-him, that-he-will-make-walk in-hand-of-him."
+        },
+        {
+          "n": 15,
+          "t": "and-also this evil weaking, all close-of that-he-has-come thus he-will-walk ; and-what advantage to/for-him, that-will-toil to/for-the-spirit."
+        },
+        {
+          "n": 16,
+          "t": "also all-of days-of-him in-the-darkness will-eat ; and-has-provoked make-multiply and-sickness-of-him and-wrath."
+        },
+        {
+          "n": 17,
+          "t": "behold who I good have-seen who beautiful to/for-eat and-to/for-drink and-to/for-see welfare in-all-of trouble-of-him that-will-toil under the-sun number-of days-of lifes-of-him who has-given to/for-him the-god for he portion-of-him."
+        },
+        {
+          "n": 18,
+          "t": "also all-of the-man who has-given to/for-him the-god riches and-wealths and-has-made-domineer-him to/for-eat from-us and-to/for-lift portion-of-him, and-to/for-rejoice in-trouble-of-him ; this, gift-of god he."
+        },
+        {
+          "n": 19,
+          "t": "for not make-multiply, he-will-remember days-of lifes-of-him ; for the-god making-occupied in-joy-of heart-of-him."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "there evil, who I-have-seen under the-sun ; and-many he on the-man."
+        },
+        {
+          "n": 2,
+          "t": "man who will-give to/for-him the-god riches and-wealths and-glory and-naught-him lacking to/for-soul-of-him from-all who will-desire and-not the-god will-make-domineer-him to/for-eat from-us, for man foreign will-eat-him ; this vanity and-sickness bad he."
+        },
+        {
+          "n": 3,
+          "t": "if man will-make-beget hundred and-years many will-live and-many days-of years-of-him that-will-be and-soul-of-him not will-satisfy from the-welfare, and-also tomb not has-been to/for-him ; I-have-said, good from-us the-miscarriage."
+        },
+        {
+          "n": 4,
+          "t": "for in-the-vanity he-has-come and-in-the-darkness he-will-walk ; and-in-the-darkness name-of-him will-cover."
+        },
+        {
+          "n": 5,
+          "t": "also sun not has-seen and-not has-known ; quietness to/for-this from-this."
+        },
+        {
+          "n": 6,
+          "t": "and-except he-has-lived thousand years strokes, and-welfare not he-has-seen ; is-it-not toward place one the-all going."
+        },
+        {
+          "n": 7,
+          "t": "all-of trouble-of the-man to/for-lip-of-him ; and-also the-soul not will-be-filled."
+        },
+        {
+          "n": 8,
+          "t": "for what advantage to/for-the-wise from the-fool ; what to/for-the-afflicted knowing, to/for-go before the-living."
+        },
+        {
+          "n": 9,
+          "t": "good sight-of eyes from-go soul ; also this vanity and-longing-of spirit."
+        },
+        {
+          "n": 10,
+          "t": "what that-has-been already called name-of-him, and-known who he man ; and-not he-will-able to/for-judge, with that-make-prevail the-mighty from-him."
+        },
+        {
+          "n": 11,
+          "t": "for there words make-multiply making-multiply vanity ; what advantage to/for-the-man."
+        },
+        {
+          "n": 12,
+          "t": "for who knowing what good to/for-the-man in-the-lifes number-of days-of lifes-of vanity-of-him and-will-do-them like-the-shadow ; who who will-make-announce to/for-the-man, what the-sun will-be after-him under."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "good name from-oil good ; and-day-of the-death, from-day-of be-beget-of-him."
+        },
+        {
+          "n": 2,
+          "t": "good to/for-walk toward house-of mourning from-walk toward house-of feast, in-in, he end-of all-of the-man ; and-the-living will-give toward heart-of-him."
+        },
+        {
+          "n": 3,
+          "t": "good vexation from-laughter ; for in-evil-of heart will-improve faces."
+        },
+        {
+          "n": 4,
+          "t": "heart-of wise in-house-of mourning, and-heart-of fool in-house-of joy."
+        },
+        {
+          "n": 5,
+          "t": "good, to/for-hear rebuke-of wise ; from-man, hearing song-of fool."
+        },
+        {
+          "n": 6,
+          "t": "for like-voice-of the-thorns under the-pot, thus laughter-of the-fool ; and-also this vanity."
+        },
+        {
+          "n": 7,
+          "t": "for the-oppression will-boast wise ; and-he-will-perish heart gift."
+        },
+        {
+          "n": 8,
+          "t": "good end-of word from-first-of-him ; good slow-of spirit from-high-of spirit."
+        },
+        {
+          "n": 9,
+          "t": "do-not let-dismay in-spirit-of-you to/for-provoke ; for vexation, in-bosom-of fool will-rest."
+        },
+        {
+          "n": 10,
+          "t": "do-not let-say what he-has-been, that-the-days the-first, have-been good from-these ; for not from-wisdom you-have-asked on this."
+        },
+        {
+          "n": 11,
+          "t": "good wisdom with inheritance ; and-advantage to/for-seeing-of the-sun."
+        },
+        {
+          "n": 12,
+          "t": "for in-shadow the-wisdom in-shadow the-silver ; and-advantage-of knowledge, the-wisdom will-live masters-of-her."
+        },
+        {
+          "n": 13,
+          "t": "see deed-of the-god ; for who he-will-able to/for-straight, who he-has-perverted-him."
+        },
+        {
+          "n": 14,
+          "t": "in-day-of welfare be in-good, and-in-day-of evil see ; also this to/for-close-of this the-god has-done, on cause-of that-not will-find the-man after-him anything."
+        },
+        {
+          "n": 15,
+          "t": "the-all I-have-seen in-days-of vanity-of-me ; there just perishing in-righteousness-of-him, and-there wicked, making-prolong in-evil-of-him."
+        },
+        {
+          "n": 16,
+          "t": "do-not let-be just make-multiply, and-do-not let-wise advantage ; to/for-what you-will-desolate."
+        },
+        {
+          "n": 17,
+          "t": "do-not let-wrong make-multiply and-do-not let-be fool ; to/for-what you-will-die in-not time-of-you."
+        },
+        {
+          "n": 18,
+          "t": "good who you-will-grasp in-this, and-also from-this do-not let-make-rest hand-of-you ; for afraid-of god will-exit all-of-them."
+        },
+        {
+          "n": 19,
+          "t": "the-wisdom will-strong to/for-the-wise ; from-ten domineering, who they-have-been in-the-city."
+        },
+        {
+          "n": 20,
+          "t": "for man, naught just in-the-land ; who he-will-do good and-not he-will-sin."
+        },
+        {
+          "n": 21,
+          "t": "also to/for-all-of the-words who they-will-speak, do-not let-give heart-of-you ; who not you-will-hear servant-of-you lightening-of-you."
+        },
+        {
+          "n": 22,
+          "t": "for also strokes many heart-of-you has-known ; who also you have-lightened another."
+        },
+        {
+          "n": 23,
+          "t": "all-of this I-have-tested in-the-wisdom ; I-have-said let-me-wise, and-he far from-me."
+        },
+        {
+          "n": 24,
+          "t": "far what that-he-has-been ; and-deep deep who he-will-find-him."
+        },
+        {
+          "n": 25,
+          "t": "I have-turned and-heart-of-me to/for-know and-to/for-spy, and-seek wisdom and-explanation ; and-to/for-know wickedness loin, and-the-folly madnesses."
+        },
+        {
+          "n": 26,
+          "t": "and-finding I bitter from-death the-woman who he nets and-nets heart-of-her bonds hands-of-her ; good to/for-faces-of the-god he-will-be-escaped from-her, and-sining he-will-be-captured in-her."
+        },
+        {
+          "n": 27,
+          "t": "see this I-have-found, she-has-said preacher ; one to/for-one to/for-find explanation."
+        },
+        {
+          "n": 28,
+          "t": "who still soul-of-me has-sought and-not I-have-found ; man one from-thousand I-have-found, and-woman in-all-of these not I-have-found."
+        },
+        {
+          "n": 29,
+          "t": "to/for-alone see this I-have-found, who the-god has-done the-man upright ; and-they have-sought inventions many."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "who like-the-wise, and-who knowing interpretation-of word ; wisdom-of man will-make-shine faces-of-him, and-strength-of faces-of-him will-change."
+        },
+        {
+          "n": 2,
+          "t": "I lip-of king keep, and-on, cause-of oath-of god."
+        },
+        {
+          "n": 3,
+          "t": "do-not let-be-dismayed from-faces-of-him you-will-walk, do-not let-stand in-word bad ; for all who will-delight will-do."
+        },
+        {
+          "n": 4,
+          "t": "in-in word-of king power ; and-who he-will-say to/for-him what you-will-do."
+        },
+        {
+          "n": 5,
+          "t": "keeping-of commandment, not word bad will-know ; heart wise will-know and-time and-justice,."
+        },
+        {
+          "n": 6,
+          "t": "for to/for-all-of pleasure, there time and-justice ; for evil-of the-man many on-him."
+        },
+        {
+          "n": 7,
+          "t": "for naught-him knowing what that-he-will-be ; for like-when he-will-be, who he-will-make-announce to/for-him."
+        },
+        {
+          "n": 8,
+          "t": "naught man domineering in-the-spirit to/for-restrain the-spirit, and-naught power in-day-of the-death, and-naught deputation in-the-battle ; and-not wickedness will-escape masters-of-him."
+        },
+        {
+          "n": 9,
+          "t": "all-of this I-have-seen and-give heart-of-me, to/for-all-of deed, who the-sun ; has-been-done under time who has-domineered the-man in-man to/for-evil to/for-him."
+        },
+        {
+          "n": 10,
+          "t": "and-in-thus I-have-seen wicked buried and-they-have-come and-from-place-of holy they-will-go, and-they-will-forget in-the-city who right they-have-done ; also this vanity."
+        },
+        {
+          "n": 11,
+          "t": "who naught edict-of deed-of the-evil has-been-done, haste ; on thus heart-of sons-of the-man has-filled in-them to/for-do bad."
+        },
+        {
+          "n": 12,
+          "t": "who sining doing bad hundred-of and-making-prolong to/for-him ; for also knowing I, who he-will-be good to/for-fear-of the-god, who they-will-fear from-faces-of-him."
+        },
+        {
+          "n": 13,
+          "t": "and-good not he-will-be to/for-the-wicked, and-not he-will-make-prolong days like-the-shadow ; who naught-him afraid from-faces-of god."
+        },
+        {
+          "n": 14,
+          "t": "there vanity who has-been-done on the-land who there just who making-touch toward-them like-deed-of the-wicked, and-there wicked, that-making-touch toward-them like-deed-of the-just ; I-have-said, that-also this vanity."
+        },
+        {
+          "n": 15,
+          "t": "I and-have-praised the-joy, who naught good to/for-the-man under the-sun, that if to/for-eat and-to/for-drink and-to/for-rejoice ; and-he will-join-him in-trouble-of-him days-of lifes-of-him who the-god has-given to/for-him under the-sun."
+        },
+        {
+          "n": 16,
+          "t": "like-when I-have-given heart-of-me to/for-know wisdom, and-to/for-see the-task, who the-land ; has-been-done on for also in-the-day and-in-the-night, sleep, in-eyes-of-him naught-him seeing."
+        },
+        {
+          "n": 17,
+          "t": "and-I-have-seen all-of deed-of the-god for not the-man will-able to/for-find the-deed who has-been-done under the-sun, that-which who will-toil the-man to/for-seek and-not will-find ; and-also if he-will-say the-wise to/for-know, not he-will-able to/for-find."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "for all-of this I-have-given toward heart-of-me and-to/for-explain all-of this, who the-just and-the-wise and-works-of-them in-hand-of the-god ; also love also hating naught knowing the-man, the-all to/for-faces-of-them."
+        },
+        {
+          "n": 2,
+          "t": "the-all like-when to/for-the-all accident one to/for-the-just and-to/for-the-wicked to/for-the-good and-to/for-the-pure and-to/for-the-unclean, and-to/for-the-sacrificing, and-to/for-who naught-him sacrificing ; like-the-good like-the-sining, the-sweared, like-when oath fearing."
+        },
+        {
+          "n": 3,
+          "t": "this evil in-all who the-sun, has-been-done under for accident one to/for-the-all ; and-also heart-of sons-of the-man has-filled bad and-madnesses in-heart-of-them in-lifes-of-them, and-after-him toward the-dying."
+        },
+        {
+          "n": 4,
+          "t": "for who who all-of the-living will-choose will-unite, toward there trust ; for to/for-dog living he good, from the-lion the-dying."
+        },
+        {
+          "n": 5,
+          "t": "for the-living knowing that-they-will-die ; and-the-dying naught-them knowing anything and-naught still to/for-them wages, for has-been-forgotten memorial-of-them."
+        },
+        {
+          "n": 6,
+          "t": "also love-of-them also hating-of-them also jealousy-of-them already has-perished ; and-portion naught to/for-them still to/for-age, in-all who has-been-done under the-sun."
+        },
+        {
+          "n": 7,
+          "t": "walk eat in-joy food-of-you, and-drink in-heart-of good wine-of-you ; for already, the-god has-accepted deeds-of-you."
+        },
+        {
+          "n": 8,
+          "t": "in-all-of garments-of-you white ; will-be time, and-oil on head-of-you do-not let-lack."
+        },
+        {
+          "n": 9,
+          "t": "see lifes with woman who you-have-loved all-of days-of lifes-of vanity-of-you, who has-given to/for-you under the-sun, all-of days-of vanity-of-you ; for he portion-of-you in-the-lifes, and-in-trouble-of-you, who you laborious under the-sun."
+        },
+        {
+          "n": 10,
+          "t": "all who hand-of-you will-find to/for-do in-strength-of-you do ; for naught deed and-explanation and-knowledge and-wisdom, in-hell, who you going there-ward."
+        },
+        {
+          "n": 11,
+          "t": "I-have-returned and-see under the-sun for not to/for-the-swift the-race and-not to/for-the-mighty the-battle and-also not to/for-the-wise food and-also not to/for-the-discerned riches, and-also not to/for-the-knowing favor ; for time and-chance will-meet all-of-them."
+        },
+        {
+          "n": 12,
+          "t": "for also not the-man will-know time-of-him like-the-fishes that-grasped in-net bad, and-like-the-birds, the-grasped in-the-snare ; like-they snared sons-of the-man, to/for-time-of bad, that-like-she-will-fall on-them suddenly."
+        },
+        {
+          "n": 13,
+          "t": "also this I-have-seen wisdom under the-sun ; and-great he toward-me."
+        },
+        {
+          "n": 14,
+          "t": "city small, and-mans in-her little ; king great and-has-come toward-her and-has-turned her, and-has-built on-her siegeworks great."
+        },
+        {
+          "n": 15,
+          "t": "man poor wise, and-has-found in-her and-has-escaped he the-city in-wisdom-of-him ; and-man not has-remembered, the-man the-poor the-he."
+        },
+        {
+          "n": 16,
+          "t": "I good and-have-said, wisdom from-might ; and-wisdom-of the-poor despised, and-words-of-him naught-them heard."
+        },
+        {
+          "n": 17,
+          "t": "words-of wise, in-quietness heard ; from-outcry-of ruling in-the-fool."
+        },
+        {
+          "n": 18,
+          "t": "good wisdom from-articles-of battle ; and-sining one, he-will-perish welfare make-multiply."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "flies-of death, will-make-stink oil-of will-make-bubble mixing ; precious from-wisdom from-glory folly-of little."
+        },
+        {
+          "n": 2,
+          "t": "heart wise to/for-right-of-him, and-heart fool to/for-left-of-him."
+        },
+        {
+          "n": 3,
+          "t": "and-also in-the-way that-like-the-fool that-like-fool going heart-of-him has-lackinged ; fool he and-has-said to/for-the-all."
+        },
+        {
+          "n": 4,
+          "t": "if spirit-of the-ruling will-ascend on-you, place-of-you do-not let-make-rest ; for healing, will-make-rest sins great."
+        },
+        {
+          "n": 5,
+          "t": "there evil, I-have-seen under the-sun ; like-unintentionally, that-exiting from-faces-of the-domineering."
+        },
+        {
+          "n": 6,
+          "t": "the-folly has-been-given, in-the-heights many ; and-rich in-the-poverty they-will-dwell."
+        },
+        {
+          "n": 7,
+          "t": "I-have-seen servants on horses ; and-officials going like-servants on the-land."
+        },
+        {
+          "n": 8,
+          "t": "searching pit in-him will-fall ; and-breaking wall will-bite-him serpent."
+        },
+        {
+          "n": 9,
+          "t": "making-set stones, he-will-be-hurted in-them ; breaking trees he-will-be-endangered in-them."
+        },
+        {
+          "n": 10,
+          "t": "if the-iron and-he has-blunted not faces has-lightened, and-heleches will-prevail ; and-advantage-of make-succeed wisdom."
+        },
+        {
+          "n": 11,
+          "t": "if the-serpent will-bite in-not charm ; and-naught advantage, to/for-master-of the-tongue."
+        },
+        {
+          "n": 12,
+          "t": "words-of lip-of wise favor ; and-lipses-of fool she-will-swallow-him."
+        },
+        {
+          "n": 13,
+          "t": "beginning-of words-of lip-of-him folly ; and-end-of lip-of-him, madness bad."
+        },
+        {
+          "n": 14,
+          "t": "and-the-fool will-make-multiply words ; not the-man will-know what that-will-be, and-who will-be after-him, who will-make-announce to/for-him."
+        },
+        {
+          "n": 15,
+          "t": "trouble-of the-fool will-weary-him ; who not he-has-known to/for-walk toward city."
+        },
+        {
+          "n": 16,
+          "t": "woe to/for-you-f land, that-king-of-you-f youth ; and-officials-of-you-f in-the-morning will-eat."
+        },
+        {
+          "n": 17,
+          "t": "blesseds-of-you-f land, that-king-of-you-f son-of nobles ; and-officials-of-you-f in-the-time will-eat, in-might and-not in-the-drunkenness."
+        },
+        {
+          "n": 18,
+          "t": "in-sluggishnesses the-rafter will-be-sinked ; and-in-idleness-of the-house will-drip hands."
+        },
+        {
+          "n": 19,
+          "t": "to/for-laughter doing food, and-wine will-rejoice life ; and-the-silver will-answer the-all."
+        },
+        {
+          "n": 20,
+          "t": "also in-knowledge-of-you king do-not let-lighten, and-in-chambers-of bed-of-you, do-not let-lighten rich ; for bird-of the-heavens will-make-walk the-voice, and-master-of the-wings wings will-make-announce word."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "send food-of-you on faces-of the-waters ; for in-abundance-of the-days you-will-find-him."
+        },
+        {
+          "n": 2,
+          "t": "give portion to/for-seven and-also to/for-eight ; for not you-will-know, what will-be evil on the-land."
+        },
+        {
+          "n": 3,
+          "t": "if the-clouds will-be-filled rain on the-land will-make-empty, and-if tree will-fall in-the-south and-if in-the-north ; place-of that-will-fall the-tree there will-be."
+        },
+        {
+          "n": 4,
+          "t": "keeping-of spirit not will-sow ; and-seeing in-the-clouds not he-will-reap."
+        },
+        {
+          "n": 5,
+          "t": "like-when naught-you knowing what way-of the-spirit, like-bones in-belly-of the-full ; thus not you-will-know deed-of the-god, who he-will-do the-all."
+        },
+        {
+          "n": 6,
+          "t": "in-the-morning sow seed-of-you, and-to/for-the-evening do-not let-make-rest hand-of-you ; for naught-you knowing where this he-will-succeed is-it-this or this, and-if two-of-them like-one good."
+        },
+        {
+          "n": 7,
+          "t": "and-sweet the-light ; and-good to/for-the-eyes to/for-see the-sun."
+        },
+        {
+          "n": 8,
+          "t": "that if years make-multiply the-man will-live in-all-of-them let-rejoice ; and-let-remember days-of the-darkness, for make-multiply they-will-be all that-has-come vanity."
+        },
+        {
+          "n": 9,
+          "t": "rejoice youth in-youths-of-you and-let-make-improve-you heart-of-you in-days-of youths-of-you, and-go in-ways-of heart-of-you, and-in-sights-of eyes-of-you ; and-know, for on all-of these will-make-come-you the-god in-the-justice."
+        },
+        {
+          "n": 10,
+          "t": "and-make-turn vexation from-heart-of-you, and-make-pass evil from-flesh-of-you ; for the-youth and-the-hair vanity."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "and-remember creating-of-you, in-days-of youths-of-you ; until who not days-of the-evil will-come, and-have-made-touch years, who you-will-say, naught to/for-me in-them pleasure."
+        },
+        {
+          "n": 2,
+          "t": "until who not the-sun and-the-light will-darken, and-the-moon and-the-stars ; the-clouds and-have-returned after the-rain."
+        },
+        {
+          "n": 3,
+          "t": "in-the-day that-will-tremble keeping-of the-house, mans-of the-helech and-have-self-perverted ; the-grinds and-have-ceased for have-diminished, and-have-darkened the-seeing in-the-windows."
+        },
+        {
+          "n": 4,
+          "t": "and-they-have-been-shuted doors in-the-street, in-low voice-of the-mill ; and-will-rise to/for-voice-of the-bird, and-they-will-be-bowed all-of daughters-of the-song."
+        },
+        {
+          "n": 5,
+          "t": "also from-high and-terrors will-fear in-the-way, and-will-make-spurn the-almond and-will-bear the-locust, and-will-make-break the-desire ; for going the-man toward house-of age-of-him, and-they-have-turned in-the-street the-mourning."
+        },
+        {
+          "n": 6,
+          "t": "until who not mahalab-of the-silver will-remove will-be-bound, and-will-crush bowl-of the-gold ; jar and-will-be-breaked on the-spring, and-has-been-crushed the-wheel toward the-pit."
+        },
+        {
+          "n": 7,
+          "t": "the-dust and-will-return on the-land that-like-has-been ; and-the-spirit will-return, toward the-god who has-given-her."
+        },
+        {
+          "n": 8,
+          "t": "the-preacher has-said vanity-of vanities, the-all vanity."
+        },
+        {
+          "n": 9,
+          "t": "and-advantage, that-has-been preacher wise ; still he-has-learned knowledge the-people, and-he-has-pondered and-he-has-searched, he-has-straighted proverbs make-multiply."
+        },
+        {
+          "n": 10,
+          "t": "preacher has-sought, to/for-find words-of pleasure ; and-written uprightness words-of truth."
+        },
+        {
+          "n": 11,
+          "t": "words-of wise like-the-goads, and-like-nails planted masters-of collections ; they-have-been-given from-pasturing one."
+        },
+        {
+          "n": 12,
+          "t": "and-advantage from-they son-of-me be-warned ; do books make-multiply naught end, and-study make-multiply weariness-of flesh."
+        },
+        {
+          "n": 13,
+          "t": "end-of word the-all has-been-heard ; the-god fear and-commandments-of-him keep, for this all-of the-man."
+        },
+        {
+          "n": 14,
+          "t": "for all-of deed, the-god will-make-come in-justice on all-of concealed ; if good and-if bad."
+        }
+      ]
+    }
+  ]
+}

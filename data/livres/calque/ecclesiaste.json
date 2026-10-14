@@ -1,0 +1,970 @@
+{
+  "id": "ecclesiaste",
+  "title": "L'Ecclésiaste",
+  "original_title": "Ecclésiaste",
+  "short": "Ec",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "paroles-de prédicateur fils-de David, roi dans-Jérusalem."
+        },
+        {
+          "n": 2,
+          "t": "prédicateur, a-dit vanity-de vanitys, vanity-de vanitys le-tout vanity."
+        },
+        {
+          "n": 3,
+          "t": "quoi avantage à/pour-le-homme ; dans-tout-de peiner-de-lui, le-soleil que-travaillera sous."
+        },
+        {
+          "n": 4,
+          "t": "période marchant et-période venant, et-la-terre à/pour-durée restante."
+        },
+        {
+          "n": 5,
+          "t": "le-soleil et-a-apparaîtu et-est-venu le-soleil ; et-vers lieu-de-lui, reniflant apparaîtant lui là."
+        },
+        {
+          "n": 6,
+          "t": "marchant vers south, et-tournant vers nord ; tournant tournant marchant le-esprit, et-sur alentours-de-lui retournant le-esprit."
+        },
+        {
+          "n": 7,
+          "t": "tout-de les-torrents marchants vers le-mer, et-le-mer néant-lui plein ; vers lieu-de que-les-torrents marchants, là eux retournants à/pour-aller."
+        },
+        {
+          "n": 8,
+          "t": "tout-de les-paroles lassants, non vaincra homme à/pour-parler ; non œil rassasiera à/pour-voir, et-non sera-remplie oreille depuis-écouter."
+        },
+        {
+          "n": 9,
+          "t": "quoi lui que-a-été que-sera, et-quoi lui que-a-été-fait, que-sera-fait ; et-néant tout-de nouveau sous le-soleil."
+        },
+        {
+          "n": 10,
+          "t": "substance parole que-dira vois celui-ci nouveau lui ; déjà il-a-été à/pour-durées, qui il-a-été depuis-faces-de-nous."
+        },
+        {
+          "n": 11,
+          "t": "néant souvenir-de à/pour-les-premiers ; et-aussi à/pour-les-suivants que-ils-seront non souvenir, sera à/pour-eux avec que-ils-seront à/pour-la-suivante."
+        },
+        {
+          "n": 12,
+          "t": "je prédicateur ai-été roi sur Israël dans-Jérusalem."
+        },
+        {
+          "n": 13,
+          "t": "et-je-ai-donné cœur-de-moi à/pour-fréquenter et-à/pour-espionner dans-la-sagesse, sur tout qui a-été-fait sous les-ciels ; lui occupation bad a-donné dieu à/pour-fils-de le-homme à/pour-ghwyaer dans-lui."
+        },
+        {
+          "n": 14,
+          "t": "je-ai-vu tout-de les-actes, que-ils-ont-été-fait sous le-soleil ; et-voici le-tout vanity et-ardent-de esprit."
+        },
+        {
+          "n": 15,
+          "t": "ghnsé non il-vaincra à/pour-redresser ; et-deficiency non vaincra à/pour-être-calculer."
+        },
+        {
+          "n": 16,
+          "t": "je ai-parlé avec cœur-de-moi à/pour-dire, je voici ai-fait-croître et-ai-fait-ajouter sagesse, sur tout qui a-été à/pour-faces-de-moi sur Jérusalem ; et-cœur-de-moi a-vu faire-multiplier sagesse et-connaissance."
+        },
+        {
+          "n": 17,
+          "t": "et-je-ai-donné-hé cœur-de-moi à/pour-savoir sagesse, et-savoir folies et-folly ; je-ai-su, que-aussi celui-ci lui effort-de esprit."
+        },
+        {
+          "n": 18,
+          "t": "car dans-multitude-de sagesse nombreux-de chagrin ; et-fera-ajouter connaissance douleur fera-ajouter."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "je ai-dit dans-cœur-de-moi, va-hé donc essaye-toi dans-gaieté et-vois dans-bien ; et-voici aussi lui vanity."
+        },
+        {
+          "n": 2,
+          "t": "à/pour-rire je-ai-dit brillé ; et-à/pour-gaieté quoi this faisante."
+        },
+        {
+          "n": 3,
+          "t": "je-ai-espionné dans-cœur-de-moi, à/pour-traîner dans-le-vin chair-de-moi ; et-cœur-de-moi menant dans-la-sagesse et-à/pour-gjjer dans-ghdsb, jusqu'à qui je-verrai où celui-ci bon à/pour-fils-de le-homme qui les-ciels, feront sous nombre-de jours-de vies-de-eux."
+        },
+        {
+          "n": 4,
+          "t": "je-ai-fait-croître actes-de-moi ; je-ai-bâti à/pour-moi maisons, je-ai-planté à/pour-moi vignobles."
+        },
+        {
+          "n": 5,
+          "t": "je-ai-fait à/pour-moi, jardins et-parcs ; et-je-ai-planté dans-eux arbre-de tout-de fruit."
+        },
+        {
+          "n": 6,
+          "t": "je-ai-fait à/pour-moi étangs-de eaux ; à/pour-faire-abreuver depuis-eux, forêt-de poussant-de arbres."
+        },
+        {
+          "n": 7,
+          "t": "je-ai-acquis serviteurs et-bonnes, et-fils-de maison il-a-été à/pour-moi ; aussi bétail bœufs et-troupeau faire-multiplier a-été à/pour-moi, depuis-tout-de que-ils-ont-été à/pour-faces-de-moi dans-Jérusalem."
+        },
+        {
+          "n": 8,
+          "t": "je-ai-rassemblé à/pour-moi aussi argent et-or, et-propriété-de rois et-les-provinces ; je-ai-fait à/pour-moi chantants et-chantantes et-exquis-de fils-de le-homme concubine et-concubines."
+        },
+        {
+          "n": 9,
+          "t": "et-je-ai-crû et-je-ai-fait-ajouter, depuis-tout que-il-a-été à/pour-faces-de-moi dans-Jérusalem ; même sagesse-de-moi a-resté à/pour-moi."
+        },
+        {
+          "n": 10,
+          "t": "et-tout qui ils-ont-demandé yeux-de-moi, non je-ai-réservé depuis-eux ; non je-ai-reteni cœur-de-moi depuis-tout-de gaieté car cœur-de-moi joyeux depuis-tout-de peiner-de-moi, et-celui-ci a-été part-de-moi depuis-tout-de peiner-de-moi."
+        },
+        {
+          "n": 11,
+          "t": "je et-ai-tourné dans-tout-de actes-de-moi que-ils-ont-fait mains-de-moi, et-dans-le-peiner que-ai-travaillé à/pour-faire ; et-voici le-tout vanity et-ardent-de esprit, et-néant avantage sous le-soleil."
+        },
+        {
+          "n": 12,
+          "t": "je et-ai-tourné à/pour-voir sagesse, et-folies et-ghdsb ; car quoi le-homme que-viendra après le-roi, qui déjà ils-ont-fait-lui."
+        },
+        {
+          "n": 13,
+          "t": "je et-ai-vu, que-substance avantage à/pour-la-sagesse depuis la-ghdsb ; comme-avantage-de la-lumière depuis le-ténèbre."
+        },
+        {
+          "n": 14,
+          "t": "le-sage yeux-de-lui dans-tête-de-lui, et-le-insensé dans-le-ténèbre marchant ; je, et-ai-su aussi que-accident un gjnlaera tout-de-eux."
+        },
+        {
+          "n": 15,
+          "t": "je et-ai-dit dans-cœur-de-moi comme-accident-de le-insensé aussi je gjnlaera-moi, et-à/pour-quoi je ai-gcpeé alors avantage ; et-je-ai-parlé dans-cœur-de-moi, que-aussi celui-ci vanity."
+        },
+        {
+          "n": 16,
+          "t": "car néant souvenir-de à/pour-le-sage avec le-insensé à/pour-durée ; que-dans-déjà les-jours les-venants le-tout a-été-ignoré, et-how mourra le-sage avec le-insensé."
+        },
+        {
+          "n": 17,
+          "t": "et-je-ai-gkzré les-vies, car bad sur-moi le-acte, que-a-été-fait sous le-soleil ; car le-tout vanity et-ardent-de esprit."
+        },
+        {
+          "n": 18,
+          "t": "je et-ai-gkzré tout-de peiner-de-moi, que-je laborious sous le-soleil ; que-je-ferai-reposer-lui, à/pour-le-homme que-il-sera après-moi."
+        },
+        {
+          "n": 19,
+          "t": "et-lequel sachant est-ce-sage fou, sera ou et-dominera dans-tout-de peiner-de-moi, que-je-ai-travaillé que-et-je-ai-gcpeé sous le-soleil ; aussi celui-ci vanity."
+        },
+        {
+          "n": 20,
+          "t": "je et-ai-tourné à/pour-désespérer cœur-de-moi ; sur tout-de le-peiner, que-je-ai-travaillé sous le-soleil."
+        },
+        {
+          "n": 21,
+          "t": "car substance homme que-peiner-de-lui dans-sagesse et-dans-connaissance et-dans-adresse ; et-à/pour-homme que-non a-travaillé dans-lui part-de-lui donnera-lui, aussi celui-ci vanity et-mal nombreuse."
+        },
+        {
+          "n": 22,
+          "t": "car quoi devenissant à/pour-le-homme dans-tout-de peiner-de-lui, et-dans-effort-de cœur-de-lui ; que-lui laborious sous le-soleil."
+        },
+        {
+          "n": 23,
+          "t": "car tout-de jours-de-lui douleurs et-chagrin occupation-de-lui, aussi dans-le-nuit non a-menti cœur-de-lui ; aussi celui-ci vanity lui."
+        },
+        {
+          "n": 24,
+          "t": "néant bon dans-le-homme que-il-mangera et-il-a-bu, et-il-a-fait-voir âme-de-lui bien dans-peiner-de-lui ; aussi this je ai-vu, car depuis-main-de le-dieu lui."
+        },
+        {
+          "n": 25,
+          "t": "car lequel mangera et-lequel dehors gclwbera depuis-moi."
+        },
+        {
+          "n": 26,
+          "t": "car à/pour-homme que-bon à/pour-faces-de-lui, il-a-donné sagesse et-connaissance et-gaieté ; et-à/pour-le-péchant occupation a-donné à/pour-recueillir et-à/pour-rassembler à/pour-donner à/pour-bon à/pour-faces-de le-dieu, aussi celui-ci vanity et-ardent-de esprit."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "à/pour-le-tout gceg ; et-heure à/pour-tout-de pleasure sous les-ciels."
+        },
+        {
+          "n": 2,
+          "t": "heure à/pour-engendrer et-heure à/pour-mourir ; heure à/pour-planter, et-heure à/pour-giauaer planté."
+        },
+        {
+          "n": 3,
+          "t": "heure à/pour-tuer et-heure à/pour-gkbger, heure à/pour-éclater et-heure à/pour-bâtir."
+        },
+        {
+          "n": 4,
+          "t": "heure à/pour-pleurer et-heure à/pour-rire, heure-de gémir et-heure-de gkczer."
+        },
+        {
+          "n": 5,
+          "t": "heure à/pour-faire-jeter pierres, et-heure-de rassembler pierres ; heure à/pour-étreindre, et-heure à/pour-éloigner depuis-étreindre."
+        },
+        {
+          "n": 6,
+          "t": "heure à/pour-chercher et-heure à/pour-périr, heure à/pour-garder et-heure à/pour-faire-jeter."
+        },
+        {
+          "n": 7,
+          "t": "heure à/pour-déchirer et-heure à/pour-coudre, heure à/pour-gddfer et-heure à/pour-parler."
+        },
+        {
+          "n": 8,
+          "t": "heure à/pour-aimer et-heure à/pour-gkzrer, heure-de guerre et-heure-de paix."
+        },
+        {
+          "n": 9,
+          "t": "quoi avantage-de le-faisant, dans-in lui laborious."
+        },
+        {
+          "n": 10,
+          "t": "je-ai-vu le-occupation qui dieu a-donné à/pour-fils-de le-homme à/pour-ghwyaer dans-lui."
+        },
+        {
+          "n": 11,
+          "t": "le-tout il-a-fait belle dans-heure-de-lui ; aussi le-durée a-donné dans-cœur-de-eux, depuis-nul-de qui non le-homme trouvera le-acte qui a-fait le-dieu depuis-tête et-jusqu'à fin."
+        },
+        {
+          "n": 12,
+          "t": "je-ai-su, car néant bon dans-eux ; pour gsxb à/pour-réjouir, et-à/pour-faire bon dans-vies-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "et-aussi tout-de le-homme que-mangera et-a-bu, et-a-vu bien dans-tout-de peiner-de-lui ; don-de dieu lui."
+        },
+        {
+          "n": 14,
+          "t": "je-ai-su car tout qui fera le-dieu lui sera à/pour-durée, sur-lui néant à/pour-faire-ajouter, et-depuis-lui néant à/pour-gbkaer ; et-le-dieu a-fait, que-ils-craindront depuis-faces-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "quoi lui, que-a-été déjà et-qui à/pour-être déjà a-été ; et-le-dieu cherchera poursuivu."
+        },
+        {
+          "n": 16,
+          "t": "et-encore je-ai-vu sous le-soleil ; lieu-de le-jugement là-vers le-tort, et-lieu-de le-justice là-vers le-tort."
+        },
+        {
+          "n": 17,
+          "t": "je ai-dit dans-cœur-de-moi, le-juste et-le-méchant, jugera le-dieu ; car heure à/pour-tout-de pleasure, et-sur tout-de le-acte là."
+        },
+        {
+          "n": 18,
+          "t": "je ai-dit dans-cœur-de-moi, sur cause-de fils-de le-homme, à/pour-purifier-de-eux le-dieu ; et-à/pour-voir, que-eux bête eux à/pour-eux."
+        },
+        {
+          "n": 19,
+          "t": "car accident fils-de le-homme et-accident la-bête et-accident un à/pour-eux, comme-mort-de celui-ci ainsi mort-de celui-ci, et-esprit un à/pour-le-tout ; et-abondance-de le-homme depuis la-bête néant, car le-tout vanity."
+        },
+        {
+          "n": 20,
+          "t": "le-tout marchant vers lieu un ; le-tout a-été depuis le-poussière, et-le-tout est-retourné vers le-poussière."
+        },
+        {
+          "n": 21,
+          "t": "lequel sachant esprit-de fils-de le-homme, la-montante lui à/pour-dessus-vers ; et-esprit-de la-bête, la-descendante lui à/pour-beneath à/pour-la-terre."
+        },
+        {
+          "n": 22,
+          "t": "et-je-ai-vu car néant bon depuis-whence le-homme réjouira dans-actes-de-lui, car lui part-de-lui ; car lequel il-fera-venir-lui à/pour-voir, dans-quoi que-il-sera après-lui."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "je et-suis-retourné et-ai-vu tout-de les-oppressions, qui faits sous le-soleil ; et-voici larmes-de les-oppressions et-néant à/pour-eux consolant, et-depuis-main-de violants-de-eux force, et-néant à/pour-eux consolant."
+        },
+        {
+          "n": 2,
+          "t": "et-calmer je les-mourants que-déjà ils-sont-mort ; depuis les-vivants, qui eux vivants cependant."
+        },
+        {
+          "n": 3,
+          "t": "et-bon depuis-deux-de-eux, qui cependant non il-a-été ; qui non a-vu le-acte le-bad, qui le-soleil a-été-fait sous."
+        },
+        {
+          "n": 4,
+          "t": "je et-ai-vu tout-de peiner et-tout-de adresse-de le-acte, car lui jalousie-de homme depuis-ami-de-lui ; aussi celui-ci vanity et-ardent-de esprit."
+        },
+        {
+          "n": 5,
+          "t": "le-insensé étreindant mains-de-lui, et-mangeant chair-de-lui."
+        },
+        {
+          "n": 6,
+          "t": "bon, plénitude-de palme-de tranquillité ; depuis-plénitude-de poignées peiner et-ardent-de esprit."
+        },
+        {
+          "n": 7,
+          "t": "je et-suis-retourné et-ai-vu vanity sous le-soleil."
+        },
+        {
+          "n": 8,
+          "t": "substance un et-néant second aussi fils et-frère néant à/pour-lui et-néant fin à/pour-tout-de peiner-de-lui, aussi yeux-de-lui œil-de-lui non rassasiera richesse ; et-à/pour-lequel je laborious et-diminuant âme-de-moi depuis-agréable, aussi celui-ci vanity et-occupation bad lui."
+        },
+        {
+          "n": 9,
+          "t": "bons les-deux depuis le-un ; qui substance à/pour-eux louage bon dans-peiner-de-eux."
+        },
+        {
+          "n": 10,
+          "t": "pour gsxb ils-tomberont, le-un il-fera-lever unis-de-lui ; hé-et-gly-lui le-un que-il-tombera, et-néant second à/pour-faire-lever-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "aussi si ils-mentiront deux et-il-a-gctdé à/pour-eux ; et-à/pour-un how il-aura."
+        },
+        {
+          "n": 12,
+          "t": "et-si il-accablera-lui le-un, les-deux ils-resteront devant-lui ; et-le-thread le-gkvsé, non dans-hâte sera-extraiu."
+        },
+        {
+          "n": 13,
+          "t": "bon enfant pauvre et-sage ; depuis-roi vieux et-insensé, qui non il-a-su à/pour-être-avertir encore."
+        },
+        {
+          "n": 14,
+          "t": "car depuis-maison-de les-liés il-est-sorti à/pour-régner ; car aussi dans-royauté-de-lui il-a-été-engendré gjutant."
+        },
+        {
+          "n": 15,
+          "t": "je-ai-vu tout-de les-vivants, les-marchants sous le-soleil ; avec le-enfant le-second, qui restera sous-lui."
+        },
+        {
+          "n": 16,
+          "t": "néant fin à/pour-tout-de le-peuple à/pour-tout qui a-été à/pour-faces-de-eux, aussi les-suivants non ils-réjouiront dans-lui ; car aussi celui-ci vanity et-effort-de esprit."
+        },
+        {
+          "n": 17,
+          "t": "garde pieds-de-toi pied-de-toi comme-lorsque tu-iras vers maison-de le-dieu, et-proche à/pour-écouter, depuis-donner les-insensés sacrifice ; car néant-eux sachants à/pour-faire bad."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "ne tu-terrifies sur bouche-de-toi et-cœur-de-toi ne hâte à/pour-faire-sortir parole à/pour-faces-de le-dieu ; car le-dieu dans-les-ciels et-tu sur la-terre, sur ainsi paroles-de-toi peu soient."
+        },
+        {
+          "n": 2,
+          "t": "car le-songe est-venu dans-multitude-de occupation ; et-voix-de insensé dans-multitude-de paroles."
+        },
+        {
+          "n": 3,
+          "t": "comme-lorsque tu-voueras vœu à/pour-dieu ne tu-différes à/pour-gkuqaer-de-lui, car néant pleasure dans-les-insensés ; qui tu-voueras gkuqae."
+        },
+        {
+          "n": 4,
+          "t": "bon qui non tu-voueras ; que-depuis-tu-voueras et-non tu-gkuqaeras."
+        },
+        {
+          "n": 5,
+          "t": "ne tu-donnes bouche-de-toi à/pour-faire-pécher chair-de-toi, et-ne tu-dises à/pour-faces-de le-messager, car unintentionally lui ; à/pour-quoi le-dieu gjmiera sur voix-de-toi, et-a-gchrbé acte-de mains-de-toi."
+        },
+        {
+          "n": 6,
+          "t": "car dans-multitude-de songes et-vanitys, et-paroles faire-multiplier ; car le-dieu crainds."
+        },
+        {
+          "n": 7,
+          "t": "si oppression-de gjutant et-volé-de jugement et-justice tu-verras dans-la-province, ne tu-glpkes sur le-pleasure ; car exalté sur exalté gardant, et-exaltés sur-eux."
+        },
+        {
+          "n": 8,
+          "t": "et-avantage-de terre dans-le-tout lui ; roi à/pour-champ a-été-servi."
+        },
+        {
+          "n": 9,
+          "t": "aimant argent non rassasiera argent, et-lequel aimant dans-le-tumulte non produire ; aussi celui-ci vanity."
+        },
+        {
+          "n": 10,
+          "t": "dans-multiplier la-agréable, ils-ont-multiplié mangeants-de-elle ; et-quoi adresse à/pour-maris-de-elle, pour gsxb sight-de gjqe-de yeux-de-lui."
+        },
+        {
+          "n": 11,
+          "t": "douce sommeil-de le-servissant, si peu et-si faire-multiplier mangera ; et-le-abondance à/pour-le-riche, néant-lui faisant-reposer à/pour-lui à/pour-dormir."
+        },
+        {
+          "n": 12,
+          "t": "substance mal gcpzaante, je-ai-vu sous le-soleil ; richesse gardé à/pour-maris-de-lui à/pour-mal-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "le-richesse le-lui et-a-péri dans-occupation bad ; fils et-a-fait-engendrer, et-néant dans-main-de-lui anything."
+        },
+        {
+          "n": 14,
+          "t": "comme-lorsque il-est-sorti depuis-ventre-de mère-de-lui, nu il-retournera à/pour-aller que-comme-il-est-venu ; et-anything non il-portera dans-peiner-de-lui, que-il-fera-aller dans-main-de-lui."
+        },
+        {
+          "n": 15,
+          "t": "et-aussi this mal gcpzaante, tout juxtaposition-de que-il-est-venu ainsi il-ira ; et-quoi avantage à/pour-lui, que-travaillera à/pour-le-esprit."
+        },
+        {
+          "n": 16,
+          "t": "aussi tout-de jours-de-lui dans-le-ténèbre mangera ; et-a-lacolèu faire-multiplier et-maladie-de-lui et-courroux."
+        },
+        {
+          "n": 17,
+          "t": "voici qui je bon ai-vu qui belle à/pour-manger et-à/pour-boire et-à/pour-voir agréable dans-tout-de peiner-de-lui que-travaillera sous le-soleil nombre-de jours-de vies-de-lui qui a-donné à/pour-lui le-dieu car lui part-de-lui."
+        },
+        {
+          "n": 18,
+          "t": "aussi tout-de le-homme qui a-donné à/pour-lui le-dieu richesse et-trésors et-a-fait-dominer-lui à/pour-manger depuis-nous et-à/pour-porter part-de-lui, et-à/pour-réjouir dans-peiner-de-lui ; this, don-de dieu lui."
+        },
+        {
+          "n": 19,
+          "t": "car non faire-multiplier, il-rappelera jours-de vies-de-lui ; car le-dieu faisant-ghwyaer dans-gaieté-de cœur-de-lui."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "verses": [
+        {
+          "n": 1,
+          "t": "substance mal, qui je-ai-vu sous le-soleil ; et-nombreuse lui sur le-homme."
+        },
+        {
+          "n": 2,
+          "t": "homme qui donnera à/pour-lui le-dieu richesse et-trésors et-gloire et-néant-lui dépourvu à/pour-âme-de-lui depuis-tout qui inclinera et-non le-dieu fera-dominer-lui à/pour-manger depuis-nous, car homme étranger mangera-lui ; celui-ci vanity et-maladie bad lui."
+        },
+        {
+          "n": 3,
+          "t": "si homme fera-engendrer cent et-années nombreuses guérira et-nombreux jours-de années-de-lui que-seront et-âme-de-lui non rassasiera depuis la-agréable, et-aussi tombe non a-été à/pour-lui ; je-ai-dit, bon depuis-nous le-avortement."
+        },
+        {
+          "n": 4,
+          "t": "car dans-le-vanity il-est-venu et-dans-le-ténèbre il-ira ; et-dans-le-ténèbre nom-de-lui covera."
+        },
+        {
+          "n": 5,
+          "t": "aussi soleil non a-vu et-non a-su ; tranquillité à/pour-celui-ci depuis-celui-ci."
+        },
+        {
+          "n": 6,
+          "t": "et-quoique il-a-guéri mille années fois, et-agréable non il-a-vu ; est-ce-non vers lieu un le-tout marchant."
+        },
+        {
+          "n": 7,
+          "t": "tout-de peiner-de le-homme à/pour-bouche-de-lui ; et-aussi la-âme non sera-remplie."
+        },
+        {
+          "n": 8,
+          "t": "car quoi avantage à/pour-le-sage depuis le-insensé ; quoi à/pour-le-affligé sachant, à/pour-marcher devant les-vivants."
+        },
+        {
+          "n": 9,
+          "t": "bon aspect-de yeux depuis-marcher âme ; aussi celui-ci vanity et-ardent-de esprit."
+        },
+        {
+          "n": 10,
+          "t": "quoi que-a-été déjà appelé nom-de-lui, et-su qui lui homme ; et-non il-vaincra à/pour-contester, avec que-faire-accabler le-glsq depuis-lui."
+        },
+        {
+          "n": 11,
+          "t": "car substance paroles faire-multiplier faisants-multiplier vanity ; quoi avantage à/pour-le-homme."
+        },
+        {
+          "n": 12,
+          "t": "car lequel sachant quoi bon à/pour-le-homme dans-les-vies nombre-de jours-de vies-de vanity-de-lui et-fera-eux comme-le-ombre ; qui lequel fera-annoncer à/pour-le-homme, quoi le-soleil sera après-lui sous."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "verses": [
+        {
+          "n": 1,
+          "t": "bon nom depuis-huile bon ; et-jour-de le-mort, depuis-jour-de être-engendrer-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "bon à/pour-aller vers maison-de deuil depuis-aller vers maison-de festin, dans-in, lui fin-de tout-de le-homme ; et-le-vivant donnera vers cœur-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "bon chagrin depuis-rire ; car dans-méchanceté-de cœur améliorera faces."
+        },
+        {
+          "n": 4,
+          "t": "cœur-de sages dans-maison-de deuil, et-cœur-de insensés dans-maison-de gaieté."
+        },
+        {
+          "n": 5,
+          "t": "bon, à/pour-écouter menace-de sage ; depuis-homme, écoutant chant-de insensés."
+        },
+        {
+          "n": 6,
+          "t": "car comme-voix-de les-ghdfbs sous le-pot, ainsi rire-de le-insensé ; et-aussi celui-ci vanity."
+        },
+        {
+          "n": 7,
+          "t": "car le-oppression brillera sage ; et-il-périra cœur don."
+        },
+        {
+          "n": 8,
+          "t": "bon end-de parole depuis-commencement-de-lui ; bon longues-de esprit depuis-haut-de esprit."
+        },
+        {
+          "n": 9,
+          "t": "ne tu-terrifies dans-esprit-de-toi à/pour-lacolère ; car chagrin, dans-sein-de insensés ggnuera."
+        },
+        {
+          "n": 10,
+          "t": "ne tu-dises quoi il-a-été, que-les-jours les-premiers, ont-été bons depuis-ces ; car non depuis-sagesse tu-as-demandé sur celui-ci."
+        },
+        {
+          "n": 11,
+          "t": "bone sagesse avec héritage ; et-avantage à/pour-voyants-de le-soleil."
+        },
+        {
+          "n": 12,
+          "t": "car dans-ombre la-sagesse dans-ombre le-argent ; et-avantage-de connaissance, la-sagesse guérira maris-de-elle."
+        },
+        {
+          "n": 13,
+          "t": "vois acte-de le-dieu ; car lequel il-vaincra à/pour-redresser, qui il-a-ghnsé-lui."
+        },
+        {
+          "n": 14,
+          "t": "dans-jour-de agréable sois dans-bien, et-dans-jour-de mal vois ; aussi celui-ci à/pour-juxtaposition-de celui-ci le-dieu a-fait, sur cause-de que-non trouvera le-homme après-lui anything."
+        },
+        {
+          "n": 15,
+          "t": "le-tout je-ai-vu dans-jours-de vanity-de-moi ; substance juste périssant dans-justice-de-lui, et-substance méchant, faisant-prolonger dans-mal-de-lui."
+        },
+        {
+          "n": 16,
+          "t": "ne tu-sois juste faire-multiplier, et-ne tu-gcpees avantage ; à/pour-quoi tu-désoleras."
+        },
+        {
+          "n": 17,
+          "t": "ne tu-méfaies faire-multiplier et-ne tu-sois fou ; à/pour-quoi tu-mourras dans-non heure-de-toi."
+        },
+        {
+          "n": 18,
+          "t": "bon qui tu-gjjeras dans-celui-ci, et-aussi depuis-celui-ci ne tu-fasses-reposer main-de-toi ; car craintif-de dieu sortira tout-de-eux."
+        },
+        {
+          "n": 19,
+          "t": "la-sagesse gholera à/pour-le-sage ; depuis-ten maîtres, qui ils-ont-été dans-la-ville."
+        },
+        {
+          "n": 20,
+          "t": "car homme, néant juste dans-la-terre ; qui il-fera bien et-non il-péchera."
+        },
+        {
+          "n": 21,
+          "t": "aussi à/pour-tout-de les-paroles qui ils-parleront, ne tu-donnes cœur-de-toi ; qui non tu-écouteras serviteur-de-toi légeant-de-toi."
+        },
+        {
+          "n": 22,
+          "t": "car aussi fois nombreuses cœur-de-toi a-su ; qui aussi toi as-légé autres."
+        },
+        {
+          "n": 23,
+          "t": "tout-de this je-ai-essayé dans-la-sagesse ; je-ai-dit je-gcpee, et-lui lointaine depuis-moi."
+        },
+        {
+          "n": 24,
+          "t": "lointain quoi que-il-a-été ; et-profond profond lequel il-trouvera-lui."
+        },
+        {
+          "n": 25,
+          "t": "je ai-tourné et-cœur-de-moi à/pour-savoir et-à/pour-espionner, et-chercher sagesse et-raison ; et-à/pour-savoir tort flanc, et-la-ghdsb folies."
+        },
+        {
+          "n": 26,
+          "t": "et-trouvant je amer depuis-mort la-femme qui lui gfxebs et-dévouées cœur-de-elle liens mains-de-elle ; bon à/pour-faces-de le-dieu il-sera-sauvé depuis-elle, et-péchant il-sera-capturé dans-elle."
+        },
+        {
+          "n": 27,
+          "t": "vois celui-ci je-ai-trouvé, elle-a-dit prédicateur ; une à/pour-une à/pour-trouver raison."
+        },
+        {
+          "n": 28,
+          "t": "qui encore âme-de-moi a-cherché et-non je-ai-trouvé ; homme un depuis-mille je-ai-trouvé, et-femme dans-tout-de ces non je-ai-trouvé."
+        },
+        {
+          "n": 29,
+          "t": "à/pour-seul vois celui-ci je-ai-trouvé, qui le-dieu a-fait le-homme droit ; et-eux ont-cherché machines nombreux."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "verses": [
+        {
+          "n": 1,
+          "t": "lequel comme-le-sage, et-lequel sachant solution-de parole ; sagesse-de homme fera-luire faces-de-lui, et-puissance-de faces-de-lui changera."
+        },
+        {
+          "n": 2,
+          "t": "je bouche-de roi garde, et-sur, cause-de serment-de dieu."
+        },
+        {
+          "n": 3,
+          "t": "ne tu-sois-terrifié depuis-faces-de-lui tu-iras, ne tu-restes dans-parole bad ; car tout qui plaisira fera."
+        },
+        {
+          "n": 4,
+          "t": "dans-in parole-de roi maîtrise ; et-lequel il-dira à/pour-lui quoi tu-feras."
+        },
+        {
+          "n": 5,
+          "t": "gardant-de commandement, non parole bad saura ; cœur sage saura et-heure et-jugement,."
+        },
+        {
+          "n": 6,
+          "t": "car à/pour-tout-de pleasure, substance heure et-jugement ; car mal-de le-homme nombreuse sur-lui."
+        },
+        {
+          "n": 7,
+          "t": "car néant-lui sachant quoi que-il-sera ; car comme-lorsque il-sera, lequel il-fera-annoncer à/pour-lui."
+        },
+        {
+          "n": 8,
+          "t": "néant homme maître dans-le-esprit à/pour-enfermer le-esprit, et-néant maîtrise dans-jour-de le-mort, et-néant décharger dans-la-guerre ; et-non tort sauvera maris-de-lui."
+        },
+        {
+          "n": 9,
+          "t": "tout-de celui-ci je-ai-vu et-donner cœur-de-moi, à/pour-tout-de acte, qui le-soleil ; a-été-fait sous heure qui a-dominé le-homme dans-homme à/pour-mauvais à/pour-lui."
+        },
+        {
+          "n": 10,
+          "t": "et-dans-ainsi je-ai-vu méchants enterrés et-ils-sont-venu et-depuis-lieu-de saint ils-marcheront, et-ils-ignoreront dans-la-ville qui droite ils-ont-fait ; aussi celui-ci vanity."
+        },
+        {
+          "n": 11,
+          "t": "qui néant edict-de acte-de la-mal a-été-fait, hâte ; sur ainsi cœur-de fils-de le-homme a-rempli dans-eux à/pour-faire bad."
+        },
+        {
+          "n": 12,
+          "t": "qui péchant faisant bad cent-de et-faisant-prolonger à/pour-lui ; car aussi sachant je, qui il-sera bon à/pour-craindres-de le-dieu, qui ils-craindront depuis-faces-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "et-bon non il-sera à/pour-le-méchant, et-non il-fera-prolonger jours comme-le-ombre ; qui néant-lui craintif depuis-faces-de dieu."
+        },
+        {
+          "n": 14,
+          "t": "substance vanity qui a-été-fait sur la-terre qui substance justes qui faisant-toucher vers-eux comme-acte-de les-méchants, et-substance méchants, que-faisant-toucher vers-eux comme-acte-de les-justes ; je-ai-dit, que-aussi celui-ci vanity."
+        },
+        {
+          "n": 15,
+          "t": "je et-ai-calmé la-gaieté, qui néant bon à/pour-le-homme sous le-soleil, pour gsxb à/pour-manger et-à/pour-boire et-à/pour-réjouir ; et-lui joindra-lui dans-peiner-de-lui jours-de vies-de-lui qui le-dieu a-donné à/pour-lui sous le-soleil."
+        },
+        {
+          "n": 16,
+          "t": "comme-lorsque je-ai-donné cœur-de-moi à/pour-savoir sagesse, et-à/pour-voir le-occupation, qui la-terre ; a-été-fait sur car aussi dans-le-jour et-dans-le-nuit, sommeil, dans-yeux-de-lui néant-lui voyant."
+        },
+        {
+          "n": 17,
+          "t": "et-je-ai-vu tout-de acte-de le-dieu car non le-homme vaincra à/pour-trouver le-acte qui a-été-fait sous le-soleil, que-which qui travaillera le-homme à/pour-chercher et-non trouvera ; et-aussi si il-dira le-sage à/pour-savoir, non il-vaincra à/pour-trouver."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "verses": [
+        {
+          "n": 1,
+          "t": "car tout-de celui-ci je-ai-donné vers cœur-de-moi et-à/pour-expliquer tout-de celui-ci, qui les-justes et-les-sages et-ghijs-de-eux dans-main-de le-dieu ; aussi gfder aussi haine néant sachant le-homme, le-tout à/pour-faces-de-eux."
+        },
+        {
+          "n": 2,
+          "t": "le-tout comme-lorsque à/pour-le-tout accident un à/pour-le-juste et-à/pour-le-méchant à/pour-le-bon et-à/pour-le-pur et-à/pour-le-impur, et-à/pour-le-sacrifiant, et-à/pour-qui néant-lui sacrifiant ; comme-le-bon comme-le-péchant, le-juré, comme-lorsque serment craignant."
+        },
+        {
+          "n": 3,
+          "t": "celui-ci mauvais dans-tout qui le-soleil, a-été-fait sous car accident un à/pour-le-tout ; et-aussi cœur-de fils-de le-homme a-rempli bad et-folies dans-volonté-de-eux dans-vies-de-eux, et-après-lui vers les-mourants."
+        },
+        {
+          "n": 4,
+          "t": "car lequel qui tout-de les-vivants choisira unira, vers substance confiance ; car à/pour-chien vivant lui bon, depuis le-lion le-mourant."
+        },
+        {
+          "n": 5,
+          "t": "car les-vivants sachants que-ils-mourront ; et-les-mourants néant-eux sachants anything et-néant encore à/pour-eux louage, car a-été-ignoré mémoire-de-eux."
+        },
+        {
+          "n": 6,
+          "t": "aussi gfder-de-eux aussi haine-de-eux aussi jalousie-de-eux déjà a-péri ; et-part néant à/pour-eux encore à/pour-durée, dans-tout qui a-été-fait sous le-soleil."
+        },
+        {
+          "n": 7,
+          "t": "va mange dans-gaieté pain-de-toi, et-bois dans-cœur-de bon vin-de-toi ; car déjà, le-dieu a-gkcgé actes-de-toi."
+        },
+        {
+          "n": 8,
+          "t": "dans-tout-de perfidies-de-toi blancs ; seront heure, et-huile sur tête-de-toi ne diminue."
+        },
+        {
+          "n": 9,
+          "t": "vois vies avec femme qui tu-as-aimé tout-de jours-de vies-de vanity-de-toi, qui a-donné à/pour-toi sous le-soleil, tout-de jours-de vanity-de-toi ; car lui part-de-toi dans-les-vies, et-dans-peiner-de-toi, qui tu laborious sous le-soleil."
+        },
+        {
+          "n": 10,
+          "t": "tout qui main-de-toi trouvera à/pour-faire dans-force-de-toi fais ; car néant acte et-raison et-connaissance et-sagesse, dans-scheol, qui tu marchant là-vers."
+        },
+        {
+          "n": 11,
+          "t": "je-suis-retourné et-voir sous le-soleil car non à/pour-les-légers le-course et-non à/pour-les-puissants la-guerre et-aussi non à/pour-les-sages pain et-aussi non à/pour-les-discernés richesse, et-aussi non à/pour-les-sachants grâce ; car heure et-événement gjnlaera tout-de-eux."
+        },
+        {
+          "n": 12,
+          "t": "car aussi non le-homme saura heure-de-lui comme-les-fishs que-gjjés dans-gfxec bade, et-comme-les-volailles, les-gjjées dans-le-giiwa ; comme-eux leurrés fils-de le-homme, à/pour-heure-de bade, que-comme-elle-tombera sur-eux soudain."
+        },
+        {
+          "n": 13,
+          "t": "aussi this je-ai-vu sagesse sous le-soleil ; et-grande lui vers-moi."
+        },
+        {
+          "n": 14,
+          "t": "ville jeune, et-hommes dans-elle peu ; roi grand et-est-venu vers-elle et-a-tourné elle, et-a-bâti sur-elle siegeworks grands."
+        },
+        {
+          "n": 15,
+          "t": "homme pauvre sage, et-a-trouvé dans-elle et-a-sauvé lui la-ville dans-sagesse-de-lui ; et-homme non a-rappelé, le-homme le-pauvre le-lui."
+        },
+        {
+          "n": 16,
+          "t": "je bone et-ai-dit, sagesse depuis-might ; et-sagesse-de le-pauvre méprisée, et-paroles-de-lui néant-eux écoutés."
+        },
+        {
+          "n": 17,
+          "t": "paroles-de sages, dans-tranquillité écoutés ; depuis-cri-de gouvernant dans-les-insensés."
+        },
+        {
+          "n": 18,
+          "t": "bone sagesse depuis-ustensiles-de bataille ; et-péchant un, il-périra agréable faire-multiplier."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "verses": [
+        {
+          "n": 1,
+          "t": "mouches-de mort, fera-puer huile-de fera-bouillonner composant ; précieux depuis-sagesse depuis-gloire ghdsb-de peu."
+        },
+        {
+          "n": 2,
+          "t": "cœur sage à/pour-right-de-lui, et-cœur insensé à/pour-gauche-de-lui."
+        },
+        {
+          "n": 3,
+          "t": "et-aussi dans-le-chemin que-comme-le-fou que-comme-fou marchant cœur-de-lui a-dépourvu ; fou lui et-a-dit à/pour-le-tout."
+        },
+        {
+          "n": 4,
+          "t": "si esprit-de le-gouvernant montera sur-toi, lieu-de-toi ne tu-fasses-reposer ; car guérison, fera-reposer péchés grands."
+        },
+        {
+          "n": 5,
+          "t": "substance mal, je-ai-vu sous le-soleil ; comme-unintentionally, que-sortissante depuis-faces-de le-maître."
+        },
+        {
+          "n": 6,
+          "t": "le-folie a-été-donné, dans-les-ggbgs nombreux ; et-riches dans-le-humilié ils-habiteront."
+        },
+        {
+          "n": 7,
+          "t": "je-ai-vu serviteurs sur hirondelles ; et-princes marchants comme-serviteurs sur la-terre."
+        },
+        {
+          "n": 8,
+          "t": "creusant gbds dans-lui tombera ; et-éclatant mur mordra-lui serpent."
+        },
+        {
+          "n": 9,
+          "t": "faisant-retirer pierres, il-sera-affligé dans-eux ; fendant arbres il-sera-dangé dans-eux."
+        },
+        {
+          "n": 10,
+          "t": "si le-fer et-lui a-gjggé non faces a-légé, et-compétences prévaloira ; et-avantage-de faire-réussir sagesse."
+        },
+        {
+          "n": 11,
+          "t": "si le-serpent mordra dans-non charme ; et-néant avantage, à/pour-mari-de la-langue."
+        },
+        {
+          "n": 12,
+          "t": "paroles-de bouche-de sage grâce ; et-lèvres-de insensé elle-engloutira-lui."
+        },
+        {
+          "n": 13,
+          "t": "commencement-de paroles-de bouche-de-lui ghdsb ; et-end-de bouche-de-lui, madness bade."
+        },
+        {
+          "n": 14,
+          "t": "et-le-fou fera-multiplier paroles ; non le-homme saura quoi que-sera, et-qui sera après-lui, lequel fera-annoncer à/pour-lui."
+        },
+        {
+          "n": 15,
+          "t": "peiner-de les-insensés peinera-lui ; qui non il-a-su à/pour-aller vers ville."
+        },
+        {
+          "n": 16,
+          "t": "gly à/pour-toi-f terre, que-roi-de-toi-f youth ; et-princes-de-toi-f dans-le-matin mangeront."
+        },
+        {
+          "n": 17,
+          "t": "bonheurs-de-toi-f terre, que-roi-de-toi-f fils-de nobles ; et-princes-de-toi-f dans-la-heure mangeront, dans-might et-non dans-le-celui."
+        },
+        {
+          "n": 18,
+          "t": "dans-sluggishness le-rafter sera-gfkmé ; et-dans-relâchement-de le-maison dégouttera mains."
+        },
+        {
+          "n": 19,
+          "t": "à/pour-rire faisants pain, et-vin réjouira vies ; et-le-argent répondra le-tout."
+        },
+        {
+          "n": 20,
+          "t": "aussi dans-connaissance-de-toi roi ne tu-léges, et-dans-chambres-de bed-de-toi, ne tu-léges riche ; car oiseau-de les-ciels fera-aller le-voix, et-mari-de les-ailes ailes fera-annoncer parole."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "verses": [
+        {
+          "n": 1,
+          "t": "envoye pain-de-toi sur faces-de les-eaux ; car dans-multitude-de les-jours tu-trouveras-lui."
+        },
+        {
+          "n": 2,
+          "t": "donne part à/pour-sept et-aussi à/pour-huit ; car non tu-sauras, quoi sera mal sur la-terre."
+        },
+        {
+          "n": 3,
+          "t": "si les-nuées seront-remplis averse sur la-terre feront-vider, et-si arbre tombera dans-le-south et-si dans-la-nord ; lieu-de que-tombera le-arbre là devenira."
+        },
+        {
+          "n": 4,
+          "t": "gardant-de esprit non semera ; et-voyant dans-les-nuées non il-moissonnera."
+        },
+        {
+          "n": 5,
+          "t": "comme-lorsque néant-toi sachant quoi chemin-de le-esprit, comme-os dans-ventre-de la-pleine ; gehn non tu-sauras acte-de le-dieu, qui il-fera le-tout."
+        },
+        {
+          "n": 6,
+          "t": "dans-le-matin seme semence-de-toi, et-à/pour-le-soir ne tu-fasses-reposer main-de-toi ; car néant-toi sachant où celui-ci il-réussira est-ce-celui-ci ou celui-ci, et-si deux-de-eux comme-un bons."
+        },
+        {
+          "n": 7,
+          "t": "et-douce la-lumière ; et-bon à/pour-les-yeux à/pour-voir le-soleil."
+        },
+        {
+          "n": 8,
+          "t": "pour gsxb années faire-multiplier le-homme guérira dans-tout-de-eux réjouisse ; et-rappele jours-de le-ténèbre, car faire-multiplier ils-seront tout que-est-venu vanity."
+        },
+        {
+          "n": 9,
+          "t": "réjouis gakh dans-jeunesses-de-toi et-fasse-améliorer-toi cœur-de-toi dans-jours-de jeunesses-de-toi, et-marche dans-chemins-de cœur-de-toi, et-dans-aspects-de yeux-de-toi ; et-sache, car sur tout-de ces fera-venir-toi le-dieu dans-le-jugement."
+        },
+        {
+          "n": 10,
+          "t": "et-fais-détourner chagrin depuis-cœur-de-toi, et-fais-passer mal depuis-chair-de-toi ; car la-jeunesse et-la-gkom vanity."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "verses": [
+        {
+          "n": 1,
+          "t": "et-rappele créants-de-toi, dans-jours-de jeunesses-de-toi ; jusqu'à qui non jours-de la-mal viendront, et-ont-fait-toucher années, qui tu-diras, néant à/pour-moi dans-eux pleasure."
+        },
+        {
+          "n": 2,
+          "t": "jusqu'à qui non le-soleil et-la-lumière sombra, et-le-lune et-les-étoiles ; les-nuées et-sont-retourné après le-averse."
+        },
+        {
+          "n": 3,
+          "t": "dans-le-jour que-trembleront gardants-de le-maison, hommes-de le-compétence et-ont-se-ghnsé ; les-moudres et-ont-gakzé car ont-gftoé, et-ont-sombu les-voyantes dans-les-fenêtres."
+        },
+        {
+          "n": 4,
+          "t": "et-ils-ont-été-fermé barrières dans-le-rue, dans-humble voix-de la-meule ; et-levera à/pour-voix-de la-volaille, et-ils-seront-gknqés tout-de filles-de le-chant."
+        },
+        {
+          "n": 5,
+          "t": "aussi depuis-exalté et-terreurs craindront dans-le-chemin, et-fera-repousser le-amandier et-portera le-sauterelle, et-fera-rompre la-câpre ; car marchant le-homme vers maison-de durée-de-lui, et-ils-ont-tourné dans-le-rue les-gémissants."
+        },
+        {
+          "n": 6,
+          "t": "jusqu'à qui non mahalab-de le-argent éloignera sera-gkejé, et-opprimera cuvette-de le-or ; cruche et-sera-brisée sur le-gewx, et-a-été-opprimé le-roue vers le-fosse."
+        },
+        {
+          "n": 7,
+          "t": "le-poussière et-retournera sur la-terre que-comme-a-été ; et-le-esprit retournera, vers le-dieu qui a-donné-elle."
+        },
+        {
+          "n": 8,
+          "t": "le-prédicateur a-dit vanity-de vanitys, le-tout vanity."
+        },
+        {
+          "n": 9,
+          "t": "et-avantage, que-a-été prédicateur sage ; encore il-a-enseigné connaissance le-peuple, et-il-a-pesé et-il-a-examiné, il-a-redressé proverbes faire-multiplier."
+        },
+        {
+          "n": 10,
+          "t": "prédicateur a-cherché, à/pour-trouver paroles-de pleasure ; et-écrit gecr paroles-de vérité."
+        },
+        {
+          "n": 11,
+          "t": "paroles-de sages comme-les-goads, et-comme-clous plantés maris-de collectes ; ils-ont-été-donné depuis-paîtant un."
+        },
+        {
+          "n": 12,
+          "t": "et-avantage depuis-eux fils-de-moi sois-averti ; faire livres faire-multiplier néant fin, et-étude faire-multiplier weariness-de chair."
+        },
+        {
+          "n": 13,
+          "t": "fin-de parole le-tout a-été-écouté ; le-dieu crainds et-commandements-de-lui garde, car celui-ci tout-de le-homme."
+        },
+        {
+          "n": 14,
+          "t": "car tout-de acte, le-dieu fera-venir dans-jugement sur tout-de caché ; si bon et-si bad."
+        }
+      ]
+    }
+  ]
+}

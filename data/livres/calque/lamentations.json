@@ -1,0 +1,663 @@
+{
+  "id": "lamentations",
+  "title": "Lamentations de Jérémie",
+  "original_title": "Lamentations",
+  "short": "Lm",
+  "version": {
+    "id": "calque",
+    "label": "Calque",
+    "name": "Calque massorétique",
+    "blurb": "Calque mot à mot du texte de Léningrad · français",
+    "year": 2026,
+    "lang": "fr",
+    "license": "usage non commercial — texte fini seulement",
+    "source": "Westminster Leningrad Codex, domaine public. Morphologie Open Scriptures Hebrew Bible, CC BY 4.0.",
+    "abbreviation": "calque",
+    "canon": "jewish",
+    "at": "Tanakh",
+    "nt": "Nouveau Testament"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "verses": [
+        {
+          "n": 1,
+          "t": "gmkb a-habité isolement la-ville nombreuse-de peuple, a-été comme-veuve ; nombreuse-de dans-les-nations princesse-de dans-les-provinces, a-été à/pour-taskworker."
+        },
+        {
+          "n": 2,
+          "t": "pleurer et-larmes-de-elle pleurera dans-le-nuit sur Lehi-de-elle, néant à/pour-elle consolant depuis-tout-de aimants-de-elle ; tout-de amis-de-elle ils-ont-gahné dans-elle, ils-ont-été à/pour-elle à/pour-gmcçants."
+        },
+        {
+          "n": 3,
+          "t": "Juda a-découvri depuis-affliction et-depuis-multitude-de service, lui a-habité dans-les-nations, non resting a-trouvé ; tout-de poursuivants-de-elle les-détresses ont-fait-rattraper-elle entre."
+        },
+        {
+          "n": 4,
+          "t": "chemins-de Sion deuiles depuis-nul-de venants-de rencontre, tout-de portes-de-elle désolations, sacrificateurs-de-elle haletés ; vierges-de-elle affligées et-lui il-a-amé à/pour-elle."
+        },
+        {
+          "n": 5,
+          "t": "étroits-de-elle ont-été à/pour-tête gmcçants-de-elle ont-gksué, car YHWH a-fait-affliger-elle sur multitude-de forfaits-de-elle ; enfants-de-elle ont-marché captivité à/pour-faces-de étroit."
+        },
+        {
+          "n": 6,
+          "t": "et-est-sorti depuis fille-de depuis-fille-de Sion tout-de splendeur-de-elle ; princes-de-elle ont-été comme-cerfs non ont-trouvé pâture, et-sont-allé dans-non force à/pour-faces-de poursuivant."
+        },
+        {
+          "n": 7,
+          "t": "Jérusalem a-rappelé jours-de affliction-de-elle et-inquiétudes-de-elle, tout-de désirables-de-elle, qui ont-été depuis-jours-de orient ; dans-tomber peuple-de-elle dans-main-de étroit et-néant aidant à/pour-elle, étroits ont-vu-elle, ont-ri sur suspensions-de-elle."
+        },
+        {
+          "n": 8,
+          "t": "péché Jérusalem a-péché, sur ainsi à/pour-impur elle-a-été ; tout-de honors-de-elle ils-ont-fait-prodiguer-elle car ils-ont-vu nudité-de-elle, aussi lui a-été-haleté et-est-retourné back."
+        },
+        {
+          "n": 9,
+          "t": "impureté-de-elle dans-bordures-de-elle non a-rappelé end-de-elle, et-est-descendu merveilles, néant consolant à/pour-elle ; vois YHWH affliction-de-moi, car a-fait-croître gmcçant."
+        },
+        {
+          "n": 10,
+          "t": "main-de-lui a-étendu étroit, sur tout-de plaisantes-de-elle ; car elle-a-vu nations sont-venu sanctuaire-de-elle, qui tu-as-commandé, non viendront dans-le-congrégation à/pour-toi-f."
+        },
+        {
+          "n": 11,
+          "t": "tout-de peuple-de-elle haletés cherchants désirables-de-eux plaisantes-de-eux ont-donné pain, dans-goj à/pour-faire-retourner âme ; vois YHWH et-fais-regarder-hé, car je-ai-été gcdsbante."
+        },
+        {
+          "n": 12,
+          "t": "non vers-vous tout-de passants-de chemin faites-regarder et-voyez si substance douleur comme-douleur-de-moi, qui a-traité à/pour-moi ; qui YHWH a-fait-affliger, dans-jour-de gdaj-de nez-de-lui."
+        },
+        {
+          "n": 13,
+          "t": "depuis-ggbg feu a-envoyé dans-os-de-moi et-a-dominé-elle ; a-étendu net à/pour-pieds-de-moi back a-fait-retourner-moi, a-donné-moi désolée, tout-de le-jour indispositione."
+        },
+        {
+          "n": 14,
+          "t": "joug-de forfaits-de-moi a-été-relié dans-main-de-lui ils-glfheront ils-sont-monté sur cou-de-moi a-fait-chanceler force-de-moi ; il-a-donné-moi seigneurs-de-moi, dans-mains-de non je-vaincrai lever."
+        },
+        {
+          "n": 15,
+          "t": "tout-de vaillances-de-moi a-ghecaé seigneurs-de-moi dans-parmi-de-moi, a-appelé sur-moi rencontre à/pour-briser gakhs-de-moi ; gbkv il-a-marché seigneurs-de-moi, à/pour-vierge-de fille-de Juda."
+        },
+        {
+          "n": 16,
+          "t": "sur ces je pleurante œil-de-moi œil-de-moi descendante eaux, car a-éloigné depuis-moi consolant faisant-retourner âme-de-moi ; fils-de-moi désolations ont-été, car il-a-prévalu gmcçant."
+        },
+        {
+          "n": 17,
+          "t": "Sion a-étendu dans-mains-de-elle néant consolant à/pour-elle, a-commandé YHWH à/pour-Jacob alentours-de-lui étroits-de-lui ; Jérusalem a-été à/pour-ordurier entre-eux."
+        },
+        {
+          "n": 18,
+          "t": "juste lui YHWH car bouche-de-lui je-ai-ggazé ; écoutez donc tout-de peuples les-peuples et-voyez douleur-de-moi, vierges-de-moi et-gakhs-de-moi ont-marché dans-la-captivité."
+        },
+        {
+          "n": 19,
+          "t": "je-ai-appelé à/pour-les-aimants-de-moi eux ont-jeté-moi, sacrificateurs-de-moi et-vieux-de-moi dans-la-ville ont-expiré ; car ils-ont-cherché goj à/pour-eux, et-ils-fassent-retourner âme-de-eux."
+        },
+        {
+          "n": 20,
+          "t": "vois YHWH car confine à/pour-moi entrailles-de-moi ont-gctlaé, cœur-de-moi a-été-tourné dans-parmi-de-moi, car ggazer je-ai-ggazé ; depuis-dehors épée a-échoué dans-le-maison comme-le-mort."
+        },
+        {
+          "n": 21,
+          "t": "ils-ont-écouté car haletée je néant consolant à/pour-moi, tout-de gmcçants-de-moi ils-ont-écouté mal-de-moi ils-ont-exulté, car tu as-fait ; tu-as-fait-venir jour tu-as-appelé et-ils-seront comme-moi."
+        },
+        {
+          "n": 22,
+          "t": "elle-viendra tout-de mal-de-eux à/pour-faces-de-toi et-traite à/pour-eux, comme-lorsque tu-as-traité à/pour-moi sur tout-de forfaits-de-moi ; car nombreuses soupirs-de-moi et-cœur-de-moi souffrir."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "verses": [
+        {
+          "n": 1,
+          "t": "gmkb fera-ghlwer dans-nez-de-lui seigneurs-de-moi fille-de Sion, terre, a-fait-jeter depuis-ciels splendeur-de Israël ; et-non marchepied-de pieds-de-lui a-rappelé dans-jour-de nez-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "il-a-englouti seigneurs-de-moi non et-non il-a-spau tout-de pâturages-de Jacob, il-a-renversé dans-débordement-de-lui forteresses-de fille-de Juda il-a-fait-toucher à/pour-la-terre ; il-a-commencé royaume et-princes-de-elle."
+        },
+        {
+          "n": 3,
+          "t": "a-abattu dans-burning-de nez tout-de corne-de Israël, a-fait-retourner back right-de-lui depuis-faces-de gmcçant ; et-a-brûlé dans-Jacob comme-feu-de flamme, alentour a-mangé."
+        },
+        {
+          "n": 4,
+          "t": "a-marché arc-de-lui comme-gmcçant établi right-de-lui comme-étroit, tout-de plaisantes-de œil et-a-tué ; dans-tente-de fille-de Sion, il-a-répandu comme-le-feu colère-de-lui."
+        },
+        {
+          "n": 5,
+          "t": "a-été seigneurs-de-moi comme-gmcçant Israël a-englouti, a-englouti tout-de palais-de-elle, a-ruiné forteresses-de-lui ; et-il-a-fait-multiplier dans-fille-de Juda, mourning et-lamentations."
+        },
+        {
+          "n": 6,
+          "t": "baraque-de-lui, et-a-brutalisé comme-le-jardin a-ruiné rencontre-de-lui ; YHWH a-ignoré dans-Sion rencontre et-sabbat, et-a-repoussé dans-indignation-de nez-de-lui roi et-sacrificateur."
+        },
+        {
+          "n": 7,
+          "t": "a-gcfbaé seigneurs-de-moi autel-de-lui a-repoussé sanctuaire-de-lui, a-fait-fermer dans-main-de gmcçant, murs-de palais-de-elle ; voix ils-ont-donné dans-maison-de YHWH comme-jour-de rencontre."
+        },
+        {
+          "n": 8,
+          "t": "YHWH a-pensé à/pour-détruire mur-de fille-de Sion, a-tendu règle, non a-fait-retourner main-de-lui depuis-engloutir ; rempart et-a-fait-gbder et-mur union ils-ont-penché."
+        },
+        {
+          "n": 9,
+          "t": "portes-de-elle, ont-enfoncé dans-la-terre il-a-péri et-il-a-brisé barres-de-elle ; roi-de-elle et-princes-de-elle dans-les-nations néant instruction, aussi prophètes-de-elle, non ont-trouvé vision depuis-YHWH."
+        },
+        {
+          "n": 10,
+          "t": "habiteront à/pour-la-terre gbrfaeront vieux-de fille-de Sion, ont-fait-monter poussière sur tête-de-eux, sacs ont-ceindu ; ont-fait-descendre à/pour-la-terre tête-de-elles, vierges-de Jérusalem."
+        },
+        {
+          "n": 11,
+          "t": "ont-achevé dans-les-larmes yeux-de-moi entrailles-de-moi ont-gctlaé, a-été-répandu à/pour-la-terre liver-de-moi, sur ruine-de fille-de peuple-de-moi ; dans-être-ghpxcer enfant et-allaitant, dans-places-de cité."
+        },
+        {
+          "n": 12,
+          "t": "à/pour-mères-de-eux ils-diront, gmh blé et-vin ; dans-se-ghpxcer-de-eux comme-le-tué dans-places-de ville, dans-se-répandre âme-de-eux, vers sein-de mères-de-eux."
+        },
+        {
+          "n": 13,
+          "t": "quoi je-ferai-rendre-toi-f quoi je-ressemblerai à/pour-toi-f la-fille Jérusalem, quoi je-ferai-gkkoaer à/pour-toi-f et-je-consolerai-toi-f, vierge-de fille-de Sion ; car grand comme-le-mer ruine-de-toi-f lequel gkbgera à/pour-toi-f."
+        },
+        {
+          "n": 14,
+          "t": "prophètes-de-toi-f ont-apercevoir à/pour-toi-f vanité et-insipide, et-non ont-découvri sur iniquité-de-toi-f à/pour-faire-retourner captivity-de-toi-f ; et-ont-apercevoir à/pour-toi-f, élévations-de vanité et-séductions."
+        },
+        {
+          "n": 15,
+          "t": "ils-ont-applaudi sur-toi-f palmes tout-de passants-de chemin, ils-ont-sifflé et-ils-ont-fait-errer tête-de-eux, sur fille-de Jérusalem ; est-ce-celle-ci la-ville que-ils-diront entiere-de beauté, joie à/pour-tout-de la-terre."
+        },
+        {
+          "n": 16,
+          "t": "ils-ont-ouvert sur-toi-f bouche-de-eux tout-de gmcçants-de-toi-f, ils-ont-sifflé et-ils-ont-grincé dent, ils-ont-dit nous-avons-englouti ; sûrement celui-ci le-jour que-nous-avons-espéré-lui nous-avons-trouvé nous-avons-vu."
+        },
+        {
+          "n": 17,
+          "t": "YHWH a-fait qui a-projeté a-gatré threat-de-lui qui a-commandé depuis-jours-de orient, a-renversé et-non a-spau ; et-a-réjoui sur-toi-f gmcçant, corne-de étroits-de-toi-f a-fait-élever."
+        },
+        {
+          "n": 18,
+          "t": "cœur-de-eux a-crié vers seigneurs-de-moi ; mur-de fille-de Sion fais-descendre comme-le-torrent larmes journellement et-nuit, ne tu-f-donnes engourdissement à/pour-toi-f, ne gbrfae fille-de œil-de-toi-f."
+        },
+        {
+          "n": 19,
+          "t": "leve chante dans-le-nuit à/pour-tête-de veilles, répands comme-les-eaux cœur-de-toi-f, before faces-de seigneurs-de-moi ; porte vers-lui palmes-de-toi-f sur âme-de enfants-de-toi-f, les-ghpxcés dans-famine dans-tête-de tout-de dehors."
+        },
+        {
+          "n": 20,
+          "t": "vois YHWH et-fais-regarder-hé, à/pour-lequel tu-as-traité thus ; si femmes mangeront fruit-de-eux enfants-de tendres, si sera-tué dans-sanctuaire-de seigneurs-de-moi sacrificateur et-prophète."
+        },
+        {
+          "n": 21,
+          "t": "dehors ont-menti à/pour-la-terre youth et-vieux, vierges-de-moi et-gakhs-de-moi sont-tombé dans-la-épée ; tu-as-tué dans-jour-de nez-de-toi, tu-as-massacré non tu-as-spau."
+        },
+        {
+          "n": 22,
+          "t": "tu-appeleras comme-jour-de rencontre terreurs-de-moi depuis-alentour, et-non a-été dans-jour-de nez YHWH fugitif et-reste ; qui je-ai-gdihé et-je-ai-multiplié gmcçant-de-moi il-a-achevé-eux."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "verses": [
+        {
+          "n": 1,
+          "t": "je le-guerrier a-vu affliction, dans-verge-de débordement-de-lui."
+        },
+        {
+          "n": 2,
+          "t": "moi a-mené ténèbre et-a-fait-aller et-non lumière."
+        },
+        {
+          "n": 3,
+          "t": "sûrement dans-moi retournera main-de-lui tournera tout-de le-jour."
+        },
+        {
+          "n": 4,
+          "t": "chair-de-moi a-gaoté et-peau-de-moi, a-brisé os-de-moi."
+        },
+        {
+          "n": 5,
+          "t": "a-bâti sur-moi venin et-a-fait-ggxfber et-fatigue."
+        },
+        {
+          "n": 6,
+          "t": "dans-gfhus durée a-fait-habiter-moi comme-mourants-de."
+        },
+        {
+          "n": 7,
+          "t": "il-a-gbcmé derrière-moi et-non je-sortirai il-a-fait-honor cuivre-de-moi."
+        },
+        {
+          "n": 8,
+          "t": "aussi car je-gcfoerai et-je-gklterai, il-a-stoppé prière-de-moi."
+        },
+        {
+          "n": 9,
+          "t": "il-a-gbcmé chemins-de-moi dans-taille, paths-de-moi il-a-déformé."
+        },
+        {
+          "n": 10,
+          "t": "ours gzqant lui à/pour-moi, gabja dans-hidings."
+        },
+        {
+          "n": 11,
+          "t": "chemins-de-moi il-a-détourné et-il-a-déchiré-moi il-a-mis-moi désolé."
+        },
+        {
+          "n": 12,
+          "t": "il-a-marché arc-de-lui et-il-a-fait-établir-moi, comme-la-but à/pour-le-flèche."
+        },
+        {
+          "n": 13,
+          "t": "il-a-fait-venir dans-rognons-de-moi, fils-de quiver-de-lui."
+        },
+        {
+          "n": 14,
+          "t": "je-ai-été rire à/pour-tout-de peuple-de-moi, chant-de-eux tout-de le-jour."
+        },
+        {
+          "n": 15,
+          "t": "il-a-fait-rassasier-moi dans-les-amertumes il-a-fait-gjtuer-moi absinthe."
+        },
+        {
+          "n": 16,
+          "t": "et-il-a-fait-gbjzer dans-le-gravier dents-de-moi, il-a-fait-cower-moi dans-le-cendre."
+        },
+        {
+          "n": 17,
+          "t": "âme-de-moi et-a-gcfbaé depuis-paix je-ai-privé agréable."
+        },
+        {
+          "n": 18,
+          "t": "et-je-ai-dit éminence-de-moi a-péri, et-espérance-de-moi depuis-YHWH."
+        },
+        {
+          "n": 19,
+          "t": "rappele affliction-de-moi et-inquiétude-de-moi absinthe et-venin."
+        },
+        {
+          "n": 20,
+          "t": "rappeler rappelera, âme-de-moi et-fera-gkkuer et-gkkuera sur-moi."
+        },
+        {
+          "n": 21,
+          "t": "celle-ci je-ferai-retourner vers cœur-de-moi sur ainsi je-ferai-attendre."
+        },
+        {
+          "n": 22,
+          "t": "faveurs-de YHWH car non nous-avons-fini, car non miséricordes-de-lui ont-achevé."
+        },
+        {
+          "n": 23,
+          "t": "nouveaux à/pour-les-matins, nombreuse fidélité-de-toi."
+        },
+        {
+          "n": 24,
+          "t": "part-de-moi YHWH âme-de-moi a-dit, sur ainsi je-ferai-attendre à/pour-lui."
+        },
+        {
+          "n": 25,
+          "t": "bon YHWH à/pour-espérants-de-lui, à/pour-âme elle-fréquentera-lui."
+        },
+        {
+          "n": 26,
+          "t": "bon et-attente et-mutisme, à/pour-deliverance-de YHWH."
+        },
+        {
+          "n": 27,
+          "t": "bon à/pour-le-guerrier, car joug portera dans-jeunesses-de-lui."
+        },
+        {
+          "n": 28,
+          "t": "isolement habite et-gbrfae, car a-ggqpé sur-lui."
+        },
+        {
+          "n": 29,
+          "t": "bouche-de-lui, donnera dans-le-poussière peut-être substance cordon."
+        },
+        {
+          "n": 30,
+          "t": "Lehi donnera à/pour-faisant-frapper-de-lui rassasie dans-opprobre."
+        },
+        {
+          "n": 31,
+          "t": "car non il-gcfbaera à/pour-durée seigneurs-de-moi."
+        },
+        {
+          "n": 32,
+          "t": "pour gsxb il-a-fait-affliger, et-il-a-compati comme-multitude-de faveur-de-lui faveurs-de-lui."
+        },
+        {
+          "n": 33,
+          "t": "car non il-a-ghwybé depuis-cœur-de-lui, et-il-a-affligé fils-de homme."
+        },
+        {
+          "n": 34,
+          "t": "à/pour-gbpxer sous pieds-de-lui, tout-de prisonniers-de terre."
+        },
+        {
+          "n": 35,
+          "t": "à/pour-faire-tendre jugement-de guerrier, devant faces-de supérieur."
+        },
+        {
+          "n": 36,
+          "t": "à/pour-ghnser homme dans-dispute-de-lui, seigneurs-de-moi non a-vu."
+        },
+        {
+          "n": 37,
+          "t": "lequel celui-ci il-a-dit et-elle-a-été, seigneurs-de-moi non il-a-commandé."
+        },
+        {
+          "n": 38,
+          "t": "depuis-bouche-de supérieur non elle-sortira, les-mals et-le-bon."
+        },
+        {
+          "n": 39,
+          "t": "quoi homme vivant guerrier murmurera, sur péché-de-lui péchés-de-lui."
+        },
+        {
+          "n": 40,
+          "t": "nous-recherchons chemins-de-nous et-nous-examinons, et-nous-retournons jusqu'à YHWH."
+        },
+        {
+          "n": 41,
+          "t": "nous-portons volonté-de-nous vers palmes, vers El dans-les-ciels."
+        },
+        {
+          "n": 42,
+          "t": "we avons-transgressé et-avons-ggazé, tu non as-pardonné."
+        },
+        {
+          "n": 43,
+          "t": "tu-as-enclou dans-nez et-tu-as-poursuivu-nous, tu-as-tué non tu-as-spau."
+        },
+        {
+          "n": 44,
+          "t": "tu-as-enclou dans-le-nuageux à/pour-toi-f, depuis-passer prière."
+        },
+        {
+          "n": 45,
+          "t": "offscouring et-rebut tu-mettras-nous dans-parmi-de les-peuples."
+        },
+        {
+          "n": 46,
+          "t": "ils-ont-ouvert sur-nous bouche-de-eux tout-de gmcçants-de-nous."
+        },
+        {
+          "n": 47,
+          "t": "dread et-fosse a-été à/pour-nous la-gkft et-le-ruine."
+        },
+        {
+          "n": 48,
+          "t": "œil-de-moi, descendra gikrs-de eaux sur ruine-de fille-de peuple-de-moi."
+        },
+        {
+          "n": 49,
+          "t": "œil-de-moi a-été-versé et-non gbqzera depuis-néant arrêts."
+        },
+        {
+          "n": 50,
+          "t": "jusqu'à fera-regarder YHWH et-verra, depuis-ciels."
+        },
+        {
+          "n": 51,
+          "t": "œil-de-moi a-traité à/pour-âme-de-moi, depuis-tout-de filles-de ville-de-moi."
+        },
+        {
+          "n": 52,
+          "t": "givwaer ils-ont-givwaé-moi comme-la-volaille gmcçants-de-moi librement."
+        },
+        {
+          "n": 53,
+          "t": "vies-de-moi, ont-extirpé dans-le-fosse et-ont-confessé pierre dans-moi."
+        },
+        {
+          "n": 54,
+          "t": "eaux ont-flotté sur tête-de-moi je-ai-dit je-ai-été-coupé."
+        },
+        {
+          "n": 55,
+          "t": "je-ai-appelé nom-de-toi YHWH, depuis-fosse-de bases."
+        },
+        {
+          "n": 56,
+          "t": "voix-de-moi tu-as-écouté ; ne tu-fasses-cacher oreille-de-toi à/pour-répit-de-moi à/pour-cry-de-moi."
+        },
+        {
+          "n": 57,
+          "t": "tu-as-present dans-jour je-appelerai-toi, tu-as-dit ne tu-craindes."
+        },
+        {
+          "n": 58,
+          "t": "tu-as-gjwté seigneurs-de-moi disputes-de âme-de-moi tu-as-racheté vies-de-moi."
+        },
+        {
+          "n": 59,
+          "t": "tu-as-vu YHWH subversif-de-moi, juge-hé jugement-de-moi."
+        },
+        {
+          "n": 60,
+          "t": "tu-as-vu tout-de vengeance-de-eux, tout-de pensées-de-eux à/pour-moi."
+        },
+        {
+          "n": 61,
+          "t": "tu-as-écouté opprobre-de-eux YHWH, tout-de pensées-de-eux sur-moi."
+        },
+        {
+          "n": 62,
+          "t": "lèvres-de levants-de-moi et-méditation-de-eux, sur-moi tout-de le-jour."
+        },
+        {
+          "n": 63,
+          "t": "habiter-de-eux et-rising-de-eux fais-regarder-hé, je gfpm-de-eux."
+        },
+        {
+          "n": 64,
+          "t": "tu-feras-retourner à/pour-eux récompense YHWH comme-acte-de mains-de-eux."
+        },
+        {
+          "n": 65,
+          "t": "tu-donneras à/pour-eux geyn-de cœur, malédiction-de-toi à/pour-eux."
+        },
+        {
+          "n": 66,
+          "t": "tu-poursuivras dans-nez et-tu-feras-exterminer-eux, sous ciels-de YHWH."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "verses": [
+        {
+          "n": 1,
+          "t": "gmkb or sera-fait-obscurcir, changera le-gold le-bon ; pierres-de sainteté répandront, dans-tête-de tout-de dehors."
+        },
+        {
+          "n": 2,
+          "t": "fils-de Sion les-précieux, les-ghdyés dans-le-giis ; gmkb ils-ont-été-pensé à/pour-bags-de tesson, acte-de mains-de former."
+        },
+        {
+          "n": 3,
+          "t": "aussi habitations ont-équipé sein, petits-de-elles ont-fait-allaiter ; fille-de peuple-de-moi à/pour-cruel, car autruches comme-les-autruches dans-le-désert."
+        },
+        {
+          "n": 4,
+          "t": "langue-de a-collé allaitant vers goûter-de-lui dans-le-soif ; enfants ont-demandé pain, étendant néant à/pour-eux."
+        },
+        {
+          "n": 5,
+          "t": "les-mangeants à/pour-délicats, ils-ont-été-désolé dans-les-dehors ; les-supportés sur dungs ont-étreindu worm,."
+        },
+        {
+          "n": 6,
+          "t": "iniquité-de fille-de peuple-de-moi et-a-crû, depuis-faute-de Sodom ; la-tournée comme moment, et-non ils-ont-tremblé dans-elle mains."
+        },
+        {
+          "n": 7,
+          "t": "nazaréens-de-elle ont-gcdié depuis-neige, ont-giwwé depuis-lait ; ils-ont-gdoé os depuis-jewels, saphir vide-de-eux."
+        },
+        {
+          "n": 8,
+          "t": "figure-de-eux, a-sombu depuis-blackness non ils-ont-été-reconnaîtu dans-les-dehors ; peau-de-eux a-contracté sur os-de-eux, a-flétri a-été comme-le-arbre."
+        },
+        {
+          "n": 9,
+          "t": "bons ils-ont-été tués-de épée, depuis-tués-de famine ; que-eux couleront percés, depuis-fruits-de gkjha."
+        },
+        {
+          "n": 10,
+          "t": "mains-de femmes ayantes, enfants-de-elles ont-cuit ; ils-ont-été à/pour-consommer à/pour-eux, dans-ruine-de fille-de peuple-de-moi."
+        },
+        {
+          "n": 11,
+          "t": "YHWH a-achevé colère-de-lui, a-répandu gdaj-de nez-de-lui ; feu et-a-fait-allumer dans-Sion, et-a-mangé fondements-de-elle."
+        },
+        {
+          "n": 12,
+          "t": "non rois-de terre ont-fait-supporter, et-tout-de tout-de habitants-de monde ; car étroit et-gmcçant viendra, dans-portes-de Jérusalem."
+        },
+        {
+          "n": 13,
+          "t": "depuis-fautes-de prophètes-de-elle, iniquités-de sacrificateurs-de-elle ; les-répandants dans-parmi-de-elle sang-de justes."
+        },
+        {
+          "n": 14,
+          "t": "ils-ont-erré aveugles dans-les-dehors, ils-ont-été-souillé dans-le-sang ; dans-non ils-vaincront, ils-toucheront dans-vêtements-de-eux."
+        },
+        {
+          "n": 15,
+          "t": "détournez impur ils-ont-appelé à/pour-eux détournez détournez ne vous-touchiez, car ils-ont-ggojaé aussi ils-ont-erré ; ils-ont-dit dans-les-nations, non ils-feront-ajouter à/pour-séjourner."
+        },
+        {
+          "n": 16,
+          "t": "faces-de YHWH il-a-divisé-eux, non il-fera-ajouter à/pour-faire-regarder-de-eux ; faces-de sacrificateurs non ont-porté, vieux et-vieux non ont-gracié."
+        },
+        {
+          "n": 17,
+          "t": "encore-de-elles encore-de-nous elles-acheveront yeux-de-nous, vers secours-de-nous vanity ; dans-watch-de-nous nous-avons-regardé, vers nation non fera-sauver."
+        },
+        {
+          "n": 18,
+          "t": "pas-de-nous ont-givwaé, depuis-aller dans-places-de-nous ; fin-de-nous a-present ont-rempli jours-de-nous car est-venu fin-de-nous."
+        },
+        {
+          "n": 19,
+          "t": "légers ils-ont-été poursuivants-de-nous, depuis-aigles-de ciels ; sur les-monts ont-brûlé-nous, dans-le-désert ont-gzqé à/pour-nous."
+        },
+        {
+          "n": 20,
+          "t": "esprit-de nez-de-nous oint-de YHWH, a-été-capturé dans-fosses-de-eux ; qui nous-avons-dit, dans-ombre-de-lui nous-guérirons dans-les-nations."
+        },
+        {
+          "n": 21,
+          "t": "exulte et-réjouis fille-de Édom, habitante-de habitante dans-terre-de Uz ; aussi sur-toi-f coupe passera, tu-f-ivras et-tu-f-videras."
+        },
+        {
+          "n": 22,
+          "t": "iniquité-de-toi-f a-fini fille-de Sion, non fera-ajouter à/pour-faire-découvrir-de-toi-f ; iniquité-de-toi-f a-visité fille-de Édom, a-découvri sur fautes-de-toi-f."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "verses": [
+        {
+          "n": 1,
+          "t": "rappele YHWH quoi a-été à/pour-nous, fais-regarder fais-regarder-hé et-vois opprobre-de-nous."
+        },
+        {
+          "n": 2,
+          "t": "héritage-de-nous a-été-tourné à/pour-strangers, maisons-de-nous à/pour-étrangers."
+        },
+        {
+          "n": 3,
+          "t": "orphelins nous-avons-été néant et-néant père, mères-de-nous comme-veuves."
+        },
+        {
+          "n": 4,
+          "t": "eaux-de-nous dans-argent nous-avons-bu, arbres-de-nous dans-gages viendront."
+        },
+        {
+          "n": 5,
+          "t": "sur cou-de-nous nous-avons-été-poursuivu, nous-avons-peiné non et-non a-été-fait-ggnuer à/pour-nous."
+        },
+        {
+          "n": 6,
+          "t": "Égypte nous-avons-donné main, Assur à/pour-rassasier pain."
+        },
+        {
+          "n": 7,
+          "t": "pères-de-nous ont-péché néant-eux et-néant-eux, nous et-nous iniquités-de-eux avons-porté."
+        },
+        {
+          "n": 8,
+          "t": "serviteurs ont-gouverné dans-nous, brisant néant depuis-main-de-eux."
+        },
+        {
+          "n": 9,
+          "t": "dans-âme-de-nous nous-ferons-venir pain-de-nous, depuis-faces-de épée-de le-désert."
+        },
+        {
+          "n": 10,
+          "t": "peau-de-nous comme-four ils-ont-été-soupiré, depuis-faces-de scorchings-de famine."
+        },
+        {
+          "n": 11,
+          "t": "femmes dans-Sion ont-ghwybé, vierges dans-villes-de Juda."
+        },
+        {
+          "n": 12,
+          "t": "princes dans-main-de-eux ont-été-glopé, faces-de vieux non ont-été-honoré."
+        },
+        {
+          "n": 13,
+          "t": "gakhs moulin ont-porté, et-youths dans-le-arbre ont-chancelé."
+        },
+        {
+          "n": 14,
+          "t": "vieux depuis-porte gakhs ont-cessé, depuis-chant-de-eux."
+        },
+        {
+          "n": 15,
+          "t": "joie-de cœur-de-nous a-cessé, a-été-tourné à/pour-deuil danse-de-nous."
+        },
+        {
+          "n": 16,
+          "t": "couronne-de tête-de-nous est-tombé, woe donc à/pour-nous car nous-avons-péché."
+        },
+        {
+          "n": 17,
+          "t": "sur celui-ci a-été indisposition cœur-de-nous, sur ces ils-ont-sombu yeux-de-nous."
+        },
+        {
+          "n": 18,
+          "t": "sur mont-de Sion que-a-désolé, renards ont-marché dans-lui."
+        },
+        {
+          "n": 19,
+          "t": "tu YHWH à/pour-durée habiteras, trône-de-toi à/pour-période et-période."
+        },
+        {
+          "n": 20,
+          "t": "à/pour-quoi à/pour-éminence tu-ignoreras-nous, tu-abandonneras-nous à/pour-longueur-de jours."
+        },
+        {
+          "n": 21,
+          "t": "fais-retourner-nous YHWH vers-toi et-nous-retournerons et-nous-retournons, renouvele jours-de-nous comme-orient."
+        },
+        {
+          "n": 22,
+          "t": "pour gsxb rejeter tu-as-rejeté-nous, tu-as-gjmié sur-nous jusqu'à très."
+        }
+      ]
+    }
+  ]
+}
