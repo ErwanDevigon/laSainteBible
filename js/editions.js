@@ -272,7 +272,7 @@ export function editionMenuLabel(id) {
   const v = EDITIONS[id];
   const year = editionYearShort(id);
   const name = editionMenuName(id, true);
-  const tag = id === "qumran" ? "" : (LANG_TAG[v?.lang] || v?.lang || "");
+  const tag = id === "qumran" || id === "calque" ? "" : (LANG_TAG[v?.lang] || v?.lang || "");
   const core = year ? `${name} · ${year}` : name;
   return tag ? `${core} (${tag})` : core;
 }
@@ -282,7 +282,7 @@ function paintEditionControl(btn, id, { year = true, tag = false, native = false
   const v = EDITIONS[id];
   const y = year ? editionYearShort(id) : "";
   const name = editionMenuName(id, native);
-  const langTag = id === "qumran" ? "" : (LANG_TAG[v?.lang] || v?.lang || "");
+  const langTag = id === "qumran" || id === "calque" ? "" : (LANG_TAG[v?.lang] || v?.lang || "");
   btn.replaceChildren();
   btn.dir = "ltr";
   const nameEl = document.createElement("span");
@@ -402,11 +402,15 @@ export function removeReaderColumn(index, available = EDITION_STACK) {
   return order;
 }
 
+/** Menu order. Calque sits under the 1008 Hebrew and above Qumrân. */
+function menuYear(id) {
+  if (id === "calque") return 1;
+  const year = EDITIONS[id]?.year;
+  return typeof year === "number" ? year : 0;
+}
+
 export function editionsByYearDesc(ids) {
-  return [...ids].sort((a, b) => {
-    const dy = (EDITIONS[b]?.year ?? 0) - (EDITIONS[a]?.year ?? 0);
-    return dy || a.localeCompare(b);
-  });
+  return [...ids].sort((a, b) => (menuYear(b) - menuYear(a)) || a.localeCompare(b));
 }
 
 export function mountHeaderTranslation() {

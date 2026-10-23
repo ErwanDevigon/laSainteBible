@@ -1800,8 +1800,8 @@ export const VERSIONS = {
   },
   "calque": {
     "id": "calque",
-    "label": "Calque",
-    "name": "Calque massorétique",
+    "label": "Calque massorétique (fr) (beta)",
+    "name": "Calque massorétique (fr) (beta)",
     "blurb": "Calque mot à mot du texte de Léningrad · français",
     "year": 2026,
     "lang": "fr",
