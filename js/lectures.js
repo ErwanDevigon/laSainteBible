@@ -18,11 +18,6 @@ const FALLBACK_PAGES = [
   "https://www.paxcoeur.com/messe-du-jour/",
   "https://missel.online",
 ];
-/** Visited days only: title + verse refs. One day is about 100 encoded bytes. */
-const MESSE_COOKIE = "lsb-messes";
-const MESSE_COOKIE_BUDGET = 3500;
-const TYPE_OUT = { premiere: "p", psaume: "s", evangile: "e", lecture: "l" };
-const TYPE_IN = { p: "premiere", s: "psaume", e: "evangile", l: "lecture" };
 
 export { parseRefString } from "./refs.js";
 
@@ -184,71 +179,6 @@ async function enrichWithPd(payload) {
   return { ...payload, readings };
 }
 
-function parseMesseCookie(text) {
-  if (!text || !text.trim()) return [];
-  const rows = [];
-  for (const line of text.split("\n")) {
-    const parts = line.split("\t");
-    if (parts.length < 3 || !parts[0] || !parts[2]) continue;
-    const refs = [];
-    for (const piece of parts[2].split("|")) {
-      const cut = piece.indexOf("=");
-      if (cut < 1) continue;
-      const ref = piece.slice(cut + 1);
-      if (!ref) continue;
-      refs.push([TYPE_IN[piece.slice(0, cut)] || "lecture", ref]);
-    }
-    if (refs.length) rows.push({ d: parts[0], t: parts[1], r: refs });
-  }
-  return rows;
-}
-
-function formatMesseCookie(list) {
-  return list
-    .map((row) => {
-      const refs = row.r
-        .map(([type, ref]) => `${TYPE_OUT[type] || "l"}=${ref}`)
-        .join("|");
-      const title = String(row.t || "").replace(/[\t\n]/g, " ");
-      return `${row.d}\t${title}\t${refs}`;
-    })
-    .join("\n");
-}
-
-function messeCookieList() {
-  if (typeof document === "undefined") return [];
-  const raw = document.cookie
-    .split("; ")
-    .find((part) => part.startsWith(`${MESSE_COOKIE}=`));
-  if (!raw) return [];
-  const value = raw.slice(MESSE_COOKIE.length + 1);
-  for (const text of [value, safeDecode(value)]) {
-    const rows = parseMesseCookie(text);
-    if (rows.length) return rows;
-  }
-  return [];
-}
-
-function safeDecode(value) {
-  try {
-    return decodeURIComponent(value);
-  } catch {
-    return null;
-  }
-}
-
-function writeMesseCookie(list) {
-  let body = formatMesseCookie(list);
-  while (list.length > 1 && encodeURIComponent(body).length > MESSE_COOKIE_BUDGET) {
-    list.shift();
-    body = formatMesseCookie(list);
-  }
-  const secure = location.protocol === "https:" ? "; Secure" : "";
-  document.cookie =
-    `${MESSE_COOKIE}=${encodeURIComponent(body)}; Path=/; Max-Age=31536000; SameSite=Lax${secure}`;
-}
-
-/** Cookie rows use collapsed types; the archive keeps the raw types. */
 function messeFromRow(date, row) {
   const readings = (row.r || []).map(([type, refStr], index) =>
     mapReading({ type, ref: refStr }, index)
@@ -262,29 +192,10 @@ function messeFromRow(date, row) {
   };
 }
 
-/** @returns {object|null} cookie row for this date, without excerpts */
-function recallMesse(date) {
-  const list = messeCookieList();
-  const i = list.findIndex((row) => row && row.d === date);
-  if (i < 0) return null;
-  const [row] = list.splice(i, 1);
-  list.push(row);
-  writeMesseCookie(list);
-  return messeFromRow(date, row);
-}
-
-function rememberMesse(data) {
-  if (typeof document === "undefined" || !data?.date) return;
-  const refs = (data.readings || [])
-    .filter((r) => r.ref_display)
-    .map((r) => [r.type, r.ref_display]);
-  if (!refs.length) return;
-  const title = (data.liturgical_title || "").trim();
-  const keep =
-    title && !/^messe du jour$/i.test(title) && !/^lectures$/i.test(title) ? title : "";
-  const list = messeCookieList().filter((row) => row && row.d !== data.date);
-  list.push({ d: data.date, t: keep, r: refs });
-  writeMesseCookie(list);
+/** Drop the old visited-day cookie. The archive replaced it. */
+function dropMesseCookie() {
+  if (typeof document === "undefined") return;
+  document.cookie = "lsb-messes=; Path=/; Max-Age=0; SameSite=Lax";
 }
 
 /** Same stock day for a given date, so a repaint does not shuffle the Mass. */
@@ -367,7 +278,6 @@ async function fetchFallbackPage(date) {
       if (!refs.some(([type]) => type === "evangile")) continue;
       const built = messeFromRow(date, { t: "", r: refs });
       if (!built) continue;
-      rememberMesse(built);
       return built;
     } catch (err) {
       console.warn("mass page skipped:", url, err);
@@ -378,21 +288,17 @@ async function fetchFallbackPage(date) {
 
 /**
  * Load lectures for a date (default: today Paris).
- * Order: mdj-archive.json, cookie, then the fallback pages.
+ * Order: mdj-archive.json, then the fallback pages.
  * A missing day uses another archive day, then sample.json.
- * An archive hit is not copied into the cookie.
- * @returns {Promise<{ data: object, source: 'archive'|'cache'|'page'|'stock'|'sample'|'empty', error?: string }>}
+ * @returns {Promise<{ data: object, source: 'archive'|'page'|'stock'|'sample'|'empty', error?: string }>}
  */
 export async function loadLectures(date = todayParis()) {
+  dropMesseCookie();
   const archive = await loadArchive();
   const stored = archive && archive.get(date);
   if (stored) {
     const built = messeFromRow(date, stored);
     if (built) return { data: await enrichWithPd(built), source: "archive" };
-  }
-  const cached = recallMesse(date);
-  if (cached) {
-    return { data: await enrichWithPd(cached), source: "cache" };
   }
   const page = await fetchFallbackPage(date);
   if (page) return { data: await enrichWithPd(page), source: "page" };
