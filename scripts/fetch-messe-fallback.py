@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Fill days missing from mdj-archive.json when the next ordo PDF is not out.
 
-Order: the page of the day on each site. Only verse references are kept.
-A site that does not publish the date and the refs in HTML is skipped.
+Order, best source first. Only verse references are kept.
+eglise.catholique.fr is the one that prints the date and the refs in HTML.
+The other three are kept next; a page without that pair is skipped.
 
     python3 scripts/fetch-messe-fallback.py
     python3 scripts/fetch-messe-fallback.py --days 14

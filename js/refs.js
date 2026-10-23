@@ -1,4 +1,4 @@
-/** AELF / liturgical reference parser → canon book ids. */
+/** Liturgical reference parser → canon book ids. */
 
 import { BOOK_BY_ID } from "./books.js";
 

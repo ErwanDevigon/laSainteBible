@@ -1,10 +1,8 @@
 /**
- * AELF daily readings adapter.
- * Same calendar as https://www.aelf.org/AAAA-MM-JJ/romain/messe
- * JSON feed: https://api.aelf.org/v1/messes/{date}/romain
- * Archive of refs, no prose: data/lectures/mdj-archive.json
- * If the day is missing and the feed fails, a stock day from that archive.
- * Last resort: data/lectures/sample.json
+ * Daily mass readings.
+ * Source 1: data/lectures/mdj-archive.json (refs only, local text).
+ * Then the pages that publish the date and the refs in HTML.
+ * If those fail: another day from the archive, then data/lectures/sample.json.
  */
 
 import { loadChapter } from "./data-loader.js";
@@ -13,7 +11,13 @@ import { parseRefString, canExpand } from "./refs.js";
 import { getActiveEdition } from "./editions.js";
 import { intlLocale } from "./i18n.js";
 
-const ZONE = "romain";
+/** Pages that print the date and the verse refs. Order is the fallback order. */
+const FALLBACK_PAGES = [
+  "https://eglise.catholique.fr/textes-du-jour/",
+  "https://www.prionseneglise.fr/textes-du-jour",
+  "https://www.paxcoeur.com/messe-du-jour/",
+  "https://missel.online",
+];
 /** Visited days only: title + verse refs. One day is about 100 encoded bytes. */
 const MESSE_COOKIE = "lsb-messes";
 const MESSE_COOKIE_BUDGET = 3500;
@@ -97,7 +101,7 @@ async function fetchArchive() {
   }
 }
 
-function mapAelfReading(item, index) {
+function mapReading(item, index) {
   const typeRaw = (item.type || item.intro_lue || "").toLowerCase();
   let type = "lecture";
   if (
@@ -115,7 +119,7 @@ function mapAelfReading(item, index) {
   }
 
   let refStr = (item.ref || item.reference || "").replace(/\u00a0/g, " ").trim();
-  // AELF often prints a psalm as "88 (89), 2-3" and leaves the book name off.
+  // A psalm is often printed as "88 (89), 2-3" and leaves the book name off.
   if (type === "psaume" && refStr && !parseRefString(refStr)) {
     const withBook = `Ps ${refStr}`;
     if (parseRefString(withBook)) refStr = withBook;
@@ -140,7 +144,7 @@ function mapAelfReading(item, index) {
     ref_display: refStr.replace(/\u00a0/g, " ").trim(),
     ref: parsed,
     expandable,
-    // AELF excerpt for display only — never used as full book text
+    // Excerpt for display only — never used as full book text
     excerpt: (item.contenu || item.texte || item.titre || "")
       .replace(/<[^>]+>/g, " ")
       .replace(/\s+/g, " ")
@@ -148,27 +152,7 @@ function mapAelfReading(item, index) {
   };
 }
 
-function normalizeAelf(data, date) {
-  const messes = data.messes || data;
-  const messe = Array.isArray(messes) ? messes[0] : messes;
-  const lectures = messe?.lectures || data.lectures || [];
-  const title =
-    messe?.nom ||
-    data.informations?.jour_liturgique_nom ||
-    data.informations?.fete ||
-    "Messe du jour";
-
-  return {
-    date,
-    liturgical_title: title,
-    source: "aelf",
-    readings: lectures.map(mapAelfReading),
-  };
-}
-
-/**
- * Enrich expandable readings with PD excerpt when AELF text empty/unwanted.
- */
+/** Fill a short excerpt from the local edition when the row has only a reference. */
 async function enrichWithPd(payload) {
   const edition = getActiveEdition();
   const readings = await Promise.all(
@@ -186,7 +170,7 @@ async function enrichWithPd(payload) {
               5
             )
           : "";
-        // Prefer short PD excerpt for visual unity; keep AELF if PD fails
+        // Prefer the local excerpt. Keep the row text if the chapter is missing.
         if (pd) copy.excerpt = pd;
         if (!copy.ref_display) {
           copy.ref_display = `${copy.ref.bookId} ${copy.ref.chapter}, ${copy.ref.verseStart}-${copy.ref.verseEnd}`;
@@ -264,21 +248,21 @@ function writeMesseCookie(list) {
     `${MESSE_COOKIE}=${encodeURIComponent(body)}; Path=/; Max-Age=31536000; SameSite=Lax${secure}`;
 }
 
-/** Cookie rows use collapsed types; the archive uses raw AELF types. Both go through mapAelfReading. */
+/** Cookie rows use collapsed types; the archive keeps the raw types. */
 function messeFromRow(date, row) {
   const readings = (row.r || []).map(([type, refStr], index) =>
-    mapAelfReading({ type, ref: refStr }, index)
+    mapReading({ type, ref: refStr }, index)
   );
   if (!readings.length) return null;
   return {
     date,
-    liturgical_title: row.t || "Messe du jour",
-    source: "aelf",
+    liturgical_title: row.t || "",
+    source: "archive",
     readings,
   };
 }
 
-/** @returns {object|null} payload shaped like normalizeAelf, without excerpts */
+/** @returns {object|null} cookie row for this date, without excerpts */
 function recallMesse(date) {
   const list = messeCookieList();
   const i = list.findIndex((row) => row && row.d === date);
@@ -314,13 +298,6 @@ function pickStock(archive, date) {
 
 const READINGS_FALLBACK = "readingsFallback";
 
-/**
- * Load lectures for a date (default: today Paris).
- * Order: cookie (days already opened), then mdj-archive.json, then AELF.
- * If the feed fails: another day from the archive, then sample.json.
- * An archive hit is not copied into the cookie. Neither is a fallback.
- * @returns {Promise<{ data: object, source: 'aelf'|'cache'|'archive'|'stock'|'sample'|'empty', error?: string }>}
- */
 /** Last day stored in mdj-archive.json, or "" when the file is missing. */
 export async function archiveHorizon() {
   const archive = await loadArchive();
@@ -330,72 +307,129 @@ export async function archiveHorizon() {
   return last;
 }
 
-export async function loadLectures(date = todayParis()) {
-  const cached = recallMesse(date);
-  if (cached) {
-    return { data: await enrichWithPd(cached), source: "cache" };
+function plainHtml(html) {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<[^>]+>/g, "\n")
+    .replace(/&#0?39;/g, "'")
+    .replace(/&nbsp;|\u00a0/g, " ");
+}
+
+function refIn(chunk) {
+  const parts = [...chunk.matchAll(/\(([^()]*(?:\([^()]*\)[^()]*)*)\)/g)].map((m) =>
+    m[1].replace(/\s+/g, " ").trim()
+  );
+  for (let i = parts.length - 1; i >= 0; i--) {
+    const ref = parts[i];
+    if (!/\d/.test(ref) || !/[A-Za-zÉÈ]/.test(ref)) continue;
+    if (/^ps\b/i.test(ref)) return ref.replace(/^ps\b/i, "Ps");
+    if (/^\d/.test(ref)) return `Ps ${ref}`;
+    return ref;
   }
+  return "";
+}
+
+/** One of the fallback pages, only when it is the requested date. */
+async function fetchFallbackPage(date) {
+  for (const url of FALLBACK_PAGES) {
+    try {
+      const res = await fetch(url, { headers: { Accept: "text/html" } });
+      if (!res.ok) continue;
+      const html = await res.text();
+      const stamp = html.match(/datetime="(\d{4}-\d{2}-\d{2})"/);
+      if (!stamp || stamp[1] !== date) continue;
+      const lines = plainHtml(html)
+        .split("\n")
+        .map((line) => line.trim())
+        .filter(Boolean);
+      const refs = [];
+      const seen = new Set();
+      for (let i = 0; i < lines.length; i++) {
+        const head = lines[i].match(
+          /^(Première lecture|Deuxième lecture|Psaume|Évangile|Evangile)\b/i
+        );
+        if (!head) continue;
+        let ref = refIn(`${lines[i]} ${lines[i + 1] || ""}`);
+        if (!ref) continue;
+        const label = head[1].toLowerCase();
+        const type = label.startsWith("év") || label.startsWith("ev")
+          ? "evangile"
+          : label.startsWith("ps")
+            ? "psaume"
+            : label.startsWith("deux")
+              ? "lecture_2"
+              : "lecture_1";
+        if (seen.has(type)) continue;
+        seen.add(type);
+        if (type === "psaume" && !/^ps\b/i.test(ref)) ref = `Ps ${ref}`;
+        refs.push([type, ref]);
+      }
+      if (!refs.some(([type]) => type === "evangile")) continue;
+      const built = messeFromRow(date, { t: "", r: refs });
+      if (!built) continue;
+      rememberMesse(built);
+      return built;
+    } catch (err) {
+      console.warn("mass page skipped:", url, err);
+    }
+  }
+  return null;
+}
+
+/**
+ * Load lectures for a date (default: today Paris).
+ * Order: mdj-archive.json, cookie, then the fallback pages.
+ * A missing day uses another archive day, then sample.json.
+ * An archive hit is not copied into the cookie.
+ * @returns {Promise<{ data: object, source: 'archive'|'cache'|'page'|'stock'|'sample'|'empty', error?: string }>}
+ */
+export async function loadLectures(date = todayParis()) {
   const archive = await loadArchive();
   const stored = archive && archive.get(date);
   if (stored) {
     const built = messeFromRow(date, stored);
     if (built) return { data: await enrichWithPd(built), source: "archive" };
   }
-  const url = `https://api.aelf.org/v1/messes/${date}/${ZONE}`;
+  const cached = recallMesse(date);
+  if (cached) {
+    return { data: await enrichWithPd(cached), source: "cache" };
+  }
+  const page = await fetchFallbackPage(date);
+  if (page) return { data: await enrichWithPd(page), source: "page" };
+  const row = archive && pickStock(archive, date);
+  const built = row && messeFromRow(date, row);
+  if (built) {
+    return {
+      data: await enrichWithPd(built),
+      source: "stock",
+      error: READINGS_FALLBACK,
+    };
+  }
   try {
-    const res = await fetch(url, { headers: { Accept: "application/json" } });
-    if (!res.ok) throw new Error(`AELF HTTP ${res.status}`);
-    const json = await res.json();
-    let data = normalizeAelf(json, date);
-    rememberMesse(data);
+    const sample = await fetchSample();
+    let data = {
+      ...sample,
+      date,
+      liturgical_title: String(sample.liturgical_title || "")
+        .replace(/\s*\(exemple\)\s*/i, "")
+        .trim(),
+      source: "sample",
+      readings: (sample.readings || []).map((r) => {
+        const parsed = r.ref || parseRefString(r.ref_display);
+        return {
+          ...r,
+          ref: parsed,
+          expandable: canExpand(parsed),
+        };
+      }),
+    };
     data = await enrichWithPd(data);
-    return { data, source: "aelf" };
-  } catch (err) {
-    console.warn("AELF unavailable:", err);
-    const row = archive && pickStock(archive, date);
-    const built = row && messeFromRow(date, row);
-    if (built) {
-      return {
-        data: await enrichWithPd(built),
-        source: "stock",
-        error: READINGS_FALLBACK,
-      };
-    }
-    try {
-      const sample = await fetchSample();
-      let data = {
-        ...sample,
-        date,
-        liturgical_title: String(sample.liturgical_title || "")
-          .replace(/\s*\(exemple\)\s*/i, "")
-          .trim(),
-        source: "sample",
-        readings: (sample.readings || []).map((r) => {
-          const parsed = r.ref || parseRefString(r.ref_display);
-          return {
-            ...r,
-            ref: parsed,
-            expandable: canExpand(parsed),
-          };
-        }),
-      };
-      data = await enrichWithPd(data);
-      return {
-        data,
-        source: "sample",
-        error: READINGS_FALLBACK,
-      };
-    } catch (e2) {
-      return {
-        data: {
-          date,
-          liturgical_title: "",
-          readings: [],
-          source: "empty",
-        },
-        source: "empty",
-        error: READINGS_FALLBACK,
-      };
-    }
+    return { data, source: "sample", error: READINGS_FALLBACK };
+  } catch (e2) {
+    return {
+      data: { date, liturgical_title: "", readings: [], source: "empty" },
+      source: "empty",
+      error: READINGS_FALLBACK,
+    };
   }
 }

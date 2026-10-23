@@ -1,4 +1,4 @@
-import { loadLectures, archiveHorizon, formatDateFr, todayParis, shiftIsoDate } from "./aelf.js";
+import { loadLectures, archiveHorizon, formatDateFr, todayParis, shiftIsoDate } from "./lectures.js";
 import { MaskDilatation } from "./expand.js";
 import { mountSwipeNav } from "./swipe-nav.js";
 import {
@@ -229,7 +229,7 @@ async function init() {
         statusEl.hidden = false;
         statusEl.dataset.tone = "warn";
         statusEl.textContent = t(error);
-      } else if (source === "aelf") {
+      } else {
         statusEl.hidden = true;
       }
     }
