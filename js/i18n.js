@@ -26,6 +26,7 @@ const STR = {
     reading: "Lecture",
     noReadings: "Aucune lecture à afficher pour ce jour.",
     readingsFallback: "Les lectures de ce jour sont indisponibles. Une autre messe est proposée.",
+    feastOnly: "Les lectures de ce jour ne sont pas encore publiées.",
   },
   en: {
     mass: "Mass of the day",
@@ -50,6 +51,7 @@ const STR = {
     reading: "Reading",
     noReadings: "No reading for this day.",
     readingsFallback: "Today's readings are unavailable. Another Mass is shown.",
+    feastOnly: "The readings for this day are not published yet.",
   },
   de: {
     mass: "Messe des Tages",
@@ -74,6 +76,7 @@ const STR = {
     reading: "Lesung",
     noReadings: "Keine Lesung für diesen Tag.",
     readingsFallback: "Die Lesungen dieses Tages sind nicht verfügbar. Eine andere Messe wird angezeigt.",
+    feastOnly: "Die Lesungen dieses Tages sind noch nicht veröffentlicht.",
   },
   es: {
     mass: "Misa del día",
@@ -98,6 +101,7 @@ const STR = {
     reading: "Lectura",
     noReadings: "Ninguna lectura para este día.",
     readingsFallback: "Las lecturas de este día no están disponibles. Se propone otra misa.",
+    feastOnly: "Las lecturas de este día aún no están publicadas.",
   },
   it: {
     mass: "Messa del giorno",
@@ -122,6 +126,7 @@ const STR = {
     reading: "Lettura",
     noReadings: "Nessuna lettura per questo giorno.",
     readingsFallback: "Le letture di questo giorno non sono disponibili. Viene proposta un'altra messa.",
+    feastOnly: "Le letture di questo giorno non sono ancora pubblicate.",
   },
   pt: {
     mass: "Missa do dia",
@@ -146,6 +151,7 @@ const STR = {
     reading: "Leitura",
     noReadings: "Nenhuma leitura para este dia.",
     readingsFallback: "As leituras deste dia estão indisponíveis. Propõe-se outra missa.",
+    feastOnly: "As leituras deste dia ainda não foram publicadas.",
   },
   nl: {
     mass: "Mis van de dag",
@@ -170,6 +176,7 @@ const STR = {
     reading: "Lezing",
     noReadings: "Geen lezing voor deze dag.",
     readingsFallback: "De lezingen van deze dag zijn niet beschikbaar. Een andere mis wordt getoond.",
+    feastOnly: "De lezingen van deze dag zijn nog niet gepubliceerd.",
   },
   sv: {
     mass: "Dagens mässa",
@@ -194,6 +201,7 @@ const STR = {
     reading: "Läsning",
     noReadings: "Ingen läsning för denna dag.",
     readingsFallback: "Dagens läsningar är inte tillgängliga. En annan mässa visas.",
+    feastOnly: "Dagens läsningar är ännu inte publicerade.",
   },
   no: {
     mass: "Dagens messe",
@@ -218,6 +226,7 @@ const STR = {
     reading: "Lesning",
     noReadings: "Ingen lesning for denne dagen.",
     readingsFallback: "Dagens lesninger er ikke tilgjengelige. En annen messe vises.",
+    feastOnly: "Dagens lesninger er ennå ikke publisert.",
   },
   fi: {
     mass: "Päivän messu",
@@ -242,6 +251,7 @@ const STR = {
     reading: "Lukukappale",
     noReadings: "Ei lukukappaletta tälle päivälle.",
     readingsFallback: "Tämän päivän lukukappaleet eivät ole saatavilla. Näytetään toinen messu.",
+    feastOnly: "Tämän päivän lukukappaleita ei ole vielä julkaistu.",
   },
   hu: {
     mass: "A nap miséje",
@@ -266,6 +276,7 @@ const STR = {
     reading: "Olvasmány",
     noReadings: "Nincs olvasmány erre a napra.",
     readingsFallback: "A nap olvasmányai nem érhetők el. Egy másik mise jelenik meg.",
+    feastOnly: "A nap olvasmányai még nincsenek közzétéve.",
   },
   cs: {
     mass: "Mše dne",
@@ -290,6 +301,7 @@ const STR = {
     reading: "Čtení",
     noReadings: "Pro tento den není čtení.",
     readingsFallback: "Čtení tohoto dne nejsou dostupná. Nabízí se jiná mše.",
+    feastOnly: "Čtení tohoto dne ještě nejsou zveřejněna.",
   },
   sr: {
     mass: "Misa dana",
@@ -314,6 +326,7 @@ const STR = {
     reading: "Čitanje",
     noReadings: "Nema čitanja za ovaj dan.",
     readingsFallback: "Čitanja za ovaj dan nisu dostupna. Predlaže se druga misa.",
+    feastOnly: "Čitanja za ovaj dan još nisu objavljena.",
   },
   ru: {
     mass: "Месса дня",
@@ -338,6 +351,7 @@ const STR = {
     reading: "Чтение",
     noReadings: "Нет чтений на этот день.",
     readingsFallback: "Чтения этого дня недоступны. Предлагается другая месса.",
+    feastOnly: "Чтения этого дня ещё не опубликованы.",
   },
   el: {
     mass: "Λειτουργία της ημέρας",
@@ -362,6 +376,7 @@ const STR = {
     reading: "Ανάγνωσμα",
     noReadings: "Κανένα ανάγνωσμα για αυτή την ημέρα.",
     readingsFallback: "Τα αναγνώσματα της ημέρας δεν είναι διαθέσιμα. Προτείνεται άλλη θεία λειτουργία.",
+    feastOnly: "Τα αναγνώσματα της ημέρας δεν έχουν ακόμη δημοσιευτεί.",
   },
   la: {
     mass: "Missa diei",
@@ -386,6 +401,7 @@ const STR = {
     reading: "Lectio",
     noReadings: "Nulla lectio hoc die.",
     readingsFallback: "Lectiones huius diei desunt. Alia Missa proponitur.",
+    feastOnly: "Lectiones huius diei nondum editae sunt.",
   },
   he: {
     mass: "מיסת היום",
@@ -410,6 +426,7 @@ const STR = {
     reading: "קריאה",
     noReadings: "אין קריאה ליום זה.",
     readingsFallback: "קריאות היום אינן זמינות. מוצעת מיסה אחרת.",
+    feastOnly: "קריאות היום עדיין לא פורסמו.",
   },
   ar: {
     mass: "قداس اليوم",
@@ -434,6 +451,7 @@ const STR = {
     reading: "قراءة",
     noReadings: "لا قراءة لهذا اليوم.",
     readingsFallback: "قراءات هذا اليوم غير متاحة. تُعرض قداس أخرى.",
+    feastOnly: "قراءات هذا اليوم لم تُنشر بعد.",
   },
   zh: {
     mass: "本日弥撒",
@@ -458,6 +476,7 @@ const STR = {
     reading: "读经",
     noReadings: "这一天没有读经。",
     readingsFallback: "本日读经暂不可用。现显示另一台弥撒。",
+    feastOnly: "本日读经尚未公布。",
   },
   ja: {
     mass: "本日のミサ",
@@ -482,6 +501,7 @@ const STR = {
     reading: "朗読",
     noReadings: "この日の朗読はありません。",
     readingsFallback: "この日の朗読は表示できません。別のミサを示します。",
+    feastOnly: "この日の朗読はまだ公開されていません。",
   },
   tl: {
     mass: "Misa ng araw",
@@ -506,6 +526,7 @@ const STR = {
     reading: "Pagbasa",
     noReadings: "Walang pagbasa para sa araw na ito.",
     readingsFallback: "Hindi magagamit ang mga pagbasa ngayong araw. Ipinapakita ang ibang Misa.",
+    feastOnly: "Hindi pa nalalathala ang mga pagbasa ngayong araw.",
   },
 };
 

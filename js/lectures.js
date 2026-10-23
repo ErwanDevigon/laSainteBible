@@ -1,8 +1,10 @@
 /**
  * Daily mass readings.
- * Source 1: data/lectures/mdj-archive.json (refs only, local text).
- * Then the pages that publish the date and the refs in HTML.
- * If those fail: another day from the archive, then data/lectures/sample.json.
+ * Source 1: data/lectures/mdj-archive.json (refs, local text).
+ * Then data/lectures/mdj-ordo.json (feast for every day, 2025–2069).
+ * On the dates in messes-speciales.json, the online pages, which can
+ * carry the formulary the computed calendar does not choose.
+ * If those fail: another day from the archive, then sample.json.
  */
 
 import { loadChapter } from "./data-loader.js";
@@ -78,22 +80,8 @@ function loadArchive() {
   return archivePromise;
 }
 
-async function fetchArchive() {
-  try {
-    const { rootUrl, rel } = dataUrl("mdj-archive.json");
-    let res = await fetch(rootUrl);
-    if (!res.ok) res = await fetch(rel);
-    if (!res.ok) return null;
-    const json = await res.json();
-    const byDate = new Map();
-    for (const row of json.days || []) {
-      if (row && row.d && row.r && row.r.length) byDate.set(row.d, row);
-    }
-    return byDate;
-  } catch (err) {
-    console.warn("mdj-archive.json unavailable:", err);
-    return null;
-  }
+function fetchArchive() {
+  return fetchDated("mdj-archive.json", true);
 }
 
 function mapReading(item, index) {
@@ -209,13 +197,64 @@ function pickStock(archive, date) {
 
 const READINGS_FALLBACK = "readingsFallback";
 
-/** Last day stored in mdj-archive.json, or "" when the file is missing. */
+/** Last day the page can open: the provisional ordo, else the archive. */
 export async function archiveHorizon() {
+  const ordo = await loadOrdo();
   const archive = await loadArchive();
-  if (!archive || !archive.size) return "";
   let last = "";
-  for (const key of archive.keys()) if (key > last) last = key;
+  for (const map of [ordo, archive]) {
+    if (!map) continue;
+    for (const key of map.keys()) if (key > last) last = key;
+  }
   return last;
+}
+
+let ordoPromise = null;
+
+function loadOrdo() {
+  if (!ordoPromise) ordoPromise = fetchDated("mdj-ordo.json", false);
+  return ordoPromise;
+}
+
+let specialsPromise = null;
+
+function loadSpecials() {
+  if (!specialsPromise) specialsPromise = fetchSpecials();
+  return specialsPromise;
+}
+
+async function fetchDated(file, needRefs) {
+  try {
+    const { rootUrl, rel } = dataUrl(file);
+    let res = await fetch(rootUrl);
+    if (!res.ok) res = await fetch(rel);
+    if (!res.ok) return null;
+    const json = await res.json();
+    const byDate = new Map();
+    for (const row of json.days || []) {
+      if (!row || !row.d) continue;
+      if (needRefs && !(row.r && row.r.length)) continue;
+      byDate.set(row.d, row);
+    }
+    return byDate;
+  } catch (err) {
+    console.warn(`${file} unavailable:`, err);
+    return null;
+  }
+}
+
+async function fetchSpecials() {
+  try {
+    const { rootUrl, rel } = dataUrl("messes-speciales.json");
+    let res = await fetch(rootUrl);
+    if (!res.ok) res = await fetch(rel);
+    if (!res.ok) return new Set();
+    const json = await res.json();
+    return new Set((json.dates || []).map((row) => row.date).filter(Boolean));
+  } catch (err) {
+    console.warn("messes-speciales.json unavailable:", err);
+    return new Set();
+  }
 }
 
 function plainHtml(html) {
@@ -288,9 +327,10 @@ async function fetchFallbackPage(date) {
 
 /**
  * Load lectures for a date (default: today Paris).
- * Order: mdj-archive.json, then the fallback pages.
- * A missing day uses another archive day, then sample.json.
- * @returns {Promise<{ data: object, source: 'archive'|'page'|'stock'|'sample'|'empty', error?: string }>}
+ * Order: mdj-archive.json, then mdj-ordo.json.
+ * The online pages run only for a date in messes-speciales.json.
+ * A day still missing uses another archive day, then sample.json.
+ * @returns {Promise<{ data: object, source: 'archive'|'ordo'|'page'|'stock'|'sample'|'empty', error?: string }>}
  */
 export async function loadLectures(date = todayParis()) {
   dropMesseCookie();
@@ -300,8 +340,32 @@ export async function loadLectures(date = todayParis()) {
     const built = messeFromRow(date, stored);
     if (built) return { data: await enrichWithPd(built), source: "archive" };
   }
-  const page = await fetchFallbackPage(date);
-  if (page) return { data: await enrichWithPd(page), source: "page" };
+  const ordo = await loadOrdo();
+  const ordoRow = ordo && ordo.get(date);
+  if (ordoRow && ordoRow.r && ordoRow.r.length) {
+    const built = messeFromRow(date, ordoRow);
+    if (built) return { data: await enrichWithPd(built), source: "ordo" };
+  }
+  const specials = await loadSpecials();
+  if (specials.has(date)) {
+    const page = await fetchFallbackPage(date);
+    if (page) {
+      if (ordoRow && ordoRow.t) page.liturgical_title = ordoRow.t;
+      return { data: await enrichWithPd(page), source: "page" };
+    }
+  }
+  if (ordoRow) {
+    return {
+      data: {
+        date,
+        liturgical_title: ordoRow.t || "",
+        source: "ordo",
+        readings: [],
+      },
+      source: "ordo",
+      error: "feastOnly",
+    };
+  }
   const row = archive && pickStock(archive, date);
   const built = row && messeFromRow(date, row);
   if (built) {

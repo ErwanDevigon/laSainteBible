@@ -247,9 +247,9 @@ async function init() {
       { rootMargin: "600px 0px" }
     );
     if (!data.readings?.length) {
-      listEl.appendChild(
-        el("p", "status-msg", t("noReadings"))
-      );
+      if (!error) {
+        listEl.appendChild(el("p", "status-msg", t("noReadings")));
+      }
       return;
     }
 
