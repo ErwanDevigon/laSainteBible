@@ -171,6 +171,7 @@ const ALIASES = [
   ["jb", "job"],
   ["ps", "psaumes"],
   ["pr", "proverbes"],
+  ["pv", "proverbes"],
   ["qo", "ecclesiaste"],
   ["ec", "ecclesiaste"],
   ["ct", "cantique"],
