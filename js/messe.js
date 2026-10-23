@@ -1,4 +1,4 @@
-import { loadLectures, formatDateFr, todayParis, shiftIsoDate } from "./aelf.js";
+import { loadLectures, archiveHorizon, formatDateFr, todayParis, shiftIsoDate } from "./aelf.js";
 import { MaskDilatation } from "./expand.js";
 import { mountSwipeNav } from "./swipe-nav.js";
 import {
@@ -144,11 +144,19 @@ async function init() {
     }
   });
 
+  /** Today, or the last day of the local archive when it runs further. */
+  let horizon = todayParis();
+
+  function clampDate(iso) {
+    const today = todayParis();
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return today;
+    return iso > horizon ? horizon : iso;
+  }
+
   function dateFromUrl() {
     const raw = new URLSearchParams(location.search).get("date") || "";
-    const today = todayParis();
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) return today;
-    return raw > today ? today : raw;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) return todayParis();
+    return clampDate(raw);
   }
 
   let currentDate = dateFromUrl();
@@ -168,7 +176,7 @@ async function init() {
     const prev = dateStep(-1);
     prev.addEventListener("click", () => go(shiftIsoDate(iso, -1)));
     const next = dateStep(1);
-    if (iso < todayParis()) {
+    if (iso < horizon) {
       next.addEventListener("click", () => go(shiftIsoDate(iso, 1)));
     } else {
       next.disabled = true;
@@ -183,8 +191,7 @@ async function init() {
   }
 
   async function go(iso) {
-    const today = todayParis();
-    if (iso > today) iso = today;
+    iso = clampDate(iso);
     currentDate = iso;
     writeDate(iso);
     renderNav(iso);
@@ -406,6 +413,16 @@ async function init() {
 
   renderNav(currentDate);
   paint(currentDate);
+  archiveHorizon().then((last) => {
+    const today = todayParis();
+    horizon = last && last > today ? last : today;
+    const raw = new URLSearchParams(location.search).get("date") || "";
+    if (/^\d{4}-\d{2}-\d{2}$/.test(raw) && raw > today && raw <= horizon && raw !== currentDate) {
+      go(raw);
+      return;
+    }
+    renderNav(currentDate);
+  });
 }
 
 init();

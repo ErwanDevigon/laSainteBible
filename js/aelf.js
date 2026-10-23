@@ -321,6 +321,15 @@ const READINGS_FALLBACK = "readingsFallback";
  * An archive hit is not copied into the cookie. Neither is a fallback.
  * @returns {Promise<{ data: object, source: 'aelf'|'cache'|'archive'|'stock'|'sample'|'empty', error?: string }>}
  */
+/** Last day stored in mdj-archive.json, or "" when the file is missing. */
+export async function archiveHorizon() {
+  const archive = await loadArchive();
+  if (!archive || !archive.size) return "";
+  let last = "";
+  for (const key of archive.keys()) if (key > last) last = key;
+  return last;
+}
+
 export async function loadLectures(date = todayParis()) {
   const cached = recallMesse(date);
   if (cached) {
