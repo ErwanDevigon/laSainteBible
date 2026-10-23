@@ -25,6 +25,7 @@ const STR = {
     firstReading: "Première lecture",
     reading: "Lecture",
     noReadings: "Aucune lecture à afficher pour ce jour.",
+    readingsFallback: "Les lectures de ce jour sont indisponibles. Une autre messe est proposée.",
   },
   en: {
     mass: "Mass of the day",
@@ -48,6 +49,7 @@ const STR = {
     firstReading: "First reading",
     reading: "Reading",
     noReadings: "No reading for this day.",
+    readingsFallback: "Today's readings are unavailable. Another Mass is shown.",
   },
   de: {
     mass: "Messe des Tages",
@@ -71,6 +73,7 @@ const STR = {
     firstReading: "Erste Lesung",
     reading: "Lesung",
     noReadings: "Keine Lesung für diesen Tag.",
+    readingsFallback: "Die Lesungen dieses Tages sind nicht verfügbar. Eine andere Messe wird angezeigt.",
   },
   es: {
     mass: "Misa del día",
@@ -94,6 +97,7 @@ const STR = {
     firstReading: "Primera lectura",
     reading: "Lectura",
     noReadings: "Ninguna lectura para este día.",
+    readingsFallback: "Las lecturas de este día no están disponibles. Se propone otra misa.",
   },
   it: {
     mass: "Messa del giorno",
@@ -117,6 +121,7 @@ const STR = {
     firstReading: "Prima lettura",
     reading: "Lettura",
     noReadings: "Nessuna lettura per questo giorno.",
+    readingsFallback: "Le letture di questo giorno non sono disponibili. Viene proposta un'altra messa.",
   },
   pt: {
     mass: "Missa do dia",
@@ -140,6 +145,7 @@ const STR = {
     firstReading: "Primeira leitura",
     reading: "Leitura",
     noReadings: "Nenhuma leitura para este dia.",
+    readingsFallback: "As leituras deste dia estão indisponíveis. Propõe-se outra missa.",
   },
   nl: {
     mass: "Mis van de dag",
@@ -163,6 +169,7 @@ const STR = {
     firstReading: "Eerste lezing",
     reading: "Lezing",
     noReadings: "Geen lezing voor deze dag.",
+    readingsFallback: "De lezingen van deze dag zijn niet beschikbaar. Een andere mis wordt getoond.",
   },
   sv: {
     mass: "Dagens mässa",
@@ -186,6 +193,7 @@ const STR = {
     firstReading: "Första läsningen",
     reading: "Läsning",
     noReadings: "Ingen läsning för denna dag.",
+    readingsFallback: "Dagens läsningar är inte tillgängliga. En annan mässa visas.",
   },
   no: {
     mass: "Dagens messe",
@@ -209,6 +217,7 @@ const STR = {
     firstReading: "Første lesning",
     reading: "Lesning",
     noReadings: "Ingen lesning for denne dagen.",
+    readingsFallback: "Dagens lesninger er ikke tilgjengelige. En annen messe vises.",
   },
   fi: {
     mass: "Päivän messu",
@@ -232,6 +241,7 @@ const STR = {
     firstReading: "Ensimmäinen lukukappale",
     reading: "Lukukappale",
     noReadings: "Ei lukukappaletta tälle päivälle.",
+    readingsFallback: "Tämän päivän lukukappaleet eivät ole saatavilla. Näytetään toinen messu.",
   },
   hu: {
     mass: "A nap miséje",
@@ -255,6 +265,7 @@ const STR = {
     firstReading: "Első olvasmány",
     reading: "Olvasmány",
     noReadings: "Nincs olvasmány erre a napra.",
+    readingsFallback: "A nap olvasmányai nem érhetők el. Egy másik mise jelenik meg.",
   },
   cs: {
     mass: "Mše dne",
@@ -278,6 +289,7 @@ const STR = {
     firstReading: "První čtení",
     reading: "Čtení",
     noReadings: "Pro tento den není čtení.",
+    readingsFallback: "Čtení tohoto dne nejsou dostupná. Nabízí se jiná mše.",
   },
   sr: {
     mass: "Misa dana",
@@ -301,6 +313,7 @@ const STR = {
     firstReading: "Prvo čitanje",
     reading: "Čitanje",
     noReadings: "Nema čitanja za ovaj dan.",
+    readingsFallback: "Čitanja za ovaj dan nisu dostupna. Predlaže se druga misa.",
   },
   ru: {
     mass: "Месса дня",
@@ -324,6 +337,7 @@ const STR = {
     firstReading: "Первое чтение",
     reading: "Чтение",
     noReadings: "Нет чтений на этот день.",
+    readingsFallback: "Чтения этого дня недоступны. Предлагается другая месса.",
   },
   el: {
     mass: "Λειτουργία της ημέρας",
@@ -347,6 +361,7 @@ const STR = {
     firstReading: "Πρώτο ανάγνωσμα",
     reading: "Ανάγνωσμα",
     noReadings: "Κανένα ανάγνωσμα για αυτή την ημέρα.",
+    readingsFallback: "Τα αναγνώσματα της ημέρας δεν είναι διαθέσιμα. Προτείνεται άλλη θεία λειτουργία.",
   },
   la: {
     mass: "Missa diei",
@@ -370,6 +385,7 @@ const STR = {
     firstReading: "Lectio prima",
     reading: "Lectio",
     noReadings: "Nulla lectio hoc die.",
+    readingsFallback: "Lectiones huius diei desunt. Alia Missa proponitur.",
   },
   he: {
     mass: "מיסת היום",
@@ -393,6 +409,7 @@ const STR = {
     firstReading: "קריאה ראשונה",
     reading: "קריאה",
     noReadings: "אין קריאה ליום זה.",
+    readingsFallback: "קריאות היום אינן זמינות. מוצעת מיסה אחרת.",
   },
   ar: {
     mass: "قداس اليوم",
@@ -416,6 +433,7 @@ const STR = {
     firstReading: "القراءة الأولى",
     reading: "قراءة",
     noReadings: "لا قراءة لهذا اليوم.",
+    readingsFallback: "قراءات هذا اليوم غير متاحة. تُعرض قداس أخرى.",
   },
   zh: {
     mass: "本日弥撒",
@@ -439,6 +457,7 @@ const STR = {
     firstReading: "第一读经",
     reading: "读经",
     noReadings: "这一天没有读经。",
+    readingsFallback: "本日读经暂不可用。现显示另一台弥撒。",
   },
   ja: {
     mass: "本日のミサ",
@@ -462,6 +481,7 @@ const STR = {
     firstReading: "第一朗読",
     reading: "朗読",
     noReadings: "この日の朗読はありません。",
+    readingsFallback: "この日の朗読は表示できません。別のミサを示します。",
   },
   tl: {
     mass: "Misa ng araw",
@@ -485,6 +505,7 @@ const STR = {
     firstReading: "Unang pagbasa",
     reading: "Pagbasa",
     noReadings: "Walang pagbasa para sa araw na ito.",
+    readingsFallback: "Hindi magagamit ang mga pagbasa ngayong araw. Ipinapakita ang ibang Misa.",
   },
 };
 

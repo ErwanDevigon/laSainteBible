@@ -2,8 +2,9 @@
  * AELF daily readings adapter.
  * Same calendar as https://www.aelf.org/AAAA-MM-JJ/romain/messe
  * JSON feed: https://api.aelf.org/v1/messes/{date}/romain
- * Fallback: data/lectures/sample.json
  * Archive of refs, no prose: data/lectures/mdj-archive.json
+ * If the day is missing and the feed fails, a stock day from that archive.
+ * Last resort: data/lectures/sample.json
  */
 
 import { loadChapter } from "./data-loader.js";
@@ -302,11 +303,23 @@ function rememberMesse(data) {
   writeMesseCookie(list);
 }
 
+/** Same stock day for a given date, so a repaint does not shuffle the Mass. */
+function pickStock(archive, date) {
+  const rows = [...archive.values()];
+  if (!rows.length) return null;
+  let h = 0;
+  for (let i = 0; i < date.length; i++) h = (Math.imul(h, 31) + date.charCodeAt(i)) >>> 0;
+  return rows[h % rows.length];
+}
+
+const READINGS_FALLBACK = "readingsFallback";
+
 /**
  * Load lectures for a date (default: today Paris).
  * Order: cookie (days already opened), then mdj-archive.json, then AELF.
- * An archive hit is not copied into the cookie.
- * @returns {Promise<{ data: object, source: 'aelf'|'cache'|'archive'|'sample'|'empty', error?: string }>}
+ * If the feed fails: another day from the archive, then sample.json.
+ * An archive hit is not copied into the cookie. Neither is a fallback.
+ * @returns {Promise<{ data: object, source: 'aelf'|'cache'|'archive'|'stock'|'sample'|'empty', error?: string }>}
  */
 export async function loadLectures(date = todayParis()) {
   const cached = recallMesse(date);
@@ -329,12 +342,24 @@ export async function loadLectures(date = todayParis()) {
     data = await enrichWithPd(data);
     return { data, source: "aelf" };
   } catch (err) {
-    console.warn("AELF unavailable, fallback sample:", err);
+    console.warn("AELF unavailable:", err);
+    const row = archive && pickStock(archive, date);
+    const built = row && messeFromRow(date, row);
+    if (built) {
+      return {
+        data: await enrichWithPd(built),
+        source: "stock",
+        error: READINGS_FALLBACK,
+      };
+    }
     try {
       const sample = await fetchSample();
       let data = {
         ...sample,
-        date: sample.date || date,
+        date,
+        liturgical_title: String(sample.liturgical_title || "")
+          .replace(/\s*\(exemple\)\s*/i, "")
+          .trim(),
         source: "sample",
         readings: (sample.readings || []).map((r) => {
           const parsed = r.ref || parseRefString(r.ref_display);
@@ -349,18 +374,18 @@ export async function loadLectures(date = todayParis()) {
       return {
         data,
         source: "sample",
-        error: "Lectures AELF indisponibles — exemple affiché.",
+        error: READINGS_FALLBACK,
       };
     } catch (e2) {
       return {
         data: {
           date,
-          liturgical_title: "Messe du jour",
+          liturgical_title: "",
           readings: [],
           source: "empty",
         },
         source: "empty",
-        error: "Aucune lecture disponible.",
+        error: READINGS_FALLBACK,
       };
     }
   }

@@ -221,7 +221,7 @@ async function init() {
       if (error) {
         statusEl.hidden = false;
         statusEl.dataset.tone = "warn";
-        statusEl.textContent = error;
+        statusEl.textContent = t(error);
       } else if (source === "aelf") {
         statusEl.hidden = true;
       }
