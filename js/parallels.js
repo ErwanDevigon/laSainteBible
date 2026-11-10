@@ -773,6 +773,7 @@ function hideMemo(memo) {
   memo.style.position = "";
   memo.style.top = "";
   memo.style.left = "";
+  memo.style.transform = "";
   memo._left = null;
   const card = memo._card;
   const head = card?.querySelector(":scope > .parallel-card-head, :scope > .reading-ref");
@@ -780,22 +781,40 @@ function hideMemo(memo) {
   const shield = card?.querySelector(":scope > .parallel-memo-shield");
   if (shield) shield.style.height = "";
   const home = memo._home;
-  if (home?.isConnected && memo.parentElement !== home) home.appendChild(memo);
+  if (home?.isConnected) {
+    if (memo.parentElement !== home) home.appendChild(memo);
+  } else if (memo.isConnected) {
+    memo.remove();
+  }
+}
+
+/** Left edge of the verse-number column. The bubble's right edge sits here. */
+function verseNumLeft(card) {
+  for (const num of card.querySelectorAll(".verse-num")) {
+    const r = num.getBoundingClientRect();
+    if (r.width > 0 && r.height > 0) return r.left;
+  }
+  const cs = getComputedStyle(card);
+  const pad = parseFloat(cs.paddingLeft) || 0;
+  const border = parseFloat(cs.borderLeftWidth) || 0;
+  return card.getBoundingClientRect().left + border + pad;
 }
 
 function showMemo(memo, card) {
   // Fixed, and outside the card: the card's dilatation transform
   // would otherwise drag the bubble a frame behind the chrome.
+  // translateX(-100%) keeps the right edge on the verse numbers while
+  // the column slides horizontally (left is read from the live rect).
   if (!memo._home) memo._home = card;
   memo._card = card;
   if (memo.parentElement !== document.body) document.body.appendChild(memo);
   const stick = chromeTop();
-  const pad = parseFloat(getComputedStyle(card).paddingLeft) || 0;
-  const left = Math.round(card.getBoundingClientRect().left + pad);
+  const edge = Math.round(verseNumLeft(card));
   memo.style.position = "fixed";
   memo.style.top = `${Math.round(stick + 6)}px`;
-  memo.style.left = `${left}px`;
-  memo._left = left;
+  memo.style.left = `${edge}px`;
+  memo.style.transform = "translateX(-100%)";
+  memo._left = edge;
   if (!memo.hidden) return;
   memo.hidden = false;
   memo.classList.remove("is-shown");
@@ -803,7 +822,21 @@ function showMemo(memo, card) {
   memo.classList.add("is-shown");
 }
 
+/** Drop bubbles whose card was removed (date change, dropped chapter). */
+export function releaseFloatingMemos(root) {
+  const scope = root || document;
+  scope.querySelectorAll(".parallel-card, .reading-card").forEach((card) => {
+    if (card._memo) hideMemo(card._memo);
+  });
+  document.querySelectorAll("body > .parallel-memo").forEach((memo) => {
+    if (!memo._card?.isConnected) hideMemo(memo);
+  });
+}
+
 function syncMemos() {
+  document.querySelectorAll("body > .parallel-memo").forEach((memo) => {
+    if (!memo._card?.isConnected) hideMemo(memo);
+  });
   const stick = chromeTop();
   document.querySelectorAll(".parallel-card, .reading-card").forEach((card) => {
     const memo = card._memo || card.querySelector(":scope > .parallel-memo");

@@ -13,6 +13,7 @@ import {
   formatFullRef,
   attachExcerptParallels,
   prepareParallels,
+  releaseFloatingMemos,
 } from "./parallels.js";
 
 /** Widest French mass date. The slot stays this wide so the triangles do not move. */
@@ -203,6 +204,7 @@ async function init() {
     maskObserver?.disconnect();
     maskObserver = null;
     masks.length = 0;
+    releaseFloatingMemos(listEl);
     listEl.replaceChildren();
     if (statusEl) statusEl.hidden = true;
 

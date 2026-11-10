@@ -205,10 +205,20 @@ export function mountChapterRail({
     columnMemo.textContent = `${siglum} ${n}`;
     columnMemo.href = `#c${n}`;
     columnMemo.style.top = `${Math.round(stick + 6)}px`;
-    const left = Math.round(label.getBoundingClientRect().left);
-    if (columnMemo._left !== left) {
-      columnMemo._left = left;
-      columnMemo.style.left = `${left}px`;
+    const col = label.dataset.col;
+    const pair = label.closest(".chapter-pair");
+    const num = col
+      ? pair?.querySelector(`.verse[data-col="${CSS.escape(col)}"] .verse-num`)
+      : pair?.querySelector(".verse-num");
+    const edge = Math.round(
+      num && num.getBoundingClientRect().width > 0
+        ? num.getBoundingClientRect().left
+        : label.getBoundingClientRect().left
+    );
+    if (columnMemo._left !== edge) {
+      columnMemo._left = edge;
+      columnMemo.style.left = `${edge}px`;
+      columnMemo.style.transform = "translateX(-100%)";
     }
     columnMemo.hidden = false;
   }
@@ -217,7 +227,11 @@ export function mountChapterRail({
     railFromPage();
     if (!spyRaf) spyRaf = requestAnimationFrame(spy);
   };
+  const onPan = () => {
+    if (!spyRaf) spyRaf = requestAnimationFrame(spy);
+  };
   window.addEventListener("scroll", onScroll, { passive: true });
+  document.body.addEventListener("lsb:pan", onPan);
   nav.addEventListener("scroll", pageFromRail, { passive: true });
 
   function remeasure() {
@@ -258,6 +272,7 @@ export function mountChapterRail({
   return {
     destroy() {
       window.removeEventListener("scroll", onScroll);
+      document.body.removeEventListener("lsb:pan", onPan);
       window.removeEventListener("popstate", onPop);
       window.removeEventListener("resize", remeasure);
       nav.removeEventListener("scroll", pageFromRail);
