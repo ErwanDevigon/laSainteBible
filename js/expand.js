@@ -81,6 +81,9 @@ function snapDevice(px) {
 }
 
 let padApplied = 0;
+let padHost = null;
+let padBase = 0;
+let padInline = "";
 
 function headroomHost() {
   return (
@@ -88,6 +91,51 @@ function headroomHost() {
     document.querySelector(".readings") ||
     document.querySelector(".site-main")
   );
+}
+
+function releasePadHost() {
+  if (!padHost) return;
+  padHost.style.paddingTop = padInline;
+  padHost = null;
+  padBase = 0;
+  padInline = "";
+}
+
+function bindPadHost(host) {
+  if (padHost === host) return;
+  releasePadHost();
+  padHost = host;
+  padInline = host.style.paddingTop || "";
+  padBase = parseFloat(getComputedStyle(host).paddingTop) || 0;
+}
+
+/**
+ * Gap from the bottom of the date bar to the top of the first mass card.
+ * `padApplied` is our own padding; leave it out so a second dilatation
+ * does not treat it as part of the opening gap.
+ */
+function openingCardGap() {
+  const bar =
+    document.querySelector(".messe-date-nav") ||
+    document.querySelector(".active-edition-bar") ||
+    document.querySelector(".site-header");
+  const card = document.querySelector(".readings .reading-card");
+  if (bar && card) {
+    let barTop = 0;
+    for (let n = bar; n; n = n.offsetParent) barTop += n.offsetTop;
+    const lifted = padHost && padHost.contains(card) ? padApplied : 0;
+    const gap =
+      card.getBoundingClientRect().top +
+      window.scrollY -
+      lifted -
+      (barTop + bar.offsetHeight);
+    if (gap > 0) return gap;
+  }
+  const main = document.querySelector(".messe-page .site-main");
+  const pad = main ? parseFloat(getComputedStyle(main).paddingTop) : 0;
+  if (pad > 0) return pad;
+  const fs = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+  return 1.5 * fs;
 }
 
 function applyHeadroom(next) {
@@ -101,19 +149,12 @@ function applyHeadroom(next) {
   const prevHost = host.style.overflowAnchor;
   html.style.overflowAnchor = "none";
   host.style.overflowAnchor = "none";
+  // A child of `.readings` is a grid row. The grid gap then shifts the
+  // première lecture by 1rem and the same 1rem sits above a dilated card.
+  document.getElementById("lsb-headroom")?.remove();
+  bindPadHost(host);
   padApplied = px;
-  let spacer = document.getElementById("lsb-headroom");
-  if (!spacer) {
-    spacer = document.createElement("div");
-    spacer.id = "lsb-headroom";
-    spacer.setAttribute("aria-hidden", "true");
-    spacer.style.cssText =
-      "height:0;margin:0;padding:0;pointer-events:none;overflow-anchor:none";
-    host.prepend(spacer);
-  } else if (spacer.parentElement !== host) {
-    host.prepend(spacer);
-  }
-  spacer.style.height = px ? `${px}px` : "0px";
+  host.style.paddingTop = px ? `${padBase + px}px` : padInline;
   window.scrollTo(0, Math.max(0, window.scrollY + delta));
   html.style.overflowAnchor = prevHtml;
   host.style.overflowAnchor = prevHost;
@@ -157,7 +198,7 @@ export class MaskDilatation {
       this.host.closest(".parallel-card") || this.host.closest(".reading-card");
     if (!card) return;
     card.dataset.edition = edition;
-    const head = card.querySelector(".parallel-card-head");
+    const head = card.querySelector(":scope > .parallel-card-head");
     if (!head || head.dataset.fallbackEd) return;
     head.dataset.fallbackEd = edition;
     head.append(` · ${editionName(edition)}`);
@@ -249,7 +290,7 @@ export class MaskDilatation {
 
   _measureHeights() {
     for (const z of this.zones) {
-      const inner = z.el.querySelector(".mask-zone-inner");
+      const inner = z.el.querySelector(":scope > .mask-zone-inner");
       z.height = inner ? inner.scrollHeight : 0;
     }
   }
@@ -540,21 +581,21 @@ export class MaskDilatation {
   }
 
   /**
-   * Spacer only when the dilated card would extend above document Y=0.
-   * Mid-book, previous chapters already give room to scroll into.
+   * Padding so the pinned frame can scroll back under the date bar with the
+   * same gap the first mass card has at page open. The pin lifts the card
+   * by the whole before-zone. Mid-book, previous chapters already cover
+   * it and the padding stays 0.
    */
   _headroomNeeded(before) {
     if (!this.lockPage || !before || before.height <= 0 || !this.excerpt) return 0;
     const inBook = this.host.closest(".book-body");
     const inCite = this.host.closest(".parallel-card");
     if (!inBook && !inCite) return 0;
-    const grow = Math.max(
-      0,
-      before.height - this._roomFor(before) + EDGE_SLACK
-    );
-    if (!grow) return 0;
-    const dest =
-      window.scrollY + this.excerpt.getBoundingClientRect().top - grow;
+    const clip = this._viewportClip().top;
+    const card = this.pinEl || this.host.closest(".parallel-card");
+    const anchor = card || this.excerpt;
+    const top = window.scrollY + anchor.getBoundingClientRect().top - before.height;
+    const dest = top - clip - openingCardGap();
     return dest >= 0 ? 0 : Math.ceil(-dest);
   }
 

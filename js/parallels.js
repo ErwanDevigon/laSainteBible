@@ -606,31 +606,46 @@ function fillCards(box, item, bookId, chapter, verse, edition, occupied, include
   }
 }
 
+/** This layer's text only. Nested cards are siblings, not inside the body. */
+function ownBody(el) {
+  if (!el) return null;
+  return (
+    el.querySelector(":scope > .parallel-card-body") ||
+    el.querySelector(":scope > .reading-mask-host") ||
+    null
+  );
+}
+
+function ownMask(el) {
+  return ownBody(el)?.querySelector(":scope > .chapter-mask") || null;
+}
+
 function headLead(card) {
-  const before = card.querySelector(".mask-before");
+  const mask = ownMask(card);
+  const before = mask?.querySelector(":scope > .mask-before");
   const opened = before && before.getBoundingClientRect().height > 2;
   if (opened && card.dataset.lead) return parseFloat(card.dataset.lead) || 0;
-  const verse = card.querySelector(".mask-excerpt .verse");
+  const verse = mask?.querySelector(":scope > .mask-excerpt .verse");
   if (verse) {
     const lead = verse.getBoundingClientRect().top - card.getBoundingClientRect().top;
     if (lead > 0) card.dataset.lead = String(lead);
     return lead;
   }
-  const head = card.querySelector(".parallel-card-head");
+  const head = card.querySelector(":scope > .parallel-card-head");
   if (!head) return 0;
   const cs = getComputedStyle(card);
   const pad = parseFloat(cs.paddingTop) || 0;
   const border = parseFloat(cs.borderTopWidth) || 0;
   const mb = parseFloat(getComputedStyle(head).marginBottom) || 0;
-  const body = card.querySelector(".parallel-card-body");
+  const body = ownBody(card);
   const bodyMt = body ? parseFloat(getComputedStyle(body).marginTop) || 0 : 0;
   return border + pad + head.offsetHeight + mb + bodyMt;
 }
 
 function alignCards(cards, originEl, col, span) {
-  const excerpt = originEl.querySelector?.(".mask-excerpt");
-  let els = excerpt ? rangeEls(excerpt, span, col || null) : [];
-  if (!els.length) els = rangeEls(originEl, span, col || null);
+  // rangeEls skips verses that belong to a nested card. A raw
+  // querySelector(".mask-excerpt") would lock onto that inner layer.
+  const els = rangeEls(originEl, span, col || null);
   if (!els.length) return;
   const origin = originEl.getBoundingClientRect().top;
   const braceTop = els[0].getBoundingClientRect().top;
@@ -681,9 +696,7 @@ function foldPromise(dil, instant) {
 }
 
 function emptyCards(el) {
-  el.querySelectorAll(":scope > .parallel-card").forEach((card) => {
-    if (card._memo) hideMemo(card._memo);
-  });
+  releaseFloatingMemos(el);
   el.replaceChildren();
   el.classList.remove("is-open", "is-leaving");
   el.style.marginTop = "";
@@ -724,6 +737,31 @@ function applyRailSpan(root) {
   });
   const px = max < 0 ? 0 : RAIL_INSET + max * RAIL_LANE + 6;
   root.style.setProperty("--rail-span", `${px}px`);
+}
+
+/** Final right edge of this layer, in viewport pixels.
+ *  margin-right transitions, so a live rect still has the next sibling
+ *  tucked under the open row. Count each card's target margin, not the
+ *  animated one, or that sibling stays under the following frame. */
+function edgeRight(el) {
+  let right = el.getBoundingClientRect().right;
+  for (const rail of el.querySelectorAll(":scope > .parallel-rail")) {
+    right = Math.max(right, rail.getBoundingClientRect().right);
+  }
+  const box = el.querySelector(":scope > .parallel-cards.is-open");
+  if (!box) return right;
+  const kids = [...box.children].filter((n) => n.classList.contains("parallel-card"));
+  if (!kids.length) return Math.max(right, box.getBoundingClientRect().right);
+  const gap = parseFloat(getComputedStyle(box).columnGap) || 0;
+  let edge = kids[0].getBoundingClientRect().left;
+  for (let i = 0; i < kids.length; i++) {
+    const card = kids[i];
+    const mr = parseFloat(card.style.marginRight) || 0;
+    edge += card.offsetWidth + mr;
+    right = Math.max(right, edge, edgeRight(card));
+    if (i < kids.length - 1) edge += gap;
+  }
+  return right;
 }
 
 async function hideOpenCards(container, { instant = false } = {}) {
@@ -790,9 +828,12 @@ function hideMemo(memo) {
 
 /** Left edge of the verse-number column. The bubble's right edge sits here. */
 function verseNumLeft(card) {
-  for (const num of card.querySelectorAll(".verse-num")) {
-    const r = num.getBoundingClientRect();
-    if (r.width > 0 && r.height > 0) return r.left;
+  const body = ownBody(card);
+  if (body) {
+    for (const num of body.querySelectorAll(".verse-num")) {
+      const r = num.getBoundingClientRect();
+      if (r.width > 0 && r.height > 0) return r.left;
+    }
   }
   const cs = getComputedStyle(card);
   const pad = parseFloat(cs.paddingLeft) || 0;
@@ -1096,12 +1137,26 @@ class ParallelHost {
         .querySelectorAll(":scope > .parallel-cards > .parallel-card")
         .forEach((card) => card._cite?.paint({ preserveOpen: true }));
     }
-    if (this.depth === 0 && !this.root._railRO) {
-      const host = this;
-      this.root._railRO = new ResizeObserver(() => host.sync());
-      this.root._railRO.observe(this.verseRoot);
-    }
+    this.ensureWatch();
     this.syncPush();
+  }
+
+  ensureWatch() {
+    const target = this.verseRoot || this.root;
+    if (!this.root._railRO) {
+      const host = this;
+      this.root._railRO = new ResizeObserver(() => {
+        host.sync();
+        host.parent?.syncPushUp();
+      });
+      this.root._railRO.observe(target);
+    }
+    const mask = ownMask(target);
+    if (this.root._railMask && this.root._railMask !== mask) {
+      this.root._railRO.unobserve(this.root._railMask);
+    }
+    if (mask && mask !== this.root._railMask) this.root._railRO.observe(mask);
+    this.root._railMask = mask || null;
   }
 
   async hideOwn({ instant = false } = {}) {
@@ -1145,15 +1200,6 @@ class ParallelHost {
     });
     art._cite = host;
     host.paint();
-    if (!art._citeRO) {
-      art._citeRO = new ResizeObserver(() => {
-        host.sync();
-        this.syncPushUp();
-      });
-      art._citeRO.observe(art);
-      const mask = art.querySelector(".chapter-mask");
-      if (mask) art._citeRO.observe(mask);
-    }
   }
 
   async open(rail) {
@@ -1317,27 +1363,23 @@ class ParallelHost {
   }
 
   syncPush() {
-    if (this.depth === 0) return;
-    const raw = this.root.style.getPropertyValue("--rail-span");
-    const railSpan = parseFloat(raw);
-    let push = Number.isFinite(railSpan) ? railSpan : 0;
+    // The chapter pair and the mass row are not cards. Every card,
+    // at any depth, reserves the room its own open row actually uses.
+    if (!this.root.classList.contains("parallel-card")) return;
     const box = this.root.querySelector(":scope > .parallel-cards.is-open");
-    if (box) {
-      this.root.classList.add("has-nested");
-      const rootR = this.root.getBoundingClientRect().right;
-      // The open row's border box stops at the cards. Their own strokes
-      // stick out past that edge and must push the next sibling too.
-      let edge = box.getBoundingClientRect().right;
-      box.querySelectorAll(":scope > .parallel-card").forEach((card) => {
-        const span = parseFloat(card.style.getPropertyValue("--rail-span")) || 0;
-        edge = Math.max(edge, card.getBoundingClientRect().right + span);
+    if (box) this.root.classList.add("has-nested");
+    else this.root.classList.remove("has-nested");
+    const have = parseFloat(this.root.style.marginRight) || 0;
+    const want = Math.round(edgeRight(this.root) - this.root.getBoundingClientRect().right);
+    const next = want > 1 ? want : 0;
+    if (Math.abs(have - next) > 1) {
+      this.root.style.marginRight = next ? `${next}px` : "";
+      if (this._pushRaf) return;
+      this._pushRaf = requestAnimationFrame(() => {
+        this._pushRaf = 0;
+        this.syncPushUp();
       });
-      push = Math.max(push, edge - rootR);
-    } else {
-      this.root.classList.remove("has-nested");
     }
-    const next = push > 0.5 ? `${Math.round(push)}px` : "";
-    if (this.root.style.marginRight !== next) this.root.style.marginRight = next;
   }
 
   syncPushUp() {
@@ -1591,10 +1633,4 @@ export async function attachExcerptParallels({
   });
   surface.paint({ preserveOpen: true });
   surface.sync();
-  if (!band._railRO) {
-    band._railRO = new ResizeObserver(() => surface.sync());
-    band._railRO.observe(host);
-    const mask = host.querySelector(".chapter-mask");
-    if (mask) band._railRO.observe(mask);
-  }
 }
