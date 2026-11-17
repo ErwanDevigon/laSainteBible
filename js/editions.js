@@ -428,6 +428,79 @@ export function mountHeaderTranslation() {
   return null;
 }
 
+function mountComparedEditionBar(pool, order, opts) {
+  document.body.classList.add("is-compared");
+  document.body.style.setProperty("--edition-count", String(order.length));
+
+  const bar = document.createElement("div");
+  bar.className = "active-edition-bar is-compared";
+
+  const dateRow = document.createElement("div");
+  dateRow.className = "messe-compare-date";
+  const blurb = document.createElement("p");
+  blurb.className = "edition-bar-blurb";
+  blurb.setAttribute("aria-hidden", "true");
+  const spacer = document.createElement("span");
+  spacer.className = "edition-bar-spacer";
+  spacer.setAttribute("aria-hidden", "true");
+  if (opts.barCenter) {
+    opts.barCenter.classList.add("edition-bar-center");
+    opts.barCenter.classList.remove("header-center");
+    dateRow.append(blurb, opts.barCenter, spacer);
+  } else {
+    dateRow.append(blurb, spacer);
+  }
+  if (opts.parallels) dateRow.append(mountParallelsToggle());
+  bar.append(dateRow);
+
+  const stage = document.createElement("div");
+  stage.className = "edition-name-stage";
+  stage.style.setProperty("--edition-count", String(order.length));
+  order.forEach((id, colIndex) => {
+    const wrap = document.createElement("p");
+    wrap.dataset.edition = id;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "edition-name-btn";
+    btn.setAttribute("aria-haspopup", "listbox");
+    paintEditionControl(btn, id, { year: !!opts.dated, tag: false, native: false });
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (document.querySelector(".edition-menu")) {
+        closeEditionMenu();
+        return;
+      }
+      openEditionMenu(btn, id, pool, (otherId) => {
+        setColumnEdition(colIndex, otherId, pool);
+      });
+    });
+    if (colIndex === order.length - 1) wrap.classList.add("is-primary");
+    wrap.append(editionNameCluster(btn, null));
+    if (colIndex === 0) {
+      const add = mountAddColumn(pool, order);
+      if (add) wrap.append(add);
+    }
+    if (colIndex < order.length - 1) wrap.append(mountRemoveColumn(colIndex, pool));
+    stage.append(wrap);
+  });
+  bar.append(stage);
+
+  const header = document.querySelector(".site-header");
+  const center = header?.querySelector(".header-center");
+  if (center && header) {
+    const bible = document.createElement("a");
+    bible.className = "nav-center";
+    bible.href = "index.html";
+    bible.textContent = "La Bible";
+    center.replaceWith(bible);
+  }
+  if (header) header.after(bar);
+  else document.body.prepend(bar);
+  syncParallelsTrigger();
+  return bar;
+}
+
 export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
   document.querySelector(".active-edition-bar")?.remove();
   closeEditionMenu();
@@ -437,6 +510,13 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
 
   const pool = available.length ? available : EDITION_STACK;
   const active = getActiveEdition(pool);
+  const order = opts.columns ? orderedEditions(pool) : null;
+  if (order && order.length > 1) {
+    mountHeaderTranslation();
+    return mountComparedEditionBar(pool, order, opts);
+  }
+  document.body.classList.remove("is-compared");
+  document.body.style.setProperty("--edition-count", "1");
   mountHeaderTranslation();
 
   const bar = document.createElement("div");
@@ -485,6 +565,13 @@ export function mountActiveEditionBar(available = EDITION_STACK, opts = {}) {
       bar.append(blurb, spacer);
     }
     if (opts.parallels) bar.append(mountParallelsToggle());
+    if (opts.columns) {
+      const add = mountAddColumn(pool, order || [active]);
+      if (add) {
+        add.classList.add("is-inline");
+        blurb.replaceWith(add);
+      }
+    }
   } else {
     bar.append(
       blurb,

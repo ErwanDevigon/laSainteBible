@@ -435,12 +435,15 @@ function rangeEls(root, span, col) {
 }
 
 function chromeTop() {
-  const bar =
-    document.querySelector(".edition-name-bar") ||
-    document.querySelector(".active-edition-bar") ||
-    document.querySelector(".book-title-bar") ||
-    document.querySelector(".site-header");
-  return bar ? bar.getBoundingClientRect().bottom : 0;
+  const candidates = [
+    document.querySelector(".active-edition-bar"),
+    document.querySelector(".edition-name-bar"),
+    document.querySelector(".book-title-bar"),
+    document.querySelector(".messe-date-nav"),
+    document.querySelector(".site-header"),
+  ].filter(Boolean);
+  if (!candidates.length) return 0;
+  return Math.max(...candidates.map((el) => el.getBoundingClientRect().bottom));
 }
 
 function lireBase() {
@@ -804,9 +807,9 @@ function scheduleMemos() {
   });
 }
 
-function hideMemo(memo) {
-  if (!memo) return;
-  memo.classList.remove("is-shown");
+function parkMemo(memo) {
+  memo._hiding = false;
+  memo.classList.remove("is-shown", "is-in");
   memo.hidden = true;
   memo.style.position = "";
   memo.style.top = "";
@@ -824,6 +827,25 @@ function hideMemo(memo) {
   } else if (memo.isConnected) {
     memo.remove();
   }
+}
+
+function hideMemo(memo, immediate) {
+  if (!memo) return;
+  if (!immediate && memo._hiding) return;
+  if (memo._hideTimer) {
+    clearTimeout(memo._hideTimer);
+    memo._hideTimer = 0;
+  }
+  if (immediate || memo.hidden || !memo.classList.contains("is-shown")) {
+    parkMemo(memo);
+    return;
+  }
+  memo._hiding = true;
+  memo.classList.remove("is-in", "is-shown");
+  memo._hideTimer = setTimeout(() => {
+    memo._hideTimer = 0;
+    if (memo._hiding) parkMemo(memo);
+  }, 460);
 }
 
 /** Left edge of the verse-number column. The bubble's right edge sits here. */
@@ -848,35 +870,41 @@ function showMemo(memo, card) {
   // the column slides horizontally (left is read from the live rect).
   if (!memo._home) memo._home = card;
   memo._card = card;
+  if (memo._hideTimer) {
+    clearTimeout(memo._hideTimer);
+    memo._hideTimer = 0;
+  }
+  memo._hiding = false;
   if (memo.parentElement !== document.body) document.body.appendChild(memo);
   const stick = chromeTop();
-  const edge = Math.round(verseNumLeft(card));
+  // A few pixels onto the number column: the pill sits closer without covering the digits.
+  const edge = Math.round(verseNumLeft(card)) + 16;
   memo.style.position = "fixed";
   memo.style.top = `${Math.round(stick + 6)}px`;
   memo.style.left = `${edge}px`;
   memo.style.transform = "translateX(-100%)";
   memo._left = edge;
-  if (!memo.hidden) return;
+  if (!memo.hidden && memo.classList.contains("is-shown")) return;
   memo.hidden = false;
   memo.classList.remove("is-shown");
   void memo.offsetWidth;
-  memo.classList.add("is-shown");
+  memo.classList.add("is-in", "is-shown");
 }
 
 /** Drop bubbles whose card was removed (date change, dropped chapter). */
 export function releaseFloatingMemos(root) {
   const scope = root || document;
   scope.querySelectorAll(".parallel-card, .reading-card").forEach((card) => {
-    if (card._memo) hideMemo(card._memo);
+    if (card._memo) hideMemo(card._memo, true);
   });
   document.querySelectorAll("body > .parallel-memo").forEach((memo) => {
-    if (!memo._card?.isConnected) hideMemo(memo);
+    if (!memo._card?.isConnected) hideMemo(memo, true);
   });
 }
 
 function syncMemos() {
   document.querySelectorAll("body > .parallel-memo").forEach((memo) => {
-    if (!memo._card?.isConnected) hideMemo(memo);
+    if (!memo._card?.isConnected) hideMemo(memo, true);
   });
   const stick = chromeTop();
   document.querySelectorAll(".parallel-card, .reading-card").forEach((card) => {

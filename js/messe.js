@@ -4,6 +4,7 @@ import { mountSwipeNav } from "./swipe-nav.js";
 import {
   mountActiveEditionBar,
   getActiveEdition,
+  orderedEditions,
   EDITION_STACK,
 } from "./editions.js";
 import { listVersionIds } from "./data-loader.js";
@@ -65,6 +66,7 @@ async function init() {
     barCenter: dateNav,
     dated: true,
     showBlurb: false,
+    columns: true,
   });
 
   /** @type {MaskDilatation[]} */
@@ -74,7 +76,7 @@ async function init() {
     const edition = getActiveEdition(pool);
     await prepareParallels(edition);
     listEl.querySelectorAll(".reading-row").forEach((row) => {
-      const card = row.querySelector(".reading-card");
+      const card = row.querySelector(".reading-card:last-of-type");
       if (!card?.dataset.bookId) return;
       attachExcerptParallels({
         host: card,
@@ -85,23 +87,13 @@ async function init() {
           ? +card.dataset.verseStart
           : undefined,
         ranges: card._ranges,
-        edition,
+        edition: card.dataset.edition || edition,
       });
     });
   }
 
   document.addEventListener("lsb:editions", () => {
-    mountActiveEditionBar(pool, {
-      parallels: true,
-      lift: true,
-      barCenter: dateNav,
-      dated: true,
-      showBlurb: false,
-    });
-    const edition = getActiveEdition(pool);
-    Promise.all(masks.map((mask) => mask.remount(edition).catch(() => {}))).then(
-      () => wireParallels()
-    );
+    paint(currentDate);
   });
   document.addEventListener("lsb:parallels", () => {
     wireParallels();
@@ -115,6 +107,7 @@ async function init() {
       barCenter: dateNav,
       dated: true,
       showBlurb: false,
+      columns: true,
     });
     listEl.querySelectorAll(".reading-card").forEach((card) => {
       const node = card.querySelector(".reading-type");
@@ -236,7 +229,16 @@ async function init() {
       }
     }
 
-    await prepareParallels(getActiveEdition(pool));
+    const editions = orderedEditions(pool);
+    mountActiveEditionBar(pool, {
+      parallels: true,
+      lift: true,
+      barCenter: dateNav,
+      dated: true,
+      showBlurb: false,
+      columns: true,
+    });
+    await Promise.all(editions.map((id) => prepareParallels(id)));
     listEl.replaceChildren();
     maskObserver = new IntersectionObserver(
       (entries) => {
@@ -256,9 +258,15 @@ async function init() {
     }
 
     for (const reading of data.readings) {
+      const row = el("div", "reading-row");
+      if (editions.length > 1) row.classList.add("is-compared");
+      for (const edition of editions) {
       const expandable = !!(reading.expandable && reading.ref);
 
       const card = el("article", "reading-card");
+      card.dataset.edition = edition;
+      const primary = edition === editions[editions.length - 1];
+      if (primary) card.classList.add("is-primary");
       card.dataset.expandable = expandable ? "true" : "false";
 
       card.dataset.readingType = reading.type || "";
@@ -323,8 +331,23 @@ async function init() {
             verseStart: reading.ref.verseStart,
             verseEnd: reading.ref.verseEnd,
             ranges: reading.ref.ranges,
-            edition: getActiveEdition(pool),
+            edition,
             fallback: reading.excerpt || "Passage indisponible.",
+            onChange: primary
+              ? (on) => {
+                  const row = card.closest(".reading-row");
+                  if (!row) return;
+                  for (const other of row.querySelectorAll(".reading-card")) {
+                    if (other === card) continue;
+                    if (on) {
+                      if (!other._mask) {
+                        other._openWhenReady = true;
+                        other._armMask?.();
+                      } else if (!other._mask.expanded) other._mask.expand();
+                    } else if (other._mask?.expanded) other._mask.collapse();
+                  }
+                }
+              : null,
           });
           card._mask = mask;
           masks.push(mask);
@@ -374,10 +397,8 @@ async function init() {
         card.appendChild(excerpt);
       }
 
-      const row = el("div", "reading-row");
       row.appendChild(card);
-      listEl.appendChild(row);
-      if (reading.ref?.bookId && reading.ref?.chapter) {
+      if (primary && reading.ref?.bookId && reading.ref?.chapter) {
         card.dataset.bookId = reading.ref.bookId;
         card.dataset.chapter = String(reading.ref.chapter);
         if (reading.ref.verseStart != null) {
@@ -392,11 +413,25 @@ async function init() {
             chapter: reading.ref.chapter,
             verseStart: reading.ref.verseStart,
             ranges: reading.ref.ranges,
-            edition: getActiveEdition(pool),
+            edition,
           });
         if (!expandable) card._bindRails();
       }
+      }
+      listEl.appendChild(row);
     }
+    requestAnimationFrame(() => {
+      const card = listEl.querySelector(".reading-row.is-compared .reading-card");
+      const x = parseFloat(document.body.style.getPropertyValue("--swipe-x")) || 0;
+      if (!card) {
+        if (x) document.body.style.setProperty("--swipe-x", "0px");
+        return;
+      }
+      const gap = parseFloat(getComputedStyle(card.parentElement).columnGap) || 0;
+      const maxX = Math.max(0, editions.length - 1) * (card.getBoundingClientRect().width + gap);
+      if (x > maxX) document.body.style.setProperty("--swipe-x", `${maxX}px`);
+      if (x < 0) document.body.style.setProperty("--swipe-x", "0px");
+    });
   } catch (err) {
     console.error(err);
     listEl.replaceChildren();

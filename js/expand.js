@@ -115,10 +115,15 @@ function bindPadHost(host) {
  * does not treat it as part of the opening gap.
  */
 function openingCardGap() {
-  const bar =
-    document.querySelector(".messe-date-nav") ||
-    document.querySelector(".active-edition-bar") ||
-    document.querySelector(".site-header");
+  const candidates = [
+    document.querySelector(".active-edition-bar"),
+    document.querySelector(".edition-name-bar"),
+    document.querySelector(".messe-date-nav"),
+    document.querySelector(".site-header"),
+  ].filter(Boolean);
+  const bar = candidates.reduce((best, el) =>
+    el.getBoundingClientRect().bottom > best.getBoundingClientRect().bottom ? el : best
+  );
   const card = document.querySelector(".readings .reading-card");
   if (bar && card) {
     let barTop = 0;
@@ -185,6 +190,7 @@ export class MaskDilatation {
     this._collapsing = null;
     this._collapseDone = null;
     this.lockPage = !!this.ref.lockPage;
+    this.onChange = typeof this.ref.onChange === "function" ? this.ref.onChange : null;
     this.pinEl = this.host;
     this._headroom = 0;
     this._onClick = this._onClick.bind(this);
@@ -313,11 +319,16 @@ export class MaskDilatation {
   }
 
   _viewportClip() {
-    const bar =
-      document.querySelector(".active-edition-bar") ||
-      document.querySelector(".edition-name-bar") ||
-      document.querySelector(".book-title-bar") ||
-      document.querySelector(".site-header");
+    const candidates = [
+      document.querySelector(".active-edition-bar"),
+      document.querySelector(".edition-name-bar"),
+      document.querySelector(".book-title-bar"),
+      document.querySelector(".messe-date-nav"),
+      document.querySelector(".site-header"),
+    ].filter(Boolean);
+    const bar = candidates.reduce((best, el) =>
+      el.getBoundingClientRect().bottom > best.getBoundingClientRect().bottom ? el : best
+    );
     const top = bar ? bar.getBoundingClientRect().bottom : 0;
     return { top, bottom: window.innerHeight };
   }
@@ -608,6 +619,7 @@ export class MaskDilatation {
       this.host.closest(".reading-card") || this.host.closest(".parallel-card");
     card?.setAttribute("aria-expanded", on ? "true" : "false");
     card?.classList.toggle("is-dilated", on);
+    this.onChange?.(on);
   }
 
   expand() {
